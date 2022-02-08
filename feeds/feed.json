@@ -8,7 +8,7 @@
     "items": [
         {
             "id": "https://zenn.dev/dokokade/articles/803c4b79bbf97a",
-            "content_html": "phpって便利ですね。いやgoでwebつくるのがまちがってるのかな？ 表題の件ですが、一筋縄ではなかったです。 phpみたく「name=\"item[][name]\"」みたいにできないのです。 まぁ単純なスライス配列であれば「name=\"item[]\"」をそのまま router.POST(\"/inc/contact\", func(c *gin.Context) {  c.Request.ParseForm()  item := c.Request.Form[\"item[]\"] }) みたいに受け取ってそのままfiresotreとかにいれたり、 ループさせてDBに入れたりすればいいと思うんす...",
+            "content_html": "phpって便利ですね。いやgoでwebつくるのがまちがってるのかな？ 表題の件ですが、一筋縄ではなかったです。 phpみたく「name=\"item[][name]\"」みたいにできないのです。 まぁ単純なスライス配列であれば「name=\"item[]\"」をそのまま router.POST(\"/inc/contact\", func(c *gin.Context) {  c.Request.ParseForm()  item := c.Request.Form[\"item[]\"] }) みたいに受け取ってそのままfirestoreとかにいれたり、 ループさせてDBに入れたりすればいいと思うんす...",
             "url": "https://zenn.dev/dokokade/articles/803c4b79bbf97a",
             "title": "goで連想配列フォームつくるよー | Dokokadeさんのフィード",
             "summary": "phpって便利ですね。いやgoでwebつくるのがまちがってるのかな？ 表題の件ですが、一筋縄ではなかったです。 phpみたく「name=\"item[][name]\"」みたいにできないのです。 まぁ単純なスライス配列であれば「name=\"item[]\"」をそのまま router.POST(\"/inc/contact\", func(c *gin.Context) {  c.Request.ParseF...",
@@ -136,6 +136,16 @@
             "tags": []
         },
         {
+            "id": "https://tech.excite.co.jp/entry/2022/02/08/124910",
+            "content_html": "taanatsuです。 IntelliJ開発環境でJavaでローカル変数を作る際によく利用する「.var」。 これをしたときに変数にfinalを自動付与する設定が……新しいバージョンから消えていました。 それを復活させる方法を共有します。 IngtelliJの設定から、 Editor -> Code Style -> Java -> Code Generation に行き、Make generated local variables finalにチェックを入れます。 IntellJ IDEAでローカル変数にfinalをつける これで完了です！ 試してみましょう。 \"test\".varと入力し、…",
+            "url": "https://tech.excite.co.jp/entry/2022/02/08/124910",
+            "title": "【Java】IntelliJ IDEAで、「.var」したときに自動でfinalをつける | エキサイト TechBlog.",
+            "summary": "taanatsuです。 IntelliJ開発環境でJavaでローカル変数を作る際によく利用する「.var」。 これをしたときに変数にfinalを自動付与する設定が……新しいバージョンから消えていました。 それを復活させる方法を共有します。 IngtelliJの設定から、 Editor -> Code Style -> Java -> Code Generation に行き、Make generat...",
+            "date_modified": "2022-02-08T03:49:10.000Z",
+            "date_published": "2022-02-08T03:49:10.000Z",
+            "tags": []
+        },
+        {
             "id": "https://tech.mirrativ.stream/entry/2022/02/08/120433?utm_source=feed",
             "content_html": "みなさま、おはようございます。よこて @n0mimono です。令和になってなんと4年目に入りました。 今回はミラティブのプロダクト開発チームを更新したよ、という話をします。ついでに周辺の取り組みも紹介してみます。 前回記事はこちら tech.mirrativ.stream ちなみに今日はこの本の影響を受けています。 チームトポロジー 価値あるソフトウェアをすばやく届ける適応型組織設計作者:マシュー・スケルトン,マニュエル・パイス日本能率協会マネジメントセンターAmazon プロダクト開発と体制 組織 まず基本情報から。プロダクト開発に関わる組織そのものは今まで通りです。いわゆる機能別組織です…",
             "url": "https://tech.mirrativ.stream/entry/2022/02/08/120433?utm_source=feed",
@@ -217,6 +227,16 @@
             "tags": []
         },
         {
+            "id": "https://blog.idcf.jp/entry/container-pv",
+            "content_html": "はじめまして、事業推進本部SE部の市川です。 普段はセールスエンジニアとして、IDCFクラウドなどサービスのご提案や導入支援を行っています。 今回はIDCFクラウドコンテナサービスでのパーシステントボリュームの利用方法、 さらにはNFSをパーシステントボリュームとして利用する方法をご紹介します。 www.idcf.jp",
+            "url": "https://blog.idcf.jp/entry/container-pv",
+            "title": "IDCFクラウドコンテナサービス　パーシステントボリュームの使い方・作り方 | IDCF テックブログ",
+            "summary": "はじめまして、事業推進本部SE部の市川です。 普段はセールスエンジニアとして、IDCFクラウドなどサービスのご提案や導入支援を行っています。 今回はIDCFクラウドコンテナサービスでのパーシステントボリュームの利用方法、 さらにはNFSをパーシステントボリュームとして利用する方法をご紹介します。 www.idcf.jp",
+            "date_modified": "2022-02-08T01:00:00.000Z",
+            "date_published": "2022-02-08T01:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://toranoana-lab.hatenablog.com/entry/2022/02/08/100000",
             "content_html": "皆さんこんにちは。おっくんです。 去る 2022 年 1 月 20 日に Deno 1.18 がリリースされました。 今回も、リリースノートを参考に 変更事項の気になるところを紹介したいと思います。 実行環境 Docker イメージ denoland/deno:centos(確認時点では Deno 1.18.0 でした) Deno 1.18 Deno 1.18 での変更事項をDeno 1.18 リリースノートを元に確認します。 deno.com Web Cryptography API の更新と、完成 これまでのリリースでも機能拡張されてきた Web Cryptography API が遂に完…",
             "url": "https://toranoana-lab.hatenablog.com/entry/2022/02/08/100000",
@@ -273,6 +293,16 @@
             "tags": []
         },
         {
+            "id": "https://tech.excite.co.jp/entry/2022/02/08/063000",
+            "content_html": "夜遅くからこんばんは。エキサイト株式会社中尾です。 quarkusの開発に慣れてきたのですが、いまいちdebug周りが見えなかったので、debugログを全部出すことにしました。 https://quarkus.io/guides/logging 詳しい設定はこちらに記載しているのですが、簡単に説明すると quarkus.log.category.\"*\".level=DEBUG にすると全てのdebugログが出力されます。 正直開発の場合は好みではありますが、全て出ていて問題ないかと思います。 理由として、ライブラリの方が原因の可能性もあったり、深い部分の理解にも繋がる可能性があるからです。 ロ…",
+            "url": "https://tech.excite.co.jp/entry/2022/02/08/063000",
+            "title": "quarkusを使う(ログ出力編) | エキサイト TechBlog.",
+            "summary": "夜遅くからこんばんは。エキサイト株式会社中尾です。 quarkusの開発に慣れてきたのですが、いまいちdebug周りが見えなかったので、debugログを全部出すことにしました。 https://quarkus.io/guides/logging 詳しい設定はこちらに記載しているのですが、簡単に説明すると quarkus.log.category.\"*\".level=DEBUG にすると全てのdeb...",
+            "date_modified": "2022-02-07T21:30:00.000Z",
+            "date_published": "2022-02-07T21:30:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://future-architect.github.io/articles/20220208a/",
             "content_html": "<h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\" title=\"はじめに\"></a>はじめに</h1><p>本記事は、2021/10/23(土)に行われた<a",
             "url": "https://future-architect.github.io/articles/20220208a/",
@@ -319,6 +349,16 @@
                 "コラム",
                 "デザイン"
             ]
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2022/02/07/174804",
+            "content_html": "こんにちは。 エキサイト株式会社の三浦です。 tech.excite.co.jp 以前こちらのブログで、「MySQLにおいて、Indexだけではパフォーマンス改善に限界があり、一定以上複雑なSQLやデータ構造に対してはIndex以外の手段を講じる必要がある」ことを説明しました。 今回は、その方法の1つであるMaterialized ViewをMySQLで実現する方法を説明します。 Materialized Viewとは Materialized Viewとは、SQL実行パフォーマンスの改善等のために作るテーブルのことです。 通常のデータ構造でのIndexだけではパフォーマンス等が改善できないと…",
+            "url": "https://tech.excite.co.jp/entry/2022/02/07/174804",
+            "title": "MySQLでMaterialized Viewを実現する | エキサイト TechBlog.",
+            "summary": "こんにちは。 エキサイト株式会社の三浦です。 tech.excite.co.jp 以前こちらのブログで、「MySQLにおいて、Indexだけではパフォーマンス改善に限界があり、一定以上複雑なSQLやデータ構造に対してはIndex以外の手段を講じる必要がある」ことを説明しました。 今回は、その方法の1つであるMaterialized ViewをMySQLで実現する方法を説明します。 Material...",
+            "date_modified": "2022-02-07T08:48:04.000Z",
+            "date_published": "2022-02-07T08:48:04.000Z",
+            "tags": []
         },
         {
             "id": "https://tech-blog.rakus.co.jp/entry/20220207/css",
@@ -391,6 +431,23 @@
             "tags": []
         },
         {
+            "id": "https://techblog.raccoon.ne.jp/?p=6320",
+            "content_html": "こんにちは。インフラ担当のいせです。 ある日、「ストリームって何ですか？」と弊社の新人から質問されました。 Webで調べてみたそうなのですが、曰く「ストリームとはデータの流れ」。う～ん、わかったようなわからないような…… … \"【用語解説】プログラミングにおける「ストリーム」とは？\" の続きを読む",
+            "url": "https://techblog.raccoon.ne.jp/archives/1644210525.html",
+            "title": "【用語解説】プログラミングにおける「ストリーム」とは？ | Raccoon Tech Blog [株式会社ラクーンホールディングス 技術戦略部ブログ]",
+            "summary": "こんにちは。インフラ担当のいせです。 ある日、「ストリームって何ですか？」と弊社の新人から質問されました。 Webで調べてみたそうなのですが、曰く「ストリームとはデータの流れ」。う～ん、わかったようなわからないような…… … \"【用語解説】プログラミングにおける「ストリーム」とは？\" の続きを読む",
+            "date_modified": "2022-02-07T05:08:45.000Z",
+            "date_published": "2022-02-07T05:08:45.000Z",
+            "author": {
+                "name": "raccoonts"
+            },
+            "tags": [
+                "開発",
+                "Linux",
+                "用語解説"
+            ]
+        },
+        {
             "id": "18872",
             "content_html": "こんにちは！ソウゾウのSoftware Engineerの@napoliです。「メルカリShops」は昨年に7月21日にプレオープンし、それから約半年が経ちました。前回は「連載：メルカリShopsプレオープンまでの開発の […]",
             "url": "https://engineering.mercari.com/blog/entry/20220207-mercari-shops-behind-the-scenes-vol-2/",
@@ -438,6 +495,16 @@
             "summary": "こんにちは！エンタメ領域のDXを推進するブロックチェーンスタートアップ、Gaudiyでエンジニアをしている永井（@sho0910K）です。 Gaudiyではここ数ヶ月、CSチームとエンジニアチームのコラボレーションがうまく回り始めていると感じています。 GaudiyにおけるCSチームは、Gaudiyが提供するファンコミュニティでユーザーさんのサポートや体験づくりを担当しているチームです。 社内では...",
             "date_modified": "2022-02-07T03:46:53.000Z",
             "date_published": "2022-02-07T03:46:53.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://developers.microad.co.jp/entry/2022/02/07/120000",
+            "content_html": "はじめに インフラエンジニアの長田です。今回は、MySQL Shellで提供されている種々の便利な機能をコマンドラインで実行する方法について紹介したいと思います。 MySQL Shellとは MySQL Shellは、公式に提供されている新しいMySQLのコマンドラインクライアントで、従来の mysql クライアントと同様にSQLによるデータベースの操作に加え、JavaScriptまたはPythonによる操作を行うためのMySQL Shell APIを備えています。 その中の一つである util グローバルオブジェクトには、これまでのバージョンアップにより、並列スレッドで実行する高速なダンプ・…",
+            "url": "https://developers.microad.co.jp/entry/2022/02/07/120000",
+            "title": "MySQL Shellのユーティリティをコマンドラインで実行する | MicroAd Developers Blog",
+            "summary": "はじめに インフラエンジニアの長田です。今回は、MySQL Shellで提供されている種々の便利な機能をコマンドラインで実行する方法について紹介したいと思います。 MySQL Shellとは MySQL Shellは、公式に提供されている新しいMySQLのコマンドラインクライアントで、従来の mysql クライアントと同様にSQLによるデータベースの操作に加え、JavaScriptまたはPytho...",
+            "date_modified": "2022-02-07T03:00:00.000Z",
+            "date_published": "2022-02-07T03:00:00.000Z",
             "tags": []
         },
         {
@@ -579,6 +646,16 @@
             "tags": []
         },
         {
+            "id": "https://tech.isid.co.jp/entry/2022/02/07/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%8E%A8%E5%A5%A8%E4%BA%8B%E9%A0%85",
+            "content_html": "こんにちは。XI本部クラウドイノベーションセンターの柴田です。 最近ではアプリケーションを実行する手段としてコンテナ技術が広く用いられています。 しかし、本番環境で稼働できる品質のコンテナイメージを作る際、初学者がコンテナ設計の段階で見落としがちなポイントがいくつかあります。 そこで今回はコンテナイメージを設計する際の推奨事項をいくつかご紹介したいと思います。 コンテナとは コンテナイメージを設計する際の推奨事項 The Twelve-Factor Appに従ってアプリケーションを実装する プロセス：アプリケーションを1つもしくは複数のステートレスなプロセスとして実行する 廃棄容易性：高速な起…",
+            "url": "https://tech.isid.co.jp/entry/2022/02/07/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%8E%A8%E5%A5%A8%E4%BA%8B%E9%A0%85",
+            "title": "コンテナイメージを設計する際の推奨事項 | 電通国際情報サービス TechBlog",
+            "summary": "こんにちは。XI本部クラウドイノベーションセンターの柴田です。 最近ではアプリケーションを実行する手段としてコンテナ技術が広く用いられています。 しかし、本番環境で稼働できる品質のコンテナイメージを作る際、初学者がコンテナ設計の段階で見落としがちなポイントがいくつかあります。 そこで今回はコンテナイメージを設計する際の推奨事項をいくつかご紹介したいと思います。 コンテナとは コンテナイメージを設計...",
+            "date_modified": "2022-02-06T23:00:00.000Z",
+            "date_published": "2022-02-06T23:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://future-architect.github.io/articles/20220207a/",
             "content_html": "<img src=\"/images/20220207a/スクリーンショット_2022-02-03_0.14.44.png\" alt=\"サービスイメージ\" width=\"1200\" height=\"678\"",
             "url": "https://future-architect.github.io/articles/20220207a/",
@@ -715,6 +792,26 @@
             "summary": "kintone フロントエンドリアーキテクチャプロジェクトリーダーの @koba04です。 昨年末から、kintone フロントエンドリアーキテクチャをプロジェクト（フロリア）として再構成してスタートさせました。フロリアという名前は社内での公募により決定しました。 今回はプロジェクトで目指していることについて紹介します。本プロジェクトの開始前に Cybozu Meetup で話したスライドや動画も...",
             "date_modified": "2022-02-04T08:11:54.000Z",
             "date_published": "2022-02-04T08:11:54.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://blog.engineer.adways.net/entry/2022/02/04/170000",
+            "content_html": "こんにちは。インフラストラクチャーディビジョンでプレイングマネージャーしています奥村（＠arumuko) です。 今回は私が所属しているインフラストラクチャーディビジョンにOKRが存在しない状態から個人OKRの運用に至るまでの変遷を中心に出てきた課題と課題への取り組みについて書いていきます。 様々な課題を抱えながら、「なんとか運用する」までに至った経緯を語ります。 組織について OKR運営のワーキンググループ 先にまとめ 現在のOKR 課題と課題への対処 重要だと思う点 変遷 OKR導入初期 OKR 説明 得たもの 主要な課題 アクション OKRちゃんと取り組んでみよう期 OKR 説明 チェッ…",
+            "url": "https://blog.engineer.adways.net/entry/2022/02/04/170000",
+            "title": "OKRを0から導入し個人OKRの運用に至るまでの2年間の変遷と課題への対処 | Adwaysエンジニアブログ",
+            "summary": "こんにちは。インフラストラクチャーディビジョンでプレイングマネージャーしています奥村（＠arumuko) です。 今回は私が所属しているインフラストラクチャーディビジョンにOKRが存在しない状態から個人OKRの運用に至るまでの変遷を中心に出てきた課題と課題への取り組みについて書いていきます。 様々な課題を抱えながら、「なんとか運用する」までに至った経緯を語ります。 組織について OKR運営のワーキ...",
+            "date_modified": "2022-02-04T08:00:00.000Z",
+            "date_published": "2022-02-04T08:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://blog.tech-monex.com/entry/2022/02/04/165629",
+            "content_html": "こんにちは。システム開発推進部、ブラウザタブ乱立マンの芦刈です。 最近、インターネットでの調べものをするたびに「また読み返すかも...」と思ったページを残したタブやウィンドウが増えていった結果、愛用のFirefoxのメモリ使用量が数GBと馬鹿にならないサイズになってしまいました。 一時期はタブグループなんか使ったり、必要なタブだけアクティブにしたりするなど工夫しては居ましたが、途中から面倒になって全部投げ出してしまいました。増えれば増えるほど管理が面倒ですしね。 というわけで今回は、探してもちょうどよさげなアドオンがかなり古いものしかなかったので、現在開いているウィンドウの全タブのページタイト…",
+            "url": "https://blog.tech-monex.com/entry/2022/02/04/165629",
+            "title": "Firefox のアドオンを作ってみた | MONEX ENGINEER BLOG │マネックス エンジニアブログ",
+            "summary": "こんにちは。システム開発推進部、ブラウザタブ乱立マンの芦刈です。 最近、インターネットでの調べものをするたびに「また読み返すかも...」と思ったページを残したタブやウィンドウが増えていった結果、愛用のFirefoxのメモリ使用量が数GBと馬鹿にならないサイズになってしまいました。 一時期はタブグループなんか使ったり、必要なタブだけアクティブにしたりするなど工夫しては居ましたが、途中から面倒になって...",
+            "date_modified": "2022-02-04T07:56:29.000Z",
+            "date_published": "2022-02-04T07:56:29.000Z",
             "tags": []
         },
         {
@@ -1089,6 +1186,16 @@
             "tags": []
         },
         {
+            "id": "https://techblog.forgevision.com/entry/aws-bugbust",
+            "content_html": "re:Invent 2021 で開催されていた AWS BugBust に参加してハエたたきをもらいましたのでご紹介します。 ",
+            "url": "https://techblog.forgevision.com/entry/aws-bugbust",
+            "title": "AWS BugBust でハエたたきをゲットしました！ | ForgeVision Engineer Blog",
+            "summary": "re:Invent 2021 で開催されていた AWS BugBust に参加してハエたたきをもらいましたのでご紹介します。 ",
+            "date_modified": "2022-02-03T02:57:56.000Z",
+            "date_published": "2022-02-03T02:57:56.000Z",
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/datafarm/articles/c70fb60a164c45",
             "content_html": "#integromat #googlephoto   課題 integromatで取得したgoogleフォトのリストを日付を指定して絞り込みたい   解決方法  module間のfilterで絞り込む 今回はgoogleフォトの写真からメタ情報を取得し、日付のみを抽出する形にフォーマット  {{formatDate(【mediaMetadata.creationTime】; \"YYYY-MM-DD\")}}   条件式は「Datatime operation」の「Equal to」  抽出条件側は今回は「今日の日付」とし、nowを使用した  {{formatDate(now; \"YYYY-...",
             "url": "https://zenn.dev/datafarm/articles/c70fb60a164c45",
@@ -1423,6 +1530,16 @@
             "tags": []
         },
         {
+            "id": "https://tech.excite.co.jp/entry/2022/02/02/060000",
+            "content_html": "こんばんは、エキサイト株式会社中尾です。 今回はテンプレートエンジンについて説明します。 quarkusにはQUTEがあります。 ja.quarkus.io 特徴として ネイティブビルドに対応(間違っているかもしれない) テンプレートファイルを変えたら、リロードすれば反映される @CheckedTemplate でテンプレートの整合性チェックが可能 基本的なif文、for文は以下で実装ができます。 {#for sample in samples} <h2>{sample.name ?: 'Unknown'}</h2> <p> {#if sample.valid} {sample.data} {…",
+            "url": "https://tech.excite.co.jp/entry/2022/02/02/060000",
+            "title": "quarkusを使う(テンプレートエンジン編) | エキサイト TechBlog.",
+            "summary": "こんばんは、エキサイト株式会社中尾です。 今回はテンプレートエンジンについて説明します。 quarkusにはQUTEがあります。 ja.quarkus.io 特徴として ネイティブビルドに対応(間違っているかもしれない) テンプレートファイルを変えたら、リロードすれば反映される @CheckedTemplate でテンプレートの整合性チェックが可能 基本的なif文、for文は以下で実装ができます。...",
+            "date_modified": "2022-02-01T21:00:00.000Z",
+            "date_published": "2022-02-01T21:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://future-architect.github.io/articles/20220202a/",
             "content_html": "<img src=\"/images/20220202a/eyecatch.png\" alt=\"\" width=\"969\" height=\"484\" loading=\"lazy\">   <h1 id=\"はじめに\"><a href=\"#はじめに\"",
             "url": "https://future-architect.github.io/articles/20220202a/",
@@ -1640,21 +1757,21 @@
             ]
         },
         {
-            "id": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
-            "content_html": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
-            "url": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
-            "title": "納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside",
-            "summary": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
-            "date_modified": "2022-02-01T02:45:00.000Z",
-            "date_published": "2022-02-01T02:45:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
             "content_html": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…",
             "url": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
             "title": "コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ",
             "summary": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...",
+            "date_modified": "2022-02-01T02:45:00.000Z",
+            "date_published": "2022-02-01T02:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
+            "content_html": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
+            "url": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
+            "title": "納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside",
+            "summary": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
             "date_modified": "2022-02-01T02:45:00.000Z",
             "date_published": "2022-02-01T02:45:00.000Z",
             "tags": []
@@ -1713,6 +1830,16 @@
             "tags": []
         },
         {
+            "id": "https://tech.excite.co.jp/entry/2022/02/01/104540",
+            "content_html": "こんにちは。 エキサイト株式会社の三浦です。 MySQLを使用してデータを取得する際、その取得速度を高めるためにほとんどの場合Indexを使用することになります。 シンプルなSQLでデータを取得するのであれば、そのSQLに当たるIndexはわかりやすいでしょう。 ですが、複雑なSQLだとそう簡単には行きません。 そういったSQLにIndexを適用しようとして、うまくパフォーマンスが上がらず苦労した経験がある方も多いのではないでしょうか。 今回は、そもそも「SQLにIndexが当たる」とはどういうことなのかを考え、それを元にうまくIndexを当てる方法を考察していきます。 1つのカラムを条件とす…",
+            "url": "https://tech.excite.co.jp/entry/2022/02/01/104540",
+            "title": "MySQLの「Indexが当たる」とはどういうことなのか | エキサイト TechBlog.",
+            "summary": "こんにちは。 エキサイト株式会社の三浦です。 MySQLを使用してデータを取得する際、その取得速度を高めるためにほとんどの場合Indexを使用することになります。 シンプルなSQLでデータを取得するのであれば、そのSQLに当たるIndexはわかりやすいでしょう。 ですが、複雑なSQLだとそう簡単には行きません。 そういったSQLにIndexを適用しようとして、うまくパフォーマンスが上がらず苦労した...",
+            "date_modified": "2022-02-01T01:45:40.000Z",
+            "date_published": "2022-02-01T01:45:40.000Z",
+            "tags": []
+        },
+        {
             "id": "https://engineer.crowdworks.jp/entry/2022/02/01/104201",
             "content_html": "この度クラウドログチームではNotionの利用を開始しました。 それに伴い今までQiita Teamに作成していた記事をNotionへ移行することになりました。 この記事では上記Notionの利用開始とQiita Teamからの移行で得た知見をお伝えします。",
             "url": "https://engineer.crowdworks.jp/entry/2022/02/01/104201",
@@ -1742,10 +1869,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9898",
-            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内エンジニア生産系可視化ツールで個人のメトリクスを見れるようにした話  【番外編】マネーフォワードっぽいホワイトデーを考えてみた  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  【レポート】MF Geeks Night (2015年5月)  webpackでRailsアプリのアセットをビルドする   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
+            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだけ主夫をやった話  試食会のすゝめ  書類読み取りってどうやるの？？一例を紹介！！  サーバサイドの進捗に依存しないための Next.js x GraphQL のフロントエンド開発の工夫  新卒が社内懇親会アプリを開発したら、障害対応まで経験できた話   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/",
             "title": "Datadogを使った分散トレーシングをクラウド会計で見えるようにした話 | Engineers' Blog",
-            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内エ...",
+            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだ...",
             "date_modified": "2022-02-01T00:30:07.000Z",
             "date_published": "2022-02-01T00:30:07.000Z",
             "author": {
@@ -2002,7 +2129,7 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9896",
-            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠点のカジュアル面談でウケが良かった話・悪かった話  StepFunctionsとSageMakerでML学習パイプラインをつくる  リニューアル後の国税庁サイトを検索できるサービスを作ってみた  エンジニアのマネーフォワード2019  【社内レポ】最新型MacBook Proを投入！   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
+            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠点のカジュアル面談でウケが良かった話・悪かった話  もうひとつのデザインについての話をしよう  RubyGems.orgの脆弱性について  Kubernetesクラスタ上で動かすSidekiqに対してヘルスチェックを導入した話  【レポート】MF Geeks Night (2015年9月)   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/",
             "title": "AI推進部における読書会の紹介 | Engineers' Blog",
             "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠...",
@@ -2134,6 +2261,16 @@
             "url": "https://toranoana-lab.hatenablog.com/entry/2022/01/31/080000",
             "title": "虎の穴ラボのメンバーが興味を持っている技術は？アンケートを取ってみました！ in 2022冬 | 虎の穴開発室ブログ",
             "summary": "こんにちは。虎の穴ラボのY.Fです。 虎の穴ラボでは定例でLT会を開催したり、毎週社内勉強会を実施したりしています。 また、本ブログのように勉強したことを積極的にアウトプットすることが奨励されています。 (去年の記事) toranoana-lab.hatenablog.com 去年に引き続き、日々技術習得に勤しんでいる、虎の穴ラボメンバーが興味を持っている技術についてご紹介したいと思います。 概要...",
+            "date_modified": "2022-01-30T23:00:00.000Z",
+            "date_published": "2022-01-30T23:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.isid.co.jp/entry/2022/01/31/%E5%9F%BA%E5%B9%B9%E7%B3%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AEDB%E5%A4%89%E6%9B%B4%E3%81%AE%E8%A9%B1_%EF%BD%9EOracle%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E",
+            "content_html": "みなさん、こんにちは。電通国際情報サービス（ISID）コーポレート本部システム推進部の宮井です。この記事ではISIDの基幹系システムのDB変更（Oracle→Amazon Aurora）にまつわる意思決定のお話をします。 自己紹介 なぜOracleから移行するのか おわりに 自己紹介 その前に少しだけ自己紹介を。わたくし「システム推進部」という部署の部長を務めているのですが、「システム推進部」という部署名って、これだけ聞いてもよく分からないですよね？ えぇ、私もそう思います。一言で申し上げれば、「情シス＋α」といったところです。社内インフラ・ネットワークに加え基幹系システムの開発／運用／保守、…",
+            "url": "https://tech.isid.co.jp/entry/2022/01/31/%E5%9F%BA%E5%B9%B9%E7%B3%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AEDB%E5%A4%89%E6%9B%B4%E3%81%AE%E8%A9%B1_%EF%BD%9EOracle%E5%8D%92%E6%A5%AD%E3%81%97%E3%81%BE%E3%81%99%EF%BD%9E",
+            "title": "基幹系システムのDB変更の話　～Oracle卒業します～ | 電通国際情報サービス TechBlog",
+            "summary": "みなさん、こんにちは。電通国際情報サービス（ISID）コーポレート本部システム推進部の宮井です。この記事ではISIDの基幹系システムのDB変更（Oracle→Amazon Aurora）にまつわる意思決定のお話をします。 自己紹介 なぜOracleから移行するのか おわりに 自己紹介 その前に少しだけ自己紹介を。わたくし「システム推進部」という部署の部長を務めているのですが、「システム推進部」とい...",
             "date_modified": "2022-01-30T23:00:00.000Z",
             "date_published": "2022-01-30T23:00:00.000Z",
             "tags": []
@@ -2305,6 +2442,16 @@
             ]
         },
         {
+            "id": "https://blog.engineer.adways.net/entry/2022/01/28/173000",
+            "content_html": "こんにちは。梅津です。 今回は社内向けプロダクトの開発で携わっているフロントエンドの現状や、これからやっていきたいことをお話します。 担当サービスの話 現在のチーム規模 エンジニア 3人 プロダクトオーナー 1人 サポートしてくれる人 2人 主な技術 バックエンド Rails graphql-ruby フロントエンド React TypeScript Material-UI",
+            "url": "https://blog.engineer.adways.net/entry/2022/01/28/173000",
+            "title": "社内向けプロダクトのフロントエンド構成のふりかえりとこれから(2022年1月版) | Adwaysエンジニアブログ",
+            "summary": "こんにちは。梅津です。 今回は社内向けプロダクトの開発で携わっているフロントエンドの現状や、これからやっていきたいことをお話します。 担当サービスの話 現在のチーム規模 エンジニア 3人 プロダクトオーナー 1人 サポートしてくれる人 2人 主な技術 バックエンド Rails graphql-ruby フロントエンド React TypeScript Material-UI",
+            "date_modified": "2022-01-28T08:30:00.000Z",
+            "date_published": "2022-01-28T08:30:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/manalink/articles/manalink-expo-universal-links",
             "content_html": "CTOの名人です。 Webサイトにアクセスすると、勝手に対応するアプリに切り替わることってありますよね（Twitterとか、食べログとか）。あの技術は（OSによって微妙に呼び名は違うのですが）Universal Linksと呼ばれています。 本記事では、Universal Linksの設定を、React NativeかつExpo Managed Workflowなアプリに実装するまでの過程を示します。   Universal Links(Deep Links)実装までの道のり おおむね、以下のような手順をたどります。単にアプリに飛ばしたいだけなら簡単なのですが、URL構造の要件や、ハンド...",
             "url": "https://zenn.dev/manalink/articles/manalink-expo-universal-links",
@@ -2466,10 +2613,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9882",
-            "content_html": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Bye, tachikoma gem #railsdm  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  【レポート】12/11 「急成長スタートアップにおけるDeveloper Productivity勉強会 Ⅱ」  エンジニアブログ、始めました  Github Actionsを利用して作業を自動化してみよう   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.",
+            "content_html": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go Conference 2021 Autumn にブロンズプランで協賛します  【イベント参加レポ】渋谷Ruby会議01に参加してきました！  vimのカラースキームを作ってみた  複数行に対応したjQuery validatorを書く場合 + 小ネタ  とあるエンジニアのマネフォ的 1日の過ごし方   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/28/no-moyamoya-method/",
             "title": "モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台 | Engineers' Blog",
-            "summary": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Bye...",
+            "summary": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go ...",
             "date_modified": "2022-01-28T03:57:32.000Z",
             "date_published": "2022-01-28T03:57:32.000Z",
             "author": {
@@ -2639,6 +2786,16 @@
             "author": {
                 "name": "株式会社データファーム"
             },
+            "tags": []
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2022/01/11/000000",
+            "content_html": "こんにちは。最近AndoridからFlutterでの開発に移転した、エキサイト株式会社の奥田です。 業務においてリストやグリッドを一緒にスクロールさせたいという要望がありました。 しかし、ListView、GridViewで実装すると別々にスクロールされてしまいます。 そんな問題をSliverList＆SliverGrid解決することができたので、実装方法について記述していきます。 動作バージョン Flutter 2.8.1 Dart 2.15.1 なぜSliverListとSliverGridを使用するのか？ なぜListView、GridViewではなくSliverListとSliverG…",
+            "url": "https://tech.excite.co.jp/entry/2022/01/11/000000",
+            "title": "SliverGrid、SliverListを使用したUI実装  | エキサイト TechBlog.",
+            "summary": "こんにちは。最近AndoridからFlutterでの開発に移転した、エキサイト株式会社の奥田です。 業務においてリストやグリッドを一緒にスクロールさせたいという要望がありました。 しかし、ListView、GridViewで実装すると別々にスクロールされてしまいます。 そんな問題をSliverList＆SliverGrid解決することができたので、実装方法について記述していきます。 動作バージョン...",
+            "date_modified": "2022-01-27T15:00:00.000Z",
+            "date_published": "2022-01-27T15:00:00.000Z",
             "tags": []
         },
         {
