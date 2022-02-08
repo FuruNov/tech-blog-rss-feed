@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yamadashy.github.io/tech-blog-rss-feed/</id>
     <title>企業テックブログRSS</title>
-    <updated>2022-02-08T09:24:40.666Z</updated>
+    <updated>2022-02-08T11:21:31.170Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://yamadashy.github.io/tech-blog-rss-feed/"/>
     <link rel="self" href="https://yamadashy.github.io/tech-blog-rss-feed/feed/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://yamadashy.github.io/tech-blog-rss-feed/images/icon.png</logo>
     <icon>https://yamadashy.github.io/tech-blog-rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[goで連想配列フォームつくるよー | Dokokadeさんのフィード]]></title>
+        <id>https://zenn.dev/dokokade/articles/803c4b79bbf97a</id>
+        <link href="https://zenn.dev/dokokade/articles/803c4b79bbf97a"/>
+        <updated>2022-02-08T11:00:59.000Z</updated>
+        <summary type="html"><![CDATA[phpって便利ですね。いやgoでwebつくるのがまちがってるのかな？ 表題の件ですが、一筋縄ではなかったです。 phpみたく「name="item[][name]"」みたいにできないのです。 まぁ単純なスライス配列であれば「name="item[]"」をそのまま router.POST("/inc/contact", func(c *gin.Context) {  c.Request.ParseF...]]></summary>
+        <content type="html"><![CDATA[phpって便利ですね。いやgoでwebつくるのがまちがってるのかな？ 表題の件ですが、一筋縄ではなかったです。 phpみたく「name="item[][name]"」みたいにできないのです。 まぁ単純なスライス配列であれば「name="item[]"」をそのまま router.POST("/inc/contact", func(c *gin.Context) {  c.Request.ParseForm()  item := c.Request.Form["item[]"] }) みたいに受け取ってそのままfiresotreとかにいれたり、 ループさせてDBに入れたりすればいいと思うんす...]]></content>
+        <author>
+            <name>Dokokade</name>
+        </author>
+        <published>2022-02-08T11:00:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[『JANOG49 Meeting』in 鹿児島 出展レポート | │エンジニアブログ｜レンジャーシステムズ株式会社]]></title>
+        <id>https://ranger-systems.co.jp/blog-engineer/?p=2328</id>
+        <link href="https://ranger-systems.co.jp/blog-engineer/archives/2328"/>
+        <updated>2022-02-08T09:31:00.000Z</updated>
+        <summary type="html"><![CDATA[先日開催された『JANOG49 Meeting』に、レンジャーシステムズはゴールドスポンサーとして出展いたしました。JANOGのセッションには、過去にレンジャーシステムズのメンバーが何度か登壇していますが、協賛・出展は初となります。 今回は、JANOG49に出 […]]]></summary>
+        <content type="html"><![CDATA[先日開催された『JANOG49 Meeting』に、レンジャーシステムズはゴールドスポンサーとして出展いたしました。JANOGのセッションには、過去にレンジャーシステムズのメンバーが何度か登壇していますが、協賛・出展は初となります。 今回は、JANOG49に出 […]]]></content>
+        <author>
+            <name>Ei</name>
+        </author>
+        <category label="セミナー・イベント"/>
+        <published>2022-02-08T09:31:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[週刊Railsウォッチ: Rails 6.1を7.0にアップグレードしてみた、PostgreSQLでジョブキューほか（20220208前編） | TechRacho]]></title>
         <id>https://techracho.bpsinc.jp/?p=115441</id>
@@ -1452,21 +1477,21 @@
         <published>2022-02-01T03:00:45.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
-        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
-        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
-        <updated>2022-02-01T02:45:00.000Z</updated>
-        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
-        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
-        <published>2022-02-01T02:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside]]></title>
         <id>https://inside.dmm.com/entry/2022/2/1/ecmo-car</id>
         <link href="https://inside.dmm.com/entry/2022/2/1/ecmo-car"/>
         <updated>2022-02-01T02:45:00.000Z</updated>
         <summary type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></summary>
         <content type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></content>
+        <published>2022-02-01T02:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
+        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
+        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
+        <updated>2022-02-01T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
+        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
         <published>2022-02-01T02:45:00.000Z</published>
     </entry>
     <entry>
@@ -1547,8 +1572,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9898</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/"/>
         <updated>2022-02-01T00:30:07.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...]]></summary>
-        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForwardの検索ロジック歴史  PyCallを触ってみる  Java8 で Stream を使ってみる  マネーフォワードのJavaエンジニアはどのような環境で仕事をしているのか  お知らせ: SIerからベンチャーへのエンジニア転職〜キャリアチェンジになにを求めたか？〜 を開催します   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内エ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内エンジニア生産系可視化ツールで個人のメトリクスを見れるようにした話  【番外編】マネーフォワードっぽいホワイトデーを考えてみた  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  【レポート】MF Geeks Night (2015年5月)  webpackでRailsアプリのアセットをビルドする   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -1779,8 +1804,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9896</id>
         <link href="https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/"/>
         <updated>2022-01-31T04:56:38.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></summary>
-        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Androidアプリの未使用リソースを一括削除する  slackに#current_status部屋を作りました  Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）  MF KESSAI Tech Blog新設のおしらせ  MF KESSAIのマイクロサービス化を支える、Dockerをフル活用した開発環境の歴史   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠...]]></summary>
+        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠点のカジュアル面談でウケが良かった話・悪かった話  StepFunctionsとSageMakerでML学習パイプラインをつくる  リニューアル後の国税庁サイトを検索できるサービスを作ってみた  エンジニアのマネーフォワード2019  【社内レポ】最新型MacBook Proを投入！   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2193,8 +2218,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9882</id>
         <link href="https://moneyforward.com/engineers_blog/2022/01/28/no-moyamoya-method/"/>
         <updated>2022-01-28T03:57:32.000Z</updated>
-        <summary type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワード MEのiOS 15対応  MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  Java8 で Stream を使ってみる  Reacji Channelerを使って楽をしようとしたら情弱であることを晒してしまった…の巻  Qiita/Qiita:Team Meetup #8 に参加してきました！   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 20...]]></content>
+        <summary type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Bye...]]></summary>
+        <content type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Bye, tachikoma gem #railsdm  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  【レポート】12/11 「急成長スタートアップにおけるDeveloper Productivity勉強会 Ⅱ」  エンジニアブログ、始めました  Github Actionsを利用して作業を自動化してみよう   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2879,44 +2904,5 @@
         <summary type="html"><![CDATA[<img src="/images/20220126a/top.png" alt="" width="600" height="261">  <p>TIGの伊藤真彦です。</p> <p>2022.1.14（金）に <a]]></summary>
         <content type="html"><![CDATA[<img src="/images/20220126a/top.png" alt="" width="600" height="261">  <p>TIGの伊藤真彦です。</p> <p>2022.1.14（金）に <a]]></content>
         <published>2022-01-25T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Github Actions でのプルリク作成時に特定のファイルの存在を知らせる | ROXX開発者ブログ]]></title>
-        <id>https://techblog.roxx.co.jp/entry/2022/01/25/194136</id>
-        <link href="https://techblog.roxx.co.jp/entry/2022/01/25/194136"/>
-        <updated>2022-01-25T10:41:36.000Z</updated>
-        <summary type="html"><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // Github Actions を用いて定期的にプルリクエストを作成する際に、特定のファイルの存在を知らせたかったのでやってみます。 特定のファイルの存在を知らせる 知らせるのは「通知」という意味ではなくて、プルリクの説明欄にこれらのファイル名を記載して、いちいち確認しなくてもこれらのファイルが存在していることをわかるようにし...]]></summary>
-        <content type="html"><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // Github Actions を用いて定期的にプルリクエストを作成する際に、特定のファイルの存在を知らせたかったのでやってみます。 特定のファイルの存在を知らせる 知らせるのは「通知」という意味ではなくて、プルリクの説明欄にこれらのファイル名を記載して、いちいち確認しなくてもこれらのファイルが存在していることをわかるようにします。 定期に自動でプルリクを作成しているような状況なのでフィーチャーブランチのプルリクというよりはリリースのプルリクやローカルに向けたプルリクなどを想定しているとして、例えば PHP フレームワーク…]]></content>
-        <published>2022-01-25T10:41:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ココナラのオフィスを紹介します！！ | ココナラよもやまブログ]]></title>
-        <id>https://yomoyamablog.coconala.co.jp/entry/2022/01/25/191500</id>
-        <link href="https://yomoyamablog.coconala.co.jp/entry/2022/01/25/191500"/>
-        <updated>2022-01-25T10:15:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、HRグループのKAEです！ 今回は私たちココナラの社員が働くオフィスをツアー形式でご紹介します！面接に来られる方や、入社前に社内の雰囲気を見てみたいという方の参考になれば嬉しいです！ はじめてオフィスに来られる方は要チェック！まずは渋谷駅からオフィスへ！ ココナラのオフィスは渋谷駅から5～6分ほどのところ。恵比寿方面の桜丘町という場所で渋谷の中では落ち着いた雰囲気のエリアにあります。 ...]]></summary>
-        <content type="html"><![CDATA[こんにちは、HRグループのKAEです！ 今回は私たちココナラの社員が働くオフィスをツアー形式でご紹介します！面接に来られる方や、入社前に社内の雰囲気を見てみたいという方の参考になれば嬉しいです！ はじめてオフィスに来られる方は要チェック！まずは渋谷駅からオフィスへ！ ココナラのオフィスは渋谷駅から5～6分ほどのところ。恵比寿方面の桜丘町という場所で渋谷の中では落ち着いた雰囲気のエリアにあります。 ・JR線、銀座線、井の頭線、東横線「渋谷駅」南口より徒歩4分・半蔵門線、田園都市線、副都心線「渋谷駅」出口8より徒歩6分 ビルに到着したら1階のエントランスからエレベーターに乗って受付がある6Fへ。 …]]></content>
-        <published>2022-01-25T10:15:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[近い未来のための量子アルゴリズム : 変分量子アルゴリズム | AIREV株式会社さんのフィード]]></title>
-        <id>https://zenn.dev/airev/articles/airev-quantum-06</id>
-        <link href="https://zenn.dev/airev/articles/airev-quantum-06"/>
-        <updated>2022-01-25T10:12:10.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 先日、IBM社が 127 量子ビットの新型量子コンピュータ「Eagle」を公開し、量子コンピュータは身近なものになりつつあります。しかしながら、現時点で存在する量子コンピュータは、誤り訂正機能を持たず、正確な計算を行うことはできません。一方、誤り訂正機能を持つ量子コンピュータの実現には、まだ数十年かかると言われています。そこで、今後数十年という近い未来に、量子コンピュータで何かできないか...]]></summary>
-        <content type="html"><![CDATA[はじめに 先日、IBM社が 127 量子ビットの新型量子コンピュータ「Eagle」を公開し、量子コンピュータは身近なものになりつつあります。しかしながら、現時点で存在する量子コンピュータは、誤り訂正機能を持たず、正確な計算を行うことはできません。一方、誤り訂正機能を持つ量子コンピュータの実現には、まだ数十年かかると言われています。そこで、今後数十年という近い未来に、量子コンピュータで何かできないかと、近年盛んに研究が行われています。 誤り訂正機能を持たない量子コンピュータを用いた最も代表的なアルゴリズムとして、変分量子アルゴリズムが挙げられます。そこで、本稿では変分量子アルゴリズムに...]]></content>
-        <author>
-            <name>AIREV株式会社</name>
-        </author>
-        <published>2022-01-25T10:12:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[mercari.go #18 を開催しました #mercarigo | メルカリエンジニアリングブログ]]></title>
-        <id>18715</id>
-        <link href="https://engineering.mercari.com/blog/entry/20220125-mercarigo-18/"/>
-        <updated>2022-01-25T02:03:59.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、mercari.go スタッフの @otter です。 1月20日にメルカリ主催のGo勉強会 mercari.go #18 をオンライン配信にて開催しました。 この記事では、当日の各発表を簡単に紹介 […]]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、mercari.go スタッフの @otter です。 1月20日にメルカリ主催のGo勉強会 mercari.go #18 をオンライン配信にて開催しました。 この記事では、当日の各発表を簡単に紹介 […]]]></content>
-        <published>2022-01-25T02:03:59.000Z</published>
     </entry>
 </feed>
