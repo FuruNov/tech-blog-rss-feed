@@ -1,4 +1,4 @@
 module.exports = {
-  user: 'https://github.com/yamadashy/',
-  repository: 'https://github.com/yamadashy/tech-blog-rss-feed/',
+  user: 'https://github.com/furunov',
+  repository: 'https://furunov.github.io/rss-feed/',
 };
