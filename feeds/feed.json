@@ -7,6 +7,19 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://zenn.dev/media_engine/articles/updated-nodejs-from-v12-to-v16",
+            "content_html": "はじめに メディアエンジン株式会社の田中です！ 最近、フロントエンド開発で利用しているNode.jsをv12からv16へアップデートしたため、それについてお話しさせていただきます。   実施したこと まず、CircleCIで使用するDockerイメージのNode.jsバージョンをv16へ更新しました。  default:  working_directory: ~/<project-name>  docker: - image: circleci/node:12.22.0-stretch + image: circleci/node:...",
+            "url": "https://zenn.dev/media_engine/articles/updated-nodejs-from-v12-to-v16",
+            "title": "Node.jsをv12からv16へアップデートした話 | メディアエンジン株式会社さんのフィード",
+            "summary": "はじめに メディアエンジン株式会社の田中です！ 最近、フロントエンド開発で利用しているNode.jsをv12からv16へアップデートしたため、それについてお話しさせていただきます。   実施したこと まず、CircleCIで使用するDockerイメージのNode.jsバージョンをv16へ更新しました。  default:  working_directory: ~/<project-name>  ...",
+            "date_modified": "2022-02-09T04:30:44.000Z",
+            "date_published": "2022-02-09T04:30:44.000Z",
+            "author": {
+                "name": "メディアエンジン株式会社"
+            },
+            "tags": []
+        },
+        {
             "id": "https://paiza.hatenablog.com/entry/2022/02/09/130000",
             "content_html": "こんにちは。谷口です。転職後に「なんか転職前の想像と違ったな…」と思った経験はありませんか。もちろん転職先の仕事内容や同僚、環境などについて100%把握した上で入社するのは難しいことです。しかし、せっかく転職するなら「これを知ってたら入社しなかったのに」「またすぐ転職したいかも…」というギャップは避けたいですよね。先日キャリアバイブルで、転職経験者に聞いた「転職先に入社後、悪い意味で想像と違ったこと」が公開されました。今回はこれをもとに、エンジニアが転職先での「悪い意味で想像と違っていた」を防ぐにはどうしたらいいのか、考えてみます。nexer.co.jp転職活動中の方、転職してみたけど想像と違…",
             "url": "https://paiza.hatenablog.com/entry/2022/02/09/130000",
@@ -35,23 +48,6 @@
             "date_modified": "2022-02-09T03:30:00.000Z",
             "date_published": "2022-02-09T03:30:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://medium.com/p/a4edcdada8ba",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/google-cloud-build-visualize-steps-via-github-actions-a4edcdada8ba?source=rss----bc6b0ae5a97c---4",
-            "title": "Google Cloud Buildで、ジョブステップのグラフをプルリクエストでレビューできるようにする | mixi developers - Medium",
-            "date_modified": "2022-02-09T03:12:54.000Z",
-            "date_published": "2022-02-09T03:12:54.000Z",
-            "author": {
-                "name": "gecko655"
-            },
-            "tags": [
-                "google-cloud",
-                "github-actions",
-                "cloud-build",
-                "google-cloud-platform"
-            ]
         },
         {
             "id": "https://www.fabrica-com.co.jp/techblog/?p=7240",
@@ -288,19 +284,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/taiga248/articles/monorepo_circleci",
-            "content_html": "CI/CD とは ざっくりと ソフトウェア開発手法の１つ ビルドやテスト、デプロイなどの 「誰が叩いても同じ結果を得られる」ものを自動化してくれる  継続的インテグレーション(CI)：コードをリポジトリに反映 継続的デリバリー(CD)：コード品質の保全 継続的デプロイメント(CD)：環境へのデプロイ  GitHub などのリポジトリサービスと連携して使用します。   小さな単位での CircleCI 実装   ファイル構成 repository  ├── .circleci  │ └── config.yml  ├── node_modules  ├── src  ...",
-            "url": "https://zenn.dev/taiga248/articles/monorepo_circleci",
-            "title": "monorepo環境でのCircleCI | Zennのトレンド",
-            "summary": "CI/CD とは ざっくりと ソフトウェア開発手法の１つ ビルドやテスト、デプロイなどの 「誰が叩いても同じ結果を得られる」ものを自動化してくれる  継続的インテグレーション(CI)：コードをリポジトリに反映 継続的デリバリー(CD)：コード品質の保全 継続的デプロイメント(CD)：環境へのデプロイ  GitHub などのリポジトリサービスと連携して使用します。   小さな単位での CircleC...",
-            "date_modified": "2022-02-08T17:29:06.000Z",
-            "date_published": "2022-02-08T17:29:06.000Z",
-            "author": {
-                "name": "Taiga"
-            },
-            "tags": []
-        },
-        {
             "id": "https://golem.ph.utexas.edu/category/2022/02/concepts_and_profunctor_nuclei.html",
             "content_html": "Read about one of the presentations at the 2021 Applied Category Theory Adjoint School.",
             "url": "https://golem.ph.utexas.edu/category/2022/02/concepts_and_profunctor_nuclei.html",
@@ -425,19 +408,6 @@
             ]
         },
         {
-            "id": "https://zenn.dev/kentarok/articles/9a9e578d5a71b7",
-            "content_html": "はじめに 一方からは通信経路があるが、逆はそうではないというネットワークの状況において、Elixirのノード間通信が可能なのかどうかを確認したいと思います。 * ローカル → クラウド（経路あり） * クラウド → ローカル（経路なし） 具体的には、上記のようにパブリッククラウド上のホストと、プライベートネットワーク内の手元のマシンとでノード間通信が可能なのか、その場合の通信はどうなっているのかを確認したいということです。   実験   クラウド上のホスト環境 まず、Google Cloud Platform（GCP）上で最小限のインスタンスを作った後、asdfでErlangとEli...",
-            "url": "https://zenn.dev/kentarok/articles/9a9e578d5a71b7",
-            "title": "通信経路が片方向の場合のElixirのノード間通信の挙動を確認する | Zennのトレンド",
-            "summary": "はじめに 一方からは通信経路があるが、逆はそうではないというネットワークの状況において、Elixirのノード間通信が可能なのかどうかを確認したいと思います。 * ローカル → クラウド（経路あり） * クラウド → ローカル（経路なし） 具体的には、上記のようにパブリッククラウド上のホストと、プライベートネットワーク内の手元のマシンとでノード間通信が可能なのか、その場合の通信はどうなっているのかを...",
-            "date_modified": "2022-02-08T12:47:41.000Z",
-            "date_published": "2022-02-08T12:47:41.000Z",
-            "author": {
-                "name": "Kentaro Kuribayashi"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/nw-engineer/items/31d960f2f9489c75114c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "Fortigate・Paloalto・VyOSなどESXiの仮想OSとしてたちあげ検証する方法を今まではご紹介してきました。ただ、この方法だと複雑な構成を作ろうとした場合に毎回vSwitch/ポート…",
             "url": "https://qiita.com/nw-engineer/items/31d960f2f9489c75114c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -445,19 +415,6 @@
             "summary": "Fortigate・Paloalto・VyOSなどESXiの仮想OSとしてたちあげ検証する方法を今まではご紹介してきました。ただ、この方法だと複雑な構成を作ろうとした場合に毎回vSwitch/ポート…",
             "date_modified": "2022-02-08T11:58:47.000Z",
             "date_published": "2022-02-08T11:58:47.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/taront/articles/1bfc2d41af10a7",
-            "content_html": "強化学習の勉強でもしてみようかと調査をしていたら、深層強化学習用の物理シミュレータとしてPyBulletというオープンソースのシミュレータが良く利用されるということをちょくちょく見聞きしました。 事例としては、URDF形式のファイルを読み込んでアーム型のロボット等の挙動をシミュレートするというものが多いようです。 強化学習にもシミュレーションにも疎いもので、PyBulletでどのようなことが出来るのかイメージが湧かず、「ロボットみたいに関節があるモデルの物理演算に特化したものなのかなぁ」と勝手に想像していたのですが、実際にはそんなことはないみたいですね。 以下のようなドローンの挙動をシミ...",
-            "url": "https://zenn.dev/taront/articles/1bfc2d41af10a7",
-            "title": "PyBulletでドローンを飛ばす　その１ | Zennのトレンド",
-            "summary": "強化学習の勉強でもしてみようかと調査をしていたら、深層強化学習用の物理シミュレータとしてPyBulletというオープンソースのシミュレータが良く利用されるということをちょくちょく見聞きしました。 事例としては、URDF形式のファイルを読み込んでアーム型のロボット等の挙動をシミュレートするというものが多いようです。 強化学習にもシミュレーションにも疎いもので、PyBulletでどのようなことが出来る...",
-            "date_modified": "2022-02-08T11:57:25.000Z",
-            "date_published": "2022-02-08T11:57:25.000Z",
-            "author": {
-                "name": "taront"
-            },
             "tags": []
         },
         {
@@ -584,24 +541,6 @@
                 "Ruby",
                 "Ruby on Rails",
                 "週刊Railsウォッチ"
-            ]
-        },
-        {
-            "id": "https://medium.com/p/24c795e451f6",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/github-cloudbuild-supply-chain-24c795e451f6?source=rss----bc6b0ae5a97c---4",
-            "title": "GitHub の PR 作成権限をもっていると CI 越しに GCP のオーナー権限が使える脆弱性 | mixi developers - Medium",
-            "date_modified": "2022-02-08T08:19:01.000Z",
-            "date_published": "2022-02-08T08:19:01.000Z",
-            "author": {
-                "name": "riddle"
-            },
-            "tags": [
-                "security",
-                "cicd",
-                "cloud-build",
-                "github",
-                "supply-chain"
             ]
         },
         {
@@ -786,6 +725,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/winteryukky/articles/c45e107310fe98",
+            "content_html": "これから説明する手法は決して良い手法ではありません。私が苦肉の策として実施した手順であるため他に良い手法があればそちらを優先してください。    はじめに StripeにはVisual Studio Code向けの拡張機能があり、この拡張機能を使用することでSteipeの発行するWebhook HTTPリクエストをローカル環境に飛ばすことができます。これによりWebhook処理の開発体験が向上します。また、AmplifyではAWS Lambdaを利用したREST APIの構築が可能です。しかし、(2022年2月現在)AmplifyはREST APIのモック実行をサポートしておらず、この...",
+            "url": "https://zenn.dev/winteryukky/articles/c45e107310fe98",
+            "title": "Amplify × Nuxt.js × Stripeのローカル環境でStripeのWebhookを処理する | Zennのトレンド",
+            "summary": "これから説明する手法は決して良い手法ではありません。私が苦肉の策として実施した手順であるため他に良い手法があればそちらを優先してください。    はじめに StripeにはVisual Studio Code向けの拡張機能があり、この拡張機能を使用することでSteipeの発行するWebhook HTTPリクエストをローカル環境に飛ばすことができます。これによりWebhook処理の開発体験が向上しま...",
+            "date_modified": "2022-02-08T03:39:53.000Z",
+            "date_published": "2022-02-08T03:39:53.000Z",
+            "author": {
+                "name": "WinterYukky"
+            },
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1386682.html",
             "content_html": "米Microsoft傘下のMojangは2月4日（現地時間）、Java版「Minecraft」のアカウントを「Microsoft アカウント」へ移行していないユーザーは、3月10日以降プレイ不能になることを告知した。同社は2020年10月から新規ユーザー、2021年初めから既存ユーザーの「Microsoft アカウント」への移行を進めていた。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1386682.html",
@@ -857,24 +809,6 @@
             "date_modified": "2022-02-08T01:48:36.000Z",
             "date_published": "2022-02-08T01:48:36.000Z",
             "tags": []
-        },
-        {
-            "id": "https://medium.com/p/e4c350d627e6",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/strongest-terraform-terragrunt-ci-e4c350d627e6?source=rss----bc6b0ae5a97c---4",
-            "title": "CloudBuild で最強のTerraform & Terragrunt CI/CD環境を作る | mixi developers - Medium",
-            "date_modified": "2022-02-08T01:42:54.000Z",
-            "date_published": "2022-02-08T01:42:54.000Z",
-            "author": {
-                "name": "riddle"
-            },
-            "tags": [
-                "ci-cd-pipeline",
-                "terraform",
-                "terragrunt",
-                "cloud-build",
-                "gcp"
-            ]
         },
         {
             "id": "https://caddi.tech/?p=3176",
@@ -1106,6 +1040,19 @@
             "summary": "RAR形式の圧縮に対応する圧縮・解凍ソフト",
             "date_modified": "2022-02-07T22:30:00.000Z",
             "date_published": "2022-02-07T22:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/motch0214/articles/9c4d4ff167a0fe",
+            "content_html": "Next.js v12でMiddlewareという機能が発表されました。 Middlewareの特徴は、フロントエンドとバックエンドの間で実行される処理を書けることです。 このユースケースのひとつに「A/Bテスト」があります。 今回は、なぜA/BテストでMiddlewareを使うのか、どうやってA/Bテストを行うのかを見ていきたいと思います。   A/Bテストとは？  まず、そもそもA/Bテストとは何かを簡単に説明します。 A/Bテストは、Webサイトに複数のバージョンを用意してどちらが良いか調べる手法です。 より商品が売れるサイト、より顧客が惹かれるサイトをつくるためのものです。 考え...",
+            "url": "https://zenn.dev/motch0214/articles/9c4d4ff167a0fe",
+            "title": "Next.jsのMiddlewareでA/Bテストを行って最適なページを知る | Zennのトレンド",
+            "summary": "Next.js v12でMiddlewareという機能が発表されました。 Middlewareの特徴は、フロントエンドとバックエンドの間で実行される処理を書けることです。 このユースケースのひとつに「A/Bテスト」があります。 今回は、なぜA/BテストでMiddlewareを使うのか、どうやってA/Bテストを行うのかを見ていきたいと思います。   A/Bテストとは？  まず、そもそもA/Bテストと...",
+            "date_modified": "2022-02-07T22:00:50.000Z",
+            "date_published": "2022-02-07T22:00:50.000Z",
+            "author": {
+                "name": "かずもと"
+            },
             "tags": []
         },
         {
@@ -1426,19 +1373,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/smagch/articles/5c22646b26dbd1",
-            "content_html": "これまで一番ためになったプログラミングのアドバイスは何ですか？ 過去を振り返ると、誰にだって教訓的なエピソードがあるのではないでしょうか。 著名なソフトウェアエンジニアであっても、それは例外ではないようです。Google に勤めるロブ・パイクは、UTF-8 や Go 言語の共同開発者として知られていますが、彼も駆け出しのころに先達から教訓を学んでいました。 ベル研究所に入所して間もないころ、ロブはデバッグするより先にまず頭で考える、という教訓をケン・トンプソンから学びました。これは、まさにプログラミングの極意の一つと言えるものではないでしょうか。  インタビュー記事 “The Best ...",
-            "url": "https://zenn.dev/smagch/articles/5c22646b26dbd1",
-            "title": "ロブ・パイクが学んだプラグラミング・アドバイスとは？　デバッグするより先にまず頭で考える | Zennのトレンド",
-            "summary": "これまで一番ためになったプログラミングのアドバイスは何ですか？ 過去を振り返ると、誰にだって教訓的なエピソードがあるのではないでしょうか。 著名なソフトウェアエンジニアであっても、それは例外ではないようです。Google に勤めるロブ・パイクは、UTF-8 や Go 言語の共同開発者として知られていますが、彼も駆け出しのころに先達から教訓を学んでいました。 ベル研究所に入所して間もないころ、ロブは...",
-            "date_modified": "2022-02-07T07:19:33.000Z",
-            "date_published": "2022-02-07T07:19:33.000Z",
-            "author": {
-                "name": "smagch"
-            },
-            "tags": []
-        },
-        {
             "id": "https://math-fun.net/?p=22183",
             "content_html": "線形代数学（linear algebra）は、微積分学と並び、大学で数学をする人はもちろん、自然科学や工学、社会科学や人文科学を学ぶすべての人が身につけて損はない数学（教養数学）です。高校数学で言えば、ベクトルや行列の分 ... 線形代数の分野ごとの記事まとめ：使い道を知る first appeared on 趣味の大学数学.",
             "url": "https://math-fun.net/20220207/22183/",
@@ -1574,19 +1508,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/moyotsukai/articles/bacece837a4e48",
-            "content_html": "はじめに ErabeRule(えらべるーる)というWebアプリを開発しました。 ErabeRuleは、様々な投票ルールを実験的に使うことができる投票アプリです。主催者は投票ルームを作成し、ルームのリンクを知っている人がその投票に参加できます。 このアプリの目的は、多くの人に「多数決だけが決め方ではない」ということを知ってもらい、様々な投票ルールを実際に使うことを通して、それらをより身近なものにすることです。 https://www.eraberule.com   開発したきっかけ 昨年僕が高校３年生の時、経済の授業で投票システムについて学び、決め方によって投票の結果が変わってしまうと...",
-            "url": "https://zenn.dev/moyotsukai/articles/bacece837a4e48",
-            "title": "様々な投票ルールを体験できる投票アプリを作った話 | Zennのトレンド",
-            "summary": "はじめに ErabeRule(えらべるーる)というWebアプリを開発しました。 ErabeRuleは、様々な投票ルールを実験的に使うことができる投票アプリです。主催者は投票ルームを作成し、ルームのリンクを知っている人がその投票に参加できます。 このアプリの目的は、多くの人に「多数決だけが決め方ではない」ということを知ってもらい、様々な投票ルールを実際に使うことを通して、それらをより身近なものにする...",
-            "date_modified": "2022-02-07T03:46:50.000Z",
-            "date_published": "2022-02-07T03:46:50.000Z",
-            "author": {
-                "name": "もようつかい"
-            },
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/standfm/articles/b2168a05b5bcea",
             "content_html": "はじめに こんにちは、stand.fm でMLエンジニアをしている市村です。 stand.fmではコンテンツのレコメンドを機械学習を用いて行おうとしており、現在はそのためのシステム開発・モデル開発を行っています。 stand.fmにはたくさんの配信者さんが作成したチャンネルや放送があるのですが、今現在はトップ画面に出す放送のパーソナライズは出来ておらず、全員に同じ放送が出ています。ここをパーソナライズすることで、一般に人気のある放送だけではなく、よりユーザー一人ひとりの趣向に沿った放送を見つけてもらえるようにするというのが当面の目標です。 本記事では、AI platform上に作った...",
             "url": "https://zenn.dev/standfm/articles/b2168a05b5bcea",
@@ -1607,6 +1528,19 @@
             "summary": "米Twitterは2月4日（現地時間）、「自分向きではない」機能のテスト展開を拡大したと発表した。ツイートへの返信（リプライ）に「反対票」（downvote）を投じて、表示されるリプライの品質を高める意図があるようだ。この機能はWeb版へ展開中で、編集部でも一部アカウントで利用できることを確認した。iOSとAndroidでも近々返信の「自分向きではない」機能が利用可能になるとのこと。",
             "date_modified": "2022-02-07T03:43:58.000Z",
             "date_published": "2022-02-07T03:43:58.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/akiya_souken/articles/use-ue4-on-linux-with-vscode",
+            "content_html": "目的  UE4をLinuxで動かしたい IDEは使い慣れているVS Codeを使いたい  というときのための環境構築方法です。   検証環境  Unreal Engine: 4.26.2 Vulkan utils: 1.1.70+dfsg1-1ubuntu0.18.04.1 .NET SDK: 6.0.101-1 OS: Ubuntu Desktop 18.04.6 LTS CPU: Intel i3-8350K GPU: NVIDIA GeForce GTX 1080 Ti  Driver: 450.156      インストール   UE4 Linuxクイックスタートガイドに沿っ...",
+            "url": "https://zenn.dev/akiya_souken/articles/use-ue4-on-linux-with-vscode",
+            "title": "Unreal EngineをLinuxで、Visual Studio Codeを使って動かす | Zennのトレンド",
+            "summary": "目的  UE4をLinuxで動かしたい IDEは使い慣れているVS Codeを使いたい  というときのための環境構築方法です。   検証環境  Unreal Engine: 4.26.2 Vulkan utils: 1.1.70+dfsg1-1ubuntu0.18.04.1 .NET SDK: 6.0.101-1 OS: Ubuntu Desktop 18.04.6 LTS CPU: Intel ...",
+            "date_modified": "2022-02-07T03:43:07.000Z",
+            "date_published": "2022-02-07T03:43:07.000Z",
+            "author": {
+                "name": "空き家総合研究所"
+            },
             "tags": []
         },
         {
@@ -1694,6 +1628,19 @@
             "content_html": "こんにちは、スターフェスティバル エンジニアのsoriです。 今回は、AWS ECS上で構築してある、定時batch処理を行うClusterのScheduled Task（日本語ではタスクのスケジューリングと書いてありますね）の処理を、EC2起動タイプからFargate起動タイプへ移行したことについて、対応した内容とトラブル解決についてお話します。   前提 そもそも、なぜEC2からFargateに移行したかったかという話ですが、既存のEC2環境で動かしていたところ、バランシング先のうち一台のEC2環境がスタックして動かなったことがあったり、Container agentのアップデートが...",
             "url": "https://zenn.dev/stafes/articles/ecs-task-ec2-to-fargate",
             "title": "Amazon ECS on EC2のTaskをFargateに移行する | stafesさんのフィード",
+            "summary": "こんにちは、スターフェスティバル エンジニアのsoriです。 今回は、AWS ECS上で構築してある、定時batch処理を行うClusterのScheduled Task（日本語ではタスクのスケジューリングと書いてありますね）の処理を、EC2起動タイプからFargate起動タイプへ移行したことについて、対応した内容とトラブル解決についてお話します。   前提 そもそも、なぜEC2からFargate...",
+            "date_modified": "2022-02-07T01:46:29.000Z",
+            "date_published": "2022-02-07T01:46:29.000Z",
+            "author": {
+                "name": "stafes"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/stafes/articles/ecs-task-ec2-to-fargate",
+            "content_html": "こんにちは、スターフェスティバル エンジニアのsoriです。 今回は、AWS ECS上で構築してある、定時batch処理を行うClusterのScheduled Task（日本語ではタスクのスケジューリングと書いてありますね）の処理を、EC2起動タイプからFargate起動タイプへ移行したことについて、対応した内容とトラブル解決についてお話します。   前提 そもそも、なぜEC2からFargateに移行したかったかという話ですが、既存のEC2環境で動かしていたところ、バランシング先のうち一台のEC2環境がスタックして動かなったことがあったり、Container agentのアップデートが...",
+            "url": "https://zenn.dev/stafes/articles/ecs-task-ec2-to-fargate",
+            "title": "Amazon ECS on EC2のTaskをFargateに移行する | Zennのトレンド",
             "summary": "こんにちは、スターフェスティバル エンジニアのsoriです。 今回は、AWS ECS上で構築してある、定時batch処理を行うClusterのScheduled Task（日本語ではタスクのスケジューリングと書いてありますね）の処理を、EC2起動タイプからFargate起動タイプへ移行したことについて、対応した内容とトラブル解決についてお話します。   前提 そもそも、なぜEC2からFargate...",
             "date_modified": "2022-02-07T01:46:29.000Z",
             "date_published": "2022-02-07T01:46:29.000Z",
@@ -1827,6 +1774,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/kenghaya/articles/1f6935419e0f21",
+            "content_html": "実装   len()だと、バイト数がカウントされる。 マルチバイトの文字列をカウントするには？   []runeにキャストして、len()でカウントする。 または、utf8.RuneCountInString()でカウントする。     main.go package main  import (  \"fmt\"  \"unicode/utf8\" )  func main() {  str := \"こんにちは\"  fmt.Printf(\"len(): %d (byte)\\n\", len(str))  fmt.Printf(\"[]rune(): %d (rune)\\n\", len([]ru...",
+            "url": "https://zenn.dev/kenghaya/articles/1f6935419e0f21",
+            "title": "Goでマルチバイト文字列カウント | Zennのトレンド",
+            "summary": "実装   len()だと、バイト数がカウントされる。 マルチバイトの文字列をカウントするには？   []runeにキャストして、len()でカウントする。 または、utf8.RuneCountInString()でカウントする。     main.go package main  import (  \"fmt\"  \"unicode/utf8\" )  func main() {  str := \"こ...",
+            "date_modified": "2022-02-06T23:33:07.000Z",
+            "date_published": "2022-02-06T23:33:07.000Z",
+            "author": {
+                "name": "kenbu@web_engineer"
+            },
+            "tags": []
+        },
+        {
             "id": "https://aimstogeek.hatenablog.com/entry/2022/02/07/080000",
             "content_html": "こんにちは！ クイックに転職して早１年半が経ちました。ソフトウェアエンジニアのたろーです！ 私がクイックに入社した2020年の6月は第１回目の緊急事態宣言直後。 我らがWeb室はリモートワークでの勤務体制となっていました。 もともと前職で請負開発や常駐エンジニアとして多くの企業様の文化風土に触れ、様々な開発体制の中でお仕事させていただく機会は多かったので環境の変化には慣れているつもりでしたが、 それでも初めての転職でいきなりリモートワーク、正直色々と不安でした。 しかし！Web室やプロジェクトで行っている取り組みや制度に助けられ、そんな不安はすぐに払拭されました。 ここでリモートワーク真っ盛り…",
             "url": "https://aimstogeek.hatenablog.com/entry/2022/02/07/080000",
@@ -1866,6 +1826,19 @@
                 "machine-learning",
                 "web3"
             ]
+        },
+        {
+            "id": "https://zenn.dev/osprey/articles/networkfirewall-is-not-for-domainbase-restriction",
+            "content_html": "AWS Network FirewallによってSquid等を用いたプロキシサーバを廃止できる。 そんなふうに考えていた時期が私にもありました。 もし同じように考えている方がいれば注意が必要です。 本記事執筆時点において、AWS Network Firewallではプロキシサーバとは異なり、悪意のあるアウトバウンド通信を宛先ドメイン名ベースで制限することはできません。   AWS Network Firewallとは 公式ドキュメントより  AWS Network Firewall のステートフルファイアウォールは、接続の追跡やプロトコルの識別などのトラフィックフローからコンテキストを組...",
+            "url": "https://zenn.dev/osprey/articles/networkfirewall-is-not-for-domainbase-restriction",
+            "title": "AWS Network Firewallはアウトバウンド通信制御のセキュリティ対策にはならない | Zennのトレンド",
+            "summary": "AWS Network FirewallによってSquid等を用いたプロキシサーバを廃止できる。 そんなふうに考えていた時期が私にもありました。 もし同じように考えている方がいれば注意が必要です。 本記事執筆時点において、AWS Network Firewallではプロキシサーバとは異なり、悪意のあるアウトバウンド通信を宛先ドメイン名ベースで制限することはできません。   AWS Network ...",
+            "date_modified": "2022-02-06T21:46:44.000Z",
+            "date_published": "2022-02-06T21:46:44.000Z",
+            "author": {
+                "name": "osprey"
+            },
+            "tags": []
         },
         {
             "id": "https://www.youtube.com/watch?v=WAuaCBmHa3U",
@@ -1952,19 +1925,6 @@
             "summary": "OpenShift Commons Gathering Japan 2021のキーノートを振り返りながら、コンテナ導入の成功要因に迫ります！",
             "date_modified": "2022-02-06T12:00:00.000Z",
             "date_published": "2022-02-06T12:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/nabework/articles/57eefcc2c16f13",
-            "content_html": "※まだ全く思慮してないです。ただ今後考えることがあるかもなのでメモしときたいなと。   登録画面は必要なのか？ TODOアプリや蔵書アプリなど、登録できる内容は違えど、大体以下の機能が構成されていると思います。  一覧表示 新規登録 編集  今回このような機能を持ったアプリで考えていきます。 イメージ図だとこんな感じ。この図の②の画面にどれほどの必要性があるのだろうと、ふと思いました。  仮にTypeScriptで作るとしたら↓なファイルになるでしょうか。  一覧画面（BookList.tsx） 登録画面（AddBookForm.tsx） 編集画面（EditBookForm.tsx）  ...",
-            "url": "https://zenn.dev/nabework/articles/57eefcc2c16f13",
-            "title": "登録画面は必要なのか？ | Zennのトレンド",
-            "summary": "※まだ全く思慮してないです。ただ今後考えることがあるかもなのでメモしときたいなと。   登録画面は必要なのか？ TODOアプリや蔵書アプリなど、登録できる内容は違えど、大体以下の機能が構成されていると思います。  一覧表示 新規登録 編集  今回このような機能を持ったアプリで考えていきます。 イメージ図だとこんな感じ。この図の②の画面にどれほどの必要性があるのだろうと、ふと思いました。  仮にTy...",
-            "date_modified": "2022-02-06T11:21:20.000Z",
-            "date_published": "2022-02-06T11:21:20.000Z",
-            "author": {
-                "name": "nabe work"
-            },
             "tags": []
         },
         {
@@ -2531,21 +2491,6 @@
                 "name": "Ubie, Inc."
             },
             "tags": []
-        },
-        {
-            "id": "https://medium.com/p/aadc6c4acbae",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/asdf-kubeconform-aadc6c4acbae?source=rss----bc6b0ae5a97c---4",
-            "title": "kubeconform の asdf プラグインを作成しました | mixi developers - Medium",
-            "date_modified": "2022-02-04T05:48:41.000Z",
-            "date_published": "2022-02-04T05:48:41.000Z",
-            "author": {
-                "name": "riddle"
-            },
-            "tags": [
-                "asdf",
-                "kubeconform"
-            ]
         },
         {
             "id": "https://paiza.hatenablog.com/entry/2022/02/04/130000",
@@ -5413,18 +5358,6 @@
             ]
         },
         {
-            "id": "https://medium.com/p/168e8e38e9d0",
-            "content_html": "",
-            "url": "https://studist.tech/usability-test-168e8e38e9d0?source=rss----1b85cc1f989a---4",
-            "title": "はじめてのユーザービリティテストで固定観念を打ち崩された | スタディスト開発ブログ - Medium",
-            "date_modified": "2022-01-28T07:10:35.000Z",
-            "date_published": "2022-01-28T07:10:35.000Z",
-            "author": {
-                "name": "Koichi Takenami"
-            },
-            "tags": []
-        },
-        {
             "id": "https://techblog.istyle.co.jp/?p=9522",
             "content_html": "こんにちは！@cosmeアプリ開発をしている yukit です！ 今回は私たちが普段@cosmeアプリの開発をどのように行なっているか紹介していきます。 @cosme iOSアプリ @cosme Androidアプリ ま... Continue reading 投稿 2022年版 @cosme ネイティブアプリケーション開発の裏側 は istyle Tech Blog に最初に表示されました。",
             "url": "https://techblog.istyle.co.jp/archives/9522",
@@ -5593,23 +5526,6 @@
             "date_modified": "2022-01-28T03:00:00.000Z",
             "date_published": "2022-01-28T03:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://medium.com/p/f2cd75e7ab91",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/cloud-build-deep-dive-f2cd75e7ab91?source=rss----bc6b0ae5a97c---4",
-            "title": "Cloud Build Deep Dive [技術書典12] | mixi developers - Medium",
-            "date_modified": "2022-01-28T02:58:48.000Z",
-            "date_published": "2022-01-28T02:58:48.000Z",
-            "author": {
-                "name": "riddle"
-            },
-            "tags": [
-                "deep-dives",
-                "google-cloud-platform",
-                "cloud-build",
-                "gcp"
-            ]
         },
         {
             "id": "18318",
@@ -6525,33 +6441,6 @@
                 "C++",
                 "その他"
             ]
-        },
-        {
-            "id": "https://medium.com/p/7ec01a325acb",
-            "content_html": "",
-            "url": "https://mixi-developers.mixi.co.jp/argocd-with-helm-7ec01a325acb?source=rss----bc6b0ae5a97c---4",
-            "title": "HelmのvaluesとChartが別リポジトリの時にArgoCDでデプロイする方法 | mixi developers - Medium",
-            "date_modified": "2022-01-26T05:22:09.000Z",
-            "date_published": "2022-01-26T05:22:09.000Z",
-            "author": {
-                "name": "riddle"
-            },
-            "tags": [
-                "kubernetes",
-                "helm",
-                "manifest",
-                "argo-cd"
-            ]
-        },
-        {
-            "id": "https://blog.css-net.co.jp/entry/2022/01/26/133148",
-            "content_html": "みなさまこんにちは。株式会社リライフ・ジャパンのHと申します。 株式会社リライフ・ジャパンは、金融系、特に証券系システム開発に強みをもつ会社です。 本日は、証券フロントシステムについてお話させていただきたいと思います。 １．身近になった証券取引 ２．フロントオフィスシステムとバックオフィスシステムのつながり ３．表からは見えないけれど・・・ ４．最後に １．身近になった証券取引 ネットによる証券取引は、誰でも身近なものとなりました。 取引ツールも充実しており、WEBサイトだけではなくスマホアプリや操作を簡単にしたアプリ、PCツールや高度な機能をもたせたツール、あらかじめ希望の値段や条件を複数指…",
-            "url": "https://blog.css-net.co.jp/entry/2022/01/26/133148",
-            "title": "【証券フロントシステム】表からは見えない機能の重要性 | シー・エス・エス イノベーションラボ（ブログ）",
-            "summary": "みなさまこんにちは。株式会社リライフ・ジャパンのHと申します。 株式会社リライフ・ジャパンは、金融系、特に証券系システム開発に強みをもつ会社です。 本日は、証券フロントシステムについてお話させていただきたいと思います。 １．身近になった証券取引 ２．フロントオフィスシステムとバックオフィスシステムのつながり ３．表からは見えないけれど・・・ ４．最後に １．身近になった証券取引 ネットによる証券取...",
-            "date_modified": "2022-01-26T04:31:48.000Z",
-            "date_published": "2022-01-26T04:31:48.000Z",
-            "tags": []
         }
     ]
 }
