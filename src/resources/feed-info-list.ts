@@ -244,6 +244,47 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['虎の穴', 'https://toranoana-lab.hatenablog.com/feed'],
   ['電通国際情報サービス', 'https://tech.isid.co.jp/feed'],
   ['食べチョク', 'https://tech.tabechoku.com/feed'],
+
+  // 追加分(テックブログ)
+  ['TECHBLOG - Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
+  ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
+
+  // 追加分(AI全般)
+  ['The Gradient', 'https://thegradient.pub/rss/'],
+  ['Nautilus', 'http://m.nautil.us/rss/all'],
+  ['Deep Learning JP', 'https://deeplearning.jp/feed/'],
+  ['AI論文コレクション', 'https://ai-research-collection.com/feed/'],
+  ['Hacker Noon - machine-learning', 'https://cdn.hackernoon.com/tagged/machine-learning/feed'],
+  ['TECH BLOG - 株式会社AI Shift', 'https://www.ai-shift.co.jp/techblog/feed/'],
+  ['KDnuggets', 'http://feeds.feedburner.com/kdnuggets-data-mining-analytics'],
+  ['Distill', 'http://distill.pub/rss.xml'],
+  ['Facebook', 'https://research.facebook.com/feed/'],
+  ['Deep Mind', 'https://deepmind.com/blog/feed/basic/'],
+  ['The Stanford AI Lab Blog', 'http://ai.stanford.edu/blog/feed.xml'],
+  ['Amazon Science', 'https://www.amazon.science/index.rss'],
+  ['The AI Blog', 'https://blogs.microsoft.com/ai?feed=rss2'],
+  ['Google AI Blog', 'http://googleaiblog.blogspot.com/atom.xml'],
+
+  // (はてなブログ)
+  ['kanayamaのブログ', 'https://tepppei.hatenablog.com/rss'],
+  ['u++の備忘録', 'https://upura.hatenablog.com/rss'],
+  ['渋谷駅前で働くデータサイエンティストのブログ', 'https://tjo.hatenablog.com/rss'],
+  ['Taste of Tech Topics', 'https://acro-engineer.hatenablog.com/rss'],
+
+  // 追加分(コンピュータビジョン)
+  // (はてなブログ)
+  ['CV CG CP ML CMOS', 'https://klb.hatenablog.com/rss'],
+  ['takminの書きっぱなし備忘録 @はてなブログ', 'https://takmin.hatenablog.com/rss'],
+
+  // 追加分(数学全般)
+  // (はてなブログ)
+  ['とぽろじい　～大人の数学自由研究～', 'https://math-topology.hatenablog.com/rss'],
+  ['tsujimotterのノートブック', 'https://tsujimotter.hatenablog.com/rss'],
+  ['Jij Tech Blog', 'https://jijtech.hatenablog.com/rss'],
+  ['ちょーさんメモ出張版 気まぐれブログ', 'https://cho-san.hatenablog.jp/rss'],
+
+  // (LiveDoor)
+  ['龍孫江の数学日誌', 'http://blog.livedoor.jp/ron1827-algebras/atom.xml'],
 ]);
 
 // 候補
