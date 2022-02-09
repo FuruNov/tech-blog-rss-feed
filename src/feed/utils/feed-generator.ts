@@ -1,7 +1,7 @@
 import * as RssParser from 'rss-parser';
 import { Feed, FeedOptions } from 'feed';
 
-const SITE_URL = 'https://yamadashy.github.io/tech-blog-rss-feed';
+const SITE_URL = 'https://furunov.github.io/rss-feed';
 
 export class FeedGenerator {
   generateFeed(feedItems: RssParser.Item[], maxFeedDescriptionLength: number, maxFeedContentLength: number) {
