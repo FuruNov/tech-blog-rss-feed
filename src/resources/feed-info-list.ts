@@ -249,6 +249,28 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['TECHBLOG - Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
   ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
 
+  // 追加分(Podcast)
+  ['fukabori.fm', 'https://pitpa.jp/rss/fukabori'],
+  ['Rebuild', 'https://feeds.rebuild.fm/rebuildfm'],
+
+  // 追加分(Qiita)
+  ['Qiita - 人気の記事', 'https://qiita.com/popular-items/feed.atom'],
+
+  // 追加分(Zenn)
+  ['Zennのトレンド', 'https://zenn.dev/feed'],
+
+  // 追加分(Twitter)
+  ['AI-SCHOLAR', 'https://nitter.net/ai_scholar/rss'],
+  ['OpenAI', 'https://nitter.net/OpenAI/rss'],
+  ['cvpaper.challenge', 'https://nitter.net/CVpaperChalleng/rss'],
+  ['nlpaper.challenge', 'https://nitter.net/NlpaperChalleng/rss'],
+
+  // 追加分(YouTube)
+  ['予備校のノリで学ぶ「大学の数学・物理」', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCqmWJJolqAgjIdLqK3zD1QQ'],
+  ['Two Minute Papers', 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg'],
+  ['Hitoshi Arai, 数理科学デジタルオープンレクチャーズ', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1lFftT-LKp34mNbV0pjkRw'],
+  ['AIcia Solid Project', 'https://www.youtube.com/feeds/videos.xml?channel_id=UC2lJYodMaAfFeFQrGUwhlaQ'],
+
   // 追加分(AI全般)
   ['The Gradient', 'https://thegradient.pub/rss/'],
   ['Nautilus', 'http://m.nautil.us/rss/all'],
@@ -264,23 +286,67 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['Amazon Science', 'https://www.amazon.science/index.rss'],
   ['The AI Blog', 'https://blogs.microsoft.com/ai?feed=rss2'],
   ['Google AI Blog', 'http://googleaiblog.blogspot.com/atom.xml'],
+
   // (はてなブログ)
   ['kanayamaのブログ', 'https://tepppei.hatenablog.com/rss'],
   ['u++の備忘録', 'https://upura.hatenablog.com/rss'],
   ['渋谷駅前で働くデータサイエンティストのブログ', 'https://tjo.hatenablog.com/rss'],
   ['Taste of Tech Topics', 'https://acro-engineer.hatenablog.com/rss'],
+
+  // (getrevue)
+  ['State of AI Report', 'https://www.getrevue.co/profile/stateofai?format=rss'],
+  ['Akira\'s Machine Learning News (ja)', 'https://www.getrevue.co/profile/akiratosei_ja?format=rss'],
+  ['piqcy', 'https://www.getrevue.co/profile/icoxfog417?format=rss'],
+  ['Weekly Kaggle News', 'http://www.getrevue.co/profile/upura?format=rss'],
+
+  // subtrack
+  ['Deep Learning Weekly', 'https://www.deeplearningweekly.com/feed/'],
+
+  // 追加分(MLOps)
+  ['MLOps - Practices', 'https://masatakashiwagi.github.io/mlops-practices/index.xml'],
+
   // 追加分(コンピュータビジョン)
   // (はてなブログ)
   ['CV CG CP ML CMOS', 'https://klb.hatenablog.com/rss'],
   ['takminの書きっぱなし備忘録 @はてなブログ', 'https://takmin.hatenablog.com/rss'],
+
   // 追加分(数学全般)
+  ['数学の景色', 'https://mathlandscape.com/feed/'],
+  ['大学数学の授業ノート', 'https://math-notes.info/feed/'],
+  ['趣味の大学数学', 'https://math-fun.net/feed/'],
+  ['What\'s new', 'https://terrytao.wordpress.com/feed/'],
+  ['The n-Category Café', 'https://golem.ph.utexas.edu/category/atom10.xml'],
+  ['Dan Ma\'s Topology Blog', 'https://dantopology.wordpress.com/feed'],
+
   // (はてなブログ)
-  ['とぽろじい　～大人の数学自由研究～', 'https://math-topology.hatenablog.com/rss'],
+  // 8年後の記事があったため湖面アウト
+  // ['とぽろじい　～大人の数学自由研究～', 'https://math-topology.hatenablog.com/rss'],
   ['tsujimotterのノートブック', 'https://tsujimotter.hatenablog.com/rss'],
   ['Jij Tech Blog', 'https://jijtech.hatenablog.com/rss'],
   ['ちょーさんメモ出張版 気まぐれブログ', 'https://cho-san.hatenablog.jp/rss'],
   // (LiveDoor)
   ['龍孫江の数学日誌', 'http://blog.livedoor.jp/ron1827-algebras/atom.xml'],
+
+  // 追加分(物理学)
+  ['Yusuke Hayashi\'s Blog', 'https://hayashiyus.jp/?feed=rss2'],
+
+  // 追加分(学術英語)
+  ['学術英語アカデミー', 'https://www.ulatus.jp/academy/feed/'],
+
+  // 追加分(ロボティクス)
+  ['東京ロボティクス開発者ブログ', 'http://blog.robotics.tokyo/feed'],
+  ['Preferred Networks Research & Development', 'https://tech.preferred.jp/ja/blog/feed/'],
+
+  // 追加分(脳科学・神経科学)
+  ['pooneilの脳科学論文コメント', 'http://pooneil.sakura.ne.jp/atom.xml'],
+
+  // 追加分(新刊出版)
+  ['森北出版', 'https://note.com/morikita/rss'],
+
+  // 追加分(Windowsソフト)
+  ['新着ソフトレビュー - Vector', 'https://www.vector.co.jp/rss/softnews.xml'],
+  ['窓の杜', 'https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf'],
+
 ]);
 
 // 候補
