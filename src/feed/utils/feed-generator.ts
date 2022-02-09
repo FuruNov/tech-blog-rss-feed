@@ -6,8 +6,8 @@ const SITE_URL = 'https://furunov.github.io/rss-feed';
 export class FeedGenerator {
   generateFeed(feedItems: RssParser.Item[], maxFeedDescriptionLength: number, maxFeedContentLength: number) {
     const outputFeed = new Feed({
-      title: '企業テックブログRSS',
-      description: '企業のテックブログの更新をまとめたRSSフィード',
+      title: 'RSSまとめ by FuruNov',
+      description: 'RSSフィードのまとめ',
       language: 'ja',
       id: `${SITE_URL}/`,
       link: `${SITE_URL}/`,
