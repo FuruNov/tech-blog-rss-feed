@@ -7,6 +7,46 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://zenn.dev/randd/articles/84ac7de7f22800",
+            "content_html": "伊藤です。dockerでいつもコンテナを作り直す必要がある時とない時、何が違うのかと疑問に思っていたのですが、理由がわかったので共有します。 そもそもマウントには「取り付ける」という意味がありますが、dockerでは何を取り付けているのかというとコンテナに自分のPCのストレージの一部（これをvolumeと呼ぶ）をマウントしています。 そして、このマウントの方法には２種類あるのです。（ここがややこしい）   1 ボリュームマウント volumeマウントは、docker engineの管理下にvolumeを確保してそこにファイルを管理します。こちらのいい点としては、docker engine...",
+            "url": "https://zenn.dev/randd/articles/84ac7de7f22800",
+            "title": "Docker完全に理解した（マウントについて） | 株式会社R&Dさんのフィード",
+            "summary": "伊藤です。dockerでいつもコンテナを作り直す必要がある時とない時、何が違うのかと疑問に思っていたのですが、理由がわかったので共有します。 そもそもマウントには「取り付ける」という意味がありますが、dockerでは何を取り付けているのかというとコンテナに自分のPCのストレージの一部（これをvolumeと呼ぶ）をマウントしています。 そして、このマウントの方法には２種類あるのです。（ここがややこし...",
+            "date_modified": "2022-02-10T11:22:17.000Z",
+            "date_published": "2022-02-10T11:22:17.000Z",
+            "author": {
+                "name": "株式会社R&D"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://blog.engineer.adways.net/entry/2022/02/10/200000",
+            "content_html": "こんにちは。まっちゃんです。前までは上流工程などで要件決めを携わることが多かったのですが、ここ半年で開発機会を増やしています。改めてレビューで多くの指摘をもらったり、設計思想の考え方、効率的な書き方など日々学ばせて頂いてます。 考えながらのコーディング、楽しいですね。今回は GCP をガッツリ触ってシステム構築をしたり、 TypeScript でのアプリケーション開発を一から行いました。 仮説検証におけるコストパフォーマンスやシステム開発のコストパフォーマンスのバランスについて考えるきっかけになったので今回書くことにしました。",
+            "url": "https://blog.engineer.adways.net/entry/2022/02/10/200000",
+            "title": "なぜ崩したシステム設計が事業貢献、仮説検証のしやすさに繋がるのか？最近の事例から考える | Adwaysエンジニアブログ",
+            "summary": "こんにちは。まっちゃんです。前までは上流工程などで要件決めを携わることが多かったのですが、ここ半年で開発機会を増やしています。改めてレビューで多くの指摘をもらったり、設計思想の考え方、効率的な書き方など日々学ばせて頂いてます。 考えながらのコーディング、楽しいですね。今回は GCP をガッツリ触ってシステム構築をしたり、 TypeScript でのアプリケーション開発を一から行いました。 仮説検証...",
+            "date_modified": "2022-02-10T11:00:00.000Z",
+            "date_published": "2022-02-10T11:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://mathlandscape.com/?p=24604",
+            "content_html": "関数の台 (support) とは定義域の，値が消滅しない部分集合 やその閉包 を指します。これについて，もう少し掘り下げて解説しましょう。 関数の台(supp)とは 大学数学で を使うときは後者の意味(閉包を取る方)が […]",
+            "url": "https://mathlandscape.com/supp/",
+            "title": "関数の台(supp)とは | 数学の景色",
+            "summary": "関数の台 (support) とは定義域の，値が消滅しない部分集合 やその閉包 を指します。これについて，もう少し掘り下げて解説しましょう。 関数の台(supp)とは 大学数学で を使うときは後者の意味(閉包を取る方)が […]",
+            "date_modified": "2022-02-10T10:00:00.000Z",
+            "date_published": "2022-02-10T10:00:00.000Z",
+            "author": {
+                "name": "数学の景色"
+            },
+            "tags": [
+                "記号・記法",
+                "用語・記号の定義",
+                "大学専門"
+            ]
+        },
+        {
             "id": "https://tech.classi.jp/entry/2022/02/10/181500?utm_source=feed",
             "content_html": "こんにちは・こんばんは・おはようございます 開発支援部基盤バックエンドチームのid:aerealです。 今回は小粒でピリリと辛いちょっとしたテクニックをお届けします。 Goとコード生成 Goとコード生成は密接な関係にあります。 なにしろ go generate というサブコマンドが提供されているほどです。 Classiが開発しているGoを採用したミドルウェア・dronにおいてもgomockによるモック実装の生成やOpenAPI仕様からGoの型の生成などで利用しています。 参考: dron: クラウドネイティブなcron代替の紹介 - Classi開発者ブログ コード生成とRenovate コー…",
             "url": "https://tech.classi.jp/entry/2022/02/10/181500?utm_source=feed",
@@ -93,10 +133,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9906",
-            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  Reacji Channelerを使って楽をしようとしたら情弱であることを晒してしまった…の巻  Is Cloud Engineering a Promising Career Field to Get Into?  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」  【速報】RubyKaigi 2014レポ：tending the ruby ecosystem   Copyright © Engineers' Blog [How to start SRE in a small team, all by yo...",
+            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ActiveRecordを拡張するgemでテストを書くには？  京都開発拠点を2年運営して見えてきた採用の傾向  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  Newcomerがイイと思った、マネフォの新サービスリリースTips  Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/",
             "title": "How to start SRE in a small team, all by yourself. | Engineers' Blog",
-            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
+            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Act...",
             "date_modified": "2022-02-10T08:00:09.000Z",
             "date_published": "2022-02-10T08:00:09.000Z",
             "author": {
@@ -520,6 +560,27 @@
             "tags": []
         },
         {
+            "id": "https://hackernoon.com/using-weights-and-biases-to-perform-hyperparameter-optimization?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/using-weights-and-biases-to-perform-hyperparameter-optimization?source=rss",
+            "title": "Using Weights and Biases to Perform Hyperparameter Optimization | Hacker Noon - machine-learning",
+            "date_modified": "2022-02-10T00:20:05.000Z",
+            "date_published": "2022-02-10T00:20:05.000Z",
+            "author": {
+                "name": "CodeChem"
+            },
+            "tags": [
+                "hyperparameter-optimization",
+                "algorithms",
+                "ml",
+                "machine-learning",
+                "tutorial",
+                "ai",
+                "artificial-intelligence",
+                "bayesian-optimization"
+            ]
+        },
+        {
             "id": "https://engineering.dena.com/blog/2022/02/aws-cdk-v2/",
             "content_html": "はじめまして。去年 2021 年の 5 月に DeNA のソリューション事業本部にサーバーサイドエンジニアとしてジョインさせていただいた佐藤康仁といいます。佐藤はたくさんいるので、愛称としてやっさんと呼ばれています。よろしくお願いします。 この記事では、AWS CDK の導入に悩んでいる人や実際 CDK を V2 に上げようか悩んでいる読者に向けて、改めて AWS CDK のよさであったり、CDK を継続的に運用していくための仕組みであったり、V1 と V2 の差分に",
             "url": "https://engineering.dena.com/blog/2022/02/aws-cdk-v2/",
@@ -725,6 +786,16 @@
             ]
         },
         {
+            "id": "https://future-architect.github.io/articles/20220210a/",
+            "content_html": "<img src=\"/images/20220210a/image.png\" alt=\"\" width=\"1200\" height=\"543\" loading=\"lazy\">  <h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\"",
+            "url": "https://future-architect.github.io/articles/20220210a/",
+            "title": "Go 1.18集中連載 net/httpのマイナーチェンジ | フューチャー技術ブログ",
+            "summary": "<img src=\"/images/20220210a/image.png\" alt=\"\" width=\"1200\" height=\"543\" loading=\"lazy\">  <h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\"",
+            "date_modified": "2022-02-09T15:00:00.000Z",
+            "date_published": "2022-02-09T15:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-236",
             "content_html": "DeepMind’s AlphaCode, deploying machine learning models on AWS Lambda, a fast DataFrames library implemented with Rust, interleaved transformers for volumetric segmentation, and more",
             "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-236",
@@ -792,7 +863,7 @@
             "id": "https://qiita.com/rait0/items/e92a3104acd68bee547d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "結論  global usingを使います。  global using System.Diagnostics;   解説  usingの前にglobalをつけることでそのプロジェクトのすべてのソースファイ…",
             "url": "https://qiita.com/rait0/items/e92a3104acd68bee547d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【C#】すべてのソースファイル(.csファイル)でUsingステートメントを参照する方法 | Qiita - 人気の記事",
+            "title": "【C#】すべてのソースファイル(.csファイル)でUsingディレクティブを参照する方法 | Qiita - 人気の記事",
             "summary": "結論  global usingを使います。  global using System.Diagnostics;   解説  usingの前にglobalをつけることでそのプロジェクトのすべてのソースファイ…",
             "date_modified": "2022-02-09T11:35:04.000Z",
             "date_published": "2022-02-09T11:35:04.000Z",
@@ -864,7 +935,7 @@
             "id": "https://nitter.net/ai_scholar/status/1491347543770681347#m",
             "content_html": "様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！ ai-scholar.tech/articles/rei…",
             "url": "https://nitter.net/ai_scholar/status/1491347543770681347#m",
-            "title": "様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！\nhttps://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "title": "RT by @ai_scholar: 様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！\nhttps://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
             "summary": "様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！ ai-scholar.tech/articles/rei…",
             "date_modified": "2022-02-09T09:45:36.000Z",
             "date_published": "2022-02-09T09:45:36.000Z",
@@ -3111,6 +3182,27 @@
             ]
         },
         {
+            "id": "https://hackernoon.com/how-to-build-an-image-search-engine-to-find-similar-images?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/how-to-build-an-image-search-engine-to-find-similar-images?source=rss",
+            "title": "How to Build an Image Search Engine to Find Similar Images | Hacker Noon - machine-learning",
+            "date_modified": "2022-02-04T08:20:41.000Z",
+            "date_published": "2022-02-04T08:20:41.000Z",
+            "author": {
+                "name": "EORA"
+            },
+            "tags": [
+                "computer-vision",
+                "machine-learning",
+                "data-science",
+                "image-search",
+                "image-processing",
+                "machine-learning-tutorials",
+                "good-company",
+                "hackernoon-top-story"
+            ]
+        },
+        {
             "id": "https://blog.cybozu.io/entry/2022/02/04/171154",
             "content_html": "kintone フロントエンドリアーキテクチャプロジェクトリーダーの @koba04です。 昨年末から、kintone フロントエンドリアーキテクチャをプロジェクト（フロリア）として再構成してスタートさせました。フロリアという名前は社内での公募により決定しました。 今回はプロジェクトで目指していることについて紹介します。本プロジェクトの開始前に Cybozu Meetup で話したスライドや動画も公開されているのでよければ見てください。 speakerdeck.com www.youtube.com これまでの取り組みについては下記の記事にて紹介しています。 blog.cybozu.io 3 …",
             "url": "https://blog.cybozu.io/entry/2022/02/04/171154",
@@ -4842,21 +4934,21 @@
             ]
         },
         {
-            "id": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
-            "content_html": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…",
-            "url": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
-            "title": "コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ",
-            "summary": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...",
-            "date_modified": "2022-02-01T02:45:00.000Z",
-            "date_published": "2022-02-01T02:45:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
             "content_html": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
             "url": "https://inside.dmm.com/entry/2022/2/1/ecmo-car",
             "title": "納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside",
             "summary": "なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。",
+            "date_modified": "2022-02-01T02:45:00.000Z",
+            "date_published": "2022-02-01T02:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
+            "content_html": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…",
+            "url": "https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed",
+            "title": "コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ",
+            "summary": "みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...",
             "date_modified": "2022-02-01T02:45:00.000Z",
             "date_published": "2022-02-01T02:45:00.000Z",
             "tags": []
@@ -4985,10 +5077,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9898",
-            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年3月)  iOS版マネーフォワードMEの開発環境について  【レポート】12/11 「急成長スタートアップにおけるDeveloper Productivity勉強会 Ⅱ」  エンジニアデザインをリファクタしてみた  vim のイースターエッグの話   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
+            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 170万ユーザーを支えるアカウントアグリゲーション開発の裏側  RubyKaigi 2016 Rubyスポンサー申込み  iOS App資産タブリニューアルを終えて  MoneyForwardの検索ロジック歴史  【レポート速報】Google I/O 2016 - Day1   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/",
             "title": "Datadogを使った分散トレーシングをクラウド会計で見えるようにした話 | Engineers' Blog",
-            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
+            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 170...",
             "date_modified": "2022-02-01T00:30:07.000Z",
             "date_published": "2022-02-01T00:30:07.000Z",
             "author": {
@@ -5407,10 +5499,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9896",
-            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法  Go Conference 2021 Autumn にブロンズプランで協賛します  2021年のエンジニアブログをふりかえる  Day1からData Informedを実現するAmazon QuickSight  マネーフォワードのビルド・リリース改善   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
+            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた  Javaエンジニアが、Rubyを始めてみて受けた衝撃  マネーフォワード社員のお金の管理術 「お金を貯めるにはヒリヒリしよう」  【速報】RubyKaigi 2014レポ：Write ruby code to change ruby code  マネーフォワードCTOが考えていること（2020年6月）   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/",
             "title": "AI推進部における読書会の紹介 | Engineers' Blog",
-            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goが...",
+            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-01-31T04:56:38.000Z",
             "date_published": "2022-01-31T04:56:38.000Z",
             "author": {
@@ -6181,10 +6273,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9882",
-            "content_html": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: UITestのスクリーンショットを一覧で見たい  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  全社員に「セキュリティ」への興味をもたせたい！ 社内報『月刊マネフォセキュリティ』の紹介  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  SamurAI Codingに参加してみませんか？   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserve...",
+            "content_html": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 詳解 リリース計画  【速報】RubyKaigi 2014レポ：The Twelve-factor Ruby 「Ruby を良くするための12のポイント」  初めてWWDCに行って - 準備から帰宅まで  マネーフォワードへの道（バスで行く 京都開発拠点編）  MF KESSAI Tech Blog新設のおしらせ   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/28/no-moyamoya-method/",
             "title": "モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台 | Engineers' Blog",
-            "summary": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: UIT...",
+            "summary": "「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 詳解 ...",
             "date_modified": "2022-01-28T03:57:32.000Z",
             "date_published": "2022-01-28T03:57:32.000Z",
             "author": {
@@ -6483,50 +6575,6 @@
                 "name": "Dokokade"
             },
             "tags": []
-        },
-        {
-            "id": "https://zenn.dev/dokokade/articles/624eae94bf6a44",
-            "content_html": "ボクの http:// localhost:3000 ってどうやってみんなに見てもらえるの？？ ※ドメインとかVirtualHostとかWebサーバの立ち上げ方の記事ではありません。 意外とこういう記事がないので起こします。nginxでも似たような感じでしょう。例えば、もうワードプレスいれちゃったからApacheも80,443ポートも使っちゃってるよーみたいな。 あと、新しい言語勉強しているときに、「ほらできました！」というlocalhostでブラウザに表示される世界。 http://localhost:3000/ グローバルに公開したい訳です。まぁ経験があるといつもの事ですが、やっ...",
-            "url": "https://zenn.dev/dokokade/articles/624eae94bf6a44",
-            "title": "Apacheでサービスを立ち上げちゃった人が、同じ鯖でReactやGo、RustのWebサービスを立ち上げたい時 | Dokokadeさんのフィード",
-            "summary": "ボクの http:// localhost:3000 ってどうやってみんなに見てもらえるの？？ ※ドメインとかVirtualHostとかWebサーバの立ち上げ方の記事ではありません。 意外とこういう記事がないので起こします。nginxでも似たような感じでしょう。例えば、もうワードプレスいれちゃったからApacheも80,443ポートも使っちゃってるよーみたいな。 あと、新しい言語勉強しているときに...",
-            "date_modified": "2022-01-27T10:49:13.000Z",
-            "date_published": "2022-01-27T10:49:13.000Z",
-            "author": {
-                "name": "Dokokade"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://paiza.hatenablog.com/entry/2022/01/27/183000",
-            "content_html": "どうも、まさとらん（@0310lan）です！今回は、JavaScriptを使ってとにかく遊んだり楽しんだりできるインタラクティブなWebサービスやツールを厳選してご紹介します。ゲーム体験をしたり、アート作品を作ったり、JavaScriptで開発されたユニークなサービスを利用してじっくりと遊んでみましょう。Webの楽しい世界にご興味ある方は、ぜひ参考にしてください！ ■リアルタイムにコードを書いて戦うオンライン対戦ゲーム 【yare.io】 世界中のプレイヤーと1対1で戦うゲームなのですが、その戦い方はJavaScriptのコードをリアルタイムに書き換えながら自機を操作するというのが大きな特徴で…",
-            "url": "https://paiza.hatenablog.com/entry/2022/01/27/183000",
-            "title": "JavaScriptを遊び尽くす究極のWebサービス・ツールを厳選して大公開！ | paiza開発日誌",
-            "summary": "どうも、まさとらん（@0310lan）です！今回は、JavaScriptを使ってとにかく遊んだり楽しんだりできるインタラクティブなWebサービスやツールを厳選してご紹介します。ゲーム体験をしたり、アート作品を作ったり、JavaScriptで開発されたユニークなサービスを利用してじっくりと遊んでみましょう。Webの楽しい世界にご興味ある方は、ぜひ参考にしてください！ ■リアルタイムにコードを書いて戦...",
-            "date_modified": "2022-01-27T09:30:00.000Z",
-            "date_published": "2022-01-27T09:30:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://hackernoon.com/web3-enables-users-to-create-and-own-their-web-experience?source=rss",
-            "content_html": "",
-            "url": "https://hackernoon.com/web3-enables-users-to-create-and-own-their-web-experience?source=rss",
-            "title": "Web3 Enables Users to Create and Own their Web Experience  | Hacker Noon - machine-learning",
-            "date_modified": "2022-01-27T09:27:43.000Z",
-            "date_published": "2022-01-27T09:27:43.000Z",
-            "author": {
-                "name": "Ishan Pandey"
-            },
-            "tags": [
-                "technology",
-                "web3",
-                "gaming-metaverse",
-                "fetch",
-                "ai",
-                "machine-learning",
-                "decentralized-internet",
-                "founder-stories"
-            ]
         }
     ]
 }

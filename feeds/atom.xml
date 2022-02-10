@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-02-10T09:26:51.852Z</updated>
+    <updated>2022-02-10T11:24:22.579Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,42 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Docker完全に理解した（マウントについて） | 株式会社R&Dさんのフィード]]></title>
+        <id>https://zenn.dev/randd/articles/84ac7de7f22800</id>
+        <link href="https://zenn.dev/randd/articles/84ac7de7f22800"/>
+        <updated>2022-02-10T11:22:17.000Z</updated>
+        <summary type="html"><![CDATA[伊藤です。dockerでいつもコンテナを作り直す必要がある時とない時、何が違うのかと疑問に思っていたのですが、理由がわかったので共有します。 そもそもマウントには「取り付ける」という意味がありますが、dockerでは何を取り付けているのかというとコンテナに自分のPCのストレージの一部（これをvolumeと呼ぶ）をマウントしています。 そして、このマウントの方法には２種類あるのです。（ここがややこし...]]></summary>
+        <content type="html"><![CDATA[伊藤です。dockerでいつもコンテナを作り直す必要がある時とない時、何が違うのかと疑問に思っていたのですが、理由がわかったので共有します。 そもそもマウントには「取り付ける」という意味がありますが、dockerでは何を取り付けているのかというとコンテナに自分のPCのストレージの一部（これをvolumeと呼ぶ）をマウントしています。 そして、このマウントの方法には２種類あるのです。（ここがややこしい）   1 ボリュームマウント volumeマウントは、docker engineの管理下にvolumeを確保してそこにファイルを管理します。こちらのいい点としては、docker engine...]]></content>
+        <author>
+            <name>株式会社R&amp;D</name>
+        </author>
+        <published>2022-02-10T11:22:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[なぜ崩したシステム設計が事業貢献、仮説検証のしやすさに繋がるのか？最近の事例から考える | Adwaysエンジニアブログ]]></title>
+        <id>https://blog.engineer.adways.net/entry/2022/02/10/200000</id>
+        <link href="https://blog.engineer.adways.net/entry/2022/02/10/200000"/>
+        <updated>2022-02-10T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。まっちゃんです。前までは上流工程などで要件決めを携わることが多かったのですが、ここ半年で開発機会を増やしています。改めてレビューで多くの指摘をもらったり、設計思想の考え方、効率的な書き方など日々学ばせて頂いてます。 考えながらのコーディング、楽しいですね。今回は GCP をガッツリ触ってシステム構築をしたり、 TypeScript でのアプリケーション開発を一から行いました。 仮説検証...]]></summary>
+        <content type="html"><![CDATA[こんにちは。まっちゃんです。前までは上流工程などで要件決めを携わることが多かったのですが、ここ半年で開発機会を増やしています。改めてレビューで多くの指摘をもらったり、設計思想の考え方、効率的な書き方など日々学ばせて頂いてます。 考えながらのコーディング、楽しいですね。今回は GCP をガッツリ触ってシステム構築をしたり、 TypeScript でのアプリケーション開発を一から行いました。 仮説検証におけるコストパフォーマンスやシステム開発のコストパフォーマンスのバランスについて考えるきっかけになったので今回書くことにしました。]]></content>
+        <published>2022-02-10T11:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[関数の台(supp)とは | 数学の景色]]></title>
+        <id>https://mathlandscape.com/?p=24604</id>
+        <link href="https://mathlandscape.com/supp/"/>
+        <updated>2022-02-10T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[関数の台 (support) とは定義域の，値が消滅しない部分集合 やその閉包 を指します。これについて，もう少し掘り下げて解説しましょう。 関数の台(supp)とは 大学数学で を使うときは後者の意味(閉包を取る方)が […]]]></summary>
+        <content type="html"><![CDATA[関数の台 (support) とは定義域の，値が消滅しない部分集合 やその閉包 を指します。これについて，もう少し掘り下げて解説しましょう。 関数の台(supp)とは 大学数学で を使うときは後者の意味(閉包を取る方)が […]]]></content>
+        <author>
+            <name>数学の景色</name>
+        </author>
+        <category label="記号・記法"/>
+        <category label="用語・記号の定義"/>
+        <category label="大学専門"/>
+        <published>2022-02-10T10:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[go generateを忘れていないかCIで検出する | Classi開発者ブログ]]></title>
         <id>https://tech.classi.jp/entry/2022/02/10/181500?utm_source=feed</id>
@@ -91,8 +127,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9906</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/"/>
         <updated>2022-02-10T08:00:09.000Z</updated>
-        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></summary>
-        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  Reacji Channelerを使って楽をしようとしたら情弱であることを晒してしまった…の巻  Is Cloud Engineering a Promising Career Field to Get Into?  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」  【速報】RubyKaigi 2014レポ：tending the ruby ecosystem   Copyright © Engineers' Blog [How to start SRE in a small team, all by yo...]]></content>
+        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Act...]]></summary>
+        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ActiveRecordを拡張するgemでテストを書くには？  京都開発拠点を2年運営して見えてきた採用の傾向  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  Newcomerがイイと思った、マネフォの新サービスリリースTips  Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -466,6 +502,24 @@
         <published>2022-02-10T00:27:06.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Using Weights and Biases to Perform Hyperparameter Optimization | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/using-weights-and-biases-to-perform-hyperparameter-optimization?source=rss</id>
+        <link href="https://hackernoon.com/using-weights-and-biases-to-perform-hyperparameter-optimization?source=rss"/>
+        <updated>2022-02-10T00:20:05.000Z</updated>
+        <author>
+            <name>CodeChem</name>
+        </author>
+        <category label="hyperparameter-optimization"/>
+        <category label="algorithms"/>
+        <category label="ml"/>
+        <category label="machine-learning"/>
+        <category label="tutorial"/>
+        <category label="ai"/>
+        <category label="artificial-intelligence"/>
+        <category label="bayesian-optimization"/>
+        <published>2022-02-10T00:20:05.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS CDK v2 化マイグレーション目録 〜バージョンアップのウォッチから裏付け検証まで〜 | Blog on DeNA Engineering]]></title>
         <id>https://engineering.dena.com/blog/2022/02/aws-cdk-v2/</id>
         <link href="https://engineering.dena.com/blog/2022/02/aws-cdk-v2/"/>
@@ -649,6 +703,15 @@
         <published>2022-02-09T15:00:27.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Go 1.18集中連載 net/httpのマイナーチェンジ | フューチャー技術ブログ]]></title>
+        <id>https://future-architect.github.io/articles/20220210a/</id>
+        <link href="https://future-architect.github.io/articles/20220210a/"/>
+        <updated>2022-02-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<img src="/images/20220210a/image.png" alt="" width="1200" height="543" loading="lazy">  <h1 id="はじめに"><a href="#はじめに" class="headerlink"]]></summary>
+        <content type="html"><![CDATA[<img src="/images/20220210a/image.png" alt="" width="1200" height="543" loading="lazy">  <h1 id="はじめに"><a href="#はじめに" class="headerlink"]]></content>
+        <published>2022-02-09T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Deep Learning Weekly: Issue #236 | Deep Learning Weekly]]></title>
         <id>https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-236</id>
         <link href="https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-236"/>
@@ -706,7 +769,7 @@
         <published>2022-02-09T12:30:38.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【C#】すべてのソースファイル(.csファイル)でUsingステートメントを参照する方法 | Qiita - 人気の記事]]></title>
+        <title type="html"><![CDATA[【C#】すべてのソースファイル(.csファイル)でUsingディレクティブを参照する方法 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/rait0/items/e92a3104acd68bee547d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/rait0/items/e92a3104acd68bee547d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2022-02-09T11:35:04.000Z</updated>
@@ -771,7 +834,7 @@
         <published>2022-02-09T10:02:59.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！
+        <title type="html"><![CDATA[RT by @ai_scholar: 様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！
 https://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
         <id>https://nitter.net/ai_scholar/status/1491347543770681347#m</id>
         <link href="https://nitter.net/ai_scholar/status/1491347543770681347#m"/>
@@ -2790,6 +2853,24 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
         <published>2022-02-04T08:30:47.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[How to Build an Image Search Engine to Find Similar Images | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/how-to-build-an-image-search-engine-to-find-similar-images?source=rss</id>
+        <link href="https://hackernoon.com/how-to-build-an-image-search-engine-to-find-similar-images?source=rss"/>
+        <updated>2022-02-04T08:20:41.000Z</updated>
+        <author>
+            <name>EORA</name>
+        </author>
+        <category label="computer-vision"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="image-search"/>
+        <category label="image-processing"/>
+        <category label="machine-learning-tutorials"/>
+        <category label="good-company"/>
+        <category label="hackernoon-top-story"/>
+        <published>2022-02-04T08:20:41.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[kintone フロントエンドリアーキテクチャプロジェクトで大切にしていること | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
         <id>https://blog.cybozu.io/entry/2022/02/04/171154</id>
         <link href="https://blog.cybozu.io/entry/2022/02/04/171154"/>
@@ -4332,21 +4413,21 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <published>2022-02-01T03:00:45.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
-        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
-        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
-        <updated>2022-02-01T02:45:00.000Z</updated>
-        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
-        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
-        <published>2022-02-01T02:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside]]></title>
         <id>https://inside.dmm.com/entry/2022/2/1/ecmo-car</id>
         <link href="https://inside.dmm.com/entry/2022/2/1/ecmo-car"/>
         <updated>2022-02-01T02:45:00.000Z</updated>
         <summary type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></summary>
         <content type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></content>
+        <published>2022-02-01T02:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
+        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
+        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
+        <updated>2022-02-01T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
+        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
         <published>2022-02-01T02:45:00.000Z</published>
     </entry>
     <entry>
@@ -4463,8 +4544,8 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=9898</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/"/>
         <updated>2022-02-01T00:30:07.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年3月)  iOS版マネーフォワードMEの開発環境について  【レポート】12/11 「急成長スタートアップにおけるDeveloper Productivity勉強会 Ⅱ」  エンジニアデザインをリファクタしてみた  vim のイースターエッグの話   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 170...]]></summary>
+        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 170万ユーザーを支えるアカウントアグリゲーション開発の裏側  RubyKaigi 2016 Rubyスポンサー申込み  iOS App資産タブリニューアルを終えて  MoneyForwardの検索ロジック歴史  【レポート速報】Google I/O 2016 - Day1   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4837,8 +4918,8 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=9896</id>
         <link href="https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/"/>
         <updated>2022-01-31T04:56:38.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goが...]]></summary>
-        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法  Go Conference 2021 Autumn にブロンズプランで協賛します  2021年のエンジニアブログをふりかえる  Day1からData Informedを実現するAmazon QuickSight  マネーフォワードのビルド・リリース改善   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
+        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた  Javaエンジニアが、Rubyを始めてみて受けた衝撃  マネーフォワード社員のお金の管理術 「お金を貯めるにはヒリヒリしよう」  【速報】RubyKaigi 2014レポ：Write ruby code to change ruby code  マネーフォワードCTOが考えていること（2020年6月）   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5522,8 +5603,8 @@ https://ai-scholar.tech/articles/image2image/on-working1 | AI技術最新情報�
         <id>https://moneyforward.com/engineers_blog/?p=9882</id>
         <link href="https://moneyforward.com/engineers_blog/2022/01/28/no-moyamoya-method/"/>
         <updated>2022-01-28T03:57:32.000Z</updated>
-        <summary type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: UIT...]]></summary>
-        <content type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: UITestのスクリーンショットを一覧で見たい  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  全社員に「セキュリティ」への興味をもたせたい！ 社内報『月刊マネフォセキュリティ』の紹介  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  SamurAI Codingに参加してみませんか？   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserve...]]></content>
+        <summary type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 詳解 ...]]></summary>
+        <content type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 詳解 リリース計画  【速報】RubyKaigi 2014レポ：The Twelve-factor Ruby 「Ruby を良くするための12のポイント」  初めてWWDCに行って - 準備から帰宅まで  マネーフォワードへの道（バスで行く 京都開発拠点編）  MF KESSAI Tech Blog新設のおしらせ   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5786,44 +5867,5 @@ https://ai-scholar.tech/articles/image2image/on-working1 | AI技術最新情報�
             <name>Dokokade</name>
         </author>
         <published>2022-01-27T11:37:57.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apacheでサービスを立ち上げちゃった人が、同じ鯖でReactやGo、RustのWebサービスを立ち上げたい時 | Dokokadeさんのフィード]]></title>
-        <id>https://zenn.dev/dokokade/articles/624eae94bf6a44</id>
-        <link href="https://zenn.dev/dokokade/articles/624eae94bf6a44"/>
-        <updated>2022-01-27T10:49:13.000Z</updated>
-        <summary type="html"><![CDATA[ボクの http:// localhost:3000 ってどうやってみんなに見てもらえるの？？ ※ドメインとかVirtualHostとかWebサーバの立ち上げ方の記事ではありません。 意外とこういう記事がないので起こします。nginxでも似たような感じでしょう。例えば、もうワードプレスいれちゃったからApacheも80,443ポートも使っちゃってるよーみたいな。 あと、新しい言語勉強しているときに...]]></summary>
-        <content type="html"><![CDATA[ボクの http:// localhost:3000 ってどうやってみんなに見てもらえるの？？ ※ドメインとかVirtualHostとかWebサーバの立ち上げ方の記事ではありません。 意外とこういう記事がないので起こします。nginxでも似たような感じでしょう。例えば、もうワードプレスいれちゃったからApacheも80,443ポートも使っちゃってるよーみたいな。 あと、新しい言語勉強しているときに、「ほらできました！」というlocalhostでブラウザに表示される世界。 http://localhost:3000/ グローバルに公開したい訳です。まぁ経験があるといつもの事ですが、やっ...]]></content>
-        <author>
-            <name>Dokokade</name>
-        </author>
-        <published>2022-01-27T10:49:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScriptを遊び尽くす究極のWebサービス・ツールを厳選して大公開！ | paiza開発日誌]]></title>
-        <id>https://paiza.hatenablog.com/entry/2022/01/27/183000</id>
-        <link href="https://paiza.hatenablog.com/entry/2022/01/27/183000"/>
-        <updated>2022-01-27T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[どうも、まさとらん（@0310lan）です！今回は、JavaScriptを使ってとにかく遊んだり楽しんだりできるインタラクティブなWebサービスやツールを厳選してご紹介します。ゲーム体験をしたり、アート作品を作ったり、JavaScriptで開発されたユニークなサービスを利用してじっくりと遊んでみましょう。Webの楽しい世界にご興味ある方は、ぜひ参考にしてください！ ■リアルタイムにコードを書いて戦...]]></summary>
-        <content type="html"><![CDATA[どうも、まさとらん（@0310lan）です！今回は、JavaScriptを使ってとにかく遊んだり楽しんだりできるインタラクティブなWebサービスやツールを厳選してご紹介します。ゲーム体験をしたり、アート作品を作ったり、JavaScriptで開発されたユニークなサービスを利用してじっくりと遊んでみましょう。Webの楽しい世界にご興味ある方は、ぜひ参考にしてください！ ■リアルタイムにコードを書いて戦うオンライン対戦ゲーム 【yare.io】 世界中のプレイヤーと1対1で戦うゲームなのですが、その戦い方はJavaScriptのコードをリアルタイムに書き換えながら自機を操作するというのが大きな特徴で…]]></content>
-        <published>2022-01-27T09:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3 Enables Users to Create and Own their Web Experience  | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/web3-enables-users-to-create-and-own-their-web-experience?source=rss</id>
-        <link href="https://hackernoon.com/web3-enables-users-to-create-and-own-their-web-experience?source=rss"/>
-        <updated>2022-01-27T09:27:43.000Z</updated>
-        <author>
-            <name>Ishan Pandey</name>
-        </author>
-        <category label="technology"/>
-        <category label="web3"/>
-        <category label="gaming-metaverse"/>
-        <category label="fetch"/>
-        <category label="ai"/>
-        <category label="machine-learning"/>
-        <category label="decentralized-internet"/>
-        <category label="founder-stories"/>
-        <published>2022-01-27T09:27:43.000Z</published>
     </entry>
 </feed>
