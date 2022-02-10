@@ -327,6 +327,9 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // (LiveDoor)
   ['龍孫江の数学日誌', 'http://blog.livedoor.jp/ron1827-algebras/atom.xml'],
 
+  // 追加分(統計学)
+  ['関西学院大学社会学部 清水裕士のWebサイト', 'https://norimune.net/feed'],
+
   // 追加分(物理学)
   ['Yusuke Hayashi\'s Blog', 'https://hayashiyus.jp/?feed=rss2'],
 
