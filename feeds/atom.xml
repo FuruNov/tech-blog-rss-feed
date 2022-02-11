@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-02-11T03:27:21.171Z</updated>
+    <updated>2022-02-11T05:24:42.306Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Weekly Kaggle News #113 | Weekly Kaggle News]]></title>
+        <id>https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-113-1022231</id>
+        <link href="https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-113-1022231"/>
+        <updated>2022-02-11T03:42:35.000Z</updated>
+        <summary type="html"><![CDATA[News Kaggleの順位表ページが日本時間8日ごろに刷新されました。見た目だけではなく、検索機能の追加や読み込み速度の改善などの変更も入っています。 Competitions 文章の有害度を評価するKaggle「Jigsaw Rate Severity of Toxic Comments」が7日に終わりました。コンペ概要は、銀メダル獲得者のブログ記事にまとまっています。 Kaggle「H&M ...]]></summary>
+        <content type="html"><![CDATA[News Kaggleの順位表ページが日本時間8日ごろに刷新されました。見た目だけではなく、検索機能の追加や読み込み速度の改善などの変更も入っています。 Competitions 文章の有害度を評価するKaggle「Jigsaw Rate Severity of Toxic Comments」が7日に終わりました。コンペ概要は、銀メダル獲得者のブログ記事にまとまっています。 Kaggle「H&M Personalized Fashion Recommendations」が7日に始まりました。アパレルメーカー「H&M」の商品データを用いた、Kaggleでは久々となる推薦を題材にしたコンペです。テーブル・画像・テキストと多様なデータが提供されています。]]></content>
+        <published>2022-02-11T03:42:35.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「太鼓の達人」をWindowsでプレイ！ キーボードで手軽に楽しめる定番リズムゲーム【初月100円！オススメGame Pass作品】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/gprecommend/1387000.html</id>
@@ -132,6 +141,42 @@
         <published>2022-02-10T14:22:40.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[生年月日を扱いやすくするdjango-jp-birthdayというライブラリを作成 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/shimakaze_soft/articles/7f3a12881614b5</id>
+        <link href="https://zenn.dev/shimakaze_soft/articles/7f3a12881614b5"/>
+        <updated>2022-02-10T13:50:33.000Z</updated>
+        <summary type="html"><![CDATA[django-jp-birthdayというDjangoのモデル上で和暦の年号を扱いやすくするためのライブラリを開発しました。 https://pypi.org/project/django-jp-birthday/ ユーザーなどの生年月日を登録できるようにしたいと思ったときには、西暦の日にちを登録するために以下のようなbirthdayというDateField型のフィールドを持つモデルを作ると思いま...]]></summary>
+        <content type="html"><![CDATA[django-jp-birthdayというDjangoのモデル上で和暦の年号を扱いやすくするためのライブラリを開発しました。 https://pypi.org/project/django-jp-birthday/ ユーザーなどの生年月日を登録できるようにしたいと思ったときには、西暦の日にちを登録するために以下のようなbirthdayというDateField型のフィールドを持つモデルを作ると思います。 class ModelTestUser(models.Model):  birthday = models.DateField(auto_now=True)   def __st...]]></content>
+        <author>
+            <name>shimakaze_soft</name>
+        </author>
+        <published>2022-02-10T13:50:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DockerでSonarQubeを構築してPythonコードを解析する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/whitecat_22/articles/5affdcb053c860</id>
+        <link href="https://zenn.dev/whitecat_22/articles/5affdcb053c860"/>
+        <updated>2022-02-10T13:34:02.000Z</updated>
+        <summary type="html"><![CDATA[DockerでSonarQubeを構築してPythonコードを解析します。   はじめに 先人たちの知恵をお借りするなどして解決できたことを、この場をお借りして感謝するとともに、大変恐縮ですが 自分のメモ として、こちらへまとめておきます。  2022年2月10日時点の情報で記載しております。    0 検証環境  Windows 10 Pro 21H1 Docker 20.10.12    1 ...]]></summary>
+        <content type="html"><![CDATA[DockerでSonarQubeを構築してPythonコードを解析します。   はじめに 先人たちの知恵をお借りするなどして解決できたことを、この場をお借りして感謝するとともに、大変恐縮ですが 自分のメモ として、こちらへまとめておきます。  2022年2月10日時点の情報で記載しております。    0 検証環境  Windows 10 Pro 21H1 Docker 20.10.12    1 SonarQubeとは コード品質を継続的に検査するためのオープンソースで、ソースコードの静的分析により自動レビューを行うことができます。 機能としては、下記のようなものがあります。  バグの検...]]></content>
+        <author>
+            <name>whitecat_22</name>
+        </author>
+        <published>2022-02-10T13:34:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[aspida/frourioは何をしているのか。極小プロジェクトに導入して理解するハンズオン | Zennのトレンド]]></title>
+        <id>https://zenn.dev/luma/articles/ae4f025505e0c8</id>
+        <link href="https://zenn.dev/luma/articles/ae4f025505e0c8"/>
+        <updated>2022-02-10T13:18:41.000Z</updated>
+        <summary type="html"><![CDATA[極小というのは local minimum という意味です。 サーバーはたった1ファイルの index.ts のみ、フロントエンドは create-vite のテンプレートの状態から解説します。とても簡単なので是非見ていってください。   Aspida と Frourio  https://github.com/aspida/aspida https://github.com/frouriojs/...]]></summary>
+        <content type="html"><![CDATA[極小というのは local minimum という意味です。 サーバーはたった1ファイルの index.ts のみ、フロントエンドは create-vite のテンプレートの状態から解説します。とても簡単なので是非見ていってください。   Aspida と Frourio  https://github.com/aspida/aspida https://github.com/frouriojs/frourio    フロントエンドとHTTP APIサーバーを用意 (スキップ可能) ここは本質ではないため、 git clone https://github.com/LumaKernel/...]]></content>
+        <author>
+            <name>luma</name>
+        </author>
+        <published>2022-02-10T13:18:41.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Junior Data Scientist: The Next Level | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=138168</id>
         <link href="https://www.kdnuggets.com/2022/02/junior-data-scientist-next-level.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=junior-data-scientist-the-next-level"/>
@@ -212,6 +257,18 @@
         <published>2022-02-10T10:56:03.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[転職ドラフト体験記 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/heromina/articles/375d3dc5e210f5</id>
+        <link href="https://zenn.dev/heromina/articles/375d3dc5e210f5"/>
+        <updated>2022-02-10T10:31:34.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。ひろと申します。 普段はSIerでWebアプリを開発しています。 この度、転職ドラフトを通して転職に成功したので自分がどのように転職ドラフトを使ったのか、実際に使ってみてどうだったかを体験記として書いていこうと思います！ 転職ドラフトのことを知ってもらい、興味を持ってもらえると嬉しいです！ ※こちらの記事は転職ドラフト体験談投稿キャンペーンに参加しています https://j...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。ひろと申します。 普段はSIerでWebアプリを開発しています。 この度、転職ドラフトを通して転職に成功したので自分がどのように転職ドラフトを使ったのか、実際に使ってみてどうだったかを体験記として書いていこうと思います！ 転職ドラフトのことを知ってもらい、興味を持ってもらえると嬉しいです！ ※こちらの記事は転職ドラフト体験談投稿キャンペーンに参加しています https://job-draft.jp/articles/251   私の経歴 ざっくりですが、わたしの経歴は以下です。  新卒でSIerに入社 現在4年目 バックエンドはJavaベースの独自FW、フロント...]]></content>
+        <author>
+            <name>ひろさん</name>
+        </author>
+        <published>2022-02-10T10:31:34.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[関数の台(supp)とは | 数学の景色]]></title>
         <id>https://mathlandscape.com/?p=24604</id>
         <link href="https://mathlandscape.com/supp/"/>
@@ -225,6 +282,18 @@
         <category label="用語・記号の定義"/>
         <category label="大学専門"/>
         <published>2022-02-10T10:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Chaliceを使ってFileMaker用のメール受信APIを作る | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sikkim/articles/aeda1e7721f918</id>
+        <link href="https://zenn.dev/sikkim/articles/aeda1e7721f918"/>
+        <updated>2022-02-10T09:22:53.000Z</updated>
+        <summary type="html"><![CDATA[先日、はじめてPyPIにPythonライブラリを登録した話を書きましたが、そもそも何のためにライブラリを登録したかという話をします。   背景 FileMakerにはメールを送信する機能はありますが、受信する機能はありません。しかし業務用アプリを作っていると、メールの情報をDBに取り込んで処理したい場面は結構出てきます。メール受信機能のように、標準装備されていない機能をFileMakerで実現する...]]></summary>
+        <content type="html"><![CDATA[先日、はじめてPyPIにPythonライブラリを登録した話を書きましたが、そもそも何のためにライブラリを登録したかという話をします。   背景 FileMakerにはメールを送信する機能はありますが、受信する機能はありません。しかし業務用アプリを作っていると、メールの情報をDBに取り込んで処理したい場面は結構出てきます。メール受信機能のように、標準装備されていない機能をFileMakerで実現する方法は、大きく分けてふたつあります。ひとつはプラグインをインストールする方法で、もうひとつはAPIなどを利用して外部システムと連携させる方法です。メールを受信するためのプラグインとしてはMail...]]></content>
+        <author>
+            <name>TAKAHASHI Taro</name>
+        </author>
+        <published>2022-02-10T09:22:53.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[go generateを忘れていないかCIで検出する | Classi開発者ブログ]]></title>
@@ -316,8 +385,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9906</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/"/>
         <updated>2022-02-10T08:00:09.000Z</updated>
-        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: AI推...]]></summary>
-        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: AI推進部における読書会の紹介  Slackのチャンネル名を管理者以外でも変更できるようにしてみた  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだ...]]></summary>
+        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだけ主夫をやった話  PO輪読会 朝の部の取り組みについて  拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう  京都大学の超交流会2019に出展してきた  Sketch Appを使おう（導入編）   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -375,6 +444,18 @@
         <published>2022-02-10T07:36:26.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[docker-mailserverをさくっと立ち上げる(令和4年2月版) | Zennのトレンド]]></title>
+        <id>https://zenn.dev/takaha/articles/docker-mailserver</id>
+        <link href="https://zenn.dev/takaha/articles/docker-mailserver"/>
+        <updated>2022-02-10T07:28:58.000Z</updated>
+        <summary type="html"><![CDATA[はじめに これまでG Suiteでメールアカウントの運用をしてきました。独自ドメインも使えるうえに無償だったのでとても重宝していましたが、無償利用も2022年5月で終わりそうな状況です(2022年2月時点)。 このご時世、うかつにメールサーバを自前で建てるのも大変そうだし、どこかによさそうなコンテナイメージはないものか探したところ、docker-mailserverが全部入り＆お手軽でよさそうです...]]></summary>
+        <content type="html"><![CDATA[はじめに これまでG Suiteでメールアカウントの運用をしてきました。独自ドメインも使えるうえに無償だったのでとても重宝していましたが、無償利用も2022年5月で終わりそうな状況です(2022年2月時点)。 このご時世、うかつにメールサーバを自前で建てるのも大変そうだし、どこかによさそうなコンテナイメージはないものか探したところ、docker-mailserverが全部入り＆お手軽でよさそうです。 令和4年2月版として、ソースを漁りながら利用方法調査したので、まとめておきます。   docker-mailserver   これはなにもの？ メール送受信に必要なものがまるっと一式はい...]]></content>
+        <author>
+            <name>takaha</name>
+        </author>
+        <published>2022-02-10T07:28:58.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「アバスト」が最新版v22.1を公開～Wi-Fiにより強固なパスワードを提案可能に／ブートタイムスキャン機能の結果を再起動時も表示するように | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1387519.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1387519.html"/>
@@ -382,6 +463,18 @@
         <summary type="html"><![CDATA[チェコのAVAST Softwareは2月8日（現地時間）、セキュリティソフト「アバスト（Avast）」の最新版v22.1を公開した。]]></summary>
         <content type="html"><![CDATA[チェコのAVAST Softwareは2月8日（現地時間）、セキュリティソフト「アバスト（Avast）」の最新版v22.1を公開した。]]></content>
         <published>2022-02-10T07:12:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fish Shell 完全スタートアップガイド~m1チップ編~ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sawao/articles/e8b4c13c51a163</id>
+        <link href="https://zenn.dev/sawao/articles/e8b4c13c51a163"/>
+        <updated>2022-02-10T07:11:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 本ブログの最初の記事で、fishシェルについての記事を執筆させていただいたところ、大変ご好評だったため、本記事は第二弾としてm1チップを搭載したMacbook用に設定する方法を解説する。   セットアップ開始 fishって何？え、そもそもシェルってなんだっけ、という方は是非第一回の記事を参照することをおすすめしたい。 今回は、fishについては知っているという前提のもと、m1チップを搭載...]]></summary>
+        <content type="html"><![CDATA[はじめに 本ブログの最初の記事で、fishシェルについての記事を執筆させていただいたところ、大変ご好評だったため、本記事は第二弾としてm1チップを搭載したMacbook用に設定する方法を解説する。   セットアップ開始 fishって何？え、そもそもシェルってなんだっけ、という方は是非第一回の記事を参照することをおすすめしたい。 今回は、fishについては知っているという前提のもと、m1チップを搭載したmacbookでのセットアップにフォーカスすることにする。 では、早速セットアップを開始する。   fishのインストール まずはfishのインストールをする。前回の記事では、homeb...]]></content>
+        <author>
+            <name>sawao</name>
+        </author>
+        <published>2022-02-10T07:11:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Systems Managerを使用したCloudWatchエージェントのインストールとアプリケーションログの出力 | Zennのトレンド]]></title>
@@ -668,30 +761,6 @@
         <published>2022-02-10T01:58:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5G-Advanced解説（3GPPリリース18 SA2機能）後編 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/nic/articles/2aaf208dd201e9</id>
-        <link href="https://zenn.dev/nic/articles/2aaf208dd201e9"/>
-        <updated>2022-02-10T01:57:20.000Z</updated>
-        <summary type="html"><![CDATA[3GPP SA2における5G-Advancedの検討状況 本記事は、5G-Advanced解説（3GPPリリース18 SA2機能）前編に対する続きです。 概要と新サービス/既存サービス拡張の分析については前編をご確認ください。 https://zenn.dev/nic/articles/cdaa44d534b2ba   WID/SID分析   IoT/TSC/URLLC    WI/SIコード タ...]]></summary>
-        <content type="html"><![CDATA[3GPP SA2における5G-Advancedの検討状況 本記事は、5G-Advanced解説（3GPPリリース18 SA2機能）前編に対する続きです。 概要と新サービス/既存サービス拡張の分析については前編をご確認ください。 https://zenn.dev/nic/articles/cdaa44d534b2ba   WID/SID分析   IoT/TSC/URLLC    WI/SIコード タイトル ラポーター1 ラポーター2 RAN影響 承認済WID/SID     FS_UAS_Ph2 Study on Phase 2 for UAS, UAV and UAM Stefano...]]></content>
-        <author>
-            <name>Muneaki Ogawa</name>
-        </author>
-        <published>2022-02-10T01:57:20.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHubとZenHubを使ってガントチャートでプロジェクト管理を実施するための手順 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/najo/articles/793682baf5e42a</id>
-        <link href="https://zenn.dev/najo/articles/793682baf5e42a"/>
-        <updated>2022-02-10T01:56:59.000Z</updated>
-        <summary type="html"><![CDATA[前提 この記事は、チームで働く際のプロジェクト管理方法をより良くするためのTipsです。 こんなチーム/人にオススメ  タスク管理をKanbanで行っているけど、スケジュールの全体が見えなくて困っている プロダクト開発のソース管理をGitで行っている タスク管理もGitのIssueとかで管理している プロジェクト管理のために、色々なツールを使うのがめんどくさい  上記のどれかに当てはまれば、Git...]]></summary>
-        <content type="html"><![CDATA[前提 この記事は、チームで働く際のプロジェクト管理方法をより良くするためのTipsです。 こんなチーム/人にオススメ  タスク管理をKanbanで行っているけど、スケジュールの全体が見えなくて困っている プロダクト開発のソース管理をGitで行っている タスク管理もGitのIssueとかで管理している プロジェクト管理のために、色々なツールを使うのがめんどくさい  上記のどれかに当てはまれば、GithubとZenHubのプロジェクト管理がおススメです。   できること ZenHubとGithubを連携させることで  ガントチャートでのスケジュール管理 GithubのIssue(タスク)...]]></content>
-        <author>
-            <name>najo</name>
-        </author>
-        <published>2022-02-10T01:56:59.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ログデータと言語モデルを用いた同義語辞書の自動構築 | メルカリエンジニアリングブログ]]></title>
         <id>19343</id>
         <link href="https://engineering.mercari.com/blog/entry/20220210-eab9f5d823/"/>
@@ -824,18 +893,6 @@
         <summary type="html"><![CDATA[はじめに  Axrossを運営している松田です。  Axross は、エンジニアの"教育"と"実務"のギャップに着目し、「学んだが活用できない人を減らしたい」という想いで、ソフトバンク社内起業制度にて…]]></summary>
         <content type="html"><![CDATA[はじめに  Axrossを運営している松田です。  Axross は、エンジニアの"教育"と"実務"のギャップに着目し、「学んだが活用できない人を減らしたい」という想いで、ソフトバンク社内起業制度にて…]]></content>
         <published>2022-02-09T23:59:34.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[defer で指定した関数をエラーハンドリングする | Zennのトレンド]]></title>
-        <id>https://zenn.dev/msksgm/articles/20220211-how-to-hande-error-in-defer</id>
-        <link href="https://zenn.dev/msksgm/articles/20220211-how-to-hande-error-in-defer"/>
-        <updated>2022-02-09T23:30:43.000Z</updated>
-        <summary type="html"><![CDATA[概要 golangci-lint run --fixで go の lint をしている際にdeferの箇所で警告が発生しました。 警告はError return value is not checked (errcheck)です。 defer throwErr(flag) 通常では、err = tx.Rollback()でエラーを受ければ解決します。 しかし、deferを使うと変数に代入できません...]]></summary>
-        <content type="html"><![CDATA[概要 golangci-lint run --fixで go の lint をしている際にdeferの箇所で警告が発生しました。 警告はError return value is not checked (errcheck)です。 defer throwErr(flag) 通常では、err = tx.Rollback()でエラーを受ければ解決します。 しかし、deferを使うと変数に代入できません。では、以下をのように実装すればいいと考えました。 defer func() error {  err = throwErr(flag)  return err }() しかし、同様にErr...]]></content>
-        <author>
-            <name>msksgm</name>
-        </author>
-        <published>2022-02-09T23:30:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Plotly Volume Plot の描き方 まとめ | AIリサーチコレクション]]></title>
@@ -1551,30 +1608,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情�
         <published>2022-02-08T23:46:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A/Bテストよりちょっといい方法「バンディットアルゴリズム」 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/motch0214/articles/234c7f892cf436</id>
-        <link href="https://zenn.dev/motch0214/articles/234c7f892cf436"/>
-        <updated>2022-02-08T23:37:33.000Z</updated>
-        <summary type="html"><![CDATA[Webサイトを改善・最適化する手法としてA/Bテストはもっとも簡単で、ひろく使われています。 一方で、A/Bテストについて調べていると、バンディットアルゴリズムについてもよく目にすることがあります。 今回は、バンディットアルゴリズムとは何なのか、A/Bテストとどう違うのかを見ていきたいと思います。 A/Bテストに関する前回の記事はこちら。 https://zenn.dev/motch0214/ar...]]></summary>
-        <content type="html"><![CDATA[Webサイトを改善・最適化する手法としてA/Bテストはもっとも簡単で、ひろく使われています。 一方で、A/Bテストについて調べていると、バンディットアルゴリズムについてもよく目にすることがあります。 今回は、バンディットアルゴリズムとは何なのか、A/Bテストとどう違うのかを見ていきたいと思います。 A/Bテストに関する前回の記事はこちら。 https://zenn.dev/motch0214/articles/9c4d4ff167a0fe   A/Bテストは万能じゃない？  もしあなたがA/Bテストを行ったことがあるなら、1つのテストをどれくらいの期間実施しましたか？ また、そのときのサ...]]></content>
-        <author>
-            <name>かずもと</name>
-        </author>
-        <published>2022-02-08T23:37:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloudflare Pages(Functions,KV)を使ったサイトをホスティングする際に行ったこと | Zennのトレンド]]></title>
-        <id>https://zenn.dev/shuntaka/articles/db30a06a59a0f98150cc</id>
-        <link href="https://zenn.dev/shuntaka/articles/db30a06a59a0f98150cc"/>
-        <updated>2022-02-08T23:28:39.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  2022年2月8日現在Cloudflare Functionsはbeta版となります。利用する際には確認をお願いします。Functionsの公式ドキュメントにて、状況を確認できます。  本記事ではCloudflare Pagesを起点に、Cloudflareのエコシステムを色々試すプロジェクトを作っていきます。具体的には以下の通りです。   Cloudflare Pagesで独自ドメイ...]]></summary>
-        <content type="html"><![CDATA[はじめに  2022年2月8日現在Cloudflare Functionsはbeta版となります。利用する際には確認をお願いします。Functionsの公式ドキュメントにて、状況を確認できます。  本記事ではCloudflare Pagesを起点に、Cloudflareのエコシステムを色々試すプロジェクトを作っていきます。具体的には以下の通りです。   Cloudflare Pagesで独自ドメインを利用したい  Cloudflare Functions(beta)を使ってみたい  Cloudflare Worker KVを使ってみたい  Cloudflare Pagesにホスティン...]]></content>
-        <author>
-            <name>shuntaka(h0z1_576)</name>
-        </author>
-        <published>2022-02-08T23:28:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Microsoft製品の月例セキュリティ更新が公開 ～今月は深刻度「Critical」の問題はなし／ただし、エクスプロイトが公開されている脆弱性が1件。油断は禁物 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1387034.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1387034.html"/>
@@ -1818,18 +1851,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
         <published>2022-02-08T09:31:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Goのテーブル駆動テストをわかりやすく書きたい | Zennのトレンド]]></title>
-        <id>https://zenn.dev/kimuson13/articles/go_table_driven_test</id>
-        <link href="https://zenn.dev/kimuson13/articles/go_table_driven_test"/>
-        <updated>2022-02-08T09:03:22.000Z</updated>
-        <summary type="html"><![CDATA[Goでテーブル駆動テストを書いていると、書いているときは「すげー読みやすくテスト書けてるぞ！」と思っていても、落ち着いてから見てみると「なんだこれ．．．訳がわからん．．．」となることがあると思います。(自分はよくあります。) この記事は、このようなことを解決するのに役立つtipsについてまとめています。主にテストケースについて焦点を当てています。 テストしやすいコード設計に興味がある方は http...]]></summary>
-        <content type="html"><![CDATA[Goでテーブル駆動テストを書いていると、書いているときは「すげー読みやすくテスト書けてるぞ！」と思っていても、落ち着いてから見てみると「なんだこれ．．．訳がわからん．．．」となることがあると思います。(自分はよくあります。) この記事は、このようなことを解決するのに役立つtipsについてまとめています。主にテストケースについて焦点を当てています。 テストしやすいコード設計に興味がある方は https://talks.godoc.org/github.com/tcnksm/talks/2016/12/golang-tokyo/golang-tokyo.slide#1 や https://s...]]></content>
-        <author>
-            <name>kimuson13</name>
-        </author>
-        <published>2022-02-08T09:03:22.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【自営業は厳しい】就活と完全独立を天秤にかけてみた | FascodeNetwork Blog]]></title>
         <id>https://blog.fascode.net/?p=13354</id>
         <link href="https://blog.fascode.net/2022/02/08/free_shukatsu/"/>
@@ -1937,18 +1958,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubieで利用しているアイコンをnpmパッケージとして公開しました！ | Ubie, Inc.さんのフィード]]></title>
-        <id>https://zenn.dev/ubie/articles/44d0eab3458cc0</id>
-        <link href="https://zenn.dev/ubie/articles/44d0eab3458cc0"/>
-        <updated>2022-02-08T05:28:49.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、Ubie株式会社でデザインエンジニアをやっているtakanoripです。 この度Ubieのプロダクトで利用しているアイコンのReact版 @ubie/ubie-icons をnpmに公開しました！ https://www.npmjs.com/package/@ubie/ubie-icons GitHubのリポジトリはこちら。 https://github.com/ubie-oss/ub...]]></summary>
-        <content type="html"><![CDATA[こんにちは、Ubie株式会社でデザインエンジニアをやっているtakanoripです。 この度Ubieのプロダクトで利用しているアイコンのReact版 @ubie/ubie-icons をnpmに公開しました！ https://www.npmjs.com/package/@ubie/ubie-icons GitHubのリポジトリはこちら。 https://github.com/ubie-oss/ubie-icons 今回はその背景や実装方法などを紹介します。   自社でアイコンを作った背景 このアイコンセットが作られる前は、必要になったタイミングでデザイナーそれぞれが個別にアイコンをデザイ...]]></content>
-        <author>
-            <name>Ubie, Inc.</name>
-        </author>
-        <published>2022-02-08T05:28:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubieで利用しているアイコンをnpmパッケージとして公開しました！ | Zennのトレンド]]></title>
         <id>https://zenn.dev/ubie/articles/44d0eab3458cc0</id>
         <link href="https://zenn.dev/ubie/articles/44d0eab3458cc0"/>
         <updated>2022-02-08T05:28:49.000Z</updated>
@@ -4530,21 +4539,21 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <published>2022-02-01T03:00:45.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
-        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
-        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
-        <updated>2022-02-01T02:45:00.000Z</updated>
-        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
-        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
-        <published>2022-02-01T02:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[納車後も進化中。患者と医療スタッフのことを考え抜いた「エクモカー」にどんな工夫が満載なのか詳しく教えてもらった | DMM inside]]></title>
         <id>https://inside.dmm.com/entry/2022/2/1/ecmo-car</id>
         <link href="https://inside.dmm.com/entry/2022/2/1/ecmo-car"/>
         <updated>2022-02-01T02:45:00.000Z</updated>
         <summary type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></summary>
         <content type="html"><![CDATA[なんでもやってるDMMグループは、「エクモカー」まで製造。納車式の模様やこれまで世間に発表されているエクモカーとは異なる工夫についてお伝えします。]]></content>
+        <published>2022-02-01T02:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コロナ禍で失われた交流と挑戦の機会を回復するためハードル低めの社内LT会を半年運営してみた話 | Classi開発者ブログ]]></title>
+        <id>https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed</id>
+        <link href="https://tech.classi.jp/entry/2022/02/01/114500?utm_source=feed"/>
+        <updated>2022-02-01T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりでは...]]></summary>
+        <content type="html"><![CDATA[みなさんはじめまして。Classi で開発支援部に所属するイノウエと申します。 当社は教育事業を手掛けているため、教育に関心のあるメンバーが集まっており、ジュニアメンバーに対する社内教育にも力を入れています。巷を騒がす感染症の流行により、当社でもリモート勤務体制がはじまったことで個人としては働きやすさが向上したものの、社内教育や他チームとの支援・交流といった面に目を向けると決して良いことばかりではありません。また、以前では盛んに開催されていたウェブ開発者による勉強会コミュニティの縮小傾向も仕方のないこととはいえ無念に感じています。 このような問題意識に対してなにかできることはないかと思い、「プ…]]></content>
         <published>2022-02-01T02:45:00.000Z</published>
     </entry>
     <entry>
@@ -4661,8 +4670,8 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=9898</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/"/>
         <updated>2022-02-01T00:30:07.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアブログ、始めました  はじめまして！ 京都開発拠点  Respectの気持ちでチームを盛り上げるチームビルディング術  IT勉強会の会場無料提供のご案内  エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [関西...]]></summary>
+        <content type="html"><![CDATA[こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [関西開発拠点] オンラインミートアップ開催のお知らせ  RubyKaigi 2019 参加者がチェックすべき福岡飯20選！  RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！  Magic Podの導入  マネーフォワード社内PRに見られるRubyの書き方について – (7) 受け渡しのパターンマッチング 2   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5035,8 +5044,8 @@ https://ai-scholar.tech/articles/medical/covid-19_rl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=9896</id>
         <link href="https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/"/>
         <updated>2022-01-31T04:56:38.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ジモテ...]]></summary>
-        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ジモティーの光の戦士がやって来たぞ  マネーフォワードのコーポレートエンジニアがやっているSaaSの障害検知方法  [著書紹介] Swift+Core DataによるiOSアプリプログラミング  【社内レポ】マネーフォワードのエンジニア  開発チームで業務知識を獲得するための取り組み   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...]]></summary>
+        <content type="html"><![CDATA[こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rails奮闘記 〜ActiveRecordのコールバック ハマり編〜  SageMaker Experimentsによる実験管理とQuickSightを使ったその可視化  最近AndroidのViewに思うこと（CustomView編）  iOS8で導入されたアクション付きPush通知を試してみる  私の履歴書：マネーフォワードの会計開発チーム編   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5682,60 +5691,6 @@ https://ai-scholar.tech/articles/image2image/on-working1 | AI技術最新情報�
         <category label="npm"/>
         <category label="UIT"/>
         <published>2022-01-28T05:50:40.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[書道家・葛谷綺仙さんのワークショップに参加、書は気持ちが穏やかになります | エンジニアブログ | iret.media]]></title>
-        <id>https://cloudpack.media/?p=61067</id>
-        <link href="https://cloudpack.media/61067"/>
-        <updated>2022-01-28T05:00:29.000Z</updated>
-        <summary type="html"><![CDATA[麻布十番にあるギャラリー「エナジーテラスSunnyGo!(サニーゴ)」さんで個展「幕開け」を開催中の書道家 葛谷綺仙さんのワークショップに参加してきました。 葛谷さんから書の基本的なコツを教えてもらいつつ自分の好きな文字 […]]]></summary>
-        <content type="html"><![CDATA[麻布十番にあるギャラリー「エナジーテラスSunnyGo!(サニーゴ)」さんで個展「幕開け」を開催中の書道家 葛谷綺仙さんのワークショップに参加してきました。 葛谷さんから書の基本的なコツを教えてもらいつつ自分の好きな文字 […]]]></content>
-        <author>
-            <name>木檜 和明</name>
-        </author>
-        <category label="エンジニアブログ"/>
-        <category label="ワークショップ"/>
-        <published>2022-01-28T05:00:29.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ブラウザはどうやってホームページにアクセスしているのか？ その3 | レコチョクのエンジニアブログ]]></title>
-        <id>https://techblog.recochoku.jp/7829</id>
-        <link href="https://techblog.recochoku.jp/7829"/>
-        <updated>2022-01-28T04:18:44.000Z</updated>
-        <summary type="html"><![CDATA[<p><img width="200" height="200" src="https://techblog.recochoku.jp/wp-content/uploads/2021/09/49214-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  ...]]></summary>
-        <content type="html"><![CDATA[<p><img width="200" height="200" src="https://techblog.recochoku.jp/wp-content/uploads/2021/09/49214-200x200.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  「ブラウザはどうやってホームページにアクセスしているのか？」を全４回でまとめました。 前回はリクエストメッセージのフォーマットや作成方法について説明しました。 その3ではリクエストを送信する方法について説明します。  <ol> <li>ネットワークの基礎知識(IPアドレスとドメイン名)</li> <li>サーバにデータをリクエストする</li> <li>サーバのIPアドレスを取得する ← 今回はココ</li> <li>サーバからデータを受け取る</li> </ol>  間違っている点がありましたら、コメントで指摘いただけると幸いです。  <h2>DNSの基礎知識</h2>  リクエストメッセー...]]></content>
-        <published>2022-01-28T04:18:44.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[初心者でもつまずかない機械学習の学習方法とは？おすすめのサイトや書籍をご紹介！ | paiza開発日誌]]></title>
-        <id>https://paiza.hatenablog.com/entry/2022/01/28/130000</id>
-        <link href="https://paiza.hatenablog.com/entry/2022/01/28/130000"/>
-        <updated>2022-01-28T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[近年大きな注目を集めている「AI・人工知能」といった研究分野と深い関わりのある、機械学習の学習方法を紹介します。 機械学習初心者に向けて、数学的な理解がないハンズオン形式での学習方法をメインに比較して紹介します。 機械学習の学習ロードマップ 機械学習の学習ロードマップ 機械学習とは 機械学習のフレームワーク 機械学習の活用事例 機械学習の活用事例（1） ディープラーニング 機械学習の活用事例（2）...]]></summary>
-        <content type="html"><![CDATA[近年大きな注目を集めている「AI・人工知能」といった研究分野と深い関わりのある、機械学習の学習方法を紹介します。 機械学習初心者に向けて、数学的な理解がないハンズオン形式での学習方法をメインに比較して紹介します。 機械学習の学習ロードマップ 機械学習の学習ロードマップ 機械学習とは 機械学習のフレームワーク 機械学習の活用事例 機械学習の活用事例（1） ディープラーニング 機械学習の活用事例（2） データ分析 機械学習の勉強の注意点 学習の要素（1） Pythonの基礎 学習の要素（2） 学習時間の確保 学習の要素（3） 学習費用 学習の要素（4） ハンズオン形式 学習の要素（5）モチベーショ…]]></content>
-        <published>2022-01-28T04:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台 | Engineers' Blog]]></title>
-        <id>https://moneyforward.com/engineers_blog/?p=9882</id>
-        <link href="https://moneyforward.com/engineers_blog/2022/01/28/no-moyamoya-method/"/>
-        <updated>2022-01-28T03:57:32.000Z</updated>
-        <summary type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ARは...]]></summary>
-        <content type="html"><![CDATA[「私、前から言おうと思ってたんだけど……」 という切り出しで喜ばれるのは愛の告白 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ARは二度死なない  【レポート速報】Google I/O 2016 - Day1  遅すぎるfeatureテストに対して試したこと  お知らせ: 『toCでは出来ないがtoBで出来る事〜ビジネスの複雑さへ立ち向かえ〜』に登壇します  最近のruby-core (2017年3月)   Copyright © Engineers' Blog [モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台], All Right Reserved. 2022.]]></content>
-        <author>
-            <name>engineers_blog</name>
-        </author>
-        <category label="お知らせ"/>
-        <published>2022-01-28T03:57:32.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Kaggle News #111 | Weekly Kaggle News]]></title>
-        <id>https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-111-998465</id>
-        <link href="https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-111-998465"/>
-        <updated>2022-01-28T03:31:06.000Z</updated>
-        <summary type="html"><![CDATA[News Kaggle上のCPU/GPU実行環境でのセッション時間の制限が3時間緩和され、12時間になりました。ダークテーマの微修正も実施されています。 Competitions 小売・流通のデータを題材にした学生向けコンペが開催されます。atmaCup #9を共同開催した一般社団法人リテールAI研究会が運営に関わっています。2月6日には事前イベントが予定されています。 「第4回全国医療AIコンテ...]]></summary>
-        <content type="html"><![CDATA[News Kaggle上のCPU/GPU実行環境でのセッション時間の制限が3時間緩和され、12時間になりました。ダークテーマの微修正も実施されています。 Competitions 小売・流通のデータを題材にした学生向けコンペが開催されます。atmaCup #9を共同開催した一般社団法人リテールAI研究会が運営に関わっています。2月6日には事前イベントが予定されています。 「第4回全国医療AIコンテスト」が3月19〜21日に開催されます。昨年の第3回では、有識者の講演と医療データを用いたコンペが実施されました。]]></content>
-        <published>2022-01-28T03:31:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[QA Engineer2年生がQA的技術的負債と立ち向かった話 | メルカリエンジニアリングブログ]]></title>
