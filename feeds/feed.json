@@ -7,6 +7,48 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://zenn.dev/ubie/articles/fe845089489229",
+            "content_html": "はじめに こんにちは。 医療系スタートアップUbie株式会社の「Ubie Discovery」というチームで働く@jimboです。Webフロントエンドが得意なソフトウェアエンジニアです。 社内限定のプライベートなnpmパッケージを開発し、npm registryやGitHub Packagesに登録して、さまざまなプロジェクトでnpm installして利用したいことがあります。 （UbieにもGitHub Packagesで管理するプライベートなnpmパッケージが存在しています。） パブリックなパッケージと違い、プライベートなパッケージをnpm installするためには、npm ...",
+            "url": "https://zenn.dev/ubie/articles/fe845089489229",
+            "title": "プライベートなnpmパッケージをDockerfileでインストールしてGitHub Actionsでビルドする | Ubie, Inc.さんのフィード",
+            "summary": "はじめに こんにちは。 医療系スタートアップUbie株式会社の「Ubie Discovery」というチームで働く@jimboです。Webフロントエンドが得意なソフトウェアエンジニアです。 社内限定のプライベートなnpmパッケージを開発し、npm registryやGitHub Packagesに登録して、さまざまなプロジェクトでnpm installして利用したいことがあります。 （UbieにもG...",
+            "date_modified": "2022-02-12T06:24:06.000Z",
+            "date_published": "2022-02-12T06:24:06.000Z",
+            "author": {
+                "name": "Ubie, Inc."
+            },
+            "tags": []
+        },
+        {
+            "id": "https://math-fun.net/?p=22273",
+            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、Julia（JuMP,GLPK）で線形計画法の問題を解く方法を紹介します。 準備 JuMP、GLPKを使うので、持っていなければインストールしておきま ... Julia（JuMP,GLPK）で線形計画法の問題を解く方法 first appeared on 趣味の大学数学.",
+            "url": "https://math-fun.net/20220212/22273/",
+            "title": "Julia（JuMP,GLPK）で線形計画法の問題を解く方法 | 趣味の大学数学",
+            "summary": "どうも、木村（@kimu3_slime）です。 今回は、Julia（JuMP,GLPK）で線形計画法の問題を解く方法を紹介します。 準備 JuMP、GLPKを使うので、持っていなければインストールしておきま ... Julia（JuMP,GLPK）で線形計画法の問題を解く方法 first appeared on 趣味の大学数学.",
+            "date_modified": "2022-02-12T04:54:33.000Z",
+            "date_published": "2022-02-12T04:54:33.000Z",
+            "author": {
+                "name": "kimu3"
+            },
+            "tags": [
+                "プログラミング・数値計算",
+                "線形代数学"
+            ]
+        },
+        {
+            "id": "https://zenn.dev/bellwood4486/articles/postgresql-trans-iso-level",
+            "content_html": "はじめに 本記事は、PostgreSQLにおけるトランザクション分離レベルの挙動の違いを試してみた記録です。 『 データ指向アプリケーションデザイン 』という本を読み終え、トランザクション分離レベルの理解が深まってきたときにこちらの記事と出会い、理解の確認としてPostgreSQLで試してみました。 https://blog.amedama.jp/entry/mysql-innodb-tx-iso-levels   環境  macOS 10.15.7 Docker Desktop for Mac 4.3.2 PostgreSQL 11.14    トランザクション分離レベル Post...",
+            "url": "https://zenn.dev/bellwood4486/articles/postgresql-trans-iso-level",
+            "title": "PostgreSQLのトランザクション分離レベルを試す | Zennのトレンド",
+            "summary": "はじめに 本記事は、PostgreSQLにおけるトランザクション分離レベルの挙動の違いを試してみた記録です。 『 データ指向アプリケーションデザイン 』という本を読み終え、トランザクション分離レベルの理解が深まってきたときにこちらの記事と出会い、理解の確認としてPostgreSQLで試してみました。 https://blog.amedama.jp/entry/mysql-innodb-tx-iso...",
+            "date_modified": "2022-02-11T23:16:52.000Z",
+            "date_published": "2022-02-11T23:16:52.000Z",
+            "author": {
+                "name": "Yoshiharu Suzuki"
+            },
+            "tags": []
+        },
+        {
             "id": "http://ai.googleblog.com/2022/02/an-international-scientific-challenge.html",
             "content_html": "Posted by Po-Hsuan Cameron Chen, Software Engineer, Google Health and Maggie Demkin, Program Manager, Kaggle In recent years, machine learning (ML) competitions in health have attracted ML scientists to work together to solve challenging clinical problems. These competitions provide access to relevant data and well-defined problems where experienced data scientists come to compete for solutions and learn new methods. However, a fundamental difficulty in organizing such challenges is obtaining an...",
             "url": "http://ai.googleblog.com/2022/02/an-international-scientific-challenge.html",
@@ -14,6 +56,19 @@
             "summary": "Posted by Po-Hsuan Cameron Chen, Software Engineer, Google Health and Maggie Demkin, Program Manager, Kaggle In recent years, machine learning (ML) competitions in health have attracted ML scientists ...",
             "date_modified": "2022-02-11T18:35:00.000Z",
             "date_published": "2022-02-11T18:35:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/ryicoh/articles/git_calc_object_hash",
+            "content_html": "Git のオブジェクト 最初に少しだけGitのデータ(オブジェクト)の保存方法について触れます。 オブジェクトは .git/objects/ に保存されます。 この中にリポジトリのファイルを効率的に保存します。 バージョンごとに同じファイルを重複して保存することはありません。 ファイルだけではありません。４種類のオブジェクトを保存します。  blob: Binary Large OBjecctの略で、つまりはファイルです。しかし、ファイル名は含みません。 tree: １階層分のディレクトリの全ファイル名とファイル内容のハッシュと権限です。 commit: git commit で作ら...",
+            "url": "https://zenn.dev/ryicoh/articles/git_calc_object_hash",
+            "title": "Gitのオブジェクトハッシュの計算方法 | Zennのトレンド",
+            "summary": "Git のオブジェクト 最初に少しだけGitのデータ(オブジェクト)の保存方法について触れます。 オブジェクトは .git/objects/ に保存されます。 この中にリポジトリのファイルを効率的に保存します。 バージョンごとに同じファイルを重複して保存することはありません。 ファイルだけではありません。４種類のオブジェクトを保存します。  blob: Binary Large OBjecctの略...",
+            "date_modified": "2022-02-11T17:04:45.000Z",
+            "date_published": "2022-02-11T17:04:45.000Z",
+            "author": {
+                "name": "ryicoh"
+            },
             "tags": []
         },
         {
@@ -46,6 +101,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/ubie/articles/4c02baa037c5aa",
+            "content_html": "こんにちはUbie Discoveryに入って早５ヶ月目の @shikajiro です。（月日は早いな。。。）医療業界は何もわからない状態でしたが、最近はちょっとずつドメイン知識や組織周りも見えるようになり、がむしゃらに働いてます。プロダクト開発以外にも前職で培ったGCPやkubernetesの経験を活かし、開発環境のインフラ周りの整備なんかもやってます。 僕のいるスクラムチームには医師も参加していますが、エンジニアリングには不慣れな部分もあり、インフラ面の都合などで開発や検証に困る場面がありました。積極的に助力していく中で、「マイクロサービスを簡単に試せる開発環境が無い」のが大きな問題...",
+            "url": "https://zenn.dev/ubie/articles/4c02baa037c5aa",
+            "title": "Ubie Discovery社内のサービス検証環境 dev-n | Zennのトレンド",
+            "summary": "こんにちはUbie Discoveryに入って早５ヶ月目の @shikajiro です。（月日は早いな。。。）医療業界は何もわからない状態でしたが、最近はちょっとずつドメイン知識や組織周りも見えるようになり、がむしゃらに働いてます。プロダクト開発以外にも前職で培ったGCPやkubernetesの経験を活かし、開発環境のインフラ周りの整備なんかもやってます。 僕のいるスクラムチームには医師も参加して...",
+            "date_modified": "2022-02-11T14:57:25.000Z",
+            "date_published": "2022-02-11T14:57:25.000Z",
+            "author": {
+                "name": "Ubie, Inc."
+            },
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/kotap15/articles/ad63f2f1f0b178",
             "content_html": "2021年はスタートアップに転職しとにかくサービスにコミットし、インフラからバックエンド、フロント、Web/ネイティブアプリなど全方向に一通り触れていった１年でした。 ふとmogaさんの2021年に触った技術の記事を読んで、自分も熱いうちにアウトプットしておこうと思い書いてみました。   開発に関わったサービス  リリースしたものではWebサービス2つ、ネイティブアプリ1つでした  大まかに紹介すると、オンデマンド投げ銭サービス、オンライン授業サービス、動画ベースマッチングアプリです 基本的にリードされながら０から作りました。   現在まったり個人で開発中のものが一つ  企画から始めるも...",
             "url": "https://zenn.dev/kotap15/articles/ad63f2f1f0b178",
@@ -66,6 +134,32 @@
             "summary": "Paper deals with detecting and answering out-of-domain requests for task-oriented dialogue systems.",
             "date_modified": "2022-02-11T14:25:37.000Z",
             "date_published": "2022-02-11T14:25:37.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/moya_dev/articles/1c3da5422fb7d0",
+            "content_html": "はじめに   inspired https://zenn.dev/moga/articles/my-technology-selection 素晴らしい記事だったので、自分も書いてみる事にしました。 幸いにも技術選定からのお仕事をする機会が多くて、自分の中でパターンが大体決まってきているので言語化してみます。前提が同じサービスは無いので絶対的な正解は無いですが、なんかしらの参考になれば幸いです。 ※2022/02時点   私/よくあるお仕事について Web系のサービスなんかいい感じにするマンとして、フリーランスとして働いています。 準委任という形でスタートアップ企業をお手伝いする事が...",
+            "url": "https://zenn.dev/moya_dev/articles/1c3da5422fb7d0",
+            "title": "とりあえずWebサービス作る時の私の技術選定ポイント | Zennのトレンド",
+            "summary": "はじめに   inspired https://zenn.dev/moga/articles/my-technology-selection 素晴らしい記事だったので、自分も書いてみる事にしました。 幸いにも技術選定からのお仕事をする機会が多くて、自分の中でパターンが大体決まってきているので言語化してみます。前提が同じサービスは無いので絶対的な正解は無いですが、なんかしらの参考になれば幸いです。 ...",
+            "date_modified": "2022-02-11T14:05:07.000Z",
+            "date_published": "2022-02-11T14:05:07.000Z",
+            "author": {
+                "name": "daisuke-fukuda"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/chabatake_i/articles/figma-variants",
+            "content_html": "はじめに 今年に入ってからデザインツールの「Figma」を使い始めました。UIデザインのツールとしては他に「Adobe XD」や「Sketch」等がありますが、Figma の特徴としてブラウザ上で動作することや高度な共同編集機能などが挙げられます。UIデザインをする上でもたくさんの便利な機能がありますが、今回はその中で Variants 機能を利用したコンポーネントの作成と、作成したプロトタイプを元に Vue.js と Tailwind CSS を使用して実装を行った内容について書いてみようと思います。   Variants機能 Variants 機能はコンポーネントの複数の状態をま...",
+            "url": "https://zenn.dev/chabatake_i/articles/figma-variants",
+            "title": "FigmaのVariants機能を利用したプロトタイピングと実装 | Zennのトレンド",
+            "summary": "はじめに 今年に入ってからデザインツールの「Figma」を使い始めました。UIデザインのツールとしては他に「Adobe XD」や「Sketch」等がありますが、Figma の特徴としてブラウザ上で動作することや高度な共同編集機能などが挙げられます。UIデザインをする上でもたくさんの便利な機能がありますが、今回はその中で Variants 機能を利用したコンポーネントの作成と、作成したプロトタイプを...",
+            "date_modified": "2022-02-11T14:02:44.000Z",
+            "date_published": "2022-02-11T14:02:44.000Z",
+            "author": {
+                "name": "koyama shigehito"
+            },
             "tags": []
         },
         {
@@ -201,6 +295,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/hisho/articles/fe9f4ec4a8e691",
+            "content_html": "Next.jsのLayoutについてTypeScriptの記事を探してもあまり見つからなかったので https://nextjs.org/docs/basic-features/layouts   Layoutsとは🤔 ページ間で共通のコンポーネントを定義する機能 HeaderやFooterなどはほぼ全ページ同じレイアウトを使うけど、ページコンポーネントに直接書くとコンポーネントの状態（入力値など）が保持できないのでページコンポーネントの外に書くことでレイアウトの状態も保持できる🤝   検証に使ったリポジトリ https://github.com/hisho/next-layouts-d...",
+            "url": "https://zenn.dev/hisho/articles/fe9f4ec4a8e691",
+            "title": "Next.jsのLayouts | Zennのトレンド",
+            "summary": "Next.jsのLayoutについてTypeScriptの記事を探してもあまり見つからなかったので https://nextjs.org/docs/basic-features/layouts   Layoutsとは🤔 ページ間で共通のコンポーネントを定義する機能 HeaderやFooterなどはほぼ全ページ同じレイアウトを使うけど、ページコンポーネントに直接書くとコンポーネントの状態（入力値な...",
+            "date_modified": "2022-02-11T08:29:23.000Z",
+            "date_published": "2022-02-11T08:29:23.000Z",
+            "author": {
+                "name": "Hisho"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/shoshohehe/items/6862bf0363d62d5e3344?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに  この記事では、AWSを触ったことが無い方でも資格取得できる方法を紹介いたします。 ほとんどAWSやネットワークの知識がない私でも取得できたので、気楽に取り組んでみてください！   (受験申込…",
             "url": "https://qiita.com/shoshohehe/items/6862bf0363d62d5e3344?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -259,19 +366,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/japboy/articles/layouts-in-figma-and-uxpin",
-            "content_html": "Figma と UXPin のレイアウト制御についてまとめます。 次の機能があります:   Frame / Page   Constraints (制約)  Auto layout (自動レイアウト)  Grid (グリッド)  Figma や UXPin では、これらを用いてレイアウト制御を行います。   Frame / Page Figma と UXPin ではキャンバスとなる基本要素に違いがあります。ビジュアルデザインの成果物となる可視部分の領域を、Figma では frame、UXPin では page と呼びます。    Figma UXPin         1 つのキャンバ...",
-            "url": "https://zenn.dev/japboy/articles/layouts-in-figma-and-uxpin",
-            "title": "Figma と UXPin におけるレイアウト | Zennのトレンド",
-            "summary": "Figma と UXPin のレイアウト制御についてまとめます。 次の機能があります:   Frame / Page   Constraints (制約)  Auto layout (自動レイアウト)  Grid (グリッド)  Figma や UXPin では、これらを用いてレイアウト制御を行います。   Frame / Page Figma と UXPin ではキャンバスとなる基本要素に違いが...",
-            "date_modified": "2022-02-11T05:39:55.000Z",
-            "date_published": "2022-02-11T05:39:55.000Z",
-            "author": {
-                "name": "japboy"
-            },
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/hiroko_ino/articles/eslint-prettier-husky-2022",
             "content_html": "ESLintとPrettierの設定、皆さんどうされていますか？🤔 私は結構雰囲気でググった記事を参考にやっていました。 ですが、いろんなところで言及されているところですが、ESLintとPrettier周りは過去推奨だったものが現在非推奨になっていたりと、移り変わりがあります。 今では非推奨になっているプラグインを用いている過去記事などあり、それをあたっている方もいらっしゃるかもしれません。 各々その時々ドキュメントを参照するのがベストですが、今回は、2022年2月現在、最新のドキュメントを丹念に見ながらESLintとPrettierの設定をしてみます。 おまけとして、husky+li...",
             "url": "https://zenn.dev/hiroko_ino/articles/eslint-prettier-husky-2022",
@@ -325,19 +419,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/tokku5552/articles/laravel-github-actions",
-            "content_html": "前回の記事でdeployerを使ってLaravelアプリをローカルからEC2へデプロイしたので、今回はGitHub ActionsにのせてCI/CDを組んでいきます。 今回の検証環境は以下の手順ですぐに作れます。 https://zenn.dev/tokku5552/articles/create-php-env-with-cfn   環境  OS  macOS Monterey バージョン12.1(Intel)   docker  % docker -v Docker version 20.10.11, build dea9396  docker内のphp/composer  # ph...",
-            "url": "https://zenn.dev/tokku5552/articles/laravel-github-actions",
-            "title": "GitHub ActionsでLaravelプロジェクトをCI/CDする | Zennのトレンド",
-            "summary": "前回の記事でdeployerを使ってLaravelアプリをローカルからEC2へデプロイしたので、今回はGitHub ActionsにのせてCI/CDを組んでいきます。 今回の検証環境は以下の手順ですぐに作れます。 https://zenn.dev/tokku5552/articles/create-php-env-with-cfn   環境  OS  macOS Monterey バージョン12....",
-            "date_modified": "2022-02-11T01:58:23.000Z",
-            "date_published": "2022-02-11T01:58:23.000Z",
-            "author": {
-                "name": "tokku5552"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/TkTkTkTkTako/items/593b538e6a3497a6abb2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "目次   自己紹介 はじめに（想定読者／持ち帰ってほしいこと／お断り） 背景 書籍紹介／内容 おわりに   自己紹介   2021/8~ PHPを使った開発に着手 2021/11~ Vue.jsを使ったタスク…",
             "url": "https://qiita.com/TkTkTkTkTako/items/593b538e6a3497a6abb2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -345,19 +426,6 @@
             "summary": "目次   自己紹介 はじめに（想定読者／持ち帰ってほしいこと／お断り） 背景 書籍紹介／内容 おわりに   自己紹介   2021/8~ PHPを使った開発に着手 2021/11~ Vue.jsを使ったタスク…",
             "date_modified": "2022-02-11T01:08:43.000Z",
             "date_published": "2022-02-11T01:08:43.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/sakito/articles/3e789505aeda89",
-            "content_html": "自分が今週見たフロントエンド記事のまとめ。   Introducing the Dialog Element https://webkit.org/blog/12209/introducing-the-dialog-element/ <dialog>の解説と各ブラウザの状況。 Safari 15.4 betaに入るので、Safariでももうすぐ使えるかも。   Eleventy + Lit https://lit.dev/blog/2022-02-07-eleventy/ 実験的なものをリリースするLit Labs、Eleventy用のLit pluginについて。 静的なサ...",
-            "url": "https://zenn.dev/sakito/articles/3e789505aeda89",
-            "title": "Weekly Frontend News 2022年2月2週目 | Zennのトレンド",
-            "summary": "自分が今週見たフロントエンド記事のまとめ。   Introducing the Dialog Element https://webkit.org/blog/12209/introducing-the-dialog-element/ <dialog>の解説と各ブラウザの状況。 Safari 15.4 betaに入るので、Safariでももうすぐ使えるかも。   Eleventy + Lit htt...",
-            "date_modified": "2022-02-11T01:01:14.000Z",
-            "date_published": "2022-02-11T01:01:14.000Z",
-            "author": {
-                "name": "sakito"
-            },
             "tags": []
         },
         {
@@ -384,17 +452,6 @@
             "tags": []
         },
         {
-            "id": "https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world",
-            "content_html": "",
-            "url": "https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world",
-            "title": "MuZero’s first step from research into the real world | Latest Post",
-            "date_modified": "2022-02-11T00:00:00.000Z",
-            "date_published": "2022-02-11T00:00:00.000Z",
-            "tags": [
-                "Research"
-            ]
-        },
-        {
             "id": "http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html",
             "content_html": "Posted by Brian Lester, AI Resident and Noah Constant, Senior Staff Software Engineer, Google Research Large pre-trained language models, which are continuing to grow in size, achieve state-of-art results on many natural language processing (NLP) benchmarks. Since the development of GPT and BERT, standard practice has been to fine-tune models on downstream tasks, which involves adjusting every weight in the network (i.e., model tuning). However, as models become larger, storing and serving a tun...",
             "url": "http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html",
@@ -402,19 +459,6 @@
             "summary": "Posted by Brian Lester, AI Resident and Noah Constant, Senior Staff Software Engineer, Google Research Large pre-trained language models, which are continuing to grow in size, achieve state-of-art res...",
             "date_modified": "2022-02-10T23:22:00.001Z",
             "date_published": "2022-02-10T23:22:00.001Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/tomm6073/articles/a054598d2fbc6a",
-            "content_html": "GitHub Actions により Issue を作成すると同時に Notion のデータベースにページを作成するということを実現するための例コードと解説を公開しておきます。Notion ページには GitHub Issue へのリンクを含ませる形にします。 例コードの方が話が早いという方もいると思いますので、まずは例コードを置いたリポジトリへのリンクを置いておきます: https://github.com/tommy6073/issue-and-notion-database-page このコードの解説という形で説明を進めていこうと思います。Node.js や npm パッケージのセ...",
-            "url": "https://zenn.dev/tomm6073/articles/a054598d2fbc6a",
-            "title": "GitHub Actions で Issue を作成すると同時に Notion のデータベースにページを作成する | Zennのトレンド",
-            "summary": "GitHub Actions により Issue を作成すると同時に Notion のデータベースにページを作成するということを実現するための例コードと解説を公開しておきます。Notion ページには GitHub Issue へのリンクを含ませる形にします。 例コードの方が話が早いという方もいると思いますので、まずは例コードを置いたリポジトリへのリンクを置いておきます: https://gith...",
-            "date_modified": "2022-02-10T22:58:36.000Z",
-            "date_published": "2022-02-10T22:58:36.000Z",
-            "author": {
-                "name": "Takayuki NAGATOMI"
-            },
             "tags": []
         },
         {
@@ -769,10 +813,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9906",
-            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  Magic Podの導入  最強のエンジニア・デザイナー開発環境向上施策  新サービスを立ち上げる際、エンジニアとしてやって良かった 9個の事  おすすめのプロトタイピングツール5選(2016年5月時点)   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
+            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」  ActiveRecordのincludes, preload, eager_load の個人的な使い分け  フルタイムRubyコミッター採用までの道のり  インフラ留学を糧に理想の開発を目指して組織を作るまでの話(Plus Ops でこんにちは)  マネーフォワードの未来について語る会を開催   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Re...",
             "url": "https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/",
             "title": "How to start SRE in a small team, all by yourself. | Engineers' Blog",
-            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ste...",
+            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-02-10T08:00:09.000Z",
             "date_published": "2022-02-10T08:00:09.000Z",
             "author": {
@@ -1029,19 +1073,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/sasigume/articles/4a15780b5a6698",
-            "content_html": "vercel/og-imageについて https://github.com/vercel/og-image Vercelが公開しているOG画像生成用のServerless Functionの例。 当然Vercelにデプロイする前提で作られているので、そのままではNetlifyにデプロイできません。 なんでNetlify Functionsにするかと言うと、Hobbyプランだと組織のリポジトリを使うことができず不便だからです。 https://github.com/vercel/og-image/issues/172 メインコントリビューターのSteven氏が「Netlify Fun...",
-            "url": "https://zenn.dev/sasigume/articles/4a15780b5a6698",
-            "title": "vercel/og-imageをNetlify Functionsで動かせるように改造する | Zennのトレンド",
-            "summary": "vercel/og-imageについて https://github.com/vercel/og-image Vercelが公開しているOG画像生成用のServerless Functionの例。 当然Vercelにデプロイする前提で作られているので、そのままではNetlifyにデプロイできません。 なんでNetlify Functionsにするかと言うと、Hobbyプランだと組織のリポジトリを使...",
-            "date_modified": "2022-02-10T03:05:24.000Z",
-            "date_published": "2022-02-10T03:05:24.000Z",
-            "author": {
-                "name": "sasigume"
-            },
-            "tags": []
-        },
-        {
             "id": "https://developer.aiming-inc.com/?p=7868",
             "content_html": "こんにちは。 第一事業部に所属しているエンジニアの珍田です。 今回は、一部プロジェクトで導入している Slack ボットを紹介します。 プロジェクトに所属するメンバーが 3 桁の人数規模にもなってくるとさまざまな方が開発に参加されることとなります。 Slack のマルチチャネルゲ […]",
             "url": "https://developer.aiming-inc.com/activities/slack-group-mention-for-guest-user/",
@@ -1082,19 +1113,6 @@
             "date_published": "2022-02-10T02:48:16.000Z",
             "author": {
                 "name": "Ubie, Inc."
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/mattn/articles/37fc825cba8fd2",
-            "content_html": "Twitter で散歩していたら、昨日こんなツイートを見付けました。 https://twitter.com/m_ou_se/status/1491327611150102532 コードはこんな感じ。(ツイート主がメンションで修正している内容を反映済み)  main.rs use std::{  thread::{self, sleep},  time::Duration, };  fn main() {  thread::spawn(|| {  sleep(Duration::from_millis(2100));  loop {  ...",
-            "url": "https://zenn.dev/mattn/articles/37fc825cba8fd2",
-            "title": "Sleep FizzBuzz | Zennのトレンド",
-            "summary": "Twitter で散歩していたら、昨日こんなツイートを見付けました。 https://twitter.com/m_ou_se/status/1491327611150102532 コードはこんな感じ。(ツイート主がメンションで修正している内容を反映済み)  main.rs use std::{  thread::{self, sleep},  time::Duration, };  fn main...",
-            "date_modified": "2022-02-10T02:28:09.000Z",
-            "date_published": "2022-02-10T02:28:09.000Z",
-            "author": {
-                "name": "mattn"
             },
             "tags": []
         },
@@ -4521,21 +4539,6 @@
             "tags": []
         },
         {
-            "id": "https://math-fun.net/?p=21979",
-            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、写像・関数の像の定義、例と求め方（一点集合、区間）を紹介します。 逆像の定義 \\(X,Y\\)を集合とし、写像（関数）\\(f:X \\to Y\\)について ... 写像・関数の像の定義、例と求め方（一点集合、区間） first appeared on 趣味の大学数学.",
-            "url": "https://math-fun.net/20220202/21979/",
-            "title": "写像・関数の像の定義、例と求め方（一点集合、区間） | 趣味の大学数学",
-            "summary": "どうも、木村（@kimu3_slime）です。 今回は、写像・関数の像の定義、例と求め方（一点集合、区間）を紹介します。 逆像の定義 \\(X,Y\\)を集合とし、写像（関数）\\(f:X \\to Y\\)について ... 写像・関数の像の定義、例と求め方（一点集合、区間） first appeared on 趣味の大学数学.",
-            "date_modified": "2022-02-02T04:56:40.000Z",
-            "date_published": "2022-02-02T04:56:40.000Z",
-            "author": {
-                "name": "kimu3"
-            },
-            "tags": [
-                "集合論"
-            ]
-        },
-        {
             "id": "https://zenn.dev/ubie/articles/499d3ecff708c0",
             "content_html": "こんにちは、Ubie株式会社でデザインエンジニアをやっているtakanoripです。 UbieではユビーAI受診相談というサービスを開発しており、症状に関する質問をするページ（以下「質問ページ」という）を中心にアクセシビリティ向上のための様々な改善を進めています。  今回はその中の1つの事例をご紹介します！ Ubieでのアクセシビリティ推進の全体像が気になる方は弊社デザイナー3284さんの記事を読んでもらえたら嬉しいです！ https://note.com/3284/n/n8c1bc619514c   今回の課題：SPAでの画面遷移 SPAの画面遷移はスクリーンリーダー対応が漏れがちなポ...",
             "url": "https://zenn.dev/ubie/articles/499d3ecff708c0",
@@ -4753,18 +4756,6 @@
             "date_modified": "2022-02-02T00:00:00.000Z",
             "date_published": "2022-02-02T00:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode",
-            "content_html": "As part of DeepMinds mission to solve intelligence, we created a system called AlphaCode that writes computer programs at a competitive level.",
-            "url": "https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode",
-            "title": "Competitive programming with AlphaCode | Latest Post",
-            "summary": "As part of DeepMinds mission to solve intelligence, we created a system called AlphaCode that writes computer programs at a competitive level.",
-            "date_modified": "2022-02-02T00:00:00.000Z",
-            "date_published": "2022-02-02T00:00:00.000Z",
-            "tags": [
-                "Research"
-            ]
         },
         {
             "id": "https://nitter.net/techwraith/status/1488661911495340033#m",
@@ -5335,10 +5326,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9898",
-            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go BoldにGive it a try!  How MySQL Multi-Threaded Slave (MTS) Works  マネーフォワードのコーポレートエンジニアがやっているSaaSの障害検知方法  goroutine内のpanic handling  Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
+            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2020年3月）  マネーフォワードボルダリング部  try! Swiftに参加してきました  京都大学の超交流会2019に出展してきた  マネーフォワード MEのiOS 15対応   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/",
             "title": "Datadogを使った分散トレーシングをクラウド会計で見えるようにした話 | Engineers' Blog",
-            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go ...",
+            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-02-01T00:30:07.000Z",
             "date_published": "2022-02-01T00:30:07.000Z",
             "author": {
@@ -5757,10 +5748,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9896",
-            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ansible galaxyを使って銀河の彼方からJenkinsおじさんを召喚する  オフィスの便利ツール紹介：トイレ混雑チェッカー  Swift2.0で追加された新機能 3選  レビューしやすいコミット履歴でバグ削減  Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
+            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「奇行・寄稿・紀行と、技術書執筆のお話」  広告と三方よし  マネーフォワード社内PRに見られるRubyの書き方について - (4) 真理値  カンタンに始める！WordPressでのブログ運用とSEO  自称実質MVP受賞者が語る！2021年テックブログが最高にハイアウトプットだった件について   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/",
             "title": "AI推進部における読書会の紹介 | Engineers' Blog",
-            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ans...",
+            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...",
             "date_modified": "2022-01-31T04:56:38.000Z",
             "date_published": "2022-01-31T04:56:38.000Z",
             "author": {
@@ -6076,32 +6067,6 @@
                 "Policy",
                 "Perspectives"
             ]
-        },
-        {
-            "id": "https://zenn.dev/datafarm/articles/42769b813b58cc",
-            "content_html": "#keynote   課題 Keynoteでスライドを移動させた際に、自動的に動画を再生させたい   解決方法  該当ムービーを選択 ムービータグを選択 「クリックしてムービーを開始」のチェックを外す     補足  「スライドを自動的に実行」というメニューがあるわけではない。  そのため方法を見つけるまで、少し時間がかかってしまった     投稿がお役に立ちましたら、いいねをしていただけると嬉しいです🙇‍♂️",
-            "url": "https://zenn.dev/datafarm/articles/42769b813b58cc",
-            "title": "Keynoteでスライドが移動した際に、自動で動画を再生させる | 株式会社データファームさんのフィード",
-            "summary": "#keynote   課題 Keynoteでスライドを移動させた際に、自動的に動画を再生させたい   解決方法  該当ムービーを選択 ムービータグを選択 「クリックしてムービーを開始」のチェックを外す     補足  「スライドを自動的に実行」というメニューがあるわけではない。  そのため方法を見つけるまで、少し時間がかかってしまった     投稿がお役に立ちましたら、いいねをしていただけると嬉し...",
-            "date_modified": "2022-01-29T06:45:22.000Z",
-            "date_published": "2022-01-29T06:45:22.000Z",
-            "author": {
-                "name": "株式会社データファーム"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/datafarm/articles/6101b6728f4692",
-            "content_html": "#router   課題  特定の機械のIPをルーター側で固定したい    解決方法  ルーターに対してコマンドを送信して実現 dhcp scope bind 1 【固定したいIPアドレス】 ethernet 【Macアドレス】    補足   bind 1の部分はDHCP スコープの番号を指定。複数の番号割り当てを作っている場合はそれを指定  ethernetの部分はクライアント番号の指定をした場合にそれを無効化する方法（らしい）おまじない的にいれて問題ないと思う。 指定するIP番号は、現在使われていないアドレスを指定する必要がある。    参考   YAMAHA ルータで DHCP ...",
-            "url": "https://zenn.dev/datafarm/articles/6101b6728f4692",
-            "title": "Macアドレスを指定して、利用するIPの固定をルーターに指示する | 株式会社データファームさんのフィード",
-            "summary": "#router   課題  特定の機械のIPをルーター側で固定したい    解決方法  ルーターに対してコマンドを送信して実現 dhcp scope bind 1 【固定したいIPアドレス】 ethernet 【Macアドレス】    補足   bind 1の部分はDHCP スコープの番号を指定。複数の番号割り当てを作っている場合はそれを指定  ethernetの部分はクライアント番号の指定をした...",
-            "date_modified": "2022-01-29T06:13:00.000Z",
-            "date_published": "2022-01-29T06:13:00.000Z",
-            "author": {
-                "name": "株式会社データファーム"
-            },
-            "tags": []
         }
     ]
 }
