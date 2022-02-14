@@ -7,6 +7,87 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://tech.drecom.co.jp/?p=24435",
+            "content_html": "こんにちは！enzaのインフラ周りの仕事をしているmendと申します！ 以前に k8s 1.20のDocker非推奨問題でEKSを使用しているプロジェクトが対応することとして、k8s 1.20からのdocker非推奨問題… EKSでdocker非推奨問題に対応しましたはTech Inside Drecomで公開された投稿です。",
+            "url": "https://tech.drecom.co.jp/eks-deprecates-docker/",
+            "title": "EKSでdocker非推奨問題に対応しました | Tech Inside Drecom",
+            "summary": "こんにちは！enzaのインフラ周りの仕事をしているmendと申します！ 以前に k8s 1.20のDocker非推奨問題でEKSを使用しているプロジェクトが対応することとして、k8s 1.20からのdocker非推奨問題… EKSでdocker非推奨問題に対応しましたはTech Inside Drecomで公開された投稿です。",
+            "date_modified": "2022-02-14T01:35:28.000Z",
+            "date_published": "2022-02-14T01:35:28.000Z",
+            "author": {
+                "name": "mend"
+            },
+            "tags": [
+                "SRE",
+                "インフラ"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/update/driver/1387941.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/update/driver/1387941.html",
+            "title": "【アップデート情報】パッケージ・ドライバー関連　2月14日　～Intelなど | 窓の杜",
+            "date_modified": "2022-02-14T00:30:00.000Z",
+            "date_published": "2022-02-14T00:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/datafarm/articles/c31b9b6fadd0bd",
+            "content_html": "#box   課題  iOS端末でboxのurlを開くと、ブラウザが起動する。 ブラウザでログインしても、iOSでのブラウザ操作に対応していないため、操作ができない    解決方法  boxapp://folder?id=[folderid]、とすることで、アプリを指定して開くことが可能 FileMakerで操作する場合は、OSによってURLの指定を変更することで対応 詳細はhttps://developer.box.com/guides/mobile/mobile-deep-linking/     投稿がお役に立ちましたら、いいねをしていただけると嬉しいです🙇‍♂️",
+            "url": "https://zenn.dev/datafarm/articles/c31b9b6fadd0bd",
+            "title": "boxをurlから「boxアプリを指定して」フォルダを開く | 株式会社データファームさんのフィード",
+            "summary": "#box   課題  iOS端末でboxのurlを開くと、ブラウザが起動する。 ブラウザでログインしても、iOSでのブラウザ操作に対応していないため、操作ができない    解決方法  boxapp://folder?id=[folderid]、とすることで、アプリを指定して開くことが可能 FileMakerで操作する場合は、OSによってURLの指定を変更することで対応 詳細はhttps://dev...",
+            "date_modified": "2022-02-14T00:22:13.000Z",
+            "date_published": "2022-02-14T00:22:13.000Z",
+            "author": {
+                "name": "株式会社データファーム"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/datafarm/articles/459fe32dcbcd0a",
+            "content_html": "#ablogcms   課題  URLに含まれているカスタムフィールドの値を表示されているページで利用したい    解決方法  BEGIN_MODULE Field_Searchを利用する。 フィルド名は [0] などを利用することで、複数ある場合に、n番めの項目を指定して取得できる  （1番目を指定する場合は0となる）    <!-- BEGIN_MODULE Field_Search -->{name1}<!-- END_MODULE Field_Search --> <!-- BEGIN_MODULE Field_Search -->{name1...",
+            "url": "https://zenn.dev/datafarm/articles/459fe32dcbcd0a",
+            "title": "a-blog cmsでURLに指定したフィールド情報をhtmlに取得する | 株式会社データファームさんのフィード",
+            "summary": "#ablogcms   課題  URLに含まれているカスタムフィールドの値を表示されているページで利用したい    解決方法  BEGIN_MODULE Field_Searchを利用する。 フィルド名は [0] などを利用することで、複数ある場合に、n番めの項目を指定して取得できる  （1番目を指定する場合は0となる）    <!-- BEGIN_MODULE Field_Search -->{...",
+            "date_modified": "2022-02-14T00:20:27.000Z",
+            "date_published": "2022-02-14T00:20:27.000Z",
+            "author": {
+                "name": "株式会社データファーム"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://tech.repro.io/entry/2022/02/14/090000",
+            "content_html": "こんにちは、Site Reliability Engineerの @r_takaishi です。Reproではログの管理や検索に Papertrail を使っています。今回、Papertrailに送られるログの流量をDatadogで監視し、流量の増加に気づくための仕組みを整えたので紹介します。 課題 Reproでは様々なログをPapertrailに送り、エラー検知や検索などに活用しています。Papertrailの料金プランは例えば1GB/月で7ドルのようなログのデータ量で契約します。これを越えた場合は従量課金となります( https://www.papertrail.com/plans/ )。…",
+            "url": "https://tech.repro.io/entry/2022/02/14/090000",
+            "title": "Papertrailに送っているログの流量をDatadogで監視する | Repro Tech Blog",
+            "summary": "こんにちは、Site Reliability Engineerの @r_takaishi です。Reproではログの管理や検索に Papertrail を使っています。今回、Papertrailに送られるログの流量をDatadogで監視し、流量の増加に気づくための仕組みを整えたので紹介します。 課題 Reproでは様々なログをPapertrailに送り、エラー検知や検索などに活用しています。Pap...",
+            "date_modified": "2022-02-14T00:00:00.000Z",
+            "date_published": "2022-02-14T00:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1387940.html",
+            "content_html": "米Microsoftは2月10日（現地時間）、「Microsoft Edge」の最新安定（Stable）版v98.0.1108.50を公開した。なりすましの脆弱性（CVE-2022-23264）に対処したセキュリティアップデートとなっている。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1387940.html",
+            "title": "「Microsoft Edge」になりすましの問題 ～修正版のv98.0.1108.50が公開／ | 窓の杜",
+            "summary": "米Microsoftは2月10日（現地時間）、「Microsoft Edge」の最新安定（Stable）版v98.0.1108.50を公開した。なりすましの脆弱性（CVE-2022-23264）に対処したセキュリティアップデートとなっている。",
+            "date_modified": "2022-02-13T23:31:19.000Z",
+            "date_published": "2022-02-13T23:31:19.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.isid.co.jp/entry/2022/02/14/GitHub%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E6%A9%9F%E5%AF%86%E6%83%85%E5%A0%B1%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%84%E3%83%BC%E3%83%AB",
+            "content_html": "こんにちは、電通国際情報サービス(ISID)、2021年新卒入社の大西です。ソフトウェアデザインセンターのセキュリティグループに所属しています。 私は昨年10月にセキュリティグループへ配属され、3ヶ月間、技術調査としてGitHub上の機密情報を見つけ出すチェックツールを調査していました。今日は、GitHubリポジトリに機密情報をプッシュしてしまった場合に、それを検知するツールについてお話しします。 皆さんは、ソースコードを書く際に機密情報をハードコードしてしまっていないでしょうか。機密情報をハードコーディングしたままGitHub上に公開すると、その情報を不正利用されてしまいます。例えば、AWS…",
+            "url": "https://tech.isid.co.jp/entry/2022/02/14/GitHub%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AE%E6%A9%9F%E5%AF%86%E6%83%85%E5%A0%B1%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%E3%83%84%E3%83%BC%E3%83%AB",
+            "title": "GitHubリポジトリの機密情報チェックツール | 電通国際情報サービス TechBlog",
+            "summary": "こんにちは、電通国際情報サービス(ISID)、2021年新卒入社の大西です。ソフトウェアデザインセンターのセキュリティグループに所属しています。 私は昨年10月にセキュリティグループへ配属され、3ヶ月間、技術調査としてGitHub上の機密情報を見つけ出すチェックツールを調査していました。今日は、GitHubリポジトリに機密情報をプッシュしてしまった場合に、それを検知するツールについてお話しします。...",
+            "date_modified": "2022-02-13T23:30:00.000Z",
+            "date_published": "2022-02-13T23:30:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/bookwatch/sale/1387781.html",
             "content_html": "",
             "url": "https://forest.watch.impress.co.jp/docs/bookwatch/sale/1387781.html",
@@ -56,6 +137,16 @@
             "tags": []
         },
         {
+            "id": "https://future-architect.github.io/articles/20220214a/",
+            "content_html": "<p>この記事は<a href=\"https://future-architect.github.io/articles/20220209a/\">Go1.18連載</a>の3記事目です。</p> <p>伊藤真彦です、最近CSIGの<a",
+            "url": "https://future-architect.github.io/articles/20220214a/",
+            "title": "Go1.18から追加されたFuzzingとは | フューチャー技術ブログ",
+            "summary": "<p>この記事は<a href=\"https://future-architect.github.io/articles/20220209a/\">Go1.18連載</a>の3記事目です。</p> <p>伊藤真彦です、最近CSIGの<a",
+            "date_modified": "2022-02-13T15:00:00.000Z",
+            "date_published": "2022-02-13T15:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/torifukukaiou/items/bfbe459979172ecab7d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "新しい技術は、必ず次の技術によって置き換わる宿命を持っている。それをまた自分の手でやってこそ技術屋冥利に尽きる。自分がやらなければ他社がやるだけのこと。商品のコストもまったく同じ  Advent Ca…",
             "url": "https://qiita.com/torifukukaiou/items/bfbe459979172ecab7d9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -63,6 +154,19 @@
             "summary": "新しい技術は、必ず次の技術によって置き換わる宿命を持っている。それをまた自分の手でやってこそ技術屋冥利に尽きる。自分がやらなければ他社がやるだけのこと。商品のコストもまったく同じ  Advent Ca…",
             "date_modified": "2022-02-13T13:27:55.000Z",
             "date_published": "2022-02-13T13:27:55.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/emiksk/articles/e2716c0af75eea",
+            "content_html": "エンティティの識別子の生成タイミング問題 DDD[1]では，一意な識別子を持ち，その識別子によって識別できるモデルをエンティティ (Entity) として表現します．このエンティティの識別子の生成方法には様々な種類がありますが，大きく分けて永続化前に生成する早期生成と永続化後に生成する遅延生成の2種類に分けられます． エンティティの識別子の生成に遅延生成を用いると本来 Not Null な識別子を Nullbale として扱う必要性が生じてしまいます．これを避けるのであれば，早期生成を採用すると良く，IDDD本[2]などではUUIDやGUIDをアプリケーション側で生成し識別子に用いる...",
+            "url": "https://zenn.dev/emiksk/articles/e2716c0af75eea",
+            "title": "エンティティの識別子に ULID を使ってみよう | Zennのトレンド",
+            "summary": "エンティティの識別子の生成タイミング問題 DDD[1]では，一意な識別子を持ち，その識別子によって識別できるモデルをエンティティ (Entity) として表現します．このエンティティの識別子の生成方法には様々な種類がありますが，大きく分けて永続化前に生成する早期生成と永続化後に生成する遅延生成の2種類に分けられます． エンティティの識別子の生成に遅延生成を用いると本来 Not Null な識別子を...",
+            "date_modified": "2022-02-13T13:12:26.000Z",
+            "date_published": "2022-02-13T13:12:26.000Z",
+            "author": {
+                "name": "emiksk"
+            },
             "tags": []
         },
         {
@@ -149,6 +253,19 @@
             "summary": "可能と困難は可能のうち  Advent Calendar 2022 43日目[^1]の記事です。 I'm looking forward to 12/25,2022 私のAdvent Calendar…",
             "date_modified": "2022-02-13T11:42:50.000Z",
             "date_published": "2022-02-13T11:42:50.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/hirac/articles/5a181fce480191",
+            "content_html": "はじめに はじめましてsweeep CTOの平下です。今年からsweeepではテックブログを始めました(sweeep各メンバーのテック系ブログを紐付けるテックブログHub)。 先日請求書のオンライン受け取りと電子保管などの新サービス「sweeep Box」を立ち上げましたので、まずはそちらの技術について簡単にご紹介させていただこうと思います。   フロントエンド 現sweeepと同じくVue.jsで開発をしています。今回はTypeScriptを使用し、アーキテクチャはClean Architectureを採用しています。また、CSSフレームワークはTailwindを使用しています。 ...",
+            "url": "https://zenn.dev/hirac/articles/5a181fce480191",
+            "title": "sweeep Boxで使用している技術スタック | Zennのトレンド",
+            "summary": "はじめに はじめましてsweeep CTOの平下です。今年からsweeepではテックブログを始めました(sweeep各メンバーのテック系ブログを紐付けるテックブログHub)。 先日請求書のオンライン受け取りと電子保管などの新サービス「sweeep Box」を立ち上げましたので、まずはそちらの技術について簡単にご紹介させていただこうと思います。   フロントエンド 現sweeepと同じくVue.js...",
+            "date_modified": "2022-02-13T08:54:07.000Z",
+            "date_published": "2022-02-13T08:54:07.000Z",
+            "author": {
+                "name": "hirac"
+            },
             "tags": []
         },
         {
@@ -366,19 +483,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/elletech/articles/react-native-expo-remote-notification",
-            "content_html": "対象者  NativeアプリをExpoで開発しようとしててPush通知について調べている人 ExpoでPush通知を導入したい人    準備 React Native Expoの環境構築   ローカル通知とリモート通知の違い NativeアプリのPush通知には「ローカル通知」と「リモート通知」の2種類があります。 この二つの違いは「外部サーバが必要かどうか」となります。   ローカル通知の例 身近でローカル通知といえば下記画像のような「許可を求める通知」などが挙げられます。 Push通知を外部サーバにリクエストするのではなく端末内のみの処理でPush通知を表示しています。    リ...",
-            "url": "https://zenn.dev/elletech/articles/react-native-expo-remote-notification",
-            "title": "React Native Expoにリモート通知を送信してみた | Zennのトレンド",
-            "summary": "対象者  NativeアプリをExpoで開発しようとしててPush通知について調べている人 ExpoでPush通知を導入したい人    準備 React Native Expoの環境構築   ローカル通知とリモート通知の違い NativeアプリのPush通知には「ローカル通知」と「リモート通知」の2種類があります。 この二つの違いは「外部サーバが必要かどうか」となります。   ローカル通知の例 身...",
-            "date_modified": "2022-02-12T11:29:09.000Z",
-            "date_published": "2022-02-12T11:29:09.000Z",
-            "author": {
-                "name": "sugayutokyo"
-            },
-            "tags": []
-        },
-        {
             "id": "61fef8123e5b565d484b7971",
             "content_html": "This article covers some of the more prominent usages of AI in chemistry, the parent discipline of the protein folding problem.",
             "url": "https://thegradient.pub/how-ai-is-changing-chemical-discovery/",
@@ -421,6 +525,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/yamayuski/articles/96478cb4fe1573",
+            "content_html": "結論から述べると   RoadRunner は いいぞ。   経緯 PHP は昨今様々なランタイムで動作させることが出来ます。 最も一般的なものは nginx + php-fpm かなと思いますが、 「最近聞こえるようになってきたアレとかコレとかと比べてどうなんだろう？」 という疑問を持ちました。検索しても私の疑問を解消してくれるだけの回答は見つかりませんでした。 だったら自分でやろうということでやりました。 ついでに、 各ランタイムごとにどんな Dockerfile/docker-compose.yml を書いたらいいかのテンプレート にもなったかなと思います。 https://g...",
+            "url": "https://zenn.dev/yamayuski/articles/96478cb4fe1573",
+            "title": "PHP(Laravel) ランタイムのベンチマークをしました | Zennのトレンド",
+            "summary": "結論から述べると   RoadRunner は いいぞ。   経緯 PHP は昨今様々なランタイムで動作させることが出来ます。 最も一般的なものは nginx + php-fpm かなと思いますが、 「最近聞こえるようになってきたアレとかコレとかと比べてどうなんだろう？」 という疑問を持ちました。検索しても私の疑問を解消してくれるだけの回答は見つかりませんでした。 だったら自分でやろうということで...",
+            "date_modified": "2022-02-12T09:15:42.000Z",
+            "date_published": "2022-02-12T09:15:42.000Z",
+            "author": {
+                "name": "やまゆ"
+            },
+            "tags": []
+        },
+        {
             "id": "https://blog.fascode.net/?p=13421",
             "content_html": "Alter Linux 20220208版がリリースされました。 2022/02/12現在の時点で公式サイトの方からダウンロードすることができます。 Alter Linux - FascodeNetworkLIVE TH […] Alter Linux 20220208のリリース first appeared on FascodeNetwork Blog.",
             "url": "https://blog.fascode.net/2022/02/12/alter-linux-20220208/",
@@ -460,6 +577,16 @@
             "author": {
                 "name": "khale "
             },
+            "tags": []
+        },
+        {
+            "id": "https://numb86-tech.hatenablog.com/entry/2022/02/12/154459",
+            "content_html": "サーバ・クライアント間の通信を gRPC で行う場合、インターフェイスを定義した共通のファイルから、サーバとクライアント双方のコードを生成することができる。 この記事では、インターフェイスの定義ファイ",
+            "url": "https://numb86-tech.hatenablog.com/entry/2022/02/12/154459",
+            "title": "Next.js で始める gRPC 通信 | HERP TechHub",
+            "summary": "サーバ・クライアント間の通信を gRPC で行う場合、インターフェイスを定義した共通のファイルから、サーバとクライアント双方のコードを生成することができる。 この記事では、インターフェイスの定義ファイ",
+            "date_modified": "2022-02-12T06:44:59.000Z",
+            "date_published": "2022-02-12T06:44:59.000Z",
             "tags": []
         },
         {
@@ -581,6 +708,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/kakkoyakakko/articles/a5ab80d0341a47",
+            "content_html": "はじめに  NuxtのSPAモードの時の自動テストを計画・運用した時に問題が発生しました。問題を改善していった結果、自動テストの分類などを個人的にしてみたのでこの記事ではそれをまとめます。 忙しい方はテストサイズまとめと自動テストの分類まとめに内容がまとまっているので、そちらを確認ください。 ちなみにこの記事ではテストコードの書き方については記載しませんのでご了承ください。    対象読者  自動テストの運用を初めてみたい方 自動テストを導入しても上手く運用できない方 自動テストが肥大化してCI管理が上手く出来ていない方    想定環境 以下の環境で開発進めていることを前提に進めます...",
+            "url": "https://zenn.dev/kakkoyakakko/articles/a5ab80d0341a47",
+            "title": "Nuxt(SPAモード)の自動テストを考える | Zennのトレンド",
+            "summary": "はじめに  NuxtのSPAモードの時の自動テストを計画・運用した時に問題が発生しました。問題を改善していった結果、自動テストの分類などを個人的にしてみたのでこの記事ではそれをまとめます。 忙しい方はテストサイズまとめと自動テストの分類まとめに内容がまとまっているので、そちらを確認ください。 ちなみにこの記事ではテストコードの書き方については記載しませんのでご了承ください。    対象読者  自動...",
+            "date_modified": "2022-02-12T01:25:40.000Z",
+            "date_published": "2022-02-12T01:25:40.000Z",
+            "author": {
+                "name": "（や）"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/AGO523/items/22dc24407540d2837bb0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "自己紹介  おがわと申します。 現在（２０２２年２月）、自社開発の企業を目標に転職活動をしています。 私は小学校教員からエンジニア転職を目指して独学を継続しています。 webのことは全くわからない状…",
             "url": "https://qiita.com/AGO523/items/22dc24407540d2837bb0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -668,19 +808,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/ryicoh/articles/git_calc_object_hash",
-            "content_html": "Git のオブジェクト 最初に少しだけGitのデータ(オブジェクト)の保存方法について触れます。 オブジェクトは .git/objects/ に保存されます。 この中にリポジトリのファイルを効率的に保存します。 バージョンごとに同じファイルを重複して保存することはありません。 ファイルだけではありません。４種類のオブジェクトを保存します。  blob: Binary Large OBjecctの略で、つまりはファイルです。しかし、ファイル名は含みません。 tree: １階層分のディレクトリの全ファイル名とファイル内容のハッシュと権限です。 commit: git commit で作ら...",
-            "url": "https://zenn.dev/ryicoh/articles/git_calc_object_hash",
-            "title": "Gitのオブジェクトハッシュの計算方法 | Zennのトレンド",
-            "summary": "Git のオブジェクト 最初に少しだけGitのデータ(オブジェクト)の保存方法について触れます。 オブジェクトは .git/objects/ に保存されます。 この中にリポジトリのファイルを効率的に保存します。 バージョンごとに同じファイルを重複して保存することはありません。 ファイルだけではありません。４種類のオブジェクトを保存します。  blob: Binary Large OBjecctの略...",
-            "date_modified": "2022-02-11T17:04:45.000Z",
-            "date_published": "2022-02-11T17:04:45.000Z",
-            "author": {
-                "name": "ryicoh"
-            },
-            "tags": []
-        },
-        {
             "id": "https://www.kdnuggets.com/?p=129327",
             "content_html": "Here are a few approaches that I have settled on for managing my own reusable Python code as a data scientist, presented from most to least general code use, and aimed at beginners.",
             "url": "https://www.kdnuggets.com/2021/06/managing-reusable-python-code-data-scientist.html?utm_source=rss&utm_medium=rss&utm_campaign=managing-your-reusable-python-code-as-a-data-scientist",
@@ -742,19 +869,6 @@
             "date_published": "2022-02-11T14:05:07.000Z",
             "author": {
                 "name": "daisuke-fukuda"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/chabatake_i/articles/figma-variants",
-            "content_html": "はじめに 今年に入ってからデザインツールの「Figma」を使い始めました。UIデザインのツールとしては他に「Adobe XD」や「Sketch」等がありますが、Figma の特徴としてブラウザ上で動作することや高度な共同編集機能などが挙げられます。UIデザインをする上でもたくさんの便利な機能がありますが、今回はその中で Variants 機能を利用したコンポーネントの作成と、作成したプロトタイプを元に Vue.js と Tailwind CSS を使用して実装を行った内容について書いてみようと思います。   Variants機能 Variants 機能はコンポーネントの複数の状態をま...",
-            "url": "https://zenn.dev/chabatake_i/articles/figma-variants",
-            "title": "FigmaのVariants機能を利用したプロトタイピングと実装 | Zennのトレンド",
-            "summary": "はじめに 今年に入ってからデザインツールの「Figma」を使い始めました。UIデザインのツールとしては他に「Adobe XD」や「Sketch」等がありますが、Figma の特徴としてブラウザ上で動作することや高度な共同編集機能などが挙げられます。UIデザインをする上でもたくさんの便利な機能がありますが、今回はその中で Variants 機能を利用したコンポーネントの作成と、作成したプロトタイプを...",
-            "date_modified": "2022-02-11T14:02:44.000Z",
-            "date_published": "2022-02-11T14:02:44.000Z",
-            "author": {
-                "name": "koyama shigehito"
             },
             "tags": []
         },
@@ -945,6 +1059,17 @@
             "date_modified": "2022-02-11T01:00:00.000Z",
             "date_published": "2022-02-11T01:00:00.000Z",
             "tags": []
+        },
+        {
+            "id": "https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world",
+            "content_html": "",
+            "url": "https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world",
+            "title": "MuZero’s first step from research into the real world | Latest Post",
+            "date_modified": "2022-02-11T00:00:00.000Z",
+            "date_published": "2022-02-11T00:00:00.000Z",
+            "tags": [
+                "Research"
+            ]
         },
         {
             "id": "http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html",
@@ -1152,6 +1277,16 @@
             "tags": []
         },
         {
+            "id": "https://reimaru.hatenablog.com/entry/join-herp-inc",
+            "content_html": "2022年1月1日に株式会社HERPに入社しました。 今回は、私が株式会社HERPに入社するまでの経緯や考えたことついて書いてみます。  転職を考えるようになったきっかけ  前職では、Ruby on ",
+            "url": "https://reimaru.hatenablog.com/entry/join-herp-inc",
+            "title": "株式会社HERPに入社しました | HERP TechHub",
+            "summary": "2022年1月1日に株式会社HERPに入社しました。 今回は、私が株式会社HERPに入社するまでの経緯や考えたことついて書いてみます。  転職を考えるようになったきっかけ  前職では、Ruby on ",
+            "date_modified": "2022-02-10T10:00:00.000Z",
+            "date_published": "2022-02-10T10:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://mathlandscape.com/?p=24604",
             "content_html": "関数の台 (support) とは定義域の，値が消滅しない部分集合 やその閉包 を指します。これについて，もう少し掘り下げて解説しましょう。 関数の台(supp)とは 大学数学で を使うときは後者の意味(閉包を取る方)が […]",
             "url": "https://mathlandscape.com/supp/",
@@ -1255,10 +1390,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9906",
-            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is Cloud Engineering a Promising Career Field to Get Into?  2020年のマネーフォワード  「Vue Test Utils」を導入して、Vue Componentの単体テストを書けるようにした話  ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと  MF KESSAI Tech Blog新設のおしらせ   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
+            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる  hamlからslimに移行してみた話  おすすめのプロトタイピングツール5選(2016年5月時点)  【レポート】オレたちが目指す\"最強のエンジニアドリブン\" セミナーレポート  MoneyForward Meetupレポート「エンジニア×営業×CS」   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/",
             "title": "How to start SRE in a small team, all by yourself. | Engineers' Blog",
-            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is ...",
+            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...",
             "date_modified": "2022-02-10T08:00:09.000Z",
             "date_published": "2022-02-10T08:00:09.000Z",
             "author": {
@@ -1357,19 +1492,6 @@
             "summary": "プログラミング教室「ロジカ式」を全国で展開する（株）ロジカ・エデュケーションは2月9日、2025年からの大学入試に導入される大学入学共通テスト手順記述標準言語（DNCL）への対策として、日本語プログラミング言語「なでしこ」を用いた学習コースを新設すると発表した。開講は2022年9月からになる予定。",
             "date_modified": "2022-02-10T06:00:21.000Z",
             "date_published": "2022-02-10T06:00:21.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/hiroshiman/articles/5d9d6d3e7a22b9",
-            "content_html": "はじめに 企業でApple製品を利用したいというニーズは昨今とても多くなってきていると思います。 しかもApple製品は買えばすぐに使えてしまうというメリットでもあり、企業としては情報統制という意味でデメリットとなります。 またゆるく使い始めてしまうと、後々企業できちんと管理する場合にとても面倒な事になります。 この記事では、今後Apple製品を利用しようとしている中小企業の情シス担当者向けに、事前準備として実施しておいた方がよいことをまとめます。   こんな企業にお勧め  スタートアップ これからApple製品を使い始める予定があるけど、よくわかってない 実はもう使っちゃってるけど...",
-            "url": "https://zenn.dev/hiroshiman/articles/5d9d6d3e7a22b9",
-            "title": "中小企業でApple製品を利用する前にやっておくこと | Zennのトレンド",
-            "summary": "はじめに 企業でApple製品を利用したいというニーズは昨今とても多くなってきていると思います。 しかもApple製品は買えばすぐに使えてしまうというメリットでもあり、企業としては情報統制という意味でデメリットとなります。 またゆるく使い始めてしまうと、後々企業できちんと管理する場合にとても面倒な事になります。 この記事では、今後Apple製品を利用しようとしている中小企業の情シス担当者向けに、事...",
-            "date_modified": "2022-02-10T05:47:31.000Z",
-            "date_published": "2022-02-10T05:47:31.000Z",
-            "author": {
-                "name": "Hiroshiman"
-            },
             "tags": []
         },
         {
@@ -2301,16 +2423,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1387035.html",
-            "content_html": "米Microsoftは2月8日（現地時間）、「Excel」の新しい関数「LAMBDA」（ラムダ）とそのヘルパー関数の一般提供を発表した。「Microsoft 365」の最新チャネルで配信中の「Excel」ビルドで利用できる。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1387035.html",
-            "title": "Excelの新関数「LAMBDA」（ラムダ）が一般提供開始 ～Excel数式が本格的なプログラミング言語に／プチ開発環境アドインも「Microsoft Garage」プロジェクトで提供 | 窓の杜",
-            "summary": "米Microsoftは2月8日（現地時間）、「Excel」の新しい関数「LAMBDA」（ラムダ）とそのヘルパー関数の一般提供を発表した。「Microsoft 365」の最新チャネルで配信中の「Excel」ビルドで利用できる。",
-            "date_modified": "2022-02-09T00:08:19.000Z",
-            "date_published": "2022-02-09T00:08:19.000Z",
-            "tags": []
-        },
-        {
             "id": "https://pf-siedler.hatenablog.com/entry/2022/02/09/090757",
             "content_html": "最近仕事で PostgreSQL を使うことになったので、忘備録としてDocker で環境構築して一通り触ったメモを、主に MySQL との差分に注目しながら書きます。  PostgreSQL の D",
             "url": "https://pf-siedler.hatenablog.com/entry/2022/02/09/090757",
@@ -2344,16 +2456,6 @@
             "author": {
                 "name": "株式会社データファーム"
             },
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1387034.html",
-            "content_html": "米Microsoftは2月8日（現地時間）、すべてのサポート中バージョンのWindowsに対し月例のセキュリティ更新プログラムをリリースした（パッチチューズデー、Bリリース）。現在、「Windows Update」や「Microsoft Update Catalog」から入手可能。以下のMicrosoft製品に対しても、セキュリティアップデートが提供されている。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1387034.html",
-            "title": "Microsoft製品の月例セキュリティ更新が公開 ～今月は深刻度「Critical」の問題はなし／ただし、エクスプロイトが公開されている脆弱性が1件。油断は禁物 | 窓の杜",
-            "summary": "米Microsoftは2月8日（現地時間）、すべてのサポート中バージョンのWindowsに対し月例のセキュリティ更新プログラムをリリースした（パッチチューズデー、Bリリース）。現在、「Windows Update」や「Microsoft Update Catalog」から入手可能。以下のMicrosoft製品に対しても、セキュリティアップデートが提供されている。",
-            "date_modified": "2022-02-08T23:04:30.000Z",
-            "date_published": "2022-02-08T23:04:30.000Z",
             "tags": []
         },
         {
@@ -4970,6 +5072,18 @@
             "tags": []
         },
         {
+            "id": "https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode",
+            "content_html": "As part of DeepMinds mission to solve intelligence, we created a system called AlphaCode that writes computer programs at a competitive level.",
+            "url": "https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode",
+            "title": "Competitive programming with AlphaCode | Latest Post",
+            "summary": "As part of DeepMinds mission to solve intelligence, we created a system called AlphaCode that writes computer programs at a competitive level.",
+            "date_modified": "2022-02-02T00:00:00.000Z",
+            "date_published": "2022-02-02T00:00:00.000Z",
+            "tags": [
+                "Research"
+            ]
+        },
+        {
             "id": "https://nitter.net/techwraith/status/1488661911495340033#m",
             "content_html": "Our tests show that @OpenAI is onto something with their new embeddings product. For our real-world use case, it blew away the competition. nitter.net/askviable/status/1488659715169009664#m",
             "url": "https://nitter.net/techwraith/status/1488661911495340033#m",
@@ -5528,10 +5642,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9898",
-            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「テックトーク」で知識と経験を共有しよう  DroidKaigi 2021にGOLD SPONSORとして協賛、マネーフォワードの社員が登壇します  【レポート】MF Geeks Night (2015年11月)  SassやCSSでチェックボックスやラジオボタンをカスタマイズする方法  Railsでリファクタリングにオススメな gem 5選   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
+            "content_html": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: SassやCSSでチェックボックスやラジオボタンをカスタマイズする方法  大量データで性能テストをする際に考えた事 ~ 将来のユーザーを見据えたテスト方針 ~  StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  Rubyコードの健康を保つためのgem 5+1選   Copyright © Engineers' Blog [Datadogを使った分散トレーシングをクラウド会計で見えるようにした話], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/01/datadog-distributed-tracing/",
             "title": "Datadogを使った分散トレーシングをクラウド会計で見えるようにした話 | Engineers' Blog",
-            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「テッ...",
+            "summary": "こんにちは。マネーフォワードでエンジニアとして働いている @sters です。普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sas...",
             "date_modified": "2022-02-01T00:30:07.000Z",
             "date_published": "2022-02-01T00:30:07.000Z",
             "author": {
@@ -5626,10 +5740,10 @@
             "date_modified": "2022-01-31T17:00:11.000Z",
             "date_published": "2022-01-31T17:00:11.000Z",
             "author": {
-                "name": "Matt Mayo Editor"
+                "name": "Eduardo Blancas"
             },
             "tags": [
-                "2022 Jan Tutorials, Overviews",
+                "KDnuggets Republished",
                 "Machine Learning"
             ]
         },
@@ -5655,7 +5769,7 @@
                 "name": "Nahla Davies"
             },
             "tags": [
-                "2022 Jan Tutorials, Overviews",
+                "KDnuggets Originals",
                 "Deployment"
             ]
         },
@@ -5688,10 +5802,10 @@
             "date_modified": "2022-01-31T13:00:03.000Z",
             "date_published": "2022-01-31T13:00:03.000Z",
             "author": {
-                "name": "Matt Mayo Editor"
+                "name": "Kathleen Lara"
             },
             "tags": [
-                "2022 Jan Opinions",
+                "KDnuggets Originals",
                 "Career Advice"
             ]
         },
@@ -5950,10 +6064,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9896",
-            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Money Forward Advent Calendar 2018  オフィスの便利ツール紹介：拠点間の常時接続Webミーティング  JSON仕様（ECMA-404） を眺めてみる  マネーフォワードは何をモデル化するか  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
+            "content_html": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年7月)  AndroidアプリにおけるUIの状態保存と復元について調べてみた  振り返りを振り返る 〜 半年間KPTをやってみて  「テックトーク」で知識と経験を共有しよう  マネーフォワード社内PRに見られるRubyの書き方について - (2) ハッシュの生成   Copyright © Engineers' Blog [AI推進部における読書会の紹介], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/01/31/book-discussion/",
             "title": "AI推進部における読書会の紹介 | Engineers' Blog",
-            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...",
+            "summary": "こんにちは！CTO室AI推進部の幸野(こうの)です。先任から引き継ぐ形で2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
             "date_modified": "2022-01-31T04:56:38.000Z",
             "date_published": "2022-01-31T04:56:38.000Z",
             "author": {
@@ -6054,26 +6168,6 @@
             "summary": "2021年12月14日に、『Merpay Tech Talk 〜事業成長を支えるArchitectチームの取り組み〜』 を開催しました。 この記事はイベントレポートです。配信当日の内容を簡単に紹介します！ 詳しくはYou […]",
             "date_modified": "2022-01-31T01:00:32.000Z",
             "date_published": "2022-01-31T01:00:32.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.enigmo.co.jp/entry/2022/01/31/100000",
-            "content_html": "こんにちは、エニグモでデータサイエンティストをしている堀部です。 昨年末から使い始めたdbt x BigQueryについて共有します。 BigQuery歴2年、SQL歴5年ほどになります。 QUALIFY句が好きです。 dbtを使い始めたきっかけ 使ってみてよかった点 前処理〜特徴量生成の例 dbt_project.yml macro models Appendix：packageの利用 まとめ dbtを使い始めたきっかけ SQLでの集計は嫌いではないのですが、以下の2点で困っていることがありました。 1点目は、BigQuery特有のエラー Resources exceeded during …",
-            "url": "https://tech.enigmo.co.jp/entry/2022/01/31/100000",
-            "title": "dbt x BigQueryを使ってみた | エニグモ開発者ブログ",
-            "summary": "こんにちは、エニグモでデータサイエンティストをしている堀部です。 昨年末から使い始めたdbt x BigQueryについて共有します。 BigQuery歴2年、SQL歴5年ほどになります。 QUALIFY句が好きです。 dbtを使い始めたきっかけ 使ってみてよかった点 前処理〜特徴量生成の例 dbt_project.yml macro models Appendix：packageの利用 まとめ ...",
-            "date_modified": "2022-01-31T01:00:00.000Z",
-            "date_published": "2022-01-31T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.layerx.co.jp/entry/2022/01/31/093141",
-            "content_html": "バクラク請求書 でリードエンジニアをしているSaaS事業部の @yyoshiki41（中川佳希）です！ バクラクシリーズでは、経理向けSaaSに始まりコーポレートDXをサポートする複数プロダクトを提供しています。 サービスローンチから1年経過したこともあり、2021年12月から2022年1月は短い間に事業部として怒涛のリリースの日々でした。 LayerX インボイスから、バクラクへサービス名称を変更 1周年のインフォグラフィックの公開 TV CM の開始 サービス全体で変化はありましたが今後も変わらずプロダクト開発を通して、経理・コーポレートチームの仕事がバクラクになるようサポートしていきます…",
-            "url": "https://tech.layerx.co.jp/entry/2022/01/31/093141",
-            "title": "MySQL 外部キー制約とインデックスに必要な知識 | LayerX エンジニアブログ",
-            "summary": "バクラク請求書 でリードエンジニアをしているSaaS事業部の @yyoshiki41（中川佳希）です！ バクラクシリーズでは、経理向けSaaSに始まりコーポレートDXをサポートする複数プロダクトを提供しています。 サービスローンチから1年経過したこともあり、2021年12月から2022年1月は短い間に事業部として怒涛のリリースの日々でした。 LayerX インボイスから、バクラクへサービス名称を変...",
-            "date_modified": "2022-01-31T00:31:41.000Z",
-            "date_published": "2022-01-31T00:31:41.000Z",
             "tags": []
         }
     ]
