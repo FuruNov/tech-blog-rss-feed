@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 15 Feb 2022 23:27:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Feb 2022 02:12:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,119 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[仮想カメラを使った高解像度・高フレームレートのテスト方法 | さくらのナレッジ is_page]]></title>
+            <link>https://knowledge.sakura.ad.jp/30186/</link>
+            <guid>https://knowledge.sakura.ad.jp/30186/</guid>
+            <pubDate>Wed, 16 Feb 2022 02:00:41 GMT</pubDate>
+            <description><![CDATA[こんにちは、テリーです。フルリモートワークになり、会社の機材を借りてテストすることが気軽にできなくなりました。特定の機種でしか発症しないバグや、機種固有の機能を実機で試す場合、わざわざ電車に乗って取りに行くのも面倒だと感じる機会がたびたびあります。 そんな中、高解像度カメラ、高解像度ディスプレイ、高速Wi-Fi、USB-Cの普及により、高解像度配信のための要素技術がこの数年で全て廉価に手軽になりま...]]></description>
+            <content:encoded><![CDATA[こんにちは、テリーです。フルリモートワークになり、会社の機材を借りてテストすることが気軽にできなくなりました。特定の機種でしか発症しないバグや、機種固有の機能を実機で試す場合、わざわざ電車に乗って取りに行くのも面倒だと感じる機会がたびたびあります。 そんな中、高解像度カメラ、高解像度ディスプレイ、高速Wi-Fi、USB-Cの普及により、高解像度配信のための要素技術がこの数年で全て廉価に手軽になりました。そこで4K 60FPSの映像をそのままライブ配信したくなりますが、廉価なWebカメラでは4Kの場合に最大30FPSとなる商品もあります。進化の激しい映像業界で、最新の高性能カメラを毎回買い続けて手元に置いておくのはコスト面で大変です。今回はこのケース、高解像度・高フレームレートの映像配信を、本物のカメラがない状況で手軽にシミュレーションする方法をご紹介します。 仮想カメラとは パソコン用のWebカメラはさまざまなメーカーから販売されており、OSが個別対応することなく動作しています。デバイスドライバが各カメラの違いを吸収しているためです。OSが「カメラ」と認識するようなソフトウェアのことを...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[商品在庫絞り込み機能のリリース振り返りと、New Relicを活用した観測について | BASEプロダクトチームブログ]]></title>
+            <link>https://devblog.thebase.in/entry/2022/02/16/110000</link>
+            <guid>https://devblog.thebase.in/entry/2022/02/16/110000</guid>
+            <pubDate>Wed, 16 Feb 2022 02:00:00 GMT</pubDate>
+            <description><![CDATA[初めまして。フロントエンドエンジニアの近藤 @kon_engineerと申します。 本記事では、2022年1月24日（月）にリリースされた、商品在庫絞り込み機能の振り返りと、サービス全体の状況を可視化できるNew Relicというプラットフォームを活用したAPIの観測について紹介します。 今回の事例では、New Relicで観測可能なAPIのレスポンス速度や各クエリパラメータのリクエスト状況などを...]]></description>
+            <content:encoded><![CDATA[初めまして。フロントエンドエンジニアの近藤 @kon_engineerと申します。 本記事では、2022年1月24日（月）にリリースされた、商品在庫絞り込み機能の振り返りと、サービス全体の状況を可視化できるNew Relicというプラットフォームを活用したAPIの観測について紹介します。 今回の事例では、New Relicで観測可能なAPIのレスポンス速度や各クエリパラメータのリクエスト状況などを分析して、効果測定や今後の施策に活かす取り組みを行いました。New Relicの詳しい説明や、BASEがNew Relicを導入した経緯はこちらの記事をご参照頂けたらと思います。 商品在庫絞り込み機能…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Node.jsのMySQLパッケージにおけるエスケープ処理だけでは防げない「隠れた」SQLインジェクション | Flatt Security Blog]]></title>
+            <link>https://blog.flatt.tech/entry/node_mysql_sqlinjection?utm_source=feed</link>
+            <guid>https://blog.flatt.tech/entry/node_mysql_sqlinjection?utm_source=feed</guid>
+            <pubDate>Wed, 16 Feb 2022 02:00:00 GMT</pubDate>
+            <description><![CDATA[※本記事は筆者styprが英語で執筆した記事を株式会社Flatt Security社内で日本語に翻訳したものになります。 TL;DR Node.jsのエコシステムで最も人気のあるMySQLパッケージの一つである mysqljs/mysql (https://github.com/mysqljs/mysql)において、クエリのエスケープ関数の予期せぬ動作がSQLインジェクションを引き起こす可能性があ...]]></description>
+            <content:encoded><![CDATA[※本記事は筆者styprが英語で執筆した記事を株式会社Flatt Security社内で日本語に翻訳したものになります。 TL;DR Node.jsのエコシステムで最も人気のあるMySQLパッケージの一つである mysqljs/mysql (https://github.com/mysqljs/mysql)において、クエリのエスケープ関数の予期せぬ動作がSQLインジェクションを引き起こす可能性があることが判明しました。 通常、クエリのエスケープ関数やプレースホルダはSQLインジェクションを防ぐことが知られています。しかし、mysqljs/mysql は、値の種類によってエスケープ方法が異なるこ…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PAYPAYで取り消ししたはずの売上が、CSVで2重に登録されている？→取引ステータスを確認 | 株式会社データファームさんのフィード]]></title>
+            <link>https://zenn.dev/datafarm/articles/0afcc5048e7dfc</link>
+            <guid>https://zenn.dev/datafarm/articles/0afcc5048e7dfc</guid>
+            <pubDate>Wed, 16 Feb 2022 01:45:14 GMT</pubDate>
+            <description><![CDATA[#PAYPAY   課題  PAYPAYで取り消したはずの売り上げが、ダウンロードしたCSVの売り上げに登録されている    解決方法  「取引ステータス」を確認 取り消ししたものは「取引失敗」というステータスになっている 売上合計を算出する場合「取引完了」のステータスを合計する]]></description>
+            <content:encoded><![CDATA[#PAYPAY   課題  PAYPAYで取り消したはずの売り上げが、ダウンロードしたCSVの売り上げに登録されている    解決方法  「取引ステータス」を確認 取り消ししたものは「取引失敗」というステータスになっている 売上合計を算出する場合「取引完了」のステータスを合計する]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[iPadと楽天ペイ決済端末が「Bluetooth設定では繋がっているのに」反応しない場合の対処方法 | 株式会社データファームさんのフィード]]></title>
+            <link>https://zenn.dev/datafarm/articles/21caf5d89fed96</link>
+            <guid>https://zenn.dev/datafarm/articles/21caf5d89fed96</guid>
+            <pubDate>Wed, 16 Feb 2022 01:43:49 GMT</pubDate>
+            <description><![CDATA[#スマレジ   課題  決済端末が、楽天決済アプリから反応しない。 アプリ側から「ペアリングしてください」という表示が出てしまう。    解決方法  「楽天ペイ店舗」アプリを削除 「楽天ペイ店舗」アプリを再インストール 「設定」→「カードリーダーの接続」を選んで、再度アプリ側からもペアリング  再インストール時に、ショップコード、パスワードが必要]]></description>
+            <content:encoded><![CDATA[#スマレジ   課題  決済端末が、楽天決済アプリから反応しない。 アプリ側から「ペアリングしてください」という表示が出てしまう。    解決方法  「楽天ペイ店舗」アプリを削除 「楽天ペイ店舗」アプリを再インストール 「設定」→「カードリーダーの接続」を選んで、再度アプリ側からもペアリング  再インストール時に、ショップコード、パスワードが必要]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ホラクラシー運用とそれを支えるグループ同期 | Ubie, Inc.さんのフィード]]></title>
+            <link>https://zenn.dev/ubie/articles/operating-holacracy</link>
+            <guid>https://zenn.dev/ubie/articles/operating-holacracy</guid>
+            <pubDate>Wed, 16 Feb 2022 01:28:14 GMT</pubDate>
+            <description><![CDATA[Ubie Discoveryの @itkq です。 Ubie Discoveryではホラクラシー組織を採用しています。ホラクラシーの概略や採用した経緯は以下の記事を参照してください。 https://note.com/ubie/n/nd86e2a5655c0 この記事では、実際のホラクラシーの運用と工夫について紹介します。   Holaspirit Ubie Discoveryでは、ホラクラシー運...]]></description>
+            <content:encoded><![CDATA[Ubie Discoveryの @itkq です。 Ubie Discoveryではホラクラシー組織を採用しています。ホラクラシーの概略や採用した経緯は以下の記事を参照してください。 https://note.com/ubie/n/nd86e2a5655c0 この記事では、実際のホラクラシーの運用と工夫について紹介します。   Holaspirit Ubie Discoveryでは、ホラクラシー運用のためHolaspiritというSaaSを利用しています。GoogleをプロバイダとしたSAML SSOを有効化しています。基本機能は以下のとおりです。  サークルやロールの管理 タスクやプロ...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ドリコム Advent Calendar 2021 結果報告 | Tech Inside Drecom]]></title>
+            <link>https://tech.drecom.co.jp/drecom-advent-calendar-2021-report/</link>
+            <guid>https://tech.drecom.co.jp/?p=24906</guid>
+            <pubDate>Wed, 16 Feb 2022 01:06:17 GMT</pubDate>
+            <description><![CDATA[こんにちは！ドリコムAdvent Calendar実行委員会です。ドリコムでは毎年Advent Calendarを投稿しています。今回は去年のAdvent Calendarのレポートに関して共有させていただきます。 PV… ドリコム Advent Calendar 2021 結果報告はTech Inside Drecomで公開された投稿です。]]></description>
+            <content:encoded><![CDATA[こんにちは！ドリコムAdvent Calendar実行委員会です。ドリコムでは毎年Advent Calendarを投稿しています。今回は去年のAdvent Calendarのレポートに関して共有させていただきます。 PV… ドリコム Advent Calendar 2021 結果報告はTech Inside Drecomで公開された投稿です。]]></content:encoded>
+            <category>アドベントカレンダー</category>
+            <category>イベント</category>
+        </item>
+        <item>
+            <title><![CDATA[新旧CTO対談  後編「これからのCARTAのエンジニアリング」 | CARTA TECH BLOG]]></title>
+            <link>https://techblog.cartaholdings.co.jp/entry/cto_talk_part2</link>
+            <guid>https://techblog.cartaholdings.co.jp/entry/cto_talk_part2</guid>
+            <pubDate>Wed, 16 Feb 2022 01:01:00 GMT</pubDate>
+            <description><![CDATA[CARTA HOLDIGSの新旧CTOである二人が思うCARTAのエンジニア文化とこれから、そしてCTOの役割とは何かについて聞きました。 ]]></description>
+            <content:encoded><![CDATA[CARTA HOLDIGSの新旧CTOである二人が思うCARTAのエンジニア文化とこれから、そしてCTOの役割とは何かについて聞きました。 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[メルカリShops における Cloud Run service の Canary Deployment | メルカリエンジニアリングブログ]]></title>
+            <link>https://engineering.mercari.com/blog/entry/20220216-mercari-shops-canary-deployment/</link>
+            <guid>19313</guid>
+            <pubDate>Wed, 16 Feb 2022 01:00:21 GMT</pubDate>
+            <description><![CDATA[こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：メルカリShops 開発の裏側 Vol.2 の4日目を担当させていただきます。 この記事では、メルカリShops において、C […]]]></description>
+            <content:encoded><![CDATA[こんにちは！ソウゾウの Software Engineer の @dragon3 です。連載：メルカリShops 開発の裏側 Vol.2 の4日目を担当させていただきます。 この記事では、メルカリShops において、C […]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[新旧CTO対談  前編「これまでの10年とCTO交代」 | CARTA TECH BLOG]]></title>
+            <link>https://techblog.cartaholdings.co.jp/entry/cto_talk_part1</link>
+            <guid>https://techblog.cartaholdings.co.jp/entry/cto_talk_part1</guid>
+            <pubDate>Wed, 16 Feb 2022 01:00:00 GMT</pubDate>
+            <description><![CDATA[CARTA HOLDINGS 前CTOである小賀さんのCTO就任当時からのこれまでの10年、そしてCTO交代の経緯やCTO退任後にチャレンジする領域についても聞きました。 ]]></description>
+            <content:encoded><![CDATA[CARTA HOLDINGS 前CTOである小賀さんのCTO就任当時からのこれまでの10年、そしてCTO交代の経緯やCTO退任後にチャレンジする領域についても聞きました。 ]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【2021年 おすすめ書籍】  虎の穴ラボ 社内アンケート | 虎の穴開発室ブログ]]></title>
+            <link>https://toranoana-lab.hatenablog.com/entry/2022/02/16/095500</link>
+            <guid>https://toranoana-lab.hatenablog.com/entry/2022/02/16/095500</guid>
+            <pubDate>Wed, 16 Feb 2022 00:55:00 GMT</pubDate>
+            <description><![CDATA[2021年 おすすめ書籍 とらラボ社内アンケート こんにちは。大場です。 年が明けたと思ったら、あっという間に2月ですね。 今年こそはウィンタースポーツを楽しもうと思ってスキー場のチケットとホテルを予約していたのですが、まん延防止延長をうけてやむをえずキャンセルしました・・・ さて、今回は、虎の穴ラボのメンバーにおすすめ書籍のアンケートを実施しましたので、その結果を公開します！ 少し遅いですが、昨...]]></description>
+            <content:encoded><![CDATA[2021年 おすすめ書籍 とらラボ社内アンケート こんにちは。大場です。 年が明けたと思ったら、あっという間に2月ですね。 今年こそはウィンタースポーツを楽しもうと思ってスキー場のチケットとホテルを予約していたのですが、まん延防止延長をうけてやむをえずキャンセルしました・・・ さて、今回は、虎の穴ラボのメンバーにおすすめ書籍のアンケートを実施しましたので、その結果を公開します！ 少し遅いですが、昨年を振り返るという意味合いも兼ねて2021年以降に発行された書籍に限定しました。 私と同様、外出を自粛されている方も多いかと思いますので、 アンケート結果の中にもし気になる書籍があれば、おうち時間を活…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Microsoft、新しい「メモ帳」と「メディアプレイヤー」の一般提供を開始／Windows 11の「Fluent Design System」に準拠したデザインへ。機能も充実 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1388622.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1388622.html</guid>
+            <pubDate>Wed, 16 Feb 2022 00:50:33 GMT</pubDate>
+            <description><![CDATA[米Microsoftは2月15日（現地時間）、Windows 11向けにリデザインされた「メモ帳」と「メディアプレイヤー」の展開を予告通り開始した。]]></description>
+            <content:encoded><![CDATA[米Microsoftは2月15日（現地時間）、Windows 11向けにリデザインされた「メモ帳」と「メディアプレイヤー」の展開を予告通り開始した。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　2月16日　～セイコーエプソンなど | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/update/driver/1388617.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/update/driver/1388617.html</guid>
+            <pubDate>Wed, 16 Feb 2022 00:30:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[生成系 (群論) | 大学数学の授業ノート]]></title>
+            <link>https://math-notes.info/2022/02/16/group-5/</link>
+            <guid>https://math-notes.info/?p=1387</guid>
+            <pubDate>Tue, 15 Feb 2022 23:56:08 GMT</pubDate>
+            <description><![CDATA[群の生成系について解説します。]]></description>
+            <content:encoded><![CDATA[群の生成系について解説します。]]></content:encoded>
+            <category>群論</category>
+        </item>
         <item>
             <title><![CDATA[プログラミング経験がなくても大丈夫！AIを使った文字起こしアプリを作ってみよう。 # Azureリレー | cloud.config Tech Blog]]></title>
             <link>https://tech-blog.cloud-config.jp/2022-02-16-azure-ai-translator-app/</link>
@@ -143,14 +256,6 @@ Learn more about our alignment research: http://openai.com/alignment | OpenAI / 
             <content:encoded><![CDATA[はじめに 先日 Chromium ベースのブラウザでも structuredClone がサポートされましたね🎉 https://chromestatus.com/feature/5630001077551104 既に Firefox でもサポートされているので、いよいよ使えそうかな？と思ったのですが、まだ型が追加されていませんでした。 structuredClone の型は lib.dom.d.ts に追加されるだろうという目星はつけたのですが、 ふと「lib.dom.d.ts はどのように更新されているんだろう」と疑問に思い、少し流れを追ってみました。 同じように気になった人の少...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Ten teams named for Alexa Prize SimBot Challenge | Amazon Science Homepage]]></title>
-            <link>https://www.amazon.science/alexa-prize/simbot-challenge/2021</link>
-            <guid>https://www.amazon.science/alexa-prize/simbot-challenge/2021</guid>
-            <pubDate>Tue, 15 Feb 2022 14:00:32 GMT</pubDate>
-            <description><![CDATA[University teams will compete to develop a bot that best responds to customer commands in a virtual world.]]></description>
-            <content:encoded><![CDATA[University teams will compete to develop a bot that best responds to customer commands in a virtual world.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Svelte から AWS Lambda を API Gateway をトリガーに呼び出す | Zennのトレンド]]></title>
             <link>https://zenn.dev/ogty/articles/article_2022_02_15</link>
             <guid>https://zenn.dev/ogty/articles/article_2022_02_15</guid>
@@ -234,15 +339,6 @@ Learn more about our alignment research: http://openai.com/alignment | OpenAI / 
             <link>https://forest.watch.impress.co.jp/docs/digest/1388488.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/digest/1388488.html</guid>
             <pubDate>Tue, 15 Feb 2022 09:22:16 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[GANの学習データが少ない場合、Discriminatorがoverfitし、真の画像と偽の画像に対する出力分布が離れてしまう問題を解決するために、APA(Adaptive Pseudo Augmentation)と呼ばれる新規augmentation手法を提案しています。
-https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-            <link>https://nitter.net/ai_scholar/status/1493511365080010752#m</link>
-            <guid>https://nitter.net/ai_scholar/status/1493511365080010752#m</guid>
-            <pubDate>Tue, 15 Feb 2022 09:03:52 GMT</pubDate>
-            <description><![CDATA[GANの学習データが少ない場合、Discriminatorがoverfitし、真の画像と偽の画像に対する出力分布が離れてしまう問題を解決するために、APA(Adaptive Pseudo Augmentation)と呼ばれる新規augmentation手法を提案しています。 ai-scholar.tech/articles/gan…]]></description>
-            <content:encoded><![CDATA[GANの学習データが少ない場合、Discriminatorがoverfitし、真の画像と偽の画像に対する出力分布が離れてしまう問題を解決するために、APA(Adaptive Pseudo Augmentation)と呼ばれる新規augmentation手法を提案しています。 ai-scholar.tech/articles/gan…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[CLINICS アプリのリニューアルの裏側 (iOS 編) | Medley Developer Blog]]></title>
@@ -445,8 +541,8 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
             <link>https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9915</guid>
             <pubDate>Tue, 15 Feb 2022 03:00:47 GMT</pubDate>
-            <description><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 本番稼...]]></description>
-            <content:encoded><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  Rubocop でカスタムルールを作る  インフラ留学を糧に理想の開発を目指して組織を作るまでの話(Plus Ops でこんにちは)  マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた  【社内レポ】マネーフォワードのエンジニア   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EKS...]]></description>
+            <content:encoded><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EKSへのデプロイを楽にするためにGitHub Appsを導入しました  マネーフォワードエンジニアの私生活  京都拠点のカジュアル面談でウケが良かった話・悪かった話  iOS版マネーフォワード MEのダークモード対応  少しだけ主夫をやった話   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -581,7 +677,7 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
             <content:encoded><![CDATA[今回はユニファ株式会社デザイン部の森田がお送りいたします。 デザイナーについての記事ですが、デザイナーがいる組織で活躍されているエンジニアの方にも読んでいただけると嬉しいです。 インハウスデザイナーってなに？ インハウスデザイナーの心構え インハウスデザイナーのキャリアパス どうやったらインハウスデザイナーになれるの？]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[行を含むテキストがa-blog cmsのIF文で正しく評価されない | 株式会社データファームさんのフィード]]></title>
+            <title><![CDATA[改行を含むテキストがa-blog cmsのIF文で正しく評価されない | 株式会社データファームさんのフィード]]></title>
             <link>https://zenn.dev/datafarm/articles/3245425cd4012c</link>
             <guid>https://zenn.dev/datafarm/articles/3245425cd4012c</guid>
             <pubDate>Mon, 14 Feb 2022 23:46:52 GMT</pubDate>
@@ -866,16 +962,6 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
             <category>Fascode</category>
             <category>Linux</category>
             <category>カテゴリ済み</category>
-        </item>
-        <item>
-            <title><![CDATA[HIVを対象とした国家戦略の実現可能性について評価をおこなっています。
-強化学習を活用し、検査と継続したケアの最適なパターンを導出することで、コストを削減しつつ、HIV感染者数を10%以下に削減する方法を提案しています！
-https://ai-scholar.tech/articles/reinforcement-learning/hiv_rl | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-            <link>https://nitter.net/ai_scholar/status/1493146626768003072#m</link>
-            <guid>https://nitter.net/ai_scholar/status/1493146626768003072#m</guid>
-            <pubDate>Mon, 14 Feb 2022 08:54:31 GMT</pubDate>
-            <description><![CDATA[HIVを対象とした国家戦略の実現可能性について評価をおこなっています。 ai-scholar.tech/articles/rei…]]></description>
-            <content:encoded><![CDATA[HIVを対象とした国家戦略の実現可能性について評価をおこなっています。 ai-scholar.tech/articles/rei…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[クラウドワークスだけじゃないってことを、ここらへんでハッキリさせておこうぜ | クラウドワークス エンジニアブログ]]></title>
@@ -1326,27 +1412,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/hiv_rl | AI技術最新�
             <content:encoded><![CDATA[アプリの更新履歴  2022/02/15 正誤判定の方法を修正  2022/02/14 設定画面からハイコントラストモードを選べる機能を追加 2022/02/12 リリース  はじめに  最近話題の5文字…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[R to @CVpaperChalleng: 2021年に募集した第一期の実績は
-・応募は全八件
-・CVPR 2022に一件投稿を実施
-・ECCV 2022に二件投稿を計画中
-です。第一期の試行錯誤を経て、第二期ではさらに体制を強化していきます！ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-            <link>https://nitter.net/CVpaperChalleng/status/1492839094682271744#m</link>
-            <guid>https://nitter.net/CVpaperChalleng/status/1492839094682271744#m</guid>
-            <pubDate>Sun, 13 Feb 2022 12:32:30 GMT</pubDate>
-            <description><![CDATA[2021年に募集した第一期の実績は ・応募は全八件 ・CVPR 2022に一件投稿を実施 ・ECCV 2022に二件投稿を計画中 です。第一期の試行錯誤を経て、第二期ではさらに体制を強化していきます！]]></description>
-            <content:encoded><![CDATA[2021年に募集した第一期の実績は ・応募は全八件 ・CVPR 2022に一件投稿を実施 ・ECCV 2022に二件投稿を計画中 です。第一期の試行錯誤を経て、第二期ではさらに体制を強化していきます！]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【研究メンバー募集】PRMU/CVIM研究メンターシッププログラム（PRMU/CVIM RMP）と連携して難関国際会議への投稿・採択を目指すプログラム、2022年に第二期の募集を実施致します。第二期の応募締め切りは2022/02/25 (金) 23:59 JSTです。
-http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-            <link>https://nitter.net/CVpaperChalleng/status/1492838344837201923#m</link>
-            <guid>https://nitter.net/CVpaperChalleng/status/1492838344837201923#m</guid>
-            <pubDate>Sun, 13 Feb 2022 12:29:31 GMT</pubDate>
-            <description><![CDATA[【研究メンバー募集】PRMU/CVIM研究メンターシッププログラム（PRMU/CVIM RMP）と連携して難関国際会議への投稿・採択を目指すプログラム、2022年に第二期の募集を実施致します。第二期の応募締め切りは2022/02/25 (金) 23:59 JSTです。 xpaperchallenge.org/cv/xccv/]]></description>
-            <content:encoded><![CDATA[【研究メンバー募集】PRMU/CVIM研究メンターシッププログラム（PRMU/CVIM RMP）と連携して難関国際会議への投稿・採択を目指すプログラム、2022年に第二期の募集を実施致します。第二期の応募締め切りは2022/02/25 (金) 23:59 JSTです。 xpaperchallenge.org/cv/xccv/]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[会話のラリーができるAIのAPIを公開した話【個人開発】 | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/maKunugi/items/14f1b82a2c0b6fa5c202?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/maKunugi/items/14f1b82a2c0b6fa5c202?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -1642,17 +1707,6 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <category>プログラミング・数値計算</category>
         </item>
         <item>
-            <title><![CDATA[RT by @CVpaperChalleng: 次刊もいよいよ3月10日発売です。創刊号とともにご注目どうぞよろしくお願いします！
-
-#コンピュータビジョン最前線
-#CV最前線 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-            <link>https://nitter.net/kyoritsu_CV/status/1492009859968950278#m</link>
-            <guid>https://nitter.net/kyoritsu_CV/status/1492009859968950278#m</guid>
-            <pubDate>Fri, 11 Feb 2022 05:37:25 GMT</pubDate>
-            <description><![CDATA[次刊もいよいよ3月10日発売です。創刊号とともにご注目どうぞよろしくお願いします！ #コンピュータビジョン最前線 #CV最前線 nitter.net/kyoritsu_CV/status/1491610573859012613#m]]></description>
-            <content:encoded><![CDATA[次刊もいよいよ3月10日発売です。創刊号とともにご注目どうぞよろしくお願いします！ #コンピュータビジョン最前線 #CV最前線 nitter.net/kyoritsu_CV/status/1491610573859012613#m]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Weekly Kaggle News #113 | Weekly Kaggle News]]></title>
             <link>https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-113-1022231</link>
             <guid>https://www.getrevue.co/profile/upura/issues/weekly-kaggle-news-113-1022231</guid>
@@ -1683,22 +1737,6 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <pubDate>Thu, 10 Feb 2022 23:22:00 GMT</pubDate>
             <description><![CDATA[Posted by Brian Lester, AI Resident and Noah Constant, Senior Staff Software Engineer, Google Research Large pre-trained language models, which are continuing to grow in size, achieve state-of-art res...]]></description>
             <content:encoded><![CDATA[Posted by Brian Lester, AI Resident and Noah Constant, Senior Staff Software Engineer, Google Research Large pre-trained language models, which are continuing to grow in size, achieve state-of-art results on many natural language processing (NLP) benchmarks. Since the development of GPT and BERT, standard practice has been to fine-tune models on downstream tasks, which involves adjusting every weight in the network (i.e., model tuning). However, as models become larger, storing and serving a tun...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ちょっとだけPCをつけっぱなしにしておきたい……そんな時に役立つ「Awake」【生産性を上げる！PowerToys活用術】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/powtoystech/1387762.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/powtoystech/1387762.html</guid>
-            <pubDate>Thu, 10 Feb 2022 21:55:00 GMT</pubDate>
-            <description><![CDATA[OSに求められる機能は用途や利用形態によって千差万別であり、時代の移り変わりによっても当然異なってくる。しかし、OSがそれに逐一対応するのは難しい。]]></description>
-            <content:encoded><![CDATA[OSに求められる機能は用途や利用形態によって千差万別であり、時代の移り変わりによっても当然異なってくる。しかし、OSがそれに逐一対応するのは難しい。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[「Blender」でVRMモデルにエプロンを着用！ ポーズに合わせて服が自然に動くように【Blender ウォッチング】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/blenderwthing/1387774.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/blenderwthing/1387774.html</guid>
-            <pubDate>Thu, 10 Feb 2022 21:45:00 GMT</pubDate>
-            <description><![CDATA[本連載では、無料の高機能3Dモデリングツール「Blender」の使い方や関連情報を幅広くお伝えします。]]></description>
-            <content:encoded><![CDATA[本連載では、無料の高機能3Dモデリングツール「Blender」の使い方や関連情報を幅広くお伝えします。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[The motivation behind using graph convolutions | KDnuggets]]></title>
@@ -1863,8 +1901,8 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <link>https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9906</guid>
             <pubDate>Thu, 10 Feb 2022 08:00:09 GMT</pubDate>
-            <description><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Aut...]]></description>
-            <content:encoded><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Auto Layoutで固有サイズを使いこなそう  iOS8で導入されたアクション付きPush通知を試してみる  Story of being a speaker at a tech panel discussion  マネーフォワードエンジニアインターン 小笠原純也「ユーザーの人生に寄り添えるサービスを」  An engineering visualization tool at Money Forward   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Re...]]></content:encoded>
+            <description><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MUI...]]></description>
+            <content:encoded><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MUI v5 化を経て気づいたやっておいたよかったこと/やっておけばよかったこと  マネーフォワードCTOが考えていること（2020年9月）  マネーフォワード社内PRに見られるRubyの書き方について - (8) 受け渡しのパターンマッチング 3  おすすめのプロトタイピングツール5選(2016年5月時点)  941::blogさんがやってきた！   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1942,22 +1980,6 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <pubDate>Thu, 10 Feb 2022 03:39:52 GMT</pubDate>
             <description><![CDATA[#filemaker   課題  FileMakerの「ソートによる合計パート」にある「集計フィールド」の数字を、変数などで取り扱いたい    解決方法  集計フィールドにあるソートされたグループ毎に集計を再開するを利用する  これにより汎用的な集計フィールドとしては利用できなくなるので注意      投稿がお役に立ちましたら、いいねをしていただけると嬉しいです🙇‍♂️]]></description>
             <content:encoded><![CDATA[#filemaker   課題  FileMakerの「ソートによる合計パート」にある「集計フィールド」の数字を、変数などで取り扱いたい    解決方法  集計フィールドにあるソートされたグループ毎に集計を再開するを利用する  これにより汎用的な集計フィールドとしては利用できなくなるので注意      投稿がお役に立ちましたら、いいねをしていただけると嬉しいです🙇‍♂️]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[RT by @CVpaperChalleng: 3月号予約開始となりました！
-
-コンピュータビジョン最前線　Spring 2022
-https://www.kyoritsu-pub.co.jp/bookdetail/9784320125438
-
-電子版も発売日には購入可能となりますので，いましばらくお待ちください（本シリーズ毎号電子版出します！）
-
-#コンピュータビジョン最前線
-#CV最前線 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-            <link>https://nitter.net/kyoritsu_CV/status/1491610573859012613#m</link>
-            <guid>https://nitter.net/kyoritsu_CV/status/1491610573859012613#m</guid>
-            <pubDate>Thu, 10 Feb 2022 03:10:48 GMT</pubDate>
-            <description><![CDATA[3月号予約開始となりました！ kyoritsu-pub.co.jp/bookdetai… #コンピュータビジョン最前線 #CV最前線]]></description>
-            <content:encoded><![CDATA[3月号予約開始となりました！ kyoritsu-pub.co.jp/bookdetai… #コンピュータビジョン最前線 #CV最前線]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[1人で自由に開発する『1人プロジェクト』やってみた。レポート #1 | Uzabase Tech]]></title>
@@ -2230,15 +2252,6 @@ https://www.kyoritsu-pub.co.jp/bookdetail/9784320125438
             <content:encoded><![CDATA[Data Science Programming Languages and When To Use Them; The Complete Collection of Data Science Cheat Sheets – Part 1; Build a Web Scraper with Python in 5 Minutes; 8 Best Data Science Courses to Enroll in 2022 For Steep Career Advancement; Classifying Long Text Documents Using BERT]]></content:encoded>
             <category>KDnuggets 2022 Issues</category>
             <category>News</category>
-        </item>
-        <item>
-            <title><![CDATA[RT by @ai_scholar: 様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！
-https://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-            <link>https://nitter.net/ai_scholar/status/1491347543770681347#m</link>
-            <guid>https://nitter.net/ai_scholar/status/1491347543770681347#m</guid>
-            <pubDate>Wed, 09 Feb 2022 09:45:36 GMT</pubDate>
-            <description><![CDATA[様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！ ai-scholar.tech/articles/rei…]]></description>
-            <content:encoded><![CDATA[様々なコネクターの挿入タスクに関するOffline datasetを利用することでロボットアームが未知のコネクターにも素早く対応して挿入タスクを解くことが出来るOffline Meta-RL frameworkを紹介します！ ai-scholar.tech/articles/rei…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[週刊Railsウォッチ: Rubygems.orgのAPIキーに権限スコープが追加、RailsのDBパフォーマンス改善ほか（20220209後編） | TechRacho]]></title>
@@ -2574,16 +2587,6 @@ Learn more ➡️ http://wandb.me/openai-docs | OpenAI / @OpenAI]]></title>
             <content:encoded><![CDATA[A collection of cheat sheets that will help you prepare for a technical interview, assessment tests, class presentation, and help you revise core data science concepts.]]></content:encoded>
             <category>2022 Feb Tutorials, Overviews</category>
             <category>Data Science</category>
-        </item>
-        <item>
-            <title><![CDATA[RT by @ai_scholar: 現在患者数が増え続けている、Ⅱ型糖尿病における治療効果を高めるため、服薬アドヒアランス—患者の行動変容—を促すための最適なメッセージに関する研究です。
-本研究では、強化学習を活用し、個人特性を考慮した最適なメッセージを対象として洞察しています。
-https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-            <link>https://nitter.net/ai_scholar/status/1491012450606809088#m</link>
-            <guid>https://nitter.net/ai_scholar/status/1491012450606809088#m</guid>
-            <pubDate>Tue, 08 Feb 2022 11:34:04 GMT</pubDate>
-            <description><![CDATA[現在患者数が増え続けている、Ⅱ型糖尿病における治療効果を高めるため、服薬アドヒアランス—患者の行動変容—を促すための最適なメッセージに関する研究です。 ai-scholar.tech/articles/rei…]]></description>
-            <content:encoded><![CDATA[現在患者数が増え続けている、Ⅱ型糖尿病における治療効果を高めるため、服薬アドヒアランス—患者の行動変容—を促すための最適なメッセージに関する研究です。 ai-scholar.tech/articles/rei…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[goで連想配列フォームつくるよー | Dokokadeさんのフィード]]></title>
@@ -3776,15 +3779,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
             <category>大学専門</category>
         </item>
         <item>
-            <title><![CDATA[RT by @ai_scholar: 実世界データにも適用できる時系列データの生成モデルが提案されました。欠損データにも対応しています。
-https://ai-scholar.tech/articles/gan/Real_World_Time_Series_Data | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-            <link>https://nitter.net/ai_scholar/status/1489171794724474886#m</link>
-            <guid>https://nitter.net/ai_scholar/status/1489171794724474886#m</guid>
-            <pubDate>Thu, 03 Feb 2022 09:39:57 GMT</pubDate>
-            <description><![CDATA[実世界データにも適用できる時系列データの生成モデルが提案されました。欠損データにも対応しています。 ai-scholar.tech/articles/gan…]]></description>
-            <content:encoded><![CDATA[実世界データにも適用できる時系列データの生成モデルが提案されました。欠損データにも対応しています。 ai-scholar.tech/articles/gan…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[通信エラーのクライアント側の扱いについて | cocone engineering]]></title>
             <link>https://engineering.cocone.io/2022/02/03/handling_communication_error/</link>
             <guid>https://engineering.cocone.io/?p=4851</guid>
@@ -4223,90 +4217,6 @@ https://ai-scholar.tech/articles/gan/Real_World_Time_Series_Data | AI技術最�
             <pubDate>Wed, 02 Feb 2022 02:30:00 GMT</pubDate>
             <description><![CDATA[ Linuxサーバで、ダウンロードした好きなデータベースを参照して blastnを実行する方法]]></description>
             <content:encoded><![CDATA[ Linuxサーバで、ダウンロードした好きなデータベースを参照して blastnを実行する方法]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【RPA初心者企業必見】RPAを活用し、DX化を実現するために取り組むべきことをご紹介 | さくらのナレッジ is_page]]></title>
-            <link>https://knowledge.sakura.ad.jp/30149/</link>
-            <guid>https://knowledge.sakura.ad.jp/30149/</guid>
-            <pubDate>Wed, 02 Feb 2022 02:00:00 GMT</pubDate>
-            <description><![CDATA[現在、日本の労働人口は減少の一途をたどっており、人手不足で業務過多に陥る企業は多く存在しています。 また、そうした企業さまに向けて業務自動化を促す「RPA（Robotic Process Automation）」を開発・販売する企業は増えており、多種多様なRPAツールが市場に流通しています。 こうしたRPA活用を通じたDX（デジタルトランスフォーメーション）は、今後のビジネスに不可欠なのです。 そ...]]></description>
-            <content:encoded><![CDATA[現在、日本の労働人口は減少の一途をたどっており、人手不足で業務過多に陥る企業は多く存在しています。 また、そうした企業さまに向けて業務自動化を促す「RPA（Robotic Process Automation）」を開発・販売する企業は増えており、多種多様なRPAツールが市場に流通しています。 こうしたRPA活用を通じたDX（デジタルトランスフォーメーション）は、今後のビジネスに不可欠なのです。 その一方で、RPA導入が初めての企業にとっては、RPAを導入してから何をどのように取り組んだら良いのか悩むはず。 実際、RPA導入企業の8割で、ユーザー部門以外が開発を担っているというデータも出ています（出典：ガートナー (2020年2月)『ガートナー、企業におけるRPAの推進状況に関する調査結果を発表』より）。下図は、出典元にある「図3. RPAの開発体制」の引用です。 そこで今回は、企業が初めてのRPA導入を行った後に、実際にDXを実現するために取り組むべきことを紹介します！ 取り組むこと① DXを推進していくための組織を組閣しよう！ まずDXの一環としてRPAを導入した際にオススメしたいの...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[リニューアルしたN高等学校・S高等学校プロジェクト採用サイトのご紹介 | ドワンゴ教育サービス開発者ブログ]]></title>
-            <link>https://blog.nnn.dev/entry/2022/02/02/110000</link>
-            <guid>https://blog.nnn.dev/entry/2022/02/02/110000</guid>
-            <pubDate>Wed, 02 Feb 2022 02:00:00 GMT</pubDate>
-            <description><![CDATA[昨年末より、N高等学校・S高等学校プロジェクト採用サイトをリニューアルしました。 www.nnn.ed.nico 初公開のものもありますので、コンテンツについて少しばかり紹介させていただきます。 インタビュー 昨年取り組んだ2つの大きなプロジェクトであるN予備校改善（ホーム改善）とVR教材開発のインタビュー記事を公開しています。 N予備校改善（ホーム改善） VR教材開発 N予備校改善（ホーム改善）...]]></description>
-            <content:encoded><![CDATA[昨年末より、N高等学校・S高等学校プロジェクト採用サイトをリニューアルしました。 www.nnn.ed.nico 初公開のものもありますので、コンテンツについて少しばかり紹介させていただきます。 インタビュー 昨年取り組んだ2つの大きなプロジェクトであるN予備校改善（ホーム改善）とVR教材開発のインタビュー記事を公開しています。 N予備校改善（ホーム改善） VR教材開発 N予備校改善（ホーム改善）は、サービスで最初に目にするホーム画面を中心としたサービス体験の改善プロジェクトです。 昨年末にこちらの記事でも紹介させていただきました。 インタビュー記事にはエンジニアとデザイナーが登場しており、プ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【インターンレポート】シチュエーションを限定した対話における応答生成 | LINE ENGINEERING]]></title>
-            <link>https://engineering.linecorp.com/ja/blog/internship2021-dialogue-system/</link>
-            <guid>https://engineering-org.line-apps.com/?p=120837</guid>
-            <pubDate>Wed, 02 Feb 2022 01:48:34 GMT</pubDate>
-            <description><![CDATA[こんにちは、川本稔己と申します。今回LINE夏インターンシップ技術職就業型コースに参加する機会を頂きましたので、その内容をご報告致します。 私は特に対話に関する研究を行っていて、身近な例でいうと音声アシスタントのような人とシステムで行う対話に興味があります。システムが何でも答えてくれるようになったり、話し相手になってくれたら楽しいですよね。そういった思いがあって、今回のLINEのインターンでは、A...]]></description>
-            <content:encoded><![CDATA[こんにちは、川本稔己と申します。今回LINE夏インターンシップ技術職就業型コースに参加する機会を頂きましたので、その内容をご報告致します。 私は特に対話に関する研究を行っていて、身近な例でいうと音声アシスタントのような人とシステムで行う対話に興味があります。システムが何でも答えてくれるようになったり、話し相手になってくれたら楽しいですよね。そういった思いがあって、今回のLINEのインターンでは、AI開発室のNLPチームで業務に携わりました。業務内容は大規模汎用言語モデルを用いた対話システムを構築することで、その成果を対話システムライブコンペティション4に提出しました。その結果、オープントラックとシチュエーショントラックでどちらも1位を取ることができましたので、本記事では自分がメインで担当しましたシチュエーショントラックについて詳細をご報告致します。  The post 【インターンレポート】シチュエーションを限定した対話における応答生成 appeared first on LINE ENGINEERING.]]></content:encoded>
-            <category>Engineering</category>
-            <category>LINEインターン</category>
-            <category>NLP</category>
-        </item>
-        <item>
-            <title><![CDATA[内製ソフトウェアアーキテクチャでレガシーシステムを刷新し技術的負債を削減するまでにやったこと | LIFULL Creators Blog ]]></title>
-            <link>https://www.lifull.blog/entry/2022/02/02/100000?utm_source=feed</link>
-            <guid>https://www.lifull.blog/entry/2022/02/02/100000?utm_source=feed</guid>
-            <pubDate>Wed, 02 Feb 2022 01:00:00 GMT</pubDate>
-            <description><![CDATA[事業基盤ユニットアーキテクトグループのyoshikawaです。 今回のブログではLIFULL HOME'Sを構成するレガシーシステムのリアーキテクティングについて書いていきます。 2年前にリアーキテクティングプロジェクトが発足し、ソフトウェアアーキテクチャのベースにClean Architecture、言語にTypeScriptを採用し 新たなAPI(Backend For Frontend)を開...]]></description>
-            <content:encoded><![CDATA[事業基盤ユニットアーキテクトグループのyoshikawaです。 今回のブログではLIFULL HOME'Sを構成するレガシーシステムのリアーキテクティングについて書いていきます。 2年前にリアーキテクティングプロジェクトが発足し、ソフトウェアアーキテクチャのベースにClean Architecture、言語にTypeScriptを採用し 新たなAPI(Backend For Frontend)を開発してきました。 「コードの品質」と「プロダクト開発エンジニアとのコミュニケーション」が鍵となっていた本プロジェクトですが、 このブログ記事では「コードの品質」を主題として取り組みをオムニバス的に紹介…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[CVPR 2021 参加報告 | Morpho Tech Blog]]></title>
-            <link>https://techblog.morphoinc.com/entry/2022/02/02/095951</link>
-            <guid>https://techblog.morphoinc.com/entry/2022/02/02/095951</guid>
-            <pubDate>Wed, 02 Feb 2022 00:59:51 GMT</pubDate>
-            <description><![CDATA[こんにちは、2021年4月に入社したCTO室リサーチャーの名古屋です。 私たちが働く株式会社モルフォでは毎年、国内外を問わず画像処理・機械学習の学会や国際会議に積極的に参加しています。今回は私ともう2名の社内リサーチャーとで、6月19～25日に開催した「CVPR 2021」に参加してきました。 この記事では、CVPRの概要と、個人的に気になった研究を3つピックアップして紹介します。]]></description>
-            <content:encoded><![CDATA[こんにちは、2021年4月に入社したCTO室リサーチャーの名古屋です。 私たちが働く株式会社モルフォでは毎年、国内外を問わず画像処理・機械学習の学会や国際会議に積極的に参加しています。今回は私ともう2名の社内リサーチャーとで、6月19～25日に開催した「CVPR 2021」に参加してきました。 この記事では、CVPRの概要と、個人的に気になった研究を3つピックアップして紹介します。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Top 10 Ways to Customize Your Audio Data Collection Projects | Hacker Noon - machine-learning]]></title>
-            <link>https://hackernoon.com/top-10-ways-to-customize-your-audio-data-collection-projects?source=rss</link>
-            <guid>https://hackernoon.com/top-10-ways-to-customize-your-audio-data-collection-projects?source=rss</guid>
-            <pubDate>Wed, 02 Feb 2022 00:10:25 GMT</pubDate>
-            <category>ai-technology</category>
-            <category>ai-applications</category>
-            <category>business-automation</category>
-            <category>audiodatacollection</category>
-            <category>data-annotation</category>
-            <category>transcript</category>
-            <category>ai-data-collection</category>
-            <category>machine-learning</category>
-        </item>
-        <item>
-            <title><![CDATA[OCI WAFポリシーを試してみる | スマートスタイル TECH BLOG]]></title>
-            <link>https://blog.s-style.co.jp/2022/02/8551/</link>
-            <guid>https://blog.s-style.co.jp/?p=8551</guid>
-            <pubDate>Wed, 02 Feb 2022 00:02:06 GMT</pubDate>
-            <description><![CDATA[はじめに 今回の記事は昨年10月に新しく追加されたWAFポリシー(別名：WAF v2)について触れたいと思います。 WAFポリシーがリリースされるまでに利用されていたWAFのサービスはエッジポリシー(別名：WAF v1)となります。 WAFポリシーの大きな特徴として保護対象となるのが、OCI上のFlexible Load Balancer(以降、FLB)経由のアクセスというところでしょうか。 それ...]]></description>
-            <content:encoded><![CDATA[はじめに 今回の記事は昨年10月に新しく追加されたWAFポリシー(別名：WAF v2)について触れたいと思います。 WAFポリシーがリリースされるまでに利用されていたWAFのサービスはエッジポリシー(別名：WAF v1)となります。 WAFポリシーの大きな特徴として保護対象となるのが、OCI上のFlexible Load Balancer(以降、FLB)経由のアクセスというところでしょうか。 それまでのエッジポリシーは保護するドメインを... The post OCI WAFポリシーを試してみる first appeared on スマートスタイル TECH BLOG.]]></content:encoded>
-            <category>Oracle Cloud</category>
-            <category>技術情報</category>
-            <category>WAF</category>
-        </item>
-        <item>
-            <title><![CDATA[新規事業案のMVP検証をやってみて、結果サービスクローズしたまでの話（利用ツール編） | Timers Tech Blog]]></title>
-            <link>https://techblog.timers-inc.com/entry/2022/02/02/090000?utm_source=feed</link>
-            <guid>https://techblog.timers-inc.com/entry/2022/02/02/090000?utm_source=feed</guid>
-            <pubDate>Wed, 02 Feb 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Timersのプロダクトマネージャーの@suzukenです。 今回は弊社内で起こった苦労話、失敗談エピソードを書いてみようと思います。 それは「ある新規事業案のMVP検証をやってみて、結果サービスクローズしたまでの話」です...！]]></description>
-            <content:encoded><![CDATA[Timersのプロダクトマネージャーの@suzukenです。 今回は弊社内で起こった苦労話、失敗談エピソードを書いてみようと思います。 それは「ある新規事業案のMVP検証をやってみて、結果サービスクローズしたまでの話」です...！]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[RT by @OpenAI: Our tests show that @OpenAI is onto something with their new embeddings product. For our real-world use case, it blew away the competition. | OpenAI / @OpenAI]]></title>
-            <link>https://nitter.net/techwraith/status/1488661911495340033#m</link>
-            <guid>https://nitter.net/techwraith/status/1488661911495340033#m</guid>
-            <pubDate>Tue, 01 Feb 2022 23:53:52 GMT</pubDate>
-            <description><![CDATA[Our tests show that @OpenAI is onto something with their new embeddings product. For our real-world use case, it blew away the competition. nitter.net/askviable/status/1488659715169009664#m]]></description>
-            <content:encoded><![CDATA[Our tests show that @OpenAI is onto something with their new embeddings product. For our real-world use case, it blew away the competition. nitter.net/askviable/status/1488659715169009664#m]]></content:encoded>
         </item>
     </channel>
 </rss>
