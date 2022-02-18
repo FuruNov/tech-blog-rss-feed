@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Fri, 18 Feb 2022 09:27:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Feb 2022 11:23:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,41 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DynamoDBで時間経過解放のロックを実装する | エンジニアブログ | iret.media]]></title>
+            <link>https://cloudpack.media/61336</link>
+            <guid>https://cloudpack.media/?p=61336</guid>
+            <pubDate>Fri, 18 Feb 2022 10:00:40 GMT</pubDate>
+            <description><![CDATA[概要 並列稼働しているシステムでロックを実装する時に、そのロック解放を明示的に解放するのではなく時間経過で行いたい場合に、DynamoDBの条件付きPutと有効期限 (TTL) を利用できると考えた。その検討・検証をまと […]]]></description>
+            <content:encoded><![CDATA[概要 並列稼働しているシステムでロックを実装する時に、そのロック解放を明示的に解放するのではなく時間経過で行いたい場合に、DynamoDBの条件付きPutと有効期限 (TTL) を利用できると考えた。その検討・検証をまと […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>AWS</category>
+            <category>cli</category>
+            <category>DynamoDB</category>
+            <category>TTL</category>
+        </item>
+        <item>
+            <title><![CDATA[[ハンズオン] Terraform Registry を使ったVPC/Sg/EC2作成 | エンジニアブログ | iret.media]]></title>
+            <link>https://cloudpack.media/61331</link>
+            <guid>https://cloudpack.media/?p=61331</guid>
+            <pubDate>Fri, 18 Feb 2022 10:00:20 GMT</pubDate>
+            <description><![CDATA[概要 Terraformハンズオンの第一弾です。今回は、AWS環境にVPC/EC2 のリソースを作成します。 なお、今回は、Terraform Registry のModule を使用して構築を行います。このハンズオンの […]]]></description>
+            <content:encoded><![CDATA[概要 Terraformハンズオンの第一弾です。今回は、AWS環境にVPC/EC2 のリソースを作成します。 なお、今回は、Terraform Registry のModule を使用して構築を行います。このハンズオンの […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>【初学者向け】実践演習</category>
+            <category>AWS</category>
+            <category>EC2</category>
+            <category>Terraform</category>
+            <category>VPC</category>
+        </item>
+        <item>
+            <title><![CDATA[PHPのちょっとした静的解析をGo+GitHub Actionsで実施するようにしてみた | Yappli Tech Blog]]></title>
+            <link>https://tech.yappli.io/entry/static_php_code_analysis_by_go</link>
+            <guid>https://tech.yappli.io/entry/static_php_code_analysis_by_go</guid>
+            <pubDate>Fri, 18 Feb 2022 09:29:59 GMT</pubDate>
+            <description><![CDATA[こんにちは、エンジニアの尾宇江です。 goでプルリク作ってリリース作業を改善してみた。のエントリーに引き続き、Goを使ったちょっとした改善をした話です。 最初に 書いたコードをcommitした後、「あープリントデバッグで仕込んでたvar_dump消し忘れた」ってことありますよね？ あと、「設定ファイルのURLをexample.comのままにしてcommitしちゃった」ということも良くありますよね？...]]></description>
+            <content:encoded><![CDATA[こんにちは、エンジニアの尾宇江です。 goでプルリク作ってリリース作業を改善してみた。のエントリーに引き続き、Goを使ったちょっとした改善をした話です。 最初に 書いたコードをcommitした後、「あープリントデバッグで仕込んでたvar_dump消し忘れた」ってことありますよね？ あと、「設定ファイルのURLをexample.comのままにしてcommitしちゃった」ということも良くありますよね？ 私は日常的にやらかしていました… 対策 気をつけても抜ける時は抜けるので、自動化しよう！！ ということで、CIでチェックするようにしました。 対象となるリポジトリはPHP(Laravel)なのですが…]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[【下書き】CSSリファクタリングの方法論とお役立ちツール | エンジニアブログ | iret.media]]></title>
             <link>https://cloudpack.media/59299</link>
@@ -277,6 +312,16 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
             <category>Blueprint</category>
         </item>
         <item>
+            <title><![CDATA[[UE4] モデルのスケールを小さくして、氷が溶ける表現を作る | historia Inc – 株式会社ヒストリア]]></title>
+            <link>https://historia.co.jp/archives/25150/</link>
+            <guid>https://historia.co.jp/?p=25150</guid>
+            <pubDate>Fri, 18 Feb 2022 02:02:21 GMT</pubDate>
+            <description><![CDATA[執筆バージョン: Unreal Engine 4.27 第17回ぷちコンのテーマ「かいとう」にちなんで、氷が溶ける表現を作成します。 完成イメージはこちら！ 【目次】 ・準備 ・ブループリントの作成 ・フェードアウト機能 […] The post [UE4] モデルのスケールを小さくして、氷が溶ける表現を作る first appeared on historia Inc - 株式会社ヒストリア.]]></description>
+            <content:encoded><![CDATA[執筆バージョン: Unreal Engine 4.27 第17回ぷちコンのテーマ「かいとう」にちなんで、氷が溶ける表現を作成します。 完成イメージはこちら！ 【目次】 ・準備 ・ブループリントの作成 ・フェードアウト機能 […] The post [UE4] モデルのスケールを小さくして、氷が溶ける表現を作る first appeared on historia Inc - 株式会社ヒストリア.]]></content:encoded>
+            <category>初心者向け</category>
+            <category>Blueprint</category>
+        </item>
+        <item>
             <title><![CDATA[「ファイナルファンタジー」へのオマージュが感じられるJRPG「Edge of Eternity」【初月100円！オススメGame Pass作品】 | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/serial/gprecommend/1388230.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/serial/gprecommend/1388230.html</guid>
@@ -495,6 +540,14 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
             <category>Overviews</category>
         </item>
         <item>
+            <title><![CDATA[コンテナ環境でNext.js(next/image)を動かす際の注意点 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/musou1500/articles/3e6ae063f12e92</link>
+            <guid>https://zenn.dev/musou1500/articles/3e6ae063f12e92</guid>
+            <pubDate>Thu, 17 Feb 2022 17:14:46 GMT</pubDate>
+            <description><![CDATA[先日， Next.jsで「ISR・SSGをしない」という選択肢 という記事を書きました． この記事では，ISR・SSGを諦めてSSRに寄せる構成のメリットについて触れており，awsを使用し，ECSの前にCloudFrontを置く構成を紹介しています． しかし，next/imageのデフォルトローダーで使用される画像最適化プログラムは，キャッシュの保存にファイルシステムを使用するため，一部コンテナ環...]]></description>
+            <content:encoded><![CDATA[先日， Next.jsで「ISR・SSGをしない」という選択肢 という記事を書きました． この記事では，ISR・SSGを諦めてSSRに寄せる構成のメリットについて触れており，awsを使用し，ECSの前にCloudFrontを置く構成を紹介しています． しかし，next/imageのデフォルトローダーで使用される画像最適化プログラムは，キャッシュの保存にファイルシステムを使用するため，一部コンテナ環境で動作させるには注意が必要です． 本記事では，next/imageの概要とキャッシュ機能の動作について触れます． また，コンテナ環境で動作させる際に問題になる点と，その問題を回避する方法につい...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[An Easy Guide to Choose the Right Machine Learning Algorithm | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/2020/05/guide-choose-right-machine-learning-algorithm.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=an-easy-guide-to-choose-the-right-ml-algorithm</link>
             <guid>https://www.kdnuggets.com/?p=110501</guid>
@@ -503,6 +556,14 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
             <content:encoded><![CDATA[There's no free lunch in machine learning. So, determining which algorithm to use depends on many factors from the type of problem at hand to the type of output you are looking for. This guide offers several considerations to review when exploring the right ML approach for your dataset.]]></content:encoded>
             <category>KDnuggets Republished</category>
             <category>Machine Learning</category>
+        </item>
+        <item>
+            <title><![CDATA[MySQLのインデックスの貼っていいとき悪いときを原理から理解したいよ😭 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/canalun/articles/all_about_mysql_index</link>
+            <guid>https://zenn.dev/canalun/articles/all_about_mysql_index</guid>
+            <pubDate>Thu, 17 Feb 2022 16:34:52 GMT</pubDate>
+            <description><![CDATA[今回答えを出したい問いはこちら！！  インデックスはどのような仕組みを以て、何を実現したいものなのか それを踏まえたとき、インデックスはどういう場合になぜ貼る方が良いのか。また、どういう場合になぜ貼らない方が良いのか 大体分かっているよって人はサヨナラって感じのおさらい記事だぜ！！！！それじゃいってみよー🎉  あと、おれは今回MySQLにしぼっていくぜ👶 ってわけでOracleとかに興味がある...]]></description>
+            <content:encoded><![CDATA[今回答えを出したい問いはこちら！！  インデックスはどのような仕組みを以て、何を実現したいものなのか それを踏まえたとき、インデックスはどういう場合になぜ貼る方が良いのか。また、どういう場合になぜ貼らない方が良いのか 大体分かっているよって人はサヨナラって感じのおさらい記事だぜ！！！！それじゃいってみよー🎉  あと、おれは今回MySQLにしぼっていくぜ👶 ってわけでOracleとかに興味があるやつは引き返しな！   indexの概要 公式の見解としては「where句を使ったselectクエリの実行速度を向上させるために実装されている、各行へのポインターのような振る舞いをする仕組み」って感...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[No Brainer AutoML with AutoXGB | KDnuggets]]></title>
@@ -596,6 +657,14 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
             <pubDate>Thu, 17 Feb 2022 13:45:38 GMT</pubDate>
             <description><![CDATA[はじめに  前回は、ZiDOMA dataで取得したCSVファイルをPythonで読み込む、 Excelを開く、保存する部分の実際の実装方法を紹介しました。  今回は、CSVファイルから読み込んだデー…]]></description>
             <content:encoded><![CDATA[はじめに  前回は、ZiDOMA dataで取得したCSVファイルをPythonで読み込む、 Excelを開く、保存する部分の実際の実装方法を紹介しました。  今回は、CSVファイルから読み込んだデー…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VoiceVoxで高クオリティな音声合成をかんたんに行う | Zennのトレンド]]></title>
+            <link>https://zenn.dev/ddpn08/articles/fb390caa781e54</link>
+            <guid>https://zenn.dev/ddpn08/articles/fb390caa781e54</guid>
+            <pubDate>Thu, 17 Feb 2022 13:41:42 GMT</pubDate>
+            <description><![CDATA[こんにちは。 今回はとっても高クオリティかつ可愛らしい音声合成が行えるvoicevoxを使ってみます。   voicevox とは   高品質な音声合成ソフト  無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのエディター  と、書かれていますが、正直中品質なんてもんじゃあありません。 めちゃくちゃ高品質です。 サンプルは下記リンクから聞けます。 https://voicevox...]]></description>
+            <content:encoded><![CDATA[こんにちは。 今回はとっても高クオリティかつ可愛らしい音声合成が行えるvoicevoxを使ってみます。   voicevox とは   高品質な音声合成ソフト  無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのエディター  と、書かれていますが、正直中品質なんてもんじゃあありません。 めちゃくちゃ高品質です。 サンプルは下記リンクから聞けます。 https://voicevox.hiroshiba.jp/   かんたんに使える デスクトップ環境ではGUIでかんたんに音声合成が可能です。 また、voicevox-engineというapiサーバーが公開されているのでhtt...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Windows 11の「メモ帳」で使えない問題を修正した「ATOK」のアップデートモジュールが公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
@@ -763,14 +832,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
             <pubDate>Thu, 17 Feb 2022 08:21:57 GMT</pubDate>
             <description><![CDATA[米Microsoftは2月16日（現地時間）、「Windows 11 Insider Preview」Build 22557を「Windows Insider Program」のDevチャネルに参加しているテスターに対して公開した。すでに導入済みの場合は「設定」アプリの［Windows Update］セクションからアップグレードできる。ただし、ARM64デバイスへの提供は今のところ行われていないの...]]></description>
             <content:encoded><![CDATA[米Microsoftは2月16日（現地時間）、「Windows 11 Insider Preview」Build 22557を「Windows Insider Program」のDevチャネルに参加しているテスターに対して公開した。すでに導入済みの場合は「設定」アプリの［Windows Update］セクションからアップグレードできる。ただし、ARM64デバイスへの提供は今のところ行われていないので注意。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[SudachiをつかったBERTの事前学習モデルの構築をしてみようとおもったら（いまやってる途中） | Zennのトレンド]]></title>
-            <link>https://zenn.dev/murakamixi/articles/2064967364fc81</link>
-            <guid>https://zenn.dev/murakamixi/articles/2064967364fc81</guid>
-            <pubDate>Thu, 17 Feb 2022 07:58:31 GMT</pubDate>
-            <description><![CDATA[これは個人的な作業記録的なものと、もし今後同じような志を持った人の参考となるようにするために可能な限り作業の詳細を残しています。   そもそもSudachiとは そもそもSudachiってなにてきなひとはこんなマニアックなタイトルの記事のところに来ないでしょうがもしも気になる方は僕の友人が、形態素解析器Sudachiをpythonファイルで使ってみた的な記事を書いているので的に参照してみるのがいい...]]></description>
-            <content:encoded><![CDATA[これは個人的な作業記録的なものと、もし今後同じような志を持った人の参考となるようにするために可能な限り作業の詳細を残しています。   そもそもSudachiとは そもそもSudachiってなにてきなひとはこんなマニアックなタイトルの記事のところに来ないでしょうがもしも気になる方は僕の友人が、形態素解析器Sudachiをpythonファイルで使ってみた的な記事を書いているので的に参照してみるのがいいとお思います。   なんで事前学習モデルなんか作ろうと思ったのか？ 山形大学の理学部に在籍していて、ちょうど卒業研究終わりなどで、計算リソースがほぼ独占状態でつかえること 計算リソースも一応国立...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[紙とペンを使って人の営みとしての数学を 彌永「数学のまなび方」レビュー | 趣味の大学数学]]></title>
@@ -1394,14 +1455,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
             <content:encoded><![CDATA[2022年2月3日に、『Android Office Hours〜2022年の技術トレンド大予想！〜』 を開催しました。 この記事はイベントレポートです。配信当日の内容を簡単に紹介します！ 詳しくはYouTube上にある […]]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[SVG形式アイコンをコンポーネント化した | Zennのトレンド]]></title>
-            <link>https://zenn.dev/saki/articles/770fc8e95a7a34</link>
-            <guid>https://zenn.dev/saki/articles/770fc8e95a7a34</guid>
-            <pubDate>Wed, 16 Feb 2022 08:26:59 GMT</pubDate>
-            <description><![CDATA[はじめに sweeep株式会社でエンジニアをしている、いまふくです。 新サービス「sweeep Box」では、Phosphor Icons からSVGをコピーし、アイコンとして使用しています。SVGタグをそのまま使用すると扱いづらい部分があったため、アイコンのコンポーネント化を行いました。   SVGとは SVG（Scalable Vector Graphics)は画像フォーマットの一種です。 h...]]></description>
-            <content:encoded><![CDATA[はじめに sweeep株式会社でエンジニアをしている、いまふくです。 新サービス「sweeep Box」では、Phosphor Icons からSVGをコピーし、アイコンとして使用しています。SVGタグをそのまま使用すると扱いづらい部分があったため、アイコンのコンポーネント化を行いました。   SVGとは SVG（Scalable Vector Graphics)は画像フォーマットの一種です。 html, cssなどと同じく「タグ」で扱うことができます。   メリット  拡張性・汎用性が高い 後から色・サイズ・文字の変更が簡単 アニメーションをつけることも可能 拡大縮小による画像の劣...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[【GitHub】基本の使い方！初心者がPushするまで🚀 | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/TakuroKawakami/items/5d3a08bafb156e16491e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/TakuroKawakami/items/5d3a08bafb156e16491e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -1526,14 +1579,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
             <pubDate>Wed, 16 Feb 2022 04:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。倉内です。paizaラーニングは、ブラウザ上で動画を見ながら学び、実際にコードを書いて演習課題をクリアして、着実にスキルを身につけることができるプログラミング学習サービスです。このたびPython入門講座をリニューアルし、「新・Python入門編」が公開されました！Pythonは人気の高いプログラミング言語のひとつで、「学んでみたい！」と思っている方も多いのではないでしょうか。より分か...]]></description>
             <content:encoded><![CDATA[こんにちは。倉内です。paizaラーニングは、ブラウザ上で動画を見ながら学び、実際にコードを書いて演習課題をクリアして、着実にスキルを身につけることができるプログラミング学習サービスです。このたびPython入門講座をリニューアルし、「新・Python入門編」が公開されました！Pythonは人気の高いプログラミング言語のひとつで、「学んでみたい！」と思っている方も多いのではないでしょうか。より分かりやすくなった「新・Python入門編」はもちろん、新編の追加に伴い全編無料になった「Python3入門編」、そしてPythonで機械学習が学べる「Python×AI・機械学習入門編」も期間限定で無料…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[日本でTwitterのNFTプロフィール画像をセットする方法 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/kboy/articles/f951bade6f07cb</link>
-            <guid>https://zenn.dev/kboy/articles/f951bade6f07cb</guid>
-            <pubDate>Wed, 16 Feb 2022 03:48:31 GMT</pubDate>
-            <description><![CDATA[Twitterで六角形のプロフィール画像の人を見かけることが増えました。 https://www.itmedia.co.jp/news/articles/2201/21/news073.html 日本ではまだ使えないのですが、アメリカにいる設定にして、TwitterBlue（サブスク）に登録することで使うことができます。日本で使えるようになれば①と②を省けると思います。   ①iPhoneをアメリ...]]></description>
-            <content:encoded><![CDATA[Twitterで六角形のプロフィール画像の人を見かけることが増えました。 https://www.itmedia.co.jp/news/articles/2201/21/news073.html 日本ではまだ使えないのですが、アメリカにいる設定にして、TwitterBlue（サブスク）に登録することで使うことができます。日本で使えるようになれば①と②を省けると思います。   ①iPhoneをアメリカにいる設定にする  VPNネコなどでアメリカ経由でインターネットをする状態を作ります Appleアカウントがアメリカじゃないといけないので、日本のとは別でアメリカに住んでいる設定のAppleI...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[全社のエンジニアが集うイベントのオンライン開催のイマココ | mixi developers - Medium]]></title>
@@ -1696,6 +1741,14 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
             <category>captcha-is-outdated</category>
             <category>fool-captcha</category>
             <category>open-source-captcha-solvers</category>
+        </item>
+        <item>
+            <title><![CDATA[Accelerating fusion science through learned plasma control | Latest Post]]></title>
+            <link>https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control</link>
+            <guid>https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control</guid>
+            <pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></description>
+            <content:encoded><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[生成系 (群論) | 大学数学の授業ノート]]></title>
@@ -2074,8 +2127,8 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
             <link>https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9915</guid>
             <pubDate>Tue, 15 Feb 2022 03:00:47 GMT</pubDate>
-            <description><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内...]]></description>
-            <content:encoded><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内レポ】エンジニアドリブンのための「Sketch.app」講座 Vol.1  【レポート】オレたちが目指す"最強のエンジニアドリブン" セミナーレポート  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  ActiveRecordのincludes, preload, eager_load の個人的な使い分け  【レポート】12/11 「急成長スタートアップにおけるDeveloper Productivity勉強会 Ⅱ」   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グル...]]></content:encoded>
+            <description><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Sw...]]></description>
+            <content:encoded><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Swift, iOS10.3】アプリアイコンを動的変更できるalternateIconName  技術顧問giginetさんインタビュー コミュニティ活動やOSS活動の秘訣を聞いてみました  【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会  hamlからslimに移行してみた話  Datadogを使った分散トレーシングをクラウド会計で見えるようにした話   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 202...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2852,6 +2905,15 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <content:encoded><![CDATA[こんにちは。谷口です。これから連休に入る方も、出かける予定がない方も、この機会にゲーム感覚でプログラミングの勉強を始めてみるのはいかがでしょうか。とはいえ、初心者の方がプログラミングの勉強を始めると 何から始めたらよいかわからない 継続できる自信がない 問題をたくさん解いて練習したい コードをたくさん書いて手を動かしたい といった課題がつきものです。そこで今回は、プログラミング初心者でも楽しくプログラミングが学べるpaiza内のコンテンツをご紹介します。プログラミングの学習にも、新たなスキルアップへの挑戦にも、家ですごす時間の楽しみにも、参考になれば幸いです。 Python、PHP、Java、…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[MuZero’s first step from research into the real world | Latest Post]]></title>
+            <link>https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world</link>
+            <guid>https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world</guid>
+            <pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></description>
+            <content:encoded><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></content:encoded>
+            <category>Research</category>
+        </item>
+        <item>
             <title><![CDATA[Guiding Frozen Language Models with Learned Soft Prompts | Google AI Blog]]></title>
             <link>http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html</link>
             <guid>http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html</guid>
@@ -3037,8 +3099,8 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
             <link>https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9906</guid>
             <pubDate>Thu, 10 Feb 2022 08:00:09 GMT</pubDate>
-            <description><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></description>
-            <content:encoded><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】第1回 マネーフォワードエンジニア総会  Jira Cloud for Sheets, Google Apps Script, Google Data Portalを使って、日次で不具合消化状況を可視化してみた  Rubyコードの健康を保つためのgem 5+1選  デザイナーが制作時に気にしていること  マネーフォワード MEのiOS 15対応   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goの...]]></description>
+            <content:encoded><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goのcontext.Contextに入れる値をリクエストスコープに限る理由  An engineering visualization tool at Money Forward  Androidアプリ開発者なら知っておくべきdumpsysコマンド  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」   Copyright © Engineers' Blog [How to start SRE in a small team, all b...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4519,30 +4581,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
             <content:encoded><![CDATA[Logistic regression is an extension of linear regression to solve classification problems. Read more on the specifics of this algorithm here.]]></content:encoded>
             <category>2022 Feb Tutorials, Overviews</category>
             <category>Machine Learning</category>
-        </item>
-        <item>
-            <title><![CDATA[【Day2資料公開】Yahoo! JAPAN Tech Conferenceへのご参加ありがとうございました #yjtc | Yahoo! JAPAN Tech Blog]]></title>
-            <link>https://techblog.yahoo.co.jp/entry/2022020430257970/</link>
-            <guid>https://techblog.yahoo.co.jp/entry/2022020430257970/</guid>
-            <pubDate>Fri, 04 Feb 2022 11:00:00 GMT</pubDate>
-            <description><![CDATA[Yahoo! JAPAN Tech Conference 2022 を2月3日、4日に開催しました。ご参加いただいた方、ありがとうございます。この記事ではDay2の資料を公開しています。]]></description>
-            <content:encoded><![CDATA[Yahoo! JAPAN Tech Conference 2022 を2月3日、4日に開催しました。ご参加いただいた方、ありがとうございます。この記事ではDay2の資料を公開しています。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[スマレジで商品の価格改訂（新価格）を、事前に準備する方法 | 株式会社データファームさんのフィード]]></title>
-            <link>https://zenn.dev/datafarm/articles/e5b80a7389a57d</link>
-            <guid>https://zenn.dev/datafarm/articles/e5b80a7389a57d</guid>
-            <pubDate>Fri, 04 Feb 2022 10:35:54 GMT</pubDate>
-            <description><![CDATA[#スマレジ   課題  商品価格改定のため、事前に準備をしたい    解決方法   スマレジの管理画面にログインする   商品一覧から、価格を改定したい商品をクリックして詳細に移動する   「9 商品単価」の右側にある「詳細設定・スケジュール」をクリック    画面左下にある「詳細価格設定の追加」をクリック     入力画面が表示されるので、該当店舗を選択する     店舗を選択後、新価格と適用開...]]></description>
-            <content:encoded><![CDATA[#スマレジ   課題  商品価格改定のため、事前に準備をしたい    解決方法   スマレジの管理画面にログインする   商品一覧から、価格を改定したい商品をクリックして詳細に移動する   「9 商品単価」の右側にある「詳細設定・スケジュール」をクリック    画面左下にある「詳細価格設定の追加」をクリック     入力画面が表示されるので、該当店舗を選択する     店舗を選択後、新価格と適用開始日を入力する。  価格改定の場合、適用終了日は入力しなくてよい       入力が終わったら「登録」をクリックして、入力を完了する    実際の様子 https://youtu.be/MHEo...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[CDKv2 を触って既存のCDKv1プロジェクトをマイグレーションしてみた | アクトインディ開発者ブログ]]></title>
-            <link>https://tech.actindi.net/2022/02/04/185840?utm_source=feed</link>
-            <guid>https://tech.actindi.net/2022/02/04/185840?utm_source=feed</guid>
-            <pubDate>Fri, 04 Feb 2022 09:58:40 GMT</pubDate>
-            <description><![CDATA[morishitaです。 アクトインディのインフラの多くは AWS CDK を利用して構築しています。 それについていくつかのエントリで紹介してきました。 tech.actindi.net そして 2021 年 12 月に初のメジャーアップデートとなる v2.0.0 がリリースされました🎉。 github.com ちなみに 2022/02/04 現在の最新バージョンは v2.10.0 です。 今...]]></description>
-            <content:encoded><![CDATA[morishitaです。 アクトインディのインフラの多くは AWS CDK を利用して構築しています。 それについていくつかのエントリで紹介してきました。 tech.actindi.net そして 2021 年 12 月に初のメジャーアップデートとなる v2.0.0 がリリースされました🎉。 github.com ちなみに 2022/02/04 現在の最新バージョンは v2.10.0 です。 今回は CDKv2 を触ってみて、既存プロジェクトをマイグレーションしてみたので紹介します。 なお、本エントリは Typescript 前提です。 まずは触ってみる とりあえず、CDKv2 を触る最初の一…]]></content:encoded>
         </item>
     </channel>
 </rss>
