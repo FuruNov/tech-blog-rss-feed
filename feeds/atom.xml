@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-02-19T03:28:45.846Z</updated>
+    <updated>2022-02-19T07:24:45.054Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,32 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[n^nを3で割ったあまりの規則性、証明 | 趣味の大学数学]]></title>
+        <id>https://math-fun.net/?p=22349</id>
+        <link href="https://math-fun.net/20220219/22349/"/>
+        <updated>2022-02-19T04:54:23.000Z</updated>
+        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、\(n^n\)を\(3\)で割ったあまりの規則性、その証明について紹介します。 \[n^n \equiv \begin{cases} 0& (n \equ ... n^nを3で割ったあまりの規則性、証明 first appeared on 趣味の大学数学.]]></summary>
+        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、\(n^n\)を\(3\)で割ったあまりの規則性、その証明について紹介します。 \[n^n \equiv \begin{cases} 0& (n \equ ... n^nを3で割ったあまりの規則性、証明 first appeared on 趣味の大学数学.]]></content>
+        <author>
+            <name>kimu3</name>
+        </author>
+        <category label="身近な数学"/>
+        <category label="数論"/>
+        <published>2022-02-19T04:54:23.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GoとDockerでつくる音声合成CLI | Zennのトレンド]]></title>
+        <id>https://zenn.dev/nobonobo/articles/60fe0cd1a5af74</id>
+        <link href="https://zenn.dev/nobonobo/articles/60fe0cd1a5af74"/>
+        <updated>2022-02-19T00:18:42.000Z</updated>
+        <summary type="html"><![CDATA[https://zenn.dev/ddpn08/articles/fb390caa781e54 この記事を読んで試してみようと思いました！ 開発元のサイトはこちら https://voicevox.hiroshiba.jp   ローカルサーバーの立て方 簡単！以下のコマンドで立つ。 docker run -it --rm -p 50021:50021 hiroshiba/voicevox_engi...]]></summary>
+        <content type="html"><![CDATA[https://zenn.dev/ddpn08/articles/fb390caa781e54 この記事を読んで試してみようと思いました！ 開発元のサイトはこちら https://voicevox.hiroshiba.jp   ローカルサーバーの立て方 簡単！以下のコマンドで立つ。 docker run -it --rm -p 50021:50021 hiroshiba/voicevox_engine:cpu-ubuntu20.04-0.10.4 macOS環境なら「brew install sox」としておいて以下のシェルスクリプトを作成します。  speak.sh #!/bin/sh...]]></content>
+        <author>
+            <name>NoboNobo</name>
+        </author>
+        <published>2022-02-19T00:18:42.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Robust Routing Using Electrical Flows | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html</id>
@@ -184,6 +210,18 @@
         <published>2022-02-18T09:31:52.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AWS CDKでデプロイ時の値を使ってフロントエンドとバックエンドを一発でデプロイできるようになったので試してみる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/winteryukky/articles/5e5353ae72ab5c</id>
+        <link href="https://zenn.dev/winteryukky/articles/5e5353ae72ab5c"/>
+        <updated>2022-02-18T09:31:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 最近はmermaidがGitHubで利用できるようになった話題でもちきりですが、個人的にAWS CDKのアップデートもかなり熱いものだと思っています。その機能がv2.11.0でaws_s3_deploymentに追加されたデプロイ時の値を持つデータをS3バケットへデプロイする機能です。 CognitoのユーザープールID等、バックエンドリソースの情報をフロントエンドで使用することはよくあ...]]></summary>
+        <content type="html"><![CDATA[はじめに 最近はmermaidがGitHubで利用できるようになった話題でもちきりですが、個人的にAWS CDKのアップデートもかなり熱いものだと思っています。その機能がv2.11.0でaws_s3_deploymentに追加されたデプロイ時の値を持つデータをS3バケットへデプロイする機能です。 CognitoのユーザープールID等、バックエンドリソースの情報をフロントエンドで使用することはよくあると思います。環境数が固定されているプロジェクトではバックエンドリソースを先に作成し、フロントエンドにバックエンドの情報を設定してデプロイする～なんてことも可能ですが、例えば評価用としてバッ...]]></content>
+        <author>
+            <name>WinterYukky</name>
+        </author>
+        <published>2022-02-18T09:31:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[PHPのちょっとした静的解析をGo+GitHub Actionsで実施するようにしてみた | Yappli Tech Blog]]></title>
         <id>https://tech.yappli.io/entry/static_php_code_analysis_by_go</id>
         <link href="https://tech.yappli.io/entry/static_php_code_analysis_by_go"/>
@@ -307,6 +345,18 @@
         <published>2022-02-18T07:30:34.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Brainf*ckでHelloWorld!を出力してみる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/dowanna6/articles/4cd2beab7b09e8</id>
+        <link href="https://zenn.dev/dowanna6/articles/4cd2beab7b09e8"/>
+        <updated>2022-02-18T07:28:44.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。株式会社プラハCEOの松原です。 最近の弊社の社内勉強会では毎週1時間だけ集まって色んなものをモブプロして遊んでいます。前回までは簡易的な仮想DOMのロジックを自分たちで実装することでReactをより深く理解しようとしました。 仮想DOMの実装が終わって次のモブプロテーマを探していたところ、低レイヤー周りを勉強している弊社メンバーが 「BrainF*ckという難解プログラミング言語があ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。株式会社プラハCEOの松原です。 最近の弊社の社内勉強会では毎週1時間だけ集まって色んなものをモブプロして遊んでいます。前回までは簡易的な仮想DOMのロジックを自分たちで実装することでReactをより深く理解しようとしました。 仮想DOMの実装が終わって次のモブプロテーマを探していたところ、低レイヤー周りを勉強している弊社メンバーが 「BrainF*ckという難解プログラミング言語があるので、それで遊びませんか」 と提案してくれたので、今回の社内勉強会では早速bf（Brainf*ck。毎回fワード書いてると怒られそうなので以降は省略します）で遊んでみました   bfとは そも...]]></content>
+        <author>
+            <name>dowanna6</name>
+        </author>
+        <published>2022-02-18T07:28:44.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「Firefox」にも「バージョン 100」問題の確認フラグが導入 ～Webサイト管理者はチェックを！／バージョンチェックの処理が適切でないと予期せぬ動きも【やじうまの杜】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1389539.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/1389539.html"/>
@@ -379,6 +429,18 @@
         <summary type="html"><![CDATA[News & Competitions 鳥の鳴き声を分類するKaggle「BirdCLEF 2022」が15日に始まりました。同様の題材のコンペは2020年以降4度目で、過去3回の概要はブログ記事にまとまっています。 Kaggle「Tensorflow - Help Protect the Great Barrier Reef」が14日に終わりました。水中の画像データからオニヒトデを検出するコンペ...]]></summary>
         <content type="html"><![CDATA[News & Competitions 鳥の鳴き声を分類するKaggle「BirdCLEF 2022」が15日に始まりました。同様の題材のコンペは2020年以降4度目で、過去3回の概要はブログ記事にまとまっています。 Kaggle「Tensorflow - Help Protect the Great Barrier Reef」が14日に終わりました。水中の画像データからオニヒトデを検出するコンペでした。 ProbSpace「Kiva／クラウドファンディングの資金調達額予測」が13日に終わりました。融資マッチング支援機関「Kiva」における融資額を予測するコンペでした。 学生限定の「#13 atmaCup / CDLE_youth×リテールAI student cup 1st stage」が14〜18日の日程で開催中です。ショッピングカートで収集された購買データを用いたコンペとなっています。 「Kaggle Days Championship」のサンフランシスコ枠の予選が日本時間18日に開催されました。参加者の投稿によると、本戦出場資格を得る上位3チームには日本からの参加者が多く含まれ...]]></content>
         <published>2022-02-18T05:53:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【git】git tagの削除と^{ }付タグについて | Zennのトレンド]]></title>
+        <id>https://zenn.dev/heyhey1028/articles/9ae35cf35c410d</id>
+        <link href="https://zenn.dev/heyhey1028/articles/9ae35cf35c410d"/>
+        <updated>2022-02-18T05:45:29.000Z</updated>
+        <summary type="html"><![CDATA[git tagを消したい➡︎同じタグ２つ有る➡︎片方^{}付いてる➡︎ナニコレどっち消せば良いの？ リリースに合わせてバージョンのタグを打ったけれど、その後、軽微な変更が必要な事が分かり、タグを消したいという事もあるかと思います まさにそんな状況でタグを削除しようと思ったら、同じタグが２つ有り、混乱したのでメモ   tagの削除 タグの削除は以下の順序で行えます   ローカルのタグを削除   gi...]]></summary>
+        <content type="html"><![CDATA[git tagを消したい➡︎同じタグ２つ有る➡︎片方^{}付いてる➡︎ナニコレどっち消せば良いの？ リリースに合わせてバージョンのタグを打ったけれど、その後、軽微な変更が必要な事が分かり、タグを消したいという事もあるかと思います まさにそんな状況でタグを削除しようと思ったら、同じタグが２つ有り、混乱したのでメモ   tagの削除 タグの削除は以下の順序で行えます   ローカルのタグを削除   git tagコマンドでタグ一覧を確認  git tagコマンドに-dオプションを付けて、タグを指定し、削除  ## ローカルのタグ一覧を確認 % git tag android_1.0.0 a...]]></content>
+        <author>
+            <name>heyhey1028</name>
+        </author>
+        <published>2022-02-18T05:45:29.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Gormにおける「仕様通り」なSQLインジェクションの恐れのある実装についての注意喚起 | ANDPAD Tech Blog]]></title>
@@ -591,18 +653,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <published>2022-02-18T02:02:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Azure App Service で Bokeh アプリをデプロイする記事を実践してみた | Zennのトレンド]]></title>
-        <id>https://zenn.dev/megane_otoko/articles/082_deploy_bokeh_app_in_azure</id>
-        <link href="https://zenn.dev/megane_otoko/articles/082_deploy_bokeh_app_in_azure"/>
-        <updated>2022-02-18T02:00:18.000Z</updated>
-        <summary type="html"><![CDATA[下記の記事をもとに Azure AppService で Bokehアプリをデプロイしてみました。 https://azure101.medium.com/standalone-bokeh-server-on-azure-web-app-9c336e8094bb やっていることは基本記事通りですが、苦労もしたのでまとめます。 私がデプロイしたアプリはこちら 2022年2月いっぱいでデプロイ停止する...]]></summary>
-        <content type="html"><![CDATA[下記の記事をもとに Azure AppService で Bokehアプリをデプロイしてみました。 https://azure101.medium.com/standalone-bokeh-server-on-azure-web-app-9c336e8094bb やっていることは基本記事通りですが、苦労もしたのでまとめます。 私がデプロイしたアプリはこちら 2022年2月いっぱいでデプロイ停止するのでご了承ください。  アプリ自体はこちらのGitHubで公開されてますし、そもそも Bokeh の公式ドキュメントにて公開されているものそのままです。 Pythonは3.8で検証しています。...]]></content>
-        <author>
-            <name>koji/メガネ男</name>
-        </author>
-        <published>2022-02-18T02:00:18.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[BigQueryにおけるポリシータグを用いた秘密情報管理とデータ連携の仕組み | ZOZO TECH BLOG]]></title>
         <id>https://techblog.zozo.com/entry/policy-tag-usage-to-protect-bigquery-sensitive-data</id>
         <link href="https://techblog.zozo.com/entry/policy-tag-usage-to-protect-bigquery-sensitive-data"/>
@@ -632,18 +682,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <published>2022-02-18T01:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ユニットテストの可読性を上げる - Four-Phase Test  | Zennのトレンド]]></title>
-        <id>https://zenn.dev/kakkoyakakko/articles/896e7d0e04eff0</id>
-        <link href="https://zenn.dev/kakkoyakakko/articles/896e7d0e04eff0"/>
-        <updated>2022-02-18T01:12:24.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  この記事ではFour-Phase Testというユニットテストの可読性向上のためのプラクティスを紹介します。    対象読者  ユニットテストの可読性が悪くて困っている方 ある程度ユニットテストを実装してきた方    Four-Phase Test とは http://xunitpatterns.com/Four Phase Test.html  Setup/Exercise/Veri...]]></summary>
-        <content type="html"><![CDATA[はじめに  この記事ではFour-Phase Testというユニットテストの可読性向上のためのプラクティスを紹介します。    対象読者  ユニットテストの可読性が悪くて困っている方 ある程度ユニットテストを実装してきた方    Four-Phase Test とは http://xunitpatterns.com/Four Phase Test.html  Setup/Exercise/Verify/TearDownの4つのフェーズにわける手法です フェーズごとに役割をわけることにより、テストコードの可読性を向上させます。 以下にフェーズごとの説明やサンプルコードを記載していきます...]]></content>
-        <author>
-            <name>（や）</name>
-        </author>
-        <published>2022-02-18T01:12:24.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[MicroStackのリリースチャンネルを変更する | 仮想化通信]]></title>
         <id>https://tech.virtualtech.jp/entry/2022/02/18/100733</id>
         <link href="https://tech.virtualtech.jp/entry/2022/02/18/100733"/>
@@ -651,18 +689,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <summary type="html"><![CDATA[MicroStackはOpenStackを手軽にセットアップするツールの一つです。このブログでも何度か取り上げています。 私もMicroStackは日頃からよく使っています。 今回は「一度インストールしたMicroStackのリリースチャンネルを切り替える」という話です。 MicroStackのセットアップについて MicroStackをインストールするときは公式のインストール方法はこう書かれてい...]]></summary>
         <content type="html"><![CDATA[MicroStackはOpenStackを手軽にセットアップするツールの一つです。このブログでも何度か取り上げています。 私もMicroStackは日頃からよく使っています。 今回は「一度インストールしたMicroStackのリリースチャンネルを切り替える」という話です。 MicroStackのセットアップについて MicroStackをインストールするときは公式のインストール方法はこう書かれています。 $ sudo snap install microstack --devmode --beta ただ以前その当時のbeta版でインスタンスの起動に支障が出ていたので、手元ではedge版を動かし…]]></content>
         <published>2022-02-18T01:07:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Grinderを使って、ターミナルで実行するタスクをDartで書く | Zennのトレンド]]></title>
-        <id>https://zenn.dev/k9i/articles/bcfa83b08e56d6</id>
-        <link href="https://zenn.dev/k9i/articles/bcfa83b08e56d6"/>
-        <updated>2022-02-18T01:06:52.000Z</updated>
-        <summary type="html"><![CDATA[Dartで書いたタスクをターミナルやCIで実行できるGrinderパッケージの紹介です。 https://pub.dev/packages/grinder Grinderを導入するとgrind {タスク名}でターミナルから色々なタスクを行えるようになります。自分は以下のようなタスクをgrinderで実行してます。  build_runnerの実行(コマンド毎回忘れるやつ) リリース時のpubspe...]]></summary>
-        <content type="html"><![CDATA[Dartで書いたタスクをターミナルやCIで実行できるGrinderパッケージの紹介です。 https://pub.dev/packages/grinder Grinderを導入するとgrind {タスク名}でターミナルから色々なタスクを行えるようになります。自分は以下のようなタスクをgrinderで実行してます。  build_runnerの実行(コマンド毎回忘れるやつ) リリース時のpubspec.yamlのバージョン更新 リリースPull Requestの作成    導入方法 以下のコマンドを実行 dart pub global activate grinder パスが通ってないとエ...]]></content>
-        <author>
-            <name>K9i</name>
-        </author>
-        <published>2022-02-18T01:06:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[メルカリ Shops の開発を支える Automation 化 | メルカリエンジニアリングブログ]]></title>
@@ -681,6 +707,15 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <summary type="html"><![CDATA[Mozillaは2月17日（米国時間）、デスクトップ向け「Firefox」の最新版v97.0.1を正式公開した。不具合への対処が中心のメンテナンスアップデートで、セキュリティ問題の修正は案内されていない。]]></summary>
         <content type="html"><![CDATA[Mozillaは2月17日（米国時間）、デスクトップ向け「Firefox」の最新版v97.0.1を正式公開した。不具合への対処が中心のメンテナンスアップデートで、セキュリティ問題の修正は案内されていない。]]></content>
         <published>2022-02-18T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[色を当てる Wordle、Colorfle を作った。 | HERP TechHub]]></title>
+        <id>https://swimath2.hatenablog.com/entry/2022/02/18/094336</id>
+        <link href="https://swimath2.hatenablog.com/entry/2022/02/18/094336"/>
+        <updated>2022-02-18T00:43:36.000Z</updated>
+        <summary type="html"><![CDATA[サマリ  wordle派生で、色のカラーコードを当てるゲームをつくった。  mazamachi.github.io Colorfle  ↓を見て分かる通り、上に表示される四角のカラーコードを当てるゲー]]></summary>
+        <content type="html"><![CDATA[サマリ  wordle派生で、色のカラーコードを当てるゲームをつくった。  mazamachi.github.io Colorfle  ↓を見て分かる通り、上に表示される四角のカラーコードを当てるゲー]]></content>
+        <published>2022-02-18T00:43:36.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ExcelVBAベーシック合格を振り返って | Qiita - 人気の記事]]></title>
@@ -794,18 +829,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <summary type="html"><![CDATA[米Googleは2月15日（現地時間）、「Google Chat」の検索機能でユーザーやスペースなどのサジェストが可能になったことを発表した。すでに、利用できるようになっているという。]]></summary>
         <content type="html"><![CDATA[米Googleは2月15日（現地時間）、「Google Chat」の検索機能でユーザーやスペースなどのサジェストが可能になったことを発表した。すでに、利用できるようになっているという。]]></content>
         <published>2022-02-17T22:55:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Next.js・Typescript】NexAuthを使ってログイン認証をする | Zennのトレンド]]></title>
-        <id>https://zenn.dev/furai_mountain/articles/b54c83f3dd4558</id>
-        <link href="https://zenn.dev/furai_mountain/articles/b54c83f3dd4558"/>
-        <updated>2022-02-17T22:51:41.000Z</updated>
-        <summary type="html"><![CDATA[Zennは初体験、ReactもNext.jsもまだ経験1ヶ月、NextAuthはもちろん手探り・・ ほぼ自分のためのメモです・・用語などおかしな点があるかとおもいます・・   目的 NextAuthを使って、以下のような普通のログイン認証画面を実装したい。    環境  Next.js ユーザ情報はDB参照（APIで取得） Material-UI(MUI) React Hook Form    S...]]></summary>
-        <content type="html"><![CDATA[Zennは初体験、ReactもNext.jsもまだ経験1ヶ月、NextAuthはもちろん手探り・・ ほぼ自分のためのメモです・・用語などおかしな点があるかとおもいます・・   目的 NextAuthを使って、以下のような普通のログイン認証画面を実装したい。    環境  Next.js ユーザ情報はDB参照（APIで取得） Material-UI(MUI) React Hook Form    Session Providerの設定 NextAuth.jsではSessionにユーザ情報を保存する。 Sessionの内容をアプリケーションから確認できるようにするには、SessionPro...]]></content>
-        <author>
-            <name>furai_mountain</name>
-        </author>
-        <published>2022-02-17T22:51:41.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　2月18日　～「CCleaner」や「FastCopy」など | 窓の杜]]></title>
@@ -962,6 +985,18 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <category label="KDnuggets Republished"/>
         <category label="Machine Learning"/>
         <published>2022-02-17T17:00:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MySQLのインデックスの貼っていいとき悪いときを原理から理解したいよ😭 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/canalun/articles/all_about_mysql_index</id>
+        <link href="https://zenn.dev/canalun/articles/all_about_mysql_index"/>
+        <updated>2022-02-17T16:34:52.000Z</updated>
+        <summary type="html"><![CDATA[今回答えを出したい問いはこちら！！  インデックスはどのような仕組みを以て、何を実現したいものなのか それを踏まえたとき、インデックスはどういう場合になぜ貼る方が良いのか。また、どういう場合になぜ貼らない方が良いのか 大体分かっているよって人はサヨナラって感じのおさらい記事だぜ！！！！それじゃいってみよー🎉  あと、おれは今回MySQLにしぼっていくぜ👶 ってわけでOracleとかに興味がある...]]></summary>
+        <content type="html"><![CDATA[今回答えを出したい問いはこちら！！  インデックスはどのような仕組みを以て、何を実現したいものなのか それを踏まえたとき、インデックスはどういう場合になぜ貼る方が良いのか。また、どういう場合になぜ貼らない方が良いのか 大体分かっているよって人はサヨナラって感じのおさらい記事だぜ！！！！それじゃいってみよー🎉  あと、おれは今回MySQLにしぼっていくぜ👶 ってわけでOracleとかに興味があるやつは引き返しな！   indexの概要 公式の見解としては「where句を使ったselectクエリの実行速度を向上させるために実装されている、各行へのポインターのような振る舞いをする仕組み」って感...]]></content>
+        <author>
+            <name>canalun</name>
+        </author>
+        <published>2022-02-17T16:34:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[No Brainer AutoML with AutoXGB | KDnuggets]]></title>
@@ -1658,18 +1693,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
         <published>2022-02-16T22:55:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[サーバーレスだけでもこんなサービスをつくれちゃう ～ SAITEKI LP のアーキテクチャ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/motch0214/articles/34ef5afc85c7e6</id>
-        <link href="https://zenn.dev/motch0214/articles/34ef5afc85c7e6"/>
-        <updated>2022-02-16T22:45:15.000Z</updated>
-        <summary type="html"><![CDATA[サーバーレス、手軽に使えて便利ですよね。 GCPやAWSの機能が充実しているおかげで、結構なサービスでもサーバーレスだけで構築することができるようになりました。 この記事では、現在開発している SAITEKI LP のアーキテクチャ概要をご紹介しつつ、なぜサーバレスを選んだかを書いてみたいと思います。   SAITEKI LP について SAITEKI LP はLPの制作から運用・改善までをオール...]]></summary>
-        <content type="html"><![CDATA[サーバーレス、手軽に使えて便利ですよね。 GCPやAWSの機能が充実しているおかげで、結構なサービスでもサーバーレスだけで構築することができるようになりました。 この記事では、現在開発している SAITEKI LP のアーキテクチャ概要をご紹介しつつ、なぜサーバレスを選んだかを書いてみたいと思います。   SAITEKI LP について SAITEKI LP はLPの制作から運用・改善までをオールインワンで効率化する次世代ランディングページプラットフォームです。 https://lp.saiteki.site ありていにいえば、ノーコードでWebサイトをつくれるWebアプリですね。（それ...]]></content>
-        <author>
-            <name>かずもと</name>
-        </author>
-        <published>2022-02-16T22:45:15.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　2月17日　～「CubePDF Utility」や「Notepad++」など | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/library/1388839.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/library/1388839.html"/>
@@ -2343,6 +2366,15 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
         <published>2022-02-16T00:13:43.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Accelerating fusion science through learned plasma control | Latest Post]]></title>
+        <id>https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control</id>
+        <link href="https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control"/>
+        <updated>2022-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></summary>
+        <content type="html"><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></content>
+        <published>2022-02-16T00:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[生成系 (群論) | 大学数学の授業ノート]]></title>
         <id>https://math-notes.info/?p=1387</id>
         <link href="https://math-notes.info/2022/02/16/group-5/"/>
@@ -2746,8 +2778,8 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
         <id>https://moneyforward.com/engineers_blog/?p=9915</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/"/>
         <updated>2022-02-15T03:00:47.000Z</updated>
-        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: bas...]]></summary>
-        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: bash スクリプトの先頭によく書く記述のおさらい  Emacs Zshなどを設定した話  マネーフォワードのtvOSアプリケーションを開発した話  ソートアルゴリズムについてまとめてみた   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報...]]></summary>
+        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報】RubyKaigi 2014レポ：Write ruby code to change ruby code  Slackのデータを可視化してコミュニケーションを活性化させた話  LINE Payを使って割り勘をフォワードする  Kaigi on Rails 2021 スポンサード視点〜ブログを書くまでがカンファレンスです！〜  怠惰な拠点長が取り組むペーパーレス・オペレーションレス   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 202...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3707,6 +3739,16 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <published>2022-02-11T01:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[MuZero’s first step from research into the real world | Latest Post]]></title>
+        <id>https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world</id>
+        <link href="https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world"/>
+        <updated>2022-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></summary>
+        <content type="html"><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></content>
+        <category label="Research"/>
+        <published>2022-02-11T00:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Guiding Frozen Language Models with Learned Soft Prompts | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html</id>
         <link href="http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html"/>
@@ -3941,8 +3983,8 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <id>https://moneyforward.com/engineers_blog/?p=9906</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/"/>
         <updated>2022-02-10T08:00:09.000Z</updated>
-        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 時間が...]]></summary>
-        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 時間がかかっていた依存パッケージの更新フローをカイゼンした話  マネーフォワードCTOが考えていること（2020年6月）  こんにちわ、5年前にお世話になっていた開発者のものです  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  【お知らせ】Qiita Organization、はじめました   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都大...]]></summary>
+        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都大学の超交流会2019に出展してきた  エンジニアインターン生の交流会イベントを開催してみた話  本番環境で全削除コマンド！  詳解 リリース計画  マネーフォワードエンジニアインタビュー 鈴木信太郎「モノポリーから始まったエンジニアへの道」   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4491,21 +4533,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/oda | AI技術最新情�
         <summary type="html"><![CDATA[このインタビューではメルペイのフロントエンド開発を支える @ryotah 、 @yutapon 、@tokuda109 、 @dwj の4人に今取り組んでいることや、技術スタック、今後の展望などを聞いています。メルペイの […]]]></summary>
         <content type="html"><![CDATA[このインタビューではメルペイのフロントエンド開発を支える @ryotah 、 @yutapon 、@tokuda109 、 @dwj の4人に今取り組んでいることや、技術スタック、今後の展望などを聞いています。メルペイの […]]]></content>
         <published>2022-02-09T07:58:34.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大学数学基礎：論理、証明、集合の記事まとめ | 趣味の大学数学]]></title>
-        <id>https://math-fun.net/?p=22231</id>
-        <link href="https://math-fun.net/20220209/22231/"/>
-        <updated>2022-02-09T07:16:00.000Z</updated>
-        <summary type="html"><![CDATA[大学数学の基礎として、論理、証明、集合の記事をまとめて紹介します。 大学初年度は教養数学として、微積分学や線形代数学を学ぶことが多いです。それらをきちんと知るためには、数学の言葉遣い、論理・証明・集合の考え方が必要です。 ... 大学数学基礎：論理、証明、集合の記事まとめ first appeared on 趣味の大学数学.]]></summary>
-        <content type="html"><![CDATA[大学数学の基礎として、論理、証明、集合の記事をまとめて紹介します。 大学初年度は教養数学として、微積分学や線形代数学を学ぶことが多いです。それらをきちんと知るためには、数学の言葉遣い、論理・証明・集合の考え方が必要です。 ... 大学数学基礎：論理、証明、集合の記事まとめ first appeared on 趣味の大学数学.]]></content>
-        <author>
-            <name>kimu3</name>
-        </author>
-        <category label="論理学"/>
-        <category label="集合論"/>
-        <category label="大学数学入門"/>
-        <published>2022-02-09T07:16:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[IntellJ最新版（2021.3.1）で、Projectツリーに急に表示されるようになったPHPのメソッド一覧を消す方法 | エキサイト TechBlog.]]></title>
@@ -5705,32 +5732,5 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
         <link href="https://www.youtube.com/watch?v=b3g4sn5ZSnM"/>
         <updated>2022-02-05T09:00:30.000Z</updated>
         <published>2022-02-05T09:00:30.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHubでrepositoryごとに権限が割り当ててある人間を探す | HERP TechHub]]></title>
-        <id>https://hiroqn.hatenablog.com/entry/2022/02/05/161143</id>
-        <link href="https://hiroqn.hatenablog.com/entry/2022/02/05/161143"/>
-        <updated>2022-02-05T07:11:43.000Z</updated>
-        <summary type="html"><![CDATA[abst  GitHubの権限を真面目に管理することを考えると、やはりrepositoryに対してUserを紐付けることをやめたい。 つまりRepositoryに対してTeamを紐づける権限管理をやり]]></summary>
-        <content type="html"><![CDATA[abst  GitHubの権限を真面目に管理することを考えると、やはりrepositoryに対してUserを紐付けることをやめたい。 つまりRepositoryに対してTeamを紐づける権限管理をやり]]></content>
-        <published>2022-02-05T07:11:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Python and Machine Learning are Soulmates | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/why-python-and-machine-learning-are-soulmates?source=rss</id>
-        <link href="https://hackernoon.com/why-python-and-machine-learning-are-soulmates?source=rss"/>
-        <updated>2022-02-05T05:01:25.000Z</updated>
-        <author>
-            <name>Edem Gold</name>
-        </author>
-        <category label="machine-learning"/>
-        <category label="ai"/>
-        <category label="python"/>
-        <category label="programming-languages"/>
-        <category label="python-machine-learning"/>
-        <category label="learn-python"/>
-        <category label="python-programming"/>
-        <category label="hackernoon-top-story"/>
-        <published>2022-02-05T05:01:25.000Z</published>
     </entry>
 </feed>
