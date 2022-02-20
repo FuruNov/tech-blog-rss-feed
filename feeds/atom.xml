@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-02-20T03:29:06.338Z</updated>
+    <updated>2022-02-20T07:25:02.284Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Julia（Graphs）で重みつき最短経路問題を解き、図示する方法 | 趣味の大学数学]]></title>
+        <id>https://math-fun.net/?p=22388</id>
+        <link href="https://math-fun.net/20220220/22388/"/>
+        <updated>2022-02-20T06:31:38.000Z</updated>
+        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、Julia（Graphs）で重みつき最短経路問題を解き、図示する方法を紹介します。 前提知識：Julia（Graphs）で最短経路問題を解き、図示する方法 &nbs ... Julia（Graphs）で重みつき最短経路問題を解き、図示する方法 first appeared on 趣味の大学数学.]]></summary>
+        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、Julia（Graphs）で重みつき最短経路問題を解き、図示する方法を紹介します。 前提知識：Julia（Graphs）で最短経路問題を解き、図示する方法 &nbs ... Julia（Graphs）で重みつき最短経路問題を解き、図示する方法 first appeared on 趣味の大学数学.]]></content>
+        <author>
+            <name>kimu3</name>
+        </author>
+        <category label="グラフ理論"/>
+        <category label="プログラミング・数値計算"/>
+        <published>2022-02-20T06:31:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DKL色空間の図 | pooneilの脳科学論文コメント]]></title>
+        <id>http://pooneil.sakura.ne.jp/archives/permalink/001738.php</id>
+        <link href="http://pooneil.sakura.ne.jp/archives/permalink/001738.php"/>
+        <updated>2022-02-20T04:41:33.000Z</updated>
+        <summary type="html"><![CDATA[必要になったので、ひさびさにDKL空間の図を作ってみた。RGB 8ビット*3の立...]]></summary>
+        <content type="html"><![CDATA[必要になったので、ひさびさにDKL空間の図を作ってみた。RGB 8ビット*3の立...]]></content>
+        <published>2022-02-20T04:41:33.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Notion で使えるショートカットキー (テキスト入力 おすすめ3選) | AIリサーチコレクション]]></title>
         <id>https://ai-research-collection.com/?p=1764</id>
@@ -61,6 +84,18 @@
         <published>2022-02-19T13:54:29.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Create React App(typescript)をベースにelectron環境を構築する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/niwaringo/articles/af693596ef948e</id>
+        <link href="https://zenn.dev/niwaringo/articles/af693596ef948e"/>
+        <updated>2022-02-19T13:26:09.000Z</updated>
+        <summary type="html"><![CDATA[Create React App(typescript)をベースにelectronの環境を構築する手順メモ。Windows環境でのみ検証。   Create React App Create React Appを実行する。 npx create-react-app electronapp --template typescript   npm install Create React Appで作っ...]]></summary>
+        <content type="html"><![CDATA[Create React App(typescript)をベースにelectronの環境を構築する手順メモ。Windows環境でのみ検証。   Create React App Create React Appを実行する。 npx create-react-app electronapp --template typescript   npm install Create React Appで作ったプロジェクトにelectronに必要なパッケージをインストールしていく。 cd electronapp npm i -D concurrently cross-env electron ele...]]></content>
+        <author>
+            <name>niwaringo</name>
+        </author>
+        <published>2022-02-19T13:26:09.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Ecto.NoResultsError発生時にPhoenixはどのようにして404を返しているのか | Zennのトレンド]]></title>
         <id>https://zenn.dev/koga1020/articles/aa52a00f309d4d</id>
         <link href="https://zenn.dev/koga1020/articles/aa52a00f309d4d"/>
@@ -82,6 +117,30 @@
         <published>2022-02-19T11:51:30.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GitHub Actions + Terraformモノレポ環境で変更ファイルに応じてCIを実行する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/naofumimurata/articles/tf-monorepo-github-actions</id>
+        <link href="https://zenn.dev/naofumimurata/articles/tf-monorepo-github-actions"/>
+        <updated>2022-02-19T11:39:47.000Z</updated>
+        <summary type="html"><![CDATA[Terraform モノレポにおけるCIでは、PR作成/更新時などに変更したファイルに応じて対象のディレクトリでのみterraform planを実行させたいというニーズがあるかと思います。 本記事では、それを実現するための幾つかのやり方についてご紹介したいと思います。   前提 ここでは、以下のようなリポジトリ構成となっていることを想定します。 . ├── account-a │ ├── acc...]]></summary>
+        <content type="html"><![CDATA[Terraform モノレポにおけるCIでは、PR作成/更新時などに変更したファイルに応じて対象のディレクトリでのみterraform planを実行させたいというニーズがあるかと思います。 本記事では、それを実現するための幾つかのやり方についてご紹介したいと思います。   前提 ここでは、以下のようなリポジトリ構成となっていることを想定します。 . ├── account-a │ ├── account-top.tf │ ├── service-bar │ │ └── bar.tf │ └── service-foo │ └── foo.tf ├── a...]]></content>
+        <author>
+            <name>Naofumi Murata</name>
+        </author>
+        <published>2022-02-19T11:39:47.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[資格受験]独学でCCSP を受験した話 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/valmet083/articles/15a6c2ab563aaa</id>
+        <link href="https://zenn.dev/valmet083/articles/15a6c2ab563aaa"/>
+        <updated>2022-02-19T11:10:33.000Z</updated>
+        <summary type="html"><![CDATA[はじめに CCSP について日本語の情報が少ないのでそれまでの過程や勉強法についてメモを残す。(2022年2月時点の情報で記載)   About CCSP  CCSP(Certified Cloud Security Professional)は、クラウドサービスを安全に利用するために必要な知識を体系化した資格です。  https://japan.isc2.org/ccsp_about.html ...]]></summary>
+        <content type="html"><![CDATA[はじめに CCSP について日本語の情報が少ないのでそれまでの過程や勉強法についてメモを残す。(2022年2月時点の情報で記載)   About CCSP  CCSP(Certified Cloud Security Professional)は、クラウドサービスを安全に利用するために必要な知識を体系化した資格です。  https://japan.isc2.org/ccsp_about.html 認定を得るためには試験に合格し、更に最低5年間のサイバーセキュリティに関連する業務に携わっている必要がある。CISSP と同じく業務経験を満たしていない場合は、年数を満たすまでアソシエイトと...]]></content>
+        <author>
+            <name>valmet083</name>
+        </author>
+        <published>2022-02-19T11:10:33.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[比較的シンプルなドメインイベントの利用方法 | Zennのトレンド]]></title>
         <id>https://zenn.dev/emiksk/articles/7efe2a057caed0</id>
         <link href="https://zenn.dev/emiksk/articles/7efe2a057caed0"/>
@@ -92,6 +151,18 @@
             <name>emiksk</name>
         </author>
         <published>2022-02-19T10:40:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[                      💎🎉   OpenZeppelin Clones 解説   🎉💎 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yukista/articles/0bff3879ed0263</id>
+        <link href="https://zenn.dev/yukista/articles/0bff3879ed0263"/>
+        <updated>2022-02-19T10:07:09.000Z</updated>
+        <summary type="html"><![CDATA[🌞 概要 OpenZeppelinのUpgradeable Contractsに関するドキュメントを読んでいて、Clonesの存在を知りました。ClonesはUpgradable Contractsの仕組みの一部であるProxyの一種で、Implementation Contractの更新機能を省いたProxyだと言えます。（つまり、Implementation Contractの初期化だけでき...]]></summary>
+        <content type="html"><![CDATA[🌞 概要 OpenZeppelinのUpgradeable Contractsに関するドキュメントを読んでいて、Clonesの存在を知りました。ClonesはUpgradable Contractsの仕組みの一部であるProxyの一種で、Implementation Contractの更新機能を省いたProxyだと言えます。（つまり、Implementation Contractの初期化だけできます。） Clonesは、同じContractのインスタンスを多数作成するContractFactoryによって作成されるようなContractを低いガス代で量産するのに便利ですとOpenZe...]]></content>
+        <author>
+            <name>yukista</name>
+        </author>
+        <published>2022-02-19T10:07:09.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[JavaScriptの参照レコードとthisバインディング | Zennのトレンド]]></title>
@@ -116,6 +187,18 @@
             <name>masibw</name>
         </author>
         <published>2022-02-19T09:30:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Developers Summit 2022 公開資料・Twitterリンクまとめ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/h_yoshikawa0724/articles/2022-02-19-developers-summit-2022</id>
+        <link href="https://zenn.dev/h_yoshikawa0724/articles/2022-02-19-developers-summit-2022"/>
+        <updated>2022-02-19T09:08:29.000Z</updated>
+        <summary type="html"><![CDATA[2022/02/17(木)、18(金)で開催されたデブサミ2022に関する、現時点で公開資料とTwitter アカウントリンクをまとめました。 よろしければご活用ください。  この記事は、個人ブログへ投稿した記事の転載です。    はじめに https://event.shoeisha.jp/devsumi/20220217 登壇者名は敬称略させていただいています。 スライドについては、ご本人がツ...]]></summary>
+        <content type="html"><![CDATA[2022/02/17(木)、18(金)で開催されたデブサミ2022に関する、現時点で公開資料とTwitter アカウントリンクをまとめました。 よろしければご活用ください。  この記事は、個人ブログへ投稿した記事の転載です。    はじめに https://event.shoeisha.jp/devsumi/20220217 登壇者名は敬称略させていただいています。 スライドについては、ご本人がツイートで展開されていたり、スライドサービスにアップロードされているものを記載。 Twitter アカウントについては、多くの方はデブサミ公式サイトの紹介ページに記載 or 資料記載がありましたの...]]></content>
+        <author>
+            <name>よし</name>
+        </author>
+        <published>2022-02-19T09:08:29.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Scrapboxを使うときに考えたほうが良さそうなこと | FascodeNetwork Blog]]></title>
@@ -148,6 +231,18 @@
         <summary type="html"><![CDATA[はじめに  Richardson-Lucy deconvolution（以下、RL法）は、画像等を鮮明にする手法である。一般的な撮像観測では、観測装置の回折等により光源が拡がって撮像される。この拡が…]]></summary>
         <content type="html"><![CDATA[はじめに  Richardson-Lucy deconvolution（以下、RL法）は、画像等を鮮明にする手法である。一般的な撮像観測では、観測装置の回折等により光源が拡がって撮像される。この拡が…]]></content>
         <published>2022-02-19T08:20:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vite+React+TypeScriptに テスト環境 Jest＋TesttingLibrary をステップbyステップで作る | Zennのトレンド]]></title>
+        <id>https://zenn.dev/longbridge/articles/9e9758181c8846</id>
+        <link href="https://zenn.dev/longbridge/articles/9e9758181c8846"/>
+        <updated>2022-02-19T06:44:17.000Z</updated>
+        <summary type="html"><![CDATA[前回 React の テスト方針を調べたでテスト環境について調べました。 今回は、Vite + React + TypeScript + EsLint + Prettier に テスト環境を Jest + Testting Library を ステップbyステップで作っていきます。   環境作成 まずは Viteを使って、React + TypeScript を作成し、EsLint + Prett...]]></summary>
+        <content type="html"><![CDATA[前回 React の テスト方針を調べたでテスト環境について調べました。 今回は、Vite + React + TypeScript + EsLint + Prettier に テスト環境を Jest + Testting Library を ステップbyステップで作っていきます。   環境作成 まずは Viteを使って、React + TypeScript を作成し、EsLint + Prettier を導入した状態までのプロジェクトを用意します。 環境作成の詳細  Viteを使用したアプリの作成方法 → 参考  EsLint + Prettier の導入方法 → 参考1、参考2   ...]]></content>
+        <author>
+            <name>longbridgeyuk</name>
+        </author>
+        <published>2022-02-19T06:44:17.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[LinkedInスキルテストは良いぞ | Zennのトレンド]]></title>
@@ -236,18 +331,6 @@
         <published>2022-02-19T04:16:48.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Seeed reTerminal、Ubuntu FrameとFigmaで簡単ミニサイネージを作る | Zennのトレンド]]></title>
-        <id>https://zenn.dev/takipone/articles/596e80d3e53589</id>
-        <link href="https://zenn.dev/takipone/articles/596e80d3e53589"/>
-        <updated>2022-02-19T03:20:25.000Z</updated>
-        <summary type="html"><![CDATA[ども、takiponeです。 Seeed reTerminalはRaspberry Pi Compute Module4をベースに、液晶ディスプレイやボタンを内蔵した多目的デバイスです。サイネージ用途で使えるUbuntu FrameでWebプロトタイピングツールのFigmaを表示させてみたら、リモートから表示が制御できる便利サイネージシステムができたのでご紹介します。 https://youtu....]]></summary>
-        <content type="html"><![CDATA[ども、takiponeです。 Seeed reTerminalはRaspberry Pi Compute Module4をベースに、液晶ディスプレイやボタンを内蔵した多目的デバイスです。サイネージ用途で使えるUbuntu FrameでWebプロトタイピングツールのFigmaを表示させてみたら、リモートから表示が制御できる便利サイネージシステムができたのでご紹介します。 https://youtu.be/Fyf6BTAVEWs   Ubuntuのインストール reTerminalにプリインストールされるOSはRasbian(Debian)なので、Ubuntuをインストールします。以下の記事...]]></content>
-        <author>
-            <name>takipone</name>
-        </author>
-        <published>2022-02-19T03:20:25.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rubyでif文の戻り値を代入するときのコーディングスタイル、あなたはどっち！？ | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/jnchito/items/9b3f476f40803444b471?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/jnchito/items/9b3f476f40803444b471?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -255,18 +338,6 @@
         <summary type="html"><![CDATA[はじめに  Rubyではif文の戻り値を変数に代入することができます。その場合、大きく分けて次のような2つのスタイルがあると思います。  # = と if を同じ行に書く greeting = if …]]></summary>
         <content type="html"><![CDATA[はじめに  Rubyではif文の戻り値を変数に代入することができます。その場合、大きく分けて次のような2つのスタイルがあると思います。  # = と if を同じ行に書く greeting = if …]]></content>
         <published>2022-02-19T03:03:48.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptのOmitの実装を見てみよう | Zennのトレンド]]></title>
-        <id>https://zenn.dev/jojojo/articles/80f442f27f92e3</id>
-        <link href="https://zenn.dev/jojojo/articles/80f442f27f92e3"/>
-        <updated>2022-02-19T02:54:24.000Z</updated>
-        <summary type="html"><![CDATA[TypeScriptを使い始めて2年以上が経過し、ふと普段からよく使うPickとかPartialなどのユーティリティタイプががどうやって実装されているか知らないなぁと思い、調べて見ました。 本記事ではTypeScriptのユーティリティタイプの1つであるOmitの実装を見ていきたいと思います。   目次  ユーティリティタイプとは？ Omitとは？ Omitの実装 Omitの問題点＆改善案 Omi...]]></summary>
-        <content type="html"><![CDATA[TypeScriptを使い始めて2年以上が経過し、ふと普段からよく使うPickとかPartialなどのユーティリティタイプががどうやって実装されているか知らないなぁと思い、調べて見ました。 本記事ではTypeScriptのユーティリティタイプの1つであるOmitの実装を見ていきたいと思います。   目次  ユーティリティタイプとは？ Omitとは？ Omitの実装 Omitの問題点＆改善案 OmitStrict？ まとめ    ユーティリティタイプとは？ ユーティリティタイプとは何なのかというのを軽く紹介したいと思います。 ドキュメントには以下のように書かれています。 TypeScrip...]]></content>
-        <author>
-            <name>jojojo</name>
-        </author>
-        <published>2022-02-19T02:54:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[初めての開発チームリーダーとしてプロジェクトを成功させるためにやったことリスト | Zennのトレンド]]></title>
@@ -300,18 +371,6 @@
         <summary type="html"><![CDATA[不幸にして意気地のない上司についたときは新しいアイデアは上司に黙って、まず、ものをつくれ  Advent Calendar 2022 49日目[^1]の記事です。 I'm looking forwar…]]></summary>
         <content type="html"><![CDATA[不幸にして意気地のない上司についたときは新しいアイデアは上司に黙って、まず、ものをつくれ  Advent Calendar 2022 49日目[^1]の記事です。 I'm looking forwar…]]></content>
         <published>2022-02-19T01:45:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GoとDockerでつくる音声合成CLI | Zennのトレンド]]></title>
-        <id>https://zenn.dev/nobonobo/articles/60fe0cd1a5af74</id>
-        <link href="https://zenn.dev/nobonobo/articles/60fe0cd1a5af74"/>
-        <updated>2022-02-19T00:18:42.000Z</updated>
-        <summary type="html"><![CDATA[https://zenn.dev/ddpn08/articles/fb390caa781e54 この記事を読んで試してみようと思いました！ 開発元のサイトはこちら https://voicevox.hiroshiba.jp   ローカルサーバーの立て方 簡単！以下のコマンドで立つ。 docker run -it --rm -p 50021:50021 hiroshiba/voicevox_engi...]]></summary>
-        <content type="html"><![CDATA[https://zenn.dev/ddpn08/articles/fb390caa781e54 この記事を読んで試してみようと思いました！ 開発元のサイトはこちら https://voicevox.hiroshiba.jp   ローカルサーバーの立て方 簡単！以下のコマンドで立つ。 docker run -it --rm -p 50021:50021 hiroshiba/voicevox_engine:cpu-ubuntu20.04-0.10.4 macOS環境なら「brew install sox」としておいて以下のシェルスクリプトを作成します。  speak.sh #!/bin/sh...]]></content>
-        <author>
-            <name>NoboNobo</name>
-        </author>
-        <published>2022-02-19T00:18:42.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Robust Routing Using Electrical Flows | Google AI Blog]]></title>
@@ -1395,18 +1454,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <published>2022-02-17T11:52:01.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[UE5 (Unreal Engine 5) で始めるゲーム開発入門 第二巻 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/daichi_gamedev/books/unreal-engine-tutorial-2</id>
-        <link href="https://zenn.dev/daichi_gamedev/books/unreal-engine-tutorial-2"/>
-        <updated>2022-02-17T11:46:17.000Z</updated>
-        <summary type="html"><![CDATA[📘この本について この本はUnrealEngine5でのゲーム開発について初心者の方向けにまとめた本です。この2巻の本では1巻でカバーしきれなかったUnrealEngineの基本的な使い方について解説しています。  ✍🏻本は作成中です 現在一巻をメインに作成中です。二巻はしばらくお待ちください。既存の記事の完成度もまだまだです。一通りページを埋めたら全てのページをアップデートする予定なのでいま...]]></summary>
-        <content type="html"><![CDATA[📘この本について この本はUnrealEngine5でのゲーム開発について初心者の方向けにまとめた本です。この2巻の本では1巻でカバーしきれなかったUnrealEngineの基本的な使い方について解説しています。  ✍🏻本は作成中です 現在一巻をメインに作成中です。二巻はしばらくお待ちください。既存の記事の完成度もまだまだです。一通りページを埋めたら全てのページをアップデートする予定なのでいましばらくお待ちください。  ⏱主な直近のアップデートについて 2022/02/17 : 本を公開しました。  📰さらに詳しく 詳しくは最初のページ「この本について」をご覧ください。]]></content>
-        <author>
-            <name>Daichi</name>
-        </author>
-        <published>2022-02-17T11:46:17.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GitHub Actionsで複数のPHPのバージョンとOSでまとめてPHPUnitを動かしてみる | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/tumugin/items/5f604aff2b63eb43992b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/tumugin/items/5f604aff2b63eb43992b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1432,18 +1479,6 @@ https://ai-scholar.tech/articles/segmentation/TransUNet | AI技術最新情報�
         <summary type="html"><![CDATA[成瀬允宣さんの「ドメイン駆動設計入門」勉強メモ/備忘録です。  概要  DDDのコンセプト   ビジネスの問題を解決するためにビジネスの理解を進め、ビジネスを表現する。 ビジネスとコードを紐付けて継続的かつ…]]></summary>
         <content type="html"><![CDATA[成瀬允宣さんの「ドメイン駆動設計入門」勉強メモ/備忘録です。  概要  DDDのコンセプト   ビジネスの問題を解決するためにビジネスの理解を進め、ビジネスを表現する。 ビジネスとコードを紐付けて継続的かつ…]]></content>
         <published>2022-02-17T11:03:46.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Linux」という言葉が指すもの | Zennのトレンド]]></title>
-        <id>https://zenn.dev/satoru_takeuchi/articles/f143f7661f5a78</id>
-        <link href="https://zenn.dev/satoru_takeuchi/articles/f143f7661f5a78"/>
-        <updated>2022-02-17T10:24:24.000Z</updated>
-        <summary type="html"><![CDATA[「Linux」という言葉が世の中ではたくさんの意味で使われています。本記事ではそのうちの使用頻度が高いものについて述べます。   カーネルとしてのLinux 「Linux」というのはそもそもLinus Torvalds氏が開発を開始したOSカーネルのことです。OSカーネルとは、ものすごく雑にいうとアプリケーションやミドルウェアなどのプロセスとハードウェアの間に存在する、コンピュータシステムの核とな...]]></summary>
-        <content type="html"><![CDATA[「Linux」という言葉が世の中ではたくさんの意味で使われています。本記事ではそのうちの使用頻度が高いものについて述べます。   カーネルとしてのLinux 「Linux」というのはそもそもLinus Torvalds氏が開発を開始したOSカーネルのことです。OSカーネルとは、ものすごく雑にいうとアプリケーションやミドルウェアなどのプロセスとハードウェアの間に存在する、コンピュータシステムの核となるソフトウェアのことです。 プロセス ----- カーネル ------ ハードウェア アプリのユーザ目線でいうと、OSカーネルは次のようなことを実現します。  アプリケーションが一つ異常終了し...]]></content>
-        <author>
-            <name>sat</name>
-        </author>
-        <published>2022-02-17T10:24:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[列ベクトルと行ベクトルの定義と違い | 数学の景色]]></title>
@@ -1637,18 +1672,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
         <category label="hackernoon-top-story"/>
         <category label="machine-learning"/>
         <published>2022-02-17T05:06:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[風船屋さんを支える技術。200時間でゼロからweb検索システムを構築した裏側のすべて。(Next.js, Firebase...) | Zennのトレンド]]></title>
-        <id>https://zenn.dev/takuho/articles/3390a9ba28b325</id>
-        <link href="https://zenn.dev/takuho/articles/3390a9ba28b325"/>
-        <updated>2022-02-17T04:17:49.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、エンジニア 3 年目になりました、多田です。 フロントエンド領域の勉強をはじめて 1 年が経ち、今回個人でゼロからアニプラさん(バルーンショップを経営してる会社)のバルーンサイトの検索システムを作らせていただく機会に恵まれました。 開発にかけられる総時間が 200 時間(つまり工数 1 人月ちょいぐらい、、)というだいぶヤバめなチャレンジングな時間的制約の中、要件定義・デザイ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、エンジニア 3 年目になりました、多田です。 フロントエンド領域の勉強をはじめて 1 年が経ち、今回個人でゼロからアニプラさん(バルーンショップを経営してる会社)のバルーンサイトの検索システムを作らせていただく機会に恵まれました。 開発にかけられる総時間が 200 時間(つまり工数 1 人月ちょいぐらい、、)というだいぶヤバめなチャレンジングな時間的制約の中、要件定義・デザイン・フロントエンド・バックエンド・インフラ周りまで通して全て 1 人で開発し、完成させることができました。  figma よりイメージ抜粋 アニプラさんより記事を書く許可をいただいたので、開...]]></content>
-        <author>
-            <name>tada</name>
-        </author>
-        <published>2022-02-17T04:17:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[マークダウンとJavaScriptでインタラクティブなWebサイトを作れる「Reactive Doc」を使ってみた！ | paiza開発日誌]]></title>
@@ -2833,8 +2856,8 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
         <id>https://moneyforward.com/engineers_blog/?p=9915</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/"/>
         <updated>2022-02-15T03:00:47.000Z</updated>
-        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></summary>
-        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応  マネーフォワード社内PRに見られるRubyの書き方について - (2) ハッシュの生成  京都拠点でRailsのフルリモートなスクラム開発をした知見  Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  マネーフォワードエンジニアの私生活   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: （83...]]></summary>
+        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: （83億レコード移行の続編）BigQueryを導入して改善サイクルがスピードアップした話  UITestのスクリーンショットを一覧で見たい  新サービスを立ち上げる際、エンジニアとしてやって良かった 9個の事  Rubocop でカスタムルールを作る  開発チームでワークショップをしたら「外化しようぜ！」が共通言語になった話   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4028,8 +4051,8 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <id>https://moneyforward.com/engineers_blog/?p=9906</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/"/>
         <updated>2022-02-10T08:00:09.000Z</updated>
-        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 谷口徹「BtoBはユーザーとの距離が近い」  グループ会社横断でシングルサインオンをできるようにしてみた  RubyKaigi 2019 参加者がチェックすべき福岡飯20選！  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  React Componentの実装ルールを決めてみた   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: gor...]]></summary>
+        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: goroutine内のpanic handling  今回、エンジニアブログはお休みです  如何にしてわたしはマネーフォワードの一員になったのか  マネーフォワードエンジニアインタビュー 西方夏子「大事なのは、その時々で最善な道を考えること」  EBS Magnetic vs SSDのベンチマーク   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4071,19 +4094,6 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <summary type="html"><![CDATA[この記事は @hatappi によって提供される Developer Productivity Engineering Camp blog series の１つです。 序論 私達 Microservices Networ […]]]></summary>
         <content type="html"><![CDATA[この記事は @hatappi によって提供される Developer Productivity Engineering Camp blog series の１つです。 序論 私達 Microservices Networ […]]]></content>
         <published>2022-02-10T07:36:26.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[応用数学（微分方程式、フーリエ、複素解析、グラフ理論）の記事まとめ | 趣味の大学数学]]></title>
-        <id>https://math-fun.net/?p=22237</id>
-        <link href="https://math-fun.net/20220210/22237/"/>
-        <updated>2022-02-10T05:07:57.000Z</updated>
-        <summary type="html"><![CDATA[微分方程式、フーリエ解析、複素解析、グラフ理論などの応用数学についての記事をまとめて紹介します。 微積分学と線形代数学を学部1年で学んだ上で、これらの内容の一部分を学部2-3年で学ぶことが多いでしょう。どの分野を重点的に ... 応用数学（微分方程式、フーリエ、複素解析、グラフ理論）の記事まとめ first appeared on 趣味の大学数学.]]></summary>
-        <content type="html"><![CDATA[微分方程式、フーリエ解析、複素解析、グラフ理論などの応用数学についての記事をまとめて紹介します。 微積分学と線形代数学を学部1年で学んだ上で、これらの内容の一部分を学部2-3年で学ぶことが多いでしょう。どの分野を重点的に ... 応用数学（微分方程式、フーリエ、複素解析、グラフ理論）の記事まとめ first appeared on 趣味の大学数学.]]></content>
-        <author>
-            <name>kimu3</name>
-        </author>
-        <category label="大学数学入門"/>
-        <published>2022-02-10T05:07:57.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ethernalを使ってGanache にデプロイしたコントラクトをGUIで気軽に試そう！ | mixi developers - Medium]]></title>
@@ -5727,18 +5737,5 @@ https://ai-scholar.tech/articles/reinforcement-learning/diabetes_rl | AI技術�
         <category label="カテゴリ済み"/>
         <category label="プログラミング"/>
         <published>2022-02-06T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[部分群 (群論) | 大学数学の授業ノート]]></title>
-        <id>https://math-notes.info/?p=1286</id>
-        <link href="https://math-notes.info/2022/02/06/group-3/"/>
-        <updated>2022-02-06T04:44:13.000Z</updated>
-        <summary type="html"><![CDATA[部分群の基本事項について解説します。また「部分群であること」の証明の仕方についてもみます。]]></summary>
-        <content type="html"><![CDATA[部分群の基本事項について解説します。また「部分群であること」の証明の仕方についてもみます。]]></content>
-        <author>
-            <name>math-notes</name>
-        </author>
-        <category label="群論"/>
-        <published>2022-02-06T04:44:13.000Z</published>
     </entry>
 </feed>
