@@ -7,6 +7,195 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://tech.actindi.net/2022/02/21/083000?utm_source=feed",
+            "content_html": "morishitaです。 アクトインディでは開発環境で Docker Compose を利用しています。 Rails などで構築する一般的な Web アプリケーションは DB を必要とするとので最低でも次の２つのコンテナを含むと思います。 DB のコンテナ アプリケーションコンテナ アクトインディで実際に開発に使っているものでは nginx や webpack-dev-server のコンテナのあったりするので ３−４コンテナ動きます。 これらのコンテナは決まった順番に起動するしないとエラーになったりします。 例えば、Rails は DB に接続できないと起動に失敗します。 そんな起動順を制御…",
+            "url": "https://tech.actindi.net/2022/02/21/083000?utm_source=feed",
+            "title": "docker-compose の depends_on と healthcheck について | アクトインディ開発者ブログ",
+            "summary": "morishitaです。 アクトインディでは開発環境で Docker Compose を利用しています。 Rails などで構築する一般的な Web アプリケーションは DB を必要とするとので最低でも次の２つのコンテナを含むと思います。 DB のコンテナ アプリケーションコンテナ アクトインディで実際に開発に使っているものでは nginx や webpack-dev-server のコンテナのあ...",
+            "date_modified": "2022-02-20T23:30:00.000Z",
+            "date_published": "2022-02-20T23:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.studyplus.co.jp/entry/2022/02/21/080000",
+            "content_html": "こんにちは、サーバーグループの市川です。モバイルクライアントグループに所属していましたが、バックエンドの開発を担当することが多くなったので、サーバーグループ異動にしました。 最近、Studyplusブックというサービスをリリースしました。Studyplusアプリ内で、200冊以上の参考書が読み放題で使えるサービスです。 このサービスの開発にあたって、社内向けの管理画面を新規に構築したのですが、Rails 7から標準でインストールされるHotwireを利用することにしました。 今回はHotwireを実際に利用する上で、どういったUIを作ればいいか試作しましたので、その話を書きます。 作った画面 …",
+            "url": "https://tech.studyplus.co.jp/entry/2022/02/21/080000",
+            "title": "Rails 7 + Hotwireで実用的なSPAを作ってみた | Studyplus Engineering Blog",
+            "summary": "こんにちは、サーバーグループの市川です。モバイルクライアントグループに所属していましたが、バックエンドの開発を担当することが多くなったので、サーバーグループ異動にしました。 最近、Studyplusブックというサービスをリリースしました。Studyplusアプリ内で、200冊以上の参考書が読み放題で使えるサービスです。 このサービスの開発にあたって、社内向けの管理画面を新規に構築したのですが、Ra...",
+            "date_modified": "2022-02-20T23:00:00.000Z",
+            "date_published": "2022-02-20T23:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://aimstogeek.hatenablog.com/entry/2022/02/21/080000",
+            "content_html": "ソフトウェアエンジニアの王子です。 オリンピックのカーリングを見すぎて、投げる前にどこを狙うかがわかるようになってきました。 コーナーガードは攻撃的な戦術です。 さて、前回の私の記事はこちらです。 aimstogeek.hatenablog.com 出来上がるプロダクトや記法の問題であればReact/Vueはどちらでも良いと思っています。 ですが、Vue3に対応したUIフレームワークや周辺ライブラリの充実度合いの状況などを考えるとあと１〜２年はReactの方が有用でしょうか。 そこで今回は前回のLaravel+Sail+Vite環境にReactを入れてみます。 dockerコンテナの準備 Wi…",
+            "url": "https://aimstogeek.hatenablog.com/entry/2022/02/21/080000",
+            "title": "Laravel+Sail+Vite+React(tsx)の環境を用意する | 株式会社クイックのWebサービス開発blog",
+            "summary": "ソフトウェアエンジニアの王子です。 オリンピックのカーリングを見すぎて、投げる前にどこを狙うかがわかるようになってきました。 コーナーガードは攻撃的な戦術です。 さて、前回の私の記事はこちらです。 aimstogeek.hatenablog.com 出来上がるプロダクトや記法の問題であればReact/Vueはどちらでも良いと思っています。 ですが、Vue3に対応したUIフレームワークや周辺ライブラ...",
+            "date_modified": "2022-02-20T23:00:00.000Z",
+            "date_published": "2022-02-20T23:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.isid.co.jp/entry/2022/02/21/GitOps%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9FAzure_Kubernetes_Service%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4",
+            "content_html": "こんにちは、電通国際情報サービス（ISID）の上羽です。 私はクラウドイノベーションセンターという組織に所属し、社内におけるパブリッククラウドの活用推進やクラウドテクノロジーの研究開発を行っています。この記事は最近Azureでパブリックプレビューとして公開されたAzure Kubernetes Service（以下、AKS）の機能であるGitOpsについて解説します。本記事では、CI/CD、およびKubernetesの基本的な概念をある程度理解していることを前提としています。 GitOpsとは CI/CDによるデプロイを実現する方法として、多くの人が思い浮かべるのはCIツール（GitHub A…",
+            "url": "https://tech.isid.co.jp/entry/2022/02/21/GitOps%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9FAzure_Kubernetes_Service%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4",
+            "title": "GitOpsを利用したAzure Kubernetes Serviceへのアプリケーションデプロイ | 電通国際情報サービス TechBlog",
+            "summary": "こんにちは、電通国際情報サービス（ISID）の上羽です。 私はクラウドイノベーションセンターという組織に所属し、社内におけるパブリッククラウドの活用推進やクラウドテクノロジーの研究開発を行っています。この記事は最近Azureでパブリックプレビューとして公開されたAzure Kubernetes Service（以下、AKS）の機能であるGitOpsについて解説します。本記事では、CI/CD、および...",
+            "date_modified": "2022-02-20T23:00:00.000Z",
+            "date_published": "2022-02-20T23:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/update/library/1389547.html",
+            "content_html": "高速起動する無料のPDFビューワー",
+            "url": "https://forest.watch.impress.co.jp/docs/update/library/1389547.html",
+            "title": "【アップデート情報】窓の杜収録ソフト　2月21日　～「Firefox」や「VRoid Studio」など | 窓の杜",
+            "summary": "高速起動する無料のPDFビューワー",
+            "date_modified": "2022-02-20T22:30:00.000Z",
+            "date_published": "2022-02-20T22:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/serial/offitech/1389656.html",
+            "content_html": "PowerPointといえば、スライドを再生しながらプレゼンテーションするのが一般的な使い方ですよね。スライドの制作と発表の両方を担当する方も多いと思います。ただ、発表当日に都合が悪くなって、部下に代理を任せたら意図がうまく伝わらなかったなんて経験もあるのではないでしょうか。",
+            "url": "https://forest.watch.impress.co.jp/docs/serial/offitech/1389656.html",
+            "title": "YouTubeの配信にも使える！ パワポのみでプレゼン動画を制作！【残業を減らす！Officeテクニック】 | 窓の杜",
+            "summary": "PowerPointといえば、スライドを再生しながらプレゼンテーションするのが一般的な使い方ですよね。スライドの制作と発表の両方を担当する方も多いと思います。ただ、発表当日に都合が悪くなって、部下に代理を任せたら意図がうまく伝わらなかったなんて経験もあるのではないでしょうか。",
+            "date_modified": "2022-02-20T21:55:00.000Z",
+            "date_published": "2022-02-20T21:55:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1389613.html",
+            "content_html": "“やじうまの杜”では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
+            "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1389613.html",
+            "title": "パワポ専用アイドル『パワーポップス』爆誕！ 無料素材が全部オブジェクトでできてるだと……／トンガリ過ぎなサントリー「クラフトボス」の販促用素材【やじうまの杜】 | 窓の杜",
+            "summary": "“やじうまの杜”では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
+            "date_modified": "2022-02-20T21:45:00.000Z",
+            "date_published": "2022-02-20T21:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/minn/articles/6f568e76e8b150",
+            "content_html": "はじめに 初めまして。Flutter初学者のminnです。 先日のバレンタインで、バレンタインチョコルーレットを作ってみました。 簡単なルーレットですが、思いのほかいろんな人に楽しんでもらえたので紹介します。 手軽にアプリを作りたい方はぜひ参考にしてください〜 ↓ 遊んでみてね💝 https://valentineapp-24328.web.app/#/    目次  使った技術・パッケージ 実装 FirebaseHostingにデプロイ（Webに公開）    1. 使った技術・パッケージ  Flutter Web - roulette (ルーレットのぐるぐる部分を作ってくれるパッケ...",
+            "url": "https://zenn.dev/minn/articles/6f568e76e8b150",
+            "title": "【Flutter】バレンタインチョコルーレットを作ったよ💝 | Zennのトレンド",
+            "summary": "はじめに 初めまして。Flutter初学者のminnです。 先日のバレンタインで、バレンタインチョコルーレットを作ってみました。 簡単なルーレットですが、思いのほかいろんな人に楽しんでもらえたので紹介します。 手軽にアプリを作りたい方はぜひ参考にしてください〜 ↓ 遊んでみてね💝 https://valentineapp-24328.web.app/#/    目次  使った技術・パッケージ 実...",
+            "date_modified": "2022-02-20T14:22:21.000Z",
+            "date_published": "2022-02-20T14:22:21.000Z",
+            "author": {
+                "name": "minn"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/torifukukaiou/items/d1f2e8e3ec2869566b93?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "春すぎて夏来にけらし白たへのころもほすてふあまの香具山  Advent Calendar 2022 51日目[^1]の記事です。 I'm looking forward to 12/25,2022 私のAdvent Calendar 2022 一…",
+            "url": "https://qiita.com/torifukukaiou/items/d1f2e8e3ec2869566b93?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Livebookの基礎知識 ーー LiveView JP#4：Livebook始めよう＋Fly.ioでモブプロのLT資料 | Qiita - 人気の記事",
+            "summary": "春すぎて夏来にけらし白たへのころもほすてふあまの香具山  Advent Calendar 2022 51日目[^1]の記事です。 I'm looking forward to 12/25,2022 私のAdvent Calendar 2022 一…",
+            "date_modified": "2022-02-20T12:45:00.000Z",
+            "date_published": "2022-02-20T12:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/triacontane/items/a8610bff9778ca2aaa3e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "こんにちは！ NW.jsで動作しているRPGツクールMZですが、ちょっと事情があってエンジンをElectronに移行できないかを調査、検討してみました。 結果、思ったよりも簡単だったので過程と成果物…",
+            "url": "https://qiita.com/triacontane/items/a8610bff9778ca2aaa3e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ElectronでRPGツクールMZを動作、開発、リリースするために必要な知見 | Qiita - 人気の記事",
+            "summary": "こんにちは！ NW.jsで動作しているRPGツクールMZですが、ちょっと事情があってエンジンをElectronに移行できないかを調査、検討してみました。 結果、思ったよりも簡単だったので過程と成果物…",
+            "date_modified": "2022-02-20T12:20:23.000Z",
+            "date_published": "2022-02-20T12:20:23.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/Tlapesium/items/2e365c975d3026df5b18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "おはようございます、Tlapesiumです。  今回の記事では自身が制作した   オンラインで共同編集可能 環境構築無しで即座に実行可能 チャット機能付き   なテキストエディタについて紹介したいと思います。  もしよろしければ、この記事を LGTM …",
+            "url": "https://qiita.com/Tlapesium/items/2e365c975d3026df5b18?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "オンラインでペアプロできるエディタを作った話  | Qiita - 人気の記事",
+            "summary": "おはようございます、Tlapesiumです。  今回の記事では自身が制作した   オンラインで共同編集可能 環境構築無しで即座に実行可能 チャット機能付き   なテキストエディタについて紹介したいと思います。  もしよろしければ、この記事を LGTM …",
+            "date_modified": "2022-02-20T12:11:44.000Z",
+            "date_published": "2022-02-20T12:11:44.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/nw-engineer/items/050285fefe96858cb441?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "前回はtenable.ioを使ったAgent診断を実施してみましたので、今回はWeb Application Scanningを利用してみました。OWASPトップ10のリスクから脆弱なWebアプリの…",
+            "url": "https://qiita.com/nw-engineer/items/050285fefe96858cb441?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "tenable.io Web Application Scanningを使ってみました。 | Qiita - 人気の記事",
+            "summary": "前回はtenable.ioを使ったAgent診断を実施してみましたので、今回はWeb Application Scanningを利用してみました。OWASPトップ10のリスクから脆弱なWebアプリの…",
+            "date_modified": "2022-02-20T11:07:45.000Z",
+            "date_published": "2022-02-20T11:07:45.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/yutaro_matsu/articles/4235c49e83c8b4",
+            "content_html": "はじめに この記事は4部構成で書いている記事の第3弾です。 今回は少し長めの記事になります。  part1 アカウント作成〜B2Cテナント作成 part2 B2Cテナントを触ってログイン画面を作る part3 part2で作った画面（ユーザーフロー）のカスタマイズ ← 今回  part4 GraphAPIを使ってみる  part3である当記事は、B2Cテナントを触ってログイン画面を作るの部分を書いていきます。 part1, part2の記事は以下からご確認ください。 https://zenn.dev/yutaro_matsu/articles/b2bff143c25d1c https...",
+            "url": "https://zenn.dev/yutaro_matsu/articles/4235c49e83c8b4",
+            "title": "Azure初心者がAzure AD B2Cについて整理してみた part3 | Zennのトレンド",
+            "summary": "はじめに この記事は4部構成で書いている記事の第3弾です。 今回は少し長めの記事になります。  part1 アカウント作成〜B2Cテナント作成 part2 B2Cテナントを触ってログイン画面を作る part3 part2で作った画面（ユーザーフロー）のカスタマイズ ← 今回  part4 GraphAPIを使ってみる  part3である当記事は、B2Cテナントを触ってログイン画面を作るの部分を書い...",
+            "date_modified": "2022-02-20T09:58:44.000Z",
+            "date_published": "2022-02-20T09:58:44.000Z",
+            "author": {
+                "name": "yutaro.matsumoto"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/etnk/items/795f52ffcc6001cb0723?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事について  Rust初心者である著者がアプリ作成を通じてRustを勉強した事を共有していく記事です。最終的にはルービックキューブのアプリ作成を目指しています。 前回の投稿「Rust + se…",
+            "url": "https://qiita.com/etnk/items/795f52ffcc6001cb0723?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Rustの参照渡しを使いこなすためにその１ | Qiita - 人気の記事",
+            "summary": "この記事について  Rust初心者である著者がアプリ作成を通じてRustを勉強した事を共有していく記事です。最終的にはルービックキューブのアプリ作成を目指しています。 前回の投稿「Rust + se…",
+            "date_modified": "2022-02-20T09:25:35.000Z",
+            "date_published": "2022-02-20T09:25:35.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/u2dayo/items/c9b7780d21bc81e9a58c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "ABC239のA,B,C,D,E問題を、Python3でなるべく丁寧に解説していきます。  ただ解けるだけの方法ではなく、次の3つのポイントを満たす解法を解説することを目指しています。   シンプル：余計…",
+            "url": "https://qiita.com/u2dayo/items/c9b7780d21bc81e9a58c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "【AtCoder解説】PythonでABC239のA,B,C,D,E問題を制する！ | Qiita - 人気の記事",
+            "summary": "ABC239のA,B,C,D,E問題を、Python3でなるべく丁寧に解説していきます。  ただ解けるだけの方法ではなく、次の3つのポイントを満たす解法を解説することを目指しています。   シンプル：余計…",
+            "date_modified": "2022-02-20T09:08:06.000Z",
+            "date_published": "2022-02-20T09:08:06.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/jw-automation/items/cc7168e0f95fe0738014?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  AIによる自動応答機能付きの名言Botを作ってみました。 設定した時刻での名言の自動配信とお気に入り登録、お気に入りに登録した名言の通知機能もあります。  ■AIによる自動応答  ■名言の自…",
+            "url": "https://qiita.com/jw-automation/items/cc7168e0f95fe0738014?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "AIによる自動応答機能付き「名言Bot」 | Qiita - 人気の記事",
+            "summary": "はじめに  AIによる自動応答機能付きの名言Botを作ってみました。 設定した時刻での名言の自動配信とお気に入り登録、お気に入りに登録した名言の通知機能もあります。  ■AIによる自動応答  ■名言の自…",
+            "date_modified": "2022-02-20T08:05:02.000Z",
+            "date_published": "2022-02-20T08:05:02.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/sano192/items/d7fe37db64d946c07581?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "デンソークリエイトプログラミングコンテスト2022(AtCoder Beginner Contest 239) A～E問題の解説記事です。 灰色～茶色コーダーの方向けに解説しています。  その他のAB…",
+            "url": "https://qiita.com/sano192/items/d7fe37db64d946c07581?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "デンソークリエイトプログラミングコンテスト2022(ABC239) A～E問題 ものすごく丁寧でわかりやすい解説 python 灰色～茶色コーダー向け #AtCoder | Qiita - 人気の記事",
+            "summary": "デンソークリエイトプログラミングコンテスト2022(AtCoder Beginner Contest 239) A～E問題の解説記事です。 灰色～茶色コーダーの方向けに解説しています。  その他のAB…",
+            "date_modified": "2022-02-20T07:38:37.000Z",
+            "date_published": "2022-02-20T07:38:37.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/kakeami/articles/2022-02-madb",
+            "content_html": "文化庁が提供するメディア芸術DBには膨大な量のマンガ・アニメ・メディアアート等の情報が格納されている そこで，約47年分の週刊少年サンデー・ジャンプ・チャンピオン・マガジンのデータを用いて，データビジュアライゼーションの教材を作成した 2022年2月13日に開催された第2回メディア芸術データベース活用コンテストのビジュアルクリエイション部門にて最優秀事例賞を受賞した  ちょまどさんおよび関係者の皆様にたくさん宣伝して頂いた（ありがとうございます！）  https://twitter.com/chomado/status/1492729452895227904   作ったもの   概要 ...",
+            "url": "https://zenn.dev/kakeami/articles/2022-02-madb",
+            "title": "週刊少年誌のデータで教材を作ったら文化庁のコンテストで入賞した | Zennのトレンド",
+            "summary": "文化庁が提供するメディア芸術DBには膨大な量のマンガ・アニメ・メディアアート等の情報が格納されている そこで，約47年分の週刊少年サンデー・ジャンプ・チャンピオン・マガジンのデータを用いて，データビジュアライゼーションの教材を作成した 2022年2月13日に開催された第2回メディア芸術データベース活用コンテストのビジュアルクリエイション部門にて最優秀事例賞を受賞した  ちょまどさんおよび関係者の皆...",
+            "date_modified": "2022-02-20T07:00:50.000Z",
+            "date_published": "2022-02-20T07:00:50.000Z",
+            "author": {
+                "name": "Kakeami"
+            },
+            "tags": []
+        },
+        {
             "id": "https://math-fun.net/?p=22388",
             "content_html": "どうも、木村（@kimu3_slime）です。 今回は、Julia（Graphs）で重みつき最短経路問題を解き、図示する方法を紹介します。 前提知識：Julia（Graphs）で最短経路問題を解き、図示する方法 &nbs ... Julia（Graphs）で重みつき最短経路問題を解き、図示する方法 first appeared on 趣味の大学数学.",
             "url": "https://math-fun.net/20220220/22388/",
@@ -59,6 +248,42 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/RyuNen344/items/272762d0ada00ea49078?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "久々にFlutter使ってUIを書いたのでリハビリがてら  背景サイズの設定  スマホで動画見るときには綺麗に全画面使ってほしいのでSafeAreaなしでドドーンと表示させましょう  class Open…",
+            "url": "https://qiita.com/RyuNen344/items/272762d0ada00ea49078?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "クレヨンしんちゃん(Flutter) | Qiita - 人気の記事",
+            "summary": "久々にFlutter使ってUIを書いたのでリハビリがてら  背景サイズの設定  スマホで動画見るときには綺麗に全画面使ってほしいのでSafeAreaなしでドドーンと表示させましょう  class Open…",
+            "date_modified": "2022-02-20T04:20:44.000Z",
+            "date_published": "2022-02-20T04:20:44.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/kowaremonoid/articles/7e077f9eb4439b",
+            "content_html": "この記事は？ Cloud RunでRustのAPI Serverを動かしてみたメモです。 ServerlessとRustの相性の良さは今更言及するまでもないですよね。 GCPのCloud RunやAWSのLambdaなどのサービスは起動時間とメモリ使用量で従量課金されるので、GCがなく実行性能が高速なRustで実装することでコストを節約することができます。 GCPにServerlessでバックエンドを構築するにあたって、Rustを採用するのは学習コストを除けばやらない理由がないので今回試してみたメモを残しておきます。   Cloud Functions? or Cloud Run? ...",
+            "url": "https://zenn.dev/kowaremonoid/articles/7e077f9eb4439b",
+            "title": "Cloud RunでRustのAPI Serverを動かす | Zennのトレンド",
+            "summary": "この記事は？ Cloud RunでRustのAPI Serverを動かしてみたメモです。 ServerlessとRustの相性の良さは今更言及するまでもないですよね。 GCPのCloud RunやAWSのLambdaなどのサービスは起動時間とメモリ使用量で従量課金されるので、GCがなく実行性能が高速なRustで実装することでコストを節約することができます。 GCPにServerlessでバックエン...",
+            "date_modified": "2022-02-20T04:20:10.000Z",
+            "date_published": "2022-02-20T04:20:10.000Z",
+            "author": {
+                "name": "tktk2o"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/ryo_endo/articles/25c44b03f5298b",
+            "content_html": "職場でGather.townを利用するにあたり、スペースアクセス設定について調べました。 公式ヘルプを読めば設定方法について詳細に書かれているのですが、ユースケース別の設定案や細かい挙動について確認したことを書き残しておきます。 また「スペースのメンバー」や「招待リンク」についても、どうやら入室制限とは無関係そうなことがわかったので補足として末尾に書いてあります。    免責 セキュリティに関わることなので念のため書いておきますが、この記事に書かれている内容に起因して生じる結果に対して一切の責任を負いません。この記事に書いてある内容は、あくまで執筆時点(2020/2/20)で筆者が試して...",
+            "url": "https://zenn.dev/ryo_endo/articles/25c44b03f5298b",
+            "title": "Gather.townのスペースアクセス設定について調べた | Zennのトレンド",
+            "summary": "職場でGather.townを利用するにあたり、スペースアクセス設定について調べました。 公式ヘルプを読めば設定方法について詳細に書かれているのですが、ユースケース別の設定案や細かい挙動について確認したことを書き残しておきます。 また「スペースのメンバー」や「招待リンク」についても、どうやら入室制限とは無関係そうなことがわかったので補足として末尾に書いてあります。    免責 セキュリティに関わる...",
+            "date_modified": "2022-02-20T02:57:55.000Z",
+            "date_published": "2022-02-20T02:57:55.000Z",
+            "author": {
+                "name": "ryo-endo"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/manabuQiita/items/b31cd7b9d85dc4115bac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "背景  AWS-cliを使ってコマンド操作でEC2にあれやこれやする方法を学んでいたときにこんな便利なツールがあったのか！と感動したのでメモ。  やれること  VSCode上でEC2などのリモートサーバ…",
             "url": "https://qiita.com/manabuQiita/items/b31cd7b9d85dc4115bac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -66,6 +291,29 @@
             "summary": "背景  AWS-cliを使ってコマンド操作でEC2にあれやこれやする方法を学んでいたときにこんな便利なツールがあったのか！と感動したのでメモ。  やれること  VSCode上でEC2などのリモートサーバ…",
             "date_modified": "2022-02-20T02:42:25.000Z",
             "date_published": "2022-02-20T02:42:25.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/radian-jp/items/186862f355ac5625a704?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "Vector<T> について  Vector<T> 構造体 (System.Numerics) | Microsoft Docs  Vector<T>を使うと、Releaseビルドで実行した場合、JI…",
+            "url": "https://qiita.com/radian-jp/items/186862f355ac5625a704?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "[C#] Vector<T>で配列の最大値を高速取得 | Qiita - 人気の記事",
+            "summary": "Vector<T> について  Vector<T> 構造体 (System.Numerics) | Microsoft Docs  Vector<T>を使うと、Releaseビルドで実行した場合、JI…",
+            "date_modified": "2022-02-20T02:17:49.000Z",
+            "date_published": "2022-02-20T02:17:49.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/yskuue/articles/1fbd6cd145c6c9",
+            "content_html": "はじめに 今回は、Flutterで人気のRiverpodで使われる、watch, read ,autoDisposeについて、デモアプリの挙動とドキュメントを参照しながら、改めて整理してみる。 僕自身、Riverpodを使い始めて1年以上経つが、正直この辺りは理解が曖昧で、なんとなく使っていた。 今回の記事執筆を通して学べた点もあるので、Riverpodを使い始めたばかりの方や、僕同様、実はなんとなく使っているという方の参考になると嬉しい。   0. 下準備   アプリ作成 今回は、riverpod_sampleという名前でアプリを作る。 $ flutter create river...",
+            "url": "https://zenn.dev/yskuue/articles/1fbd6cd145c6c9",
+            "title": "【Flutter×Riverpod】watch, read ,autoDisposeへの理解を深める | Zennのトレンド",
+            "summary": "はじめに 今回は、Flutterで人気のRiverpodで使われる、watch, read ,autoDisposeについて、デモアプリの挙動とドキュメントを参照しながら、改めて整理してみる。 僕自身、Riverpodを使い始めて1年以上経つが、正直この辺りは理解が曖昧で、なんとなく使っていた。 今回の記事執筆を通して学べた点もあるので、Riverpodを使い始めたばかりの方や、僕同様、実はなんと...",
+            "date_modified": "2022-02-20T01:23:25.000Z",
+            "date_published": "2022-02-20T01:23:25.000Z",
+            "author": {
+                "name": "Yusuke"
+            },
             "tags": []
         },
         {
@@ -148,9 +396,9 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/naoki-haba/items/1271d1e5a4cca48a32bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "id": "https://qiita.com/naoki_haba/items/1271d1e5a4cca48a32bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "概要  試験工程をスプレッドシートで管理していたがそろそろ脱却したいと思ったので色々探してみると、同じことを考えている先駆者がいらっしゃったので参考にさせていただいた。  https://qiita.…",
-            "url": "https://qiita.com/naoki-haba/items/1271d1e5a4cca48a32bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "url": "https://qiita.com/naoki_haba/items/1271d1e5a4cca48a32bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "title": "テスト管理ツール「Qase」でスプシによるテスト管理を脱却した件 | Qiita - 人気の記事",
             "summary": "概要  試験工程をスプレッドシートで管理していたがそろそろ脱却したいと思ったので色々探してみると、同じことを考えている先駆者がいらっしゃったので参考にさせていただいた。  https://qiita.…",
             "date_modified": "2022-02-19T15:34:01.000Z",
@@ -203,32 +451,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/niwaringo/articles/af693596ef948e",
-            "content_html": "Create React App(typescript)をベースにelectronの環境を構築する手順メモ。Windows環境でのみ検証。   Create React App Create React Appを実行する。 npx create-react-app electronapp --template typescript   npm install Create React Appで作ったプロジェクトにelectronに必要なパッケージをインストールしていく。 cd electronapp npm i -D concurrently cross-env electron ele...",
-            "url": "https://zenn.dev/niwaringo/articles/af693596ef948e",
-            "title": "Create React App(typescript)をベースにelectron環境を構築する | Zennのトレンド",
-            "summary": "Create React App(typescript)をベースにelectronの環境を構築する手順メモ。Windows環境でのみ検証。   Create React App Create React Appを実行する。 npx create-react-app electronapp --template typescript   npm install Create React Appで作っ...",
-            "date_modified": "2022-02-19T13:26:09.000Z",
-            "date_published": "2022-02-19T13:26:09.000Z",
-            "author": {
-                "name": "niwaringo"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/koga1020/articles/aa52a00f309d4d",
-            "content_html": "Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく404でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] Processing with SampleWeb.PostController.show/2  Parameters: %{\"id\" => \"1\"}  Pipelines: [:bro...",
-            "url": "https://zenn.dev/koga1020/articles/aa52a00f309d4d",
-            "title": "Ecto.NoResultsError発生時にPhoenixはどのようにして404を返しているのか | Zennのトレンド",
-            "summary": "Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく404でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] P...",
-            "date_modified": "2022-02-19T13:13:40.000Z",
-            "date_published": "2022-02-19T13:13:40.000Z",
-            "author": {
-                "name": "koga1020"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/Nabetani/items/0903d59e88114d4c2637?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "これは何？  cl.exe で遊んでいたらバグっぽい挙動に遭遇したので記す。  ソースコード  わかりやすくするとこんな感じ。  #include <stdio.h>  int main(void){  ty…",
             "url": "https://qiita.com/Nabetani/items/0903d59e88114d4c2637?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -252,45 +474,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/valmet083/articles/15a6c2ab563aaa",
-            "content_html": "はじめに CCSP について日本語の情報が少ないのでそれまでの過程や勉強法についてメモを残す。(2022年2月時点の情報で記載)   About CCSP  CCSP(Certified Cloud Security Professional)は、クラウドサービスを安全に利用するために必要な知識を体系化した資格です。  https://japan.isc2.org/ccsp_about.html 認定を得るためには試験に合格し、更に最低5年間のサイバーセキュリティに関連する業務に携わっている必要がある。CISSP と同じく業務経験を満たしていない場合は、年数を満たすまでアソシエイトと...",
-            "url": "https://zenn.dev/valmet083/articles/15a6c2ab563aaa",
-            "title": "[資格受験]独学でCCSP を受験した話 | Zennのトレンド",
-            "summary": "はじめに CCSP について日本語の情報が少ないのでそれまでの過程や勉強法についてメモを残す。(2022年2月時点の情報で記載)   About CCSP  CCSP(Certified Cloud Security Professional)は、クラウドサービスを安全に利用するために必要な知識を体系化した資格です。  https://japan.isc2.org/ccsp_about.html ...",
-            "date_modified": "2022-02-19T11:10:33.000Z",
-            "date_published": "2022-02-19T11:10:33.000Z",
-            "author": {
-                "name": "valmet083"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/emiksk/articles/7efe2a057caed0",
-            "content_html": "ドメインイベントとは ドメインイベントは DDD に登場するドメインオブジェクトのひとつで，あるドメインで発生する出来事を表現したものです．ドメインの中では，「〜が行われた時」や「もし〜になったら」といったような特定の出来事の発生を契機に別の何かを行うことがあります．この出来事の発生をドメインイベントとして表現し，ドメインイベントが生成されたらそれをパブリッシャが出版 (publish) し，サブスクライバがドメインイベントを購読 (subscribe) して何らかの処理を行います． ドメインイベントの使い道として典型的なのは，結果整合性を用いてある集約が変更されたときに別の集約を非...",
-            "url": "https://zenn.dev/emiksk/articles/7efe2a057caed0",
-            "title": "比較的シンプルなドメインイベントの利用方法 | Zennのトレンド",
-            "summary": "ドメインイベントとは ドメインイベントは DDD に登場するドメインオブジェクトのひとつで，あるドメインで発生する出来事を表現したものです．ドメインの中では，「〜が行われた時」や「もし〜になったら」といったような特定の出来事の発生を契機に別の何かを行うことがあります．この出来事の発生をドメインイベントとして表現し，ドメインイベントが生成されたらそれをパブリッシャが出版 (publish) し，サブ...",
-            "date_modified": "2022-02-19T10:40:42.000Z",
-            "date_published": "2022-02-19T10:40:42.000Z",
-            "author": {
-                "name": "emiksk"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/yukista/articles/0bff3879ed0263",
-            "content_html": "🌞 概要 OpenZeppelinのUpgradeable Contractsに関するドキュメントを読んでいて、Clonesの存在を知りました。ClonesはUpgradable Contractsの仕組みの一部であるProxyの一種で、Implementation Contractの更新機能を省いたProxyだと言えます。（つまり、Implementation Contractの初期化だけできます。） Clonesは、同じContractのインスタンスを多数作成するContractFactoryによって作成されるようなContractを低いガス代で量産するのに便利ですとOpenZe...",
-            "url": "https://zenn.dev/yukista/articles/0bff3879ed0263",
-            "title": "                      💎🎉   OpenZeppelin Clones 解説   🎉💎 | Zennのトレンド",
-            "summary": "🌞 概要 OpenZeppelinのUpgradeable Contractsに関するドキュメントを読んでいて、Clonesの存在を知りました。ClonesはUpgradable Contractsの仕組みの一部であるProxyの一種で、Implementation Contractの更新機能を省いたProxyだと言えます。（つまり、Implementation Contractの初期化だけでき...",
-            "date_modified": "2022-02-19T10:07:09.000Z",
-            "date_published": "2022-02-19T10:07:09.000Z",
-            "author": {
-                "name": "yukista"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/k47/items/83f56bc96a039f50c832?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに    Androidのネイティブ開発をKotlinで担当することになり、備忘録も兼ねて投稿します。 Kotlinの動作確認は下記で行うのが楽です。 https://developer.andr…",
             "url": "https://qiita.com/k47/items/83f56bc96a039f50c832?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -298,16 +481,6 @@
             "summary": "はじめに    Androidのネイティブ開発をKotlinで担当することになり、備忘録も兼ねて投稿します。 Kotlinの動作確認は下記で行うのが楽です。 https://developer.andr…",
             "date_modified": "2022-02-19T09:44:10.000Z",
             "date_published": "2022-02-19T09:44:10.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/torifukukaiou/items/6c25e3e0183f12f90c14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "少にして学べば、即ち壮にして為すことあり。壮にして学べば、即ち老いて衰えず。老いて学べば、即ち死して朽ちず  Advent Calendar 2022 48日目[^1]の記事です。 I'm looki…",
-            "url": "https://qiita.com/torifukukaiou/items/6c25e3e0183f12f90c14?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "androidアプリにて、AdMobで以前はテスト広告を表示できていたはずなのだけれども、なにもしていないのにできなくなったよ〜　=> 解決したよ〜という話 | Qiita - 人気の記事",
-            "summary": "少にして学べば、即ち壮にして為すことあり。壮にして学べば、即ち老いて衰えず。老いて学べば、即ち死して朽ちず  Advent Calendar 2022 48日目[^1]の記事です。 I'm looki…",
-            "date_modified": "2022-02-19T09:38:03.000Z",
-            "date_published": "2022-02-19T09:38:03.000Z",
             "tags": []
         },
         {
@@ -337,6 +510,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/h_yoshikawa0724/articles/2022-02-19-developers-summit-2022",
+            "content_html": "2022/02/17(木)、18(金)で開催されたデブサミ2022に関する、現時点で公開資料とTwitter アカウントリンクをまとめました。 よろしければご活用ください。  この記事は、個人ブログへ投稿した記事の転載です。    はじめに https://event.shoeisha.jp/devsumi/20220217 登壇者名は敬称略させていただいています。 スライドについては、ご本人がツイートで展開されていたり、スライドサービスにアップロードされているものを記載。 Twitter アカウントについては、多くの方はデブサミ公式サイトの紹介ページに記載 or 資料記載がありましたの...",
+            "url": "https://zenn.dev/h_yoshikawa0724/articles/2022-02-19-developers-summit-2022",
+            "title": "Developers Summit 2022 公開資料・Twitterリンクまとめ | Zennのトレンド",
+            "summary": "2022/02/17(木)、18(金)で開催されたデブサミ2022に関する、現時点で公開資料とTwitter アカウントリンクをまとめました。 よろしければご活用ください。  この記事は、個人ブログへ投稿した記事の転載です。    はじめに https://event.shoeisha.jp/devsumi/20220217 登壇者名は敬称略させていただいています。 スライドについては、ご本人がツ...",
+            "date_modified": "2022-02-19T09:08:29.000Z",
+            "date_published": "2022-02-19T09:08:29.000Z",
+            "author": {
+                "name": "よし"
+            },
+            "tags": []
+        },
+        {
             "id": "https://blog.fascode.net/?p=13509",
             "content_html": "わたすけです。ここになんか書こうと思ったんですが、何も思い浮かびませんでした。 ということで、タイトル通り、Scrapboxについて書こうと思います。 そもそもScrapboxとは？ Scrapbox - チームのための […] Scrapboxを使うときに考えたほうが良さそうなこと first appeared on FascodeNetwork Blog.",
             "url": "https://blog.fascode.net/2022/02/19/scrapbox/",
@@ -351,16 +537,6 @@
                 "Webサービス",
                 "カテゴリ済み"
             ]
-        },
-        {
-            "id": "https://qiita.com/yusuke_s_yusuke/items/c0e3ba1cf26e96e6696b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに  Richardson-Lucy deconvolution（以下、RL法）は、画像等を鮮明にする手法である。一般的な撮像観測では、観測装置の回折等により光源が拡がって撮像される。この拡が…",
-            "url": "https://qiita.com/yusuke_s_yusuke/items/c0e3ba1cf26e96e6696b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Richardson-Lucy deconvolutionの特徴をシミュレーションで理解しよう（前編：シミュレーションの実装） | Qiita - 人気の記事",
-            "summary": "はじめに  Richardson-Lucy deconvolution（以下、RL法）は、画像等を鮮明にする手法である。一般的な撮像観測では、観測装置の回折等により光源が拡がって撮像される。この拡が…",
-            "date_modified": "2022-02-19T08:20:05.000Z",
-            "date_published": "2022-02-19T08:20:05.000Z",
-            "tags": []
         },
         {
             "id": "https://zenn.dev/nyancat/articles/20220219-linkedin-skill-test",
@@ -398,6 +574,19 @@
             "date_published": "2022-02-19T05:08:42.000Z",
             "author": {
                 "name": "miruo"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/tell_y/articles/9a2339eb7e83cf",
+            "content_html": "はじめに Reactの状態管理ライブラリであるReduxのコードを、Jotaiに書き換えて紹介している記事はなさそうだったので、簡単なカウンターアプリを題材にします。 Redux公式ドキュメントで紹介されているサンプルコード付きのものがあったのでそれを対象にします。 Redux Essentials, Part 2: Redux App Structure の The Counter Example App https://codesandbox.io/s/github/reduxjs/redux-essentials-counter-example/tree/master/?fro...",
+            "url": "https://zenn.dev/tell_y/articles/9a2339eb7e83cf",
+            "title": "ReduxからJotaiへのマイグレーション体験（超入門） | Zennのトレンド",
+            "summary": "はじめに Reactの状態管理ライブラリであるReduxのコードを、Jotaiに書き換えて紹介している記事はなさそうだったので、簡単なカウンターアプリを題材にします。 Redux公式ドキュメントで紹介されているサンプルコード付きのものがあったのでそれを対象にします。 Redux Essentials, Part 2: Redux App Structure の The Counter Exampl...",
+            "date_modified": "2022-02-19T04:59:07.000Z",
+            "date_published": "2022-02-19T04:59:07.000Z",
+            "author": {
+                "name": "tell_y"
             },
             "tags": []
         },
@@ -454,6 +643,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/polymonyrks/items/a4355e7ebd6627d2a102?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "記事の要約   スマホでもarXivの論文を楽に読めるサービスar5ivが登場した ar5ivへのリンクアクセスを楽にするブラウザ拡張（Chrome拡張等）を作成した   arXivとは    arXivという…",
+            "url": "https://qiita.com/polymonyrks/items/a4355e7ebd6627d2a102?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ar5ivの紹介とブラウザ拡張(arXivの論文をhtml5でスマホで読みやすく) | Qiita - 人気の記事",
+            "summary": "記事の要約   スマホでもarXivの論文を楽に読めるサービスar5ivが登場した ar5ivへのリンクアクセスを楽にするブラウザ拡張（Chrome拡張等）を作成した   arXivとは    arXivという…",
+            "date_modified": "2022-02-19T02:46:46.000Z",
+            "date_published": "2022-02-19T02:46:46.000Z",
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/toga/articles/tex-vs-satysfi",
             "content_html": "全体の構成 タイトルと著者の入れ方，プリアンブルなど． TeX： \\documentclass[uplatex]{jsarticle} % プリアンブル \\title{タイトル} \\author{著者} \\begin{document} \\maketitle 段落1  段落2 \\end{document} SATySFi： @require: stdjareport % プリアンブル document(| title = {タイトル}; author = {著者} |)'<  +p{ 段落1 }  +p{ 段落2 } > このあたりはだいぶ違いますね． TeX...",
             "url": "https://zenn.dev/toga/articles/tex-vs-satysfi",
@@ -474,6 +673,16 @@
             "summary": "不幸にして意気地のない上司についたときは新しいアイデアは上司に黙って、まず、ものをつくれ  Advent Calendar 2022 49日目[^1]の記事です。 I'm looking forwar…",
             "date_modified": "2022-02-19T01:45:47.000Z",
             "date_published": "2022-02-19T01:45:47.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/UT_BackendEngineer/items/eb6a63d02d06ae9a3625?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "LINE Developers Communityのイベントに参加し、GASでLINEBotを作ったところ、 環境面でつまづくことが少なかったことから記事としてまとめてみました。  成果物  LINEB…",
+            "url": "https://qiita.com/UT_BackendEngineer/items/eb6a63d02d06ae9a3625?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "LINEBotを作るのにGASが便利な５つの理由 | Qiita - 人気の記事",
+            "summary": "LINE Developers Communityのイベントに参加し、GASでLINEBotを作ったところ、 環境面でつまづくことが少なかったことから記事としてまとめてみました。  成果物  LINEB…",
+            "date_modified": "2022-02-19T01:30:47.000Z",
+            "date_published": "2022-02-19T01:30:47.000Z",
             "tags": []
         },
         {
@@ -606,10 +815,10 @@
         },
         {
             "id": "https://qiita.com/kaizen_nagoya/items/55ab43e7f50434156ff4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  ソフトウェア開発では４０年ほど前からchatというオンラインの文字だけで打ち合わせをすることがしばしばあった。最近ではSlack…",
+            "content_html": "臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  名古屋の企業(製造業)で、５年ほど前から「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際…",
             "url": "https://qiita.com/kaizen_nagoya/items/55ab43e7f50434156ff4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "title": "「会議時間は30分未満」。小耳にはさんだ話。臨機応変。 | Qiita - 人気の記事",
-            "summary": "臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  ソフトウェア開発では４０年ほど前からchatというオンラインの文字だけで打ち合わせをすることがしばしばあった。最近ではSlack…",
+            "summary": "臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  名古屋の企業(製造業)で、５年ほど前から「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際…",
             "date_modified": "2022-02-18T13:00:07.000Z",
             "date_published": "2022-02-18T13:00:07.000Z",
             "tags": []
@@ -714,16 +923,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/ak1-foo/items/3a3d42ccf59bd2764555?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "どうも。ak1です。 はじめてのqiitaの記事です。 自作キーボードSynx42を設計したことについて、書きたいと思います。     目次   目次 Synx42の特徴   市場最薄スイッチ、kailh x s…",
-            "url": "https://qiita.com/ak1-foo/items/3a3d42ccf59bd2764555?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "薄型完全無線分割自作キーボードSynx42を設計した | Qiita - 人気の記事",
-            "summary": "どうも。ak1です。 はじめてのqiitaの記事です。 自作キーボードSynx42を設計したことについて、書きたいと思います。     目次   目次 Synx42の特徴   市場最薄スイッチ、kailh x s…",
-            "date_modified": "2022-02-18T09:08:48.000Z",
-            "date_published": "2022-02-18T09:08:48.000Z",
-            "tags": []
-        },
-        {
             "id": "https://cloudpack.media/?p=59299",
             "content_html": "こんにちは。アイレットデザイン事業部のマークアップ/フロントエンドエンジニアの工藤です。アイレットデザイン事業部ではINSIDE UI/UXと題して、所属デザイナーとエンジニアがデザイン・SEO・アクセシビリティ・UI/ […]",
             "url": "https://cloudpack.media/59299",
@@ -752,16 +951,6 @@
             "summary": "こんにちは、freeeのアクセシビリティー・ガイドラインおじさんの中根です。 確定申告の時期になりました。freeeで働きながら個人事業も細々とやっているので、毎年この時期は気が重いです。 さて、今回もfreeeアクセシビリティー・ガイドラインの更新情報をお届けします。 freeeアクセシビリティー・ガイドライン Ver. 202202.0リリース・ノート 「マークアップ全般」カテゴリーの見直し ...",
             "date_modified": "2022-02-18T08:40:00.000Z",
             "date_published": "2022-02-18T08:40:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/uhooi/items/f566dbcfec9fdb69e993?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに  アクセシビリティについて、ただ闇雲に対応するだけでは向上しません。 アクセシビリティに関する機能で何ができて、誰がどのように使うか知ることで、初めて適切な対応方針を決められると考えます。  本記事ではアクセシビリティの対応前に知るべきことを紹介します…",
-            "url": "https://qiita.com/uhooi/items/f566dbcfec9fdb69e993?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "モバイルアプリでアクセシビリティ対応をする前に知るべきこと | Qiita - 人気の記事",
-            "summary": "はじめに  アクセシビリティについて、ただ闇雲に対応するだけでは向上しません。 アクセシビリティに関する機能で何ができて、誰がどのように使うか知ることで、初めて適切な対応方針を決められると考えます。  本記事ではアクセシビリティの対応前に知るべきことを紹介します…",
-            "date_modified": "2022-02-18T08:36:25.000Z",
-            "date_published": "2022-02-18T08:36:25.000Z",
             "tags": []
         },
         {
@@ -1416,29 +1605,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/mkpoli/articles/fce02f0f4d45fa",
-            "content_html": "PaletteWorks Editor の開発中、あるバグを修正しようとして、いろいろコード読むわけじゃないですか……それで五回くらい読んでも見逃しちゃったんですよね…… concat() という邪悪なものを  意識してみるとそうでもないけど、意識せずに見ると全然見逃しちゃうんですよね……なんか、filter とか map とか forEach の類に脳が分類しちゃって、気づけなくなってる だからどうせ [...a, ...b] という文法があるし、そっち使ったら全然わかりやすいし、実際開発途中で段々意識せずにそれにリファクターした部分もあります。  リファクターしたものがこうなります...",
-            "url": "https://zenn.dev/mkpoli/articles/fce02f0f4d45fa",
-            "title": "自分で ESLint のルールを作ってみた件 | Zennのトレンド",
-            "summary": "PaletteWorks Editor の開発中、あるバグを修正しようとして、いろいろコード読むわけじゃないですか……それで五回くらい読んでも見逃しちゃったんですよね…… concat() という邪悪なものを  意識してみるとそうでもないけど、意識せずに見ると全然見逃しちゃうんですよね……なんか、filter とか map とか forEach の類に脳が分類しちゃって、気づけなくなってる だから...",
-            "date_modified": "2022-02-17T20:40:57.000Z",
-            "date_published": "2022-02-17T20:40:57.000Z",
-            "author": {
-                "name": "mkpoli"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/yhatt/items/4cd0c21b6bf5cf8af456?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "Respect for  https://qiita.com/noppefoxwolf/items/b4376392d98cea2446dd  キャンバスサイズの設定  最近クレヨンしんちゃんを見ていな…",
-            "url": "https://qiita.com/yhatt/items/4cd0c21b6bf5cf8af456?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "クレヨンしんちゃん (HTML+CSS) | Qiita - 人気の記事",
-            "summary": "Respect for  https://qiita.com/noppefoxwolf/items/b4376392d98cea2446dd  キャンバスサイズの設定  最近クレヨンしんちゃんを見ていな…",
-            "date_modified": "2022-02-17T18:15:11.000Z",
-            "date_published": "2022-02-17T18:15:11.000Z",
-            "tags": []
-        },
-        {
             "id": "http://ai.googleblog.com/2022/02/the-balloon-learning-environment.html",
             "content_html": "Posted by Joshua Greaves, Software Engineer and Pablo Samuel Castro, Staff Software Engineer, Google Research, Brain Team Benchmark challenges have been a driving force in the advancement of machine learning (ML). In particular, difficult benchmark environments for reinforcement learning (RL) have been crucial for the rapid progress of the field by challenging researchers to overcome increasingly difficult tasks. The Arcade Learning Environment, Mujoco, and others have been used to push the enve...",
             "url": "http://ai.googleblog.com/2022/02/the-balloon-learning-environment.html",
@@ -1513,16 +1679,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/SatoshiGachiFujimoto/items/7f43954c7cbbe8c25dbe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに  VRChatがOSC対応とのことでやっていくー  開発環境   Windows10 PC VRChat TouchOSC Python3.9 python-osc protokol-0.4.4…",
-            "url": "https://qiita.com/SatoshiGachiFujimoto/items/7f43954c7cbbe8c25dbe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "VRChatでOSCやーる（Python3.9、Windows10） | Qiita - 人気の記事",
-            "summary": "はじめに  VRChatがOSC対応とのことでやっていくー  開発環境   Windows10 PC VRChat TouchOSC Python3.9 python-osc protokol-0.4.4…",
-            "date_modified": "2022-02-17T15:52:09.000Z",
-            "date_published": "2022-02-17T15:52:09.000Z",
-            "tags": []
-        },
-        {
             "id": "http://pooneil.sakura.ne.jp/archives/permalink/001737.php",
             "content_html": " ロシア土産にクライqurayをもらった。吹口が単純な筒のタイプの笛で、世界中に...",
             "url": "http://pooneil.sakura.ne.jp/archives/permalink/001737.php",
@@ -1530,19 +1686,6 @@
             "summary": " ロシア土産にクライqurayをもらった。吹口が単純な筒のタイプの笛で、世界中に...",
             "date_modified": "2022-02-17T15:40:35.000Z",
             "date_published": "2022-02-17T15:40:35.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/colomney/articles/flutter-policy",
-            "content_html": "Flutter でのアプリ開発におけるポリシーをメモしてみます。 静的解析ではチェックできず、人の目でチェックする必要がある内容を対象としています。   UI 設計   デザインシステム   1 つ以上の要素を囲むウィジェットのサイズは、内部ウィジェットのマージンや親ウィジェット内の相対関係により決定されるようにする 固定値での指定は可能な限り避ける 理由 各端末の画面サイズや、端末の文字サイズ設定、データ長によるレイアウト崩れを避けるため コードサンプル BAD return Scaffold(  appBar: AppBar(),  body: const SizedBox(  ...",
-            "url": "https://zenn.dev/colomney/articles/flutter-policy",
-            "title": "私のFlutterのアプリ開発ポリシー | Zennのトレンド",
-            "summary": "Flutter でのアプリ開発におけるポリシーをメモしてみます。 静的解析ではチェックできず、人の目でチェックする必要がある内容を対象としています。   UI 設計   デザインシステム   1 つ以上の要素を囲むウィジェットのサイズは、内部ウィジェットのマージンや親ウィジェット内の相対関係により決定されるようにする 固定値での指定は可能な限り避ける 理由 各端末の画面サイズや、端末の文字サイズ設...",
-            "date_modified": "2022-02-17T15:24:40.000Z",
-            "date_published": "2022-02-17T15:24:40.000Z",
-            "author": {
-                "name": "ころむにー"
-            },
             "tags": []
         },
         {
@@ -1563,26 +1706,6 @@
             "summary": "Amazon’s George Karypis will give a keynote address on graph neural networks, a field in which “there is some fundamental theoretical stuff that we still need to understand.”",
             "date_modified": "2022-02-17T14:54:21.000Z",
             "date_published": "2022-02-17T14:54:21.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/yuno_miyako/items/3fdd426d6064ce729c1f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "年利30%    大学生の頃に、寝食を忘れて機械学習による株の自動売買システムを作ったことがありました。 上記の画像は、実際にそのシステムを稼働させて実際にあげた利益になっています(記録にないだけでもう…",
-            "url": "https://qiita.com/yuno_miyako/items/3fdd426d6064ce729c1f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "個人開発しくじり先生 技術的負債でシステムが死んだ話 | Qiita - 人気の記事",
-            "summary": "年利30%    大学生の頃に、寝食を忘れて機械学習による株の自動売買システムを作ったことがありました。 上記の画像は、実際にそのシステムを稼働させて実際にあげた利益になっています(記録にないだけでもう…",
-            "date_modified": "2022-02-17T14:44:22.000Z",
-            "date_published": "2022-02-17T14:44:22.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/kaizen_nagoya/items/c8e2af61f344761c41be?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "凡人(ordinary people)が生き残るには、凡人村(ordinary people village)を作るのではなく、凡人網(ordinary person network)を作るのだと思…",
-            "url": "https://qiita.com/kaizen_nagoya/items/c8e2af61f344761c41be?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "凡人網(ordinary person network: Bonjin mou)をつくる | Qiita - 人気の記事",
-            "summary": "凡人(ordinary people)が生き残るには、凡人村(ordinary people village)を作るのではなく、凡人網(ordinary person network)を作るのだと思…",
-            "date_modified": "2022-02-17T14:33:35.000Z",
-            "date_published": "2022-02-17T14:33:35.000Z",
             "tags": []
         },
         {
@@ -1611,19 +1734,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/takepepe/articles/reusable-story-playfn",
-            "content_html": "Storybook CSF は「再利用」を目的として策定されているよ、という文献をよく見ると思います。スプレッド構文で設定を継承するのはすぐ理解できることですが、CSF にはスプレッド構文以外にも有益な「再利用」の可能性が含まれています。これは、テスト拡充と深く関わる話です。   Jest + Testing Library 最大の欠点は「盲目」なこと Jest + Testing Library でテストを書いているとき、期待通りの UI 状態を再現できず、時間を溶かした経験はないでしょうか？これは、実際にブラウザで UI を確認しながら書くテスト（Cypress など）との大きな差で...",
-            "url": "https://zenn.dev/takepepe/articles/reusable-story-playfn",
-            "title": "Storybook CSF の再利用・テスト拡充 | Zennのトレンド",
-            "summary": "Storybook CSF は「再利用」を目的として策定されているよ、という文献をよく見ると思います。スプレッド構文で設定を継承するのはすぐ理解できることですが、CSF にはスプレッド構文以外にも有益な「再利用」の可能性が含まれています。これは、テスト拡充と深く関わる話です。   Jest + Testing Library 最大の欠点は「盲目」なこと Jest + Testing Library...",
-            "date_modified": "2022-02-17T13:21:34.000Z",
-            "date_published": "2022-02-17T13:21:34.000Z",
-            "author": {
-                "name": "Takepepe"
-            },
-            "tags": []
-        },
-        {
             "id": "https://techblog.gaudiy.com/entry/2022/02/17/215331",
             "content_html": "こんにちは。エンタメ領域のDXを推進するブロックチェーンスタートアップ、Gaudiyでエンジニアをしている高島（@takashima_katsu）です。 Gaudiyでは現在、BFFレイヤとしてGraphQLサーバを利用しています。導入してから1年以上が経ちますが、スキーマ駆動開発はDXの向上につながっていると実感しています。（以下のブログが詳しいです。） techblog.gaudiy.com 今回は、GraphQLの利点を活かしたエラーハンドリングの方法について、Gaudiyでの実践をもとに書いてみたいと思います。エラーハンドリングの実装について課題感のある人や、現在GraphQL Err…",
             "url": "https://techblog.gaudiy.com/entry/2022/02/17/215331",
@@ -1631,16 +1741,6 @@
             "summary": "こんにちは。エンタメ領域のDXを推進するブロックチェーンスタートアップ、Gaudiyでエンジニアをしている高島（@takashima_katsu）です。 Gaudiyでは現在、BFFレイヤとしてGraphQLサーバを利用しています。導入してから1年以上が経ちますが、スキーマ駆動開発はDXの向上につながっていると実感しています。（以下のブログが詳しいです。） techblog.gaudiy.com ...",
             "date_modified": "2022-02-17T12:53:31.000Z",
             "date_published": "2022-02-17T12:53:31.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/tak001/items/425c5f8ec5a2c7d0143d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "初めに  第Ⅲ部では「設計の原則」SOLIDについて勉強メモ/備忘録です。  前回  https://qiita.com/tak001/items/0e0c7d7c641e7fd6e60d  https:…",
-            "url": "https://qiita.com/tak001/items/425c5f8ec5a2c7d0143d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Clean Architecture 第Ⅲ部 設計の原則 | Qiita - 人気の記事",
-            "summary": "初めに  第Ⅲ部では「設計の原則」SOLIDについて勉強メモ/備忘録です。  前回  https://qiita.com/tak001/items/0e0c7d7c641e7fd6e60d  https:…",
-            "date_modified": "2022-02-17T12:09:10.000Z",
-            "date_published": "2022-02-17T12:09:10.000Z",
             "tags": []
         },
         {
@@ -1664,16 +1764,6 @@
             "author": {
                 "name": "hkiridera"
             },
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/tak001/items/e4415385e955b7ac261c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "成瀬允宣さんの「ドメイン駆動設計入門」勉強メモ/備忘録です。  概要  DDDのコンセプト   ビジネスの問題を解決するためにビジネスの理解を進め、ビジネスを表現する。 ビジネスとコードを紐付けて継続的かつ…",
-            "url": "https://qiita.com/tak001/items/e4415385e955b7ac261c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【DDD/勉強メモ/備忘録】ドメイン駆動設計入門 | Qiita - 人気の記事",
-            "summary": "成瀬允宣さんの「ドメイン駆動設計入門」勉強メモ/備忘録です。  概要  DDDのコンセプト   ビジネスの問題を解決するためにビジネスの理解を進め、ビジネスを表現する。 ビジネスとコードを紐付けて継続的かつ…",
-            "date_modified": "2022-02-17T11:03:46.000Z",
-            "date_published": "2022-02-17T11:03:46.000Z",
             "tags": []
         },
         {
@@ -1741,16 +1831,6 @@
             "author": {
                 "name": "@ai_scholar"
             },
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/cohey0727/items/601b9c4989f85afd359a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "Qiankunで実現するマイクロフロントエンドなアプリケーション  はじめに  最近マイクロサービスという言葉も一般的になってきたように感じます。 モノリシックに対するマイクロサービスですが、これはも…",
-            "url": "https://qiita.com/cohey0727/items/601b9c4989f85afd359a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Qiankunで実現するマイクロフロントエンドなアプリケーション | Qiita - 人気の記事",
-            "summary": "Qiankunで実現するマイクロフロントエンドなアプリケーション  はじめに  最近マイクロサービスという言葉も一般的になってきたように感じます。 モノリシックに対するマイクロサービスですが、これはも…",
-            "date_modified": "2022-02-17T08:34:38.000Z",
-            "date_published": "2022-02-17T08:34:38.000Z",
             "tags": []
         },
         {
@@ -2045,16 +2125,6 @@
             "summary": "はじめに Sansan Builders Blogをご覧いただいている皆様、はじめまして。 UXリサーチャーの倉内です。年末から『呪術廻戦』にハマり、映画を観に行くべきか考え中です。Sansanには2019年に入社し、マーケティング部でコンテンツ作成や市場調査を担当していたところ、現メンバーに声をかけてもらったことを機に、2021年2月からUXリサーチセンターの立ち上げ準備と共にジョインしました。...",
             "date_modified": "2022-02-17T02:00:00.000Z",
             "date_published": "2022-02-17T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/EGJ-Syuya_Mukai/items/962efbdc1685d15e07dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "最近は、メタバースのブームもあり、Unreal Engineを使ったメタバース関連のコンテンツや、ウェブコンフィギュレーターなどのウェブコンテンツの相談が増えています。 ※ここでいう「ウェブコンテンツ」は、専用のアプリのインストールなしに、ウェブブラウザで体験できるコンテンツを指します…",
-            "url": "https://qiita.com/EGJ-Syuya_Mukai/items/962efbdc1685d15e07dd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Unreal Engine を用いたウェブコンテンツ制作 | Qiita - 人気の記事",
-            "summary": "最近は、メタバースのブームもあり、Unreal Engineを使ったメタバース関連のコンテンツや、ウェブコンフィギュレーターなどのウェブコンテンツの相談が増えています。 ※ここでいう「ウェブコンテンツ」は、専用のアプリのインストールなしに、ウェブブラウザで体験できるコンテンツを指します…",
-            "date_modified": "2022-02-17T01:54:52.000Z",
-            "date_published": "2022-02-17T01:54:52.000Z",
             "tags": []
         },
         {
@@ -2415,15 +2485,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/digest/1388832.html",
-            "content_html": "",
-            "url": "https://forest.watch.impress.co.jp/docs/digest/1388832.html",
-            "title": "統合開発環境のプレビュー版「Visual Studio 2022」v17.2 Preview 1が公開　ほか【ダイジェストニュース】 | 窓の杜",
-            "date_modified": "2022-02-16T09:04:05.000Z",
-            "date_published": "2022-02-16T09:04:05.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.fascode.net/?p=13386",
             "content_html": "皆さんこんにちは、FascodeNetworkのブログスケジュール管理などを行っているなおこです。 皆さんスマホ使ってますか？このブログを見ているということはスマホを持っていることでしょう。 そんなスマホでChromeの […] AndroidスマホでChrome拡張機能を動作させる方法KiwiBrowser first appeared on FascodeNetwork Blog.",
             "url": "https://blog.fascode.net/2022/02/16/android/",
@@ -2463,16 +2524,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1388850.html",
-            "content_html": "米Microsoftは2月10日（現地時間）、公式ブログ「Visual Studio Blog」で、古いバージョンの「Visual Studio」サポート終了に注意を促す記事を公開した。後継製品への移行やサポート対象のバージョンへの更新が必要となる場合があるので注意したい。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1388850.html",
-            "title": "「Visual Studio 2012」の製品寿命はあと1年 ～その他のバージョンもサポート切れに注意／後継製品への移行やサポート対象のバージョンへの更新が必要となる場合も | 窓の杜",
-            "summary": "米Microsoftは2月10日（現地時間）、公式ブログ「Visual Studio Blog」で、古いバージョンの「Visual Studio」サポート終了に注意を促す記事を公開した。後継製品への移行やサポート対象のバージョンへの更新が必要となる場合があるので注意したい。",
-            "date_modified": "2022-02-16T07:49:40.000Z",
-            "date_published": "2022-02-16T07:49:40.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.connehito.com/entry/2022/02/16/163119",
             "content_html": "こんにちは！ フロントエンドエンジニアの もりや です。 今回はママリのアプリ内で使われている WebView の Webpack を v4 から v5 にアップデートしたので、その事例を紹介します。 Webpack5 は2020年10月にリリースされたので、特に目新しい情報はありませんが、１つの事例として読んでいただければ幸いです。 はじめに 今回のアップデートは、以下２つの公式ドキュメントを参考に進めました。 To v5 from v4 | webpack Webpack 公式の v4 から v5 へのマイグレーションガイド Webpack 5 release (2020-10-10) |…",
             "url": "https://tech.connehito.com/entry/2022/02/16/163119",
@@ -2497,16 +2548,6 @@
                 "product-management",
                 "mobile-app-development"
             ]
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1388811.html",
-            "content_html": "オープンソースのメールソフト「Thunderbird」の最新版v91.6.1が、2月15日（米国時間）に正式公開された。不具合とセキュリティの修正が中心のメンテナンスアップデートとなっている。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1388811.html",
-            "title": "無料の定番メーラー「Thunderbird 91.6.1」が公開 ～深刻度「High」の脆弱性1件を修正／メッセージの処理時に境界外へ書き込みできてしまう可能性 | 窓の杜",
-            "summary": "オープンソースのメールソフト「Thunderbird」の最新版v91.6.1が、2月15日（米国時間）に正式公開された。不具合とセキュリティの修正が中心のメンテナンスアップデートとなっている。",
-            "date_modified": "2022-02-16T06:47:16.000Z",
-            "date_published": "2022-02-16T06:47:16.000Z",
-            "tags": []
         },
         {
             "id": "https://tech-blog.rakus.co.jp/entry/20220216/techcon",
@@ -3217,10 +3258,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9915",
-            "content_html": "2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  Go Conference 2021 Autumn にブロンズプランで協賛します  オーマイグラスさんとマネーフォワードの交流会  20分でできるLIFFアプリ(LINE bot)  京都開発拠点におけるインターン生の活躍   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.",
+            "content_html": "2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  Railsのプロファイラを導入して速度改善をしてみた  マネーフォワードからGopherConに参加しました！  大量データで性能テストをする際に考えた事 ~ 将来のユーザーを見据えたテスト方針 ~  とあるエンジニアのマネフォ的 1日の過ごし方   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/",
             "title": "入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ | Engineers' Blog",
-            "summary": "2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
+            "summary": "2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
             "date_modified": "2022-02-15T03:00:47.000Z",
             "date_published": "2022-02-15T03:00:47.000Z",
             "author": {
@@ -4556,10 +4597,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=9906",
-            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 10分コーディング！ Rubyでつくる Slack時報  京都開発拠点におけるインターン生の活躍  エンジニアブログ、始めました  Rubocop でカスタムルールを作る  お知らせ: SIerからベンチャーへのエンジニア転職〜キャリアチェンジになにを求めたか？〜 を開催します   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
+            "content_html": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュリティイベント・活動のご紹介  RailsConf 2018に参加してきました  Datadogを使った分散トレーシングをクラウド会計で見えるようにした話  【レポート】MF Geeks Night (2015年11月)  MoneyForward Meetupレポート「ワークOSSバランス」   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/",
             "title": "How to start SRE in a small team, all by yourself. | Engineers' Blog",
-            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 10分...",
+            "summary": "「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュ...",
             "date_modified": "2022-02-10T08:00:09.000Z",
             "date_published": "2022-02-10T08:00:09.000Z",
             "author": {
@@ -6295,98 +6336,6 @@
             "summary": "こんにちは！ 虎の穴ラボのS.Sです。 サービスを通じてより良いユーザー体験を提供するためにUX（User eXperience）が重要視されています。 今回は、UXを向上するために必要なUXリサーチに関する本を購読しましたので、ご紹介いたします。",
             "date_modified": "2022-02-07T01:00:00.000Z",
             "date_published": "2022-02-07T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://aimstogeek.hatenablog.com/entry/2022/02/07/080000",
-            "content_html": "こんにちは！ クイックに転職して早１年半が経ちました。ソフトウェアエンジニアのたろーです！ 私がクイックに入社した2020年の6月は第１回目の緊急事態宣言直後。 我らがWeb室はリモートワークでの勤務体制となっていました。 もともと前職で請負開発や常駐エンジニアとして多くの企業様の文化風土に触れ、様々な開発体制の中でお仕事させていただく機会は多かったので環境の変化には慣れているつもりでしたが、 それでも初めての転職でいきなりリモートワーク、正直色々と不安でした。 しかし！Web室やプロジェクトで行っている取り組みや制度に助けられ、そんな不安はすぐに払拭されました。 ここでリモートワーク真っ盛り…",
-            "url": "https://aimstogeek.hatenablog.com/entry/2022/02/07/080000",
-            "title": "リモートワーク期間に転職して助かったこと＆ちょっと困ったので改善したこと | 株式会社クイックのWebサービス開発blog",
-            "summary": "こんにちは！ クイックに転職して早１年半が経ちました。ソフトウェアエンジニアのたろーです！ 私がクイックに入社した2020年の6月は第１回目の緊急事態宣言直後。 我らがWeb室はリモートワークでの勤務体制となっていました。 もともと前職で請負開発や常駐エンジニアとして多くの企業様の文化風土に触れ、様々な開発体制の中でお仕事させていただく機会は多かったので環境の変化には慣れているつもりでしたが、 そ...",
-            "date_modified": "2022-02-06T23:00:00.000Z",
-            "date_published": "2022-02-06T23:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.isid.co.jp/entry/2022/02/07/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%8E%A8%E5%A5%A8%E4%BA%8B%E9%A0%85",
-            "content_html": "こんにちは。XI本部クラウドイノベーションセンターの柴田です。 最近ではアプリケーションを実行する手段としてコンテナ技術が広く用いられています。 しかし、本番環境で稼働できる品質のコンテナイメージを作る際、初学者がコンテナ設計の段階で見落としがちなポイントがいくつかあります。 そこで今回はコンテナイメージを設計する際の推奨事項をいくつかご紹介したいと思います。 コンテナとは コンテナイメージを設計する際の推奨事項 The Twelve-Factor Appに従ってアプリケーションを実装する プロセス：アプリケーションを1つもしくは複数のステートレスなプロセスとして実行する 廃棄容易性：高速な起…",
-            "url": "https://tech.isid.co.jp/entry/2022/02/07/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92%E8%A8%AD%E8%A8%88%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E6%8E%A8%E5%A5%A8%E4%BA%8B%E9%A0%85",
-            "title": "コンテナイメージを設計する際の推奨事項 | 電通国際情報サービス TechBlog",
-            "summary": "こんにちは。XI本部クラウドイノベーションセンターの柴田です。 最近ではアプリケーションを実行する手段としてコンテナ技術が広く用いられています。 しかし、本番環境で稼働できる品質のコンテナイメージを作る際、初学者がコンテナ設計の段階で見落としがちなポイントがいくつかあります。 そこで今回はコンテナイメージを設計する際の推奨事項をいくつかご紹介したいと思います。 コンテナとは コンテナイメージを設計...",
-            "date_modified": "2022-02-06T23:00:00.000Z",
-            "date_published": "2022-02-06T23:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://hackernoon.com/is-the-programming-market-oversaturated?source=rss",
-            "content_html": "",
-            "url": "https://hackernoon.com/is-the-programming-market-oversaturated?source=rss",
-            "title": "Is the Programming Market Oversaturated? | Hacker Noon - machine-learning",
-            "date_modified": "2022-02-06T21:52:12.000Z",
-            "date_published": "2022-02-06T21:52:12.000Z",
-            "author": {
-                "name": "Aleksandr Zakharov"
-            },
-            "tags": [
-                "programming",
-                "future-of-work",
-                "low-code",
-                "no-code",
-                "ai",
-                "future-of-ai",
-                "machine-learning",
-                "web3"
-            ]
-        },
-        {
-            "id": "https://www.youtube.com/watch?v=WAuaCBmHa3U",
-            "content_html": "",
-            "url": "https://www.youtube.com/watch?v=WAuaCBmHa3U",
-            "title": "Can A Goldfish Drive a Car? Yes! But How? 🐠 | Two Minute Papers",
-            "date_modified": "2022-02-06T15:36:44.000Z",
-            "date_published": "2022-02-06T15:36:44.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://future-architect.github.io/articles/20220207a/",
-            "content_html": "<img src=\"/images/20220207a/スクリーンショット_2022-02-03_0.14.44.png\" alt=\"サービスイメージ\" width=\"1200\" height=\"678\"",
-            "url": "https://future-architect.github.io/articles/20220207a/",
-            "title": "オンライン勉強会の発表順を決めるサービスを作ってみた | フューチャー技術ブログ",
-            "summary": "<img src=\"/images/20220207a/スクリーンショット_2022-02-03_0.14.44.png\" alt=\"サービスイメージ\" width=\"1200\" height=\"678\"",
-            "date_modified": "2022-02-06T15:00:00.000Z",
-            "date_published": "2022-02-06T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.youtube.com/watch?v=ZNbPSApo51g",
-            "content_html": "",
-            "url": "https://www.youtube.com/watch?v=ZNbPSApo51g",
-            "title": "【LIVE】強化学習で将棋を指したい！【part15. Docker tutorial 3】 #VRアカデミア | AIcia Solid Project",
-            "date_modified": "2022-02-06T14:40:05.000Z",
-            "date_published": "2022-02-06T14:40:05.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/dokokade/articles/7235d32bd92f01",
-            "content_html": "いろんなところからRSSフィードを取りまくっていたら、毎度取得しにいって、他サイト多サイト多彩にアクセスしにいって、表示は遅いわ他者に迷惑かけるわで失礼極まりないWebサイツの出来上がりです。このまま生き恥晒していていかがなものか。そう自問自答する日々でした。   cacheを使おう そうです。大抵どの言語でもキャッシュとあわせて検索すればきっと便利なパッケージが僕らを待っている。で、ググってみました「go gin cache」と。すると、たぶん1個か2個しかない。go langの勢いが弱いのか、ginが弱いのか。もしくはこのパッケージが神がかっているのか。 https://github...",
-            "url": "https://zenn.dev/dokokade/articles/7235d32bd92f01",
-            "title": "go/ginでキャッシュするテスツ | Dokokadeさんのフィード",
-            "summary": "いろんなところからRSSフィードを取りまくっていたら、毎度取得しにいって、他サイト多サイト多彩にアクセスしにいって、表示は遅いわ他者に迷惑かけるわで失礼極まりないWebサイツの出来上がりです。このまま生き恥晒していていかがなものか。そう自問自答する日々でした。   cacheを使おう そうです。大抵どの言語でもキャッシュとあわせて検索すればきっと便利なパッケージが僕らを待っている。で、ググってみま...",
-            "date_modified": "2022-02-06T13:35:13.000Z",
-            "date_published": "2022-02-06T13:35:13.000Z",
-            "author": {
-                "name": "Dokokade"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://rheb.hatenablog.com/entry/2022/02/06/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E5%B0%8E%E5%85%A5%E3%81%AE%E6%88%90%E5%8A%9F%E8%A6%81%E5%9B%A0%E3%81%AF%E8%87%AA%E5%B7%B1%E5%AE%8C%E7%B5%90%E5%9E%8B%E3%81%AE%E9%81%8B%E7%94%A8%E4%BD%93%E5%88%B6",
-            "content_html": "OpenShift Commons Gathering Japan 2021のキーノートを振り返りながら、コンテナ導入の成功要因に迫ります！",
-            "url": "https://rheb.hatenablog.com/entry/2022/02/06/%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E5%B0%8E%E5%85%A5%E3%81%AE%E6%88%90%E5%8A%9F%E8%A6%81%E5%9B%A0%E3%81%AF%E8%87%AA%E5%B7%B1%E5%AE%8C%E7%B5%90%E5%9E%8B%E3%81%AE%E9%81%8B%E7%94%A8%E4%BD%93%E5%88%B6",
-            "title": "コンテナ導入の成功要因は自己完結型の運用体制 | 赤帽エンジニアブログ",
-            "summary": "OpenShift Commons Gathering Japan 2021のキーノートを振り返りながら、コンテナ導入の成功要因に迫ります！",
-            "date_modified": "2022-02-06T12:00:00.000Z",
-            "date_published": "2022-02-06T12:00:00.000Z",
             "tags": []
         }
     ]
