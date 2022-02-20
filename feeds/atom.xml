@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-02-19T23:27:40.445Z</updated>
+    <updated>2022-02-20T03:29:06.338Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -52,8 +52,8 @@
         <id>https://hayashiyus.jp/?p=2066</id>
         <link href="https://hayashiyus.jp/?p=2066"/>
         <updated>2022-02-19T13:54:29.000Z</updated>
-        <summary type="html"><![CDATA[１−１. ニューラルネットの対称性 ＜＜＜構成中＞＞＞ (1) (2) (3) 古典論的運動方程式と量子論的運動方程式 (4)]]></summary>
-        <content type="html"><![CDATA[１−１. ニューラルネットの対称性 ＜＜＜構成中＞＞＞ (1) (2) (3) 古典論的運動方程式と量子論的運動方程式 (4)]]></content>
+        <summary type="html"><![CDATA[１−１. ニューラルネットの対称性 ＜＜＜構成中＞＞＞ (1) (2) (3) 古典論的運動方程式と量子論的運動方程式 (4) Wetterich方程式 (5) […]]]></summary>
+        <content type="html"><![CDATA[１−１. ニューラルネットの対称性 ＜＜＜構成中＞＞＞ (1) (2) (3) 古典論的運動方程式と量子論的運動方程式 (4) Wetterich方程式 (5) […]]]></content>
         <author>
             <name>Yusuke Hayashi</name>
         </author>
@@ -61,12 +61,12 @@
         <published>2022-02-19T13:54:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ecto.NoResultsError発生時にPhoenixはどのようにして422を返しているのか | Zennのトレンド]]></title>
+        <title type="html"><![CDATA[Ecto.NoResultsError発生時にPhoenixはどのようにして404を返しているのか | Zennのトレンド]]></title>
         <id>https://zenn.dev/koga1020/articles/aa52a00f309d4d</id>
         <link href="https://zenn.dev/koga1020/articles/aa52a00f309d4d"/>
         <updated>2022-02-19T13:13:40.000Z</updated>
-        <summary type="html"><![CDATA[Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく422でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] P...]]></summary>
-        <content type="html"><![CDATA[Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく422でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] Processing with SampleWeb.PostController.show/2  Parameters: %{"id" => "1"}  Pipelines: [:bro...]]></content>
+        <summary type="html"><![CDATA[Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく404でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] P...]]></summary>
+        <content type="html"><![CDATA[Phoenixで Repo.get!/2 で存在しないidを指定した場合など Ecto.NoResultsError がraiseされた場合に、Phoenixでは500ではなく404でレスポンスが返ってきます。  devtoolやPhoenixのログを見ても、404エラー(Not Found)としてレスポンスを返していることが分かります。 [info] GET /posts/1 [debug] Processing with SampleWeb.PostController.show/2  Parameters: %{"id" => "1"}  Pipelines: [:bro...]]></content>
         <author>
             <name>koga1020</name>
         </author>
@@ -160,6 +160,18 @@
             <name>nyancat</name>
         </author>
         <published>2022-02-19T06:43:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ansible - ネットワークの自動化 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/y_mrok/books/ansible-networrk-no-jidoka</id>
+        <link href="https://zenn.dev/y_mrok/books/ansible-networrk-no-jidoka"/>
+        <updated>2022-02-19T06:19:52.000Z</updated>
+        <summary type="html"><![CDATA[本書は Ansible for Network Automation の内容を自分なりに解釈したことをまとめたものです。「学習は手を動かしてなんぼ」だと思っているので、インベントリーや、ほとんどのインベントリーやプレイは copy & paste で試していただけるよう省略なしで記載しました。 実際にプレイブックを動作させるにあたり、事前に機器にいくつかの IOS コマンドを投入し構成する必要があ...]]></summary>
+        <content type="html"><![CDATA[本書は Ansible for Network Automation の内容を自分なりに解釈したことをまとめたものです。「学習は手を動かしてなんぼ」だと思っているので、インベントリーや、ほとんどのインベントリーやプレイは copy & paste で試していただけるよう省略なしで記載しました。 実際にプレイブックを動作させるにあたり、事前に機器にいくつかの IOS コマンドを投入し構成する必要があります。そのためのコマンドも併せて記載しました。 動作環境に GNS3 を使用しているので、お手軽に試していただけるのではと思います。  Ansible の基本的なことは以前に書いた「Ansible の使い方」に目を通していただければ幸いです。  なお、Ansible についてはまだまだ学習中であるため、本書の内容は加筆・変更する可能性がございます。  Ansible for Network Automation  https://docs.ansible.com/ansible/latest/network/index.html Ansible の使い方  https://zenn.dev/...]]></content>
+        <author>
+            <name>y_mrok</name>
+        </author>
+        <published>2022-02-19T06:19:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Next.js 12でJestの設定がかなり楽になった | Zennのトレンド]]></title>
@@ -424,12 +436,12 @@
         <published>2022-02-18T13:00:08.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「会議時間は30分未満」。小耳にはさんだ話。 | Qiita - 人気の記事]]></title>
+        <title type="html"><![CDATA[「会議時間は30分未満」。小耳にはさんだ話。臨機応変 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/kaizen_nagoya/items/55ab43e7f50434156ff4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/kaizen_nagoya/items/55ab43e7f50434156ff4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2022-02-18T13:00:07.000Z</updated>
-        <summary type="html"><![CDATA[いくつかの組織で打ち合わせをさせていただくことがあった。  「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際に30 分未満で終わった時に、秘訣をお聞きした。  自…]]></summary>
-        <content type="html"><![CDATA[いくつかの組織で打ち合わせをさせていただくことがあった。  「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際に30 分未満で終わった時に、秘訣をお聞きした。  自…]]></content>
+        <summary type="html"><![CDATA[臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際に30 分未満で終わった時に、秘訣をお聞…]]></summary>
+        <content type="html"><![CDATA[臨機応変  いくつかの組織で打ち合わせをさせていただくことがあった。  「会議時間は30分未満」という張り紙を見かけることが何度かあった。  それらの組織で、実際に30 分未満で終わった時に、秘訣をお聞…]]></content>
         <published>2022-02-18T13:00:07.000Z</published>
     </entry>
     <entry>
@@ -1787,18 +1799,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
         <published>2022-02-17T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[機械学習の推論WebAPIの実装をテンプレート化して使い回せるようした | Zennのトレンド]]></title>
-        <id>https://zenn.dev/yag_ays/articles/eef1a8c8e1ee39</id>
-        <link href="https://zenn.dev/yag_ays/articles/eef1a8c8e1ee39"/>
-        <updated>2022-02-17T01:56:54.000Z</updated>
-        <summary type="html"><![CDATA[概要 機械学習を利用したウェブサービスを開発していると、WebAPIとして外部から利用できる形で機械学習の推論を実行可能にしたいということがよくあると思います。私も幾度となくそうした実装をする中で使いまわし定番のコードを用意しているので、知識の棚卸しや改めて新しい技術を学ぶという意味でも、久しぶりに構造や技術スタックを刷新したものを今回作成しました。 そこで本記事は、テンプレート化した機械学習のW...]]></summary>
-        <content type="html"><![CDATA[概要 機械学習を利用したウェブサービスを開発していると、WebAPIとして外部から利用できる形で機械学習の推論を実行可能にしたいということがよくあると思います。私も幾度となくそうした実装をする中で使いまわし定番のコードを用意しているので、知識の棚卸しや改めて新しい技術を学ぶという意味でも、久しぶりに構造や技術スタックを刷新したものを今回作成しました。 そこで本記事は、テンプレート化した機械学習のWebAPI実装の構成と、そこから実際に機械学習の推論を行うWebAPIを作る過程を書いてみようと思います。   テンプレートプロジェクト 今回作ったテンプレートプロジェクトはyagays/f...]]></content>
-        <author>
-            <name>yag_ays</name>
-        </author>
-        <published>2022-02-17T01:56:54.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Unreal Engine を用いたウェブコンテンツ制作 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/EGJ-Syuya_Mukai/items/962efbdc1685d15e07dd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/EGJ-Syuya_Mukai/items/962efbdc1685d15e07dd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -2448,15 +2448,6 @@ https://ai-scholar.tech/articles/error-detection/FMUAD | AI技術最新情報メ
         <published>2022-02-16T00:13:43.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Accelerating fusion science through learned plasma control | Latest Post]]></title>
-        <id>https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control</id>
-        <link href="https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control"/>
-        <updated>2022-02-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></summary>
-        <content type="html"><![CDATA[Successfully controlling the nuclear fusion plasma in a tokamak with deep reinforcement learning.]]></content>
-        <published>2022-02-16T00:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[生成系 (群論) | 大学数学の授業ノート]]></title>
         <id>https://math-notes.info/?p=1387</id>
         <link href="https://math-notes.info/2022/02/16/group-5/"/>
@@ -2842,8 +2833,8 @@ https://ai-scholar.tech/articles/gan/Deceive_D | AI技術最新情報メディ�
         <id>https://moneyforward.com/engineers_blog/?p=9915</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/15/small-team-speed-development/"/>
         <updated>2022-02-15T03:00:47.000Z</updated>
-        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: メール...]]></summary>
-        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: メール取込をリリースしました！  haml2slim でハマった点とその解決方法  SamurAI Codingに参加してみませんか？  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  マネーフォワードCTOが考えていること（2021年9月）   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></summary>
+        <content type="html"><![CDATA[2021年9月に入社したエンジニアの佐藤と申します。 ビジネスカンパニーHR ソ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応  マネーフォワード社内PRに見られるRubyの書き方について - (2) ハッシュの生成  京都拠点でRailsのフルリモートなスクラム開発をした知見  Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  マネーフォワードエンジニアの私生活   Copyright © Engineers' Blog [入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3803,16 +3794,6 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <published>2022-02-11T01:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MuZero’s first step from research into the real world | Latest Post]]></title>
-        <id>https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world</id>
-        <link href="https://deepmind.com/blog/article/MuZeros-first-step-from-research-into-the-real-world"/>
-        <updated>2022-02-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></summary>
-        <content type="html"><![CDATA[How we collaborated with YouTube to explore the potential for MuZero to improve video compression.]]></content>
-        <category label="Research"/>
-        <published>2022-02-11T00:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Guiding Frozen Language Models with Learned Soft Prompts | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html</id>
         <link href="http://ai.googleblog.com/2022/02/guiding-frozen-language-models-with.html"/>
@@ -4047,8 +4028,8 @@ http://xpaperchallenge.org/cv/xccv/ | cvpaper.challenge | AI/CV研究コミュ�
         <id>https://moneyforward.com/engineers_blog/?p=9906</id>
         <link href="https://moneyforward.com/engineers_blog/2022/02/10/how-to-start-sre/"/>
         <updated>2022-02-10T08:00:09.000Z</updated>
-        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></summary>
-        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi 2014参加レポ(マネーフォワード編)  エンジニアのマネーフォワード2019  Money Forward Developers’ Stories開催によせて  マネーフォワードは何をモデル化するか  詳解 リリース計画   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
+        <content type="html"><![CDATA[「少人数のチームにて、一人からSREを始めるにはどうすればいいのか？」 2021 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 谷口徹「BtoBはユーザーとの距離が近い」  グループ会社横断でシングルサインオンをできるようにしてみた  RubyKaigi 2019 参加者がチェックすべき福岡飯20選！  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  React Componentの実装ルールを決めてみた   Copyright © Engineers' Blog [How to start SRE in a small team, all by yourself.], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
