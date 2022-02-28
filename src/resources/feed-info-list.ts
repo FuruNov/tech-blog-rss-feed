@@ -319,6 +319,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['The n-Category Café', 'https://golem.ph.utexas.edu/category/atom10.xml'],
   ['Dan Ma\'s Topology Blog', 'https://dantopology.wordpress.com/feed'],
   ['数学カフェ', 'https://mathcafe.net/feed/'],
+  ['あーるえぬ｜数学のあれこれ', 'https://math-note.xyz/feed/'],
 
   // (はてなブログ)
   // 8年後の記事があったためコメントアウト
