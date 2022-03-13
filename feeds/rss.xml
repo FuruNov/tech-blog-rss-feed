@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sun, 13 Mar 2022 03:30:22 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Mar 2022 07:25:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -93,6 +93,14 @@
             <content:encoded><![CDATA[はじめに  D言語の公式コンパイラである dmd が更新され、最新バージョンである 2.099.0 が 2022/03/06 にリリースされました。  今回は前回から4ヶ月半ほど経ってのリリースとなり…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Productivity Weekly (2022-03-09号) | Zennのトレンド]]></title>
+            <link>https://zenn.dev/korosuke613/articles/productivity-weekly-20220309</link>
+            <guid>https://zenn.dev/korosuke613/articles/productivity-weekly-20220309</guid>
+            <pubDate>Sat, 12 Mar 2022 10:01:56 GMT</pubDate>
+            <description><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 今回が第 65 回目です。過去の記事はこちら。   news 📺   Pull Request File Tre...]]></description>
+            <content:encoded><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 今回が第 65 回目です。過去の記事はこちら。   news 📺   Pull Request File Tree Feedback · Discussion #12341 · github/feedback https://github.com/github/feedback/discussions/12...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[素元と既約元について～倍元・約元・同伴～ | 数学の景色]]></title>
             <link>https://mathlandscape.com/prime-element/</link>
             <guid>https://mathlandscape.com/?p=25214</guid>
@@ -141,6 +149,22 @@
             <pubDate>Sat, 12 Mar 2022 05:54:05 GMT</pubDate>
             <description><![CDATA[経緯 普段はVSCodeを利用しているのですが、最近業務で  作業用のサーバーにsshで入る backendの実装 frontendのコードの確認 別プロジェクトのコードを眺める  などなど、プロジェクトを跨いだ作業が増えてきて、次のような課題感がありました。  VSCodeのwindowが大量に増える  workspaceの機能なり使えばマシになるのだろうけど、個人的には各リポジトリのrootで...]]></description>
             <content:encoded><![CDATA[経緯 普段はVSCodeを利用しているのですが、最近業務で  作業用のサーバーにsshで入る backendの実装 frontendのコードの確認 別プロジェクトのコードを眺める  などなど、プロジェクトを跨いだ作業が増えてきて、次のような課題感がありました。  VSCodeのwindowが大量に増える  workspaceの機能なり使えばマシになるのだろうけど、個人的には各リポジトリのrootでエディタを開きたい   統合terminalとiTerm2で迷子になる  適当にやると「どこで iex -S mix phx.server してたっけ」となる    そこで色々と調べていくう...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[CQRSの観点から考えるGraphQLのスキーマ設計 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/tak_iwamoto/articles/88e413a895e9cf</link>
+            <guid>https://zenn.dev/tak_iwamoto/articles/88e413a895e9cf</guid>
+            <pubDate>Sat, 12 Mar 2022 05:30:05 GMT</pubDate>
+            <description><![CDATA[最初に GraphQLは参照系のQueryと更新系のMutationの２種類が区別して定義されています。 このように参照系と更新系のinterfaceを分けているため、GraphQLはCommand and Query Responsibility Segregation(CQRS)だと説明されることがあります。 確かにその通りなのですが、なぜCQRSのアーキテクチャなのか、具体的にQueryとM...]]></description>
+            <content:encoded><![CDATA[最初に GraphQLは参照系のQueryと更新系のMutationの２種類が区別して定義されています。 このように参照系と更新系のinterfaceを分けているため、GraphQLはCommand and Query Responsibility Segregation(CQRS)だと説明されることがあります。 確かにその通りなのですが、なぜCQRSのアーキテクチャなのか、具体的にQueryとMutationを定義する際にどういったことを意識するべきなのかということはあまり説明されていないように思います。 この記事ではCQRSがどういったことを意図しているのか、それを元にどのように...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[パラメータをVercelで管理して、設定したパラメータとURLクエリパラメータが同一の場合、制作実績ページを開くように実装 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/uemuragame5683/articles/efede64457f022</link>
+            <guid>https://zenn.dev/uemuragame5683/articles/efede64457f022</guid>
+            <pubDate>Sat, 12 Mar 2022 05:13:19 GMT</pubDate>
+            <description><![CDATA[こんにちはうえむーです。 今回はNext.js・VercelでパラメータをVercelで管理して、設定したパラメータとURLクエリパラメータが同一の場合、制作実績ページを開くように実装したことについてお話しします。 制作実績ページ作成する背景は、面談するときに個人の実績を展開した方がいいかと思ったのですが、 制作実績ページをコンプライアンスの関係で安易にページを展開したくなかったので、制限付きの制...]]></description>
+            <content:encoded><![CDATA[こんにちはうえむーです。 今回はNext.js・VercelでパラメータをVercelで管理して、設定したパラメータとURLクエリパラメータが同一の場合、制作実績ページを開くように実装したことについてお話しします。 制作実績ページ作成する背景は、面談するときに個人の実績を展開した方がいいかと思ったのですが、 制作実績ページをコンプライアンスの関係で安易にページを展開したくなかったので、制限付きの制作実績ページを作成しようと思いました。   要件定義 まずは、要件定義です。制限付きの制作実績ページを作成するには以下をクリアしなければいけません。 ・github上ではパラメーターや、APIの...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[TheAndroidShow Q&Aセッションメモ | Zennのトレンド]]></title>
@@ -870,14 +894,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
             <content:encoded><![CDATA[The Document Foundation（TDF）は3月10日（中央ヨーロッパ時間）、「LibreOffice 7.2.6 Community」を公開した。安定性の向上を図ったマイナーアップデートとなっている。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Rによる多重比較法 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/masahiro_kondo/articles/7a0250c97e41f6</link>
-            <guid>https://zenn.dev/masahiro_kondo/articles/7a0250c97e41f6</guid>
-            <pubDate>Fri, 11 Mar 2022 00:55:35 GMT</pubDate>
-            <description><![CDATA[はじめに 本記事では多重比較法のRでの実装を紹介する。具体的には同時分布を利用した手法（Dunnet, Tukey, Steel, Steel-Dwass法）、p値を利用した手法（Bonferroni, Holm, Hochberg, Hommel法）、グラフィカルアプローチを扱う。ただし各手法のアルゴリズムや証明については扱わない。アルゴリズムや証明については、適宜Rのドキュメントもしくは計量生...]]></description>
-            <content:encoded><![CDATA[はじめに 本記事では多重比較法のRでの実装を紹介する。具体的には同時分布を利用した手法（Dunnet, Tukey, Steel, Steel-Dwass法）、p値を利用した手法（Bonferroni, Holm, Hochberg, Hommel法）、グラフィカルアプローチを扱う。ただし各手法のアルゴリズムや証明については扱わない。アルゴリズムや証明については、適宜Rのドキュメントもしくは計量生物学36巻の特集等を参照することを推奨する。 【参考文献】  計量生物学 36 巻 , Special_Issue_2 号 医学統計学ハンドブック   記事内容は個人の意見であり、所属組織を...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　3月11日　～リコーなど | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/update/driver/1394565.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/update/driver/1394565.html</guid>
@@ -1003,6 +1019,14 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
             <content:encoded><![CDATA[Good quality data becomes imperative and a basic building block of an ML pipeline. The ML model can only be as good as its training data.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Machine Learning</category>
+        </item>
+        <item>
+            <title><![CDATA[スタートアップスタジオのゼロイチ開発を効率化させる技術選定 (バックエンド編) | Zennのトレンド]]></title>
+            <link>https://zenn.dev/ispec/articles/ispec-backend-stack</link>
+            <guid>https://zenn.dev/ispec/articles/ispec-backend-stack</guid>
+            <pubDate>Thu, 10 Mar 2022 13:47:06 GMT</pubDate>
+            <description><![CDATA[はじめに はじめまして、株式会社ispecのCTOで、Backend Teamのリーダーをやっている山田です。 今回は、ispecが展開するスタートアップスタジオ事業でプロジェクトを開始する際にどのような技術選定をしているのか、について紹介したいと思います。   背景 ispecは、スタートアップ企業様にプロダクト開発のための技術力・デザインを提供することで、プロダクトのゼロイチからグロースまでを...]]></description>
+            <content:encoded><![CDATA[はじめに はじめまして、株式会社ispecのCTOで、Backend Teamのリーダーをやっている山田です。 今回は、ispecが展開するスタートアップスタジオ事業でプロジェクトを開始する際にどのような技術選定をしているのか、について紹介したいと思います。   背景 ispecは、スタートアップ企業様にプロダクト開発のための技術力・デザインを提供することで、プロダクトのゼロイチからグロースまでをサポートしています。 その中でispecのエンジニア組織は、ゼロイチの開発をいかに早く、高い品質で行うことができるか、という課題に常に取り組んでいます。これを実現することによって、スタートア...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Next.jsでGmailApi叩いてメール取得してみた | Qiita - 人気の記事]]></title>
@@ -1237,14 +1261,6 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <content:encoded><![CDATA[プログラミングスクールに通うコストが高く、プログラミングの学習に踏み出せない方もいるのではないでしょうか。プログラミングは独学でも学習できます。今回は初心者が学びやすいおすすめの独学方法について、基礎知識や手順とともに解説していきます。 初心者が独学するときの基礎知識 基礎知識（1）初心者でも開発環境を用意しやすい 基礎知識（2）わからないことはインターネットでリサーチできる 基礎知識（3）身近なツールでもコーディングできる 初心者がプログラミングを独学するときの学習手順 手順（1）プログラミング言語を選択する 手順（2）プログラミング言語の記述法を学習する 手順（3）プログラミング言語を用い…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[WebAssembly の GC Proposal とは何か / どこに向かおうとしてるのか | Zennのトレンド]]></title>
-            <link>https://zenn.dev/mizchi/articles/wasm-gc-proposal</link>
-            <guid>https://zenn.dev/mizchi/articles/wasm-gc-proposal</guid>
-            <pubDate>Thu, 10 Mar 2022 03:43:13 GMT</pubDate>
-            <description><![CDATA[最初に これは WebAssembly に GC が導入されるから紹介、という記事ではない。どちらかというと、WebAssembly GC の採用がどれだけ遠く、また GC がのればどんな言語でも wasm のコンパイルサイズが減って軽量になる、という夢を見ている人に、現実を見てもらうための記事になる。 WebAssembly GC Proposal (Team)は、それを実現するパーツを分割して...]]></description>
-            <content:encoded><![CDATA[最初に これは WebAssembly に GC が導入されるから紹介、という記事ではない。どちらかというと、WebAssembly GC の採用がどれだけ遠く、また GC がのればどんな言語でも wasm のコンパイルサイズが減って軽量になる、という夢を見ている人に、現実を見てもらうための記事になる。 WebAssembly GC Proposal (Team)は、それを実現するパーツを分割して仕様策定を進めていて、実際に GC が動き出すまでには数年かかるだろうし、自分の感覚的に、将来的に GC が採用されるかは五分五分といったところ。 ただ、 GC Proposal から派生し...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Japanese and English Collocations for Software Development | ユニファ開発者ブログ]]></title>
             <link>https://tech.unifa-e.com/entry/2022/03/10/123046?utm_source=feed</link>
             <guid>https://tech.unifa-e.com/entry/2022/03/10/123046?utm_source=feed</guid>
@@ -1278,8 +1294,8 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <link>https://moneyforward.com/engineers_blog/2022/03/10/cto-message-202203/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9984</guid>
             <pubDate>Thu, 10 Mar 2022 02:50:36 GMT</pubDate>
-            <description><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: esa...]]></description>
-            <content:encoded><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: esaによる情報共有で自律的なチームを目指す  Moneyforward APIで車ゲームを作る  RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！  Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）  入社から約4年、Money ForwardのAndroidアプリエンジニアとしての活動を振り返る   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How...]]></description>
+            <content:encoded><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How MySQL Multi-Threaded Slave (MTS) Works  最近のruby-core (2017年3月)  クラウド給与の1stリリース時のコードを読む会を開催しました  マネーフォワードへの道（バスで行く 京都開発拠点編）  少しだけ主夫をやった話   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1305,14 +1321,6 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <pubDate>Thu, 10 Mar 2022 02:44:00 GMT</pubDate>
             <description><![CDATA[デジタル カンファレンス Google Cloud Day: Digital '22 開催まで、あと 1 月半となりました コンテンツの詳細と、ライブ視聴者への特典企画が公開されましたので、ぜひこちらからチェックしてみてください。 その中でも、昨年に引き続き注目いただきたい、基調講演とハンズオン祭についてご紹介します。  基調講演 すでに多くの日本企業が、Google Cloud によってデジタル...]]></description>
             <content:encoded><![CDATA[デジタル カンファレンス Google Cloud Day: Digital '22 開催まで、あと 1 月半となりました コンテンツの詳細と、ライブ視聴者への特典企画が公開されましたので、ぜひこちらからチェックしてみてください。 その中でも、昨年に引き続き注目いただきたい、基調講演とハンズオン祭についてご紹介します。  基調講演 すでに多くの日本企業が、Google Cloud によってデジタル トランスフォーメーション（DX）を実現しています。基調講演では、皆さまのビジネス推進をサポートする最新のソリューションやサステナビリティへの取り組みを発表します。また、デジタル大臣 牧島かれん氏、 株式会社 LIXIL からジン モンテサーノ 氏をお招きし、具体的な DX への取り組みをお聞きします。 ハンズオン祭 セッションで学んだ知識を使って、実際に Google Cloud に触れることができるプログラムです。はじめて Google Cloud を利用される方は「実践 Google Cloud ハンズオン」で、製品の概要や各種機能を、実際に手を動かして体験いただけます。「Cloud S...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ドメイン知識が漏れるとは何なのか | Zennのトレンド]]></title>
-            <link>https://zenn.dev/dowanna6/articles/92c6494570a4dc</link>
-            <guid>https://zenn.dev/dowanna6/articles/92c6494570a4dc</guid>
-            <pubDate>Thu, 10 Mar 2022 02:35:47 GMT</pubDate>
-            <description><![CDATA[こんにちは。株式会社プラハCEOの松原です 先日プラハチャレンジのメンターセッションで「ドメイン知識が漏れるってどういうことなの？」という話になったので、その際に話したことをまとめてみようと思いました。 こちら本日のメイン、ドメイン知識が漏れまくっているコードです： class Person { // (ドメイン)  public age: number  public constructor(a...]]></description>
-            <content:encoded><![CDATA[こんにちは。株式会社プラハCEOの松原です 先日プラハチャレンジのメンターセッションで「ドメイン知識が漏れるってどういうことなの？」という話になったので、その際に話したことをまとめてみようと思いました。 こちら本日のメイン、ドメイン知識が漏れまくっているコードです： class Person { // (ドメイン)  public age: number  public constructor(age: number) {  this.age = age  } }  class Usecase1 { // （アプリケーションサービス層に属するクラス。コント...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[新卒サーバーエンジニアがコロプラで約1年働いて感じたこと | COLOPL Tech Blog]]></title>
@@ -1361,14 +1369,6 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <pubDate>Thu, 10 Mar 2022 01:00:44 GMT</pubDate>
             <description><![CDATA[こんにちは！ソウゾウの Software Engineer / Engineering Manager の @motokiee です。連載：メルカリShops 開発の裏側 Vol.2 の18日目を担当します。 ソウゾウで […]]]></description>
             <content:encoded><![CDATA[こんにちは！ソウゾウの Software Engineer / Engineering Manager の @motokiee です。連載：メルカリShops 開発の裏側 Vol.2 の18日目を担当します。 ソウゾウで […]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[受託開発会社から自社開発会社に転職して感じた3つの違いと適応戦略 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/peraichi/articles/01fxprnr3mp75yey0mjz6gxebn</link>
-            <guid>https://zenn.dev/peraichi/articles/01fxprnr3mp75yey0mjz6gxebn</guid>
-            <pubDate>Thu, 10 Mar 2022 01:00:26 GMT</pubDate>
-            <description><![CDATA[背景 こんにちは。株式会社ペライチ のフロントエンドエンジニアの藤代です。 今から約 1 年前、 5 年ほど勤めた東京都内の小さな Web 制作会社から現職に転職をしました。 前職では、受託での Web 制作やシステム開発に携わっていたほか、短期的に SES（システムエンジニアリングサービス）などで自社開発会社の現場やオフショア開発の現場なども経験していました。 いわゆる、受託畑の人間です。 本記...]]></description>
-            <content:encoded><![CDATA[背景 こんにちは。株式会社ペライチ のフロントエンドエンジニアの藤代です。 今から約 1 年前、 5 年ほど勤めた東京都内の小さな Web 制作会社から現職に転職をしました。 前職では、受託での Web 制作やシステム開発に携わっていたほか、短期的に SES（システムエンジニアリングサービス）などで自社開発会社の現場やオフショア開発の現場なども経験していました。 いわゆる、受託畑の人間です。 本記事では、著者が自社開発会社である現職のペライチ社に入社してから感じた違いをまとめています（違いとはカルチャーショックと言い換えても良いかと思っています）。 そして、それらの違いに対して私自身...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ANDPAD TechLive配信で利用しているStreamYardの工夫、小ネタ（改訂版） | ANDPAD Tech Blog]]></title>
@@ -4037,8 +4037,8 @@ https://ai-scholar.tech/articles/domain-adaptation/voyager | AI技術最新情�
             <link>https://moneyforward.com/engineers_blog/2022/03/01/cross-organization-hitting-partner/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9947</guid>
             <pubDate>Tue, 01 Mar 2022 02:00:09 GMT</pubDate>
-            <description><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新会社...]]></description>
-            <content:encoded><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新会社「MF KESSAI」はどのような技術・インフラ・体制で開発しているのか  Pascal VOC形式のxmlファイルとAWS SageMaker Ground Truthのmanifestファイルの相互変換  MoneyForward Meetupレポート「ワークOSSバランス」  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  エストニアのe-residencyカードでsshする   Copyright © Engineers' Blog [副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナ...]]></content:encoded>
+            <description><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></description>
+            <content:encoded><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年5月)  [MFクラウド会計]ユーザーの声がサービスに届くまで  Money Forward Developers’ Stories開催によせて  BtoB SaaSに捧ぐマイクロサービスのはじめの一歩  マネーフォワードは 一般スポンサー として JSConf JP を応援します   Copyright © Engineers' Blog [副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4578,8 +4578,8 @@ https://ai-scholar.tech/articles/error-detection/adaptive_memory_networks | AI�
             <link>https://moneyforward.com/engineers_blog/2022/02/28/jaws-ug-sre-2/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9972</guid>
             <pubDate>Mon, 28 Feb 2022 03:00:13 GMT</pubDate>
-            <description><![CDATA[皆さん、先日のJAWS-UG SRE支部#2はご覧になりましたか？ こんにちは。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: New...]]></description>
-            <content:encoded><![CDATA[皆さん、先日のJAWS-UG SRE支部#2はご覧になりましたか？ こんにちは。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Newcomerがイイと思った、マネフォの新サービスリリースTips  Kubernetesクラスタ上で動かすSidekiqに対してヘルスチェックを導入した話  Ansible galaxyを使って銀河の彼方からJenkinsおじさんを召喚する  エンジニアデザインをリファクタしてみた  マネーフォワードCTOが考えていること（2021年12月）   Copyright © Engineers' Blog [【全力土下座案件】JAWS-UG SRE支部#2登壇の件], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[皆さん、先日のJAWS-UG SRE支部#2はご覧になりましたか？ こんにちは。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[皆さん、先日のJAWS-UG SRE支部#2はご覧になりましたか？ こんにちは。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードへの道（電車で行く 京都開発拠点編）  長期エンジニアインターンで得た学び  マネーフォワードのQAエンジニアのお話  LINE Payを使って割り勘をフォワードする  【社内レポ】最新型MacBook Proを投入！   Copyright © Engineers' Blog [【全力土下座案件】JAWS-UG SRE支部#2登壇の件], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4696,8 +4696,8 @@ https://ai-scholar.tech/articles/error-detection/adaptive_memory_networks | AI�
             <link>https://moneyforward.com/engineers_blog/2022/02/28/jstqb-fl-study/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9964</guid>
             <pubDate>Mon, 28 Feb 2022 00:30:42 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアが紹介する、エンジニアが好みそうな映画  デザイナーが制作時に気にしていること  ARは二度死なない  最近のruby-core (2016年9月)  TwitterにMoney Forward Developersを開設しました   Copyright © Engineers' Blog [０からはじめる社内勉強会〜がんばれQAエンジニア！〜], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goの...]]></description>
+            <content:encoded><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goのテストに使える手作りモックパターン  マネーフォワードエンジニアインターン 小笠原純也「ユーザーの人生に寄り添えるサービスを」  エンジニアとデザイナーの相互理解  【レポート】スタートアップのデザイナー集合！ サービスづくりについて語り合う会  マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた   Copyright © Engineers' Blog [０からはじめる社内勉強会〜がんばれQAエンジニア！〜], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
