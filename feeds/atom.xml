@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-03-14T09:28:19.731Z</updated>
+    <updated>2022-03-14T11:25:18.821Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -333,6 +333,18 @@
         <published>2022-03-14T01:41:06.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vite + Tailwind CSSでペライチHTMLをマークアップする | Zennのトレンド]]></title>
+        <id>https://zenn.dev/mottox2/articles/vite-tailwind</id>
+        <link href="https://zenn.dev/mottox2/articles/vite-tailwind"/>
+        <updated>2022-03-14T01:39:38.000Z</updated>
+        <summary type="html"><![CDATA[はじめに つい最近、ReactもVueも使わずに静的なペライチHTMLのマークアップを行う必要に迫られました。その際ViteのVanilla[1]テンプレートとTailwindを使った環境でマークアップをしたところ非常に快適だったので、環境構築の手順を記事にしておこうと思いました。   Viteを使う理由 ViteというとVueやReactの開発ツールと思われがちですが、UIライブラリに依存しない...]]></summary>
+        <content type="html"><![CDATA[はじめに つい最近、ReactもVueも使わずに静的なペライチHTMLのマークアップを行う必要に迫られました。その際ViteのVanilla[1]テンプレートとTailwindを使った環境でマークアップをしたところ非常に快適だったので、環境構築の手順を記事にしておこうと思いました。   Viteを使う理由 ViteというとVueやReactの開発ツールと思われがちですが、UIライブラリに依存しないVanillaテンプレートが用意されています。 ファイルの更新を検知してブラウザへの反映といった基本的な機能に加えて、PostCSSのサポートもあるのでTailwindでの開発と相性が良いで...]]></content>
+        <author>
+            <name>mottox2</name>
+        </author>
+        <published>2022-03-14T01:39:38.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[｢YAPC::Japan::Online 2022｣に2人のエンジニアが登壇し、スポンサーと運営をしました！ | Mobile Factory Tech Blog]]></title>
         <id>https://tech.mobilefactory.jp/entry/2022/03/14/103000</id>
         <link href="https://tech.mobilefactory.jp/entry/2022/03/14/103000"/>
@@ -364,8 +376,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=9987</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/14/openresty/"/>
         <updated>2022-03-14T00:30:32.000Z</updated>
-        <summary type="html"><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [インタ...]]></summary>
-        <content type="html"><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [インターンレポ] 脆弱性診断をやってみた  vim のイースターエッグの話  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  【社内レポ】最新型MacBook Proを投入！  2020年のマネーフォワード   Copyright © Engineers' Blog [I was thinking NGINX was the best until i knew OPENRESTY], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EBS ...]]></summary>
+        <content type="html"><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EBS Magnetic vs SSDのベンチマーク  RubyKaigi 2016 Rubyスポンサー申込み  Go BoldにGive it a try!  RubyKaigi 2014参加レポ(マネーフォワード編)  フルタイムRubyコミッター採用までの道のり   Copyright © Engineers' Blog [I was thinking NGINX was the best until i knew OPENRESTY], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -550,6 +562,18 @@
         <category label="テクノロジー"/>
         <category label="IA除外"/>
         <published>2022-03-13T21:00:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ReactにおけるCSSの利用はどうしたら？自分なりに結論出してみた | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yuki_tu/articles/38c8df79522563</id>
+        <link href="https://zenn.dev/yuki_tu/articles/38c8df79522563"/>
+        <updated>2022-03-13T16:39:43.000Z</updated>
+        <summary type="html"><![CDATA[初めに 最近のCSSについての学んだことをまとめます。特にReactにおけるCSSはどうすればいいのかと悩んでいたため、それについての自分お中の結論も記述できたらと思います！   CSSの世界的動向 まず、世界におけるCSSの動向を見てみましょう。2021年におけるstateofcssというサイトをみてみます。 https://2021.stateofcss.com/ja-JP/ 最近の動向として...]]></summary>
+        <content type="html"><![CDATA[初めに 最近のCSSについての学んだことをまとめます。特にReactにおけるCSSはどうすればいいのかと悩んでいたため、それについての自分お中の結論も記述できたらと思います！   CSSの世界的動向 まず、世界におけるCSSの動向を見てみましょう。2021年におけるstateofcssというサイトをみてみます。 https://2021.stateofcss.com/ja-JP/ 最近の動向としては、CSS Modulesが使われていることが多く、Tailwind CSSが急激に伸びていることがわか利ます。   プリプロセッサーとポストプロセッサー stateofcssにも出てきた、...]]></content>
+        <author>
+            <name>yuki_TU</name>
+        </author>
+        <published>2022-03-13T16:39:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「夏の魔物、秋の日はつるべ落とし」(さうして、このごろ2021年9月版) | pooneilの脳科学論文コメント]]></title>
@@ -1012,18 +1036,6 @@
         <published>2022-03-12T06:01:24.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Neovim & tmux に入門してElixirの開発環境を整えた | Zennのトレンド]]></title>
-        <id>https://zenn.dev/koga1020/articles/cfa6f7cd9abd43</id>
-        <link href="https://zenn.dev/koga1020/articles/cfa6f7cd9abd43"/>
-        <updated>2022-03-12T05:54:05.000Z</updated>
-        <summary type="html"><![CDATA[経緯 普段はVSCodeを利用しているのですが、最近業務で  作業用のサーバーにsshで入る backendの実装 frontendのコードの確認 別プロジェクトのコードを眺める  などなど、プロジェクトを跨いだ作業が増えてきて、次のような課題感がありました。  VSCodeのwindowが大量に増える  workspaceの機能なり使えばマシになるのだろうけど、個人的には各リポジトリのrootで...]]></summary>
-        <content type="html"><![CDATA[経緯 普段はVSCodeを利用しているのですが、最近業務で  作業用のサーバーにsshで入る backendの実装 frontendのコードの確認 別プロジェクトのコードを眺める  などなど、プロジェクトを跨いだ作業が増えてきて、次のような課題感がありました。  VSCodeのwindowが大量に増える  workspaceの機能なり使えばマシになるのだろうけど、個人的には各リポジトリのrootでエディタを開きたい   統合terminalとiTerm2で迷子になる  適当にやると「どこで iex -S mix phx.server してたっけ」となる    そこで色々と調べていくう...]]></content>
-        <author>
-            <name>koga1020</name>
-        </author>
-        <published>2022-03-12T05:54:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CQRSの観点から考えるGraphQLのスキーマ設計 | Zennのトレンド]]></title>
         <id>https://zenn.dev/tak_iwamoto/articles/88e413a895e9cf</id>
         <link href="https://zenn.dev/tak_iwamoto/articles/88e413a895e9cf"/>
@@ -1073,6 +1085,18 @@
         <category label="advertising"/>
         <category label="ICM"/>
         <published>2022-03-11T22:23:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScriptに関するクイズを自分向けに作成してみた | Zennのトレンド]]></title>
+        <id>https://zenn.dev/dowanna6/articles/40a8312d70d90f</id>
+        <link href="https://zenn.dev/dowanna6/articles/40a8312d70d90f"/>
+        <updated>2022-03-11T22:14:48.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。株式会社プラハCEOの松原です   What is this? 最近自分が使っている技術の基礎を固めることの大切さを改めて感じてJSの基礎学び直した際、「ただ情報をインプットしても忘れるし、読みながらアウトプットしても忘れそうだな...」と不安になったので  学びながら未来の自分に向けてクイズを作成する クイズを1ヶ月おきに解く 100点を連続で取れない限りクイズを繰り返す  みたいな...]]></summary>
+        <content type="html"><![CDATA[こんにちは。株式会社プラハCEOの松原です   What is this? 最近自分が使っている技術の基礎を固めることの大切さを改めて感じてJSの基礎学び直した際、「ただ情報をインプットしても忘れるし、読みながらアウトプットしても忘れそうだな...」と不安になったので  学びながら未来の自分に向けてクイズを作成する クイズを1ヶ月おきに解く 100点を連続で取れない限りクイズを繰り返す  みたいな学習方法なら記憶に定着しやすいのではないかと考え、自分向けのクイズを作ってみました。せっかくなら他の人も回答できた方が楽しいかな？と思ったので公開してみます。作問自体が良い勉強になるし、これは今...]]></content>
+        <author>
+            <name>dowanna6</name>
+        </author>
+        <published>2022-03-11T22:14:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cloud-Native Super Computing | KDnuggets]]></title>
@@ -1145,18 +1169,6 @@
             <name>kooooones</name>
         </author>
         <published>2022-03-11T12:51:05.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ぼくのかんがえたさいきょうの API エラーレスポンスのフォーマット | Zennのトレンド]]></title>
-        <id>https://zenn.dev/ryamakuchi/articles/d7c932afc57e30</id>
-        <link href="https://zenn.dev/ryamakuchi/articles/d7c932afc57e30"/>
-        <updated>2022-03-11T11:50:48.000Z</updated>
-        <summary type="html"><![CDATA[エラーハンドリングについてじっくり考えてみたシリーズ Web サービスを開発するときのエラーハンドリングについて API から返ってきたエラーレスポンスのフォーマット（型）はどういうのが良いのかについて考えてみました。   デファクトスタンダードはどれ？ WebAPIでエラーをどう表現すべき？15のサービスを調査してみた - Qiita などで取り上げられているように、現状各社のエラーレスポンスの...]]></summary>
-        <content type="html"><![CDATA[エラーハンドリングについてじっくり考えてみたシリーズ Web サービスを開発するときのエラーハンドリングについて API から返ってきたエラーレスポンスのフォーマット（型）はどういうのが良いのかについて考えてみました。   デファクトスタンダードはどれ？ WebAPIでエラーをどう表現すべき？15のサービスを調査してみた - Qiita などで取り上げられているように、現状各社のエラーレスポンスのフォーマットはかなりばらばらです。 ちなみに JSON:API という仕様があり、API がこの仕様に則って作られている場合はエラーレスポンスのフォーマットが定義されているため、これに沿ったエラ...]]></content>
-        <author>
-            <name>rry</name>
-        </author>
-        <published>2022-03-11T11:50:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【線形代数シリーズ開始！】行列の理解はまずここから！【行列①単位ベクトルの行き先】 #130 #VRアカデミア #線型代数入門 | AIcia Solid Project]]></title>
@@ -1258,18 +1270,6 @@ https://ai-scholar.tech/articles/gan/instance_conditioned_gan | AI技術最新�
         <category label="ai"/>
         <category label="datasets"/>
         <published>2022-03-11T08:51:23.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全てがTypeScriptで動く「クラウド郵便 atena」を支える技術スタック | Zennのトレンド]]></title>
-        <id>https://zenn.dev/n1nc/articles/atena-system-architecture</id>
-        <link href="https://zenn.dev/n1nc/articles/atena-system-architecture"/>
-        <updated>2022-03-11T08:50:44.000Z</updated>
-        <summary type="html"><![CDATA[初めまして！ クラウド郵便サービス「atena」を開発・運営する N Inc. 共同創業者・エンジニアの北方 (@Yk_0n)です。 今回は、atenaを支える技術スタックについて紹介したいと思います！   そもそも クラウド郵便サービス「atena」とは？ まず初めに、弊社の「クラウド郵便サービス atena」について簡単に紹介したいと思います。 https://atena.life/ クラウド...]]></summary>
-        <content type="html"><![CDATA[初めまして！ クラウド郵便サービス「atena」を開発・運営する N Inc. 共同創業者・エンジニアの北方 (@Yk_0n)です。 今回は、atenaを支える技術スタックについて紹介したいと思います！   そもそも クラウド郵便サービス「atena」とは？ まず初めに、弊社の「クラウド郵便サービス atena」について簡単に紹介したいと思います。 https://atena.life/ クラウド郵便とは、その名の通り 郵便物をクラウド化するサービス です。 具体的には、atenaが郵便物をお客様の代わりに受け取り、管理・転送・中身のデータ化（PDF化）を行うことで、郵便物の対応から解放...]]></content>
-        <author>
-            <name>N Inc. </name>
-        </author>
-        <published>2022-03-11T08:50:44.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rails 6.1.5と5.2.7がリリースされました | TechRacho]]></title>
@@ -1647,7 +1647,7 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-11T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[26年ぶりに復活したメガドライブの名作アクション「ベア・ナックル IV」【初月100円！オススメGame Pass作品】 | 窓の杜]]></title>
+        <title type="html"><![CDATA[メガドライブの名作アクション「ベア・ナックル IV」 ～26年ぶりに復活！【初月100円！オススメGame Pass作品】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/gprecommend/1393455.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/serial/gprecommend/1393455.html"/>
         <updated>2022-03-11T01:58:00.000Z</updated>
@@ -2143,8 +2143,8 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
         <id>https://moneyforward.com/engineers_blog/?p=9984</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/10/cto-message-202203/"/>
         <updated>2022-03-10T02:50:36.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFク...]]></summary>
-        <content type="html"><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  ReactとReactNativeでFluxなTODOを実装してみた話  最近のruby-core (2016年4月)  Android：グラフ表示で表現豊かに。MPAndroidChart を使ってみよう！  【ランチタイム活用】仲間とビデオ勉強会をしよう！   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内...]]></summary>
+        <content type="html"><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内レポ】IT勉強会向けに無料で会場を提供します  オフィスの便利ツール紹介：拠点間の常時接続Webミーティング  マネーフォワードに来てから7ヶ月過ぎました - インターン生から見た京都拠点の話 -  RubyKaigi 2016 Rubyスポンサー申込み  マネーフォワードCTOが考えていること（2021年9月）   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2722,6 +2722,16 @@ https://ai-scholar.tech/articles/treatise/limits-of-largescale-pretraining | AI�
         <summary type="html"><![CDATA[皆さんこんにちは、虎の穴ラボのY.Fです。 2022年 3月 2日 (水) に Deno についてのLT会 『toranoana.deno #5』を開催しました。 yumenosora.connpass.com 当初はアーカイブ配信の予定はなかったのですが、LT登壇が虎の穴ラボのメンバーだけだったこともあり、配信することになりました。 こちらから再生もできます。 www.youtube.com 目...]]></summary>
         <content type="html"><![CDATA[皆さんこんにちは、虎の穴ラボのY.Fです。 2022年 3月 2日 (水) に Deno についてのLT会 『toranoana.deno #5』を開催しました。 yumenosora.connpass.com 当初はアーカイブ配信の予定はなかったのですが、LT登壇が虎の穴ラボのメンバーだけだったこともあり、配信することになりました。 こちらから再生もできます。 www.youtube.com 目的意識 開催にあたっての目的意識としては、次のようなものがあります。 虎の穴ラボにDenoが好きな人がいる ＝＞もっとDenoについて知りたい ＝＞勉強したことを共有したい 虎の穴ラボでDenoを使っ…]]></content>
         <published>2022-03-09T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Predicting the past with Ithaca | Latest Post]]></title>
+        <id>https://deepmind.com/blog/article/Predicting-the-past-with-Ithaca</id>
+        <link href="https://deepmind.com/blog/article/Predicting-the-past-with-Ithaca"/>
+        <updated>2022-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Restoring, placing and dating ancient texts through collaboration between AI and historians.]]></summary>
+        <content type="html"><![CDATA[Restoring, placing and dating ancient texts through collaboration between AI and historians.]]></content>
+        <category label="Research"/>
+        <published>2022-03-09T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[正規部分群と剰余群 (群論) | 大学数学の授業ノート]]></title>
@@ -5454,8 +5464,8 @@ https://ai-scholar.tech/articles/domain-adaptation/voyager | AI技術最新情�
         <id>https://moneyforward.com/engineers_blog/?p=9947</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/01/cross-organization-hitting-partner/"/>
         <updated>2022-03-01T02:00:09.000Z</updated>
-        <summary type="html"><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのQAエンジニアのお話  家庭内 esa のすゝめ  [関西開発拠点] オンラインミートアップ開催のお知らせ  仮想通貨の完全自動売買をやってみよう その１  クラウド給与の1stリリース時のコードを読む会を開催しました   Copyright © Engineers' Blog [副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sam...]]></summary>
+        <content type="html"><![CDATA[副業のQAスペシャリストとしてマネーフォワードHRソリューション本部プロダクト事 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: SamurAI Codingに参加してみませんか？  SwiftにはREPLモードが２つある！？  ベンチャーでナウくなりそうなセキュリティサービス  マネーフォワードエンジニアインタビュー 谷口徹「BtoBはユーザーとの距離が近い」  iOS8で導入されたアクション付きPush通知を試してみる   Copyright © Engineers' Blog [副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5775,66 +5785,6 @@ https://ai-scholar.tech/articles/domain-adaptation/voyager | AI技術最新情�
         <category label="プログラミング"/>
         <category label="競技プログラミング"/>
         <published>2022-02-28T12:04:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenShiftのControl Plane/Worker Nodeのエッジ向けデプロイメントのHW最小要件まとめ | 赤帽エンジニアブログ]]></title>
-        <id>https://rheb.hatenablog.com/entry/2022/02/28/OpenShift%E3%81%AEMaster/Worker_Node%E3%81%AE%E3%82%A8%E3%83%83%E3%82%B8%E5%90%91%E3%81%91%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AEHW%E6%9C%80%E5%B0%8F%E8%A6%81%E4%BB%B6</id>
-        <link href="https://rheb.hatenablog.com/entry/2022/02/28/OpenShift%E3%81%AEMaster/Worker_Node%E3%81%AE%E3%82%A8%E3%83%83%E3%82%B8%E5%90%91%E3%81%91%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%B3%E3%83%88%E3%81%AEHW%E6%9C%80%E5%B0%8F%E8%A6%81%E4%BB%B6"/>
-        <updated>2022-02-28T11:04:58.000Z</updated>
-        <summary type="html"><![CDATA[はじめに みなさん、こんにちは。 Red Hatでソリューションアーキテクトをしている小野です。 OpenShift にはエッジ向けデプロイメントとして、Control Plane と Worker のデプロイメントパターンがいくつか存在します。 本稿では、各デプロイメントパターンの違いや使い分け、CPU やメモリのサイジングなどの最小ハードウェア要件をまとめます。 まとめ記事ですので、ぜひブック...]]></summary>
-        <content type="html"><![CDATA[はじめに みなさん、こんにちは。 Red Hatでソリューションアーキテクトをしている小野です。 OpenShift にはエッジ向けデプロイメントとして、Control Plane と Worker のデプロイメントパターンがいくつか存在します。 本稿では、各デプロイメントパターンの違いや使い分け、CPU やメモリのサイジングなどの最小ハードウェア要件をまとめます。 まとめ記事ですので、ぜひブックマークしておいて頂ければ幸いです！ デプロイメントパターン エッジ環境へ OpenShift をデプロイする際に、大きく以下の5パターンの選択肢があります。 OpenShiftのデプロイメントパターン…]]></content>
-        <published>2022-02-28T11:04:58.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[閉包テーブル（closure table）でツリー構造を表現する | ROXX開発者ブログ]]></title>
-        <id>https://techblog.roxx.co.jp/entry/2022/02/28/191336</id>
-        <link href="https://techblog.roxx.co.jp/entry/2022/02/28/191336"/>
-        <updated>2022-02-28T10:13:36.000Z</updated>
-        <summary type="html"><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // www.oreilly.co.jp 「SQL アンチパターン」という書籍を読んでいて、ナイーブツリー（素朴な木）という、ツリー構造（再帰的な階層構造）の表現について書かれた章があり面白かったので試してみました。 隣接リスト（adjacency list） よくある（んだけどツラいよねっていう）パターンとして「隣接リスト」とい...]]></summary>
-        <content type="html"><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // www.oreilly.co.jp 「SQL アンチパターン」という書籍を読んでいて、ナイーブツリー（素朴な木）という、ツリー構造（再帰的な階層構造）の表現について書かれた章があり面白かったので試してみました。 隣接リスト（adjacency list） よくある（んだけどツラいよねっていう）パターンとして「隣接リスト」というものが紹介されていました。これは、コメントのテーブルに親を識別するための parent_id をカラムに追加するというものです。 DDL create table comments ( commen…]]></content>
-        <published>2022-02-28T10:13:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[クラシルAndroidチームに新しい仲間が増えたので、Wevox values card onlineでリモートコミュニケーションしてみました | dely tech blog]]></title>
-        <id>https://tech.dely.jp/entry/2022/02/28/190000</id>
-        <link href="https://tech.dely.jp/entry/2022/02/28/190000"/>
-        <updated>2022-02-28T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[皆さんこんにちは。クラシルAndroidチームのparayaです。 少しずつ梅や桜も咲き始めて春を感じる季節になってきましたね🌸2月に入り、クラシルでは新たにAndroidエンジニアが1名ジョインしました🎉Jさん入社おめでとうございます！🎉🎂🎉 クラシルAndroidチームでは新メンバーとの交流を深めるために、Wevox values cardを利用しています。Wevox values ...]]></summary>
-        <content type="html"><![CDATA[皆さんこんにちは。クラシルAndroidチームのparayaです。 少しずつ梅や桜も咲き始めて春を感じる季節になってきましたね🌸2月に入り、クラシルでは新たにAndroidエンジニアが1名ジョインしました🎉Jさん入社おめでとうございます！🎉🎂🎉 クラシルAndroidチームでは新メンバーとの交流を深めるために、Wevox values cardを利用しています。Wevox values cardについては過去に私がジョインした時の記事もあるので良かったら見てくださいね。 tech.dely.jp そこで、チームで恒例となっているWevox values cardでコミュニケーションを実施したい…]]></content>
-        <published>2022-02-28T10:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[イデアル(環論)とは～定義・具体例・基本的性質の証明～ | 数学の景色]]></title>
-        <id>https://mathlandscape.com/?p=24988</id>
-        <link href="https://mathlandscape.com/ideal/"/>
-        <updated>2022-02-28T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[代数学，特に環論における左イデアル・右イデアル・両側イデアルとは，それぞれ左・右・両側から元をかけても不変な，乗法単位元を持たなくても良い部分環のことを言います。群でいう正規部分群に対応する，環論における重要な概念です。 […]]]></summary>
-        <content type="html"><![CDATA[代数学，特に環論における左イデアル・右イデアル・両側イデアルとは，それぞれ左・右・両側から元をかけても不変な，乗法単位元を持たなくても良い部分環のことを言います。群でいう正規部分群に対応する，環論における重要な概念です。 […]]]></content>
-        <author>
-            <name>数学の景色</name>
-        </author>
-        <category label="群・環・体"/>
-        <category label="用語・記号の定義"/>
-        <category label="大学専門"/>
-        <published>2022-02-28T10:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 10 Technologies that Completely Changed How we See the World | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/the-10-technologies-that-completely-changed-how-we-see-the-world?source=rss</id>
-        <link href="https://hackernoon.com/the-10-technologies-that-completely-changed-how-we-see-the-world?source=rss"/>
-        <updated>2022-02-28T09:55:05.000Z</updated>
-        <author>
-            <name>Francesca M. Nichols</name>
-        </author>
-        <category label="innovation"/>
-        <category label="inventions"/>
-        <category label="ai-revolution"/>
-        <category label="machine-learning"/>
-        <category label="social-network"/>
-        <category label="technology"/>
-        <category label="cloud-computing"/>
-        <category label="smartphones"/>
-        <published>2022-02-28T09:55:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[MicroservicesSREのEmbedded先でのお仕事 | メルカリエンジニアリングブログ]]></title>
