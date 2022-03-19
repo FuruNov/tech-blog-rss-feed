@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sat, 19 Mar 2022 03:29:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 19 Mar 2022 07:25:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,15 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[2変数の確率変数の共分散、相関係数、共分散行列とその性質 | 趣味の大学数学]]></title>
+            <link>https://math-fun.net/20220319/23190/</link>
+            <guid>https://math-fun.net/?p=23190</guid>
+            <pubDate>Sat, 19 Mar 2022 05:05:18 GMT</pubDate>
+            <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、2変数の確率変数の共分散、相関係数、共分散行列とその性質について紹介します。 共分散 2変数の確率変数\(X,Y\)の共分散（covariance）は ... 2変数の確率変数の共分散、相関係数、共分散行列とその性質 first appeared on 趣味の大学数学.]]></description>
+            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、2変数の確率変数の共分散、相関係数、共分散行列とその性質について紹介します。 共分散 2変数の確率変数\(X,Y\)の共分散（covariance）は ... 2変数の確率変数の共分散、相関係数、共分散行列とその性質 first appeared on 趣味の大学数学.]]></content:encoded>
+            <category>統計学</category>
+        </item>
         <item>
             <title><![CDATA[「情報Ⅰ」の学習内容に対応した動画講座がスタート！プログラミング問題集も | paiza開発日誌]]></title>
             <link>https://paiza.hatenablog.com/entry/2022/03/19/100000</link>
@@ -32,6 +41,14 @@
             <content:encoded><![CDATA[Join this webinar and learn how competitive companies utilize third-party data, enhancing mobile customer experiences, through personalization and localization.]]></content:encoded>
             <category>Products and Services</category>
             <category>Partners</category>
+        </item>
+        <item>
+            <title><![CDATA[パッケージ作成者のためのLaTeX2eマクロ | Zennのトレンド]]></title>
+            <link>https://zenn.dev/komiyajapan/articles/a4bb42210142d0</link>
+            <guid>https://zenn.dev/komiyajapan/articles/a4bb42210142d0</guid>
+            <pubDate>Fri, 18 Mar 2022 16:07:25 GMT</pubDate>
+            <description><![CDATA[編集協力：博ノ助（Zenn/Github）   はじめに \TeXマクロ用の日本語版マニュアルがなかったので以下を参照してこの記事を書きました。 https://ftp.kddilabs.jp/CTAN/info/macros2e/macros2e.pdf 前提知識がない場合は、以下の記事を一通り読んでからこの記事をお読みください。 https://texwiki.texjp.org/?TeX入門...]]></description>
+            <content:encoded><![CDATA[編集協力：博ノ助（Zenn/Github）   はじめに \TeXマクロ用の日本語版マニュアルがなかったので以下を参照してこの記事を書きました。 https://ftp.kddilabs.jp/CTAN/info/macros2e/macros2e.pdf 前提知識がない場合は、以下の記事を一通り読んでからこの記事をお読みください。 https://texwiki.texjp.org/?TeX入門%2Fマクロの作成 ! また、記事の折々で編集者による「訳注」をつけさせていただいております。我々も\LaTeXの勉強の一環としてこの記事を編集しています。全くの初心者ですのでもし、間違いや解釈...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Building a Geospatial Application in Python with Google Earth Engine and Greppo | KDnuggets]]></title>
@@ -95,6 +112,14 @@
             <category>WESEEK TECH通信</category>
         </item>
         <item>
+            <title><![CDATA[GitHub ActionsでオープンデータをS3にアップロードしてLambdaで処理する | Zennのトレンド]]></title>
+            <link>https://zenn.dev/uedayou/articles/8787c281379346</link>
+            <guid>https://zenn.dev/uedayou/articles/8787c281379346</guid>
+            <pubDate>Fri, 18 Mar 2022 10:48:51 GMT</pubDate>
+            <description><![CDATA[先日、GitHubで公開しているオープンデータを AWS内で処理する設定を行いました。 その過程を若干一般化して投稿したいと思います。 AWS側の処理はオープンデータをS3にアップロードして、Lambdaで実行する流れになります。 S3へのアップロードをトリガーにLambdaを動かすこともできますが、既にファイルパスを渡すとS3のファイルを取得して処理するものを作成していますので、S3へのアップロ...]]></description>
+            <content:encoded><![CDATA[先日、GitHubで公開しているオープンデータを AWS内で処理する設定を行いました。 その過程を若干一般化して投稿したいと思います。 AWS側の処理はオープンデータをS3にアップロードして、Lambdaで実行する流れになります。 S3へのアップロードをトリガーにLambdaを動かすこともできますが、既にファイルパスを渡すとS3のファイルを取得して処理するものを作成していますので、S3へのアップロード後にGitHub側からLambdaを呼び出すことにしました。   概要 GitHub Actions で AWSのリソースを使えるようにするには、AWS側とGitHub側双方に設定が必要です...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[back check スクラム開発体制における PjM の役割 | ROXX開発者ブログ]]></title>
             <link>https://techblog.roxx.co.jp/entry/2022/03/18/193032</link>
             <guid>https://techblog.roxx.co.jp/entry/2022/03/18/193032</guid>
@@ -123,6 +148,14 @@
             <category>Google Analytics</category>
         </item>
         <item>
+            <title><![CDATA[SentryのPerformance Monitoringを活用する | Zennのトレンド]]></title>
+            <link>https://zenn.dev/standfm/articles/a192751bf1935d</link>
+            <guid>https://zenn.dev/standfm/articles/a192751bf1935d</guid>
+            <pubDate>Fri, 18 Mar 2022 09:13:08 GMT</pubDate>
+            <description><![CDATA[こんにちは、stand.fm エンジニアの 外松(@toshi-toma)です。 stand.fmでは、Sentryをエラー監視に加えて、パフォーマンスの計測でも活用しています。 今回はSentryのPerformance Monitoringの活用方法について紹介します。特にReact Nativeやフロントエンド・クライアントの計測について扱います。   SentryでPerformance ...]]></description>
+            <content:encoded><![CDATA[こんにちは、stand.fm エンジニアの 外松(@toshi-toma)です。 stand.fmでは、Sentryをエラー監視に加えて、パフォーマンスの計測でも活用しています。 今回はSentryのPerformance Monitoringの活用方法について紹介します。特にReact Nativeやフロントエンド・クライアントの計測について扱います。   SentryでPerformance Monitoring SentryはアプリケーションのPerformance Monitoringを提供しています。 https://docs.sentry.io/product/perform...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Meet UB Tech #11「開発者とSREでNewsPicksの可観測性を考える」を公開しました | Uzabase for Engineers]]></title>
             <link>https://tech.uzabase.com/entry/2022/03/18/180405</link>
             <guid>https://tech.uzabase.com/entry/2022/03/18/180405</guid>
@@ -137,6 +170,14 @@
             <pubDate>Fri, 18 Mar 2022 09:02:45 GMT</pubDate>
             <description><![CDATA[バックエンドエンジニアの@nasaです。最近Elasticsearchのversion8から追加された近似最近傍探...]]></description>
             <content:encoded><![CDATA[バックエンドエンジニアの@nasaです。最近Elasticsearchのversion8から追加された近似最近傍探...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Remix Stacksファーストインプレッション | Zennのトレンド]]></title>
+            <link>https://zenn.dev/hrtk/articles/remix-indie-stack</link>
+            <guid>https://zenn.dev/hrtk/articles/remix-indie-stack</guid>
+            <pubDate>Fri, 18 Mar 2022 09:02:20 GMT</pubDate>
+            <description><![CDATA[Remixは前々から気になってはいたのですが、なかなか触れずにいました。 Remix Stacksというのが本日公開されていて、面白そうなので、これを機会にRemixを試してみました。 https://remix.run/blog/remix-stacks   Remix Stacksとは ブログから翻訳した説明を引用します。   CI/CDパイプライン、基本的なデータモデルを持つデータベース（p...]]></description>
+            <content:encoded><![CDATA[Remixは前々から気になってはいたのですが、なかなか触れずにいました。 Remix Stacksというのが本日公開されていて、面白そうなので、これを機会にRemixを試してみました。 https://remix.run/blog/remix-stacks   Remix Stacksとは ブログから翻訳した説明を引用します。   CI/CDパイプライン、基本的なデータモデルを持つデータベース（prisma経由）、そしてユーザー認証まで、わずか数分であなたのアプリを立ち上げ、デプロイする準備ができます。また、Tailwind, TypeScript, Prettier, ESLint, ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[はてなのポッドキャスト Backyard Hatena #7 - id:onk に聞くエンジニア組織とアウトプットを配信中です | Hatena Developer Blog]]></title>
@@ -322,14 +363,6 @@ https://ai-scholar.tech/articles/gan/reacgan | AI技術最新情報メディア 
             <content:encoded><![CDATA[ACGANの訓練が不安定になる原因を解明。ACGANの改良版ReACGANを提案。 ai-scholar.tech/articles/gan…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ASP.NET Core Blazor Server でオレオレ ログインを作りたい | Zennのトレンド]]></title>
-            <link>https://zenn.dev/okazuki/articles/signin-blazor-server</link>
-            <guid>https://zenn.dev/okazuki/articles/signin-blazor-server</guid>
-            <pubDate>Fri, 18 Mar 2022 03:11:31 GMT</pubDate>
-            <description><![CDATA[社内とかで使うようなアプリとかを、サクッと作るのに ASP.NET Core Blazor Server を使うときに無防備に公開はしたくない！でも ASP.NET Core Identity とかを使うのはめんどくさい…みたいなジレンマに襲われることがあると思います。Azure AD などの外部の認証プロバイダーもそうそう使える状態にないという場合だと、相変わらずアプリ内で認証が必要になると思い...]]></description>
-            <content:encoded><![CDATA[社内とかで使うようなアプリとかを、サクッと作るのに ASP.NET Core Blazor Server を使うときに無防備に公開はしたくない！でも ASP.NET Core Identity とかを使うのはめんどくさい…みたいなジレンマに襲われることがあると思います。Azure AD などの外部の認証プロバイダーもそうそう使える状態にないという場合だと、相変わらずアプリ内で認証が必要になると思います。そもそもユーザーの情報は独自の DB に入ってるんだよ…というケースですね。 ASP.NET Core Blazor Server のデフォルトの認証情報は HttpContext.Use...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Sass から styled-components に移行している話 | コネヒト開発者ブログ]]></title>
             <link>https://tech.connehito.com/entry/2022/03/18/120455</link>
             <guid>https://tech.connehito.com/entry/2022/03/18/120455</guid>
@@ -360,14 +393,6 @@ https://ai-scholar.tech/articles/gan/reacgan | AI技術最新情報メディア 
             <pubDate>Fri, 18 Mar 2022 02:55:00 GMT</pubDate>
             <description><![CDATA[Amazon.co.jpのパソコン・周辺ストアでは現在、本日3月18日に発売されたばかりのファーウェイ製モバイルノートPC『Matebook E』シリーズが最大15,000円OFFとなるお得なクーポンを配布中です。さらに製品購入者には先着4,000名限定で、ペイントソフトウェア『CLIP STUDIO PAINT DEBUT』1年無料体験の特典が配布されています。クーポンの有効期限は4月17日（日...]]></description>
             <content:encoded><![CDATA[Amazon.co.jpのパソコン・周辺ストアでは現在、本日3月18日に発売されたばかりのファーウェイ製モバイルノートPC『Matebook E』シリーズが最大15,000円OFFとなるお得なクーポンを配布中です。さらに製品購入者には先着4,000名限定で、ペイントソフトウェア『CLIP STUDIO PAINT DEBUT』1年無料体験の特典が配布されています。クーポンの有効期限は4月17日（日）までです。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Terraform AWS Provider v4 にアップグレード | Zennのトレンド]]></title>
-            <link>https://zenn.dev/kobayashi_m42/articles/terraform-aws-provider-4</link>
-            <guid>https://zenn.dev/kobayashi_m42/articles/terraform-aws-provider-4</guid>
-            <pubDate>Fri, 18 Mar 2022 02:49:00 GMT</pubDate>
-            <description><![CDATA[概要 Terraform AWS Providerをversion 4にアップグレードした際の対応方法をまとめました。 version 4ではaws_s3_bucketリソースで破壊的変更があり、コードを修正する必要があります。 今回は、下記ブログで紹介されていた tfrefactor というツールを利用しました。 このツールはversion 4に準拠したコードを自動で生成でき、思ったより簡単にア...]]></description>
-            <content:encoded><![CDATA[概要 Terraform AWS Providerをversion 4にアップグレードした際の対応方法をまとめました。 version 4ではaws_s3_bucketリソースで破壊的変更があり、コードを修正する必要があります。 今回は、下記ブログで紹介されていた tfrefactor というツールを利用しました。 このツールはversion 4に準拠したコードを自動で生成でき、思ったより簡単にアップグレードできました。 TerraformのAWS Provider Version 4へのアップグレードに伴うコード改修がおっくうなほうへ 便利なツールありますよ | Developer...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ブラウザで伏字になってるパスワードを強制的に表示する方法 | Qiita - 人気の記事]]></title>
@@ -949,8 +974,8 @@ https://ai-scholar.tech/articles/diffusion-model/diffusion_normalizing_flow | AI
             <link>https://moneyforward.com/engineers_blog/2022/03/17/released-go-1-18/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10014</guid>
             <pubDate>Thu, 17 Mar 2022 03:00:42 GMT</pubDate>
-            <description><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></description>
-            <content:encoded><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi 2016参加者がチェックすべき京都飯16選！  生産性が上がるオフィスづくり。  Go BoldにGive it a try!  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  MySQL パーティショニングで高速化   Copyright © Engineers' Blog [待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rea...]]></description>
+            <content:encoded><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Reacji Channelerを使って楽をしようとしたら情弱であることを晒してしまった…の巻  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  ZapierでSlackMessageをParseして外部システムとつなぐ  マネーフォワード京都拠点について気になる事  Emacs Zshなどを設定した話   Copyright © Engineers' Blog [待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1109,8 +1134,8 @@ https://ai-scholar.tech/articles/diffusion-model/diffusion_normalizing_flow | AI
             <link>https://moneyforward.com/engineers_blog/2022/03/17/ghost-method-for-attendance/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10000</guid>
             <pubDate>Thu, 17 Mar 2022 00:30:27 GMT</pubDate>
-            <description><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goog...]]></description>
-            <content:encoded><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Google Playのin-app updatesを使って最高のアップデート体験を実現する  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  TensorFlowをビルドしてみた  Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する  EKSへのデプロイを楽にするためにGitHub Appsを導入しました   Copyright © Engineers' Blog [【Ruby】クラウド勤怠におけるゴーストメソッド利用例], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 遅すぎる...]]></description>
+            <content:encoded><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 遅すぎるfeatureテストに対して試したこと  エンジニアデザインをリファクタしてみた  マネーフォワード開発合宿 in COLONY 箱根  インフラ留学を糧に理想の開発を目指して組織を作るまでの話(Plus Ops でこんにちは)  Pascal VOC形式のxmlファイルとAWS SageMaker Ground Truthのmanifestファイルの相互変換   Copyright © Engineers' Blog [【Ruby】クラウド勤怠におけるゴーストメソッド利用例], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1687,14 +1712,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/covd-19_non_symptom | AI
             <content:encoded><![CDATA[こんにちは、ココナラ プロダクト開発部フロントエンド開発グループの吉田です。社内では「よっしー」と呼ばれています。 2021年12月にココナラのエンジニア51名が参加し久々に交流会を開催しました。コロナが落ち着いた時期だからこそ開催できたこの企画ですが、結果的にはとても有意義なものになりました。 今回は交流会の運営を担当した私がイベントの内容や当日の様子などをレポートします。 （交流会は緊急事態宣言やまん延防止等重点措置が都内に発せられていない期間に実施しております。） 発案者が語る、交流会を行おうと思った理由 そもそもなぜ交流会を行うことになったのか。コロナ禍でどの企業でもコミュニケーション…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[あれもこれもFlutterで開発されてるって、マ？？ | Zennのトレンド]]></title>
-            <link>https://zenn.dev/kooooons/articles/814cc48f6b927a</link>
-            <guid>https://zenn.dev/kooooons/articles/814cc48f6b927a</guid>
-            <pubDate>Wed, 16 Mar 2022 01:42:15 GMT</pubDate>
-            <description><![CDATA[Flutterとは Googleが提供するモバイルアプリフレームワーク。 モバイルアプリフレームワークとは、モバイルアプリの開発を支援するために作られたライブラリのことを指します。 しかも、一度にAndroid、iOSのアプリが開発できるしコストや時間も削減できるってわけ！！！ では紹介していきます。   Mink 美容師の趣味や個性から予約できるアプリ https://apps.apple.co...]]></description>
-            <content:encoded><![CDATA[Flutterとは Googleが提供するモバイルアプリフレームワーク。 モバイルアプリフレームワークとは、モバイルアプリの開発を支援するために作られたライブラリのことを指します。 しかも、一度にAndroid、iOSのアプリが開発できるしコストや時間も削減できるってわけ！！！ では紹介していきます。   Mink 美容師の趣味や個性から予約できるアプリ https://apps.apple.com/jp/app/mink/id1585466367  僕が発案し、Flutter大学の共同開発から開発を始めて、期間終了後もメンバーのKajiwaraさんに残って頂きリリースしたアプリです...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[数列の極限 (教養の微積) | 大学数学の授業ノート]]></title>
             <link>https://math-notes.info/2022/03/16/cal-1/</link>
             <guid>https://math-notes.info/?p=1470</guid>
@@ -1705,14 +1722,6 @@ https://ai-scholar.tech/articles/reinforcement-learning/covd-19_non_symptom | AI
         </item>
         <item>
             <title><![CDATA[非推奨となったMoment.jsから移行を終えた話 | stafesさんのフィード]]></title>
-            <link>https://zenn.dev/stafes/articles/sayonara-moment</link>
-            <guid>https://zenn.dev/stafes/articles/sayonara-moment</guid>
-            <pubDate>Wed, 16 Mar 2022 01:41:06 GMT</pubDate>
-            <description><![CDATA[こんにちは、スターフェスティバル株式会社 エンジニアのsoriです。 今回は1つのサービス内のアプリケーションで使われている日時操作ライブラリMoment.jsを移行した際に気をつけたことなどをお話しします。   なぜ移行したのか Moment.jsは、2020年後半に「今後新機能の開発をせず、新規プロジェクトでの使用を推奨しない」旨アナウンス[1]がありました。 アナウンスとしては、Moment...]]></description>
-            <content:encoded><![CDATA[こんにちは、スターフェスティバル株式会社 エンジニアのsoriです。 今回は1つのサービス内のアプリケーションで使われている日時操作ライブラリMoment.jsを移行した際に気をつけたことなどをお話しします。   なぜ移行したのか Moment.jsは、2020年後半に「今後新機能の開発をせず、新規プロジェクトでの使用を推奨しない」旨アナウンス[1]がありました。 アナウンスとしては、Moment.jsがmutableなAPIを使用しており、immutableなものに変更するためには大きな破壊的な変更が必要になること、 また、バンドルサイズが大きいなどの問題があることが挙げられています。...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[非推奨となったMoment.jsから移行を終えた話 | Zennのトレンド]]></title>
             <link>https://zenn.dev/stafes/articles/sayonara-moment</link>
             <guid>https://zenn.dev/stafes/articles/sayonara-moment</guid>
             <pubDate>Wed, 16 Mar 2022 01:41:06 GMT</pubDate>
@@ -2119,8 +2128,8 @@ https://ai-scholar.tech/articles/reinforcement-learning/covd-19_non_symptom | AI
             <link>https://moneyforward.com/engineers_blog/2022/03/15/crisp-dm/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9996</guid>
             <pubDate>Tue, 15 Mar 2022 00:30:11 GMT</pubDate>
-            <description><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都開...]]></description>
-            <content:encoded><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都開発拠点を2年運営して見えてきた採用の傾向  Nuxt v2 のSPAモードが起動するまでの流れを追ってみた  Go BoldにGive it a try!  Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる  物理（学）が最強（の学問）である - ボルダリング編   Copyright © Engineers' Blog [CRISP-DMに沿ってデータ分析する], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 初めて...]]></description>
+            <content:encoded><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 初めてWWDCに行って - 準備から帰宅まで  少しだけ主夫をやった話  Go言語でDeep Copyする方法  マネーフォワードのJavaエンジニアはどのような環境で仕事をしているのか  マネーフォワードはシルバースポンサーとしてiOSDC JAPAN 2021を応援させていただきます！   Copyright © Engineers' Blog [CRISP-DMに沿ってデータ分析する], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2474,8 +2483,8 @@ https://ai-scholar.tech/articles/reinforcement-learning/covd-19_non_symptom | AI
             <link>https://moneyforward.com/engineers_blog/2022/03/14/openresty/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9987</guid>
             <pubDate>Mon, 14 Mar 2022 00:30:32 GMT</pubDate>
-            <description><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mone...]]></description>
-            <content:encoded><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「エンジニア×営業×CS」  941::blogさんがやってきた！  webpackでRailsアプリのアセットをビルドする  マネーフォワードはエンジニア・デザイナーの福岡・京都へのUIターンをサポートします！  Pull Requestを育てて開発しよう   Copyright © Engineers' Blog [I was thinking NGINX was the best until i knew OPENRESTY], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: QAが開...]]></description>
+            <content:encoded><![CDATA[I’m Hoang, but people call me “Taio”. I … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: QAが開発にチームに入り込むときにやっておきたい、"何もしない"から始めるQA活動  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」  もし年末に夏休みが取れたら京都に行こう！  中学生ハルキのエンジニア体験記   Copyright © Engineers' Blog [I was thinking NGINX was the best until i knew OPENRESTY], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3075,6 +3084,7 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
             <category>AI</category>
             <category>インタビュー</category>
             <category>テクノロジー</category>
+            <category>殿堂入り</category>
             <category>IA除外</category>
             <category>PR</category>
         </item>
@@ -3302,8 +3312,8 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <link>https://moneyforward.com/engineers_blog/2022/03/10/cto-message-202203/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=9984</guid>
             <pubDate>Thu, 10 Mar 2022 02:50:36 GMT</pubDate>
-            <description><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sla...]]></description>
-            <content:encoded><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Slackのデータを可視化してコミュニケーションを活性化させた話  iOS8で導入されたアクション付きPush通知を試してみる  とあるエンジニアのマネフォ的 1日の過ごし方  パフォーマンス・チューニング Rails編  インターンでの性能改善タスクの取り組み   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 品質可...]]></description>
+            <content:encoded><![CDATA[こんにちは、マネーフォワード CTOの中出（なかで）です。 CTOの私が、普段「 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 品質可視化のはじめの一歩！開発プロセス可視化にPFDを使ってみた話  エンジニアリング + 技術広報 = ユニークキャリア  Emacs Zshなどを設定した話  [iOS]MonkeyTalkの導入と挫折  Android：グラフ表示で表現豊かに。MPAndroidChart を使ってみよう！   Copyright © Engineers' Blog [マネーフォワードCTOが考えていること（2022年3月）], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3624,15 +3634,6 @@ https://ai-scholar.tech/articles/treatise/MLMtGCS | AI技術最新情報メデ�
             <pubDate>Wed, 09 Mar 2022 06:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。運用グループ所属の山口です。 ハートビーツでは研修に力を入れています...]]></description>
             <content:encoded><![CDATA[こんにちは。運用グループ所属の山口です。 ハートビーツでは研修に力を入れています...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ポアソン分布の平均値、分散の求め方 | 趣味の大学数学]]></title>
-            <link>https://math-fun.net/20220309/22830/</link>
-            <guid>https://math-fun.net/?p=22830</guid>
-            <pubDate>Wed, 09 Mar 2022 05:41:35 GMT</pubDate>
-            <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ポアソン分布の平均値、分散の求め方を紹介します。 前提知識：離散確率分布とは：一様分布、ベルヌーイ分布、二項分布、ポアソン分布を例に ポアソン分布の平 ... ポアソン分布の平均値、分散の求め方 first appeared on 趣味の大学数学.]]></description>
-            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ポアソン分布の平均値、分散の求め方を紹介します。 前提知識：離散確率分布とは：一様分布、ベルヌーイ分布、二項分布、ポアソン分布を例に ポアソン分布の平 ... ポアソン分布の平均値、分散の求め方 first appeared on 趣味の大学数学.]]></content:encoded>
-            <category>統計学</category>
         </item>
         <item>
             <title><![CDATA[どんなWebサイトも取り込んでコメントや編集ができるコラボツール「Ruttl」を使ってみた！ | paiza開発日誌]]></title>
