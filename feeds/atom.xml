@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-03-29T07:27:41.296Z</updated>
+    <updated>2022-03-29T09:28:51.970Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,52 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[読みやすさとデザインバランスに優れた「Morisawa BIZ UDGothic 1.002」が公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/digest/1398801.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/digest/1398801.html"/>
+        <updated>2022-03-29T08:54:02.000Z</updated>
+        <published>2022-03-29T08:54:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multipassをもう少し深掘り（公開鍵認証編） | 仮想化通信]]></title>
+        <id>https://tech.virtualtech.jp/entry/2022/03/29/170924</id>
+        <link href="https://tech.virtualtech.jp/entry/2022/03/29/170924"/>
+        <updated>2022-03-29T08:09:24.000Z</updated>
+        <summary type="html"><![CDATA[前回、Multipassを使って手元の環境でKubernetesを動かすという記事を書きました。 tech.virtualtech.jp 今回は作ったクラスターをログインせずに使えたら便利だよねという小ネタです。 Multipass VMにssh公開鍵認証 MultipassでVMを作るには次のような感じでコマンドを実行します。 イメージは指定しない場合、LTSタグが指定されたUbuntuイメージ...]]></summary>
+        <content type="html"><![CDATA[前回、Multipassを使って手元の環境でKubernetesを動かすという記事を書きました。 tech.virtualtech.jp 今回は作ったクラスターをログインせずに使えたら便利だよねという小ネタです。 Multipass VMにssh公開鍵認証 MultipassでVMを作るには次のような感じでコマンドを実行します。 イメージは指定しない場合、LTSタグが指定されたUbuntuイメージが使われます（現在はUbuntu 20.04LTS）。 % multipass launch -n foo (基本のVM作成方法) % multipass launch -c2 -m4G -d16G …]]></content>
+        <published>2022-03-29T08:09:24.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Skupperを使ってクラスタ間を結びコンテナイメージをコピー | 赤帽エンジニアブログ]]></title>
+        <id>https://rheb.hatenablog.com/entry/2022/03/29/Skupper%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E9%96%93%E3%82%92%E7%B5%90%E3%81%B3%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92</id>
+        <link href="https://rheb.hatenablog.com/entry/2022/03/29/Skupper%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%82%AF%E3%83%A9%E3%82%B9%E3%82%BF%E9%96%93%E3%82%92%E7%B5%90%E3%81%B3%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8%E3%82%92"/>
+        <updated>2022-03-29T07:36:49.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、Red Hatでソリューションアーキテクトをしている石川です。 前回の記事ではOpenShift Pipelines（Tekton）の中でskopeoを動かし、CIパイプラインでビルドしたイメージを別クラスタのコンテナレジストリにコピーしました。 この際、あて先となるクラスタではコンテナレジストリに接続するためのrouteを公開し、それを通じてCI実行側のクラスタからイメージをコピーし...]]></summary>
+        <content type="html"><![CDATA[こんにちは、Red Hatでソリューションアーキテクトをしている石川です。 前回の記事ではOpenShift Pipelines（Tekton）の中でskopeoを動かし、CIパイプラインでビルドしたイメージを別クラスタのコンテナレジストリにコピーしました。 この際、あて先となるクラスタではコンテナレジストリに接続するためのrouteを公開し、それを通じてCI実行側のクラスタからイメージをコピーしました。 rheb.hatenablog.com 今回の記事ではSkupperを使うことであて先クラスタ側でrouteを公開することなくイメージのコピーを実施したいと思います。 そもそもSkupper…]]></content>
+        <published>2022-03-29T07:36:49.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【追実験】D-Wave LeapのDQMを使って地図の塗り分け問題を最少の色で解く | AIREV株式会社さんのフィード]]></title>
+        <id>https://zenn.dev/airev/articles/airev-quantum-08</id>
+        <link href="https://zenn.dev/airev/articles/airev-quantum-08"/>
+        <updated>2022-03-29T07:36:36.000Z</updated>
+        <summary type="html"><![CDATA[はじめに AIREV株式会社の上里です。 以前に投稿したDiscrete Quadratic Model（DQM）で地図の塗り分け問題を解く記事で、カナダの州を4色で塗り分けてみました。こちらはD-Waveの公式ドキュメントの例題を使わせていただいたのですが、塗り分け結果の地図をまじまじ見ていると、「3色でも塗り分けられそうな地図じゃないか？」ということに気が付いてしまいました。今回はより少ない色...]]></summary>
+        <content type="html"><![CDATA[はじめに AIREV株式会社の上里です。 以前に投稿したDiscrete Quadratic Model（DQM）で地図の塗り分け問題を解く記事で、カナダの州を4色で塗り分けてみました。こちらはD-Waveの公式ドキュメントの例題を使わせていただいたのですが、塗り分け結果の地図をまじまじ見ていると、「3色でも塗り分けられそうな地図じゃないか？」ということに気が付いてしまいました。今回はより少ない色で地図の塗り分けを行うように問題定式化を工夫し、実際に3色で塗り分けができるか、追実験をしてみたいと思います。   前回の問題定式化のおさらい ここでは簡単におさらいをしますが、DQMの基礎...]]></content>
+        <author>
+            <name>AIREV株式会社</name>
+        </author>
+        <published>2022-03-29T07:36:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sysbench でカスタム負荷試験を書く | freee Developers Hub]]></title>
+        <id>https://developers.freee.co.jp/entry/writing-sysbench-custom-test</id>
+        <link href="https://developers.freee.co.jp/entry/writing-sysbench-custom-test"/>
+        <updated>2022-03-29T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、Database Reliability Engineer (DBRE) チームの寺沢です。 業務柄、負荷試験をする機会がちょこちょこあるのですが、sysbench のカスタムテストを書くのが意外に簡単であること、かつ想像よりも色々できて便利だったので、まだ使ってない方に向けて共有しようと思います。 Sysbench の使い方 前置きとして、sysbench の基本的な使い方をおさらい...]]></summary>
+        <content type="html"><![CDATA[こんにちは、Database Reliability Engineer (DBRE) チームの寺沢です。 業務柄、負荷試験をする機会がちょこちょこあるのですが、sysbench のカスタムテストを書くのが意外に簡単であること、かつ想像よりも色々できて便利だったので、まだ使ってない方に向けて共有しようと思います。 Sysbench の使い方 前置きとして、sysbench の基本的な使い方をおさらいします。 https://github.com/akopytov/sysbench#general-syntax sysbench [options]... [testname] [command] …]]></content>
+        <published>2022-03-29T07:30:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[本日終了のAmazon新生活セールでUSB 3.0接続の外付けHDDが安い！【本日みつけたお買い得情報】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1398789.html</id>
@@ -63,6 +109,15 @@
         <summary type="html"><![CDATA[こんにちは、クラシルAndroidエンジニアの@MeilCliです。前回、クラシル内のレシピ保存機能の開発に際してページングに関して考慮した理想のUXについての考え方について紹介しました tech.dely.jp 今回はそれの後編にあたり、Android側の実際の実装に関して深ぼって紹介しようと思います 設計 前回の記事において、サーバー側は時刻ベースのCursorを用いたページングAPIの実装、...]]></summary>
         <content type="html"><![CDATA[こんにちは、クラシルAndroidエンジニアの@MeilCliです。前回、クラシル内のレシピ保存機能の開発に際してページングに関して考慮した理想のUXについての考え方について紹介しました tech.dely.jp 今回はそれの後編にあたり、Android側の実際の実装に関して深ぼって紹介しようと思います 設計 前回の記事において、サーバー側は時刻ベースのCursorを用いたページングAPIの実装、クライアント側は要素の追加・移動などのユーザー操作を記録し、その差分反映をリストに対して行うという実装方針を紹介しました これをクラシルAndroidの設計に基づいた構造に落とし込んでいきます クラシ…]]></content>
         <published>2022-03-29T05:56:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tensorコアで深層学習モデルの学習を高速化してみた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/MotonobuHommi/items/f12a500d6c475ce59790?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/MotonobuHommi/items/f12a500d6c475ce59790?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-29T05:39:28.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。(株)日立製作所のLumada Data Science Lab.／社会システム事業部デジタルイノベーションセンタの本美です。普段は社会インフラのAIシステムの企画から試作、開発を推進…]]></summary>
+        <content type="html"><![CDATA[こんにちは。(株)日立製作所のLumada Data Science Lab.／社会システム事業部デジタルイノベーションセンタの本美です。普段は社会インフラのAIシステムの企画から試作、開発を推進…]]></content>
+        <published>2022-03-29T05:39:28.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「Windows セキュリティ」に脆弱なドライバーのブロックリスト ～悪用可能なカーネルドライバーの実行を阻止してシステムを保護／エンタープライズセキュリティをよりアグレッシブに強化 | 窓の杜]]></title>
@@ -167,7 +222,7 @@
         <link href="https://tech.yappli.io/entry/2022/03/29/Sexy_Tech_for_You_11"/>
         <updated>2022-03-29T03:48:07.000Z</updated>
         <summary type="html"><![CDATA[データサイエンティストの阿部です。この1年間、毎週土曜日に8時間副業していました。結果、週休二日制のありがたみがわかりました。 さて、明日から使いたくなるデータハンドリング術を紹介する "Sexy Tech for You" の第11話を配信しました。例えばDAUとMAUを一括集計するなど、同一テーブルから粒度が異なる集計結果をまとめて得たいケースの対応方法について、3パターン紹介しました。以下の...]]></summary>
-        <content type="html"><![CDATA[データサイエンティストの阿部です。この1年間、毎週土曜日に8時間副業していました。結果、週休二日制のありがたみがわかりました。 さて、明日から使いたくなるデータハンドリング術を紹介する "Sexy Tech for You" の第11話を配信しました。例えばDAUとMAUを一括集計するなど、同一テーブルから粒度が異なる集計結果をまとめて得たいケースの対応方法について、3パターン紹介しました。以下のような集計をしたいイメージです。 集計粒度 日付 値 daily 2020-01-01 50 daily 2020-01-02 30 monthly 2020-01-01 80 3パターンいずれも同じ…]]></content>
+        <content type="html"><![CDATA[データサイエンティストの阿部です。この1年間、毎週土曜日に8時間副業していました。結果、週休二日制のありがたみがわかりました。 さて、明日から使いたくなるデータハンドリング術を紹介する "Sexy Tech for You" の第11話を配信しました。例えばDAUとMAUを一括集計するなど、同一テーブルから粒度が異なる集計結果をまとめて得たいケースの対応方法について、3パターン紹介しました。以下のような集計結果がほしいイメージです。 集計粒度 日付 値 daily 2020-01-01 50 daily 2020-01-02 30 monthly 2020-01-01 80 3パターンいずれも…]]></content>
         <published>2022-03-29T03:48:07.000Z</published>
     </entry>
     <entry>
@@ -180,7 +235,7 @@
         <published>2022-03-29T03:41:41.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[大規模な事前学習モデルについて、破局的忘却がモデルやデータセットサイズによってどれだけ変化するのかなどについて調査を行った研究について紹介します。
+        <title type="html"><![CDATA[RT by @ai_scholar: 大規模な事前学習モデルについて、破局的忘却がモデルやデータセットサイズによってどれだけ変化するのかなどについて調査を行った研究について紹介します。
 https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pretrain | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
         <id>https://nitter.net/ai_scholar/status/1508641436241379334#m</id>
         <link href="https://nitter.net/ai_scholar/status/1508641436241379334#m"/>
@@ -361,8 +416,8 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <id>https://moneyforward.com/engineers_blog/?p=10033</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/29/kibela-api-into-noteplan/"/>
         <updated>2022-03-29T00:30:45.000Z</updated>
-        <summary type="html"><![CDATA[I’m Kay and joined Money Forward as a ne … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></summary>
-        <content type="html"><![CDATA[I’m Kay and joined Money Forward as a ne … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Androidアプリのデバッグメニューを作ろう  Apple Payで！マネーフォワードとSuicaを！ついに連携する！  最近のruby-core (2016年2月)  How to start SRE in a small team, all by yourself.  マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた   Copyright © Engineers' Blog [How I integrated the Kibela API into my local note-taking routine], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[I’m Kay and joined Money Forward as a ne … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 202...]]></summary>
+        <content type="html"><![CDATA[I’m Kay and joined Money Forward as a ne … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 2020年のマネーフォワード  エストニアのe-residencyカードでsshする  SSL 3.0の脆弱性「POODLE」対応済みのお知らせ  AWS IAM Userアクセスキーのローテーションを自動化しました  エンジニアブログ、始めました   Copyright © Engineers' Blog [How I integrated the Kibela API into my local note-taking routine], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -434,6 +489,15 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <published>2022-03-28T21:45:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[「ソフトウェアアーキテクチャの基礎」を読んだので、その要点 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/e99h2121/items/1844f5ed8da453a6dfb0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/e99h2121/items/1844f5ed8da453a6dfb0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T21:22:51.000Z</updated>
+        <summary type="html"><![CDATA[ソフトウェアアーキテクチャの基礎 ―エンジニアリングに基づく体系的アプローチ | Mark Richards, Neal Ford, 島田 浩二 |本 | 通販 | Amazon    を読み直したのでそ…]]></summary>
+        <content type="html"><![CDATA[ソフトウェアアーキテクチャの基礎 ―エンジニアリングに基づく体系的アプローチ | Mark Richards, Neal Ford, 島田 浩二 |本 | 通販 | Amazon    を読み直したのでそ…]]></content>
+        <published>2022-03-28T21:22:51.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Amazon to host StatML Oxford Imperial ML Workshop in Berlin office | Amazon Science Homepage]]></title>
         <id>https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office</id>
         <link href="https://www.amazon.science/latest-news/amazon-to-host-statml-oxford-imperial-ml-workshop-in-berlin-office"/>
@@ -441,6 +505,24 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <summary type="html"><![CDATA[Workshop provides opportunity for students to showcase their work and for connections to be established between academics and Amazon researchers.]]></summary>
         <content type="html"><![CDATA[Workshop provides opportunity for students to showcase their work and for connections to be established between academics and Amazon researchers.]]></content>
         <published>2022-03-28T20:34:28.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コードレビューしませんか？メリット・デメリットを解説 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ushi_osushi/items/91498bd4cad88d7cd1c0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ushi_osushi/items/91498bd4cad88d7cd1c0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T18:04:08.000Z</updated>
+        <summary type="html"><![CDATA[現在多くのチームでコードレビューをする文化があると思いますが、コードレビューをしていない環境もまだまだ存在します。 これからコードレビュー導入・運用するにあたって事前に理解しておきたいメリットとデメ…]]></summary>
+        <content type="html"><![CDATA[現在多くのチームでコードレビューをする文化があると思いますが、コードレビューをしていない環境もまだまだ存在します。 これからコードレビュー導入・運用するにあたって事前に理解しておきたいメリットとデメ…]]></content>
+        <published>2022-03-28T18:04:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【PyTorch】DataLoaderのshuffleとは | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/tori-san/items/8715a439e354b32fbf93?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/tori-san/items/8715a439e354b32fbf93?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T17:15:33.000Z</updated>
+        <summary type="html"><![CDATA[なんとなく利用していたDataLoader。さらになんとなく利用していた引数shuffle。本記事では引数shuffleにより、サンプル抽出がどのように変わるのかをコードともに残しておく。 下記の質…]]></summary>
+        <content type="html"><![CDATA[なんとなく利用していたDataLoader。さらになんとなく利用していた引数shuffle。本記事では引数shuffleにより、サンプル抽出がどのように変わるのかをコードともに残しておく。 下記の質…]]></content>
+        <published>2022-03-28T17:15:33.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[既存インフラのIaC実現へ向けた取り組み | Zennのトレンド]]></title>
@@ -453,6 +535,15 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
             <name>ユータ</name>
         </author>
         <published>2022-03-28T15:55:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Delphi] Transition の使い方 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/pik/items/c6a3d74582f516bf0712?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/pik/items/c6a3d74582f516bf0712?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T15:33:02.000Z</updated>
+        <summary type="html"><![CDATA[Transition  なぜか、Transition について書いた記事があまりないので、Transition の紹介。 まずは、↓これを（サイズ大きめなので表示までに時間かかるかも＆実機ではもっと…]]></summary>
+        <content type="html"><![CDATA[Transition  なぜか、Transition について書いた記事があまりないので、Transition の紹介。 まずは、↓これを（サイズ大きめなので表示までに時間かかるかも＆実機ではもっと…]]></content>
+        <published>2022-03-28T15:33:02.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Flutter/Riverpod】グローバルなプログレスインジケータを実装する | フューチャー技術ブログ]]></title>
@@ -478,6 +569,15 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <published>2022-03-28T14:32:56.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【chrome拡張機能】teratailで不快なユーザをブロックする拡張機能を開発 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/mineralwater/items/5a6e016633bf00e4ea24?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/mineralwater/items/5a6e016633bf00e4ea24?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T14:19:09.000Z</updated>
+        <summary type="html"><![CDATA[はじめに  はじめまして！ 最近teratailを使い始めたのですが、意味のない質問を連投しているすごく鬱陶しいユーザがいて不快な気持ちになりました。しかし、teratailには標準のブロック機能が…]]></summary>
+        <content type="html"><![CDATA[はじめに  はじめまして！ 最近teratailを使い始めたのですが、意味のない質問を連投しているすごく鬱陶しいユーザがいて不快な気持ちになりました。しかし、teratailには標準のブロック機能が…]]></content>
+        <published>2022-03-28T14:19:09.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Data Science at the Command Line: The Free eBook | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=139873</id>
         <link href="https://www.kdnuggets.com/2022/03/data-science-command-line-free-ebook.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=data-science-at-the-command-line-the-free-ebook"/>
@@ -499,6 +599,15 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <summary type="html"><![CDATA[Method Dispatchとは、メソッドの呼び出しに関するアルゴリズム  Method Dispatchとはメソッド呼び出す際に、どのメソッドを呼び出すのかを選択するためのアルゴリズムです。もう…]]></summary>
         <content type="html"><![CDATA[Method Dispatchとは、メソッドの呼び出しに関するアルゴリズム  Method Dispatchとはメソッド呼び出す際に、どのメソッドを呼び出すのかを選択するためのアルゴリズムです。もう…]]></content>
         <published>2022-03-28T13:49:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LINEログインをPHPで実装する | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/shiro0507/items/c5bfcdfdbb4cbbae2644?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/shiro0507/items/c5bfcdfdbb4cbbae2644?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T12:34:49.000Z</updated>
+        <summary type="html"><![CDATA[LINE for Businessのアカウントでお客さんとやり取りした後に、フォーム入力をお願いすることになりました。フォームにメアドやLINEのニックネームを入力をお願いするのもリダンダントなので…]]></summary>
+        <content type="html"><![CDATA[LINE for Businessのアカウントでお客さんとやり取りした後に、フォーム入力をお願いすることになりました。フォームにメアドやLINEのニックネームを入力をお願いするのもリダンダントなので…]]></content>
+        <published>2022-03-28T12:34:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top 13 Skills That Every Data Scientist Should Have | KDnuggets]]></title>
@@ -581,6 +690,15 @@ https://ai-scholar.tech/articles/continual-learning/catastrophic-forgetting-pret
         <category label="Ruby on Rails"/>
         <category label="週刊Railsウォッチ"/>
         <published>2022-03-28T09:57:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ECS Fargateを自動停止・自動起動する設定をTerraformで作成してみた。 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/keitah/items/aafdbb98dd79705fb604?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/keitah/items/aafdbb98dd79705fb604?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T09:46:14.000Z</updated>
+        <summary type="html"><![CDATA[※注意  自分用のメモです。 ECSの自動停止・自動起動の設定を入れたので記載します。 コンソールでポチポチするんも面倒なので、terraformで作成できるようにしました。  用途  コスト削減等で夜間…]]></summary>
+        <content type="html"><![CDATA[※注意  自分用のメモです。 ECSの自動停止・自動起動の設定を入れたので記載します。 コンソールでポチポチするんも面倒なので、terraformで作成できるようにしました。  用途  コスト削減等で夜間…]]></content>
+        <published>2022-03-28T09:46:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[強化学習を活用し、個人特性および多様な治療目標を考慮した治療方針に対する導出アルゴリズムの構築を目指す。
@@ -741,6 +859,15 @@ https://ai-scholar.tech/articles/medical/dm_type2_rl | AI技術最新情報メ�
         <published>2022-03-28T05:31:42.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PaizaでBランクを取るまでに学んだこと(Python編) | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/fuyusamu/items/33c801a46b8008f053e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/fuyusamu/items/33c801a46b8008f053e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T05:22:06.000Z</updated>
+        <summary type="html"><![CDATA[なにこれ？  Python初心者がpaizaでＢランクを取るまでに特に苦戦した・知って便利だったと思ったことを書き散らしたものです。リマインド程度に  前提  この記事はfor文・if文・リストなどの基…]]></summary>
+        <content type="html"><![CDATA[なにこれ？  Python初心者がpaizaでＢランクを取るまでに特に苦戦した・知って便利だったと思ったことを書き散らしたものです。リマインド程度に  前提  この記事はfor文・if文・リストなどの基…]]></content>
+        <published>2022-03-28T05:22:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「WEラブ赤ちゃんプロジェクト」古都に馴染むクリエイティブ制作を考えた！ | エキサイト TechBlog.]]></title>
         <id>https://tech.excite.co.jp/entry/2022/03/28/134612</id>
         <link href="https://tech.excite.co.jp/entry/2022/03/28/134612"/>
@@ -846,15 +973,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-28T03:55:42.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[キミがGroupieを使うワケ。 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/mi_iroha/items/767c2e486fb4d6bae258?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/mi_iroha/items/767c2e486fb4d6bae258?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-28T03:40:31.000Z</updated>
-        <summary type="html"><![CDATA[この記事は  なぜ生のRecyclerViewではなく、Groupieを使うのか。 Groupieを選択することによる利点を、具体的なアプリを用いて説明していきます！  例とするアプリ：ZOZOTOWN …]]></summary>
-        <content type="html"><![CDATA[この記事は  なぜ生のRecyclerViewではなく、Groupieを使うのか。 Groupieを選択することによる利点を、具体的なアプリを用いて説明していきます！  例とするアプリ：ZOZOTOWN …]]></content>
-        <published>2022-03-28T03:40:31.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[MicrosoftがひっそりとWindows 11に「重大な」変更を加える模様と報じた記事がトップ ～窓の杜アクセスランキング［2022/03/21～2022/03/27］【記事アクセスランキング】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/accessranking/1398332.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/serial/accessranking/1398332.html"/>
@@ -871,6 +989,15 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <summary type="html"><![CDATA[無料・軽量・高機能と3拍子揃った定番の画像ビューワー「IrfanView」の最新版v4.60が、3月18日に公開された。本バージョンの注目の変更点は、画像の比較機能が追加されたこと。]]></summary>
         <content type="html"><![CDATA[無料・軽量・高機能と3拍子揃った定番の画像ビューワー「IrfanView」の最新版v4.60が、3月18日に公開された。本バージョンの注目の変更点は、画像の比較機能が追加されたこと。]]></content>
         <published>2022-03-28T03:11:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Typescript】isを使って型を絞り込む | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/peach_branch/items/28779cb7827e1cab1734?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/peach_branch/items/28779cb7827e1cab1734?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-03-28T03:05:30.000Z</updated>
+        <summary type="html"><![CDATA[はじめに  typescriptで開発をしていると複数の型の可能性があるものを絞り込むことは多々あると思います。 その際に使えるユーザー定義型ガードの使用方法を紹介します。 早速使用例をみてみましょう …]]></summary>
+        <content type="html"><![CDATA[はじめに  typescriptで開発をしていると複数の型の可能性があるものを絞り込むことは多々あると思います。 その際に使えるユーザー定義型ガードの使用方法を紹介します。 早速使用例をみてみましょう …]]></content>
+        <published>2022-03-28T03:05:30.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Angular,cosmos-clientによるブロックチェーンWebアプリフロントエンド開発3（Staking機能） | 株式会社CauchyEさんのフィード]]></title>
@@ -1418,15 +1545,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-27T21:07:47.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【GAS】資料を簡単にまとめてくれていろいろ教えてくれるLINEBOTで業務効率化してみた！ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/schnee25/items/06f1d997b516c1bab826?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/schnee25/items/06f1d997b516c1bab826?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-27T17:05:35.000Z</updated>
-        <summary type="html"><![CDATA[GASとLINE Messaging APIでサークルの業務効率化を図ってみました。GASあんまり使ったことなかったので自分用メモも兼ねて  作りたいもの  サークルの業務効率化のためのLINEBOT  …]]></summary>
-        <content type="html"><![CDATA[GASとLINE Messaging APIでサークルの業務効率化を図ってみました。GASあんまり使ったことなかったので自分用メモも兼ねて  作りたいもの  サークルの業務効率化のためのLINEBOT  …]]></content>
-        <published>2022-03-27T17:05:35.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【日本語モデル付き】2022年にマルチモーダル処理をする人にお勧めしたい事前学習済みモデル | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/sonoisa/items/00e8e2861147842f0237?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/sonoisa/items/00e8e2861147842f0237?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1452,15 +1570,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-27T15:04:32.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【EC2/Amazon Linux2】RailsアプリケーションのログをCloudWatchLogsに転送 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/yokku21/items/c0fd1d370b833914f658?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/yokku21/items/c0fd1d370b833914f658?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-27T15:03:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  Railsアプリケーションではデフォルトでlogsフォルダにログ情報を出力してくれます。 本番環境で運用している場合、EC2インスタンスを複数台用意して冗長構成としている場合が多いと思い…]]></summary>
-        <content type="html"><![CDATA[はじめに  Railsアプリケーションではデフォルトでlogsフォルダにログ情報を出力してくれます。 本番環境で運用している場合、EC2インスタンスを複数台用意して冗長構成としている場合が多いと思い…]]></content>
-        <published>2022-03-27T15:03:06.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[fromJsonをNamed ConstructorsでもStaticメソッドでもなく、factoryコンストラクタで書く理由 | フューチャー技術ブログ]]></title>
         <id>https://future-architect.github.io/articles/20220328a/</id>
         <link href="https://future-architect.github.io/articles/20220328a/"/>
@@ -1480,15 +1589,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
             <name>maroKanatani</name>
         </author>
         <published>2022-03-27T13:49:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エンジニアを辞めて、コンサルになってから独立までの色々なまとめ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/jw-automation/items/50a303ad152c03ea5f28?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/jw-automation/items/50a303ad152c03ea5f28?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-27T13:25:58.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  新卒で入社した事業会社のエンジニアを辞めて、コンサルに転身し、転職3回の後、独立しました。  まだまだ勉強中(というより一生勉強)の身ではありますが、自分の思考の整理も含め、色々と思う所を…]]></summary>
-        <content type="html"><![CDATA[はじめに  新卒で入社した事業会社のエンジニアを辞めて、コンサルに転身し、転職3回の後、独立しました。  まだまだ勉強中(というより一生勉強)の身ではありますが、自分の思考の整理も含め、色々と思う所を…]]></content>
-        <published>2022-03-27T13:25:58.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[映像授業を見るのが100倍楽しくなる話【スタサプ×ヨビノリ】 | 予備校のノリで学ぶ「大学の数学・物理」]]></title>
@@ -1535,15 +1635,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <summary type="html"><![CDATA[はじめに  つい先日NFT総合マーケットプレイス「LINE NFT」 4月13日(水)に提供開始というプレスリリースが出てNFTマーケットβが正式リリースになるんだなあと思いました。 開発者としては…]]></summary>
         <content type="html"><![CDATA[はじめに  つい先日NFT総合マーケットプレイス「LINE NFT」 4月13日(水)に提供開始というプレスリリースが出てNFTマーケットβが正式リリースになるんだなあと思いました。 開発者としては…]]></content>
         <published>2022-03-27T08:03:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【個人開発】温泉宿の情報交換ができる掲示板とSNSが組み合わさったサービス「みんなの温泉宿」を開発しました。 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/hirokazudesu/items/5f1b920d7418beda793f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/hirokazudesu/items/5f1b920d7418beda793f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-27T07:59:43.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  こんにちは。ひろかずと申します。独学でプログラミングを学んだ後、タイトルにあるようなサービス「みんなの温泉宿」を作ってみました。 作ろうと思った理由は主に以下の2点です。  ①自分自身が温…]]></summary>
-        <content type="html"><![CDATA[はじめに  こんにちは。ひろかずと申します。独学でプログラミングを学んだ後、タイトルにあるようなサービス「みんなの温泉宿」を作ってみました。 作ろうと思った理由は主に以下の2点です。  ①自分自身が温…]]></content>
-        <published>2022-03-27T07:59:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AIで遊べるデモサイト「AI World」 | Qiita - 人気の記事]]></title>
@@ -1684,15 +1775,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-26T10:26:11.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【GAS】学習塾の入退室管理Botを作ってみた | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/yomogi5893/items/8f7f4486e86ae426921b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/yomogi5893/items/8f7f4486e86ae426921b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-26T09:12:50.000Z</updated>
-        <summary type="html"><![CDATA[Googleフォームが送信されると、Lineに入退室が通知されるBotを作成しました。  経緯   私は工学部2年の大学生です。課外活動の一環で、学習塾の業務効率化のため生徒の入退室を保護者へ通知するシ…]]></summary>
-        <content type="html"><![CDATA[Googleフォームが送信されると、Lineに入退室が通知されるBotを作成しました。  経緯   私は工学部2年の大学生です。課外活動の一環で、学習塾の業務効率化のため生徒の入退室を保護者へ通知するシ…]]></content>
-        <published>2022-03-26T09:12:50.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Prisma に入門して API サーバを作ってみる | HERP TechHub]]></title>
         <id>https://numb86-tech.hatenablog.com/entry/2022/03/26/180052</id>
         <link href="https://numb86-tech.hatenablog.com/entry/2022/03/26/180052"/>
@@ -1734,24 +1816,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-26T08:53:02.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn K-Means Clustering by Quantizing Color Images in Python | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/learn-k-means-clustering-by-quantizing-color-images-in-python?source=rss</id>
-        <link href="https://hackernoon.com/learn-k-means-clustering-by-quantizing-color-images-in-python?source=rss"/>
-        <updated>2022-03-26T08:44:23.000Z</updated>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="k-means-clustering"/>
-        <category label="python-tutorials"/>
-        <category label="image-color-quantization"/>
-        <category label="unsupervised-learning"/>
-        <category label="blogging-fellowship"/>
-        <category label="clustering-algorithms"/>
-        <category label="hackernoon-top-story"/>
-        <category label="machine-learning"/>
-        <published>2022-03-26T08:44:23.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【Nuxt.js × Firebase】個人開発でWebアプリを立ち上げるまでにやったこと | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/raajia_zerusen/items/7b60cb0034ad3b8c1161?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/raajia_zerusen/items/7b60cb0034ad3b8c1161?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1759,24 +1823,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <summary type="html"><![CDATA[はじめに  システム開発の世界に足を踏み込んで3年目のペーペーです。 この度初めて個人開発でWebアプリを作ってみました。 せっかくなら0からアプリリリースまでの流れを記事に起こし、これから開発を始…]]></summary>
         <content type="html"><![CDATA[はじめに  システム開発の世界に足を踏み込んで3年目のペーペーです。 この度初めて個人開発でWebアプリを作ってみました。 せっかくなら0からアプリリリースまでの流れを記事に起こし、これから開発を始…]]></content>
         <published>2022-03-26T08:33:31.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[結論から報告するのは難しい | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/kaku3/items/f8411523cce000de750e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/kaku3/items/f8411523cce000de750e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-26T07:44:59.000Z</updated>
-        <summary type="html"><![CDATA[「結論から報告しろ」  様々なビジネス書にもドヤ顔^1で書かれていますし、その様に報告してもらいたいのはその通りですが、この発言をすることによって結論から報告してもらえるようになったことはあまりない…]]></summary>
-        <content type="html"><![CDATA[「結論から報告しろ」  様々なビジネス書にもドヤ顔^1で書かれていますし、その様に報告してもらいたいのはその通りですが、この発言をすることによって結論から報告してもらえるようになったことはあまりない…]]></content>
-        <published>2022-03-26T07:44:59.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Goのポインタを図解で理解する。 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/sho_U/items/d6f8c1c23b9087d36cf8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/sho_U/items/d6f8c1c23b9087d36cf8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-26T07:32:08.000Z</updated>
-        <summary type="html"><![CDATA[Goのポインタについて、よく分からなかったので、図を交えて理解してみました。  下記のようなコードがあるとします。  package main import "fmt"  func main() {  v…]]></summary>
-        <content type="html"><![CDATA[Goのポインタについて、よく分からなかったので、図を交えて理解してみました。  下記のようなコードがあるとします。  package main import "fmt"  func main() {  v…]]></content>
-        <published>2022-03-26T07:32:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[React.ComponentProps 型を積極的に使おう | Zennのトレンド]]></title>
@@ -1802,24 +1848,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         </author>
         <category label="統計学"/>
         <published>2022-03-26T05:36:32.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Flutter】音声ファイルをバックグラウンド再生する | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/heyhey1028/items/0504730eb594c7e5f59a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/heyhey1028/items/0504730eb594c7e5f59a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-26T02:06:56.000Z</updated>
-        <summary type="html"><![CDATA[概要  Flutterにて音声ファイルを再生するのにjust_audioを使いますが、実際アプリとして使うような場合はバックグラウンド再生もやりたいですよね。  今回はjust_audioパッケージに…]]></summary>
-        <content type="html"><![CDATA[概要  Flutterにて音声ファイルを再生するのにjust_audioを使いますが、実際アプリとして使うような場合はバックグラウンド再生もやりたいですよね。  今回はjust_audioパッケージに…]]></content>
-        <published>2022-03-26T02:06:56.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「第一回プログラミング教育について話し合う会」に参加したので、その感想 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/flyaway/items/8a40f3bbd0b6bf54f9c2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/flyaway/items/8a40f3bbd0b6bf54f9c2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-03-26T01:06:57.000Z</updated>
-        <summary type="html"><![CDATA[「第一回プログラミング教育について話し合う会」に参加しました。  https://opt.connpass.com/event/240392/  私自身は、どちらかと言うと、初学者にプログラミングを教え…]]></summary>
-        <content type="html"><![CDATA[「第一回プログラミング教育について話し合う会」に参加しました。  https://opt.connpass.com/event/240392/  私自身は、どちらかと言うと、初学者にプログラミングを教え…]]></content>
-        <published>2022-03-26T01:06:57.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ジョークコマンド "dont" を作った | Zennのトレンド]]></title>
@@ -2154,15 +2182,6 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         </author>
         <category label="統計学"/>
         <published>2022-03-25T05:54:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[無償のウイルス対策ソフト「Bitdefender Antivirus」が生まれ変わって再公開／日本語にも対応 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1397959.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1397959.html"/>
-        <updated>2022-03-25T05:53:12.000Z</updated>
-        <summary type="html"><![CDATA[ルーマニアのセキュリティベンダーBitdefenderは3月17日（米国時間）、無償のアンチウイルス製品「Bitdefender Antivirus Free for Windows」のリリースを発表した。昨年末、配布を終了した「Bitdefender Antivirus Free Edition」に代わる新製品だ。]]></summary>
-        <content type="html"><![CDATA[ルーマニアのセキュリティベンダーBitdefenderは3月17日（米国時間）、無償のアンチウイルス製品「Bitdefender Antivirus Free for Windows」のリリースを発表した。昨年末、配布を終了した「Bitdefender Antivirus Free Edition」に代わる新製品だ。]]></content>
-        <published>2022-03-25T05:53:12.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Win Sessionで元気に目標を達成するチームづくり | コネヒト開発者ブログ]]></title>
@@ -3372,8 +3391,8 @@ https://reg.rainfocus.com/flow/nvidia/gtcspring2022/aplive/page/ap/session/16423
         <id>https://moneyforward.com/engineers_blog/?p=10023</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/23/automation-for-access-keys/"/>
         <updated>2022-03-23T00:30:51.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。サービス基盤本部でPlatform SREとして全社共通のインフラ基 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。サービス基盤本部でPlatform SREとして全社共通のインフラ基 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チームで業務知識を獲得するための取り組み  ポエムは恥だが役に立つ  本番環境で全削除コマンド！  webpackでRailsアプリのアセットをビルドする  IT勉強会の会場無料提供のご案内   Copyright © Engineers' Blog [AWS IAM Userアクセスキーのローテーションを自動化しました], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。サービス基盤本部でPlatform SREとして全社共通のインフラ基 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ONN...]]></summary>
+        <content type="html"><![CDATA[こんにちは。サービス基盤本部でPlatform SREとして全社共通のインフラ基 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ONNX形式のモデルを使ってみる  マネーフォワード MEのiOS 15対応  GitHub Actionsのワークフローを利用してクロスブラウザのE2Eテストを自動化する  おすすめのプロトタイピングツール5選(2016年5月時点)  RubyKaigi 2014参加レポ(マネーフォワード編)   Copyright © Engineers' Blog [AWS IAM Userアクセスキーのローテーションを自動化しました], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4384,24 +4403,6 @@ https://arxiv.org/abs/2203.09109 | cvpaper.challenge | AI/CV研究コミュニ�
         <published>2022-03-18T13:25:36.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[9 Best Machine Learning, AI, and Data Science Internships in 2022 | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/9-best-machine-learning-ai-and-data-science-internships-in-2022?source=rss</id>
-        <link href="https://hackernoon.com/9-best-machine-learning-ai-and-data-science-internships-in-2022?source=rss"/>
-        <updated>2022-03-18T13:15:22.000Z</updated>
-        <author>
-            <name>Kelsey Foster</name>
-        </author>
-        <category label="artificial-intelligence"/>
-        <category label="machine-learning"/>
-        <category label="data-science"/>
-        <category label="internship"/>
-        <category label="ml-ai-and-data-science-intern"/>
-        <category label="internship-guide"/>
-        <category label="tech-jobs"/>
-        <category label="intern"/>
-        <published>2022-03-18T13:15:22.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Huseyin Topaloglu receives Cornell endowed faculty chair | Amazon Science Homepage]]></title>
         <id>https://www.amazon.science/latest-news/amazon-scholar-huseyin-topaloglu-receives-endowed-faculty-chair-at-cornell</id>
         <link href="https://www.amazon.science/latest-news/amazon-scholar-huseyin-topaloglu-receives-endowed-faculty-chair-at-cornell"/>
@@ -5118,8 +5119,8 @@ https://ai-scholar.tech/articles/diffusion-model/diffusion_normalizing_flow | AI
         <id>https://moneyforward.com/engineers_blog/?p=10014</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/17/released-go-1-18/"/>
         <updated>2022-03-17T03:00:42.000Z</updated>
-        <summary type="html"><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...]]></summary>
-        <content type="html"><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2016年3月)  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  Java8 で Stream を使ってみる  ０からはじめる社内勉強会〜がんばれQAエンジニア！〜   Copyright © Engineers' Blog [待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Ra...]]></summary>
+        <content type="html"><![CDATA[この記事はalias go='go1.18'でお送りしています。 Money F … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  インターンでの性能改善タスクの取り組み  エンジニアブログ、始めました  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  最近のruby-core (2016年7月)   Copyright © Engineers' Blog [待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5268,8 +5269,8 @@ https://ai-scholar.tech/articles/diffusion-model/diffusion_normalizing_flow | AI
         <id>https://moneyforward.com/engineers_blog/?p=10000</id>
         <link href="https://moneyforward.com/engineers_blog/2022/03/17/ghost-method-for-attendance/"/>
         <updated>2022-03-17T00:30:27.000Z</updated>
-        <summary type="html"><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: CTOに...]]></summary>
-        <content type="html"><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: CTOになって5年経った感想、振り返りなど  Kaigi on Rails 2021 スポンサード視点〜ブログを書くまでがカンファレンスです！〜  qiitaの中の人たちとWIPな情報共有のよさを語り合いました  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  How to start SRE in a small team, all by yourself.   Copyright © Engineers' Blog [【Ruby】クラウド勤怠におけるゴーストメソッド利用例], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: フロント...]]></summary>
+        <content type="html"><![CDATA[初めに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: フロントエンド勉強会@Nkzn 〜主催者レポート編〜  社内勉強会カレンダーのご紹介  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  マネーフォワードエンジニアインタビュー 金子雄一郎「経理から会計の未来をつくるエンジニアへ」  2021年のエンジニアブログをふりかえる   Copyright © Engineers' Blog [【Ruby】クラウド勤怠におけるゴーストメソッド利用例], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5376,6 +5377,24 @@ https://ai-scholar.tech/articles/diffusion-model/diffusion_normalizing_flow | AI
         <summary type="html"><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><p>こんにちは。TIGの藤田です。<br><a]]></summary>
         <content type="html"><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><p>こんにちは。TIGの藤田です。<br><a]]></content>
         <published>2022-03-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn K-Means Clustering by Quantizing Color Images in Python | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/learn-k-means-clustering-by-quantizing-color-images-in-python?source=rss</id>
+        <link href="https://hackernoon.com/learn-k-means-clustering-by-quantizing-color-images-in-python?source=rss"/>
+        <updated>2022-03-16T14:15:59.000Z</updated>
+        <author>
+            <name>Bala Priya C</name>
+        </author>
+        <category label="k-means-clustering"/>
+        <category label="python-tutorials"/>
+        <category label="image-color-quantization"/>
+        <category label="unsupervised-learning"/>
+        <category label="blogging-fellowship"/>
+        <category label="clustering-algorithms"/>
+        <category label="hackernoon-top-story"/>
+        <category label="machine-learning"/>
+        <published>2022-03-16T14:15:59.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AI-Generated Sports Highlights: Different Approaches | KDnuggets]]></title>
@@ -5927,43 +5946,5 @@ https://ai-scholar.tech/articles/reinforcement-learning/covd-19_non_symptom | AI
             <name>戸田隆道</name>
         </author>
         <published>2022-03-15T09:34:01.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[競技プログラミング部ができました | freee Developers Hub]]></title>
-        <id>https://developers.freee.co.jp/entry/Competitive_Programming_Club</id>
-        <link href="https://developers.freee.co.jp/entry/Competitive_Programming_Club"/>
-        <updated>2022-03-15T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、2021年4月にfreeeに新卒で入社したberryです。 業務ではQAチームの一員としてプロダクトの品質向上のために働いております。 本記事では、2022年1月にfreeeでオフカツ*1として立ち上がった、競技プログラミング部について紹介したいと思います。 以下、競技プログラミングを競プロと表記します。 目次 競プロとは 競プロ部ができるまで 感想戦の活動 ショートコンペの活動 朝会...]]></summary>
-        <content type="html"><![CDATA[こんにちは、2021年4月にfreeeに新卒で入社したberryです。 業務ではQAチームの一員としてプロダクトの品質向上のために働いております。 本記事では、2022年1月にfreeeでオフカツ*1として立ち上がった、競技プログラミング部について紹介したいと思います。 以下、競技プログラミングを競プロと表記します。 目次 競プロとは 競プロ部ができるまで 感想戦の活動 ショートコンペの活動 朝会で宣伝した話 これからの競プロ部 懸念点 これからの展望 最後に 競プロとは まずはじめに、競プロとは プログラミングを使って、パズル的な問題を、制限時間内に出来るだけ多く解くスポーツ と言われていま…]]></content>
-        <published>2022-03-15T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Better Stimulusガイド:アーキテクチャ（1）アプリケーションコントローラ（翻訳） | TechRacho]]></title>
-        <id>https://techracho.bpsinc.jp/?p=116283</id>
-        <link href="https://techracho.bpsinc.jp/hachi8833/2022_03_15/116283"/>
-        <updated>2022-03-15T08:30:46.000Z</updated>
-        <summary type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Application Controller – Better StimulusJS 原文更新日: 2020/07/27 原著者: Julian Rubisch — Stimulus Reflexのコアメンバーです サイト: Home – Better StimulusJS Better Stimulus: 独自の見解に基づくStimul...]]></summary>
-        <content type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Application Controller – Better StimulusJS 原文更新日: 2020/07/27 原著者: Julian Rubisch — Stimulus Reflexのコアメンバーです サイト: Home – Better StimulusJS Better Stimulus: 独自の見解に基づくStimulusJSのベストプラクティス集（翻訳） StimulusJSは、Basecampが開発したつつましいJavaScriptフレームワークです。StimulusJSはBasecampやHE […] The post Better Stimulusガイド:アーキテクチャ（1）アプリケーションコントローラ（翻訳） first appeared on TechRacho.]]></content>
-        <author>
-            <name>hachi8833</name>
-        </author>
-        <category label="Ruby / Rails以外の開発一般"/>
-        <category label="Hotwire"/>
-        <category label="Stimulus.js"/>
-        <category label="翻訳記事"/>
-        <published>2022-03-15T08:30:46.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[わからないなりに理解したい Podman⑤ ～ レジストリと TAG | SIOS Tech. Lab]]></title>
-        <id>https://tech-lab.sios.jp/?p=28333</id>
-        <link href="https://tech-lab.sios.jp/archives/28333"/>
-        <updated>2022-03-15T07:27:35.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は podman の 2つの “tag” について見ていきます。 前回のレジストリに関連する要素で、覚えておくとコンテナを [...] わからないなりに理解したい Podman⑤ ～ レジストリと TAG first appeared on SIOS Tech. Lab.]]></summary>
-        <content type="html"><![CDATA[こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は podman の 2つの “tag” について見ていきます。 前回のレジストリに関連する要素で、覚えておくとコンテナを [...] わからないなりに理解したい Podman⑤ ～ レジストリと TAG first appeared on SIOS Tech. Lab.]]></content>
-        <author>
-            <name>山本英貴</name>
-        </author>
-        <category label="OSS"/>
-        <published>2022-03-15T07:27:35.000Z</published>
     </entry>
 </feed>
