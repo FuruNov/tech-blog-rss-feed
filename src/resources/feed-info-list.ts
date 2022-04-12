@@ -345,6 +345,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
 
   // 追加分(脳科学・神経科学)
   ['pooneilの脳科学論文コメント', 'http://pooneil.sakura.ne.jp/atom.xml'],
+  ['株式会社アラヤ', 'https://www.araya.org/feed/'],
 
   // 追加分(新刊出版)
   ['森北出版', 'https://note.com/morikita/rss'],
