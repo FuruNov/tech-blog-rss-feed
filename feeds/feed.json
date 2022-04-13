@@ -7,10 +7,161 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://devblog.thebase.in/entry/2022/04/13/114714",
+            "content_html": "はじめに こんにちは。バックエンドエンジニアの小笠原です。 今回は、2022年2月18日から2022年3月4日にかけて発生していたこちらの障害に対し私達開発チームが実施した、session.cookieで定義しているCookieのkey名を変更するという影響範囲の大きい対応について、実施に至るまでの経緯や対応過程についてご紹介したいと思います。 ショップオーナー向けに掲載していたお知らせの内容 背景 全ては iOS14.5から端末識別子の取得に同意が必要になったことから始まった ことの発端は、iOS14.5以降からIDFA（端末ごとに持つ固有識別子）の取得に端末所有者の許可が必要になったことで…",
+            "url": "https://devblog.thebase.in/entry/2022/04/13/114714",
+            "title": "なぜ我々はsession.cookieを変更しなければならなかったのか | BASEプロダクトチームブログ",
+            "summary": "はじめに こんにちは。バックエンドエンジニアの小笠原です。 今回は、2022年2月18日から2022年3月4日にかけて発生していたこちらの障害に対し私達開発チームが実施した、session.cookieで定義しているCookieのkey名を変更するという影響範囲の大きい対応について、実施に至るまでの経緯や対応過程についてご紹介したいと思います。 ショップオーナー向けに掲載していたお知らせの内容 背...",
+            "date_modified": "2022-04-13T02:47:14.000Z",
+            "date_published": "2022-04-13T02:47:14.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/leaner_tech/articles/20220407-update-gemfile",
+            "content_html": "こんにちは、 Leaner Technologies の石渡（@mishiwata1015）です。  Leaner ではエンジニアチームが週に一度集まってチームや技術の話をする PD WorkTime という時間を設けています。[1]  https://careers.leaner.co.jp/pdworktime 先日の PD WorkTime では Gemfile 見直し会を行ったので、今日はその話をします。   よりよいGemはないか？ Gemfile に記載されている全ての Gem に対し、以下の観点で 1 つ 1 つ見直しました。  不要な Gem が記載されていないか 適切な...",
+            "url": "https://zenn.dev/leaner_tech/articles/20220407-update-gemfile",
+            "title": "PD WorkTime で Gemfile を見直してみた | リーナーテックブログさんのフィード",
+            "summary": "こんにちは、 Leaner Technologies の石渡（@mishiwata1015）です。  Leaner ではエンジニアチームが週に一度集まってチームや技術の話をする PD WorkTime という時間を設けています。[1]  https://careers.leaner.co.jp/pdworktime 先日の PD WorkTime では Gemfile 見直し会を行ったので、今日は...",
+            "date_modified": "2022-04-13T01:57:42.000Z",
+            "date_published": "2022-04-13T01:57:42.000Z",
+            "author": {
+                "name": "リーナーテックブログ"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://tech.andpad.co.jp/entry/2022/04/13/100000",
+            "content_html": "ANDPADチャットチームでエンジニアをしている椎野(@taikishiino)です。 前回、5000万件越えのRDS大量データをFirestoreに移行する勘所 という記事を書かせていただきました。 tech.andpad.co.jp その後、グロースのための施策にも徐々に注力できるようになってきました。 今回は効果的にグロースさせていくための効果検証の仕組み作りの取り組みについて紹介していきます。 効果検証 どんな方法で Firebase Analytics ログイベントについて どのようにイベント設計したか パラメータルール どのように可視化したか 画面内の機能導線タップ総数の割合 対象…",
+            "url": "https://tech.andpad.co.jp/entry/2022/04/13/100000",
+            "title": "Firebase Analyticsで始めるプロダクトの効果検証の取り組み | ANDPAD Tech Blog",
+            "summary": "ANDPADチャットチームでエンジニアをしている椎野(@taikishiino)です。 前回、5000万件越えのRDS大量データをFirestoreに移行する勘所 という記事を書かせていただきました。 tech.andpad.co.jp その後、グロースのための施策にも徐々に注力できるようになってきました。 今回は効果的にグロースさせていくための効果検証の仕組み作りの取り組みについて紹介していきま...",
+            "date_modified": "2022-04-13T01:00:00.000Z",
+            "date_published": "2022-04-13T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://blog.idcf.jp/entry/container-api",
+            "content_html": "はじめまして、オペレーション本部サービス運用部の荒木です。 普段はIDCFクラウド上で提供している各種プロダクトの監視・運用設計・運用改善をメインに行っております。 今回は、昨年5月にリリースしたIDCFクラウド コンテナの監視設計や実装を行ってきた中でRancherAPIを利用する機会がありましたので、そこからいくつか紹介したいと思います。 IDCFクラウドコンテナAPI = RancherAPI 作業環境 事前準備（トークンの取得） クラスターを作成する クラスターを追加する クラスターにノードを追加する クラスターを削除する 最後に IDCFクラウドコンテナAPI = RancherAP…",
+            "url": "https://blog.idcf.jp/entry/container-api",
+            "title": "IDCFクラウドコンテナサービスのAPIを使ってみた。 | IDCF テックブログ",
+            "summary": "はじめまして、オペレーション本部サービス運用部の荒木です。 普段はIDCFクラウド上で提供している各種プロダクトの監視・運用設計・運用改善をメインに行っております。 今回は、昨年5月にリリースしたIDCFクラウド コンテナの監視設計や実装を行ってきた中でRancherAPIを利用する機会がありましたので、そこからいくつか紹介したいと思います。 IDCFクラウドコンテナAPI = RancherAP...",
+            "date_modified": "2022-04-13T01:00:00.000Z",
+            "date_published": "2022-04-13T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1402392.html",
+            "content_html": "米Adobeは3月8日（現地時間）、同社製品に関するセキュリティ情報を発表した。今回は「Acrobat/Acrobat Reader」「After Effects」「Photoshop」など4製品が対象となっている（括弧内はCVEベースでの脆弱性の件数と最大深刻度）。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1402392.html",
+            "title": "「Acrobat」「After Effects」「Photoshop」に致命的な脆弱性 ～Adobeが月例セキュリティ情報を発表／4製品が対象 | 窓の杜",
+            "summary": "米Adobeは3月8日（現地時間）、同社製品に関するセキュリティ情報を発表した。今回は「Acrobat/Acrobat Reader」「After Effects」「Photoshop」など4製品が対象となっている（括弧内はCVEベースでの脆弱性の件数と最大深刻度）。",
+            "date_modified": "2022-04-13T01:00:00.000Z",
+            "date_published": "2022-04-13T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.gunosy.io/entry/s3_costcut",
+            "content_html": "広告技術部のUTです。 最近はカービィディスカバリーをゆっくりやってます 概要 過去の失敗 どうやったか 仕組み 結果 まとめ 概要 昨今ではデータドリブンな意思決定を重視する企業がどんどん増えており、データを活用することにより事業成長へのインパクトを出そうとしています。 データを事業へと活用するためには、蓄積されるデータを分析するために保管しておく必要があります。 弊社も創業時からデータを蓄積し事業に活用することに力を入れてきた企業の一つであり、日々大量のログが収集されています。 またAWSアカウントを複数運用していますが、一番データ量の多い広告アカウントのS3にはペタバイトレベルのデータが…",
+            "url": "https://tech.gunosy.io/entry/s3_costcut",
+            "title": "S3のコストを大幅に削減した話 | Gunosy Tech Blog",
+            "summary": "広告技術部のUTです。 最近はカービィディスカバリーをゆっくりやってます 概要 過去の失敗 どうやったか 仕組み 結果 まとめ 概要 昨今ではデータドリブンな意思決定を重視する企業がどんどん増えており、データを活用することにより事業成長へのインパクトを出そうとしています。 データを事業へと活用するためには、蓄積されるデータを分析するために保管しておく必要があります。 弊社も創業時からデータを蓄積し...",
+            "date_modified": "2022-04-13T00:30:00.000Z",
+            "date_published": "2022-04-13T00:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/update/driver/1402394.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/update/driver/1402394.html",
+            "title": "【アップデート情報】パッケージ・ドライバー関連　4月13日　～セイコーエプソンなど | 窓の杜",
+            "date_modified": "2022-04-13T00:30:00.000Z",
+            "date_published": "2022-04-13T00:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.cloud-config.jp/?p=114196",
+            "content_html": "こんにちは、22年卒のうみのです。 今回は学生時代の研究テーマだった感染シミュレーションについて説明します。 突然ですが、この式なんだか分かりますか？ この式は感染症流行モデルの基本となるSIRモデルです。 この式に値を […] Unityで感染シミュレーションを作った話 first appeared on cloud.config Tech Blog.",
+            "url": "https://tech-blog.cloud-config.jp/2022-04-07-infection-simulation/",
+            "title": "Unityで感染シミュレーションを作った話 | cloud.config Tech Blog",
+            "summary": "こんにちは、22年卒のうみのです。 今回は学生時代の研究テーマだった感染シミュレーションについて説明します。 突然ですが、この式なんだか分かりますか？ この式は感染症流行モデルの基本となるSIRモデルです。 この式に値を […] Unityで感染シミュレーションを作った話 first appeared on cloud.config Tech Blog.",
+            "date_modified": "2022-04-13T00:00:00.000Z",
+            "date_published": "2022-04-13T00:00:00.000Z",
+            "author": {
+                "name": "FIXER Inc. 海野"
+            },
+            "tags": [
+                "Azure",
+                "シミュレーション",
+                "感染"
+            ]
+        },
+        {
+            "id": "https://tech-blog.cloud-config.jp/?p=114149",
+            "content_html": "こんにちは、株式会社FIXER新卒の櫻井です。 本記事においては、最近耳にすることが増えたであろう「ブロックチェーン」という技術について 概要やメリットをブロックチェーンを知らない人に向けて簡単に書いていこうと思います。 […] ブロックチェーンは思想だ first appeared on cloud.config Tech Blog.",
+            "url": "https://tech-blog.cloud-config.jp/2022-04-07-blockchain-about/",
+            "title": "ブロックチェーンは思想だ | cloud.config Tech Blog",
+            "summary": "こんにちは、株式会社FIXER新卒の櫻井です。 本記事においては、最近耳にすることが増えたであろう「ブロックチェーン」という技術について 概要やメリットをブロックチェーンを知らない人に向けて簡単に書いていこうと思います。 […] ブロックチェーンは思想だ first appeared on cloud.config Tech Blog.",
+            "date_modified": "2022-04-13T00:00:00.000Z",
+            "date_published": "2022-04-13T00:00:00.000Z",
+            "author": {
+                "name": "FIXER Inc. 櫻井 朋"
+            },
+            "tags": [
+                "Education",
+                "ビットコイン",
+                "仮想通貨"
+            ]
+        },
+        {
+            "id": "https://tech-blog.cloud-config.jp/?p=114137",
+            "content_html": "社会背景 近年問題となっている「地球温暖化」。その原因は二酸化炭素などの温室効果ガスの大量排出と言われています。地球温暖化とは簡単に言うと、太陽からの熱が温室効果ガスなどによって逃げられなくなることによって発生する現象で […] ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る first appeared on cloud.config Tech Blog.",
+            "url": "https://tech-blog.cloud-config.jp/2022-04-07-glucose-to-all-purpose-item-z/",
+            "title": "ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る | cloud.config Tech Blog",
+            "summary": "社会背景 近年問題となっている「地球温暖化」。その原因は二酸化炭素などの温室効果ガスの大量排出と言われています。地球温暖化とは簡単に言うと、太陽からの熱が温室効果ガスなどによって逃げられなくなることによって発生する現象で […] ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る first appeared on cloud.config Tech Blog.",
+            "date_modified": "2022-04-13T00:00:00.000Z",
+            "date_published": "2022-04-13T00:00:00.000Z",
+            "author": {
+                "name": "FIXER Inc. 三代 伊知朗"
+            },
+            "tags": [
+                "Education",
+                "Z",
+                "バイオマス",
+                "地球温暖化",
+                "環境"
+            ]
+        },
+        {
+            "id": "https://tech-blog.cloud-config.jp/?p=114076",
+            "content_html": "2022年4月1日から新卒で入社した西村凌(にしむら りょう)と申します。 今回は1つのコードでPCやスマホ、Web上で動くアプリケーションを開発できる「Flutter」という技術をご紹介します。 はじめに 1台で焼き料 […] エンジニアの仕事を減らす「Flutter」って何？ first appeared on cloud.config Tech Blog.",
+            "url": "https://tech-blog.cloud-config.jp/2022-04-07-introduce-flutter/",
+            "title": "エンジニアの仕事を減らす「Flutter」って何？ | cloud.config Tech Blog",
+            "summary": "2022年4月1日から新卒で入社した西村凌(にしむら りょう)と申します。 今回は1つのコードでPCやスマホ、Web上で動くアプリケーションを開発できる「Flutter」という技術をご紹介します。 はじめに 1台で焼き料 […] エンジニアの仕事を減らす「Flutter」って何？ first appeared on cloud.config Tech Blog.",
+            "date_modified": "2022-04-13T00:00:00.000Z",
+            "date_published": "2022-04-13T00:00:00.000Z",
+            "author": {
+                "name": "FIXER Inc. 西村 凌"
+            },
+            "tags": [
+                "Education",
+                "Flutter"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1402390.html",
+            "content_html": "Mozillaは4月12日（米国時間）、デスクトップ向け「Firefox」の最新版v99.0.1を正式公開した。不具合に対処したメンテナンスアップデートとなっている。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1402390.html",
+            "title": "「Firefox」v99.0.1が公開 ～Windows/Intel環境の一部で動画のハードウェアデコードが効かない問題などを解決／「Zoom」の問題にも対処 | 窓の杜",
+            "summary": "Mozillaは4月12日（米国時間）、デスクトップ向け「Firefox」の最新版v99.0.1を正式公開した。不具合に対処したメンテナンスアップデートとなっている。",
+            "date_modified": "2022-04-13T00:00:00.000Z",
+            "date_published": "2022-04-13T00:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1402389.html",
             "content_html": "日本時間4月13日早朝より、全世界の「YouTube」サービスに以下の問題が発生しているようだ。「YouTube」のほか、「YouTube TV」、「YouTube Music」、「YouTube Studio」に影響が出ている。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1402389.html",
-            "title": "「YouTube」の一部機能に障害 ～ログインやアカウントの切り替え、表示に不具合／「YouTube TV」、「YouTube Music」、「YouTube Studio」にも影響 | 窓の杜",
+            "title": "「YouTube」の一部機能に障害 ～ログインやアカウントの切り替え、表示に不具合【解決済み】／「YouTube TV」、「YouTube Music」、「YouTube Studio」にも影響 | 窓の杜",
             "summary": "日本時間4月13日早朝より、全世界の「YouTube」サービスに以下の問題が発生しているようだ。「YouTube」のほか、「YouTube TV」、「YouTube Music」、「YouTube Studio」に影響が出ている。",
             "date_modified": "2022-04-12T23:07:01.000Z",
             "date_published": "2022-04-12T23:07:01.000Z",
@@ -113,6 +264,16 @@
             "summary": "Reducing the energy of ion beams used for editing eliminates the need for “sacrificial” areas between electrical components and improves precision.",
             "date_modified": "2022-04-12T15:10:21.000Z",
             "date_published": "2022-04-12T15:10:21.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://future-architect.github.io/articles/20220413a/",
+            "content_html": "<h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\" title=\"はじめに\"></a>はじめに</h1><p>こんにちは、2021年新卒入社の SAIG 松崎功也です。Tech Blog 初投稿です。</p> <p>NVIDIA",
+            "url": "https://future-architect.github.io/articles/20220413a/",
+            "title": "cuDNN の CUDA API の紹介 | フューチャー技術ブログ",
+            "summary": "<h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\" title=\"はじめに\"></a>はじめに</h1><p>こんにちは、2021年新卒入社の SAIG 松崎功也です。Tech Blog 初投稿です。</p> <p>NVIDIA",
+            "date_modified": "2022-04-12T15:00:00.000Z",
+            "date_published": "2022-04-12T15:00:00.000Z",
             "tags": []
         },
         {
@@ -401,6 +562,19 @@
             ]
         },
         {
+            "id": "https://zenn.dev/xuri/articles/5a22e06f106657",
+            "content_html": "Excelize は、純粋な Go で記述されたライブラリで、XLAM / XLSM / XLSX / XLTM / XLTX ファイルの読み書きを可能にする一連の関数を提供します。Microsoft Excel™ 2007 以降で生成されたスプレッドシートドキュメントの読み取りと書き込みをサポートします。 高い互換性により複雑なコンポーネントをサポートし、大量のデータを含むワークシートからデータを生成または読み取るためのストリーミング API を提供します。 場合によっては、既存の Excel ドキュメントコンテンツの読み込み、新しい Excel ドキュメントの作成、既存のドキュメン...",
+            "url": "https://zenn.dev/xuri/articles/5a22e06f106657",
+            "title": "Go 言語スプレッドシートライブラリ：Excelize 2.6.0 がリリースされました | Zennのトレンド",
+            "summary": "Excelize は、純粋な Go で記述されたライブラリで、XLAM / XLSM / XLSX / XLTM / XLTX ファイルの読み書きを可能にする一連の関数を提供します。Microsoft Excel™ 2007 以降で生成されたスプレッドシートドキュメントの読み取りと書き込みをサポートします。 高い互換性により複雑なコンポーネントをサポートし、大量のデータを含むワークシートからデータ...",
+            "date_modified": "2022-04-12T02:08:33.000Z",
+            "date_published": "2022-04-12T02:08:33.000Z",
+            "author": {
+                "name": "xuri"
+            },
+            "tags": []
+        },
+        {
             "id": "https://techblog.gmo-ap.jp/?p=22585",
             "content_html": "GMOアドマーケティングのT.Cです。2021年7月にGCP Professional Cloud Architect取得のブログを執筆しましたが、今回(2022年1月)はProfessional Cloud Devel",
             "url": "https://techblog.gmo-ap.jp/2022/04/12/gcp-professional-cloud-developer/",
@@ -478,10 +652,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10062",
-            "content_html": "4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: あの部署何やってるの？カスタマーサポート本部 MFクラウドサポート部 編 2020年のマネーフォワード  StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  社内勉強会カレンダーのご紹介  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」   Copyright © Engineers' Blog [Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサー協賛もおこないます！], All Right Reserved. 2022.",
+            "content_html": "4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: An engineering visualization tool at Money Forward  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  マネーフォワードのロゴパネルを作ってみた  こんにちわ、5年前にお世話になっていた開発者のものです  【速報】RubyKaigi 2014レポ：Non-Linear Pattern Matching against Unfree Data Types in Ruby   Copyright © Engineers' Blog [Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサ...",
             "url": "https://moneyforward.com/engineers_blog/2022/04/12/gocon-2022-spring/",
             "title": "Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサー協賛もおこないます！ | Engineers' Blog",
-            "summary": "4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: あの部...",
+            "summary": "4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: An ...",
             "date_modified": "2022-04-12T00:30:38.000Z",
             "date_published": "2022-04-12T00:30:38.000Z",
             "author": {
@@ -789,19 +963,6 @@
             ]
         },
         {
-            "id": "https://zenn.dev/convers39/articles/e91124920ea379",
-            "content_html": "最近は業務で、現在地周辺の施設候補を検索する機能のリクエストが出て、それを解決するために色々と調査してみました。   ロケーションテーブル 仮に下記のようなテーブルがあったとします。 CREATE TABLE IF NOT EXISTS `location`(  `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  `geo_hash` VARCHAR(12),  `position` POINT NOT NULL SRID 4326,  `latitude` DOUBLE(8,6) NOT NULL,  `longi...",
-            "url": "https://zenn.dev/convers39/articles/e91124920ea379",
-            "title": "MySQLのGeometryデータを扱う | Zennのトレンド",
-            "summary": "最近は業務で、現在地周辺の施設候補を検索する機能のリクエストが出て、それを解決するために色々と調査してみました。   ロケーションテーブル 仮に下記のようなテーブルがあったとします。 CREATE TABLE IF NOT EXISTS `location`(  `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  `geo_hash` VARCHAR(12...",
-            "date_modified": "2022-04-11T13:44:55.000Z",
-            "date_published": "2022-04-11T13:44:55.000Z",
-            "author": {
-                "name": "convers39"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/rana_kualu/items/2ca7dad356c5caf34383?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "JavaScriptから、現在表示されているフォントを取得することが可能です。  仕組みを簡単に説明すると、フォントによって文字の横幅は異なるので、font-familyを変えてみてwidthが変わっ…",
             "url": "https://qiita.com/rana_kualu/items/2ca7dad356c5caf34383?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -929,6 +1090,19 @@
             "title": "Microsoft公式のシステムユーティリティ群「PowerToys 0.57.2」が公開　ほか【ダイジェストニュース】 | 窓の杜",
             "date_modified": "2022-04-11T08:58:02.000Z",
             "date_published": "2022-04-11T08:58:02.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/rita0222/articles/f5fdadeb25aa00",
+            "content_html": "皆さんawaitしてますか？ 私はC#を使う機会が多いのでawaitしまくってますが、実は最近までこの構文の価値を正しく理解していませんでした。  async/awaitという糖衣構文はそれなりに複雑なことをやっていて、それを理解できる人にはそんな糖衣構文要らないのでは？  と長い間考えていたのです。私自身、Taskクラスを直接取り回さないと書けない処理を書いたり、C++でTask.ContinueWithに相当する機能を作ったりしたこともあり、それなりに非同期処理については理解している自負がありました。その慢心が、この構文の意図を理解する妨げになっていたなぁという反省をこめて、この記事...",
+            "url": "https://zenn.dev/rita0222/articles/f5fdadeb25aa00",
+            "title": "async/awaitは「できること」より「できないこと」の方が大事 | Zennのトレンド",
+            "summary": "皆さんawaitしてますか？ 私はC#を使う機会が多いのでawaitしまくってますが、実は最近までこの構文の価値を正しく理解していませんでした。  async/awaitという糖衣構文はそれなりに複雑なことをやっていて、それを理解できる人にはそんな糖衣構文要らないのでは？  と長い間考えていたのです。私自身、Taskクラスを直接取り回さないと書けない処理を書いたり、C++でTask.Continu...",
+            "date_modified": "2022-04-11T08:48:18.000Z",
+            "date_published": "2022-04-11T08:48:18.000Z",
+            "author": {
+                "name": "rita"
+            },
             "tags": []
         },
         {
@@ -1234,10 +1408,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10071",
-            "content_html": "こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  京都開発拠点を2年運営して見えてきた採用の傾向  bash スクリプトの先頭によく書く記述のおさらい  金融機関様向けのPFMサービス 第一弾リリース！  マネーフォワードクラウド確定申告Androidアプリの設計方針   Copyright © Engineers' Blog [Android 13で導入されるNotification runtime permissionについて調べてみた], All Right Reserved. 2022.",
+            "content_html": "こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内レポ】最新型MacBook Proを投入！  [PR]Interface誌2022年5月号に記事を寄稿しました  長期エンジニアインターンで得た学び  エンジニアにとって重要なボルダリングテクニック  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証   Copyright © Engineers' Blog [Android 13で導入されるNotification runtime permissionについて調べてみた], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/04/11/android13-notification-runtime-permission/",
             "title": "Android 13で導入されるNotification runtime permissionについて調べてみた | Engineers' Blog",
-            "summary": "こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ０から...",
+            "summary": "こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内...",
             "date_modified": "2022-04-11T03:00:03.000Z",
             "date_published": "2022-04-11T03:00:03.000Z",
             "author": {
@@ -1719,19 +1893,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/naopusyu/articles/9b495b2759af5e",
-            "content_html": "2022/04/09から2022/04/11で行われているPHPerKaigi 2022に参加できなかったのであとから見るようにスライドを集めてきました。 https://phperkaigi.jp/2022/ ! 見つけたものから随時更新します    2022/04/09（土）   PHPのエラーを理解して適切なエラーハンドリングを学ぼう by 並里 https://speakerdeck.com/namizatork/phpfalseerawoli-jie-siteshi-qie-naerahantorinkuwoxue-hou-2   Datadog APM で始める Larave...",
-            "url": "https://zenn.dev/naopusyu/articles/9b495b2759af5e",
-            "title": "PHPerKaigi 2022 スライドまとめ | Zennのトレンド",
-            "summary": "2022/04/09から2022/04/11で行われているPHPerKaigi 2022に参加できなかったのであとから見るようにスライドを集めてきました。 https://phperkaigi.jp/2022/ ! 見つけたものから随時更新します    2022/04/09（土）   PHPのエラーを理解して適切なエラーハンドリングを学ぼう by 並里 https://speakerdeck.co...",
-            "date_modified": "2022-04-10T13:41:11.000Z",
-            "date_published": "2022-04-10T13:41:11.000Z",
-            "author": {
-                "name": "なお"
-            },
-            "tags": []
-        },
-        {
             "id": "https://caddi.tech/?p=3594",
             "content_html": "キャディでエンジニア採用を担当しています片渕です。 今回は2022年3月25日に開催したイベント、『CADDi Be Agile! 〜開発もビジネスもスクラムで回してみた』の内容をレポート形式で紹介しています。 メインの […] The post CADDi Be Agile! 〜開発もビジネスもスクラムで回してみた【イベントレポート】 appeared first on CADDi Tech Blog.",
             "url": "https://caddi.tech/archives/3594",
@@ -1793,19 +1954,6 @@
             "tags": [
                 "お知らせ"
             ]
-        },
-        {
-            "id": "https://zenn.dev/uedayou/articles/9e8bd227a13e1c",
-            "content_html": "昨年、Zenn に Vue を使ったアプリの作り方について投稿しました。 https://zenn.dev/uedayou/articles/c1e76684d3d094 上記投稿時点で Vue3 を使うことはできましたが、使おうと思っていた UIフレームワークの Vuetify が Vue3 に対応していなかったので、Vue2 を使っていました。 あれから半年以上たって、Vue3 対応の Vuetify3 がアルファからベータ版になり、 公式サイトを見るといろいろできそうな感じに見えたので、試しに Vue3 + Vuetify3 で Webアプリを作ってみました。   目標 先日、オー...",
-            "url": "https://zenn.dev/uedayou/articles/9e8bd227a13e1c",
-            "title": "2022年4月現在 Vue3 + Vuetify3(Beta)でどこまでできるか | Zennのトレンド",
-            "summary": "昨年、Zenn に Vue を使ったアプリの作り方について投稿しました。 https://zenn.dev/uedayou/articles/c1e76684d3d094 上記投稿時点で Vue3 を使うことはできましたが、使おうと思っていた UIフレームワークの Vuetify が Vue3 に対応していなかったので、Vue2 を使っていました。 あれから半年以上たって、Vue3 対応の Vue...",
-            "date_modified": "2022-04-10T10:15:20.000Z",
-            "date_published": "2022-04-10T10:15:20.000Z",
-            "author": {
-                "name": "uedayou"
-            },
-            "tags": []
         },
         {
             "id": "https://mathcafe.net/?p=2465",
@@ -2009,6 +2157,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/ohno/books/356315a0e6437c",
+            "content_html": "計算化学をはじめとする計算科学の学生・研究者のために, Windows PCのセットアップについてまとめました. Windows全般, Chrome, Office, Zoom, Visual Studio Code, Git, LaTeX, gnuplot, Julia, Jupyter Notebook, Python, WSL(Ubuntu), C, C++, Fortran, OpenMPIなどのインストール・初期設定について解説します. Winmostar, Gaussian16などの量子化学ソフトウェアのインストールについても解説しました. 今後はR, GAMESS, Molpro, VASP, Quantum ESPRESSO, CASINOなどの加筆を予定しています.",
+            "url": "https://zenn.dev/ohno/books/356315a0e6437c",
+            "title": "計算科学のためのWindowsセットアップ | Zennのトレンド",
+            "summary": "計算化学をはじめとする計算科学の学生・研究者のために, Windows PCのセットアップについてまとめました. Windows全般, Chrome, Office, Zoom, Visual Studio Code, Git, LaTeX, gnuplot, Julia, Jupyter Notebook, Python, WSL(Ubuntu), C, C++, Fortran, OpenMP...",
+            "date_modified": "2022-04-09T10:32:06.000Z",
+            "date_published": "2022-04-09T10:32:06.000Z",
+            "author": {
+                "name": "Shuhei Ohno"
+            },
+            "tags": []
+        },
+        {
             "id": "https://blog.fascode.net/?p=14089",
             "content_html": "皆さんこんにちは、FascodeNetworkのブログスケジュール管理などを行ったりしているナオコです。 先日、成年年齢の引き下げ関連の法改正についてブログにしました。成年年齢引き下げの結果自分名義の携帯電話の契約などを […] コロナ禍の今ドコモショップで手続きを行う際に事前にやったほうが良いこと first appeared on FascodeNetwork Blog.",
             "url": "https://blog.fascode.net/2022/04/09/do/",
@@ -2041,72 +2202,6 @@
             ]
         },
         {
-            "id": "https://tech-blog.cloud-config.jp/?p=114242",
-            "content_html": "みなさんこんにちは！最近、筋トレに励んでいるりぃぽぽです💪🏾今回は学生時代の経験をテーマに、LINE Bot開発のススメについて書いていこうと思います！ 💛 初心者でも取り組みやすい これから述べていく理由にもありますが […] LINE Bot開発をオススメする5つの理由 first appeared on cloud.config Tech Blog.",
-            "url": "https://tech-blog.cloud-config.jp/2022-04-07-line-bot-recommend/",
-            "title": "LINE Bot開発をオススメする5つの理由 | cloud.config Tech Blog",
-            "summary": "みなさんこんにちは！最近、筋トレに励んでいるりぃぽぽです💪🏾今回は学生時代の経験をテーマに、LINE Bot開発のススメについて書いていこうと思います！ 💛 初心者でも取り組みやすい これから述べていく理由にもありますが […] LINE Bot開発をオススメする5つの理由 first appeared on cloud.config Tech Blog.",
-            "date_modified": "2022-04-09T00:00:00.000Z",
-            "date_published": "2022-04-09T00:00:00.000Z",
-            "author": {
-                "name": "FIXER Inc. りぃぽぽ"
-            },
-            "tags": [
-                "Education",
-                "LINE Bot",
-                "LINE Developers"
-            ]
-        },
-        {
-            "id": "https://tech-blog.cloud-config.jp/?p=114216",
-            "content_html": "はじめに 皆さん、こんにちは。増田航介です。ここでは、自分が大学時代に行ったプロジェクト学習と呼ばれる授業についてお話したいと思います。 プロジェクト学習とは、学生が自由に実社会に存在する問題を自ら発見し、1年間でチーム […] ウガンダにむけての開発 first appeared on cloud.config Tech Blog.",
-            "url": "https://tech-blog.cloud-config.jp/2022-04-07-ugannda-game/",
-            "title": "ウガンダにむけての開発 | cloud.config Tech Blog",
-            "summary": "はじめに 皆さん、こんにちは。増田航介です。ここでは、自分が大学時代に行ったプロジェクト学習と呼ばれる授業についてお話したいと思います。 プロジェクト学習とは、学生が自由に実社会に存在する問題を自ら発見し、1年間でチーム […] ウガンダにむけての開発 first appeared on cloud.config Tech Blog.",
-            "date_modified": "2022-04-09T00:00:00.000Z",
-            "date_published": "2022-04-09T00:00:00.000Z",
-            "author": {
-                "name": "FIXER Inc. 増田 航介"
-            },
-            "tags": [
-                "Education",
-                "Recruiting",
-                "ウガンダ",
-                "ゲーム開発"
-            ]
-        },
-        {
-            "id": "https://tech-blog.cloud-config.jp/?p=114201",
-            "content_html": "新卒で入社した小松尾です。この記事では私が学生時代に研究していたテーマについてご紹介しようと思ったのですが布教したい欲が湧いてきたので学生時代にハマってた趣味について書いて行きたいと思います！ 皆さんエモい写真撮りたくな […] エモい写真の撮り方 first appeared on cloud.config Tech Blog.",
-            "url": "https://tech-blog.cloud-config.jp/2022-04-07-take-a-picture/",
-            "title": "エモい写真の撮り方 | cloud.config Tech Blog",
-            "summary": "新卒で入社した小松尾です。この記事では私が学生時代に研究していたテーマについてご紹介しようと思ったのですが布教したい欲が湧いてきたので学生時代にハマってた趣味について書いて行きたいと思います！ 皆さんエモい写真撮りたくな […] エモい写真の撮り方 first appeared on cloud.config Tech Blog.",
-            "date_modified": "2022-04-09T00:00:00.000Z",
-            "date_published": "2022-04-09T00:00:00.000Z",
-            "author": {
-                "name": "FIXER Inc. 小松尾 真優"
-            },
-            "tags": [
-                "Education"
-            ]
-        },
-        {
-            "id": "https://tech-blog.cloud-config.jp/?p=114197",
-            "content_html": "こんにちは！22卒のまつばらです！ 今回は「シェルスクリプト」の使い方やメリットを皆さんにご紹介したいと思います。 シェルスクリプトとはなんぞや 「シェルスクリプト」を簡単に説明するとコンピューターの命令（コマンド）を複 […] シェルスクリプトでいつもの作業を少し自動化しよう first appeared on cloud.config Tech Blog.",
-            "url": "https://tech-blog.cloud-config.jp/2022-04-07-shellscript-introduction/",
-            "title": "シェルスクリプトでいつもの作業を少し自動化しよう | cloud.config Tech Blog",
-            "summary": "こんにちは！22卒のまつばらです！ 今回は「シェルスクリプト」の使い方やメリットを皆さんにご紹介したいと思います。 シェルスクリプトとはなんぞや 「シェルスクリプト」を簡単に説明するとコンピューターの命令（コマンド）を複 […] シェルスクリプトでいつもの作業を少し自動化しよう first appeared on cloud.config Tech Blog.",
-            "date_modified": "2022-04-09T00:00:00.000Z",
-            "date_published": "2022-04-09T00:00:00.000Z",
-            "author": {
-                "name": "FIXER Inc. まつばら"
-            },
-            "tags": [
-                "Education",
-                "shellscript"
-            ]
-        },
-        {
             "id": "http://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html",
             "content_html": "Posted by Harsh Mehta, Software Engineer, Google Research Matrix factorization is one of the oldest, yet still widely used, techniques for learning how to recommend items such as songs or movies from user ratings. In its basic form, it approximates a large, sparse (i.e., mostly empty) matrix of user-item interactions with a product of two smaller, denser matrices representing learned item and user features. These dense matrices, in turn, can be used to recommend items to a user with which they h...",
             "url": "http://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html",
@@ -2115,6 +2210,27 @@
             "date_modified": "2022-04-08T17:52:00.006Z",
             "date_published": "2022-04-08T17:52:00.006Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/optical-character-recognition-algorithms-can-redefine-business-processes?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/optical-character-recognition-algorithms-can-redefine-business-processes?source=rss",
+            "title": "Optical Character Recognition Algorithms Can Redefine Business Processes | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-08T17:02:38.000Z",
+            "date_published": "2022-04-08T17:02:38.000Z",
+            "author": {
+                "name": "ITRex"
+            },
+            "tags": [
+                "ocr-solutions",
+                "ocr-machine-learning",
+                "optical-character-recognition",
+                "artificial-intelligence",
+                "machine-learning",
+                "computer-vision",
+                "good-company",
+                "technology"
+            ]
         },
         {
             "id": "https://www.kdnuggets.com/?p=140385",
@@ -2183,6 +2299,27 @@
             "date_modified": "2022-04-08T11:51:42.000Z",
             "date_published": "2022-04-08T11:51:42.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/golang-in-machine-learning?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/golang-in-machine-learning?source=rss",
+            "title": "Golang in Machine Learning | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-08T11:41:25.000Z",
+            "date_published": "2022-04-08T11:41:25.000Z",
+            "author": {
+                "name": "Techreviewer"
+            },
+            "tags": [
+                "golang",
+                "advantages-of-using-golang",
+                "golang-development",
+                "machine-learning-framework",
+                "dependency-management",
+                "machine-learning",
+                "machine-learning-tutorials",
+                "machine-learning-algorithms"
+            ]
         },
         {
             "id": "https://forest.watch.impress.co.jp/docs/digest/1401586.html",
@@ -2256,16 +2393,6 @@
             ]
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1401570.html",
-            "content_html": "Amazon.co.jpでは現在、ASUS製PCのタイムセールを行っています。Windows 11搭載ノートPCなどが、24％OFFなどの割引価格で販売中です。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1401570.html",
-            "title": "AmazonタイムセールでASUS製ノートPCが最大24％OFF！ 有機ELディスプレイ搭載PCも安い【本日みつけたお買い得情報】 | 窓の杜",
-            "summary": "Amazon.co.jpでは現在、ASUS製PCのタイムセールを行っています。Windows 11搭載ノートPCなどが、24％OFFなどの割引価格で販売中です。",
-            "date_modified": "2022-04-08T08:17:05.000Z",
-            "date_published": "2022-04-08T08:17:05.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.nnn.dev/entry/2022/04/08/170000",
             "content_html": "オンライン学習サービス『N 予備校』は、2022年 4 月でリリース 6 周年を迎えました。N 予備校の Web フロントエンドはリリース以来、全面的な書き換えを続けています。 実装の変遷を説明し、書き換えの経験やWebフロントエンドという領域の性質を踏まえて、すべてを書き換え続ける選択をしていることを述べます。",
             "url": "https://blog.nnn.dev/entry/2022/04/08/170000",
@@ -2273,26 +2400,6 @@
             "summary": "オンライン学習サービス『N 予備校』は、2022年 4 月でリリース 6 周年を迎えました。N 予備校の Web フロントエンドはリリース以来、全面的な書き換えを続けています。 実装の変遷を説明し、書き換えの経験やWebフロントエンドという領域の性質を踏まえて、すべてを書き換え続ける選択をしていることを述べます。",
             "date_modified": "2022-04-08T08:00:00.000Z",
             "date_published": "2022-04-08T08:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1401562.html",
-            "content_html": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1401562.html",
-            "title": "最強の「Microsoft Edge」機能はどれだ？ ――Twitterでトーナメントが開催中／垂直タブ、パスワード機能、コレクション……いずれも強豪ぞろい【やじうまの杜】 | 窓の杜",
-            "summary": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "date_modified": "2022-04-08T07:53:05.000Z",
-            "date_published": "2022-04-08T07:53:05.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1401555.html",
-            "content_html": "米Microsoftは4月5日（現地時間）、「Windows Powers the Future of Hybrid Work」と題するバーチャルイベントを開催。「Windows 365」の新機能を発表した。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1401555.html",
-            "title": "ローカルとクラウドの垣根を壊す ――Microsoft、「Windows 365」クラウドPCの新機能を発表／「Windows 365 Switch」や「Windows 365 Boot」、「Windows 365 Offline」などを告知 | 窓の杜",
-            "summary": "米Microsoftは4月5日（現地時間）、「Windows Powers the Future of Hybrid Work」と題するバーチャルイベントを開催。「Windows 365」の新機能を発表した。",
-            "date_modified": "2022-04-08T07:33:08.000Z",
-            "date_published": "2022-04-08T07:33:08.000Z",
             "tags": []
         },
         {
@@ -2617,6 +2724,28 @@
             "tags": []
         },
         {
+            "id": "https://hackernoon.com/openais-new-model-is-amazing-dalle-2-explained-simply?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/openais-new-model-is-amazing-dalle-2-explained-simply?source=rss",
+            "title": "OpenAI's New Model is Amazing! DALL·E 2 Explained Simply | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-07T19:40:53.000Z",
+            "date_published": "2022-04-07T19:40:53.000Z",
+            "author": {
+                "name": "Louis Bouchard"
+            },
+            "tags": [
+                "open-ai",
+                "ai",
+                "artificial-intelligence",
+                "dall-e",
+                "dall-e-2",
+                "dalle",
+                "machine-learning",
+                "computer-vision",
+                "web-monetization"
+            ]
+        },
+        {
             "id": "https://www.amazon.science/blog/amazon-helps-create-first-conference-on-causal-learning-and-reasoning",
             "content_html": "Conference will be held April 11 – 13 in Eureka, California, with virtual elements.",
             "url": "https://www.amazon.science/blog/amazon-helps-create-first-conference-on-causal-learning-and-reasoning",
@@ -2721,10 +2850,10 @@
         },
         {
             "id": "https://engineering.cocone.io/?p=5023",
-            "content_html": "こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、ココネから […]",
+            "content_html": "こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、前編として […]",
             "url": "https://engineering.cocone.io/2022/04/07/introduction_to_unity_dots/",
-            "title": "【cocone TECH TALK VOL.5】Unity Dotsを使ってみた【イベントレポート】 | cocone engineering",
-            "summary": "こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、ココネから […]",
+            "title": "【cocone TECH TALK VOL.5・前編】Unity Dotsを使ってみた【イベントレポート】 | cocone engineering",
+            "summary": "こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、前編として […]",
             "date_modified": "2022-04-07T09:00:01.000Z",
             "date_published": "2022-04-07T09:00:01.000Z",
             "author": {
@@ -3153,6 +3282,27 @@
             },
             "tags": [
                 "社内勉強会"
+            ]
+        },
+        {
+            "id": "https://hackernoon.com/search-engines-are-missing-infected-sites-putting-businesses-at-risk?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/search-engines-are-missing-infected-sites-putting-businesses-at-risk?source=rss",
+            "title": "Search Engines are Missing Infected Sites, Putting Businesses At Risk | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-06T21:40:59.000Z",
+            "date_published": "2022-04-06T21:40:59.000Z",
+            "author": {
+                "name": "Alan Simon"
+            },
+            "tags": [
+                "security",
+                "machine-learning",
+                "search-engines",
+                "missing-infected-sites",
+                "cyber-security-awareness",
+                "detecting-malware",
+                "ai-security",
+                "hackernoon-top-story"
             ]
         },
         {
@@ -3862,6 +4012,27 @@
             ]
         },
         {
+            "id": "https://hackernoon.com/an-introduction-to-variational-autoencoders-using-keras?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/an-introduction-to-variational-autoencoders-using-keras?source=rss",
+            "title": "An Introduction to Variational Autoencoders Using Keras | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-05T14:17:46.000Z",
+            "date_published": "2022-04-05T14:17:46.000Z",
+            "author": {
+                "name": "Kelsey Foster"
+            },
+            "tags": [
+                "keras",
+                "variational-autoencoders",
+                "autoencoder",
+                "data-generation",
+                "mnist",
+                "machine-learning",
+                "machine-learning-uses",
+                "machine-learning-algorithms"
+            ]
+        },
+        {
             "id": "https://www.amazon.science/working-at-amazon/how-applied-math-impacts-forecasting-at-amazon",
             "content_html": "Danielle Maddix Robinson's mathematics background helps inform robust models that can predict everything from retail demand to epidemiology.",
             "url": "https://www.amazon.science/working-at-amazon/how-applied-math-impacts-forecasting-at-amazon",
@@ -3994,6 +4165,27 @@
             "date_modified": "2022-04-05T05:35:17.000Z",
             "date_published": "2022-04-05T05:35:17.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/these-are-the-top-5-cloud-migration-strategies-you-need-to-know?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/these-are-the-top-5-cloud-migration-strategies-you-need-to-know?source=rss",
+            "title": "Top 5 Cloud Migration Strategies You Need to Know | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-05T05:33:32.000Z",
+            "date_published": "2022-04-05T05:33:32.000Z",
+            "author": {
+                "name": "Davis David"
+            },
+            "tags": [
+                "cloud-computing",
+                "cloud-native",
+                "artificial-intelligence",
+                "google-cloud-platform",
+                "machine-learning",
+                "cloud",
+                "hybrid-cloud",
+                "programming"
+            ]
         },
         {
             "id": "https://tech.mirrativ.stream/entry/2022/04/05/143215?utm_source=feed",
@@ -4205,10 +4397,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10055",
-            "content_html": "みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS8で導入されたアクション付きPush通知を試してみる  マネーフォワードはエンジニア・デザイナーの福岡・京都へのUIターンをサポートします！  MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  LINE Payを使って割り勘をフォワードする  家庭内 esa のすゝめ   Copyright © Engineers' Blog [[PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉], All Right Reserved. 2022.",
+            "content_html": "みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エストニアのe-residencyカードでsshする  BtoB SaaSに捧ぐマイクロサービスのはじめの一歩  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  私の履歴書：マネーフォワードの会計開発チーム編  ジモティーの光の戦士がやって来たぞ   Copyright © Engineers' Blog [[PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/04/05/mfmp_qatalk/",
             "title": "[PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉 | Engineers' Blog",
-            "summary": "みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...",
+            "summary": "みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エスト...",
             "date_modified": "2022-04-05T00:30:47.000Z",
             "date_published": "2022-04-05T00:30:47.000Z",
             "author": {
@@ -4288,6 +4480,27 @@
             "tags": []
         },
         {
+            "id": "https://hackernoon.com/building-ai-applications-collaboratively-using-data-centric-ai-snorkel-ai?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/building-ai-applications-collaboratively-using-data-centric-ai-snorkel-ai?source=rss",
+            "title": "Building AI Applications Collaboratively With Data-centric AI | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-04T22:40:06.000Z",
+            "date_published": "2022-04-04T22:40:06.000Z",
+            "author": {
+                "name": "Snorkel AI"
+            },
+            "tags": [
+                "data-centric-ai",
+                "weak-supervision",
+                "programmatic-labeling",
+                "artificial-intelligence",
+                "machine-learning",
+                "good-company",
+                "technology",
+                "building-ai-applications"
+            ]
+        },
+        {
             "id": "https://blogs.microsoft.com/ai/?p=83022",
             "content_html": "The post This ‘hands-on’ AI-based test project will help ensure astronaut gloves are safe in space appeared first on The AI Blog.",
             "url": "https://blogs.microsoft.com/blog/2022/04/04/this-hands-on-ai-based-test-project-will-help-ensure-astronaut-gloves-are-safe-in-space/",
@@ -4300,6 +4513,27 @@
             },
             "tags": [
                 "News Brief"
+            ]
+        },
+        {
+            "id": "https://hackernoon.com/how-we-automate-80-100percent-of-media-workflows-with-cognitive-computing?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/how-we-automate-80-100percent-of-media-workflows-with-cognitive-computing?source=rss",
+            "title": "How We Automate 80-100% of Media Workflows with Cognitive Computing | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-04T17:28:23.000Z",
+            "date_published": "2022-04-04T17:28:23.000Z",
+            "author": {
+                "name": "AIHunters "
+            },
+            "tags": [
+                "artificial-intelligence",
+                "computer-vision",
+                "machine-learning",
+                "entertainment-industry",
+                "cognitive-computing",
+                "deep-learning",
+                "good-company",
+                "data-science"
             ]
         },
         {
@@ -4698,10 +4932,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10046",
-            "content_html": "マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android開発をもっと前へ！開発を加速させるTips・ツール  ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  qiitaの中の人たちとWIPな情報共有のよさを語り合いました  もし年末に夏休みが取れたら京都に行こう！   Copyright © Engineers' Blog [ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話], All Right Reserved. 2022.",
+            "content_html": "マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941::blogさんがやってきた！  Rails探訪 ~ create_table 編 ~ ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  Kaigi on Rails 2021 スポンサード視点〜ブログを書くまでがカンファレンスです！〜  railsでseedデータを簡単に取り込む   Copyright © Engineers' Blog [ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/04/04/improved-design-reviews/",
             "title": "ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話 | Engineers' Blog",
-            "summary": "マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...",
+            "summary": "マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941...",
             "date_modified": "2022-04-04T03:00:28.000Z",
             "date_published": "2022-04-04T03:00:28.000Z",
             "author": {
@@ -4920,6 +5154,27 @@
             ]
         },
         {
+            "id": "https://hackernoon.com/advanced-topic-modeling-tutorial-how-to-use-svd-and-nmf-in-python-to-find-topics-in-text?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/advanced-topic-modeling-tutorial-how-to-use-svd-and-nmf-in-python-to-find-topics-in-text?source=rss",
+            "title": "Advanced Topic Modeling Tutorial: How to Use SVD & NMF in Python | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-03T06:25:29.000Z",
+            "date_published": "2022-04-03T06:25:29.000Z",
+            "author": {
+                "name": "Bala Priya C"
+            },
+            "tags": [
+                "natural-language-processing",
+                "topic-modeling",
+                "topic-modeling-in-python",
+                "blogging-fellowship",
+                "hackernoon-top-story",
+                "artificial-intelligence",
+                "ai",
+                "machine-learning"
+            ]
+        },
+        {
             "id": "https://math-fun.net/?p=23740",
             "content_html": "どうも、木村（@kimu3_slime）です。 今回は、ポアソン分布の歪度・尖度の求め方について、モーメント・キュムラント生成関数を使った方法を紹介します。 ポアソン分布のモーメント生成関数 まず、\\(X\\ ... ポアソン分布の歪度・尖度の求め方：モーメント・キュムラント生成関数 first appeared on 趣味の大学数学.",
             "url": "https://math-fun.net/20220403/23740/",
@@ -5000,6 +5255,28 @@
             "date_modified": "2022-04-02T12:56:21.000Z",
             "date_published": "2022-04-02T12:56:21.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/10-microsoft-azure-courses-for-beginners-to-learn-azure-cloud-computing?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/10-microsoft-azure-courses-for-beginners-to-learn-azure-cloud-computing?source=rss",
+            "title": "10 Microsoft Azure Courses for Beginners to Learn Azure Cloud Computing | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-02T09:33:18.000Z",
+            "date_published": "2022-04-02T09:33:18.000Z",
+            "author": {
+                "name": "Javin Paul"
+            },
+            "tags": [
+                "azure",
+                "cloud-computing",
+                "microsoft-azure",
+                "it-certifications",
+                "programming",
+                "software-development",
+                "machine-learning",
+                "cloud",
+                "web-monetization"
+            ]
         },
         {
             "id": "https://math-notes.info/?p=1542",
@@ -5262,6 +5539,28 @@
             "date_modified": "2022-04-01T06:00:00.000Z",
             "date_published": "2022-04-01T06:00:00.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/the-best-photo-to-3d-ai-model?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/the-best-photo-to-3d-ai-model?source=rss",
+            "title": "THE BEST Photo to 3D AI Model ! | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-01T05:44:19.000Z",
+            "date_published": "2022-04-01T05:44:19.000Z",
+            "author": {
+                "name": "Louis Bouchard"
+            },
+            "tags": [
+                "nvidia",
+                "3d",
+                "3d-modelling",
+                "ai",
+                "artificial-intelligence",
+                "machine-learning",
+                "data-science",
+                "hackernoon-top-story",
+                "web-monetization"
+            ]
         },
         {
             "id": "https://tech.yappli.io/entry/go_sqlx",
@@ -5881,6 +6180,27 @@
                 "name": "Tatsuhiko Miyagawa"
             },
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/a-summary-and-review-of-the-ethical-algorithm?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/a-summary-and-review-of-the-ethical-algorithm?source=rss",
+            "title": "A Summary and Review of The Ethical Algorithm | Hacker Noon - machine-learning",
+            "date_modified": "2022-03-31T06:51:37.000Z",
+            "date_published": "2022-03-31T06:51:37.000Z",
+            "author": {
+                "name": "Prabhakar"
+            },
+            "tags": [
+                "ethics",
+                "algorithms",
+                "machine-learning",
+                "ml",
+                "artificial-intelligence",
+                "a",
+                "book-reviews",
+                "ai-ethics"
+            ]
         },
         {
             "id": "https://caddi.tech/?p=3470",
@@ -6540,6 +6860,28 @@
             "tags": []
         },
         {
+            "id": "https://hackernoon.com/reviewing-openpose-realtime-multi-person-2d-pose-estimation-using-part-affinity-fields?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/reviewing-openpose-realtime-multi-person-2d-pose-estimation-using-part-affinity-fields?source=rss",
+            "title": "Reviewing “OpenPose - Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields” | Hacker Noon - machine-learning",
+            "date_modified": "2022-03-30T07:06:35.000Z",
+            "date_published": "2022-03-30T07:06:35.000Z",
+            "author": {
+                "name": "Milind Soorya"
+            },
+            "tags": [
+                "research-paper-summary",
+                "data-science",
+                "machine-learning",
+                "critical-review",
+                "artificial-intelligence",
+                "ai",
+                "ml",
+                "computer-vision",
+                "web-monetization"
+            ]
+        },
+        {
             "id": "https://cloudpack.media/?p=61782",
             "content_html": "こんにちは。アイレットデザイン事業部のディレクター中村と申します。アイレットデザイン事業部では「INSIDE UI/UX」と題して、所属デザイナーとエンジニアがデザイン・SEO・アクセシビリティ・UI/UXなどそれぞれス […]",
             "url": "https://cloudpack.media/61782",
@@ -6566,6 +6908,27 @@
             "date_modified": "2022-03-30T06:56:30.000Z",
             "date_published": "2022-03-30T06:56:30.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/using-ai-for-faster-and-more-efficient-language-translation?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/using-ai-for-faster-and-more-efficient-language-translation?source=rss",
+            "title": "Using AI for Faster and More Efficient Language Translation | Hacker Noon - machine-learning",
+            "date_modified": "2022-03-30T06:36:47.000Z",
+            "date_published": "2022-03-30T06:36:47.000Z",
+            "author": {
+                "name": "Aelius Venture"
+            },
+            "tags": [
+                "ai",
+                "machine-translation",
+                "machine-learning",
+                "language-translation",
+                "technology",
+                "artificial-intelligence",
+                "artificial-intelligence-trends",
+                "good-company"
+            ]
         },
         {
             "id": "https://nitter.net/ai_scholar/status/1509056395613978630#m",
@@ -6802,94 +7165,6 @@
             "tags": []
         },
         {
-            "id": "https://techblog.cartaholdings.co.jp/entry/geek-sai-2022-spring",
-            "content_html": "こんにちは、CTOの suzuken です。先日、サポーターズの技育祭2022春に登壇してきました。当日は多くの学生のみなさんにきいていただきました、ありがとうございました。せっかくなので登壇を振り返りつつ、紹介していこうと思います。 スライドはこちらです。 speakerdeck.com これからソフトウェアエンジニアになるみなさんに向けてなにを話すか 「技」術を「育」てる祭り、「技育祭」なのだから、なにか「成長」につながることを話してみよう、と考えていました。 じゃあ自分はどうやって成長してきたのだろうか。都度都度どんな人達と関わって、どうやって技術に向き合ってきたのだろう・・ということを…",
-            "url": "https://techblog.cartaholdings.co.jp/entry/geek-sai-2022-spring",
-            "title": "技育祭2022春で学生向けに「CTOが語る、これからのソフトウェアエンジニアに必要なことと鍛え方」を話してきました | CARTA TECH BLOG",
-            "summary": "こんにちは、CTOの suzuken です。先日、サポーターズの技育祭2022春に登壇してきました。当日は多くの学生のみなさんにきいていただきました、ありがとうございました。せっかくなので登壇を振り返りつつ、紹介していこうと思います。 スライドはこちらです。 speakerdeck.com これからソフトウェアエンジニアになるみなさんに向けてなにを話すか 「技」術を「育」てる祭り、「技育祭」なのだ...",
-            "date_modified": "2022-03-30T02:43:21.000Z",
-            "date_published": "2022-03-30T02:43:21.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://developers.cyberagent.co.jp/blog/?p=34841",
-            "content_html": "こんにちは、Qualiartsでデザイナーをしている筒井です。 新規のゲーム開発にUIデザイナーとし ...",
-            "url": "https://developers.cyberagent.co.jp/blog/archives/34841/",
-            "title": "胸踊るUIインタラクション開発フロー　#1モック編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ",
-            "summary": "こんにちは、Qualiartsでデザイナーをしている筒井です。 新規のゲーム開発にUIデザイナーとし ...",
-            "date_modified": "2022-03-30T02:07:13.000Z",
-            "date_published": "2022-03-30T02:07:13.000Z",
-            "author": {
-                "name": "筒井 豊"
-            },
-            "tags": [
-                "クリエイター",
-                "UI",
-                "UI/UX",
-                "UIデザイン",
-                "アニメーション",
-                "インタラクション",
-                "ゲームUI",
-                "ゲーム開発"
-            ]
-        },
-        {
-            "id": "https://techblog.zozo.com/entry/enhancing-compatibility-level-valification-for-sqlserver",
-            "content_html": "SQL Serverのバージョンアップの際に必要なクエリ互換性を、アプリ側に定義されているクエリも含めて検証した事例をご紹介します。",
-            "url": "https://techblog.zozo.com/entry/enhancing-compatibility-level-valification-for-sqlserver",
-            "title": "SQL Serverのバージョンアップ時に必要なクエリ互換性に関する検証精度を向上させた話 | ZOZO TECH BLOG",
-            "summary": "SQL Serverのバージョンアップの際に必要なクエリ互換性を、アプリ側に定義されているクエリも含めて検証した事例をご紹介します。",
-            "date_modified": "2022-03-30T02:00:00.000Z",
-            "date_published": "2022-03-30T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://medium.com/p/52202a75a809",
-            "content_html": "",
-            "url": "https://studist.tech/studist-lightning-talks-52202a75a809?source=rss----1b85cc1f989a---4",
-            "title": "社内勉強会を長く続けるコツ | スタディスト Tech Blog - Medium",
-            "date_modified": "2022-03-30T01:38:03.000Z",
-            "date_published": "2022-03-30T01:38:03.000Z",
-            "author": {
-                "name": "Kitano Katsuhisa"
-            },
-            "tags": [
-                "lightning-talks",
-                "engineering-mangement",
-                "teamwork"
-            ]
-        },
-        {
-            "id": "https://inside.pixiv.blog/2022/03/30/103000?utm_source=feed",
-            "content_html": "はじめましての方ははじめまして。21新卒エンジニアの Javakky です。 突然ですが質問です！みなさんは本番環境で利用するDBのアクセス情報などの機密情報はどこに保存していますか？弊チームでは、社内でホスティングしているGitLabを利用しており、リポジトリの閲覧権限がチームメンバーにしか付与されていないことから長年プロジェクトの config ファイルに平文で保存されていました。 しかし、それはつまりリポジトリを clone してしまえば機密情報を全て保存できてしまうということでもあります。今回は、 Secret Manager というサービスを利用して機密情報にたいして権限管理を行える…",
-            "url": "https://inside.pixiv.blog/2022/03/30/103000?utm_source=feed",
-            "title": "Google Cloud Secret Manager を使って機密情報の保存をセキュアにした話 | pixiv inside",
-            "summary": "はじめましての方ははじめまして。21新卒エンジニアの Javakky です。 突然ですが質問です！みなさんは本番環境で利用するDBのアクセス情報などの機密情報はどこに保存していますか？弊チームでは、社内でホスティングしているGitLabを利用しており、リポジトリの閲覧権限がチームメンバーにしか付与されていないことから長年プロジェクトの config ファイルに平文で保存されていました。 しかし、そ...",
-            "date_modified": "2022-03-30T01:30:00.000Z",
-            "date_published": "2022-03-30T01:30:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://system.blog.uuum.jp/entry/2022/03/30/101515",
-            "content_html": "みなさんこんにちは！ UUUMシステムユニットの sawa__it です。 10ヶ月の子どもが全然離乳食を食べてくれません。どうしたらいいですか？（ガチ） 自己紹介 振り返り 前提 Scrumの導入 体制について スプリントは１週間 スプリントの開始と終了 リファインメント プランニング エンジニアとユーザに直接会話してもらう デイリーは朝と夕方の２回 スプリントレビュー 振り返りはKPT 最後に 自己紹介 UUUMには2020年の12月に入社しました。 最初は社内の数値管理システムを担当し、現在ではクリエイター管理システムの担当をしております！ 役割はPMです。 PMといってもコンテキストが…",
-            "url": "https://system.blog.uuum.jp/entry/2022/03/30/101515",
-            "title": "チームにScrumを導入してみての振り返り | UUUMエンジニアブログ",
-            "summary": "みなさんこんにちは！ UUUMシステムユニットの sawa__it です。 10ヶ月の子どもが全然離乳食を食べてくれません。どうしたらいいですか？（ガチ） 自己紹介 振り返り 前提 Scrumの導入 体制について スプリントは１週間 スプリントの開始と終了 リファインメント プランニング エンジニアとユーザに直接会話してもらう デイリーは朝と夕方の２回 スプリントレビュー 振り返りはKPT 最後に...",
-            "date_modified": "2022-03-30T01:15:15.000Z",
-            "date_published": "2022-03-30T01:15:15.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.andpad.co.jp/entry/2022/03/30/101500",
-            "content_html": "こんにちは！エンジニアの福間（fkm_y）です。 先日、弊社でデータベースの技術顧問をして頂いてる三谷（mita2）さんに開発部向けのMySQLロックのデータベース勉強会を実施したのでそのレポートをお伝えします。 開催背景 弊社では三谷さんによるデータベース勉強会を定期的に開催しています。以前にもロックに関するMySQL勉強会を開催していたのですが、1年半経過しており参加していない開発メンバーのほうが多くなっていたことやプロダクトの成長によりデッドロックなどのロックに起因する問題が目立ち始めていたことから増強版のMySQLロックのデータベース勉強会を開催することになりました。 概要 データベー…",
-            "url": "https://tech.andpad.co.jp/entry/2022/03/30/101500",
-            "title": "MySQLロックについて〜基礎編〜 を開催しました！ | ANDPAD Tech Blog",
-            "summary": "こんにちは！エンジニアの福間（fkm_y）です。 先日、弊社でデータベースの技術顧問をして頂いてる三谷（mita2）さんに開発部向けのMySQLロックのデータベース勉強会を実施したのでそのレポートをお伝えします。 開催背景 弊社では三谷さんによるデータベース勉強会を定期的に開催しています。以前にもロックに関するMySQL勉強会を開催していたのですが、1年半経過しており参加していない開発メンバーのほ...",
-            "date_modified": "2022-03-30T01:15:00.000Z",
-            "date_published": "2022-03-30T01:15:00.000Z",
-            "tags": []
-        },
-        {
             "id": "20364",
             "content_html": "はじめに こんにちは。メルペイフロントエンドチームのtoshickです。 この記事は、このチームで取り組んでいるパフォーマンス改善について紹介するシリーズ記事の第4弾の記事になります。 ref: https://engi […]",
             "url": "https://engineering.mercari.com/blog/entry/20220329-02e2d821b8/",
@@ -6897,153 +7172,6 @@
             "summary": "はじめに こんにちは。メルペイフロントエンドチームのtoshickです。 この記事は、このチームで取り組んでいるパフォーマンス改善について紹介するシリーズ記事の第4弾の記事になります。 ref: https://engi […]",
             "date_modified": "2022-03-30T01:00:10.000Z",
             "date_published": "2022-03-30T01:00:10.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://blog.idcf.jp/entry/container-Helm-Chart",
-            "content_html": "はじめまして、事業推進本部SE部の横田です。 普段はセールスエンジニアとしてIDCフロンティア サービスのご提案や導入支援などを行っています。 今回は「IDCFクラウド コンテナ」環境内に、カタログ（Helm Chart）を利用したプライベートレジストリ構築についてご紹介したいと思います。",
-            "url": "https://blog.idcf.jp/entry/container-Helm-Chart",
-            "title": "「IDCFクラウド コンテナ」サービスで作るプライベートレジストリ | IDCF テックブログ",
-            "summary": "はじめまして、事業推進本部SE部の横田です。 普段はセールスエンジニアとしてIDCフロンティア サービスのご提案や導入支援などを行っています。 今回は「IDCFクラウド コンテナ」環境内に、カタログ（Helm Chart）を利用したプライベートレジストリ構築についてご紹介したいと思います。",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.lifull.blog/entry/2022/03/30/100000?utm_source=feed",
-            "content_html": "プロダクトエンジニアリング部の佐野です。 LIFULLでは2020年3月頃からリモートワークが主体の働き方になっています。 出社して働いていた頃と比較すると、同じグループのメンバーとは日々業務を進める上でコミュニケーションは取っているものの、他部署のメンバーとのコミュニケーションが少なくなった...という話もちらほらと。 偶発的なコミュニケーションも必要だ！とのことで社内サークル活動を推奨する制度が出来上がりました。 2022年1月末でサークルは74。多い！ どこかのサークルに入っている人は747人。めっちゃ多い！！ 上記の通り社内サークルは沢山存在していますが、その中でも今回は、私が主催者と…",
-            "url": "https://www.lifull.blog/entry/2022/03/30/100000?utm_source=feed",
-            "title": "リモートワーク時代におけるサークル活動の取り組み | LIFULL Creators Blog ",
-            "summary": "プロダクトエンジニアリング部の佐野です。 LIFULLでは2020年3月頃からリモートワークが主体の働き方になっています。 出社して働いていた頃と比較すると、同じグループのメンバーとは日々業務を進める上でコミュニケーションは取っているものの、他部署のメンバーとのコミュニケーションが少なくなった...という話もちらほらと。 偶発的なコミュニケーションも必要だ！とのことで社内サークル活動を推奨する制度...",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://technote.qualiarts.jp/article/33",
-            "content_html": "Adobe CEP のデバッグ機能の拡張についてご説明させていただきます。",
-            "url": "https://technote.qualiarts.jp/article/33",
-            "title": "Photoshop Extension 開発におけるデバッグ効率化対策 | Qualiartsエンジニアブログ",
-            "summary": "Adobe CEP のデバッグ機能の拡張についてご説明させていただきます。",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "author": {
-                "name": "dockurage"
-            },
-            "tags": [
-                "CEP",
-                "Photoshop",
-                "テクニカルアーティスト"
-            ]
-        },
-        {
-            "id": "https://tech-blog.optim.co.jp/entry/2022/03/30/100000?utm_source=feed",
-            "content_html": "はじめに こんにちは、AI・IoTサービス開発部の岩丸です。 気づけばもうすぐ4月になり入社から丸1年経とうとしています。月日の流れは早いですね。2年目も自分らしく頑張って参ります。 前回はAndroidのJetpack Composeに関する記事を執筆しました。もしお時間ある方は合わせてご覧ください。 tech-blog.optim.co.jp 今回はGCPのCloud Runを遊んでみたいと思います。 せっかくなのでCloud Runで使用するイメージのビルドはCloud Build、イメージの保存先にはArtifact Registryをそれぞれ利用してCIOps環境を合わせて構築してみ…",
-            "url": "https://tech-blog.optim.co.jp/entry/2022/03/30/100000?utm_source=feed",
-            "title": "【GCP】GCPで始めるCloud Run + Cloud Build CIOps環境構築 | OPTiM TECH BLOG",
-            "summary": "はじめに こんにちは、AI・IoTサービス開発部の岩丸です。 気づけばもうすぐ4月になり入社から丸1年経とうとしています。月日の流れは早いですね。2年目も自分らしく頑張って参ります。 前回はAndroidのJetpack Composeに関する記事を執筆しました。もしお時間ある方は合わせてご覧ください。 tech-blog.optim.co.jp 今回はGCPのCloud Runを遊んでみたいと思...",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://developers.freee.co.jp/entry/global-engineering-at-freee",
-            "content_html": "こんにちは。freeeでエンジニアリングマネージャーをしている高野です。 freeeには2016年末にモバイルエンジニアとして入社し、直近3年ほどはモバイルチームのマネジメントを主に行ってきました。 今回は、2022年から兼務という形で新たに取り組み始めた、freeeにおけるグローバル開発チームの立ち上げについて紹介したいと思います。 グローバル開発チームの背景 深刻なエンジニア不足 私自身も自チームの中途エンジニア採用や新卒エンジニア採用に関わっていてひしひしと感じていますが、近年優秀なエンジニアの獲得は企業間の競争が激しく、本当に難しくなっていますし、その状況はまだ加速を続けています。 特…",
-            "url": "https://developers.freee.co.jp/entry/global-engineering-at-freee",
-            "title": "freeeでグローバルチーム開発にチャレンジしている話 | freee Developers Hub",
-            "summary": "こんにちは。freeeでエンジニアリングマネージャーをしている高野です。 freeeには2016年末にモバイルエンジニアとして入社し、直近3年ほどはモバイルチームのマネジメントを主に行ってきました。 今回は、2022年から兼務という形で新たに取り組み始めた、freeeにおけるグローバル開発チームの立ち上げについて紹介したいと思います。 グローバル開発チームの背景 深刻なエンジニア不足 私自身も自チ...",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.connehito.com/entry/2022/03/30/100000",
-            "content_html": "こんにちは。2017年11月にAndroidエンジニアとしてjoinした@katsutomuです。 前回のエントリーで、髪の毛のアップデート予定について触れましたが、重い腰を上げて予定を決めました。4/3を予定しています。 さて今回は、先日社内で実施したLTイベントの技術目標マルシェについて紹介します。 はじめに まずは今回の社内イベントについて補足させてください。 シンプルにいうと、スキルアップ目標の工夫をシェアして、お互いに刺激を受けるイベントです。 マルシェ is 何？ 社内で実施しているLTイベントのコネヒトマルシェのコンセプトでもあるみんなの「知りたい」「知ってる」をおすそ分け！をテ…",
-            "url": "https://tech.connehito.com/entry/2022/03/30/100000",
-            "title": "コネヒトの文化が生み出すスキルアップを支える社内LTイベント | コネヒト開発者ブログ",
-            "summary": "こんにちは。2017年11月にAndroidエンジニアとしてjoinした@katsutomuです。 前回のエントリーで、髪の毛のアップデート予定について触れましたが、重い腰を上げて予定を決めました。4/3を予定しています。 さて今回は、先日社内で実施したLTイベントの技術目標マルシェについて紹介します。 はじめに まずは今回の社内イベントについて補足させてください。 シンプルにいうと、スキルアップ...",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://toranoana-lab.hatenablog.com/entry/2022/03/30/100000",
-            "content_html": "皆さんこんにちは。とらのあなラボの大場です。 カンファレンスの開催直前ギリギリまで、登壇資料の作成をしていたことをここに懺悔致します。 さて、2022年3月25日(金)に、とらのあなラボでは2回目となる大規模カンファレンス『とらのあなラボ Tech Conference Vol.2』を開催しました。 当日配信した内容はアーカイブ公開していますので「見逃してしまった」、「開催していること自体を知らなかった」という方は、 ぜひ以下のURLからご視聴いただければ幸いです。 【Track1】 www.youtube.com 【Track2】 www.youtube.com イベント資料一覧 yumen…",
-            "url": "https://toranoana-lab.hatenablog.com/entry/2022/03/30/100000",
-            "title": "『とらのあなラボ Tech Conference Vol.2』を開催しました！ | 虎の穴開発室ブログ",
-            "summary": "皆さんこんにちは。とらのあなラボの大場です。 カンファレンスの開催直前ギリギリまで、登壇資料の作成をしていたことをここに懺悔致します。 さて、2022年3月25日(金)に、とらのあなラボでは2回目となる大規模カンファレンス『とらのあなラボ Tech Conference Vol.2』を開催しました。 当日配信した内容はアーカイブ公開していますので「見逃してしまった」、「開催していること自体を知らな...",
-            "date_modified": "2022-03-30T01:00:00.000Z",
-            "date_published": "2022-03-30T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://moneyforward.com/engineers_blog/?p=10037",
-            "content_html": "こんにちは、CTO室AI推進部アナリストグループの足立です。 CQ出版社さまから … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 家庭内 esa のすゝめ  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco  【速報】RubyKaigi 2014レポ：Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails  10分コーディング！ Rubyでつくる Slack時報  ふりかえりのススメ！〜モチベーションのコントロール〜   Copyright © Engineers' Blog [[PR]Interface誌2022年5月号に記事を寄稿しました], All Right Reserved. 202...",
-            "url": "https://moneyforward.com/engineers_blog/2022/03/30/pr-interface/",
-            "title": "[PR]Interface誌2022年5月号に記事を寄稿しました | Engineers' Blog",
-            "summary": "こんにちは、CTO室AI推進部アナリストグループの足立です。 CQ出版社さまから … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 家庭内...",
-            "date_modified": "2022-03-30T00:30:43.000Z",
-            "date_published": "2022-03-30T00:30:43.000Z",
-            "author": {
-                "name": "engineers_blog"
-            },
-            "tags": [
-                "お知らせ"
-            ]
-        },
-        {
-            "id": "https://math-notes.info/?p=1515",
-            "content_html": "関数の極限や連続関数の基本事項について様々な実例を交えながら紹介します。",
-            "url": "https://math-notes.info/2022/03/30/cal-3/",
-            "title": "関数の極限と連続性 (教養の微積) | 大学数学の授業ノート",
-            "summary": "関数の極限や連続関数の基本事項について様々な実例を交えながら紹介します。",
-            "date_modified": "2022-03-30T00:20:04.000Z",
-            "date_published": "2022-03-30T00:20:04.000Z",
-            "author": {
-                "name": "math-notes"
-            },
-            "tags": [
-                "教養の微積"
-            ]
-        },
-        {
-            "id": "https://tech-lab.sios.jp/?p=28514",
-            "content_html": "こんにちは！ 今月も「OSSのサポートエンジニアが気になった！OSSの最新ニュース」をお届けします。 ロシアのウクライナ侵攻を受けての投稿に、GitHub は自社のポリシーを返答しました。 「ロシアをGitHubから切り [...] 【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース first appeared on SIOS Tech. Lab.",
-            "url": "https://tech-lab.sios.jp/archives/28514",
-            "title": "【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech. Lab",
-            "summary": "こんにちは！ 今月も「OSSのサポートエンジニアが気になった！OSSの最新ニュース」をお届けします。 ロシアのウクライナ侵攻を受けての投稿に、GitHub は自社のポリシーを返答しました。 「ロシアをGitHubから切り [...] 【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース first appeared on SIOS Tech. Lab.",
-            "date_modified": "2022-03-30T00:01:45.000Z",
-            "date_published": "2022-03-30T00:01:45.000Z",
-            "author": {
-                "name": "貝野友香"
-            },
-            "tags": [
-                "OSS"
-            ]
-        },
-        {
-            "id": "https://tech-lab.sios.jp/?p=28518",
-            "content_html": "今号では、前回より引き続き知っておくとちょっと便利なシェルスクリプトの基本についてご紹介します！ コマンド例3 (for 文) for 文とは 繰り返し処理をさせるための構文 指定した回数、同じ処理を実行する 構文(基本 [...] 知っておくとちょっと便利！シェルスクリプトの作り方3 first appeared on SIOS Tech. Lab.",
-            "url": "https://tech-lab.sios.jp/archives/28518",
-            "title": "知っておくとちょっと便利！シェルスクリプトの作り方3 | SIOS Tech. Lab",
-            "summary": "今号では、前回より引き続き知っておくとちょっと便利なシェルスクリプトの基本についてご紹介します！ コマンド例3 (for 文) for 文とは 繰り返し処理をさせるための構文 指定した回数、同じ処理を実行する 構文(基本 [...] 知っておくとちょっと便利！シェルスクリプトの作り方3 first appeared on SIOS Tech. Lab.",
-            "date_modified": "2022-03-30T00:00:57.000Z",
-            "date_published": "2022-03-30T00:00:57.000Z",
-            "author": {
-                "name": "貝野友香"
-            },
-            "tags": [
-                "OSS"
-            ]
-        },
-        {
-            "id": "https://engineering.dena.com/blog/2022/03/dena-amazon-connect/",
-            "content_html": "はじめに はじめまして。2021年4月に新卒入社しました IT 基盤部第三グループの中村です。 本記事では、 DeNA がカスタマーサービスで利用している Amazon Connect の紹介と、 DeNA 流のカスタマイズをお伝えします。 Amazon Connect とは Amazon Connect は、クラウド型のコンタクトセンターを構築できる AWS のサービスです。 クラウド型のサービスですので、物理的な回線を設置する必要がありません。 また、オペレータの勤務場所の地理的制限もないので、オペレータは自宅からで",
-            "url": "https://engineering.dena.com/blog/2022/03/dena-amazon-connect/",
-            "title": "DeNA 流 Amazon Connect カスタマイズ [DeNA インフラ SRE] | Blog on DeNA Engineering",
-            "summary": "はじめに はじめまして。2021年4月に新卒入社しました IT 基盤部第三グループの中村です。 本記事では、 DeNA がカスタマーサービスで利用している Amazon Connect の紹介と、 DeNA 流のカスタマイズをお伝えします。 Amazon Connect とは Amazon Connect は、クラウド型のコンタクトセンターを構築できる AWS のサービスです。 クラウド型のサービ...",
-            "date_modified": "2022-03-30T00:00:00.000Z",
-            "date_published": "2022-03-30T00:00:00.000Z",
             "tags": []
         }
     ]

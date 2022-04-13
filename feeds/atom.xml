@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-04-12T23:29:21.294Z</updated>
+    <updated>2022-04-13T02:49:56.098Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -11,7 +11,141 @@
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
     <entry>
-        <title type="html"><![CDATA[「YouTube」の一部機能に障害 ～ログインやアカウントの切り替え、表示に不具合／「YouTube TV」、「YouTube Music」、「YouTube Studio」にも影響 | 窓の杜]]></title>
+        <title type="html"><![CDATA[なぜ我々はsession.cookieを変更しなければならなかったのか | BASEプロダクトチームブログ]]></title>
+        <id>https://devblog.thebase.in/entry/2022/04/13/114714</id>
+        <link href="https://devblog.thebase.in/entry/2022/04/13/114714"/>
+        <updated>2022-04-13T02:47:14.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。バックエンドエンジニアの小笠原です。 今回は、2022年2月18日から2022年3月4日にかけて発生していたこちらの障害に対し私達開発チームが実施した、session.cookieで定義しているCookieのkey名を変更するという影響範囲の大きい対応について、実施に至るまでの経緯や対応過程についてご紹介したいと思います。 ショップオーナー向けに掲載していたお知らせの内容 背...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。バックエンドエンジニアの小笠原です。 今回は、2022年2月18日から2022年3月4日にかけて発生していたこちらの障害に対し私達開発チームが実施した、session.cookieで定義しているCookieのkey名を変更するという影響範囲の大きい対応について、実施に至るまでの経緯や対応過程についてご紹介したいと思います。 ショップオーナー向けに掲載していたお知らせの内容 背景 全ては iOS14.5から端末識別子の取得に同意が必要になったことから始まった ことの発端は、iOS14.5以降からIDFA（端末ごとに持つ固有識別子）の取得に端末所有者の許可が必要になったことで…]]></content>
+        <published>2022-04-13T02:47:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PD WorkTime で Gemfile を見直してみた | リーナーテックブログさんのフィード]]></title>
+        <id>https://zenn.dev/leaner_tech/articles/20220407-update-gemfile</id>
+        <link href="https://zenn.dev/leaner_tech/articles/20220407-update-gemfile"/>
+        <updated>2022-04-13T01:57:42.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、 Leaner Technologies の石渡（@mishiwata1015）です。  Leaner ではエンジニアチームが週に一度集まってチームや技術の話をする PD WorkTime という時間を設けています。[1]  https://careers.leaner.co.jp/pdworktime 先日の PD WorkTime では Gemfile 見直し会を行ったので、今日は...]]></summary>
+        <content type="html"><![CDATA[こんにちは、 Leaner Technologies の石渡（@mishiwata1015）です。  Leaner ではエンジニアチームが週に一度集まってチームや技術の話をする PD WorkTime という時間を設けています。[1]  https://careers.leaner.co.jp/pdworktime 先日の PD WorkTime では Gemfile 見直し会を行ったので、今日はその話をします。   よりよいGemはないか？ Gemfile に記載されている全ての Gem に対し、以下の観点で 1 つ 1 つ見直しました。  不要な Gem が記載されていないか 適切な...]]></content>
+        <author>
+            <name>リーナーテックブログ</name>
+        </author>
+        <published>2022-04-13T01:57:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firebase Analyticsで始めるプロダクトの効果検証の取り組み | ANDPAD Tech Blog]]></title>
+        <id>https://tech.andpad.co.jp/entry/2022/04/13/100000</id>
+        <link href="https://tech.andpad.co.jp/entry/2022/04/13/100000"/>
+        <updated>2022-04-13T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ANDPADチャットチームでエンジニアをしている椎野(@taikishiino)です。 前回、5000万件越えのRDS大量データをFirestoreに移行する勘所 という記事を書かせていただきました。 tech.andpad.co.jp その後、グロースのための施策にも徐々に注力できるようになってきました。 今回は効果的にグロースさせていくための効果検証の仕組み作りの取り組みについて紹介していきま...]]></summary>
+        <content type="html"><![CDATA[ANDPADチャットチームでエンジニアをしている椎野(@taikishiino)です。 前回、5000万件越えのRDS大量データをFirestoreに移行する勘所 という記事を書かせていただきました。 tech.andpad.co.jp その後、グロースのための施策にも徐々に注力できるようになってきました。 今回は効果的にグロースさせていくための効果検証の仕組み作りの取り組みについて紹介していきます。 効果検証 どんな方法で Firebase Analytics ログイベントについて どのようにイベント設計したか パラメータルール どのように可視化したか 画面内の機能導線タップ総数の割合 対象…]]></content>
+        <published>2022-04-13T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IDCFクラウドコンテナサービスのAPIを使ってみた。 | IDCF テックブログ]]></title>
+        <id>https://blog.idcf.jp/entry/container-api</id>
+        <link href="https://blog.idcf.jp/entry/container-api"/>
+        <updated>2022-04-13T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめまして、オペレーション本部サービス運用部の荒木です。 普段はIDCFクラウド上で提供している各種プロダクトの監視・運用設計・運用改善をメインに行っております。 今回は、昨年5月にリリースしたIDCFクラウド コンテナの監視設計や実装を行ってきた中でRancherAPIを利用する機会がありましたので、そこからいくつか紹介したいと思います。 IDCFクラウドコンテナAPI = RancherAP...]]></summary>
+        <content type="html"><![CDATA[はじめまして、オペレーション本部サービス運用部の荒木です。 普段はIDCFクラウド上で提供している各種プロダクトの監視・運用設計・運用改善をメインに行っております。 今回は、昨年5月にリリースしたIDCFクラウド コンテナの監視設計や実装を行ってきた中でRancherAPIを利用する機会がありましたので、そこからいくつか紹介したいと思います。 IDCFクラウドコンテナAPI = RancherAPI 作業環境 事前準備（トークンの取得） クラスターを作成する クラスターを追加する クラスターにノードを追加する クラスターを削除する 最後に IDCFクラウドコンテナAPI = RancherAP…]]></content>
+        <published>2022-04-13T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Acrobat」「After Effects」「Photoshop」に致命的な脆弱性 ～Adobeが月例セキュリティ情報を発表／4製品が対象 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1402392.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1402392.html"/>
+        <updated>2022-04-13T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米Adobeは3月8日（現地時間）、同社製品に関するセキュリティ情報を発表した。今回は「Acrobat/Acrobat Reader」「After Effects」「Photoshop」など4製品が対象となっている（括弧内はCVEベースでの脆弱性の件数と最大深刻度）。]]></summary>
+        <content type="html"><![CDATA[米Adobeは3月8日（現地時間）、同社製品に関するセキュリティ情報を発表した。今回は「Acrobat/Acrobat Reader」「After Effects」「Photoshop」など4製品が対象となっている（括弧内はCVEベースでの脆弱性の件数と最大深刻度）。]]></content>
+        <published>2022-04-13T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[S3のコストを大幅に削減した話 | Gunosy Tech Blog]]></title>
+        <id>https://tech.gunosy.io/entry/s3_costcut</id>
+        <link href="https://tech.gunosy.io/entry/s3_costcut"/>
+        <updated>2022-04-13T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[広告技術部のUTです。 最近はカービィディスカバリーをゆっくりやってます 概要 過去の失敗 どうやったか 仕組み 結果 まとめ 概要 昨今ではデータドリブンな意思決定を重視する企業がどんどん増えており、データを活用することにより事業成長へのインパクトを出そうとしています。 データを事業へと活用するためには、蓄積されるデータを分析するために保管しておく必要があります。 弊社も創業時からデータを蓄積し...]]></summary>
+        <content type="html"><![CDATA[広告技術部のUTです。 最近はカービィディスカバリーをゆっくりやってます 概要 過去の失敗 どうやったか 仕組み 結果 まとめ 概要 昨今ではデータドリブンな意思決定を重視する企業がどんどん増えており、データを活用することにより事業成長へのインパクトを出そうとしています。 データを事業へと活用するためには、蓄積されるデータを分析するために保管しておく必要があります。 弊社も創業時からデータを蓄積し事業に活用することに力を入れてきた企業の一つであり、日々大量のログが収集されています。 またAWSアカウントを複数運用していますが、一番データ量の多い広告アカウントのS3にはペタバイトレベルのデータが…]]></content>
+        <published>2022-04-13T00:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【アップデート情報】パッケージ・ドライバー関連　4月13日　～セイコーエプソンなど | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/update/driver/1402394.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/update/driver/1402394.html"/>
+        <updated>2022-04-13T00:30:00.000Z</updated>
+        <published>2022-04-13T00:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unityで感染シミュレーションを作った話 | cloud.config Tech Blog]]></title>
+        <id>https://tech-blog.cloud-config.jp/?p=114196</id>
+        <link href="https://tech-blog.cloud-config.jp/2022-04-07-infection-simulation/"/>
+        <updated>2022-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、22年卒のうみのです。 今回は学生時代の研究テーマだった感染シミュレーションについて説明します。 突然ですが、この式なんだか分かりますか？ この式は感染症流行モデルの基本となるSIRモデルです。 この式に値を […] Unityで感染シミュレーションを作った話 first appeared on cloud.config Tech Blog.]]></summary>
+        <content type="html"><![CDATA[こんにちは、22年卒のうみのです。 今回は学生時代の研究テーマだった感染シミュレーションについて説明します。 突然ですが、この式なんだか分かりますか？ この式は感染症流行モデルの基本となるSIRモデルです。 この式に値を […] Unityで感染シミュレーションを作った話 first appeared on cloud.config Tech Blog.]]></content>
+        <author>
+            <name>FIXER Inc. 海野</name>
+        </author>
+        <category label="Azure"/>
+        <category label="シミュレーション"/>
+        <category label="感染"/>
+        <published>2022-04-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ブロックチェーンは思想だ | cloud.config Tech Blog]]></title>
+        <id>https://tech-blog.cloud-config.jp/?p=114149</id>
+        <link href="https://tech-blog.cloud-config.jp/2022-04-07-blockchain-about/"/>
+        <updated>2022-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、株式会社FIXER新卒の櫻井です。 本記事においては、最近耳にすることが増えたであろう「ブロックチェーン」という技術について 概要やメリットをブロックチェーンを知らない人に向けて簡単に書いていこうと思います。 […] ブロックチェーンは思想だ first appeared on cloud.config Tech Blog.]]></summary>
+        <content type="html"><![CDATA[こんにちは、株式会社FIXER新卒の櫻井です。 本記事においては、最近耳にすることが増えたであろう「ブロックチェーン」という技術について 概要やメリットをブロックチェーンを知らない人に向けて簡単に書いていこうと思います。 […] ブロックチェーンは思想だ first appeared on cloud.config Tech Blog.]]></content>
+        <author>
+            <name>FIXER Inc. 櫻井 朋</name>
+        </author>
+        <category label="Education"/>
+        <category label="ビットコイン"/>
+        <category label="仮想通貨"/>
+        <published>2022-04-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る | cloud.config Tech Blog]]></title>
+        <id>https://tech-blog.cloud-config.jp/?p=114137</id>
+        <link href="https://tech-blog.cloud-config.jp/2022-04-07-glucose-to-all-purpose-item-z/"/>
+        <updated>2022-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[社会背景 近年問題となっている「地球温暖化」。その原因は二酸化炭素などの温室効果ガスの大量排出と言われています。地球温暖化とは簡単に言うと、太陽からの熱が温室効果ガスなどによって逃げられなくなることによって発生する現象で […] ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る first appeared on cloud.config Tech Blog.]]></summary>
+        <content type="html"><![CDATA[社会背景 近年問題となっている「地球温暖化」。その原因は二酸化炭素などの温室効果ガスの大量排出と言われています。地球温暖化とは簡単に言うと、太陽からの熱が温室効果ガスなどによって逃げられなくなることによって発生する現象で […] ブドウ糖から石油・天然ガスの代替となる万能物質「Z」を作る first appeared on cloud.config Tech Blog.]]></content>
+        <author>
+            <name>FIXER Inc. 三代 伊知朗</name>
+        </author>
+        <category label="Education"/>
+        <category label="Z"/>
+        <category label="バイオマス"/>
+        <category label="地球温暖化"/>
+        <category label="環境"/>
+        <published>2022-04-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エンジニアの仕事を減らす「Flutter」って何？ | cloud.config Tech Blog]]></title>
+        <id>https://tech-blog.cloud-config.jp/?p=114076</id>
+        <link href="https://tech-blog.cloud-config.jp/2022-04-07-introduce-flutter/"/>
+        <updated>2022-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2022年4月1日から新卒で入社した西村凌(にしむら りょう)と申します。 今回は1つのコードでPCやスマホ、Web上で動くアプリケーションを開発できる「Flutter」という技術をご紹介します。 はじめに 1台で焼き料 […] エンジニアの仕事を減らす「Flutter」って何？ first appeared on cloud.config Tech Blog.]]></summary>
+        <content type="html"><![CDATA[2022年4月1日から新卒で入社した西村凌(にしむら りょう)と申します。 今回は1つのコードでPCやスマホ、Web上で動くアプリケーションを開発できる「Flutter」という技術をご紹介します。 はじめに 1台で焼き料 […] エンジニアの仕事を減らす「Flutter」って何？ first appeared on cloud.config Tech Blog.]]></content>
+        <author>
+            <name>FIXER Inc. 西村 凌</name>
+        </author>
+        <category label="Education"/>
+        <category label="Flutter"/>
+        <published>2022-04-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Firefox」v99.0.1が公開 ～Windows/Intel環境の一部で動画のハードウェアデコードが効かない問題などを解決／「Zoom」の問題にも対処 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1402390.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1402390.html"/>
+        <updated>2022-04-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozillaは4月12日（米国時間）、デスクトップ向け「Firefox」の最新版v99.0.1を正式公開した。不具合に対処したメンテナンスアップデートとなっている。]]></summary>
+        <content type="html"><![CDATA[Mozillaは4月12日（米国時間）、デスクトップ向け「Firefox」の最新版v99.0.1を正式公開した。不具合に対処したメンテナンスアップデートとなっている。]]></content>
+        <published>2022-04-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「YouTube」の一部機能に障害 ～ログインやアカウントの切り替え、表示に不具合【解決済み】／「YouTube TV」、「YouTube Music」、「YouTube Studio」にも影響 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1402389.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1402389.html"/>
         <updated>2022-04-12T23:07:01.000Z</updated>
@@ -106,6 +240,15 @@
         <summary type="html"><![CDATA[Reducing the energy of ion beams used for editing eliminates the need for “sacrificial” areas between electrical components and improves precision.]]></summary>
         <content type="html"><![CDATA[Reducing the energy of ion beams used for editing eliminates the need for “sacrificial” areas between electrical components and improves precision.]]></content>
         <published>2022-04-12T15:10:21.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuDNN の CUDA API の紹介 | フューチャー技術ブログ]]></title>
+        <id>https://future-architect.github.io/articles/20220413a/</id>
+        <link href="https://future-architect.github.io/articles/20220413a/"/>
+        <updated>2022-04-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><p>こんにちは、2021年新卒入社の SAIG 松崎功也です。Tech Blog 初投稿です。</p> <p>NVIDIA]]></summary>
+        <content type="html"><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><p>こんにちは、2021年新卒入社の SAIG 松崎功也です。Tech Blog 初投稿です。</p> <p>NVIDIA]]></content>
+        <published>2022-04-12T15:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Nearest Neighbors for Classification | KDnuggets]]></title>
@@ -360,6 +503,18 @@ https://ai-scholar.tech/articles/medical/rl_medical_robot | AI技術最新情報
         <published>2022-04-12T02:41:05.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Go 言語スプレッドシートライブラリ：Excelize 2.6.0 がリリースされました | Zennのトレンド]]></title>
+        <id>https://zenn.dev/xuri/articles/5a22e06f106657</id>
+        <link href="https://zenn.dev/xuri/articles/5a22e06f106657"/>
+        <updated>2022-04-12T02:08:33.000Z</updated>
+        <summary type="html"><![CDATA[Excelize は、純粋な Go で記述されたライブラリで、XLAM / XLSM / XLSX / XLTM / XLTX ファイルの読み書きを可能にする一連の関数を提供します。Microsoft Excel™ 2007 以降で生成されたスプレッドシートドキュメントの読み取りと書き込みをサポートします。 高い互換性により複雑なコンポーネントをサポートし、大量のデータを含むワークシートからデータ...]]></summary>
+        <content type="html"><![CDATA[Excelize は、純粋な Go で記述されたライブラリで、XLAM / XLSM / XLSX / XLTM / XLTX ファイルの読み書きを可能にする一連の関数を提供します。Microsoft Excel™ 2007 以降で生成されたスプレッドシートドキュメントの読み取りと書き込みをサポートします。 高い互換性により複雑なコンポーネントをサポートし、大量のデータを含むワークシートからデータを生成または読み取るためのストリーミング API を提供します。 場合によっては、既存の Excel ドキュメントコンテンツの読み込み、新しい Excel ドキュメントの作成、既存のドキュメン...]]></content>
+        <author>
+            <name>xuri</name>
+        </author>
+        <published>2022-04-12T02:08:33.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[GCP Professional Cloud Developerに合格しました | GMOアドパートナーズ TECH BLOG byGMO]]></title>
         <id>https://techblog.gmo-ap.jp/?p=22585</id>
         <link href="https://techblog.gmo-ap.jp/2022/04/12/gcp-professional-cloud-developer/"/>
@@ -432,8 +587,8 @@ https://ai-scholar.tech/articles/medical/rl_medical_robot | AI技術最新情報
         <id>https://moneyforward.com/engineers_blog/?p=10062</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/12/gocon-2022-spring/"/>
         <updated>2022-04-12T00:30:38.000Z</updated>
-        <summary type="html"><![CDATA[4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: あの部...]]></summary>
-        <content type="html"><![CDATA[4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: あの部署何やってるの？カスタマーサポート本部 MFクラウドサポート部 編 2020年のマネーフォワード  StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  社内勉強会カレンダーのご紹介  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」   Copyright © Engineers' Blog [Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサー協賛もおこないます！], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: An ...]]></summary>
+        <content type="html"><![CDATA[4月23日（土） 10時からいよいよ Go Conference 2022 Sp … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: An engineering visualization tool at Money Forward  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  マネーフォワードのロゴパネルを作ってみた  こんにちわ、5年前にお世話になっていた開発者のものです  【速報】RubyKaigi 2014レポ：Non-Linear Pattern Matching against Unfree Data Types in Ruby   Copyright © Engineers' Blog [Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサ...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -706,18 +861,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <published>2022-04-11T14:00:38.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MySQLのGeometryデータを扱う | Zennのトレンド]]></title>
-        <id>https://zenn.dev/convers39/articles/e91124920ea379</id>
-        <link href="https://zenn.dev/convers39/articles/e91124920ea379"/>
-        <updated>2022-04-11T13:44:55.000Z</updated>
-        <summary type="html"><![CDATA[最近は業務で、現在地周辺の施設候補を検索する機能のリクエストが出て、それを解決するために色々と調査してみました。   ロケーションテーブル 仮に下記のようなテーブルがあったとします。 CREATE TABLE IF NOT EXISTS `location`(  `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  `geo_hash` VARCHAR(12...]]></summary>
-        <content type="html"><![CDATA[最近は業務で、現在地周辺の施設候補を検索する機能のリクエストが出て、それを解決するために色々と調査してみました。   ロケーションテーブル 仮に下記のようなテーブルがあったとします。 CREATE TABLE IF NOT EXISTS `location`(  `id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  `geo_hash` VARCHAR(12),  `position` POINT NOT NULL SRID 4326,  `latitude` DOUBLE(8,6) NOT NULL,  `longi...]]></content>
-        <author>
-            <name>convers39</name>
-        </author>
-        <published>2022-04-11T13:44:55.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Braveはフォントを取得できないようにした。いっぽうChromeはフォントを根刮ぎ取得しようとしている。 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/rana_kualu/items/2ca7dad356c5caf34383?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/rana_kualu/items/2ca7dad356c5caf34383?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -831,6 +974,18 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <link href="https://forest.watch.impress.co.jp/docs/digest/1401929.html"/>
         <updated>2022-04-11T08:58:02.000Z</updated>
         <published>2022-04-11T08:58:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[async/awaitは「できること」より「できないこと」の方が大事 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/rita0222/articles/f5fdadeb25aa00</id>
+        <link href="https://zenn.dev/rita0222/articles/f5fdadeb25aa00"/>
+        <updated>2022-04-11T08:48:18.000Z</updated>
+        <summary type="html"><![CDATA[皆さんawaitしてますか？ 私はC#を使う機会が多いのでawaitしまくってますが、実は最近までこの構文の価値を正しく理解していませんでした。  async/awaitという糖衣構文はそれなりに複雑なことをやっていて、それを理解できる人にはそんな糖衣構文要らないのでは？  と長い間考えていたのです。私自身、Taskクラスを直接取り回さないと書けない処理を書いたり、C++でTask.Continu...]]></summary>
+        <content type="html"><![CDATA[皆さんawaitしてますか？ 私はC#を使う機会が多いのでawaitしまくってますが、実は最近までこの構文の価値を正しく理解していませんでした。  async/awaitという糖衣構文はそれなりに複雑なことをやっていて、それを理解できる人にはそんな糖衣構文要らないのでは？  と長い間考えていたのです。私自身、Taskクラスを直接取り回さないと書けない処理を書いたり、C++でTask.ContinueWithに相当する機能を作ったりしたこともあり、それなりに非同期処理については理解している自負がありました。その慢心が、この構文の意図を理解する妨げになっていたなぁという反省をこめて、この記事...]]></content>
+        <author>
+            <name>rita</name>
+        </author>
+        <published>2022-04-11T08:48:18.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Bootで、JDBC設定にTLSプロトコルの指定が不要になった話 | エキサイト TechBlog.]]></title>
@@ -1108,8 +1263,8 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <id>https://moneyforward.com/engineers_blog/?p=10071</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/11/android13-notification-runtime-permission/"/>
         <updated>2022-04-11T03:00:03.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ０から...]]></summary>
-        <content type="html"><![CDATA[こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  京都開発拠点を2年運営して見えてきた採用の傾向  bash スクリプトの先頭によく書く記述のおさらい  金融機関様向けのPFMサービス 第一弾リリース！  マネーフォワードクラウド確定申告Androidアプリの設計方針   Copyright © Engineers' Blog [Android 13で導入されるNotification runtime permissionについて調べてみた], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内...]]></summary>
+        <content type="html"><![CDATA[こんにちは。Androidエンジニアの宮本です。 マネーフォワード クラウド確定 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内レポ】最新型MacBook Proを投入！  [PR]Interface誌2022年5月号に記事を寄稿しました  長期エンジニアインターンで得た学び  エンジニアにとって重要なボルダリングテクニック  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証   Copyright © Engineers' Blog [Android 13で導入されるNotification runtime permissionについて調べてみた], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -1543,18 +1698,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <published>2022-04-10T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PHPerKaigi 2022 スライドまとめ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/naopusyu/articles/9b495b2759af5e</id>
-        <link href="https://zenn.dev/naopusyu/articles/9b495b2759af5e"/>
-        <updated>2022-04-10T13:41:11.000Z</updated>
-        <summary type="html"><![CDATA[2022/04/09から2022/04/11で行われているPHPerKaigi 2022に参加できなかったのであとから見るようにスライドを集めてきました。 https://phperkaigi.jp/2022/ ! 見つけたものから随時更新します    2022/04/09（土）   PHPのエラーを理解して適切なエラーハンドリングを学ぼう by 並里 https://speakerdeck.co...]]></summary>
-        <content type="html"><![CDATA[2022/04/09から2022/04/11で行われているPHPerKaigi 2022に参加できなかったのであとから見るようにスライドを集めてきました。 https://phperkaigi.jp/2022/ ! 見つけたものから随時更新します    2022/04/09（土）   PHPのエラーを理解して適切なエラーハンドリングを学ぼう by 並里 https://speakerdeck.com/namizatork/phpfalseerawoli-jie-siteshi-qie-naerahantorinkuwoxue-hou-2   Datadog APM で始める Larave...]]></content>
-        <author>
-            <name>なお</name>
-        </author>
-        <published>2022-04-10T13:41:11.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CADDi Be Agile! 〜開発もビジネスもスクラムで回してみた【イベントレポート】 | CADDi Tech Blog]]></title>
         <id>https://caddi.tech/?p=3594</id>
         <link href="https://caddi.tech/archives/3594"/>
@@ -1609,18 +1752,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         </author>
         <category label="お知らせ"/>
         <published>2022-04-10T10:24:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2022年4月現在 Vue3 + Vuetify3(Beta)でどこまでできるか | Zennのトレンド]]></title>
-        <id>https://zenn.dev/uedayou/articles/9e8bd227a13e1c</id>
-        <link href="https://zenn.dev/uedayou/articles/9e8bd227a13e1c"/>
-        <updated>2022-04-10T10:15:20.000Z</updated>
-        <summary type="html"><![CDATA[昨年、Zenn に Vue を使ったアプリの作り方について投稿しました。 https://zenn.dev/uedayou/articles/c1e76684d3d094 上記投稿時点で Vue3 を使うことはできましたが、使おうと思っていた UIフレームワークの Vuetify が Vue3 に対応していなかったので、Vue2 を使っていました。 あれから半年以上たって、Vue3 対応の Vue...]]></summary>
-        <content type="html"><![CDATA[昨年、Zenn に Vue を使ったアプリの作り方について投稿しました。 https://zenn.dev/uedayou/articles/c1e76684d3d094 上記投稿時点で Vue3 を使うことはできましたが、使おうと思っていた UIフレームワークの Vuetify が Vue3 に対応していなかったので、Vue2 を使っていました。 あれから半年以上たって、Vue3 対応の Vuetify3 がアルファからベータ版になり、 公式サイトを見るといろいろできそうな感じに見えたので、試しに Vue3 + Vuetify3 で Webアプリを作ってみました。   目標 先日、オー...]]></content>
-        <author>
-            <name>uedayou</name>
-        </author>
-        <published>2022-04-10T10:15:20.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[2022年度笹川科学研究助成の実践研究部門に採択されました。 | 数学カフェ]]></title>
@@ -1802,6 +1933,18 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <published>2022-04-09T15:06:18.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[計算科学のためのWindowsセットアップ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/ohno/books/356315a0e6437c</id>
+        <link href="https://zenn.dev/ohno/books/356315a0e6437c"/>
+        <updated>2022-04-09T10:32:06.000Z</updated>
+        <summary type="html"><![CDATA[計算化学をはじめとする計算科学の学生・研究者のために, Windows PCのセットアップについてまとめました. Windows全般, Chrome, Office, Zoom, Visual Studio Code, Git, LaTeX, gnuplot, Julia, Jupyter Notebook, Python, WSL(Ubuntu), C, C++, Fortran, OpenMP...]]></summary>
+        <content type="html"><![CDATA[計算化学をはじめとする計算科学の学生・研究者のために, Windows PCのセットアップについてまとめました. Windows全般, Chrome, Office, Zoom, Visual Studio Code, Git, LaTeX, gnuplot, Julia, Jupyter Notebook, Python, WSL(Ubuntu), C, C++, Fortran, OpenMPIなどのインストール・初期設定について解説します. Winmostar, Gaussian16などの量子化学ソフトウェアのインストールについても解説しました. 今後はR, GAMESS, Molpro, VASP, Quantum ESPRESSO, CASINOなどの加筆を予定しています.]]></content>
+        <author>
+            <name>Shuhei Ohno</name>
+        </author>
+        <published>2022-04-09T10:32:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[コロナ禍の今ドコモショップで手続きを行う際に事前にやったほうが良いこと | FascodeNetwork Blog]]></title>
         <id>https://blog.fascode.net/?p=14089</id>
         <link href="https://blog.fascode.net/2022/04/09/do/"/>
@@ -1830,64 +1973,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <published>2022-04-09T06:13:48.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[LINE Bot開発をオススメする5つの理由 | cloud.config Tech Blog]]></title>
-        <id>https://tech-blog.cloud-config.jp/?p=114242</id>
-        <link href="https://tech-blog.cloud-config.jp/2022-04-07-line-bot-recommend/"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！最近、筋トレに励んでいるりぃぽぽです💪🏾今回は学生時代の経験をテーマに、LINE Bot開発のススメについて書いていこうと思います！ 💛 初心者でも取り組みやすい これから述べていく理由にもありますが […] LINE Bot開発をオススメする5つの理由 first appeared on cloud.config Tech Blog.]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！最近、筋トレに励んでいるりぃぽぽです💪🏾今回は学生時代の経験をテーマに、LINE Bot開発のススメについて書いていこうと思います！ 💛 初心者でも取り組みやすい これから述べていく理由にもありますが […] LINE Bot開発をオススメする5つの理由 first appeared on cloud.config Tech Blog.]]></content>
-        <author>
-            <name>FIXER Inc. りぃぽぽ</name>
-        </author>
-        <category label="Education"/>
-        <category label="LINE Bot"/>
-        <category label="LINE Developers"/>
-        <published>2022-04-09T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ウガンダにむけての開発 | cloud.config Tech Blog]]></title>
-        <id>https://tech-blog.cloud-config.jp/?p=114216</id>
-        <link href="https://tech-blog.cloud-config.jp/2022-04-07-ugannda-game/"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 皆さん、こんにちは。増田航介です。ここでは、自分が大学時代に行ったプロジェクト学習と呼ばれる授業についてお話したいと思います。 プロジェクト学習とは、学生が自由に実社会に存在する問題を自ら発見し、1年間でチーム […] ウガンダにむけての開発 first appeared on cloud.config Tech Blog.]]></summary>
-        <content type="html"><![CDATA[はじめに 皆さん、こんにちは。増田航介です。ここでは、自分が大学時代に行ったプロジェクト学習と呼ばれる授業についてお話したいと思います。 プロジェクト学習とは、学生が自由に実社会に存在する問題を自ら発見し、1年間でチーム […] ウガンダにむけての開発 first appeared on cloud.config Tech Blog.]]></content>
-        <author>
-            <name>FIXER Inc. 増田 航介</name>
-        </author>
-        <category label="Education"/>
-        <category label="Recruiting"/>
-        <category label="ウガンダ"/>
-        <category label="ゲーム開発"/>
-        <published>2022-04-09T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エモい写真の撮り方 | cloud.config Tech Blog]]></title>
-        <id>https://tech-blog.cloud-config.jp/?p=114201</id>
-        <link href="https://tech-blog.cloud-config.jp/2022-04-07-take-a-picture/"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[新卒で入社した小松尾です。この記事では私が学生時代に研究していたテーマについてご紹介しようと思ったのですが布教したい欲が湧いてきたので学生時代にハマってた趣味について書いて行きたいと思います！ 皆さんエモい写真撮りたくな […] エモい写真の撮り方 first appeared on cloud.config Tech Blog.]]></summary>
-        <content type="html"><![CDATA[新卒で入社した小松尾です。この記事では私が学生時代に研究していたテーマについてご紹介しようと思ったのですが布教したい欲が湧いてきたので学生時代にハマってた趣味について書いて行きたいと思います！ 皆さんエモい写真撮りたくな […] エモい写真の撮り方 first appeared on cloud.config Tech Blog.]]></content>
-        <author>
-            <name>FIXER Inc. 小松尾 真優</name>
-        </author>
-        <category label="Education"/>
-        <published>2022-04-09T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シェルスクリプトでいつもの作業を少し自動化しよう | cloud.config Tech Blog]]></title>
-        <id>https://tech-blog.cloud-config.jp/?p=114197</id>
-        <link href="https://tech-blog.cloud-config.jp/2022-04-07-shellscript-introduction/"/>
-        <updated>2022-04-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！22卒のまつばらです！ 今回は「シェルスクリプト」の使い方やメリットを皆さんにご紹介したいと思います。 シェルスクリプトとはなんぞや 「シェルスクリプト」を簡単に説明するとコンピューターの命令（コマンド）を複 […] シェルスクリプトでいつもの作業を少し自動化しよう first appeared on cloud.config Tech Blog.]]></summary>
-        <content type="html"><![CDATA[こんにちは！22卒のまつばらです！ 今回は「シェルスクリプト」の使い方やメリットを皆さんにご紹介したいと思います。 シェルスクリプトとはなんぞや 「シェルスクリプト」を簡単に説明するとコンピューターの命令（コマンド）を複 […] シェルスクリプトでいつもの作業を少し自動化しよう first appeared on cloud.config Tech Blog.]]></content>
-        <author>
-            <name>FIXER Inc. まつばら</name>
-        </author>
-        <category label="Education"/>
-        <category label="shellscript"/>
-        <published>2022-04-09T00:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Large-Scale Matrix Factorization on TPUs | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html</id>
         <link href="http://ai.googleblog.com/2022/04/large-scale-matrix-factorization-on-tpus.html"/>
@@ -1895,6 +1980,24 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <summary type="html"><![CDATA[Posted by Harsh Mehta, Software Engineer, Google Research Matrix factorization is one of the oldest, yet still widely used, techniques for learning how to recommend items such as songs or movies from ...]]></summary>
         <content type="html"><![CDATA[Posted by Harsh Mehta, Software Engineer, Google Research Matrix factorization is one of the oldest, yet still widely used, techniques for learning how to recommend items such as songs or movies from user ratings. In its basic form, it approximates a large, sparse (i.e., mostly empty) matrix of user-item interactions with a product of two smaller, denser matrices representing learned item and user features. These dense matrices, in turn, can be used to recommend items to a user with which they h...]]></content>
         <published>2022-04-08T17:52:00.006Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optical Character Recognition Algorithms Can Redefine Business Processes | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/optical-character-recognition-algorithms-can-redefine-business-processes?source=rss</id>
+        <link href="https://hackernoon.com/optical-character-recognition-algorithms-can-redefine-business-processes?source=rss"/>
+        <updated>2022-04-08T17:02:38.000Z</updated>
+        <author>
+            <name>ITRex</name>
+        </author>
+        <category label="ocr-solutions"/>
+        <category label="ocr-machine-learning"/>
+        <category label="optical-character-recognition"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="computer-vision"/>
+        <category label="good-company"/>
+        <category label="technology"/>
+        <published>2022-04-08T17:02:38.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[A Quick Guide to Find the Right Minds for Annotation | KDnuggets]]></title>
@@ -1955,6 +2058,24 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <summary type="html"><![CDATA[こんにちは、Red Hat で Solution Architect をやっています 花田です。 本日は、OpenShift Platform Plus *1 という製品をご紹介したいと思います。 Red Hat OpenShift Platform Plus とは Red Hat OpenShift Platform Plus は( 正式名は少し長いので、以下 OPP と呼ぶ事にします)、以下の...]]></summary>
         <content type="html"><![CDATA[こんにちは、Red Hat で Solution Architect をやっています 花田です。 本日は、OpenShift Platform Plus *1 という製品をご紹介したいと思います。 Red Hat OpenShift Platform Plus とは Red Hat OpenShift Platform Plus は( 正式名は少し長いので、以下 OPP と呼ぶ事にします)、以下の既存製品から構成されているパッケージ製品です。 Red Hat OpenShift Container Platform (通称 OCP) - Red Hat が提供する Kubernetes ディス…]]></content>
         <published>2022-04-08T11:51:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Golang in Machine Learning | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/golang-in-machine-learning?source=rss</id>
+        <link href="https://hackernoon.com/golang-in-machine-learning?source=rss"/>
+        <updated>2022-04-08T11:41:25.000Z</updated>
+        <author>
+            <name>Techreviewer</name>
+        </author>
+        <category label="golang"/>
+        <category label="advantages-of-using-golang"/>
+        <category label="golang-development"/>
+        <category label="machine-learning-framework"/>
+        <category label="dependency-management"/>
+        <category label="machine-learning"/>
+        <category label="machine-learning-tutorials"/>
+        <category label="machine-learning-algorithms"/>
+        <published>2022-04-08T11:41:25.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[プログラミング向け日本語フォント「UDEV Gothic」のv0.1.0が公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
@@ -2019,15 +2140,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <published>2022-04-08T08:30:30.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AmazonタイムセールでASUS製ノートPCが最大24％OFF！ 有機ELディスプレイ搭載PCも安い【本日みつけたお買い得情報】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1401570.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/serial/goodbuy/1401570.html"/>
-        <updated>2022-04-08T08:17:05.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、ASUS製PCのタイムセールを行っています。Windows 11搭載ノートPCなどが、24％OFFなどの割引価格で販売中です。]]></summary>
-        <content type="html"><![CDATA[Amazon.co.jpでは現在、ASUS製PCのタイムセールを行っています。Windows 11搭載ノートPCなどが、24％OFFなどの割引価格で販売中です。]]></content>
-        <published>2022-04-08T08:17:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[全てを書き換え続ける。N予備校Webフロントエンド実装6年のあゆみ | ドワンゴ教育サービス開発者ブログ]]></title>
         <id>https://blog.nnn.dev/entry/2022/04/08/170000</id>
         <link href="https://blog.nnn.dev/entry/2022/04/08/170000"/>
@@ -2035,24 +2147,6 @@ https://ai-scholar.tech/articles/%E9%80%B2%E5%8C%96%E8%A8%88%E7%AE%97/gaCNN | AI
         <summary type="html"><![CDATA[オンライン学習サービス『N 予備校』は、2022年 4 月でリリース 6 周年を迎えました。N 予備校の Web フロントエンドはリリース以来、全面的な書き換えを続けています。 実装の変遷を説明し、書き換えの経験やWebフロントエンドという領域の性質を踏まえて、すべてを書き換え続ける選択をしていることを述べます。]]></summary>
         <content type="html"><![CDATA[オンライン学習サービス『N 予備校』は、2022年 4 月でリリース 6 周年を迎えました。N 予備校の Web フロントエンドはリリース以来、全面的な書き換えを続けています。 実装の変遷を説明し、書き換えの経験やWebフロントエンドという領域の性質を踏まえて、すべてを書き換え続ける選択をしていることを述べます。]]></content>
         <published>2022-04-08T08:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最強の「Microsoft Edge」機能はどれだ？ ――Twitterでトーナメントが開催中／垂直タブ、パスワード機能、コレクション……いずれも強豪ぞろい【やじうまの杜】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1401562.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/1401562.html"/>
-        <updated>2022-04-08T07:53:05.000Z</updated>
-        <summary type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></summary>
-        <content type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></content>
-        <published>2022-04-08T07:53:05.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ローカルとクラウドの垣根を壊す ――Microsoft、「Windows 365」クラウドPCの新機能を発表／「Windows 365 Switch」や「Windows 365 Boot」、「Windows 365 Offline」などを告知 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1401555.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1401555.html"/>
-        <updated>2022-04-08T07:33:08.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは4月5日（現地時間）、「Windows Powers the Future of Hybrid Work」と題するバーチャルイベントを開催。「Windows 365」の新機能を発表した。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは4月5日（現地時間）、「Windows Powers the Future of Hybrid Work」と題するバーチャルイベントを開催。「Windows 365」の新機能を発表した。]]></content>
-        <published>2022-04-08T07:33:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【CI】GitHub Actions + AWS CodeBuild + Amazon ECRでCIパイプラインを構築してみた | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
@@ -2343,6 +2437,25 @@ https://ai-scholar.tech/articles/%E8%BB%A2%E7%A7%BB%E5%AD%A6%E7%BF%92/Transfusio
         <published>2022-04-07T20:45:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[OpenAI's New Model is Amazing! DALL·E 2 Explained Simply | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/openais-new-model-is-amazing-dalle-2-explained-simply?source=rss</id>
+        <link href="https://hackernoon.com/openais-new-model-is-amazing-dalle-2-explained-simply?source=rss"/>
+        <updated>2022-04-07T19:40:53.000Z</updated>
+        <author>
+            <name>Louis Bouchard</name>
+        </author>
+        <category label="open-ai"/>
+        <category label="ai"/>
+        <category label="artificial-intelligence"/>
+        <category label="dall-e"/>
+        <category label="dall-e-2"/>
+        <category label="dalle"/>
+        <category label="machine-learning"/>
+        <category label="computer-vision"/>
+        <category label="web-monetization"/>
+        <published>2022-04-07T19:40:53.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Amazon helps create first conference on causal learning and reasoning | Amazon Science Homepage]]></title>
         <id>https://www.amazon.science/blog/amazon-helps-create-first-conference-on-causal-learning-and-reasoning</id>
         <link href="https://www.amazon.science/blog/amazon-helps-create-first-conference-on-causal-learning-and-reasoning"/>
@@ -2433,12 +2546,12 @@ https://ai-scholar.tech/articles/%E8%BB%A2%E7%A7%BB%E5%AD%A6%E7%BF%92/Transfusio
         <published>2022-04-07T09:00:03.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【cocone TECH TALK VOL.5】Unity Dotsを使ってみた【イベントレポート】 | cocone engineering]]></title>
+        <title type="html"><![CDATA[【cocone TECH TALK VOL.5・前編】Unity Dotsを使ってみた【イベントレポート】 | cocone engineering]]></title>
         <id>https://engineering.cocone.io/?p=5023</id>
         <link href="https://engineering.cocone.io/2022/04/07/introduction_to_unity_dots/"/>
         <updated>2022-04-07T09:00:01.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、ココネから […]]]></summary>
-        <content type="html"><![CDATA[こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、ココネから […]]]></content>
+        <summary type="html"><![CDATA[こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、前編として […]]]></summary>
+        <content type="html"><![CDATA[こんにちは！cocone tech blog編集長のYです！ 今回は2022年2月25日に行われた「cocone TECH TALK vol.5 ~ cocone x cluster ~」でお話した内容のうち、前編として […]]]></content>
         <author>
             <name>Yuka Nagaki</name>
         </author>
@@ -2832,6 +2945,24 @@ http://xpaperchallenge.org/cv/recruit/ | cvpaper.challenge | AI/CV研究コミ�
         </author>
         <category label="社内勉強会"/>
         <published>2022-04-06T23:11:39.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Search Engines are Missing Infected Sites, Putting Businesses At Risk | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/search-engines-are-missing-infected-sites-putting-businesses-at-risk?source=rss</id>
+        <link href="https://hackernoon.com/search-engines-are-missing-infected-sites-putting-businesses-at-risk?source=rss"/>
+        <updated>2022-04-06T21:40:59.000Z</updated>
+        <author>
+            <name>Alan Simon</name>
+        </author>
+        <category label="security"/>
+        <category label="machine-learning"/>
+        <category label="search-engines"/>
+        <category label="missing-infected-sites"/>
+        <category label="cyber-security-awareness"/>
+        <category label="detecting-malware"/>
+        <category label="ai-security"/>
+        <category label="hackernoon-top-story"/>
+        <published>2022-04-06T21:40:59.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「サービス・ドミナント・ロジック」をビジネスに落とし込む方法 | 株式会社LIGテクノロジー – 株式会社LIG]]></title>
@@ -3468,6 +3599,24 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <published>2022-04-05T14:47:18.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[An Introduction to Variational Autoencoders Using Keras | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/an-introduction-to-variational-autoencoders-using-keras?source=rss</id>
+        <link href="https://hackernoon.com/an-introduction-to-variational-autoencoders-using-keras?source=rss"/>
+        <updated>2022-04-05T14:17:46.000Z</updated>
+        <author>
+            <name>Kelsey Foster</name>
+        </author>
+        <category label="keras"/>
+        <category label="variational-autoencoders"/>
+        <category label="autoencoder"/>
+        <category label="data-generation"/>
+        <category label="mnist"/>
+        <category label="machine-learning"/>
+        <category label="machine-learning-uses"/>
+        <category label="machine-learning-algorithms"/>
+        <published>2022-04-05T14:17:46.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How applied math impacts forecasting at Amazon | Amazon Science Homepage]]></title>
         <id>https://www.amazon.science/working-at-amazon/how-applied-math-impacts-forecasting-at-amazon</id>
         <link href="https://www.amazon.science/working-at-amazon/how-applied-math-impacts-forecasting-at-amazon"/>
@@ -3586,6 +3735,24 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <summary type="html"><![CDATA[電通国際情報サービス、クロスイノベーション本部、オープンイノベーションラボの比嘉康雄です。 それでは、ブロックチェーン週報4/5いってみようか。 NFTが身近に デジタルでも“本物保証” LINE参入でNFTが身近に？【WBS】 「LINE Blockchainの展望と未来の経済圏」LVCインタビュー ＬＩＮＥ、４月にＮＦＴ電子取引市場開始－ペイペイ決済検討 「LINE NFT」 はソフトバンク経...]]></summary>
         <content type="html"><![CDATA[電通国際情報サービス、クロスイノベーション本部、オープンイノベーションラボの比嘉康雄です。 それでは、ブロックチェーン週報4/5いってみようか。 NFTが身近に デジタルでも“本物保証” LINE参入でNFTが身近に？【WBS】 「LINE Blockchainの展望と未来の経済圏」LVCインタビュー ＬＩＮＥ、４月にＮＦＴ電子取引市場開始－ペイペイ決済検討 「LINE NFT」 はソフトバンク経済圏の確立か CEOに聞く、真の狙い 【取材】加藤ミリヤや松井秀喜がNFT活用へ、ナッジがクレカ特典の実証実施 インスタグラム、NFTのメインストリーム化を加速：ドイツ銀行 その他のニュース Open…]]></content>
         <published>2022-04-05T05:35:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 5 Cloud Migration Strategies You Need to Know | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/these-are-the-top-5-cloud-migration-strategies-you-need-to-know?source=rss</id>
+        <link href="https://hackernoon.com/these-are-the-top-5-cloud-migration-strategies-you-need-to-know?source=rss"/>
+        <updated>2022-04-05T05:33:32.000Z</updated>
+        <author>
+            <name>Davis David</name>
+        </author>
+        <category label="cloud-computing"/>
+        <category label="cloud-native"/>
+        <category label="artificial-intelligence"/>
+        <category label="google-cloud-platform"/>
+        <category label="machine-learning"/>
+        <category label="cloud"/>
+        <category label="hybrid-cloud"/>
+        <category label="programming"/>
+        <published>2022-04-05T05:33:32.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ミラティブのUnityエンジニアになったら学べること | Mirrativ Tech Blog]]></title>
@@ -3776,8 +3943,8 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=10055</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/05/mfmp_qatalk/"/>
         <updated>2022-04-05T00:30:47.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS8で導入されたアクション付きPush通知を試してみる  マネーフォワードはエンジニア・デザイナーの福岡・京都へのUIターンをサポートします！  MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  LINE Payを使って割り勘をフォワードする  家庭内 esa のすゝめ   Copyright © Engineers' Blog [[PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エスト...]]></summary>
+        <content type="html"><![CDATA[みなさんこんにちは！ HRソリューション本部でQAエンジニアをしてます。hona … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エストニアのe-residencyカードでsshする  BtoB SaaSに捧ぐマイクロサービスのはじめの一歩  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  私の履歴書：マネーフォワードの会計開発チーム編  ジモティーの光の戦士がやって来たぞ   Copyright © Engineers' Blog [[PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3846,6 +4013,24 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <published>2022-04-04T23:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Building AI Applications Collaboratively With Data-centric AI | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/building-ai-applications-collaboratively-using-data-centric-ai-snorkel-ai?source=rss</id>
+        <link href="https://hackernoon.com/building-ai-applications-collaboratively-using-data-centric-ai-snorkel-ai?source=rss"/>
+        <updated>2022-04-04T22:40:06.000Z</updated>
+        <author>
+            <name>Snorkel AI</name>
+        </author>
+        <category label="data-centric-ai"/>
+        <category label="weak-supervision"/>
+        <category label="programmatic-labeling"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="good-company"/>
+        <category label="technology"/>
+        <category label="building-ai-applications"/>
+        <published>2022-04-04T22:40:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[This ‘hands-on’ AI-based test project will help ensure astronaut gloves are safe in space | The AI Blog]]></title>
         <id>https://blogs.microsoft.com/ai/?p=83022</id>
         <link href="https://blogs.microsoft.com/blog/2022/04/04/this-hands-on-ai-based-test-project-will-help-ensure-astronaut-gloves-are-safe-in-space/"/>
@@ -3857,6 +4042,24 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         </author>
         <category label="News Brief"/>
         <published>2022-04-04T18:15:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How We Automate 80-100% of Media Workflows with Cognitive Computing | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/how-we-automate-80-100percent-of-media-workflows-with-cognitive-computing?source=rss</id>
+        <link href="https://hackernoon.com/how-we-automate-80-100percent-of-media-workflows-with-cognitive-computing?source=rss"/>
+        <updated>2022-04-04T17:28:23.000Z</updated>
+        <author>
+            <name>AIHunters </name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="computer-vision"/>
+        <category label="machine-learning"/>
+        <category label="entertainment-industry"/>
+        <category label="cognitive-computing"/>
+        <category label="deep-learning"/>
+        <category label="good-company"/>
+        <category label="data-science"/>
+        <published>2022-04-04T17:28:23.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance | Google AI Blog]]></title>
@@ -4204,8 +4407,8 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=10046</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/04/improved-design-reviews/"/>
         <updated>2022-04-04T03:00:28.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></summary>
-        <content type="html"><![CDATA[マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android開発をもっと前へ！開発を加速させるTips・ツール  ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  qiitaの中の人たちとWIPな情報共有のよさを語り合いました  もし年末に夏休みが取れたら京都に行こう！   Copyright © Engineers' Blog [ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941...]]></summary>
+        <content type="html"><![CDATA[マネーフォワード関西開発拠点エンジニアの @uenoY4 です。 現在、私のチー … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941::blogさんがやってきた！  Rails探訪 ~ create_table 編 ~ ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  Kaigi on Rails 2021 スポンサード視点〜ブログを書くまでがカンファレンスです！〜  railsでseedデータを簡単に取り込む   Copyright © Engineers' Blog [ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4399,6 +4602,24 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <published>2022-04-03T09:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Advanced Topic Modeling Tutorial: How to Use SVD & NMF in Python | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/advanced-topic-modeling-tutorial-how-to-use-svd-and-nmf-in-python-to-find-topics-in-text?source=rss</id>
+        <link href="https://hackernoon.com/advanced-topic-modeling-tutorial-how-to-use-svd-and-nmf-in-python-to-find-topics-in-text?source=rss"/>
+        <updated>2022-04-03T06:25:29.000Z</updated>
+        <author>
+            <name>Bala Priya C</name>
+        </author>
+        <category label="natural-language-processing"/>
+        <category label="topic-modeling"/>
+        <category label="topic-modeling-in-python"/>
+        <category label="blogging-fellowship"/>
+        <category label="hackernoon-top-story"/>
+        <category label="artificial-intelligence"/>
+        <category label="ai"/>
+        <category label="machine-learning"/>
+        <published>2022-04-03T06:25:29.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ポアソン分布の歪度・尖度の求め方：モーメント・キュムラント生成関数 | 趣味の大学数学]]></title>
         <id>https://math-fun.net/?p=23740</id>
         <link href="https://math-fun.net/20220403/23740/"/>
@@ -4468,6 +4689,25 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <summary type="html"><![CDATA[はじめに  現在アクセンチュア勤務ですが、今日は「元IBMワトソン技術セールス」の顔で記事を執筆する赤石です。なぜ、昔の名前で登場したかというと、IBM時代、私がイチオシにしていたWatson APIであ…]]></summary>
         <content type="html"><![CDATA[はじめに  現在アクセンチュア勤務ですが、今日は「元IBMワトソン技術セールス」の顔で記事を執筆する赤石です。なぜ、昔の名前で登場したかというと、IBM時代、私がイチオシにしていたWatson APIであ…]]></content>
         <published>2022-04-02T12:56:21.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Microsoft Azure Courses for Beginners to Learn Azure Cloud Computing | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/10-microsoft-azure-courses-for-beginners-to-learn-azure-cloud-computing?source=rss</id>
+        <link href="https://hackernoon.com/10-microsoft-azure-courses-for-beginners-to-learn-azure-cloud-computing?source=rss"/>
+        <updated>2022-04-02T09:33:18.000Z</updated>
+        <author>
+            <name>Javin Paul</name>
+        </author>
+        <category label="azure"/>
+        <category label="cloud-computing"/>
+        <category label="microsoft-azure"/>
+        <category label="it-certifications"/>
+        <category label="programming"/>
+        <category label="software-development"/>
+        <category label="machine-learning"/>
+        <category label="cloud"/>
+        <category label="web-monetization"/>
+        <published>2022-04-02T09:33:18.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[微分係数と導関数 (教養の微積) | 大学数学の授業ノート]]></title>
@@ -4701,6 +4941,25 @@ https://ai-scholar.tech/articles/interview/brighterAI | AI技術最新情報メ�
         <summary type="html"><![CDATA[データエンジニアの大窄 直樹(おおさこ)です!!! 今日(2022-04-01)でAdwaysに新卒入社してちょうど2年です. 気持ちはまだ数ヶ月前に入社したような感覚なんですけどもう2年みたいですw 今回のブログは, 就活中のエンジニア志望の方がAdwaysに面談を申し込もうか悩んでいる人を対象にしたものです. 内容は, 今日でちょうど入社して2年ということもあって この2年を振り返ってどのよう...]]></summary>
         <content type="html"><![CDATA[データエンジニアの大窄 直樹(おおさこ)です!!! 今日(2022-04-01)でAdwaysに新卒入社してちょうど2年です. 気持ちはまだ数ヶ月前に入社したような感覚なんですけどもう2年みたいですw 今回のブログは, 就活中のエンジニア志望の方がAdwaysに面談を申し込もうか悩んでいる人を対象にしたものです. 内容は, 今日でちょうど入社して2年ということもあって この2年を振り返ってどのような仕事をしたか, 毎日どのように働いているかをまとめようと思います!! 付け加えて, Adwaysってチャレンジングで自由度高い企業というのを入社前の面談で聞いたのを思い出したので それの検証も兼ねな…]]></content>
         <published>2022-04-01T06:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[THE BEST Photo to 3D AI Model ! | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/the-best-photo-to-3d-ai-model?source=rss</id>
+        <link href="https://hackernoon.com/the-best-photo-to-3d-ai-model?source=rss"/>
+        <updated>2022-04-01T05:44:19.000Z</updated>
+        <author>
+            <name>Louis Bouchard</name>
+        </author>
+        <category label="nvidia"/>
+        <category label="3d"/>
+        <category label="3d-modelling"/>
+        <category label="ai"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="hackernoon-top-story"/>
+        <category label="web-monetization"/>
+        <published>2022-04-01T05:44:19.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Goのsqlxパッケージを理解する | Yappli Tech Blog]]></title>
@@ -5253,6 +5512,24 @@ https://ai-scholar.tech/articles/medical/covid-19_rl_emergency | AI技術最新�
             <name>Tatsuhiko Miyagawa</name>
         </author>
         <published>2022-03-31T07:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Summary and Review of The Ethical Algorithm | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/a-summary-and-review-of-the-ethical-algorithm?source=rss</id>
+        <link href="https://hackernoon.com/a-summary-and-review-of-the-ethical-algorithm?source=rss"/>
+        <updated>2022-03-31T06:51:37.000Z</updated>
+        <author>
+            <name>Prabhakar</name>
+        </author>
+        <category label="ethics"/>
+        <category label="algorithms"/>
+        <category label="machine-learning"/>
+        <category label="ml"/>
+        <category label="artificial-intelligence"/>
+        <category label="a"/>
+        <category label="book-reviews"/>
+        <category label="ai-ethics"/>
+        <published>2022-03-31T06:51:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[キャディTech組織の必読情報総まとめ | CADDi Tech Blog]]></title>
@@ -5842,6 +6119,25 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <published>2022-03-30T07:26:13.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Reviewing “OpenPose - Realtime Multi-Person 2D Pose Estimation using Part Affinity Fields” | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/reviewing-openpose-realtime-multi-person-2d-pose-estimation-using-part-affinity-fields?source=rss</id>
+        <link href="https://hackernoon.com/reviewing-openpose-realtime-multi-person-2d-pose-estimation-using-part-affinity-fields?source=rss"/>
+        <updated>2022-03-30T07:06:35.000Z</updated>
+        <author>
+            <name>Milind Soorya</name>
+        </author>
+        <category label="research-paper-summary"/>
+        <category label="data-science"/>
+        <category label="machine-learning"/>
+        <category label="critical-review"/>
+        <category label="artificial-intelligence"/>
+        <category label="ai"/>
+        <category label="ml"/>
+        <category label="computer-vision"/>
+        <category label="web-monetization"/>
+        <published>2022-03-30T07:06:35.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[充実した打ち合わせを実現するワークショップ形式ミーティングのコツ | エンジニアブログ | iret.media]]></title>
         <id>https://cloudpack.media/?p=61782</id>
         <link href="https://cloudpack.media/61782"/>
@@ -5865,6 +6161,24 @@ https://ai-scholar.tech/events/Robust%20Intelligence0 | AI技術最新情報メ�
         <summary type="html"><![CDATA[2021年7月に中途入社した平尾です。 私はチームメンバーと振り返りを毎週実施しており、半年くらい経ったので活動を振り返ってみます。 なぜ振り返りを始めたのか きっかけとしては、会社の研修の一環として、 アトラクタ社さんが主催しているスクラムトレーニング を受けたことでした。 このトレーニングではスクラムに必要な知識や実践的なワークショップをやりました。 自分自身は前職でスクラムでのアジャイル開発...]]></summary>
         <content type="html"><![CDATA[2021年7月に中途入社した平尾です。 私はチームメンバーと振り返りを毎週実施しており、半年くらい経ったので活動を振り返ってみます。 なぜ振り返りを始めたのか きっかけとしては、会社の研修の一環として、 アトラクタ社さんが主催しているスクラムトレーニング を受けたことでした。 このトレーニングではスクラムに必要な知識や実践的なワークショップをやりました。 自分自身は前職でスクラムでのアジャイル開発の経験がありますが、アジャイル開発の良いところを再認識できた良い研修でした。 研修後、私のチームにもアジャイル開発のエッセンスを取り入れてたい気持ちが芽生えました。 現在私が所属しているチームではウォ…]]></content>
         <published>2022-03-30T06:56:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using AI for Faster and More Efficient Language Translation | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/using-ai-for-faster-and-more-efficient-language-translation?source=rss</id>
+        <link href="https://hackernoon.com/using-ai-for-faster-and-more-efficient-language-translation?source=rss"/>
+        <updated>2022-03-30T06:36:47.000Z</updated>
+        <author>
+            <name>Aelius Venture</name>
+        </author>
+        <category label="ai"/>
+        <category label="machine-translation"/>
+        <category label="machine-learning"/>
+        <category label="language-translation"/>
+        <category label="technology"/>
+        <category label="artificial-intelligence"/>
+        <category label="artificial-intelligence-trends"/>
+        <category label="good-company"/>
+        <published>2022-03-30T06:36:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[RT by @ai_scholar: 本記事では、一般的に用いられるモデルコストの指標の長所と短所、一部の指標に基づく判断のリスクなど、この問題について様々な調査を行った研究について紹介します。
@@ -6076,84 +6390,6 @@ https://ai-scholar.tech/articles/treatise/efficiency-misnormer | AI技術最新�
         <published>2022-03-30T02:49:33.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[技育祭2022春で学生向けに「CTOが語る、これからのソフトウェアエンジニアに必要なことと鍛え方」を話してきました | CARTA TECH BLOG]]></title>
-        <id>https://techblog.cartaholdings.co.jp/entry/geek-sai-2022-spring</id>
-        <link href="https://techblog.cartaholdings.co.jp/entry/geek-sai-2022-spring"/>
-        <updated>2022-03-30T02:43:21.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、CTOの suzuken です。先日、サポーターズの技育祭2022春に登壇してきました。当日は多くの学生のみなさんにきいていただきました、ありがとうございました。せっかくなので登壇を振り返りつつ、紹介していこうと思います。 スライドはこちらです。 speakerdeck.com これからソフトウェアエンジニアになるみなさんに向けてなにを話すか 「技」術を「育」てる祭り、「技育祭」なのだ...]]></summary>
-        <content type="html"><![CDATA[こんにちは、CTOの suzuken です。先日、サポーターズの技育祭2022春に登壇してきました。当日は多くの学生のみなさんにきいていただきました、ありがとうございました。せっかくなので登壇を振り返りつつ、紹介していこうと思います。 スライドはこちらです。 speakerdeck.com これからソフトウェアエンジニアになるみなさんに向けてなにを話すか 「技」術を「育」てる祭り、「技育祭」なのだから、なにか「成長」につながることを話してみよう、と考えていました。 じゃあ自分はどうやって成長してきたのだろうか。都度都度どんな人達と関わって、どうやって技術に向き合ってきたのだろう・・ということを…]]></content>
-        <published>2022-03-30T02:43:21.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[胸踊るUIインタラクション開発フロー　#1モック編 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
-        <id>https://developers.cyberagent.co.jp/blog/?p=34841</id>
-        <link href="https://developers.cyberagent.co.jp/blog/archives/34841/"/>
-        <updated>2022-03-30T02:07:13.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、Qualiartsでデザイナーをしている筒井です。 新規のゲーム開発にUIデザイナーとし ...]]></summary>
-        <content type="html"><![CDATA[こんにちは、Qualiartsでデザイナーをしている筒井です。 新規のゲーム開発にUIデザイナーとし ...]]></content>
-        <author>
-            <name>筒井 豊</name>
-        </author>
-        <category label="クリエイター"/>
-        <category label="UI"/>
-        <category label="UI/UX"/>
-        <category label="UIデザイン"/>
-        <category label="アニメーション"/>
-        <category label="インタラクション"/>
-        <category label="ゲームUI"/>
-        <category label="ゲーム開発"/>
-        <published>2022-03-30T02:07:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL Serverのバージョンアップ時に必要なクエリ互換性に関する検証精度を向上させた話 | ZOZO TECH BLOG]]></title>
-        <id>https://techblog.zozo.com/entry/enhancing-compatibility-level-valification-for-sqlserver</id>
-        <link href="https://techblog.zozo.com/entry/enhancing-compatibility-level-valification-for-sqlserver"/>
-        <updated>2022-03-30T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SQL Serverのバージョンアップの際に必要なクエリ互換性を、アプリ側に定義されているクエリも含めて検証した事例をご紹介します。]]></summary>
-        <content type="html"><![CDATA[SQL Serverのバージョンアップの際に必要なクエリ互換性を、アプリ側に定義されているクエリも含めて検証した事例をご紹介します。]]></content>
-        <published>2022-03-30T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社内勉強会を長く続けるコツ | スタディスト Tech Blog - Medium]]></title>
-        <id>https://medium.com/p/52202a75a809</id>
-        <link href="https://studist.tech/studist-lightning-talks-52202a75a809?source=rss----1b85cc1f989a---4"/>
-        <updated>2022-03-30T01:38:03.000Z</updated>
-        <author>
-            <name>Kitano Katsuhisa</name>
-        </author>
-        <category label="lightning-talks"/>
-        <category label="engineering-mangement"/>
-        <category label="teamwork"/>
-        <published>2022-03-30T01:38:03.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud Secret Manager を使って機密情報の保存をセキュアにした話 | pixiv inside]]></title>
-        <id>https://inside.pixiv.blog/2022/03/30/103000?utm_source=feed</id>
-        <link href="https://inside.pixiv.blog/2022/03/30/103000?utm_source=feed"/>
-        <updated>2022-03-30T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめましての方ははじめまして。21新卒エンジニアの Javakky です。 突然ですが質問です！みなさんは本番環境で利用するDBのアクセス情報などの機密情報はどこに保存していますか？弊チームでは、社内でホスティングしているGitLabを利用しており、リポジトリの閲覧権限がチームメンバーにしか付与されていないことから長年プロジェクトの config ファイルに平文で保存されていました。 しかし、そ...]]></summary>
-        <content type="html"><![CDATA[はじめましての方ははじめまして。21新卒エンジニアの Javakky です。 突然ですが質問です！みなさんは本番環境で利用するDBのアクセス情報などの機密情報はどこに保存していますか？弊チームでは、社内でホスティングしているGitLabを利用しており、リポジトリの閲覧権限がチームメンバーにしか付与されていないことから長年プロジェクトの config ファイルに平文で保存されていました。 しかし、それはつまりリポジトリを clone してしまえば機密情報を全て保存できてしまうということでもあります。今回は、 Secret Manager というサービスを利用して機密情報にたいして権限管理を行える…]]></content>
-        <published>2022-03-30T01:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[チームにScrumを導入してみての振り返り | UUUMエンジニアブログ]]></title>
-        <id>https://system.blog.uuum.jp/entry/2022/03/30/101515</id>
-        <link href="https://system.blog.uuum.jp/entry/2022/03/30/101515"/>
-        <updated>2022-03-30T01:15:15.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！ UUUMシステムユニットの sawa__it です。 10ヶ月の子どもが全然離乳食を食べてくれません。どうしたらいいですか？（ガチ） 自己紹介 振り返り 前提 Scrumの導入 体制について スプリントは１週間 スプリントの開始と終了 リファインメント プランニング エンジニアとユーザに直接会話してもらう デイリーは朝と夕方の２回 スプリントレビュー 振り返りはKPT 最後に...]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！ UUUMシステムユニットの sawa__it です。 10ヶ月の子どもが全然離乳食を食べてくれません。どうしたらいいですか？（ガチ） 自己紹介 振り返り 前提 Scrumの導入 体制について スプリントは１週間 スプリントの開始と終了 リファインメント プランニング エンジニアとユーザに直接会話してもらう デイリーは朝と夕方の２回 スプリントレビュー 振り返りはKPT 最後に 自己紹介 UUUMには2020年の12月に入社しました。 最初は社内の数値管理システムを担当し、現在ではクリエイター管理システムの担当をしております！ 役割はPMです。 PMといってもコンテキストが…]]></content>
-        <published>2022-03-30T01:15:15.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MySQLロックについて〜基礎編〜 を開催しました！ | ANDPAD Tech Blog]]></title>
-        <id>https://tech.andpad.co.jp/entry/2022/03/30/101500</id>
-        <link href="https://tech.andpad.co.jp/entry/2022/03/30/101500"/>
-        <updated>2022-03-30T01:15:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！エンジニアの福間（fkm_y）です。 先日、弊社でデータベースの技術顧問をして頂いてる三谷（mita2）さんに開発部向けのMySQLロックのデータベース勉強会を実施したのでそのレポートをお伝えします。 開催背景 弊社では三谷さんによるデータベース勉強会を定期的に開催しています。以前にもロックに関するMySQL勉強会を開催していたのですが、1年半経過しており参加していない開発メンバーのほ...]]></summary>
-        <content type="html"><![CDATA[こんにちは！エンジニアの福間（fkm_y）です。 先日、弊社でデータベースの技術顧問をして頂いてる三谷（mita2）さんに開発部向けのMySQLロックのデータベース勉強会を実施したのでそのレポートをお伝えします。 開催背景 弊社では三谷さんによるデータベース勉強会を定期的に開催しています。以前にもロックに関するMySQL勉強会を開催していたのですが、1年半経過しており参加していない開発メンバーのほうが多くなっていたことやプロダクトの成長によりデッドロックなどのロックに起因する問題が目立ち始めていたことから増強版のMySQLロックのデータベース勉強会を開催することになりました。 概要 データベー…]]></content>
-        <published>2022-03-30T01:15:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[メルペイフロントエンドパフォーマンス改善報告 | メルカリエンジニアリングブログ]]></title>
         <id>20364</id>
         <link href="https://engineering.mercari.com/blog/entry/20220329-02e2d821b8/"/>
@@ -6161,135 +6397,5 @@ https://ai-scholar.tech/articles/treatise/efficiency-misnormer | AI技術最新�
         <summary type="html"><![CDATA[はじめに こんにちは。メルペイフロントエンドチームのtoshickです。 この記事は、このチームで取り組んでいるパフォーマンス改善について紹介するシリーズ記事の第4弾の記事になります。 ref: https://engi […]]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。メルペイフロントエンドチームのtoshickです。 この記事は、このチームで取り組んでいるパフォーマンス改善について紹介するシリーズ記事の第4弾の記事になります。 ref: https://engi […]]]></content>
         <published>2022-03-30T01:00:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「IDCFクラウド コンテナ」サービスで作るプライベートレジストリ | IDCF テックブログ]]></title>
-        <id>https://blog.idcf.jp/entry/container-Helm-Chart</id>
-        <link href="https://blog.idcf.jp/entry/container-Helm-Chart"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめまして、事業推進本部SE部の横田です。 普段はセールスエンジニアとしてIDCフロンティア サービスのご提案や導入支援などを行っています。 今回は「IDCFクラウド コンテナ」環境内に、カタログ（Helm Chart）を利用したプライベートレジストリ構築についてご紹介したいと思います。]]></summary>
-        <content type="html"><![CDATA[はじめまして、事業推進本部SE部の横田です。 普段はセールスエンジニアとしてIDCフロンティア サービスのご提案や導入支援などを行っています。 今回は「IDCFクラウド コンテナ」環境内に、カタログ（Helm Chart）を利用したプライベートレジストリ構築についてご紹介したいと思います。]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[リモートワーク時代におけるサークル活動の取り組み | LIFULL Creators Blog ]]></title>
-        <id>https://www.lifull.blog/entry/2022/03/30/100000?utm_source=feed</id>
-        <link href="https://www.lifull.blog/entry/2022/03/30/100000?utm_source=feed"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[プロダクトエンジニアリング部の佐野です。 LIFULLでは2020年3月頃からリモートワークが主体の働き方になっています。 出社して働いていた頃と比較すると、同じグループのメンバーとは日々業務を進める上でコミュニケーションは取っているものの、他部署のメンバーとのコミュニケーションが少なくなった...という話もちらほらと。 偶発的なコミュニケーションも必要だ！とのことで社内サークル活動を推奨する制度...]]></summary>
-        <content type="html"><![CDATA[プロダクトエンジニアリング部の佐野です。 LIFULLでは2020年3月頃からリモートワークが主体の働き方になっています。 出社して働いていた頃と比較すると、同じグループのメンバーとは日々業務を進める上でコミュニケーションは取っているものの、他部署のメンバーとのコミュニケーションが少なくなった...という話もちらほらと。 偶発的なコミュニケーションも必要だ！とのことで社内サークル活動を推奨する制度が出来上がりました。 2022年1月末でサークルは74。多い！ どこかのサークルに入っている人は747人。めっちゃ多い！！ 上記の通り社内サークルは沢山存在していますが、その中でも今回は、私が主催者と…]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Photoshop Extension 開発におけるデバッグ効率化対策 | Qualiartsエンジニアブログ]]></title>
-        <id>https://technote.qualiarts.jp/article/33</id>
-        <link href="https://technote.qualiarts.jp/article/33"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Adobe CEP のデバッグ機能の拡張についてご説明させていただきます。]]></summary>
-        <content type="html"><![CDATA[Adobe CEP のデバッグ機能の拡張についてご説明させていただきます。]]></content>
-        <author>
-            <name>dockurage</name>
-        </author>
-        <category label="CEP"/>
-        <category label="Photoshop"/>
-        <category label="テクニカルアーティスト"/>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【GCP】GCPで始めるCloud Run + Cloud Build CIOps環境構築 | OPTiM TECH BLOG]]></title>
-        <id>https://tech-blog.optim.co.jp/entry/2022/03/30/100000?utm_source=feed</id>
-        <link href="https://tech-blog.optim.co.jp/entry/2022/03/30/100000?utm_source=feed"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、AI・IoTサービス開発部の岩丸です。 気づけばもうすぐ4月になり入社から丸1年経とうとしています。月日の流れは早いですね。2年目も自分らしく頑張って参ります。 前回はAndroidのJetpack Composeに関する記事を執筆しました。もしお時間ある方は合わせてご覧ください。 tech-blog.optim.co.jp 今回はGCPのCloud Runを遊んでみたいと思...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、AI・IoTサービス開発部の岩丸です。 気づけばもうすぐ4月になり入社から丸1年経とうとしています。月日の流れは早いですね。2年目も自分らしく頑張って参ります。 前回はAndroidのJetpack Composeに関する記事を執筆しました。もしお時間ある方は合わせてご覧ください。 tech-blog.optim.co.jp 今回はGCPのCloud Runを遊んでみたいと思います。 せっかくなのでCloud Runで使用するイメージのビルドはCloud Build、イメージの保存先にはArtifact Registryをそれぞれ利用してCIOps環境を合わせて構築してみ…]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[freeeでグローバルチーム開発にチャレンジしている話 | freee Developers Hub]]></title>
-        <id>https://developers.freee.co.jp/entry/global-engineering-at-freee</id>
-        <link href="https://developers.freee.co.jp/entry/global-engineering-at-freee"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。freeeでエンジニアリングマネージャーをしている高野です。 freeeには2016年末にモバイルエンジニアとして入社し、直近3年ほどはモバイルチームのマネジメントを主に行ってきました。 今回は、2022年から兼務という形で新たに取り組み始めた、freeeにおけるグローバル開発チームの立ち上げについて紹介したいと思います。 グローバル開発チームの背景 深刻なエンジニア不足 私自身も自チ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。freeeでエンジニアリングマネージャーをしている高野です。 freeeには2016年末にモバイルエンジニアとして入社し、直近3年ほどはモバイルチームのマネジメントを主に行ってきました。 今回は、2022年から兼務という形で新たに取り組み始めた、freeeにおけるグローバル開発チームの立ち上げについて紹介したいと思います。 グローバル開発チームの背景 深刻なエンジニア不足 私自身も自チームの中途エンジニア採用や新卒エンジニア採用に関わっていてひしひしと感じていますが、近年優秀なエンジニアの獲得は企業間の競争が激しく、本当に難しくなっていますし、その状況はまだ加速を続けています。 特…]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[コネヒトの文化が生み出すスキルアップを支える社内LTイベント | コネヒト開発者ブログ]]></title>
-        <id>https://tech.connehito.com/entry/2022/03/30/100000</id>
-        <link href="https://tech.connehito.com/entry/2022/03/30/100000"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。2017年11月にAndroidエンジニアとしてjoinした@katsutomuです。 前回のエントリーで、髪の毛のアップデート予定について触れましたが、重い腰を上げて予定を決めました。4/3を予定しています。 さて今回は、先日社内で実施したLTイベントの技術目標マルシェについて紹介します。 はじめに まずは今回の社内イベントについて補足させてください。 シンプルにいうと、スキルアップ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。2017年11月にAndroidエンジニアとしてjoinした@katsutomuです。 前回のエントリーで、髪の毛のアップデート予定について触れましたが、重い腰を上げて予定を決めました。4/3を予定しています。 さて今回は、先日社内で実施したLTイベントの技術目標マルシェについて紹介します。 はじめに まずは今回の社内イベントについて補足させてください。 シンプルにいうと、スキルアップ目標の工夫をシェアして、お互いに刺激を受けるイベントです。 マルシェ is 何？ 社内で実施しているLTイベントのコネヒトマルシェのコンセプトでもあるみんなの「知りたい」「知ってる」をおすそ分け！をテ…]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『とらのあなラボ Tech Conference Vol.2』を開催しました！ | 虎の穴開発室ブログ]]></title>
-        <id>https://toranoana-lab.hatenablog.com/entry/2022/03/30/100000</id>
-        <link href="https://toranoana-lab.hatenablog.com/entry/2022/03/30/100000"/>
-        <updated>2022-03-30T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[皆さんこんにちは。とらのあなラボの大場です。 カンファレンスの開催直前ギリギリまで、登壇資料の作成をしていたことをここに懺悔致します。 さて、2022年3月25日(金)に、とらのあなラボでは2回目となる大規模カンファレンス『とらのあなラボ Tech Conference Vol.2』を開催しました。 当日配信した内容はアーカイブ公開していますので「見逃してしまった」、「開催していること自体を知らな...]]></summary>
-        <content type="html"><![CDATA[皆さんこんにちは。とらのあなラボの大場です。 カンファレンスの開催直前ギリギリまで、登壇資料の作成をしていたことをここに懺悔致します。 さて、2022年3月25日(金)に、とらのあなラボでは2回目となる大規模カンファレンス『とらのあなラボ Tech Conference Vol.2』を開催しました。 当日配信した内容はアーカイブ公開していますので「見逃してしまった」、「開催していること自体を知らなかった」という方は、 ぜひ以下のURLからご視聴いただければ幸いです。 【Track1】 www.youtube.com 【Track2】 www.youtube.com イベント資料一覧 yumen…]]></content>
-        <published>2022-03-30T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[PR]Interface誌2022年5月号に記事を寄稿しました | Engineers' Blog]]></title>
-        <id>https://moneyforward.com/engineers_blog/?p=10037</id>
-        <link href="https://moneyforward.com/engineers_blog/2022/03/30/pr-interface/"/>
-        <updated>2022-03-30T00:30:43.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。 CQ出版社さまから … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 家庭内...]]></summary>
-        <content type="html"><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。 CQ出版社さまから … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 家庭内 esa のすゝめ  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco  【速報】RubyKaigi 2014レポ：Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails  10分コーディング！ Rubyでつくる Slack時報  ふりかえりのススメ！〜モチベーションのコントロール〜   Copyright © Engineers' Blog [[PR]Interface誌2022年5月号に記事を寄稿しました], All Right Reserved. 202...]]></content>
-        <author>
-            <name>engineers_blog</name>
-        </author>
-        <category label="お知らせ"/>
-        <published>2022-03-30T00:30:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[関数の極限と連続性 (教養の微積) | 大学数学の授業ノート]]></title>
-        <id>https://math-notes.info/?p=1515</id>
-        <link href="https://math-notes.info/2022/03/30/cal-3/"/>
-        <updated>2022-03-30T00:20:04.000Z</updated>
-        <summary type="html"><![CDATA[関数の極限や連続関数の基本事項について様々な実例を交えながら紹介します。]]></summary>
-        <content type="html"><![CDATA[関数の極限や連続関数の基本事項について様々な実例を交えながら紹介します。]]></content>
-        <author>
-            <name>math-notes</name>
-        </author>
-        <category label="教養の微積"/>
-        <published>2022-03-30T00:20:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース | SIOS Tech. Lab]]></title>
-        <id>https://tech-lab.sios.jp/?p=28514</id>
-        <link href="https://tech-lab.sios.jp/archives/28514"/>
-        <updated>2022-03-30T00:01:45.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ 今月も「OSSのサポートエンジニアが気になった！OSSの最新ニュース」をお届けします。 ロシアのウクライナ侵攻を受けての投稿に、GitHub は自社のポリシーを返答しました。 「ロシアをGitHubから切り [...] 【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース first appeared on SIOS Tech. Lab.]]></summary>
-        <content type="html"><![CDATA[こんにちは！ 今月も「OSSのサポートエンジニアが気になった！OSSの最新ニュース」をお届けします。 ロシアのウクライナ侵攻を受けての投稿に、GitHub は自社のポリシーを返答しました。 「ロシアをGitHubから切り [...] 【2022年3月】OSSサポートエンジニアが気になった！OSS最新ニュース first appeared on SIOS Tech. Lab.]]></content>
-        <author>
-            <name>貝野友香</name>
-        </author>
-        <category label="OSS"/>
-        <published>2022-03-30T00:01:45.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知っておくとちょっと便利！シェルスクリプトの作り方3 | SIOS Tech. Lab]]></title>
-        <id>https://tech-lab.sios.jp/?p=28518</id>
-        <link href="https://tech-lab.sios.jp/archives/28518"/>
-        <updated>2022-03-30T00:00:57.000Z</updated>
-        <summary type="html"><![CDATA[今号では、前回より引き続き知っておくとちょっと便利なシェルスクリプトの基本についてご紹介します！ コマンド例3 (for 文) for 文とは 繰り返し処理をさせるための構文 指定した回数、同じ処理を実行する 構文(基本 [...] 知っておくとちょっと便利！シェルスクリプトの作り方3 first appeared on SIOS Tech. Lab.]]></summary>
-        <content type="html"><![CDATA[今号では、前回より引き続き知っておくとちょっと便利なシェルスクリプトの基本についてご紹介します！ コマンド例3 (for 文) for 文とは 繰り返し処理をさせるための構文 指定した回数、同じ処理を実行する 構文(基本 [...] 知っておくとちょっと便利！シェルスクリプトの作り方3 first appeared on SIOS Tech. Lab.]]></content>
-        <author>
-            <name>貝野友香</name>
-        </author>
-        <category label="OSS"/>
-        <published>2022-03-30T00:00:57.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeNA 流 Amazon Connect カスタマイズ [DeNA インフラ SRE] | Blog on DeNA Engineering]]></title>
-        <id>https://engineering.dena.com/blog/2022/03/dena-amazon-connect/</id>
-        <link href="https://engineering.dena.com/blog/2022/03/dena-amazon-connect/"/>
-        <updated>2022-03-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに はじめまして。2021年4月に新卒入社しました IT 基盤部第三グループの中村です。 本記事では、 DeNA がカスタマーサービスで利用している Amazon Connect の紹介と、 DeNA 流のカスタマイズをお伝えします。 Amazon Connect とは Amazon Connect は、クラウド型のコンタクトセンターを構築できる AWS のサービスです。 クラウド型のサービ...]]></summary>
-        <content type="html"><![CDATA[はじめに はじめまして。2021年4月に新卒入社しました IT 基盤部第三グループの中村です。 本記事では、 DeNA がカスタマーサービスで利用している Amazon Connect の紹介と、 DeNA 流のカスタマイズをお伝えします。 Amazon Connect とは Amazon Connect は、クラウド型のコンタクトセンターを構築できる AWS のサービスです。 クラウド型のサービスですので、物理的な回線を設置する必要がありません。 また、オペレータの勤務場所の地理的制限もないので、オペレータは自宅からで]]></content>
-        <published>2022-03-30T00:00:00.000Z</published>
     </entry>
 </feed>
