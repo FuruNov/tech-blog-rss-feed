@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 03 May 2022 09:30:13 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 May 2022 11:28:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -135,6 +135,14 @@
             <pubDate>Mon, 02 May 2022 12:43:58 GMT</pubDate>
             <description><![CDATA[はじめに 話題となっている『良いコード／悪いコードで学ぶ設計入門 ―保守しやすい 成長し続けるコードの書き方』 (出版社のページ) を読みました。 全体的には「うんうん、そうだよね」と同意できることが多かったです。 もちろん、初めて目にするような考え方, アイディア, テクニックもありました。 一方、気になったことやちょっと引っかかったこともありましたので、メモしておきます。 あくまでもメモなので...]]></description>
             <content:encoded><![CDATA[はじめに 話題となっている『良いコード／悪いコードで学ぶ設計入門 ―保守しやすい 成長し続けるコードの書き方』 (出版社のページ) を読みました。 全体的には「うんうん、そうだよね」と同意できることが多かったです。 もちろん、初めて目にするような考え方, アイディア, テクニックもありました。 一方、気になったことやちょっと引っかかったこともありましたので、メモしておきます。 あくまでもメモなので結論のようなことはありません。   p.55: HitPoint.isZero HitPoint クラスに isZero メソッドがあります。 「ヒットポイントがゼロであれば true」とい...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Next.js+TSでNextAuth.jsを使ってcognito認証を行う | Zennのトレンド]]></title>
+            <link>https://zenn.dev/yui/articles/b48a74ed717c6c</link>
+            <guid>https://zenn.dev/yui/articles/b48a74ed717c6c</guid>
+            <pubDate>Mon, 02 May 2022 12:33:44 GMT</pubDate>
+            <description><![CDATA[webアプリを作っていて、ログイン部分の実装のためにcognito認証を使ったので、その方法について書きます。 今回はAWS側で予め用意されているhosted UIを使う場合の記事となります。   Cognito側の設定 Amazon Cognito コンソールに移動して、ログイン後ユーザープールを作成します。 アプリクライアントの設定が必要になるので、設定しておきます。 ユーザープールが作成でき...]]></description>
+            <content:encoded><![CDATA[webアプリを作っていて、ログイン部分の実装のためにcognito認証を使ったので、その方法について書きます。 今回はAWS側で予め用意されているhosted UIを使う場合の記事となります。   Cognito側の設定 Amazon Cognito コンソールに移動して、ログイン後ユーザープールを作成します。 アプリクライアントの設定が必要になるので、設定しておきます。 ユーザープールが作成できたらアプリの統合 > アプリクライアントの設定からログイン時のコールバックURLに http://localhost:3000/api/auth/callback/cognito と入力し...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Windows端末にVS CodeでPython開発環境を用意してみる | Qiita - 人気の記事]]></title>
@@ -625,14 +633,6 @@
             <pubDate>Sun, 01 May 2022 06:50:11 GMT</pubDate>
             <description><![CDATA[はじめに  Swiftにおける型パラメータインジェクションを紹介します。  環境   OS：macOS Monterey 12.3.1 Xcode：13.3.1 (13E500a) Swift：5.6   「…]]></description>
             <content:encoded><![CDATA[はじめに  Swiftにおける型パラメータインジェクションを紹介します。  環境   OS：macOS Monterey 12.3.1 Xcode：13.3.1 (13E500a) Swift：5.6   「…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[JuliaHub を試したお話(雰囲気とアカウント登録までの紹介) | Zennのトレンド]]></title>
-            <link>https://zenn.dev/terasakisatoshi/articles/566731a04a53b8</link>
-            <guid>https://zenn.dev/terasakisatoshi/articles/566731a04a53b8</guid>
-            <pubDate>Sun, 01 May 2022 05:31:43 GMT</pubDate>
-            <description><![CDATA[本日は クラウド環境で Julia のコードを実行できるプラットフォーム JuliaHub を触ったお話しです． 日本語の解説記事多くなさそうだったので書いてみます．   JuliaHub について JuliaHub のページに書いてある通りです．  The simplest/fastest code to cloud platform for high performance computing...]]></description>
-            <content:encoded><![CDATA[本日は クラウド環境で Julia のコードを実行できるプラットフォーム JuliaHub を触ったお話しです． 日本語の解説記事多くなさそうだったので書いてみます．   JuliaHub について JuliaHub のページに書いてある通りです．  The simplest/fastest code to cloud platform for high performance computing.  LP  ログイン後の画面の例    できること  手元のノートパソコンでは計算が追いつかず複数ノードを使って Julia で数値計算をしたい メモリが １６GB 程度の GPU を使わ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[2022年5月末に利用できなくなる「ID/パスワードのみのGoogleアカウントへのログイン」とは何か | Zennのトレンド]]></title>
@@ -1751,6 +1751,15 @@
             <content:encoded><![CDATA[マルウェア「Emotet」にショートカットファイル（.LNK）の亜種が発生しているようだ。一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）によると、4月25日頃より事例が確認されているという。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: 今回紹介するSemanticStyleGANではセマンティックマスクを用いることで、潜在空間を意味領域ごとに分割し、局所的な操作を可能にしています。
+https://ai-scholar.tech/articles/gan/SemanticStyleGan | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1519151019040870401#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1519151019040870401#m</guid>
+            <pubDate>Wed, 27 Apr 2022 03:06:42 GMT</pubDate>
+            <description><![CDATA[今回紹介するSemanticStyleGANではセマンティックマスクを用いることで、潜在空間を意味領域ごとに分割し、局所的な操作を可能にしています。 ai-scholar.tech/articles/gan…]]></description>
+            <content:encoded><![CDATA[今回紹介するSemanticStyleGANではセマンティックマスクを用いることで、潜在空間を意味領域ごとに分割し、局所的な操作を可能にしています。 ai-scholar.tech/articles/gan…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Women’s Career Talk 4〜出世はゴールじゃないよね？頑張りすぎないキャリア設計〜 を開催しました！ #WomenCareerTalk | メルカリエンジニアリングブログ]]></title>
             <link>https://engineering.mercari.com/blog/entry/20220422-69f331aabd/</link>
             <guid>20858</guid>
@@ -2031,6 +2040,15 @@
             <content:encoded><![CDATA[はじめに みなさんこんにちはa_renrenです。 日々、サーバを運用される方であれば、サーバの動作が遅くなったり、不具合が発生した場合、原因を特定するためにコマンドでサーバのリソース状況を確認するかと思います。 リソース状況を確認するコマンドは、topやfreeなど色々コマンドがありますが、今回は、リソース状況の確認でよく使用するsarコマンドについて少しまとめてみました。 はじめに sar コマンドとは sar [ オプション ] <時間間隔> <回数> よく使うオプション リソース状況の確認 CPUの確認 メモリの確認 スワップの確認 ネットワーク情報の確認 ディスクI/Oの確認 まとめ…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: 本稿で紹介する論文では対照学習にDual learningを組み合わせた新しい訓練手法とCUTで扱われなかったモード崩壊に対する解決策を提案しています。
+https://ai-scholar.tech/articles/gan/dclgan | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1518798096297529345#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1518798096297529345#m</guid>
+            <pubDate>Tue, 26 Apr 2022 03:44:18 GMT</pubDate>
+            <description><![CDATA[本稿で紹介する論文では対照学習にDual learningを組み合わせた新しい訓練手法とCUTで扱われなかったモード崩壊に対する解決策を提案しています。 ai-scholar.tech/articles/gan…]]></description>
+            <content:encoded><![CDATA[本稿で紹介する論文では対照学習にDual learningを組み合わせた新しい訓練手法とCUTで扱われなかったモード崩壊に対する解決策を提案しています。 ai-scholar.tech/articles/gan…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[「アンリアルクエスト3 ～グレイマンとつくる5つのショー～」開催のお知らせ | historia Inc – 株式会社ヒストリア]]></title>
             <link>https://historia.co.jp/unrealquest03</link>
             <guid>https://historia.co.jp/?p=26376</guid>
@@ -2128,8 +2146,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/04/26/asana-to-spreadsheet-2/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10105</guid>
             <pubDate>Tue, 26 Apr 2022 00:30:52 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラ...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  仮想通貨の完全自動売買をやってみよう その１  マネーフォワード MEのiOS 15対応  最近のruby-core (2016年2月)  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都開発...]]></description>
+            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都開発拠点におけるインターン生の活躍  デザイナーが制作時に気にしていること  エンジニアが技術広報に取り組んだ奮闘記 2021年上期  【レポート速報】Google I/O 2016 - Day2  ICカードリーダーのiOSアプリをSwiftUIで開発しました   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2437,6 +2455,15 @@
             <category>フロントエンド定例</category>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: cGANを協調フィルタリングに用いる際の２つの大きな問題点を突き止め、これらを解決することで新しいGANベースのリコメンドシステムGANMFを開発した
+https://ai-scholar.tech/articles/gan/ganmf | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1518436947688976384#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1518436947688976384#m</guid>
+            <pubDate>Mon, 25 Apr 2022 03:49:14 GMT</pubDate>
+            <description><![CDATA[cGANを協調フィルタリングに用いる際の２つの大きな問題点を突き止め、これらを解決することで新しいGANベースのリコメンドシステムGANMFを開発した ai-scholar.tech/articles/gan…]]></description>
+            <content:encoded><![CDATA[cGANを協調フィルタリングに用いる際の２つの大きな問題点を突き止め、これらを解決することで新しいGANベースのリコメンドシステムGANMFを開発した ai-scholar.tech/articles/gan…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[トレタO/XのtoCアプリをリニューアルしたら諸々整理できてよかったという話 | トレタ開発者ブログ]]></title>
             <link>https://tech.toreta.in/entry/2022/04/25/123726</link>
             <guid>https://tech.toreta.in/entry/2022/04/25/123726</guid>
@@ -2546,8 +2573,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/04/25/asana-to-spreadsheet-1/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10093</guid>
             <pubDate>Mon, 25 Apr 2022 00:30:09 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: リニュー...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: リニューアル後の国税庁サイトを検索できるサービスを作ってみた  ソートアルゴリズムについてまとめてみた  【レポート速報】Google I/O 2016 - Day2  バリデーションを自動化するgemを作った話  Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Auto...]]></description>
+            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Auto Layoutで固有サイズを使いこなそう  How I integrated the Kibela API into my local note-taking routine  開発チームで業務知識を獲得するための取り組み  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco  Android版「マネーフォワード」をマテリアルデザイン対応したときのあれこれ   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. ...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2705,6 +2732,14 @@
             <guid>https://medium.com/p/de259dbd3b8f</guid>
             <pubDate>Sat, 23 Apr 2022 03:03:11 GMT</pubDate>
             <category>database</category>
+        </item>
+        <item>
+            <title><![CDATA[RT by @ai_scholar: ベイジアン逆強化学習に関する記事を執筆しました〜 | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/snow11828147/status/1517699695170449408#m</link>
+            <guid>https://nitter.net/snow11828147/status/1517699695170449408#m</guid>
+            <pubDate>Sat, 23 Apr 2022 02:59:39 GMT</pubDate>
+            <description><![CDATA[ベイジアン逆強化学習に関する記事を執筆しました〜 nitter.net/ai_scholar/status/1516978570761216000#m]]></description>
+            <content:encoded><![CDATA[ベイジアン逆強化学習に関する記事を執筆しました〜 nitter.net/ai_scholar/status/1516978570761216000#m]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Pix2Seq: A New Language Interface for Object Detection | Google AI Blog]]></title>
@@ -3227,6 +3262,15 @@
             <content:encoded><![CDATA[4月よりスターフェスティバルにジョインしました。エンジニアのDPontaroです。 入社してまだ3日と超絶ホットな新人です！ 入社3日にして心理的安全性の高さを見せつけてくれたスターフェスティバルの組織を紹介したいと思います。   心理的安全性とは 仕事を行ううえで、意見や質問、指摘が必要な場面は出てきます。 しかしながら  自分の立場で言ってもいいのか（例えば入社したての新人さん） 間違っていたらどうしよう（羞恥心や、罰を受けるかもしれないという恐れ）  など、本当は言いたいことがあっても、言えないといったシチュエーションは誰しも経験があるのではないでしょうか。 心理的安全性の高さとは...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: 本研究は、報酬関数の事後分布を求めることにより報酬関数の推定精度の不確かさを考慮した模倣学習を可能にするベイジアン逆強化学習に関する研究です。
+https://ai-scholar.tech/articles/%E9%80%86%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92/scalable-birl-avirl | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1516978570761216000#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1516978570761216000#m</guid>
+            <pubDate>Thu, 21 Apr 2022 03:14:10 GMT</pubDate>
+            <description><![CDATA[本研究は、報酬関数の事後分布を求めることにより報酬関数の推定精度の不確かさを考慮した模倣学習を可能にするベイジアン逆強化学習に関する研究です。 ai-scholar.tech/articles/%E9…]]></description>
+            <content:encoded><![CDATA[本研究は、報酬関数の事後分布を求めることにより報酬関数の推定精度の不確かさを考慮した模倣学習を可能にするベイジアン逆強化学習に関する研究です。 ai-scholar.tech/articles/%E9…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[コインチェックでSLI/SLOを策定したときの話 | coincheck tech blog]]></title>
             <link>https://tech.coincheck.blog/entry/2022/04/21/120149</link>
             <guid>https://tech.coincheck.blog/entry/2022/04/21/120149</guid>
@@ -3460,6 +3504,15 @@
             <content:encoded><![CDATA[One-stop shop to learn about state-of-the-art research papers with access to open-source resources including machine learning models, datasets, methods, evaluation tables, and code.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Data Science</category>
+        </item>
+        <item>
+            <title><![CDATA[RT by @ai_scholar: いよいよ多変量時系列異状検知にもTransformerが現れました。
+https://ai-scholar.tech/articles/error-detection/Anomaly_Transforme | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1516725325819891714#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1516725325819891714#m</guid>
+            <pubDate>Wed, 20 Apr 2022 10:27:51 GMT</pubDate>
+            <description><![CDATA[いよいよ多変量時系列異状検知にもTransformerが現れました。 ai-scholar.tech/articles/err…]]></description>
+            <content:encoded><![CDATA[いよいよ多変量時系列異状検知にもTransformerが現れました。 ai-scholar.tech/articles/err…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[KDnuggets News 22:n16, Apr 20: Top YouTube Channels for Learning Data Science; Data Visualization in Python with Seaborn | KDnuggets]]></title>
@@ -3793,27 +3846,6 @@
             <content:encoded><![CDATA[Approaches to data sampling, modeling, and analysis can vary based on the distribution of your data, and so determining the best fit theoretical distribution can be an essential step in your data exploration process.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Python</category>
-        </item>
-        <item>
-            <title><![CDATA[週刊Railsウォッチ: RubyのGCコンパクション改修、jemalloc、ReDoSの自動検出修正ほか（20220419後編） | TechRacho]]></title>
-            <link>https://techracho.bpsinc.jp/hachi8833/2022_04_19/117158</link>
-            <guid>https://techracho.bpsinc.jp/?p=117158</guid>
-            <pubDate>Tue, 19 Apr 2022 09:30:39 GMT</pubDate>
-            <description><![CDATA[こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoで...]]></description>
-            <content:encoded><![CDATA[こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoではRubyやRailsなどの最新情報記事を平日に公開しています。TechRacho記事をいち早くお読みになりたい方はTwitterにて@techrachoのフォローをお願いします。また、タグやカテゴリごとにRSSフィードを購読 […] The post 週刊Railsウォッチ: RubyのGCコンパクション改修、jemalloc、ReDoSの自動検出修正ほか（20220419後編） first appeared on TechRacho.]]></content:encoded>
-            <category>Ruby / Rails関連</category>
-            <category>Ruby</category>
-            <category>Ruby on Rails</category>
-            <category>インフラ</category>
-            <category>週刊Railsウォッチ</category>
-        </item>
-        <item>
-            <title><![CDATA[振込申請のデータマイグレーションを振り返る | メルカリエンジニアリングブログ]]></title>
-            <link>https://engineering.mercari.com/blog/entry/20220418-ab49e2d2f9/</link>
-            <guid>20750</guid>
-            <pubDate>Tue, 19 Apr 2022 01:00:07 GMT</pubDate>
-            <description><![CDATA[こんにちは。メルペイCash I/Oチームのshota sugiuraです。 これはMerpay Tech Openess Month 2022の12日目の記事です。 本記事では、振込申請機能のデータマイグレーションの振 […]]]></description>
-            <content:encoded><![CDATA[こんにちは。メルペイCash I/Oチームのshota sugiuraです。 これはMerpay Tech Openess Month 2022の12日目の記事です。 本記事では、振込申請機能のデータマイグレーションの振 […]]]></content:encoded>
         </item>
     </channel>
 </rss>
