@@ -287,7 +287,6 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['The AI Blog', 'https://blogs.microsoft.com/ai?feed=rss2'],
   ['Google AI Blog', 'http://googleaiblog.blogspot.com/atom.xml'],
   ['WebBigData', 'https://webbigdata.jp/feed'],
-  // ['The Gradient', 'https://thegradient.pub/rss/'],
 
   // (はてなブログ)
   ['kanayamaのブログ', 'https://tepppei.hatenablog.com/rss'],
