@@ -7,6 +7,21 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://math-fun.net/?p=24525",
+            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、磁場における荷電粒子の運動について、螺旋を空間曲線として導いていきます。 荷電粒子が磁場によって受ける力（ローレンツ力）は、\\(f= q v_{\\pe ... 磁場における荷電粒子の運動：螺旋を空間曲線として導く first appeared on 趣味の大学数学.",
+            "url": "https://math-fun.net/20220507/24525/",
+            "title": "磁場における荷電粒子の運動：螺旋を空間曲線として導く | 趣味の大学数学",
+            "summary": "どうも、木村（@kimu3_slime）です。 今回は、磁場における荷電粒子の運動について、螺旋を空間曲線として導いていきます。 荷電粒子が磁場によって受ける力（ローレンツ力）は、\\(f= q v_{\\pe ... 磁場における荷電粒子の運動：螺旋を空間曲線として導く first appeared on 趣味の大学数学.",
+            "date_modified": "2022-05-07T07:04:38.000Z",
+            "date_published": "2022-05-07T07:04:38.000Z",
+            "author": {
+                "name": "kimu3"
+            },
+            "tags": [
+                "身近な数学"
+            ]
+        },
+        {
             "id": "https://zenn.dev/ttskch/books/a3800fc0912fbb",
             "content_html": "API Platform (https://api-platform.com/) は、Symfony + DoctrineをベースとするPHP製のオープンソースAPIフレームワークです。  簡単な設定を書くだけでSymfonyアプリにREST APIやGraphQL APIの機能を一瞬で追加ることができて非常に便利なのですが、2022年5月現在、ある程度以上複雑なことをしようとすると途端にフレームワークについての深い理解が求められたり、痒いところに手が届かず強引なワークアラウンドが必要になったりするという面もあり、まだまだ日本国内でプロダクションに投入されている例を見聞きすることは少ない印象です。  本書では、Symfonyヘビーユーザーである筆者が実際の業務でSymfonyアプリ上でのREST APIの実装にAPI Platformを使ってみた経験をもとに、API Platformの基本的な仕組みやよくあるユースケースで必要になるワークアラウンドについて包括的にご紹介します。API Platformの実戦投入、あるいはその検討の一助になれば幸いです。  本書で解説に使用するサンプルコ...",
             "url": "https://zenn.dev/ttskch/books/a3800fc0912fbb",
@@ -186,6 +201,19 @@
             "tags": [
                 "Ruby / Rails関連"
             ]
+        },
+        {
+            "id": "https://zenn.dev/karaage0703/articles/0267c64d5d857d",
+            "content_html": "ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的には以下のようにngrokサーバがローカルサーバとネットをいい感じに中継してくれる感じのようです（あんまりネットワーク詳しくないので間違ってたらすみません）。 ブラウザ -> Inte...",
+            "url": "https://zenn.dev/karaage0703/articles/0267c64d5d857d",
+            "title": "ラズパイ上のPython+FlaskローカルWebサーバにネットからngrok経由でアクセス | Zennのトレンド",
+            "summary": "ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的...",
+            "date_modified": "2022-05-06T08:28:19.000Z",
+            "date_published": "2022-05-06T08:28:19.000Z",
+            "author": {
+                "name": "karaage0703"
+            },
+            "tags": []
         },
         {
             "id": "https://qiita.com/Hiroki_Akita/items/e4c306ac6fdab78d24d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -855,6 +883,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/dowanna6/articles/674c923b26ecd9",
+            "content_html": "どうも。株式会社プラハCEO兼エンジニアの松原です。 先日プラハチャレンジの一環で「DDDに基づいてコードを書いてみよう！」という課題のコードレビューをしていた際、こんなコードを見かけました： class User {  constructor(private readonly _articleIds: string[], private readonly _name: string) {  // 何らかの不変条件  }   public get name() {  return this._name  }  public get articleIds() {  ...",
+            "url": "https://zenn.dev/dowanna6/articles/674c923b26ecd9",
+            "title": "mutableな配列を返すその前に | Zennのトレンド",
+            "summary": "どうも。株式会社プラハCEO兼エンジニアの松原です。 先日プラハチャレンジの一環で「DDDに基づいてコードを書いてみよう！」という課題のコードレビューをしていた際、こんなコードを見かけました： class User {  constructor(private readonly _articleIds: string[], private readonly _name: string) {  //...",
+            "date_modified": "2022-05-05T05:41:25.000Z",
+            "date_published": "2022-05-05T05:41:25.000Z",
+            "author": {
+                "name": "dowanna6"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/mziyut/items/db55dbaa3ce03ec3b62a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに   普段は GitHub を利用していますが、 GitLab + GitLab Runner を触る機会があり、 GitLab Runner の Job 実行中に Slack 通知を送信しよ…",
             "url": "https://qiita.com/mziyut/items/db55dbaa3ce03ec3b62a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -923,19 +964,6 @@
             "summary": "System.Net.Http.HttpClientを使ってみよう   C#で通信する時に標準となっているHttpClientクラス。使った時に調べたのですが古い情報が混ざっていたり、後から忘れて毎…",
             "date_modified": "2022-05-05T03:48:59.000Z",
             "date_published": "2022-05-05T03:48:59.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/tarocl/articles/ddce051465a24c",
-            "content_html": "認知症フレンドリーテックについて多くのエンジニアさんたちに知って興味を持ってもらいたいと思い記事にしました。 「技術はあるけど特に作りたいものはない」でも「誰かの役に立ちたい」という方にぴったりの内容になっていると思います。   認知症フレンドリーテック 「認知症フレンドリーテック」という言葉を聞いたことがない方がほとんどだと思います。 Google検索を行なっても、「認知症フレンドリーテック」という言葉がそのまま当てはまる記事は見当たりません。 （ちなみに、上から４つ目に上がっているのが昨年リテールテックアドベントカレンダーにあげた私の記事でした） そもそも 「認知症フレンドリーって何...",
-            "url": "https://zenn.dev/tarocl/articles/ddce051465a24c",
-            "title": "認知症フレンドリーテックについて知ってもらいたい | Zennのトレンド",
-            "summary": "認知症フレンドリーテックについて多くのエンジニアさんたちに知って興味を持ってもらいたいと思い記事にしました。 「技術はあるけど特に作りたいものはない」でも「誰かの役に立ちたい」という方にぴったりの内容になっていると思います。   認知症フレンドリーテック 「認知症フレンドリーテック」という言葉を聞いたことがない方がほとんどだと思います。 Google検索を行なっても、「認知症フレンドリーテック」と...",
-            "date_modified": "2022-05-05T02:31:12.000Z",
-            "date_published": "2022-05-05T02:31:12.000Z",
-            "author": {
-                "name": "tarocl"
-            },
             "tags": []
         },
         {
@@ -1346,19 +1374,6 @@
                 "KDnuggets Originals",
                 "Career Advice"
             ]
-        },
-        {
-            "id": "https://zenn.dev/jcc/articles/58f059acc2bfb6",
-            "content_html": "はじめに 自分が読んだ本や記事などを読む時に書いたノートを体系的に管理したいですよね。 現在優秀なナレッジマネジメントツールはありふれています。企業向けだと  Confluence DocBase Qiita Team  などがあります。個人向けは  Notion HackMD Boost Note  のようなシンプルで使いやすいツールがあります。マインドマップツールをさらに含めると数え切れません。 筆者自身はミニマリストです。  コードのようにGithubで自分のノートを管理したい Webからマインドマップ形式になっているノートを確認したい サブスグではなく、無料で使いたい  なの...",
-            "url": "https://zenn.dev/jcc/articles/58f059acc2bfb6",
-            "title": "ただ15行のシェルスクリプトで個人ナレッジマネジメントツールを作った話 | Zennのトレンド",
-            "summary": "はじめに 自分が読んだ本や記事などを読む時に書いたノートを体系的に管理したいですよね。 現在優秀なナレッジマネジメントツールはありふれています。企業向けだと  Confluence DocBase Qiita Team  などがあります。個人向けは  Notion HackMD Boost Note  のようなシンプルで使いやすいツールがあります。マインドマップツールをさらに含めると数え切れません...",
-            "date_modified": "2022-05-03T10:56:00.000Z",
-            "date_published": "2022-05-03T10:56:00.000Z",
-            "author": {
-                "name": "jc"
-            },
-            "tags": []
         },
         {
             "id": "hatenablog://entry/13574176438088770345",
@@ -2448,21 +2463,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.cartaholdings.co.jp/entry/the-zen-of-zucks",
-            "content_html": "こんにちは、Zucks CTOの河村(@r_kawaiimura)です。今回われわれの日々の営み、大事にしているバリューやプラクティスを言語化したものを The Zen of Zucks として公開することにしました。 The Zen of Zucks Zucksにおける基本的なバリューやプラクティス The Zen of Zucks 開発編 開発者向けのプラクティスなど The Zen of Zucks is not bible このドキュメントを扱う上での注意など 執筆・公開に至った背景 メンバの入れ替わりがしばしば起きる中で引き継ぎが特定のメンバに集中してしまったり、新しく入られた方への…",
-            "url": "https://techblog.cartaholdings.co.jp/entry/the-zen-of-zucks",
-            "title": "The Zen of Zucks | CARTA TECH BLOG",
-            "summary": "こんにちは、Zucks CTOの河村(@r_kawaiimura)です。今回われわれの日々の営み、大事にしているバリューやプラクティスを言語化したものを The Zen of Zucks として公開することにしました。 The Zen of Zucks Zucksにおける基本的なバリューやプラクティス The Zen of Zucks 開発編 開発者向けのプラクティスなど The Zen of Z...",
-            "date_modified": "2022-04-28T06:00:00.000Z",
-            "date_published": "2022-04-28T06:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.brainpad.co.jp/entry/2022/04/28/150000",
             "content_html": "2022年4月1日、ブレインパッドに新卒社員として41名の仲間が加わりました！ 当日は、厳格な感染対策のもと新卒社員が会場に集まり、一生に一度の大切な入社式を開催しました。 本ブログでは、その大切な一日の様子をご紹介します！こんにちは。広報の中林です。 2022年4月1日（木）、ブレインパッドに、新卒社員数としては過去最多となる41名の仲間が入社しました！ 実は、この数年の新卒入社者数は毎年「過去最多」を更新しているので、この冒頭の紹介文も定型になりつつあるのが嬉しい限りです。ブレインパッドが新卒採用を始めた当初はデータサイエンティストだけだった募集コースも、今ではデータサイエンティスト、ビジ…",
             "url": "https://blog.brainpad.co.jp/entry/2022/04/28/150000",
             "title": "2022年新卒社員入社式 を開催～過去最多となる41名の仲間がジョイン！～ | Platinum Data Blog by BrainPad",
             "summary": "2022年4月1日、ブレインパッドに新卒社員として41名の仲間が加わりました！ 当日は、厳格な感染対策のもと新卒社員が会場に集まり、一生に一度の大切な入社式を開催しました。 本ブログでは、その大切な一日の様子をご紹介します！こんにちは。広報の中林です。 2022年4月1日（木）、ブレインパッドに、新卒社員数としては過去最多となる41名の仲間が入社しました！ 実は、この数年の新卒入社者数は毎年「過去...",
+            "date_modified": "2022-04-28T06:00:00.000Z",
+            "date_published": "2022-04-28T06:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.cartaholdings.co.jp/entry/the-zen-of-zucks",
+            "content_html": "こんにちは、Zucks CTOの河村(@r_kawaiimura)です。今回われわれの日々の営み、大事にしているバリューやプラクティスを言語化したものを The Zen of Zucks として公開することにしました。 The Zen of Zucks Zucksにおける基本的なバリューやプラクティス The Zen of Zucks 開発編 開発者向けのプラクティスなど The Zen of Zucks is not bible このドキュメントを扱う上での注意など 執筆・公開に至った背景 メンバの入れ替わりがしばしば起きる中で引き継ぎが特定のメンバに集中してしまったり、新しく入られた方への…",
+            "url": "https://techblog.cartaholdings.co.jp/entry/the-zen-of-zucks",
+            "title": "The Zen of Zucks | CARTA TECH BLOG",
+            "summary": "こんにちは、Zucks CTOの河村(@r_kawaiimura)です。今回われわれの日々の営み、大事にしているバリューやプラクティスを言語化したものを The Zen of Zucks として公開することにしました。 The Zen of Zucks Zucksにおける基本的なバリューやプラクティス The Zen of Zucks 開発編 開発者向けのプラクティスなど The Zen of Z...",
             "date_modified": "2022-04-28T06:00:00.000Z",
             "date_published": "2022-04-28T06:00:00.000Z",
             "tags": []
@@ -3272,22 +3287,6 @@
             ]
         },
         {
-            "id": "https://math-fun.net/?p=24275",
-            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、高校の数学で学ぶ微積分の応用として、1次反応の半減期、放射性炭素年代測定法とは何かを紹介します。 1次反応とは 五酸化二窒素\\(\\mathrm{N}_ ... 微積分の応用：1次反応の半減期、放射性炭素年代測定法とは first appeared on 趣味の大学数学.",
-            "url": "https://math-fun.net/20220427/24275/",
-            "title": "微積分の応用：1次反応の半減期、放射性炭素年代測定法とは | 趣味の大学数学",
-            "summary": "どうも、木村（@kimu3_slime）です。 今回は、高校の数学で学ぶ微積分の応用として、1次反応の半減期、放射性炭素年代測定法とは何かを紹介します。 1次反応とは 五酸化二窒素\\(\\mathrm{N}_ ... 微積分の応用：1次反応の半減期、放射性炭素年代測定法とは first appeared on 趣味の大学数学.",
-            "date_modified": "2022-04-27T05:12:48.000Z",
-            "date_published": "2022-04-27T05:12:48.000Z",
-            "author": {
-                "name": "kimu3"
-            },
-            "tags": [
-                "身近な数学",
-                "微分方程式論"
-            ]
-        },
-        {
             "id": "https://nitter.net/ai_scholar/status/1519151019040870401#m",
             "content_html": "今回紹介するSemanticStyleGANではセマンティックマスクを用いることで、潜在空間を意味領域ごとに分割し、局所的な操作を可能にしています。 ai-scholar.tech/articles/gan…",
             "url": "https://nitter.net/ai_scholar/status/1519151019040870401#m",
@@ -3416,6 +3415,27 @@
             "tags": []
         },
         {
+            "id": "https://hackernoon.com/model-tests-are-essential-for-building-domain-knowledge?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/model-tests-are-essential-for-building-domain-knowledge?source=rss",
+            "title": "Model Tests are Essential for Building Domain Knowledge | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-26T23:43:21.000Z",
+            "date_published": "2022-04-26T23:43:21.000Z",
+            "author": {
+                "name": "Had Seddiqi"
+            },
+            "tags": [
+                "machine-learning",
+                "mlops",
+                "artificial-intelligence",
+                "data-science",
+                "software-testing",
+                "domain-knowledge",
+                "model-tests",
+                "machine-learning-uses"
+            ]
+        },
+        {
             "id": "https://developers.cyberagent.co.jp/blog/?p=35119",
             "content_html": "3月24日、サイバーエージェントのエンジニア・クリエイターによる技術カンファレンス「C ...",
             "url": "https://developers.cyberagent.co.jp/blog/archives/35119/",
@@ -3442,6 +3462,27 @@
             "date_modified": "2022-04-26T23:00:00.000Z",
             "date_published": "2022-04-26T23:00:00.000Z",
             "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/using-jupytertensorboard-in-any-cloud-with-one-command?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/using-jupytertensorboard-in-any-cloud-with-one-command?source=rss",
+            "title": "Using Jupyter/TensorBoard In Any Cloud With One Command | Hacker Noon - machine-learning",
+            "date_modified": "2022-04-26T21:33:11.000Z",
+            "date_published": "2022-04-26T21:33:11.000Z",
+            "author": {
+                "name": "Casper da Costa-Luis"
+            },
+            "tags": [
+                "jupyter-notebook",
+                "terraform",
+                "machine-learning",
+                "data-science",
+                "cloud-computing",
+                "aws",
+                "azure",
+                "gcp"
+            ]
         },
         {
             "id": "https://www.kdnuggets.com/?p=141202",
@@ -3782,10 +3823,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10105",
-            "content_html": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「Money Forward Techbook」を技術書典7に出典します  オーマイグラスさんとマネーフォワードの交流会  Story of being a speaker at a tech panel discussion  Swift2.0で作るAPI通信基盤  Rubyアプリのコードレビューを支えるsaddler   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.",
+            "content_html": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアが紹介する、エンジニアが好みそうな映画  [著書紹介] Swift+Core DataによるiOSアプリプログラミング  Optional(2018)年あけましておめでとうございます  インターンから見たマネーフォワード  最近のruby-core (2016年7月)   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/04/26/asana-to-spreadsheet-2/",
             "title": "AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2 | Engineers' Blog",
-            "summary": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「Mon...",
+            "summary": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニ...",
             "date_modified": "2022-04-26T00:30:52.000Z",
             "date_published": "2022-04-26T00:30:52.000Z",
             "author": {
@@ -4383,10 +4424,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10093",
-            "content_html": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜  Go BoldにGive it a try!  Create JSON Web Tokens with signatures by ECDSA_SHA algorithms signed by AWS KMS keys with python  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証  An engineering visualization tool at Money Forward   Copyright © Engineers' Blog [As...",
+            "content_html": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: try! Swiftに参加してきました  CODE BLUEスポンサー申込み  RubyKaigi 2019 参加者がチェックすべき福岡飯20選！  DroidKaigi 2020に登壇する予定でした & 登壇動画公開のお知らせ  集中力を高めるノイズミュージック   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/04/25/asana-to-spreadsheet-1/",
             "title": "AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1 | Engineers' Blog",
-            "summary": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 副業QA...",
+            "summary": "みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: try!...",
             "date_modified": "2022-04-25T00:30:09.000Z",
             "date_published": "2022-04-25T00:30:09.000Z",
             "author": {
