@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-05-08T03:49:24.728Z</updated>
+    <updated>2022-05-08T07:28:22.747Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[交流回路で電流電圧の位相がずれる理由：微分による説明 | 趣味の大学数学]]></title>
+        <id>https://math-fun.net/?p=24544</id>
+        <link href="https://math-fun.net/20220508/24544/"/>
+        <updated>2022-05-08T07:10:12.000Z</updated>
+        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、交流回路で電流電圧の位相がずれる理由について、微分による説明をします。 交流電源を持つ回路を考えましょう。コイルやコンデンサーを含むと、そこでは電流と ... 交流回路で電流電圧の位相がずれる理由：微分による説明 first appeared on 趣味の大学数学.]]></summary>
+        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、交流回路で電流電圧の位相がずれる理由について、微分による説明をします。 交流電源を持つ回路を考えましょう。コイルやコンデンサーを含むと、そこでは電流と ... 交流回路で電流電圧の位相がずれる理由：微分による説明 first appeared on 趣味の大学数学.]]></content>
+        <author>
+            <name>kimu3</name>
+        </author>
+        <category label="身近な数学"/>
+        <published>2022-05-08T07:10:12.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Beyond Message Passing, a Physics-Inspired Paradigm for Graph Neural Networks | The Gradient]]></title>
         <id>6251ddde096e2705460843a9</id>
@@ -190,6 +203,18 @@
         <summary type="html"><![CDATA[はじめに  GitHubにはコードレビューで使える便利機能がたくさんあったので、 今回はそれらを取りまとめてみました。 レビュアーとしてプルリクエストを見る際など参考になれば幸いです^_^  目次  1…]]></summary>
         <content type="html"><![CDATA[はじめに  GitHubにはコードレビューで使える便利機能がたくさんあったので、 今回はそれらを取りまとめてみました。 レビュアーとしてプルリクエストを見る際など参考になれば幸いです^_^  目次  1…]]></content>
         <published>2022-05-07T04:11:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScriptのコードには、こんな書き方もある | Zennのトレンド]]></title>
+        <id>https://zenn.dev/chida/articles/ff3e073bce9306</id>
+        <link href="https://zenn.dev/chida/articles/ff3e073bce9306"/>
+        <updated>2022-05-07T03:59:47.000Z</updated>
+        <summary type="html"><![CDATA[本記事はコードの書き方について「bad」「good」で表していますが、書き方そのものを推奨するものではなく、このような書き方も出来るという紹介に留めておきます。コメント欄まで一緒にみていただくと学びになると思われます。   1.破壊的メソッドを避ける 破壊的メソッドとは、元の配列の要素を変えるメソッドです。以下の例ではconstで宣言した変数numbersが、pushメソッドにより更新されています...]]></summary>
+        <content type="html"><![CDATA[本記事はコードの書き方について「bad」「good」で表していますが、書き方そのものを推奨するものではなく、このような書き方も出来るという紹介に留めておきます。コメント欄まで一緒にみていただくと学びになると思われます。   1.破壊的メソッドを避ける 破壊的メソッドとは、元の配列の要素を変えるメソッドです。以下の例ではconstで宣言した変数numbersが、pushメソッドにより更新されています。 bad const numbers = [1, 2, 3] numbers.push(4) console.log(numbers) // [1, 2, 3, 4] この場合、元の配列の要素...]]></content>
+        <author>
+            <name>TC</name>
+        </author>
+        <published>2022-05-07T03:59:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Cloud RunをGithub ActionsとTerraformで管理する | Zennのトレンド]]></title>
@@ -448,6 +473,18 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-06T08:30:17.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ラズパイ上のPython+FlaskローカルWebサーバにネットからngrok経由でアクセス | Zennのトレンド]]></title>
+        <id>https://zenn.dev/karaage0703/articles/0267c64d5d857d</id>
+        <link href="https://zenn.dev/karaage0703/articles/0267c64d5d857d"/>
+        <updated>2022-05-06T08:28:19.000Z</updated>
+        <summary type="html"><![CDATA[ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的...]]></summary>
+        <content type="html"><![CDATA[ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的には以下のようにngrokサーバがローカルサーバとネットをいい感じに中継してくれる感じのようです（あんまりネットワーク詳しくないので間違ってたらすみません）。 ブラウザ -> Inte...]]></content>
+        <author>
+            <name>karaage0703</name>
+        </author>
+        <published>2022-05-06T08:28:19.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[パソコンとスマホに表示されるインターネット広告を非表示にしてくれるソフト「AdLock マルチデバイス」 | 新着ソフトレビュー - Vector]]></title>
         <id>https://www.vector.co.jp/magazine/softnews/200729/n2007291.html?ref=rss</id>
         <link href="https://www.vector.co.jp/magazine/softnews/200729/n2007291.html?ref=rss"/>
@@ -518,6 +555,25 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-06T05:15:51.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Meta's New Model OPT is an Open-Source GPT-3 | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss</id>
+        <link href="https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss"/>
+        <updated>2022-05-06T05:10:33.000Z</updated>
+        <author>
+            <name>Louis Bouchard</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="meta"/>
+        <category label="facebook"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="natural-language-processing"/>
+        <category label="openai"/>
+        <category label="hackernoon-top-story"/>
+        <category label="web-monetization"/>
+        <published>2022-05-06T05:10:33.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「Thunderbird 91.9.0」が公開 ～互換性維持のためにOpenPGP署名でSHA-1を一部許可／8件の脆弱性修正も | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1407209.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1407209.html"/>
@@ -561,18 +617,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <summary type="html"><![CDATA[こんにちは。さたかです。先日、部署内で雑談する会を開催したので、実施した背景や実際したことについて書いていきます。 コミュニケーションについての現状 雑談が減ったことによる影響 部署内雑談会の実施 任意参加にしたこと 業務時間中に実施としたこと 振り返って 今後について コミュニケーションについての現状 当社では新型コロナウイルス感染症(COVID‑19)の影響もあり、大半の社員が2020年3月頃...]]></summary>
         <content type="html"><![CDATA[こんにちは。さたかです。先日、部署内で雑談する会を開催したので、実施した背景や実際したことについて書いていきます。 コミュニケーションについての現状 雑談が減ったことによる影響 部署内雑談会の実施 任意参加にしたこと 業務時間中に実施としたこと 振り返って 今後について コミュニケーションについての現状 当社では新型コロナウイルス感染症(COVID‑19)の影響もあり、大半の社員が2020年3月頃から在宅勤務、所謂リモートワークを実施しております。 リモートワーク環境になることで社員間のコミュニケーションの取り方も、対面のリアルタイムコミュニケーションから非対面の非同期コミュニケーションへと変…]]></content>
         <published>2022-05-06T03:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生年月日からの経過日数を○年○ヶ月○日と計算するロジック | Zennのトレンド]]></title>
-        <id>https://zenn.dev/8yabusa/articles/1ec32456888a95</id>
-        <link href="https://zenn.dev/8yabusa/articles/1ec32456888a95"/>
-        <updated>2022-05-06T02:12:24.000Z</updated>
-        <summary type="html"><![CDATA[まとめ  生年月日からの経過日数を○年○か月○日と計算する仕様が複雑だった。 年齢の法律や年齢計算サービスを参考にして仕様を考えた。 仕様を満たすdart packageが見当たらなかったので自前で実装した。    やりたいこと 生年月日からの経過日数を○年○か月○日と表示したい。  左上に生年月日(2019-11-01)からの経過日数を表示   実現手順    要件を明確にする   生年月日が2...]]></summary>
-        <content type="html"><![CDATA[まとめ  生年月日からの経過日数を○年○か月○日と計算する仕様が複雑だった。 年齢の法律や年齢計算サービスを参考にして仕様を考えた。 仕様を満たすdart packageが見当たらなかったので自前で実装した。    やりたいこと 生年月日からの経過日数を○年○か月○日と表示したい。  左上に生年月日(2019-11-01)からの経過日数を表示   実現手順    要件を明確にする   生年月日が2020-01-31の1か月後はいつか？ うるう日生まれの1歳の誕生日はいつか？     実装する      用語 要件を説明するために以下の用語を使うことにする。  経過日数を求める日を測定...]]></content>
-        <author>
-            <name>はやぶさ</name>
-        </author>
-        <published>2022-05-06T02:12:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Neural Deep Equilibrium Solvers (ICLR 2022) | Deep Learning JP]]></title>
@@ -788,6 +832,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <summary type="html"><![CDATA[この記事について  WSL 上にインストールした Linux で systemctl コマンドが使用できない問題を解決します。 この記事では Ubuntu 20.04 LTS を使用して説明していま…]]></summary>
         <content type="html"><![CDATA[この記事について  WSL 上にインストールした Linux で systemctl コマンドが使用できない問題を解決します。 この記事では Ubuntu 20.04 LTS を使用して説明していま…]]></content>
         <published>2022-05-05T15:57:56.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DecentraMind for Web 3.0 or Against It? — Interview with Mikhail Danieli | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss</id>
+        <link href="https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss"/>
+        <updated>2022-05-05T15:42:23.000Z</updated>
+        <author>
+            <name>ExtraChain</name>
+        </author>
+        <category label="decentralized-internet"/>
+        <category label="quicknode"/>
+        <category label="computing"/>
+        <category label="cloud"/>
+        <category label="technology"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="good-company"/>
+        <published>2022-05-05T15:42:23.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CloudRunからCloudSQL / Firestore / MemoryStore(Redis) / GCSのキャッシュ性能ベンチマーク | Qiita - 人気の記事]]></title>
@@ -1015,18 +1077,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-05T04:25:48.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Firestoreの特徴とアーキテクチャを公開するっぴ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/sarukun99/articles/5f81cc35e6baaf</id>
-        <link href="https://zenn.dev/sarukun99/articles/5f81cc35e6baaf"/>
-        <updated>2022-05-05T02:29:21.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR リレーショナルデータベースに比べて使いずらいと言われるfirestoreのアーキテクチャと勘所を公開するっぴ。   ドキュメントDBの克服の仕方 firestoreの特徴の1つ目がドキュメントデータベースである点です。リレーショナルデータベースの場合、2次元の表で表現されるため、同じフィールドのデータ型は必ず同一になります。    フィールド データ型     name String ...]]></summary>
-        <content type="html"><![CDATA[TL;DR リレーショナルデータベースに比べて使いずらいと言われるfirestoreのアーキテクチャと勘所を公開するっぴ。   ドキュメントDBの克服の仕方 firestoreの特徴の1つ目がドキュメントデータベースである点です。リレーショナルデータベースの場合、2次元の表で表現されるため、同じフィールドのデータ型は必ず同一になります。    フィールド データ型     name String   age int    ドキュメントデータベースであるfirestoreでは型の混在が可能です。下の例では1つめのageがint型なのに対して、2つめのageは文字列となっています。SDK...]]></content>
-        <author>
-            <name>榎本友幸</name>
-        </author>
-        <published>2022-05-05T02:29:21.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Power Automate で日本時刻を使う方法 #Power Platform リレー | cloud.config Tech Blog]]></title>
         <id>https://tech-blog.cloud-config.jp/?p=115427</id>
         <link href="https://tech-blog.cloud-config.jp/2022-05-05-power-automate-daytime/"/>
@@ -1117,6 +1167,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <summary type="html"><![CDATA[Reducing false positives for rare events, adapting Echo hardware to ultrasound sensing, and enabling concurrent ultrasound sensing and music playback are just a few challenges Amazon researchers addre...]]></summary>
         <content type="html"><![CDATA[Reducing false positives for rare events, adapting Echo hardware to ultrasound sensing, and enabling concurrent ultrasound sensing and music playback are just a few challenges Amazon researchers addressed.]]></content>
         <published>2022-05-04T15:33:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Application Development Guide for Business Owners | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss</id>
+        <link href="https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss"/>
+        <updated>2022-05-04T15:16:37.000Z</updated>
+        <author>
+            <name>MobiDev</name>
+        </author>
+        <category label="ai"/>
+        <category label="machine-learning"/>
+        <category label="ai-app-development"/>
+        <category label="datasource"/>
+        <category label="poc-for-software-development"/>
+        <category label="good-company"/>
+        <category label="technology"/>
+        <category label="ai-development-for-business"/>
+        <published>2022-05-04T15:16:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[DeepMind’s New AI Finally Enters The Real World! 🤖 | Two Minute Papers]]></title>
@@ -1258,6 +1326,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-03T12:17:09.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The 5 Steps For Companies To Annihilate Their Churn Goals | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss</id>
+        <link href="https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss"/>
+        <updated>2022-05-03T12:04:28.000Z</updated>
+        <author>
+            <name>Colby Tunick</name>
+        </author>
+        <category label="retention"/>
+        <category label="sales"/>
+        <category label="revenue"/>
+        <category label="startup"/>
+        <category label="technology"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="how-to-decrease-churn-rate"/>
+        <published>2022-05-03T12:04:28.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Software Developer vs Software Engineer | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=141314</id>
         <link href="https://www.kdnuggets.com/2022/05/software-developer-software-engineer.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=software-developer-vs-software-engineer"/>
@@ -1375,6 +1461,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-02T13:52:01.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Developing an AI mobile App: Our Experience, Mistakes, and Achievements | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss</id>
+        <link href="https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss"/>
+        <updated>2022-05-02T13:37:06.000Z</updated>
+        <author>
+            <name>CountThis</name>
+        </author>
+        <category label="ai"/>
+        <category label="ai-trends"/>
+        <category label="ai-technology"/>
+        <category label="machine-learning-ai"/>
+        <category label="countthis"/>
+        <category label="mobile-app-development"/>
+        <category label="ios-app-development"/>
+        <category label="machine-learning"/>
+        <published>2022-05-02T13:37:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Top 10 Machine Learning Demos: Hugging Face Spaces Edition | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=141273</id>
         <link href="https://www.kdnuggets.com/2022/05/top-10-machine-learning-demos-hugging-face-spaces-edition.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-10-machine-learning-demos-hugging-face-spaces-edition"/>
@@ -1441,6 +1545,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <category label="OSS"/>
         <category label="Docker"/>
         <published>2022-05-02T08:27:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Handling Imbalanced Class Issues with Matthew’s Correlation Coefficient | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss</id>
+        <link href="https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss"/>
+        <updated>2022-05-02T07:34:34.000Z</updated>
+        <author>
+            <name>Stylianos Kampakis</name>
+        </author>
+        <category label="machine-learning"/>
+        <category label="imbalanced-class"/>
+        <category label="model-evaluation"/>
+        <category label="mcc"/>
+        <category label="r"/>
+        <category label="cohen's-kappa"/>
+        <category label="data-science"/>
+        <category label="confusion-matrix-in-ml"/>
+        <published>2022-05-02T07:34:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[デスクトップのスクリーンショット撮影は「Snipping Tool」アプリにお任せ！【Windows新標準アプリ徹底解説】 | 窓の杜]]></title>
@@ -2677,19 +2799,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-04-27T22:50:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[高校物理における近似式とその導出：テイラー展開 | 趣味の大学数学]]></title>
-        <id>https://math-fun.net/?p=24314</id>
-        <link href="https://math-fun.net/20220428/24314/"/>
-        <updated>2022-04-27T22:33:04.000Z</updated>
-        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 高校物理における近似式とその導出について紹介します。物理重要問題集に載っている、次の近似式を題材にしましょう。 三角関数 \(\theta\)が0に近いとき \(\sin ... 高校物理における近似式とその導出：テイラー展開 first appeared on 趣味の大学数学.]]></summary>
-        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 高校物理における近似式とその導出について紹介します。物理重要問題集に載っている、次の近似式を題材にしましょう。 三角関数 \(\theta\)が0に近いとき \(\sin ... 高校物理における近似式とその導出：テイラー展開 first appeared on 趣味の大学数学.]]></content>
-        <author>
-            <name>kimu3</name>
-        </author>
-        <category label="身近な数学"/>
-        <published>2022-04-27T22:33:04.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　4月28日　～「Visual Studio 2022」や「Google Chrome」など | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/library/1406174.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/library/1406174.html"/>
@@ -3447,8 +3556,8 @@ https://ai-scholar.tech/articles/gan/dclgan | AI技術最新情報メディア |
         <id>https://moneyforward.com/engineers_blog/?p=10105</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/26/asana-to-spreadsheet-2/"/>
         <updated>2022-04-26T00:30:52.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubo...]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubocop でカスタムルールを作る  ふんいきがわかるCSSレイアウトの知識  デザイナーが制作時に気にしていること  An engineering visualization tool at Money Forward  スクラムチームで実践するDiscordを活用したスウォーミング   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Jira...]]></summary>
+        <content type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Jira Cloud for Sheets, Google Apps Script, Google Data Portalを使って、日次で不具合消化状況を可視化してみた  iOSアプリ内課金の設計指針  2017年の抱負  MacにUbuntuを入れるとOSXより起動が速い  MoneyForward Meetupレポート「エンジニア×営業×CS」   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3983,8 +4092,8 @@ https://ai-scholar.tech/articles/gan/ganmf | AI技術最新情報メディア | 
         <id>https://moneyforward.com/engineers_blog/?p=10093</id>
         <link href="https://moneyforward.com/engineers_blog/2022/04/25/asana-to-spreadsheet-1/"/>
         <updated>2022-04-25T00:30:09.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Haml...]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Haml、Sassを使って効率よくコーディングする方法（基礎編）  Moneyforward APIで車ゲームを作る  ［iOS 12］Siri Shortcutsの最小実装 - Intent編  プロダクトにSwiftGenを導入してタイポ0の世界を作る  DroidKaigi 2020に登壇する予定でした & 登壇動画公開のお知らせ   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fast...]]></summary>
+        <content type="html"><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fastlane の snapshot で iOS 開発プロセス自動化  少しだけ主夫をやった話  AI推進部における読書会の紹介  ReactとReactNativeでFluxなTODOを実装してみた話  マネーフォワードのモバイルアプリエンジニアを支えるスマートデバイス推進グループ   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4110,28 +4219,5 @@ https://ai-scholar.tech/articles/gan/ganmf | AI技術最新情報メディア | 
         <category label="関数解析学"/>
         <category label="大学専門"/>
         <published>2022-04-24T10:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[三角関数と逆三角関数の微分 (教養の微積) | 大学数学の授業ノート]]></title>
-        <id>https://math-notes.info/?p=1597</id>
-        <link href="https://math-notes.info/2022/04/24/cal-7/"/>
-        <updated>2022-04-24T06:43:08.000Z</updated>
-        <summary type="html"><![CDATA[今回の授業ノートでは三角関数の微分について具体例を交えながら説明します。また後半では逆三角関数の微分についても触れます。 The post 三角関数と逆三角関数の微分 (教養の微積) first appeared on 大学数学の授業ノート.]]></summary>
-        <content type="html"><![CDATA[今回の授業ノートでは三角関数の微分について具体例を交えながら説明します。また後半では逆三角関数の微分についても触れます。 The post 三角関数と逆三角関数の微分 (教養の微積) first appeared on 大学数学の授業ノート.]]></content>
-        <author>
-            <name>math-notes</name>
-        </author>
-        <category label="微積"/>
-        <category label="教養の微積"/>
-        <published>2022-04-24T06:43:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[リルケの「ドゥイノの悲歌」と「開かれ」 | pooneilの脳科学論文コメント]]></title>
-        <id>http://pooneil.sakura.ne.jp/archives/permalink/001744.php</id>
-        <link href="http://pooneil.sakura.ne.jp/archives/permalink/001744.php"/>
-        <updated>2022-04-24T05:12:05.000Z</updated>
-        <summary type="html"><![CDATA[(20151115) なんとなく詩が読みたいと思って先週借りてあったリルケの「ド...]]></summary>
-        <content type="html"><![CDATA[(20151115) なんとなく詩が読みたいと思って先週借りてあったリルケの「ド...]]></content>
-        <published>2022-04-24T05:12:05.000Z</published>
     </entry>
 </feed>

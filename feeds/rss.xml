@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sun, 08 May 2022 03:49:24 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 May 2022 07:28:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,15 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[交流回路で電流電圧の位相がずれる理由：微分による説明 | 趣味の大学数学]]></title>
+            <link>https://math-fun.net/20220508/24544/</link>
+            <guid>https://math-fun.net/?p=24544</guid>
+            <pubDate>Sun, 08 May 2022 07:10:12 GMT</pubDate>
+            <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、交流回路で電流電圧の位相がずれる理由について、微分による説明をします。 交流電源を持つ回路を考えましょう。コイルやコンデンサーを含むと、そこでは電流と ... 交流回路で電流電圧の位相がずれる理由：微分による説明 first appeared on 趣味の大学数学.]]></description>
+            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、交流回路で電流電圧の位相がずれる理由について、微分による説明をします。 交流電源を持つ回路を考えましょう。コイルやコンデンサーを含むと、そこでは電流と ... 交流回路で電流電圧の位相がずれる理由：微分による説明 first appeared on 趣味の大学数学.]]></content:encoded>
+            <category>身近な数学</category>
+        </item>
         <item>
             <title><![CDATA[Beyond Message Passing, a Physics-Inspired Paradigm for Graph Neural Networks | The Gradient]]></title>
             <link>https://thegradient.pub/graph-neural-networks-beyond-message-passing-and-weisfeiler-lehman/</link>
@@ -154,6 +163,14 @@
             <pubDate>Sat, 07 May 2022 04:11:00 GMT</pubDate>
             <description><![CDATA[はじめに  GitHubにはコードレビューで使える便利機能がたくさんあったので、 今回はそれらを取りまとめてみました。 レビュアーとしてプルリクエストを見る際など参考になれば幸いです^_^  目次  1…]]></description>
             <content:encoded><![CDATA[はじめに  GitHubにはコードレビューで使える便利機能がたくさんあったので、 今回はそれらを取りまとめてみました。 レビュアーとしてプルリクエストを見る際など参考になれば幸いです^_^  目次  1…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[JavaScriptのコードには、こんな書き方もある | Zennのトレンド]]></title>
+            <link>https://zenn.dev/chida/articles/ff3e073bce9306</link>
+            <guid>https://zenn.dev/chida/articles/ff3e073bce9306</guid>
+            <pubDate>Sat, 07 May 2022 03:59:47 GMT</pubDate>
+            <description><![CDATA[本記事はコードの書き方について「bad」「good」で表していますが、書き方そのものを推奨するものではなく、このような書き方も出来るという紹介に留めておきます。コメント欄まで一緒にみていただくと学びになると思われます。   1.破壊的メソッドを避ける 破壊的メソッドとは、元の配列の要素を変えるメソッドです。以下の例ではconstで宣言した変数numbersが、pushメソッドにより更新されています...]]></description>
+            <content:encoded><![CDATA[本記事はコードの書き方について「bad」「good」で表していますが、書き方そのものを推奨するものではなく、このような書き方も出来るという紹介に留めておきます。コメント欄まで一緒にみていただくと学びになると思われます。   1.破壊的メソッドを避ける 破壊的メソッドとは、元の配列の要素を変えるメソッドです。以下の例ではconstで宣言した変数numbersが、pushメソッドにより更新されています。 bad const numbers = [1, 2, 3] numbers.push(4) console.log(numbers) // [1, 2, 3, 4] この場合、元の配列の要素...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Cloud RunをGithub ActionsとTerraformで管理する | Zennのトレンド]]></title>
@@ -360,6 +377,14 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <category>Ruby / Rails関連</category>
         </item>
         <item>
+            <title><![CDATA[ラズパイ上のPython+FlaskローカルWebサーバにネットからngrok経由でアクセス | Zennのトレンド]]></title>
+            <link>https://zenn.dev/karaage0703/articles/0267c64d5d857d</link>
+            <guid>https://zenn.dev/karaage0703/articles/0267c64d5d857d</guid>
+            <pubDate>Fri, 06 May 2022 08:28:19 GMT</pubDate>
+            <description><![CDATA[ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的...]]></description>
+            <content:encoded><![CDATA[ラズパイ上で立てたローカルサーバに手軽にインターネットからアクセスしたい ラズパイ（Raspberry Pi）上に立てたサーバに一時的に外からアクセスできるようにする方法です。 昔はルータのポートを開けたりしていたのですが、ネットワーク環境によっては繋げなかったり、セキュリティ的にも不安だったりするので、何か良い方法ないかなと思っていたのですが、ngrokという便利なものがありました。 イメージ的には以下のようにngrokサーバがローカルサーバとネットをいい感じに中継してくれる感じのようです（あんまりネットワーク詳しくないので間違ってたらすみません）。 ブラウザ -> Inte...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[パソコンとスマホに表示されるインターネット広告を非表示にしてくれるソフト「AdLock マルチデバイス」 | 新着ソフトレビュー - Vector]]></title>
             <link>https://www.vector.co.jp/magazine/softnews/200729/n2007291.html?ref=rss</link>
             <guid>https://www.vector.co.jp/magazine/softnews/200729/n2007291.html?ref=rss</guid>
@@ -417,6 +442,21 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[フロントエンド開発はフロントエンドで完結すべき過激派としてのGWの活動で、ブラウザでローカルファイルを読み書きするターミナルのプロトを作ってみました。 https://web-shell.netlify.app/ ローカルファイルをマウントして操作してる風景です。  ソースコード mizchi/web-shell   仕組み  FileSystemAccess API を使って、FS API を実装 xterm.js 上で FS を叩く Unix 風のコマンドをいくつか実装 monaco-editor で、open <file> した内容を渡して、Cmd-S で保存した内容を...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Meta's New Model OPT is an Open-Source GPT-3 | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss</link>
+            <guid>https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss</guid>
+            <pubDate>Fri, 06 May 2022 05:10:33 GMT</pubDate>
+            <category>artificial-intelligence</category>
+            <category>meta</category>
+            <category>facebook</category>
+            <category>machine-learning</category>
+            <category>data-science</category>
+            <category>natural-language-processing</category>
+            <category>openai</category>
+            <category>hackernoon-top-story</category>
+            <category>web-monetization</category>
+        </item>
+        <item>
             <title><![CDATA[「Thunderbird 91.9.0」が公開 ～互換性維持のためにOpenPGP署名でSHA-1を一部許可／8件の脆弱性修正も | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/news/1407209.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/news/1407209.html</guid>
@@ -455,14 +495,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <pubDate>Fri, 06 May 2022 03:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。さたかです。先日、部署内で雑談する会を開催したので、実施した背景や実際したことについて書いていきます。 コミュニケーションについての現状 雑談が減ったことによる影響 部署内雑談会の実施 任意参加にしたこと 業務時間中に実施としたこと 振り返って 今後について コミュニケーションについての現状 当社では新型コロナウイルス感染症(COVID‑19)の影響もあり、大半の社員が2020年3月頃...]]></description>
             <content:encoded><![CDATA[こんにちは。さたかです。先日、部署内で雑談する会を開催したので、実施した背景や実際したことについて書いていきます。 コミュニケーションについての現状 雑談が減ったことによる影響 部署内雑談会の実施 任意参加にしたこと 業務時間中に実施としたこと 振り返って 今後について コミュニケーションについての現状 当社では新型コロナウイルス感染症(COVID‑19)の影響もあり、大半の社員が2020年3月頃から在宅勤務、所謂リモートワークを実施しております。 リモートワーク環境になることで社員間のコミュニケーションの取り方も、対面のリアルタイムコミュニケーションから非対面の非同期コミュニケーションへと変…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[生年月日からの経過日数を○年○ヶ月○日と計算するロジック | Zennのトレンド]]></title>
-            <link>https://zenn.dev/8yabusa/articles/1ec32456888a95</link>
-            <guid>https://zenn.dev/8yabusa/articles/1ec32456888a95</guid>
-            <pubDate>Fri, 06 May 2022 02:12:24 GMT</pubDate>
-            <description><![CDATA[まとめ  生年月日からの経過日数を○年○か月○日と計算する仕様が複雑だった。 年齢の法律や年齢計算サービスを参考にして仕様を考えた。 仕様を満たすdart packageが見当たらなかったので自前で実装した。    やりたいこと 生年月日からの経過日数を○年○か月○日と表示したい。  左上に生年月日(2019-11-01)からの経過日数を表示   実現手順    要件を明確にする   生年月日が2...]]></description>
-            <content:encoded><![CDATA[まとめ  生年月日からの経過日数を○年○か月○日と計算する仕様が複雑だった。 年齢の法律や年齢計算サービスを参考にして仕様を考えた。 仕様を満たすdart packageが見当たらなかったので自前で実装した。    やりたいこと 生年月日からの経過日数を○年○か月○日と表示したい。  左上に生年月日(2019-11-01)からの経過日数を表示   実現手順    要件を明確にする   生年月日が2020-01-31の1か月後はいつか？ うるう日生まれの1歳の誕生日はいつか？     実装する      用語 要件を説明するために以下の用語を使うことにする。  経過日数を求める日を測定...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Neural Deep Equilibrium Solvers (ICLR 2022) | Deep Learning JP]]></title>
@@ -633,6 +665,20 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[この記事について  WSL 上にインストールした Linux で systemctl コマンドが使用できない問題を解決します。 この記事では Ubuntu 20.04 LTS を使用して説明していま…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[DecentraMind for Web 3.0 or Against It? — Interview with Mikhail Danieli | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss</link>
+            <guid>https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss</guid>
+            <pubDate>Thu, 05 May 2022 15:42:23 GMT</pubDate>
+            <category>decentralized-internet</category>
+            <category>quicknode</category>
+            <category>computing</category>
+            <category>cloud</category>
+            <category>technology</category>
+            <category>machine-learning</category>
+            <category>data-science</category>
+            <category>good-company</category>
+        </item>
+        <item>
             <title><![CDATA[CloudRunからCloudSQL / Firestore / MemoryStore(Redis) / GCSのキャッシュ性能ベンチマーク | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/ku_suke/items/f19814a0f9aae98b43c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/ku_suke/items/f19814a0f9aae98b43c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -797,14 +843,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[🪝 What's this? 一言で書くなら、「React で複雑なソートや絞り込みを簡単に記述できるカスタムフック」 です。 少し詳しく書くと、以下のような機能があります。  任意の絞り込み条件を容易に AND, OR で繋ぐことができる 絞り込み・ソート条件を複数重ねることができる これらを型安全に行う  以下のようなユースケースを想定しています。  フロント側でインタラクティブに配列の絞り込みやソートを行いたい 条件 A と B については AND 条件で絞り込みたいが、 条件 C と D については OR 条件で絞り込みたい  特に二つ目のような複雑な絞り込み処理を簡単に実装...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Firestoreの特徴とアーキテクチャを公開するっぴ | Zennのトレンド]]></title>
-            <link>https://zenn.dev/sarukun99/articles/5f81cc35e6baaf</link>
-            <guid>https://zenn.dev/sarukun99/articles/5f81cc35e6baaf</guid>
-            <pubDate>Thu, 05 May 2022 02:29:21 GMT</pubDate>
-            <description><![CDATA[TL;DR リレーショナルデータベースに比べて使いずらいと言われるfirestoreのアーキテクチャと勘所を公開するっぴ。   ドキュメントDBの克服の仕方 firestoreの特徴の1つ目がドキュメントデータベースである点です。リレーショナルデータベースの場合、2次元の表で表現されるため、同じフィールドのデータ型は必ず同一になります。    フィールド データ型     name String ...]]></description>
-            <content:encoded><![CDATA[TL;DR リレーショナルデータベースに比べて使いずらいと言われるfirestoreのアーキテクチャと勘所を公開するっぴ。   ドキュメントDBの克服の仕方 firestoreの特徴の1つ目がドキュメントデータベースである点です。リレーショナルデータベースの場合、2次元の表で表現されるため、同じフィールドのデータ型は必ず同一になります。    フィールド データ型     name String   age int    ドキュメントデータベースであるfirestoreでは型の混在が可能です。下の例では1つめのageがint型なのに対して、2つめのageは文字列となっています。SDK...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Power Automate で日本時刻を使う方法 #Power Platform リレー | cloud.config Tech Blog]]></title>
             <link>https://tech-blog.cloud-config.jp/2022-05-05-power-automate-daytime/</link>
             <guid>https://tech-blog.cloud-config.jp/?p=115427</guid>
@@ -872,6 +910,20 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <pubDate>Wed, 04 May 2022 15:33:54 GMT</pubDate>
             <description><![CDATA[Reducing false positives for rare events, adapting Echo hardware to ultrasound sensing, and enabling concurrent ultrasound sensing and music playback are just a few challenges Amazon researchers addre...]]></description>
             <content:encoded><![CDATA[Reducing false positives for rare events, adapting Echo hardware to ultrasound sensing, and enabling concurrent ultrasound sensing and music playback are just a few challenges Amazon researchers addressed.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AI Application Development Guide for Business Owners | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss</link>
+            <guid>https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss</guid>
+            <pubDate>Wed, 04 May 2022 15:16:37 GMT</pubDate>
+            <category>ai</category>
+            <category>machine-learning</category>
+            <category>ai-app-development</category>
+            <category>datasource</category>
+            <category>poc-for-software-development</category>
+            <category>good-company</category>
+            <category>technology</category>
+            <category>ai-development-for-business</category>
         </item>
         <item>
             <title><![CDATA[DeepMind’s New AI Finally Enters The Real World! 🤖 | Two Minute Papers]]></title>
@@ -978,6 +1030,20 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <category>小ワザ</category>
         </item>
         <item>
+            <title><![CDATA[The 5 Steps For Companies To Annihilate Their Churn Goals | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss</link>
+            <guid>https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss</guid>
+            <pubDate>Tue, 03 May 2022 12:04:28 GMT</pubDate>
+            <category>retention</category>
+            <category>sales</category>
+            <category>revenue</category>
+            <category>startup</category>
+            <category>technology</category>
+            <category>artificial-intelligence</category>
+            <category>machine-learning</category>
+            <category>how-to-decrease-churn-rate</category>
+        </item>
+        <item>
             <title><![CDATA[Software Developer vs Software Engineer | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/2022/05/software-developer-software-engineer.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=software-developer-vs-software-engineer</link>
             <guid>https://www.kdnuggets.com/?p=141314</guid>
@@ -1069,6 +1135,20 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[Former Amazon intern George Boateng is using machine learning and mobile tech to bridge Africa’s digital divide.]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Developing an AI mobile App: Our Experience, Mistakes, and Achievements | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss</link>
+            <guid>https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss</guid>
+            <pubDate>Mon, 02 May 2022 13:37:06 GMT</pubDate>
+            <category>ai</category>
+            <category>ai-trends</category>
+            <category>ai-technology</category>
+            <category>machine-learning-ai</category>
+            <category>countthis</category>
+            <category>mobile-app-development</category>
+            <category>ios-app-development</category>
+            <category>machine-learning</category>
+        </item>
+        <item>
             <title><![CDATA[Top 10 Machine Learning Demos: Hugging Face Spaces Edition | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/2022/05/top-10-machine-learning-demos-hugging-face-spaces-edition.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-10-machine-learning-demos-hugging-face-spaces-edition</link>
             <guid>https://www.kdnuggets.com/?p=141273</guid>
@@ -1120,6 +1200,20 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[こんにちは。サイオステクノロジーの木村です。 今回は docker-selenium を使用してE2Eテスト環境を構築する方法について簡単にご紹介します。 Webブラウザを操作するテストスクリプトの作成には Python [...] docker-seleniumでE2Eテスト環境構築 【Python】 first appeared on SIOS Tech. Lab.]]></content:encoded>
             <category>OSS</category>
             <category>Docker</category>
+        </item>
+        <item>
+            <title><![CDATA[Handling Imbalanced Class Issues with Matthew’s Correlation Coefficient | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss</link>
+            <guid>https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss</guid>
+            <pubDate>Mon, 02 May 2022 07:34:34 GMT</pubDate>
+            <category>machine-learning</category>
+            <category>imbalanced-class</category>
+            <category>model-evaluation</category>
+            <category>mcc</category>
+            <category>r</category>
+            <category>cohen's-kappa</category>
+            <category>data-science</category>
+            <category>confusion-matrix-in-ml</category>
         </item>
         <item>
             <title><![CDATA[デスクトップのスクリーンショット撮影は「Snipping Tool」アプリにお任せ！【Windows新標準アプリ徹底解説】 | 窓の杜]]></title>
@@ -2110,15 +2204,6 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
             <content:encoded><![CDATA[シンプルになりすぎたWindows 11の右クリックメニューに好きなコマンドを追加できるカスタマイズツール「Custom Context Menu」の最新版v3.0.0.0が、4月26日に公開された。最新版では、追加したコマンドの並び順を指定する機能が追加されている。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[高校物理における近似式とその導出：テイラー展開 | 趣味の大学数学]]></title>
-            <link>https://math-fun.net/20220428/24314/</link>
-            <guid>https://math-fun.net/?p=24314</guid>
-            <pubDate>Wed, 27 Apr 2022 22:33:04 GMT</pubDate>
-            <description><![CDATA[どうも、木村（@kimu3_slime）です。 高校物理における近似式とその導出について紹介します。物理重要問題集に載っている、次の近似式を題材にしましょう。 三角関数 \(\theta\)が0に近いとき \(\sin ... 高校物理における近似式とその導出：テイラー展開 first appeared on 趣味の大学数学.]]></description>
-            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 高校物理における近似式とその導出について紹介します。物理重要問題集に載っている、次の近似式を題材にしましょう。 三角関数 \(\theta\)が0に近いとき \(\sin ... 高校物理における近似式とその導出：テイラー展開 first appeared on 趣味の大学数学.]]></content:encoded>
-            <category>身近な数学</category>
-        </item>
-        <item>
             <title><![CDATA[【アップデート情報】窓の杜収録ソフト　4月28日　～「Visual Studio 2022」や「Google Chrome」など | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/update/library/1406174.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/update/library/1406174.html</guid>
@@ -2718,8 +2803,8 @@ https://ai-scholar.tech/articles/gan/dclgan | AI技術最新情報メディア |
             <link>https://moneyforward.com/engineers_blog/2022/04/26/asana-to-spreadsheet-2/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10105</guid>
             <pubDate>Tue, 26 Apr 2022 00:30:52 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubo...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubocop でカスタムルールを作る  ふんいきがわかるCSSレイアウトの知識  デザイナーが制作時に気にしていること  An engineering visualization tool at Money Forward  スクラムチームで実践するDiscordを活用したスウォーミング   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Jira...]]></description>
+            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Jira Cloud for Sheets, Google Apps Script, Google Data Portalを使って、日次で不具合消化状況を可視化してみた  iOSアプリ内課金の設計指針  2017年の抱負  MacにUbuntuを入れるとOSXより起動が速い  MoneyForward Meetupレポート「エンジニア×営業×CS」   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3144,8 +3229,8 @@ https://ai-scholar.tech/articles/gan/ganmf | AI技術最新情報メディア | 
             <link>https://moneyforward.com/engineers_blog/2022/04/25/asana-to-spreadsheet-1/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10093</guid>
             <pubDate>Mon, 25 Apr 2022 00:30:09 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Haml...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Haml、Sassを使って効率よくコーディングする方法（基礎編）  Moneyforward APIで車ゲームを作る  ［iOS 12］Siri Shortcutsの最小実装 - Intent編  プロダクトにSwiftGenを導入してタイポ0の世界を作る  DroidKaigi 2020に登壇する予定でした & 登壇動画公開のお知らせ   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fast...]]></description>
+            <content:encoded><![CDATA[みなさんこんにちは！HRソリューション本部でQAエンジニアをしている筑後です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fastlane の snapshot で iOS 開発プロセス自動化  少しだけ主夫をやった話  AI推進部における読書会の紹介  ReactとReactNativeでFluxなTODOを実装してみた話  マネーフォワードのモバイルアプリエンジニアを支えるスマートデバイス推進グループ   Copyright © Engineers' Blog [AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3246,24 +3331,6 @@ https://ai-scholar.tech/articles/gan/ganmf | AI技術最新情報メディア | 
             <content:encoded><![CDATA[ヘルダーの不等式とは，関数解析学における基本的な不等式であり，コーシーシュワルツの不等式の一般化にもなっています。 ヘルダーの不等式について，その主張と証明を分かりやすく紹介します。 ヘルダーの不等式 これはコーシーシュ […]]]></content:encoded>
             <category>関数解析学</category>
             <category>大学専門</category>
-        </item>
-        <item>
-            <title><![CDATA[三角関数と逆三角関数の微分 (教養の微積) | 大学数学の授業ノート]]></title>
-            <link>https://math-notes.info/2022/04/24/cal-7/</link>
-            <guid>https://math-notes.info/?p=1597</guid>
-            <pubDate>Sun, 24 Apr 2022 06:43:08 GMT</pubDate>
-            <description><![CDATA[今回の授業ノートでは三角関数の微分について具体例を交えながら説明します。また後半では逆三角関数の微分についても触れます。 The post 三角関数と逆三角関数の微分 (教養の微積) first appeared on 大学数学の授業ノート.]]></description>
-            <content:encoded><![CDATA[今回の授業ノートでは三角関数の微分について具体例を交えながら説明します。また後半では逆三角関数の微分についても触れます。 The post 三角関数と逆三角関数の微分 (教養の微積) first appeared on 大学数学の授業ノート.]]></content:encoded>
-            <category>微積</category>
-            <category>教養の微積</category>
-        </item>
-        <item>
-            <title><![CDATA[リルケの「ドゥイノの悲歌」と「開かれ」 | pooneilの脳科学論文コメント]]></title>
-            <link>http://pooneil.sakura.ne.jp/archives/permalink/001744.php</link>
-            <guid>http://pooneil.sakura.ne.jp/archives/permalink/001744.php</guid>
-            <pubDate>Sun, 24 Apr 2022 05:12:05 GMT</pubDate>
-            <description><![CDATA[(20151115) なんとなく詩が読みたいと思って先週借りてあったリルケの「ド...]]></description>
-            <content:encoded><![CDATA[(20151115) なんとなく詩が読みたいと思って先週借りてあったリルケの「ド...]]></content:encoded>
         </item>
     </channel>
 </rss>
