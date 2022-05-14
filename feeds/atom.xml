@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-05-13T23:33:32.725Z</updated>
+    <updated>2022-05-14T04:49:06.459Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -37,6 +37,18 @@
         <category label="KDnuggets Originals"/>
         <category label="Machine Learning"/>
         <published>2022-05-13T16:00:18.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Temporal Dead Zone と採用されなかった他の候補について | Zennのトレンド]]></title>
+        <id>https://zenn.dev/qnighy/articles/f3d2d7adc75948</id>
+        <link href="https://zenn.dev/qnighy/articles/f3d2d7adc75948"/>
+        <updated>2022-05-13T14:49:45.000Z</updated>
+        <summary type="html"><![CDATA[Temporal Dead Zone とは ECMAScript 2015で採用された let/const のスコーピングの仕様をTemporal Dead Zoneと呼びます。 const x = "outer"; {  const f = () => x;  // console.log(f()); // => Error  const x = "inner";  console.log(f(...]]></summary>
+        <content type="html"><![CDATA[Temporal Dead Zone とは ECMAScript 2015で採用された let/const のスコーピングの仕様をTemporal Dead Zoneと呼びます。 const x = "outer"; {  const f = () => x;  // console.log(f()); // => Error  const x = "inner";  console.log(f()); // => "inner" }   4つの方式 Temporal Dead Zone という名前は、ブロックスコープ変数の挙動を決める際の4つの候補の名前に...]]></content>
+        <author>
+            <name>Masaki Hara</name>
+        </author>
+        <published>2022-05-13T14:49:45.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[DeepMind’s New AI Learns From Humans! 🤖 | Two Minute Papers]]></title>
@@ -150,6 +162,18 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-13T08:56:14.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ARCore Geospatial APIをUnityで使ってみる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/tkada/articles/04b44474149130</id>
+        <link href="https://zenn.dev/tkada/articles/04b44474149130"/>
+        <updated>2022-05-13T08:46:32.000Z</updated>
+        <summary type="html"><![CDATA[概要  ARCore Geospatial APIとはGoogleの発表したVPS（Visual Positioning Service/System）です ARCoreですが、Android/iOS両方で利用することができます 今回はUnityでのサンプルの動かし方を紹介します  https://developers.google.com/ar/develop/geospatial?hl=ja ...]]></summary>
+        <content type="html"><![CDATA[概要  ARCore Geospatial APIとはGoogleの発表したVPS（Visual Positioning Service/System）です ARCoreですが、Android/iOS両方で利用することができます 今回はUnityでのサンプルの動かし方を紹介します  https://developers.google.com/ar/develop/geospatial?hl=ja https://www.youtube.com/watch?v=PM5rl4z9mto   環境 Unity 2021.3.0f1 AR Fundation 4.2.3 ARCore XR ...]]></content>
+        <author>
+            <name>Takeshi Kada</name>
+        </author>
+        <published>2022-05-13T08:46:32.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[IBMのコーポレート書体ファミリー「IBM Plex 6.0.1」が公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/digest/1409066.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/digest/1409066.html"/>
@@ -241,6 +265,18 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-13T06:45:50.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Firebaseを使い倒して、チャット部屋単位でプレゼンスを構築する(マルチタブ対応) | Zennのトレンド]]></title>
+        <id>https://zenn.dev/h_sakano/articles/73c64556f6f1e5</id>
+        <link href="https://zenn.dev/h_sakano/articles/73c64556f6f1e5"/>
+        <updated>2022-05-13T06:44:57.000Z</updated>
+        <summary type="html"><![CDATA[プレゼンスって何？ ユーザーがオンラインでアクティブになっているかどうか、その状態のことです。 ちなみに、個人開発を行って先日無事にリリースした、集中したいときに集中できる SNS「MOKMO」で必要となった機能です。 このサービスの詳細と工夫した点は以下の記事を是非ご覧ください！ https://zenn.dev/h_sakano/articles/eaec32b780685e   今回出来上が...]]></summary>
+        <content type="html"><![CDATA[プレゼンスって何？ ユーザーがオンラインでアクティブになっているかどうか、その状態のことです。 ちなみに、個人開発を行って先日無事にリリースした、集中したいときに集中できる SNS「MOKMO」で必要となった機能です。 このサービスの詳細と工夫した点は以下の記事を是非ご覧ください！ https://zenn.dev/h_sakano/articles/eaec32b780685e   今回出来上がったもの 以下のように、作業部屋にアクセスした際に、リアルタイムにユーザー情報を表示する機能を作りました。  ユーザーが作業部屋にアクセスすると、自動的に参加者リストに追加されるようになって...]]></content>
+        <author>
+            <name>Hiroki Sakano</name>
+        </author>
+        <published>2022-05-13T06:44:57.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【世界初開催！】Config Watch Party参加してきた！【中編】 | エキサイト TechBlog.]]></title>
         <id>https://tech.excite.co.jp/entry/2022/05/13/152818</id>
         <link href="https://tech.excite.co.jp/entry/2022/05/13/152818"/>
@@ -261,6 +297,18 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         </author>
         <category label="未分類"/>
         <published>2022-05-13T06:26:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Atomic Designに懐疑的なあなたへ】改めて考えたい React / Next.js のデザインパターン | Zennのトレンド]]></title>
+        <id>https://zenn.dev/tmgauss/articles/beca85dd7fdcae</id>
+        <link href="https://zenn.dev/tmgauss/articles/beca85dd7fdcae"/>
+        <updated>2022-05-13T06:10:17.000Z</updated>
+        <summary type="html"><![CDATA[フロントエンド開発は一般的に複雑性との戦いです。放ったらかしにしておくとますます複雑になり、変更するのが難しくなります。これまでにも、このような複雑さをどうにかして制御しようとして、Atomic Designをはじめとした様々な設計手法（デザインパターン）が考えられてきました。 しかし、React / Next.js を使ってチーム開発を行う際に、現状のデザインパターンでの運用では「どうもうまくい...]]></summary>
+        <content type="html"><![CDATA[フロントエンド開発は一般的に複雑性との戦いです。放ったらかしにしておくとますます複雑になり、変更するのが難しくなります。これまでにも、このような複雑さをどうにかして制御しようとして、Atomic Designをはじめとした様々な設計手法（デザインパターン）が考えられてきました。 しかし、React / Next.js を使ってチーム開発を行う際に、現状のデザインパターンでの運用では「どうもうまくいかないな」と思う場面に多々遭遇しました。そのような経験を踏まえて、「コンポーネントをどのように設計するか」「どのようにディレクトリを分けるか」を徹底的に考え、新しいデザインパターン「Tree D...]]></content>
+        <author>
+            <name>tmgauss</name>
+        </author>
+        <published>2022-05-13T06:10:17.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft アカウントなしでプレビュー版Windows 11 Proをセットアップする抜け穴が発見される／ぇ、そんなんでいけるの？って感じ【やじうまの杜】 | 窓の杜]]></title>
@@ -526,8 +574,8 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=10138</id>
         <link href="https://moneyforward.com/engineers_blog/2022/05/13/using-dogstatsd-in-local/"/>
         <updated>2022-05-13T01:00:28.000Z</updated>
-        <summary type="html"><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: tra...]]></summary>
-        <content type="html"><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: transformersのTokenizerで固定長化する  Auto Layoutで固有サイズを使いこなそう  家庭内 esa のすゝめ  UITestのスクリーンショットを一覧で見たい  MoneyForward Meetupレポート「エンジニア×営業×CS」   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Doc...]]></summary>
+        <content type="html"><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dockerを使って開発環境を構築する  社内勉強会カレンダーのご紹介  Swift2.0で作るAPI通信基盤  マネーフォワード社内PRに見られるRubyの書き方について – (6) 受け渡しのパターンマッチング 1  【速報】RubyKaigi 2014レポ：Write ruby code to change ruby code   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -848,18 +896,6 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-12T12:00:57.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Active Storage のアップロード先として Cloudflare R2 を使う方法 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/takeyuweb/articles/e4d47ff381b530</id>
-        <link href="https://zenn.dev/takeyuweb/articles/e4d47ff381b530"/>
-        <updated>2022-05-12T11:30:59.000Z</updated>
-        <summary type="html"><![CDATA[Amazon S3 互換のAPIを備えるオブジェクトストレージである Cloudflare R2 がオープンβなったことで注目を集めていますね。 https://blog.cloudflare.com/r2-open-beta/ https://blog.cloudflare.com/ja-jp/introducing-r2-object-storage-ja-jp/ https://zenn.d...]]></summary>
-        <content type="html"><![CDATA[Amazon S3 互換のAPIを備えるオブジェクトストレージである Cloudflare R2 がオープンβなったことで注目を集めていますね。 https://blog.cloudflare.com/r2-open-beta/ https://blog.cloudflare.com/ja-jp/introducing-r2-object-storage-ja-jp/ https://zenn.dev/voluntas/scraps/cdf40295c848c6 Amazon S3 互換ということは、Active StorageのS3サービスでファイルのアップロード先として R2 を使用...]]></content>
-        <author>
-            <name>takeyuweb</name>
-        </author>
-        <published>2022-05-12T11:30:59.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[iOSネイティブアプリのフッターメニューの振る舞いとアクセシビリティ | Zennのトレンド]]></title>
         <id>https://zenn.dev/yusukehirao/articles/9a5965308e9fb2</id>
         <link href="https://zenn.dev/yusukehirao/articles/9a5965308e9fb2"/>
@@ -1143,6 +1179,24 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-12T02:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[‘Maslow's Hierarchy of Customer Retention’: The Secret to Improving Churn | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/maslows-hierarchy-of-customer-retention-the-secret-to-improving-churn?source=rss</id>
+        <link href="https://hackernoon.com/maslows-hierarchy-of-customer-retention-the-secret-to-improving-churn?source=rss"/>
+        <updated>2022-05-12T01:07:14.000Z</updated>
+        <author>
+            <name>Colby Tunick</name>
+        </author>
+        <category label="technology"/>
+        <category label="software"/>
+        <category label="ai"/>
+        <category label="machine-learning"/>
+        <category label="customer-experience"/>
+        <category label="improving-churn"/>
+        <category label="customer-retention"/>
+        <category label="maslow's-hierarchy"/>
+        <published>2022-05-12T01:07:14.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Kubernetes Casual Talk 〜Ubie、CA、メルペイのカスタムコントローラー〜を開催しました！ #kubernetes_casualtalk | メルカリエンジニアリングブログ]]></title>
         <id>20257</id>
         <link href="https://engineering.mercari.com/blog/entry/20220511-fd3cd94b36/"/>
@@ -1198,8 +1252,8 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=10127</id>
         <link href="https://moneyforward.com/engineers_blog/2022/05/12/improve_application_logics/"/>
         <updated>2022-05-12T00:30:15.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードの機械学習(ML)インターン 〜夏編〜  [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  Railsで複雑なSQL処理をする時のTips：squeel編  Go BoldにGive it a try!  京都開発拠点チーム紹介 ~将来を見据えた性能改善チーム~   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 組織に...]]></summary>
+        <content type="html"><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 組織にSREの文化を作り上げていくEnabling SRE  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  Discord Botを使ってインターン生とのコミュニケーションを改善しました！  Github Actionsを利用して作業を自動化してみよう  Railsのプロファイラを導入して速度改善をしてみた   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -1403,18 +1457,6 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-11T16:29:12.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[巨大ファイルHEADからみるかTAILからみるか | Zennのトレンド]]></title>
-        <id>https://zenn.dev/kyoh86/articles/a445fbc799fa24</id>
-        <link href="https://zenn.dev/kyoh86/articles/a445fbc799fa24"/>
-        <updated>2022-05-11T15:51:34.000Z</updated>
-        <summary type="html"><![CDATA[何の話？  このツイートと関連するレスを見ていると、みんな head が好きなんですね。 僕が一般に「巨大なテキストファイルに向き合う」必要に駆られたとき、 入口としてのlessを超えるものはない と認識していることから、この記事を書くに至りました。 ただし本件に限ったはなしであれば、対象がCSVであること、集計という目的がすでに明確であること、 そもそも10,000行という要件が与えられているこ...]]></summary>
-        <content type="html"><![CDATA[何の話？  このツイートと関連するレスを見ていると、みんな head が好きなんですね。 僕が一般に「巨大なテキストファイルに向き合う」必要に駆られたとき、 入口としてのlessを超えるものはない と認識していることから、この記事を書くに至りました。 ただし本件に限ったはなしであれば、対象がCSVであること、集計という目的がすでに明確であること、 そもそも10,000行という要件が与えられていることなどから、正解は他にも多数あろうことはお断りしておきます。   で、lessって？ less 。ファイルや標準入力のテキストを読み込んで、画面にその一部を表示してくれるだけのプログラムです...]]></content>
-        <author>
-            <name>kyoh86</name>
-        </author>
-        <published>2022-05-11T15:51:34.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[世界一わかりみの深いAzure Bot Service 〜 基本編:オウム返しボットを作ろう 〜 | SIOS Tech. Lab]]></title>
         <id>https://tech-lab.sios.jp/?p=28734</id>
         <link href="https://tech-lab.sios.jp/archives/28734"/>
@@ -1483,18 +1525,6 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <published>2022-05-11T14:54:38.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DBの無い世界線でECアプリを作ってみた話。〜Stripe Search APIを活用〜 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/hyodoblog/articles/9c049a6383b640</id>
-        <link href="https://zenn.dev/hyodoblog/articles/9c049a6383b640"/>
-        <updated>2022-05-11T14:15:49.000Z</updated>
-        <summary type="html"><![CDATA[作ったもの 自社でDBを持たず、Stripeのダッシュボードで顧客管理、商品管理、注文管理ができる、LINEチャットコマースアプリを作りました。 ! 2泊3日間の開発合宿で開発したアプリなので細かい仕様に関してはご了承ください    友だち追加から商品詳細    単品商品購入手順    定期販売購入手順    定期販売のキャンセル手順    作った経緯 2022年4月に公開されたStripe Se...]]></summary>
-        <content type="html"><![CDATA[作ったもの 自社でDBを持たず、Stripeのダッシュボードで顧客管理、商品管理、注文管理ができる、LINEチャットコマースアプリを作りました。 ! 2泊3日間の開発合宿で開発したアプリなので細かい仕様に関してはご了承ください    友だち追加から商品詳細    単品商品購入手順    定期販売購入手順    定期販売のキャンセル手順    作った経緯 2022年4月に公開されたStripe Search APIにより、Stripeに保存している顧客、注文、商品、といった情報にクエリをかけることができるようになりました。 https://stripe.com/docs/search ...]]></content>
-        <author>
-            <name>ひょうどう</name>
-        </author>
-        <published>2022-05-11T14:15:49.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Create Efficient Combined Data Sources with Tableau | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=141587</id>
         <link href="https://www.kdnuggets.com/2022/05/create-efficient-combined-data-sources-tableau.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=create-efficient-combined-data-sources-with-tableau"/>
@@ -1507,6 +1537,24 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <category label="KDnuggets Originals"/>
         <category label="Data Science"/>
         <published>2022-05-11T14:00:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Technology Enables Visual Artists to Create and Monetize Digital Art | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/how-technology-enables-visual-artists-to-create-and-monetize-digital-art?source=rss</id>
+        <link href="https://hackernoon.com/how-technology-enables-visual-artists-to-create-and-monetize-digital-art?source=rss"/>
+        <updated>2022-05-11T13:59:20.000Z</updated>
+        <author>
+            <name> Danny Wesley</name>
+        </author>
+        <category label="digital-art"/>
+        <category label="nft"/>
+        <category label="ai"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="design"/>
+        <category label="art"/>
+        <category label="nft-art"/>
+        <published>2022-05-11T13:59:20.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【個人開発】ショートカットキー学習サービス作ってみた。(コード公開予定)【Next.js, Laravel, AWS】 | Qiita - 人気の記事]]></title>
@@ -1551,18 +1599,6 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
         <category label="KDnuggets Originals"/>
         <category label="Data Science"/>
         <published>2022-05-11T12:00:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[アクセシブルなモーダルダイアログの実装について考える | Zennのトレンド]]></title>
-        <id>https://zenn.dev/yend724/articles/20220511-pc51v32llyzu8kws</id>
-        <link href="https://zenn.dev/yend724/articles/20220511-pc51v32llyzu8kws"/>
-        <updated>2022-05-11T10:39:04.000Z</updated>
-        <summary type="html"><![CDATA[今更ですがAccessible Rich Internet Applications (WAI-ARIA) 1.2とWAI-ARIA Authoring Practices 1.2 - Dialog (Modal)をもとに、モーダルダイアログの実装について考えてみるという内容です。 また上記に加えMicromodal.jsをはじめとした、いくつかのライブラリも参考にしています。 ! 私はアクセシビ...]]></summary>
-        <content type="html"><![CDATA[今更ですがAccessible Rich Internet Applications (WAI-ARIA) 1.2とWAI-ARIA Authoring Practices 1.2 - Dialog (Modal)をもとに、モーダルダイアログの実装について考えてみるという内容です。 また上記に加えMicromodal.jsをはじめとした、いくつかのライブラリも参考にしています。 ! 私はアクセシビリティの専門家ではありません。 WAI-ARIAの仕様をもとに本記事を書いていますが、解釈の間違いや不正確な情報がありましたら、コメント欄からご教示いただけると幸いです。  ※以下本記事において...]]></content>
-        <author>
-            <name>Yend724</name>
-        </author>
-        <published>2022-05-11T10:39:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【世界初開催！】Config Watch Party参加してきた！【前編】 | エキサイト TechBlog.]]></title>
@@ -2334,6 +2370,24 @@ https://ai-scholar.tech/articles/medical/transformer-in-medical-imaging | AI技�
         <published>2022-05-10T04:36:05.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[27 Highest-Paying Cities in United States for Machine Learning Engineers | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/27-highest-paying-cities-in-united-states-for-machine-learning-engineers?source=rss</id>
+        <link href="https://hackernoon.com/27-highest-paying-cities-in-united-states-for-machine-learning-engineers?source=rss"/>
+        <updated>2022-05-10T04:25:33.000Z</updated>
+        <author>
+            <name>Rick Chen</name>
+        </author>
+        <category label="machine-learning"/>
+        <category label="software-engineering"/>
+        <category label="technology"/>
+        <category label="compensation"/>
+        <category label="human-resources"/>
+        <category label="talent-acquisition"/>
+        <category label="business-growth"/>
+        <category label="hackernoon-top-story"/>
+        <published>2022-05-10T04:25:33.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Echo Show 5を買ってみた | 仮想化通信]]></title>
         <id>https://tech.virtualtech.jp/entry/2022/05/10/122304</id>
         <link href="https://tech.virtualtech.jp/entry/2022/05/10/122304"/>
@@ -2548,6 +2602,24 @@ https://ai-scholar.tech/articles/gan/DIGAN | AI技術最新情報メディア | 
         <category label="mapbox"/>
         <category label="open-street-map"/>
         <published>2022-05-09T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You are Not Using the Right AI/ML API: Here’s Why | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/you-are-not-using-the-right-aiml-api-heres-why?source=rss</id>
+        <link href="https://hackernoon.com/you-are-not-using-the-right-aiml-api-heres-why?source=rss"/>
+        <updated>2022-05-09T21:52:02.000Z</updated>
+        <author>
+            <name>Eden AI</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="amazon-web-services"/>
+        <category label="microsoft-azure"/>
+        <category label="google-cloud"/>
+        <category label="using-the-right-ai-ml-api"/>
+        <category label="eden-ai"/>
+        <category label="good-company"/>
+        <published>2022-05-09T21:52:02.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top Posts May 2-8: 9 Free Harvard Courses to Learn Data Science in 2022 | KDnuggets]]></title>
@@ -2778,6 +2850,24 @@ https://ai-scholar.tech/articles/gan/DIGAN | AI技術最新情報メディア | 
         <published>2022-05-09T05:04:13.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[What to Expect from AI in 2022 | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/what-to-expect-from-ai-in-2022?source=rss</id>
+        <link href="https://hackernoon.com/what-to-expect-from-ai-in-2022?source=rss"/>
+        <updated>2022-05-09T05:02:29.000Z</updated>
+        <author>
+            <name>Giorgi Mikhelidze</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="data"/>
+        <category label="technological-modeling"/>
+        <category label="ai-technology"/>
+        <category label="future-of-ai"/>
+        <category label="integrating-digital-technology"/>
+        <category label="data-science"/>
+        <category label="machine-learning"/>
+        <published>2022-05-09T05:02:29.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RT by @ai_scholar: この記事では、時系列Transformerの主な開発をまとめます。"バニラ"Transformerについて短く導入した後、ネットワーク改造とアプリケーションからの分類を紹介します。
 https://ai-scholar.tech/articles/transformer/transformer_time_series_survey | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
         <id>https://nitter.net/ai_scholar/status/1523527342765019138#m</id>
@@ -2953,8 +3043,8 @@ https://ai-scholar.tech/articles/transformer/transformer_time_series_survey | AI
         <id>https://moneyforward.com/engineers_blog/?p=10115</id>
         <link href="https://moneyforward.com/engineers_blog/2022/05/09/mf_interview15/"/>
         <updated>2022-05-09T00:30:49.000Z</updated>
-        <summary type="html"><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [イン...]]></summary>
-        <content type="html"><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [インターンレポ] 脆弱性診断をやってみた  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  [著書紹介] Swift+Core DataによるiOSアプリプログラミング  941::blogさんがやってきた！   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is ...]]></summary>
+        <content type="html"><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is Cloud Engineering a Promising Career Field to Get Into?  ICカードリーダーのiOSアプリをSwiftUIで開発しました  最近のruby-core (2016年11月)  マネーフォワードCTOが考えていること（2020年6月）  Rails のモデルのコールバックを削除したら、とある処理を 33 倍速くできた話   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All ...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3013,6 +3103,24 @@ https://ai-scholar.tech/articles/transformer/transformer_time_series_survey | AI
         <link href="https://www.youtube.com/watch?v=K9Wl7suIgEE"/>
         <updated>2022-05-08T22:00:05.000Z</updated>
         <published>2022-05-08T22:00:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Conversation with a Former NASA Machine Learning Engineer | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/in-conversation-with-a-former-nasa-machine-learning-engineer?source=rss</id>
+        <link href="https://hackernoon.com/in-conversation-with-a-former-nasa-machine-learning-engineer?source=rss"/>
+        <updated>2022-05-08T15:19:38.000Z</updated>
+        <author>
+            <name>David Choi</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="ai"/>
+        <category label="deep-learning"/>
+        <category label="interviews"/>
+        <category label="interview"/>
+        <category label="tech-interviews"/>
+        <category label="nasa"/>
+        <published>2022-05-08T15:19:38.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Future Tech Night #21 Google Cloud：JSON関数と共に歩む、BigQueryを使った超汎化型データ活用基盤 | フューチャー技術ブログ]]></title>
@@ -3218,6 +3326,43 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-06T05:50:32.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[A Product Manager's 600-Word Guide to Machine Learning | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/a-product-managers-600-word-guide-to-machine-learning?source=rss</id>
+        <link href="https://hackernoon.com/a-product-managers-600-word-guide-to-machine-learning?source=rss"/>
+        <updated>2022-05-06T05:37:44.000Z</updated>
+        <author>
+            <name>Amal Joby</name>
+        </author>
+        <category label="machine-learning"/>
+        <category label="artificial-intelligence"/>
+        <category label="product-management"/>
+        <category label="product-manager"/>
+        <category label="what-is-ai-vs-ml-explained"/>
+        <category label="ml"/>
+        <category label="ai"/>
+        <category label="data-science"/>
+        <published>2022-05-06T05:37:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta's New Model OPT is an Open-Source GPT-3 | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss</id>
+        <link href="https://hackernoon.com/metas-new-model-opt-is-an-open-source-gpt-3?source=rss"/>
+        <updated>2022-05-06T05:10:33.000Z</updated>
+        <author>
+            <name>Louis Bouchard</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="meta"/>
+        <category label="facebook"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="natural-language-processing"/>
+        <category label="openai"/>
+        <category label="hackernoon-top-story"/>
+        <category label="web-monetization"/>
+        <published>2022-05-06T05:10:33.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[受託開発の世界からユニファ（事業会社）に転職した感想 | ユニファ開発者ブログ]]></title>
         <id>https://tech.unifa-e.com/entry/2022/05/06/122806?utm_source=feed</id>
         <link href="https://tech.unifa-e.com/entry/2022/05/06/122806?utm_source=feed"/>
@@ -3353,6 +3498,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <category label="KDnuggets Originals"/>
         <category label="Data Science"/>
         <published>2022-05-05T16:00:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DecentraMind for Web 3.0 or Against It? — Interview with Mikhail Danieli | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss</id>
+        <link href="https://hackernoon.com/decentramind-for-web-30-or-against-it-interview-with-mikhail-danieli?source=rss"/>
+        <updated>2022-05-05T15:42:23.000Z</updated>
+        <author>
+            <name>ExtraChain</name>
+        </author>
+        <category label="decentralized-internet"/>
+        <category label="quicknode"/>
+        <category label="computing"/>
+        <category label="cloud"/>
+        <category label="technology"/>
+        <category label="machine-learning"/>
+        <category label="data-science"/>
+        <category label="good-company"/>
+        <published>2022-05-05T15:42:23.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[2022大学院入試京都大学 数学・数理解析専攻専門科目 | あーるえぬ｜数学のあれこれ]]></title>
@@ -3564,6 +3727,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-04T15:33:54.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[AI Application Development Guide for Business Owners | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss</id>
+        <link href="https://hackernoon.com/ai-application-development-guide-for-business-owners?source=rss"/>
+        <updated>2022-05-04T15:16:37.000Z</updated>
+        <author>
+            <name>MobiDev</name>
+        </author>
+        <category label="ai"/>
+        <category label="machine-learning"/>
+        <category label="ai-app-development"/>
+        <category label="datasource"/>
+        <category label="poc-for-software-development"/>
+        <category label="good-company"/>
+        <category label="technology"/>
+        <category label="ai-development-for-business"/>
+        <published>2022-05-04T15:16:37.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DeepMind’s New AI Finally Enters The Real World! 🤖 | Two Minute Papers]]></title>
         <id>https://www.youtube.com/watch?v=zxyZSxnTrZs</id>
         <link href="https://www.youtube.com/watch?v=zxyZSxnTrZs"/>
@@ -3703,6 +3884,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-03T12:17:09.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The 5 Steps For Companies To Annihilate Their Churn Goals | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss</id>
+        <link href="https://hackernoon.com/the-5-steps-for-companies-to-annihilate-their-churn-goals?source=rss"/>
+        <updated>2022-05-03T12:04:28.000Z</updated>
+        <author>
+            <name>Colby Tunick</name>
+        </author>
+        <category label="retention"/>
+        <category label="sales"/>
+        <category label="revenue"/>
+        <category label="startup"/>
+        <category label="technology"/>
+        <category label="artificial-intelligence"/>
+        <category label="machine-learning"/>
+        <category label="how-to-decrease-churn-rate"/>
+        <published>2022-05-03T12:04:28.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Software Developer vs Software Engineer | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=141314</id>
         <link href="https://www.kdnuggets.com/2022/05/software-developer-software-engineer.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=software-developer-vs-software-engineer"/>
@@ -3807,6 +4006,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <published>2022-05-02T13:52:01.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Developing an AI mobile App: Our Experience, Mistakes, and Achievements | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss</id>
+        <link href="https://hackernoon.com/developing-an-ai-mobile-app-for-specific-spheres-our-experience-mistakes-and-achievements?source=rss"/>
+        <updated>2022-05-02T13:37:06.000Z</updated>
+        <author>
+            <name>CountThis</name>
+        </author>
+        <category label="ai"/>
+        <category label="ai-trends"/>
+        <category label="ai-technology"/>
+        <category label="machine-learning-ai"/>
+        <category label="countthis"/>
+        <category label="mobile-app-development"/>
+        <category label="ios-app-development"/>
+        <category label="machine-learning"/>
+        <published>2022-05-02T13:37:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Top 10 Machine Learning Demos: Hugging Face Spaces Edition | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=141273</id>
         <link href="https://www.kdnuggets.com/2022/05/top-10-machine-learning-demos-hugging-face-spaces-edition.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-10-machine-learning-demos-hugging-face-spaces-edition"/>
@@ -3866,6 +4083,24 @@ https://ai-scholar.tech/articles/medical/Global-Local-Transformer | AI技術最�
         <category label="OSS"/>
         <category label="Docker"/>
         <published>2022-05-02T08:27:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Handling Imbalanced Class Issues with Matthew’s Correlation Coefficient | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss</id>
+        <link href="https://hackernoon.com/handling-imbalanced-class-issues-with-matthews-correlation-coefficient?source=rss"/>
+        <updated>2022-05-02T07:34:34.000Z</updated>
+        <author>
+            <name>Stylianos Kampakis</name>
+        </author>
+        <category label="machine-learning"/>
+        <category label="imbalanced-class"/>
+        <category label="model-evaluation"/>
+        <category label="mcc"/>
+        <category label="r"/>
+        <category label="cohen's-kappa"/>
+        <category label="data-science"/>
+        <category label="confusion-matrix-in-ml"/>
+        <published>2022-05-02T07:34:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[[UE5][C++]EnhancedInputで独自のInputTriggerを作る～UIカーソル高速移動編～ | historia Inc – 株式会社ヒストリア]]></title>
