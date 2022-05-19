@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Thu, 19 May 2022 09:31:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 May 2022 11:27:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,20 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[IBM製の高品位フォント「IBM Plex」のv6.0.2が公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/digest/1410544.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/digest/1410544.html</guid>
+            <pubDate>Thu, 19 May 2022 10:34:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[EnumをExtensionを使用し拡張することでStringを取得できるようにする方法 | エキサイト TechBlog.]]></title>
+            <link>https://tech.excite.co.jp/entry/2022/05/19/184923</link>
+            <guid>https://tech.excite.co.jp/entry/2022/05/19/184923</guid>
+            <pubDate>Thu, 19 May 2022 09:49:23 GMT</pubDate>
+            <description><![CDATA[エキサイト株式会社の奥田です。 本日はTabViewを作成する際にEnumに紐付いたStringを取得する場合があったため、その方法について記述します。 なぜEnumに紐付いたStringを定義する必要があったか？ 今回のケースではTabViewを作成する際にTabの名称をEnumに定義したTypeに紐付けたものにしたかったからです。 Enumの要素一つ、一つに対して紐づくものであり、取り回しがし...]]></description>
+            <content:encoded><![CDATA[エキサイト株式会社の奥田です。 本日はTabViewを作成する際にEnumに紐付いたStringを取得する場合があったため、その方法について記述します。 なぜEnumに紐付いたStringを定義する必要があったか？ 今回のケースではTabViewを作成する際にTabの名称をEnumに定義したTypeに紐付けたものにしたかったからです。 Enumの要素一つ、一つに対して紐づくものであり、取り回しがしやすいと感じて、今回のような実装にしました。 定義 それではまずEnum側の定義をしていきます。 enum SampleCategory { article, user, } extension Sa…]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[【ロケスマ】トイレの場所もらくらく探せる神アプリ紹介 | FascodeNetwork Blog]]></title>
             <link>https://blog.fascode.net/2022/05/19/rokesuma/</link>
@@ -27,6 +41,14 @@
             <category>Webサービス</category>
             <category>カテゴリ済み</category>
             <category>レビュー</category>
+        </item>
+        <item>
+            <title><![CDATA[【オンラインMeetup イベントレポート】ZOZO Tech Talk #6 - iOS | ZOZO TECH BLOG]]></title>
+            <link>https://techblog.zozo.com/entry/20220516-meetup-report</link>
+            <guid>https://techblog.zozo.com/entry/20220516-meetup-report</guid>
+            <pubDate>Thu, 19 May 2022 09:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、ZOZO CTOブロックの@ikkouです。 ZOZOでは、5/16にZOZO Tech Talk #6 - iOSを開催しました。 zozotech-inc.connpass.com 本イベントは、これまで夕刻に開催してきたMeetupとは異なり、ランチタイムに開催する「ZOZO Tech Talk」シリーズです。ZOZO Tech Talkでは、ZOZOがこれまで取り組んできた事例...]]></description>
+            <content:encoded><![CDATA[こんにちは、ZOZO CTOブロックの@ikkouです。 ZOZOでは、5/16にZOZO Tech Talk #6 - iOSを開催しました。 zozotech-inc.connpass.com 本イベントは、これまで夕刻に開催してきたMeetupとは異なり、ランチタイムに開催する「ZOZO Tech Talk」シリーズです。ZOZO Tech Talkでは、ZOZOがこれまで取り組んできた事例を紹介していきます。 第6回はネイティブアプリ開発の中で、特にiOSにフォーカスした内容を発表しました。 登壇内容 まとめ 弊社の社員2名が登壇しました。 Hapticをカスタマイズしてみよう (ZO…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Rails 7: connected_toでロールの指定が必須でなくなった（翻訳） | TechRacho]]></title>
@@ -366,7 +388,7 @@ https://ai-scholar.tech/articles/medical/end_Stage_lstm | AI技術最新情報�
             <content:encoded><![CDATA[技術部プラットフォームグループ SRE の akichan です。  ペパボでは Nyah と呼ばれる OpenStack のプライベートクラウドを運用しており、Load Balancer as a Service(LBaaS) の Octavia が利用可能です。  先日、このLBaaSに対する不正なアクセスからシステムを防御するために、特定のIPアドレス帯からの通信をブロックするソフトウエアをGoで実装しました。その際に、社内のGoの有識者にレビューしてもらいながら、どのようにリファクタリングを行なっていったかを通して、私と同じようなGoの初学者が押さえておくと良さそうなポイントについてお伝えできればと思います。 Amphora Protector  今回開発した Amphora Protector について簡単に解説します。  Octavia の LoadBalancer の実態は、HAProxy がインストールされた Amphora と呼ばれるAct/Stb構成のサーバーです。OpenStack の API を通して様々な設定を変更できますが、アクセス制限については OpenS...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[【LPガス業界】基礎知識編 | フューチャー技術ブログ]]></title>
+            <title><![CDATA[【エネルギー業界】LPガス基礎知識編 | フューチャー技術ブログ]]></title>
             <link>https://future-architect.github.io/articles/20220519a/</link>
             <guid>https://future-architect.github.io/articles/20220519a/</guid>
             <pubDate>Wed, 18 May 2022 15:00:00 GMT</pubDate>
@@ -412,6 +434,15 @@ https://ai-scholar.tech/articles/medical/end_Stage_lstm | AI技術最新情報�
             <content:encoded><![CDATA[Complete guide and blog post series on IT Operations Management with AIOps. Using AI and Machine Learning to manage IT complexity to deliver world class IT service while keeping the lights on.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Artificial Intelligence</category>
+        </item>
+        <item>
+            <title><![CDATA[2022年のAIの進歩は汎用人工知能に手が届くところまで来ているのか？ | WebBigData]]></title>
+            <link>https://webbigdata.jp/ai/post-13535</link>
+            <guid>https://webbigdata.jp/?p=13535</guid>
+            <pubDate>Wed, 18 May 2022 13:36:11 GMT</pubDate>
+            <description><![CDATA[１．2022年のAIの進歩は汎用人工知能に手が届くところまで来ているのか？まとめ ・汎用人工知能は存在しえない。人間レベルのAIでさえ汎用的ではなく分化している ・モデルの規模を拡大する事は有用だが人間レベルのAIを達成 […]]]></description>
+            <content:encoded><![CDATA[１．2022年のAIの進歩は汎用人工知能に手が届くところまで来ているのか？まとめ ・汎用人工知能は存在しえない。人間レベルのAIでさえ汎用的ではなく分化している ・モデルの規模を拡大する事は有用だが人間レベルのAIを達成 […]]]></content:encoded>
+            <category>AI</category>
         </item>
         <item>
             <title><![CDATA[Amazon Redshift: Ten years of continuous reinvention | Amazon Science Homepage]]></title>
@@ -816,8 +847,8 @@ https://ai-scholar.tech/articles/adversarial-perturbation/smooth-adversarial-tra
             <link>https://moneyforward.com/engineers_blog/2022/05/18/new_framework_defaults-for-rails/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10186</guid>
             <pubDate>Wed, 18 May 2022 01:00:09 GMT</pubDate>
-            <description><![CDATA[こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Doc...]]></description>
-            <content:encoded><![CDATA[こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dockerを使って開発環境を構築する  女性限定iOSアプリ勉強会「Sweet Swift」でSwiftに初挑戦  Railsで普通のJSを書くためにやった手順  マネーフォワードは何をモデル化するか  エンジニアはなぜマックが好きなのか？   Copyright © Money Forward Engineers' Blog [Railsのnew_framework_defaultsとの向き合い方], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードへの道（msb Tamachi編）  エンジニアが技術広報に取り組んだ奮闘記 2021年上期  esaによる情報共有で自律的なチームを目指す  Java8 で Stream を使ってみる  ブログで使えるアイキャッチ画像デザイン18パターン   Copyright © Money Forward Engineers' Blog [Railsのnew_framework_defaultsとの向き合い方], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -995,6 +1026,15 @@ https://ai-scholar.tech/articles/adversarial-perturbation/smooth-adversarial-tra
             <content:encoded><![CDATA[As a data scientist, you might have a great portfolio of technical skills, but if you can’t communicate effectively, you won’t be able to convey your ideas clearly during virtual meetings]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Career Advice</category>
+        </item>
+        <item>
+            <title><![CDATA[Alpa：わずか1行でJAXニューラルネットワークを並列化(2/2) | WebBigData]]></title>
+            <link>https://webbigdata.jp/ai/post-13522</link>
+            <guid>https://webbigdata.jp/?p=13522</guid>
+            <pubDate>Tue, 17 May 2022 13:57:35 GMT</pubDate>
+            <description><![CDATA[１．Alpa：わずか1行でJAXニューラルネットワークを並列化(2/2)まとめ ・Alpaは標準的な専門家が設計したTransformerモデルでは最高のフレームワークに匹敵する ・mixture-of-expert層を […]]]></description>
+            <content:encoded><![CDATA[１．Alpa：わずか1行でJAXニューラルネットワークを並列化(2/2)まとめ ・Alpaは標準的な専門家が設計したTransformerモデルでは最高のフレームワークに匹敵する ・mixture-of-expert層を […]]]></content:encoded>
+            <category>AI</category>
         </item>
         <item>
             <title><![CDATA[GitHub ActionsにおけるStep/Job/Workflow設計論 | Zennのトレンド]]></title>
@@ -1222,14 +1262,6 @@ https://ai-scholar.tech/articles/adversarial-perturbation/smooth-adversarial-tra
             <content:encoded><![CDATA[はじめに はじめまして！ わかなおです。現在は大学院で農業×ITの研究をしています。 今回は研究でPythonを使用して植物の物体検出をする機会があって、それをFlutterと繋げることができたらおもろそうやない？と思ったので、Flutter×Flaskで植物をの葉っぱ部分を検出するアプリを作ってみました！ いわゆるバックエンド部分(Flask)に触れることや、フロントとバックエンドを繋げるということがほとんど初めてだったので、非常に勉強になりました。 何事も恐れずにやってみるって、素敵やん？   記事の全体像  作成したアプリ 構成 フロント側 サーバー側 動かす    作成したア...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[NVIDIA製GPUディスプレイドライバーに複数の脆弱性 ～GeForceユーザーはv512.77への更新を【16:00追記】／「CVSS v3.1」のベーススコアは最大で「8.5」 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1409736.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1409736.html</guid>
-            <pubDate>Tue, 17 May 2022 04:02:54 GMT</pubDate>
-            <description><![CDATA[米NVIDIAは5月16日（現地時間）、同社製のGPUディスプレイドライバーに複数の脆弱性が存在することを明らかにした。対策を施した最新版のドライバーがリリースされている。]]></description>
-            <content:encoded><![CDATA[米NVIDIAは5月16日（現地時間）、同社製のGPUディスプレイドライバーに複数の脆弱性が存在することを明らかにした。対策を施した最新版のドライバーがリリースされている。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[独り言形式で綴る「OGP & SSR」 | Zennのトレンド]]></title>
             <link>https://zenn.dev/tokumoto/articles/0098b3e850676f</link>
             <guid>https://zenn.dev/tokumoto/articles/0098b3e850676f</guid>
@@ -1349,7 +1381,7 @@ https://ai-scholar.tech/articles/medical/wearable_arth | AI技術最新情報メ
             <guid>https://moneyforward.com/engineers_blog/?p=10171</guid>
             <pubDate>Tue, 17 May 2022 01:00:49 GMT</pubDate>
             <description><![CDATA[この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 長期エ...]]></description>
-            <content:encoded><![CDATA[この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 長期エンジニアインターンで得た学び  新卒エンジニアと話した「制度」と「役職」の捉え方  Haml、Sassを使って効率よくコーディングする方法（基礎編）  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  転職の不安を吹き飛ばす、入社2週間で溶け込むマネーフォワード流オンボーディング   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う], All Right Reserved. 2022.]]></content:encoded>
+            <content:encoded><![CDATA[この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 長期エンジニアインターンで得た学び  マネーフォワード社内PRに見られるRubyの書き方について - (4) 真理値  2019年もマネーフォワード開発合宿を開催しました！  マネーフォワード社内PRに見られるRubyの書き方について - (1) 配列の生成  マネーフォワードにおけるソース管理手法   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1465,6 +1497,15 @@ https://ai-scholar.tech/articles/medical/wearable_arth | AI技術最新情報メ
             <pubDate>Mon, 16 May 2022 14:48:09 GMT</pubDate>
             <description><![CDATA[はじめに  個人サービスを公開するまでに必ずやるべきことがあるのですが、思い出すのに時間が掛かってしまったり、「事前にやっておくべきだった...」と毎回思います。ここら辺の情報は調べてもまとまってい…]]></description>
             <content:encoded><![CDATA[はじめに  個人サービスを公開するまでに必ずやるべきことがあるのですが、思い出すのに時間が掛かってしまったり、「事前にやっておくべきだった...」と毎回思います。ここら辺の情報は調べてもまとまってい…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Alpa：わずか1行でJAXニューラルネットワークを並列化(1/2) | WebBigData]]></title>
+            <link>https://webbigdata.jp/ai/post-13518</link>
+            <guid>https://webbigdata.jp/?p=13518</guid>
+            <pubDate>Mon, 16 May 2022 14:25:57 GMT</pubDate>
+            <description><![CDATA[１．Alpa：わずか1行でJAXニューラルネットワークを並列化(1/2)まとめ ・データ並列を行うと複数アクセラレータで並列処理できるのでモデルの規模拡大が可能 ・しかし、最近の大規模モデルはデータ並列では間に合わずモデ […]]]></description>
+            <content:encoded><![CDATA[１．Alpa：わずか1行でJAXニューラルネットワークを並列化(1/2)まとめ ・データ並列を行うと複数アクセラレータで並列処理できるのでモデルの規模拡大が可能 ・しかし、最近の大規模モデルはデータ並列では間に合わずモデ […]]]></content:encoded>
+            <category>AI</category>
         </item>
         <item>
             <title><![CDATA[Popular Machine Learning Algorithms | KDnuggets]]></title>
@@ -1739,8 +1780,8 @@ https://ai-scholar.tech/articles/transformer/transformer-vs-cnn | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/05/16/zapier-x-slack-x-asana/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10145</guid>
             <pubDate>Mon, 16 May 2022 03:00:08 GMT</pubDate>
-            <description><![CDATA[こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></description>
-            <content:encoded><![CDATA[こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android：グラフ表示で表現豊かに。MPAndroidChart を使ってみよう！  Slackのチャンネル名を管理者以外でも変更できるようにしてみた  エンジニアブログ、始めました  待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・  拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう   Copyright © Money Forward Engineers' Blog [[ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する],...]]></content:encoded>
+            <description><![CDATA[こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></description>
+            <content:encoded><![CDATA[こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubyコードの健康を保つためのgem 5+1選  マネーフォワードとオープンソース・ソフトウェア  React Componentの実装ルールを決めてみた  【レポート】MF Geeks Night (2015年3月)  ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと   Copyright © Money Forward Engineers' Blog [[ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1944,6 +1985,16 @@ https://ai-scholar.tech/articles/transformer/transformer-vs-cnn | AI技術最新
             <content:encoded><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><p>こんにちは。TIG]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[VFS：強化学習で長期目線が必要な行動を実現(2/2) | WebBigData]]></title>
+            <link>https://webbigdata.jp/ai/post-13511</link>
+            <guid>https://webbigdata.jp/?p=13511</guid>
+            <pubDate>Sun, 15 May 2022 14:48:53 GMT</pubDate>
+            <description><![CDATA[１．VFS：強化学習で長期目線が必要な行動を実現(2/2)まとめ ・各遷移に影響を与えその結果を予測するために必要な機能情報はVFS特徴表現内にある ・原理的には高レベルのエージェントがすべてのスキルを連鎖させる事が可能 […]]]></description>
+            <content:encoded><![CDATA[１．VFS：強化学習で長期目線が必要な行動を実現(2/2)まとめ ・各遷移に影響を与えその結果を予測するために必要な機能情報はVFS特徴表現内にある ・原理的には高レベルのエージェントがすべてのスキルを連鎖させる事が可能 […]]]></content:encoded>
+            <category>AI</category>
+            <category>ロボット</category>
+        </item>
+        <item>
             <title><![CDATA[2022/05/15 第10回全日本コンピュータビジョン勉強会「生成モデル論文読み会」資料まとめ | takminの書きっぱなし備忘録 @はてなブログ]]></title>
             <link>https://takmin.hatenablog.com/entry/2022/05/15/211613</link>
             <guid>hatenablog://entry/13574176438092599489</guid>
@@ -1979,6 +2030,16 @@ https://ai-scholar.tech/articles/transformer/transformer-vs-cnn | AI技術最新
             <pubDate>Sat, 14 May 2022 21:49:10 GMT</pubDate>
             <description><![CDATA[There's a conference on "Grothendieck's approach to mathematics" on May 24-28, 2022 at Chapman University in southern California.]]></description>
             <content:encoded><![CDATA[There's a conference on "Grothendieck's approach to mathematics" on May 24-28, 2022 at Chapman University in southern California.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[VFS：強化学習で長期目線が必要な行動を実現(1/2) | WebBigData]]></title>
+            <link>https://webbigdata.jp/ai/post-13501</link>
+            <guid>https://webbigdata.jp/?p=13501</guid>
+            <pubDate>Sat, 14 May 2022 14:50:31 GMT</pubDate>
+            <description><![CDATA[１．VFS：強化学習で長期目線が必要な行動を実現(1/2)まとめ ・強化学習の進歩によりロボットは複雑なタスクを実行できるようになった ・しかし、可能なのは短期目線タスクで長期目線が必要なタスクは困難 ・VFSで長期目線 […]]]></description>
+            <content:encoded><![CDATA[１．VFS：強化学習で長期目線が必要な行動を実現(1/2)まとめ ・強化学習の進歩によりロボットは複雑なタスクを実行できるようになった ・しかし、可能なのは短期目線タスクで長期目線が必要なタスクは困難 ・VFSで長期目線 […]]]></content:encoded>
+            <category>AI</category>
+            <category>ロボット</category>
         </item>
         <item>
             <title><![CDATA[14分でわかるエプシロン・デルタ論法（ε-δ論法）入門 - その定義の意味と使い方 - ＜微分積分＞，講師 新井仁之，数理科学デジタルオープンレクチャーズ． | Hitoshi Arai, 数理科学デジタルオープンレクチャーズ]]></title>
@@ -2322,8 +2383,8 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
             <link>https://moneyforward.com/engineers_blog/2022/05/13/using-dogstatsd-in-local/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10138</guid>
             <pubDate>Fri, 13 May 2022 01:00:28 GMT</pubDate>
-            <description><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goo...]]></description>
-            <content:encoded><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Googleフォームで参加者募集して、自動でGoogleカレンダーに申込者を招待する小技  マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  iOS版マネーフォワード MEのダークモード対応  bash スクリプトの先頭によく書く記述のおさらい  S3のファイルをX-Accel-Redirectで配信する   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...]]></description>
+            <content:encoded><![CDATA[クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS版マネーフォワードMEの開発環境について  マネーフォワードは 一般スポンサー として JSConf JP を応援します  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  マネーフォワードCTOが考えていること（2021年3月）  地獄のミ、、、rssフィードをjsonフィードに変換するTips   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2602,8 +2663,8 @@ https://ai-scholar.tech/articles/medical/wearable_dl | AI技術最新情報メ�
             <link>https://moneyforward.com/engineers_blog/2022/05/12/improve_application_logics/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10127</guid>
             <pubDate>Thu, 12 May 2022 00:30:15 GMT</pubDate>
-            <description><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RSp...]]></description>
-            <content:encoded><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RSpecにおけるparameterized testingとマネーフォワードにおけるその改善  AI推進部における読書会の紹介  Swift2.0で作るAPI通信基盤  StepFunctionsとSageMakerでML学習パイプラインをつくる  RubyKaigi 2016参加者がチェックすべき京都飯16選！   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: カンタ...]]></description>
+            <content:encoded><![CDATA[マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: カンタンに始める！WordPressでのブログ運用とSEO  AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1  攻撃して学ぶJWT【ハンズオンあり】  ICカードリーダーのiOSアプリをSwiftUIで開発しました  時間がかかっていた依存パッケージの更新フローをカイゼンした話   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3795,8 +3856,8 @@ https://ai-scholar.tech/articles/transformer/transformer_time_series_survey | AI
             <link>https://moneyforward.com/engineers_blog/2022/05/09/mf_interview15/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10115</guid>
             <pubDate>Mon, 09 May 2022 00:30:49 GMT</pubDate>
-            <description><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザ...]]></description>
-            <content:encoded><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザインマインド」と「絵（ビジュアル）」  エンジニアデザインをリファクタしてみた  それ、Swift Bondでくっつけちゃおう  試食会のすゝめ  マネーフォワード社内PRに見られるRubyの書き方について - (1) 配列の生成   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 広告と...]]></description>
+            <content:encoded><![CDATA[企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 広告と三方よし  【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会  MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  マネーフォワードからGopherConに参加しました！  【全力土下座案件】JAWS-UG SRE支部#2登壇の件   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
