@@ -7,6 +7,62 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://math-notes.info/?p=1686",
+            "content_html": "今回はテイラーの定理を証明し、さらに応用として、三角関数や対数関数の近似値について考察します。 The post テイラーの定理とその応用 (教養の微積) first appeared on 大学数学の授業ノート.",
+            "url": "https://math-notes.info/2022/05/21/cal-11/",
+            "title": "テイラーの定理とその応用 (教養の微積) | 大学数学の授業ノート",
+            "summary": "今回はテイラーの定理を証明し、さらに応用として、三角関数や対数関数の近似値について考察します。 The post テイラーの定理とその応用 (教養の微積) first appeared on 大学数学の授業ノート.",
+            "date_modified": "2022-05-21T06:15:05.000Z",
+            "date_published": "2022-05-21T06:15:05.000Z",
+            "author": {
+                "name": "math-notes"
+            },
+            "tags": [
+                "教養の微積"
+            ]
+        },
+        {
+            "id": "https://zenn.dev/randd/articles/9079253e9a08c7",
+            "content_html": "create-next-app npx create-next-app@latest --ts でTS化してアプリを作成する。   dockerで走らせる FROM node:16.0.0-alpine ENV PORT 3000 WORKDIR /usr/src/app COPY ./app/package*.json ./ RUN npm install -g npm && npm install COPY ./app/ ./ RUN npm run build EXPOSE 3000 CMD [\"npm\", \"run\", \"dev\"]  docker-compo...",
+            "url": "https://zenn.dev/randd/articles/9079253e9a08c7",
+            "title": "Next.js勉強中のメモ | 株式会社R&Dさんのフィード",
+            "summary": "create-next-app npx create-next-app@latest --ts でTS化してアプリを作成する。   dockerで走らせる FROM node:16.0.0-alpine ENV PORT 3000 WORKDIR /usr/src/app COPY ./app/package*.json ./ RUN npm install -g npm && npm insta...",
+            "date_modified": "2022-05-21T06:09:44.000Z",
+            "date_published": "2022-05-21T06:09:44.000Z",
+            "author": {
+                "name": "株式会社R&D"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1527888950488014848#m",
+            "content_html": "「時系列予測に深層学習モデルが本当に必要なのか？」を調査！ ai-scholar.tech/articles/tim…",
+            "url": "https://nitter.net/ai_scholar/status/1527888950488014848#m",
+            "title": "「時系列予測に深層学習モデルが本当に必要なのか？」を調査！\nhttps://ai-scholar.tech/articles/time-series/need_DL_for_TSF | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "「時系列予測に深層学習モデルが本当に必要なのか？」を調査！ ai-scholar.tech/articles/tim…",
+            "date_modified": "2022-05-21T05:48:07.000Z",
+            "date_published": "2022-05-21T05:48:07.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://math-fun.net/?p=24840",
+            "content_html": "どうも、木村（@kimu3_slime）です。 僕はこのサイトで、中学高校大学の数学のロードマップを公開しています。たくさんの内容が書いてあるように見えますが、「こんなに学ばなくてはいけないの？」と怯えなくて良いという話 ... 数学で学ぶことが多すぎる？ 焦らずに周回すれば結果的に最短に first appeared on 趣味の大学数学.",
+            "url": "https://math-fun.net/20220521/24840/",
+            "title": "数学で学ぶことが多すぎる？ 焦らずに周回すれば結果的に最短に | 趣味の大学数学",
+            "summary": "どうも、木村（@kimu3_slime）です。 僕はこのサイトで、中学高校大学の数学のロードマップを公開しています。たくさんの内容が書いてあるように見えますが、「こんなに学ばなくてはいけないの？」と怯えなくて良いという話 ... 数学で学ぶことが多すぎる？ 焦らずに周回すれば結果的に最短に first appeared on 趣味の大学数学.",
+            "date_modified": "2022-05-21T05:41:01.000Z",
+            "date_published": "2022-05-21T05:41:01.000Z",
+            "author": {
+                "name": "kimu3"
+            },
+            "tags": [
+                "運営方針"
+            ]
+        },
+        {
             "id": "https://liginc.co.jp/?p=594183",
             "content_html": "こんにちは。ストラテジー&コンルティング部のクドウです。 前回、アジャイル開発について紹介しましたが、今回は視点を変えてデリバリーを行ううえで開発体制がシステム設計に影響を及ぼすといったお話を紹介したいと思います。 突然 […]",
             "url": "https://liginc.co.jp/594183",
@@ -35,10 +91,10 @@
         },
         {
             "id": "https://zenn.dev/takepepe/articles/nextjs-getlayout-chunk-relation",
-            "content_html": "Next.js は、ページ単位でデータ取得・レンダリング手法を選べる事が利点です。そして、ページ単位でチャンクファイルが生成される事が、パフォーマンスに貢献します。 これはあるページに来訪した際、必要最低限のファイルロードで済むということです。このロード時間（ファイルサイズ）が、ユーザー操作が開始できるまでの時間に繋がります。Next.js でコーディングしていれば意識せずとも、ファイル分割の最適化は適用されます。 これだけでも、SPA 構築に Next.js を選ぶ理由にもなりえるでしょう。   First Load JS shared by all _appは、どのページにアクセス・...",
+            "content_html": "Next.js は、ページ単位でデータ取得・レンダリング手法を選べる事が利点です。そして、ページ単位でチャンクファイルが生成されるため、パフォーマンスに貢献します。 これはあるページに来訪した際、必要最低限のファイルロードで済むということです。このロード時間（ファイルサイズ）が、ユーザー操作が開始できるまでの時間に繋がります。Next.js でコーディングしていれば意識せずとも、ファイル分割の最適化は適用されます。 これだけでも SPA 構築に Next.js を選ぶ理由になりえます。本稿では、実装次第でこのファイル分割が、良くも悪くもなることを紹介していきます。   First Loa...",
             "url": "https://zenn.dev/takepepe/articles/nextjs-getlayout-chunk-relation",
             "title": "パフォーマンス観点でみる Next.js の getLayout | Zennのトレンド",
-            "summary": "Next.js は、ページ単位でデータ取得・レンダリング手法を選べる事が利点です。そして、ページ単位でチャンクファイルが生成される事が、パフォーマンスに貢献します。 これはあるページに来訪した際、必要最低限のファイルロードで済むということです。このロード時間（ファイルサイズ）が、ユーザー操作が開始できるまでの時間に繋がります。Next.js でコーディングしていれば意識せずとも、ファイル分割の最適...",
+            "summary": "Next.js は、ページ単位でデータ取得・レンダリング手法を選べる事が利点です。そして、ページ単位でチャンクファイルが生成されるため、パフォーマンスに貢献します。 これはあるページに来訪した際、必要最低限のファイルロードで済むということです。このロード時間（ファイルサイズ）が、ユーザー操作が開始できるまでの時間に繋がります。Next.js でコーディングしていれば意識せずとも、ファイル分割の最適...",
             "date_modified": "2022-05-20T16:07:28.000Z",
             "date_published": "2022-05-20T16:07:28.000Z",
             "author": {
@@ -411,19 +467,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/shuntarosato/articles/978c90061361eb",
-            "content_html": "モチベーション Rでデータハンドリングするときは、tidyverseを使うことが多いです。 また、医学系研究では、繰り返し測定したある変数を、縦持ちではなく、横持ちでデータセットに格納されていることはよくあります。 一つの変数だけならpivot_longer()を一度使えば良いのですが、同じような処理をする変数がたくさんあると、関数作りたいですよね。 今回（というか毎回）、この関数作りでつまずくので、（自分のためにも）まとめてみました。   達成したいこと 下のデータセットの、繰り返し測定した変数Xに対して、  こうしたい。  そして、Xに対してもYに対しても、同じ処理をしたいため、...",
-            "url": "https://zenn.dev/shuntarosato/articles/978c90061361eb",
-            "title": "Rのtidyverse圏で関数をうまく作る | Zennのトレンド",
-            "summary": "モチベーション Rでデータハンドリングするときは、tidyverseを使うことが多いです。 また、医学系研究では、繰り返し測定したある変数を、縦持ちではなく、横持ちでデータセットに格納されていることはよくあります。 一つの変数だけならpivot_longer()を一度使えば良いのですが、同じような処理をする変数がたくさんあると、関数作りたいですよね。 今回（というか毎回）、この関数作りでつまずくの...",
-            "date_modified": "2022-05-20T02:35:36.000Z",
-            "date_published": "2022-05-20T02:35:36.000Z",
-            "author": {
-                "name": "Shuntaro Sato（佐藤俊太朗）"
-            },
-            "tags": []
-        },
-        {
             "id": "https://tech.uzabase.com/entry/2022/05/20/112737",
             "content_html": "はじめに こんにちは、モバイルチームスクラムマスターのko2icです。 NewsPicksのモバイルチームでは、1スプリント1週間で、全てのタスクをストーリーポイントに落としています。たとえば、面接、社内イベントの準備、目標設定やそのフィードバックなどもポイント化しています。 そして、残業時間なども勤務表から判断して、（正確ではないですが）作業時間もわかっています。（正確にするために時間計測をする組織もあるかもしれませんが、負担になるのでしてないです。） これにより、1時間あたりの消化ポイントが出せるので、これを生産性の指標として判断しています。 今回は、その生産性の指標を見ている中で面白い結…",
             "url": "https://tech.uzabase.com/entry/2022/05/20/112737",
@@ -530,10 +573,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10209",
-            "content_html": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのJavaエンジニアはどのような環境で仕事をしているのか  新卒から始めるアカウントアグリゲーション  Android開発をもっと前へ！開発を加速させるTips・ツール  最近のruby-core (2016年6月)  ARは二度死なない   Copyright © Money Forward Engineers' Blog [Zeitwerkとrequire_dependency], All Right Reserved. 2022.",
+            "content_html": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [MFクラウド会計]ユーザーの声がサービスに届くまで  Coding CDN in MoneyForward  マネーフォワードの2018新卒研修を振り返ってみた  最近のruby-core (2016年10月)  カンタンに始める！WordPressでのブログ運用とSEO   Copyright © Money Forward Engineers' Blog [Zeitwerkとrequire_dependency], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/20/zeitwerk-and-require_dependency/",
             "title": "Zeitwerkとrequire_dependency | Money Forward Engineers' Blog",
-            "summary": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
+            "summary": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [MF...",
             "date_modified": "2022-05-20T01:00:09.000Z",
             "date_published": "2022-05-20T01:00:09.000Z",
             "author": {
@@ -592,6 +635,19 @@
                 "3DCG",
                 "CADC2022"
             ]
+        },
+        {
+            "id": "https://zenn.dev/sunadoi/articles/889219ab865583",
+            "content_html": "TERASSのsunadoiです。 みなさん、ライブラリのアップデートは定期的にしていますか。 今回はライブラリを定期的にアップデートするという目標を掲げてプロジェクトにRenovateを導入してから半年程経ったのでその振り返りを残しておこうと思います。 実際に半年ほど運用してみて知見が溜まってきたので、どんな感じの設定をしているかを導入当時の背景とともに紹介しつつ振り返っていきます。 導入したプロジェクトの構成はReact, TypeScript, Cloud Functions for Firebaseのモノレポです。   Renovateとは プロジェクトの依存関係の更新を自動化し...",
+            "url": "https://zenn.dev/sunadoi/articles/889219ab865583",
+            "title": "Renovateの導入と半年間の運用の振り返り | Zennのトレンド",
+            "summary": "TERASSのsunadoiです。 みなさん、ライブラリのアップデートは定期的にしていますか。 今回はライブラリを定期的にアップデートするという目標を掲げてプロジェクトにRenovateを導入してから半年程経ったのでその振り返りを残しておこうと思います。 実際に半年ほど運用してみて知見が溜まってきたので、どんな感じの設定をしているかを導入当時の背景とともに紹介しつつ振り返っていきます。 導入したプ...",
+            "date_modified": "2022-05-20T00:04:04.000Z",
+            "date_published": "2022-05-20T00:04:04.000Z",
+            "author": {
+                "name": "sunadoi"
+            },
+            "tags": []
         },
         {
             "id": "https://forest.watch.impress.co.jp/docs/news/1410643.html",
@@ -903,6 +959,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/ddpn08/articles/fd92b7cf2be16f",
+            "content_html": "! この記事は、以前書いたものの修正版です。 https://zenn.dev/ddpn08/articles/fb390caa781e54  こんにちは。前書いた記事を見返してたらなんかすごい適当だな... って思ったので少し書き直します。 今回はとっても高クオリティかつ可愛らしい音声合成が行えるvoicevoxを使ってみます。   VOICEVOX とは   高品質な音声合成ソフト https://voicevox.hiroshiba.jp/  無料で使える中品質なテキスト読み上げソフトウェア、VOICEVOXのエディター  と、書かれていますが、正直中品質なんてもんじゃあありません...",
+            "url": "https://zenn.dev/ddpn08/articles/fd92b7cf2be16f",
+            "title": "Re VOICEVOXで高クオリティな音声合成を... | Docker & nodejs 編 | Zennのトレンド",
+            "summary": "! この記事は、以前書いたものの修正版です。 https://zenn.dev/ddpn08/articles/fb390caa781e54  こんにちは。前書いた記事を見返してたらなんかすごい適当だな... って思ったので少し書き直します。 今回はとっても高クオリティかつ可愛らしい音声合成が行えるvoicevoxを使ってみます。   VOICEVOX とは   高品質な音声合成ソフト https...",
+            "date_modified": "2022-05-19T08:34:09.000Z",
+            "date_published": "2022-05-19T08:34:09.000Z",
+            "author": {
+                "name": "だだっこぱんだ"
+            },
+            "tags": []
+        },
+        {
             "id": "https://techracho.bpsinc.jp/?p=117824",
             "content_html": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Rails does not require role when to be passed to connected_to | Saeloun Blog 原文公開日: 2022/04/13 原著者: Swaathi Kakarla サイト: Saeloun Blog Rails 7: connected_toでロールの指定が必須でなくなった（翻訳） RailsのActive Recordには、すぐ使える強力なシャーディング機能があります。垂直シャーディングと水平シャーディングのどちらでも定義可能で、connected_toで両者を切り替えられます。すべ […] The post Rails 7: connected_toでロールの指定が必須でなくなった（翻訳） first appeared on TechRacho.",
             "url": "https://techracho.bpsinc.jp/hachi8833/2022_05_19/117824",
@@ -1191,19 +1260,6 @@
                 "さくらの聖夜",
                 "映像配信"
             ]
-        },
-        {
-            "id": "https://zenn.dev/kato_shinya/articles/released-twitter-api-v2-dart",
-            "content_html": "Dart/Flutter ライブラリ「twitter_api_v2」 の紹介    twitter_api_v2 とは twitter_api_v2は、Dart VM 上で動作する Twitter API v2.0 をラッピングしたライブラリです。 Dart/Flutter アプリで Twitter API v2.0 の諸機能をとても簡単に使うことができるように設計開発を行いました。 https://github.com/twitter-dart/twitter-api-v2 https://pub.dev/packages/twitter_api_v2 初期ビルドを Pub.dev...",
-            "url": "https://zenn.dev/kato_shinya/articles/released-twitter-api-v2-dart",
-            "title": "Twitter API v2.0をラッピングしたDart/Flutterライブラリを開発しました | Zennのトレンド",
-            "summary": "Dart/Flutter ライブラリ「twitter_api_v2」 の紹介    twitter_api_v2 とは twitter_api_v2は、Dart VM 上で動作する Twitter API v2.0 をラッピングしたライブラリです。 Dart/Flutter アプリで Twitter API v2.0 の諸機能をとても簡単に使うことができるように設計開発を行いました。 https:...",
-            "date_modified": "2022-05-19T01:55:52.000Z",
-            "date_published": "2022-05-19T01:55:52.000Z",
-            "author": {
-                "name": "Kato Shinya / 加藤 真也"
-            },
-            "tags": []
         },
         {
             "id": "https://math-fun.net/?p=24783",
@@ -2009,10 +2065,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10186",
-            "content_html": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう  Swift2.0で作るAPI通信基盤  google-authenticator-railsを試してみた  webpackでRailsアプリのアセットをビルドする  最近のruby-core (2016年4月)   Copyright © Money Forward Engineers' Blog [Railsのnew_framework_defaultsとの向き合い方], All Right Reserved. 2022.",
+            "content_html": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Coding CDN in MoneyForward  【イベント参加レポ】渋谷Ruby会議01に参加してきました！  MacにUbuntuを入れるとOSXより起動が速い  【社内レポ】マネーフォワードのエンジニア  リニューアル後の国税庁サイトを検索できるサービスを作ってみた   Copyright © Money Forward Engineers' Blog [Railsのnew_framework_defaultsとの向き合い方], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/18/new_framework_defaults-for-rails/",
             "title": "Railsのnew_framework_defaultsとの向き合い方 | Money Forward Engineers' Blog",
-            "summary": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 拝啓、...",
+            "summary": "こんにちは、ぽっけです。マネーフォワード クラウド会計Plusでエンジニアをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Cod...",
             "date_modified": "2022-05-18T01:00:09.000Z",
             "date_published": "2022-05-18T01:00:09.000Z",
             "author": {
@@ -2486,10 +2542,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10171",
-            "content_html": "この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  10分コーディング！ Rubyでつくる Slack時報  Datadogを使った分散トレーシングをクラウド会計で見えるようにした話  Rails探訪 ~ create_table 編 ~ vim のイースターエッグの話   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う], All Right Reserved. 2022.",
+            "content_html": "この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  Safari Books Online のすすめ - エンジニアなら当然読んでおきたい英語の書籍をお得に読む方法  50行のjavascriptでCVRを5%上げる方法  Nuxt v2 のSPAモードが起動するまでの流れを追ってみた  怠惰な拠点長が取り組むペーパーレス・オペレーションレス   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/17/face-to-combinational-testing/",
             "title": "【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う | Money Forward Engineers' Blog",
-            "summary": "この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFク...",
+            "summary": "この記事について こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: IRS...",
             "date_modified": "2022-05-17T01:00:49.000Z",
             "date_published": "2022-05-17T01:00:49.000Z",
             "author": {
@@ -2987,10 +3043,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10145",
-            "content_html": "こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ポエムは恥だが役に立つ  マネーフォワードの未来について語る会を開催  最近のruby-core (2016年6月)  170万ユーザーを支えるアカウントアグリゲーション開発の裏側  SassやCSSでチェックボックスやラジオボタンをカスタマイズする方法   Copyright © Money Forward Engineers' Blog [[ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する], All Right Reserved. 2022.",
+            "content_html": "こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアが紹介する、エンジニアが好みそうな映画  エンジニアのマネーフォワード2019  Androidアプリのデバッグメニューを作ろう  2020年度版おすすめ書籍 in マネフォ京都メンバー  【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと   Copyright © Money Forward Engineers' Blog [[ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/16/zapier-x-slack-x-asana/",
             "title": "[ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する | Money Forward Engineers' Blog",
-            "summary": "こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ポエム...",
+            "summary": "こんにちは。 マネーフォワードビジネスカンパニー所属の下村です。 ビジネスサイド … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...",
             "date_modified": "2022-05-16T03:00:08.000Z",
             "date_published": "2022-05-16T03:00:08.000Z",
             "author": {
@@ -3835,10 +3891,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10138",
-            "content_html": "クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2016年10月)  エンジニアのマネーフォワード2019  Android開発をもっと前へ！開発を加速させるTips・ツール  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  【全力土下座案件】JAWS-UG SRE支部#2登壇の件   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.",
+            "content_html": "クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  iOS Appの開発効率を上げるライブラリ＆ツール [Object・JSON変換]  【レポート】potatotips #36 を開催しました  マネーフォワードの2018新卒研修を振り返ってみた  [MFクラウド会計]ユーザーの声がサービスに届くまで   Copyright © Money Forward Engineers' Blog [DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/13/using-dogstatsd-in-local/",
             "title": "DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する | Money Forward Engineers' Blog",
-            "summary": "クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...",
+            "summary": "クラウド勤怠とクラウド給与で一人プロダクトSREをしているVTRyoです。いつの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Ra...",
             "date_modified": "2022-05-13T01:00:28.000Z",
             "date_published": "2022-05-13T01:00:28.000Z",
             "author": {
@@ -4249,10 +4305,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10127",
-            "content_html": "マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: vim のイースターエッグの話  10分コーディング！ Rubyでつくる Slack時報  AI推進部における読書会の紹介  【社内レポ】マネーフォワードのエンジニア  slackに#current_status部屋を作りました   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.",
+            "content_html": "マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：iPadでOne Tap会議室予約  OpenAPIでスキーマ駆動開発してみた  「テックトーク」で知識と経験を共有しよう  マネーフォワードCTOが考えていること（2021年3月）  試食会のすゝめ   Copyright © Money Forward Engineers' Blog [アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/12/improve_application_logics/",
             "title": "アプリケーションロジックを見直してマネーフォワードMEのとあるAPIを約50%高速化しました | Money Forward Engineers' Blog",
-            "summary": "マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: vim...",
+            "summary": "マネーフォワード ME のサーバサイドエンジニアの taka.naoga です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
             "date_modified": "2022-05-12T00:30:15.000Z",
             "date_published": "2022-05-12T00:30:15.000Z",
             "author": {
@@ -4679,22 +4735,6 @@
             "date_modified": "2022-05-11T04:00:00.004Z",
             "date_published": "2022-05-11T04:00:00.004Z",
             "tags": []
-        },
-        {
-            "id": "https://math-fun.net/?p=24594",
-            "content_html": "どうも、木村（@kimu3_slime）です。 「借金が雪だるま式に増える」など、小さな変化の積み重ねがやがて大きな結果をもたらすことの表現として、雪だるま式という表現があります。英語ではsnowball effect（ ... 雪だるま式な増加とは：微分方程式、指数関数による表し方 first appeared on 趣味の大学数学.",
-            "url": "https://math-fun.net/20220511/24594/",
-            "title": "雪だるま式な増加とは：微分方程式、指数関数による表し方 | 趣味の大学数学",
-            "summary": "どうも、木村（@kimu3_slime）です。 「借金が雪だるま式に増える」など、小さな変化の積み重ねがやがて大きな結果をもたらすことの表現として、雪だるま式という表現があります。英語ではsnowball effect（ ... 雪だるま式な増加とは：微分方程式、指数関数による表し方 first appeared on 趣味の大学数学.",
-            "date_modified": "2022-05-11T03:41:49.000Z",
-            "date_published": "2022-05-11T03:41:49.000Z",
-            "author": {
-                "name": "kimu3"
-            },
-            "tags": [
-                "身近な数学",
-                "微分方程式論"
-            ]
         },
         {
             "id": "https://www.i-vinci.co.jp/?p=684",
@@ -5909,10 +5949,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10115",
-            "content_html": "企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新サービスを立ち上げる際、エンジニアとしてやって良かった 9個の事  [PR]4/19開催 メルペイ x マネフォ QA Tech talkのお知らせ🎉  iOS版マネーフォワードMEの開発環境について  SwiftにはREPLモードが２つある！？  マネーフォワード社員のお金の管理術 「お金を貯めるにはヒリヒリしよう」   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All Right Reserved. 2022.",
+            "content_html": "企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末にesaの大掃除をしてみた  マネーフォワードは 一般スポンサー として JSConf JP を応援します  駆け出しQA と Bug Bash 〜ワイワイするって難しい〜  SageMaker Experimentsによる実験管理とQuickSightを使ったその可視化  EBS Magnetic vs SSDのベンチマーク   Copyright © Money Forward Engineers' Blog [OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/05/09/mf_interview15/",
             "title": "OSS Forwardするエンジニアにインタビュー！なぜOSS開発文化が育っていないマネーフォワードで活動をおこなうのか？ | Money Forward Engineers' Blog",
-            "summary": "企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新サー...",
+            "summary": "企画概要 今回は最近マネーフォワードが公開したOSS開発の消費税計算GemJct … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末に...",
             "date_modified": "2022-05-09T00:30:49.000Z",
             "date_published": "2022-05-09T00:30:49.000Z",
             "author": {
