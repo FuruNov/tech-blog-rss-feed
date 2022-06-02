@@ -353,6 +353,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // 追加分(Windowsソフト)
   ['新着ソフトレビュー - Vector', 'https://www.vector.co.jp/rss/softnews.xml'],
   ['窓の杜', 'https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf'],
+  ['ソフタロウ', 'https://softaro.net/feed/'],
 ]);
 
 // 候補
