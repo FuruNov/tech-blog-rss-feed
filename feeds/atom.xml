@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-06-11T03:52:14.745Z</updated>
+    <updated>2022-06-11T07:26:27.193Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[ルベーグ積分３ルベーグ可測集合とルベーグ測度の定義 | あーるえぬ｜数学のあれこれ]]></title>
+        <id>https://math-note.xyz/?p=8543</id>
+        <link href="https://math-note.xyz/analysis/measure-theory/lebesgue-integral/lebesgue-measurable-set/"/>
+        <updated>2022-06-11T07:23:49.000Z</updated>
+        <summary type="html"><![CDATA[前々回の記事では「集合の長さ」を外側から測る(ルベーグ)外測度$m^{*}$を定義し，前回の記事ではこの外測度$m^{*}$について本質的に... ルベーグ積分３ ルベーグ可測集合とルベーグ測度の定義 first appeared on あーるえぬ｜数学のあれこれ.]]></summary>
+        <content type="html"><![CDATA[前々回の記事では「集合の長さ」を外側から測る(ルベーグ)外測度$m^{*}$を定義し，前回の記事ではこの外測度$m^{*}$について本質的に... ルベーグ積分３ ルベーグ可測集合とルベーグ測度の定義 first appeared on あーるえぬ｜数学のあれこれ.]]></content>
+        <author>
+            <name>yama-taku</name>
+        </author>
+        <category label="ルベーグ積分"/>
+        <published>2022-06-11T07:23:49.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Modern Winver 1.1.1.0 | ダウンロードと使い方 | ソフタロウ]]></title>
         <id>https://softaro.net/?p=95961</id>
@@ -49,6 +62,30 @@
         </author>
         <category label="身近な数学"/>
         <published>2022-06-11T00:07:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHP 8.1 において名前付き引数で NULL と引数省略を区別する方法 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/mpyw/articles/php-enum-arg-identity</id>
+        <link href="https://zenn.dev/mpyw/articles/php-enum-arg-identity"/>
+        <updated>2022-06-10T19:53:04.000Z</updated>
+        <summary type="html"><![CDATA[問題 以下のようなユーザ情報を格納するテーブルを考える。 CREATE TABLE users(  id INTEGER PRIMARY KEY,  name TEXT NOT NULL,  description TEXT NOT NULL ); このテーブルに関して， 「指定された ID のユーザの， 指定されたフィールドのみを 差分更新したい」 という要求があり，それに合わせて以下のように ...]]></summary>
+        <content type="html"><![CDATA[問題 以下のようなユーザ情報を格納するテーブルを考える。 CREATE TABLE users(  id INTEGER PRIMARY KEY,  name TEXT NOT NULL,  description TEXT NOT NULL ); このテーブルに関して， 「指定された ID のユーザの， 指定されたフィールドのみを 差分更新したい」 という要求があり，それに合わせて以下のように UserRepository クラスを実装した。 class UserRepository {  public function update(  in...]]></content>
+        <author>
+            <name>mpyw</name>
+        </author>
+        <published>2022-06-10T19:53:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自分好みのアウトライナーを開発した記録 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/k4a/articles/introducing_twirliner</id>
+        <link href="https://zenn.dev/k4a/articles/introducing_twirliner"/>
+        <updated>2022-06-10T14:32:35.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Twirlinerというアウトライナーアプリを作成しました  既存のアウトライナーアプリと大きな違いはありませんが、自分が欲しい機能を少しずつ追加しています。バグや要望等ありましたら、お気軽にコメントをお願いします。   Demoページ 更新は保存されません。記述記法等の確認に使用してください。   App(Local)ページ 更新は LocalStorage に保存されます ※Loca...]]></summary>
+        <content type="html"><![CDATA[はじめに Twirlinerというアウトライナーアプリを作成しました  既存のアウトライナーアプリと大きな違いはありませんが、自分が欲しい機能を少しずつ追加しています。バグや要望等ありましたら、お気軽にコメントをお願いします。   Demoページ 更新は保存されません。記述記法等の確認に使用してください。   App(Local)ページ 更新は LocalStorage に保存されます ※LocalStorage の容量を超えるデータを格納した場合の動作は保証できません。文字数にもよりますが、15000 行くらいで上限に到達します。   ログイン機能 現在は開放していません   使用...]]></content>
+        <author>
+            <name>k4a</name>
+        </author>
+        <published>2022-06-10T14:32:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alexa AI’s natural-language-understanding papers at ICASSP 2022 | Amazon Science Homepage]]></title>
@@ -106,6 +143,18 @@
         <published>2022-06-10T12:00:54.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Frontend Talk（2022-06-10） | Zennのトレンド]]></title>
+        <id>https://zenn.dev/hrbrain/articles/frontend-talk-2022-06-10</id>
+        <link href="https://zenn.dev/hrbrain/articles/frontend-talk-2022-06-10"/>
+        <updated>2022-06-10T11:35:36.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。株式会社HRBrainでフロントエンドエンジニアをしているしっぽくんです。 私たち HRBrain では週に1度30分、フロントエンドトークという「1週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で開催しています。 今回は公開第 5 回目です。過去の記事はこちら。     news   Safari 16 new feature https://webki...]]></summary>
+        <content type="html"><![CDATA[こんにちは。株式会社HRBrainでフロントエンドエンジニアをしているしっぽくんです。 私たち HRBrain では週に1度30分、フロントエンドトークという「1週間の間に発見したフロントエンドに関するネタを共有もしくは相談する会」を社内で開催しています。 今回は公開第 5 回目です。過去の記事はこちら。     news   Safari 16 new feature https://webkit.org/blog/12824/news-from-wwdc-webkit-features-in-safari-16-beta/ Safari 16 beta が公開されました。 過去の...]]></content>
+        <author>
+            <name>HRBrain</name>
+        </author>
+        <published>2022-06-10T11:35:36.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[要素数が2の冪でないセグメント木でも，再帰を使わずに二分探索できる | Wantedly Engineer Blog]]></title>
         <id>https://www.wantedly.com/companies/wantedly/post_articles/404135</id>
         <link href="https://www.wantedly.com/companies/wantedly/post_articles/404135"/>
@@ -136,6 +185,18 @@
         <link href="https://www.youtube.com/watch?v=2FHmdkEl-jQ"/>
         <updated>2022-06-10T11:00:31.000Z</updated>
         <published>2022-06-10T11:00:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[男性エンジニアが迷わず育休を1年間とったほうが良い理由 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/bigen1925/articles/reason-why-you-should-take-paternity-leave</id>
+        <link href="https://zenn.dev/bigen1925/articles/reason-why-you-should-take-paternity-leave"/>
+        <updated>2022-06-10T10:21:53.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR  育休をとると、実は年収は上がる 年収600万の人であれば、育休を取得することで年に40h働くだけで今までと同じ手取り収入を得られるようになる。    育休に関する労働時間と手取り収入早見表 表の値を  一ヶ月あたりの労働時間 手取り年収  として、    額面年収 育休を取得せず1年間働いた場合 育休を取得しながら同じ手取りをキープする場合 育休を取得して手取りを最大化する場合   ...]]></summary>
+        <content type="html"><![CDATA[TL;DR  育休をとると、実は年収は上がる 年収600万の人であれば、育休を取得することで年に40h働くだけで今までと同じ手取り収入を得られるようになる。    育休に関する労働時間と手取り収入早見表 表の値を  一ヶ月あたりの労働時間 手取り年収  として、    額面年収 育休を取得せず1年間働いた場合 育休を取得しながら同じ手取りをキープする場合 育休を取得して手取りを最大化する場合     400万 160h312万  37h312万 80h 413万    500万 160h387万  36h387万 80h 512万    600万 160h460万  45h460万 ...]]></content>
+        <author>
+            <name>bigen1925</name>
+        </author>
+        <published>2022-06-10T10:21:53.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Python2 で Boto3 利用時に出力される PythonDeprecationWarning を抑制する | エンジニアブログ | iret.media]]></title>
@@ -594,8 +655,8 @@ https://ai-scholar.tech/articles/object-detection/Few-Shot_Object_Detection | AI
         <id>https://moneyforward.com/engineers_blog/?p=10318</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/10/automation-for-e2e-testing/"/>
         <updated>2022-06-10T01:00:30.000Z</updated>
-        <summary type="html"><![CDATA[みなさんこんにちは！人事労務領域（HR）のQAエンジニア（テスト自動化担当）をし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Jav...]]></summary>
-        <content type="html"><![CDATA[みなさんこんにちは！人事労務領域（HR）のQAエンジニア（テスト自動化担当）をし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Javaにおける例外処理のベスト・プラクティス  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  170万ユーザーを支えるアカウントアグリゲーション開発の裏側  iOS版マネーフォワード MEのダークモード対応  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台   Copyright © Money Forward Engineers' Blog [【クラウド人事管理】E2Eテスト自動化導入のすべて], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[みなさんこんにちは！人事労務領域（HR）のQAエンジニア（テスト自動化担当）をし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠...]]></summary>
+        <content type="html"><![CDATA[みなさんこんにちは！人事労務領域（HR）のQAエンジニア（テスト自動化担当）をし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 京都拠点でRailsのフルリモートなスクラム開発をした知見  【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動  Androidアプリ開発者なら知っておくべきdumpsysコマンド  Emacs Zshなどを設定した話  TwitterにMoney Forward Developersを開設しました   Copyright © Money Forward Engineers' Blog [【クラウド人事管理】E2Eテスト自動化導入のすべて], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -870,18 +931,6 @@ https://ai-scholar.tech/articles/object-detection/Few-Shot_Object_Detection | AI
         <summary type="html"><![CDATA[この記事について  筆者がJavaで構成されるアプリのAPIサーバーを修正していたところ、自前のApiサーバーからAppleのApnsサーバーへpush通知の送信リクエストができなくなってしまいまし…]]></summary>
         <content type="html"><![CDATA[この記事について  筆者がJavaで構成されるアプリのAPIサーバーを修正していたところ、自前のApiサーバーからAppleのApnsサーバーへpush通知の送信リクエストができなくなってしまいまし…]]></content>
         <published>2022-06-09T14:36:59.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub初学者向け無料チュートリアル「GitHub Skills」をやってみた | Zennのトレンド]]></title>
-        <id>https://zenn.dev/yoiyoicho/articles/6a35e752d9ff6a</id>
-        <link href="https://zenn.dev/yoiyoicho/articles/6a35e752d9ff6a"/>
-        <updated>2022-06-09T14:27:05.000Z</updated>
-        <summary type="html"><![CDATA[GitHubの操作を学べる無料チュートリアル「GitHub Skills」が出たぞーというので初学者の私が早速やってみました。 https://www.publickey1.jp/blog/22/githubgithub_skillsgithubmarkdownpagespull_requests.html 結論としては、Markdown記法やブランチ分けてコミットしてプルリク出して〜の一連の流れ...]]></summary>
-        <content type="html"><![CDATA[GitHubの操作を学べる無料チュートリアル「GitHub Skills」が出たぞーというので初学者の私が早速やってみました。 https://www.publickey1.jp/blog/22/githubgithub_skillsgithubmarkdownpagespull_requests.html 結論としては、Markdown記法やブランチ分けてコミットしてプルリク出して〜の一連の流れがまとめて理解できてよかったです。1時間もあれば終わるよ！   GitHub Skillsとは 「初心者から上級者まで、インタラクティブなコースでGitHubの使い方を学べる」（DeepL直訳マ...]]></content>
-        <author>
-            <name>yoshino</name>
-        </author>
-        <published>2022-06-09T14:27:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Web 技術解体新書「第二章 Cache 解体新書」リリース | Zennのトレンド]]></title>
@@ -1178,18 +1227,6 @@ https://ai-scholar.tech/articles/object-detection/Few-Shot_Object_Detection | AI
         <published>2022-06-09T04:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【GraphQL】入門編 ~基礎とQuery / Mutationの書き方~  | Offers Tech Blog | Zennのトレンド]]></title>
-        <id>https://zenn.dev/offers/articles/20220609-graphql-onboarding</id>
-        <link href="https://zenn.dev/offers/articles/20220609-graphql-onboarding"/>
-        <updated>2022-06-09T03:29:21.000Z</updated>
-        <summary type="html"><![CDATA[概要 こんにちは、Offers を運営している株式会社 overflow の Software Engineer（主戦場はフロントエンド）の Kazuya です。今回は、昨今の WEB アプリケーション開発で採用がされるケースが増えてきている GraphQL について紹介します。 「GraphQL」という名前だけは耳にしたことがあるけど、実際はどういうものなのか分からないという人も多いのではないで...]]></summary>
-        <content type="html"><![CDATA[概要 こんにちは、Offers を運営している株式会社 overflow の Software Engineer（主戦場はフロントエンド）の Kazuya です。今回は、昨今の WEB アプリケーション開発で採用がされるケースが増えてきている GraphQL について紹介します。 「GraphQL」という名前だけは耳にしたことがあるけど、実際はどういうものなのか分からないという人も多いのではないでしょうか？本記事では、GraphQL 初心者の方でも理解しやすいよう、概要だけでなく RESTful API との違いや具体的な使用方法も掲載していますので、ぜひ参考にしてもらえればと思い...]]></content>
-        <author>
-            <name>Offers Tech Blog</name>
-        </author>
-        <published>2022-06-09T03:29:21.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1点、2点、3点を通る直線の個数について：座標を用いて証明 | 趣味の大学数学]]></title>
         <id>https://math-fun.net/?p=25240</id>
         <link href="https://math-fun.net/20220609/25240/"/>
@@ -1253,18 +1290,6 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
     </entry>
     <entry>
         <title type="html"><![CDATA[Leaner 開発メンバーの開発環境 | リーナーテックブログさんのフィード]]></title>
-        <id>https://zenn.dev/leaner_tech/articles/20220603-development-environment</id>
-        <link href="https://zenn.dev/leaner_tech/articles/20220603-development-environment"/>
-        <updated>2022-06-09T02:21:24.000Z</updated>
-        <summary type="html"><![CDATA[Leaner 開発チームの黒曜(@kokuyouwind)です。 以前、Leaner開発メンバーのリモートワーク環境を各メンバーから紹介してもらいました。 https://zenn.dev/leaner_tech/articles/20220228-remote_work_facilities Leaner では各自のハードウェア的な作業環境だけではなく、エディタや開発ツールなどソフトウェア的な開...]]></summary>
-        <content type="html"><![CDATA[Leaner 開発チームの黒曜(@kokuyouwind)です。 以前、Leaner開発メンバーのリモートワーク環境を各メンバーから紹介してもらいました。 https://zenn.dev/leaner_tech/articles/20220228-remote_work_facilities Leaner では各自のハードウェア的な作業環境だけではなく、エディタや開発ツールなどソフトウェア的な開発環境も個人の裁量に委ねています。 そこで今回は Leaner 開発メンバーの開発環境を聞いてみました。新しく開発環境を整えたり、今の開発環境を見直す際の参考になれば嬉しいです。   こくぼ  ...]]></content>
-        <author>
-            <name>リーナーテックブログ</name>
-        </author>
-        <published>2022-06-09T02:21:24.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaner 開発メンバーの開発環境 | Zennのトレンド]]></title>
         <id>https://zenn.dev/leaner_tech/articles/20220603-development-environment</id>
         <link href="https://zenn.dev/leaner_tech/articles/20220603-development-environment"/>
         <updated>2022-06-09T02:21:24.000Z</updated>
@@ -1387,8 +1412,8 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
         <id>https://moneyforward.com/engineers_blog/?p=10313</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/09/yurui-study-in-kansai/"/>
         <updated>2022-06-09T01:00:52.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワード クラウド会計Plusの開発をしている段松(@ydammatsu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ste...]]></summary>
-        <content type="html"><![CDATA[マネーフォワード クラウド会計Plusの開発をしている段松(@ydammatsu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  マネーフォワードCTOが考えていること（2021年12月）  Swift2.0で追加された新機能 3選  書評 データ分析プロジェクトの手引（献本御礼）  最近のruby-core (2016年9月)   Copyright © Money Forward Engineers' Blog [関西開発拠点で毎週開催している勉強会「ゆるスタ」の紹介], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[マネーフォワード クラウド会計Plusの開発をしている段松(@ydammatsu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></summary>
+        <content type="html"><![CDATA[マネーフォワード クラウド会計Plusの開発をしている段松(@ydammatsu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアはなぜマックが好きなのか？  エンジニアブログ、始めました  MF KESSAIのマイクロサービス化を支える、Dockerをフル活用した開発環境の歴史  2021年のエンジニアブログをふりかえる  【レポート】2/19 ベストアプリ勉強会＠Sansan   Copyright © Money Forward Engineers' Blog [関西開発拠点で毎週開催している勉強会「ゆるスタ」の紹介], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -1403,18 +1428,6 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
         <summary type="html"><![CDATA[米Googleは6月8日（現地時間）、「Google Cloud」を用いて100兆桁の円周率を計算することに成功し、世界記録を更新したと発表した。同社は2019年にも31兆4000億桁の円周率を計算し、当時の世界記録を樹立していたが、2021年にグラウビュンデン応用科学大学の科学者が62兆8000億桁を計算したことで記録は破られていた。]]></summary>
         <content type="html"><![CDATA[米Googleは6月8日（現地時間）、「Google Cloud」を用いて100兆桁の円周率を計算することに成功し、世界記録を更新したと発表した。同社は2019年にも31兆4000億桁の円周率を計算し、当時の世界記録を樹立していたが、2021年にグラウビュンデン応用科学大学の科学者が62兆8000億桁を計算したことで記録は破られていた。]]></content>
         <published>2022-06-09T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[その日のコミット数に応じて増える Docker キャラクターのコンテナ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/ogty/articles/2eed4d7a-d1de-4d99-bb48-1b4649a8ad7c</id>
-        <link href="https://zenn.dev/ogty/articles/2eed4d7a-d1de-4d99-bb48-1b4649a8ad7c"/>
-        <updated>2022-06-09T00:57:04.000Z</updated>
-        <summary type="html"><![CDATA[前回 Gopher くんをベースにその日のコミット数に応じて伸びる Gopher くん svgというのを書き、Docker のキャラクター Moby Dock でも作りたくなったのと、前回は雑に書いたので、Docker バージョンも作ることにしました。   手順 以下の手順で作成していきます。  ベース画像を取得 コンテナとクジラの部分を切り出す 切り出した画像を svg に変換する コンテナを配...]]></summary>
-        <content type="html"><![CDATA[前回 Gopher くんをベースにその日のコミット数に応じて伸びる Gopher くん svgというのを書き、Docker のキャラクター Moby Dock でも作りたくなったのと、前回は雑に書いたので、Docker バージョンも作ることにしました。   手順 以下の手順で作成していきます。  ベース画像を取得 コンテナとクジラの部分を切り出す 切り出した画像を svg に変換する コンテナを配置する 色を変える コミット数を取得する コードをまとめる デプロイ    ベース画像を取得 画像は「Docker とは」という AWS の公式ページにあった画像を使わせていただきます。    ...]]></content>
-        <author>
-            <name>ogty</name>
-        </author>
-        <published>2022-06-09T00:57:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[社員に聞いた鯛焼き何処から食べるか？【2022年6月10日】 | 株式会社Polestar-ID エンジニアブログ]]></title>
@@ -1667,6 +1680,18 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
         <summary type="html"><![CDATA[New method would enable BERT-based natural-language-processing models to handle longer text strings, run in resource-constrained settings — or sometimes both.]]></summary>
         <content type="html"><![CDATA[New method would enable BERT-based natural-language-processing models to handle longer text strings, run in resource-constrained settings — or sometimes both.]]></content>
         <published>2022-06-08T13:58:24.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS - VPC・IAM・ECSの基礎を学ぶ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/umatoma/articles/44162e9fe2b70e</id>
+        <link href="https://zenn.dev/umatoma/articles/44162e9fe2b70e"/>
+        <updated>2022-06-08T13:01:28.000Z</updated>
+        <summary type="html"><![CDATA[プロダクト開発でAWSを活用するときに、個人ではなくチームとしてAWSの基礎知識を理解している必要がある。 そのような場合に、AWSの基礎知識を理解するための情報を作っておきたいと思う。 ここでは、ECSを中心に使っているプロダクトを想定することとする。   AWSの基礎知識を理解して、活用・運用できる状態 まず、AWSの基礎知識を理解して活用・運用できる状態、をドキュメントなどを読みながら1人で...]]></summary>
+        <content type="html"><![CDATA[プロダクト開発でAWSを活用するときに、個人ではなくチームとしてAWSの基礎知識を理解している必要がある。 そのような場合に、AWSの基礎知識を理解するための情報を作っておきたいと思う。 ここでは、ECSを中心に使っているプロダクトを想定することとする。   AWSの基礎知識を理解して、活用・運用できる状態 まず、AWSの基礎知識を理解して活用・運用できる状態、をドキュメントなどを読みながら1人でAWSの各サービスが使える状態としたいと思う。 なので、SQS使ったことないけどドキュメント読みながら頑張れば使える、だったり、エラー通知が来たときにドキュメント読みながら解決方法を模索できる、...]]></content>
+        <author>
+            <name>umatoma</name>
+        </author>
+        <published>2022-06-08T13:01:28.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top 18 Data Science Facebook Groups | KDnuggets]]></title>
@@ -2099,8 +2124,8 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
         <id>https://moneyforward.com/engineers_blog/?p=10297</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/08/welcome-to-pocke-in-mf/"/>
         <updated>2022-06-08T01:00:49.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。マネーフォワード関西開発拠点で採用広報をしている原口です。 今回は、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 201...]]></summary>
-        <content type="html"><![CDATA[こんにちは。マネーフォワード関西開発拠点で採用広報をしている原口です。 今回は、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 2017年の抱負  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  バリデーションを自動化するgemを作った話  マネーフォワードCTOが考えていること（2022年3月）  20分でできるLIFFアプリ(LINE bot)   Copyright © Money Forward Engineers' Blog [ようこそpockeさん！マネーフォワード関西開発拠点へ〜日々改善と新機能開発を続けるチームでやりたいこと〜], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。マネーフォワード関西開発拠点で採用広報をしている原口です。 今回は、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【クラ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。マネーフォワード関西開発拠点で採用広報をしている原口です。 今回は、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う  RubyKaigi 2019 参加者がチェックすべき福岡飯20選！  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  インターンから見たマネーフォワード  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！   Copyright © Money Forward Engineers' Blog [ようこそpockeさん！マネーフォワード関西開発拠点へ〜日々改善と新機能開発を続けるチームでやりたいこと〜], All Right Reserv...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2115,18 +2140,6 @@ https://www.slideshare.net/cvpaperchallenge/ss-251948753 | cvpaper.challenge | A
         <summary type="html"><![CDATA[こんにちは！CREのmayuzo（@nanaka1103）です。 ANDPADのブログに寄稿するのも３回目となりました。 今回はCREがこの半年で取り組んできたことについて書いていきます！ CREの今の状況は？ 明らかになってきた課題 課題に対応するために取り組んできたこと 1. 現状を可視化し目標を定めた 計測のための準備 結果分析→目標設定へ 2. 調査ナレッジを溜める（簡単に！かつ便利に！）...]]></summary>
         <content type="html"><![CDATA[こんにちは！CREのmayuzo（@nanaka1103）です。 ANDPADのブログに寄稿するのも３回目となりました。 今回はCREがこの半年で取り組んできたことについて書いていきます！ CREの今の状況は？ 明らかになってきた課題 課題に対応するために取り組んできたこと 1. 現状を可視化し目標を定めた 計測のための準備 結果分析→目標設定へ 2. 調査ナレッジを溜める（簡単に！かつ便利に！） 3. 仕様FAQを作成する 4. CRE以外が調査できるダッシュボードを公開する おわりに CREの今の状況は？ 基本的には、2020年に記事に書いた時と変わらず、問い合わせ業務を中心に行っています…]]></content>
         <published>2022-06-08T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自動テストとの向き合い方 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/otetsutabi_tech/articles/20220608_6fad4aea159a0b</id>
-        <link href="https://zenn.dev/otetsutabi_tech/articles/20220608_6fad4aea159a0b"/>
-        <updated>2022-06-08T00:21:25.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 初めまして！ 株式会社おてつたびでフルスタックエンジニアをしているぶりぼんと申します。主にフロントエンド領域を開拓しており、ReactやTypeScriptが最も得意です。 今回は、おてつたびの自動テストとの向き合い方に関してお話しします。 フロントエンドのテスト環境はまだ準備中であるので、バックエンドの自動テストに関して言及します。 テストコードの書き方というより、テストコードを書いた...]]></summary>
-        <content type="html"><![CDATA[はじめに 初めまして！ 株式会社おてつたびでフルスタックエンジニアをしているぶりぼんと申します。主にフロントエンド領域を開拓しており、ReactやTypeScriptが最も得意です。 今回は、おてつたびの自動テストとの向き合い方に関してお話しします。 フロントエンドのテスト環境はまだ準備中であるので、バックエンドの自動テストに関して言及します。 テストコードの書き方というより、テストコードを書いた結果としてどのような恩恵があったか、といった趣旨の記事になっております。   自動テストの導入   導入前のテストとの向き合い方と課題 テストコードを最初に書き始めたのは、2021年の夏頃で...]]></content>
-        <author>
-            <name>おてつたびテックブログ</name>
-        </author>
-        <published>2022-06-08T00:21:25.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Actions から、ECS でのワンショットタスクを実行する | LayerX エンジニアブログ]]></title>
@@ -2505,8 +2518,8 @@ https://ai-scholar.tech/articles/adversarial-perturbation/TRN | AI技術最新�
         <id>https://moneyforward.com/engineers_blog/?p=10291</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/07/pr-our-anti-patterns/"/>
         <updated>2022-06-07T01:00:38.000Z</updated>
-        <summary type="html"><![CDATA[みなさん、こんにちは！🍟 ホームカンパニーにてエンジニアリングマネージャーをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社...]]></summary>
-        <content type="html"><![CDATA[みなさん、こんにちは！🍟 ホームカンパニーにてエンジニアリングマネージャーをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【社内レポ】IT勉強会向けに無料で会場を提供します  メール取込をリリースしました！  【速報】RubyKaigi 2014レポ：tending the ruby ecosystem  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  スクラムチームで実践するDiscordを活用したスウォーミング   Copyright © Money Forward Engineers' Blog [[PR]6/15(水)19時開催！【Retty×マネーフォワード】コラボイベント どう進める？大規模toCサービスのリアーキテクト 〜私たちのアンチパターン...]]></content>
+        <summary type="html"><![CDATA[みなさん、こんにちは！🍟 ホームカンパニーにてエンジニアリングマネージャーをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネ...]]></summary>
+        <content type="html"><![CDATA[みなさん、こんにちは！🍟 ホームカンパニーにてエンジニアリングマネージャーをして … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  qiitaの中の人たちとWIPな情報共有のよさを語り合いました  【レポート】MF Geeks Night (2015年3月)  ICカードリーダーのiOSアプリをSwiftUIで開発しました  マネーフォワードエンジニアインタビュー 西方夏子「大事なのは、その時々で最善な道を考えること」   Copyright © Money Forward Engineers' Blog [[PR]6/15(水)19時開催！【Retty×マネーフォワード】コラボイベント どう進める？大規模toCサービスのリアーキテクト...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2967,8 +2980,8 @@ https://ai-scholar.tech/articles/nerf/nerf | AI技術最新情報メディア | 
         <id>https://moneyforward.com/engineers_blog/?p=10284</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/06/retrospective-internship-2022/"/>
         <updated>2022-06-06T01:00:29.000Z</updated>
-        <summary type="html"><![CDATA[はじめまして。 マネーフォワード業務基盤グループでインターンをしている村上です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></summary>
-        <content type="html"><![CDATA[はじめまして。 マネーフォワード業務基盤グループでインターンをしている村上です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rubyコードの健康を保つためのgem 5+1選  Money Forward Advent Calendar 2015  2021年のエンジニアブログをふりかえる  マネーフォワード開発合宿 in COLONY 箱根  マネーフォワードからGopherConに参加しました！   Copyright © Money Forward Engineers' Blog [マネーフォワードのインターンを振り返る in 2022], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[はじめまして。 マネーフォワード業務基盤グループでインターンをしている村上です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...]]></summary>
+        <content type="html"><![CDATA[はじめまして。 マネーフォワード業務基盤グループでインターンをしている村上です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RailsConf 2018に参加してきました  [インターンレポ] 脆弱性診断をやってみた  2017年の抱負  ビジネスカンパニー初採用のデータアナリストが入社3ヶ月を総括する  10分コーディング！ Rubyでつくる Slack時報   Copyright © Money Forward Engineers' Blog [マネーフォワードのインターンを振り返る in 2022], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3595,8 +3608,8 @@ http://hirokatsukataoka.net/temp/presen/220324GTC2022.pdf | cvpaper.challenge | 
         <id>https://moneyforward.com/engineers_blog/?p=10278</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/03/team-principles-in-service-infra/"/>
         <updated>2022-06-03T00:30:52.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。サービス基盤本部長の鈴木(@syou1024) です。 サービス基盤 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Ra...]]></summary>
-        <content type="html"><![CDATA[こんにちは。サービス基盤本部長の鈴木(@syou1024) です。 サービス基盤 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  最近AndroidのViewに思うこと（CustomView編）  【社内レポ】マネーフォワードのエンジニア  2021年のエンジニアブログをふりかえる  マネーフォワードの未来について語る会を開催   Copyright © Money Forward Engineers' Blog [Service Infra Team Principles], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。サービス基盤本部長の鈴木(@syou1024) です。 サービス基盤 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 大量デ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。サービス基盤本部長の鈴木(@syou1024) です。 サービス基盤 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 大量データで性能テストをする際に考えた事 ~ 将来のユーザーを見据えたテスト方針 ~  転職の不安を吹き飛ばす、入社2週間で溶け込むマネーフォワード流オンボーディング  StepFunctionsとSageMakerでML学習パイプラインをつくる  マネーフォワードエンジニアインターン 小笠原純也「ユーザーの人生に寄り添えるサービスを」  vim のイースターエッグの話   Copyright © Money Forward Engineers' Blog [Service Infra Team Principles], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4076,8 +4089,8 @@ https://ai-scholar.tech/articles/nas/NASWOT | AI技術最新情報メディア |
         <id>https://moneyforward.com/engineers_blog/?p=10271</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/02/quality-improvement-with-qae/"/>
         <updated>2022-06-02T00:30:33.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチャーでナウくなりそうなセキュリティサービス  マネーフォワードにおけるソース管理手法  MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  マネーフォワード京都拠点について気になる事  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[はじめに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: チーム...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。「マネーフォワード クラウド勤怠」のエンジニアをしています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: チームでやっている ZenHub x Scrapbox を使ったフルリモートなアジャイル開発の紹介  関西開発拠点で毎週開催している勉強会「ゆるスタ」の紹介  【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  ACML2019 参加レポート  Railsで複雑なSQL処理をする時のTips：squeel編   Copyright © Money Forward Engineers' Blog [【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4541,8 +4554,8 @@ https://ai-scholar.tech/articles/face-recognition/comparing_bias | AI技術最�
         <id>https://moneyforward.com/engineers_blog/?p=10260</id>
         <link href="https://moneyforward.com/engineers_blog/2022/06/01/mvv-in-qa-engineers/"/>
         <updated>2022-06-01T00:30:07.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 私の履...]]></summary>
-        <content type="html"><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 私の履歴書：マネーフォワードの会計開発チーム編  Scrum Fest Niigata 2022 に登壇しました！  iOS版マネーフォワード MEのダークモード対応  マネーフォワードボルダリング部  はじめまして！ 京都開発拠点   Copyright © Money Forward Engineers' Blog [QAエンジニアのMISSION/VISION/VALUEを作りました！], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネ...]]></summary>
+        <content type="html"><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネスカンパニー初採用のデータアナリストが入社3ヶ月を総括する  新会社「MF KESSAI」はどのような技術・インフラ・体制で開発しているのか  Service Infra Team Principles  【レポート】MF Geeks Night (2015年11月)  How I integrated the Kibela API into my local note-taking routine   Copyright © Money Forward Engineers' Blog [QAエンジニアのMISSION/VISION/VALUEを作りました！], All Right Reser...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5176,8 +5189,8 @@ https://forms.gle/RCuTNhDbogJSXUZB7 | cvpaper.challenge | AI/CV研究コミュ�
         <id>https://moneyforward.com/engineers_blog/?p=10251</id>
         <link href="https://moneyforward.com/engineers_blog/2022/05/31/applying-open-policy-agents/"/>
         <updated>2022-05-31T00:30:13.000Z</updated>
-        <summary type="html"><![CDATA[Introduction Hi everyone, I’m @tnq … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is Cloud ...]]></summary>
-        <content type="html"><![CDATA[Introduction Hi everyone, I’m @tnq … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Is Cloud Engineering a Promising Career Field to Get Into?  【社内レポ】エンジニアドリブンのための「Sketch.app」講座 Vol.1  とあるエンジニアのマネフォ的 1日の過ごし方  最近のruby-core (2016年10月)  【レポート】MF Geeks Night (2015年4月)   Copyright © Money Forward Engineers' Blog [How to avoid Security Group changes corruption in terraform by applying Open Policy...]]></content>
+        <summary type="html"><![CDATA[Introduction Hi everyone, I’m @tnq … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードに...]]></summary>
+        <content type="html"><![CDATA[Introduction Hi everyone, I’m @tnq … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードに来てから7ヶ月過ぎました - インターン生から見た京都拠点の話 -  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  エンジニアが紹介する、エンジニアが好みそうな映画  GraphQL Federation - API Gatewayの進化  JSON仕様（ECMA-404） を眺めてみる   Copyright © Money Forward Engineers' Blog [How to avoid Security Group changes corruption in terraform by applying Open Po...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5652,8 +5665,8 @@ https://ai-scholar.tech/articles/gan/styletransformer | AI技術最新情報メ�
         <id>https://moneyforward.com/engineers_blog/?p=10244</id>
         <link href="https://moneyforward.com/engineers_blog/2022/05/30/scrum-fest-osaka-2022/"/>
         <updated>2022-05-30T00:30:58.000Z</updated>
-        <summary type="html"><![CDATA[スポンサーになりました マネーフォワードは、昨年に引き続き、ゴールドスポンサーと … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだ...]]></summary>
-        <content type="html"><![CDATA[スポンサーになりました マネーフォワードは、昨年に引き続き、ゴールドスポンサーと … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだけ主夫をやった話  Railsのnew_framework_defaultsとの向き合い方  Story of being a speaker at a tech panel discussion  【全力土下座案件】JAWS-UG SRE支部#2登壇の件  マネーフォワードボルダリング部   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に協賛します＆登壇します], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[スポンサーになりました マネーフォワードは、昨年に引き続き、ゴールドスポンサーと … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></summary>
+        <content type="html"><![CDATA[スポンサーになりました マネーフォワードは、昨年に引き続き、ゴールドスポンサーと … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android版「マネーフォワード」をマテリアルデザイン対応したときのあれこれ  How to avoid Security Group changes corruption in terraform by applying Open Policy Agents (OPA)?  最近のruby-core (2016年4月)  [PR]6/15(水)19時開催！【Retty×マネーフォワード】コラボイベント どう進める？大規模toCサービスのリアーキテクト 〜私たちのアンチパターン〜🎉  Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法   Copyright © Money Fo...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
