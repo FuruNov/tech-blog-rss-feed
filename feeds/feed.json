@@ -7,6 +7,76 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://www.klab.com/jp/blog/tech/2022/sqlite3-vfs.html",
+            "content_html": "こんにちは @mecha_g3 です。 SQLiteは軽量でコンパクトなRDBMSです。KLabではスマートフォン向けのゲームでゲームのパラメータやユーザーの設定を保存するのに使用しています。 今回はそんなSQLiteの一番低レイヤにある、OS毎の実装を抽象化しているインターフェース (VFS) を実装する方法を解説します。 SQLiteのWebサイトにVFS実装のサンプルがいくつかあります。より詳細で正確な情報はこちらを参照してください。 参考: The SQLite OS Interface or \"VFS\" VFSでできること SQLiteの実装のうちOSとファイルシステムに関連する部分、つまり Open, Read, Write, Close などの関数をすべて自作のものに差し替える事ができます。 例えば、特殊な制約があるファイルシステムを持っているデバイス向けに特化した実装を行うことができたり、dbファイルを自作の関数で難読化して保存したりすることができたり、ネットワーク越しにSQLiteのファイルを読み書きすることも頑張り次第で可能です。 デフォルトのVFSと自作のVFS ...",
+            "url": "https://www.klab.com/jp/blog/tech/2022/sqlite3-vfs.html",
+            "title": "SQLiteVFSの作り方 | Technology",
+            "summary": "こんにちは @mecha_g3 です。 SQLiteは軽量でコンパクトなRDBMSです。KLabではスマートフォン向けのゲームでゲームのパラメータやユーザーの設定を保存するのに使用しています。 今回はそんなSQLiteの一番低レイヤにある、OS毎の実装を抽象化しているインターフェース (VFS) を実装する方法を解説します。 SQLiteのWebサイトにVFS実装のサンプルがいくつかあります。より...",
+            "date_modified": "2022-06-30T05:00:00.000Z",
+            "date_published": "2022-06-30T05:00:00.000Z",
+            "tags": [
+                "ノウハウ"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1421347.html",
+            "content_html": "米Googleは6月28日（現地時間）、同社が提供するビデオ会議ツール「Google Meet」で、会議に招待されているメンバーの内「まだ出席していない」人とその出欠可否が一覧表示できる機能を追加すると発表した。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1421347.html",
+            "title": "「Google Meet」での出欠確認がより便利に ～参加予定者とその出欠可否の一覧表示を追加／チャットを介して「Google Meet」から直接出欠確認も可能 | 窓の杜",
+            "summary": "米Googleは6月28日（現地時間）、同社が提供するビデオ会議ツール「Google Meet」で、会議に招待されているメンバーの内「まだ出席していない」人とその出欠可否が一覧表示できる機能を追加すると発表した。",
+            "date_modified": "2022-06-30T05:00:00.000Z",
+            "date_published": "2022-06-30T05:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1421342.html",
+            "content_html": "米Microsoftは6月24日（現地時間、以下同）、「Windows Server」でインターネットトラフィックを正しく誘導できなくなる問題が発生していたことを明らかにした。2022年6月Bリリースで配信された更新プログラムが原因で、2022年6月Cリリースで解決されているという。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1421342.html",
+            "title": "2022年6月Bパッチで「Windows Server」のNATにトラブル、インターネット接続が不能に／最新のパッチで解決済み | 窓の杜",
+            "summary": "米Microsoftは6月24日（現地時間、以下同）、「Windows Server」でインターネットトラフィックを正しく誘導できなくなる問題が発生していたことを明らかにした。2022年6月Bリリースで配信された更新プログラムが原因で、2022年6月Cリリースで解決されているという。",
+            "date_modified": "2022-06-30T04:56:00.000Z",
+            "date_published": "2022-06-30T04:56:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/bookwatch/news/1421024.html",
+            "content_html": "（株）インプレスは、LINE株式会社が提供する企業・店舗向けサービスの公式解説書『はじめてでもできる！ LINEビジネス活用公式ガイド』の全文を6月30日～7月2日の3日間限定で、無料公開した。期間中は、特設ページにて閲覧が可能だ。これに合わせて、キャンペーン期間中は、直販サイト「インプレスブックス」にてPDF形式の電子書籍版を50％OFFで販売するセールも実施されている。",
+            "url": "https://forest.watch.impress.co.jp/docs/bookwatch/news/1421024.html",
+            "title": "「LINE」を活用した企業・店舗向けサービスの公式解説書が3日間限定で全文無料公開／『LINEビジネス活用公式ガイド』のキャンペーン。PDF版の50％OFFセールも開催【Book Watch/ニュース】 | 窓の杜",
+            "summary": "（株）インプレスは、LINE株式会社が提供する企業・店舗向けサービスの公式解説書『はじめてでもできる！ LINEビジネス活用公式ガイド』の全文を6月30日～7月2日の3日間限定で、無料公開した。期間中は、特設ページにて閲覧が可能だ。これに合わせて、キャンペーン期間中は、直販サイト「インプレスブックス」にてPDF形式の電子書籍版を50％OFFで販売するセールも実施されている。",
+            "date_modified": "2022-06-30T04:24:00.000Z",
+            "date_published": "2022-06-30T04:24:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://medium.com/p/4b7adee3760a",
+            "content_html": "",
+            "url": "https://mixi-developers.mixi.co.jp/ci-cd-using-dynamic-created-virtual-machine-4b7adee3760a?source=rss----bc6b0ae5a97c---4",
+            "title": "動的に仮想環境を構築して CI/CD を実行する | mixi developers - Medium",
+            "date_modified": "2022-06-30T03:32:32.000Z",
+            "date_published": "2022-06-30T03:32:32.000Z",
+            "author": {
+                "name": "BBQ All Stars"
+            },
+            "tags": [
+                "virtual-machine",
+                "ci-cd-pipeline",
+                "devops",
+                "self-hosted-runner",
+                "sre"
+            ]
+        },
+        {
+            "id": "https://blog.zaim.co.jp/n/nd040ed2bc2e6",
+            "content_html": "こんにちは、株式会社 Zaim で iOS エンジニアをしている TEM です。今年のWWDCでは多くの面白い発表がありましたね！今回その中でも一番興味を惹かれたセッション「Use SwiftUI with UIKit」について簡単にまとめてみました。 WWDC22 「Use SwiftUI with UIKit」 続きをみる",
+            "url": "https://blog.zaim.co.jp/n/nd040ed2bc2e6",
+            "title": "WWDC22 UIHostingConfigurationを使って UIKitで部分的にSwiftUIを取り入れる | Zaim スタッフの頭の中",
+            "summary": "こんにちは、株式会社 Zaim で iOS エンジニアをしている TEM です。今年のWWDCでは多くの面白い発表がありましたね！今回その中でも一番興味を惹かれたセッション「Use SwiftUI with UIKit」について簡単にまとめてみました。 WWDC22 「Use SwiftUI with UIKit」 続きをみる",
+            "date_modified": "2022-06-30T03:27:34.000Z",
+            "date_published": "2022-06-30T03:27:34.000Z",
+            "tags": []
+        },
+        {
             "id": "https://kaminashi-developer.hatenablog.jp/entry/2022/06/30/120509",
             "content_html": "カミナシ・エンジニアリングマネージャーの @dmi8a です。 先日行われた レガシー現場をテクノロジーで切り拓く 〜保育・教育・建設・製造・医療現場で活躍する管理画面づくりとは〜 にて「紙にまつわる苦しみを機能化してきたカミナシの歴史」というタイトルで発表してきました。 概要 「カミナシ」というサービスは、その名の通り、様々な紙の帳票を無くす効果がある（デジタル化する）サービスですが、 それだけではなく、紙の帳票を使って行われる様々な業務フローまでをもデジタル化するサービスです。 Webアプリケーションとmobileアプリケーションの双方をアプリケーション群とし、1つのサービスとして提供して…",
             "url": "https://kaminashi-developer.hatenablog.jp/entry/2022/06/30/120509",
@@ -481,16 +551,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/Tyamamoto1007/items/57d08588a10e7ada16c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "前回、「不義理な仕事は絶対にやめよう」で大きな反響をいただきました。 その中でもテイカーのお話のリアクションが多かったので、テイカーの注意点を紹介したいと思います。 ※主にテイカーと仕事する人を対象…",
-            "url": "https://qiita.com/Tyamamoto1007/items/57d08588a10e7ada16c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "テイカーはテイカーの顔をしていない(だからこそ要注意) | Qiita - 人気の記事",
-            "summary": "前回、「不義理な仕事は絶対にやめよう」で大きな反響をいただきました。 その中でもテイカーのお話のリアクションが多かったので、テイカーの注意点を紹介したいと思います。 ※主にテイカーと仕事する人を対象…",
-            "date_modified": "2022-06-29T10:18:49.000Z",
-            "date_published": "2022-06-29T10:18:49.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.kdnuggets.com/?p=143509",
             "content_html": "20 Basic Linux Commands for Data Science Beginners; Market Data and News: A Time Series Analysis; Data Science Career: 7 Expectations vs Reality; Machine Learning Is Not Like Your Brain Part 4: The Neuron’s Limited Ability to Represent Precise Values; Comprehensive Guide to the Normal Distribution",
             "url": "https://www.kdnuggets.com/2022/n26.html?utm_source=rss&utm_medium=rss&utm_campaign=kdnuggets-news-june-29-20-basic-linux-commands-for-data-science-beginners-market-data-and-news-a-time-series-analysis",
@@ -606,6 +666,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/apple_nktn/articles/38ba20a8b2d69a",
+            "content_html": "https://zenn.dev/apple_nktn/articles/042f870bd48ab6 以前こちらを記憶の限りで書いたのですが、 挙動的に記事の内容とはちょっと違っていたので正確に書き直したいと思います。  恐らく端末固有バグで且つアプリによって 発生するアプリがあったり発生しないアプリがあるっぽいので 状況としてはかなり複雑っぽいです。    ダイナミックリンクをタップしても一瞬アプリが入ってないかのような動作になった後、通常導線でアプリが開いてしまう 上記タイトルままで、 ダイナミックリンクをタップすると一瞬アプリが入っていない時の ローディングインジケーターが表示さ...",
+            "url": "https://zenn.dev/apple_nktn/articles/38ba20a8b2d69a",
+            "title": "android12 DynamicLinksのやばいバグの件について。 | Zennのトレンド",
+            "summary": "https://zenn.dev/apple_nktn/articles/042f870bd48ab6 以前こちらを記憶の限りで書いたのですが、 挙動的に記事の内容とはちょっと違っていたので正確に書き直したいと思います。  恐らく端末固有バグで且つアプリによって 発生するアプリがあったり発生しないアプリがあるっぽいので 状況としてはかなり複雑っぽいです。    ダイナミックリンクをタップしても一瞬...",
+            "date_modified": "2022-06-29T07:15:04.000Z",
+            "date_published": "2022-06-29T07:15:04.000Z",
+            "author": {
+                "name": "あっぷる中谷"
+            },
+            "tags": []
+        },
+        {
             "id": "https://blog.gmo.media/post-2144/",
             "content_html": "こんにちわ！サービスデザイン部のホリウチです。サービスデザイン部ではデザイナー横断で、グループミッション（通称ぐるみ）活動を行なっております。今回は、その中でデザインマネジメントチーム（通称デザマジチーム）の活動の共有を [&#8230;]",
             "url": "https://blog.gmo.media/post-2144/",
@@ -686,6 +759,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/hessihan/articles/72962d6fea1440",
+            "content_html": "2 \\times 2のパネルデータ:「処置群と対照群」「処置後と処置前」 「処置群の処置前後の差」と「対照群の処置前後の差」の差 差の差が因果効果であるためにはparalell trends assumptionが必要． DIDはtwo-way fixed effect regressionで推定．  Difference-in-Differences: DID[1] (差分の差分法)は，randomizedされていない処置の因果効果を推定する最も代表的な準実験(quasi-experimental)デザインの1つです．他のdesign-basedなリサーチデザイン(e.g., IV...",
+            "url": "https://zenn.dev/hessihan/articles/72962d6fea1440",
+            "title": "【Juliaで因果推論】Difference-in-Differences: DID (差分の差分法) | Zennのトレンド",
+            "summary": "2 \\times 2のパネルデータ:「処置群と対照群」「処置後と処置前」 「処置群の処置前後の差」と「対照群の処置前後の差」の差 差の差が因果効果であるためにはparalell trends assumptionが必要． DIDはtwo-way fixed effect regressionで推定．  Difference-in-Differences: DID[1] (差分の差分法)は，rand...",
+            "date_modified": "2022-06-29T05:44:32.000Z",
+            "date_published": "2022-06-29T05:44:32.000Z",
+            "author": {
+                "name": "hessihan"
+            },
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/yodaka/articles/eca2d4bf552aeb",
             "content_html": "初めに 最近自分がNext.jsをやる案件がとにかく増え、ディレクトリ構成が固まってきたのでここに置いておきます。 何か意見あれば是非いただけると嬉しいです。 個人的に最近流行りのfeaturesはやりすぎだと思っていたのですが、結局開発していくとfeaturesのようなディレクトリを切った方が合理的な場面が多々出てきたのでこうなった次第です。   設計時に参考にした記事 こちらのReact TypeScript Cheatsheetに、Recommendationとして載っているbulletproof-reactを参考にしました。 https://react-typescript-...",
             "url": "https://zenn.dev/yodaka/articles/eca2d4bf552aeb",
@@ -746,6 +832,19 @@
             "summary": "認証認可とワンセットで語られることが多い印象だが、今回話すのは「認可（Authorization）」の話だ。「認証（Authentication）」の話は含まない。 （システムで言う）認可とは、大雑把に言うと「誰が」「何を」「どうすることが」「できる/できない」の要素に従って判定することだ。 どちらも略すと「Auth」になってしまってクラス名が衝突したりするので困ることがある。区別するために認証は...",
             "date_modified": "2022-06-29T05:00:00.000Z",
             "date_published": "2022-06-29T05:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/kazu_mashup/articles/12b9292c9f999e",
+            "content_html": "みなさん、こんにちは！！ 個人でコンサルティングやライフコーチングのお仕事をしているカズこと濱和之です。 この度、ご縁をいただきここにたどり着きました！！ 今日はOffersさんで複業を経験したことから、その経緯や複業のメリット・注意点など\"知っておくとなにかと便利\"な情報をシェアしてみようと思います〜。   複業のマッチング・プラットフォーム「Offers」の活用・利用背景   コンサルティングについて 今日はOffersさんという複業のマッチング・プラットフォームを活用した仕事探しについて書きたいと思います。 Offersに登録した背景としては、経験を活かしたい・おもしろい仕事をして...",
+            "url": "https://zenn.dev/kazu_mashup/articles/12b9292c9f999e",
+            "title": "Offersとマッシュアップして\"複業\"してみた!! | Zennのトレンド",
+            "summary": "みなさん、こんにちは！！ 個人でコンサルティングやライフコーチングのお仕事をしているカズこと濱和之です。 この度、ご縁をいただきここにたどり着きました！！ 今日はOffersさんで複業を経験したことから、その経緯や複業のメリット・注意点など\"知っておくとなにかと便利\"な情報をシェアしてみようと思います〜。   複業のマッチング・プラットフォーム「Offers」の活用・利用背景   コンサルティング...",
+            "date_modified": "2022-06-29T04:48:18.000Z",
+            "date_published": "2022-06-29T04:48:18.000Z",
+            "author": {
+                "name": "kazu_mashup"
+            },
             "tags": []
         },
         {
@@ -1069,6 +1168,19 @@
             "summary": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
             "date_modified": "2022-06-28T21:45:00.000Z",
             "date_published": "2022-06-28T21:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/OpenAI/status/1541871427178991616#m",
+            "content_html": "Reducing risks associated with DALL·E 2 before publicly previewing it: openai.com/blog/dall-e-2-pre…",
+            "url": "https://nitter.net/OpenAI/status/1541871427178991616#m",
+            "title": "Reducing risks associated with DALL·E 2 before publicly previewing it: https://openai.com/blog/dall-e-2-pre-training-mitigations/ | OpenAI / @OpenAI",
+            "summary": "Reducing risks associated with DALL·E 2 before publicly previewing it: openai.com/blog/dall-e-2-pre…",
+            "date_modified": "2022-06-28T19:49:29.000Z",
+            "date_published": "2022-06-28T19:49:29.000Z",
+            "author": {
+                "name": "@OpenAI"
+            },
             "tags": []
         },
         {
@@ -1774,6 +1886,24 @@
             ]
         },
         {
+            "id": "https://technote.qualiarts.jp/article/40",
+            "content_html": "基盤開発の属人化を防ぐために実施した施策「テックリレー」について紹介します。",
+            "url": "https://technote.qualiarts.jp/article/40",
+            "title": "基盤開発の属人化を防ぐための施策「テックリレー」を実施してみた | Qualiartsエンジニアブログ",
+            "summary": "基盤開発の属人化を防ぐために実施した施策「テックリレー」について紹介します。",
+            "date_modified": "2022-06-28T01:00:00.000Z",
+            "date_published": "2022-06-28T01:00:00.000Z",
+            "author": {
+                "name": "tamura_kazunori"
+            },
+            "tags": [
+                "技術組織",
+                "技術戦略",
+                "技術施策",
+                "Unity"
+            ]
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1420490.html",
             "content_html": "米Microsoftは6月27日（現地時間）、Windows 10搭載のコンシューマーデバイスでも「WebView2」ランタイムの展開を開始したと発表した。Windows 11にはすでに含まれている。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1420490.html",
@@ -1849,19 +1979,6 @@
             ]
         },
         {
-            "id": "https://zenn.dev/ojin/articles/6019f37c2b68cc",
-            "content_html": "初めまして、ソフトウェアエンジニアの ojin です。普段は、主にフロントエンド専任で開発することが多いですが、バックエンド歴も長いため色々と興味が湧いてしまうタイプです。 はい、それではこちらのブラウザ、端末依存についてを書いていこうと思います。ここで書いているのはただの方針に過ぎないので、特に真新しいことはないと思います。間違っていたり、もっといい方法があったら教えてくだされば喜びます。 今やモバイル対応は必須になっていますが、ではどこまで対応すれば良いのでしょうか？そんな悩みを持つ人は多いと思います。そこで自分なりのやり方を書き起こしました。 ! 僕がWeb系でアジャイル開発をして...",
-            "url": "https://zenn.dev/ojin/articles/6019f37c2b68cc",
-            "title": "[モバイル対応]フロントエンドの要件のブラウザ依存を考慮するためのエンジニアの動き方 | Zennのトレンド",
-            "summary": "初めまして、ソフトウェアエンジニアの ojin です。普段は、主にフロントエンド専任で開発することが多いですが、バックエンド歴も長いため色々と興味が湧いてしまうタイプです。 はい、それではこちらのブラウザ、端末依存についてを書いていこうと思います。ここで書いているのはただの方針に過ぎないので、特に真新しいことはないと思います。間違っていたり、もっといい方法があったら教えてくだされば喜びます。 今や...",
-            "date_modified": "2022-06-27T23:56:04.000Z",
-            "date_published": "2022-06-27T23:56:04.000Z",
-            "author": {
-                "name": "ofa-chan"
-            },
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/mya_ake/articles/5517a5001db48e",
             "content_html": "はじめに こんにちは猫です。  反響がけっこうあったので、用途を深掘ってみようと思います。が、先に訂正があります。 ReactElement<Props>で特定のコンポーネントを指定できると思っていたのですが、色々試したところコンポーネントの指定までは難しいようでした。早とちりですいません。 JSXに書かれたコンポーネントはJSX.Elementとなるため、詳細なPropsの型まではチェックしてくれないようです（ReactElement以外のFunctionComponentElementなど他の型も試したのですが、結果は変わらず）。 そのため、この記事では現状可能なこと...",
             "url": "https://zenn.dev/mya_ake/articles/5517a5001db48e",
@@ -1932,16 +2049,6 @@
             "summary": "180以上のファイル形式をサポートしたオープンソースの圧縮・解凍ソフト",
             "date_modified": "2022-06-27T22:30:00.000Z",
             "date_published": "2022-06-27T22:30:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1420460.html",
-            "content_html": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1420460.html",
-            "title": "「Hyper-V」仮想マシンに「Windows 11 バージョン 22H2」をインストールする方法／今秋の正式リリース前に試してみよう【やじうまの杜】 | 窓の杜",
-            "summary": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "date_modified": "2022-06-27T21:55:00.000Z",
-            "date_published": "2022-06-27T21:55:00.000Z",
             "tags": []
         },
         {
@@ -2268,15 +2375,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/digest/1420424.html",
-            "content_html": "",
-            "url": "https://forest.watch.impress.co.jp/docs/digest/1420424.html",
-            "title": "RIGHT / FULL OUTER JOINをサポートした「SQLite」v3.39.0が公開　ほか【ダイジェストニュース】 | 窓の杜",
-            "date_modified": "2022-06-27T08:50:54.000Z",
-            "date_published": "2022-06-27T08:50:54.000Z",
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/kazatsuyu/articles/33e130563b87b1",
             "content_html": "皆様、ごきげんよう。 わたくし、Rustaceanお嬢様の白山風露と申しますわ[1]。 本日はセバスチャン[2]マクロの作成を通して、皆様と一緒にRustの手続きマクロの作り方を学んでいこうと思いますの。   手続きマクロとは何ですの？ 皆様の中にはそんな疑問を抱いている方もいらっしゃるのではないかしら？ 手続きマクロは、英語の\"Procedural macro\"の訳語ですわ。 こちらはRustのバージョン1.15.0で安定化された、以前は\"Macros 1.1\"なんて呼ばれていた機能ですの。 手続きマクロが1.1なのですから、以前にもRustにはマクロが存在しておりまして、macro_...",
             "url": "https://zenn.dev/kazatsuyu/articles/33e130563b87b1",
@@ -2305,16 +2403,6 @@
                 "Tips",
                 "Kubernetes"
             ]
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1420381.html",
-            "content_html": "米Googleは6月23日（現地時間）、「Google Chrome 104」のベータ版に追加された新機能と変更点を発表した。「Chrome 104」では「Region Capture」をはじめとするさまざまな新機能がサポートされている。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1420381.html",
-            "title": "「Google Chrome 104」がベータ版に ～「Region Capture」などの新機能をサポート／「OS X 10.11」と「macOS 10.12」のサポートは終了 | 窓の杜",
-            "summary": "米Googleは6月23日（現地時間）、「Google Chrome 104」のベータ版に追加された新機能と変更点を発表した。「Chrome 104」では「Region Capture」をはじめとするさまざまな新機能がサポートされている。",
-            "date_modified": "2022-06-27T07:42:53.000Z",
-            "date_published": "2022-06-27T07:42:53.000Z",
-            "tags": []
         },
         {
             "id": "https://tech-lab.sios.jp/?p=29702",
@@ -2424,58 +2512,6 @@
             "summary": "バンドルカードの SRE をしている summerwind です。最近は A Philosophy of Software Design を読んでいます。 タイトルの通り、2022年6月21日からバンドルカードと Pool のカードが 3D セキュアに対応しました。バンドルカードではアプリですぐに発行可能なバーチャルカードを含む全てのカードで対応しているので、気軽により多くの加盟店での決済にご利用...",
             "date_modified": "2022-06-27T04:52:10.000Z",
             "date_published": "2022-06-27T04:52:10.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1541280886741643265#m",
-            "content_html": "13:00〜13:30には研究コミュニティからCVPR 2022に採択された２本の論文紹介を主著自ら行います！NEDO/産総研からプレスリリースも行われ、MIT Tech. Reviewにも掲載されました。 technologyreview.jp/n/2022/0… nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "url": "https://nitter.net/CVpaperChalleng/status/1541280886741643265#m",
-            "title": "13:00〜13:30には研究コミュニティからCVPR 2022に採択された２本の論文紹介を主著自ら行います！NEDO/産総研からプレスリリースも行われ、MIT Tech. Reviewにも掲載されました。\nhttps://www.technologyreview.jp/n/2022/06/16/278385/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "13:00〜13:30には研究コミュニティからCVPR 2022に採択された２本の論文紹介を主著自ら行います！NEDO/産総研からプレスリリースも行われ、MIT Tech. Reviewにも掲載されました。 technologyreview.jp/n/2022/0… nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "date_modified": "2022-06-27T04:42:53.000Z",
-            "date_published": "2022-06-27T04:42:53.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1541280783033176065#m",
-            "content_html": "特に、robotpaper.challenge は積極的に研究メンバーを募集しています。最近さらに、アドバイザの先生方もお呼びしておりますので、充実した研究活動ができると思います。 nitter.net/HirokatuKataoka/status/1379422252790292492#m",
-            "url": "https://nitter.net/CVpaperChalleng/status/1541280783033176065#m",
-            "title": "特に、robotpaper.challenge は積極的に研究メンバーを募集しています。最近さらに、アドバイザの先生方もお呼びしておりますので、充実した研究活動ができると思います。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "特に、robotpaper.challenge は積極的に研究メンバーを募集しています。最近さらに、アドバイザの先生方もお呼びしておりますので、充実した研究活動ができると思います。 nitter.net/HirokatuKataoka/status/1379422252790292492#m",
-            "date_modified": "2022-06-27T04:42:28.000Z",
-            "date_published": "2022-06-27T04:42:28.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1541280700841598978#m",
-            "content_html": "11:10〜12:10にはNLP/Roboticsの研究コミュニティの代表者にご発表いただきます。Vision and Languageへの取り組み、CV・Robotics連携などをお話しいただく予定です。 nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "url": "https://nitter.net/CVpaperChalleng/status/1541280700841598978#m",
-            "title": "11:10〜12:10にはNLP/Roboticsの研究コミュニティの代表者にご発表いただきます。Vision and Languageへの取り組み、CV・Robotics連携などをお話しいただく予定です。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "11:10〜12:10にはNLP/Roboticsの研究コミュニティの代表者にご発表いただきます。Vision and Languageへの取り組み、CV・Robotics連携などをお話しいただく予定です。 nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "date_modified": "2022-06-27T04:42:09.000Z",
-            "date_published": "2022-06-27T04:42:09.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1541280594436378624#m",
-            "content_html": "CCC Summer 2022 は、いよいよ来週金曜日7/8開催となりました！まだまだ参加募集中です。 nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "url": "https://nitter.net/CVpaperChalleng/status/1541280594436378624#m",
-            "title": "CCC Summer 2022 は、いよいよ来週金曜日7/8開催となりました！まだまだ参加募集中です。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "CCC Summer 2022 は、いよいよ来週金曜日7/8開催となりました！まだまだ参加募集中です。 nitter.net/CVpaperChalleng/status/1537627761413877760#m",
-            "date_modified": "2022-06-27T04:41:43.000Z",
-            "date_published": "2022-06-27T04:41:43.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
             "tags": []
         },
         {
@@ -2699,10 +2735,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10378",
-            "content_html": "こんにちは、関西開発拠点に所属し、マネーフォーワード クラウド会計Plusでスク … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート速報】Google I/O 2016 - Day1  Qiita/Qiita:Team Meetup #8 に参加してきました！  マネーフォワードへの道（電車で行く 京都開発拠点編）  メール取込をリリースしました！  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.",
+            "content_html": "こんにちは、関西開発拠点に所属し、マネーフォーワード クラウド会計Plusでスク … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: railsでseedデータを簡単に取り込む  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  MacにUbuntuを入れるとOSXより起動が速い  【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  Qiita/Qiita:Team Meetup #8 に参加してきました！   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/06/27/scrum-fest-osaka-2022-2/",
             "title": "Scrum Fest Osaka 2022 に参加してきました！ | Money Forward Engineers' Blog",
-            "summary": "こんにちは、関西開発拠点に所属し、マネーフォーワード クラウド会計Plusでスク … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
+            "summary": "こんにちは、関西開発拠点に所属し、マネーフォーワード クラウド会計Plusでスク … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: rai...",
             "date_modified": "2022-06-27T01:00:05.000Z",
             "date_published": "2022-06-27T01:00:05.000Z",
             "author": {
@@ -2769,19 +2805,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/tfutada/articles/16766e3b4560db",
-            "content_html": "この記事ではRustのスレッドとチャネルについてご紹介します。最後に共有メモリについても少しだけ触れます。対象としてはgolangを書ける程度の中級者レベルを想定しています。   公式ドキュメントについて Rustの公式ドキュメントはとても良く書けており英語の勉強にもなります。プログラミング・チュートリアルは圧巻ですのでぜひ原文で読んでみてください。   スレッド RustのスレッドはOSスレッド(1:1 threading)になります。GolangやJavaはグリーンスレッドです。  This model where a language calls the operating sys...",
-            "url": "https://zenn.dev/tfutada/articles/16766e3b4560db",
-            "title": "Rustのスレッドとチャネルと共有メモリの話 | Zennのトレンド",
-            "summary": "この記事ではRustのスレッドとチャネルについてご紹介します。最後に共有メモリについても少しだけ触れます。対象としてはgolangを書ける程度の中級者レベルを想定しています。   公式ドキュメントについて Rustの公式ドキュメントはとても良く書けており英語の勉強にもなります。プログラミング・チュートリアルは圧巻ですのでぜひ原文で読んでみてください。   スレッド RustのスレッドはOSスレッド...",
-            "date_modified": "2022-06-26T22:50:07.000Z",
-            "date_published": "2022-06-26T22:50:07.000Z",
-            "author": {
-                "name": "TF"
-            },
-            "tags": []
-        },
-        {
             "id": "https://www.youtube.com/watch?v=nZ9q1jLpdDU",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=nZ9q1jLpdDU",
@@ -2798,19 +2821,6 @@
             "summary": "ミラティブでiOS開発をしている福山(@fokotate)です。 今回はSwiftFormatをMirrativのiOSプロジェクト(約1500のSwiftファイル)へ導入したときのことを話します。 導入にあたって 私は当初、SwiftFormatについてよく知らなかったため導入にはあまり乗り気ではありませんでした。 しかし調べてみると、実行タイミングによってはチームにとってほぼストレスなくソース...",
             "date_modified": "2022-06-26T21:08:50.000Z",
             "date_published": "2022-06-26T21:08:50.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/garasubo/articles/rust-for-linux",
-            "content_html": "RustをLinuxカーネルに組込みプロジェクト、Rust for Linuxが進行中です。 https://github.com/Rust-for-Linux このプロジェクトはLinuxカーネル全体をRustで置き換えるわけではなく、第二言語としてRustを採用してデバイスドライバなどのモジュールを書くことができるようにしようというものです。 RustはOSのような低レイヤーソフトウェアを実装する言語として、C言語に代わる選択肢として注目されてきたわけですが、Linuxのような広く使われているシステムに採用されるとなればかなり熱いですね。 実際にLinuxのメインラインに取り入れられ...",
-            "url": "https://zenn.dev/garasubo/articles/rust-for-linux",
-            "title": "Rust for Linuxを手元で試す | Zennのトレンド",
-            "summary": "RustをLinuxカーネルに組込みプロジェクト、Rust for Linuxが進行中です。 https://github.com/Rust-for-Linux このプロジェクトはLinuxカーネル全体をRustで置き換えるわけではなく、第二言語としてRustを採用してデバイスドライバなどのモジュールを書くことができるようにしようというものです。 RustはOSのような低レイヤーソフトウェアを実装...",
-            "date_modified": "2022-06-26T13:33:22.000Z",
-            "date_published": "2022-06-26T13:33:22.000Z",
-            "author": {
-                "name": "ガラスボー"
-            },
             "tags": []
         },
         {
@@ -2918,19 +2928,6 @@
             "summary": "Technique that mixes public and private training data can meet differential-privacy criteria while cutting error increase by 60%-70%.",
             "date_modified": "2022-06-24T21:38:00.000Z",
             "date_published": "2022-06-24T21:38:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/FragileGoodwill/status/1540342965746294784#m",
-            "content_html": "📣📣📣📣📣 #CVPR2022 Session 4.2 14:30PM-17:00PM, happy to talk during the session for more details! github.com/ryosuke-yamada/3d… ryosuke-yamada.github.io/Poi… nitter.net/CVpaperChalleng/status/1539417575645679616#m",
-            "url": "https://nitter.net/FragileGoodwill/status/1540342965746294784#m",
-            "title": "RT by @CVpaperChalleng: 📣📣📣📣📣\nPoint Cloud Pre-training with Natural 3D Structures\n\nI will present this work today at #CVPR2022 Session 4.2 14:30PM-17:00PM, happy to talk during the session for more details!\n\nCode is available👇👇👇\nhttps://github.com/ryosuke-yamada/3dfractaldb\n\nProject page👇👇👇\nhttps://ryosuke-yamada.github.io/PointCloud-FractalDataBase/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "📣📣📣📣📣 #CVPR2022 Session 4.2 14:30PM-17:00PM, happy to talk during the session for more details! github.com/ryosuke-yamada/3d… ryosuke-yamada.github.io/Poi… nitter.net/CVpaperChalleng/status/15394...",
-            "date_modified": "2022-06-24T14:35:55.000Z",
-            "date_published": "2022-06-24T14:35:55.000Z",
-            "author": {
-                "name": "@FragileGoodwill"
-            },
             "tags": []
         },
         {
@@ -3210,19 +3207,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/arXiv_Daily/status/1540200405426049025#m",
-            "content_html": "Replacing Labeled Real-image Datasets with Auto-generated Contours deepai.org/publication/repla… @hirokatukataoka et al. #Epoch #Hyperparameter",
-            "url": "https://nitter.net/arXiv_Daily/status/1540200405426049025#m",
-            "title": "RT by @CVpaperChalleng: Replacing Labeled Real-image Datasets with Auto-generated Contours\nhttps://deepai.org/publication/replacing-labeled-real-image-datasets-with-auto-generated-contours\nby @hirokatukataoka et al.\n#Epoch #Hyperparameter | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "Replacing Labeled Real-image Datasets with Auto-generated Contours deepai.org/publication/repla… @hirokatukataoka et al. #Epoch #Hyperparameter",
-            "date_modified": "2022-06-24T05:09:26.000Z",
-            "date_published": "2022-06-24T05:09:26.000Z",
-            "author": {
-                "name": "@arXiv_Daily"
-            },
-            "tags": []
-        },
-        {
             "id": "https://research.facebook.com/blog/2022/6/meta-phd-fellowship-spotlight-empowering-older-adults-and-combating-bias-in-tech-development/",
             "content_html": "As a continuation of our Fellowship spotlight series, we’re highlighting a 2021 Meta PhD Fellow in Human-Centered Computing, Reza Ghaiumy Anaraky.",
             "url": "https://research.facebook.com/blog/2022/6/meta-phd-fellowship-spotlight-empowering-older-adults-and-combating-bias-in-tech-development/",
@@ -3325,10 +3309,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10371",
-            "content_html": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話  最近のruby-core (2016年7月)  フルタイムRubyコミッター採用までの道のり  20分でできるLIFFアプリ(LINE bot)  【レポート】MF Geeks Night (2015年4月)   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.",
+            "content_html": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  アカウントアグリゲーションのその先の世界を創る  Slackのデータを可視化してコミュニケーションを活性化させた話  ソートアルゴリズムについてまとめてみた  エンジニアリング + 技術広報 = ユニークキャリア   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/06/24/how-to-use-crisp-dm/",
             "title": "CRISP-DMを活用する上で注意すること | Money Forward Engineers' Blog",
-            "summary": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジュ...",
+            "summary": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFク...",
             "date_modified": "2022-06-24T01:00:29.000Z",
             "date_published": "2022-06-24T01:00:29.000Z",
             "author": {
@@ -3374,19 +3358,6 @@
             ]
         },
         {
-            "id": "https://nitter.net/at_natsu/status/1540130217519644673#m",
-            "content_html": "本文は読んでも理解できなからありがてぇ。 nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "url": "https://nitter.net/at_natsu/status/1540130217519644673#m",
-            "title": "RT by @CVpaperChalleng: 本文は読んでも理解できなからありがてぇ。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "本文は読んでも理解できなからありがてぇ。 nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "date_modified": "2022-06-24T00:30:32.000Z",
-            "date_published": "2022-06-24T00:30:32.000Z",
-            "author": {
-                "name": "@at_natsu"
-            },
-            "tags": []
-        },
-        {
             "id": "https://tech.layerx.co.jp/entry/2022/06/24/092727",
             "content_html": "この記事は、6月から始まっている #LXベッテク月間 18日目の記事です。 昨日の記事は弊社代表fukkyyさんの「LayerXの第3の事業、Privacy Tech事業を始めます、という話」でした。 note.com はじめまして。SaaS事業部デザイナーのわたなべなつきです。 バクラクシリーズ担当のプロダクトデザイナーとして3月に入社し、早3ヶ月経過しました。 本日は入社3ヶ月目の比較的フレッシュな目線で、バクラクシリーズのデザイナーとしての働き方についてお話したいと思います。 まず入社して驚いたのは・・・ デザイナーがUIデザインしていない！ 入社前から、どうやらデザイナーがUIデザイン…",
             "url": "https://tech.layerx.co.jp/entry/2022/06/24/092727",
@@ -3414,6 +3385,19 @@
             "summary": "Two-day RecSys workshop that extends the popular REVEAL to include CONSEQUENCES features Amazon organizers, speakers.",
             "date_modified": "2022-06-23T20:34:45.000Z",
             "date_published": "2022-06-23T20:34:45.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/OpenAI/status/1540032456559955968#m",
+            "content_html": "We trained a neural network to competently play Minecraft by pre-training on a large unlabeled video dataset of human Minecraft play and a small amount of labeled contractor data. openai.com/blog/vpt/",
+            "url": "https://nitter.net/OpenAI/status/1540032456559955968#m",
+            "title": "We trained a neural network to competently play Minecraft by pre-training on a large unlabeled video dataset of human Minecraft play and a small amount of labeled contractor data. https://openai.com/blog/vpt/ | OpenAI / @OpenAI",
+            "summary": "We trained a neural network to competently play Minecraft by pre-training on a large unlabeled video dataset of human Minecraft play and a small amount of labeled contractor data. openai.com/blog/vpt/",
+            "date_modified": "2022-06-23T18:02:04.000Z",
+            "date_published": "2022-06-23T18:02:04.000Z",
+            "author": {
+                "name": "@OpenAI"
+            },
             "tags": []
         },
         {
@@ -3492,19 +3476,6 @@
                 "KDnuggets Republished",
                 "Data Science"
             ]
-        },
-        {
-            "id": "https://nitter.net/china64681791/status/1539967210256343042#m",
-            "content_html": "cvpaper.challenge cvpr 2022 網羅的サーベイに論文サマリを投稿しました． xpaperchallenge.org/cv/surve… #CVPR2022 #網羅的サーベイ",
-            "url": "https://nitter.net/china64681791/status/1539967210256343042#m",
-            "title": "RT by @CVpaperChalleng: cvpaper.challenge cvpr 2022 網羅的サーベイに論文サマリを投稿しました．\n\n従来手法では画像内のどこに人がいるかを入力に必要とする一方、提案手法ではそれをなしに画像のみを入力としてグループ行動認識をしています！\n\nhttp://xpaperchallenge.org/cv/survey/cvpr2022_summaries/3\n\n#CVPR2022 \n#網羅的サーベイ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "cvpaper.challenge cvpr 2022 網羅的サーベイに論文サマリを投稿しました． xpaperchallenge.org/cv/surve… #CVPR2022 #網羅的サーベイ",
-            "date_modified": "2022-06-23T13:42:48.000Z",
-            "date_published": "2022-06-23T13:42:48.000Z",
-            "author": {
-                "name": "@china64681791"
-            },
-            "tags": []
         },
         {
             "id": "https://zenn.dev/dokokade/articles/5ca61ce2069c76",
@@ -3587,19 +3558,6 @@
             ]
         },
         {
-            "id": "https://nitter.net/yunishimura2/status/1539892977228664832#m",
-            "content_html": "相変わらず最高です。ありがとうございます。 nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "url": "https://nitter.net/yunishimura2/status/1539892977228664832#m",
-            "title": "RT by @CVpaperChalleng: 相変わらず最高です。ありがとうございます。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "相変わらず最高です。ありがとうございます。 nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "date_modified": "2022-06-23T08:47:50.000Z",
-            "date_published": "2022-06-23T08:47:50.000Z",
-            "author": {
-                "name": "@yunishimura2"
-            },
-            "tags": []
-        },
-        {
             "id": "https://techracho.bpsinc.jp/?p=119108",
             "content_html": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Rails now provides pattern matching support for ActiveModel | Saeloun Blog 原文公開日: 2022/06/08 原著者: Keshav Biswa サイト: Saeloun Blog 参考: 週刊Railsウォッチ20220516 Active Modelでパターンマッチングを利用可能に #45035は、現時点の7-0-stableブランチにはまだ含まれていません。 Rails 7: Active Modelにパターンマッチングが追加（翻訳） Ruby 2.7でリリースされた最も […] The post Rails 7: Active Modelにパターンマッチングが追加（翻訳） first appeared on TechRacho.",
             "url": "https://techracho.bpsinc.jp/hachi8833/2022_06_23/119108",
@@ -3668,19 +3626,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/HirokatuKataoka/status/1539870168939384832#m",
-            "content_html": "SSII 2022 同セッションのオーディエンス賞次点は産総研コンピュータビジョン研究チームのリサーチアシスタント 山田亮佑さんでした。 confit.atlas.jp/guide/event/… nitter.net/AIResearchAIST/status/1539849646046351361#m",
-            "url": "https://nitter.net/HirokatuKataoka/status/1539870168939384832#m",
-            "title": "RT by @CVpaperChalleng: SSII 2022 同セッションのオーディエンス賞次点は産総研コンピュータビジョン研究チームのリサーチアシスタント 山田亮佑さんでした。\nタイトル：『物体把持の視覚能力を自動獲得するロボット』\nhttps://confit.atlas.jp/guide/event/ssii2022/subject/IS3-13/tables?cryptoId= | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "SSII 2022 同セッションのオーディエンス賞次点は産総研コンピュータビジョン研究チームのリサーチアシスタント 山田亮佑さんでした。 confit.atlas.jp/guide/event/… nitter.net/AIResearchAIST/status/1539849646046351361#m",
-            "date_modified": "2022-06-23T07:17:12.000Z",
-            "date_published": "2022-06-23T07:17:12.000Z",
-            "author": {
-                "name": "@HirokatuKataoka"
-            },
-            "tags": []
-        },
-        {
             "id": "https://hackernoon.com/power-e1080-a-poem?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/power-e1080-a-poem?source=rss",
@@ -3739,58 +3684,6 @@
             "summary": "技術広報の飯野です。 2022/6/22(水)に開催されましたLTイベント「potatotips #78 iOS/Android開発Tips共有会」に弊社メンバーが登壇しました！ 当日の発表内容をまとめさせていただきます。 目次 目次 イベント詳細 ラクスエンジニアの登壇内容 アーキテクチャを明文化して開発に臨んだ話 終わりに",
             "date_modified": "2022-06-23T06:00:00.000Z",
             "date_published": "2022-06-23T06:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/AIResearchAIST/status/1539849646046351361#m",
-            "content_html": "コンピュータービジョン研究チームの岩田 健司主任研究員がSSII 2022においてSSIIオーディエンス賞を受賞しました。 ssii.jp/ssii/ssii_history.ht…",
-            "url": "https://nitter.net/AIResearchAIST/status/1539849646046351361#m",
-            "title": "RT by @CVpaperChalleng: コンピュータービジョン研究チームの岩田 健司主任研究員がSSII 2022においてSSIIオーディエンス賞を受賞しました。\n受賞タイトル：『物体検出器の学習画像取得回数削減を目的とした未検出・過検出傾向の可視化手法の開発』\nhttp://www.ssii.jp/ssii/ssii_history.html | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "コンピュータービジョン研究チームの岩田 健司主任研究員がSSII 2022においてSSIIオーディエンス賞を受賞しました。 ssii.jp/ssii/ssii_history.ht…",
-            "date_modified": "2022-06-23T05:55:39.000Z",
-            "date_published": "2022-06-23T05:55:39.000Z",
-            "author": {
-                "name": "@AIResearchAIST"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/from_poooo/status/1539839315148414976#m",
-            "content_html": "とてもありがたいです！ nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "url": "https://nitter.net/from_poooo/status/1539839315148414976#m",
-            "title": "RT by @CVpaperChalleng: とてもありがたいです！\n「概要」「新規性」「結果」「その他（なぜ通ったか？等）」が簡潔にまとめられていて分かりやすい！！ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "とてもありがたいです！ nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "date_modified": "2022-06-23T05:14:36.000Z",
-            "date_published": "2022-06-23T05:14:36.000Z",
-            "author": {
-                "name": "@from_poooo"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1539837788660854787#m",
-            "content_html": "Research Port から CCC Summer 2022 開催情報をア ナウンスして頂きました！ research-p.com/news/502 nitter.net/ResearchPort/status/1539810015716212736#m",
-            "url": "https://nitter.net/CVpaperChalleng/status/1539837788660854787#m",
-            "title": "Research Port から CCC Summer 2022 開催情報をア ナウンスして頂きました！\nhttps://research-p.com/news/502 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "Research Port から CCC Summer 2022 開催情報をア ナウンスして頂きました！ research-p.com/news/502 nitter.net/ResearchPort/status/1539810015716212736#m",
-            "date_modified": "2022-06-23T05:08:32.000Z",
-            "date_published": "2022-06-23T05:08:32.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/_ishishow/status/1539837349492043777#m",
-            "content_html": "これ神すぎる nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "url": "https://nitter.net/_ishishow/status/1539837349492043777#m",
-            "title": "RT by @CVpaperChalleng: これ神すぎる | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "これ神すぎる nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "date_modified": "2022-06-23T05:06:47.000Z",
-            "date_published": "2022-06-23T05:06:47.000Z",
-            "author": {
-                "name": "@_ishishow"
-            },
             "tags": []
         },
         {
@@ -3876,32 +3769,6 @@
             "date_published": "2022-06-23T03:43:54.000Z",
             "author": {
                 "name": "@ai_scholar"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/ResearchPort/status/1539810015716212736#m",
-            "content_html": "【参加募集中】「cvpaper.challenge Conference summer 2022」開催のお知らせ research-p.com/news/502 @ResearchPortより",
-            "url": "https://nitter.net/ResearchPort/status/1539810015716212736#m",
-            "title": "RT by @CVpaperChalleng: 【参加募集中】「cvpaper.challenge Conference summer 2022」開催のお知らせ https://research-p.com/news/502 @ResearchPortより | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "【参加募集中】「cvpaper.challenge Conference summer 2022」開催のお知らせ research-p.com/news/502 @ResearchPortより",
-            "date_modified": "2022-06-23T03:18:10.000Z",
-            "date_published": "2022-06-23T03:18:10.000Z",
-            "author": {
-                "name": "@ResearchPort"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/ryo123456789098/status/1539800654788472833#m",
-            "content_html": "cccs2022は着々と登録者が増えております． nitter.net/ryo123456789098/status/1537649730742013952#m",
-            "url": "https://nitter.net/ryo123456789098/status/1539800654788472833#m",
-            "title": "RT by @CVpaperChalleng: cccs2022は着々と登録者が増えております．\n参加登録がお済みでない方は，是非お願いします． | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "cccs2022は着々と登録者が増えております． nitter.net/ryo123456789098/status/1537649730742013952#m",
-            "date_modified": "2022-06-23T02:40:58.000Z",
-            "date_published": "2022-06-23T02:40:58.000Z",
-            "author": {
-                "name": "@ryo123456789098"
             },
             "tags": []
         },
@@ -4220,19 +4087,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "content_html": "「 CVPR 2022 網羅的サーベイ 」の論文サマリを公開しました！コンピュータビジョン分野トップ国際会議の論文サマリが日本語・無料で読めます。 xpaperchallenge.org/cv/surve…",
-            "url": "https://nitter.net/CVpaperChalleng/status/1539594575324782592#m",
-            "title": "RT by @CVpaperChalleng: 「 CVPR 2022 網羅的サーベイ 」の論文サマリを公開しました！コンピュータビジョン分野トップ国際会議の論文サマリが日本語・無料で読めます。\nhttps://xpaperchallenge.org/cv/survey/cvpr2022_summaries/listall/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "「 CVPR 2022 網羅的サーベイ 」の論文サマリを公開しました！コンピュータビジョン分野トップ国際会議の論文サマリが日本語・無料で読めます。 xpaperchallenge.org/cv/surve…",
-            "date_modified": "2022-06-22T13:02:05.000Z",
-            "date_published": "2022-06-22T13:02:05.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
             "id": "https://hackernoon.com/will-generative-models-be-the-next-machine-learning-boom?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/will-generative-models-be-the-next-machine-learning-boom?source=rss",
@@ -4529,19 +4383,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/yachts111xenon/status/1539435400413908992#m",
-            "content_html": "自然な立体構造を利用した点群の事前学習、って山田さんの論文だった。 nitter.net/CVpaperChalleng/status/1539417575645679616#m",
-            "url": "https://nitter.net/yachts111xenon/status/1539435400413908992#m",
-            "title": "RT by @CVpaperChalleng: 自然な立体構造を利用した点群の事前学習、って山田さんの論文だった。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "自然な立体構造を利用した点群の事前学習、って山田さんの論文だった。 nitter.net/CVpaperChalleng/status/1539417575645679616#m",
-            "date_modified": "2022-06-22T02:29:35.000Z",
-            "date_published": "2022-06-22T02:29:35.000Z",
-            "author": {
-                "name": "@yachts111xenon"
-            },
-            "tags": []
-        },
-        {
             "id": "https://developers.cyberagent.co.jp/blog/?p=36310",
             "content_html": "はじめに 株式会社 WinTicket のアプリチームの@b4tchknです。 競輪とオートレースの ...",
             "url": "https://developers.cyberagent.co.jp/blog/archives/36310/",
@@ -4620,32 +4461,6 @@
                 "ゲームUI",
                 "ゲーム開発"
             ]
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1539417575645679616#m",
-            "content_html": "#CVPR2022 Paper 2: \"Point Cloud Pre-training with Natural 3D Structures\" was released! We automatically renders point clouds to pre-train a 3D detector. This will be a strong pre-training dataset in 3D domain due to the difficulty of collection/labeling. ryosuke-yamada.github.io/Poi…",
-            "url": "https://nitter.net/CVpaperChalleng/status/1539417575645679616#m",
-            "title": "RT by @CVpaperChalleng: #CVPR2022 Paper 2: \"Point Cloud Pre-training with Natural 3D Structures\" was released! We automatically renders point clouds to pre-train a 3D detector. This will be a strong pre-training dataset in 3D domain due to the difficulty of collection/labeling.\nhttps://ryosuke-yamada.github.io/PointCloud-FractalDataBase/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "#CVPR2022 Paper 2: \"Point Cloud Pre-training with Natural 3D Structures\" was released! We automatically renders point clouds to pre-train a 3D detector. This will be a strong pre-training dataset in 3...",
-            "date_modified": "2022-06-22T01:18:45.000Z",
-            "date_published": "2022-06-22T01:18:45.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/CVpaperChalleng/status/1539417406439067649#m",
-            "content_html": "#CVPR2022 Paper 1: \"Replacing Labeled Real-image Datasets with Auto-generated Contours\" on arXiv! The method can match or even exceed that of ImageNet-21k w/o the use of real images, human-supervision during the pre-training of Vision Transformers (ViTs). hirokatsukataoka16.github.io…",
-            "url": "https://nitter.net/CVpaperChalleng/status/1539417406439067649#m",
-            "title": "RT by @CVpaperChalleng: #CVPR2022 Paper 1: \"Replacing Labeled Real-image Datasets with Auto-generated Contours\" on arXiv! The method can match or even exceed that of ImageNet-21k w/o the use of real images, human-supervision during the pre-training of Vision Transformers (ViTs).\nhttps://hirokatsukataoka16.github.io/Replacing-Labeled-Real-Image-Datasets/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "#CVPR2022 Paper 1: \"Replacing Labeled Real-image Datasets with Auto-generated Contours\" on arXiv! The method can match or even exceed that of ImageNet-21k w/o the use of real images, human-supervision...",
-            "date_modified": "2022-06-22T01:18:05.000Z",
-            "date_published": "2022-06-22T01:18:05.000Z",
-            "author": {
-                "name": "@CVpaperChalleng"
-            },
-            "tags": []
         },
         {
             "id": "https://techblog.cartaholdings.co.jp/entry/archives/8348",
@@ -6747,46 +6562,6 @@
                 "AWS",
                 "Terraform"
             ]
-        },
-        {
-            "id": "https://developers-jp.googleblog.com/2022/06/ml-bootcamp.html",
-            "content_html": "Google は、開発者の方を対象にした機械学習のスキル向上プログラム Google Developers Machine Learning Bootcamp の提供を開始します。本プログラムは、4 か月間集中的に機械学習を学習し、より実践的な技術習得を支援するためのプログラムです。    本プログラムでは、 各種オンライントレーニングプログラムへの無料アクセス  オンラインコミュニティ（Slack）を通じて、参加者がプログラム履修時につまづいたり不明な点があったときに質問できる場の提供  認定資格取得に関する費用負担  Google Developers Expert や本コースをすでに完了したエキスパートによるメンタリングと定期的なオフィスアワー を提供します。 応募はこちらから  Google Developers Machine Learning Bootcamp の流れ 1. 機械学習のオンライントレーニングを受講する   本プログラム参加者は、Coursera にある下記 2 つのオンラインコースから希望する 1 クラスを受講できます。   DeepLearning.AI ...",
-            "url": "https://developers-jp.googleblog.com/2022/06/ml-bootcamp.html",
-            "title": "Google Developers Machine Learning Bootcamp を日本でも開始します。 | Google Developers Japan",
-            "summary": "Google は、開発者の方を対象にした機械学習のスキル向上プログラム Google Developers Machine Learning Bootcamp の提供を開始します。本プログラムは、4 か月間集中的に機械学習を学習し、より実践的な技術習得を支援するためのプログラムです。    本プログラムでは、 各種オンライントレーニングプログラムへの無料アクセス  オンラインコミュニティ（Slac...",
-            "date_modified": "2022-06-16T05:00:00.028Z",
-            "date_published": "2022-06-16T05:00:00.028Z",
-            "tags": []
-        },
-        {
-            "id": "https://paiza.hatenablog.com/entry/2022/06/16/130000",
-            "content_html": "ただいまpaizaでは、「IT謎解き」を実施しています。あなたの\"IT業界力\"はホンモノ？IT謎解きはIT業界で活躍するために必要となる発想力・推理力・分析力・耐久力などを問う新感覚謎解きです。 IT業界力が問われる！？IT謎解き IT謎解きでは、例えばこのような問題が出題されます。あなたはこの謎が解けるか？#謎解き#IT謎解き#解けたらいいね#解けなくてもいいね#解けたらRT#解けなくてもRT#プログラミング https://t.co/zGPLEpLPRw— paiza[パイザ] (@paiza_official) 2022年6月15日 分析力や論理的思考力などを駆使して、全問正解を目指しま…",
-            "url": "https://paiza.hatenablog.com/entry/2022/06/16/130000",
-            "title": "あなたの\"IT業界力\"はホンモノ？「IT謎解き」公開中【Amazonギフト券やワイヤレスイヤホンが当たる】 | paiza開発日誌",
-            "summary": "ただいまpaizaでは、「IT謎解き」を実施しています。あなたの\"IT業界力\"はホンモノ？IT謎解きはIT業界で活躍するために必要となる発想力・推理力・分析力・耐久力などを問う新感覚謎解きです。 IT業界力が問われる！？IT謎解き IT謎解きでは、例えばこのような問題が出題されます。あなたはこの謎が解けるか？#謎解き#IT謎解き#解けたらいいね#解けなくてもいいね#解けたらRT#解けなくてもRT#...",
-            "date_modified": "2022-06-16T04:00:00.000Z",
-            "date_published": "2022-06-16T04:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://developer.hatenastaff.com/entry/2022/06/16/130000",
-            "content_html": "2022年6月14日（火）に DMMさんとオンラインイベント「それぞれのアジャイル開発の現場 〜 チームの中から外から 〜」のレポートです。はてなからは、開発プロセス改善などについて関心のあるスタッフが集まる有志集団「すくすく開発会」のリーダー id:shimobayashi とメンバー id:polamjag が登壇させていただきました。",
-            "url": "https://developer.hatenastaff.com/entry/2022/06/16/130000",
-            "title": "DMM×はてな「それぞれのアジャイル開発の現場 〜 チームの中から外から 〜」を開催しました #dmm_hatena | Hatena Developer Blog",
-            "summary": "2022年6月14日（火）に DMMさんとオンラインイベント「それぞれのアジャイル開発の現場 〜 チームの中から外から 〜」のレポートです。はてなからは、開発プロセス改善などについて関心のあるスタッフが集まる有志集団「すくすく開発会」のリーダー id:shimobayashi とメンバー id:polamjag が登壇させていただきました。",
-            "date_modified": "2022-06-16T04:00:00.000Z",
-            "date_published": "2022-06-16T04:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.smartcamp.co.jp/entry/2022-new-grads-02?utm_source=feed",
-            "content_html": "こんにちは。 今年４月より22卒エンジニアとして、スマートキャンプに入社したピーターこと佐々木です。 本記事では、入社エントリと題しまして、スマートキャンプへの入社理由と、実際に入社してみてどうだったかについて書きたいと思います。 自己紹介 なぜエンジニアになったのか エンジニアに興味を持ったきっかけ 原点は AI創薬とGoogleForm ひたすらに興味の幅をひろげる やりたいことなんてなくていい 私が大事にしていること 密な連携と高い生産性 密さとは 連携とは 生産性とは 広い視野をもつ 経験からしか学べない性格 〜なんでも自分でやりたい症候群だった〜 エンジニアの枠を超える イノベーショ…",
-            "url": "https://tech.smartcamp.co.jp/entry/2022-new-grads-02?utm_source=feed",
-            "title": "人類の進化の果てを見届けたい | 2022年度新卒入社エントリ | SMARTCAMP Engineer Blog",
-            "summary": "こんにちは。 今年４月より22卒エンジニアとして、スマートキャンプに入社したピーターこと佐々木です。 本記事では、入社エントリと題しまして、スマートキャンプへの入社理由と、実際に入社してみてどうだったかについて書きたいと思います。 自己紹介 なぜエンジニアになったのか エンジニアに興味を持ったきっかけ 原点は AI創薬とGoogleForm ひたすらに興味の幅をひろげる やりたいことなんてなくてい...",
-            "date_modified": "2022-06-16T03:19:43.000Z",
-            "date_published": "2022-06-16T03:19:43.000Z",
-            "tags": []
         }
     ]
 }
