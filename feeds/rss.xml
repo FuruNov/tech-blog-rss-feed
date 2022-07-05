@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 05 Jul 2022 03:21:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Jul 2022 05:32:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,30 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[OpenShiftのmust-gather | 赤帽エンジニアブログ]]></title>
+            <link>https://rheb.hatenablog.com/entry/openshift-must-gather</link>
+            <guid>https://rheb.hatenablog.com/entry/openshift-must-gather</guid>
+            <pubDate>Tue, 05 Jul 2022 05:01:59 GMT</pubDate>
+            <description><![CDATA[Red HatでOpenShiftのサポートをしているid:nekopです。 OpenShiftには問題解析のための情報収集を行なうmust-gatherというコマンドおよびイメージ群が用意されています。 特にオプションを指定しないでoc adm must-gatherコマンドを実行した場合、OpenShiftのクラスタを構成するCluster Operatorの情報を取得します。 $ oc ad...]]></description>
+            <content:encoded><![CDATA[Red HatでOpenShiftのサポートをしているid:nekopです。 OpenShiftには問題解析のための情報収集を行なうmust-gatherというコマンドおよびイメージ群が用意されています。 特にオプションを指定しないでoc adm must-gatherコマンドを実行した場合、OpenShiftのクラスタを構成するCluster Operatorの情報を取得します。 $ oc adm must-gather OpenShiftのクラスタを構成するCluster Operatorというのは以下のコマンドで参照できます。 $ oc get co NAME VERSION AVAIL…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[mackerel-agentインストール時のapt-key警告を解消する方法 | 仮想化通信]]></title>
+            <link>https://tech.virtualtech.jp/entry/2022/07/05/130021</link>
+            <guid>https://tech.virtualtech.jp/entry/2022/07/05/130021</guid>
+            <pubDate>Tue, 05 Jul 2022 04:00:21 GMT</pubDate>
+            <description><![CDATA[監視サービスのMackerelは、mackerel-agentと呼ばれる監視エージェントを監視対象サーバーにインストールして利用します。 Debian/Ubuntuを監視ホストとして登録する場合は、Mackerel独自のパッケージリポジトリをAPTラインに追加した上で、aptコマンドを使ってエージェントをインストールします。しかし従来は内部的に、リポジトリ鍵の管理にapt-keyコマンドを使用して...]]></description>
+            <content:encoded><![CDATA[監視サービスのMackerelは、mackerel-agentと呼ばれる監視エージェントを監視対象サーバーにインストールして利用します。 Debian/Ubuntuを監視ホストとして登録する場合は、Mackerel独自のパッケージリポジトリをAPTラインに追加した上で、aptコマンドを使ってエージェントをインストールします。しかし従来は内部的に、リポジトリ鍵の管理にapt-keyコマンドを使用していたため、aptコマンド実行時に以下の警告が表示されていました。これはapt-keyが廃止される予定であることに起因します。 W: http://apt.mackerel.io/v2/dists/ma…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ファイル単位でデフラグしてHDDの内周・外周を選んで配置可能な「WinContig」v5.0.0.0／ダークテーマにも対応 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1422368.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1422368.html</guid>
+            <pubDate>Tue, 05 Jul 2022 03:31:48 GMT</pubDate>
+            <description><![CDATA[フリーのデフラグツール「WinContig」が、v5.0.0.0へアップデートされた。現在、公式サイトから無償でダウンロードできる。]]></description>
+            <content:encoded><![CDATA[フリーのデフラグツール「WinContig」が、v5.0.0.0へアップデートされた。現在、公式サイトから無償でダウンロードできる。]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[.NET MAUI で C# マークアップを試そう！ | 虎の穴開発室ブログ]]></title>
             <link>https://toranoana-lab.hatenablog.com/entry/2022/07/05/120000</link>
@@ -252,6 +276,23 @@
             <category>週刊Railsウォッチ</category>
         </item>
         <item>
+            <title><![CDATA[【入門】誰でもわかる、Dart言語で楽しく作りながら学ぶ検索エンジン | Zennのトレンド]]></title>
+            <link>https://zenn.dev/kato_shinya/books/lets-create-search-engine-with-dart</link>
+            <guid>https://zenn.dev/kato_shinya/books/lets-create-search-engine-with-dart</guid>
+            <pubDate>Mon, 04 Jul 2022 09:12:40 GMT</pubDate>
+            <description><![CDATA[本書ではDart言語を使用して実際に実装をしながら、検索エンジンの基盤技術であるWebクローラーの動作原理を紹介していきます。本書は題材ごとに細かく章を区切っているので、時間があまりない方でも隙間時間を利用して無理なく読み進められるように工夫しています。さらに、本書をとおして検索エンジンが動作する基本的な知識と原理を学ぶことができます。また、本書で紹介するWebクローラーの知識は様々なケースに応用...]]></description>
+            <content:encoded><![CDATA[本書ではDart言語を使用して実際に実装をしながら、検索エンジンの基盤技術であるWebクローラーの動作原理を紹介していきます。本書は題材ごとに細かく章を区切っているので、時間があまりない方でも隙間時間を利用して無理なく読み進められるように工夫しています。さらに、本書をとおして検索エンジンが動作する基本的な知識と原理を学ぶことができます。また、本書で紹介するWebクローラーの知識は様々なケースに応用が可能です。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。
+https://ai-scholar.tech/articles/contrastive-learning/Graph_Contrastive_Clustering | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1543882888298795008#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1543882888298795008#m</guid>
+            <pubDate>Mon, 04 Jul 2022 09:02:19 GMT</pubDate>
+            <description><![CDATA[本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。 ai-scholar.tech/articles/con…]]></description>
+            <content:encoded><![CDATA[本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。 ai-scholar.tech/articles/con…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[ElasticIPの逆引き(rDNS)設定を解除する際の注意点 | エンジニアブログ | iret.media]]></title>
             <link>https://cloudpack.media/62908</link>
             <guid>https://cloudpack.media/?p=62908</guid>
@@ -440,20 +481,20 @@
             <content:encoded><![CDATA[Hi there. I'm Juan, from Sansan R&D.As you may know if you follow us on social media, one important part of our work as Social Scientists at Sansan R&D is performing research. It is how we find new creative ways to understand and process the data coming from our services and turn it into new value f…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[eコマースと実店舗の相互利益を目指したデザイン | Yahoo! JAPAN Tech Blog]]></title>
-            <link>https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&amp;cpt_m=lnk&amp;cpt_s=atom</link>
-            <guid>https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&amp;cpt_m=lnk&amp;cpt_s=atom</guid>
-            <pubDate>Mon, 04 Jul 2022 02:00:00 GMT</pubDate>
-            <description><![CDATA[グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。]]></description>
-            <content:encoded><![CDATA[グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[ZOZOTOWNカート機能のリプレイスPhase1裏側を大公開 | ZOZO TECH BLOG]]></title>
             <link>https://techblog.zozo.com/entry/zozotown-cart-replacement-phase1-inside-story</link>
             <guid>https://techblog.zozo.com/entry/zozotown-cart-replacement-phase1-inside-story</guid>
             <pubDate>Mon, 04 Jul 2022 02:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは、カート決済部の佐藤です。普段はZOZOTOWNカート決済サービスの新機能開発、既存改修、運用保守を担当しております。 弊社はモノリスからマイクロサービスへのリプレイスを進めており、カート決済サービスも先日リプレイスPhase1の記事を掲載いたしました。 techblog.zozo.com 本記事ではカートリプレイスPhase1全体を振り返りつつ、リプレイスプロジェクトを進める中で苦労し...]]></description>
             <content:encoded><![CDATA[こんにちは、カート決済部の佐藤です。普段はZOZOTOWNカート決済サービスの新機能開発、既存改修、運用保守を担当しております。 弊社はモノリスからマイクロサービスへのリプレイスを進めており、カート決済サービスも先日リプレイスPhase1の記事を掲載いたしました。 techblog.zozo.com 本記事ではカートリプレイスPhase1全体を振り返りつつ、リプレイスプロジェクトを進める中で苦労した点や得られた知見等の、リプレイスの裏側をご紹介したいと思います。 カート機能はECサイトの中核を担う機能であり、障害のリスクを考えるとドラスティックな改修には中々手を出しにくい機能だと思っています。…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[eコマースと実店舗の相互利益を目指したデザイン | Yahoo! JAPAN Tech Blog]]></title>
+            <link>https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&amp;cpt_m=lnk&amp;cpt_s=atom</link>
+            <guid>https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&amp;cpt_m=lnk&amp;cpt_s=atom</guid>
+            <pubDate>Mon, 04 Jul 2022 02:00:00 GMT</pubDate>
+            <description><![CDATA[グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。]]></description>
+            <content:encoded><![CDATA[グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Offersデジタル人材総研を支える技術 ー Astro、Svelte、Amplify、microCMS｜Offers Tech Blog | Zennのトレンド]]></title>
@@ -989,14 +1030,6 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <content:encoded><![CDATA[先日、AWS認定高度なネットワーキングに合格しました  https://aws.amazon.com/jp/certification/certified-advanced-networking-sp…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[カレンダーアプリで学ぶパッケージ開発 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/chooyan/books/calendar-package</link>
-            <guid>https://zenn.dev/chooyan/books/calendar-package</guid>
-            <pubDate>Sat, 02 Jul 2022 04:06:00 GMT</pubDate>
-            <description><![CDATA[シンプルなカレンダーアプリを実際に開発しながら、Flutter パッケージ、Dart パッケージの開発の進め方を学びます。  パッケージの開発手法を学ぶことで、自分のアイデアを基に開発したコンポーネントを世の中の開発者が再利用できるようになるだけでなく、コンポーネントの適切な役割分担を考えるきっかけになったり、またすでに公開している他のパッケージの内部実装の調べ方を理解することにもつながります。 ...]]></description>
-            <content:encoded><![CDATA[シンプルなカレンダーアプリを実際に開発しながら、Flutter パッケージ、Dart パッケージの開発の進め方を学びます。  パッケージの開発手法を学ぶことで、自分のアイデアを基に開発したコンポーネントを世の中の開発者が再利用できるようになるだけでなく、コンポーネントの適切な役割分担を考えるきっかけになったり、またすでに公開している他のパッケージの内部実装の調べ方を理解することにもつながります。  パッケージを開発すること自体を目的としていない方にとっても、その手法を理解することは今後アプリ開発をする上でとても役に立つ知識になるはずです。  この本に沿ってカレンダーアプリにおけるロジック・Widget・アプリの各コンポーネントを順番に実装していくことで、パッケージ開発手法の理解の第一歩として活用してみてください。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[二等辺三角形の頂角の二等分線によってできる三角形は合同であることの証明 | 趣味の大学数学]]></title>
             <link>https://math-fun.net/20220702/25545/</link>
             <guid>https://math-fun.net/?p=25545</guid>
@@ -1046,6 +1079,15 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <link>https://www.youtube.com/watch?v=phOM4PRUVzg</link>
             <guid>https://www.youtube.com/watch?v=phOM4PRUVzg</guid>
             <pubDate>Fri, 01 Jul 2022 11:00:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています．
+https://ai-scholar.tech/articles/voice-recognition/light-ser | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1542811893458677762#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1542811893458677762#m</guid>
+            <pubDate>Fri, 01 Jul 2022 10:06:34 GMT</pubDate>
+            <description><![CDATA[異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています． ai-scholar.tech/articles/voi…]]></description>
+            <content:encoded><![CDATA[異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています． ai-scholar.tech/articles/voi…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【App Mesh】メッシュ内からIPv6対応の外部サイトにアクセスする時は「IP バージョンの設定」に注意する | エンジニアブログ | iret.media]]></title>
@@ -1699,6 +1741,15 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <content:encoded><![CDATA[こんにちは、虎の穴ラボのH.Y.です。 この記事は「虎の穴ラボ 夏のアドベントカレンダー」の4日目の記事です。 3日目は鷺山さんによる「シェルからのSQL実行をAmazon ECSを使ってサーバーレスに実現してみる」が投稿されました。 5日目はNSSさんによる「AWS SAMを学び直そうと思ったらめちゃくちゃ進化していた件」が投稿されます。こちらもぜひご覧ください。 きっかけ 虎の穴ラボでは、主にMacを使用していますが、開発やテストをしているとたまにWindowsを使いたくなりますよね。 そこで、AWSのDaaSであるAmazon WorkSpacesを使えば簡単にWindowsを使えるらし…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。
+https://ai-scholar.tech/articles/gan/Speech2AffectiveGestures | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1542341369682747393#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1542341369682747393#m</guid>
+            <pubDate>Thu, 30 Jun 2022 02:56:52 GMT</pubDate>
+            <description><![CDATA[MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。 ai-scholar.tech/articles/gan…]]></description>
+            <content:encoded><![CDATA[MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。 ai-scholar.tech/articles/gan…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[UXの向上と開発の生産性を両立するスキーマ駆動開発 | Gaudiy Tech Blog]]></title>
             <link>https://techblog.gaudiy.com/entry/2022/06/30/113411</link>
             <guid>https://techblog.gaudiy.com/entry/2022/06/30/113411</guid>
@@ -1797,14 +1848,6 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <category>カテゴリ済み</category>
             <category>メモ</category>
             <category>小ワザ</category>
-        </item>
-        <item>
-            <title><![CDATA[「Windows 11 Insider Preview」Build 25151がDevチャネルに／［スタート］画面からシャットダウンしようとすると意図せずOSが再起動する問題などに対処 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1421210.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1421210.html</guid>
-            <pubDate>Thu, 30 Jun 2022 01:00:00 GMT</pubDate>
-            <description><![CDATA[米Microsoftは6月29日（現地時間）、Windows 11の最新プレビュー版「Windows 11 Insider Preview」Build 25151（rs_prerelease）をリリースした。「Windows Insider Preview Program」のDevチャネルに参加しているユーザーは、「Windows Update」からアップグレードが可能。]]></description>
-            <content:encoded><![CDATA[米Microsoftは6月29日（現地時間）、Windows 11の最新プレビュー版「Windows 11 Insider Preview」Build 25151（rs_prerelease）をリリースした。「Windows Insider Preview Program」のDevチャネルに参加しているユーザーは、「Windows Update」からアップグレードが可能。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[知っておくとちょっと便利！xargs コマンドの便利な使い方 | SIOS Tech. Lab]]></title>
@@ -2082,6 +2125,15 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <pubDate>Wed, 29 Jun 2022 04:28:33 GMT</pubDate>
             <description><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 2022年6月27日、エキサイト主催で行った「外部勉強会 リビルドへの道」にて発表させていただきました！ 今回は、簡単に振り返りたいと思います。 「外部勉強会 リビルドへの道」とは 「外部勉強会 リビルドへの道」は、リビルドに関連する勉強会です。 excite.connpass.com 今回の勉強会では、リビルドに挑戦していること、リビルドを完遂させた...]]></description>
             <content:encoded><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 2022年6月27日、エキサイト主催で行った「外部勉強会 リビルドへの道」にて発表させていただきました！ 今回は、簡単に振り返りたいと思います。 「外部勉強会 リビルドへの道」とは 「外部勉強会 リビルドへの道」は、リビルドに関連する勉強会です。 excite.connpass.com 今回の勉強会では、リビルドに挑戦していること、リビルドを完遂させたことについてお話します！ 今回は計3名が発表しました。 自身の発表内容 今回私は、実際にリビルドを完遂した経験について発表させていただきました。 speakerdeck.com リビルドの目的 リビル…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AttentionからGANベースの手法まで画像キャプション生成の技術まとめ
+https://ai-scholar.tech/articles/image-caption/imagecaption_survey | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1541983484159627264#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1541983484159627264#m</guid>
+            <pubDate>Wed, 29 Jun 2022 03:14:45 GMT</pubDate>
+            <description><![CDATA[AttentionからGANベースの手法まで画像キャプション生成の技術まとめ ai-scholar.tech/articles/ima…]]></description>
+            <content:encoded><![CDATA[AttentionからGANベースの手法まで画像キャプション生成の技術まとめ ai-scholar.tech/articles/ima…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ゼロトラストプロキシを User-Agent Client Hints に対応する | mixi developers - Medium]]></title>
@@ -2429,6 +2481,15 @@ Itsuki UEDA, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shi
             <pubDate>Tue, 28 Jun 2022 03:30:00 GMT</pubDate>
             <description><![CDATA[どうもはじめまして。 muryoimpl です。 前回のエントリ 食べチョクの自動テスト改善活動 〜これまでとこれから〜 で、自動テスト改善チームが発足したことを書きましたが、今回はその活動の中で実施した、RSpec による自動テストのカバレッジのデータ収集の自動化と、そのデータを利用した可視化について書きたいと思います。 これまではどう可視化していたか 食べチョクは Ruby on Rails ...]]></description>
             <content:encoded><![CDATA[どうもはじめまして。 muryoimpl です。 前回のエントリ 食べチョクの自動テスト改善活動 〜これまでとこれから〜 で、自動テスト改善チームが発足したことを書きましたが、今回はその活動の中で実施した、RSpec による自動テストのカバレッジのデータ収集の自動化と、そのデータを利用した可視化について書きたいと思います。 これまではどう可視化していたか 食べチョクは Ruby on Rails で動いており、バックエンドの自動テストは RSpec を使って書いています。 テストカバレッジは定番の SimpleCov で計測して結果を HTML に出力し、テストケースごとの実行情報は RSpe…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[RT by @ai_scholar: 【開発者必見】活性化関数の最新包括的レビュー！
+https://ai-scholar.tech/articles/survey/activation-functions-review | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1541621136206614529#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1541621136206614529#m</guid>
+            <pubDate>Tue, 28 Jun 2022 03:14:55 GMT</pubDate>
+            <description><![CDATA[【開発者必見】活性化関数の最新包括的レビュー！ ai-scholar.tech/articles/sur…]]></description>
+            <content:encoded><![CDATA[【開発者必見】活性化関数の最新包括的レビュー！ ai-scholar.tech/articles/sur…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Camel Extensions for Quarkus と Camel K の入門 | 赤帽エンジニアブログ]]></title>
@@ -2945,6 +3006,15 @@ https://www.technologyreview.jp/n/2022/06/16/278385/ | cvpaper.challenge | AI/CV
             <content:encoded><![CDATA[こんにちは、Magic Moment の suganuma です。 最近、SRE 活動の一環として、トイルの撲滅に力を入れている Magic Moment Tech チームですが、今回は、その活動の一つとして、“誰でも迅速容易にデリバリーできる“ をテーマに、Argo CD を使った継続的デリバリーを実現したので紹介します。   想定読者  Kubernetes、CI/CD について多少の理解がある人 継続的デリバリーに興味がある人    取り組みの背景 デプロイ作業の属人化を排除したかった。 Cloud Build を活用し、継続的インテグレーションのパイプラインは構成されていたものの...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: 本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。
+https://ai-scholar.tech/articles/semi-supervised/Semi-Supervised_Semantic_Segmentation | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1541263482712375296#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1541263482712375296#m</guid>
+            <pubDate>Mon, 27 Jun 2022 03:33:44 GMT</pubDate>
+            <description><![CDATA[本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。 ai-scholar.tech/articles/sem…]]></description>
+            <content:encoded><![CDATA[本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。 ai-scholar.tech/articles/sem…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[Networkチームの紹介 | メルカリエンジニアリングブログ]]></title>
             <link>https://engineering.mercari.com/blog/entry/20220209-introduction-of-the-network-team/</link>
             <guid>21515</guid>
@@ -3066,8 +3136,8 @@ https://www.technologyreview.jp/n/2022/06/16/278385/ | cvpaper.challenge | AI/CV
             <link>https://moneyforward.com/engineers_blog/2022/06/27/scrum-fest-osaka-2022-2/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10378</guid>
             <pubDate>Mon, 27 Jun 2022 01:00:05 GMT</pubDate>
-            <description><![CDATA[こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Asa...]]></description>
-            <content:encoded><![CDATA[こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2  Swift2.0で作るAPI通信基盤  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  CTOになって5年経った感想、振り返りなど  本番環境で全削除コマンド！   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2020年3月）  書評 データ分析プロジェクトの手引（献本御礼）  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」  accepts_nested_attributes_forを使わず、複数の子レコードを保存する  MoneyForward Meetupレポート「さぁB2Bサービスを爆速で開発しよう」   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3261,6 +3331,15 @@ https://ryosuke-yamada.github.io/PointCloud-FractalDataBase/ | cvpaper.challenge
             <category>ガジェット</category>
             <category>カテゴリ済み</category>
             <category>レビュー</category>
+        </item>
+        <item>
+            <title><![CDATA[本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡
+https://ai-scholar.tech/articles/out-of-distribution/good-closed-set-classifier | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1540259936097120257#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1540259936097120257#m</guid>
+            <pubDate>Fri, 24 Jun 2022 09:06:00 GMT</pubDate>
+            <description><![CDATA[本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡ ai-scholar.tech/articles/out…]]></description>
+            <content:encoded><![CDATA[本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡ ai-scholar.tech/articles/out…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[予備校のノリで学ぶ「ランジュバン方程式」【確率微分方程式】 | 予備校のノリで学ぶ「大学の数学・物理」]]></title>
@@ -3479,8 +3558,8 @@ by @hirokatukataoka et al.
             <link>https://moneyforward.com/engineers_blog/2022/06/24/how-to-use-crisp-dm/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10371</guid>
             <pubDate>Fri, 24 Jun 2022 01:00:29 GMT</pubDate>
-            <description><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></description>
-            <content:encoded><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  941::blogさんがやってきた！  エンジニアはなぜマックが好きなのか？  クラウド会計を支えるマイクロサービスをインターン生中心でリリースしました！  AndroidアプリのAndroidバージョンサポート基準を定めました   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [書評...]]></description>
+            <content:encoded><![CDATA[こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  【レポート速報】Google I/O 2016 - Day1  MUI v5 化を経て気づいたやっておいたよかったこと/やっておけばよかったこと  ESLintで開発環境をエンチャント  ACML2019 参加レポート   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3865,6 +3944,15 @@ http://www.ssii.jp/ssii/ssii_history.html | cvpaper.challenge | AI/CV研究コ�
             <content:encoded><![CDATA[こんにちは、エキサイトでエンジニアをしている吉川です。 先日6/10（金）に弊社エンジニア・デザイナーの交流会として「テクデザBeer Bash」を開催したので、そのレポートを運営視点で書いていこうと思います。 Beer Bashとは テクデザBeer Bash開催へ向けて 当日の様子 新卒エンジニアから自己紹介LT デザイナーからCanvaでのバナートレースライブ アプリエンジニアからFlutterのライブコーディング 開催した結果と今後について Beer Bashとは 「Beer Bash（ビアバッシュ）」とは、ビールなどのお酒や軽食を片手に行う社内ミーティングのことを言います。beer（…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: 臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。
+https://ai-scholar.tech/articles/medical/dl_cnn_strabismus | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1539816490790440960#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1539816490790440960#m</guid>
+            <pubDate>Thu, 23 Jun 2022 03:43:54 GMT</pubDate>
+            <description><![CDATA[臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。 ai-scholar.tech/articles/med…]]></description>
+            <content:encoded><![CDATA[臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。 ai-scholar.tech/articles/med…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[RT by @CVpaperChalleng: 【参加募集中】「cvpaper.challenge Conference summer 2022」開催のお知らせ https://research-p.com/news/502 @ResearchPortより | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
             <link>https://nitter.net/ResearchPort/status/1539810015716212736#m</link>
             <guid>https://nitter.net/ResearchPort/status/1539810015716212736#m</guid>
@@ -4153,6 +4241,15 @@ http://www.ssii.jp/ssii/ssii_history.html | cvpaper.challenge | AI/CV研究コ�
             <content:encoded><![CDATA[エキサイト株式会社でモバイルアプリ開発に携わっている奥田です。 本日はアプリエンジニアの有志が集まり、Flutterの知見を深めるため開催している勉強会について執筆していきます。 開催の経緯は？ 部署間を跨いだ交流が希薄だったため、知見交換の機会がありませんでした。そんな社内の現状からアプリエンジニアのメンバーが交流を活性化し、知見交換をすることで技術力を向上させたいという意見がキッカケで開催されました。 活動概要 部署間での技術交流 最新技術のキャッチアップ 設計周りの相談会 上記の交流が主となっています。勉強会を開催して技術交流が活性化し、Flutterとどのように向き合うのか意識が統一で…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RT by @ai_scholar: ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。
+https://ai-scholar.tech/articles/contrastive-learning/Hyperbolic_Metric | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1539534661960863744#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1539534661960863744#m</guid>
+            <pubDate>Wed, 22 Jun 2022 09:04:01 GMT</pubDate>
+            <description><![CDATA[ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。 ai-scholar.tech/articles/con…]]></description>
+            <content:encoded><![CDATA[ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。 ai-scholar.tech/articles/con…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[PostgreSQLの現在時刻をフェイクする方法とRailsサンプルコード（翻訳） | TechRacho]]></title>
             <link>https://techracho.bpsinc.jp/hachi8833/2022_06_22/118870</link>
             <guid>https://techracho.bpsinc.jp/?p=118870</guid>
@@ -4392,6 +4489,18 @@ https://hirokatsukataoka16.github.io/Replacing-Labeled-Real-Image-Datasets/ | cv
             <category>未分類</category>
         </item>
         <item>
+            <title><![CDATA[大規模最先端技術イベントの紹介です．
+特に，GPT-3で“今”業務改革できるのか？
+や
+ 画像解析 x Braintech（ブレインテック）という次世代の技術の今の状況が知ることができます！
+https://ai-scholar.tech/events/macnica_33 | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
+            <link>https://nitter.net/ai_scholar/status/1539400708125904896#m</link>
+            <guid>https://nitter.net/ai_scholar/status/1539400708125904896#m</guid>
+            <pubDate>Wed, 22 Jun 2022 00:11:44 GMT</pubDate>
+            <description><![CDATA[大規模最先端技術イベントの紹介です． ai-scholar.tech/events/macni…]]></description>
+            <content:encoded><![CDATA[大規模最先端技術イベントの紹介です． ai-scholar.tech/events/macni…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[SaaSセキュリティMeetUp！！ | Chatwork Creator's Note]]></title>
             <link>https://creators-note.chatwork.com/entry/2022/06/22/090000</link>
             <guid>https://creators-note.chatwork.com/entry/2022/06/22/090000</guid>
@@ -4604,58 +4713,6 @@ https://hirokatsukataoka16.github.io/Replacing-Labeled-Real-Image-Datasets/ | cv
             <pubDate>Tue, 21 Jun 2022 06:00:00 GMT</pubDate>
             <description><![CDATA[はじめに はじめまして。ikedamasa1221です。 私は2021年の末くらいからオフショア開発業務に関わりはじめ、 今年度からブリッジSEとしてオフショア開発業務に従事することになりました。 実はこれまではずっと開発者として機能開発などに携わっており、ブリッジSE業務は初めての経験になります。 時には苦戦しつつ、時には楽しみながら、早く一人前のブリッジSEとして仕事ができるように日々頑張って...]]></description>
             <content:encoded><![CDATA[はじめに はじめまして。ikedamasa1221です。 私は2021年の末くらいからオフショア開発業務に関わりはじめ、 今年度からブリッジSEとしてオフショア開発業務に従事することになりました。 実はこれまではずっと開発者として機能開発などに携わっており、ブリッジSE業務は初めての経験になります。 時には苦戦しつつ、時には楽しみながら、早く一人前のブリッジSEとして仕事ができるように日々頑張っています。 このようにラクスで初めてオフショア開発に従事したのですが、以前からオフショア開発なるものがあることは見聞きしており、 ネットで記事を見たり経験者に話を聞くなどしてある程度のイメージを持ってい…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【webpack】GROWIにおけるwebpackの設定について | WESEEK Tech Blog]]></title>
-            <link>https://weseek.co.jp/tech/2663/</link>
-            <guid>https://weseek.co.jp/tech/?p=2663</guid>
-            <pubDate>Tue, 21 Jun 2022 04:31:24 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは、インターン生の手塚です。 今回はGROWIにおけるwebpackの設定について、調べてみたので記事にします。この記事はGROWIにおけるwebpackの設定に着目しているのでwebpackの基礎知識 […]]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは、インターン生の手塚です。 今回はGROWIにおけるwebpackの設定について、調べてみたので記事にします。この記事はGROWIにおけるwebpackの設定に着目しているのでwebpackの基礎知識 […]]]></content:encoded>
-            <category>GROWI</category>
-            <category>JavaScript</category>
-            <category>webpack</category>
-        </item>
-        <item>
-            <title><![CDATA[モダンウェブフロントエンド勉強会を開催しました | クックパッド開発者ブログ]]></title>
-            <link>https://techlife.cookpad.com/entry/2022/06/21/130736</link>
-            <guid>https://techlife.cookpad.com/entry/2022/06/21/130736</guid>
-            <pubDate>Tue, 21 Jun 2022 04:07:36 GMT</pubDate>
-            <description><![CDATA[こんにちは、クックパッドで最近はモバイルアプリを離れもっぱらウェブアプリを作っている @morishin です。 先日、社内で「モダンウェブフロントエンド勉強会」と題して React, Next.js, Core Web Vitals, SSR, CSR, SSG, ISR, SSR Streaming, React Server Component といったキーワードに触れつつ、昨今のウェブ開発...]]></description>
-            <content:encoded><![CDATA[こんにちは、クックパッドで最近はモバイルアプリを離れもっぱらウェブアプリを作っている @morishin です。 先日、社内で「モダンウェブフロントエンド勉強会」と題して React, Next.js, Core Web Vitals, SSR, CSR, SSG, ISR, SSR Streaming, React Server Component といったキーワードに触れつつ、昨今のウェブ開発事情について話をしました。せっかくなのでその内容の共有と、勉強会を開催した動機などを紹介したいと思います。 背景・動機 クックパッドのウェブアプリケーションは10年以上もの間 Ruby on Rail…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[がん治療と仕事の両立 | DMM inside]]></title>
-            <link>https://inside.dmm.com/entry/entry/2022/06/22/cancerandwork</link>
-            <guid>https://inside.dmm.com/entry/entry/2022/06/22/cancerandwork</guid>
-            <pubDate>Tue, 21 Jun 2022 04:02:11 GMT</pubDate>
-            <description><![CDATA[山野美夕紀 DMM.com組織管理本部人事部安全衛生チーム所属（石川事業所勤務）2000年8月入社の勤続23年目物販事業事業部長、通販管理部マネージャー、運営部本部長、役員室マネージャーを経て、2019年より現職 金沢のシンボル「鼓門」の前にたたずむベリーショートが印象的なこの女性は、DMM石川事業所に勤務する山野。勤続22年、DMMの激動の歴史とともに、会社の成長を支えてきた功労者の一人です。 ...]]></description>
-            <content:encoded><![CDATA[山野美夕紀 DMM.com組織管理本部人事部安全衛生チーム所属（石川事業所勤務）2000年8月入社の勤続23年目物販事業事業部長、通販管理部マネージャー、運営部本部長、役員室マネージャーを経て、2019年より現職 金沢のシンボル「鼓門」の前にたたずむベリーショートが印象的なこの女性は、DMM石川事業所に勤務する山野。勤続22年、DMMの激動の歴史とともに、会社の成長を支えてきた功労者の一人です。 はつらつとした姿からは想像できませんが、実は彼女はがんサバイバー。治療を受けながら仕事を続け、現在は人事部の業務として病と闘う従業員のサポートにあたっています。自身の経験を活かし、治療と仕事の両立に思…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[LAMS を導入して、LookML の再利用性を高められた | Feedforce Developer Blog]]></title>
-            <link>https://developer.feedforce.jp/entry/2022/06/21/130000</link>
-            <guid>https://developer.feedforce.jp/entry/2022/06/21/130000</guid>
-            <pubDate>Tue, 21 Jun 2022 04:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、id:masutaka26 です。先週に引き続いてのブログ更新です。 Ruby や JavaScript などのプログラミング言語では、依存関係を管理することでコードの再利用性を高めるとともに、バグの少ないコードを書くことが出来ます。ただ、LookML はプログラミング言語ではないため、同じ方法が使えません。 今回は LAMS という LookML Linter を導入することで、Lo...]]></description>
-            <content:encoded><![CDATA[こんにちは、id:masutaka26 です。先週に引き続いてのブログ更新です。 Ruby や JavaScript などのプログラミング言語では、依存関係を管理することでコードの再利用性を高めるとともに、バグの少ないコードを書くことが出来ます。ただ、LookML はプログラミング言語ではないため、同じ方法が使えません。 今回は LAMS という LookML Linter を導入することで、LookML の再利用性を高める糸口を見つけました。LAMS を紹介しつつ、その知見を共有します。 LAMS とは 導入方法 ルールの免除 LookML の再利用性を高められた F1 ルール 注意事項 ま…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Athenaでデータの格納形式ごとのクエリ実行性能を比較してみた | Taste of Tech Topics]]></title>
-            <link>https://acro-engineer.hatenablog.com/entry/2022/06/21/130000</link>
-            <guid>hatenablog://entry/13574176438103855096</guid>
-            <pubDate>Tue, 21 Jun 2022 04:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、唄うエンジニア、miyajima です。 仕事の中でAmazon Athenaを利用する機会があったため、今回はそのAmazon Athenaを使った性能比較を試してみました。  Amazon Athena とは - Amazon Athena Amazon Athena はS3に保存されているファイルのデータをSQL形式のクエリで直接検索することができるサービスです。 Athenaサ...]]></description>
-            <content:encoded><![CDATA[こんにちは、唄うエンジニア、miyajima です。 仕事の中でAmazon Athenaを利用する機会があったため、今回はそのAmazon Athenaを使った性能比較を試してみました。  Amazon Athena とは - Amazon Athena Amazon Athena はS3に保存されているファイルのデータをSQL形式のクエリで直接検索することができるサービスです。 Athenaサポートしているデータ形式は、以下のように多数用意されています。 一般的なデータファイル形式: CSV, TSV, JSON Hadoopの分散処理に適用した形式: Apache Avro, Apache Parquet, ORC その他、 Apache WebServer、CloudTrail、Logstashのログ形式など サポートされる SerDes とデータ形式 - Amazon Athena またGZIPなどでの圧縮したデータも扱えます。 そのため、それぞれのデータ形式によって性能差がどのくらいあるのかは把握しておきたいところです。 比較内容 今回は以下の観点にそって性能比較を行いまし...]]></content:encoded>
-            <category>AWS</category>
-        </item>
-        <item>
-            <title><![CDATA[Google Material IconsをVueコンポーネントとして書き出す | Yappli Tech Blog]]></title>
-            <link>https://tech.yappli.io/entry/google-material-icons</link>
-            <guid>https://tech.yappli.io/entry/google-material-icons</guid>
-            <pubDate>Tue, 21 Jun 2022 03:54:40 GMT</pubDate>
-            <description><![CDATA[こんにちは。フロントエンドエンジニアの小林（baco16g）です。 デザインシステムの構築を進めるにあたり、各種アイコンの再設計する必要があります。 再設計の手段としてGoogle Material Iconsを利用する案が生まれたため、Vueコンポーネントとして自動出力する処理を検討しました。 Google Material Iconsの一覧を取得する アセットURLを作成する Fetcherを...]]></description>
-            <content:encoded><![CDATA[こんにちは。フロントエンドエンジニアの小林（baco16g）です。 デザインシステムの構築を進めるにあたり、各種アイコンの再設計する必要があります。 再設計の手段としてGoogle Material Iconsを利用する案が生まれたため、Vueコンポーネントとして自動出力する処理を検討しました。 Google Material Iconsの一覧を取得する アセットURLを作成する Fetcherを作成する VueコンポーネントのBuilderを定義する さいごに Google Material Iconsの一覧を取得する まずは、Google Material Iconsとして定義されているア…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[CI/CDチームの紹介 | メルカリエンジニアリングブログ]]></title>

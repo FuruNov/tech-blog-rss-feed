@@ -7,6 +7,36 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://rheb.hatenablog.com/entry/openshift-must-gather",
+            "content_html": "Red HatでOpenShiftのサポートをしているid:nekopです。 OpenShiftには問題解析のための情報収集を行なうmust-gatherというコマンドおよびイメージ群が用意されています。 特にオプションを指定しないでoc adm must-gatherコマンドを実行した場合、OpenShiftのクラスタを構成するCluster Operatorの情報を取得します。 $ oc adm must-gather OpenShiftのクラスタを構成するCluster Operatorというのは以下のコマンドで参照できます。 $ oc get co NAME VERSION AVAIL…",
+            "url": "https://rheb.hatenablog.com/entry/openshift-must-gather",
+            "title": "OpenShiftのmust-gather | 赤帽エンジニアブログ",
+            "summary": "Red HatでOpenShiftのサポートをしているid:nekopです。 OpenShiftには問題解析のための情報収集を行なうmust-gatherというコマンドおよびイメージ群が用意されています。 特にオプションを指定しないでoc adm must-gatherコマンドを実行した場合、OpenShiftのクラスタを構成するCluster Operatorの情報を取得します。 $ oc ad...",
+            "date_modified": "2022-07-05T05:01:59.000Z",
+            "date_published": "2022-07-05T05:01:59.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.virtualtech.jp/entry/2022/07/05/130021",
+            "content_html": "監視サービスのMackerelは、mackerel-agentと呼ばれる監視エージェントを監視対象サーバーにインストールして利用します。 Debian/Ubuntuを監視ホストとして登録する場合は、Mackerel独自のパッケージリポジトリをAPTラインに追加した上で、aptコマンドを使ってエージェントをインストールします。しかし従来は内部的に、リポジトリ鍵の管理にapt-keyコマンドを使用していたため、aptコマンド実行時に以下の警告が表示されていました。これはapt-keyが廃止される予定であることに起因します。 W: http://apt.mackerel.io/v2/dists/ma…",
+            "url": "https://tech.virtualtech.jp/entry/2022/07/05/130021",
+            "title": "mackerel-agentインストール時のapt-key警告を解消する方法 | 仮想化通信",
+            "summary": "監視サービスのMackerelは、mackerel-agentと呼ばれる監視エージェントを監視対象サーバーにインストールして利用します。 Debian/Ubuntuを監視ホストとして登録する場合は、Mackerel独自のパッケージリポジトリをAPTラインに追加した上で、aptコマンドを使ってエージェントをインストールします。しかし従来は内部的に、リポジトリ鍵の管理にapt-keyコマンドを使用して...",
+            "date_modified": "2022-07-05T04:00:21.000Z",
+            "date_published": "2022-07-05T04:00:21.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1422368.html",
+            "content_html": "フリーのデフラグツール「WinContig」が、v5.0.0.0へアップデートされた。現在、公式サイトから無償でダウンロードできる。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1422368.html",
+            "title": "ファイル単位でデフラグしてHDDの内周・外周を選んで配置可能な「WinContig」v5.0.0.0／ダークテーマにも対応 | 窓の杜",
+            "summary": "フリーのデフラグツール「WinContig」が、v5.0.0.0へアップデートされた。現在、公式サイトから無償でダウンロードできる。",
+            "date_modified": "2022-07-05T03:31:48.000Z",
+            "date_published": "2022-07-05T03:31:48.000Z",
+            "tags": []
+        },
+        {
             "id": "https://toranoana-lab.hatenablog.com/entry/2022/07/05/120000",
             "content_html": "こんにちは、虎の穴ラボのT.Kです。 この記事は「虎の穴ラボ 夏のアドベントカレンダー」7日目の記事です。 6日目はS.Sさんによる「SwitchBotのAPIで家電を遠隔操作してみた」が投稿されました。 8日目は片岡さんによる「タイムトラッキングをやってみましょう」が投稿されます。こちらもぜひご覧ください。 はじめに 今回の内容は「.NET MAUI」です。 今週のテーマは「仕事には役立たないかもしれない技術」ということで、今回はとらラボ内では業務で使用しているわけではないが個人的に追っているC#について書いていきます。 .NET MAUI 先日、.NET MAUI（.NET Multi-P…",
             "url": "https://toranoana-lab.hatenablog.com/entry/2022/07/05/120000",
@@ -346,6 +376,32 @@
             ]
         },
         {
+            "id": "https://zenn.dev/kato_shinya/books/lets-create-search-engine-with-dart",
+            "content_html": "本書ではDart言語を使用して実際に実装をしながら、検索エンジンの基盤技術であるWebクローラーの動作原理を紹介していきます。本書は題材ごとに細かく章を区切っているので、時間があまりない方でも隙間時間を利用して無理なく読み進められるように工夫しています。さらに、本書をとおして検索エンジンが動作する基本的な知識と原理を学ぶことができます。また、本書で紹介するWebクローラーの知識は様々なケースに応用が可能です。",
+            "url": "https://zenn.dev/kato_shinya/books/lets-create-search-engine-with-dart",
+            "title": "【入門】誰でもわかる、Dart言語で楽しく作りながら学ぶ検索エンジン | Zennのトレンド",
+            "summary": "本書ではDart言語を使用して実際に実装をしながら、検索エンジンの基盤技術であるWebクローラーの動作原理を紹介していきます。本書は題材ごとに細かく章を区切っているので、時間があまりない方でも隙間時間を利用して無理なく読み進められるように工夫しています。さらに、本書をとおして検索エンジンが動作する基本的な知識と原理を学ぶことができます。また、本書で紹介するWebクローラーの知識は様々なケースに応用...",
+            "date_modified": "2022-07-04T09:12:40.000Z",
+            "date_published": "2022-07-04T09:12:40.000Z",
+            "author": {
+                "name": "Kato Shinya / 加藤 真也"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1543882888298795008#m",
+            "content_html": "本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。 ai-scholar.tech/articles/con…",
+            "url": "https://nitter.net/ai_scholar/status/1543882888298795008#m",
+            "title": "本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。\nhttps://ai-scholar.tech/articles/contrastive-learning/Graph_Contrastive_Clustering | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "本論文では新しいグラフcontrastiveフレームワークを開発し、クラスタリングに適用するグラフContrastiveクラスタリング(GCC)を提案しています。 ai-scholar.tech/articles/con…",
+            "date_modified": "2022-07-04T09:02:19.000Z",
+            "date_published": "2022-07-04T09:02:19.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://cloudpack.media/?p=62908",
             "content_html": "cloudpackサポートです。 不要になったElasticIPを削除する際に、逆引き(rDNS)設定が残っていることが原因でエラーになったことはありませんか？ 逆引きDNSレコードがElasticIPアドレスに関連付け […]",
             "url": "https://cloudpack.media/62908",
@@ -607,21 +663,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
-            "content_html": "グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。",
-            "url": "https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
-            "title": "eコマースと実店舗の相互利益を目指したデザイン | Yahoo! JAPAN Tech Blog",
-            "summary": "グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。",
-            "date_modified": "2022-07-04T02:00:00.000Z",
-            "date_published": "2022-07-04T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.zozo.com/entry/zozotown-cart-replacement-phase1-inside-story",
             "content_html": "こんにちは、カート決済部の佐藤です。普段はZOZOTOWNカート決済サービスの新機能開発、既存改修、運用保守を担当しております。 弊社はモノリスからマイクロサービスへのリプレイスを進めており、カート決済サービスも先日リプレイスPhase1の記事を掲載いたしました。 techblog.zozo.com 本記事ではカートリプレイスPhase1全体を振り返りつつ、リプレイスプロジェクトを進める中で苦労した点や得られた知見等の、リプレイスの裏側をご紹介したいと思います。 カート機能はECサイトの中核を担う機能であり、障害のリスクを考えるとドラスティックな改修には中々手を出しにくい機能だと思っています。…",
             "url": "https://techblog.zozo.com/entry/zozotown-cart-replacement-phase1-inside-story",
             "title": "ZOZOTOWNカート機能のリプレイスPhase1裏側を大公開 | ZOZO TECH BLOG",
             "summary": "こんにちは、カート決済部の佐藤です。普段はZOZOTOWNカート決済サービスの新機能開発、既存改修、運用保守を担当しております。 弊社はモノリスからマイクロサービスへのリプレイスを進めており、カート決済サービスも先日リプレイスPhase1の記事を掲載いたしました。 techblog.zozo.com 本記事ではカートリプレイスPhase1全体を振り返りつつ、リプレイスプロジェクトを進める中で苦労し...",
+            "date_modified": "2022-07-04T02:00:00.000Z",
+            "date_published": "2022-07-04T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
+            "content_html": "グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。",
+            "url": "https://techblog.yahoo.co.jp/entry/2022070430314353/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
+            "title": "eコマースと実店舗の相互利益を目指したデザイン | Yahoo! JAPAN Tech Blog",
+            "summary": "グッドデザイン賞2021を受賞したYahoo!ショッピングのサービスについて、案件の成り立ちや工夫した点をデザイナー目線でご紹介します。",
             "date_modified": "2022-07-04T02:00:00.000Z",
             "date_published": "2022-07-04T02:00:00.000Z",
             "tags": []
@@ -1357,19 +1413,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/chooyan/books/calendar-package",
-            "content_html": "シンプルなカレンダーアプリを実際に開発しながら、Flutter パッケージ、Dart パッケージの開発の進め方を学びます。  パッケージの開発手法を学ぶことで、自分のアイデアを基に開発したコンポーネントを世の中の開発者が再利用できるようになるだけでなく、コンポーネントの適切な役割分担を考えるきっかけになったり、またすでに公開している他のパッケージの内部実装の調べ方を理解することにもつながります。  パッケージを開発すること自体を目的としていない方にとっても、その手法を理解することは今後アプリ開発をする上でとても役に立つ知識になるはずです。  この本に沿ってカレンダーアプリにおけるロジック・Widget・アプリの各コンポーネントを順番に実装していくことで、パッケージ開発手法の理解の第一歩として活用してみてください。",
-            "url": "https://zenn.dev/chooyan/books/calendar-package",
-            "title": "カレンダーアプリで学ぶパッケージ開発 | Zennのトレンド",
-            "summary": "シンプルなカレンダーアプリを実際に開発しながら、Flutter パッケージ、Dart パッケージの開発の進め方を学びます。  パッケージの開発手法を学ぶことで、自分のアイデアを基に開発したコンポーネントを世の中の開発者が再利用できるようになるだけでなく、コンポーネントの適切な役割分担を考えるきっかけになったり、またすでに公開している他のパッケージの内部実装の調べ方を理解することにもつながります。 ...",
-            "date_modified": "2022-07-02T04:06:00.000Z",
-            "date_published": "2022-07-02T04:06:00.000Z",
-            "author": {
-                "name": "中條 剛（ちゅーやん）"
-            },
-            "tags": []
-        },
-        {
             "id": "https://math-fun.net/?p=25545",
             "content_html": "どうも、木村（@kimu3_slime）です。 今回は、二等辺三角形の頂角の二等分線によってできる三角形は合同であることの証明を紹介します。 二等辺三角形（isosceles triangle）とは、2つの ... 二等辺三角形の頂角の二等分線によってできる三角形は合同であることの証明 first appeared on 趣味の大学数学.",
             "url": "https://math-fun.net/20220702/25545/",
@@ -1443,6 +1486,19 @@
             "title": "ヨビノリ王決定戦を開催したら学生が最強すぎたww【東京理科大編】 | 予備校のノリで学ぶ「大学の数学・物理」",
             "date_modified": "2022-07-01T11:00:16.000Z",
             "date_published": "2022-07-01T11:00:16.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1542811893458677762#m",
+            "content_html": "異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています． ai-scholar.tech/articles/voi…",
+            "url": "https://nitter.net/ai_scholar/status/1542811893458677762#m",
+            "title": "異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています．\nhttps://ai-scholar.tech/articles/voice-recognition/light-ser | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "異なるフィルターサイズを持つ3種類の並列CNNを用いることで，CNN構造のみで高い性能とモデルの軽量化を同時に達成しています． ai-scholar.tech/articles/voi…",
+            "date_modified": "2022-07-01T10:06:34.000Z",
+            "date_published": "2022-07-01T10:06:34.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
             "tags": []
         },
         {
@@ -2357,6 +2413,19 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1542341369682747393#m",
+            "content_html": "MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。 ai-scholar.tech/articles/gan…",
+            "url": "https://nitter.net/ai_scholar/status/1542341369682747393#m",
+            "title": "RT by @ai_scholar: MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。\nhttps://ai-scholar.tech/articles/gan/Speech2AffectiveGestures | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "MFCC EncoderやAffective Encoder等を導入することにより、こうした感情表現を取り入れた上半身のジェスチャー生成を可能にしたGANベースモデルを紹介します。 ai-scholar.tech/articles/gan…",
+            "date_modified": "2022-06-30T02:56:52.000Z",
+            "date_published": "2022-06-30T02:56:52.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://techblog.gaudiy.com/entry/2022/06/30/113411",
             "content_html": "こんにちは！ファンと共に時代を進める、Web3スタートアップのGaudiyでエンジニアをしている勝又（@winor30）です。 Gaudiyのプロダクト開発において、最も大切にしていることの1つに、ファンダムな最高のユーザー体験を提供することがあります。 今回は、このファンダムなユーザー体験を提供しながら、プロダクトの成長速度を落とさないために取り組んでいる、UX中心のスキーマ駆動開発についてまとめてみます。 具体的な開発フローや工夫している点についてまとめたので、同じような課題を抱えるチームのご参考になれば嬉しいです！ 1. 取り組みの背景 2. Gaudiyのアーキテクチャ構成 3. UX…",
             "url": "https://techblog.gaudiy.com/entry/2022/06/30/113411",
@@ -2489,16 +2558,6 @@
                 "メモ",
                 "小ワザ"
             ]
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1421210.html",
-            "content_html": "米Microsoftは6月29日（現地時間）、Windows 11の最新プレビュー版「Windows 11 Insider Preview」Build 25151（rs_prerelease）をリリースした。「Windows Insider Preview Program」のDevチャネルに参加しているユーザーは、「Windows Update」からアップグレードが可能。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1421210.html",
-            "title": "「Windows 11 Insider Preview」Build 25151がDevチャネルに／［スタート］画面からシャットダウンしようとすると意図せずOSが再起動する問題などに対処 | 窓の杜",
-            "summary": "米Microsoftは6月29日（現地時間）、Windows 11の最新プレビュー版「Windows 11 Insider Preview」Build 25151（rs_prerelease）をリリースした。「Windows Insider Preview Program」のDevチャネルに参加しているユーザーは、「Windows Update」からアップグレードが可能。",
-            "date_modified": "2022-06-30T01:00:00.000Z",
-            "date_published": "2022-06-30T01:00:00.000Z",
-            "tags": []
         },
         {
             "id": "https://tech-lab.sios.jp/?p=29544",
@@ -2882,6 +2941,19 @@
             "summary": "こんにちは。 エキサイト株式会社の三浦です。 2022年6月27日、エキサイト主催で行った「外部勉強会 リビルドへの道」にて発表させていただきました！ 今回は、簡単に振り返りたいと思います。 「外部勉強会 リビルドへの道」とは 「外部勉強会 リビルドへの道」は、リビルドに関連する勉強会です。 excite.connpass.com 今回の勉強会では、リビルドに挑戦していること、リビルドを完遂させた...",
             "date_modified": "2022-06-29T04:28:33.000Z",
             "date_published": "2022-06-29T04:28:33.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1541983484159627264#m",
+            "content_html": "AttentionからGANベースの手法まで画像キャプション生成の技術まとめ ai-scholar.tech/articles/ima…",
+            "url": "https://nitter.net/ai_scholar/status/1541983484159627264#m",
+            "title": "AttentionからGANベースの手法まで画像キャプション生成の技術まとめ\nhttps://ai-scholar.tech/articles/image-caption/imagecaption_survey | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "AttentionからGANベースの手法まで画像キャプション生成の技術まとめ ai-scholar.tech/articles/ima…",
+            "date_modified": "2022-06-29T03:14:45.000Z",
+            "date_published": "2022-06-29T03:14:45.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
             "tags": []
         },
         {
@@ -3361,6 +3433,19 @@
             "summary": "どうもはじめまして。 muryoimpl です。 前回のエントリ 食べチョクの自動テスト改善活動 〜これまでとこれから〜 で、自動テスト改善チームが発足したことを書きましたが、今回はその活動の中で実施した、RSpec による自動テストのカバレッジのデータ収集の自動化と、そのデータを利用した可視化について書きたいと思います。 これまではどう可視化していたか 食べチョクは Ruby on Rails ...",
             "date_modified": "2022-06-28T03:30:00.000Z",
             "date_published": "2022-06-28T03:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1541621136206614529#m",
+            "content_html": "【開発者必見】活性化関数の最新包括的レビュー！ ai-scholar.tech/articles/sur…",
+            "url": "https://nitter.net/ai_scholar/status/1541621136206614529#m",
+            "title": "RT by @ai_scholar: 【開発者必見】活性化関数の最新包括的レビュー！\nhttps://ai-scholar.tech/articles/survey/activation-functions-review | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "【開発者必見】活性化関数の最新包括的レビュー！ ai-scholar.tech/articles/sur…",
+            "date_modified": "2022-06-28T03:14:55.000Z",
+            "date_published": "2022-06-28T03:14:55.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
             "tags": []
         },
         {
@@ -4085,6 +4170,19 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1541263482712375296#m",
+            "content_html": "本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。 ai-scholar.tech/articles/sem…",
+            "url": "https://nitter.net/ai_scholar/status/1541263482712375296#m",
+            "title": "RT by @ai_scholar: 本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。\nhttps://ai-scholar.tech/articles/semi-supervised/Semi-Supervised_Semantic_Segmentation | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "本論文では、consistency propertyとcontrastive propertyを考慮したピクセルcontrastive-consistent半教師ありセグメンテーション手法を提案しました。 ai-scholar.tech/articles/sem…",
+            "date_modified": "2022-06-27T03:33:44.000Z",
+            "date_published": "2022-06-27T03:33:44.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "21515",
             "content_html": "※本記事は2022年2月9日に公開された記事の翻訳版です。 *この記事は、Developer Productivity Engineering Camp ブログシリーズの一部です。 はじめに みなさん、こんにちは。メルカ […]",
             "url": "https://engineering.mercari.com/blog/entry/20220209-introduction-of-the-network-team/",
@@ -4239,10 +4337,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10378",
-            "content_html": "こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2  Swift2.0で作るAPI通信基盤  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  CTOになって5年経った感想、振り返りなど  本番環境で全削除コマンド！   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.",
+            "content_html": "こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2020年3月）  書評 データ分析プロジェクトの手引（献本御礼）  マネーフォワードエンジニアインタビュー 大須賀洋「フロントエンドでの論理的な設計の楽しさ」  accepts_nested_attributes_forを使わず、複数の子レコードを保存する  MoneyForward Meetupレポート「さぁB2Bサービスを爆速で開発しよう」   Copyright © Money Forward Engineers' Blog [Scrum Fest Osaka 2022 に参加してきました！], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/06/27/scrum-fest-osaka-2022-2/",
             "title": "Scrum Fest Osaka 2022 に参加してきました！ | Money Forward Engineers' Blog",
-            "summary": "こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Asa...",
+            "summary": "こんにちは、関西開発拠点に所属し、マネーフォワード クラウド会計Plusでスクラ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-06-27T01:00:05.000Z",
             "date_published": "2022-06-27T01:00:05.000Z",
             "author": {
@@ -4515,6 +4613,19 @@
                 "カテゴリ済み",
                 "レビュー"
             ]
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1540259936097120257#m",
+            "content_html": "本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡ ai-scholar.tech/articles/out…",
+            "url": "https://nitter.net/ai_scholar/status/1540259936097120257#m",
+            "title": "本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡\nhttps://ai-scholar.tech/articles/out-of-distribution/good-closed-set-classifier | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "本論文では､Semantic Shift Benchmark（SSB）と呼ばれる指標を提案し､サンプルのセマンティックな（意味論的な）新規性を検出することに成功しました｡ ai-scholar.tech/articles/out…",
+            "date_modified": "2022-06-24T09:06:00.000Z",
+            "date_published": "2022-06-24T09:06:00.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
         },
         {
             "id": "https://www.youtube.com/watch?v=Pdq-00LN69o",
@@ -4813,10 +4924,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10371",
-            "content_html": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  941::blogさんがやってきた！  エンジニアはなぜマックが好きなのか？  クラウド会計を支えるマイクロサービスをインターン生中心でリリースしました！  AndroidアプリのAndroidバージョンサポート基準を定めました   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.",
+            "content_html": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  【レポート速報】Google I/O 2016 - Day1  MUI v5 化を経て気づいたやっておいたよかったこと/やっておけばよかったこと  ESLintで開発環境をエンチャント  ACML2019 参加レポート   Copyright © Money Forward Engineers' Blog [CRISP-DMを活用する上で注意すること], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/06/24/how-to-use-crisp-dm/",
             "title": "CRISP-DMを活用する上で注意すること | Money Forward Engineers' Blog",
-            "summary": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
+            "summary": "こんにちは、CTO室AI推進部アナリストグループの足立です。私たちアナリストグル … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [書評...",
             "date_modified": "2022-06-24T01:00:29.000Z",
             "date_published": "2022-06-24T01:00:29.000Z",
             "author": {
@@ -5350,6 +5461,19 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1539816490790440960#m",
+            "content_html": "臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。 ai-scholar.tech/articles/med…",
+            "url": "https://nitter.net/ai_scholar/status/1539816490790440960#m",
+            "title": "RT by @ai_scholar: 臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。\nhttps://ai-scholar.tech/articles/medical/dl_cnn_strabismus | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "臨床評価時に撮影された一次視線写真から、主に小児と対象とし、水平方向の斜視をスクリーニングする深層学習モデルの構築・検証をおこなう。 ai-scholar.tech/articles/med…",
+            "date_modified": "2022-06-23T03:43:54.000Z",
+            "date_published": "2022-06-23T03:43:54.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://nitter.net/ResearchPort/status/1539810015716212736#m",
             "content_html": "【参加募集中】「cvpaper.challenge Conference summer 2022」開催のお知らせ research-p.com/news/502 @ResearchPortより",
             "url": "https://nitter.net/ResearchPort/status/1539810015716212736#m",
@@ -5758,6 +5882,19 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1539534661960863744#m",
+            "content_html": "ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。 ai-scholar.tech/articles/con…",
+            "url": "https://nitter.net/ai_scholar/status/1539534661960863744#m",
+            "title": "RT by @ai_scholar: ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。\nhttps://ai-scholar.tech/articles/contrastive-learning/Hyperbolic_Metric | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "ラベルなしデータから内在情報を抽出する、教師なし双曲線距離学習を提案しました。 ai-scholar.tech/articles/con…",
+            "date_modified": "2022-06-22T09:04:01.000Z",
+            "date_published": "2022-06-22T09:04:01.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://techracho.bpsinc.jp/?p=118870",
             "content_html": "概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: How to fake time in a Postgres database: And an example Ruby on Rails app, too! 原文公開日: 2022/04/19 原著者: Justin Searls サイト: Test Double Blog お急ぎの方は「データベースの時刻をフェイクする方法」から読むとよいでしょう。 週刊Railsウォッチの以下の項も読んでおくことをおすすめします。 参考: 週刊Railsウォッチ20220511 RailsのテストでPostgreSQLの時刻をフェイクする PostgreSQLの現在 […] The post PostgreSQLの現在時刻をフェイクする方法とRailsサンプルコード（翻訳） first appeared on TechRacho.",
             "url": "https://techracho.bpsinc.jp/hachi8833/2022_06_22/118870",
@@ -6085,6 +6222,19 @@
             ]
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1539400708125904896#m",
+            "content_html": "大規模最先端技術イベントの紹介です． ai-scholar.tech/events/macni…",
+            "url": "https://nitter.net/ai_scholar/status/1539400708125904896#m",
+            "title": "大規模最先端技術イベントの紹介です．\n特に，GPT-3で“今”業務改革できるのか？\nや\n 画像解析 x Braintech（ブレインテック）という次世代の技術の今の状況が知ることができます！\nhttps://ai-scholar.tech/events/macnica_33 | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "大規模最先端技術イベントの紹介です． ai-scholar.tech/events/macni…",
+            "date_modified": "2022-06-22T00:11:44.000Z",
+            "date_published": "2022-06-22T00:11:44.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://creators-note.chatwork.com/entry/2022/06/22/090000",
             "content_html": "プロダクトセキュリティ部の西川（id:cw-nishikawa）です。 最近、膝が痛いので歳を感じます。ストレッチして痛みを和らげているところです。 さてさて、プロダクトセキュリティ部は今、Chatwork社としてセキュリティをどのように考えていくか というところの方向性を決定していくフェーズに来ています。 現状の課題として、セキュリティに費用をかけすぎているのか、逆にかけなさすぎているのか、明確な基準がなく妥当性がわからない、というものがあります。 つまり、会社としてセキュリティをどう捉え、どのくらい力をかけていくか、という方針がありません。その方針を決定し、方針に従ってセキュリティ施策を進…",
             "url": "https://creators-note.chatwork.com/entry/2022/06/22/090000",
@@ -6387,75 +6537,6 @@
             "summary": "はじめに はじめまして。ikedamasa1221です。 私は2021年の末くらいからオフショア開発業務に関わりはじめ、 今年度からブリッジSEとしてオフショア開発業務に従事することになりました。 実はこれまではずっと開発者として機能開発などに携わっており、ブリッジSE業務は初めての経験になります。 時には苦戦しつつ、時には楽しみながら、早く一人前のブリッジSEとして仕事ができるように日々頑張って...",
             "date_modified": "2022-06-21T06:00:00.000Z",
             "date_published": "2022-06-21T06:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://weseek.co.jp/tech/?p=2663",
-            "content_html": "はじめに こんにちは、インターン生の手塚です。 今回はGROWIにおけるwebpackの設定について、調べてみたので記事にします。この記事はGROWIにおけるwebpackの設定に着目しているのでwebpackの基礎知識 […]",
-            "url": "https://weseek.co.jp/tech/2663/",
-            "title": "【webpack】GROWIにおけるwebpackの設定について | WESEEK Tech Blog",
-            "summary": "はじめに こんにちは、インターン生の手塚です。 今回はGROWIにおけるwebpackの設定について、調べてみたので記事にします。この記事はGROWIにおけるwebpackの設定に着目しているのでwebpackの基礎知識 […]",
-            "date_modified": "2022-06-21T04:31:24.000Z",
-            "date_published": "2022-06-21T04:31:24.000Z",
-            "author": {
-                "name": "yuken-t"
-            },
-            "tags": [
-                "GROWI",
-                "JavaScript",
-                "webpack"
-            ]
-        },
-        {
-            "id": "https://techlife.cookpad.com/entry/2022/06/21/130736",
-            "content_html": "こんにちは、クックパッドで最近はモバイルアプリを離れもっぱらウェブアプリを作っている @morishin です。 先日、社内で「モダンウェブフロントエンド勉強会」と題して React, Next.js, Core Web Vitals, SSR, CSR, SSG, ISR, SSR Streaming, React Server Component といったキーワードに触れつつ、昨今のウェブ開発事情について話をしました。せっかくなのでその内容の共有と、勉強会を開催した動機などを紹介したいと思います。 背景・動機 クックパッドのウェブアプリケーションは10年以上もの間 Ruby on Rail…",
-            "url": "https://techlife.cookpad.com/entry/2022/06/21/130736",
-            "title": "モダンウェブフロントエンド勉強会を開催しました | クックパッド開発者ブログ",
-            "summary": "こんにちは、クックパッドで最近はモバイルアプリを離れもっぱらウェブアプリを作っている @morishin です。 先日、社内で「モダンウェブフロントエンド勉強会」と題して React, Next.js, Core Web Vitals, SSR, CSR, SSG, ISR, SSR Streaming, React Server Component といったキーワードに触れつつ、昨今のウェブ開発...",
-            "date_modified": "2022-06-21T04:07:36.000Z",
-            "date_published": "2022-06-21T04:07:36.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://inside.dmm.com/entry/entry/2022/06/22/cancerandwork",
-            "content_html": "山野美夕紀 DMM.com組織管理本部人事部安全衛生チーム所属（石川事業所勤務）2000年8月入社の勤続23年目物販事業事業部長、通販管理部マネージャー、運営部本部長、役員室マネージャーを経て、2019年より現職 金沢のシンボル「鼓門」の前にたたずむベリーショートが印象的なこの女性は、DMM石川事業所に勤務する山野。勤続22年、DMMの激動の歴史とともに、会社の成長を支えてきた功労者の一人です。 はつらつとした姿からは想像できませんが、実は彼女はがんサバイバー。治療を受けながら仕事を続け、現在は人事部の業務として病と闘う従業員のサポートにあたっています。自身の経験を活かし、治療と仕事の両立に思…",
-            "url": "https://inside.dmm.com/entry/entry/2022/06/22/cancerandwork",
-            "title": "がん治療と仕事の両立 | DMM inside",
-            "summary": "山野美夕紀 DMM.com組織管理本部人事部安全衛生チーム所属（石川事業所勤務）2000年8月入社の勤続23年目物販事業事業部長、通販管理部マネージャー、運営部本部長、役員室マネージャーを経て、2019年より現職 金沢のシンボル「鼓門」の前にたたずむベリーショートが印象的なこの女性は、DMM石川事業所に勤務する山野。勤続22年、DMMの激動の歴史とともに、会社の成長を支えてきた功労者の一人です。 ...",
-            "date_modified": "2022-06-21T04:02:11.000Z",
-            "date_published": "2022-06-21T04:02:11.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://developer.feedforce.jp/entry/2022/06/21/130000",
-            "content_html": "こんにちは、id:masutaka26 です。先週に引き続いてのブログ更新です。 Ruby や JavaScript などのプログラミング言語では、依存関係を管理することでコードの再利用性を高めるとともに、バグの少ないコードを書くことが出来ます。ただ、LookML はプログラミング言語ではないため、同じ方法が使えません。 今回は LAMS という LookML Linter を導入することで、LookML の再利用性を高める糸口を見つけました。LAMS を紹介しつつ、その知見を共有します。 LAMS とは 導入方法 ルールの免除 LookML の再利用性を高められた F1 ルール 注意事項 ま…",
-            "url": "https://developer.feedforce.jp/entry/2022/06/21/130000",
-            "title": "LAMS を導入して、LookML の再利用性を高められた | Feedforce Developer Blog",
-            "summary": "こんにちは、id:masutaka26 です。先週に引き続いてのブログ更新です。 Ruby や JavaScript などのプログラミング言語では、依存関係を管理することでコードの再利用性を高めるとともに、バグの少ないコードを書くことが出来ます。ただ、LookML はプログラミング言語ではないため、同じ方法が使えません。 今回は LAMS という LookML Linter を導入することで、Lo...",
-            "date_modified": "2022-06-21T04:00:00.000Z",
-            "date_published": "2022-06-21T04:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "hatenablog://entry/13574176438103855096",
-            "content_html": "こんにちは、唄うエンジニア、miyajima です。 仕事の中でAmazon Athenaを利用する機会があったため、今回はそのAmazon Athenaを使った性能比較を試してみました。  Amazon Athena とは - Amazon Athena Amazon Athena はS3に保存されているファイルのデータをSQL形式のクエリで直接検索することができるサービスです。 Athenaサポートしているデータ形式は、以下のように多数用意されています。 一般的なデータファイル形式: CSV, TSV, JSON Hadoopの分散処理に適用した形式: Apache Avro, Apache Parquet, ORC その他、 Apache WebServer、CloudTrail、Logstashのログ形式など サポートされる SerDes とデータ形式 - Amazon Athena またGZIPなどでの圧縮したデータも扱えます。 そのため、それぞれのデータ形式によって性能差がどのくらいあるのかは把握しておきたいところです。 比較内容 今回は以下の観点にそって性能比較を行いまし...",
-            "url": "https://acro-engineer.hatenablog.com/entry/2022/06/21/130000",
-            "title": "Athenaでデータの格納形式ごとのクエリ実行性能を比較してみた | Taste of Tech Topics",
-            "summary": "こんにちは、唄うエンジニア、miyajima です。 仕事の中でAmazon Athenaを利用する機会があったため、今回はそのAmazon Athenaを使った性能比較を試してみました。  Amazon Athena とは - Amazon Athena Amazon Athena はS3に保存されているファイルのデータをSQL形式のクエリで直接検索することができるサービスです。 Athenaサ...",
-            "date_modified": "2022-06-21T04:00:00.000Z",
-            "date_published": "2022-06-21T04:00:00.000Z",
-            "tags": [
-                "AWS"
-            ]
-        },
-        {
-            "id": "https://tech.yappli.io/entry/google-material-icons",
-            "content_html": "こんにちは。フロントエンドエンジニアの小林（baco16g）です。 デザインシステムの構築を進めるにあたり、各種アイコンの再設計する必要があります。 再設計の手段としてGoogle Material Iconsを利用する案が生まれたため、Vueコンポーネントとして自動出力する処理を検討しました。 Google Material Iconsの一覧を取得する アセットURLを作成する Fetcherを作成する VueコンポーネントのBuilderを定義する さいごに Google Material Iconsの一覧を取得する まずは、Google Material Iconsとして定義されているア…",
-            "url": "https://tech.yappli.io/entry/google-material-icons",
-            "title": "Google Material IconsをVueコンポーネントとして書き出す | Yappli Tech Blog",
-            "summary": "こんにちは。フロントエンドエンジニアの小林（baco16g）です。 デザインシステムの構築を進めるにあたり、各種アイコンの再設計する必要があります。 再設計の手段としてGoogle Material Iconsを利用する案が生まれたため、Vueコンポーネントとして自動出力する処理を検討しました。 Google Material Iconsの一覧を取得する アセットURLを作成する Fetcherを...",
-            "date_modified": "2022-06-21T03:54:40.000Z",
-            "date_published": "2022-06-21T03:54:40.000Z",
             "tags": []
         },
         {
