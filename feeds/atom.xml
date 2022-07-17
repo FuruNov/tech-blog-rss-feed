@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-07-17T04:04:37.437Z</updated>
+    <updated>2022-07-17T07:27:04.747Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -11,6 +11,19 @@
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
     <entry>
+        <title type="html"><![CDATA[ピタゴラスの定理の相似による証明 | 趣味の大学数学]]></title>
+        <id>https://math-fun.net/?p=25661</id>
+        <link href="https://math-fun.net/20220717/25661/"/>
+        <updated>2022-07-17T04:57:04.000Z</updated>
+        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ピタゴラスの定理の相似による証明を紹介します。 直角三角形\(ABC\)について考えましょう。 斜辺の長さを\(c\)、他の2つの辺の長さを\(a,b ... ピタゴラスの定理の相似による証明 first appeared on 趣味の大学数学.]]></summary>
+        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ピタゴラスの定理の相似による証明を紹介します。 直角三角形\(ABC\)について考えましょう。 斜辺の長さを\(c\)、他の2つの辺の長さを\(a,b ... ピタゴラスの定理の相似による証明 first appeared on 趣味の大学数学.]]></content>
+        <author>
+            <name>kimu3</name>
+        </author>
+        <category label="ユークリッド幾何学"/>
+        <published>2022-07-17T04:57:04.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Conversations on Mathematics | The n-Category Café]]></title>
         <id>https://golem.ph.utexas.edu/category/2022/07/conversations.html</id>
         <link href="https://golem.ph.utexas.edu/category/2022/07/conversations.html"/>
@@ -18,6 +31,18 @@
         <summary type="html"><![CDATA[Videos of math conversations between John Baez and James Dolan.]]></summary>
         <content type="html"><![CDATA[Videos of math conversations between John Baez and James Dolan.]]></content>
         <published>2022-07-16T22:06:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zig言語の一風変わった算術演算子 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yohhoy/articles/zig-exotic-arithops</id>
+        <link href="https://zenn.dev/yohhoy/articles/zig-exotic-arithops"/>
+        <updated>2022-07-16T17:19:13.000Z</updated>
+        <summary type="html"><![CDATA[最近ホットな話題に便乗して 一部で注目を集めはじめたプログラミング言語Zigの言語仕様を眺めていたところ、他のプログラミング言語では見かけない一風変わった算術演算子が提供されるようです。 ! この記事の内容は2022年7月現在のmasterバージョン（0.9.1の次候補）Zig Language Referenceに基づきます。    足し算3種盛 いわゆる「足し算」を行う算術加算について、Zig...]]></summary>
+        <content type="html"><![CDATA[最近ホットな話題に便乗して 一部で注目を集めはじめたプログラミング言語Zigの言語仕様を眺めていたところ、他のプログラミング言語では見かけない一風変わった算術演算子が提供されるようです。 ! この記事の内容は2022年7月現在のmasterバージョン（0.9.1の次候補）Zig Language Referenceに基づきます。    足し算3種盛 いわゆる「足し算」を行う算術加算について、Zig言語では 3種類の演算子 が提供されます。   +: 通常の算術加算。結果が表現範囲を超える場合は、エラーを報告してプログラム停止する。  +%: 循環(Wrapping)加算。結果が表現範囲を...]]></content>
+        <author>
+            <name>yohhoy</name>
+        </author>
+        <published>2022-07-16T17:19:13.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Next.js v12.2 + TypeScript + Emotion 環境構築忘備録 | Zennのトレンド]]></title>
@@ -154,6 +179,18 @@
         <published>2022-07-16T05:13:21.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ネストされたオブジェクトからリテラル型のユニオン型を作成する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/mgmgshake/articles/25a4d13532cbba</id>
+        <link href="https://zenn.dev/mgmgshake/articles/25a4d13532cbba"/>
+        <updated>2022-07-16T04:53:53.000Z</updated>
+        <summary type="html"><![CDATA[やりたいこと const FruitMap = {  APPLE: {value: 'apple', price: 100},  BANANA: {value: 'banana', price: 200},  MANGO: {value: 'mango', price: 300}, } このようなネストされたオブジェクトから type Price = 100 | 200 | 300 こういう型を生...]]></summary>
+        <content type="html"><![CDATA[やりたいこと const FruitMap = {  APPLE: {value: 'apple', price: 100},  BANANA: {value: 'banana', price: 200},  MANGO: {value: 'mango', price: 300}, } このようなネストされたオブジェクトから type Price = 100 | 200 | 300 こういう型を生成したい🤨   結論 const FruitMap = {  APPLE: {value: 'apple', price: 100},  BANANA: {value: 'banana', ...]]></content>
+        <author>
+            <name>gomachan</name>
+        </author>
+        <published>2022-07-16T04:53:53.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【PC・スマホ両対応】CSSだけでモーダルの背景をスクロールさせない新しい方法（つっかえ棒式モーダル背景固定法） | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/yowatsuyoengineer/items/b43b64e1419fa285b758?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/yowatsuyoengineer/items/b43b64e1419fa285b758?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -161,6 +198,24 @@
         <summary type="html"><![CDATA[スクロールチェーンを防ぐための「overscroll-behavior: contain」を応用した方法をご紹介します。 名付けて「つっかえ棒式モーダル背景固定法」です。  ソースコードはこちら ht…]]></summary>
         <content type="html"><![CDATA[スクロールチェーンを防ぐための「overscroll-behavior: contain」を応用した方法をご紹介します。 名付けて「つっかえ棒式モーダル背景固定法」です。  ソースコードはこちら ht…]]></content>
         <published>2022-07-16T03:40:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Ways to Leverage AI for Lead Generation | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/6-ways-to-leverage-ai-for-lead-generation?source=rss</id>
+        <link href="https://hackernoon.com/6-ways-to-leverage-ai-for-lead-generation?source=rss"/>
+        <updated>2022-07-16T02:46:48.000Z</updated>
+        <author>
+            <name>Thomas Griffin</name>
+        </author>
+        <category label="artificial-intelligence"/>
+        <category label="lead-generation"/>
+        <category label="machine-learning"/>
+        <category label="ai"/>
+        <category label="marketing"/>
+        <category label="business-strategy"/>
+        <category label="growth-hacking"/>
+        <category label="business-growth"/>
+        <published>2022-07-16T02:46:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[DeepL API って何？ (Free, Pro の違いとは？) | AIリサーチコレクション]]></title>
@@ -194,18 +249,6 @@
         <summary type="html"><![CDATA[Udemyの我妻先生の「みんなのKaggle講座」 を受講させていただきました。 大変わかりやすかったので、Kaggleに取り組んでみたいと思われているみなさんにおすすめです。この記事を見て、少しで…]]></summary>
         <content type="html"><![CDATA[Udemyの我妻先生の「みんなのKaggle講座」 を受講させていただきました。 大変わかりやすかったので、Kaggleに取り組んでみたいと思われているみなさんにおすすめです。この記事を見て、少しで…]]></content>
         <published>2022-07-15T22:25:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今週の PHP 2022/07/09 〜 2022/07/15 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/hanhan1978/articles/8f63e028d43d9d</id>
-        <link href="https://zenn.dev/hanhan1978/articles/8f63e028d43d9d"/>
-        <updated>2022-07-15T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。今週は、体力の限界によりバグ情報少なめとなっております。ご容赦ください。   Internal   PHP: rfc:random_extension_improvement https://wiki.php.net/rfc/random_extension_improvement 細かな実装面の話の調整が行われている。RFC 提...]]></summary>
-        <content type="html"><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。今週は、体力の限界によりバグ情報少なめとなっております。ご容赦ください。   Internal   PHP: rfc:random_extension_improvement https://wiki.php.net/rfc/random_extension_improvement 細かな実装面の話の調整が行われている。RFC 提出後に会話から決まってきた細かな仕様を正確に実装に落とすのは気を使う仕事だなと。ただただ感心＆応援。   Windows PECL build machine died Github Actio...]]></content>
-        <author>
-            <name>Ryo Tomidokoro</name>
-        </author>
-        <published>2022-07-15T22:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[6 Best APIs for Topic Detection in 2022 | Hacker Noon - machine-learning]]></title>
@@ -283,6 +326,18 @@
         <summary type="html"><![CDATA[はじめに  この記事は、Qiita Engineer Festa 2022でRemote TestKitを使ってレビューを書こう！のエントリー記事です。  私が所属する開発チームでは、スマートデバイス…]]></summary>
         <content type="html"><![CDATA[はじめに  この記事は、Qiita Engineer Festa 2022でRemote TestKitを使ってレビューを書こう！のエントリー記事です。  私が所属する開発チームでは、スマートデバイス…]]></content>
         <published>2022-07-15T15:44:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[仕様と実装から理解するOpenTelemetryの全体像 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/ymtdzzz/articles/37c2856f46ea10</id>
+        <link href="https://zenn.dev/ymtdzzz/articles/37c2856f46ea10"/>
+        <updated>2022-07-15T15:20:52.000Z</updated>
+        <summary type="html"><![CDATA[分散トレーシングの標準仕様及びFWを提供するOpenTelemetryについて、公式ドキュメントを読めば基本的な概念については理解できると思います。 ただ、実際にContext Propagationがどう行われているのかとか、APIとSDKがどこで実装されているのかとか、裏側までイメージするまで少し時間がかかったのでそのときに色々メモったものをまとめてみたいと思います。 なお、OpenTelem...]]></summary>
+        <content type="html"><![CDATA[分散トレーシングの標準仕様及びFWを提供するOpenTelemetryについて、公式ドキュメントを読めば基本的な概念については理解できると思います。 ただ、実際にContext Propagationがどう行われているのかとか、APIとSDKがどこで実装されているのかとか、裏側までイメージするまで少し時間がかかったのでそのときに色々メモったものをまとめてみたいと思います。 なお、OpenTelemetryとOpenTracing、OpenCensusなどの関連や歴史的な経緯については既に色々記事があるようですので取り上げません。   対象読者 なんとなくOpenTelemetryの全体像...]]></content>
+        <author>
+            <name>Y.Matsuda</name>
+        </author>
+        <published>2022-07-15T15:20:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Why SQL Will Remain the Data Scientist’s Best Friend | KDnuggets]]></title>
@@ -795,18 +850,6 @@
         <published>2022-07-15T03:44:37.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ShellSpec を使って、テスト駆動でシェルスクリプトを書いてみる | Zennのトレンド]]></title>
-        <id>https://zenn.dev/ryo_kawamata/articles/introduce-shellspec</id>
-        <link href="https://zenn.dev/ryo_kawamata/articles/introduce-shellspec"/>
-        <updated>2022-07-15T03:13:08.000Z</updated>
-        <summary type="html"><![CDATA[シェルスクリプトにテストを書くというイメージはなかったのですが、最近使ったShellSpecがとても使いやすくて、シェルスクリプトのテストのイメージが覆されたので紹介です。   ShellSpecとは？ ShellSpecはシェルスクリプトでBDD（behavior driven development) のユニットテストを行うためのためのフレームワークです。 https://github.com...]]></summary>
-        <content type="html"><![CDATA[シェルスクリプトにテストを書くというイメージはなかったのですが、最近使ったShellSpecがとても使いやすくて、シェルスクリプトのテストのイメージが覆されたので紹介です。   ShellSpecとは？ ShellSpecはシェルスクリプトでBDD（behavior driven development) のユニットテストを行うためのためのフレームワークです。 https://github.com/shellspec/shellspec RSpecのように、まるで文章のようなテストを記述できます。豊富なMather も提供されています。 Describe 'hello.sh'  Inc...]]></content>
-        <author>
-            <name>ryo_kawamata</name>
-        </author>
-        <published>2022-07-15T03:13:08.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[AWS JumpStart for NewGrads 2022 　参加記事 ~最強のアーキテクチャ を考えてみた~ | Adwaysエンジニアブログ]]></title>
         <id>https://blog.engineer.adways.net/entry/2022/07/15/120000</id>
         <link href="https://blog.engineer.adways.net/entry/2022/07/15/120000"/>
@@ -1027,18 +1070,6 @@
         <category label="TypeScript"/>
         <category label="recoil-sync"/>
         <published>2022-07-14T23:30:15.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[MySQL]もう一度学ぶインデックスとカーディナリティ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/m_yamashii/articles/mysql-index-cardinality</id>
-        <link href="https://zenn.dev/m_yamashii/articles/mysql-index-cardinality"/>
-        <updated>2022-07-14T22:35:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、M-Yamashitaです。 今回の記事は、インデックスとカーディナリティについての話です。 この執筆のきっかけは、私がある機能を作った際に、インデックスをうまく使えていないためにパフォーマンス低下を招いてしまったためです。当時、私はインデックスについてなんとなく知っていたものの、仕組みをあまり理解できていないために起きた問題でした。そのため、インデックスとは何なのか、またイ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、M-Yamashitaです。 今回の記事は、インデックスとカーディナリティについての話です。 この執筆のきっかけは、私がある機能を作った際に、インデックスをうまく使えていないためにパフォーマンス低下を招いてしまったためです。当時、私はインデックスについてなんとなく知っていたものの、仕組みをあまり理解できていないために起きた問題でした。そのため、インデックスとは何なのか、またインデックスを使うときに出てくるカーディナリティとは何かについて説明します。 MySQLについてあまり詳しくないため、間違っている箇所等あれば指摘をお願いします。 なお、本記事ではMySQL ...]]></content>
-        <author>
-            <name>M-Yamashita</name>
-        </author>
-        <published>2022-07-14T22:35:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　7月15日　～「Sweet Home 3D」や「GitKraken」など | 窓の杜]]></title>
@@ -3800,19 +3831,6 @@ https://ai-scholar.tech/articles/survey/neuromorphics_loihi | AI技術最新情�
         <category label="便利ツール"/>
         <category label="DeepL"/>
         <published>2022-07-07T07:49:38.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[三角形の辺の長さと角の大きさの大小関係が一致することの証明 | 趣味の大学数学]]></title>
-        <id>https://math-fun.net/?p=25575</id>
-        <link href="https://math-fun.net/20220707/25575/"/>
-        <updated>2022-07-07T07:32:34.000Z</updated>
-        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、三角形の辺の長さと、向かい合う角の大きさの大小関係が一致することの証明を紹介します。 辺が長いならば、角が大きいこと 辺の長さが\(AB < B ... 三角形の辺の長さと角の大きさの大小関係が一致することの証明 first appeared on 趣味の大学数学.]]></summary>
-        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、三角形の辺の長さと、向かい合う角の大きさの大小関係が一致することの証明を紹介します。 辺が長いならば、角が大きいこと 辺の長さが\(AB < B ... 三角形の辺の長さと角の大きさの大小関係が一致することの証明 first appeared on 趣味の大学数学.]]></content>
-        <author>
-            <name>kimu3</name>
-        </author>
-        <category label="ユークリッド幾何学"/>
-        <published>2022-07-07T07:32:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[IntelliJで例外ブレークポイントを発生させる | エキサイト TechBlog.]]></title>
