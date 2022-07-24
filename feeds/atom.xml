@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-07-24T04:03:34.832Z</updated>
+    <updated>2022-07-24T07:29:11.524Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -53,6 +53,30 @@
         <category label="Science"/>
         <category label="Overviews"/>
         <published>2022-07-23T19:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TurborepoのリモートキャッシュサーバをCloud RunとGCSで構築する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/aiji42/articles/7bc1b6df91dd76</id>
+        <link href="https://zenn.dev/aiji42/articles/7bc1b6df91dd76"/>
+        <updated>2022-07-23T15:44:56.000Z</updated>
+        <summary type="html"><![CDATA[モチベーション Turborepoを使用する目的はいくつかありますが、リモートキャッシュが一番大きいと個人的には思っています。 リモートキャッシュを使用することで、CIの高速化やチームメンバーのローカルでの開発体験向上にもつながります。 リモートキャッシュを導入する最も簡単な方法は、Vercelを利用することですが、チームでとなるとアカウント管理や料金など問題が発生します。 アカウントレスなチーム...]]></summary>
+        <content type="html"><![CDATA[モチベーション Turborepoを使用する目的はいくつかありますが、リモートキャッシュが一番大きいと個人的には思っています。 リモートキャッシュを使用することで、CIの高速化やチームメンバーのローカルでの開発体験向上にもつながります。 リモートキャッシュを導入する最も簡単な方法は、Vercelを利用することですが、チームでとなるとアカウント管理や料金など問題が発生します。 アカウントレスなチーム専用のリモートキャッシュサーバをセルフホストし、上記の問題を解消することが本稿のモチベーションです。 なお、Turborepoの紹介や導入・使用方法に関しては説明を省きますので、詳しく知りた...]]></content>
+        <author>
+            <name>aiji42</name>
+        </author>
+        <published>2022-07-23T15:44:56.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エンジニアの育成にどう向き合うか | Zennのトレンド]]></title>
+        <id>https://zenn.dev/mercury6444/articles/2dfecd6299cb2c</id>
+        <link href="https://zenn.dev/mercury6444/articles/2dfecd6299cb2c"/>
+        <updated>2022-07-23T13:46:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに みなさんは新人エンジニアの育成で悩んだことはありますか。おそらく何かしら悩んだ経験をお持ちの方も多いのではないでしょうか。 私はたくさん悩んだ経験があります。私はこれまで4名のエンジニアをOJTという立場で育成してきました。彼らの性格や得意不得意が様々な中で思うようにいかない場面もあり、日々悩みながら仕事をしていました。 かれこれ4年ほどの期間で、「これは上手くいった」 「これは失敗だっ...]]></summary>
+        <content type="html"><![CDATA[はじめに みなさんは新人エンジニアの育成で悩んだことはありますか。おそらく何かしら悩んだ経験をお持ちの方も多いのではないでしょうか。 私はたくさん悩んだ経験があります。私はこれまで4名のエンジニアをOJTという立場で育成してきました。彼らの性格や得意不得意が様々な中で思うようにいかない場面もあり、日々悩みながら仕事をしていました。 かれこれ4年ほどの期間で、「これは上手くいった」 「これは失敗だった」という経験もそれなりに出来ました。そこで今回は、私のこれまでの経験で学んだことを記事という形でまとめてみようと思います。   技術の習得について まずはエンジニアとしては避けて通れない、...]]></content>
+        <author>
+            <name>hiro</name>
+        </author>
+        <published>2022-07-23T13:46:45.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[アプリを Docker 、Docker Compose でコンテナを動かしてみる | Qiita - 人気の記事]]></title>
@@ -121,18 +145,6 @@
         <published>2022-07-23T09:40:58.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Luaの数値型 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/mod_poppo/articles/lua-number-types</id>
-        <link href="https://zenn.dev/mod_poppo/articles/lua-number-types"/>
-        <updated>2022-07-23T09:26:56.000Z</updated>
-        <summary type="html"><![CDATA[Lua 5.2まで Lua 5.2までは、Luaの数値型は全て浮動小数点数（典型的には倍精度浮動小数点数）でした。 組み込み環境向けの場合はコンパイル時にカスタマイズすることで整数型を使うようにもできました。 倍精度浮動小数点数の場合は、 -2^{53} 以上 2^{53} 以下の整数値をサブセットとして表現できます。特に、符号付き32ビット整数 [-2^{31},2^{31}-1] や符号なし3...]]></summary>
-        <content type="html"><![CDATA[Lua 5.2まで Lua 5.2までは、Luaの数値型は全て浮動小数点数（典型的には倍精度浮動小数点数）でした。 組み込み環境向けの場合はコンパイル時にカスタマイズすることで整数型を使うようにもできました。 倍精度浮動小数点数の場合は、 -2^{53} 以上 2^{53} 以下の整数値をサブセットとして表現できます。特に、符号付き32ビット整数 [-2^{31},2^{31}-1] や符号なし32ビット整数 [0,2^{32}-1] を表現できます。 この辺は伝統的なJavaScriptと同じですね。 32ビット整数の演算をwrap-aroundさせたい場合は、加減算の場合は fu...]]></content>
-        <author>
-            <name>だめぽ</name>
-        </author>
-        <published>2022-07-23T09:26:56.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[初心者による初心者のためのJavaScript基礎２【配列・条件分岐・繰り返し】 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/katao_eng/items/6b43d049307a1bc09750?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/katao_eng/items/6b43d049307a1bc09750?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -166,6 +178,18 @@
         <summary type="html"><![CDATA[はじめに  実験データの解析等でMATLABを用いてる方であれば、手元のデータに対して特定の関数でフィッティングを行いたいという場面が日常的にあると思います。本記事では非線形モデルを用いて実験データ…]]></summary>
         <content type="html"><![CDATA[はじめに  実験データの解析等でMATLABを用いてる方であれば、手元のデータに対して特定の関数でフィッティングを行いたいという場面が日常的にあると思います。本記事では非線形モデルを用いて実験データ…]]></content>
         <published>2022-07-23T08:34:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BMI計算プログラムでGo言語に入門してみる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/shimada_print/articles/033335f5eb050c</id>
+        <link href="https://zenn.dev/shimada_print/articles/033335f5eb050c"/>
+        <updated>2022-07-23T07:38:52.000Z</updated>
+        <summary type="html"><![CDATA[Go言語はC++に代わる最速なプログラミング言語？ 今まではC++が動作などが最速なプログラミング言語と思われていましたが、C++は古いのでそれに代わる言語が求められました。そこで検索大手のGoogleが開発したのがGoという言語です。しかしGoだと他にも多く使用されている言葉なので、Go言語かGolangと言われています。   Go言語は他の言語には無い多くの長所がある Go言語は最近ランキング...]]></summary>
+        <content type="html"><![CDATA[Go言語はC++に代わる最速なプログラミング言語？ 今まではC++が動作などが最速なプログラミング言語と思われていましたが、C++は古いのでそれに代わる言語が求められました。そこで検索大手のGoogleが開発したのがGoという言語です。しかしGoだと他にも多く使用されている言葉なので、Go言語かGolangと言われています。   Go言語は他の言語には無い多くの長所がある Go言語は最近ランキング上位に急に上がった言語です。人気が急上昇した理由は以下だと思われます。なお以下以外にも長所はありますが、冗長（無駄に長文）になってしまうので省略しています。   Go言語は静的型付け言語なの...]]></content>
+        <author>
+            <name>嶋田印刷@Web・UI/UXデザインとプログラミングと仮想通貨FXをする人</name>
+        </author>
+        <published>2022-07-23T07:38:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[React + Nextでdebounce 機能を使った検索機能の実装 | Zennのトレンド]]></title>
@@ -646,6 +670,18 @@
         <category label="Stimulus.js"/>
         <category label="翻訳記事"/>
         <published>2022-07-22T08:30:01.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jito日本語ドキュメント | Zennのトレンド]]></title>
+        <id>https://zenn.dev/itte/books/5ce6aac9166aed</id>
+        <link href="https://zenn.dev/itte/books/5ce6aac9166aed"/>
+        <updated>2022-07-22T08:24:46.000Z</updated>
+        <summary type="html"><![CDATA[Jito（ジト）は、JavaScript用のWebコンポーネントライブラリです。  ✔ 既存Webサイトに他のCSSやJSライブラリからの干渉を抑えてコンテンツを挿入 ✔ 事前コンパイル不要。直感的な記述でSPAを構築 ✔ Shadow DOM、カスタム要素、仮想DOM、テンプレートエンジン、リアクティブプログラミング、データバインディング  [リポジトリ] https://github.com/...]]></summary>
+        <content type="html"><![CDATA[Jito（ジト）は、JavaScript用のWebコンポーネントライブラリです。  ✔ 既存Webサイトに他のCSSやJSライブラリからの干渉を抑えてコンテンツを挿入 ✔ 事前コンパイル不要。直感的な記述でSPAを構築 ✔ Shadow DOM、カスタム要素、仮想DOM、テンプレートエンジン、リアクティブプログラミング、データバインディング  [リポジトリ] https://github.com/ittedev/jito  📝 英語が不得意なので先に日本語ドキュメントを作りました。 📝 JitoはBeako.jsから改名しました。 📝 APIは執筆途中です。]]></content>
+        <author>
+            <name>itte</name>
+        </author>
+        <published>2022-07-22T08:24:46.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[React + Rust + Tauriで動画プレイヤーを作るハンズオンまたは業務でRustを書きたい就活生の嘆き的な何か | Qiita - 人気の記事]]></title>
@@ -1235,8 +1271,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10411</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/22/custom-metrics-for-stepfunctions/"/>
         <updated>2022-07-22T00:30:22.000Z</updated>
-        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチ...]]></summary>
-        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチャーでナウくなりそうなセキュリティサービス  家庭内 esa のすゝめ  Hardening 1010 Cash Flow 参加レポート  AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1  Kubernetesクラスタ上で動かすSidekiqに対してヘルスチェックを導入した話   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 10分...]]></summary>
+        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 10分コーディング！ Rubyでつくる Slack時報  try! Swiftに参加してきました  【速報】RubyKaigi 2014レポ：tending the ruby ecosystem  PrivateなCocoaPodsライブラリの作り方  Goのcontext.Contextに入れる値をリクエストスコープに限る理由   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -1743,25 +1779,13 @@
         <id>https://moneyforward.com/engineers_blog/?p=10391</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/21/start-with-github-discussion/"/>
         <updated>2022-07-21T00:30:39.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFク...]]></summary>
-        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  Go言語でDeep Copyする方法  Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる  拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう],...]]></content>
+        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エスト...]]></summary>
+        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エストニアのe-residencyカードでsshする  1年間地方コミュニティーを運営して感じた成長の軌跡と未来の課題  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  マネーフォワードの機械学習(ML)インターン 〜夏編〜  京都開発拠点チーム紹介 ~将来を見据えた性能改善チーム~   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
         <category label="お知らせ"/>
         <published>2022-07-21T00:30:39.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[メガベンチャーからスタートアップに転職して3ヶ月が経過した｜Offers Tech Blog | Zennのトレンド]]></title>
-        <id>https://zenn.dev/offers/articles/20220721-three-months-have-passed</id>
-        <link href="https://zenn.dev/offers/articles/20220721-three-months-have-passed"/>
-        <updated>2022-07-21T00:30:01.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！🐯 プロダクト開発人材の複業転職プラットフォーム Offers を運営する株式会社 overflow のエンジニア(主にバックエンドメイン)の Taiga です。 別会社でエンジニアとして 2 年程勤めたのち、2022 年の 4 月にoverflowへ転職して、3 ヶ月経過しました。 今回はメガベンチャーからスタートアップへ転職する人向けに何か参考になればと思い記事を書いてみました。...]]></summary>
-        <content type="html"><![CDATA[こんにちは！🐯 プロダクト開発人材の複業転職プラットフォーム Offers を運営する株式会社 overflow のエンジニア(主にバックエンドメイン)の Taiga です。 別会社でエンジニアとして 2 年程勤めたのち、2022 年の 4 月にoverflowへ転職して、3 ヶ月経過しました。 今回はメガベンチャーからスタートアップへ転職する人向けに何か参考になればと思い記事を書いてみました。(とはいっても半分はポエムですが...) なお転職理由や自身の紹介など興味のある方は下記記事にて御覧ください。[1] https://note.com/taiga_1227/n/na75f09dc...]]></content>
-        <author>
-            <name>Offers Tech Blog</name>
-        </author>
-        <published>2022-07-21T00:30:01.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[はてなブログとGA4とデータ活用 | Hatena Developer Blog]]></title>
@@ -1859,18 +1883,6 @@
         <category label="KDnuggets News"/>
         <category label="News"/>
         <published>2022-07-20T17:30:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. https://openai.com/blog/dall-e-now-available-in-beta/ | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1549794166833459200#m</id>
-        <link href="https://nitter.net/OpenAI/status/1549794166833459200#m"/>
-        <updated>2022-07-20T16:31:37.000Z</updated>
-        <summary type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></summary>
-        <content type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-07-20T16:31:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Software Design 2022年8月号 執筆記 | フューチャー技術ブログ]]></title>
@@ -1974,18 +1986,6 @@
         <category label="KDnuggets Originals"/>
         <category label="Data Science"/>
         <published>2022-07-20T12:00:45.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Traefikマーシャラーになろう | Zennのトレンド]]></title>
-        <id>https://zenn.dev/pitekusu/books/traefik-pitekusu</id>
-        <link href="https://zenn.dev/pitekusu/books/traefik-pitekusu"/>
-        <updated>2022-07-20T10:26:46.000Z</updated>
-        <summary type="html"><![CDATA[次世代リバースプロキシであるTraefik。HTTPS化、認証、Prometheus連携など便利な機能を解説！]]></summary>
-        <content type="html"><![CDATA[次世代リバースプロキシであるTraefik。HTTPS化、認証、Prometheus連携など便利な機能を解説！]]></content>
-        <author>
-            <name>ウナギンチャク</name>
-        </author>
-        <published>2022-07-20T10:26:46.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[KDnuggets News, July 20: Machine Learning Algorithms Explained in Less Than 1 Minute Each; Parallel Processing Large File in Python | KDnuggets]]></title>
@@ -2186,18 +2186,6 @@
         <published>2022-07-20T04:46:13.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rust製の高性能コマンド3選 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/kujirahand/articles/a6f8e58ef58489</id>
-        <link href="https://zenn.dev/kujirahand/articles/a6f8e58ef58489"/>
-        <updated>2022-07-20T04:45:39.000Z</updated>
-        <summary type="html"><![CDATA[Rustで作られたコマンドラインツールに良いものが多いと聞いて、Rust製の便利なコマンドをまとめてみます。RustがC/C++を置き換える言語というのもありますが、GNUの伝統的なツールをブラッシュアップしたツールがRustでいろいろ出てきているのはとても興味深いです。   findコマンドを置き換える fd fdはGNUの伝統的な検索ツールfindの置き換えです。findよりも簡潔にファイルの...]]></summary>
-        <content type="html"><![CDATA[Rustで作られたコマンドラインツールに良いものが多いと聞いて、Rust製の便利なコマンドをまとめてみます。RustがC/C++を置き換える言語というのもありますが、GNUの伝統的なツールをブラッシュアップしたツールがRustでいろいろ出てきているのはとても興味深いです。   findコマンドを置き換える fd fdはGNUの伝統的な検索ツールfindの置き換えです。findよりも簡潔にファイルの検索が可能です。 GitHubのリポジトリはこちらで、インストールも各パッケージマネージャーから使えます。 # mac $ brew install fd # ubuntu $ sudo apt...]]></content>
-        <author>
-            <name>クジラ飛行机</name>
-        </author>
-        <published>2022-07-20T04:45:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GAN-Supervised Dense Visual Alignment (CVPR 2022) | Deep Learning JP]]></title>
         <id>http://deeplearning.jp/?p=14731</id>
         <link href="https://deeplearning.jp/gan-supervised-dense-visual-alignment-cvpr-2022/"/>
@@ -2335,8 +2323,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10388</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/20/no-shortcuts-to-scalling-team/"/>
         <updated>2022-07-20T00:30:45.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 入社か...]]></summary>
-        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 入社から約4年、Money ForwardのAndroidアプリエンジニアとしての活動を振り返る  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  マネーフォワードエンジニアインタビュー 渋谷亮「数年後を見据えて、組織もサービスもスケールさせていく」  Goのcontext.Contextに入れる値をリクエストスコープに限る理由  マネーフォワードエンジニアのアウトプットを可視化してみた   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Res...]]></content>
+        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Aut...]]></summary>
+        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Auto Layoutで固有サイズを使いこなそう  エンジンの Rails を 4.2 にアップグレードした話  【Ruby】クラウド勤怠におけるゴーストメソッド利用例  リニューアル後の国税庁サイトを検索できるサービスを作ってみた  MySQL パーティショニングで高速化   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2859,18 +2847,6 @@
         </author>
         <category label="ユークリッド幾何学"/>
         <published>2022-07-18T23:40:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2/ | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1549153623342387200#m</id>
-        <link href="https://nitter.net/OpenAI/status/1549153623342387200#m"/>
-        <updated>2022-07-18T22:06:20.000Z</updated>
-        <summary type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></summary>
-        <content type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-07-18T22:06:20.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Reimagining Customer Behavior Through Machine Learning | Hacker Noon - machine-learning]]></title>
@@ -3764,20 +3740,6 @@
         <summary type="html"><![CDATA[To become the interface for the Internet of things, conversational agents will need to learn on their own. Alexa has already started down that path.]]></summary>
         <content type="html"><![CDATA[To become the interface for the Internet of things, conversational agents will need to learn on their own. Alexa has already started down that path.]]></content>
         <published>2022-07-14T20:59:54.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We love seeing what artists are creating with DALL·E.
-
-https://openai.com/blog/dall-e-2-extending-creativity/ | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1547643186742382592#m</id>
-        <link href="https://nitter.net/OpenAI/status/1547643186742382592#m"/>
-        <updated>2022-07-14T18:04:24.000Z</updated>
-        <summary type="html"><![CDATA[We love seeing what artists are creating with DALL·E. openai.com/blog/dall-e-2-ext…]]></summary>
-        <content type="html"><![CDATA[We love seeing what artists are creating with DALL·E. openai.com/blog/dall-e-2-ext…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-07-14T18:04:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Towards Reliability in Deep Learning Systems | Google AI Blog]]></title>
@@ -5045,16 +5007,5 @@ https://openai.com/blog/dall-e-2-extending-creativity/ | OpenAI / @OpenAI]]></ti
         <category label="Manjaro"/>
         <category label="UhuruOS"/>
         <published>2022-07-10T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【書籍メモ】『Pythonによる金融テキストマイニング』（朝倉書店） | u++の備忘録]]></title>
-        <id>hatenablog://entry/4207112889897778592</id>
-        <link href="https://upura.hatenablog.com/entry/2022/07/10/154300"/>
-        <updated>2022-07-10T06:43:00.000Z</updated>
-        <summary type="html"><![CDATA[『Pythonによる金融テキストマイニング』（朝倉書店）を読みました。180 ページ弱で金融関連文書を題材にした話題がまとまっていて、この領域に飛び込む初学者向けに紹介しやすい書籍だと感じました。 www.asakura.co.jp 章立てを以下に示します。第 1 章で全体像を示した後、第 2 、 3 章で開発環境構築と MeCab などのツール・ライブラリを紹介します。第 4 章から第 7 章は...]]></summary>
-        <content type="html"><![CDATA[『Pythonによる金融テキストマイニング』（朝倉書店）を読みました。180 ページ弱で金融関連文書を題材にした話題がまとまっていて、この領域に飛び込む初学者向けに紹介しやすい書籍だと感じました。 www.asakura.co.jp 章立てを以下に示します。第 1 章で全体像を示した後、第 2 、 3 章で開発環境構築と MeCab などのツール・ライブラリを紹介します。第 4 章から第 7 章は、応用事例です。最後に第 8 章で、書籍内で扱えなかった話題や将来展望を解説しています。 金融テイストマイニングの概要 金融データ解析・機械学習の環境構築 テキストマイニングツールの使い方 多変量解析を用いた日銀レポート解析と債券市場予測 深層学習を用いた価格予想 ブートストラップ法を用いた業績要因抽出法 決算短信テキストからの因果関係の抽出 金融テキストマイニング応用の課題を将来 まず、第 4 章から第 7 章の応用事例のバランスが良いなと感じました。第 4 章は、伝統的な手法として形態素解析・頻度計算・主成分分析などを扱いつつ、後半は次章の金融時系列予測への導入にもなっています。近年一般的...]]></content>
-        <category label="python"/>
-        <category label="書籍メモ"/>
-        <published>2022-07-10T06:43:00.000Z</published>
     </entry>
 </feed>
