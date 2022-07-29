@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Fri, 29 Jul 2022 09:31:23 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Jul 2022 11:27:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,58 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[インターン生がDBのテストをKotlinで書けるようにした話 | Uzabase for Engineers]]></title>
+            <link>https://tech.uzabase.com/entry/2022/07/29/201921</link>
+            <guid>https://tech.uzabase.com/entry/2022/07/29/201921</guid>
+            <pubDate>Fri, 29 Jul 2022 11:19:21 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは！NewsPicksのSREユニットでインターンシップをしている西（@yukinissie）です！ニッシー☆というニックネームで活動している福岡の情報系大学生です。先日、データベース（以下DB）とデータのやり取りをしているソースコードについてKotlinを用いてテストできるように開発基盤を改善したので紹介します。前半は主にテスト用インメモリDBを開発環境に追加するまでの話、後半...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは！NewsPicksのSREユニットでインターンシップをしている西（@yukinissie）です！ニッシー☆というニックネームで活動している福岡の情報系大学生です。先日、データベース（以下DB）とデータのやり取りをしているソースコードについてKotlinを用いてテストできるように開発基盤を改善したので紹介します。前半は主にテスト用インメモリDBを開発環境に追加するまでの話、後半からはKotlinでテストを実装する話について書いています。 タスクについて タスク要件としては以下のように割り当ててもらいました。 ユニットテストを推進するためにDBに対するテストの基盤となる開発環…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Elasticsearch のスコアをカスタマイズして検索結果を並び替える | バイセル Tech Blog]]></title>
+            <link>https://tech.buysell-technologies.com/entry/2022/07/29/201648</link>
+            <guid>https://tech.buysell-technologies.com/entry/2022/07/29/201648</guid>
+            <pubDate>Fri, 29 Jul 2022 11:16:48 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは。バイセルテクノロジーズ テクノロジー戦略本部 開発 2 部の小松山です。 バイセルはリユース事業を行っており、日々、たくさんの商品をお客様から買い取っています。 開発部では、買い取る際に、値付けの参考となるデータをスタッフが閲覧できるサービス「Promas」を提供しているのですが、検索結果から探している商品にたどり着きづらいという課題がありました。 本記事ではこの課題を El...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。バイセルテクノロジーズ テクノロジー戦略本部 開発 2 部の小松山です。 バイセルはリユース事業を行っており、日々、たくさんの商品をお客様から買い取っています。 開発部では、買い取る際に、値付けの参考となるデータをスタッフが閲覧できるサービス「Promas」を提供しているのですが、検索結果から探している商品にたどり着きづらいという課題がありました。 本記事ではこの課題を Elasticsearch を利用してどのように解決したかを紹介します。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[インフラエンジニアこそ、技術ブログを公開しよう！ | エンジニアブログ | iret.media]]></title>
+            <link>https://iret.media/63438</link>
+            <guid>https://iret.media/?p=63438</guid>
+            <pubDate>Fri, 29 Jul 2022 10:00:10 GMT</pubDate>
+            <description><![CDATA[この記事で書くこと 技術ブログを書くと色々いいことがあるよということを書きます。 普段コードをガリガリ書く開発エンジニアの方にも読んでいただきたいですが、インフラエンジニアのような普段コードを書かないエンジニアの方に特に […]]]></description>
+            <content:encoded><![CDATA[この記事で書くこと 技術ブログを書くと色々いいことがあるよということを書きます。 普段コードをガリガリ書く開発エンジニアの方にも読んでいただきたいですが、インフラエンジニアのような普段コードを書かないエンジニアの方に特に […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>アウトプット</category>
+            <category>インフラエンジニア</category>
+            <category>ポエム</category>
+        </item>
+        <item>
+            <title><![CDATA[Step Functionsの並行(Parallel)状態における入出力処理 | エンジニアブログ | iret.media]]></title>
+            <link>https://iret.media/63441</link>
+            <guid>https://iret.media/?p=63441</guid>
+            <pubDate>Fri, 29 Jul 2022 10:00:02 GMT</pubDate>
+            <description><![CDATA[この記事は何？ StepFunctionsを利用して、並行状態の入出力処理について得た知見についてこのメモにまとめます。 Step Functionsとは？ step Functions は、AWS Lambda 関数お […]]]></description>
+            <content:encoded><![CDATA[この記事は何？ StepFunctionsを利用して、並行状態の入出力処理について得た知見についてこのメモにまとめます。 Step Functionsとは？ step Functions は、AWS Lambda 関数お […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>AWS</category>
+            <category>AWS Lambda</category>
+            <category>stepfunctions</category>
+        </item>
+        <item>
+            <title><![CDATA[RI・SavingsPlansを購入禁止にするポリシー | エンジニアブログ | iret.media]]></title>
+            <link>https://iret.media/63432</link>
+            <guid>https://iret.media/?p=63432</guid>
+            <pubDate>Fri, 29 Jul 2022 09:30:49 GMT</pubDate>
+            <description><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない Copied! { "Version": "2012-10-17", "Statement": [ { "Sid": "Stat […]]]></description>
+            <content:encoded><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない Copied! { "Version": "2012-10-17", "Statement": [ { "Sid": "Stat […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>AWS</category>
+            <category>RI</category>
+            <category>SavingsPlans</category>
+        </item>
         <item>
             <title><![CDATA[ExcelファイルをMySQL HeatWaveに同期してみる | スマートスタイル TECH BLOG]]></title>
             <link>https://blog.s-style.co.jp/2022/07/9029/</link>
@@ -477,6 +529,14 @@
             <content:encoded><![CDATA[こんにちは、虎の穴ラボの松尾です。虎の穴ラボでエンジニアリングマネージャーをしています。 この記事は「虎の穴ラボ夏のアドベントカレンダー」25日目の記事です。 今回はアンカーを担当させていただくことになりました。本日までブログを追っていただいた方、本当にありがとうございました！ 24日目はY.Fさんによる「開発者も学ぶべきマネジメントのことと、参考書籍紹介」が投稿されました。 唐突に始まるオタクトーク 突然ですが、このブログを書いている今、私は北海道札幌に来ています！ ただいまの期間、私の好きな デジタル声優アイドル「22/7」（ナナニジと略します。よろしくお願いします）の全国ツアーがあり、全…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[社内でデザイン思考ワークショップを通じて得られたもの | OPTiM TECH BLOG]]></title>
+            <link>https://tech-blog.optim.co.jp/entry/2022/07/29/100000?utm_source=feed</link>
+            <guid>https://tech-blog.optim.co.jp/entry/2022/07/29/100000?utm_source=feed</guid>
+            <pubDate>Fri, 29 Jul 2022 01:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに みなさんこんにちは、はじめましてプロモーション・デザインユニットでマネージャーをしている加藤です。 今回は、なかなか業務で接点のないデザイナーとエンジニアの意見交換やデザインへの興味・関心といったの機会作り目的に実施しているデザイン&開発情報共有会での一幕。 デザイン思考をワークショップ形式で一通り実践してみる!に取り組んだ際の内容を簡単にご紹介します。 きっかけ 良いプロダクトを作る上...]]></description>
+            <content:encoded><![CDATA[はじめに みなさんこんにちは、はじめましてプロモーション・デザインユニットでマネージャーをしている加藤です。 今回は、なかなか業務で接点のないデザイナーとエンジニアの意見交換やデザインへの興味・関心といったの機会作り目的に実施しているデザイン&開発情報共有会での一幕。 デザイン思考をワークショップ形式で一通り実践してみる!に取り組んだ際の内容を簡単にご紹介します。 きっかけ 良いプロダクトを作る上で正しいプロセスとは？について議論、深堀していく中で「誰に」「何を」届けるかを探るフェーズが重要だと多くのメンバーが考えていました。提供 → 開発 → 設計 → 企画 → 顧客要望と遡り、根幹となる企…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[UnityでUI開発を効率化するための工夫 | Qualiartsエンジニアブログ]]></title>
             <link>https://technote.qualiarts.jp/article/41</link>
             <guid>https://technote.qualiarts.jp/article/41</guid>
@@ -487,14 +547,6 @@
             <category>ゲーム</category>
             <category>UI</category>
             <category>基盤</category>
-        </item>
-        <item>
-            <title><![CDATA[社内でデザイン思考ワークショップを通じて得られたもの | OPTiM TECH BLOG]]></title>
-            <link>https://tech-blog.optim.co.jp/entry/2022/07/29/100000?utm_source=feed</link>
-            <guid>https://tech-blog.optim.co.jp/entry/2022/07/29/100000?utm_source=feed</guid>
-            <pubDate>Fri, 29 Jul 2022 01:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに みなさんこんにちは、はじめましてプロモーション・デザインユニットでマネージャーをしている加藤です。 今回は、なかなか業務で接点のないデザイナーとエンジニアの意見交換やデザインへの興味・関心といったの機会作り目的に実施しているデザイン&開発情報共有会での一幕。 デザイン思考をワークショップ形式で一通り実践してみる!に取り組んだ際の内容を簡単にご紹介します。 きっかけ 良いプロダクトを作る上...]]></description>
-            <content:encoded><![CDATA[はじめに みなさんこんにちは、はじめましてプロモーション・デザインユニットでマネージャーをしている加藤です。 今回は、なかなか業務で接点のないデザイナーとエンジニアの意見交換やデザインへの興味・関心といったの機会作り目的に実施しているデザイン&開発情報共有会での一幕。 デザイン思考をワークショップ形式で一通り実践してみる!に取り組んだ際の内容を簡単にご紹介します。 きっかけ 良いプロダクトを作る上で正しいプロセスとは？について議論、深堀していく中で「誰に」「何を」届けるかを探るフェーズが重要だと多くのメンバーが考えていました。提供 → 開発 → 設計 → 企画 → 顧客要望と遡り、根幹となる企…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[データマートの民主化を目指して〜BIツール・Salesforceとの連携、セキュリティと利活用のバランスをいかにとるか〜 | freee Developers Hub]]></title>
@@ -1126,8 +1178,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/07/28/introduce-render-function/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10439</guid>
             <pubDate>Thu, 28 Jul 2022 00:30:49 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  CTOになって5年経った感想、振り返りなど  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  【社内レポ】改めてスクラムを学ぶ社内講習会  マネーフォワードエンジニアインタビュー 渋谷亮「数年後を見据えて、組織もサービスもスケールさせていく」   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 50行...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 50行のjavascriptでCVRを5%上げる方法  MySQL パーティショニングで高速化  MacにUbuntuを入れるとOSXより起動が速い  輪読会「Go言語による並行処理」を行いました  accepts_nested_attributes_forを使わず、複数の子レコードを保存する   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1679,20 +1731,20 @@
             <category>OSS</category>
         </item>
         <item>
-            <title><![CDATA[Google社とハンズオンワークショップを開催しました！～ANDPADの魅力を機械学習で爆上げしたい～ | ANDPAD Tech Blog]]></title>
-            <link>https://tech.andpad.co.jp/entry/2022/07/27/100000</link>
-            <guid>https://tech.andpad.co.jp/entry/2022/07/27/100000</guid>
-            <pubDate>Wed, 27 Jul 2022 01:00:00 GMT</pubDate>
-            <description><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整...]]></description>
-            <content:encoded><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整備が進捗してきたところで、次はデータの分析にも力を入れていく方針を採っていて、MLやBusiness Intelligenceの分野がターゲットとなっています。直近のテックブログでは、Kaggleへの…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[ABEJAで作った大規模GPTモデルとその道のり | ABEJA Tech Blog]]></title>
             <link>https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207</link>
             <guid>https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207</guid>
             <pubDate>Wed, 27 Jul 2022 01:00:00 GMT</pubDate>
             <description><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルア...]]></description>
             <content:encoded><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルアーキテクチャの工夫 5 学習したGPTのアウトプット例 5.1 失敗モデルたちの作品集 5.2 完成モデルの出力例 5.3 少しFine-tuningした結果 6. 最後に 6.1 採用メッセージ 6…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Google社とハンズオンワークショップを開催しました！～ANDPADの魅力を機械学習で爆上げしたい～ | ANDPAD Tech Blog]]></title>
+            <link>https://tech.andpad.co.jp/entry/2022/07/27/100000</link>
+            <guid>https://tech.andpad.co.jp/entry/2022/07/27/100000</guid>
+            <pubDate>Wed, 27 Jul 2022 01:00:00 GMT</pubDate>
+            <description><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整...]]></description>
+            <content:encoded><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整備が進捗してきたところで、次はデータの分析にも力を入れていく方針を採っていて、MLやBusiness Intelligenceの分野がターゲットとなっています。直近のテックブログでは、Kaggleへの…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【登壇情報】Machine Learning 15minutes!  | MicroAd Developers Blog]]></title>
@@ -2323,7 +2375,7 @@
             <guid>https://techblog.recochoku.jp/8423</guid>
             <pubDate>Mon, 25 Jul 2022 08:18:40 GMT</pubDate>
             <description><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  ...]]></description>
-            <content:encoded><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e3a8ae8935e601410965-i/]を使用したり、[crayon-62e3a8ae89365399697108-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e3a8ae89366500435687-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content:encoded>
+            <content:encoded><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e3c3d65e313831525943-i/]を使用したり、[crayon-62e3c3d65e31a256423324-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e3c3d65e31c518137212-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[コンテナ型アプリケーションにカスタム JDK Flight Recorderイベントを注入 | 赤帽エンジニアブログ]]></title>
@@ -2387,18 +2439,6 @@
             <content:encoded><![CDATA[この記事は、6月から始まっている #LXベッテク月間 38日目の記事です。 前回の記事は、かじさん（@kajicrypto）の「CSの生産性を定義する - CS1人あたりARRシミュレーション - 」でした。 こんにちは、LayerX バクラク事業部 OCRチームの秋野（@akino_1027）と申します！先日、SaaS Tech#4にて「マルチプロダクト×非構造化データ×機械学習を支えるデータ信頼性」というテーマで登壇させていただきました。 speakerdeck.com 登壇ではユーザーの課題からAI-OCR周りのデータ管理まで網羅的にお話しさせていただきました。この記事では時間の都合で割…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Ubuntu(WSL)にansibleインストール | エンジニアブログ | iret.media]]></title>
-            <link>https://iret.media/63338</link>
-            <guid>https://cloudpack.media/?p=63338</guid>
-            <pubDate>Mon, 25 Jul 2022 07:30:09 GMT</pubDate>
-            <description><![CDATA[Contents 1. 概要 2. Ubuntu(WSL)にansibleインストール手順 2.1. パッケージのアップデート 2.2. requiredパッケージのインストール 2.3. リポジトリの追加 2.4. a […]]]></description>
-            <content:encoded><![CDATA[Contents 1. 概要 2. Ubuntu(WSL)にansibleインストール手順 2.1. パッケージのアップデート 2.2. requiredパッケージのインストール 2.3. リポジトリの追加 2.4. a […]]]></content:encoded>
-            <category>エンジニアブログ</category>
-            <category>Ansible</category>
-            <category>Ubuntu</category>
-            <category>WSL</category>
-        </item>
-        <item>
             <title><![CDATA[サマースクール 2022 深層生成モデルの募集開始 | Deep Learning JP]]></title>
             <link>https://deeplearning.jp/drl-course-2022dlb-news-2-2/</link>
             <guid>http://deeplearning.jp/?p=14768</guid>
@@ -2407,18 +2447,6 @@
             <content:encoded><![CDATA[松尾研究室主催の公開講座「サマースクール 2022 深層生成モデル」の受講生を募集します. 詳細は下記ページを参考にしてください． ■ サマースクール 2022 深層生成 more]]></content:encoded>
             <category>lecture</category>
             <category>news</category>
-        </item>
-        <item>
-            <title><![CDATA[多階層フォルダ構成の AWS MediaStore のファイルを全部消す方法 | エンジニアブログ | iret.media]]></title>
-            <link>https://iret.media/63334</link>
-            <guid>https://cloudpack.media/?p=63334</guid>
-            <pubDate>Mon, 25 Jul 2022 07:00:47 GMT</pubDate>
-            <description><![CDATA[はじめに アカウント削除の前にMediastoreのファイルを全削除する必要がありAWS MediaStore のファイルを全部消す方法 を見つけてためしたところ、 A/B/C/media みたいな階層をもった構造だと削 […]]]></description>
-            <content:encoded><![CDATA[はじめに アカウント削除の前にMediastoreのファイルを全削除する必要がありAWS MediaStore のファイルを全部消す方法 を見つけてためしたところ、 A/B/C/media みたいな階層をもった構造だと削 […]]]></content:encoded>
-            <category>エンジニアブログ</category>
-            <category>AWS</category>
-            <category>MediaStore</category>
-            <category>小ネタのおばちゃま</category>
         </item>
         <item>
             <title><![CDATA[テストプロセスにテスト管理ツールを導入した話 | Kyash Product Blog]]></title>
@@ -2563,8 +2591,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/07/25/start-with-engineering-all-hands/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10423</guid>
             <pubDate>Mon, 25 Jul 2022 01:00:43 GMT</pubDate>
-            <description><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...]]></description>
-            <content:encoded><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2017年1月)  試食会のすゝめ  Rubocop でカスタムルールを作る  マネーフォワード内定者がRust.Tokyo 2021に登壇します  マネーフォワード社内PRに見られるRubyの書き方について - (4) 真理値   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 長期エ...]]></description>
+            <content:encoded><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 長期エンジニアインターンで得た学び  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  ActiveRecordのincludes, preload, eager_load の個人的な使い分け  オーマイグラスさんとマネーフォワードの交流会   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right R...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2873,18 +2901,6 @@
             <pubDate>Fri, 22 Jul 2022 09:40:00 GMT</pubDate>
             <description><![CDATA[こんにちは。エンジニアのid:kfly8です。 今月から、NestJSとethers.jsのスポンサーをはじめました🎉 この記事ではOSSのスポンサーをするにあたり考えたことを書きます。 モバファクは、NestJSとethers.jsの2つのOSSのスポンサーになりました NestJSとethers.jsを選んだ理由 多くのOSSに支えられてプロダクトの開発ができているので、気持ちとしては全ての...]]></description>
             <content:encoded><![CDATA[こんにちは。エンジニアのid:kfly8です。 今月から、NestJSとethers.jsのスポンサーをはじめました🎉 この記事ではOSSのスポンサーをするにあたり考えたことを書きます。 モバファクは、NestJSとethers.jsの2つのOSSのスポンサーになりました NestJSとethers.jsを選んだ理由 多くのOSSに支えられてプロダクトの開発ができているので、気持ちとしては全てのOSSに貢献したいところですが、そういうわけにはいかないので、次のような基準で絞り込みをしました。 プロダクトで重要かつ頻繁に利用している メンテナーが少ないこと スポンサーメニューが明確で、経理処理や…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AWS CLIで一定期間更新されていないロググループを一掃 | エンジニアブログ | iret.media]]></title>
-            <link>https://iret.media/63279</link>
-            <guid>https://cloudpack.media/?p=63279</guid>
-            <pubDate>Fri, 22 Jul 2022 09:30:13 GMT</pubDate>
-            <description><![CDATA[はじめに 検証環境にロググループがどれくらいあるかを見たことがあるでしょうか。 僕の検証環境には310個のロググループがいました。 ロググループのストリームの数や保持期間にもよりますが、大体50円/月ほどかかっています。 […]]]></description>
-            <content:encoded><![CDATA[はじめに 検証環境にロググループがどれくらいあるかを見たことがあるでしょうか。 僕の検証環境には310個のロググループがいました。 ロググループのストリームの数や保持期間にもよりますが、大体50円/月ほどかかっています。 […]]]></content:encoded>
-            <category>エンジニアブログ</category>
-            <category>AWS</category>
-            <category>AWS CLI</category>
-            <category>CloudWatch Logs</category>
         </item>
         <item>
             <title><![CDATA[iOSDC Japan 2022 スカラシップ募集します！ | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
@@ -3220,8 +3236,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/07/22/custom-metrics-for-stepfunctions/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10411</guid>
             <pubDate>Fri, 22 Jul 2022 00:30:22 GMT</pubDate>
-            <description><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></description>
-            <content:encoded><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ruby の Enumerator とたわむれる  少しだけ主夫をやった話  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  【Swift, iOS10.3】アプリアイコンを動的変更できるalternateIconName  【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved...]]></content:encoded>
+            <description><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報...]]></description>
+            <content:encoded><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報】RubyKaigi 2014レポ：Non-Linear Pattern Matching against Unfree Data Types in Ruby  haml2slim でハマった点とその解決方法  Javaチームで統一しているEclipseの設定  駆け出しQA と Bug Bash 〜ワイワイするって難しい〜  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserve...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3473,8 +3489,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/07/21/start-with-github-discussion/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10391</guid>
             <pubDate>Thu, 21 Jul 2022 00:30:39 GMT</pubDate>
-            <description><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチ...]]></description>
-            <content:encoded><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチャーでナウくなりそうなセキュリティサービス  試食会のすゝめ  エンジニアリング + 技術広報 = ユニークキャリア  【社内レポ】改めてスクラムを学ぶ社内講習会  技術顧問giginetさんインタビュー コミュニティ活動やOSS活動の秘訣を聞いてみました   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードの2018新卒研修を振り返ってみた  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台  [iOS]MonkeyTalkの導入と挫折  こんにちわ、5年前にお世話になっていた開発者のものです   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3525,14 +3541,6 @@
             <content:encoded><![CDATA[14 Essential Git Commands for Data Scientists • Statistics and Probability for Data Science • 20 Basic Linux Commands for Data Science Beginners • 3 Ways Understanding Bayes Theorem Will Improve Your Data Science • Learn MLOps with This Free Course • Primary Supervised Learning Algorithms Used in Machine Learning • Data Preparation with SQL Cheatsheet]]></content:encoded>
             <category>KDnuggets News</category>
             <category>News</category>
-        </item>
-        <item>
-            <title><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. https://openai.com/blog/dall-e-now-available-in-beta/ | OpenAI / @OpenAI]]></title>
-            <link>https://nitter.net/OpenAI/status/1549794166833459200#m</link>
-            <guid>https://nitter.net/OpenAI/status/1549794166833459200#m</guid>
-            <pubDate>Wed, 20 Jul 2022 16:31:37 GMT</pubDate>
-            <description><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></description>
-            <content:encoded><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Software Design 2022年8月号 執筆記 | フューチャー技術ブログ]]></title>
@@ -3862,8 +3870,8 @@
             <link>https://moneyforward.com/engineers_blog/2022/07/20/no-shortcuts-to-scalling-team/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10388</guid>
             <pubDate>Wed, 20 Jul 2022 00:30:45 GMT</pubDate>
-            <description><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...]]></description>
-            <content:encoded><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「社内キャリアチェンジ」  Emacs Zshなどを設定した話  マネーフォワードは何をモデル化するか  拠点サイトを作って文化の発信源が生まれた  vim のイースターエッグの話   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...]]></description>
+            <content:encoded><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2017年1月)  Moneyforward APIで車ゲームを作る  Is Cloud Engineering a Promising Career Field to Get Into?  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  マネーフォワードのJavaエンジニアはどのような環境で仕事をしているのか   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All ...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4296,14 +4304,6 @@
             <content:encoded><![CDATA[We recently caught up with Petar Veličković, a research scientist at DeepMind. Along with his co-authors, Petar is presenting his paper The CLRS Algorithmic Reasoning Benchmark at ICML 2022 in Baltimore, Maryland, USA.]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2/ | OpenAI / @OpenAI]]></title>
-            <link>https://nitter.net/OpenAI/status/1549153623342387200#m</link>
-            <guid>https://nitter.net/OpenAI/status/1549153623342387200#m</guid>
-            <pubDate>Mon, 18 Jul 2022 22:06:20 GMT</pubDate>
-            <description><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></description>
-            <content:encoded><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Reimagining Customer Behavior Through Machine Learning | Hacker Noon - machine-learning]]></title>
             <link>https://hackernoon.com/reimagining-customer-behavior-through-machine-learning?source=rss</link>
             <guid>https://hackernoon.com/reimagining-customer-behavior-through-machine-learning?source=rss</guid>
@@ -4352,6 +4352,18 @@
             <category>supervised-learning</category>
             <category>unsupervised-learning</category>
             <category>good-company</category>
+        </item>
+        <item>
+            <title><![CDATA[豪州森林火災で感じた「自分のしていることは意味がある」と信じることの大切さ | 学術英語アカデミー]]></title>
+            <link>https://www.ulatus.jp/academy/you-have-to-believe-that-what-you-do-matters/</link>
+            <guid>https://www.ulatus.jp/academy/?p=29205</guid>
+            <pubDate>Mon, 18 Jul 2022 16:30:41 GMT</pubDate>
+            <description><![CDATA[オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、2019年から2020年にかけてオーストラリアで猛威を振るった森林火災のさなかにあって教授が考えた、行動を起こすことの大切さについてお伝えします。 みなさん、ごきげんよう。夏休...]]></description>
+            <content:encoded><![CDATA[オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、2019年から2020年にかけてオーストラリアで猛威を振るった森林火災のさなかにあって教授が考えた、行動を起こすことの大切さについてお伝えします。 みなさん、ごきげんよう。夏休み、あるいは世界のどこかでは冬休み中でしょうか。今年は、私の住むオーストラリアが、悪いことばかりで世界のメディアを賑わせているため、早めにブログに戻ってきました。 サウス・コーストの恐ろしい映像をご覧になった方もいるでしょう。現地で休暇を過ごしていた古い友人が送ってくれたこの写真は私が目にした何百枚もの写真の1枚ですが、彼女の夫が撮影したものだと思うと、余計に恐ろしさが増します。（訳者注：原文は2020年1月に公開されたブログです。） 友人は、オーストラリア史上最多の陸上避難者の一人となる前夜、ビーチで過ごしていました。何日も連絡が取れず、彼女の身に恐ろしいことが降りかかったのではないかと心配...]]></content:encoded>
+            <category>未分類</category>
+            <category>研究室の荒波にもまれて</category>
+            <category>オーストラリア</category>
+            <category>森林火災</category>
         </item>
         <item>
             <title><![CDATA[74 Amazon Research Awards recipients announced | Amazon Science Homepage]]></title>
@@ -4630,51 +4642,6 @@
             <content:encoded><![CDATA[How can you showcase your data scientist skills and abilities? The answer to this question is online platforms where you can publish your portfolio and seize opportunities.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Data Science</category>
-        </item>
-        <item>
-            <title><![CDATA[7 Data Quality Metrics To Prioritize | Hacker Noon - machine-learning]]></title>
-            <link>https://hackernoon.com/7-data-quality-metrics-to-prioritize?source=rss</link>
-            <guid>https://hackernoon.com/7-data-quality-metrics-to-prioritize?source=rss</guid>
-            <pubDate>Fri, 15 Jul 2022 11:08:17 GMT</pubDate>
-            <category>data-quality</category>
-            <category>data-quality-metrics</category>
-            <category>how-to-fix-poor-quality-data</category>
-            <category>data-cleansing</category>
-            <category>data-science</category>
-            <category>machine-learning</category>
-            <category>data</category>
-            <category>database</category>
-        </item>
-        <item>
-            <title><![CDATA[速報です。Synapse AnalyticsでMap Data機能が一般提供開始されました #Azureリレー | cloud.config Tech Blog]]></title>
-            <link>https://tech-blog.cloud-config.jp/2022-07-15-synapse-map-data-tool-is-now-ga/</link>
-            <guid>https://tech-blog.cloud-config.jp/?p=117391</guid>
-            <pubDate>Fri, 15 Jul 2022 10:28:55 GMT</pubDate>
-            <description><![CDATA[はじめに 速報です。2022年7月12日にSynapse AnalyticsでMap Dataという機能がGA（一般提供開始）されました。この記事ではそもそもSynapse Analyticsが何だったっけという話と、M […] 速報です。Synapse AnalyticsでMap Data機能が一般提供開始されました #Azureリレー first appeared on cloud.confi...]]></description>
-            <content:encoded><![CDATA[はじめに 速報です。2022年7月12日にSynapse AnalyticsでMap Dataという機能がGA（一般提供開始）されました。この記事ではそもそもSynapse Analyticsが何だったっけという話と、M […] 速報です。Synapse AnalyticsでMap Data機能が一般提供開始されました #Azureリレー first appeared on cloud.config Tech Blog.]]></content:encoded>
-            <category>Azure</category>
-            <category>Azure Relay</category>
-            <category>Synapse Analytics</category>
-            <category>新機能</category>
-        </item>
-        <item>
-            <title><![CDATA[UA プロパティの計測データを Analytics Reporting API v4 で一括エクスポート救出大作戦する | ROXX開発者ブログ]]></title>
-            <link>https://techblog.roxx.co.jp/entry/2022/07/15/192349</link>
-            <guid>https://techblog.roxx.co.jp/entry/2022/07/15/192349</guid>
-            <pubDate>Fri, 15 Jul 2022 10:23:49 GMT</pubDate>
-            <description><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // Google Analytics（以下、GA）では、2022 年 7 月にユニバーサルアナリティクス（以下、UA）プロパティでの計測処理が停止します。 support.google.com 計測停止後、およそ半年程度は GA の画面から計測結果を閲覧できるとのことですが、それ以降はページすら見れなくなるそうです。 これを受け...]]></description>
-            <content:encoded><![CDATA[この記事は個人ブログと同じ内容です www.ritolab.com // Google Analytics（以下、GA）では、2022 年 7 月にユニバーサルアナリティクス（以下、UA）プロパティでの計測処理が停止します。 support.google.com 計測停止後、およそ半年程度は GA の画面から計測結果を閲覧できるとのことですが、それ以降はページすら見れなくなるそうです。 これを受けて我々は UA プロパティから GA4 プロパティへと移行しなくてはならないわけですが、移行と言っても正確には GA4 プロパティでの計測を新たに開始することであり、この時、これまで UA プロパティ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[EC2からFargateへの移行 ~shadow proxyとカナリアリリース~ | エンジニアブログ | GREE Engineering]]></title>
-            <link>https://labs.gree.jp/blog/2022/07/21654/</link>
-            <guid>https://labs.gree.jp/blog/?p=21654</guid>
-            <pubDate>Fri, 15 Jul 2022 10:00:06 GMT</pubDate>
-            <description><![CDATA[EC2からFargateへの移行 ~shadow proxyとカナリアリリース~ こんにちは、メディア事業でエンジニアをしている木村洋太です。 昨年のGREE Tech Conferenceでは「LIMIA」のフレームワ […]]]></description>
-            <content:encoded><![CDATA[EC2からFargateへの移行 ~shadow proxyとカナリアリリース~ こんにちは、メディア事業でエンジニアをしている木村洋太です。 昨年のGREE Tech Conferenceでは「LIMIA」のフレームワ […]]]></content:encoded>
-            <category>Info</category>
-            <category>EC2</category>
-            <category>Fargate</category>
         </item>
     </channel>
 </rss>
