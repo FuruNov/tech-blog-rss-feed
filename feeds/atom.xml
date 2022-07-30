@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-07-30T04:11:27.577Z</updated>
+    <updated>2022-07-30T07:27:54.884Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[hasura cliで挿入するマスタデータをスプレッドシート管理に移行させたので振り返ってみた | バイセル Tech Blog]]></title>
+        <id>https://tech.buysell-technologies.com/entry/2022/07/30/153326</id>
+        <link href="https://tech.buysell-technologies.com/entry/2022/07/30/153326"/>
+        <updated>2022-07-30T06:33:26.000Z</updated>
+        <summary type="html"><![CDATA[はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹...]]></summary>
+        <content type="html"><![CDATA[はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹介したいと思います。 はじめに 課題 改修概要 Before After 工夫した点 スプレッドシートで細かい設定をできるようにした ユーザーアカウントでスプレッドシートへのアクセスを認証するようにし…]]></content>
+        <published>2022-07-30T06:33:26.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[正弦定理の三角形の面積による証明 | 趣味の大学数学]]></title>
         <id>https://math-fun.net/?p=25814</id>
@@ -22,6 +31,30 @@
         </author>
         <category label="ユークリッド幾何学"/>
         <published>2022-07-30T01:59:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ISUCON 12の予選を突破した話 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/tosa/articles/ba19f3610cc331</id>
+        <link href="https://zenn.dev/tosa/articles/ba19f3610cc331"/>
+        <updated>2022-07-30T00:32:44.000Z</updated>
+        <summary type="html"><![CDATA[@tosa_nowです。 ISUCON12の予選に、今年も@masibwと@sanpo_shihoと出場して20位で予選を突破しました。 チームでのISUCON参加も三回目です。  ISUCON12 オンライン予選 予選結果と本選出場者決定のお知らせ この記事では雑に自分の当日の改善や考えてたことについて紹介します。 リポジトリ https://github.com/Zatsu-X-Club/is...]]></summary>
+        <content type="html"><![CDATA[@tosa_nowです。 ISUCON12の予選に、今年も@masibwと@sanpo_shihoと出場して20位で予選を突破しました。 チームでのISUCON参加も三回目です。  ISUCON12 オンライン予選 予選結果と本選出場者決定のお知らせ この記事では雑に自分の当日の改善や考えてたことについて紹介します。 リポジトリ https://github.com/Zatsu-X-Club/isucon12q   練習 チーム練習は軽い初動確認一回と、チューニングまで時間をかけて練習の一回の二回行いました。 夏なのでビールが飲みたいといった話をしていた記憶しかありません。   競技開始...]]></content>
+        <author>
+            <name>とさ</name>
+        </author>
+        <published>2022-07-30T00:32:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spotifyデータの可視化から新しいアーティストを探す | Zennのトレンド]]></title>
+        <id>https://zenn.dev/nayuta9999/articles/781d2f2ba045c9</id>
+        <link href="https://zenn.dev/nayuta9999/articles/781d2f2ba045c9"/>
+        <updated>2022-07-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概要  あるアーティストが、どのようなアーティストから影響を受けているのかわかる可視化を作成。 SpotifyAPIを使用し、データ収集。 popularityを重回帰分析で再計算 グラフ作成。    背景 最近、Oasisにドはまりしまして、Oasisの音楽からライブ映像、インタビュー等の動画を見漁っていいました。ボーカルのリアムや、リードギターのノエルは、他のバンドのことを結構ボロクソいうので...]]></summary>
+        <content type="html"><![CDATA[概要  あるアーティストが、どのようなアーティストから影響を受けているのかわかる可視化を作成。 SpotifyAPIを使用し、データ収集。 popularityを重回帰分析で再計算 グラフ作成。    背景 最近、Oasisにドはまりしまして、Oasisの音楽からライブ映像、インタビュー等の動画を見漁っていいました。ボーカルのリアムや、リードギターのノエルは、他のバンドのことを結構ボロクソいうのですが、どうやら、The Beatlesのジョンレノンやポールマッカートニーのことを崇拝しているのが分かりました。ここからThe Beatlesに興味を持ち、音楽を聴いてドはまりしました。 こ...]]></content>
+        <author>
+            <name>田中勇太</name>
+        </author>
+        <published>2022-07-30T00:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Enhancing Backpropagation via Local Loss Optimization | Google AI Blog]]></title>
@@ -131,6 +164,18 @@
         <published>2022-07-29T11:16:48.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[TypeScript の Widening | Zennのトレンド]]></title>
+        <id>https://zenn.dev/estra/articles/typescript-widening</id>
+        <link href="https://zenn.dev/estra/articles/typescript-widening"/>
+        <updated>2022-07-29T11:09:44.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 前回の記事では Promise などの非同期処理から逆に TypeScript の型について理解してみるという試みをしてみました。 https://zenn.dev/estra/articles/ts-with-promise-type-annotation 冒頭『変数の型注釈』の項目では、TypeScript では変数の初期化において型注釈を省略できることについて説明しました。 // ...]]></summary>
+        <content type="html"><![CDATA[はじめに 前回の記事では Promise などの非同期処理から逆に TypeScript の型について理解してみるという試みをしてみました。 https://zenn.dev/estra/articles/ts-with-promise-type-annotation 冒頭『変数の型注釈』の項目では、TypeScript では変数の初期化において型注釈を省略できることについて説明しました。 // JavaScript const str1 = "文字列";  // TypeScript const str2: string = "文字列の型注釈を追加"; // ^^...]]></content>
+        <author>
+            <name>PADAone🐕</name>
+        </author>
+        <published>2022-07-29T11:09:44.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[インフラエンジニアこそ、技術ブログを公開しよう！ | エンジニアブログ | iret.media]]></title>
         <id>https://iret.media/?p=63438</id>
         <link href="https://iret.media/63438"/>
@@ -176,8 +221,8 @@
         <id>https://iret.media/?p=63432</id>
         <link href="https://iret.media/63432"/>
         <updated>2022-07-29T09:30:49.000Z</updated>
-        <summary type="html"><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない Copied! { "Version": "2012-10-17", "Statement": [ { "Sid": "Stat […]]]></summary>
-        <content type="html"><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない Copied! { "Version": "2012-10-17", "Statement": [ { "Sid": "Stat […]]]></content>
+        <summary type="html"><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない { "Version": "2012-10-17", "Statement": [ { "Sid": "Statement1", […]]]></summary>
+        <content type="html"><![CDATA[やりたい事 マルチアカウント環境で勝手にRI・SavingsPlansを購入して欲しくない { "Version": "2012-10-17", "Statement": [ { "Sid": "Statement1", […]]]></content>
         <author>
             <name>上田 年克</name>
         </author>
@@ -422,6 +467,18 @@
         <published>2022-07-29T06:51:27.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[C#の非同期なジェネリックメソッドをリフレクションで実行して結果を取得する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/jtechjapan/articles/f801a813f609cc</id>
+        <link href="https://zenn.dev/jtechjapan/articles/f801a813f609cc"/>
+        <updated>2022-07-29T06:45:11.000Z</updated>
+        <summary type="html"><![CDATA[CTOの高丘です。最近は継承を減らしてインターフェースとジェネリックを活用し、シンプルにプログラムをまとめるリファクタリングを行っています。C# には豊富なリフレクション機能が用意されていて、複雑な機能をリフレクションを使用して実行できます。リフレクションを使用することにより、多くのクラスやメソッドの機能を一箇所にまとめることができます。今回は備忘も兼ねて、今回直面した問題と対策を書いておきます。...]]></summary>
+        <content type="html"><![CDATA[CTOの高丘です。最近は継承を減らしてインターフェースとジェネリックを活用し、シンプルにプログラムをまとめるリファクタリングを行っています。C# には豊富なリフレクション機能が用意されていて、複雑な機能をリフレクションを使用して実行できます。リフレクションを使用することにより、多くのクラスやメソッドの機能を一箇所にまとめることができます。今回は備忘も兼ねて、今回直面した問題と対策を書いておきます。   TL;DR C#の非同期なジェネリックメソッドをリフレクションで実行して結果を取得したいときは、  tldr.cs  var result = await (dynamic)meth...]]></content>
+        <author>
+            <name>株式会社ジェイテックジャパン</name>
+        </author>
+        <published>2022-07-29T06:45:11.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[aumoにおけるwebサイト表示速度改善の取り組み | aumo Tech Blog – アウモテックブログ]]></title>
         <id>https://techblog.aumo.co.jp/?p=2027</id>
         <link href="https://techblog.aumo.co.jp/articles/2027"/>
@@ -636,15 +693,6 @@
         <published>2022-07-29T03:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SLI/SLO運用の実践 shimesabaによる指標モニタリング | KAYAC engineers' blog]]></title>
-        <id>https://techblog.kayac.com/sli_slo_shimesaba</id>
-        <link href="https://techblog.kayac.com/sli_slo_shimesaba"/>
-        <updated>2022-07-29T02:50:00.000Z</updated>
-        <summary type="html"><![CDATA[先月の記事で紹介したエラーバジェット算出ツール『shimesaba』について、今回は実際にどのようにSLI/SLOを運用しているのか？という内容をshimesabaを使った設定例を交えつつ話します。]]></summary>
-        <content type="html"><![CDATA[先月の記事で紹介したエラーバジェット算出ツール『shimesaba』について、今回は実際にどのようにSLI/SLOを運用しているのか？という内容をshimesabaを使った設定例を交えつつ話します。]]></content>
-        <published>2022-07-29T02:50:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[RPAを導入した後について考えてみる | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/patio5959/items/c7a79a17eab785abfb0f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/patio5959/items/c7a79a17eab785abfb0f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -709,18 +757,6 @@
         <published>2022-07-29T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[1Psswordの共有機能がそこそこ便利だった | Zennのトレンド]]></title>
-        <id>https://zenn.dev/yesodco/articles/9f687b8f6eadc1</id>
-        <link href="https://zenn.dev/yesodco/articles/9f687b8f6eadc1"/>
-        <updated>2022-07-29T01:58:17.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、株式会社イエソドでエンジニア時々CorpITをやっている@tbashiyyです。 突然ですが、会社でPassword Managerは何を使っていますか？ 弊社では1Passwordを使っています。 最近、1Passwordの機能の中で共有機能というものを発見し、とても便利だったのでご紹介します。   モチベーション フルリモートで新規入社の方にIdP（Okta）アカウントを発行するた...]]></summary>
-        <content type="html"><![CDATA[こんにちは、株式会社イエソドでエンジニア時々CorpITをやっている@tbashiyyです。 突然ですが、会社でPassword Managerは何を使っていますか？ 弊社では1Passwordを使っています。 最近、1Passwordの機能の中で共有機能というものを発見し、とても便利だったのでご紹介します。   モチベーション フルリモートで新規入社の方にIdP（Okta）アカウントを発行するため、初期パスワードを直接渡す必要がありました。 会社のアカウントが1つも発行されていない状態なので、接点は自宅へ郵送または個人メールアドレスへの送付の2択です。 郵送は手間がかかるため候補から外...]]></content>
-        <author>
-            <name>株式会社イエソド</name>
-        </author>
-        <published>2022-07-29T01:58:17.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Jetpack Composeを使った複雑なアニメーション事例 | Mirrativ Tech Blog]]></title>
         <id>https://tech.mirrativ.stream/entry/2022/07/29/105354?utm_source=feed</id>
         <link href="https://tech.mirrativ.stream/entry/2022/07/29/105354?utm_source=feed"/>
@@ -746,18 +782,6 @@
         <summary type="html"><![CDATA[別題: 抽象化って言葉もう。。  社内の記事にて、オブジェクト指向のこころ (SOFTWARE PATTERNS SERIES) | アラン・シャロウェイ, ジェームズ・R・トロット, 村上 雅章 |…]]></summary>
         <content type="html"><![CDATA[別題: 抽象化って言葉もう。。  社内の記事にて、オブジェクト指向のこころ (SOFTWARE PATTERNS SERIES) | アラン・シャロウェイ, ジェームズ・R・トロット, 村上 雅章 |…]]></content>
         <published>2022-07-29T01:36:58.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フォルダ/ファイル名の大文字小文字でハマった | Zennのトレンド]]></title>
-        <id>https://zenn.dev/soma3134/articles/20220726_folder_case_sensitive</id>
-        <link href="https://zenn.dev/soma3134/articles/20220726_folder_case_sensitive"/>
-        <updated>2022-07-29T01:29:37.000Z</updated>
-        <summary type="html"><![CDATA[フォルダ/ファイル名の大文字小文字で少しハマったのでメモ 実施環境    項目 詳細     PC MacBook Pro（14 インチ、2021）Apple M1 Pro   OS MacOS Monterey 12.5       なにに困ったのか ファイルの大文字小文字を変えたのに差分として認識されなかった   調べてわかった前提   git は（デフォルトでは）大文字/小文字を区別しない ...]]></summary>
-        <content type="html"><![CDATA[フォルダ/ファイル名の大文字小文字で少しハマったのでメモ 実施環境    項目 詳細     PC MacBook Pro（14 インチ、2021）Apple M1 Pro   OS MacOS Monterey 12.5       なにに困ったのか ファイルの大文字小文字を変えたのに差分として認識されなかった   調べてわかった前提   git は（デフォルトでは）大文字/小文字を区別しない git config の core.ignorecase がデフォルトで true のため、何もしなければ無視するようです。 そのため、大文字小文字を変更しても、差分としては検知してくれません。...]]></content>
-        <author>
-            <name>so</name>
-        </author>
-        <published>2022-07-29T01:29:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[本社最終勤務！！！【2022年7月29日】 | 株式会社Polestar-ID エンジニアブログ]]></title>
@@ -1569,18 +1593,6 @@
         <published>2022-07-28T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[なぜ未経験でエンジニアになるのがむずかしいのか 〜メンターのホンネ Vol.1〜 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/techtrain/articles/8a9ae4ad3a3837</id>
-        <link href="https://zenn.dev/techtrain/articles/8a9ae4ad3a3837"/>
-        <updated>2022-07-28T01:54:10.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 未経験からエンジニアになりたい人へたくさん面談をしてきました。未経験からエンジニアになるのはそんなに簡単なことではありません。けれど、ある考え方を身につけた方は、無事にエンジニアとしてのキャリアをスタートさせていきました。TechTrainでたくさんの方と面談する中で気づいたこと、実際にエンジニア採用に携わる中で発見したことをお伝えします。  プロフィール    犬塚 眞太郎  大学院を...]]></summary>
-        <content type="html"><![CDATA[はじめに 未経験からエンジニアになりたい人へたくさん面談をしてきました。未経験からエンジニアになるのはそんなに簡単なことではありません。けれど、ある考え方を身につけた方は、無事にエンジニアとしてのキャリアをスタートさせていきました。TechTrainでたくさんの方と面談する中で気づいたこと、実際にエンジニア採用に携わる中で発見したことをお伝えします。  プロフィール    犬塚 眞太郎  大学院を経て2019年にクックパッド株式会社 研究開発部リサーチエンジニアとして新卒入社。主に自然言語処理を用いた分析、機械学習モデルの構築、デプロイを担当。現在はレシピ事業開発部でのサー...]]></content>
-        <author>
-            <name>TechTrain公式</name>
-        </author>
-        <published>2022-07-28T01:54:10.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[クラシコム初のエンジニアイベント開催レポート約2年で200万DL・EC購入率6割を実現した人気アプリの裏側を開発者が解説！ | Kurashicom Tech Blog]]></title>
         <id>https://note.com/kurashicom_tech/n/na38e8d610f48</id>
         <link href="https://note.com/kurashicom_tech/n/na38e8d610f48"/>
@@ -1633,8 +1645,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10439</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/28/introduce-render-function/"/>
         <updated>2022-07-28T00:30:49.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードへの道（msb Tamachi編）  JSON仕様（ECMA-404） を眺めてみる  【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う  新卒が絶対にサンタさんに来てもらうために Rails バージョンアップを頑張った話  駆け出しQA と Bug Bash 〜ワイワイするって難しい〜   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ans...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ansible galaxyを使って銀河の彼方からJenkinsおじさんを召喚する  transformersのTokenizerで固定長化する  転職の不安を吹き飛ばす、入社2週間で溶け込むマネーフォワード流オンボーディング  Bye, tachikoma gem #railsdm  マネーフォワードにおけるソース管理手法   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2309,21 +2321,21 @@
         <published>2022-07-27T01:00:08.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ABEJAで作った大規模GPTモデルとその道のり | ABEJA Tech Blog]]></title>
-        <id>https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207</id>
-        <link href="https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207"/>
-        <updated>2022-07-27T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルア...]]></summary>
-        <content type="html"><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルアーキテクチャの工夫 5 学習したGPTのアウトプット例 5.1 失敗モデルたちの作品集 5.2 完成モデルの出力例 5.3 少しFine-tuningした結果 6. 最後に 6.1 採用メッセージ 6…]]></content>
-        <published>2022-07-27T01:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Google社とハンズオンワークショップを開催しました！～ANDPADの魅力を機械学習で爆上げしたい～ | ANDPAD Tech Blog]]></title>
         <id>https://tech.andpad.co.jp/entry/2022/07/27/100000</id>
         <link href="https://tech.andpad.co.jp/entry/2022/07/27/100000"/>
         <updated>2022-07-27T01:00:00.000Z</updated>
         <summary type="html"><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整...]]></summary>
         <content type="html"><![CDATA[ANDPADでエンジニアをしている森です。先日Google社と機械学習（Machine Learning：以下、ML）についてのプライベートなワークショップを開催しました。その参加報告ということでテックブログを執筆しまして、社外の方にもその様子をお伝えできればと思います。 はじめに 私が所属するデータグループでは、２年ほどかけて社内のデータ基盤の構築を行い、データの蓄積を進めてきました。ある程度整備が進捗してきたところで、次はデータの分析にも力を入れていく方針を採っていて、MLやBusiness Intelligenceの分野がターゲットとなっています。直近のテックブログでは、Kaggleへの…]]></content>
+        <published>2022-07-27T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ABEJAで作った大規模GPTモデルとその道のり | ABEJA Tech Blog]]></title>
+        <id>https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207</id>
+        <link href="https://tech-blog.abeja.asia/entry/abeja-gpt-project-202207"/>
+        <updated>2022-07-27T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルア...]]></summary>
+        <content type="html"><![CDATA[1. はじめに 2. そもそもGPTとは?? 3. ABEJAで作ったGPTモデルについて 3.1 モデルサイズ 3.2 データセット Wikipedia CC100 OSCAR mC4 3.3 参考にしたコード 3.4 モデルの学習 せっかくここまで育てたモデルが・・・ 4. 技術的な工夫点 4.1 データセットの前処理 4.2 GPT-neoxの活用 4.3 並列VMでの学習 4.4 モデルアーキテクチャの工夫 5 学習したGPTのアウトプット例 5.1 失敗モデルたちの作品集 5.2 完成モデルの出力例 5.3 少しFine-tuningした結果 6. 最後に 6.1 採用メッセージ 6…]]></content>
         <published>2022-07-27T01:00:00.000Z</published>
     </entry>
     <entry>
@@ -2494,18 +2506,6 @@
         <category label="KDnuggets Originals"/>
         <category label="SQL"/>
         <published>2022-07-26T14:00:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ゆめみ社のFlutterエンジニア採用課題に取り組んでみた | Zennのトレンド]]></title>
-        <id>https://zenn.dev/tsuruo/articles/017e405b21412f</id>
-        <link href="https://zenn.dev/tsuruo/articles/017e405b21412f"/>
-        <updated>2022-07-26T13:36:10.000Z</updated>
-        <summary type="html"><![CDATA[背景 先月、偶々ゆめみ社のFlutterエンジニア採用時のチェック課題がGitHubに公開されているのを知り、内容をざっと見てみると多言語対応やダークモード対応など網羅性が高く、単純に良い学習になりそうと思って取り組んでみました。 サービスの要件次第では海外配信想定がなかったり、リリース時期に重きを置いて多言語対応・ダークモード対応を省くこともあり、この機会に一通り触ってみようと思った次第です。 ...]]></summary>
-        <content type="html"><![CDATA[背景 先月、偶々ゆめみ社のFlutterエンジニア採用時のチェック課題がGitHubに公開されているのを知り、内容をざっと見てみると多言語対応やダークモード対応など網羅性が高く、単純に良い学習になりそうと思って取り組んでみました。 サービスの要件次第では海外配信想定がなかったり、リリース時期に重きを置いて多言語対応・ダークモード対応を省くこともあり、この機会に一通り触ってみようと思った次第です。 特に評価ポイントの以下の部分は、一般的に言及されるエンジニアとしての能力はもちろん、アクセシビリティや表現方法、品質維持など、ユーザーと近い領域を担うアプリ開発者において大事なポイントだと思...]]></content>
-        <author>
-            <name>ツルオカ</name>
-        </author>
-        <published>2022-07-26T13:36:10.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【配達員向け】千代田区・中央区付近の住所の簡単な覚え方！よく行く住所だけをまとめてピックアップ！【フーデリ対策】 | FascodeNetwork Blog]]></title>
@@ -2992,7 +2992,7 @@
         <link href="https://techblog.recochoku.jp/8423"/>
         <updated>2022-07-25T08:18:40.000Z</updated>
         <summary type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  ...]]></summary>
-        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e4af3278b2c205973521-i/]を使用したり、[crayon-62e4af3278b34786690144-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e4af3278b36447431721-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content>
+        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e4dd3dcf477698683021-i/]を使用したり、[crayon-62e4dd3dcf47f299124731-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e4dd3dcf480459240658-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content>
         <published>2022-07-25T08:18:40.000Z</published>
     </entry>
     <entry>
@@ -3255,8 +3255,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10423</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/25/start-with-engineering-all-hands/"/>
         <updated>2022-07-25T01:00:43.000Z</updated>
-        <summary type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードへの道（電車で行く 京都開発拠点編）  PrivateなCocoaPodsライブラリの作り方  [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  DeepL翻訳と翻訳結果の送信ができるSlackアプリを作ってみた  941::blogさんがやってきた！   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インフ...]]></summary>
+        <content type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インフラ留学を糧に理想の開発を目指して組織を作るまでの話(Plus Ops でこんにちは)  transformersのTokenizerで固定長化する  【レポート】スタートアップのデザイナー集合！ サービスづくりについて語り合う会  社内で短期留学してきました!  iOS App資産タブリニューアルを終えて   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4067,8 +4067,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10411</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/22/custom-metrics-for-stepfunctions/"/>
         <updated>2022-07-22T00:30:22.000Z</updated>
-        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...]]></summary>
-        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート：マネーフォワードの現場のイマが見える交流イベントを開催  組織にSREの文化を作り上げていくEnabling SRE  金融機関様向けのPFMサービス 第一弾リリース！  Haml、Sassを使って効率よくコーディングする方法（基礎編）  最近のruby-core (2016年9月)   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...]]></summary>
+        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS版マネーフォワード ME クイックアクションウィジェットの開発  マネーフォワード開発合宿 in COLONY 箱根  【社内レポ】改めてスクラムを学ぶ社内講習会  Scrum Fest Osaka 2022 に参加してきました！  拠点サイトを作って文化の発信源が生まれた   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4382,8 +4382,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10391</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/21/start-with-github-discussion/"/>
         <updated>2022-07-21T00:30:39.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応  iOS版マネーフォワードMEの開発環境について  【レポート】MF Geeks Night (2015年11月)  CircleCIのPerformance Planが控え目に言って最高という話  年末にesaの大掃除をしてみた   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...]]></summary>
+        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  An engineering visualization tool at Money Forward  2019年もマネーフォワード開発合宿を開催しました！  Zeitwerkとrequire_dependency  [pixiv × MoneyForward] セキュリティー合同勉強会レポ   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 202...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4452,18 +4452,6 @@
         <category label="KDnuggets News"/>
         <category label="News"/>
         <published>2022-07-20T17:30:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. https://openai.com/blog/dall-e-now-available-in-beta/ | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1549794166833459200#m</id>
-        <link href="https://nitter.net/OpenAI/status/1549794166833459200#m"/>
-        <updated>2022-07-20T16:31:37.000Z</updated>
-        <summary type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></summary>
-        <content type="html"><![CDATA[DALL·E 2 is officially now in beta. We’ll be inviting 1 million people from our waitlist over the coming weeks. openai.com/blog/dall-e-now-a…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-07-20T16:31:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Software Design 2022年8月号 執筆記 | フューチャー技術ブログ]]></title>
@@ -4871,8 +4859,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10388</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/20/no-shortcuts-to-scalling-team/"/>
         <updated>2022-07-20T00:30:45.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Zap...]]></summary>
-        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ZapierでSlackMessageをParseして外部システムとつなぐ  [15分で] グラフデータベースNeo4jに超入門してみた  Moneyforward APIで車ゲームを作る  ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  MoneyForward Meetupレポート：CISOとインフラ・セキュリティ担当が登壇した交流イベントを開催   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: プロダ...]]></summary>
+        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: プロダクトにSwiftGenを導入してタイポ0の世界を作る  150超のAWSマルチアカウント環境における「AWS SSO」の設定をTerraform管理に移行した話  Pull Requestを育てて開発しよう  中学生ハルキのエンジニア体験記  マネーフォワード社内PRに見られるRubyの書き方について - (8) 受け渡しのパターンマッチング 3   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5397,18 +5385,6 @@
         <summary type="html"><![CDATA[We recently caught up with Petar Veličković, a research scientist at DeepMind. Along with his co-authors, Petar is presenting his paper The CLRS Algorithmic Reasoning Benchmark at ICML 2022 in Baltimo...]]></summary>
         <content type="html"><![CDATA[We recently caught up with Petar Veličković, a research scientist at DeepMind. Along with his co-authors, Petar is presenting his paper The CLRS Algorithmic Reasoning Benchmark at ICML 2022 in Baltimore, Maryland, USA.]]></content>
         <published>2022-07-19T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. https://openai.com/blog/reducing-bias-and-improving-safety-in-dall-e-2/ | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1549153623342387200#m</id>
-        <link href="https://nitter.net/OpenAI/status/1549153623342387200#m"/>
-        <updated>2022-07-18T22:06:20.000Z</updated>
-        <summary type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></summary>
-        <content type="html"><![CDATA[DALL·E now generates images of people that more accurately reflect the diversity of the world’s population. openai.com/blog/reducing-bia…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-07-18T22:06:20.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Reimagining Customer Behavior Through Machine Learning | Hacker Noon - machine-learning]]></title>
