@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-08-01T06:00:34.313Z</updated>
+    <updated>2022-08-01T07:33:11.354Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -11,12 +11,85 @@
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
     <entry>
-        <title type="html"><![CDATA[無料のレンタル掲示板サービス「teacup」がとうとうサービスを終了／誕生から25周年 | 窓の杜]]></title>
+        <title type="html"><![CDATA[最強の2段階認証のアプリを探し求めた話 | FascodeNetwork Blog]]></title>
+        <id>https://blog.fascode.net/?p=14785</id>
+        <link href="https://blog.fascode.net/2022/08/01/perfect-2fa-app/"/>
+        <updated>2022-08-01T07:19:32.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、山田ハヤオです。ちょっと前にGoogleアカウントを乗っ取られました。 現在では完全に復旧しているのですが、いまだに原因がわかりません。 2段階認証も当然設定していたのですが、フリーWiFiを使ったりスタバで […] 最強の2段階認証のアプリを探し求めた話 first appeared on FascodeNetwork Blog.]]></summary>
+        <content type="html"><![CDATA[こんにちは、山田ハヤオです。ちょっと前にGoogleアカウントを乗っ取られました。 現在では完全に復旧しているのですが、いまだに原因がわかりません。 2段階認証も当然設定していたのですが、フリーWiFiを使ったりスタバで […] 最強の2段階認証のアプリを探し求めた話 first appeared on FascodeNetwork Blog.]]></content>
+        <author>
+            <name>山田 ハヤオ</name>
+        </author>
+        <category label="Android"/>
+        <category label="Webサービス"/>
+        <category label="フリーソフト"/>
+        <published>2022-08-01T07:19:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[イベントレポート「NewsPicksでのモバイルアプリの技術的負債解消方法 - TechBase vol.2」を開催しました！ | Uzabase for Engineers]]></title>
+        <id>https://tech.uzabase.com/entry/2022/08/01/161831</id>
+        <link href="https://tech.uzabase.com/entry/2022/08/01/161831"/>
+        <updated>2022-08-01T07:18:31.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。ユーザベース TechBrandingチームです。 2022年7月28日（木）にオンラインイベントイベント「NewsPicksでのモバイルアプリの技術的負債解消方法 - TechBase vol.2」を開催しました。弊社のNewsPicks アプリ開発チーム リーダー 石井 幸次 （@ko2ic）と、株式会社ニューズピックス Product Division iOSアプリエンジニア 金...]]></summary>
+        <content type="html"><![CDATA[こんにちは。ユーザベース TechBrandingチームです。 2022年7月28日（木）にオンラインイベントイベント「NewsPicksでのモバイルアプリの技術的負債解消方法 - TechBase vol.2」を開催しました。弊社のNewsPicks アプリ開発チーム リーダー 石井 幸次 （@ko2ic）と、株式会社ニューズピックス Product Division iOSアプリエンジニア 金子 雄大 （@takehilo_kaneko）が登壇しました。 当日は100名以上の方にご参加頂き、沢山の反響を頂き大変盛り上がりました！ 登壇者について NewsPicks アプリ開発チーム リーダ…]]></content>
+        <published>2022-08-01T07:18:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テーブル構成を考える時に重視すべき点 | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2022/08/01/160215</id>
+        <link href="https://tech.excite.co.jp/entry/2022/08/01/160215"/>
+        <updated>2022-08-01T07:02:15.000Z</updated>
+        <summary type="html"><![CDATA[エキサイト株式会社のAです。 今回はデータベースの構成を考える上で、特に重視すべき点を事例を用いて紹介します。 アクティブか否かのフラグや表示非表示の状態を極力カラムで管理しない 事例として、enabled_flgという記事データが有効か無効かを表すフラグがカラムに存在していました。 しかし、後から有効無効以外にも「許可非許可」以外にも「未承認」の状態が欲しいと言った要件が発生しました。 その時に...]]></summary>
+        <content type="html"><![CDATA[エキサイト株式会社のAです。 今回はデータベースの構成を考える上で、特に重視すべき点を事例を用いて紹介します。 アクティブか否かのフラグや表示非表示の状態を極力カラムで管理しない 事例として、enabled_flgという記事データが有効か無効かを表すフラグがカラムに存在していました。 しかし、後から有効無効以外にも「許可非許可」以外にも「未承認」の状態が欲しいと言った要件が発生しました。 その時には既にテーブルのデータが増えすぎておりカラムの追加も容易にできなくなっていたため、 当時の担当はenabled_flgカラムを「0:未承認 1:許可 -1:非許可」と言った状態にしてフラグ管理カラムに…]]></content>
+        <published>2022-08-01T07:02:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Microsoft Teams」の新機能「共有チャネル」がいよいよ一般提供へ ～同一テナント内で外部とのコミュニケーションが可能に を報じた記事がトップ ～窓の杜アクセスランキング［2022/07/25～2022/07/31］【記事アクセスランキング】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/accessranking/1429194.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/accessranking/1429194.html"/>
+        <updated>2022-08-01T06:58:52.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></summary>
+        <content type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></content>
+        <published>2022-08-01T06:58:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[あの国民的Excelアドイン「RelaxTools」が擬人化、めっちゃかわいい女の子に／細部の設定にもぬかりなし【やじうまの杜】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1429187.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/1429187.html"/>
+        <updated>2022-08-01T06:42:46.000Z</updated>
+        <summary type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></summary>
+        <content type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></content>
+        <published>2022-08-01T06:42:46.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[四角形の定義と分類、性質まとめ：長方形は正方形か？ | 趣味の大学数学]]></title>
+        <id>https://math-fun.net/?p=25842</id>
+        <link href="https://math-fun.net/20220801/25842/"/>
+        <updated>2022-08-01T06:25:43.000Z</updated>
+        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、各種の四角形の定義と分類、性質についてまとめました。 四角形の分類と定義 四角形の定義 四角形（quadrilateral）：端点でしか交わらないよう ... 四角形の定義と分類、性質まとめ：長方形は正方形か？ first appeared on 趣味の大学数学.]]></summary>
+        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、各種の四角形の定義と分類、性質についてまとめました。 四角形の分類と定義 四角形の定義 四角形（quadrilateral）：端点でしか交わらないよう ... 四角形の定義と分類、性質まとめ：長方形は正方形か？ first appeared on 趣味の大学数学.]]></content>
+        <author>
+            <name>kimu3</name>
+        </author>
+        <category label="ユークリッド幾何学"/>
+        <published>2022-08-01T06:25:43.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MNTSQの検索周りの構成の変遷 | Techブログ - MNTSQ, Ltd.]]></title>
+        <id>https://tech.mntsq.co.jp/entry/2022/08/01/151835</id>
+        <link href="https://tech.mntsq.co.jp/entry/2022/08/01/151835"/>
+        <updated>2022-08-01T06:18:35.000Z</updated>
+        <summary type="html"><![CDATA[MNTSQ(モンテスキュー)株式会社で検索エンジニアをやっている溝口です。 MNTSQはMNTSQ CLM(ちょっと前までMNTSQ for Enterprise)という数十万件を超えるような契約書を管理するプロダクトを提供しており、以下のような検索機能を提供しています。 https://speakerdeck.com/mntsq/mntsq-careersdeck?slide=12 （公開時点）...]]></summary>
+        <content type="html"><![CDATA[MNTSQ(モンテスキュー)株式会社で検索エンジニアをやっている溝口です。 MNTSQはMNTSQ CLM(ちょっと前までMNTSQ for Enterprise)という数十万件を超えるような契約書を管理するプロダクトを提供しており、以下のような検索機能を提供しています。 https://speakerdeck.com/mntsq/mntsq-careersdeck?slide=12 （公開時点） 今年の4月で入社してから2年が経ち、入社してからやってきたことの振り返りも兼ねて今回は検索処理周辺のコンポーネントの変遷をまとめてみました。 最初期(2020/08-2021/07) Index s…]]></content>
+        <published>2022-08-01T06:18:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[無料のレンタル掲示板サービス「teacup.」がとうとうサービスを終了／誕生から25周年 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1429069.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1429069.html"/>
         <updated>2022-08-01T04:41:00.000Z</updated>
-        <summary type="html"><![CDATA[無料のレンタル掲示板サービス「teacup」が8月1日、とうとうサービスを終了した。]]></summary>
-        <content type="html"><![CDATA[無料のレンタル掲示板サービス「teacup」が8月1日、とうとうサービスを終了した。]]></content>
+        <summary type="html"><![CDATA[無料のレンタル掲示板サービス「teacup.」が8月1日、とうとうサービスを終了した。]]></summary>
+        <content type="html"><![CDATA[無料のレンタル掲示板サービス「teacup.」が8月1日、とうとうサービスを終了した。]]></content>
         <published>2022-08-01T04:41:00.000Z</published>
     </entry>
     <entry>
@@ -396,6 +469,18 @@
         <published>2022-07-31T10:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[FlutterアプリをAndroid 13に対応させる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/tsuruo/articles/eae9dbbad8372f</id>
+        <link href="https://zenn.dev/tsuruo/articles/eae9dbbad8372f"/>
+        <updated>2022-07-31T08:39:54.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 数ヶ月前にGoogle Pixel 6を入手して以降、その操作性やインタフェースが心地よく、長らくiPhoneユーザーだった私も最近はAndroidを触る機会が多くなりました（あくまで検証端末としての域は出ず、プライベートはiPhoneですが）。AQUOSやXperiaに代表される国産メーカのAndroidスマートフォンは、やはりどこか扱いづらさがあって苦手だったのですが、Pixelはそ...]]></summary>
+        <content type="html"><![CDATA[はじめに 数ヶ月前にGoogle Pixel 6を入手して以降、その操作性やインタフェースが心地よく、長らくiPhoneユーザーだった私も最近はAndroidを触る機会が多くなりました（あくまで検証端末としての域は出ず、プライベートはiPhoneですが）。AQUOSやXperiaに代表される国産メーカのAndroidスマートフォンは、やはりどこか扱いづらさがあって苦手だったのですが、Pixelはその観念が180度ひっくり返るぐらい良い体験で、その過程で当時はプレビュー版だったAndroid 13にも関心を持つようになり、情報を追ってきました。 機能とAPIの概要は以下のリンク先から確...]]></content>
+        <author>
+            <name>ツルオカ</name>
+        </author>
+        <published>2022-07-31T08:39:54.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[フロントエンドエンジニアが最低限知っておきたい gRPC のこと | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/takengineer1216/items/b76461b990af51307e8a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/takengineer1216/items/b76461b990af51307e8a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -403,6 +488,18 @@
         <summary type="html"><![CDATA[はじめに  受託開発企業でフロントエンドエンジニアを1年ほどやっているものです。直近2ヶ月間 gRPC を使用する案件にアサインされたのですが、「フロントエンドエンジニア視点からみた gRPC 」 …]]></summary>
         <content type="html"><![CDATA[はじめに  受託開発企業でフロントエンドエンジニアを1年ほどやっているものです。直近2ヶ月間 gRPC を使用する案件にアサインされたのですが、「フロントエンドエンジニア視点からみた gRPC 」 …]]></content>
         <published>2022-07-31T08:32:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Litestream on App RunnerでS3にSQLiteをレプリケートしつつアプリをホスティングする | Zennのトレンド]]></title>
+        <id>https://zenn.dev/shuntaka/articles/9d35c4710a4b29</id>
+        <link href="https://zenn.dev/shuntaka/articles/9d35c4710a4b29"/>
+        <updated>2022-07-31T07:16:12.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 今回は、SQLiteを使ったWebアプリケーションをAWS App Runner上にホスティングします。同時に少し前話題になったSQLiteをAmazon S3にレプリケーションできるLitestreamを用いてS3にデータをレプケーションしてみます。 プロトタイピングや個人開発で、マネージドRDBMSを利用せず、料金抑えたい場合に使えるかなーと考え、App Runnerの素振りも兼ねて...]]></summary>
+        <content type="html"><![CDATA[はじめに 今回は、SQLiteを使ったWebアプリケーションをAWS App Runner上にホスティングします。同時に少し前話題になったSQLiteをAmazon S3にレプリケーションできるLitestreamを用いてS3にデータをレプケーションしてみます。 プロトタイピングや個人開発で、マネージドRDBMSを利用せず、料金抑えたい場合に使えるかなーと考え、App Runnerの素振りも兼ねて試してみました。   本構成における注意点 App Runnerのコンテナインスタンス内のファイルシステムの特性は、AWS App Runner Developer Guideから、引用しま...]]></content>
+        <author>
+            <name>shuntaka(h0z1_576)</name>
+        </author>
+        <published>2022-07-31T07:16:12.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[生文字列リテラルを使ってみた (C# 11 新機能) | Qiita - 人気の記事]]></title>
@@ -749,18 +846,6 @@
         <published>2022-07-30T01:59:33.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spotifyデータの可視化から新しいアーティストを探す | Zennのトレンド]]></title>
-        <id>https://zenn.dev/nayuta9999/articles/781d2f2ba045c9</id>
-        <link href="https://zenn.dev/nayuta9999/articles/781d2f2ba045c9"/>
-        <updated>2022-07-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[概要  あるアーティストが、どのようなアーティストから影響を受けているのかわかる可視化を作成。 SpotifyAPIを使用し、データ収集。 popularityを重回帰分析で再計算 グラフ作成。    背景 最近、Oasisにドはまりしまして、Oasisの音楽からライブ映像、インタビュー等の動画を見漁っていいました。ボーカルのリアムや、リードギターのノエルは、他のバンドのことを結構ボロクソいうので...]]></summary>
-        <content type="html"><![CDATA[概要  あるアーティストが、どのようなアーティストから影響を受けているのかわかる可視化を作成。 SpotifyAPIを使用し、データ収集。 popularityを重回帰分析で再計算 グラフ作成。    背景 最近、Oasisにドはまりしまして、Oasisの音楽からライブ映像、インタビュー等の動画を見漁っていいました。ボーカルのリアムや、リードギターのノエルは、他のバンドのことを結構ボロクソいうのですが、どうやら、The Beatlesのジョンレノンやポールマッカートニーのことを崇拝しているのが分かりました。ここからThe Beatlesに興味を持ち、音楽を聴いてドはまりしました。 こ...]]></content>
-        <author>
-            <name>田中勇太</name>
-        </author>
-        <published>2022-07-30T00:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[KaggleのJPXコンペをエラーで終えて | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/blog_UKI/items/801579f5765abb02bbe2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/blog_UKI/items/801579f5765abb02bbe2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -768,18 +853,6 @@
         <summary type="html"><![CDATA[エラー出ましたね。 Privateで参加者の4割程度がエラーとなっており、自分も御多分に洩れずその一員となっています。  エラーが頻出した原因として、デリストの可能性が指摘されています。自分も、毎回の…]]></summary>
         <content type="html"><![CDATA[エラー出ましたね。 Privateで参加者の4割程度がエラーとなっており、自分も御多分に洩れずその一員となっています。  エラーが頻出した原因として、デリストの可能性が指摘されています。自分も、毎回の…]]></content>
         <published>2022-07-29T22:16:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今週の PHP 2022/07/23 〜 2022/07/29 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/hanhan1978/articles/401b62c093e3aa</id>
-        <link href="https://zenn.dev/hanhan1978/articles/401b62c093e3aa"/>
-        <updated>2022-07-29T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。 PHP 8.2 の Feature Freeze を過ぎたので、今週は Internals が少なめでした。   Internal   Character range syntax ".." for character masks 先週に引き続いて、.. の議論が続く。 https://3v4l.org/2Y0q4 サンプルは、...]]></summary>
-        <content type="html"><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。 PHP 8.2 の Feature Freeze を過ぎたので、今週は Internals が少なめでした。   Internal   Character range syntax ".." for character masks 先週に引き続いて、.. の議論が続く。 https://3v4l.org/2Y0q4 サンプルは、strcspn で、もし .. が使えたら a..zA..Z って書けて楽ちんだねと。 PHP 8.3 に向けて RFC が出てきそうな予感です。   [RFC Review] is_json(...]]></content>
-        <author>
-            <name>Ryo Tomidokoro</name>
-        </author>
-        <published>2022-07-29T22:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Enhancing Backpropagation via Local Loss Optimization | Google AI Blog]]></title>
@@ -1981,15 +2054,6 @@
         <published>2022-07-28T05:32:10.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[マイクラの性能が最大92％も向上した「AMD Software: Adrenalin Edition」v22.7.1が公開／「Teams」や「Slack」などで活用できる環境ノイズ消去機能「Noise Suppression」も利用可能に | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1428334.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1428334.html"/>
-        <updated>2022-07-28T04:57:23.000Z</updated>
-        <summary type="html"><![CDATA[米Advanced Micro Devices（AMD）は7月26日（現地時間）、同社のGPU「Radeon」シリーズ向けドライバ「AMD Software: Adrenalin Edition」の最新版v22.7.1を公開した。本バージョンは、WHQL（Windows Hardware Quality Labs）未通過のOptional版。GPUドライバレベルで音声のバックグラウンドノイズを低減...]]></summary>
-        <content type="html"><![CDATA[米Advanced Micro Devices（AMD）は7月26日（現地時間）、同社のGPU「Radeon」シリーズ向けドライバ「AMD Software: Adrenalin Edition」の最新版v22.7.1を公開した。本バージョンは、WHQL（Windows Hardware Quality Labs）未通過のOptional版。GPUドライバレベルで音声のバックグラウンドノイズを低減する新機能「AMD Noise Suppression」などが利用できるようになった。]]></content>
-        <published>2022-07-28T04:57:23.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[球の体積でなぜ4/3が出るか：多面体による導出 | 趣味の大学数学]]></title>
         <id>https://math-fun.net/?p=25792</id>
         <link href="https://math-fun.net/20220728/25792/"/>
@@ -2028,15 +2092,6 @@
         <summary type="html"><![CDATA[初めましての方は初めまして、そうでない方はこんにちは、@fono です。 平常の業務では、pixivision のバックエンド各種実装、GoogleAnalytics4移行やデータ整備などをやっています。 特に、pixivisionは2014年から提供している弊社オウンドメディアで、諸々の歴史的な経緯が積み重なった本番で動いているコードとデータ構造を解きほぐすために、データ基盤の力を借りつつ、改修...]]></summary>
         <content type="html"><![CDATA[初めましての方は初めまして、そうでない方はこんにちは、@fono です。 平常の業務では、pixivision のバックエンド各種実装、GoogleAnalytics4移行やデータ整備などをやっています。 特に、pixivisionは2014年から提供している弊社オウンドメディアで、諸々の歴史的な経緯が積み重なった本番で動いているコードとデータ構造を解きほぐすために、データ基盤の力を借りつつ、改修などを推進しています。また、それ以外の日々の業務でも、集計、レポーティング、あるいはデータ整備そのもののためにデータ基盤を活用することは珍しくありません。 ただし、個々のエンジニアによる、データ基盤の…]]></content>
         <published>2022-07-28T04:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デスクトップ版「Power Automate」がCitrix/Microsoft仮想マシンへのRDP接続に対応／UIの改善やデータテーブル向けのアクションが拡充も行われた2022年7月更新 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1428298.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1428298.html"/>
-        <updated>2022-07-28T03:56:29.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは7月27日（現地時間）、デスクトップ版「Power Automate」（Power Automate for desktop）の2022年7月アップデート（v2.22）を発表した。本バージョンでは、「リモートデスクトップ 接続」（RDP）を利用した仮想マシンのデスクトップアプリ自動化などがサポートされている。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは7月27日（現地時間）、デスクトップ版「Power Automate」（Power Automate for desktop）の2022年7月アップデート（v2.22）を発表した。本バージョンでは、「リモートデスクトップ 接続」（RDP）を利用した仮想マシンのデスクトップアプリ自動化などがサポートされている。]]></content>
-        <published>2022-07-28T03:56:29.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[テスト工程の可視化や自動化に向けた取り組みのご紹介 | Mirrativ Tech Blog]]></title>
@@ -2148,8 +2203,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10439</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/28/introduce-render-function/"/>
         <updated>2022-07-28T00:30:49.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 内波生一「価値のあるものに対して、自分自身が前に進める力になっていたい」  DeepL翻訳と翻訳結果の送信ができるSlackアプリを作ってみた  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台  S3のファイルをX-Accel-Redirectで配信する  transformersのTokenizerで固定長化する   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functi...]]></content>
+        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 如何に...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 如何にしてわたしはマネーフォワードの一員になったのか  SamurAI Codingに参加してみませんか？  CTOになって5年経った感想、振り返りなど  情報共有ツール(Kibela)の記事をDeepLで自動翻訳できるようにしてみた  webpackでRailsアプリのアセットをビルドする   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -3304,7 +3359,7 @@
         <link href="https://techblog.recochoku.jp/8423"/>
         <updated>2022-07-25T08:18:40.000Z</updated>
         <summary type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  ...]]></summary>
-        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e76bf5c0813954217283-i/]を使用したり、[crayon-62e76bf5c081e685516832-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e76bf5c0821875460593-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content>
+        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  開発時にログを出したい際に、[crayon-62e781ab62a83200163409-i/]を使用したり、[crayon-62e781ab62a8b020693601-i/]などのライブラリを使用したり様々な方法があると思います。  今回はiOS14以降で使用できるLoggerも含めて、OSLogを使ってログを出力する方法をご紹介したいと思います。  <h1>OSLogでのログ出力</h1>  ログを出力する際には[crayon-62e781ab62a8d267286801-i/]を使いやすいように拡張して、以下のようなものを作成していま...]]></content>
         <published>2022-07-25T08:18:40.000Z</published>
     </entry>
     <entry>
@@ -3567,8 +3622,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10423</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/25/start-with-engineering-all-hands/"/>
         <updated>2022-07-25T01:00:43.000Z</updated>
-        <summary type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...]]></summary>
-        <content type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2016年9月)  StepFunctionsとSageMakerでML学習パイプラインをつくる  10分コーディング！ Rubyでつくる Slack時報  京都大学の超交流会2019に出展してきた  Google Playのin-app updatesを使って最高のアップデート体験を実現する   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 仮想通...]]></summary>
+        <content type="html"><![CDATA[冒頭の駄文 皆さんお久しぶりです、初めてのかたははじめまして。 3年ぶりに祇園祭 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 仮想通貨の完全自動売買をやってみよう その１  マネーフォワードはシルバースポンサーとしてiOSDC JAPAN 2021を応援させていただきます！  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証  マネーフォワードからGopherConに参加しました！  Swiftで学ぶ関数型 〜 immutable 〜   Copyright © Money Forward Engineers' Blog [企業文化を作る最初の一歩、マネーフォワードのEngineering All Handsが成し遂げたい未来といま], All Right Reserved. 20...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4099,19 +4154,6 @@
         <published>2022-07-22T06:06:10.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ひし形、たこ形四角形の面積の求め方、証明 | 趣味の大学数学]]></title>
-        <id>https://math-fun.net/?p=25703</id>
-        <link href="https://math-fun.net/20220722/25703/"/>
-        <updated>2022-07-22T06:01:47.000Z</updated>
-        <summary type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ひし形、たこ形四角形の面積の求め方、証明を紹介します。 ひし形、たこ形四角形の面積の求め方 ひし形（隣り合う辺の長さが等しいペアが2組ある平行四辺形） ... ひし形、たこ形四角形の面積の求め方、証明 first appeared on 趣味の大学数学.]]></summary>
-        <content type="html"><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ひし形、たこ形四角形の面積の求め方、証明を紹介します。 ひし形、たこ形四角形の面積の求め方 ひし形（隣り合う辺の長さが等しいペアが2組ある平行四辺形） ... ひし形、たこ形四角形の面積の求め方、証明 first appeared on 趣味の大学数学.]]></content>
-        <author>
-            <name>kimu3</name>
-        </author>
-        <category label="ユークリッド幾何学"/>
-        <published>2022-07-22T06:01:47.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【TypeScript入門】JavaScriptとの大きな違い | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
         <id>https://tech-blog.rakus.co.jp/entry/2020722/typescript</id>
         <link href="https://tech-blog.rakus.co.jp/entry/2020722/typescript"/>
@@ -4379,8 +4421,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10411</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/22/custom-metrics-for-stepfunctions/"/>
         <updated>2022-07-22T00:30:22.000Z</updated>
-        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネ...]]></summary>
-        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネスカンパニー初採用のデータアナリストが入社3ヶ月を総括する  BtoB SaaSに捧ぐマイクロサービスのはじめの一歩  最近のruby-core (2016年11月)  マネーフォワード社内PRに見られるRubyの書き方について – (7) 受け渡しのパターンマッチング 2  広告と三方よし   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ste...]]></summary>
+        <content type="html"><![CDATA[こんばんは。 いま僕は堂島川のほとりでこれを書いています。 闇夜の水面に、在りし … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  京都拠点のカジュアル面談でウケが良かった話・悪かった話  最近のruby-core (2016年7月)  入社から約4年、Money ForwardのAndroidアプリエンジニアとしての活動を振り返る  Androidアプリの未使用リソースを一括削除する   Copyright © Money Forward Engineers' Blog [実行中のStepFunctions数をカスタムメトリクスで送信する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4668,8 +4710,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10391</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/21/start-with-github-discussion/"/>
         <updated>2022-07-21T00:30:39.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報...]]></summary>
-        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報】RubyKaigi 2014レポ：Kids, Ruby, Fun!: Introduction of the Smalruby and the Ruby Programming Shounendan  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco  初めてOSS貢献体験と、それにより変化した考え方について  最近のruby-core (2016年4月)  DroidKaigi 2018に登壇 & SILVER SPONSORとして協賛します   Copyright © Money Forward Engineers' Blog [すぐに始め...]]></content>
+        <summary type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジュ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。あるいはこんばんは ＜VTRyo＞です。 2022年6月に一人Pro … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話  Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する  インターンから見たマネーフォワード  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  セキュリティイベント・活動のご紹介   Copyright © Money Forward Engineers' Blog [すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -5129,8 +5171,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10388</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/20/no-shortcuts-to-scalling-team/"/>
         <updated>2022-07-20T00:30:45.000Z</updated>
-        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 150...]]></summary>
-        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 150超のAWSマルチアカウント環境における「AWS SSO」の設定をTerraform管理に移行した話  2017年の抱負  [ノーコード] Zapier × Slack × asanaでタスク管理とユーザーコミュニケーションを効率化する  エンジニアリング + 技術広報 = ユニークキャリア  マネフォのプロダクトマネージャーが勝手に語る、pmconf 2020の見所！   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></summary>
+        <content type="html"><![CDATA[マネーフォワードビジネスカンパニー クラウドERP本部 会計Plus開発部の西村 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年2月)  Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサー協賛もおこないます！  Javaにおける例外処理のベスト・プラクティス  fastlane の snapshot で iOS 開発プロセス自動化  マネーフォワードにおけるソース管理手法   Copyright © Money Forward Engineers' Blog [チームをスケールさせるのに近道はない。でもやるしかないんだ。], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
