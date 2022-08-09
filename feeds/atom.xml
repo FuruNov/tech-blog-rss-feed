@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-08-09T05:35:08.206Z</updated>
+    <updated>2022-08-09T07:28:55.547Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,41 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[コンバージョン アクション管理の変更予定について | Google Developers Japan]]></title>
+        <id>https://developers-jp.googleblog.com/2022/08/upcoming-changes-to-conversion-action.html</id>
+        <link href="https://developers-jp.googleblog.com/2022/08/upcoming-changes-to-conversion-action.html"/>
+        <updated>2022-08-09T07:00:00.003Z</updated>
+        <summary type="html"><![CDATA[この記事は Josh Radcliff による Google Ads Developer Blog の記事 "Upcoming changes to conversion action management" を元に翻訳・加筆したものです。詳しくは元記事をご覧ください。  2022 年 8 月 22 日より、ConversionAction リソースの include_in_conversions...]]></summary>
+        <content type="html"><![CDATA[この記事は Josh Radcliff による Google Ads Developer Blog の記事 "Upcoming changes to conversion action management" を元に翻訳・加筆したものです。詳しくは元記事をご覧ください。  2022 年 8 月 22 日より、ConversionAction リソースの include_in_conversions_metric フィールドが読み取り専用になります。この値を設定しようとするリクエストは、FieldError.IMMUTABLE_FIELD エラーになります。 この変更を行う理由 Google 広告にコンバージョン目標を追加する作業の一環として、include_in_conversions_metric フィールドに代わって新しい primary_for_goal フィールドが導入されます。新しいフィールドへの移行作業が簡単になるように、すべてのアカウントで目標を有効化していたときは、Google Ads API から非推奨の include_in_conversions_metric フ...]]></content>
+        <published>2022-08-09T07:00:00.003Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GiNZAを使って形態素解析して遊んで見る | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2022/08/09/153626</id>
+        <link href="https://tech.excite.co.jp/entry/2022/08/09/153626"/>
+        <updated>2022-08-09T06:36:26.000Z</updated>
+        <summary type="html"><![CDATA[しばらく自然言語処理の世界から離れていたので、 リハビリがてら使ったことのない「GiNZA」を使って形態素解析をして遊んでみます。 （ずっとMeCabユーザでした） 準備 venvを作っておきます $ python3 -m venv venv venvのactivate $ source venv/bin/activate ※ Windowsの場合は venv¥Scripts¥activate.b...]]></summary>
+        <content type="html"><![CDATA[しばらく自然言語処理の世界から離れていたので、 リハビリがてら使ったことのない「GiNZA」を使って形態素解析をして遊んでみます。 （ずっとMeCabユーザでした） 準備 venvを作っておきます $ python3 -m venv venv venvのactivate $ source venv/bin/activate ※ Windowsの場合は venv¥Scripts¥activate.batで行けると思います。 ※ →参考 GiNZAを入れる $ pip install -U ginza ja_ginza_electra GiNZAを実行する $ ginza 入力待ちになるので、文字…]]></content>
+        <published>2022-08-09T06:36:26.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EventLogViewer 1.001 | ダウンロードと使い方 | ソフタロウ]]></title>
+        <id>https://softaro.net/?p=98647</id>
+        <link href="https://softaro.net/eventlogviewer/"/>
+        <updated>2022-08-09T06:03:08.000Z</updated>
+        <summary type="html"><![CDATA[よくある質問と回答 ライセンスについて。 EventLogViewer は、どなたでも無料で使用できます。]]></summary>
+        <content type="html"><![CDATA[よくある質問と回答 ライセンスについて。 EventLogViewer は、どなたでも無料で使用できます。]]></content>
+        <author>
+            <name>softaro</name>
+        </author>
+        <category label="Windows そのほか"/>
+        <category label="Kurt Zimmermann"/>
+        <category label="Windows"/>
+        <category label="イベントログ"/>
+        <category label="フリーソフト"/>
+        <published>2022-08-09T06:03:08.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GCEへのSSH接続の各種方法について、IAMロールやSSH認証鍵などの仕様まとめ | エンジニアブログ | iret.media]]></title>
         <id>https://iret.media/?p=63750</id>
@@ -311,8 +346,8 @@
         <id>https://moneyforward.com/engineers_blog/?p=10469</id>
         <link href="https://moneyforward.com/engineers_blog/2022/08/09/defect-analysis-from-hr/"/>
         <updated>2022-08-09T01:00:07.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チ...]]></summary>
-        <content type="html"><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チームで業務知識を獲得するための取り組み  オフィスの便利ツール紹介：トイレ混雑チェッカー  Rubyコードの健康を保つためのgem 5+1選  【レポート】MF Geeks Night (2015年2月)  RubyKaigi 2017 - Ruby Sponsorのお知らせ ＆ 広島グルメの話   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fas...]]></summary>
+        <content type="html"><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: fastlane の snapshot で iOS 開発プロセス自動化  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  はじめまして！ 京都開発拠点  京都拠点でRailsのフルリモートなスクラム開発をした知見  Androidアプリのデバッグメニューを作ろう   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -653,6 +688,18 @@
         <category label="DeepRacer"/>
         <category label="ハンズオン"/>
         <published>2022-08-08T09:00:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LaravelでHttpRequestを扱う際の個人的ベストプラクティス | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yuichi_sano/articles/9fe19dcfba945d</id>
+        <link href="https://zenn.dev/yuichi_sano/articles/9fe19dcfba945d"/>
+        <updated>2022-08-08T08:37:14.000Z</updated>
+        <summary type="html"><![CDATA[最終的な成果物   基本的な考え方と、問題点 LarvelにてRequestを扱う際、少しググった場合も、書籍等の場合も大体FormRequestを継承すると便利だよー。 といった旨の解説とともに、Sampleでコードを載せてくれています。 そのSampleはとてもSimpleで確かにこれは簡単だ！と思わせてくれる内容であるので大抵はそのSampleに習い実装をしていくことかと思います。 しかし、...]]></summary>
+        <content type="html"><![CDATA[最終的な成果物   基本的な考え方と、問題点 LarvelにてRequestを扱う際、少しググった場合も、書籍等の場合も大体FormRequestを継承すると便利だよー。 といった旨の解説とともに、Sampleでコードを載せてくれています。 そのSampleはとてもSimpleで確かにこれは簡単だ！と思わせてくれる内容であるので大抵はそのSampleに習い実装をしていくことかと思います。 しかし、時と場合によっては複雑なHttpRequestを扱わなければいけなかったり、とても大量のパラメータを扱わなければいけなかったりします。 そのような状態に陥ったときに、 FormRequestを継...]]></content>
+        <author>
+            <name>佐野祐一</name>
+        </author>
+        <published>2022-08-08T08:37:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[NuxtJS で構築する LP・サイトコーディング開発環境 | TechRacho]]></title>
@@ -1159,18 +1206,6 @@
         <published>2022-08-07T22:39:23.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[framer-motionでふわっと出現するコンポーネントを実装する | Zennのトレンド]]></title>
-        <id>https://zenn.dev/funteractive/articles/in-view-transition</id>
-        <link href="https://zenn.dev/funteractive/articles/in-view-transition"/>
-        <updated>2022-08-07T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[ファンタラクティブのエンジニアの 太田 です。 スクロールして画面内に入るとふわっと出現するコンポーネントを作るのにframer-motionを使用してみたので紹介します。 React (Next) を使用しています。   やること  スクロールすると下から上に、透明から不透明にふわっと表示するコンポーネントをReactとframer-motionを使用して実装します。   デモ    コード  ...]]></summary>
-        <content type="html"><![CDATA[ファンタラクティブのエンジニアの 太田 です。 スクロールして画面内に入るとふわっと出現するコンポーネントを作るのにframer-motionを使用してみたので紹介します。 React (Next) を使用しています。   やること  スクロールすると下から上に、透明から不透明にふわっと表示するコンポーネントをReactとframer-motionを使用して実装します。   デモ    コード   親 <motion.div  variants={{  offscreen: { // 画面外の場合のスタイル  y: 100,  opacity: 0,  ...]]></content>
-        <author>
-            <name>ファンタラクティブ株式会社</name>
-        </author>
-        <published>2022-08-07T22:30:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　8月8日　～「秀丸メール」や「Blender」など | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/library/1430165.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/library/1430165.html"/>
@@ -1402,6 +1437,30 @@
         </author>
         <category label="身近な数学"/>
         <published>2022-08-07T00:09:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/395 )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/allowfirm/status/1556063207642386432#m</id>
+        <link href="https://nitter.net/allowfirm/status/1556063207642386432#m"/>
+        <updated>2022-08-06T23:42:33.000Z</updated>
+        <summary type="html"><![CDATA[京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( xpaperchallenge.org/cv/surve… )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。]]></summary>
+        <content type="html"><![CDATA[京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( xpaperchallenge.org/cv/surve… )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。]]></content>
+        <author>
+            <name>@allowfirm</name>
+        </author>
+        <published>2022-08-06T23:42:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: この間、名前が印象に残った京大の「GAFAデータセット」と、監視カメラ動画で視線(Gaze)を遠方(Afar)から推定する手法の論文まとめ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/72 )も、CVPR 2022の網羅的サーベイに。データセットと実装は、MITライセンスで公開されています。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/allowfirm/status/1556046356468224000#m</id>
+        <link href="https://nitter.net/allowfirm/status/1556046356468224000#m"/>
+        <updated>2022-08-06T22:35:35.000Z</updated>
+        <summary type="html"><![CDATA[この間、名前が印象に残った京大の「GAFAデータセット」と、監視カメラ動画で視線(Gaze)を遠方(Afar)から推定する手法の論文まとめ( xpaperchallenge.org/cv/surve… )も、CVPR 2022の網羅的サーベイに。データセットと実装は、MITライセンスで公開されています。]]></summary>
+        <content type="html"><![CDATA[この間、名前が印象に残った京大の「GAFAデータセット」と、監視カメラ動画で視線(Gaze)を遠方(Afar)から推定する手法の論文まとめ( xpaperchallenge.org/cv/surve… )も、CVPR 2022の網羅的サーベイに。データセットと実装は、MITライセンスで公開されています。]]></content>
+        <author>
+            <name>@allowfirm</name>
+        </author>
+        <published>2022-08-06T22:35:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[3DCGをベースにして、リアル風のbox-shadowを考えてみる | Qiita - 人気の記事]]></title>
@@ -1710,6 +1769,30 @@
         <published>2022-08-05T07:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 次号キャッチコピーは「3次元の世界を表現する技術」！！　どうぞご期待ください！！😎 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/kyoritsu_CV/status/1555449650299121664#m</id>
+        <link href="https://nitter.net/kyoritsu_CV/status/1555449650299121664#m"/>
+        <updated>2022-08-05T07:04:30.000Z</updated>
+        <summary type="html"><![CDATA[次号キャッチコピーは「3次元の世界を表現する技術」！！ どうぞご期待ください！！😎]]></summary>
+        <content type="html"><![CDATA[次号キャッチコピーは「3次元の世界を表現する技術」！！ どうぞご期待ください！！😎]]></content>
+        <author>
+            <name>@kyoritsu_CV</name>
+        </author>
+        <published>2022-08-05T07:04:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 【次号目次】巻頭言（米谷竜）／イマドキノNeural Fields（瀧川永遠希）／フカヨミ非グリッド特徴を用いた画像認識（濱口竜平）／フカヨミ一般化ドメイン適応（三鼓悠）／フカヨミバックボーンモデル（内田祐介）／ニュウモン微分可能レンダリング（加藤大晴）／えーあい＊けんきゅうしつ（@bravery_） | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/kyoritsu_CV/status/1555449197641338882#m</id>
+        <link href="https://nitter.net/kyoritsu_CV/status/1555449197641338882#m"/>
+        <updated>2022-08-05T07:02:42.000Z</updated>
+        <summary type="html"><![CDATA[【次号目次】巻頭言（米谷竜）／イマドキノNeural Fields（瀧川永遠希）／フカヨミ非グリッド特徴を用いた画像認識（濱口竜平）／フカヨミ一般化ドメイン適応（三鼓悠）／フカヨミバックボーンモデル（内田祐介）／ニュウモン微分可能レンダリング（加藤大晴）／えーあい＊けんきゅうしつ（@bravery_）]]></summary>
+        <content type="html"><![CDATA[【次号目次】巻頭言（米谷竜）／イマドキノNeural Fields（瀧川永遠希）／フカヨミ非グリッド特徴を用いた画像認識（濱口竜平）／フカヨミ一般化ドメイン適応（三鼓悠）／フカヨミバックボーンモデル（内田祐介）／ニュウモン微分可能レンダリング（加藤大晴）／えーあい＊けんきゅうしつ（@bravery_）]]></content>
+        <author>
+            <name>@kyoritsu_CV</name>
+        </author>
+        <published>2022-08-05T07:02:42.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【Git入門】git pullって？fetchとmergeとの使い分けをご紹介 | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
         <id>https://tech-blog.rakus.co.jp/entry/20220805/git</id>
         <link href="https://tech-blog.rakus.co.jp/entry/20220805/git"/>
@@ -1717,6 +1800,18 @@
         <summary type="html"><![CDATA[Gitを使って開発する際、最新のソースコードを取得する場面は多分にあると思います。 本投稿では、git pullコマンドの基本的な使い方〜主要なオプションの紹介をすると共に、よく混同されがちな、fetchとmergeとの違いについてもまとめさせていただきます。 Gitを使い始めたばかりの方から、git pullについて学び直したいという方まで、開発の際に参考にしていただければ幸いです。 弊社ブログ...]]></summary>
         <content type="html"><![CDATA[Gitを使って開発する際、最新のソースコードを取得する場面は多分にあると思います。 本投稿では、git pullコマンドの基本的な使い方〜主要なオプションの紹介をすると共に、よく混同されがちな、fetchとmergeとの違いについてもまとめさせていただきます。 Gitを使い始めたばかりの方から、git pullについて学び直したいという方まで、開発の際に参考にしていただければ幸いです。 弊社ブログのGitに関わる関連記事もぜひご一読ください！ 【超入門】初心者のためのGitとGitHubの使い方 【Git入門】git stashで作業を便利に退避する 【Git入門】git commitを取り消…]]></content>
         <published>2022-08-05T07:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 来週の校了を目指し，ただいま次号の最終チェック中です！　「#コンピュータビジョン最前線/Autumn 2022」9/10発売です！　良記事目白押しです‼️🤩（Summer 2022が出たのついこの間なのに…3ヶ月早い……もう8月……すぐに1年が終わってしまう……） | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/kyoritsu_CV/status/1555448030798614528#m</id>
+        <link href="https://nitter.net/kyoritsu_CV/status/1555448030798614528#m"/>
+        <updated>2022-08-05T06:58:04.000Z</updated>
+        <summary type="html"><![CDATA[来週の校了を目指し，ただいま次号の最終チェック中です！ 「#コンピュータビジョン最前線/Autumn 2022」9/10発売です！ 良記事目白押しです‼️🤩（Summer 2022が出たのついこの間なのに…3ヶ月早い……もう8月……すぐに1年が終わってしまう……）]]></summary>
+        <content type="html"><![CDATA[来週の校了を目指し，ただいま次号の最終チェック中です！ 「#コンピュータビジョン最前線/Autumn 2022」9/10発売です！ 良記事目白押しです‼️🤩（Summer 2022が出たのついこの間なのに…3ヶ月早い……もう8月……すぐに1年が終わってしまう……）]]></content>
+        <author>
+            <name>@kyoritsu_CV</name>
+        </author>
+        <published>2022-08-05T06:58:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Weekly Kaggle News #138 | Weekly Kaggle News]]></title>
@@ -1823,19 +1918,6 @@
         <summary type="html"><![CDATA[最近は多くの転職サイトやエージェントがスカウトサービスを実施しています。「スカウト」と聞くと、経験豊かで優秀な一握りのエンジニアだけがもらえるものだと思っている人もいるのではないでしょうか。ひと口にエンジニア求人といっても、求められる要件は求人によって大きく異なります。最近はエンジニア採用に力を入れるために、積極的にスカウトを送る企業も増えています。スカウトメールは、エンジニアであれば誰もがもらえ...]]></summary>
         <content type="html"><![CDATA[最近は多くの転職サイトやエージェントがスカウトサービスを実施しています。「スカウト」と聞くと、経験豊かで優秀な一握りのエンジニアだけがもらえるものだと思っている人もいるのではないでしょうか。ひと口にエンジニア求人といっても、求められる要件は求人によって大きく異なります。最近はエンジニア採用に力を入れるために、積極的にスカウトを送る企業も増えています。スカウトメールは、エンジニアであれば誰もがもらえる可能性があると言っても過言ではありません。またエンジニアの中でも、最近は「とりあえずプロフィールだけ登録しておいて、よさそうな企業からスカウトがきたときだけ話を聞いてみる」という方法でゆるく転職活動…]]></content>
         <published>2022-08-05T04:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: 入力された音声に同期するように動画に映る人物の顔を編集するaudio-driven talking headsと呼ばれる研究分野において初めて感情制御を実現したモデルになります。
-https://ai-scholar.tech/articles/cvpr/EVP | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1555394572032675840#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1555394572032675840#m"/>
-        <updated>2022-08-05T03:25:38.000Z</updated>
-        <summary type="html"><![CDATA[入力された音声に同期するように動画に映る人物の顔を編集するaudio-driven talking headsと呼ばれる研究分野において初めて感情制御を実現したモデルになります。 ai-scholar.tech/articles/cvp…]]></summary>
-        <content type="html"><![CDATA[入力された音声に同期するように動画に映る人物の顔を編集するaudio-driven talking headsと呼ばれる研究分野において初めて感情制御を実現したモデルになります。 ai-scholar.tech/articles/cvp…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-08-05T03:25:38.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Line Works でお誕生日お祝いBotを作ってみた | ForgeVision Engineer Blog]]></title>
@@ -2102,6 +2184,18 @@ https://ai-scholar.tech/articles/cvpr/EVP | AI技術最新情報メディア | A
         <published>2022-08-04T10:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/404 )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらしく。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/allowfirm/status/1555128521659338753#m</id>
+        <link href="https://nitter.net/allowfirm/status/1555128521659338753#m"/>
+        <updated>2022-08-04T09:48:27.000Z</updated>
+        <summary type="html"><![CDATA[異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( xpaperchallenge.org/cv/surve… )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらし...]]></summary>
+        <content type="html"><![CDATA[異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( xpaperchallenge.org/cv/surve… )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらしく。]]></content>
+        <author>
+            <name>@allowfirm</name>
+        </author>
+        <published>2022-08-04T09:48:27.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[最大25％OFFの「Blender Market」サマーセールが開催中　ほか【ダイジェストニュース】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/digest/1430239.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/digest/1430239.html"/>
@@ -2266,12 +2360,26 @@ https://ai-scholar.tech/articles/cvpr/EVP | AI技術最新情報メディア | A
         <published>2022-08-04T01:51:22.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 皆さん見ていってくださーい！
+
+自分の16本の論文のサマリも載ってます | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/chizu_potato/status/1554998112812695552#m</id>
+        <link href="https://nitter.net/chizu_potato/status/1554998112812695552#m"/>
+        <updated>2022-08-04T01:10:15.000Z</updated>
+        <summary type="html"><![CDATA[皆さん見ていってくださーい！ nitter.net/CVpaperChalleng/status/1554459389314367488#m]]></summary>
+        <content type="html"><![CDATA[皆さん見ていってくださーい！ nitter.net/CVpaperChalleng/status/1554459389314367488#m]]></content>
+        <author>
+            <name>@chizu_potato</name>
+        </author>
+        <published>2022-08-04T01:10:15.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！ | Money Forward Engineers' Blog]]></title>
         <id>https://moneyforward.com/engineers_blog/?p=10448</id>
         <link href="https://moneyforward.com/engineers_blog/2022/08/04/stateful-file-storages/"/>
         <updated>2022-08-04T01:00:35.000Z</updated>
-        <summary type="html"><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インタ...]]></summary>
-        <content type="html"><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インターンでの性能改善タスクの取り組み  マネーフォワードCTOが考えていること（2021年3月）  本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  こんにちわ、5年前にお世話になっていた開発者のものです  あの部署何やってるの？カスタマーサポート本部 MFクラウドサポート部 編 Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dog...]]></summary>
+        <content type="html"><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する  マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  [15分で] グラフデータベースNeo4jに超入門してみた  Railsで複雑なSQL処理をする時のTips：squeel編  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」   Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立て...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -2374,21 +2482,6 @@ https://ai-scholar.tech/articles/cvpr/EVP | AI技術最新情報メディア | A
         <summary type="html"><![CDATA[Posted by Arun Kandoor, Software Engineer, Google Research The increasing demand for machine learning (ML) model inference on-device (for mobile devices, tablets, etc.) is driven by the rise of comput...]]></summary>
         <content type="html"><![CDATA[Posted by Arun Kandoor, Software Engineer, Google Research The increasing demand for machine learning (ML) model inference on-device (for mobile devices, tablets, etc.) is driven by the rise of compute-intensive applications, the need to keep certain data on device for privacy and security reasons, and the desire to provide services when a network connection may not be available. However, on-device inference introduces a myriad of challenges, ranging from modeling to platform support requirement...]]></content>
         <published>2022-08-03T17:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The OpenAI Residency applications are open! We’re looking for engineers and researchers who are interested in applying their skills to AI and machine learning. Apply through Sept. 30.
-
-Software Engineering: https://boards.greenhouse.io/openai/jobs/4613303004
-Research: https://boards.greenhouse.io/openai/jobs/4613337004 | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1554849089250103297#m</id>
-        <link href="https://nitter.net/OpenAI/status/1554849089250103297#m"/>
-        <updated>2022-08-03T15:18:05.000Z</updated>
-        <summary type="html"><![CDATA[The OpenAI Residency applications are open! We’re looking for engineers and researchers who are interested in applying their skills to AI and machine learning. Apply through Sept. 30. boards.greenhous...]]></summary>
-        <content type="html"><![CDATA[The OpenAI Residency applications are open! We’re looking for engineers and researchers who are interested in applying their skills to AI and machine learning. Apply through Sept. 30. boards.greenhouse.io/openai/… boards.greenhouse.io/openai/…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2022-08-03T15:18:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[NVIDIA’s Ray Tracer - Finally, Real Time! ☀️ | Two Minute Papers]]></title>
@@ -2602,19 +2695,6 @@ Research: https://boards.greenhouse.io/openai/jobs/4613337004 | OpenAI / @OpenAI
         <published>2022-08-03T05:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: DALL·E2が独自言語を習得している可能性を発見した論文です。しかし、すでに指摘されているように言語の再現性に問題があり、言語と呼ぶには疑問が残りそうです。ですが、DALL·E2の解明に取り組んだ面白い論文ですので、ぜひご覧ください。
-https://ai-scholar.tech/articles/deep-learning/discovering-the-hidden-vocabulary-of-dalle-2 | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1554696749997903872#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1554696749997903872#m"/>
-        <updated>2022-08-03T05:12:44.000Z</updated>
-        <summary type="html"><![CDATA[DALL·E2が独自言語を習得している可能性を発見した論文です。しかし、すでに指摘されているように言語の再現性に問題があり、言語と呼ぶには疑問が残りそうです。ですが、DALL·E2の解明に取り組んだ面白い論文ですので、ぜひご覧ください。 ai-scholar.tech/articles/dee…]]></summary>
-        <content type="html"><![CDATA[DALL·E2が独自言語を習得している可能性を発見した論文です。しかし、すでに指摘されているように言語の再現性に問題があり、言語と呼ぶには疑問が残りそうです。ですが、DALL·E2の解明に取り組んだ面白い論文ですので、ぜひご覧ください。 ai-scholar.tech/articles/dee…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-08-03T05:12:44.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[340: Accept All Cookies (hak) | Rebuild]]></title>
         <id>https://rebuild.fm/340/</id>
         <link href="https://rebuild.fm/340/"/>
@@ -2753,6 +2833,18 @@ https://ai-scholar.tech/articles/deep-learning/discovering-the-hidden-vocabulary
         <published>2022-08-02T23:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: cvpaper.challengeが毎年行っているCVPR 2022の網羅的サーベイ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/listall/ )が公開に。国際会議は研究テーマが近い論文を見比べると参考になり、MOTでもMeMOT( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/333/ )やTrackFormer( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/361 )の論文が。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/allowfirm/status/1554586506580283392#m</id>
+        <link href="https://nitter.net/allowfirm/status/1554586506580283392#m"/>
+        <updated>2022-08-02T21:54:40.000Z</updated>
+        <summary type="html"><![CDATA[cvpaper.challengeが毎年行っているCVPR 2022の網羅的サーベイ( xpaperchallenge.org/cv/surve… )が公開に。国際会議は研究テーマが近い論文を見比べると参考になり、MOTでもMeMOT( xpaperchallenge.org/cv/surve… )やTrackFormer( xpaperchallenge.org/cv/surve… )の論文が。]]></summary>
+        <content type="html"><![CDATA[cvpaper.challengeが毎年行っているCVPR 2022の網羅的サーベイ( xpaperchallenge.org/cv/surve… )が公開に。国際会議は研究テーマが近い論文を見比べると参考になり、MOTでもMeMOT( xpaperchallenge.org/cv/surve… )やTrackFormer( xpaperchallenge.org/cv/surve… )の論文が。]]></content>
+        <author>
+            <name>@allowfirm</name>
+        </author>
+        <published>2022-08-02T21:54:40.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Preparing for a Data Analyst Interview | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=144603</id>
         <link href="https://www.kdnuggets.com/2022/08/datacamp-preparing-data-analyst-interview.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=preparing-for-a-data-analyst-interview"/>
@@ -2820,6 +2912,19 @@ https://ai-scholar.tech/articles/deep-learning/discovering-the-hidden-vocabulary
         <category label="KDnuggets Originals"/>
         <category label="Machine Learning"/>
         <published>2022-08-02T14:00:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: CVPR 2022 網羅的サーベイプロジェクトは期間内に合計631論文を読了、サマリーを作成してWEB（下記リンク参照）に無料公開しています！コンピュータビジョン分野の動向把握、研究テーマ立案などにお役立てください👍
+http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/listall/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/CVpaperChalleng/status/1554459389314367488#m</id>
+        <link href="https://nitter.net/CVpaperChalleng/status/1554459389314367488#m"/>
+        <updated>2022-08-02T13:29:33.000Z</updated>
+        <summary type="html"><![CDATA[CVPR 2022 網羅的サーベイプロジェクトは期間内に合計631論文を読了、サマリーを作成してWEB（下記リンク参照）に無料公開しています！コンピュータビジョン分野の動向把握、研究テーマ立案などにお役立てください👍 xpaperchallenge.org/cv/surve…]]></summary>
+        <content type="html"><![CDATA[CVPR 2022 網羅的サーベイプロジェクトは期間内に合計631論文を読了、サマリーを作成してWEB（下記リンク参照）に無料公開しています！コンピュータビジョン分野の動向把握、研究テーマ立案などにお役立てください👍 xpaperchallenge.org/cv/surve…]]></content>
+        <author>
+            <name>@CVpaperChalleng</name>
+        </author>
+        <published>2022-08-02T13:29:33.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top 10 Software Development Companies Working with Automotive AI  | Hacker Noon - machine-learning]]></title>
@@ -2937,19 +3042,6 @@ https://ai-scholar.tech/articles/deep-learning/discovering-the-hidden-vocabulary
         <summary type="html"><![CDATA[Announcing the winners of the Mephisto Dataset Collection Tool request for proposals]]></summary>
         <content type="html"><![CDATA[Announcing the winners of the Mephisto Dataset Collection Tool request for proposals]]></content>
         <published>2022-08-02T05:57:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: ECHR Violation Datasetを用いた法違反予測、Overruling Task Datasetを用いた棄却予測という2つのタスクをBERTをベースとした様々なモデルにより学習・評価を行い、それらの結果を比較することによって、議論を行いました。
-https://ai-scholar.tech/articles/natural-language-processing/legal-document-classification-bert | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1554314493328367616#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1554314493328367616#m"/>
-        <updated>2022-08-02T03:53:47.000Z</updated>
-        <summary type="html"><![CDATA[ECHR Violation Datasetを用いた法違反予測、Overruling Task Datasetを用いた棄却予測という2つのタスクをBERTをベースとした様々なモデルにより学習・評価を行い、それらの結果を比較することによって、議論を行いました。 ai-scholar.tech/articles/nat…]]></summary>
-        <content type="html"><![CDATA[ECHR Violation Datasetを用いた法違反予測、Overruling Task Datasetを用いた棄却予測という2つのタスクをBERTをベースとした様々なモデルにより学習・評価を行い、それらの結果を比較することによって、議論を行いました。 ai-scholar.tech/articles/nat…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-08-02T03:53:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[PDDSサイクルを実行した開発生産性向上への挑戦 | LIFULL Creators Blog ]]></title>
@@ -3194,19 +3286,6 @@ https://ai-scholar.tech/articles/natural-language-processing/legal-document-clas
         <published>2022-08-01T09:59:36.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: MeshTalkは、入力をspeech signalとexpression signalの2つに分離することで、もっともらしい顔上部の動きを出力することを可能にし、既存研究と比較してよりリアルな顔全体の3Dアニメーションを生成する事に成功したモデルになります。
-https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1554031367260106753#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1554031367260106753#m"/>
-        <updated>2022-08-01T09:08:45.000Z</updated>
-        <summary type="html"><![CDATA[MeshTalkは、入力をspeech signalとexpression signalの2つに分離することで、もっともらしい顔上部の動きを出力することを可能にし、既存研究と比較してよりリアルな顔全体の3Dアニメーションを生成する事に成功したモデルになります。 ai-scholar.tech/articles/3d/…]]></summary>
-        <content type="html"><![CDATA[MeshTalkは、入力をspeech signalとexpression signalの2つに分離することで、もっともらしい顔上部の動きを出力することを可能にし、既存研究と比較してよりリアルな顔全体の3Dアニメーションを生成する事に成功したモデルになります。 ai-scholar.tech/articles/3d/…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-08-01T09:08:45.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[JetBrains GatewayやProjectorで快適RubyMine生活 | TechRacho]]></title>
         <id>https://techracho.bpsinc.jp/?p=120261</id>
         <link href="https://techracho.bpsinc.jp/morimorihoge/2022_08_01/120261"/>
@@ -3299,6 +3378,21 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <summary type="html"><![CDATA[MNTSQ(モンテスキュー)株式会社で検索エンジニアをやっている溝口です。 MNTSQはMNTSQ CLM(ちょっと前までMNTSQ for Enterprise)という数十万件を超えるような契約書を管理するプロダクトを提供しており、以下のような検索機能を提供しています。 https://speakerdeck.com/mntsq/mntsq-careersdeck?slide=12 （公開時点）...]]></summary>
         <content type="html"><![CDATA[MNTSQ(モンテスキュー)株式会社で検索エンジニアをやっている溝口です。 MNTSQはMNTSQ CLM(ちょっと前までMNTSQ for Enterprise)という数十万件を超えるような契約書を管理するプロダクトを提供しており、以下のような検索機能を提供しています。 https://speakerdeck.com/mntsq/mntsq-careersdeck?slide=12 （公開時点） 今年の4月で入社してから2年が経ち、入社してからやってきたことの振り返りも兼ねて今回は検索処理周辺のコンポーネントの変遷をまとめてみました。 最初期(2020/08-2021/07) Index s…]]></content>
         <published>2022-08-01T06:18:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Very glad to share our novel method for 'Neural Fields'!! Neural Density-Distance Fields (NeDDF) are also recognized as #ECCV2022 accepted paper.
+
+arXiv: https://arxiv.org/abs/2207.14455
+Project Page: https://ueda0319.github.io/neddf/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/CVpaperChalleng/status/1553965466896707584#m</id>
+        <link href="https://nitter.net/CVpaperChalleng/status/1553965466896707584#m"/>
+        <updated>2022-08-01T04:46:53.000Z</updated>
+        <summary type="html"><![CDATA[Very glad to share our novel method for 'Neural Fields'!! Neural Density-Distance Fields (NeDDF) are also recognized as #ECCV2022 accepted paper. arxiv.org/abs/2207.14455 ueda0319.github.io/neddf/]]></summary>
+        <content type="html"><![CDATA[Very glad to share our novel method for 'Neural Fields'!! Neural Density-Distance Fields (NeDDF) are also recognized as #ECCV2022 accepted paper. arxiv.org/abs/2207.14455 ueda0319.github.io/neddf/]]></content>
+        <author>
+            <name>@CVpaperChalleng</name>
+        </author>
+        <published>2022-08-01T04:46:53.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[BGP update-sourceについて確認してみた | シナプス技術者ブログ]]></title>
@@ -3415,6 +3509,24 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <published>2022-08-01T01:52:20.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: Neural Density-Distance Fields (ECCV 2022)
+
+Authors: Itsuki Ueda, Yoshihiro Fukuhara, Hirokatsu Kataoka, Hiroaki Aizawa, Hidehiko Shishido, Itaru Kitahara
+
+https://ueda0319.github.io/neddf/
+
+#neuralfieldsoftheday | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/neural_fields/status/1553919714031796225#m</id>
+        <link href="https://nitter.net/neural_fields/status/1553919714031796225#m"/>
+        <updated>2022-08-01T01:45:04.000Z</updated>
+        <summary type="html"><![CDATA[Neural Density-Distance Fields (ECCV 2022) ueda0319.github.io/neddf/ #neuralfieldsoftheday]]></summary>
+        <content type="html"><![CDATA[Neural Density-Distance Fields (ECCV 2022) ueda0319.github.io/neddf/ #neuralfieldsoftheday]]></content>
+        <author>
+            <name>@neural_fields</name>
+        </author>
+        <published>2022-08-01T01:45:04.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AWS CDKでGo! | TechBlog – Nulab (Japanese)]]></title>
         <id>https://nulab.com/ja/?p=36682</id>
         <link href="https://nulab.com/ja/blog/backlog/go-aws-cdk/"/>
@@ -3453,6 +3565,20 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <summary type="html"><![CDATA[こんばんは、エキサイト株式会社の中尾です。 quarkusを使う(コンパイル編) - エキサイト TechBlog. でcompileできなかったところがなんとcompileできるようになっていました！ どうやらissueを見るとGraalVM 22.1 を使うようになったのでそもそもできるみたいですね！ https://quay.io/repository/quarkus/ubi-quarkus...]]></summary>
         <content type="html"><![CDATA[こんばんは、エキサイト株式会社の中尾です。 quarkusを使う(コンパイル編) - エキサイト TechBlog. でcompileできなかったところがなんとcompileできるようになっていました！ どうやらissueを見るとGraalVM 22.1 を使うようになったのでそもそもできるみたいですね！ https://quay.io/repository/quarkus/ubi-quarkus-mandrel?tab=tags&tag=21.3-java17 https://github.com/quarkusio/quarkus/issues/20891 正式な使い方はguidesを参考…]]></content>
         <published>2022-08-01T00:50:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: Neural Density-Distance Fields
+abs: https://arxiv.org/abs/2207.14455
+project page: https://ueda0319.github.io/neddf/ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/_akhaliq/status/1553904221350666240#m</id>
+        <link href="https://nitter.net/_akhaliq/status/1553904221350666240#m"/>
+        <updated>2022-08-01T00:43:31.000Z</updated>
+        <summary type="html"><![CDATA[Neural Density-Distance Fields arxiv.org/abs/2207.14455 ueda0319.github.io/neddf/]]></summary>
+        <content type="html"><![CDATA[Neural Density-Distance Fields arxiv.org/abs/2207.14455 ueda0319.github.io/neddf/]]></content>
+        <author>
+            <name>@_akhaliq</name>
+        </author>
+        <published>2022-08-01T00:43:31.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[VLA Hackathon(ベリロンクソゲーハッカソン)にDeNAスポンサー + WebVRゲームを開発してきました。 | Blog on DeNA Engineering]]></title>
@@ -3981,6 +4107,18 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <published>2022-07-29T02:50:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: #MIRU2022 が終わったので、国内シンポジウムに関して次は #ViEW2022 に向けて研究を進めていきます！ViEW 2022 講演申込期限は「2022年9月16日（金）」なので、皆さんご投稿よろしくお願いします。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/HirokatuKataoka/status/1552841606104961025#m</id>
+        <link href="https://nitter.net/HirokatuKataoka/status/1552841606104961025#m"/>
+        <updated>2022-07-29T02:21:03.000Z</updated>
+        <summary type="html"><![CDATA[#MIRU2022 が終わったので、国内シンポジウムに関して次は #ViEW2022 に向けて研究を進めていきます！ViEW 2022 講演申込期限は「2022年9月16日（金）」なので、皆さんご投稿よろしくお願いします。 nitter.net/HirokatuKataoka/status/1552127028337713152#m]]></summary>
+        <content type="html"><![CDATA[#MIRU2022 が終わったので、国内シンポジウムに関して次は #ViEW2022 に向けて研究を進めていきます！ViEW 2022 講演申込期限は「2022年9月16日（金）」なので、皆さんご投稿よろしくお願いします。 nitter.net/HirokatuKataoka/status/1552127028337713152#m]]></content>
+        <author>
+            <name>@HirokatuKataoka</name>
+        </author>
+        <published>2022-07-29T02:21:03.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SAML認証を用いたSSO(シングルサインオン)を実装する | Safie Engineers' Blog!]]></title>
         <id>https://engineers.safie.link/entry/2022/07/29/SAML%E8%AA%8D%E8%A8%BC%E3%82%92%E7%94%A8%E3%81%84%E3%81%9FSSO%28%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AA%E3%83%B3%29%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B</id>
         <link href="https://engineers.safie.link/entry/2022/07/29/SAML%E8%AA%8D%E8%A8%BC%E3%82%92%E7%94%A8%E3%81%84%E3%81%9FSSO%28%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AA%E3%83%B3%29%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B"/>
@@ -4211,6 +4349,20 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <published>2022-07-28T14:33:08.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: MIRU 2022 長尾賞(最優秀発表賞)、インタラクティブ発表賞、論文評価貢献賞を頂きました🏅きっともうないからごめん言わせて 
+https://sites.google.com/view/miru2022/home/award
+ありがとうございます🙇‍♀️ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/viaminicab/status/1552656674649161729#m</id>
+        <link href="https://nitter.net/viaminicab/status/1552656674649161729#m"/>
+        <updated>2022-07-28T14:06:12.000Z</updated>
+        <summary type="html"><![CDATA[MIRU 2022 長尾賞(最優秀発表賞)、インタラクティブ発表賞、論文評価貢献賞を頂きました🏅きっともうないからごめん言わせて sites.google.com/view/miru20… ありがとうございます🙇‍♀️]]></summary>
+        <content type="html"><![CDATA[MIRU 2022 長尾賞(最優秀発表賞)、インタラクティブ発表賞、論文評価貢献賞を頂きました🏅きっともうないからごめん言わせて sites.google.com/view/miru20… ありがとうございます🙇‍♀️]]></content>
+        <author>
+            <name>@viaminicab</name>
+        </author>
+        <published>2022-07-28T14:06:12.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[90% of Today’s Code is Written to Prevent Failure, and That’s a Problem | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=144173</id>
         <link href="https://www.kdnuggets.com/2022/07/90-today-code-written-prevent-failure-problem.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=90-of-todays-code-is-written-to-prevent-failure-and-thats-a-problem"/>
@@ -4223,6 +4375,18 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <category label="KDnuggets Originals"/>
         <category label="Programming"/>
         <published>2022-07-28T14:00:53.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: 数式ドリブン人工画像で教師あり事前学習、説明した時に「あぁ、あの」みたいな反応が多いがちで、めちゃくちゃ認知されてるのを感じたな | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/soraemonpockts/status/1552639527369379840#m</id>
+        <link href="https://nitter.net/soraemonpockts/status/1552639527369379840#m"/>
+        <updated>2022-07-28T12:58:04.000Z</updated>
+        <summary type="html"><![CDATA[数式ドリブン人工画像で教師あり事前学習、説明した時に「あぁ、あの」みたいな反応が多いがちで、めちゃくちゃ認知されてるのを感じたな]]></summary>
+        <content type="html"><![CDATA[数式ドリブン人工画像で教師あり事前学習、説明した時に「あぁ、あの」みたいな反応が多いがちで、めちゃくちゃ認知されてるのを感じたな]]></content>
+        <author>
+            <name>@soraemonpockts</name>
+        </author>
+        <published>2022-07-28T12:58:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[絶対に使うべきドコモのサービス２選 | FascodeNetwork Blog]]></title>
@@ -4254,6 +4418,34 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <published>2022-07-28T12:00:55.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: cvpaper.challenge は遂に #MIRU2023 と連携決定。
+「CV分野の今を映し，トレンドを創る挑戦」
+「日本のCV分野を強くするチャレンジ」
+が夢物語ではないところに来ました！何があっても途中で投げ出さないでよかった。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/HirokatuKataoka/status/1552624303870742530#m</id>
+        <link href="https://nitter.net/HirokatuKataoka/status/1552624303870742530#m"/>
+        <updated>2022-07-28T11:57:35.000Z</updated>
+        <summary type="html"><![CDATA[cvpaper.challenge は遂に #MIRU2023 と連携決定。 nitter.net/CVpaperChalleng/status/1552582785470439429#m]]></summary>
+        <content type="html"><![CDATA[cvpaper.challenge は遂に #MIRU2023 と連携決定。 nitter.net/CVpaperChalleng/status/1552582785470439429#m]]></content>
+        <author>
+            <name>@HirokatuKataoka</name>
+        </author>
+        <published>2022-07-28T11:57:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: メンターシップの発表好評だったみたいで嬉しい
+6回Rejectくらってる話とか漸くネタにできるとこある | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/tuyuri_kame/status/1552603817677426688#m</id>
+        <link href="https://nitter.net/tuyuri_kame/status/1552603817677426688#m"/>
+        <updated>2022-07-28T10:36:10.000Z</updated>
+        <summary type="html"><![CDATA[メンターシップの発表好評だったみたいで嬉しい 6回Rejectくらってる話とか漸くネタにできるとこある]]></summary>
+        <content type="html"><![CDATA[メンターシップの発表好評だったみたいで嬉しい 6回Rejectくらってる話とか漸くネタにできるとこある]]></content>
+        <author>
+            <name>@tuyuri_kame</name>
+        </author>
+        <published>2022-07-28T10:36:10.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[僕らは概念をとらえてコードを書いていく | TechBlog – Nulab (Japanese)]]></title>
         <id>https://nulab.com/ja/?p=36655</id>
         <link href="https://nulab.com/ja/blog/backlog/write-codes-with-concepts/"/>
@@ -4280,6 +4472,18 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <category label="Ruby"/>
         <category label="Ruby on Rails"/>
         <published>2022-07-28T08:59:24.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: アツい | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/t_Signull/status/1552574102191292416#m</id>
+        <link href="https://nitter.net/t_Signull/status/1552574102191292416#m"/>
+        <updated>2022-07-28T08:38:06.000Z</updated>
+        <summary type="html"><![CDATA[アツい]]></summary>
+        <content type="html"><![CDATA[アツい]]></content>
+        <author>
+            <name>@t_Signull</name>
+        </author>
+        <published>2022-07-28T08:38:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[突撃！隣の開発環境！！ MNTSQ エディタ・ターミナルエミュレータ編 | Techブログ - MNTSQ, Ltd.]]></title>
@@ -4484,6 +4688,21 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <published>2022-07-28T01:28:54.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[RT by @CVpaperChalleng: データが足りなくて困っている人に朗報！
+産総研の片岡先生が、フラクタル画像を用いたデータセットを公開しました。
+CVPR2022での発表論文を日本語で紹介したMIRUの講演スライドを無料公開しています。
+なんと商業利用可能だそうです。太っ腹！ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
+        <id>https://nitter.net/Tarou55tarou/status/1552464985330044928#m</id>
+        <link href="https://nitter.net/Tarou55tarou/status/1552464985330044928#m"/>
+        <updated>2022-07-28T01:24:30.000Z</updated>
+        <summary type="html"><![CDATA[データが足りなくて困っている人に朗報！ nitter.net/HirokatuKataoka/status/1552463681883348992#m]]></summary>
+        <content type="html"><![CDATA[データが足りなくて困っている人に朗報！ nitter.net/HirokatuKataoka/status/1552463681883348992#m]]></content>
+        <author>
+            <name>@Tarou55tarou</name>
+        </author>
+        <published>2022-07-28T01:24:30.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[開発者も学ぶべきマネジメントのことと、参考書籍紹介 | 虎の穴開発室ブログ]]></title>
         <id>https://toranoana-lab.hatenablog.com/entry/2022/07/28/100000</id>
         <link href="https://toranoana-lab.hatenablog.com/entry/2022/07/28/100000"/>
@@ -4497,8 +4716,8 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <id>https://moneyforward.com/engineers_blog/?p=10439</id>
         <link href="https://moneyforward.com/engineers_blog/2022/07/28/introduce-render-function/"/>
         <updated>2022-07-28T00:30:49.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末に...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末にesaの大掃除をしてみた  エンジニアとデザイナーの相互理解  GraphQL Federation - API Gatewayの進化  GitHub Actionsのワークフローを利用してクロスブラウザのE2Eテストを自動化する  「Money Forward Techbook#2」を技術書典 応援祭に出品します   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。クラウド勤怠でエンジニアをしていますkatuoです。今回は … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「社内キャリアチェンジ」  RubyKaigi 2014参加レポ(マネーフォワード編)  ふんいきがわかるCSSレイアウトの知識  詳解 リリース計画  hamlからslimに移行してみた話   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] 意外と知られていないVue.jsのRender Functionを紹介する], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4688,19 +4907,6 @@ https://ai-scholar.tech/articles/3d/meshtalk | AI技術最新情報メディア 
         <summary type="html"><![CDATA[こんにちは！フルサポート開発チームの高畑（Sorarinu (@int_sorarinu) / Twitter）です。 つい最近、ISUCON 12 の予選があったようで、 Twitter のトレンドに「SQLite」が上がっていて DB 屋さんたちがザワザワしていたようですが、皆さんいかがお過ごしでしょうか。 自分は ISUCON 9 以来参加できていなくそろそろ参加したいなと思っているのですが...]]></summary>
         <content type="html"><![CDATA[こんにちは！フルサポート開発チームの高畑（Sorarinu (@int_sorarinu) / Twitter）です。 つい最近、ISUCON 12 の予選があったようで、 Twitter のトレンドに「SQLite」が上がっていて DB 屋さんたちがザワザワしていたようですが、皆さんいかがお過ごしでしょうか。 自分は ISUCON 9 以来参加できていなくそろそろ参加したいなと思っているのですが、その前に社内の管理画面をパフォーマンスチューニングして ISUCON の雰囲気を思い出してきたのでご紹介します。 これまでの現状 ビザスクの管理画面が出来てから結構年数が経ってきており（first …]]></content>
         <published>2022-07-27T09:44:41.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MATTER(MATerial and TExture Representation Learning)と呼ばれる、マテリアル・テクスチャベースの自己教師学習を提案しました。MATTERでは、輝度や視角不変量を取得するために、変化していない領域での多重時間の空間調整されたリモート・センシングデータを学習しました。
-https://ai-scholar.tech/articles/self-supervised-learning/Material_Texture | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1552217395959578624#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1552217395959578624#m"/>
-        <updated>2022-07-27T09:00:40.000Z</updated>
-        <summary type="html"><![CDATA[MATTER(MATerial and TExture Representation Learning)と呼ばれる、マテリアル・テクスチャベースの自己教師学習を提案しました。MATTERでは、輝度や視角不変量を取得するために、変化していない領域での多重時間の空間調整されたリモート・センシングデータを学習しました。 ai-scholar.tech/articles/sel…]]></summary>
-        <content type="html"><![CDATA[MATTER(MATerial and TExture Representation Learning)と呼ばれる、マテリアル・テクスチャベースの自己教師学習を提案しました。MATTERでは、輝度や視角不変量を取得するために、変化していない領域での多重時間の空間調整されたリモート・センシングデータを学習しました。 ai-scholar.tech/articles/sel…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-07-27T09:00:40.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ISUCON12予選 スコア4位相当でしたが失格になりました | Classi開発者ブログ]]></title>
@@ -5192,51 +5398,6 @@ https://ai-scholar.tech/articles/self-supervised-learning/Material_Texture | AI�
         <summary type="html"><![CDATA[こんにちはエンジニアのEadaedaです。 皆さんのチームではGitHub Actionsを使っていますか？ブロックチェーンチームではテストやリンター、デプロイといったワークフローをGitHub Actionsで行っています。 今まで、デプロイ以外のワークフローはGitHub-hosted runnerで実行、デプロイはSelf-hosted runnerで実行していましたが、運用していくうちに特...]]></summary>
         <content type="html"><![CDATA[こんにちはエンジニアのEadaedaです。 皆さんのチームではGitHub Actionsを使っていますか？ブロックチェーンチームではテストやリンター、デプロイといったワークフローをGitHub Actionsで行っています。 今まで、デプロイ以外のワークフローはGitHub-hosted runnerで実行、デプロイはSelf-hosted runnerで実行していましたが、運用していくうちに特定の環境内にあるサーバーで実行されるように仕組みを見直す必要がでてきました。このため全てのワークフローをSelf-hosted runnerに移行する対応を行いました。この記事では移行の際に見つけた便…]]></content>
         <published>2022-07-26T08:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Q&A with Julio de Castro and Christina Kyprianou, professors at IE University in Madrid and Meta academic collaborators | Meta Research]]></title>
-        <id>https://research.facebook.com/blog/2022/7/q-a-with-julio-de-castro-and-christina-kyprianou-professors-at-ie-university-in-madrid-and-meta-academic-collaborators/</id>
-        <link href="https://research.facebook.com/blog/2022/7/q-a-with-julio-de-castro-and-christina-kyprianou-professors-at-ie-university-in-madrid-and-meta-academic-collaborators/"/>
-        <updated>2022-07-26T07:08:00.000Z</updated>
-        <summary type="html"><![CDATA[For July, we nominated two professors from IE University in Madrid: Julio de Castro, chair professor of entrepreneurship and director of the doctoral program, and Christina Kyprianou...]]></summary>
-        <content type="html"><![CDATA[For July, we nominated two professors from IE University in Madrid: Julio de Castro, chair professor of entrepreneurship and director of the doctoral program, and Christina Kyprianou...]]></content>
-        <published>2022-07-26T07:08:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flutter初学者がRiverpodを用いてMemoアプリ作ってみた | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2022/07/26/160607</id>
-        <link href="https://tech.excite.co.jp/entry/2022/07/26/160607"/>
-        <updated>2022-07-26T07:06:07.000Z</updated>
-        <summary type="html"><![CDATA[はじめまして！ 今年の6月からエキサイトのアプリエンジニアとして内定者インターンをしております、藤崎裕樹( @ex_naty44 )と申します！ 今回はインターンのトレーニングでMemoアプリを作ってみたので、 その過程をまとめてみようと思います。 エキサイトでインターンをする前は他社でweb開発のインターンをしていましたが、モバイルアプリに関する知識はほとんどない状態でした。 そんな僕でもこのメ...]]></summary>
-        <content type="html"><![CDATA[はじめまして！ 今年の6月からエキサイトのアプリエンジニアとして内定者インターンをしております、藤崎裕樹( @ex_naty44 )と申します！ 今回はインターンのトレーニングでMemoアプリを作ってみたので、 その過程をまとめてみようと思います。 エキサイトでインターンをする前は他社でweb開発のインターンをしていましたが、モバイルアプリに関する知識はほとんどない状態でした。 そんな僕でもこのメモアプリを作ることが出来たので、今回の記事が初学者の方の参考になれば幸いです。 よろしくお願いします！ 目次 メモアプリを作成した理由 完成品 要件 Riverpodでリプレイス 振り返り メモアプリ…]]></content>
-        <published>2022-07-26T07:06:07.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWSのコストモニタリングの知見をシェアしたい | Uzabase for Engineers]]></title>
-        <id>https://tech.uzabase.com/entry/2022/07/26/153937</id>
-        <link href="https://tech.uzabase.com/entry/2022/07/26/153937"/>
-        <updated>2022-07-26T06:39:37.000Z</updated>
-        <summary type="html"><![CDATA[NewsPicksの高山です。 今回は、AWSのコストを我々がどのように定点観測しているかを書いていきます。 あわよくば他社さんも事例を広く共有してもらえて業界全体の共有知が増えることに繋がってほしい狙いがあります。 NewsPicksでは過去2年ぐらいかけて地道にコストモニタリングのオペレーションを作ってきました。手法としては、毎週コストモニタリング担当のメンバーで定例ミーティングをして、以下の...]]></summary>
-        <content type="html"><![CDATA[NewsPicksの高山です。 今回は、AWSのコストを我々がどのように定点観測しているかを書いていきます。 あわよくば他社さんも事例を広く共有してもらえて業界全体の共有知が増えることに繋がってほしい狙いがあります。 NewsPicksでは過去2年ぐらいかけて地道にコストモニタリングのオペレーションを作ってきました。手法としては、毎週コストモニタリング担当のメンバーで定例ミーティングをして、以下の手順をやりながら議事録にまとめていきます。 毎週のオペレーション コスト異常検出 コスト異常検出という機能の画面を見て、最近大きく変化したリソースを調査します。 異常検出はメールでも通知していますが、…]]></content>
-        <published>2022-07-26T06:39:37.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rails系サービス互助会の取り組みについてご紹介します | pixiv inside]]></title>
-        <id>https://inside.pixiv.blog/2022/07/26/150000?utm_source=feed</id>
-        <link href="https://inside.pixiv.blog/2022/07/26/150000?utm_source=feed"/>
-        <updated>2022-07-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、sakiです。普段は広告事業のプロダクト開発やテックリードをしている人ですが、今回はRubyとRuby on Railsのお話です。 ピクシブでは多くのサービスでRuby on Railsを使っており、例えばBOOTH、pixivFACTORY、pixiv Sketch、VRoid Hub、pixivコミック、palcy …などが挙げられます。社内では各サービスのエンジニアが集まって「...]]></summary>
-        <content type="html"><![CDATA[こんにちは、sakiです。普段は広告事業のプロダクト開発やテックリードをしている人ですが、今回はRubyとRuby on Railsのお話です。 ピクシブでは多くのサービスでRuby on Railsを使っており、例えばBOOTH、pixivFACTORY、pixiv Sketch、VRoid Hub、pixivコミック、palcy …などが挙げられます。社内では各サービスのエンジニアが集まって「Rails系サービス互助会」という会をしていますので、本日はその取り組みについてご紹介いたします。 Rails系サービス互助会の発足 開発はサービスごとのチームで行っており、昔は全エンジニアが集まって…]]></content>
-        <published>2022-07-26T06:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azureで実現できるDevOps環境を調べてみた【SREの登竜門】 | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
-        <id>https://tech-blog.rakus.co.jp/entry/20220726/azure</id>
-        <link href="https://tech-blog.rakus.co.jp/entry/20220726/azure"/>
-        <updated>2022-07-26T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 皆さん、こんにちは。tomo37kunです。 突然ですが、Googleが提唱している「class SRE implements DevOps」の考えを御存知でしょうか？ 「class SRE implements DevOps」は「SREはDevOpsというinterfaceの実装である」という意味を表します。 つまり、「DevOps = 思想」という定義に対し、それを具体化し実装したも...]]></summary>
-        <content type="html"><![CDATA[はじめに 皆さん、こんにちは。tomo37kunです。 突然ですが、Googleが提唱している「class SRE implements DevOps」の考えを御存知でしょうか？ 「class SRE implements DevOps」は「SREはDevOpsというinterfaceの実装である」という意味を表します。 つまり、「DevOps = 思想」という定義に対し、それを具体化し実装したものがSREであるという考えになります。 昨今、注目が集まるSREの考え方を実践していく上で、定義に反する実装を行わないためにも、DevOpsの理解は避けられません。 今回はAzureを使用することで実…]]></content>
-        <published>2022-07-26T06:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Merpay Tech Fest 2022】8月23日のトークセッション見どころをご紹介 | メルカリエンジニアリングブログ]]></title>
