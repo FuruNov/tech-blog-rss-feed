@@ -7,6 +7,33 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "hatenablog://entry/4207112889908290940",
+            "content_html": "Yahoo!ニュースを眺めていて見かけた「一発ジャンケン」が、プログラミングの教材として良さげだったので、実際に簡単なプログラムを組んでみました。ルールは以下の通りです（記事からの抜粋）。 まず、１～５を指で出す。数字が大きい人が勝ちなので５が一番強いが、他の人と同じ数字を出した人は負けとなる。５は強いが被りやすいという難点がある。ただ、残りが５と１なら革命で１が勝ちとなる。   news.yahoo.co.jp import collections import random   def determine_winner(choices):  agg = collections.Counter(choices)  only_one_choice = [i for i in agg.keys() if agg[i] == 1]  if not only_one_choice:  return 999, 999  elif set(only_one_choice) == set([1, 5]):  return choices.index(1), 1  else:  return cho...",
+            "url": "https://upura.hatenablog.com/entry/2022/08/13/132740",
+            "title": "「一発ジャンケン」の確率シミュレーション | u++の備忘録",
+            "summary": "Yahoo!ニュースを眺めていて見かけた「一発ジャンケン」が、プログラミングの教材として良さげだったので、実際に簡単なプログラムを組んでみました。ルールは以下の通りです（記事からの抜粋）。 まず、１～５を指で出す。数字が大きい人が勝ちなので５が一番強いが、他の人と同じ数字を出した人は負けとなる。５は強いが被りやすいという難点がある。ただ、残りが５と１なら革命で１が勝ちとなる。   news.yah...",
+            "date_modified": "2022-08-13T04:27:40.000Z",
+            "date_published": "2022-08-13T04:27:40.000Z",
+            "tags": [
+                "python"
+            ]
+        },
+        {
+            "id": "https://math-fun.net/?p=26053",
+            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、方程式をyについて解く・文字について解く方法を紹介します。 yについて解く方法と意味 \\[x+2y=6\\] を\\(y\\)について解きましょう。 この問 ... 方程式をyについて解く・文字について解く方法と意味 first appeared on 趣味の大学数学.",
+            "url": "https://math-fun.net/20220813/26053/",
+            "title": "方程式をyについて解く・文字について解く方法と意味 | 趣味の大学数学",
+            "summary": "どうも、木村（@kimu3_slime）です。 今回は、方程式をyについて解く・文字について解く方法を紹介します。 yについて解く方法と意味 \\[x+2y=6\\] を\\(y\\)について解きましょう。 この問 ... 方程式をyについて解く・文字について解く方法と意味 first appeared on 趣味の大学数学.",
+            "date_modified": "2022-08-13T04:02:17.000Z",
+            "date_published": "2022-08-13T04:02:17.000Z",
+            "author": {
+                "name": "kimu3"
+            },
+            "tags": [
+                "身近な数学"
+            ]
+        },
+        {
             "id": "https://softaro.net/?p=98814",
             "content_html": "よくある質問と回答 ライセンスについて。 BlackScreens は、どなたでも無料で使用できます。",
             "url": "https://softaro.net/blackscreens/",
@@ -205,6 +232,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/kou_pg_0131/articles/gogogo-introduction",
+            "content_html": "先日 CDK for Terraform が GA になりました。 https://www.hashicorp.com/blog/cdk-for-terraform-now-generally-available CDK for Terraform を使うことにより、 TypeScript や Go などといったプログラミング言語を使って Terraform エコシステムを利用したインフラの定義やプロビジョニングを行うことができます。 「Go でインフラが書ける」と聞き、ふと思ったことがこちらです。  というわけで書きました。   作ったもの  GoGoGo https://go55.d...",
+            "url": "https://zenn.dev/kou_pg_0131/articles/gogogo-introduction",
+            "title": "インフラもバックエンドもフロントエンドも Go で書いてみた | Zennのトレンド",
+            "summary": "先日 CDK for Terraform が GA になりました。 https://www.hashicorp.com/blog/cdk-for-terraform-now-generally-available CDK for Terraform を使うことにより、 TypeScript や Go などといったプログラミング言語を使って Terraform エコシステムを利用したインフラの定義や...",
+            "date_modified": "2022-08-12T09:17:29.000Z",
+            "date_published": "2022-08-12T09:17:29.000Z",
+            "author": {
+                "name": "koki"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/http_kato83/items/eacc2fc4a9319da61684?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "React とか SolidJS などのフレームワークって便利ですよね。 コミュニティとエコシステムが成長し、ググれば記事なんて沢山転がってますし。 でも、場面によっては不要な機能が沢山付いてしまい…",
             "url": "https://qiita.com/http_kato83/items/eacc2fc4a9319da61684?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -286,6 +326,19 @@
             "summary": "こんにちは。PdMのきそです。 何についてブログを書こうか迷っていた時に社内の方々から色んな案をいただいたのですが、今回は『開発ディレクションしている時に心がけていること』について書いてみようと思います。",
             "date_modified": "2022-08-12T07:51:08.000Z",
             "date_published": "2022-08-12T07:51:08.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/maiya/articles/a335661c9d24a1",
+            "content_html": "はじめに 最近ブロックチェーン開発に携わることとなり、マーケットプレイスや開発環境などについて比較・調査したことを備忘録として記載します。概要的な部分はある程度割愛してます。（※2022年6月時点）   マーケットプレイスの比較 マーケットプレイスとは、NFTを購入したり、ユーザー同士でNFTを売買することができるプラットフォームのこと。    名称 取扱コンテンツ 決済可能な仮想通貨 手数料 対応ウォレット 対応ブロックチェーンネットワーク     LINE NFT ゲーム、エンターテイメントなど LINK ガス代無料 LINE BITMAX Wallet LINE Blockch...",
+            "url": "https://zenn.dev/maiya/articles/a335661c9d24a1",
+            "title": "ブロックチェーン開発環境のあれこれ調べてみた | Zennのトレンド",
+            "summary": "はじめに 最近ブロックチェーン開発に携わることとなり、マーケットプレイスや開発環境などについて比較・調査したことを備忘録として記載します。概要的な部分はある程度割愛してます。（※2022年6月時点）   マーケットプレイスの比較 マーケットプレイスとは、NFTを購入したり、ユーザー同士でNFTを売買することができるプラットフォームのこと。    名称 取扱コンテンツ 決済可能な仮想通貨 手数料 対...",
+            "date_modified": "2022-08-12T07:33:04.000Z",
+            "date_published": "2022-08-12T07:33:04.000Z",
+            "author": {
+                "name": "mr-robert"
+            },
             "tags": []
         },
         {
@@ -649,10 +702,10 @@
         },
         {
             "id": "https://zenn.dev/kgsi/articles/52236aaae2db7b",
-            "content_html": "Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されていたり、有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本企業が公開しているファイルは少ない。 なお、ここに掲載されている以外で公開されているファイルがありましたら@kgsiまでご連絡いただけると嬉しいです。   FALCON by SPEEDA  h...",
+            "content_html": "Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されており、特に有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本企業が公開しているファイルは少ない。 なお、ここに掲載されている以外で公開されているファイルがありましたら@kgsiまでご連絡いただけると嬉しいです。   FALCON by SPEEDA  ...",
             "url": "https://zenn.dev/kgsi/articles/52236aaae2db7b",
             "title": "Figmaに公開されている日本のデザインシステム系ファイル | Zennのトレンド",
-            "summary": "Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されていたり、有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本...",
+            "summary": "Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されており、特に有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日...",
             "date_modified": "2022-08-11T22:56:59.000Z",
             "date_published": "2022-08-11T22:56:59.000Z",
             "author": {
@@ -854,19 +907,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/spiegel/articles/20220811-go-vulnerability-management",
-            "content_html": "Go Vulnerability Management Twitter の TL を眺めていて Go 公式の脆弱性レポートのページがあることを知る。 https://pkg.go.dev/vuln/list で，これについて https://twitter.com/spiegel_2007/status/1557187183072935936 とか呟いたら https://twitter.com/mattn_jp/status/1557233641356271616 と情報を頂いた。ありがとうございます 🙇 件のページを覗いてみると，こんな感じで脆弱性管理を行っているらしい。  vi...",
-            "url": "https://zenn.dev/spiegel/articles/20220811-go-vulnerability-management",
-            "title": "Go 公式の脆弱性管理システム | Zennのトレンド",
-            "summary": "Go Vulnerability Management Twitter の TL を眺めていて Go 公式の脆弱性レポートのページがあることを知る。 https://pkg.go.dev/vuln/list で，これについて https://twitter.com/spiegel_2007/status/1557187183072935936 とか呟いたら https://twitter.com/...",
-            "date_modified": "2022-08-11T11:30:34.000Z",
-            "date_published": "2022-08-11T11:30:34.000Z",
-            "author": {
-                "name": "Spiegel"
-            },
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/redpanda/articles/01b5ce98a632fd",
             "content_html": "Three.js？  ブラウザに3Dオブジェクトを簡単にレンダリングしてくれるJavaScriptの3Dライブラリのことです。 最近興味があったので今回簡単にglTFのフォーマットの3Dアニメーションモデルを画面に描画してみました。 全体のソースコードはこちらです。 部分的に説明しているので、全体のソースコードと一緒に見た方がいいかもしれません。 https://github.com/copetit/threejs-for-study   下準備   HTMLファイル準備 今回は簡単に動作を試してみるために、HTMLファイルだけ使うことにしました。 <!DOCTYPE html...",
             "url": "https://zenn.dev/redpanda/articles/01b5ce98a632fd",
@@ -888,6 +928,24 @@
             "date_modified": "2022-08-11T11:01:03.000Z",
             "date_published": "2022-08-11T11:01:03.000Z",
             "tags": []
+        },
+        {
+            "id": "https://www.ulatus.jp/academy/?p=29238",
+            "content_html": "オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、学術ライティング（論文の書き方）を学ぶのための本がありすぎてどれを読もうか悩んでいる人に朗報です。ミューバーン教授とPhD学生が3冊を紹介してくれています。 論文の書き方についての書籍は、私が執筆したものも含め、とんでもない数あります。なかなか書けていなかった書籍の紹介を、やっと投稿することができました。この記事は、私とジャスミン・ジェンソン（Jasmine Jenson）による書評をまとめたものです。いまだに私の部屋には本が山積みですので、この中の1冊でも読んで書評を書きたいという方がいたら、是非メールで連絡してください！ 書名：Writing a Watertight Thesis: A Guide to Successful Structure and Defence 著者：Mike Bottery and Nigel Wright まず1冊目。マイク・ボッタ...",
+            "url": "https://www.ulatus.jp/academy/a-bumper-post-of-book-reviews/",
+            "title": "学術ライティング教本3冊の紹介と書評 | 学術英語アカデミー",
+            "summary": "オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、学術ライティング（論文の書き方）を学ぶのための本がありすぎてどれを読もうか悩んでいる人に朗報です。ミューバーン教授とPhD学生が3冊を紹介してくれています。 論文の書き方につい...",
+            "date_modified": "2022-08-11T10:00:06.000Z",
+            "date_published": "2022-08-11T10:00:06.000Z",
+            "author": {
+                "name": "Ulatus Academy"
+            },
+            "tags": [
+                "研究室の荒波にもまれて",
+                "研究職",
+                "面接",
+                "面接の質問と対策"
+            ]
         },
         {
             "id": "https://mathlandscape.com/?p=27062",
@@ -1041,19 +1099,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/k_kazukiiiiii/articles/9f48bdd20435d2",
-            "content_html": "概要 React の バージョン18 のプロジェクトで Custom Hooks のテストを書く場合、React の バージョン17 までの書き方と少し異なる部分があった。なのでそれを以下にまとめる。   結論 @testing-library/react-hooks ではなく @testing-library/react を使用するようにする   React バージョン17 までの書き方 Custom Hooks のテストを書くために必要な renderHook を使用するために @testing-library/react-hooks をpackage.jsonに追加する必要があ...",
-            "url": "https://zenn.dev/k_kazukiiiiii/articles/9f48bdd20435d2",
-            "title": "React 18 で Custom Hooks のテストを書くときの注意点 | Zennのトレンド",
-            "summary": "概要 React の バージョン18 のプロジェクトで Custom Hooks のテストを書く場合、React の バージョン17 までの書き方と少し異なる部分があった。なのでそれを以下にまとめる。   結論 @testing-library/react-hooks ではなく @testing-library/react を使用するようにする   React バージョン17 までの書き方 Cus...",
-            "date_modified": "2022-08-11T00:21:43.000Z",
-            "date_published": "2022-08-11T00:21:43.000Z",
-            "author": {
-                "name": "Kimura Kazuki"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/tnar-f/items/ce6b040094eba5d85d6f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "π(1998)  タイトルは3.14から続いていくあの数字のこと。株価予測のプログラム作りに没頭する青年が、数字の魔力に取り憑かれ、狂気の世界に足を踏み入れていく、といった内容です。エーメンブレイク…",
             "url": "https://qiita.com/tnar-f/items/ce6b040094eba5d85d6f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1071,19 +1116,6 @@
             "summary": "Meet Edgar Duéñez-Guzmán, a research engineer on our Multi-Agent Research team who’s drawing on knowledge of game theory, computer science, and social evolution to get AI agents working better togethe...",
             "date_modified": "2022-08-11T00:00:00.000Z",
             "date_published": "2022-08-11T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/slowhand/articles/cb69ab446c0597",
-            "content_html": "Build high-quality UIs with ease | Monarch  MonarchはFlutterでStorybookみたく、Widgetの確認やデバッグ、テストを行う為のツールで、 色々充実してそうなので、試してみたいと思います。   試した環境 $ sw_vers ProductName: macOS ProductVersion: 12.4 BuildVersion: 21F79   テスト用のプロジェクト作成 $ mkdir monarch_sample $ cd monarch_sample $ fvm use 3.0.5 --force $ fvm f...",
-            "url": "https://zenn.dev/slowhand/articles/cb69ab446c0597",
-            "title": "【Flutter】Storybookライクに使えるMonarchを試してみる | Zennのトレンド",
-            "summary": "Build high-quality UIs with ease | Monarch  MonarchはFlutterでStorybookみたく、Widgetの確認やデバッグ、テストを行う為のツールで、 色々充実してそうなので、試してみたいと思います。   試した環境 $ sw_vers ProductName: macOS ProductVersion: 12.4 BuildVersion: 2...",
-            "date_modified": "2022-08-10T22:23:38.000Z",
-            "date_published": "2022-08-10T22:23:38.000Z",
-            "author": {
-                "name": "slowhand"
-            },
             "tags": []
         },
         {
@@ -2105,6 +2137,19 @@
             ]
         },
         {
+            "id": "https://zenn.dev/nkzn/articles/react-router-v6-suspense-idiom",
+            "content_html": "React Router v6 で登場した <Outlet /> を活用すると、良い感じに共通レイアウトを組み込めて、さらに <React.Suspense> や React.lazy() を組み合わせると体験が良くなるのを見つけました。おそらく React Router v6 を利用する上での頻出イディオムになると思うので、自分用のメモとして残しておきます。 最終的なサンプルコードはこちら。  使用したライブラリは次のとおりです。見た目がしょぼいとテンションが下がるので MUI で装飾していますが、本筋とは関係ないので今回は特に触れません。  react@18....",
+            "url": "https://zenn.dev/nkzn/articles/react-router-v6-suspense-idiom",
+            "title": "React Router v6のOutletとReact.lazyの組み合わせが便利 | Zennのトレンド",
+            "summary": "React Router v6 で登場した <Outlet /> を活用すると、良い感じに共通レイアウトを組み込めて、さらに <React.Suspense> や React.lazy() を組み合わせると体験が良くなるのを見つけました。おそらく React Router v6 を利用する上での頻出イディオムになると思うので、自分用のメモとして残しておきます。 最終的なサンプルコードはこちら。  ...",
+            "date_modified": "2022-08-09T04:45:57.000Z",
+            "date_published": "2022-08-09T04:45:57.000Z",
+            "author": {
+                "name": "Nkzn"
+            },
+            "tags": []
+        },
+        {
             "id": "https://iret.media/?p=63608",
             "content_html": "はじめに ComupteEngineの運用をするにあたって定期でのパッチ適用の要件があり、Googleで自動適用を行う場合、どういった形で実現できるのか、実際に設定しましたので、その内容について纏めます。 機能について […]",
             "url": "https://iret.media/63608",
@@ -2412,10 +2457,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10469",
-            "content_html": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Service Infra Team Principles  RubyKaigi 2016参加者がチェックすべき京都飯16選！  マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  最近のruby-core (2017年1月)  Railsのプロファイラを導入して速度改善をしてみた   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.",
+            "content_html": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  1年間地方コミュニティーを運営して感じた成長の軌跡と未来の課題  パフォーマンス・チューニング Rails編  【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動  Terraform 0.12 Upgrade Battle！   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/09/defect-analysis-from-hr/",
             "title": "マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編） | Money Forward Engineers' Blog",
-            "summary": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ser...",
+            "summary": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
             "date_modified": "2022-08-09T01:00:07.000Z",
             "date_published": "2022-08-09T01:00:07.000Z",
             "author": {
@@ -3904,10 +3949,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10448",
-            "content_html": "こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  【レポート】MF Geeks Night (2015年7月)  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  ここが楽しみ！GopherCon 2020   Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！], All Right Reserved. 2022.",
+            "content_html": "こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：iPadでOne Tap会議室予約  マネーフォワードCTOが考えていること（2021年3月）  AWS IAM Userアクセスキーのローテーションを自動化しました  Auto Layoutで固有サイズを使いこなそう  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco   Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/04/stateful-file-storages/",
             "title": "Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！ | Money Forward Engineers' Blog",
-            "summary": "こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...",
+            "summary": "こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...",
             "date_modified": "2022-08-04T01:00:35.000Z",
             "date_published": "2022-08-04T01:00:35.000Z",
             "author": {
@@ -4240,21 +4285,6 @@
             "tags": [
                 "UE5",
                 "Sequencer"
-            ]
-        },
-        {
-            "id": "https://math-fun.net/?p=25919",
-            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、円の直径が2倍になると円周は何倍になるかについて紹介します。 円があり、その円の直径の長さをもとの2倍にします。 このとき、直径の長さを2倍にした円の ... 円の直径、半径が2倍になると円周、面積は何倍になるか first appeared on 趣味の大学数学.",
-            "url": "https://math-fun.net/20220803/25919/",
-            "title": "円の直径、半径が2倍になると円周、面積は何倍になるか | 趣味の大学数学",
-            "summary": "どうも、木村（@kimu3_slime）です。 今回は、円の直径が2倍になると円周は何倍になるかについて紹介します。 円があり、その円の直径の長さをもとの2倍にします。 このとき、直径の長さを2倍にした円の ... 円の直径、半径が2倍になると円周、面積は何倍になるか first appeared on 趣味の大学数学.",
-            "date_modified": "2022-08-03T05:42:19.000Z",
-            "date_published": "2022-08-03T05:42:19.000Z",
-            "author": {
-                "name": "kimu3"
-            },
-            "tags": [
-                "身近な数学"
             ]
         },
         {
@@ -5391,16 +5421,6 @@
                 "Python",
                 "プログラミング"
             ]
-        },
-        {
-            "id": "https://tech.buysell-technologies.com/entry/2022/07/30/153326",
-            "content_html": "はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹介したいと思います。 はじめに 課題 改修概要 Before After 工夫した点 スプレッドシートで細かい設定をできるようにした ユーザーアカウントでスプレッドシートへのアクセスを認証するようにし…",
-            "url": "https://tech.buysell-technologies.com/entry/2022/07/30/153326",
-            "title": "Hasura CLIで挿入するマスタデータをスプレッドシート管理に移行させたので振り返ってみた | バイセル Tech Blog",
-            "summary": "はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹...",
-            "date_modified": "2022-07-30T06:33:26.000Z",
-            "date_published": "2022-07-30T06:33:26.000Z",
-            "tags": []
         }
     ]
 }

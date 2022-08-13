@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sat, 13 Aug 2022 03:53:48 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 13 Aug 2022 07:29:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,24 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[「一発ジャンケン」の確率シミュレーション | u++の備忘録]]></title>
+            <link>https://upura.hatenablog.com/entry/2022/08/13/132740</link>
+            <guid>hatenablog://entry/4207112889908290940</guid>
+            <pubDate>Sat, 13 Aug 2022 04:27:40 GMT</pubDate>
+            <description><![CDATA[Yahoo!ニュースを眺めていて見かけた「一発ジャンケン」が、プログラミングの教材として良さげだったので、実際に簡単なプログラムを組んでみました。ルールは以下の通りです（記事からの抜粋）。 まず、１～５を指で出す。数字が大きい人が勝ちなので５が一番強いが、他の人と同じ数字を出した人は負けとなる。５は強いが被りやすいという難点がある。ただ、残りが５と１なら革命で１が勝ちとなる。   news.yah...]]></description>
+            <content:encoded><![CDATA[Yahoo!ニュースを眺めていて見かけた「一発ジャンケン」が、プログラミングの教材として良さげだったので、実際に簡単なプログラムを組んでみました。ルールは以下の通りです（記事からの抜粋）。 まず、１～５を指で出す。数字が大きい人が勝ちなので５が一番強いが、他の人と同じ数字を出した人は負けとなる。５は強いが被りやすいという難点がある。ただ、残りが５と１なら革命で１が勝ちとなる。   news.yahoo.co.jp import collections import random   def determine_winner(choices):  agg = collections.Counter(choices)  only_one_choice = [i for i in agg.keys() if agg[i] == 1]  if not only_one_choice:  return 999, 999  elif set(only_one_choice) == set([1, 5]):  return choices.index(1), 1  else:  return cho...]]></content:encoded>
+            <category>python</category>
+        </item>
+        <item>
+            <title><![CDATA[方程式をyについて解く・文字について解く方法と意味 | 趣味の大学数学]]></title>
+            <link>https://math-fun.net/20220813/26053/</link>
+            <guid>https://math-fun.net/?p=26053</guid>
+            <pubDate>Sat, 13 Aug 2022 04:02:17 GMT</pubDate>
+            <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、方程式をyについて解く・文字について解く方法を紹介します。 yについて解く方法と意味 \[x+2y=6\] を\(y\)について解きましょう。 この問 ... 方程式をyについて解く・文字について解く方法と意味 first appeared on 趣味の大学数学.]]></description>
+            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、方程式をyについて解く・文字について解く方法を紹介します。 yについて解く方法と意味 \[x+2y=6\] を\(y\)について解きましょう。 この問 ... 方程式をyについて解く・文字について解く方法と意味 first appeared on 趣味の大学数学.]]></content:encoded>
+            <category>身近な数学</category>
+        </item>
         <item>
             <title><![CDATA[BlackScreens 1.9 | ダウンロードと使い方 | ソフタロウ]]></title>
             <link>https://softaro.net/blackscreens/</link>
@@ -155,6 +173,14 @@
             <content:encoded><![CDATA[アプリチームの松田です。 今回は自分が行ったアプリチームの最近の開発の改善について、共有しようと思います。 課題 アプリチームではリリースビルドやQA用のビルドで、以下の問題を抱えていました。 リリースビルドを行い、QA用にFirebase App Distributionに配信する為のMac Miniが社内に存在しているのです。これは、ずっと起動し続けている為、それが原因でビルドできなくなり、再起動が必要な時があります。 特にこのマシンでないといけない理由もなく、過去から引き続いて使用されていただけでした。アップデート等のコストもかかりますし、これをCIサービスに移すことにしました。 改善 …]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[インフラもバックエンドもフロントエンドも Go で書いてみた | Zennのトレンド]]></title>
+            <link>https://zenn.dev/kou_pg_0131/articles/gogogo-introduction</link>
+            <guid>https://zenn.dev/kou_pg_0131/articles/gogogo-introduction</guid>
+            <pubDate>Fri, 12 Aug 2022 09:17:29 GMT</pubDate>
+            <description><![CDATA[先日 CDK for Terraform が GA になりました。 https://www.hashicorp.com/blog/cdk-for-terraform-now-generally-available CDK for Terraform を使うことにより、 TypeScript や Go などといったプログラミング言語を使って Terraform エコシステムを利用したインフラの定義や...]]></description>
+            <content:encoded><![CDATA[先日 CDK for Terraform が GA になりました。 https://www.hashicorp.com/blog/cdk-for-terraform-now-generally-available CDK for Terraform を使うことにより、 TypeScript や Go などといったプログラミング言語を使って Terraform エコシステムを利用したインフラの定義やプロビジョニングを行うことができます。 「Go でインフラが書ける」と聞き、ふと思ったことがこちらです。  というわけで書きました。   作ったもの  GoGoGo https://go55.d...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[React ではオーバースペックな場面で使用する JSX で書けるライブラリを作った | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/http_kato83/items/eacc2fc4a9319da61684?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/http_kato83/items/eacc2fc4a9319da61684?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -213,6 +239,14 @@
             <pubDate>Fri, 12 Aug 2022 07:51:08 GMT</pubDate>
             <description><![CDATA[こんにちは。PdMのきそです。 何についてブログを書こうか迷っていた時に社内の方々から色んな案をいただいたのですが、今回は『開発ディレクションしている時に心がけていること』について書いてみようと思います。]]></description>
             <content:encoded><![CDATA[こんにちは。PdMのきそです。 何についてブログを書こうか迷っていた時に社内の方々から色んな案をいただいたのですが、今回は『開発ディレクションしている時に心がけていること』について書いてみようと思います。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ブロックチェーン開発環境のあれこれ調べてみた | Zennのトレンド]]></title>
+            <link>https://zenn.dev/maiya/articles/a335661c9d24a1</link>
+            <guid>https://zenn.dev/maiya/articles/a335661c9d24a1</guid>
+            <pubDate>Fri, 12 Aug 2022 07:33:04 GMT</pubDate>
+            <description><![CDATA[はじめに 最近ブロックチェーン開発に携わることとなり、マーケットプレイスや開発環境などについて比較・調査したことを備忘録として記載します。概要的な部分はある程度割愛してます。（※2022年6月時点）   マーケットプレイスの比較 マーケットプレイスとは、NFTを購入したり、ユーザー同士でNFTを売買することができるプラットフォームのこと。    名称 取扱コンテンツ 決済可能な仮想通貨 手数料 対...]]></description>
+            <content:encoded><![CDATA[はじめに 最近ブロックチェーン開発に携わることとなり、マーケットプレイスや開発環境などについて比較・調査したことを備忘録として記載します。概要的な部分はある程度割愛してます。（※2022年6月時点）   マーケットプレイスの比較 マーケットプレイスとは、NFTを購入したり、ユーザー同士でNFTを売買することができるプラットフォームのこと。    名称 取扱コンテンツ 決済可能な仮想通貨 手数料 対応ウォレット 対応ブロックチェーンネットワーク     LINE NFT ゲーム、エンターテイメントなど LINK ガス代無料 LINE BITMAX Wallet LINE Blockch...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[マネックスで働くメリット | MONEX ENGINEER BLOG │マネックス エンジニアブログ]]></title>
@@ -487,8 +521,8 @@
             <link>https://zenn.dev/kgsi/articles/52236aaae2db7b</link>
             <guid>https://zenn.dev/kgsi/articles/52236aaae2db7b</guid>
             <pubDate>Thu, 11 Aug 2022 22:56:59 GMT</pubDate>
-            <description><![CDATA[Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されていたり、有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本...]]></description>
-            <content:encoded><![CDATA[Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されていたり、有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本企業が公開しているファイルは少ない。 なお、ここに掲載されている以外で公開されているファイルがありましたら@kgsiまでご連絡いただけると嬉しいです。   FALCON by SPEEDA  h...]]></content:encoded>
+            <description><![CDATA[Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されており、特に有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日...]]></description>
+            <content:encoded><![CDATA[Figmaを使って新たにデザインシステム（主にコンポーネント）構築を手伝う仕事が生まれそうなので、調査がてらFigmaに公開されているデザインシステム系ファイルの情報をまとめました。 なお、海外のデザインシステムは大量に公開されており、特に有名企業のシステムはどこの記事でも紹介しているので、この記事では日本で公開されているFigma関連のファイルに限定して取り扱います。  検索する限りでは意外と日本企業が公開しているファイルは少ない。 なお、ここに掲載されている以外で公開されているファイルがありましたら@kgsiまでご連絡いただけると嬉しいです。   FALCON by SPEEDA  ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[体感ゲームを自作しよう | Zennのトレンド]]></title>
@@ -627,14 +661,6 @@
             <content:encoded><![CDATA[低品質Jpeg書き出しを繰り返すと出るアーティファクトを除去  アーティファクトJpeg画像   FBCNNの結果   アーティファクトが消えています。  FBCNNというモデルを使います。  https://…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Go 公式の脆弱性管理システム | Zennのトレンド]]></title>
-            <link>https://zenn.dev/spiegel/articles/20220811-go-vulnerability-management</link>
-            <guid>https://zenn.dev/spiegel/articles/20220811-go-vulnerability-management</guid>
-            <pubDate>Thu, 11 Aug 2022 11:30:34 GMT</pubDate>
-            <description><![CDATA[Go Vulnerability Management Twitter の TL を眺めていて Go 公式の脆弱性レポートのページがあることを知る。 https://pkg.go.dev/vuln/list で，これについて https://twitter.com/spiegel_2007/status/1557187183072935936 とか呟いたら https://twitter.com/...]]></description>
-            <content:encoded><![CDATA[Go Vulnerability Management Twitter の TL を眺めていて Go 公式の脆弱性レポートのページがあることを知る。 https://pkg.go.dev/vuln/list で，これについて https://twitter.com/spiegel_2007/status/1557187183072935936 とか呟いたら https://twitter.com/mattn_jp/status/1557233641356271616 と情報を頂いた。ありがとうございます 🙇 件のページを覗いてみると，こんな感じで脆弱性管理を行っているらしい。  vi...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[[ Three.js ] 3D猫はいかがですか？ | Zennのトレンド]]></title>
             <link>https://zenn.dev/redpanda/articles/01b5ce98a632fd</link>
             <guid>https://zenn.dev/redpanda/articles/01b5ce98a632fd</guid>
@@ -649,6 +675,18 @@
             <pubDate>Thu, 11 Aug 2022 11:01:03 GMT</pubDate>
             <description><![CDATA[この記事は何？  DBにデータが保存されているのではなく、外部APIから取得したデータをあたかもDBから取得したデータのように扱うRailsアプリケーションを作る場合の、設計やテストの書き方を紹介す…]]></description>
             <content:encoded><![CDATA[この記事は何？  DBにデータが保存されているのではなく、外部APIから取得したデータをあたかもDBから取得したデータのように扱うRailsアプリケーションを作る場合の、設計やテストの書き方を紹介す…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[学術ライティング教本3冊の紹介と書評 | 学術英語アカデミー]]></title>
+            <link>https://www.ulatus.jp/academy/a-bumper-post-of-book-reviews/</link>
+            <guid>https://www.ulatus.jp/academy/?p=29238</guid>
+            <pubDate>Thu, 11 Aug 2022 10:00:06 GMT</pubDate>
+            <description><![CDATA[オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、学術ライティング（論文の書き方）を学ぶのための本がありすぎてどれを読もうか悩んでいる人に朗報です。ミューバーン教授とPhD学生が3冊を紹介してくれています。 論文の書き方につい...]]></description>
+            <content:encoded><![CDATA[オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。今回は、学術ライティング（論文の書き方）を学ぶのための本がありすぎてどれを読もうか悩んでいる人に朗報です。ミューバーン教授とPhD学生が3冊を紹介してくれています。 論文の書き方についての書籍は、私が執筆したものも含め、とんでもない数あります。なかなか書けていなかった書籍の紹介を、やっと投稿することができました。この記事は、私とジャスミン・ジェンソン（Jasmine Jenson）による書評をまとめたものです。いまだに私の部屋には本が山積みですので、この中の1冊でも読んで書評を書きたいという方がいたら、是非メールで連絡してください！ 書名：Writing a Watertight Thesis: A Guide to Successful Structure and Defence 著者：Mike Bottery and Nigel Wright まず1冊目。マイク・ボッタ...]]></content:encoded>
+            <category>研究室の荒波にもまれて</category>
+            <category>研究職</category>
+            <category>面接</category>
+            <category>面接の質問と対策</category>
         </item>
         <item>
             <title><![CDATA[ノルムの同値性と有限次元空間のノルムは全て同値である証明 | 数学の景色]]></title>
@@ -756,14 +794,6 @@
             <content:encoded><![CDATA[元記事(英語): My Neovim setup for React, TypeScript, Tailwind CSS, etc  こんにちは、個人アプリ作家のTakuyaです。 Vim歴はかれこれ10年以上です。 僕はInkdropというMarkdownノートアプリを独りで開発しています。 このアプリはElectronやReact Nativeで組まれており、マルチプラットフォームで動作します。 それらはいつもNeovimを使って開発しています。 約２年前に自分のNeovimで使用しているプラグインについて紹介しました。 あれから結構アップデートしたので改めてまた書きます。 主な...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[React 18 で Custom Hooks のテストを書くときの注意点 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/k_kazukiiiiii/articles/9f48bdd20435d2</link>
-            <guid>https://zenn.dev/k_kazukiiiiii/articles/9f48bdd20435d2</guid>
-            <pubDate>Thu, 11 Aug 2022 00:21:43 GMT</pubDate>
-            <description><![CDATA[概要 React の バージョン18 のプロジェクトで Custom Hooks のテストを書く場合、React の バージョン17 までの書き方と少し異なる部分があった。なのでそれを以下にまとめる。   結論 @testing-library/react-hooks ではなく @testing-library/react を使用するようにする   React バージョン17 までの書き方 Cus...]]></description>
-            <content:encoded><![CDATA[概要 React の バージョン18 のプロジェクトで Custom Hooks のテストを書く場合、React の バージョン17 までの書き方と少し異なる部分があった。なのでそれを以下にまとめる。   結論 @testing-library/react-hooks ではなく @testing-library/react を使用するようにする   React バージョン17 までの書き方 Custom Hooks のテストを書くために必要な renderHook を使用するために @testing-library/react-hooks をpackage.jsonに追加する必要があ...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[夏休み中の(若い)プログラマーのみなさんにぜひオススメしたい(古めの)映画 | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/tnar-f/items/ce6b040094eba5d85d6f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/tnar-f/items/ce6b040094eba5d85d6f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -778,14 +808,6 @@
             <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Meet Edgar Duéñez-Guzmán, a research engineer on our Multi-Agent Research team who’s drawing on knowledge of game theory, computer science, and social evolution to get AI agents working better togethe...]]></description>
             <content:encoded><![CDATA[Meet Edgar Duéñez-Guzmán, a research engineer on our Multi-Agent Research team who’s drawing on knowledge of game theory, computer science, and social evolution to get AI agents working better together.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【Flutter】Storybookライクに使えるMonarchを試してみる | Zennのトレンド]]></title>
-            <link>https://zenn.dev/slowhand/articles/cb69ab446c0597</link>
-            <guid>https://zenn.dev/slowhand/articles/cb69ab446c0597</guid>
-            <pubDate>Wed, 10 Aug 2022 22:23:38 GMT</pubDate>
-            <description><![CDATA[Build high-quality UIs with ease | Monarch  MonarchはFlutterでStorybookみたく、Widgetの確認やデバッグ、テストを行う為のツールで、 色々充実してそうなので、試してみたいと思います。   試した環境 $ sw_vers ProductName: macOS ProductVersion: 12.4 BuildVersion: 2...]]></description>
-            <content:encoded><![CDATA[Build high-quality UIs with ease | Monarch  MonarchはFlutterでStorybookみたく、Widgetの確認やデバッグ、テストを行う為のツールで、 色々充実してそうなので、試してみたいと思います。   試した環境 $ sw_vers ProductName: macOS ProductVersion: 12.4 BuildVersion: 21F79   テスト用のプロジェクト作成 $ mkdir monarch_sample $ cd monarch_sample $ fvm use 3.0.5 --force $ fvm f...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[フロントエンドエンジニアのキャリア戦略 | Zennのトレンド]]></title>
@@ -1523,6 +1545,14 @@ https://ai-scholar.tech/articles/nas/CTNAS | AI技術最新情報メディア | 
             <category>TypeScript</category>
         </item>
         <item>
+            <title><![CDATA[React Router v6のOutletとReact.lazyの組み合わせが便利 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/nkzn/articles/react-router-v6-suspense-idiom</link>
+            <guid>https://zenn.dev/nkzn/articles/react-router-v6-suspense-idiom</guid>
+            <pubDate>Tue, 09 Aug 2022 04:45:57 GMT</pubDate>
+            <description><![CDATA[React Router v6 で登場した <Outlet /> を活用すると、良い感じに共通レイアウトを組み込めて、さらに <React.Suspense> や React.lazy() を組み合わせると体験が良くなるのを見つけました。おそらく React Router v6 を利用する上での頻出イディオムになると思うので、自分用のメモとして残しておきます。 最終的なサンプルコードはこちら。  ...]]></description>
+            <content:encoded><![CDATA[React Router v6 で登場した <Outlet /> を活用すると、良い感じに共通レイアウトを組み込めて、さらに <React.Suspense> や React.lazy() を組み合わせると体験が良くなるのを見つけました。おそらく React Router v6 を利用する上での頻出イディオムになると思うので、自分用のメモとして残しておきます。 最終的なサンプルコードはこちら。  使用したライブラリは次のとおりです。見た目がしょぼいとテンションが下がるので MUI で装飾していますが、本筋とは関係ないので今回は特に触れません。  react@18....]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[AWSではなくGoogle Cloudでの OS Patch Management を設定と補足 | エンジニアブログ | iret.media]]></title>
             <link>https://iret.media/63608</link>
             <guid>https://iret.media/?p=63608</guid>
@@ -1753,8 +1783,8 @@ https://ai-scholar.tech/articles/nas/CTNAS | AI技術最新情報メディア | 
             <link>https://moneyforward.com/engineers_blog/2022/08/09/defect-analysis-from-hr/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10469</guid>
             <pubDate>Tue, 09 Aug 2022 01:00:07 GMT</pubDate>
-            <description><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ser...]]></description>
-            <content:encoded><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Service Infra Team Principles  RubyKaigi 2016参加者がチェックすべき京都飯16選！  マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  最近のruby-core (2017年1月)  Railsのプロファイラを導入して速度改善をしてみた   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></description>
+            <content:encoded><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：トイレ混雑チェッカー  1年間地方コミュニティーを運営して感じた成長の軌跡と未来の課題  パフォーマンス・チューニング Rails編  【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動  Terraform 0.12 Upgrade Battle！   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2806,8 +2836,8 @@ https://ai-scholar.tech/articles/cvpr/EVP | AI技術最新情報メディア | A
             <link>https://moneyforward.com/engineers_blog/2022/08/04/stateful-file-storages/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10448</guid>
             <pubDate>Thu, 04 Aug 2022 01:00:35 GMT</pubDate>
-            <description><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...]]></description>
-            <content:encoded><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  [pixiv × MoneyForward] セキュリティー合同勉強会レポ  【レポート】MF Geeks Night (2015年7月)  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  ここが楽しみ！GopherCon 2020   Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></description>
+            <content:encoded><![CDATA[こんばんわ。 マネーフォワード クラウドBox というサービスを開発しています、 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：iPadでOne Tap会議室予約  マネーフォワードCTOが考えていること（2021年3月）  AWS IAM Userアクセスキーのローテーションを自動化しました  Auto Layoutで固有サイズを使いこなそう  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco   Copyright © Money Forward Engineers' Blog [Kubernetes Cluster 上でステートフルな共有ファイルストレージを立てるリソース構成例をご紹介！], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3037,15 +3067,6 @@ Research: https://boards.greenhouse.io/openai/jobs/4613337004 | OpenAI / @OpenAI
             <content:encoded><![CDATA[執筆バージョン: Unreal Engine 5.0 Control Rig新機能3回目は ●Control Rig Snapper について紹介したいと思います。 まずはどういう機能か、という説明です。 […] The post [UE5] Control Rigの新機能3 first appeared on historia Inc - 株式会社ヒストリア.]]></content:encoded>
             <category>UE5</category>
             <category>Sequencer</category>
-        </item>
-        <item>
-            <title><![CDATA[円の直径、半径が2倍になると円周、面積は何倍になるか | 趣味の大学数学]]></title>
-            <link>https://math-fun.net/20220803/25919/</link>
-            <guid>https://math-fun.net/?p=25919</guid>
-            <pubDate>Wed, 03 Aug 2022 05:42:19 GMT</pubDate>
-            <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、円の直径が2倍になると円周は何倍になるかについて紹介します。 円があり、その円の直径の長さをもとの2倍にします。 このとき、直径の長さを2倍にした円の ... 円の直径、半径が2倍になると円周、面積は何倍になるか first appeared on 趣味の大学数学.]]></description>
-            <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、円の直径が2倍になると円周は何倍になるかについて紹介します。 円があり、その円の直径の長さをもとの2倍にします。 このとき、直径の長さを2倍にした円の ... 円の直径、半径が2倍になると円周、面積は何倍になるか first appeared on 趣味の大学数学.]]></content:encoded>
-            <category>身近な数学</category>
         </item>
         <item>
             <title><![CDATA[Leaner開発合宿2022 in 沖縄 | リーナーテックブログさんのフィード]]></title>
@@ -3854,14 +3875,6 @@ project page: https://ueda0319.github.io/neddf/ | cvpaper.challenge | AI/CV研�
             <content:encoded><![CDATA[大学の最終レポート・期末テストに追われているmk419です。単位落とさないと良いなぁ・・・ 少中高生はもう夏休み入ってるんでしょうか・・・？ 今回はPythonの数学関連の標準ライブラリについて調べたことの備忘録的な記事 […] Pythonの数学関連ライブラリ（その1） first appeared on FascodeNetwork Blog.]]></content:encoded>
             <category>Python</category>
             <category>プログラミング</category>
-        </item>
-        <item>
-            <title><![CDATA[Hasura CLIで挿入するマスタデータをスプレッドシート管理に移行させたので振り返ってみた | バイセル Tech Blog]]></title>
-            <link>https://tech.buysell-technologies.com/entry/2022/07/30/153326</link>
-            <guid>https://tech.buysell-technologies.com/entry/2022/07/30/153326</guid>
-            <pubDate>Sat, 30 Jul 2022 06:33:26 GMT</pubDate>
-            <description><![CDATA[はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹...]]></description>
-            <content:encoded><![CDATA[はじめに テクノロジー戦略本部の尾沼です。 私が現在携わっているプロジェクトでは、HasuraとGo言語を使ってバックエンド部分を開発しています。マイグレーションやデータのCRUDは全てHasura経由でPostgreSQLに対して実行しており、マスタデータのUPSERTもHasuraを経由して実施しています。 この度、マスタデータの管理方法をスプレッドシートに移行させたのでその際に行ったことを紹介したいと思います。 はじめに 課題 改修概要 Before After 工夫した点 スプレッドシートで細かい設定をできるようにした ユーザーアカウントでスプレッドシートへのアクセスを認証するようにし…]]></content:encoded>
         </item>
     </channel>
 </rss>
