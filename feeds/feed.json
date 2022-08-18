@@ -136,10 +136,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10485",
-            "content_html": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 表舞台と裏舞台からみたGo Conference 2022 Spring  Rails探訪 ~ create_table 編 ~ 社内勉強会カレンダーのご紹介  自称実質MVP受賞者が語る！2021年テックブログが最高にハイアウトプットだった件について  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Right Reserved. 2...",
+            "content_html": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 世界有数のAPI利用企業で考える標準仕様範囲外の仕様とユーザー体験の関係性  DroidKaigi 2017に登壇 & ランチスポンサーのお知らせ  SwiftにはREPLモードが２つある！？  【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動  中学生ハルキのエンジニア体験記   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/18/pr-sreforward/",
             "title": "【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します | Money Forward Engineers' Blog",
-            "summary": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 表舞台...",
+            "summary": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 世界有...",
             "date_modified": "2022-08-18T04:00:51.000Z",
             "date_published": "2022-08-18T04:00:51.000Z",
             "author": {
@@ -192,6 +192,19 @@
             "summary": "ノルウェーのVivaldi Technologiesは8月10日（現地時間）、Webブラウザー「Vivaldi」の最新版v5.4を正式公開した。最新版では選択したテキストの位置へジャンプできるURLを生成できるようになるなどの新機能が追加されている。",
             "date_modified": "2022-08-18T03:37:22.000Z",
             "date_published": "2022-08-18T03:37:22.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/gakuzzzz/articles/f533f18df151d1",
+            "content_html": "前置き 先日Twitterでこのような興味深いツイートを拝見しました。 https://twitter.com/emergent/status/1558043418001313792 なるほどと思ったので、自分が技術選定/アーキテクチャ設計において「どのような時にScalaを選択し、どのような時に選択しないのか」をあらためて言語化してみることにしました。 ちなみにこの記事タイトルは Scala福岡 2019 で講演させて頂いたものと同じタイトルですが、当時の資料は説明が無いと誤解を招く部分も多く非公開にしているため、その焼き直しも含めてこの記事を書いています。 また、ここで記載してい...",
+            "url": "https://zenn.dev/gakuzzzz/articles/f533f18df151d1",
+            "title": "いつScalaを使い、いつ使わないのか | Zennのトレンド",
+            "summary": "前置き 先日Twitterでこのような興味深いツイートを拝見しました。 https://twitter.com/emergent/status/1558043418001313792 なるほどと思ったので、自分が技術選定/アーキテクチャ設計において「どのような時にScalaを選択し、どのような時に選択しないのか」をあらためて言語化してみることにしました。 ちなみにこの記事タイトルは Scala福岡...",
+            "date_modified": "2022-08-18T03:24:07.000Z",
+            "date_published": "2022-08-18T03:24:07.000Z",
+            "author": {
+                "name": "gakuzzzz"
+            },
             "tags": []
         },
         {
@@ -487,6 +500,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/fehde/articles/a2f3a94d4c47c2",
+            "content_html": "はじめに タイトルのとおり、ニューラルネットワーク(NN)を勉学するにあたり、その内部でどのような計算が行われているか詳しく確認したかったため、理解した過程を本稿に残します。   前提  サンプルデータはIrisのデータセット (4つの特徴量で、花の品種を3分類予測) 活性化関数は、Sigmoid関数を用いる 損失関数は、平均二乗誤差とする 入力層: 4ノード、隠れ層: 2ノード、出力層: 3ノード バイアスも考慮      計算の流れ  ハイパーパラメータ初期設定 重みの初期化 順伝播 - 隠れ層における線形和関数計算 順伝播 - 隠れ層における活性化関数計算 順伝播 - 出力層に...",
+            "url": "https://zenn.dev/fehde/articles/a2f3a94d4c47c2",
+            "title": "ニューラルネットワークを数式から理解する | Zennのトレンド",
+            "summary": "はじめに タイトルのとおり、ニューラルネットワーク(NN)を勉学するにあたり、その内部でどのような計算が行われているか詳しく確認したかったため、理解した過程を本稿に残します。   前提  サンプルデータはIrisのデータセット (4つの特徴量で、花の品種を3分類予測) 活性化関数は、Sigmoid関数を用いる 損失関数は、平均二乗誤差とする 入力層: 4ノード、隠れ層: 2ノード、出力層: 3ノー...",
+            "date_modified": "2022-08-17T14:13:03.000Z",
+            "date_published": "2022-08-17T14:13:03.000Z",
+            "author": {
+                "name": "Fehde"
+            },
+            "tags": []
+        },
+        {
             "id": "https://www.kdnuggets.com/?p=144959",
             "content_html": "Overfitting is when a statistical model fits exactly against its training data. This leads to the model failing to predict future observations accurately.",
             "url": "https://www.kdnuggets.com/2022/08/avoid-overfitting.html?utm_source=rss&utm_medium=rss&utm_campaign=how-to-avoid-overfitting",
@@ -551,6 +577,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/3w36zj6/articles/a1bd35a3c867a8",
+            "content_html": "はじめに k-means法を用いて画像を減色しドット絵風に変換するWebアプリを作りました。 https://github.com/3w36zj6/pixel-art-converter https://3w36zj6.github.io/pixel-art-converter/  (よろしければstarを頂けると幸いです)   変換例   Lenna  k=4 75x75   http://www.ess.ic.kanagawa-it.ac.jp/app_images_j.html   Mandrill  k=8 50x50   http://www.ess.ic.kanagawa...",
+            "url": "https://zenn.dev/3w36zj6/articles/a1bd35a3c867a8",
+            "title": "k-means法を用いて画像をドット絵風に変換する | Zennのトレンド",
+            "summary": "はじめに k-means法を用いて画像を減色しドット絵風に変換するWebアプリを作りました。 https://github.com/3w36zj6/pixel-art-converter https://3w36zj6.github.io/pixel-art-converter/  (よろしければstarを頂けると幸いです)   変換例   Lenna  k=4 75x75   http://ww...",
+            "date_modified": "2022-08-17T10:51:21.000Z",
+            "date_published": "2022-08-17T10:51:21.000Z",
+            "author": {
+                "name": "3w36zj6"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/kangaroo-san/items/8520f1cc91bbb3226da2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "概要  夏休み、僕は自分に合った女性にアプローチするために、男女のタイプ分けCNN(SSD)を制作してきました。 その過程で、渋谷で実際のカップルに聞き取り調査を行っています。  そんな調査をしている…",
             "url": "https://qiita.com/kangaroo-san/items/8520f1cc91bbb3226da2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -595,19 +634,6 @@
             "summary": "はじめに  最近、私が開発した翻訳サービスであるmeta翻訳でもサブスクサービスを始めました。 (有料記事を現在月額980円で提供するというものです。)  私自身、日頃のインプットにはTwitterを…",
             "date_modified": "2022-08-17T09:53:19.000Z",
             "date_published": "2022-08-17T09:53:19.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/ritou/articles/a89b9f754a4a42",
-            "content_html": "ritouです。   背景 これまで数年に渡り、「新規登録/ログイン時に登録状態がわかるレスポンスを返してくれるな。」というお話をしてきました。 https://qiita.com/ritou/items/00990e00151fad46df1a SMSやEmailを入力して認証コードなどを送るタイプのログイン方法でも同様の実装は可能であり、表向きは「認証コードを送信したよ。受け取った値を入れてくれよな。」としつつ実際は既に登録済みだからログインからこい、未登録だから新規登録から来い見たいな内容を送りつつ、画面では正規のユーザーと同様のトークンなりを送り検証が絶対通らん！ みたいなのを実...",
-            "url": "https://zenn.dev/ritou/articles/a89b9f754a4a42",
-            "title": "FIDO認証できるユーザーをスキャンさせない設計を考える | Zennのトレンド",
-            "summary": "ritouです。   背景 これまで数年に渡り、「新規登録/ログイン時に登録状態がわかるレスポンスを返してくれるな。」というお話をしてきました。 https://qiita.com/ritou/items/00990e00151fad46df1a SMSやEmailを入力して認証コードなどを送るタイプのログイン方法でも同様の実装は可能であり、表向きは「認証コードを送信したよ。受け取った値を入れてく...",
-            "date_modified": "2022-08-17T09:12:01.000Z",
-            "date_published": "2022-08-17T09:12:01.000Z",
-            "author": {
-                "name": "ritou"
-            },
             "tags": []
         },
         {
@@ -1352,6 +1378,19 @@
             ]
         },
         {
+            "id": "https://zenn.dev/arkbig/articles/terminal-2022_e6b10a37281b21",
+            "content_html": "Macのコマンドライン環境をモダンツールインストールしつつ整えました。とりあえずzsh環境ができたのでまとめてみます。 https://github.com/arkbig/my-mac-setup 参考文献：  ibraheemdev/modern-unix A collection of modern/faster/saner alternatives to common unix commands. zshの本 世の中のエンジニアのalias設定 Google  しばらくターミナル環境とは離れていましたが、最近はdockerやkubernetesを触ってたりIDEではなくVSCode...",
+            "url": "https://zenn.dev/arkbig/articles/terminal-2022_e6b10a37281b21",
+            "title": "Mac修理でデータ消えたのでターミナル環境を整えた(2022年) | Zennのトレンド",
+            "summary": "Macのコマンドライン環境をモダンツールインストールしつつ整えました。とりあえずzsh環境ができたのでまとめてみます。 https://github.com/arkbig/my-mac-setup 参考文献：  ibraheemdev/modern-unix A collection of modern/faster/saner alternatives to common unix comman...",
+            "date_modified": "2022-08-16T13:35:35.000Z",
+            "date_published": "2022-08-16T13:35:35.000Z",
+            "author": {
+                "name": "ArkBig"
+            },
+            "tags": []
+        },
+        {
             "id": "https://nitter.net/CVpaperChalleng/status/1559534266786418691#m",
             "content_html": "cvpaper.challengeから AAAI 2023 に1本の論文を投稿しました。現在、投稿目標の56%（17 / 30）達成です。  # 2022年はGoogle Scholar SubcategoryのTOP20にリストアップされている論文に30本投稿することが目標です！",
             "url": "https://nitter.net/CVpaperChalleng/status/1559534266786418691#m",
@@ -1454,19 +1493,6 @@
             "date_published": "2022-08-16T09:58:02.000Z",
             "author": {
                 "name": "ペライチ Tech blog"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/a_da_chi/articles/8fe30435792108",
-            "content_html": "はじめに 実務でMUIを本格的に使用することになりそうなので、MUIに入門していきたいと思います。 なお、筆者はMUIの前身のMaterial UIは少し使用したことがあり、Material Designについてはエアプです。それらを踏まえて対戦よろしくお願いします。   本記事で触れること  パッケージ構成からみるMUIの概要 MUIのカスタマイズ MUIで何ができるのか その他のUIコンポーネントライブラリと比較した場合のMUIの立ち位置    本記事で触れないこと  MUIの導入手順 MUIの具体的な使用方法    パッケージ構成からみるMUIの概要 ※この章は基本的には以下の...",
-            "url": "https://zenn.dev/a_da_chi/articles/8fe30435792108",
-            "title": "N周遅れのMUI入門 | Zennのトレンド",
-            "summary": "はじめに 実務でMUIを本格的に使用することになりそうなので、MUIに入門していきたいと思います。 なお、筆者はMUIの前身のMaterial UIは少し使用したことがあり、Material Designについてはエアプです。それらを踏まえて対戦よろしくお願いします。   本記事で触れること  パッケージ構成からみるMUIの概要 MUIのカスタマイズ MUIで何ができるのか その他のUIコンポーネ...",
-            "date_modified": "2022-08-16T09:40:44.000Z",
-            "date_published": "2022-08-16T09:40:44.000Z",
-            "author": {
-                "name": "Yutaro Adachi"
             },
             "tags": []
         },
@@ -2112,7 +2138,7 @@
         },
         {
             "id": "https://zenn.dev/ryuden/articles/1161c6bee032c4",
-            "content_html": "どういうもの？ このように関数を使ってデータを取り込めます。    背景 元々は「インターネット上のWebAPIのデータをExcelに取り込みたい」と思ったのがきっかけです。 VBAマクロを使えば簡単ではありますが、マクロは使いたくないという方も多いのではないでしょうか。かくいう私も勤務先が属人化を防ぐためにマクロの使用を推奨していません。 そこで、関数を使用する方法を選択しました。 ExcelにはWEBSERVICE 関数という指定したURLの応答データを取り込む関数があります。 この関数は大変便利な関数ですが、ExcelはHTMLやJSONのパーサーを用意していません。結局取り込...",
+            "content_html": "どういうもの？ このように関数を使ってデータを取り込めます。    背景 元々は「インターネット上のWebAPIのデータをExcelに取り込みたい」と思ったのがきっかけです。 VBAマクロを使えば簡単ではありますが、マクロは使いたくないという方も多いのではないでしょうか。かくいう私も勤務先が属人化を防ぐためにマクロの使用を推奨していません。 そこで、関数を使用する方法を選択しました。 ExcelにはWEBSERVICE 関数という指定したURLの応答データを取り込む関数があります。 しかし、この関数は大変便利な関数ですが、ExcelはHTMLやJSONのパーサーを用意していません。結...",
             "url": "https://zenn.dev/ryuden/articles/1161c6bee032c4",
             "title": "個人開発で「Excel専用のWebAPI」を作りました | Zennのトレンド",
             "summary": "どういうもの？ このように関数を使ってデータを取り込めます。    背景 元々は「インターネット上のWebAPIのデータをExcelに取り込みたい」と思ったのがきっかけです。 VBAマクロを使えば簡単ではありますが、マクロは使いたくないという方も多いのではないでしょうか。かくいう私も勤務先が属人化を防ぐためにマクロの使用を推奨していません。 そこで、関数を使用する方法を選択しました。 Excelに...",
@@ -2271,19 +2297,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/t_keshi/articles/react-query-prescription",
-            "content_html": "この記事について 本記事は、下記のReactQuery公式ドキュメントの内容をベースに、自分なりに噛み砕いてまとめたものになります。 ReactQuery公式ドキュメント https://tanstack.com/query/v4 サンプルコードの一部は公式サイトから引用しています。   前置き 【呼称について】 ReactQueryはSolidやVue、Svelteへの対応を進めており、現在の正式な名称はTanStackQueryになっています。 ReactQueryの方が耳馴染みのある方も多いため、この記事では、ReactQueryと呼ぶことにします。 【内部実装のイメージについ...",
-            "url": "https://zenn.dev/t_keshi/articles/react-query-prescription",
-            "title": "非同期処理に疲れた方に、ReactQueryの処方箋 | Zennのトレンド",
-            "summary": "この記事について 本記事は、下記のReactQuery公式ドキュメントの内容をベースに、自分なりに噛み砕いてまとめたものになります。 ReactQuery公式ドキュメント https://tanstack.com/query/v4 サンプルコードの一部は公式サイトから引用しています。   前置き 【呼称について】 ReactQueryはSolidやVue、Svelteへの対応を進めており、現在の正...",
-            "date_modified": "2022-08-14T15:14:12.000Z",
-            "date_published": "2022-08-14T15:14:12.000Z",
-            "author": {
-                "name": "t_keshi"
-            },
-            "tags": []
-        },
-        {
             "id": "https://mathlandscape.com/?p=27363",
             "content_html": "バナッハ空間 (Banach space) とは，距離空間として完備なノルム空間のことを言います。これだけ聞いてもよく分からないかもしれません。バナッハ空間について，定義を詳しく紹介し，それから具体例5つと基本的性質を述 […]",
             "url": "https://mathlandscape.com/banach/",
@@ -2299,19 +2312,6 @@
                 "用語・記号の定義",
                 "大学専門"
             ]
-        },
-        {
-            "id": "https://zenn.dev/karno/articles/091f9f23dab30c",
-            "content_html": "TL;DR https://celestian.io/    モチベーション ウェブページの背景に星空を見せたかった。それがちゃんと実際の星空の、リアルタイムの状況を反映していたら面白いよねと思った。   スタート時の状況  主に愛情のこもった手打ち HTML5 と 手打ち CSS でシンプルな Web ページを作っていた  https://web.archive.org/web/20210212085818/celestian.io   この前にどうやら React が世間では流行ってるらしいということで React と TypeScript を使った小さい 1 ページアプリを作っ...",
-            "url": "https://zenn.dev/karno/articles/091f9f23dab30c",
-            "title": "Web ページの背景を動く星空にした話 (with react-three-fiber) | Zennのトレンド",
-            "summary": "TL;DR https://celestian.io/    モチベーション ウェブページの背景に星空を見せたかった。それがちゃんと実際の星空の、リアルタイムの状況を反映していたら面白いよねと思った。   スタート時の状況  主に愛情のこもった手打ち HTML5 と 手打ち CSS でシンプルな Web ページを作っていた  https://web.archive.org/web/20210212...",
-            "date_modified": "2022-08-14T07:56:29.000Z",
-            "date_published": "2022-08-14T07:56:29.000Z",
-            "author": {
-                "name": "karno"
-            },
-            "tags": []
         },
         {
             "id": "https://math-fun.net/?p=26074",
@@ -3163,6 +3163,26 @@
             "tags": []
         },
         {
+            "id": "https://techracho.bpsinc.jp/?p=77566",
+            "content_html": "更新情報 2019/07/12: 初版公開 2022/08/10: 更新 &:メソッド名はブロック変数渡しより若干高速 Use fast ruby idioms by oniofchaos · Pull Request #32337 · rails/railsのしょっぱなに、ブロック変数を用いるブロック渡しより、&:メソッド名渡しの方が高速だと説明されています。 引用元: fast-ruby/block-vs-to_proc.rb at master · JuanitoFatas/fast-ruby require 'benchmark/ip […] The post Ruby: ‘&:メソッド名’はブロック変数渡しより若干高速 first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/hachi8833/2022_08_10/77566",
+            "title": "Ruby: ‘&:メソッド名’はブロック変数渡しより若干高速 | TechRacho",
+            "summary": "更新情報 2019/07/12: 初版公開 2022/08/10: 更新 &:メソッド名はブロック変数渡しより若干高速 Use fast ruby idioms by oniofchaos · Pull Request #32337 · rails/railsのしょっぱなに、ブロック変数を用いるブロック渡しより、&:メソッド名渡しの方が高速だと説明されています。 引用元: fast-ruby/bl...",
+            "date_modified": "2022-08-10T09:08:47.000Z",
+            "date_published": "2022-08-10T09:08:47.000Z",
+            "author": {
+                "name": "hachi8833"
+            },
+            "tags": [
+                "Ruby / Rails関連",
+                "macOS",
+                "Proc",
+                "Ruby",
+                "Ubuntu",
+                "ブロック"
+            ]
+        },
+        {
             "id": "https://www.youtube.com/watch?v=xIrw0BQzF5M",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=xIrw0BQzF5M",
@@ -4012,10 +4032,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10469",
-            "content_html": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi 2016 Rubyスポンサー申込み  攻撃して学ぶJWT【ハンズオンあり】  iOS版マネーフォワード MEのダークモード対応  マネーフォワードのロゴパネルを作ってみた  SamurAI Codingに参加してみませんか？   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.",
+            "content_html": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのtvOSアプリケーションを開発した話  開発チームで業務知識を獲得するための取り組み  カンタンに始める！WordPressでのブログ運用とSEO  Googleフォームで参加者募集して、自動でGoogleカレンダーに申込者を招待する小技  Auto Layoutで固有サイズを使いこなそう   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/09/defect-analysis-from-hr/",
             "title": "マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編） | Money Forward Engineers' Blog",
-            "summary": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...",
+            "summary": "こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-08-09T01:00:07.000Z",
             "date_published": "2022-08-09T01:00:07.000Z",
             "author": {
@@ -4794,24 +4814,6 @@
             "tags": []
         },
         {
-            "id": "https://techracho.bpsinc.jp/?p=120168",
-            "content_html": "BPS渡辺です。コロナなかなか終わりませんね。疫病は想定外でしたけど、不況には仲間と試行錯誤しながら必死で準備してきていました。何をもって終わりかもよくわかりませんが、仮に終わっても社会構造が元に戻らなさそうということで、想定が甘かったのかもしれません。 新型コロナ肺炎の現状 大変厳しいですね。 この疫病 日本や世界の社会構造を激変させることになるのではないか と危惧しています。 そのような中での会社運営 重責だとおもいますが どうぞ視野を広く持って 対処お願いします。 コロナ初期に、同僚のご家族から連絡を頂戴しました。粋がって、ちゃんと準備してますよ！と返事しちゃいました。ああもう恥ずかしいなあ。念入りに準備し […] The post 50人の開発会社でMisoca/弥生会計からfreee/MoneyForwardに移行してみた first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/piichan1031/2022_08_05/120168",
-            "title": "50人の開発会社でMisoca/弥生会計からfreee/MoneyForwardに移行してみた | TechRacho",
-            "summary": "BPS渡辺です。コロナなかなか終わりませんね。疫病は想定外でしたけど、不況には仲間と試行錯誤しながら必死で準備してきていました。何をもって終わりかもよくわかりませんが、仮に終わっても社会構造が元に戻らなさそうということで、想定が甘かったのかもしれません。 新型コロナ肺炎の現状 大変厳しいですね。 この疫病 日本や世界の社会構造を激変させることになるのではないか と危惧しています。 そのような中での...",
-            "date_modified": "2022-08-05T08:30:18.000Z",
-            "date_published": "2022-08-05T08:30:18.000Z",
-            "author": {
-                "name": "渡辺 正毅"
-            },
-            "tags": [
-                "IT Tips",
-                "プレス・実績・お知らせ",
-                "夏のTechRachoフェア2022",
-                "経営"
-            ]
-        },
-        {
             "id": "https://blog.engineer.adways.net/entry/2022/08/05/163000",
             "content_html": "こんにちは菊池です。 今回は以前紹介した、サーバーレスで実装したデータ基盤のデータ収集システムについての記事になります。 以前紹介した記事はこちら： データ基盤をサーバーレスで構築したので概要を紹介 Google Cloud Workflows でサーバレスなワークフローを構築したので概要を紹介 このデータ収集基盤をサーバーレスで構築する際に、とある処理が Cloud Functions の最大実行時間をオーバーしそうになりました。正確に言うと実装時はオーバーしていないものの、今後オーバーする可能性がありそうな状況です。この状況をどうやって回避したのかについて書きましたので、参考になれば幸いで…",
             "url": "https://blog.engineer.adways.net/entry/2022/08/05/163000",
@@ -5215,29 +5217,6 @@
                 "KDnuggets Originals",
                 "Machine Learning"
             ]
-        },
-        {
-            "id": "https://engineer.crowdworks.jp/entry/EngineerSurvey2022Part1",
-            "content_html": "エンジニアブログお久しぶりです！みーたです。 夏真っ盛りですが、皆さんいかがお過ごしですか。 私はコミケ脱稿しまして一安心しているところです。*1 さて、今回は6年ぶりのこの企画。 いつもと趣向を変えて、クラウドワークスを作っているのはこんな人達だよ、ということで、当社プロダクト開発部のエンジニアにアンケートを取ってみました。 アンケート配布数は約39、回答数は31でした。（前回より増えてますね🤗） その分情報量が多いため、2回に分けてみました。後編は後日公開。 前回と比較も出来るようほぼ同じ内容にしてみました。 *1:せっかくなので宣伝。コミックマーケット100にて「土曜日西地区\"す\"17a…",
-            "url": "https://engineer.crowdworks.jp/entry/EngineerSurvey2022Part1",
-            "title": "クラウドワークスを支える愉快な仲間たち ~2022年度版~ 前編 | クラウドワークス エンジニアブログ",
-            "summary": "エンジニアブログお久しぶりです！みーたです。 夏真っ盛りですが、皆さんいかがお過ごしですか。 私はコミケ脱稿しまして一安心しているところです。*1 さて、今回は6年ぶりのこの企画。 いつもと趣向を変えて、クラウドワークスを作っているのはこんな人達だよ、ということで、当社プロダクト開発部のエンジニアにアンケートを取ってみました。 アンケート配布数は約39、回答数は31でした。（前回より増えてますね\ud83e...",
-            "date_modified": "2022-08-04T10:00:00.000Z",
-            "date_published": "2022-08-04T10:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/allowfirm/status/1555128521659338753#m",
-            "content_html": "異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( xpaperchallenge.org/cv/surve… )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらしく。",
-            "url": "https://nitter.net/allowfirm/status/1555128521659338753#m",
-            "title": "RT by @CVpaperChalleng: 異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/404 )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらしく。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "異常検知のCVPR 2022採択論文で、おもしろ題名の「Towards Total Recall in Industrial Anomaly Detection」の論文サマリ( xpaperchallenge.org/cv/surve… )を読んでいたら、実装のURLで「PatchCore」の論文と気付きました。公式のPatchCore実装は、今年に入ってからApacheライセンスで公開されたらし...",
-            "date_modified": "2022-08-04T09:48:27.000Z",
-            "date_published": "2022-08-04T09:48:27.000Z",
-            "author": {
-                "name": "@allowfirm"
-            },
-            "tags": []
         }
     ]
 }
