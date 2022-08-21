@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sat, 20 Aug 2022 23:29:06 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Aug 2022 04:04:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,21 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[FixWin 11（11.0.0.0） | ダウンロードと使い方 | ソフタロウ]]></title>
+            <link>https://softaro.net/fixwin-11/</link>
+            <guid>https://softaro.net/?p=99160</guid>
+            <pubDate>Sun, 21 Aug 2022 02:38:51 GMT</pubDate>
+            <description><![CDATA[よくある質問と回答 ライセンスについて FixWin 11 は、どなたでも無料で使用できます。]]></description>
+            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて FixWin 11 は、どなたでも無料で使用できます。]]></content:encoded>
+            <category>Windows 設定変更</category>
+            <category>PC 最適化</category>
+            <category>The Windows Club</category>
+            <category>Windows</category>
+            <category>システム修復</category>
+            <category>トラブルシューティング</category>
+            <category>フリーソフト</category>
+        </item>
         <item>
             <title><![CDATA[The Future of Speech Recognition: Where Will We Be in 2030? | The Gradient]]></title>
             <link>https://thegradient.pub/the-future-of-speech-recognition/</link>
@@ -36,6 +51,22 @@
             <pubDate>Sat, 20 Aug 2022 12:31:23 GMT</pubDate>
             <description><![CDATA[README の見出しのタイトルだけ「キリッ」とさせる。 ちょっとだけイケてる風にする方法をご紹介。  普通に書くと  ```markdown: README.md  Lame  An example of…]]></description>
             <content:encoded><![CDATA[README の見出しのタイトルだけ「キリッ」とさせる。 ちょっとだけイケてる風にする方法をご紹介。  普通に書くと  ```markdown: README.md  Lame  An example of…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[アクセシブルFlutter: Semantics入門 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/mjhd/articles/88c32b1610ca95</link>
+            <guid>https://zenn.dev/mjhd/articles/88c32b1610ca95</guid>
+            <pubDate>Sat, 20 Aug 2022 11:46:45 GMT</pubDate>
+            <description><![CDATA[Flutter界隈の皆さんこんにちは。mjhdです。 今日は、FlutterのSemanticsについてのお話をしたいと思います。 以下のようなウィジェットを見かけること、あるんじゃないでしょうか？ Semantics(  container: true,  label: 'hoge',  child: ..., ) 何のためにあるのか分からないままコピペしたり、よく分からないので消してしまったり...]]></description>
+            <content:encoded><![CDATA[Flutter界隈の皆さんこんにちは。mjhdです。 今日は、FlutterのSemanticsについてのお話をしたいと思います。 以下のようなウィジェットを見かけること、あるんじゃないでしょうか？ Semantics(  container: true,  label: 'hoge',  child: ..., ) 何のためにあるのか分からないままコピペしたり、よく分からないので消してしまったり、そんな経験みなさんもあると思います。 この記事では、これらのSemanticsウィジェットが何のためにあるのか、どうに使うべきなのかを解説していきたいと思います。   Flutterの設...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Rustの「うわ、swapできない」を解消するパッケージを作った | Zennのトレンド]]></title>
+            <link>https://zenn.dev/qnighy/articles/a62e5c2a6ba8ef</link>
+            <guid>https://zenn.dev/qnighy/articles/a62e5c2a6ba8ef</guid>
+            <pubDate>Sat, 20 Aug 2022 11:00:37 GMT</pubDate>
+            <description><![CDATA[次のようなパッケージ (クレート) を作ったので解説します。 https://github.com/qnighy/omniswap https://crates.io/crates/omniswap   動機 Rustには所有権があるため、普通のswapパターンが動かない場合があります。これに対応するため、std::mem::swapという関数が用意されています。 let mut x = 'a';...]]></description>
+            <content:encoded><![CDATA[次のようなパッケージ (クレート) を作ったので解説します。 https://github.com/qnighy/omniswap https://crates.io/crates/omniswap   動機 Rustには所有権があるため、普通のswapパターンが動かない場合があります。これに対応するため、std::mem::swapという関数が用意されています。 let mut x = 'a'; let mut y = 'b'; std::mem::swap(&mut x, &mut y); assert_eq!((x, y), ('b', 'a')); ところが、この...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【自動化】PyAutoGUIでノータッチお絵描きしてみた | Qiita - 人気の記事]]></title>
@@ -115,24 +146,20 @@
             <content:encoded><![CDATA[初めに 今まで長らく多倍長整数の加算と乗算について標準C/C++の範囲で出来ること、intrinsicを使った場合とその限界、XbaykやLLVMによる実装方法の紹介をしました。 今回は一区切りのまとめとしてN桁xN桁の乗算（mulPre）のベンチマークを取って考察します。 記事全体の一覧は多倍長整数の実装1（C/C++）参照。   LLVMの生成コード まず前回紹介したLLVMの生成コードを詳しく見てみましょう。 opti/llvm/mulPreにサンプルコードを置きました。 make asm で生成されたmulpre.sのmcl_fpDbl_mulPre4Lという関数がN=4のと...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[範囲制約付き総和一定の連続値のランダムサンプリング | Zennのトレンド]]></title>
+            <link>https://zenn.dev/wsuzume/articles/0c89c723df62cc</link>
+            <guid>https://zenn.dev/wsuzume/articles/0c89c723df62cc</guid>
+            <pubDate>Sat, 20 Aug 2022 04:39:54 GMT</pubDate>
+            <description><![CDATA[問題 x = (x _ 1, \ldots, x _ n) \in \mathbb{R} ^ nでx _ i \in [a _ i, b _ i]\,\,(i = 1, \ldots, n)という制約条件のもと、さらにS \in \mathbb{R}が与えられて  \sum _ {i=1} ^ n x _ i = S  を満たすランダムなベクトルxを生成せよ（条件を満たすならばどんな確率分布でもよ...]]></description>
+            <content:encoded><![CDATA[問題 x = (x _ 1, \ldots, x _ n) \in \mathbb{R} ^ nでx _ i \in [a _ i, b _ i]\,\,(i = 1, \ldots, n)という制約条件のもと、さらにS \in \mathbb{R}が与えられて  \sum _ {i=1} ^ n x _ i = S  を満たすランダムなベクトルxを生成せよ（条件を満たすならばどんな確率分布でもよいが、可能ならば空間に一様に分布してほしい）。    考察 \forall i, a _ i = 0, b _ i = 1で、かつS=1ならばこれはディリクレ分布からサンプリングすればよいの...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[がんばりすぎない時間の作りかた・使いかた | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/moromi25/items/e54d6205e41b8ffb1324?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/moromi25/items/e54d6205e41b8ffb1324?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
             <pubDate>Sat, 20 Aug 2022 04:15:48 GMT</pubDate>
             <description><![CDATA[はじめに  さて、社会人歴10年を過ぎましたが、まだまだ業務時間内の時間管理方法を模索中です。 私自身のだめだめな状態を晒してみると、   複数のタスクがあると、意識があっちこっちに向いてしまう ミーテ…]]></description>
             <content:encoded><![CDATA[はじめに  さて、社会人歴10年を過ぎましたが、まだまだ業務時間内の時間管理方法を模索中です。 私自身のだめだめな状態を晒してみると、   複数のタスクがあると、意識があっちこっちに向いてしまう ミーテ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AppResourcesUsageView 1.00 | ダウンロードと使い方 | ソフタロウ]]></title>
-            <link>https://softaro.net/appresourcesusageview/</link>
-            <guid>https://softaro.net/?p=99120</guid>
-            <pubDate>Sat, 20 Aug 2022 02:48:15 GMT</pubDate>
-            <description><![CDATA[よくある質問と回答 ライセンスについて。 AppResourcesUsageView は、どなたでも無料で使用できます。]]></description>
-            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて。 AppResourcesUsageView は、どなたでも無料で使用できます。]]></content:encoded>
-            <category>システム情報</category>
-            <category>Nir Sofer</category>
-            <category>Windows</category>
-            <category>フリーソフト</category>
         </item>
         <item>
             <title><![CDATA[素のVimでGoのコードを書く | Zennのトレンド]]></title>
@@ -190,6 +217,14 @@
             <pubDate>Fri, 19 Aug 2022 23:00:00 GMT</pubDate>
             <description><![CDATA[皆様こんにちは、カヤックのやましんです。 本選出場された皆様おめでとうございます！ なんと今回のISUCONはサイバーエージェント様とカヤックで出題しており、その関係で本選出場者に送られるノベルティをご用意させていただきました。 このブログではそれらにまつわる話をご紹介できればと思います。 なお、予選問題はカヤックの作問チームが担当していまして、本題に入る前にISUCON12予選について少し触れさ...]]></description>
             <content:encoded><![CDATA[皆様こんにちは、カヤックのやましんです。 本選出場された皆様おめでとうございます！ なんと今回のISUCONはサイバーエージェント様とカヤックで出題しており、その関係で本選出場者に送られるノベルティをご用意させていただきました。 このブログではそれらにまつわる話をご紹介できればと思います。 なお、予選問題はカヤックの作問チームが担当していまして、本題に入る前にISUCON12予選について少し触れさせてください。 ISUCON12予選のおさらい 予選リポジトリ https://github.com/isucon/isucon12-qualify 予選の講評 https://isucon.net/…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[今週の PHP 2022/08/13 〜 2022/08/19 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/hanhan1978/articles/ff32ed2301a29f</link>
+            <guid>https://zenn.dev/hanhan1978/articles/ff32ed2301a29f</guid>
+            <pubDate>Fri, 19 Aug 2022 22:26:11 GMT</pubDate>
+            <description><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。   Internal   PHP 8.2.0 Beta 3 available for testing ついに Beta 3 です。   Additional small features for 8.2 RFCを出すほどではないような小さいフィーチャーについての確認がされています。 Make libxml_set_extern...]]></description>
+            <content:encoded><![CDATA[PHP のメーリングリストから、気になった情報をピックアップします。   Internal   PHP 8.2.0 Beta 3 available for testing ついに Beta 3 です。   Additional small features for 8.2 RFCを出すほどではないような小さいフィーチャーについての確認がされています。 Make libxml_set_external_entity_loader() return the previous loader https://github.com/php/php-src/pull/7977 Improved r...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[DockerでVue3の開発環境を構築する | Qiita - 人気の記事]]></title>
@@ -351,14 +386,6 @@
             <category>Recruiting</category>
         </item>
         <item>
-            <title><![CDATA[Productivity Weekly (2022-08-10号) | Zennのトレンド]]></title>
-            <link>https://zenn.dev/korosuke613/articles/productivity-weekly-20220810</link>
-            <guid>https://zenn.dev/korosuke613/articles/productivity-weekly-20220810</guid>
-            <pubDate>Fri, 19 Aug 2022 10:30:46 GMT</pubDate>
-            <description><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 今回が第 86 回目です。過去の記事はこちら。   news 📺   Dependabot now alerts...]]></description>
-            <content:encoded><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 今回が第 86 回目です。過去の記事はこちら。   news 📺   Dependabot now alerts for vulnerable GitHub Actions | The GitHub Blog https://github.blog/2022-08-09-dependabot-now-ale...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[戦術的DDDをGoで実現する【Value Object編】 | Yappli Tech Blog]]></title>
             <link>https://tech.yappli.io/entry/2022/08/19/%E6%88%A6%E8%A1%93%E7%9A%84DDD%E3%82%92Go%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E3%80%90Value_Object%E7%B7%A8%E3%80%91</link>
             <guid>https://tech.yappli.io/entry/2022/08/19/%E6%88%A6%E8%A1%93%E7%9A%84DDD%E3%82%92Go%E3%81%A7%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E3%80%90Value_Object%E7%B7%A8%E3%80%91</guid>
@@ -389,22 +416,6 @@
             <pubDate>Fri, 19 Aug 2022 09:52:58 GMT</pubDate>
             <description><![CDATA[Repositoryのテストをする際、 ローカルでテスト用のDBを立てて、CIでも同じ環境を再現するためにyamlなどの定義ファイルをいじって… ってけっこうめんどくさいです 今回はdocker-composeとGithub Actionsで 単一のdocker-compose.yamlでローカル/CIの両環境を構築できるようにし、楽かつクリーンを目指します 結論だけ先に書いてしまうと、 Gith...]]></description>
             <content:encoded><![CDATA[Repositoryのテストをする際、 ローカルでテスト用のDBを立てて、CIでも同じ環境を再現するためにyamlなどの定義ファイルをいじって… ってけっこうめんどくさいです 今回はdocker-composeとGithub Actionsで 単一のdocker-compose.yamlでローカル/CIの両環境を構築できるようにし、楽かつクリーンを目指します 結論だけ先に書いてしまうと、 Github Actions上でdocker composeが実行可能なのでそれをするだけだったりします ソースコード全文はこちら https://github.com/TadayoshiOtsuka/...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【Flutter】ModalBottomSheetの上にSnackBarを表示する方法 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/hiro_kon/articles/38463c0dbb0b32</link>
-            <guid>https://zenn.dev/hiro_kon/articles/38463c0dbb0b32</guid>
-            <pubDate>Fri, 19 Aug 2022 09:51:18 GMT</pubDate>
-            <description><![CDATA[概要 登録フォームでModalBottomSheetを使っていたのですが、登録に成功した場合と登録に失敗した場合にSnackBarを表示する必要がありました。 成功時はModalBottomSheetが閉じるので良かったのですが、失敗した際には閉じないようにしているためSnackBarが後ろに隠れてしまい上手く表示ができませんでした。 今回は簡単に解決できたので備忘録として記事に残しました！ Mo...]]></description>
-            <content:encoded><![CDATA[概要 登録フォームでModalBottomSheetを使っていたのですが、登録に成功した場合と登録に失敗した場合にSnackBarを表示する必要がありました。 成功時はModalBottomSheetが閉じるので良かったのですが、失敗した際には閉じないようにしているためSnackBarが後ろに隠れてしまい上手く表示ができませんでした。 今回は簡単に解決できたので備忘録として記事に残しました！ ModalBottomSheetとSnackBarを併用する際に使ってみてください！   変更前 画面中央にあるボタンを押すとModalBottomSheetが開き、 さらにその中のボタンを押す...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[tRPCとnext.jsの組み合わせで、withTRPCを使うほどでもない時のライトに使う方法 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/terrierscript/articles/2022-08-18-trpc-nextjs-without-hoc</link>
-            <guid>https://zenn.dev/terrierscript/articles/2022-08-18-trpc-nextjs-without-hoc</guid>
-            <pubDate>Fri, 19 Aug 2022 09:49:51 GMT</pubDate>
-            <description><![CDATA[next.jsのAPI周りは気軽に使えて便利なのだが、型周りを考えるとちょこちょこ事故が起きやすい箇所になる。 tRPCを利用するとかなり堅牢なAPIを作ることができる   ざっくりtRPCとnext.jsにおける利用について 軽くtRPCとnext.jsとの組み合わせについてかいつまむと、下記のような形になる  名前の通りTypeScriptを利用したRPCを行うためのライブラリ エンドポイント...]]></description>
-            <content:encoded><![CDATA[next.jsのAPI周りは気軽に使えて便利なのだが、型周りを考えるとちょこちょこ事故が起きやすい箇所になる。 tRPCを利用するとかなり堅牢なAPIを作ることができる   ざっくりtRPCとnext.jsにおける利用について 軽くtRPCとnext.jsとの組み合わせについてかいつまむと、下記のような形になる  名前の通りTypeScriptを利用したRPCを行うためのライブラリ エンドポイントを一つに固定してクライアントでも利用することで型を共有できるもの next対応についてはUsage with Next.jsとしてドキュメント化されてるぐらいがっちりサポートされている next...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[InfyOmLabs / laravel-generatorでAPIを作成してみた所感 | Zennのトレンド]]></title>
@@ -546,8 +557,8 @@ https://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-
             <link>https://iret.media/63855</link>
             <guid>https://iret.media/?p=63855</guid>
             <pubDate>Fri, 19 Aug 2022 08:00:40 GMT</pubDate>
-            <description><![CDATA[Excel ファイル (xlsx形式)を Google Drive にアップロードすると、勝手に Google SpreadSheet に変換されるもんだと思っていたのですが、設定に依るという事を知りました。 2. スプ […]]]></description>
-            <content:encoded><![CDATA[Excel ファイル (xlsx形式)を Google Drive にアップロードすると、勝手に Google SpreadSheet に変換されるもんだと思っていたのですが、設定に依るという事を知りました。 2. スプ […]]]></content:encoded>
+            <description><![CDATA[Excel ファイル (xlsx形式)を Google Drive にアップロードすると、勝手に Google SpreadSheet に変換されるもんだと思っていたのですが、設定に依るという事を知りました。 元記事はこ […]]]></description>
+            <content:encoded><![CDATA[Excel ファイル (xlsx形式)を Google Drive にアップロードすると、勝手に Google SpreadSheet に変換されるもんだと思っていたのですが、設定に依るという事を知りました。 元記事はこ […]]]></content:encoded>
             <category>エンジニアブログ</category>
             <category>GoogleDrive</category>
             <category>GoogleSpreadSheet</category>
@@ -760,6 +771,14 @@ https://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-
             <content:encoded><![CDATA[残暑どころか猛暑日が続く今年の8月。こんな時は外に出ないで家でゲームを楽しむに限る。超美麗3DゲームのためにゲーミングPCをフル稼働させ、何百ワットという電力を消費し、大量の排熱をエアコンで処理する。PCゲーマーとは、エコの対極にいる存在である。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[CDK for TerraformでGoogle Cloudのリソースを作ってみた 接触篇 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/cloud_ace/articles/cdk-for-terraform-startup</link>
+            <guid>https://zenn.dev/cloud_ace/articles/cdk-for-terraform-startup</guid>
+            <pubDate>Fri, 19 Aug 2022 01:54:24 GMT</pubDate>
+            <description><![CDATA[クラウドエースの阿部と申します。TerraformをはじめとするIaCが大好きなエンジニアのような者です。   はじめに 2022年8月1日に「CDK for Terraform (CDKTF)」がGAリリースされました。(Hashicorpのブログ) 2年ほど前からAWS向けにコミュニティプレビューとして公開されていたフレームワークですが、しばらく前からGoogle Cloud向けにも使用できる...]]></description>
+            <content:encoded><![CDATA[クラウドエースの阿部と申します。TerraformをはじめとするIaCが大好きなエンジニアのような者です。   はじめに 2022年8月1日に「CDK for Terraform (CDKTF)」がGAリリースされました。(Hashicorpのブログ) 2年ほど前からAWS向けにコミュニティプレビューとして公開されていたフレームワークですが、しばらく前からGoogle Cloud向けにも使用できるようになっており、実際にどんな感じで使えるか見てみようと思います。 なお、筆者はTerraformのHCLについてはそれなりにコードを書ける自負はありますが、Typescriptは初級レベルなの...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[「LibreOffice 7.4 Community」が公開、スプレッドシートで16,384列まで扱えるように／スパークラインもサポート。Windows 10/11ではダークモードの実験導入も | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/news/1433116.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/news/1433116.html</guid>
@@ -804,8 +823,8 @@ https://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-
             <link>https://moneyforward.com/engineers_blog/2022/08/19/pass-jcsqe/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10478</guid>
             <pubDate>Fri, 19 Aug 2022 01:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: New...]]></description>
-            <content:encoded><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Newcomerがイイと思った、マネフォの新サービスリリースTips  少しだけ主夫をやった話  Swiftで学ぶ関数型 〜 immutable 〜  Money Forward Advent Calendar 2015  ふんいきがわかるCSSレイアウトの知識   Copyright © Money Forward Engineers' Blog [2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...]]></description>
+            <content:encoded><![CDATA[こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOSエンジニア向けOSS Forwardワークショップを開催しました  Goのテストに使える手作りモックパターン  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  学習をフォワードする取り組み 〜 京都拠点〜  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！   Copyright © Money Forward Engineers' Blog [2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！], All Right Reserve...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -921,14 +940,6 @@ https://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-
             <category>Partners</category>
         </item>
         <item>
-            <title><![CDATA[Zig の TensorFlow Lite ライブラリでMNISTした | Zennのトレンド]]></title>
-            <link>https://zenn.dev/ryoppippi/articles/4f4716118cc06b</link>
-            <guid>https://zenn.dev/ryoppippi/articles/4f4716118cc06b</guid>
-            <pubDate>Thu, 18 Aug 2022 16:12:13 GMT</pubDate>
-            <description><![CDATA[はじめに Zigで機械学習やりたいなと考えていたところ、@mattn様がまた面白いものを作ってくださったので、早速遊んでみた。 https://zenn.dev/mattn/articles/af64c6a3eefad0   とりあえずMNIST というわけでMNISTをやってみることにした。 レポジトリはこちらにある。 https://github.com/ryoppippi/zig-tflit...]]></description>
-            <content:encoded><![CDATA[はじめに Zigで機械学習やりたいなと考えていたところ、@mattn様がまた面白いものを作ってくださったので、早速遊んでみた。 https://zenn.dev/mattn/articles/af64c6a3eefad0   とりあえずMNIST というわけでMNISTをやってみることにした。 レポジトリはこちらにある。 https://github.com/ryoppippi/zig-tflite-mnist READMEに従って、上のレポジトリをCloneし、TensorFlow Liteのインストールを済ませ、kaggleからDatasetを落としてきたらあとはビルドするのみ...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[How Do Data Scientists and Data Engineers Work Together? | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/2022/08/data-scientists-data-engineers-work-together.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-do-data-scientists-and-data-engineers-work-together</link>
             <guid>https://www.kdnuggets.com/?p=144926</guid>
@@ -977,14 +988,6 @@ https://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-
             <pubDate>Thu, 18 Aug 2022 15:00:00 GMT</pubDate>
             <description><![CDATA[<p>Go 1.19が8&#x2F;2に早々にリリースされました。個人的にはGo 1.19よりも楽しみだったのが、サービス間通信とIDL（インタフェース記述言語）連載の中でご紹介した<a]]></description>
             <content:encoded><![CDATA[<p>Go 1.19が8&#x2F;2に早々にリリースされました。個人的にはGo 1.19よりも楽しみだったのが、サービス間通信とIDL（インタフェース記述言語）連載の中でご紹介した<a]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[TypeScript: 複数のオブジェクト型から、名前も型も共通するプロパティを抜き出す型演算 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/canalun/articles/shared_property</link>
-            <guid>https://zenn.dev/canalun/articles/shared_property</guid>
-            <pubDate>Thu, 18 Aug 2022 14:58:17 GMT</pubDate>
-            <description><![CDATA[問題 typescriptのオブジェクト型が複数あるとして、名前も型も同じプロパティをどう抜き出せばいいか？ まずは2つの場合から考えてみましょう。具体的には下記のDogCat型をうまく型演算で表現したいということです。 type Dog = {  name: string  height: number  weight: number  kind: string // kindがstring型 ...]]></description>
-            <content:encoded><![CDATA[問題 typescriptのオブジェクト型が複数あるとして、名前も型も同じプロパティをどう抜き出せばいいか？ まずは2つの場合から考えてみましょう。具体的には下記のDogCat型をうまく型演算で表現したいということです。 type Dog = {  name: string  height: number  weight: number  kind: string // kindがstring型 }  type Cat = {  name: string  height: number  kind: number // kindがnumber...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[RT by @CVpaperChalleng: Found a useful GitHub repo that provides a python project template including all necessary dev tools for research.
@@ -1188,8 +1191,8 @@ https://ai-scholar.tech/articles/recommendation/artist_recommendation | AI技術
             <link>https://moneyforward.com/engineers_blog/2022/08/18/pr-sreforward/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10485</guid>
             <pubDate>Thu, 18 Aug 2022 04:00:51 GMT</pubDate>
-            <description><![CDATA[社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></description>
-            <content:encoded><![CDATA[社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：拠点間の常時接続Webミーティング  Pull Requestを育てて開発しよう  拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう  Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  グループ会社横断でシングルサインオンをできるようにしてみた   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Righ...]]></content:encoded>
+            <description><![CDATA[社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: おすす...]]></description>
+            <content:encoded><![CDATA[社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: おすすめのプロトタイピングツール5選(2016年5月時点)  マネーフォワードの2018新卒研修を振り返ってみた  金融機関様向けのPFMサービス 第一弾リリース！  AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その2  Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Right Reserved. 2022...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3488,8 +3491,8 @@ https://ai-scholar.tech/articles/nas/CTNAS | AI技術最新情報メディア | 
             <link>https://moneyforward.com/engineers_blog/2022/08/09/defect-analysis-from-hr/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10469</guid>
             <pubDate>Tue, 09 Aug 2022 01:00:07 GMT</pubDate>
-            <description><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: vim...]]></description>
-            <content:encoded><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: vim のイースターエッグの話  【レポート】第1回 マネーフォワードエンジニア総会  MoneyForward Meetupレポート「ワークOSSバランス」  マネーフォワードとオープンソース・ソフトウェア  Coding CDN in MoneyForward   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末に...]]></description>
+            <content:encoded><![CDATA[こんにちは！マネーフォワードのHR領域でQAエンジニアをしている森田です。 前回 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 年末にesaの大掃除をしてみた  待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・  【社内レポ】改めてスクラムを学ぶ社内講習会  Scrum Fest Osaka 2022 に協賛します＆登壇します  プロダクトにSwiftGenを導入してタイポ0の世界を作る   Copyright © Money Forward Engineers' Blog [マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3879,14 +3882,6 @@ https://ai-scholar.tech/articles/nas/CTNAS | AI技術最新情報メディア | 
             <category>コンピュータビジョン</category>
             <category>勉強会</category>
             <category>学会</category>
-        </item>
-        <item>
-            <title><![CDATA[RT by @CVpaperChalleng: 京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( http://xpaperchallenge.org/cv/survey/cvpr2022_summaries/395 )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-            <link>https://nitter.net/allowfirm/status/1556063207642386432#m</link>
-            <guid>https://nitter.net/allowfirm/status/1556063207642386432#m</guid>
-            <pubDate>Sat, 06 Aug 2022 23:42:33 GMT</pubDate>
-            <description><![CDATA[京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( xpaperchallenge.org/cv/surve… )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。]]></description>
-            <content:encoded><![CDATA[京大のComputer Vision Labからは、CVPR 2022に2本の論文が採択されたようで、網羅的サーベイには「Multimodal Material Segmentation」の論文まとめ( xpaperchallenge.org/cv/surve… )も。GAFAデータセットと同じく、データセットと実装はMITライセンスで公開されています。]]></content:encoded>
         </item>
     </channel>
 </rss>
