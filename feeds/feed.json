@@ -7,6 +7,90 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://tech.mobilefactory.jp/entry/2022/08/23/183000",
+            "content_html": "こんにちは、エンジニアの id:mp0liiu です。 少し前の話になりますが、5/28にPerlの最新安定バージョンである5.36がリリースされたので、コミュニティ周りの動向も含めて気になった点についてまとめていこうと思います。 use v5.36 一番影響がある変更は use VERSION の効果が変わったことです。 use v5.34 以前はバージョンチェック、要求されたバージョンで利用可能なすべての機能(featureバンドル)の有効化、strict の有効化を行っていましたが、 use v5.36 からは warnings も有効化されるようになりました。 use v5.36; m…",
+            "url": "https://tech.mobilefactory.jp/entry/2022/08/23/183000",
+            "title": "Perl5.36の変更点 | Mobile Factory Tech Blog",
+            "summary": "こんにちは、エンジニアの id:mp0liiu です。 少し前の話になりますが、5/28にPerlの最新安定バージョンである5.36がリリースされたので、コミュニティ周りの動向も含めて気になった点についてまとめていこうと思います。 use v5.36 一番影響がある変更は use VERSION の効果が変わったことです。 use v5.34 以前はバージョンチェック、要求されたバージョンで利用可...",
+            "date_modified": "2022-08-23T09:30:00.000Z",
+            "date_published": "2022-08-23T09:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.virtualtech.jp/entry/2022/08/23/175911",
+            "content_html": "FedoraをWebインターフェイスで管理するCockpitというソフトウェアがあります。 最近のFedora Serverはデフォルトインストールオプションでインストールすると、Cockpitがインストールされます。 インストールさえすれば、RHELもそのほかのRHELクローンでも使えるはずです。Ubuntu、Debian、openSUSEなどでも使えるようです。 Cockpit Project — Cockpit Project というわけでRaspberry Pi 4bにFedoraをいれて、ラズパイ向けFedora ServerイメージにデフォルトインストールされているCockpitを…",
+            "url": "https://tech.virtualtech.jp/entry/2022/08/23/175911",
+            "title": "Raspberry Pi 4bにFedora ServerとCockpitをいれてコンテナ管理 | 仮想化通信",
+            "summary": "FedoraをWebインターフェイスで管理するCockpitというソフトウェアがあります。 最近のFedora Serverはデフォルトインストールオプションでインストールすると、Cockpitがインストールされます。 インストールさえすれば、RHELもそのほかのRHELクローンでも使えるはずです。Ubuntu、Debian、openSUSEなどでも使えるようです。 Cockpit Project...",
+            "date_modified": "2022-08-23T08:59:11.000Z",
+            "date_published": "2022-08-23T08:59:11.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techracho.bpsinc.jp/?p=120908",
+            "content_html": "「夏のTechrachoフェア2022」ということで、 チームの近況を交えつつアプリチーム の紹介をさせていただければと思います。 どんな仕事している？ アプリチームでは、自社製品である電子書籍ビューア、デジタル教科書ビューア、およびそれに関連するアプリ、システムの開発を主な業務としています。 電子書籍ビューア：『超縦書』『超画像』 デジタル教科書ビューア：『超教科書』および『超教科書クラウド』 Windows/Mac/Android/iOS/Webブラウザ が主な対象環境になっており、特にWebブラウザ向けでは、画面遷移を伴わない、いわゆる「シングルページWebアプリケーション」として開発しています。 これらの […] The post BPS開発チームの紹介～アプリチーム～（2022年度） first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/shouichi/2022_08_23/120908",
+            "title": "BPS開発チームの紹介～アプリチーム～（2022年度） | TechRacho",
+            "summary": "「夏のTechrachoフェア2022」ということで、 チームの近況を交えつつアプリチーム の紹介をさせていただければと思います。 どんな仕事している？ アプリチームでは、自社製品である電子書籍ビューア、デジタル教科書ビューア、およびそれに関連するアプリ、システムの開発を主な業務としています。 電子書籍ビューア：『超縦書』『超画像』 デジタル教科書ビューア：『超教科書』および『超教科書クラウド』 ...",
+            "date_modified": "2022-08-23T08:30:01.000Z",
+            "date_published": "2022-08-23T08:30:01.000Z",
+            "author": {
+                "name": "shouichi"
+            },
+            "tags": [
+                "プレス・実績・お知らせ",
+                "会社紹介",
+                "夏のTechRachoフェア2022",
+                "採用"
+            ]
+        },
+        {
+            "id": "https://rheb.hatenablog.com/entry/rhel9proc",
+            "content_html": "Red Hatの森若です。 「RHELをインストールしたらよくわからない物がいっぱい動いてるなぁ」と思う方むけの記事です。 RHEL 9を最小構成(minimal + Standard)でインストールした時にデフォルトで動作している登場するプロセスをそれぞれ1〜2行で紹介してみます。 minimal + Standardを選択します インストーラ内でRed Hat Subscription Management(RHSM)とRed Hat Insightsへ登録します。 インストールが完了したところでさっそくコンソールからログインして、pstreeコマンドでプロセスの様子を見てみます。 実質的…",
+            "url": "https://rheb.hatenablog.com/entry/rhel9proc",
+            "title": "RHEL 9をminimal+Standardでインストールしてでてくるプロセス全部紹介する | 赤帽エンジニアブログ",
+            "summary": "Red Hatの森若です。 「RHELをインストールしたらよくわからない物がいっぱい動いてるなぁ」と思う方むけの記事です。 RHEL 9を最小構成(minimal + Standard)でインストールした時にデフォルトで動作している登場するプロセスをそれぞれ1〜2行で紹介してみます。 minimal + Standardを選択します インストーラ内でRed Hat Subscription Man...",
+            "date_modified": "2022-08-23T08:27:03.000Z",
+            "date_published": "2022-08-23T08:27:03.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/digest/1434114.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/digest/1434114.html",
+            "title": "Webブラウザー「Opera developer」v92.0.4519.0が公開　ほか【ダイジェストニュース】 | 窓の杜",
+            "date_modified": "2022-08-23T08:18:05.000Z",
+            "date_published": "2022-08-23T08:18:05.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://blog.s-style.co.jp/?p=9229",
+            "content_html": "はじめに MySQL には、redo ログと呼ばれるクラッシュリカバリ用のトランザクションデータを保存するファイルが存在しています。 これまで、この redo ログを変更するためには一度 mysqld プロセスを再起動する必要がありました。 MySQL 8.0.30 ではこの redo ログのサイズを動的に変更することが可能になっており、またそれに関連するいくつかのステータス変数が追加されています。 今回は、これまでの redo ログの... The post MySQL 8.0.30 における redo ログファイルサイズの動的変更について first appeared on スマートスタイル TECH BLOG.",
+            "url": "https://blog.s-style.co.jp/2022/08/9229/",
+            "title": "MySQL 8.0.30 における redo ログファイルサイズの動的変更について | スマートスタイル TECH BLOG",
+            "summary": "はじめに MySQL には、redo ログと呼ばれるクラッシュリカバリ用のトランザクションデータを保存するファイルが存在しています。 これまで、この redo ログを変更するためには一度 mysqld プロセスを再起動する必要がありました。 MySQL 8.0.30 ではこの redo ログのサイズを動的に変更することが可能になっており、またそれに関連するいくつかのステータス変数が追加されています...",
+            "date_modified": "2022-08-23T07:41:04.000Z",
+            "date_published": "2022-08-23T07:41:04.000Z",
+            "author": {
+                "name": "村田"
+            },
+            "tags": [
+                "MySQL",
+                "技術情報",
+                "MySQL8.0"
+            ]
+        },
+        {
+            "id": "https://inside.dmm.com/entry/2022/08/23/childcare-leave",
+            "content_html": "（左）ブラウン親子（右）アラン親子 最近では男性でも「パパ休暇」を取得する人が増えています。DMMには約150名の外国籍従業員が所属しており、外国籍従業員のパパ育休の実績もあります。 実際に取得をした社員と、これから取得する予定の社員に話を聞きました。 多国籍チームの25名のメンバーが育休を支えてくれた すでに４ヶ月間、育児休暇を取ったDMM.com英会話事業部、アメリカ人のマイケル・ブラウン。彼は、アナリティクスチームの責任者です。 2021年12月末に子供が誕生し、それに合わせて育児休暇をスタートさせました。 DMM.com海外事業部長のスペイン人のバリエル・アランは、これから育児休暇を取…",
+            "url": "https://inside.dmm.com/entry/2022/08/23/childcare-leave",
+            "title": "DMMアメリカ人＆スペイン人パパの育休体験記 | DMM inside",
+            "summary": "（左）ブラウン親子（右）アラン親子 最近では男性でも「パパ休暇」を取得する人が増えています。DMMには約150名の外国籍従業員が所属しており、外国籍従業員のパパ育休の実績もあります。 実際に取得をした社員と、これから取得する予定の社員に話を聞きました。 多国籍チームの25名のメンバーが育休を支えてくれた すでに４ヶ月間、育児休暇を取ったDMM.com英会話事業部、アメリカ人のマイケル・ブラウン。彼...",
+            "date_modified": "2022-08-23T07:30:00.000Z",
+            "date_published": "2022-08-23T07:30:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1434083.html",
             "content_html": "米Googleは8月22日（現地時間、以下同）、「Google カレンダー」と「Microsoft 365」を連携させる機能（Calendar Interop）を「OAuth 2.0」へアップグレードするよう呼びかけるブログ記事を公開した。Microsoftが10月1日より「Exchange Online」でベーシック認証の無効化を開始することをうけたものだ。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1434083.html",
@@ -42,6 +126,19 @@
             "summary": "当社データサイエンティストが、自然言語処理分野でよく用いられる「敵対的学習手法」から、「FGM（Fast Gradient Method）」「AWP（Adversarial Weight Perturbation）」手法をピックアップしてご紹介します。こんにちは。アナリティクスサービス部の佐々木です。 今回は、自然言語処理の分野においてよく用いられる「敵対的学習手法」についてご紹介します。 敵対的...",
             "date_modified": "2022-08-23T06:30:01.000Z",
             "date_published": "2022-08-23T06:30:01.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1561959866364829696#m",
+            "content_html": "新たなZero-shot FrameworkであるSC-AAEを使用することで、ジェスチャーからの感情認識において既存手法を大幅に上回る性能を可能にした論文を紹介します。 ai-scholar.tech/articles/zer…",
+            "url": "https://nitter.net/ai_scholar/status/1561959866364829696#m",
+            "title": "新たなZero-shot FrameworkであるSC-AAEを使用することで、ジェスチャーからの感情認識において既存手法を大幅に上回る性能を可能にした論文を紹介します。\nhttps://ai-scholar.tech/articles/zero-shot/SC-AAE | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "新たなZero-shot FrameworkであるSC-AAEを使用することで、ジェスチャーからの感情認識において既存手法を大幅に上回る性能を可能にした論文を紹介します。 ai-scholar.tech/articles/zer…",
+            "date_modified": "2022-08-23T06:13:46.000Z",
+            "date_published": "2022-08-23T06:13:46.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
             "tags": []
         },
         {
@@ -101,6 +198,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/akino_13/items/cea6e89750e3c5c72340?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "ワームの特徴  ワームはマルウェアの一種であり、寄生するためのファイルを必要とせずに自身を複製することが可能なことから強い感染能力があることが特徴です。 ウイルスやトロイの木馬とはまた異なった特徴が…",
+            "url": "https://qiita.com/akino_13/items/cea6e89750e3c5c72340?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ワームについて調べてみた | Qiita - 人気の記事",
+            "summary": "ワームの特徴  ワームはマルウェアの一種であり、寄生するためのファイルを必要とせずに自身を複製することが可能なことから強い感染能力があることが特徴です。 ウイルスやトロイの木馬とはまた異なった特徴が…",
+            "date_modified": "2022-08-23T04:52:06.000Z",
+            "date_published": "2022-08-23T04:52:06.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1433996.html",
             "content_html": "米Microsoftは8月19日（現地時間）、タスク管理アプリ「Microsoft To-Do」のAndroid版に実装した3つの新機能を解説したブログ記事を公開した。現在、Androidアプリ版の最新バージョンは8月10日付で配信されたv2.76.320.02となっている。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1433996.html",
@@ -108,6 +215,26 @@
             "summary": "米Microsoftは8月19日（現地時間）、タスク管理アプリ「Microsoft To-Do」のAndroid版に実装した3つの新機能を解説したブログ記事を公開した。現在、Androidアプリ版の最新バージョンは8月10日付で配信されたv2.76.320.02となっている。",
             "date_modified": "2022-08-23T04:21:11.000Z",
             "date_published": "2022-08-23T04:21:11.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/taruhachi/items/0318c1a603478058d863?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  採用試験としてコードチェックを導入している会社はまだまだ少ないのですが、実際にコードチェックを導入するにあたっては以下のような問題があります。 * そもそもコードチェックは必要なの？ *…",
+            "url": "https://qiita.com/taruhachi/items/0318c1a603478058d863?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "新卒・中途採用におけるコードチェックの実施とチェック時の観点について（株式会社ゆめみサーバサイドの場合） | Qiita - 人気の記事",
+            "summary": "はじめに  採用試験としてコードチェックを導入している会社はまだまだ少ないのですが、実際にコードチェックを導入するにあたっては以下のような問題があります。 * そもそもコードチェックは必要なの？ *…",
+            "date_modified": "2022-08-23T03:20:54.000Z",
+            "date_published": "2022-08-23T03:20:54.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/aoi_hara/items/b66409af0647ab196246?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "adobe photoshopでの作業中に、初めて見るエラーに遭遇したよ(´･ω･`) 発生した経緯  サイト（A）で利用中の画像（webp）をサイト（B)に流用したいが、サイト（B)はwebpの使用…",
+            "url": "https://qiita.com/aoi_hara/items/b66409af0647ab196246?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "photoshopで「エンディアンタイプの読み込み中にエラーが発生しました」というエラーが発生した場合の対処法 | Qiita - 人気の記事",
+            "summary": "adobe photoshopでの作業中に、初めて見るエラーに遭遇したよ(´･ω･`) 発生した経緯  サイト（A）で利用中の画像（webp）をサイト（B)に流用したいが、サイト（B)はwebpの使用…",
+            "date_modified": "2022-08-23T03:07:53.000Z",
+            "date_published": "2022-08-23T03:07:53.000Z",
             "tags": []
         },
         {
@@ -239,10 +366,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10491",
-            "content_html": "こんにちは。マネーフォワード エックスカンパニーでエンジニアリングマネージャーを … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】potatotips #36 を開催しました  ビジネスカンパニー初採用のデータアナリストが入社3ヶ月を総括する  マネーフォワード社内PRに見られるRubyの書き方について - (1) 配列の生成  様々な動物が活躍する京都開発拠点の仲間たち（アイコン紹介）  もうひとつのデザインについての話をしよう   Copyright © Money Forward Engineers' Blog [地域ユーザーの課題を技術で解決するエックスカンパニーのエンジニア組織について], All Right Reserved. 2022.",
+            "content_html": "こんにちは。マネーフォワード エックスカンパニーでエンジニアリングマネージャーを … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ONNX形式のモデルを使ってみる  デザイナーが制作時に気にしていること  最近のruby-core (2016年4月)  世界有数のAPI利用企業で考える標準仕様範囲外の仕様とユーザー体験の関係性  PrivateなCocoaPodsライブラリの作り方   Copyright © Money Forward Engineers' Blog [地域ユーザーの課題を技術で解決するエックスカンパニーのエンジニア組織について], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/23/organization-of-x-company/",
             "title": "地域ユーザーの課題を技術で解決するエックスカンパニーのエンジニア組織について | Money Forward Engineers' Blog",
-            "summary": "こんにちは。マネーフォワード エックスカンパニーでエンジニアリングマネージャーを … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
+            "summary": "こんにちは。マネーフォワード エックスカンパニーでエンジニアリングマネージャーを … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ONN...",
             "date_modified": "2022-08-23T00:30:36.000Z",
             "date_published": "2022-08-23T00:30:36.000Z",
             "author": {
@@ -265,10 +392,20 @@
             "id": "https://forest.watch.impress.co.jp/docs/news/1433870.html",
             "content_html": "（株）セルシスは8月22日、定番ペイントソフト「CLIP STUDIO PAINT」（クリスタ）の次期バージョンv2.0を2023年前半にリリースすると発表した。これに伴い、バージョンの体系と提供形態が一部変更されるという。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1433870.html",
-            "title": "「クリスタ」の次期バージョンv2.0は2023年前半リリース、サブスクリプションが基本に／買い切り版も存続 | 窓の杜",
+            "title": "「クリスタ」はサブスクが基本に ～買い切り版は年内で機能アップデート終了／V1.xの買い切り版はv3.0リリースで更新終了、v2.0でも買い切り版は提供されるが…… | 窓の杜",
             "summary": "（株）セルシスは8月22日、定番ペイントソフト「CLIP STUDIO PAINT」（クリスタ）の次期バージョンv2.0を2023年前半にリリースすると発表した。これに伴い、バージョンの体系と提供形態が一部変更されるという。",
             "date_modified": "2022-08-23T00:16:04.000Z",
             "date_published": "2022-08-23T00:16:04.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/na_/items/06b7f1a647cdc5526e10?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "マクロウイルスとは  マクロウイルスとは主にExelやWordなどのオフィスソフトに搭載されている、定型的な繰り返しの作業を効率化するような機能であるマクロ機能を悪用して感染・増殖するウイルスです。…",
+            "url": "https://qiita.com/na_/items/06b7f1a647cdc5526e10?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "マクロウイルスとは？ | Qiita - 人気の記事",
+            "summary": "マクロウイルスとは  マクロウイルスとは主にExelやWordなどのオフィスソフトに搭載されている、定型的な繰り返しの作業を効率化するような機能であるマクロ機能を悪用して感染・増殖するウイルスです。…",
+            "date_modified": "2022-08-23T00:00:20.000Z",
+            "date_published": "2022-08-23T00:00:20.000Z",
             "tags": []
         },
         {
@@ -387,6 +524,16 @@
             ]
         },
         {
+            "id": "https://qiita.com/jw-automation/items/9f896c1dcb5d7b055374?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  以前公開したAIのデモサイト「AI World2」に、7つのデモを追加し、計20デモになりました。スマホでも遊べるので、良かったら触ってみて下さい。    ■サイトリンク AI World  ■…",
+            "url": "https://qiita.com/jw-automation/items/9f896c1dcb5d7b055374?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "AIで遊べるデモサイト「AI World3」 | Qiita - 人気の記事",
+            "summary": "はじめに  以前公開したAIのデモサイト「AI World2」に、7つのデモを追加し、計20デモになりました。スマホでも遊べるので、良かったら触ってみて下さい。    ■サイトリンク AI World  ■…",
+            "date_modified": "2022-08-22T15:58:47.000Z",
+            "date_published": "2022-08-22T15:58:47.000Z",
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/tak001/items/945e479d496e5366988b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "個人的な備忘録です。  環境   react: 17.0.2 next: 11.1.3 sass: 1.47.0   やりたいこと   ローディング中は Overlay Spinner を表示させて画面操作ができ…",
             "url": "https://qiita.com/tak001/items/945e479d496e5366988b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -404,6 +551,16 @@
             "summary": "<h1 id=\"はじめに\"><a href=\"#はじめに\" class=\"headerlink\" title=\"はじめに\"></a>はじめに</h1><p>こんにちは。TIG DXユニット所属、金欠コンサルタントの藤井です。<br>最近、長らく買おう買おうと思っていたMeta",
             "date_modified": "2022-08-22T15:00:00.000Z",
             "date_published": "2022-08-22T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/AkitoTsukahara/items/7051cca101eae6459a77?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "概要  モーダルの外側をクリックしたらモーダルを閉じるように実装したい時にdialogタグを利用したら、シンプルに実装できたのでご紹介    何がいいのか   ダイアログの表示・閉じるなどの関数が用意されている…",
+            "url": "https://qiita.com/AkitoTsukahara/items/7051cca101eae6459a77?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "【Svelte】外側クリックで閉じられるモーダルをdialogで実装したら楽だった | Qiita - 人気の記事",
+            "summary": "概要  モーダルの外側をクリックしたらモーダルを閉じるように実装したい時にdialogタグを利用したら、シンプルに実装できたのでご紹介    何がいいのか   ダイアログの表示・閉じるなどの関数が用意されている…",
+            "date_modified": "2022-08-22T14:57:52.000Z",
+            "date_published": "2022-08-22T14:57:52.000Z",
             "tags": []
         },
         {
@@ -449,6 +606,26 @@
             "author": {
                 "name": "森に帰省中のゴリラ"
             },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/soleil0207/items/f22db0941d761030cdbd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "「Dos攻撃」「DDos攻撃」どちらも大量のデータを送りつけるサイバー攻撃です。 両者の違いを一言で表すなら、攻撃に使うパソコンの台数です。  「Dos攻撃」とは  DoS攻撃とは「Denial of …",
+            "url": "https://qiita.com/soleil0207/items/f22db0941d761030cdbd?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Dos攻撃・DDos攻撃違いはなに？ 特徴と対策をまとめてみた。 | Qiita - 人気の記事",
+            "summary": "「Dos攻撃」「DDos攻撃」どちらも大量のデータを送りつけるサイバー攻撃です。 両者の違いを一言で表すなら、攻撃に使うパソコンの台数です。  「Dos攻撃」とは  DoS攻撃とは「Denial of …",
+            "date_modified": "2022-08-22T13:23:55.000Z",
+            "date_published": "2022-08-22T13:23:55.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/Nabetani/items/9c94f43861835cac2b37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "これは何？  Zig を学ぼうと 公式文書 (0.91時点) を読んでいるんだけど、読みながら思ったことを記していく。  その前に  Zig への言及が最近多いなぁ、でもシンプルな言語だって言うしまあど…",
+            "url": "https://qiita.com/Nabetani/items/9c94f43861835cac2b37?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Zig の文書読んで所感を記す | Qiita - 人気の記事",
+            "summary": "これは何？  Zig を学ぼうと 公式文書 (0.91時点) を読んでいるんだけど、読みながら思ったことを記していく。  その前に  Zig への言及が最近多いなぁ、でもシンプルな言語だって言うしまあど…",
+            "date_modified": "2022-08-22T12:18:02.000Z",
+            "date_published": "2022-08-22T12:18:02.000Z",
             "tags": []
         },
         {
@@ -546,6 +723,29 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1561654965558743041#m",
+            "content_html": "半教師ありセグメンテーションでは、ラベルなしデータに十分な数の擬ラベルを与えることが重要です。従来の手法では、予測に自信のあるピクセルをGround Truthとして用いますが、ほとんどのピクセルは自信が無いため学習に用いられない問題があります。 ai-scholar.tech/articles/seg…",
+            "url": "https://nitter.net/ai_scholar/status/1561654965558743041#m",
+            "title": "半教師ありセグメンテーションでは、ラベルなしデータに十分な数の擬ラベルを与えることが重要です。従来の手法では、予測に自信のあるピクセルをGround Truthとして用いますが、ほとんどのピクセルは自信が無いため学習に用いられない問題があります。\nhttps://ai-scholar.tech/articles/segmentation/Unreliable_Pseudo-Labels | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "半教師ありセグメンテーションでは、ラベルなしデータに十分な数の擬ラベルを与えることが重要です。従来の手法では、予測に自信のあるピクセルをGround Truthとして用いますが、ほとんどのピクセルは自信が無いため学習に用いられない問題があります。 ai-scholar.tech/articles/seg…",
+            "date_modified": "2022-08-22T10:02:12.000Z",
+            "date_published": "2022-08-22T10:02:12.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/naozaneWork/items/6e96a374e38e5c05ad82?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "そもそもバッファとは  バッファの元々の意味は「緩衝」です。バッファオーバーフローのバッファとは「バッファメモリ」のことを指し、一時的にデータを保管しておく領域のことです。  プログラムがもつ領域は実…",
+            "url": "https://qiita.com/naozaneWork/items/6e96a374e38e5c05ad82?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "バッファオーバーフローについて調べてみた | Qiita - 人気の記事",
+            "summary": "そもそもバッファとは  バッファの元々の意味は「緩衝」です。バッファオーバーフローのバッファとは「バッファメモリ」のことを指し、一時的にデータを保管しておく領域のことです。  プログラムがもつ領域は実…",
+            "date_modified": "2022-08-22T09:48:53.000Z",
+            "date_published": "2022-08-22T09:48:53.000Z",
+            "tags": []
+        },
+        {
             "id": "https://techracho.bpsinc.jp/?p=120839",
             "content_html": "こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoではRubyやRailsなどの最新情報記事を平日に公開しています。TechRacho記事をいち早くお読みになりたい方はTwitterにて@techrachoのフォローをお願いします。また、タグやカテゴリごとにRSSフィードを購読 […] The post 週刊Railsウォッチ: ビューテンプレートに渡せるローカル変数をマジックコメントでチェック可能にほか（20220822前編） first appeared on TechRacho.",
             "url": "https://techracho.bpsinc.jp/hachi8833/2022_08_22/120839",
@@ -564,6 +764,16 @@
             ]
         },
         {
+            "id": "https://qiita.com/sauna1137/items/b08133c39852486e533a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "エクスプロイトとは  エクスプロイト (英: exploit) 名詞では手柄、功績等の意味があるようですが、 動詞の悪用する、〔人から〕絞り取る、〔人の弱みなどに〕付け込むが今回の記事の意味に合って…",
+            "url": "https://qiita.com/sauna1137/items/b08133c39852486e533a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "エクスプロイトについて調べてみた | Qiita - 人気の記事",
+            "summary": "エクスプロイトとは  エクスプロイト (英: exploit) 名詞では手柄、功績等の意味があるようですが、 動詞の悪用する、〔人から〕絞り取る、〔人の弱みなどに〕付け込むが今回の記事の意味に合って…",
+            "date_modified": "2022-08-22T09:38:22.000Z",
+            "date_published": "2022-08-22T09:38:22.000Z",
+            "tags": []
+        },
+        {
             "id": "https://techblog.recochoku.jp/8457",
             "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは、iOSアプリ開発グループの神山です。  SwiftUIについて絶賛勉強中なのですが、今回はTextに関連するUIコンポーネントの作り方についてまとめてみました。  具体的には以下のコンポーネントについてご紹介していきます。 1. Text(Label) 2. TextField 3. TextEditor  <h1>Text(Label)</h1>  Text(Label)はUIKitのUILabelに相当し、LabelについてはiOS14から使用することのできるコンポーネントになります。  Labelではテキスト以外に画像も一緒に表示することができます。  [crayon-630...",
             "url": "https://techblog.recochoku.jp/8457",
@@ -575,7 +785,7 @@
         },
         {
             "id": "https://techblog.recochoku.jp/8442",
-            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは、iOSアプリ開発グループの神山です。  SwiftUIについて絶賛勉強中なのですが、今回はButtonに関連するUIコンポーネントの作り方についてまとめてみました。  具体的には以下のコンポーネントについてご紹介していきます。 1. Button 2. Link  <h1>Button</h1>  ButtonはUIKitのUIButtonに相当します。  [crayon-630482b09bc4f189719950/]  Buttonはタイトルとタップした際のアクションを設定することでコンポーネントを生成することができます。[crayon-630482b09bc586815545...",
+            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは、iOSアプリ開発グループの神山です。  SwiftUIについて絶賛勉強中なのですが、今回はButtonに関連するUIコンポーネントの作り方についてまとめてみました。  具体的には以下のコンポーネントについてご紹介していきます。 1. Button 2. Link  <h1>Button</h1>  ButtonはUIKitのUIButtonに相当します。  [crayon-63049e22ac9e7511771878/]  Buttonはタイトルとタップした際のアクションを設定することでコンポーネントを生成することができます。[crayon-63049e22ac9ee9936533...",
             "url": "https://techblog.recochoku.jp/8442",
             "title": "【SwiftUI】 UIコンポーネントの作成方法 Button編 | レコチョクのエンジニアブログ",
             "summary": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  ...",
@@ -585,7 +795,7 @@
         },
         {
             "id": "https://techblog.recochoku.jp/8437",
-            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  最近CoreDataを触る機会が増えているのですが、テストについての記事がなかなか見つからず苦戦したため自分なりにまとめてみました。  今回はCoreDataのテストについて焦点を当てて進めていくため、CoreDataの概要などについては省略させていただくことをご了承ください。  <h1>下準備</h1>  テストを行うための下準備を行なっていきます。  はじめにデータモデルを定義していきます。 今回は[crayon-630482b09cbc1337798669-i/]と[crayon-630482b09cbc9773996973-i/]のプ...",
+            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは。iOSアプリ開発グループの神山です。  最近CoreDataを触る機会が増えているのですが、テストについての記事がなかなか見つからず苦戦したため自分なりにまとめてみました。  今回はCoreDataのテストについて焦点を当てて進めていくため、CoreDataの概要などについては省略させていただくことをご了承ください。  <h1>下準備</h1>  テストを行うための下準備を行なっていきます。  はじめにデータモデルを定義していきます。 今回は[crayon-63049e22ad4e6298626777-i/]と[crayon-63049e22ad4ed169093838-i/]のプ...",
             "url": "https://techblog.recochoku.jp/8437",
             "title": "【Swift】 CoreDataのテスト方法を考えてみる | レコチョクのエンジニアブログ",
             "summary": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  ...",
@@ -859,16 +1069,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/WakameSun/items/88c2b71e95005546a7a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "コールバックを呼ばずにデータを作りたい  Railsでレコードを作成する時、コールバックを発火させずにデータを作成したい時が（基本的にない方がよいですが）ごく稀に存在します。 データを大量に作る時は…",
-            "url": "https://qiita.com/WakameSun/items/88c2b71e95005546a7a2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "[Tips]insertメソッドでコールバックを発火させずに単一のレコードを作成する(Rails) | Qiita - 人気の記事",
-            "summary": "コールバックを呼ばずにデータを作りたい  Railsでレコードを作成する時、コールバックを発火させずにデータを作成したい時が（基本的にない方がよいですが）ごく稀に存在します。 データを大量に作る時は…",
-            "date_modified": "2022-08-22T04:28:28.000Z",
-            "date_published": "2022-08-22T04:28:28.000Z",
-            "tags": []
-        },
-        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1433669.html",
             "content_html": "ファイルやフォルダーの名前に日本語、韓国語、中国語などの2バイト文字が含まれる場合に、セキュリティ更新プログラム「KB5002112」が適用された「Microsoft Office 2016」でVBAマクロを実行できないことがあるという。米Microsoftは8月18日（現地時間）、この問題に対する修正プログラム「KB4484401」を公開した。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1433669.html",
@@ -915,16 +1115,6 @@
             "summary": "In April, Meta launched the Network for AI request for proposals (RFP). Today, we’re announcing the winners of this award.",
             "date_modified": "2022-08-22T04:00:00.000Z",
             "date_published": "2022-08-22T04:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/nashi-nashi/items/e6657d6166938ad96892?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "こんにちは！ 新人エンジニアのなっしーです！  先日、Java SE 11 Programmer I（通称Java Sliver）とORACLE MASTER Bronze DBA（通称Oracle …",
-            "url": "https://qiita.com/nashi-nashi/items/e6657d6166938ad96892?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【申し込みから合格まで】Java SE 11 Programmer IとORACLE MASTER Bronze DBAを自宅で受験した話【2022年8月版】 | Qiita - 人気の記事",
-            "summary": "こんにちは！ 新人エンジニアのなっしーです！  先日、Java SE 11 Programmer I（通称Java Sliver）とORACLE MASTER Bronze DBA（通称Oracle …",
-            "date_modified": "2022-08-22T03:32:53.000Z",
-            "date_published": "2022-08-22T03:32:53.000Z",
             "tags": []
         },
         {
@@ -1091,16 +1281,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/kei_0_f/items/d56679b4fcc303249ba9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "ゆめみからの挑戦状？  無職やめ太郎（本名）さんが出題しているプチ問題。 今回の問題はこちら。  https://twitter.com/yumemiinc/status/15600868743030…",
-            "url": "https://qiita.com/kei_0_f/items/d56679b4fcc303249ba9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ゆめみからの挑戦状3に挑戦した | Qiita - 人気の記事",
-            "summary": "ゆめみからの挑戦状？  無職やめ太郎（本名）さんが出題しているプチ問題。 今回の問題はこちら。  https://twitter.com/yumemiinc/status/15600868743030…",
-            "date_modified": "2022-08-22T01:44:32.000Z",
-            "date_published": "2022-08-22T01:44:32.000Z",
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/techtrain/articles/5a63cc35e5bcc7",
             "content_html": "はじめに TechTrainは今年2022年でリリースから3年を迎えました。創業当時の開発がどんな状況だったのか？現在はどのような状況なのか？また、これからどうなっていくのが良いのか？を創業当時のプロダクト開発に携わった2名の対談からお伝えしたいと思います。 ※こちらの対談はTechTrainのユーザー限定で公開いたしました。ブログの最後に当日の視聴者からの質問回答も掲載しております。   インタビュイープロフィール    手島 拓也（以降：tejitak）  IBM研究所やLINEにて主にWeb製品開発を約7年間担当。その後、共同創業者兼CTOとしてタイにて起業、事業譲渡を経験。現...",
             "url": "https://zenn.dev/techtrain/articles/5a63cc35e5bcc7",
@@ -1194,16 +1374,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/nuko-suke/items/e08007fb0935e123bb33?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "こんにちは。ぬこすけです。  皆さんは Bot のアクセスに悩まされたことはありますか？  私はあります。  私が個人開発しているサイトでも Bot からガンガンアクセスがきます。   1ページリクエストする…",
-            "url": "https://qiita.com/nuko-suke/items/e08007fb0935e123bb33?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Next.js の Middleware を使ってサクッと迷惑 Bot たちを追い払う | Qiita - 人気の記事",
-            "summary": "こんにちは。ぬこすけです。  皆さんは Bot のアクセスに悩まされたことはありますか？  私はあります。  私が個人開発しているサイトでも Bot からガンガンアクセスがきます。   1ページリクエストする…",
-            "date_modified": "2022-08-22T00:02:55.000Z",
-            "date_published": "2022-08-22T00:02:55.000Z",
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/Yametaro/items/86cbd945b4faf44e8349?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "先日、Twitter上でこんなクイズを出題しました  ↓こちらです。  https://twitter.com/yumemiinc/status/1560086874303082497?s=20&t=…",
             "url": "https://qiita.com/Yametaro/items/86cbd945b4faf44e8349?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1234,16 +1404,6 @@
             "summary": "こんにちは。 XI 本部 AI トランスフォーメンションセンター所属の山田です。 今回は、Python の Web アプリケーション開発環境において Poetry を利用し始めたことについて紹介します。 背景 私たちのチームではデータ分析、システム開発ともに Python を使用しています。 これまで、Python を業務で使う際にはパッケージ管理ツールにpipを利用してきました。 しかしながら、...",
             "date_modified": "2022-08-22T00:00:00.000Z",
             "date_published": "2022-08-22T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/daishiman/items/d8499c8996de3f9808f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "1.はじめに  部分型関係は、TypeScript を理解する上で重要な概念とされています。  ただ、  「どっちがどっちの部分？」 「なぜ 〇〇 型が ◇◇ 型の部分型なら、 〇〇 型の値が ◇◇ 型…",
-            "url": "https://qiita.com/daishiman/items/d8499c8996de3f9808f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【修正中】【TypeScript】部分型を上位互換と言い換えるとしっくりきた | Qiita - 人気の記事",
-            "summary": "1.はじめに  部分型関係は、TypeScript を理解する上で重要な概念とされています。  ただ、  「どっちがどっちの部分？」 「なぜ 〇〇 型が ◇◇ 型の部分型なら、 〇〇 型の値が ◇◇ 型…",
-            "date_modified": "2022-08-21T23:37:41.000Z",
-            "date_published": "2022-08-21T23:37:41.000Z",
             "tags": []
         },
         {
@@ -1317,16 +1477,6 @@
             "author": {
                 "name": "てんてる"
             },
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/yukinoi/items/000f6fe4560799378dc0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "ちゃお…† 舞い降り…† 今回は、Pythonでかな漢字変換するという需要があるのかわからない mozcpy の紹介の紹介をします…†  mozcpyとは  名前の通り Mozc の辞書を使って MeC…",
-            "url": "https://qiita.com/yukinoi/items/000f6fe4560799378dc0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Pythonでかな漢字変換 mozcpy の紹介 | Qiita - 人気の記事",
-            "summary": "ちゃお…† 舞い降り…† 今回は、Pythonでかな漢字変換するという需要があるのかわからない mozcpy の紹介の紹介をします…†  mozcpyとは  名前の通り Mozc の辞書を使って MeC…",
-            "date_modified": "2022-08-21T22:18:07.000Z",
-            "date_published": "2022-08-21T22:18:07.000Z",
             "tags": []
         },
         {
@@ -1549,16 +1699,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/YumaInaura/items/d62ab804aacbfd294796?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "休日の過ごし方  ポモドーロ集中法を逆にしてポモドーロ休息法というのはどうだろうか。  ポモドーロ集中法は25分集中して5分休む。 これを逆にする。  25分休憩して5分は何か好きなことをするのだ。  休…",
-            "url": "https://qiita.com/YumaInaura/items/d62ab804aacbfd294796?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "仕事で燃え尽きないために休日向けのポモドーロ\"休息法\"を考案したい | Qiita - 人気の記事",
-            "summary": "休日の過ごし方  ポモドーロ集中法を逆にしてポモドーロ休息法というのはどうだろうか。  ポモドーロ集中法は25分集中して5分休む。 これを逆にする。  25分休憩して5分は何か好きなことをするのだ。  休…",
-            "date_modified": "2022-08-21T06:19:42.000Z",
-            "date_published": "2022-08-21T06:19:42.000Z",
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/yuyu_hf/articles/64061802544c87",
             "content_html": "はじめに 私が社内のプロダクト開発で、コメントを書くときに考えていることをまとめようと思います。個人の主観を元に書くので参考程度に読んでください。 社内プロダクトとは、社内の1チームで開発しているプロダクトを指し、社内の他のチームや、社外の不特定多数の人から利用されるものではないとします。プロダクトはWeb APIを想定しています。 サンプルコードはGoで書いています。   コメントを書く目的 コメントを書く目的は、ソースコードから読み取れる情報を補足したり、誤読を防ぐことで、 ソースコードの可読性を高めるためだと思っています。 コメントを書くことでソースコードから読み取れる情報は増...",
             "url": "https://zenn.dev/yuyu_hf/articles/64061802544c87",
@@ -1634,6 +1774,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/haraitai00/items/1c80c3b35fac1130cc5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "バッグドアとは  バッグドアとは悪意のある攻撃者が一度、攻撃先のシステム内部の侵入に成功した際に 継続的に侵入が可能 になるように、内部に仕込むプログラムのことを指します。  システム内部から外部に通…",
+            "url": "https://qiita.com/haraitai00/items/1c80c3b35fac1130cc5d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "バッグドアについて調べてみた | Qiita - 人気の記事",
+            "summary": "バッグドアとは  バッグドアとは悪意のある攻撃者が一度、攻撃先のシステム内部の侵入に成功した際に 継続的に侵入が可能 になるように、内部に仕込むプログラムのことを指します。  システム内部から外部に通…",
+            "date_modified": "2022-08-21T00:59:38.000Z",
+            "date_published": "2022-08-21T00:59:38.000Z",
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/kanemichi/items/ab6b200d9c73cfaaa5ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに  本記事は Udemy著者『 CodeMafia 』様の「【JS】ガチで学びたい人のためのJavaScriptメカニズム」 の内容を参考にしています。 JavaScriptの基礎的な文法か…",
             "url": "https://qiita.com/kanemichi/items/ab6b200d9c73cfaaa5ef?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1664,16 +1814,6 @@
             "summary": "経緯  DOMについて調べてた時に気づいたので、備忘録として。 （この備忘録ではReactベースで書いてます）  結論  仮想DOMの真のメリットは「パフォーマンスが良いこと」ではなく、「宣言的UIの実…",
             "date_modified": "2022-08-20T18:19:17.000Z",
             "date_published": "2022-08-20T18:19:17.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/yabeenico/items/32e048ede4f53e18eeaf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "やりたいこと  入力 (標準入力) :stdin A B C D E F   出力 (標準出力) :stdout A,B,C D,E,F   結論  こちで回答したもの。 https://superuser.…",
-            "url": "https://qiita.com/yabeenico/items/32e048ede4f53e18eeaf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "標準入力をN行ずつカンマ区切りにする | Qiita - 人気の記事",
-            "summary": "やりたいこと  入力 (標準入力) :stdin A B C D E F   出力 (標準出力) :stdout A,B,C D,E,F   結論  こちで回答したもの。 https://superuser.…",
-            "date_modified": "2022-08-20T17:15:44.000Z",
-            "date_published": "2022-08-20T17:15:44.000Z",
             "tags": []
         },
         {
@@ -1748,22 +1888,22 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/YomamaBanana/items/e53e843f44d82f698104?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "1. はじめに  Python＆Boto3経由でAWSのDynamoDBへアクセスする時によく使うメソッドたち（CRUD + COPY）をまとめてみました。  Github  2. Boto3メソッド  …",
-            "url": "https://qiita.com/YomamaBanana/items/e53e843f44d82f698104?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【メモ】AWS boto3 & dynamoDBチートシート | Qiita - 人気の記事",
-            "summary": "1. はじめに  Python＆Boto3経由でAWSのDynamoDBへアクセスする時によく使うメソッドたち（CRUD + COPY）をまとめてみました。  Github  2. Boto3メソッド  …",
-            "date_modified": "2022-08-20T10:26:22.000Z",
-            "date_published": "2022-08-20T10:26:22.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.youtube.com/watch?v=7UbGaXPatA4",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=7UbGaXPatA4",
             "title": "受験生の質問にひたすら答えてみた | 予備校のノリで学ぶ「大学の数学・物理」",
             "date_modified": "2022-08-20T09:00:04.000Z",
             "date_published": "2022-08-20T09:00:04.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/Ri__/items/73f31835965da88e6899?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "ポートスキャンの概要  サーバーに対して攻撃を仕掛ける時にはセキュリティの弱いところを狙う必要があります。 そのようなときに、ターゲットのサーバーはどのポートを開けているかを確認することで攻撃の足が…",
+            "url": "https://qiita.com/Ri__/items/73f31835965da88e6899?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "【サイバー攻撃】ポートスキャンとは | Qiita - 人気の記事",
+            "summary": "ポートスキャンの概要  サーバーに対して攻撃を仕掛ける時にはセキュリティの弱いところを狙う必要があります。 そのようなときに、ターゲットのサーバーはどのポートを開けているかを確認することで攻撃の足が…",
+            "date_modified": "2022-08-20T08:28:21.000Z",
+            "date_published": "2022-08-20T08:28:21.000Z",
             "tags": []
         },
         {
@@ -1782,32 +1922,12 @@
             ]
         },
         {
-            "id": "https://qiita.com/Higemal/items/c578981d3b5191169943?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事投稿が100本目となるため振り返ってみます。  ①投稿することの効果 ②投稿を続けることの効果 ③投稿の際に気を付けていること ④投稿の際に気を付けないようにしていること  ①投稿することの効果 …",
-            "url": "https://qiita.com/Higemal/items/c578981d3b5191169943?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Qiita投稿記事が100本になったので振り返ってみる | Qiita - 人気の記事",
-            "summary": "この記事投稿が100本目となるため振り返ってみます。  ①投稿することの効果 ②投稿を続けることの効果 ③投稿の際に気を付けていること ④投稿の際に気を付けないようにしていること  ①投稿することの効果 …",
-            "date_modified": "2022-08-20T06:55:09.000Z",
-            "date_published": "2022-08-20T06:55:09.000Z",
-            "tags": []
-        },
-        {
             "id": "https://engineering.linecorp.com/ja/blog/digital-hack-day-2022",
             "content_html": "",
             "url": "https://engineering.linecorp.com/ja/blog/digital-hack-day-2022",
             "title": "【協賛情報】Digital Hack Day 2022 | LINE ENGINEERING Feed ja",
             "date_modified": "2022-08-20T06:00:00.000Z",
             "date_published": "2022-08-20T06:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/moromi25/items/e54d6205e41b8ffb1324?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに  さて、社会人歴10年を過ぎましたが、まだまだ業務時間内の時間管理方法を模索中です。 私自身のだめだめな状態を晒してみると、   複数のタスクがあると、意識があっちこっちに向いてしまう ミーテ…",
-            "url": "https://qiita.com/moromi25/items/e54d6205e41b8ffb1324?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "がんばりすぎない時間の作りかた・使いかた | Qiita - 人気の記事",
-            "summary": "はじめに  さて、社会人歴10年を過ぎましたが、まだまだ業務時間内の時間管理方法を模索中です。 私自身のだめだめな状態を晒してみると、   複数のタスクがあると、意識があっちこっちに向いてしまう ミーテ…",
-            "date_modified": "2022-08-20T04:15:48.000Z",
-            "date_published": "2022-08-20T04:15:48.000Z",
             "tags": []
         },
         {
@@ -1825,16 +1945,6 @@
                 "Alfred",
                 "便利ツール"
             ]
-        },
-        {
-            "id": "https://qiita.com/tecoyan/items/515512e0ad3c81056f67?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "概要  退役プログラマーが趣味で「なつかしの曲(ポータル)」サイトを構築していますが、特にメンテナンスで特定の修正箇所を思い出すことが困難になってきた。昔であれば、瞬時に思い出すことができたのだが。…",
-            "url": "https://qiita.com/tecoyan/items/515512e0ad3c81056f67?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "元プログラマーが、脳の記憶力低下にがっかりしている | Qiita - 人気の記事",
-            "summary": "概要  退役プログラマーが趣味で「なつかしの曲(ポータル)」サイトを構築していますが、特にメンテナンスで特定の修正箇所を思い出すことが困難になってきた。昔であれば、瞬時に思い出すことができたのだが。…",
-            "date_modified": "2022-08-20T00:55:07.000Z",
-            "date_published": "2022-08-20T00:55:07.000Z",
-            "tags": []
         },
         {
             "id": "https://podcast-pitpa-enginner.cdn.pitpa.jp/fukabori/episodes/078_SgumA.mp3",
@@ -2027,6 +2137,19 @@
                 "Gremlin",
                 "kubernetes"
             ]
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1560558102092869632#m",
+            "content_html": "ノイズの少ない3次元メッシュであれば、より正確な発話者の顔の形状を予測できるのではないか？\"という仮説に基づき、音声と人の3次元の顔の形状との相関関係を初めて調査した論文になります。 ai-scholar.tech/articles/3d/…",
+            "url": "https://nitter.net/ai_scholar/status/1560558102092869632#m",
+            "title": "ノイズの少ない3次元メッシュであれば、より正確な発話者の顔の形状を予測できるのではないか？\"という仮説に基づき、音声と人の3次元の顔の形状との相関関係を初めて調査した論文になります。\nhttps://ai-scholar.tech/articles/3d/CMP | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "ノイズの少ない3次元メッシュであれば、より正確な発話者の顔の形状を予測できるのではないか？\"という仮説に基づき、音声と人の3次元の顔の形状との相関関係を初めて調査した論文になります。 ai-scholar.tech/articles/3d/…",
+            "date_modified": "2022-08-19T09:23:39.000Z",
+            "date_published": "2022-08-19T09:23:39.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
         },
         {
             "id": "https://tech.excite.co.jp/entry/2022/08/19/181445",
@@ -2478,10 +2601,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10478",
-            "content_html": "こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Swift2.0で追加された新機能 3選  入社5ヶ月して感じた、スモールチームでスピード開発を実現するクラウド人事管理グループの感動したところ  マネーフォワード社内PRに見られるRubyの書き方について - (8) 受け渡しのパターンマッチング 3  Terraform 0.12 Upgrade Battle！  【レポート】2/19 ベストアプリ勉強会＠Sansan   Copyright © Money Forward Engineers' Blog [2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！], All Right Reserved. 2022.",
+            "content_html": "こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Railsに慣れたRubyistに捧げるUnderscore.js便利メソッド 5選  新卒が社内懇親会アプリを開発したら、障害対応まで経験できた話  京都開発拠点におけるインターン生の活躍  マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  MoneyForwardの検索ロジック歴史   Copyright © Money Forward Engineers' Blog [2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/19/pass-jcsqe/",
             "title": "2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！ | Money Forward Engineers' Blog",
-            "summary": "こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Swi...",
+            "summary": "こんにちは、マネーフォワード クラウド会計 でQAマネージャーをしている nis … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...",
             "date_modified": "2022-08-19T01:00:00.000Z",
             "date_published": "2022-08-19T01:00:00.000Z",
             "author": {
@@ -2518,16 +2641,6 @@
             "summary": "不要ソフトをPCから強制削除",
             "date_modified": "2022-08-18T22:30:00.000Z",
             "date_published": "2022-08-18T22:30:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/news/1433089.html",
-            "content_html": "米Microsoftは8月18日（現地時間）、「Android Apps on Windows 11」プレビューの展開を日本の「Windows Insider Program」テスターへ拡大したと発表した。この機能が米国以外で提供されるのは、日本が初めて。",
-            "url": "https://forest.watch.impress.co.jp/docs/news/1433089.html",
-            "title": "AndroidアプリをPCで ～「Android Apps on Windows 11」プレビューの日本展開が開始／米国以外での提供は日本が初めて | 窓の杜",
-            "summary": "米Microsoftは8月18日（現地時間）、「Android Apps on Windows 11」プレビューの展開を日本の「Windows Insider Program」テスターへ拡大したと発表した。この機能が米国以外で提供されるのは、日本が初めて。",
-            "date_modified": "2022-08-18T22:25:00.000Z",
-            "date_published": "2022-08-18T22:25:00.000Z",
             "tags": []
         },
         {
@@ -2737,6 +2850,24 @@
             "tags": []
         },
         {
+            "id": "https://www.ulatus.jp/academy/?p=29247",
+            "content_html": "オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。大学院卒業後、学術関連の仕事あるいは研究職に付きたいと思っている人にとって、面接（インタビュー）は難関のひとつですよね。今回は、ミューバーン教授が面接でよく聞かれる21の質問と回答時の注意を解説してくれています。 英国ロンドン大学ゴールドスミス校の社会学教授であるレ・バック（Les Back）（が著書『Academic Diary』で指摘しているように、学術生活にも季節（シーズン）があって、今は就職面接シーズンのようです。私自身、求職や面接の準備を手伝いながらさまざまな業務（困難でもやりがいがあるとはいえ、感情的になってしまう仕事）に関わってきましたが、そのたびにPhD課程の後半がどれほどストレスの多い時期であるか（！）と思わずにはいられません。就職試験もハードルのひとつです。ただでさえ就職活動はそれまでやってきたこととはまったく異なるのに、試験の結果を待ちつつ、同時に他の...",
+            "url": "https://www.ulatus.jp/academy/a-big-list-of-academic-job-interview-questions-and-how-to-answer-them/",
+            "title": "研究職の面接対策～よく聞かれる21の質問と回答アドバイス～ | 学術英語アカデミー",
+            "summary": "オーストラリア国立大学のインガー・ミューバーン（Inger Mewburn）教授が、大学院で勉学に勤しむ学生さんにお役立ち情報をお届けするコラム「研究室の荒波にもまれて（THE THESIS WHISPERER）」。大学院卒業後、学術関連の仕事あるいは研究職に付きたいと思っている人にとって、面接（インタビュー）は難関のひとつですよね。今回は、ミューバーン教授が面接でよく聞かれる21の質問と回答時の...",
+            "date_modified": "2022-08-18T09:00:06.000Z",
+            "date_published": "2022-08-18T09:00:06.000Z",
+            "author": {
+                "name": "Ulatus Academy"
+            },
+            "tags": [
+                "研究室の荒波にもまれて",
+                "研究職",
+                "面接",
+                "面接の質問と対策"
+            ]
+        },
+        {
             "id": "https://tech.unifa-e.com/entry/2022/08/18/173957?utm_source=feed",
             "content_html": "Hello, I'm Ahsan Ullah Rasel, an Android Engineer from the Android team of Unifa Inc. Japan. Today, I am going to briefly introduce the Kotlin Multiplatform Mobile (hereinafter referred as KMM) framework to you. With KMM you can create applications for both Android and iOS using all modern Kotlin AP…",
             "url": "https://tech.unifa-e.com/entry/2022/08/18/173957?utm_source=feed",
@@ -2836,11 +2967,24 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1560118560059314176#m",
+            "content_html": "本論文では知識グラフ上をエージェントに探索させることにより、結果に対する理由を提示可能な新しいアーティスト推薦手法を提案しています。 ai-scholar.tech/articles/rec…",
+            "url": "https://nitter.net/ai_scholar/status/1560118560059314176#m",
+            "title": "RT by @ai_scholar: 本論文では知識グラフ上をエージェントに探索させることにより、結果に対する理由を提示可能な新しいアーティスト推薦手法を提案しています。\nhttps://ai-scholar.tech/articles/recommendation/artist_recommendation | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "本論文では知識グラフ上をエージェントに探索させることにより、結果に対する理由を提示可能な新しいアーティスト推薦手法を提案しています。 ai-scholar.tech/articles/rec…",
+            "date_modified": "2022-08-18T04:17:04.000Z",
+            "date_published": "2022-08-18T04:17:04.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://moneyforward.com/engineers_blog/?p=10485",
-            "content_html": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチャーでナウくなりそうなセキュリティサービス  Prophetを使ってこの先を占ってみた  Datadogを使った分散トレーシングをクラウド会計で見えるようにした話  私の履歴書：マネーフォワードの会計開発チーム編  新サービスを立ち上げる際、エンジニアとしてやって良かった 9個の事   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Right Reserved. 2022.",
+            "content_html": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2017年1月)  【レポート】MF Geeks Night (2015年5月)  AI推進部における読書会の紹介  Safari Books Online のすすめ - エンジニアなら当然読んでおきたい英語の書籍をお得に読む方法  書類読み取りってどうやるの？？一例を紹介！！   Copyright © Money Forward Engineers' Blog [【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/08/18/pr-sreforward/",
             "title": "【8/23 注目！】弊社のSREも多様化してきたので、マネーフォワードSRE Meetupで日々の取り組みを紹介します | Money Forward Engineers' Blog",
-            "summary": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ベンチ...",
+            "summary": "社内SREコミュニティをやっている運営のひとり、VTRyoです。 今回は8月23 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...",
             "date_modified": "2022-08-18T04:00:51.000Z",
             "date_published": "2022-08-18T04:00:51.000Z",
             "author": {
@@ -3145,6 +3289,19 @@
             ]
         },
         {
+            "id": "https://nitter.net/ai_scholar/status/1559828428026589184#m",
+            "content_html": "Neural Architecture Search (NAS)の課題である探索コストに対して、バッチ正則化パラメータを用いたネットワークの評価指標と、スーパーネットの学習によってそのコストを減らすことを試みています。 ai-scholar.tech/articles/nas…",
+            "url": "https://nitter.net/ai_scholar/status/1559828428026589184#m",
+            "title": "Neural Architecture Search (NAS)の課題である探索コストに対して、バッチ正則化パラメータを用いたネットワークの評価指標と、スーパーネットの学習によってそのコストを減らすことを試みています。\nhttps://ai-scholar.tech/articles/nas/NAS-BN | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "Neural Architecture Search (NAS)の課題である探索コストに対して、バッチ正則化パラメータを用いたネットワークの評価指標と、スーパーネットの学習によってそのコストを減らすことを試みています。 ai-scholar.tech/articles/nas…",
+            "date_modified": "2022-08-17T09:04:12.000Z",
+            "date_published": "2022-08-17T09:04:12.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
+            "tags": []
+        },
+        {
             "id": "https://www.youtube.com/watch?v=qC846rQYzKA",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=qC846rQYzKA",
@@ -3270,6 +3427,15 @@
                 "関数解析",
                 "微分方程式論"
             ]
+        },
+        {
+            "id": "https://engineering.linecorp.com/ja/blog/sigmod2022",
+            "content_html": "",
+            "url": "https://engineering.linecorp.com/ja/blog/sigmod2022",
+            "title": "SIGMOD2022 参加報告 | LINE ENGINEERING Feed ja",
+            "date_modified": "2022-08-17T04:00:00.000Z",
+            "date_published": "2022-08-17T04:00:00.000Z",
+            "tags": []
         },
         {
             "id": "https://rheb.hatenablog.com/entry/2022/08/17/122821",
@@ -4109,20 +4275,20 @@
             "tags": []
         },
         {
-            "id": "https://engineering.linecorp.com/ja/blog/automating-baremetal-setup",
-            "content_html": "",
-            "url": "https://engineering.linecorp.com/ja/blog/automating-baremetal-setup",
-            "title": "Argo Workflowsを使ってLINEのBaremetalセットアップを自動化した話 | LINE ENGINEERING Feed ja",
-            "date_modified": "2022-08-15T01:00:00.000Z",
-            "date_published": "2022-08-15T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://developers.microad.co.jp/entry/2022/08/15/100000",
             "content_html": "はじめに こんにちは。マイクロアドでサーバサイドエンジニアをしているカマタです。主に MicroAd COMPASS*1 の開発をしています。 この記事では、レポートデータの整合性を保つために COMPASS レポートシステムで行われた改善について説明します。 改善前 広告のインプレッション数、クリック数、リクエスト数などに関するレポートは COMPASS 管理画面のレポート画面で表示されるだけではなく、仕様に従ってこれらのレポートをメディアおよび DSP パートナーごとの仕様に合わせて共有されています。このレポートデータはアプリケーションからサーバーに出力されたデータから集計されています。 …",
             "url": "https://developers.microad.co.jp/entry/2022/08/15/100000",
             "title": "データ欠損を検知してデータ整合性を改善した話 | MicroAd Developers Blog",
             "summary": "はじめに こんにちは。マイクロアドでサーバサイドエンジニアをしているカマタです。主に MicroAd COMPASS*1 の開発をしています。 この記事では、レポートデータの整合性を保つために COMPASS レポートシステムで行われた改善について説明します。 改善前 広告のインプレッション数、クリック数、リクエスト数などに関するレポートは COMPASS 管理画面のレポート画面で表示されるだけで...",
+            "date_modified": "2022-08-15T01:00:00.000Z",
+            "date_published": "2022-08-15T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://engineering.linecorp.com/ja/blog/automating-baremetal-setup",
+            "content_html": "",
+            "url": "https://engineering.linecorp.com/ja/blog/automating-baremetal-setup",
+            "title": "Argo Workflowsを使ってLINEのBaremetalセットアップを自動化した話 | LINE ENGINEERING Feed ja",
             "date_modified": "2022-08-15T01:00:00.000Z",
             "date_published": "2022-08-15T01:00:00.000Z",
             "tags": []
@@ -4954,26 +5120,6 @@
             "tags": []
         },
         {
-            "id": "https://techracho.bpsinc.jp/?p=77566",
-            "content_html": "更新情報 2019/07/12: 初版公開 2022/08/10: 更新 &:メソッド名はブロック変数渡しより若干高速 Use fast ruby idioms by oniofchaos · Pull Request #32337 · rails/railsのしょっぱなに、ブロック変数を用いるブロック渡しより、&:メソッド名渡しの方が高速だと説明されています。 引用元: fast-ruby/block-vs-to_proc.rb at master · JuanitoFatas/fast-ruby require 'benchmark/ip […] The post Ruby: ‘&:メソッド名’はブロック変数渡しより若干高速 first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/hachi8833/2022_08_10/77566",
-            "title": "Ruby: ‘&:メソッド名’はブロック変数渡しより若干高速 | TechRacho",
-            "summary": "更新情報 2019/07/12: 初版公開 2022/08/10: 更新 &:メソッド名はブロック変数渡しより若干高速 Use fast ruby idioms by oniofchaos · Pull Request #32337 · rails/railsのしょっぱなに、ブロック変数を用いるブロック渡しより、&:メソッド名渡しの方が高速だと説明されています。 引用元: fast-ruby/bl...",
-            "date_modified": "2022-08-10T09:08:47.000Z",
-            "date_published": "2022-08-10T09:08:47.000Z",
-            "author": {
-                "name": "hachi8833"
-            },
-            "tags": [
-                "Ruby / Rails関連",
-                "macOS",
-                "Proc",
-                "Ruby",
-                "Ubuntu",
-                "ブロック"
-            ]
-        },
-        {
             "id": "https://www.youtube.com/watch?v=xIrw0BQzF5M",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=xIrw0BQzF5M",
@@ -5170,6 +5316,19 @@
             "summary": "技術選定というと、世の中のデファクトだとか、新しい技術だとか、社内で実績のある枯れた技術とか色々な理由や基準で選ぶのが良いと、至るところで言われていると思います。 選定時に議論が平行線にならないように、判断基準を設けるべきというのもあるでしょう。 これらは重要であり、検討、準備することは必要ですが、それに加えて「正解にする力」というのも重要なのではないか？という提案です。",
             "date_modified": "2022-08-10T04:48:44.000Z",
             "date_published": "2022-08-10T04:48:44.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/ai_scholar/status/1557202165210705920#m",
+            "content_html": "アーキテクチャの比較により探索を行うContrastive Neural Architecture Search (CTNAS)手法を提案しています。アーキテクチャの比較という形で探索したアーキテクチャの評価を行うことで、絶対的なアーキテクチャの性能評価を必要としないため、評価精度の向上が見込めます。 ai-scholar.tech/articles/nas…",
+            "url": "https://nitter.net/ai_scholar/status/1557202165210705920#m",
+            "title": "RT by @ai_scholar: アーキテクチャの比較により探索を行うContrastive Neural Architecture Search (CTNAS)手法を提案しています。アーキテクチャの比較という形で探索したアーキテクチャの評価を行うことで、絶対的なアーキテクチャの性能評価を必要としないため、評価精度の向上が見込めます。\nhttps://ai-scholar.tech/articles/nas/CTNAS | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "summary": "アーキテクチャの比較により探索を行うContrastive Neural Architecture Search (CTNAS)手法を提案しています。アーキテクチャの比較という形で探索したアーキテクチャの評価を行うことで、絶対的なアーキテクチャの性能評価を必要としないため、評価精度の向上が見込めます。 ai-scholar.tech/articles/nas…",
+            "date_modified": "2022-08-10T03:08:22.000Z",
+            "date_published": "2022-08-10T03:08:22.000Z",
+            "author": {
+                "name": "@ai_scholar"
+            },
             "tags": []
         },
         {
@@ -5410,30 +5569,6 @@
                 "用語・記号の定義",
                 "大学専門"
             ]
-        },
-        {
-            "id": "hatenablog://entry/4207112889904498188",
-            "content_html": "新型コロナウイルス感染症(COVID-19)のパンデミックに収まる気配が全く見られず、この記事を書いている2022年8月9日時点でも日本はオミクロン系統BA.5変異株を主体とする第七波に見舞われている有様です。東京でも毎日のように2万〜3万人という新規陽性者数が報告され続けていて、各種報道でも「検査体制の飽和（破綻）」が叫ばれるような事態となっています。  で、検査体制が飽和していて「真の陽性者数」が分からないとなると、実際にはどれくらいコロナの感染拡大が深刻化を正確に見積もるのも難しいということになります。そこでオープンデータからある程度真の陽性者数を見積もることが出来ないかなと考えていたら、灯台下暗しということで身近にありました。Googleトレンドの検索トレンドデータです。これである程度特徴的な検索ワードのトレンドを見ることで、実際の感染拡大状況がどれほどのものか見積もれるのではないかと思ったのでした。  ということで、このブログでは珍しいことですが検索トレンドデータに対して簡単な「定性的な分析」を行うことで、コロナの感染拡大状況の推定をしてみようと思います。いつもながらですが、...",
-            "url": "https://tjo.hatenablog.com/entry/2022/08/09/180632",
-            "title": "新型コロナウイルス感染症の「真の」感染拡大状況を検索トレンドから何となく推測してみた | 渋谷駅前で働くデータサイエンティストのブログ",
-            "summary": "新型コロナウイルス感染症(COVID-19)のパンデミックに収まる気配が全く見られず、この記事を書いている2022年8月9日時点でも日本はオミクロン系統BA.5変異株を主体とする第七波に見舞われている有様です。東京でも毎日のように2万〜3万人という新規陽性者数が報告され続けていて、各種報道でも「検査体制の飽和（破綻）」が叫ばれるような事態となっています。  で、検査体制が飽和していて「真の陽性者数...",
-            "date_modified": "2022-08-09T09:06:32.000Z",
-            "date_published": "2022-08-09T09:06:32.000Z",
-            "tags": [
-                "データ分析",
-                "時系列分析",
-                "雑感"
-            ]
-        },
-        {
-            "id": "https://tech.layerx.co.jp/entry/2022/08/09/170057",
-            "content_html": "LayerX は「Designship 2022」をSUPPORTERプランにて応援させていただきます！ Designshipとは Designshipとは『物語の力でデザインの壁を越える』をコンセプトにした日本最大級のデザインカンファレンスです。 デジタル・グラフィック・プロダクト領域の「デザイン」は、来たるべき第四次産業革命において融合されるべきものであり、それぞれのデザイナーとしての知見は業界を超えて共有できるものが多いにも関わらず、デザインコミュニティは業界内で閉じている傾向にあります。 カンファレンス「Designship」は、そんな分断されたデザイナーたちが壁を越えて一同に会し、学…",
-            "url": "https://tech.layerx.co.jp/entry/2022/08/09/170057",
-            "title": "Designship 2022にSUPPORTERプランにて協賛します | LayerX エンジニアブログ",
-            "summary": "LayerX は「Designship 2022」をSUPPORTERプランにて応援させていただきます！ Designshipとは Designshipとは『物語の力でデザインの壁を越える』をコンセプトにした日本最大級のデザインカンファレンスです。 デジタル・グラフィック・プロダクト領域の「デザイン」は、来たるべき第四次産業革命において融合されるべきものであり、それぞれのデザイナーとしての知見は業...",
-            "date_modified": "2022-08-09T08:00:57.000Z",
-            "date_published": "2022-08-09T08:00:57.000Z",
-            "tags": []
         },
         {
             "id": "21903",
