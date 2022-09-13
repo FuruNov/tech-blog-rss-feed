@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 13 Sep 2022 03:56:24 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Sep 2022 06:31:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,30 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[電子書籍機能のPDF対応をしたときに技術的に苦労したあれこれ | Yappli Tech Blog]]></title>
+            <link>https://tech.yappli.io/entry/book-pdf</link>
+            <guid>https://tech.yappli.io/entry/book-pdf</guid>
+            <pubDate>Tue, 13 Sep 2022 06:31:21 GMT</pubDate>
+            <description><![CDATA[こんにちは サーバーサイドエンジニアの武井です。 今回はYappliの電子書籍機能でPDF対応をしたときに経験したこと苦労した点などをご紹介します。 電子書籍機能へのPDF対応は少し前の2021年3月にリリースされました。それまでYappliの電子書籍機能では画像ファイルをCMSから1枚1枚登録するしかありませんでした。Yappliをお使いいただいているお客様にはすでにPDFで作成された文章データ...]]></description>
+            <content:encoded><![CDATA[こんにちは サーバーサイドエンジニアの武井です。 今回はYappliの電子書籍機能でPDF対応をしたときに経験したこと苦労した点などをご紹介します。 電子書籍機能へのPDF対応は少し前の2021年3月にリリースされました。それまでYappliの電子書籍機能では画像ファイルをCMSから1枚1枚登録するしかありませんでした。Yappliをお使いいただいているお客様にはすでにPDFで作成された文章データやカタログデータをお持ちの場合が多く、PDFを電子書籍機能に直接入稿したいというニーズはかなり高くありましたのでPDF対応は必然であったと言えます。 当初はPDFを表示するライブラリをアプリ側に導入す…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Podmanでcode-serverのcontainerを起動しサービスとして公開する方法 | 赤帽エンジニアブログ]]></title>
+            <link>https://rheb.hatenablog.com/entry/2022/09/13/152350</link>
+            <guid>https://rheb.hatenablog.com/entry/2022/09/13/152350</guid>
+            <pubDate>Tue, 13 Sep 2022 06:23:50 GMT</pubDate>
+            <description><![CDATA[目的 仕事の中でお客様にワークショップを行うための開発環境を提供する場面があって、検討した結果、 ブラウザでhttpsでvscodeが使えるようにした。メリットは以下です。 お客様のセキュリティ対策で遮断される可能性が低い 開発環境としての利便性が高い extensionをインストールして使い勝手を良くすることができる 開発環境の構築内容が自由 nodejs、python、事前にインストールするe...]]></description>
+            <content:encoded><![CDATA[目的 仕事の中でお客様にワークショップを行うための開発環境を提供する場面があって、検討した結果、 ブラウザでhttpsでvscodeが使えるようにした。メリットは以下です。 お客様のセキュリティ対策で遮断される可能性が低い 開発環境としての利便性が高い extensionをインストールして使い勝手を良くすることができる 開発環境の構築内容が自由 nodejs、python、事前にインストールするextensionなどContainerfileで自由に変更可能 構築方法 全体概要図 前提条件 下記ツールがインストールされていること podman podman-compose podman-des…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[camelCaseで来るリクエストパラメータのキーをRailsではsnake_caseで参照できるようにした話 | リーナーテックブログさんのフィード]]></title>
+            <link>https://zenn.dev/leaner_tech/articles/20220909-camel_case_to_snake_case</link>
+            <guid>https://zenn.dev/leaner_tech/articles/20220909-camel_case_to_snake_case</guid>
+            <pubDate>Tue, 13 Sep 2022 04:10:26 GMT</pubDate>
+            <description><![CDATA[Leaner Tecnologies 開発チームの RKTM です。 この記事では、フロントエンドはリクエストパラメータのキーを camelCase で送り、Rails 側ではそれを snake_case で参照できるようにした、という話をします。   バックエンドとフロントエンドでケースの不一致が引き起こす問題 現在開発中の Leaner 購買というプロダクトは下記の構成となっています。  バッ...]]></description>
+            <content:encoded><![CDATA[Leaner Tecnologies 開発チームの RKTM です。 この記事では、フロントエンドはリクエストパラメータのキーを camelCase で送り、Rails 側ではそれを snake_case で参照できるようにした、という話をします。   バックエンドとフロントエンドでケースの不一致が引き起こす問題 現在開発中の Leaner 購買というプロダクトは下記の構成となっています。  バックエンド： Ruby/Rails フロントエンド： TypeScript/React  一般的に、Ruby では Hash のキーは snake_case、TypeScript ではオブジェクト...]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Kindleストアで2万冊以上が最大50％還元！ ポイントキャンペーン実施中／『僕の心のヤバイやつ』『魔入りました！入間くん』など人気コミックス多数【Book Watch/セール情報】 | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/bookwatch/sale/1439351.html</link>
@@ -123,6 +147,14 @@
             <content:encoded><![CDATA[こんにちは！お絵描きできるエンジニアのcw-ozakiです。 最近はAIアートが流行っていますね。お絵描き好きとしては乗るしかない！このビッグウェーブに！！！ というわけでChatworkとGoogle Colaboratoryを使ってMidJourneyライクなChatOpsでAIアートを作れる環境を作ってみたのでその手法を紹介してみます。 まぁ、MidJourney使ったことないのであってるかは知らないんですけどね。 事前準備 Chatwork Hugging Face ngrok Google 各種アカウントを作成しましょう。 特に理由はないけどChatworkはビジネスアカウントにする…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[RubyKaigi 2022 参加レポートとRuby 3.2.0の注目機能 | OPTiM TECH BLOG]]></title>
+            <link>https://tech-blog.optim.co.jp/entry/2022/09/13/110000?utm_source=feed</link>
+            <guid>https://tech-blog.optim.co.jp/entry/2022/09/13/110000?utm_source=feed</guid>
+            <pubDate>Tue, 13 Sep 2022 02:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに はじめまして。Optimal Biz開発チームの石元と戸舘です。私達は業務では主にRubyを使ってWebアプリケーションの開発をしています。 9/8~10に開催されたRubyKaigi 2022に参加してきたので、今回は会場の雰囲気や新しく公開されたRuby 3.2.0の注目機能についてレポートしていきます。 RubyKaigi 2022について(石元) RubyKaigiは毎年開催され...]]></description>
+            <content:encoded><![CDATA[はじめに はじめまして。Optimal Biz開発チームの石元と戸舘です。私達は業務では主にRubyを使ってWebアプリケーションの開発をしています。 9/8~10に開催されたRubyKaigi 2022に参加してきたので、今回は会場の雰囲気や新しく公開されたRuby 3.2.0の注目機能についてレポートしていきます。 RubyKaigi 2022について(石元) RubyKaigiは毎年開催されるRubyの開発者やコミッターが集まるイベントです。昨年は昨今の情勢もありオンライン開催となりましたが、今年はオンライン、オフラインのハイブリッドでの開催となりました。 開催が三重県ということで、今年…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[設計の大事さを3週間で学んだインターン | Retty Tech Blog]]></title>
             <link>https://engineer.retty.me/entry/2022/09/13/110000?utm_source=feed</link>
             <guid>https://engineer.retty.me/entry/2022/09/13/110000?utm_source=feed</guid>
@@ -191,6 +223,14 @@
             <pubDate>Tue, 13 Sep 2022 01:07:59 GMT</pubDate>
             <description><![CDATA[みなさん、こんにちは。イノベーションLABのハヤシです。 暑い日のひんやりした夜が好きです。 さて、イノベーションLABでは今期から、社内の技術開拓に力を入れています。 先日 HubSpot でブラウザからランディングページを作成する方法についての記事を公開しました。 blog.css-net.co.jp 今回は HubSpot の CMS 機能をローカルで開発する方法ついてご紹介したいと思います...]]></description>
             <content:encoded><![CDATA[みなさん、こんにちは。イノベーションLABのハヤシです。 暑い日のひんやりした夜が好きです。 さて、イノベーションLABでは今期から、社内の技術開拓に力を入れています。 先日 HubSpot でブラウザからランディングページを作成する方法についての記事を公開しました。 blog.css-net.co.jp 今回は HubSpot の CMS 機能をローカルで開発する方法ついてご紹介したいと思います。 はじめに - HubSpot CMS とは 前提作業 アカウント作成 VSCode インストール Node.js インストール HubSpot CLI インストールと初期設定 プロジェクトの作成 …]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[OPA/Regoによる汎用的なGo言語の静的解析 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/mizutani/articles/go-static-analysis-with-rego</link>
+            <guid>https://zenn.dev/mizutani/articles/go-static-analysis-with-rego</guid>
+            <pubDate>Tue, 13 Sep 2022 00:55:57 GMT</pubDate>
+            <description><![CDATA[TL; DR  Go言語は様々な静的解析ツールがあるが、独自ルールのチェックなどをするには都度ツールを自作する必要がある 1つのツールでより汎用的なチェックができるように、汎用ポリシー言語のRegoでGo言語のAST（抽象構文木）を検査できるようにした  https://github.com/m-mizutani/goast  「第一引数に必ずcontext.Contextをとる」というルールをC...]]></description>
+            <content:encoded><![CDATA[TL; DR  Go言語は様々な静的解析ツールがあるが、独自ルールのチェックなどをするには都度ツールを自作する必要がある 1つのツールでより汎用的なチェックができるように、汎用ポリシー言語のRegoでGo言語のAST（抽象構文木）を検査できるようにした  https://github.com/m-mizutani/goast  「第一引数に必ずcontext.Contextをとる」というルールをCIでチェックした様子   背景 Go言語では様々な静的解析ツールが提供されており、一般的なベストプラクティスが正しく記述されているか？については既存の静的解析ツールを利用することで概ね必要な...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Top Posts August 29 – September 11: Free Python for Data Science Course | KDnuggets]]></title>
@@ -301,8 +341,8 @@
             <link>https://forest.watch.impress.co.jp/docs/news/1439367.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/news/1439367.html</guid>
             <pubDate>Mon, 12 Sep 2022 19:29:32 GMT</pubDate>
-            <description><![CDATA[米Appleは9月13日（現地時間）、「iOS 16」の提供を開始した。今回のアップデートは、1年ぶりのメジャーバージョンアップ。今年6月に開催された開発者向けのイベント「WWDC 2022」で発表され、一般ユーザー向けのプレビューが行われていた。]]></description>
-            <content:encoded><![CDATA[米Appleは9月13日（現地時間）、「iOS 16」の提供を開始した。今回のアップデートは、1年ぶりのメジャーバージョンアップ。今年6月に開催された開発者向けのイベント「WWDC 2022」で発表され、一般ユーザー向けのプレビューが行われていた。]]></content:encoded>
+            <description><![CDATA[米Appleは9月13日（日本時間）、「iOS 16」の提供を開始した。今回のアップデートは、1年ぶりのメジャーバージョンアップ。今年6月に開催された開発者向けのイベント「WWDC 2022」で発表され、一般ユーザー向けのプレビューが行われていた。]]></description>
+            <content:encoded><![CDATA[米Appleは9月13日（日本時間）、「iOS 16」の提供を開始した。今回のアップデートは、1年ぶりのメジャーバージョンアップ。今年6月に開催された開発者向けのイベント「WWDC 2022」で発表され、一般ユーザー向けのプレビューが行われていた。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Amazon and Harvard launch alliance to advance research in quantum networking | Amazon Science homepage]]></title>
@@ -321,6 +361,14 @@
             <content:encoded><![CDATA[Standard Deviation is one of the most underrated statistical tools out there. It’s an extremely useful metric that most people know how to calculate but very few know how to use effectively.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Python</category>
+        </item>
+        <item>
+            <title><![CDATA[東京Node学園40時限目で話をしてきました | フューチャー技術ブログ]]></title>
+            <link>https://future-architect.github.io/articles/20220913a/</link>
+            <guid>https://future-architect.github.io/articles/20220913a/</guid>
+            <pubDate>Mon, 12 Sep 2022 15:00:00 GMT</pubDate>
+            <description><![CDATA[<img src="/images/20220913a/2022-09-05_21.02.24.png" alt="" width="1200" height="544" loading="lazy">  <p>オンライン開催された<a]]></description>
+            <content:encoded><![CDATA[<img src="/images/20220913a/2022-09-05_21.02.24.png" alt="" width="1200" height="544" loading="lazy">  <p>オンライン開催された<a]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[80. PRと広報、エンジニア向け採用広報 w/ r1ccha | fukabori.fm]]></title>
@@ -454,6 +502,19 @@
             <pubDate>Mon, 12 Sep 2022 07:47:05 GMT</pubDate>
             <description><![CDATA[元女子高生AIりんななどを運営するAIキャラクター開発企業rinna株式会社は9月9日、テキストの指示に従ってAIが画像を生成する「Stable Diffusion」を日本語に特化させた画像生成モデル「Japanese Stable Diffusion」を開発したことを発表した。現在、AIモデルライブラリ「Hugging Face」やGitHubからダウンロードできる。]]></description>
             <content:encoded><![CDATA[元女子高生AIりんななどを運営するAIキャラクター開発企業rinna株式会社は9月9日、テキストの指示に従ってAIが画像を生成する「Stable Diffusion」を日本語に特化させた画像生成モデル「Japanese Stable Diffusion」を開発したことを発表した。現在、AIモデルライブラリ「Hugging Face」やGitHubからダウンロードできる。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PHP Conference Japan 2022にランサーズのエンジニアが登壇&協賛します！ | ランサーズ（Lancers）エンジニアブログ]]></title>
+            <link>https://engineer.blog.lancers.jp/php/php-conference-japan-2022/</link>
+            <guid>https://engineer.blog.lancers.jp/?p=13086</guid>
+            <pubDate>Mon, 12 Sep 2022 06:52:57 GMT</pubDate>
+            <description><![CDATA[2022/9/24(土)～25(日)に開催されるPHP Conference Japan 2022にてランサーズに所属する3名のエンジニアが登壇します。 ランサ… PHP Conference Japan 2022にランサーズのエンジニアが登壇&協賛します！ first appeared on ランサーズ（Lancers）エンジニアブログ.]]></description>
+            <content:encoded><![CDATA[2022/9/24(土)～25(日)に開催されるPHP Conference Japan 2022にてランサーズに所属する3名のエンジニアが登壇します。 ランサ… PHP Conference Japan 2022にランサーズのエンジニアが登壇&協賛します！ first appeared on ランサーズ（Lancers）エンジニアブログ.]]></content:encoded>
+            <category>DevOps</category>
+            <category>PHP</category>
+            <category>イベント／登壇</category>
+            <category>PHPカンファレンス</category>
+            <category>イベント</category>
         </item>
         <item>
             <title><![CDATA[【Linux】今日から使えるgrepコマンド | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
@@ -1131,8 +1192,8 @@ cvpaper.challengeは素晴らしいし、日本のCV研究のレベルをあげ�
             <link>https://moneyforward.com/engineers_blog/2022/09/11/iosdc-2022-day0/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10565</guid>
             <pubDate>Sat, 10 Sep 2022 15:34:16 GMT</pubDate>
-            <description><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...]]></description>
-            <content:encoded><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアとデザイナーの相互理解  Create JSON Web Tokens with signatures by ECDSA_SHA algorithms signed by AWS KMS keys with python  Railsのnew_framework_defaultsとの向き合い方  お知らせ: 『toCでは出来ないがtoBで出来る事〜ビジネスの複雑さへ立ち向かえ〜』に登壇します  すぐに始められる！GitHubコミュニケーションでチームの情報共有コストを下げよう   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に...]]></content:encoded>
+            <description><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 公用語...]]></description>
+            <content:encoded><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  中学生ハルキのエンジニア体験記  【ランチタイム活用】仲間とビデオ勉強会をしよう！  オフィスの便利ツール紹介：拠点間の常時接続Webミーティング  Kubernetesクラスタ上で動かすSidekiqに対してヘルスチェックを導入した話   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1184,6 +1245,22 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
             <pubDate>Sat, 10 Sep 2022 11:43:28 GMT</pubDate>
             <description><![CDATA[LAMP開発の学習のため、WEB上で旅のしおりページを作れるサービスを制作しました。  どんなサービスか  サイトはこちら → http://oshitabinote.com/main.php  * WE…]]></description>
             <content:encoded><![CDATA[LAMP開発の学習のため、WEB上で旅のしおりページを作れるサービスを制作しました。  どんなサービスか  サイトはこちら → http://oshitabinote.com/main.php  * WE…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[私的Arch Linuxインストール講座 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/ytjvdcm/articles/0efb9112468de3</link>
+            <guid>https://zenn.dev/ytjvdcm/articles/0efb9112468de3</guid>
+            <pubDate>Sat, 10 Sep 2022 10:45:12 GMT</pubDate>
+            <description><![CDATA[身内ネタてんこ盛りのArch Linux布教記事を書いたら、Arch LinuxでGoogle検索すると何故か上から5番目ぐらいに出てくるようになってたので、身内ネタを極力削いで書き直したいと思います。 あと、なんか最近archinstallなるものが付属するようになったらしいですが、正直そっちはあまり触ってないので普通のインストール方法で行きます。   そもそもArch Linuxとは?  シン...]]></description>
+            <content:encoded><![CDATA[身内ネタてんこ盛りのArch Linux布教記事を書いたら、Arch LinuxでGoogle検索すると何故か上から5番目ぐらいに出てくるようになってたので、身内ネタを極力削いで書き直したいと思います。 あと、なんか最近archinstallなるものが付属するようになったらしいですが、正直そっちはあまり触ってないので普通のインストール方法で行きます。   そもそもArch Linuxとは?  シンプル、軽量なディストリビューション Arch Linux のウェブサイトにようこそ。Keep It Simple を標榜する、軽量で柔軟性に優れた Linux® ディストリビューションです。 ...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Waifu Diffusionをローカル環境で動かした手順 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/johnkf/articles/bb89cdd60a175b</link>
+            <guid>https://zenn.dev/johnkf/articles/bb89cdd60a175b</guid>
+            <pubDate>Sat, 10 Sep 2022 09:36:53 GMT</pubDate>
+            <description><![CDATA[Google Colabで実行するだけのほうが楽ではありますが ローカル環境のほうがvram多いGPU積んだのでせっかくなので使いたい人とか向けの記事。 ※Colabを使用したい方はこちらから"Open in Colab"でノートブックが開けますので ひたすらそれを実行すると良いです。 https://huggingface.co/hakurei/waifu-diffusion ローカル環境 -U...]]></description>
+            <content:encoded><![CDATA[Google Colabで実行するだけのほうが楽ではありますが ローカル環境のほうがvram多いGPU積んだのでせっかくなので使いたい人とか向けの記事。 ※Colabを使用したい方はこちらから"Open in Colab"でノートブックが開けますので ひたすらそれを実行すると良いです。 https://huggingface.co/hakurei/waifu-diffusion ローカル環境 -Ubuntu 20.04 -RTX 3090   1 Waifu-diffusionからリポジトリをローカル環境にクローンする。 https://github.com/harubaru/waifu...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ABDUCTION デザインエンジニアについての観察と考察 | Zennのトレンド]]></title>
@@ -1252,23 +1329,7 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
             <content:encoded><![CDATA[こんにちは、エキサイト株式会社しばたにえんです。 ORDER BY DESCを使わずに逆順ソートする裏技を紹介します。 問題点 MySQL8.0未満だと降順インデックスを貼ることができず、キー値は昇順で入るためDESCでソートする際にパフォーマンスが低下してしまう。 通常のORDER BY DESCを使ったSELECT例 テーブル作成 CREATE TABLE `sample_comment`( `sample_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'sampleテーブルの主キー', `comment` text NOT…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Kaggleで金融コンペを開催するための(僕が知っている)すべて | Zennのトレンド]]></title>
-            <link>https://zenn.dev/gamella/articles/eaf7fe5a96bdf0</link>
-            <guid>https://zenn.dev/gamella/articles/eaf7fe5a96bdf0</guid>
-            <pubDate>Sat, 10 Sep 2022 02:22:26 GMT</pubDate>
-            <description><![CDATA[はじめに 先週からマケデコというMarket APIのDeveloper Communityの運営をスタートしており、その中で我々が問題設計を担当した以下のKaggleコンペにおいて どのような問題設計と実際にどうやって解いてみたのか？ という質問を頂きました。 この記事では、そのあたりについてKaggleで金融コンペを開催するための(僕が知っている)すべてを記載してみようと思います。 https...]]></description>
-            <content:encoded><![CDATA[はじめに 先週からマケデコというMarket APIのDeveloper Communityの運営をスタートしており、その中で我々が問題設計を担当した以下のKaggleコンペにおいて どのような問題設計と実際にどうやって解いてみたのか？ という質問を頂きました。 この記事では、そのあたりについてKaggleで金融コンペを開催するための(僕が知っている)すべてを記載してみようと思います。 https://www.kaggle.com/competitions/jpx-tokyo-stock-exchange-prediction/ もし、このような話に興味があればマケデコDiscord...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[デザイントークンを自動補完するVS Code拡張機能を開発しました | Ubie, Inc.さんのフィード]]></title>
-            <link>https://zenn.dev/ubie/articles/ubie-desing-tokens-for-vscode</link>
-            <guid>https://zenn.dev/ubie/articles/ubie-desing-tokens-for-vscode</guid>
-            <pubDate>Sat, 10 Sep 2022 02:22:25 GMT</pubDate>
-            <description><![CDATA[Ubie Discoveryでプロダクト開発をしている@jimboです。 Ubieでは、デザイン生産基盤の整備の一環としてデザイントークンを開発し、npmに公開しています。開発の経緯などは次の記事をごらんください。 https://zenn.dev/ubie/articles/7a6413af237eae 今回、このデザイントークン用のVS Code拡張機能を開発したのでご紹介します。 リポジトリ...]]></description>
-            <content:encoded><![CDATA[Ubie Discoveryでプロダクト開発をしている@jimboです。 Ubieでは、デザイン生産基盤の整備の一環としてデザイントークンを開発し、npmに公開しています。開発の経緯などは次の記事をごらんください。 https://zenn.dev/ubie/articles/7a6413af237eae 今回、このデザイントークン用のVS Code拡張機能を開発したのでご紹介します。 リポジトリはこちら。 https://github.com/ubie-oss/design-tokens-for-vscode   主な機能 CSSファイルおよびSCSSファイルの編集時に次のような機能が...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[デザイントークンを自動補完するVS Code拡張機能を開発しました | Zennのトレンド]]></title>
             <link>https://zenn.dev/ubie/articles/ubie-desing-tokens-for-vscode</link>
             <guid>https://zenn.dev/ubie/articles/ubie-desing-tokens-for-vscode</guid>
             <pubDate>Sat, 10 Sep 2022 02:22:25 GMT</pubDate>
@@ -1292,14 +1353,6 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
             <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、距離空間の球面が閉集合であることの証明を紹介します。 証明 距離空間\((X,d)\)において、中心\(a \in X\)、半径\(r>0\)の ... 距離空間の球面が閉集合であることの証明 first appeared on 趣味の大学数学.]]></description>
             <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、距離空間の球面が閉集合であることの証明を紹介します。 証明 距離空間\((X,d)\)において、中心\(a \in X\)、半径\(r>0\)の ... 距離空間の球面が閉集合であることの証明 first appeared on 趣味の大学数学.]]></content:encoded>
             <category>位相空間論</category>
-        </item>
-        <item>
-            <title><![CDATA[Next.js, Prisma, GraphQL Code Generator で作るフルスタック Web アプリケーション | Zennのトレンド]]></title>
-            <link>https://zenn.dev/typebase/books/nextjs-prisma-graphql-codegen-webapp</link>
-            <guid>https://zenn.dev/typebase/books/nextjs-prisma-graphql-codegen-webapp</guid>
-            <pubDate>Sat, 10 Sep 2022 00:25:45 GMT</pubDate>
-            <description><![CDATA[おもにNext.js、Prisma、GraphQL Code Generatorを用いたWebアプリケーションの構築手法について解説した書籍となります。 上記技術に加えて、以下の技術も採用しています。  ・Tailwind CSS ・NextAuth.js ・Apollo GraphQL ・Prettier ・ESLint ・Vitest ・React Testing Library ・GitHu...]]></description>
-            <content:encoded><![CDATA[おもにNext.js、Prisma、GraphQL Code Generatorを用いたWebアプリケーションの構築手法について解説した書籍となります。 上記技術に加えて、以下の技術も採用しています。  ・Tailwind CSS ・NextAuth.js ・Apollo GraphQL ・Prettier ・ESLint ・Vitest ・React Testing Library ・GitHub Actions  モダンなWebアプリケーションの開発手法について興味がある方にオススメです。  1章 Next.jsのセットアップ 2章 Prismaのセットアップ 3章 GraphQL Code Generatorのセットアップ 4章 テストコードの追加 5章 本番環境へのデプロイ 6章 次のステップ  サポートページ： https://github.com/typebase-inc/nextjs-prisma-graphql-codegen-webapp-support  ※本書は以下の技術書典で販売している書籍と同様の内容となります。重複購入にご注意ください。 https://te...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Learning to Walk in the Wild from Terrain Semantics | Google AI Blog]]></title>
@@ -2568,8 +2621,8 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/09/07/money-forward-techbook5/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10517</guid>
             <pubDate>Wed, 07 Sep 2022 03:00:53 GMT</pubDate>
-            <description><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新会社...]]></description>
-            <content:encoded><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 新会社「MF KESSAI」はどのような技術・インフラ・体制で開発しているのか  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  Emacs Zshなどを設定した話  MoneyForward Meetupレポート：CISOとインフラ・セキュリティ担当が登壇した交流イベントを開催   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します...]]></content:encoded>
+            <description><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [PR...]]></description>
+            <content:encoded><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [PR]Interface誌2022年5月号に記事を寄稿しました  StepFunctionsを使ってSageMakerエンドポイントのデプロイを実行する  slackに#current_status部屋を作りました  150超のAWSマルチアカウント環境における「AWS SSO」の設定をTerraform管理に移行した話  Rubyアプリのコードレビューを支えるsaddler   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します], All Right Reserv...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2613,6 +2666,21 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
             <pubDate>Wed, 07 Sep 2022 02:30:00 GMT</pubDate>
             <description><![CDATA[おはようございます、bashです。2022年9月7日の朝です。 先日、企業課題別のIT戦略事例を知るオンラインセミナー「IT surf seminar 22」に登壇させていただき、「業務という創作活動がもっと楽しくなる場所をつくる」というワードを公には初めて語りました。 今期はこの「業務という創作活動がもっと楽しくなる場所をつくる」を社内向けにも逆輸入し、テーマとして掲げて活動を進めています。 こ...]]></description>
             <content:encoded><![CDATA[おはようございます、bashです。2022年9月7日の朝です。 先日、企業課題別のIT戦略事例を知るオンラインセミナー「IT surf seminar 22」に登壇させていただき、「業務という創作活動がもっと楽しくなる場所をつくる」というワードを公には初めて語りました。 今期はこの「業務という創作活動がもっと楽しくなる場所をつくる」を社内向けにも逆輸入し、テーマとして掲げて活動を進めています。 このテーマのもと仲間たちと一丸になって、技術基盤整備から組織的な取り組みまで様々硬軟あわせた活動を進めているのですが、そのひとつとして行った大規模ふりかえりの支援事例とその設計技術についてご紹介します。…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Clementine 1.3.1 / 1.4.0 RC 1 (850) | ダウンロードと使い方 | ソフタロウ]]></title>
+            <link>https://softaro.net/clementine/</link>
+            <guid>https://softaro.net/?p=99955</guid>
+            <pubDate>Wed, 07 Sep 2022 02:26:48 GMT</pubDate>
+            <description><![CDATA[よくある質問と回答 ライセンスについて。 Clementine は、どなたでも無料で使用できます。]]></description>
+            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて。 Clementine は、どなたでも無料で使用できます。]]></content:encoded>
+            <category>マルチメディアプレーヤー</category>
+            <category>David Sansome</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Windows</category>
+            <category>フリーソフト</category>
+            <category>音楽再生</category>
         </item>
         <item>
             <title><![CDATA[のんびり学ぶ Figma 〜コンポーネント編〜 (2) | さくらのナレッジ]]></title>
@@ -2674,8 +2742,8 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/09/07/iosdc-2022/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10530</guid>
             <pubDate>Wed, 07 Sep 2022 01:00:07 GMT</pubDate>
-            <description><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ham...]]></description>
-            <content:encoded><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Haml、Sassを使って効率よくコーディングする方法（基礎編）  How to avoid Security Group changes corruption in terraform by applying Open Policy Agents (OPA)?  レビューしやすいコミット履歴でバグ削減  実行中のStepFunctions数をカスタムメトリクスで送信する  表舞台と裏舞台からみたGo Conference 2022 Spring   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇...]]></content:encoded>
+            <description><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Asa...]]></description>
+            <content:encoded><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1  【レポート】MF Geeks Night (2015年4月)  【レポート】オレたちが目指す"最強のエンジニアドリブン" セミナーレポート  セキュリティイベント・活動のご紹介  マネーフォワードからGopherConに参加しました！   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポンサーブース出展のお知らせ], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2862,8 +2930,8 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/09/06/rubykaigi-2022/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10544</guid>
             <pubDate>Tue, 06 Sep 2022 08:00:54 GMT</pubDate>
-            <description><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Ru...]]></description>
-            <content:encoded><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【Ruby】クラウド勤怠におけるゴーストメソッド利用例  Rubyをもっと前へ  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  【レポート速報】Google I/O 2016 - Day1  【レポート】スタートアップのデザイナー集合！ サービスづくりについて語り合う会   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...]]></description>
+            <content:encoded><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる  TensorFlowをビルドしてみた  GraphQL Federationはどのように動かしますか？  Slackのチャンネル名を管理者以外でも変更できるようにしてみた  二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All R...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4923,8 +4991,8 @@ https://ai-scholar.tech/articles/nas/nas-for-iot | AI技術最新情報メディ
             <link>https://moneyforward.com/engineers_blog/2022/08/31/overrapped-attakee/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10502</guid>
             <pubDate>Wed, 31 Aug 2022 01:00:08 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは。 2022年8月からSREグループに所属しております、佐々 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 情報共...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは。 2022年8月からSREグループに所属しております、佐々 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 情報共有ツール(Kibela)の記事をDeepLで自動翻訳できるようにしてみた  マネーフォワード社内PRに見られるRubyの書き方について - (4) 真理値  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  ZapierでSlackMessageをParseして外部システムとつなぐ  エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応   Copyright © Money Forward Engineers' Blog [初転職でも安心！ マネーフォワードの「あったけぇ」仕組みが不安を包み込んでくれる], All Right Res...]]></content:encoded>
+            <description><![CDATA[はじめに こんにちは。 2022年8月からSREグループに所属しております、佐々 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dog...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。 2022年8月からSREグループに所属しております、佐々 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DogStatsDを使った独自メトリクスのDatadog取り込み検証をローカル環境で実施する  エンジニアにとって重要なボルダリングテクニック  地域ユーザーの課題を技術で解決するエックスカンパニーのエンジニア組織について  マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  サーバサイドの進捗に依存しないための Next.js x GraphQL のフロントエンド開発の工夫   Copyright © Money Forward Engineers' Blog [初転職でも安心！ マネーフォワードの「あったけぇ」仕組みが不安を包み込んでくれる], All Righ...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -5148,37 +5216,6 @@ https://ai-scholar.tech/articles/nas/nas-for-iot | AI技術最新情報メディ
             <pubDate>Tue, 30 Aug 2022 07:32:00 GMT</pubDate>
             <description><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 最近社用のPCをIntel MacからM1 Macに変えたのですが、その際にいくつか注意したこと・詰まったことがありました。 今回は、それらについて説明していきます。 M1 Macとは M1 Mac用のアプリケーションを使用する dockerに platform: linux/amd64 を指定する M1 Mac用のライブラリを使用する IPv6を使用...]]></description>
             <content:encoded><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 最近社用のPCをIntel MacからM1 Macに変えたのですが、その際にいくつか注意したこと・詰まったことがありました。 今回は、それらについて説明していきます。 M1 Macとは M1 Mac用のアプリケーションを使用する dockerに platform: linux/amd64 を指定する M1 Mac用のライブラリを使用する IPv6を使用しない（状況次第） 最後に M1 Macとは M1 Macは、従来のIntelが開発したCPUではなく、Appleが開発したCPUを搭載したMacのことです。 Intelに比べてさまざまな面でパフォー…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[[イベントレポート] PHP カンファレンス沖縄 2022に4名のメンバーが登壇・プラチナスポンサーとして協賛しました | ランサーズ（Lancers）エンジニアブログ]]></title>
-            <link>https://engineer.blog.lancers.jp/php/event-report-php-conf-okinawa-2022/</link>
-            <guid>https://engineer.blog.lancers.jp/?p=13016</guid>
-            <pubDate>Tue, 30 Aug 2022 05:54:13 GMT</pubDate>
-            <description><![CDATA[2022/8/27(土)に開催されたPHP Conference Okinawa 2022にてLancersに所属する4名のエンジニアが登壇し5つのセッションで… [イベントレポート] PHP カンファレンス沖縄 2022に4名のメンバーが登壇・プラチナスポンサーとして協賛しました first appeared on ランサーズ（Lancers）エンジニアブログ.]]></description>
-            <content:encoded><![CDATA[2022/8/27(土)に開催されたPHP Conference Okinawa 2022にてLancersに所属する4名のエンジニアが登壇し5つのセッションで… [イベントレポート] PHP カンファレンス沖縄 2022に4名のメンバーが登壇・プラチナスポンサーとして協賛しました first appeared on ランサーズ（Lancers）エンジニアブログ.]]></content:encoded>
-            <category>CakePHP</category>
-            <category>DevOps</category>
-            <category>PHP</category>
-            <category>SRE</category>
-            <category>イベント／登壇</category>
-            <category>PHPカンファレンス</category>
-            <category>イベント</category>
-        </item>
-        <item>
-            <title><![CDATA[必要に迫られて Google Cloud NDB ライブラリにパッチを当てたという話 | VisasQ Dev Blog]]></title>
-            <link>https://tech.visasq.com/patch-to-google-cloud-ndb-lib</link>
-            <guid>https://tech.visasq.com/patch-to-google-cloud-ndb-lib</guid>
-            <pubDate>Tue, 30 Aug 2022 05:52:34 GMT</pubDate>
-            <description><![CDATA[こんにちは。プラットフォーム開発グループのくまがいです。 現在、弊社では大掛かりなシステム刷新のプロジェクトが進行しているのですが、その中で旧システムで利用している Cloud Datastore を移行中の新システム側からもアクセスする必要性が生じたことから、割と泥臭い対応を行ったのでご紹介したいと思います。 前提 要件 調査 対策検討 実施 実装 動作検証 結果 おわりに 前提 旧システムは弊...]]></description>
-            <content:encoded><![CDATA[こんにちは。プラットフォーム開発グループのくまがいです。 現在、弊社では大掛かりなシステム刷新のプロジェクトが進行しているのですが、その中で旧システムで利用している Cloud Datastore を移行中の新システム側からもアクセスする必要性が生じたことから、割と泥臭い対応を行ったのでご紹介したいと思います。 前提 要件 調査 対策検討 実施 実装 動作検証 結果 おわりに 前提 旧システムは弊社の創業から今日に至るまでビジネスの急成長に追従するべく一貫して Google App Engine スタンダード環境 第１世代（以下、GAE と表記）で動作しており、ランタイムは Python2.7…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[HashiTalks: Japan 2022でヤプリのTerraform活用について話しました | Yappli Tech Blog]]></title>
-            <link>https://tech.yappli.io/entry/hashitalks202208</link>
-            <guid>https://tech.yappli.io/entry/hashitalks202208</guid>
-            <pubDate>Tue, 30 Aug 2022 05:25:57 GMT</pubDate>
-            <description><![CDATA[SREチームの羽渕です。 過ごしやすい日も多くなり、ツクツクボウシの鳴き声が秋の訪れを感じさせてくれる今日このごろですね。みなさまいかがお過ごしでしょうか。 さて、今回はHashiCorpのユーザーグループが主体となって世界中で開催されているイベントの日本版である HashiTalks: Japan で、ヤプリにおける Terraform 活用についてお話しする機会を頂き、夏の良い思い出を作る事が...]]></description>
-            <content:encoded><![CDATA[SREチームの羽渕です。 過ごしやすい日も多くなり、ツクツクボウシの鳴き声が秋の訪れを感じさせてくれる今日このごろですね。みなさまいかがお過ごしでしょうか。 さて、今回はHashiCorpのユーザーグループが主体となって世界中で開催されているイベントの日本版である HashiTalks: Japan で、ヤプリにおける Terraform 活用についてお話しする機会を頂き、夏の良い思い出を作る事が出来ましたので紹介させてください。 発表内容自体はアーカイブ動画とスライドがありますので、この記事では主に感想を書きたいと思います。 HashiTalks: Japan https://events.…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[メルカリWebのマイクロサービス化、その4年 | メルカリエンジニアリングブログ]]></title>
