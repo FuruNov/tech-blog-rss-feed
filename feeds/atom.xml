@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2022-09-14T07:44:39.122Z</updated>
+    <updated>2022-09-14T09:35:02.555Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -11,6 +11,89 @@
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
     <entry>
+        <title type="html"><![CDATA[/usr/lib/.build-idってなんだろう? | 赤帽エンジニアブログ]]></title>
+        <id>https://rheb.hatenablog.com/entry/whatisbuildid</id>
+        <link href="https://rheb.hatenablog.com/entry/whatisbuildid"/>
+        <updated>2022-09-14T09:25:09.000Z</updated>
+        <summary type="html"><![CDATA[Red Hatの森若です。 rpmパッケージに含まれるファイル一覧を rpm -ql glibc のようにして表示すると、/usr/lib/.build-id ディレクトリ以下に多数のファイルがあることに気付きます。 「このファイルは何ですか?」 という素朴な疑問に答えるため、背景知識をふくめて紹介していきます。 $ rpm -ql glibc (中略) /lib64/librt.so.1 /li...]]></summary>
+        <content type="html"><![CDATA[Red Hatの森若です。 rpmパッケージに含まれるファイル一覧を rpm -ql glibc のようにして表示すると、/usr/lib/.build-id ディレクトリ以下に多数のファイルがあることに気付きます。 「このファイルは何ですか?」 という素朴な疑問に答えるため、背景知識をふくめて紹介していきます。 $ rpm -ql glibc (中略) /lib64/librt.so.1 /lib64/libthread_db.so.1 /lib64/libutil.so.1 /sbin/ldconfig /usr/lib/.build-id /usr/lib/.build-id/03 /u…]]></content>
+        <published>2022-09-14T09:25:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jsbundling-rails README（翻訳） | TechRacho]]></title>
+        <id>https://techracho.bpsinc.jp/?p=121881</id>
+        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_14/121881"/>
+        <updated>2022-09-14T08:37:35.000Z</updated>
+        <summary type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: https://github.com/rails/jsbundling-rails 原文更新日: 2022/03/30（5e6758f） ライセンス: MIT jsbundling-rails README（翻訳） jsbundling-rails gemは、esbuild、rollup.js、webpackのいずれかを用いてJa...]]></summary>
+        <content type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: https://github.com/rails/jsbundling-rails 原文更新日: 2022/03/30（5e6758f） ライセンス: MIT jsbundling-rails README（翻訳） jsbundling-rails gemは、esbuild、rollup.js、webpackのいずれかを用いてJavaScriptコードをバンドルし、Railsのアセットパイプラインで配信します。このgemが提供するのは、新しいRailsアプリケーションで上述の好みのバンドラーを利用できるインストーラと、バンドルした出力ファイルをG […] The post jsbundling-rails README（翻訳） first appeared on TechRacho.]]></content>
+        <author>
+            <name>hachi8833</name>
+        </author>
+        <category label="Ruby / Rails関連"/>
+        <category label="Ruby on Rails"/>
+        <category label="翻訳記事"/>
+        <published>2022-09-14T08:37:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Railsの技: バリデーションにDBレベルのCHECK制約を使う（翻訳） | TechRacho]]></title>
+        <id>https://techracho.bpsinc.jp/?p=119978</id>
+        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_14/119978"/>
+        <updated>2022-09-14T08:30:23.000Z</updated>
+        <summary type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Rails validations: database level check constraints | Boring Rails: Skip the bullshit and ship fast 原文公開日: 2022/01/18 原著者: Matt Swanson サイト: Boring Rails Railsの技: バリデーション...]]></summary>
+        <content type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Rails validations: database level check constraints | Boring Rails: Skip the bullshit and ship fast 原文公開日: 2022/01/18 原著者: Matt Swanson サイト: Boring Rails Railsの技: バリデーションにDBレベルのCHECK制約を使う（翻訳） Active Recordモデルのバリデーションの背後にデータベースレベルの制約を配置する手法は、Railsの定番の技のひとつです。 バリデーションはスキップされてしまうことも […] The post Railsの技: バリデーションにDBレベルのCHECK制約を使う（翻訳） first appeared on TechRacho.]]></content>
+        <author>
+            <name>hachi8833</name>
+        </author>
+        <category label="Ruby / Rails関連"/>
+        <category label="Ruby on Rails"/>
+        <category label="バリデーション"/>
+        <category label="翻訳記事"/>
+        <published>2022-09-14T08:30:23.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データアナリストがdbtを使って育てるデータマネジメント[連載1/3] | Retty Tech Blog]]></title>
+        <id>https://engineer.retty.me/entry/2022/09/14/172635?utm_source=feed</id>
+        <link href="https://engineer.retty.me/entry/2022/09/14/172635?utm_source=feed"/>
+        <updated>2022-09-14T08:26:35.000Z</updated>
+        <summary type="html"><![CDATA[はじめに データアナリストとして今年中途入社した上野（@hiro_30_1000）です。 本日より、Retty分析チームの連載「#dbtでデータの民主化」を始めます！ この連載では、Rettyのデータアナリストが約3ヶ月間取り組んできた「dbtの導入」を中心テーマとし、 その仕事の裏側、プロセスを公開していきます。 「#dbtでデータの民主化」の公開スケジュール 本日から3週間に渡り、週1回ペース...]]></summary>
+        <content type="html"><![CDATA[はじめに データアナリストとして今年中途入社した上野（@hiro_30_1000）です。 本日より、Retty分析チームの連載「#dbtでデータの民主化」を始めます！ この連載では、Rettyのデータアナリストが約3ヶ月間取り組んできた「dbtの導入」を中心テーマとし、 その仕事の裏側、プロセスを公開していきます。 「#dbtでデータの民主化」の公開スケジュール 本日から3週間に渡り、週1回ペースで記事を公開予定です。 9/14(水)：データアナリストがdbtを使って育てるデータマネジメント 9/21(水)：新卒3ヶ月目にデータ基盤移行PJのPjMになったお話(仮) 9/28(水)：dbt移行…]]></content>
+        <published>2022-09-14T08:26:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenShiftのBlue/Greenクラスターアップグレードの方式を検討する（AWS編） | 赤帽エンジニアブログ]]></title>
+        <id>https://rheb.hatenablog.com/entry/2022/09/14/172356</id>
+        <link href="https://rheb.hatenablog.com/entry/2022/09/14/172356"/>
+        <updated>2022-09-14T08:23:56.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、Red Hatでソリューションアーキテクトをしている北村です。 みなさん、OpenShiftのアップグレードしていますか？Kubernetesを運用する上で避けて通れないのがクラスターのライフサイクル管理です。Kubernetesは従来のプラットフォームよりもバージョンアップの頻度が多くサポート期間が短いので、定期的なバージョンアップ対応が必要になります。そしてそれはKubernete...]]></summary>
+        <content type="html"><![CDATA[こんにちは、Red Hatでソリューションアーキテクトをしている北村です。 みなさん、OpenShiftのアップグレードしていますか？Kubernetesを運用する上で避けて通れないのがクラスターのライフサイクル管理です。Kubernetesは従来のプラットフォームよりもバージョンアップの頻度が多くサポート期間が短いので、定期的なバージョンアップ対応が必要になります。そしてそれはKubernetesのディストリビューションであるOpenShiftも同様です。 しかしクラスターアップグレードを実行する際、インフラの構成やアプリケーションの作り、マニフェストの設定などによってサービス断が発生する可…]]></content>
+        <published>2022-09-14T08:23:56.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[バクラク申請・経費精算 モバイルアプリ開発の裏側 | LayerX エンジニアブログ]]></title>
+        <id>https://tech.layerx.co.jp/entry/2022/09/14/170449</id>
+        <link href="https://tech.layerx.co.jp/entry/2022/09/14/170449"/>
+        <updated>2022-09-14T08:04:49.000Z</updated>
+        <summary type="html"><![CDATA[id:kikuchy です。 先日、いよいよバクラク申請・経費精算のiOS/Androidアプリがリリースされました！ bakuraku.jp bakuraku.jp こちらの２つのアプリ、現在のところ専任のエンジニアはkikuchy一人だけで開発しています。 そのためか、技術スタックは何なのか、クロスプラットフォームフレームワークの技術を使っているのか、といった質問をたくさんいただきました。 ま...]]></summary>
+        <content type="html"><![CDATA[id:kikuchy です。 先日、いよいよバクラク申請・経費精算のiOS/Androidアプリがリリースされました！ bakuraku.jp bakuraku.jp こちらの２つのアプリ、現在のところ専任のエンジニアはkikuchy一人だけで開発しています。 そのためか、技術スタックは何なのか、クロスプラットフォームフレームワークの技術を使っているのか、といった質問をたくさんいただきました。 また、LayerXのモバイルアプリ第一号でもあるため、リリースまでにいろいろな準備が必要でした。 当記事では、どんな準備をしてきたのか、使用技術スタックとその選定、開発の苦労話の一部をお伝えできればと思…]]></content>
+        <published>2022-09-14T08:04:49.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今年も自分 Update!!　 MCPの無料更新試験を通じて、最新の テクノロジーをキャッチアップしよう！ | cloud.config Tech Blog]]></title>
+        <id>https://tech-blog.cloud-config.jp/?p=118164</id>
+        <link href="https://tech-blog.cloud-config.jp/2022-09-14-mcp-exam-update/"/>
+        <updated>2022-09-14T08:00:18.000Z</updated>
+        <summary type="html"><![CDATA[おばんです。Azure認定資格お兄さんこと、荒井です。 今年の３月に書いたブログの続報ブログです。 全国のMCPラバーズの方へ自分のUpdateを定期的にされていますでしょうか。 MCPは合格したら終わりではなく、合格し […] 今年も自分 Update!! MCPの無料更新試験を通じて、最新の テクノロジーをキャッチアップしよう！ first appeared on cloud.config T...]]></summary>
+        <content type="html"><![CDATA[おばんです。Azure認定資格お兄さんこと、荒井です。 今年の３月に書いたブログの続報ブログです。 全国のMCPラバーズの方へ自分のUpdateを定期的にされていますでしょうか。 MCPは合格したら終わりではなく、合格し […] 今年も自分 Update!! MCPの無料更新試験を通じて、最新の テクノロジーをキャッチアップしよう！ first appeared on cloud.config Tech Blog.]]></content>
+        <author>
+            <name>FIXER Inc. 荒井 隆徳</name>
+        </author>
+        <category label="Azure"/>
+        <category label="MCP"/>
+        <category label="自分Update"/>
+        <category label="認定試験"/>
+        <published>2022-09-14T08:00:18.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「軽快な動作」と「高い検出率」で定評のある、マルチプラットフォーム対応の総合セキュリティ対策ソフト 「ESET インターネット セキュリティ」 | 新着ソフトレビュー - Vector]]></title>
         <id>https://www.vector.co.jp/magazine/softnews/171209/n1712091.html?ref=rss</id>
         <link href="https://www.vector.co.jp/magazine/softnews/171209/n1712091.html?ref=rss"/>
@@ -18,6 +101,24 @@
         <summary type="html"><![CDATA[「ESET インターネット セキュリティ」は、家族や友人のデバイスをまとめて保護するのに適した、マルチユーザ対応のセキュリティ対策ソフト。パソコンやモバイル機器をウイルス、不正アクセス、有害サイト、フィッシング詐欺などから守ってくれる。]]></summary>
         <content type="html"><![CDATA[「ESET インターネット セキュリティ」は、家族や友人のデバイスをまとめて保護するのに適した、マルチユーザ対応のセキュリティ対策ソフト。パソコンやモバイル機器をウイルス、不正アクセス、有害サイト、フィッシング詐欺などから守ってくれる。]]></content>
         <published>2022-09-14T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11で音声入力に失敗する問題／サーバー側の変更で解決 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1439974.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1439974.html"/>
+        <updated>2022-09-14T07:45:37.000Z</updated>
+        <summary type="html"><![CDATA[米Microsoftは9月13日（現地時間）、Windows 11で音声入力に失敗する問題が発生していたことを明らかにした。]]></summary>
+        <content type="html"><![CDATA[米Microsoftは9月13日（現地時間）、Windows 11で音声入力に失敗する問題が発生していたことを明らかにした。]]></content>
+        <published>2022-09-14T07:45:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Chrome」は「MiraclePtr」でさらに安全に ～Googleが「解放後メモリ利用」対策を開設／診断性が向上するという副次的効果も | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1439971.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1439971.html"/>
+        <updated>2022-09-14T07:40:19.000Z</updated>
+        <summary type="html"><![CDATA[「Google Chrome」では継続的なセキュリティアップデートが行われているが、そこで修正される脆弱性の多くは「解放後メモリ利用」（Use-after-Free）と呼ばれるタイプのメモリ安全バグだ。開発チームはこの解放後メモリ利用バグに対し、どのような対策を講じているのだろうか。米国時間9月13日に公開された公式ブログ「Google Online Security Blog」の記事では、その詳...]]></summary>
+        <content type="html"><![CDATA[「Google Chrome」では継続的なセキュリティアップデートが行われているが、そこで修正される脆弱性の多くは「解放後メモリ利用」（Use-after-Free）と呼ばれるタイプのメモリ安全バグだ。開発チームはこの解放後メモリ利用バグに対し、どのような対策を講じているのだろうか。米国時間9月13日に公開された公式ブログ「Google Online Security Blog」の記事では、その詳細が紹介されている。]]></content>
+        <published>2022-09-14T07:40:19.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ヌリカエチームのリリース作業を改善してみた | Speee DEVELOPER BLOG]]></title>
@@ -46,6 +147,15 @@
         <category label="ビデオ修復"/>
         <category label="画像修復"/>
         <published>2022-09-14T06:55:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[class-validatorでカスタムバリデータ定義 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/hiroshi-masui/items/8f5070d21556d5ea108f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/hiroshi-masui/items/8f5070d21556d5ea108f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-14T06:38:34.000Z</updated>
+        <summary type="html"><![CDATA[class-validatorで「nullだけ」とか「undefinedだけ」のような独自のバリデーションを実装したい場合に、カスタムバリデータ（カスタムデコレータ）が使えますという備忘録です。  前提 …]]></summary>
+        <content type="html"><![CDATA[class-validatorで「nullだけ」とか「undefinedだけ」のような独自のバリデーションを実装したい場合に、カスタムバリデータ（カスタムデコレータ）が使えますという備忘録です。  前提 …]]></content>
+        <published>2022-09-14T06:38:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AppCompatViewInflaterを使って独自のTextViewをすべての画面に反映する | dely tech blog]]></title>
@@ -348,6 +458,15 @@ https://ai-scholar.tech/articles/adversarial-perturbation/AdvZL | AI技術最新
         <published>2022-09-14T01:02:13.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Vimエディタのゆるくて実用的な使い方 ～差分確認編～ | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/fsd-tetsu/items/2916ec7c11ef8dd14c21?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/fsd-tetsu/items/2916ec7c11ef8dd14c21?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-14T01:01:49.000Z</updated>
+        <summary type="html"><![CDATA[はじめに  Vim エディタは汎用テキストエディタです。使い方を覚えると便利です。  今回は差分確認編です。  尚、面倒なので Vim の基本的な使い方は書きません。😆  具体的な利用シーン   似ている関数…]]></summary>
+        <content type="html"><![CDATA[はじめに  Vim エディタは汎用テキストエディタです。使い方を覚えると便利です。  今回は差分確認編です。  尚、面倒なので Vim の基本的な使い方は書きません。😆  具体的な利用シーン   似ている関数…]]></content>
+        <published>2022-09-14T01:01:49.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CloudNative Security Conference 2022 (CNSec2022) 参加レポート | IDCF テックブログ]]></title>
         <id>https://blog.idcf.jp/entry/CNSec2022</id>
         <link href="https://blog.idcf.jp/entry/CNSec2022"/>
@@ -489,6 +608,15 @@ https://ai-scholar.tech/articles/adversarial-perturbation/AdvZL | AI技術最新
         <published>2022-09-13T17:18:51.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GASをGitHubで管理する方法を調べてみた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/zumi0/items/391d296935df69a1246f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/zumi0/items/391d296935df69a1246f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-13T17:11:25.000Z</updated>
+        <summary type="html"><![CDATA[はじめに  僕がGoogle Apps Script（GAS）を使うときに困ることが、GitHub等で管理できないことでした。調べてみると、GASのスクリプトをGitHubやGitLab、Bitb…]]></summary>
+        <content type="html"><![CDATA[はじめに  僕がGoogle Apps Script（GAS）を使うときに困ることが、GitHub等で管理できないことでした。調べてみると、GASのスクリプトをGitHubやGitLab、Bitb…]]></content>
+        <published>2022-09-13T17:11:25.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ワタクシのテック系ライブ配信環境を紹介します | SIOS Tech. Lab]]></title>
         <id>https://tech-lab.sios.jp/?p=30935</id>
         <link href="https://tech-lab.sios.jp/archives/30935"/>
@@ -600,18 +728,6 @@ https://ai-scholar.tech/articles/adversarial-perturbation/AdvZL | AI技術最新
             <name>Koba</name>
         </author>
         <published>2022-09-13T10:58:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 片岡さんがVision Transformer入門をご恵贈くださいました。ありがとうございます😄チームメンバーで回し読みしてます。まだ読み始めですけど、本当に内容良さそうに感じてます。僕は出張明けに続き読みます〜 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/overlast/status/1569636197831708673#m</id>
-        <link href="https://nitter.net/overlast/status/1569636197831708673#m"/>
-        <updated>2022-09-13T10:36:46.000Z</updated>
-        <summary type="html"><![CDATA[片岡さんがVision Transformer入門をご恵贈くださいました。ありがとうございます😄チームメンバーで回し読みしてます。まだ読み始めですけど、本当に内容良さそうに感じてます。僕は出張明けに続き読みます〜]]></summary>
-        <content type="html"><![CDATA[片岡さんがVision Transformer入門をご恵贈くださいました。ありがとうございます😄チームメンバーで回し読みしてます。まだ読み始めですけど、本当に内容良さそうに感じてます。僕は出張明けに続き読みます〜]]></content>
-        <author>
-            <name>@overlast</name>
-        </author>
-        <published>2022-09-13T10:36:46.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Canvas2Dアニメーション基本のキ | Zennのトレンド]]></title>
@@ -726,6 +842,15 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
         <published>2022-09-13T07:15:37.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Node-RED実行環境としてHerokuの代替え先について検討してみた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/kitazaki/items/970a10cbd1059c89aca5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/kitazaki/items/970a10cbd1059c89aca5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-13T06:52:54.000Z</updated>
+        <summary type="html"><![CDATA[はじめに  2022年8月25日、Herokuの無料プランが廃止されると発表された。    Herokuログイン後に表示されるバナー   https://jp.heroku.com/  詳細へのリンク  http…]]></summary>
+        <content type="html"><![CDATA[はじめに  2022年8月25日、Herokuの無料プランが廃止されると発表された。    Herokuログイン後に表示されるバナー   https://jp.heroku.com/  詳細へのリンク  http…]]></content>
+        <published>2022-09-13T06:52:54.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[メルカリの取引ドメインにおけるモジュラーモノリス化の取り組み | メルカリエンジニアリングブログ]]></title>
         <id>22136</id>
         <link href="https://engineering.mercari.com/blog/entry/20220913-modular-monolithization-in-mercari-transaction-domain/"/>
@@ -826,6 +951,24 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
             <name>リーナーテックブログ</name>
         </author>
         <published>2022-09-13T04:10:26.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[シェル芸が役に立った実例集 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/UKIUKI_ENGINEER/items/b1e5237d004586033547?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/UKIUKI_ENGINEER/items/b1e5237d004586033547?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-13T04:04:19.000Z</updated>
+        <summary type="html"><![CDATA[概要  ここでは、シェル芸がどんな場面で役に立ったか、具体的な事例をひたすら列挙します。 「こんなこともできるのか！」、「これをたった一行のコマンドで処理できるのか！」、「なんか便利そう！」という感…]]></summary>
+        <content type="html"><![CDATA[概要  ここでは、シェル芸がどんな場面で役に立ったか、具体的な事例をひたすら列挙します。 「こんなこともできるのか！」、「これをたった一行のコマンドで処理できるのか！」、「なんか便利そう！」という感…]]></content>
+        <published>2022-09-13T04:04:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the winners of the Meta Towards Trustworthy Products in AR, VR, and Smart Devices and Security Research requests for proposals | Meta Research]]></title>
+        <id>https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-meta-towards-trustworthy-products-in-ar-vr-and-smart-devices-and-security-research-requests-for-proposals/</id>
+        <link href="https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-meta-towards-trustworthy-products-in-ar-vr-and-smart-devices-and-security-research-requests-for-proposals/"/>
+        <updated>2022-09-13T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In April, Meta jointly launched the 2022 Meta Security request for proposals (RFP) and the third annual Towards Trustworthy Products in AR, VR, and Smart Devices RFP...]]></summary>
+        <content type="html"><![CDATA[In April, Meta jointly launched the 2022 Meta Security request for proposals (RFP) and the third annual Towards Trustworthy Products in AR, VR, and Smart Devices RFP...]]></content>
+        <published>2022-09-13T04:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kindleストアで2万冊以上が最大50％還元！ ポイントキャンペーン実施中／『僕の心のヤバイやつ』『魔入りました！入間くん』など人気コミックス多数【Book Watch/セール情報】 | 窓の杜]]></title>
@@ -941,7 +1084,7 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
         <link href="https://creators-note.chatwork.com/entry/2022/09/13/110000"/>
         <updated>2022-09-13T02:00:00.000Z</updated>
         <summary type="html"><![CDATA[こんにちは！お絵描きできるエンジニアのcw-ozakiです。 最近はAIアートが流行っていますね。お絵描き好きとしては乗るしかない！このビッグウェーブに！！！ というわけでChatworkとGoogle Colaboratoryを使ってMidJourneyライクなChatOpsでAIアートを作れる環境を作ってみたのでその手法を紹介してみます。 まぁ、MidJourney使ったことないのであってるか...]]></summary>
-        <content type="html"><![CDATA[こんにちは！お絵描きできるエンジニアのcw-ozakiです。 最近はAIアートが流行っていますね。お絵描き好きとしては乗るしかない！このビッグウェーブに！！！ というわけでChatworkとGoogle Colaboratoryを使ってMidJourneyライクなChatOpsでAIアートを作れる環境を作ってみたのでその手法を紹介してみます。 まぁ、MidJourney使ったことないのであってるかは知らないんですけどね。 事前準備 Chatwork Hugging Face ngrok Google 各種アカウントを作成しましょう。 特に理由はないけどChatworkはビジネスアカウントにする…]]></content>
+        <content type="html"><![CDATA[こんにちは！お絵描きできるエンジニアのcw-ozakiです。 最近はAIアートが流行っていますね。お絵描き好きとしては乗るしかない！このビッグウェーブに！！！ というわけでChatworkとGoogle Colaboratoryを使ってMidJourneyライクなChatOpsでAIアートを作れる環境を作ってみたのでその手法を紹介してみます。 まぁ、MidJourney使ったことないのであってるかは知らないんですけどね。]]></content>
         <published>2022-09-13T02:00:00.000Z</published>
     </entry>
     <entry>
@@ -1179,6 +1322,15 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
         <published>2022-09-12T21:45:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Ruby 3.2 で Struct がチョイ楽になる？ | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/scivola/items/de0190cef772f00cfa3a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/scivola/items/de0190cef772f00cfa3a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2022-09-12T20:15:59.000Z</updated>
+        <summary type="html"><![CDATA[Ruby で構造体的なデータを表すクラスにはいろいろありますが，その代表格は，やはり組込みクラスの Struct ですよね。  たとえば，猿への給餌計画を表す ApeFeed クラスはこんなふうに：  …]]></summary>
+        <content type="html"><![CDATA[Ruby で構造体的なデータを表すクラスにはいろいろありますが，その代表格は，やはり組込みクラスの Struct ですよね。  たとえば，猿への給餌計画を表す ApeFeed クラスはこんなふうに：  …]]></content>
+        <published>2022-09-12T20:15:59.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Apple、「iOS 16」を正式公開 ～無償アップグレードが開始／「ウィジェット」を配置できる新しいロック画面など、多くの新機能と改善を盛り込む | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1439367.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1439367.html"/>
@@ -1227,15 +1379,6 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
         <category label="KDnuggets Originals"/>
         <category label="Python"/>
         <published>2022-09-12T16:00:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript 関数の引数と構造的部分型・公称型 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/ckbys/items/52e0a70958d550e42cb6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/ckbys/items/52e0a70958d550e42cb6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-12T15:09:18.000Z</updated>
-        <summary type="html"><![CDATA[TypeScriptの型判定でよくわかってないところがあったのでまとめます。 今回は構造的部分型と公称型についてなのですが、自分が慣れてたのは公称型の考えだったようでTypeScriptで間違いまく…]]></summary>
-        <content type="html"><![CDATA[TypeScriptの型判定でよくわかってないところがあったのでまとめます。 今回は構造的部分型と公称型についてなのですが、自分が慣れてたのは公称型の考えだったようでTypeScriptで間違いまく…]]></content>
-        <published>2022-09-12T15:09:18.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[東京Node学園40時限目で話をしてきました | フューチャー技術ブログ]]></title>
@@ -1291,20 +1434,6 @@ https://ai-scholar.tech/articles/image-recognition/revisiting_weakly_supervised 
         <published>2022-09-12T14:00:17.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: Vision Transformer入門をご恵贈賜りました！
-ViTに至るまでの背景から最新のViT関連と、わかりそうでわからなかったTransformerの細かい話、さらにはV&Lへの適用についての発展と、大ボリュームです！
-Transformer流行ってるけど、どうにか最速で理解したい！という人に最適だと思います💪 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/maguroIsland/status/1569324937827225601#m</id>
-        <link href="https://nitter.net/maguroIsland/status/1569324937827225601#m"/>
-        <updated>2022-09-12T13:59:56.000Z</updated>
-        <summary type="html"><![CDATA[Vision Transformer入門をご恵贈賜りました！ ViTに至るまでの背景から最新のViT関連と、わかりそうでわからなかったTransformerの細かい話、さらにはV&Lへの適用についての発展と、大ボリュームです！ Transformer流行ってるけど、どうにか最速で理解したい！という人に最適だと思います💪]]></summary>
-        <content type="html"><![CDATA[Vision Transformer入門をご恵贈賜りました！ ViTに至るまでの背景から最新のViT関連と、わかりそうでわからなかったTransformerの細かい話、さらにはV&Lへの適用についての発展と、大ボリュームです！ Transformer流行ってるけど、どうにか最速で理解したい！という人に最適だと思います💪]]></content>
-        <author>
-            <name>@maguroIsland</name>
-        </author>
-        <published>2022-09-12T13:59:56.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ruby 3.2 で Set が組込みクラスになる？ | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/scivola/items/79e2012df201ce5ce834?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/scivola/items/79e2012df201ce5ce834?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1321,15 +1450,6 @@ Transformer流行ってるけど、どうにか最速で理解したい！とい
         <summary type="html"><![CDATA[はじめに  iOSDC2022！！今年もおつかれさまでした！ iOSDCは2019が初参加でしたが初iwillblogです  今年もたくさんの素晴らしいセッションがありました リアルタイムで見れたもの…]]></summary>
         <content type="html"><![CDATA[はじめに  iOSDC2022！！今年もおつかれさまでした！ iOSDCは2019が初参加でしたが初iwillblogです  今年もたくさんの素晴らしいセッションがありました リアルタイムで見れたもの…]]></content>
         <published>2022-09-12T13:30:32.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【脱フラストレーション】ターミナルでの作業効率がグンと上がるaliasの設定方法と設定例まとめ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/Arashi-K/items/15e07cc5b19515d058f4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/Arashi-K/items/15e07cc5b19515d058f4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-12T13:26:31.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  現在新卒エンジニア1年目の私が多用している、「alias」による作業効率化を紹介します！ 特に、ターミナル上での作業が多い分野(gitやrailsなど) でこうかばつぐんでございます。  …]]></summary>
-        <content type="html"><![CDATA[はじめに  現在新卒エンジニア1年目の私が多用している、「alias」による作業効率化を紹介します！ 特に、ターミナル上での作業が多い分野(gitやrailsなど) でこうかばつぐんでございます。  …]]></content>
-        <published>2022-09-12T13:26:31.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[いびつな形の市区町村を探す [Python+GeoJSON+OpenCV] | Zennのトレンド]]></title>
@@ -1378,19 +1498,6 @@ Transformer流行ってるけど、どうにか最速で理解したい！とい
         <published>2022-09-12T11:01:05.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 『Vision Transformer入門』（技術評論社）を入手。表紙が格好いい。読みます。
-https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/upura0/status/1569278812457947136#m</id>
-        <link href="https://nitter.net/upura0/status/1569278812457947136#m"/>
-        <updated>2022-09-12T10:56:39.000Z</updated>
-        <summary type="html"><![CDATA[『Vision Transformer入門』（技術評論社）を入手。表紙が格好いい。読みます。 gihyo.jp/book/2022/978-4-297…]]></summary>
-        <content type="html"><![CDATA[『Vision Transformer入門』（技術評論社）を入手。表紙が格好いい。読みます。 gihyo.jp/book/2022/978-4-297…]]></content>
-        <author>
-            <name>@upura0</name>
-        </author>
-        <published>2022-09-12T10:56:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【 #ゆめみからの挑戦状 ★第5弾】に挑戦 78バイト | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/rana_kualu/items/19040b3cad642368196a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/rana_kualu/items/19040b3cad642368196a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1413,15 +1520,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <category label="用語・記号の定義"/>
         <category label="大学専門"/>
         <published>2022-09-12T10:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[API呼び出しの回数制限にブチ当たった時のリトライ処理について | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/tatsumi_t2/items/ad9306b5dd7814b2ebca?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/tatsumi_t2/items/ad9306b5dd7814b2ebca?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-12T09:44:56.000Z</updated>
-        <summary type="html"><![CDATA[はじめに  Google Sheets APIなどは、一定時間あたりのAPI実行回数に制限があって、 ちょっとした処理でもすぐにその制限を超えてしまうことがあります。 そんな場面で使えるRubyによ…]]></summary>
-        <content type="html"><![CDATA[はじめに  Google Sheets APIなどは、一定時間あたりのAPI実行回数に制限があって、 ちょっとした処理でもすぐにその制限を超えてしまうことがあります。 そんな場面で使えるRubyによ…]]></content>
-        <published>2022-09-12T09:44:56.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[長寿アプリのアップデートで気をつけたいところ | cocone engineering]]></title>
@@ -1464,15 +1562,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <category label="レビュー"/>
         <category label="カテゴリー済み"/>
         <published>2022-09-12T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FTPがローカル環境では成功したのにDockerに移すと失敗する | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/keiji-ueno/items/073d9ae33a26ac442b77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/keiji-ueno/items/073d9ae33a26ac442b77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-12T08:44:14.000Z</updated>
-        <summary type="html"><![CDATA[背景   アプリケーションからFTPでファイル転送することになったので、最初はローカル環境で開発しててうまくいっていた ECSでコンテナ管理するにあたり、まずローカル環境のdocker上で動作確認した…]]></summary>
-        <content type="html"><![CDATA[背景   アプリケーションからFTPでファイル転送することになったので、最初はローカル環境で開発しててうまくいっていた ECSでコンテナ管理するにあたり、まずローカル環境のdocker上で動作確認した…]]></content>
-        <published>2022-09-12T08:44:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rails 7.0.4、6.1.7、6.0.6がリリースされました | TechRacho]]></title>
@@ -1576,19 +1665,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <published>2022-09-12T05:18:18.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 私にも「画像認識モデル革命」の書籍が届きました！
-#vitbook | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/HirokatuKataoka/status/1569191819111702528#m</id>
-        <link href="https://nitter.net/HirokatuKataoka/status/1569191819111702528#m"/>
-        <updated>2022-09-12T05:10:58.000Z</updated>
-        <summary type="html"><![CDATA[私にも「画像認識モデル革命」の書籍が届きました！ #vitbook nitter.net/HirokatuKataoka/status/1550393385340456960#m]]></summary>
-        <content type="html"><![CDATA[私にも「画像認識モデル革命」の書籍が届きました！ #vitbook nitter.net/HirokatuKataoka/status/1550393385340456960#m]]></content>
-        <author>
-            <name>@HirokatuKataoka</name>
-        </author>
-        <published>2022-09-12T05:10:58.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[高難度SQL問題の解答例公開！『エンジニア騎士とクエリの魔女』でSQLをマスターしよう | paiza開発日誌]]></title>
         <id>https://paiza.hatenablog.com/entry/2022/09/12/140000</id>
         <link href="https://paiza.hatenablog.com/entry/2022/09/12/140000"/>
@@ -1605,6 +1681,15 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <summary type="html"><![CDATA[データ関連の仕事のオファーをもらい、いざ新しい会社で仕事し始めたところ、期待していたものと現実の間に大きなギャップがあり失望してしまうということはよくあります。そこで、どういったことがよく問題にな…]]></summary>
         <content type="html"><![CDATA[データ関連の仕事のオファーをもらい、いざ新しい会社で仕事し始めたところ、期待していたものと現実の間に大きなギャップがあり失望してしまうということはよくあります。そこで、どういったことがよく問題にな…]]></content>
         <published>2022-09-12T04:05:24.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Q&A with Murali Annavaram, professor at University of Southern California and Meta academic collaborator | Meta Research]]></title>
+        <id>https://research.facebook.com/blog/2022/9/qa-with-murali-annavaram-professor-at-university-of-southern-california-and-meta-academic-collaborator/</id>
+        <link href="https://research.facebook.com/blog/2022/9/qa-with-murali-annavaram-professor-at-university-of-southern-california-and-meta-academic-collaborator/"/>
+        <updated>2022-09-12T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For August, we are spotlighting Murali Annavaram, professor of Electrical and Computer Engineering and Computer Science at the University of Southern California (USC) and Director...]]></summary>
+        <content type="html"><![CDATA[For August, we are spotlighting Murali Annavaram, professor of Electrical and Computer Engineering and Computer Science at the University of Southern California (USC) and Director...]]></content>
+        <published>2022-09-12T04:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[RT by @ai_scholar: 本記事で紹介する論文は、31×31という、一般的なCNNと比べて大きいカーネルサイズを利用するCNNアーキテクチャであるRepLKNetを提案しました。その結果、ImageNetで87.8%のTop-1精度を示し、下流タスク性能を大幅に向上させるなどの優れた性能を示しました。
@@ -1818,15 +1903,6 @@ https://ai-scholar.tech/articles/treatise/large_kernel | AI技術最新情報メ
         <published>2022-09-12T01:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【ソロ・ペア・モブ】各開発形態の特徴と活用場面について | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/mk4f/items/1700fa354c14a3b96604?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/mk4f/items/1700fa354c14a3b96604?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-12T00:55:25.000Z</updated>
-        <summary type="html"><![CDATA[現在、私が所属しているチームでは、「ソロ、ペア、モブを使いこなせるチームになる！」ということを掲げています。 その一環として、メンバー全員が全形態のプログラミングを経験した後、そのメリットとデメリッ…]]></summary>
-        <content type="html"><![CDATA[現在、私が所属しているチームでは、「ソロ、ペア、モブを使いこなせるチームになる！」ということを掲げています。 その一環として、メンバー全員が全形態のプログラミングを経験した後、そのメリットとデメリッ…]]></content>
-        <published>2022-09-12T00:55:25.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ER図をマウスを使わないで書きたいし、その内容をGitLabで管理もしたい | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/arisa5/items/653a95ab3464adac9875?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/arisa5/items/653a95ab3464adac9875?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1843,21 +1919,6 @@ https://ai-scholar.tech/articles/treatise/large_kernel | AI技術最新情報メ
         <summary type="html"><![CDATA[はじめまして  63歳ですが、プログラム書いてます。 30年以上昔に知った話を、最近、また耳にしましたので、ちょっとご紹介させていただきます。  実数計算が正しいか、９種類の言語で試しました。  今回試…]]></summary>
         <content type="html"><![CDATA[はじめまして  63歳ですが、プログラム書いてます。 30年以上昔に知った話を、最近、また耳にしましたので、ちょっとご紹介させていただきます。  実数計算が正しいか、９種類の言語で試しました。  今回試…]]></content>
         <published>2022-09-12T00:32:50.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 「Vision Transformer入門」をご恵贈いただきました。
-ViTの理論と実装がセットで解説されている構成で理解しやすいと思います。また、ViTとCNNの特性も比較もされてたり興味深いです。
-これからViTをやっていく方はまず読むべき本になっています！
-https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/UnaNancyOwen/status/1569121636145823744#m</id>
-        <link href="https://nitter.net/UnaNancyOwen/status/1569121636145823744#m"/>
-        <updated>2022-09-12T00:32:05.000Z</updated>
-        <summary type="html"><![CDATA[「Vision Transformer入門」をご恵贈いただきました。 gihyo.jp/book/2022/978-4-297…]]></summary>
-        <content type="html"><![CDATA[「Vision Transformer入門」をご恵贈いただきました。 gihyo.jp/book/2022/978-4-297…]]></content>
-        <author>
-            <name>@UnaNancyOwen</name>
-        </author>
-        <published>2022-09-12T00:32:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[SaaSにおいて「一定期間無料」がペイする条件 | ユニファ開発者ブログ]]></title>
@@ -1980,24 +2041,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <published>2022-09-11T22:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Excelを使って複数のフォルダーを一括作成するウラ技 ～月別フォルダー作成が捗る！【残業を減らす！Officeテクニック】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/serial/offitech/1438927.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/serial/offitech/1438927.html"/>
-        <updated>2022-09-11T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[月単位でファイルを整理したい時など、複数のフォルダーを一気に作成したいことがありませんか？ 複数のフォルダーを作成する場合、コピー＆ペーストしてからフォルダー名を修正することが多いですよね。1～12月分のフォルダー程度ならコピペで我慢できても、効率がいいとはいえません。]]></summary>
-        <content type="html"><![CDATA[月単位でファイルを整理したい時など、複数のフォルダーを一気に作成したいことがありませんか？ 複数のフォルダーを作成する場合、コピー＆ペーストしてからフォルダー名を修正することが多いですよね。1～12月分のフォルダー程度ならコピペで我慢できても、効率がいいとはいえません。]]></content>
-        <published>2022-09-11T21:55:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webページの特定テキストへ直接ジャンプしてハイライトするリンクの作り方／「Chrome」「Edge」は標準機能で、「Firefox」は「Link to Text Fragment」拡張機能で【レビュー】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/review/1438812.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/review/1438812.html"/>
-        <updated>2022-09-11T21:45:00.000Z</updated>
-        <summary type="html"><![CDATA[最近、リンクをクリックするとWebページへ移動するだけでなく、特定のテキスト部分へスクロールし、蛍光ペンで線を引いたかのようにハイライトするものを見かけることが増えてきた。探していた情報へドンピシャでたどり着けて大変便利で、なかには自分のブログ記事やSNSで活用したいと思った人もいるのではないだろうか。]]></summary>
-        <content type="html"><![CDATA[最近、リンクをクリックするとWebページへ移動するだけでなく、特定のテキスト部分へスクロールし、蛍光ペンで線を引いたかのようにハイライトするものを見かけることが増えてきた。探していた情報へドンピシャでたどり着けて大変便利で、なかには自分のブログ記事やSNSで活用したいと思った人もいるのではないだろうか。]]></content>
-        <published>2022-09-11T21:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[「エンジニアリングマネージャーのしごと」を読んで、マネージャーの楽しさを学ぶ | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/e99h2121/items/316530888c25d9961642?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/e99h2121/items/316530888c25d9961642?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -2044,6 +2087,18 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <link href="https://www.youtube.com/watch?v=_Y1-KlTEmwk"/>
         <updated>2022-09-11T15:12:19.000Z</updated>
         <published>2022-09-11T15:12:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プログラマのためのPowerShell | Zennのトレンド]]></title>
+        <id>https://zenn.dev/eagle/books/powershell-for-programmers</id>
+        <link href="https://zenn.dev/eagle/books/powershell-for-programmers"/>
+        <updated>2022-09-11T14:57:11.000Z</updated>
+        <summary type="html"><![CDATA[「いつか使いこなしたい」と誰もが1度は思うPowerShell]]></summary>
+        <content type="html"><![CDATA[「いつか使いこなしたい」と誰もが1度は思うPowerShell]]></content>
+        <author>
+            <name>eagle</name>
+        </author>
+        <published>2022-09-11T14:57:11.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[技術書典に初参加したら1時間で完売した話 | Qiita - 人気の記事]]></title>
@@ -2148,15 +2203,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <published>2022-09-11T08:36:14.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[今さら聞けない自然言語処理(NLP) | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/taka_yayoi/items/92ec880c7d7c6ce271d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/taka_yayoi/items/92ec880c7d7c6ce271d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2022-09-11T07:25:43.000Z</updated>
-        <summary type="html"><![CDATA[こちらのイベントで説明した内容の抜粋です。  https://www.databricks.com/p/webinar/202204-apj-ve-fundamental-series-nlp  自然言…]]></summary>
-        <content type="html"><![CDATA[こちらのイベントで説明した内容の抜粋です。  https://www.databricks.com/p/webinar/202204-apj-ve-fundamental-series-nlp  自然言…]]></content>
-        <published>2022-09-11T07:25:43.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Clean Architecture with Go | Zennのトレンド]]></title>
         <id>https://zenn.dev/88888888_kota/articles/1a5caac8d743b8</id>
         <link href="https://zenn.dev/88888888_kota/articles/1a5caac8d743b8"/>
@@ -2216,44 +2262,6 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <published>2022-09-11T03:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 技術評論社より9月15日発売の新刊『Vision Transformer入門』をご恵贈いただきました。
-ViTは登場してからまだ2年弱ですが、既にCVのあらゆるタスクに適用されていることに驚きました。実装の詳細までカバーしているので、これから研究対象としたいという方にも良さそうです。
-https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/shion_honda/status/1568792756126105602#m</id>
-        <link href="https://nitter.net/shion_honda/status/1568792756126105602#m"/>
-        <updated>2022-09-11T02:45:14.000Z</updated>
-        <summary type="html"><![CDATA[技術評論社より9月15日発売の新刊『Vision Transformer入門』をご恵贈いただきました。 gihyo.jp/book/2022/978-4-297…]]></summary>
-        <content type="html"><![CDATA[技術評論社より9月15日発売の新刊『Vision Transformer入門』をご恵贈いただきました。 gihyo.jp/book/2022/978-4-297…]]></content>
-        <author>
-            <name>@shion_honda</name>
-        </author>
-        <published>2022-09-11T02:45:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: トレンド分析を全面に出して見えちゃうけど，実際のところメタサーベイって研究対象の解像度上げるのと，考え方の道具増やそうって場なので，むしろ愉快な問いを学生が自前で設定する近道になることもあるんです，と変態NeRFやらせてもらった身では思います | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/tuyuri_kame/status/1568781655636348928#m</id>
-        <link href="https://nitter.net/tuyuri_kame/status/1568781655636348928#m"/>
-        <updated>2022-09-11T02:01:07.000Z</updated>
-        <summary type="html"><![CDATA[トレンド分析を全面に出して見えちゃうけど，実際のところメタサーベイって研究対象の解像度上げるのと，考え方の道具増やそうって場なので，むしろ愉快な問いを学生が自前で設定する近道になることもあるんです，と変態NeRFやらせてもらった身では思います]]></summary>
-        <content type="html"><![CDATA[トレンド分析を全面に出して見えちゃうけど，実際のところメタサーベイって研究対象の解像度上げるのと，考え方の道具増やそうって場なので，むしろ愉快な問いを学生が自前で設定する近道になることもあるんです，と変態NeRFやらせてもらった身では思います]]></content>
-        <author>
-            <name>@tuyuri_kame</name>
-        </author>
-        <published>2022-09-11T02:01:07.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: cvpaper.challengeに関する私の青臭いﾂｲｰﾖが片岡さんにRTされててしょんべんちびってる | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/jo7ueb/status/1568774140353724416#m</id>
-        <link href="https://nitter.net/jo7ueb/status/1568774140353724416#m"/>
-        <updated>2022-09-11T01:31:16.000Z</updated>
-        <summary type="html"><![CDATA[cvpaper.challengeに関する私の青臭いﾂｲｰﾖが片岡さんにRTされててしょんべんちびってる]]></summary>
-        <content type="html"><![CDATA[cvpaper.challengeに関する私の青臭いﾂｲｰﾖが片岡さんにRTされててしょんべんちびってる]]></content>
-        <author>
-            <name>@jo7ueb</name>
-        </author>
-        <published>2022-09-11T01:31:16.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Notion 新機能！ (2022年8月版 part1) | AIリサーチコレクション]]></title>
         <id>https://ai-research-collection.com/?p=2535</id>
         <link href="https://ai-research-collection.com/notion-2208-part1/"/>
@@ -2283,57 +2291,17 @@ https://gihyo.jp/book/2022/978-4-297-13058-9 | cvpaper.challenge | AI/CV研究�
         <published>2022-09-10T23:09:11.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 誤解を生みそうだな。
-cvpaper.challengeは素晴らしいし、日本のCV研究のレベルをあげようと行動し結果を出している片岡さんを尊敬している。
-インパクトのある研究をするにはトレンドに乗る必要は確かにあって、トレンドを参考に研究テーマをアジャストしていく姿勢は必要だと思う。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/jo7ueb/status/1568662756785795076#m</id>
-        <link href="https://nitter.net/jo7ueb/status/1568662756785795076#m"/>
-        <updated>2022-09-10T18:08:40.000Z</updated>
-        <summary type="html"><![CDATA[誤解を生みそうだな。 cvpaper.challengeは素晴らしいし、日本のCV研究のレベルをあげようと行動し結果を出している片岡さんを尊敬している。 インパクトのある研究をするにはトレンドに乗る必要は確かにあって、トレンドを参考に研究テーマをアジャストしていく姿勢は必要だと思う。]]></summary>
-        <content type="html"><![CDATA[誤解を生みそうだな。 cvpaper.challengeは素晴らしいし、日本のCV研究のレベルをあげようと行動し結果を出している片岡さんを尊敬している。 インパクトのある研究をするにはトレンドに乗る必要は確かにあって、トレンドを参考に研究テーマをアジャストしていく姿勢は必要だと思う。]]></content>
-        <author>
-            <name>@jo7ueb</name>
-        </author>
-        <published>2022-09-10T18:08:40.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！ | Money Forward Engineers' Blog]]></title>
         <id>https://moneyforward.com/engineers_blog/?p=10565</id>
         <link href="https://moneyforward.com/engineers_blog/2022/09/11/iosdc-2022-day0/"/>
         <updated>2022-09-10T15:34:16.000Z</updated>
-        <summary type="html"><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内で...]]></summary>
-        <content type="html"><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 社内で短期留学してきました!  iOSエンジニア向けOSS Forwardワークショップを開催しました  マネーフォワード社内PRに見られるRubyの書き方について - (8) 受け渡しのパターンマッチング 3  Go BoldにGive it a try!  Optional(2018)年あけましておめでとうございます   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: デザイ...]]></summary>
+        <content type="html"><![CDATA[3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: デザインのバージョン管理をGitHubでしてみたら修正点が3秒で分かるようになった話  マネーフォワードのインターンを振り返る in 2022  Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）  最近のruby-core (2017年1月)  マネーフォワードのtvOSアプリケーションを開発した話   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！], All Right Reserved. 2...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
         <category label="お知らせ"/>
         <published>2022-09-10T15:34:16.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 研究室の先輩、山本晋太郎氏 (@yshin55) より『Vision Transformer 入門』をご恵贈いただきました。
-Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃密な一冊です。
-ご興味のある方はぜひ！#vitbook | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/Kakanat1105/status/1568614289950515206#m</id>
-        <link href="https://nitter.net/Kakanat1105/status/1568614289950515206#m"/>
-        <updated>2022-09-10T14:56:04.000Z</updated>
-        <summary type="html"><![CDATA[研究室の先輩、山本晋太郎氏 (@yshin55) より『Vision Transformer 入門』をご恵贈いただきました。 #vitbook]]></summary>
-        <content type="html"><![CDATA[研究室の先輩、山本晋太郎氏 (@yshin55) より『Vision Transformer 入門』をご恵贈いただきました。 #vitbook]]></content>
-        <author>
-            <name>@Kakanat1105</name>
-        </author>
-        <published>2022-09-10T14:56:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ABDUCTION デザインエンジニアについての観察と考察 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/takanorip/books/1bda71a5f2affb</id>
-        <link href="https://zenn.dev/takanorip/books/1bda71a5f2affb"/>
-        <updated>2022-09-10T09:20:00.000Z</updated>
-        <summary type="html"><![CDATA[デザインエンジニアについてのポエムを書きました。 BOOTHで物理本も販売中です。 https://inutetraplus.booth.pm/items/4142102]]></summary>
-        <content type="html"><![CDATA[デザインエンジニアについてのポエムを書きました。 BOOTHで物理本も販売中です。 https://inutetraplus.booth.pm/items/4142102]]></content>
-        <author>
-            <name>takanorip</name>
-        </author>
-        <published>2022-09-10T09:20:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[RubyKaigi 2022 セッションレポート Day 2 | メドピア開発者ブログ]]></title>
@@ -2343,18 +2311,6 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
         <summary type="html"><![CDATA[バックエンドエンジニアの田中悠大(@ytnk531)です。 RubyKaigi 2022で三重県に来ています。2日目（9/9）に聴いたセッションについて、簡単に紹介させていただきます。 ruby/debug - The best investment for your productivity ruby/debug - The best investment for your productivi...]]></summary>
         <content type="html"><![CDATA[バックエンドエンジニアの田中悠大(@ytnk531)です。 RubyKaigi 2022で三重県に来ています。2日目（9/9）に聴いたセッションについて、簡単に紹介させていただきます。 ruby/debug - The best investment for your productivity ruby/debug - The best investment for your productivity - RubyKaigi 2022 Rubyのデバッグツールであるruby/debugを紹介する発表でした。 ある調査によると、Rubyプログラムのデバッグにはbinding.pryを使っている開…]]></content>
         <published>2022-09-10T05:54:51.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 何だこの本！？ほしいが！？ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/Fill_Axt/status/1568468736906244096#m</id>
-        <link href="https://nitter.net/Fill_Axt/status/1568468736906244096#m"/>
-        <updated>2022-09-10T05:17:42.000Z</updated>
-        <summary type="html"><![CDATA[何だこの本！？ほしいが！？ nitter.net/sei_shinagawa/status/1568140910919299072#m]]></summary>
-        <content type="html"><![CDATA[何だこの本！？ほしいが！？ nitter.net/sei_shinagawa/status/1568140910919299072#m]]></content>
-        <author>
-            <name>@Fill_Axt</name>
-        </author>
-        <published>2022-09-10T05:17:42.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Alfred: File Search 機能 使い方まとめ (Navigation編) | AIリサーチコレクション]]></title>
@@ -2390,19 +2346,6 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
             <name>Ubie, Inc.</name>
         </author>
         <published>2022-09-10T02:22:25.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 欲しすぎる
-買うか | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/Sloth65557166/status/1568419392643547136#m</id>
-        <link href="https://nitter.net/Sloth65557166/status/1568419392643547136#m"/>
-        <updated>2022-09-10T02:01:37.000Z</updated>
-        <summary type="html"><![CDATA[欲しすぎる nitter.net/sei_shinagawa/status/1568140910919299072#m]]></summary>
-        <content type="html"><![CDATA[欲しすぎる nitter.net/sei_shinagawa/status/1568140910919299072#m]]></content>
-        <author>
-            <name>@Sloth65557166</name>
-        </author>
-        <published>2022-09-10T02:01:37.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[距離空間の球面が閉集合であることの証明 | 趣味の大学数学]]></title>
@@ -2516,18 +2459,6 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
         <published>2022-09-09T11:20:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: #vitbook ！！！ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/HirokatuKataoka/status/1568192807126577152#m</id>
-        <link href="https://nitter.net/HirokatuKataoka/status/1568192807126577152#m"/>
-        <updated>2022-09-09T11:01:15.000Z</updated>
-        <summary type="html"><![CDATA[#vitbook ！！！ nitter.net/sei_shinagawa/status/1568140910919299072#m]]></summary>
-        <content type="html"><![CDATA[#vitbook ！！！ nitter.net/sei_shinagawa/status/1568140910919299072#m]]></content>
-        <author>
-            <name>@HirokatuKataoka</name>
-        </author>
-        <published>2022-09-09T11:01:15.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【共分散行列の意味】共分散行列はベクトルに変数としての魂を与える【行列11分散・共分散行列】 #143 #VRアカデミア #線型代数入門 | AIcia Solid Project]]></title>
         <id>https://www.youtube.com/watch?v=e61089Wkoy0</id>
         <link href="https://www.youtube.com/watch?v=e61089Wkoy0"/>
@@ -2563,6 +2494,15 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
         <published>2022-09-09T09:40:18.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[とある休日。ボードゲーム日記 | ITANDI Engineer Blog]]></title>
+        <id>https://tech.itandi.co.jp/entry/2022/09/09/180000</id>
+        <link href="https://tech.itandi.co.jp/entry/2022/09/09/180000"/>
+        <updated>2022-09-09T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに イタンジ株式会社の土屋です。物件管理くんというサービスの開発を行っています。 さて、エンジニアブログとしてこの度筆を取らせていただくことになったのですが、投稿を改めて見返してみたところ、趣味カテゴリの記事がないことに気になりました。そこで今回は趣味カテゴリ記事の先駆けを書かせていただこうと思いました。 私の休日は、ゲームをしながらアニメを見て、その傍らバイクでキャンプへ繰り出したりしてま...]]></summary>
+        <content type="html"><![CDATA[はじめに イタンジ株式会社の土屋です。物件管理くんというサービスの開発を行っています。 さて、エンジニアブログとしてこの度筆を取らせていただくことになったのですが、投稿を改めて見返してみたところ、趣味カテゴリの記事がないことに気になりました。そこで今回は趣味カテゴリ記事の先駆けを書かせていただこうと思いました。 私の休日は、ゲームをしながらアニメを見て、その傍らバイクでキャンプへ繰り出したりしてます。 そんな数ある趣味のなかで、今回はゲームについて取り上げさせていただこうと思います。 ゲームと一言にしてもジャンルが多方面に渡っていますが、私が好きなジャンルは PCゲーム（シミュレーションゲーム…]]></content>
+        <published>2022-09-09T09:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[技術書典13で同人誌を頒布します & 既刊PDFダウンロードページ | Technology]]></title>
         <id>https://www.klab.com/jp/blog/tech/2022/tbf13.html</id>
         <link href="https://www.klab.com/jp/blog/tech/2022/tbf13.html"/>
@@ -2574,15 +2514,6 @@ Transformerに始まり、ViTの基礎と実装、応用、そして派生...濃
         <category label="Unity"/>
         <category label="イベント"/>
         <category label="技術書典"/>
-        <published>2022-09-09T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[とある休日。ボードゲーム日記 | ITANDI Engineer Blog]]></title>
-        <id>https://tech.itandi.co.jp/entry/2022/09/09/180000</id>
-        <link href="https://tech.itandi.co.jp/entry/2022/09/09/180000"/>
-        <updated>2022-09-09T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに イタンジ株式会社の土屋です。物件管理くんというサービスの開発を行っています。 さて、エンジニアブログとしてこの度筆を取らせていただくことになったのですが、投稿を改めて見返してみたところ、趣味カテゴリの記事がないことに気になりました。そこで今回は趣味カテゴリ記事の先駆けを書かせていただこうと思いました。 私の休日は、ゲームをしながらアニメを見て、その傍らバイクでキャンプへ繰り出したりしてま...]]></summary>
-        <content type="html"><![CDATA[はじめに イタンジ株式会社の土屋です。物件管理くんというサービスの開発を行っています。 さて、エンジニアブログとしてこの度筆を取らせていただくことになったのですが、投稿を改めて見返してみたところ、趣味カテゴリの記事がないことに気になりました。そこで今回は趣味カテゴリ記事の先駆けを書かせていただこうと思いました。 私の休日は、ゲームをしながらアニメを見て、その傍らバイクでキャンプへ繰り出したりしてます。 そんな数ある趣味のなかで、今回はゲームについて取り上げさせていただこうと思います。 ゲームと一言にしてもジャンルが多方面に渡っていますが、私が好きなジャンルは PCゲーム（シミュレーションゲーム…]]></content>
         <published>2022-09-09T09:00:00.000Z</published>
     </entry>
     <entry>
@@ -2957,18 +2888,6 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <category label="TSDB"/>
         <category label="VictoriaMetrics"/>
         <published>2022-09-09T05:24:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 9/9先行販売：ISBN978-4-297-13058-9　技術評論社『Vision Transformer入門 新しいコンピュータビジョンの世界』片岡裕雄監修　山本晋太郎、徳永匡臣、箕浦大晃、QIU YUE、品川政太朗 著　10冊入荷 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/junkudo_ike_pc/status/1568106114511958018#m</id>
-        <link href="https://nitter.net/junkudo_ike_pc/status/1568106114511958018#m"/>
-        <updated>2022-09-09T05:16:46.000Z</updated>
-        <summary type="html"><![CDATA[9/9先行販売：ISBN978-4-297-13058-9 技術評論社『Vision Transformer入門 新しいコンピュータビジョンの世界』片岡裕雄監修 山本晋太郎、徳永匡臣、箕浦大晃、QIU YUE、品川政太朗 著 10冊入荷]]></summary>
-        <content type="html"><![CDATA[9/9先行販売：ISBN978-4-297-13058-9 技術評論社『Vision Transformer入門 新しいコンピュータビジョンの世界』片岡裕雄監修 山本晋太郎、徳永匡臣、箕浦大晃、QIU YUE、品川政太朗 著 10冊入荷]]></content>
-        <author>
-            <name>@junkudo_ike_pc</name>
-        </author>
-        <published>2022-09-09T05:16:46.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Visual Studio Code入門】インストールしたらまずはコレ！オススメのテーマ/フォントと拡張機能 | SIOS Tech. Lab]]></title>
@@ -3937,8 +3856,8 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <id>https://moneyforward.com/engineers_blog/?p=10517</id>
         <link href="https://moneyforward.com/engineers_blog/2022/09/07/money-forward-techbook5/"/>
         <updated>2022-09-07T03:00:53.000Z</updated>
-        <summary type="html"><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Goo...]]></summary>
-        <content type="html"><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Googleフォームで参加者募集して、自動でGoogleカレンダーに申込者を招待する小技  Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）  AWS IAM Userアクセスキーのローテーションを自動化しました  エンジニアがマネーフォワードを使う5つの理由  待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に...]]></content>
+        <summary type="html"><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mic...]]></summary>
+        <content type="html"><![CDATA[序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）  Railsで複雑なSQL処理をする時のTips：squeel編  ActiveRecordのincludes, preload, eager_load の個人的な使い分け  祝日処理ってどうしてる？  なぜ、マネーフォワードのエンジニアとデザイナーは仲が良いのか   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します], All Right Re...]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4064,8 +3983,8 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <id>https://moneyforward.com/engineers_blog/?p=10530</id>
         <link href="https://moneyforward.com/engineers_blog/2022/09/07/iosdc-2022/"/>
         <updated>2022-09-07T01:00:07.000Z</updated>
-        <summary type="html"><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ste...]]></summary>
-        <content type="html"><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: StepFunctionsとSageMakerでML学習パイプラインをつくる  IRSAをマルチアカウントAWS環境のEKSクラスタに導入した話  Apple Payで！マネーフォワードとSuicaを！ついに連携する！  マネーフォワードエンジニアインタビュー 西方夏子「大事なのは、その時々で最善な道を考えること」  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポ...]]></content>
+        <summary type="html"><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 1年間...]]></summary>
+        <content type="html"><![CDATA[どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 1年間地方コミュニティーを運営して感じた成長の軌跡と未来の課題  オフィスの便利ツール紹介：iPadでOne Tap会議室予約  [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  社内勉強会カレンダーのご紹介  Google Playのin-app updatesを使って最高のアップデート体験を実現する   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポンサーブース出展のお知らせ], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4293,12 +4212,27 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <published>2022-09-06T08:40:49.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rails: Webpacker→jsbundling-rails+webpackアップグレード手順（翻訳） | TechRacho]]></title>
+        <id>https://techracho.bpsinc.jp/?p=115289</id>
+        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_06/115289"/>
+        <updated>2022-09-06T08:30:10.000Z</updated>
+        <summary type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: jsbundling-rails/switch_from_webpacker.md at main · rails/jsbundling-rails 原文更新日: 2022/07/15（2433d52） ライセンス: MIT 表記の大文字小文字は「Webpacker」「Shakapacker」「webpack」「jsbundlin...]]></summary>
+        <content type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: jsbundling-rails/switch_from_webpacker.md at main · rails/jsbundling-rails 原文更新日: 2022/07/15（2433d52） ライセンス: MIT 表記の大文字小文字は「Webpacker」「Shakapacker」「webpack」「jsbundling-rails」「cssbundling-rails」に統一しました。 2022/02/03: 初版公開 2022/09/06: 更新 Rails: Webpacker→jsbundling-rails+webpackア […] The post Rails: Webpacker→jsbundling-rails+webpackアップグレード手順（翻訳） first appeared on TechRacho.]]></content>
+        <author>
+            <name>hachi8833</name>
+        </author>
+        <category label="Ruby / Rails関連"/>
+        <category label="Ruby on Rails"/>
+        <category label="翻訳記事"/>
+        <published>2022-09-06T08:30:10.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて | Money Forward Engineers' Blog]]></title>
         <id>https://moneyforward.com/engineers_blog/?p=10544</id>
         <link href="https://moneyforward.com/engineers_blog/2022/09/06/rubykaigi-2022/"/>
         <updated>2022-09-06T08:00:54.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 中学生...]]></summary>
-        <content type="html"><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 中学生ハルキのエンジニア体験記  マネーフォワードクラウド確定申告Androidアプリの設計方針  開発チームで業務知識を獲得するための取り組み  仮想通貨の完全自動売買をやってみよう その１  MoneyForward Meetupレポート「エンジニア×営業×CS」   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All Right Reserved. 2022.]]></content>
+        <summary type="html"><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィ...]]></summary>
+        <content type="html"><![CDATA[こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: オフィスの便利ツール紹介：拠点間の常時接続Webミーティング  Android開発をもっと前へ！開発を加速させるTips・ツール  MoneyForward Meetupレポート「デザインをもっと前へ」  Androidアプリ開発者なら知っておくべきdumpsysコマンド  マネーフォワード開発合宿 in COLONY 箱根   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All Right Reserved. 2022.]]></content>
         <author>
             <name>engineers_blog</name>
         </author>
@@ -4477,6 +4411,15 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <updated>2022-09-06T01:00:00.000Z</updated>
         <summary type="html"><![CDATA[会計チームで債権周りの開発をしている hachi (@hachiblog)です。会計チームが開発している freee 会計は freee の中で一番歴史が長いプロダクトです。加えて会計というドメインは複雑かつバグを生むと顧客の業務を大きく阻害するという点で一度作ったものを変更しづらいという特徴があります。 そのような環境で今回、債権のチームでは freee会計の初期からある「自動で経理」という機能...]]></summary>
         <content type="html"><![CDATA[会計チームで債権周りの開発をしている hachi (@hachiblog)です。会計チームが開発している freee 会計は freee の中で一番歴史が長いプロダクトです。加えて会計というドメインは複雑かつバグを生むと顧客の業務を大きく阻害するという点で一度作ったものを変更しづらいという特徴があります。 そのような環境で今回、債権のチームでは freee会計の初期からある「自動で経理」という機能の一部リファクタリングを行いました。リファクタリングのしづらい環境下でうまくリファクタリングをすすめるための tips は多くの人に役立つのではと思い、このエントリを書くに至りました。 今回「自動で経…]]></content>
+        <published>2022-09-06T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the winners of the 2022 Systems Research request for proposals | Meta Research]]></title>
+        <id>https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-2022-systems-research-request-for-proposals/</id>
+        <link href="https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-2022-systems-research-request-for-proposals/"/>
+        <updated>2022-09-06T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For this RFP, we were especially interested in proposals that addressed fundamental challenges that arise in distributed systems operating at a large scale.]]></summary>
+        <content type="html"><![CDATA[For this RFP, we were especially interested in proposals that addressed fundamental challenges that arise in distributed systems operating at a large scale.]]></content>
         <published>2022-09-06T01:00:00.000Z</published>
     </entry>
     <entry>
@@ -4758,20 +4701,6 @@ https://ai-scholar.tech/articles/pruning/sparse_imagenet_models | AI技術最新
         <summary type="html"><![CDATA[こんにちは。新卒 1 年目エンジニアのすずまさです。 先日、弊社 VPoT の id:nkgt_chkonk が執筆した process-book の勉強会を修了しました。 process-book は *nix系のシステムにおけるプロセスやシグナルなどについて説明することを目的に書かれました。「プロセスとかよくわかってないからちゃんと知りたいな」みたいなひとたちが想定読者です。 参加する前は U...]]></summary>
         <content type="html"><![CDATA[こんにちは。新卒 1 年目エンジニアのすずまさです。 先日、弊社 VPoT の id:nkgt_chkonk が執筆した process-book の勉強会を修了しました。 process-book は *nix系のシステムにおけるプロセスやシグナルなどについて説明することを目的に書かれました。「プロセスとかよくわかってないからちゃんと知りたいな」みたいなひとたちが想定読者です。 参加する前は UNIX の基礎的な知識も乏しかった私ですが、学びがたくさんあり毎回楽しく参加できたので紹介します。 開催の経緯 Slack でシェルスクリプトの話題で盛り上がったのをきっかけに、プロセスモデルの重要性…]]></content>
         <published>2022-09-05T08:37:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 「Vision Transformer入門」の電子版について
-
-弊社電子書籍販売サイトでは9/15発売を予定します（紙版は9/17発売予定）。用意が出来次第、各種電子書籍販売サイトで発売していきます。また、電子版はフルカラーで制作を進めています。#vitbook | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/tkaytkuy/status/1566703138978926593#m</id>
-        <link href="https://nitter.net/tkaytkuy/status/1566703138978926593#m"/>
-        <updated>2022-09-05T08:21:50.000Z</updated>
-        <summary type="html"><![CDATA[「Vision Transformer入門」の電子版について #vitbook nitter.net/tkaytkuy/status/1560498202977382400#m]]></summary>
-        <content type="html"><![CDATA[「Vision Transformer入門」の電子版について #vitbook nitter.net/tkaytkuy/status/1560498202977382400#m]]></content>
-        <author>
-            <name>@tkaytkuy</name>
-        </author>
-        <published>2022-09-05T08:21:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[心機一転⁉ | cloud.config Tech Blog]]></title>
@@ -5140,18 +5069,6 @@ https://ai-scholar.tech/articles/dataset/when_does_contrastive_visual_representa
         <published>2022-09-04T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 今月は、12日(10日？)に共立出版から「コンピュータビジョン最前線 Autumn2022」( https://www.kyoritsu-pub.co.jp/book/b10013880.html )が、17日に技術評論社から「Vision Transformer入門」( https://gihyo.jp/book/2022/978-4-297-13058-9 ) #vitbook が発売に。複数の著者により集約された知見を学びたく思います。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/allowfirm/status/1566406138546900993#m</id>
-        <link href="https://nitter.net/allowfirm/status/1566406138546900993#m"/>
-        <updated>2022-09-04T12:41:40.000Z</updated>
-        <summary type="html"><![CDATA[今月は、12日(10日？)に共立出版から「コンピュータビジョン最前線 Autumn2022」( kyoritsu-pub.co.jp/book/b100… )が、17日に技術評論社から「Vision Transformer入門」( gihyo.jp/book/2022/978-4-297… ) #vitbook が発売に。複数の著者により集約された知見を学びたく思います。]]></summary>
-        <content type="html"><![CDATA[今月は、12日(10日？)に共立出版から「コンピュータビジョン最前線 Autumn2022」( kyoritsu-pub.co.jp/book/b100… )が、17日に技術評論社から「Vision Transformer入門」( gihyo.jp/book/2022/978-4-297… ) #vitbook が発売に。複数の著者により集約された知見を学びたく思います。]]></content>
-        <author>
-            <name>@allowfirm</name>
-        </author>
-        <published>2022-09-04T12:41:40.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Causal Inference: Connecting Data and Reality | The Gradient]]></title>
         <id>6305bbe7c9b8e754cb7ea0fb</id>
         <link href="https://thegradient.pub/causal-inference-connecting-data-and-reality/"/>
@@ -5230,19 +5147,6 @@ https://ai-scholar.tech/articles/dataset/when_does_contrastive_visual_representa
         <category label="data-science"/>
         <category label="web-monetization"/>
         <published>2022-09-03T12:46:25.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: 【メタサーベイ】Video Transformer (cvpaper. challenge, @​HirokatuKataoka)
-https://www.slideshare.net/cvpaperchallenge/video-transformer | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/tech_slideshare/status/1565981206281592832#m</id>
-        <link href="https://nitter.net/tech_slideshare/status/1565981206281592832#m"/>
-        <updated>2022-09-03T08:33:08.000Z</updated>
-        <summary type="html"><![CDATA[【メタサーベイ】Video Transformer (cvpaper. challenge, @​HirokatuKataoka) slideshare.net/cvpaperchalle…]]></summary>
-        <content type="html"><![CDATA[【メタサーベイ】Video Transformer (cvpaper. challenge, @​HirokatuKataoka) slideshare.net/cvpaperchalle…]]></content>
-        <author>
-            <name>@tech_slideshare</name>
-        </author>
-        <published>2022-09-03T08:33:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[買い物難民問題の解決案アーキテクチャ | エンジニアブログ | iret.media]]></title>
@@ -5441,34 +5345,6 @@ https://www.slideshare.net/cvpaperchallenge/video-transformer | cvpaper.challeng
         <category label="技術情報"/>
         <category label="MySQL8.0"/>
         <published>2022-09-02T08:30:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rubyの（グローバル）VMロックをトレースする（翻訳） | TechRacho]]></title>
-        <id>https://techracho.bpsinc.jp/?p=120530</id>
-        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_02/120530"/>
-        <updated>2022-09-02T08:30:35.000Z</updated>
-        <summary type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Tracing Ruby’s (Global) VM Lock – ivo’s awfully random tech blog 原文公開日: 2022/07/17 原著者: Ivo Anjo サイト: Ivo Anjo.me Rubyの（グローバル）VMロックをトレースする（翻訳） 最近以下のgvl-tracing gemを新しく作成し...]]></summary>
-        <content type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Tracing Ruby’s (Global) VM Lock – ivo’s awfully random tech blog 原文公開日: 2022/07/17 原著者: Ivo Anjo サイト: Ivo Anjo.me Rubyの（グローバル）VMロックをトレースする（翻訳） 最近以下のgvl-tracing gemを新しく作成しました。このgemは、Rubyのスレッドの様子をビジュアル表示できます。 これを表示するには、元記事のOpen Example 1リンクをクリックするか、example1.json.gzをダウンロ […] The post Rubyの（グローバル）VMロックをトレースする（翻訳） first appeared on TechRacho.]]></content>
-        <author>
-            <name>hachi8833</name>
-        </author>
-        <category label="Ruby / Rails関連"/>
-        <category label="GVL"/>
-        <category label="Ruby"/>
-        <category label="翻訳記事"/>
-        <published>2022-09-02T08:30:35.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @CVpaperChalleng: まず思ったのは、cvpaper.challengeの2020年メタサーベイ( https://www.slideshare.net/cvpaperchallenge/performance-is-not-all-you-need-cv )の35枚目にある「良い数値」を出すためのエンジニアリングの結果ではないか、ですが、ひょっとしたら物体検出に関連した本質的な理由もあるかもしれないと思いました。 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng]]></title>
-        <id>https://nitter.net/allowfirm/status/1565611904650788865#m</id>
-        <link href="https://nitter.net/allowfirm/status/1565611904650788865#m"/>
-        <updated>2022-09-02T08:05:40.000Z</updated>
-        <summary type="html"><![CDATA[まず思ったのは、cvpaper.challengeの2020年メタサーベイ( slideshare.net/cvpaperchalle… )の35枚目にある「良い数値」を出すためのエンジニアリングの結果ではないか、ですが、ひょっとしたら物体検出に関連した本質的な理由もあるかもしれないと思いました。 nitter.net/cvmlexpertguide/status/1565595662338920...]]></summary>
-        <content type="html"><![CDATA[まず思ったのは、cvpaper.challengeの2020年メタサーベイ( slideshare.net/cvpaperchalle… )の35枚目にある「良い数値」を出すためのエンジニアリングの結果ではないか、ですが、ひょっとしたら物体検出に関連した本質的な理由もあるかもしれないと思いました。 nitter.net/cvmlexpertguide/status/1565595662338920448#m]]></content>
-        <author>
-            <name>@allowfirm</name>
-        </author>
-        <published>2022-09-02T08:05:40.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[再起動する事なくMacでWindowsが使用できる仮想化ソフト「Parallels Desktop 18 for Mac」 | 新着ソフトレビュー - Vector]]></title>
@@ -5848,39 +5724,6 @@ https://ai-scholar.tech/articles/few-shot/revisiting_learnable_affines | AI技�
         <summary type="html"><![CDATA[Kubernetes上でJDK Flight Recorderのデータを管理するツールであるCryostatは、Cryostat 2.1の技術プレビューリリースとして、Red Hat OpenShift上の組み込みOAuthサーバーに統合されました。OpenShift上のCryostatにログインすると、OpenShiftのログインページにリダイレクトされ、OpenShiftのユーザーアカウントに...]]></summary>
         <content type="html"><![CDATA[Kubernetes上でJDK Flight Recorderのデータを管理するツールであるCryostatは、Cryostat 2.1の技術プレビューリリースとして、Red Hat OpenShift上の組み込みOAuthサーバーに統合されました。OpenShift上のCryostatにログインすると、OpenShiftのログインページにリダイレクトされ、OpenShiftのユーザーアカウントに対応するユーザー名とパスワードを入力するよう促されます。成功すると、複数のセッションでログイン状態を維持できます（デフォルトで24時間）。]]></content>
         <published>2022-09-01T08:43:40.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ruby: byebugからruby/debugへの移行ガイド（翻訳） | TechRacho]]></title>
-        <id>https://techracho.bpsinc.jp/?p=121134</id>
-        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_01/121134"/>
-        <updated>2022-09-01T08:30:38.000Z</updated>
-        <summary type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: From byebug to ruby/debug 原文公開日: 2022/08/10 原著者: Stan Lo Ruby: byebugからruby/debugへの移行ガイド（翻訳） 新しいデバッガに乗り換えてデバッグプロセスを変更するのがつい億劫になることもあるでしょう。本記事によって、皆さんがruby/debugに親しんでスムーズに...]]></summary>
-        <content type="html"><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: From byebug to ruby/debug 原文公開日: 2022/08/10 原著者: Stan Lo Ruby: byebugからruby/debugへの移行ガイド（翻訳） 新しいデバッガに乗り換えてデバッグプロセスを変更するのがつい億劫になることもあるでしょう。本記事によって、皆さんがruby/debugに親しんでスムーズに移行する助けになることを願っています。 以下、debugはruby/debugを指します。 免責事項 著者はdebugと比べてbyebugの経験があまりありません。不正確な情報や古い情報がありましたらぜひお知らせください […] The post Ruby: byebugからruby/debugへの移行ガイド（翻訳） first appeared on TechRacho.]]></content>
-        <author>
-            <name>hachi8833</name>
-        </author>
-        <category label="Ruby / Rails関連"/>
-        <category label="Ruby"/>
-        <category label="デバッグ"/>
-        <category label="翻訳記事"/>
-        <published>2022-09-01T08:30:38.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rails: Webpacker v5からShakapacker v6へのアップグレードガイド（翻訳） | TechRacho]]></title>
-        <id>https://techracho.bpsinc.jp/?p=115955</id>
-        <link href="https://techracho.bpsinc.jp/hachi8833/2022_09_01/115955"/>
-        <updated>2022-09-01T08:25:26.000Z</updated>
-        <summary type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: shakapacker/v6_upgrade.md at master · shakacode/shakapacker 原文更新日: 2022/09/01（5a08400） ライセンス: MIT 2022/03/10: 初版公開 2022/05/26: 原文に合わせて更新 2022/09/01: 原文に合わせて更新 表記は「Web...]]></summary>
-        <content type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: shakapacker/v6_upgrade.md at master · shakacode/shakapacker 原文更新日: 2022/09/01（5a08400） ライセンス: MIT 2022/03/10: 初版公開 2022/05/26: 原文に合わせて更新 2022/09/01: 原文に合わせて更新 表記は「Webpacker」「webpack」「Shakapacker」で統一しました。 以下の記事もどうぞ。 Rails: Webpacker（Shakapacker）とjsbundling-railsの比較（翻訳） Rails: […] The post Rails: Webpacker v5からShakapacker v6へのアップグレードガイド（翻訳） first appeared on TechRacho.]]></content>
-        <author>
-            <name>hachi8833</name>
-        </author>
-        <category label="Ruby / Rails関連"/>
-        <category label="Ruby on Rails"/>
-        <category label="webpack"/>
-        <category label="Webpacker"/>
-        <category label="翻訳記事"/>
-        <published>2022-09-01T08:25:26.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[iOSDC Japan 2022のシルバースポンサー、Tシャツスポンサーをいたします | ハンズラボ]]></title>
@@ -6414,51 +6257,5 @@ https://ai-scholar.tech/articles/few-shot/revisiting_learnable_affines | AI技�
         <category label="Products and Services"/>
         <category label="Partners"/>
         <published>2022-08-31T11:03:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: 本研究では、μNASというこういったニューラルネットを探索するシステムを構築しています。μNASは、ＭＣＵのリソース不足の３つの主な側面である、ＲＡＭ、ストレージ、プロセッサ速度を明示的にターゲットにしています。
-https://ai-scholar.tech/articles/nas/nas-for-iot | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1564904383296708609#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1564904383296708609#m"/>
-        <updated>2022-08-31T09:14:14.000Z</updated>
-        <summary type="html"><![CDATA[本研究では、μNASというこういったニューラルネットを探索するシステムを構築しています。μNASは、ＭＣＵのリソース不足の３つの主な側面である、ＲＡＭ、ストレージ、プロセッサ速度を明示的にターゲットにしています。 ai-scholar.tech/articles/nas…]]></summary>
-        <content type="html"><![CDATA[本研究では、μNASというこういったニューラルネットを探索するシステムを構築しています。μNASは、ＭＣＵのリソース不足の３つの主な側面である、ＲＡＭ、ストレージ、プロセッサ速度を明示的にターゲットにしています。 ai-scholar.tech/articles/nas…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2022-08-31T09:14:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google マップ（JavaScript、Android、iOS）の赤色ピンの新しいデザイン | Google Developers Japan]]></title>
-        <id>https://developers-jp.googleblog.com/2022/09/maps-new-red-pin.html</id>
-        <link href="https://developers-jp.googleblog.com/2022/09/maps-new-red-pin.html"/>
-        <updated>2022-08-31T09:02:00.040Z</updated>
-        <summary type="html"><![CDATA[この記事は Google Maps Platform チームによる Google Cloud Blog の記事 "A new look for the red pin on Maps JavaScript, Android and iOS" を元に翻訳・加筆したものです。詳しくは元記事をご覧ください。 赤いピンで表されるデフォルトのマーカーは、長年にわたって Google マップの象徴となってきま...]]></summary>
-        <content type="html"><![CDATA[この記事は Google Maps Platform チームによる Google Cloud Blog の記事 "A new look for the red pin on Maps JavaScript, Android and iOS" を元に翻訳・加筆したものです。詳しくは元記事をご覧ください。 赤いピンで表されるデフォルトのマーカーは、長年にわたって Google マップの象徴となってきました。このピンの進化に伴い、Google Maps Platform にも同様の変更を加えました。 このたび、最新バージョンのピンを Maps JavaScript API、Maps SDK for Android、Maps SDK for iOS に導入することになりました。来週から、すべてのサーフェスで新しいピンがデフォルトのマーカーとしてリリースされます。         従来のデフォルトのマーカー       新しいデフォルトのマーカー    新しいピンのデザインを使用するために必要なご対応は特にありません。このアップデートは、各プラットフォームのマーカークラスに提供される「デフォルト...]]></content>
-        <published>2022-08-31T09:02:00.040Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デザインシステムを導入してみて(導入編) | バイセル Tech Blog]]></title>
-        <id>https://tech.buysell-technologies.com/entry/2022/08/31/180000</id>
-        <link href="https://tech.buysell-technologies.com/entry/2022/08/31/180000"/>
-        <updated>2022-08-31T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに テクノロジー戦略本部の酒井です。 私が現在携わっているプロダクトに「デザインシステム」を導入したため、今回はそのことについて話していきたいと思います。ですが、全て触れると長くなってしまうため、今回は導入について話していきます。 はじめに デザインシステムとは 参考記事 背景 導入について スタイルガイドの作成 使用するカラーコードの選定 Typographyのコンポーネント化 使用するア...]]></summary>
-        <content type="html"><![CDATA[はじめに テクノロジー戦略本部の酒井です。 私が現在携わっているプロダクトに「デザインシステム」を導入したため、今回はそのことについて話していきたいと思います。ですが、全て触れると長くなってしまうため、今回は導入について話していきます。 はじめに デザインシステムとは 参考記事 背景 導入について スタイルガイドの作成 使用するカラーコードの選定 Typographyのコンポーネント化 使用するアイコンをFigmaで管理 UIコンポーネントの整理 Figmaのマスタコンポーネントの作成・管理 コンポーネントに切り出す基準を定義 まとめ]]></content>
-        <published>2022-08-31T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS開発を主戦場としてきたエンジニアが「iOSにこだわらない」理由 | mixi developers - Medium]]></title>
-        <id>https://medium.com/p/f2f27db2bddd</id>
-        <link href="https://mixi-developers.mixi.co.jp/iosdc2022-interview-f2f27db2bddd?source=rss----bc6b0ae5a97c---4"/>
-        <updated>2022-08-31T08:06:12.000Z</updated>
-        <author>
-            <name>Chihappy</name>
-        </author>
-        <category label="ios-developer"/>
-        <category label="iosdc"/>
-        <category label="ios-development"/>
-        <category label="developer-interview"/>
-        <category label="interview"/>
-        <published>2022-08-31T08:06:12.000Z</published>
     </entry>
 </feed>
