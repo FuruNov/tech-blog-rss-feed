@@ -7,6 +7,20 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "hatenablog://entry/4207112889918012205",
+            "content_html": "素数の一覧表を作るときに、一個一個の数を素数かどうか判定していくのもよいですが、もう少し効率的に行う方法があります。 その方法の一つが エラトステネスの篩（ふるい） です。  エラトステネスの篩は、情報系の大学生であればプログラミングの演習等で一度は実装したことがあるかと思いますが、実に「アルゴリズム的」なものです。説明の際は「手順」を説明されることが多く、私はこれを数式で表そうと考えたことがありませんでした。 ところが、Wikipediaを見ると、エラトステネスの篩はこんな数式で表せると書いてあります。   細かい定義は次のとおりですが、本文の中で順に説明していきます。 ： 以下の素数の個数 ： 以下のすべての素数を掛け合わせて得られる数 ：メビウス関数 ：ガウス記号（ を超えない最大の整数） ： は を割り切る   こんな風に表せるのか！と驚いた一方で、これはいったいどういうことなんだろうとも思いました。 実際、式 の意味するところは何なのか、初見ではあまりよくわかりません。そこでこの記事では、式 の意味を理解し、どのようにして導かれるのかを理解するために順を追って解説したいと思い...",
+            "url": "https://tsujimotter.hatenablog.com/entry/sieve-of-eratosthenes",
+            "title": "エラトステネスの篩を数式で表すと・・・？ | tsujimotterのノートブック",
+            "summary": "素数の一覧表を作るときに、一個一個の数を素数かどうか判定していくのもよいですが、もう少し効率的に行う方法があります。 その方法の一つが エラトステネスの篩（ふるい） です。  エラトステネスの篩は、情報系の大学生であればプログラミングの演習等で一度は実装したことがあるかと思いますが、実に「アルゴリズム的」なものです。説明の際は「手順」を説明されることが多く、私はこれを数式で表そうと考えたことがあり...",
+            "date_modified": "2022-09-16T10:00:00.000Z",
+            "date_published": "2022-09-16T10:00:00.000Z",
+            "tags": [
+                "数学",
+                "素数",
+                "整数論"
+            ]
+        },
+        {
             "id": "https://techblog.aumo.co.jp/?p=2122",
             "content_html": "グリーグループには公式部活動という制度があります。ここでは部活動の一つである、技術書典部の活動を紹介します。",
             "url": "https://techblog.aumo.co.jp/articles/2122",
@@ -54,10 +68,10 @@
         },
         {
             "id": "https://blog.s-style.co.jp/?p=9332",
-            "content_html": "MySQLのサポート業務では、(ユーザー視点では)突然 Signal 6 や Signal 11 をmysqldが受け取ってダウンするという問い合わせを頂く事が度々あります。 MySQLは数多くのバグフィックスや改善によって、頻繁にダウンすることはありません。 ちなみにGithub上のここ10年のCOMMIT数を数えてみると、77649 commitされていました。 [crayon-6324435fb9326924133912/] それ...",
+            "content_html": "MySQLのサポート業務では、(ユーザー視点では)突然 Signal 6 や Signal 11 をmysqldが受け取ってダウンするという問い合わせを頂く事が度々あります。 MySQLは数多くのバグフィックスや改善によって、頻繁にダウンすることはありません。 ちなみにGithub上のここ10年のCOMMIT数を数えてみると、77649 commitされていました。 [crayon-63245e0fee69e757038453/] それ...",
             "url": "https://blog.s-style.co.jp/2022/09/9332/",
             "title": "MySQLのコアファイルの出力について | スマートスタイル技術ブログ",
-            "summary": "MySQLのサポート業務では、(ユーザー視点では)突然 Signal 6 や Signal 11 をmysqldが受け取ってダウンするという問い合わせを頂く事が度々あります。 MySQLは数多くのバグフィックスや改善によって、頻繁にダウンすることはありません。 ちなみにGithub上のここ10年のCOMMIT数を数えてみると、77649 commitされていました。 [crayon-6324435...",
+            "summary": "MySQLのサポート業務では、(ユーザー視点では)突然 Signal 6 や Signal 11 をmysqldが受け取ってダウンするという問い合わせを頂く事が度々あります。 MySQLは数多くのバグフィックスや改善によって、頻繁にダウンすることはありません。 ちなみにGithub上のここ10年のCOMMIT数を数えてみると、77649 commitされていました。 [crayon-63245e0...",
             "date_modified": "2022-09-16T09:00:05.000Z",
             "date_published": "2022-09-16T09:00:05.000Z",
             "author": {
@@ -270,6 +284,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/iceman/articles/52cc0ab6f12901",
+            "content_html": "背景 ISUCON12予選に参加しましたが、惜しくも敗戦しました。 チームではGo言語で参加しましたが、使い慣れない言語で実装が遅くもどかしかったです。 競技終了後、今年の問題は特に面白く感じ、使い慣れたSwiftで再実装してみたいと思いました。 WebサーバとしてのSwiftの速度を計測する意図もありました。ISUCON問題には素晴らしいベンチマークツールが付随しており、実際のサービス利用シナリオに沿った負荷をかけられます。 普段何気なく記述するコードがそれぞれどのくらいの負荷なのかを実測値として知っておくことは、実装方針を決める支えになってくれます。   できたもの https:...",
+            "url": "https://zenn.dev/iceman/articles/52cc0ab6f12901",
+            "title": "ベンチが通る！ISUCON12予選Swift参考実装 | Zennのトレンド",
+            "summary": "背景 ISUCON12予選に参加しましたが、惜しくも敗戦しました。 チームではGo言語で参加しましたが、使い慣れない言語で実装が遅くもどかしかったです。 競技終了後、今年の問題は特に面白く感じ、使い慣れたSwiftで再実装してみたいと思いました。 WebサーバとしてのSwiftの速度を計測する意図もありました。ISUCON問題には素晴らしいベンチマークツールが付随しており、実際のサービス利用シナリ...",
+            "date_modified": "2022-09-16T05:41:18.000Z",
+            "date_published": "2022-09-16T05:41:18.000Z",
+            "author": {
+                "name": "Iceman"
+            },
+            "tags": []
+        },
+        {
             "id": "https://tech-blog.cloud-config.jp/?p=118185",
             "content_html": "この記事は個人ブログにもマルチポストしています。https://zenn.dev/r0227n/articles/azure_auto_login 新卒ぴよぴよインフラエンジニアの西村です。今回はaz commandやA […] ブラウザ認証をスキップし、CLIでAzureにログインする方法 first appeared on cloud.config Tech Blog.",
             "url": "https://tech-blog.cloud-config.jp/2022-09-16-auto-azure-login-for-cli/",
@@ -283,16 +310,6 @@
             "tags": [
                 "Azure"
             ]
-        },
-        {
-            "id": "22151",
-            "content_html": "Souzohの機械学習チームでSoftware Engineer Internをしている@manami-nです。 本稿ではインターン中に携わった、「売れやすい価格」をお客さまに提案するための機械学習モデル(価格推定モデル […]",
-            "url": "https://engineering.mercari.com/blog/entry/20220916-a0a50d6fc5/",
-            "title": "メルカリShopsのデータを用いて価格推定モデルを検証してみた | Souzoh Intern | メルカリエンジニアリングブログ",
-            "summary": "Souzohの機械学習チームでSoftware Engineer Internをしている@manami-nです。 本稿ではインターン中に携わった、「売れやすい価格」をお客さまに提案するための機械学習モデル(価格推定モデル […]",
-            "date_modified": "2022-09-16T05:19:09.000Z",
-            "date_published": "2022-09-16T05:19:09.000Z",
-            "tags": []
         },
         {
             "id": "https://tech.mirrativ.stream/entry/2022/09/16/140901?utm_source=feed",
@@ -332,6 +349,19 @@
             "summary": "みなさんこんにちは。NewsPickでiOSアプリの開発をしている森崎です。 当記事ではどのアプリも一度は見直しを検討したことがあるであろう、アプリの起動時間の高速化についてお話しします。 他の記事で起動時の処理や高速化への改善策を書いたので、ここでは具体的に行ったこととその結果を数字とともに書きたいと思います。 ⬇️起動時の処理や高速化への改善策を書いた記事です。 こちらを読んでもらうと、当記事...",
             "date_modified": "2022-09-16T04:58:11.000Z",
             "date_published": "2022-09-16T04:58:11.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/gamella/articles/bdd980d4929a90",
+            "content_html": "はじめに こちらは先日行われたマケデコ(discord: https://discord.com/invite/xg6P5RXwaa)のキックオフイベントで行ったセッションの内容を補足するブログです。こちらマケデコ内でセッションに参加できないが、資料を公開してほしいというリクエストを受け、北山の発表部分について記載しました(UKIさんのAsk me anythingセッションは残念ながら公開予定はないです)。 https://mkdeco.connpass.com/event/259046/ 本セッションでは、 J-Quants API ベータ版を使用して、J-Quantsファンダメ...",
+            "url": "https://zenn.dev/gamella/articles/bdd980d4929a90",
+            "title": "JQuants APIを用いて日本最大の株式分析コンペで準優勝した決算評価モデルを動かす方法 | Zennのトレンド",
+            "summary": "はじめに こちらは先日行われたマケデコ(discord: https://discord.com/invite/xg6P5RXwaa)のキックオフイベントで行ったセッションの内容を補足するブログです。こちらマケデコ内でセッションに参加できないが、資料を公開してほしいというリクエストを受け、北山の発表部分について記載しました(UKIさんのAsk me anythingセッションは残念ながら公開予定は...",
+            "date_modified": "2022-09-16T04:46:33.000Z",
+            "date_published": "2022-09-16T04:46:33.000Z",
+            "author": {
+                "name": "tomo@Alpaca"
+            },
             "tags": []
         },
         {
@@ -395,6 +425,19 @@
             "summary": "こんにちは。自称 Looker エバンジェリストの id:masutaka26 です。 今日は Spectacles というツールを導入して、Looker インスタンスの健全性を高められた話を紹介します。 Spectacles とは 4 種類のテスト 基本的な振る舞い どのテストを採用し、どのような課題を解決したのか SQL validation Assert validation Content...",
             "date_modified": "2022-09-16T04:00:00.000Z",
             "date_published": "2022-09-16T04:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/nameless_sn/articles/web_selection",
+            "content_html": "! 本記事は著者のMedium記事であるKey Factors in Technology Selection When Developing Web Appsを日本向けに翻訳・アレンジしたものである。    はじめに 今回の記事では、私が実践しているWebアプリを開発するための技術選定のポイントを徹底解説する。一概には言えないが、同時に私が普段個人開発で扱っている技術を中心に紹介する。 今回の記事がプロダクトの技術選定で迷っているプログラマーに届けば幸いである。   技術選定の原則 技術選定する上で重要なポイントは、その技術を学ぶことで得られるメリットや効率化できる部分を徹底的に調べる...",
+            "url": "https://zenn.dev/nameless_sn/articles/web_selection",
+            "title": "Webアプリを開発する際に必要な技術選定のポイント | Zennのトレンド",
+            "summary": "! 本記事は著者のMedium記事であるKey Factors in Technology Selection When Developing Web Appsを日本向けに翻訳・アレンジしたものである。    はじめに 今回の記事では、私が実践しているWebアプリを開発するための技術選定のポイントを徹底解説する。一概には言えないが、同時に私が普段個人開発で扱っている技術を中心に紹介する。 今回の記...",
+            "date_modified": "2022-09-16T03:56:56.000Z",
+            "date_published": "2022-09-16T03:56:56.000Z",
+            "author": {
+                "name": "Shota Nukumizu"
+            },
             "tags": []
         },
         {
@@ -503,6 +546,19 @@
             "summary": "エキサイトのエンジニア岩藤です。 今年エキサイトは脱オンプレサーバーという事で、awsにほぼ全サービスを移行しました。 私も担当の帳票サービス、占いサービスを移行しています。 その際そのままシスステムを移行するのではなく、一部よくない部分の作り替えを行いました。 そのうちの一つが、サーバー上のファイル管理という仕組みです。 今回はこのサーバー上のファイル管理がどう良くないかと、どう変更したかを記述...",
             "date_modified": "2022-09-16T02:32:43.000Z",
             "date_published": "2022-09-16T02:32:43.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/ignorant_kenji/articles/6f740feabf6f30",
+            "content_html": "はじめに 最近では、多様なテスト手法や開発者向けツールを散見します。 エンドツーエンド（E2E）テストだけでも、「Cypress」「Puppeteer」「Playwright」「Selenium」などのツールがあります。単体テストでは「Vitest」や「Visual Studio」のビルトイン単体テスト機能など、テストの準備を容易に自動化できます。 ですが、多様なテストツールを導入しても、「When」、「How」を押さえてなければ、テストの効果を有効に得ることができないと考えています。 まず、静的テスト、単体テスト、統合テスト、E2Eテストを実装コスト、実行時間と信頼性の観点で見てい...",
+            "url": "https://zenn.dev/ignorant_kenji/articles/6f740feabf6f30",
+            "title": "どうして統合テストは重要なんだろう？ | Zennのトレンド",
+            "summary": "はじめに 最近では、多様なテスト手法や開発者向けツールを散見します。 エンドツーエンド（E2E）テストだけでも、「Cypress」「Puppeteer」「Playwright」「Selenium」などのツールがあります。単体テストでは「Vitest」や「Visual Studio」のビルトイン単体テスト機能など、テストの準備を容易に自動化できます。 ですが、多様なテストツールを導入しても、「Whe...",
+            "date_modified": "2022-09-16T02:17:49.000Z",
+            "date_published": "2022-09-16T02:17:49.000Z",
+            "author": {
+                "name": "Kenji"
+            },
             "tags": []
         },
         {
@@ -885,15 +941,15 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/yoshida0312/articles/c2d3f2af82eae8",
-            "content_html": "初期化 今回はNNを初期化する手法を確認します。 NNが深くなるほど、ネットワークを通して安定的な勾配を伝播させることが重要になります。そうしないと、勾配が消滅したり爆発したりする可能性があるためです。そのため、今回は重みの初期化に関して見ていきます。 import os import json import math import japanize_matplotlib import numpy as np import time  import matplotlib.pyplot as plt import seaborn as sns sns.set()  from tqdm...",
-            "url": "https://zenn.dev/yoshida0312/articles/c2d3f2af82eae8",
-            "title": "Intro2DL：NNにおける重みの初期化方法 | Zennのトレンド",
-            "summary": "初期化 今回はNNを初期化する手法を確認します。 NNが深くなるほど、ネットワークを通して安定的な勾配を伝播させることが重要になります。そうしないと、勾配が消滅したり爆発したりする可能性があるためです。そのため、今回は重みの初期化に関して見ていきます。 import os import json import math import japanize_matplotlib import numpy...",
-            "date_modified": "2022-09-15T14:29:32.000Z",
-            "date_published": "2022-09-15T14:29:32.000Z",
+            "id": "https://zenn.dev/k_n/articles/3998fcb5b372e9",
+            "content_html": "僕の略歴  生物・農学系の学士号を取得しているが、CSの学位は持っていない 帰国子女とかではなく、英語が苦手な典型的な日本人 社会人になって偶然の成り行きでソフトウェアエンジニアをやっている    なぜ目指すことになったのか 一言で言うと、コンピュータサイエンスとして自分の持っている地図を広げたかったからである。僕はソフトウェアエンジニアとして働いているが、普段の業務ではwebの中でのエンジニアリングである。 特にフロントエンドは僕の性に合っていると思っているし、これからもその業界の中で生きていきたいと思っている。 でも今のスタイルのまま10年続ける、というのはどうなんだろう?と言う...",
+            "url": "https://zenn.dev/k_n/articles/3998fcb5b372e9",
+            "title": "海外大学のCS修士課程に進学することになった | Zennのトレンド",
+            "summary": "僕の略歴  生物・農学系の学士号を取得しているが、CSの学位は持っていない 帰国子女とかではなく、英語が苦手な典型的な日本人 社会人になって偶然の成り行きでソフトウェアエンジニアをやっている    なぜ目指すことになったのか 一言で言うと、コンピュータサイエンスとして自分の持っている地図を広げたかったからである。僕はソフトウェアエンジニアとして働いているが、普段の業務ではwebの中でのエンジニアリ...",
+            "date_modified": "2022-09-15T14:39:29.000Z",
+            "date_published": "2022-09-15T14:39:29.000Z",
             "author": {
-                "name": "よしだ"
+                "name": "k_n"
             },
             "tags": []
         },
@@ -938,19 +994,6 @@
             "date_published": "2022-09-15T13:43:45.000Z",
             "author": {
                 "name": "uhyo"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/shooq/articles/6f08936bfb3735",
-            "content_html": "Timelapse   侵入   nmap ポートスキャンを行う ┌──(kali㉿kali)-[~/Desktop/Timelapse] └─$ sudo nmap -Pn -n -v --reason -sS -p- --min-rate=1000 -A 10.10.11.152 -oN nmap.log Starting Nmap 7.91 ( https://nmap.org ) at 2022-09-15 14:45 JST ------------------------------------- PORT STATE SERVICE REA...",
-            "url": "https://zenn.dev/shooq/articles/6f08936bfb3735",
-            "title": "HackTheBox Timelapse | Zennのトレンド",
-            "summary": "Timelapse   侵入   nmap ポートスキャンを行う ┌──(kali㉿kali)-[~/Desktop/Timelapse] └─$ sudo nmap -Pn -n -v --reason -sS -p- --min-rate=1000 -A 10.10.11.152 -oN nmap.log Starting Nmap 7.91 ( https://nmap.org ) at 2...",
-            "date_modified": "2022-09-15T13:04:46.000Z",
-            "date_published": "2022-09-15T13:04:46.000Z",
-            "author": {
-                "name": "sHoO"
             },
             "tags": []
         },
@@ -1011,6 +1054,19 @@
             "summary": "はじめに  自己紹介  こんにちは、もぐもぐと申します。現在とある横浜のフロンティアなサイエンス高校というところに通っている高校3年生(17歳[^1])の自称ﾌﾟﾛｸﾞﾗﾏｰです。 趣味でEQMoni…",
             "date_modified": "2022-09-15T10:53:36.000Z",
             "date_published": "2022-09-15T10:53:36.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/yoiyoicho/articles/1fe05797a1bbc4",
+            "content_html": "Rails7で個人開発しているWebアプリ（下記）に、アクセス解析ツールの「Google Analytics 4（GA4）」を導入しました。そのやり方の備忘録です。 https://torikomi.herokuapp.com/   GA4でセットアップを行う https://support.google.com/analytics/answer/9304153 こちらが公式ガイド。日本語で読めます。この公式ガイド通りに、  アナリティクスのアカウントを作成する Google アナリティクス 4 プロパティを作成する データストリームを追加する  の項目を進めて、GA4側のセットアップを...",
+            "url": "https://zenn.dev/yoiyoicho/articles/1fe05797a1bbc4",
+            "title": "【Rails7】Google Analytics 4（GA4）を導入する | Zennのトレンド",
+            "summary": "Rails7で個人開発しているWebアプリ（下記）に、アクセス解析ツールの「Google Analytics 4（GA4）」を導入しました。そのやり方の備忘録です。 https://torikomi.herokuapp.com/   GA4でセットアップを行う https://support.google.com/analytics/answer/9304153 こちらが公式ガイド。日本語で読めま...",
+            "date_modified": "2022-09-15T10:32:18.000Z",
+            "date_published": "2022-09-15T10:32:18.000Z",
+            "author": {
+                "name": "yoshino"
+            },
             "tags": []
         },
         {
@@ -1080,19 +1136,6 @@
             "title": "「Microsoft Office」2022年9月の更新プログラムまとめが公開　ほか【ダイジェストニュース】 | 窓の杜",
             "date_modified": "2022-09-15T09:44:23.000Z",
             "date_published": "2022-09-15T09:44:23.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/hankei6km/articles/react-streaming-ssr-in-wasmedge-quickjs",
-            "content_html": "JavaScript で作ったツールを実行ファイルにする方法を考えていたところ「Wasm(WASI) で JavaScript を使えたらいけるのでは」と思いました。 そこで少し調べてみたところ、世の中は React の SSR を Wasm でやってやろうぜ というところまで進んでいました。今回はその辺についてなど。 (WASI で JavaScript を実行ファイルにするのは別途記事にしたいと思っています)   WasmEdge と QuickJS 日本語の情報が少なかったので WasmEdge と QuickJS、およびその組み合わについて少し説明など。   WasmEdge(W...",
-            "url": "https://zenn.dev/hankei6km/articles/react-streaming-ssr-in-wasmedge-quickjs",
-            "title": "WasmEdge と QuickJS で Rect Streaming SSR のコンテナを作ったら 5MB に収まってしまった | Zennのトレンド",
-            "summary": "JavaScript で作ったツールを実行ファイルにする方法を考えていたところ「Wasm(WASI) で JavaScript を使えたらいけるのでは」と思いました。 そこで少し調べてみたところ、世の中は React の SSR を Wasm でやってやろうぜ というところまで進んでいました。今回はその辺についてなど。 (WASI で JavaScript を実行ファイルにするのは別途記事にしたい...",
-            "date_modified": "2022-09-15T09:43:05.000Z",
-            "date_published": "2022-09-15T09:43:05.000Z",
-            "author": {
-                "name": "hankei6km"
-            },
             "tags": []
         },
         {
@@ -1240,19 +1283,6 @@
             "summary": "【前書き】  こんにちは。 ついこの前のABC266で緑色になりました！ ここまでの道のりは悔しい思いの連続でしたが、なんとか夏休み中の目標にしていた緑コーダーになることができました！参考までにAt…",
             "date_modified": "2022-09-15T06:54:36.000Z",
             "date_published": "2022-09-15T06:54:36.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/milab/articles/5934d6edcd647f",
-            "content_html": "皆さんこんにちは!! 株式会社エムアイ・ラボの第4回目の記事として、今回は私たち開発チームが普段意識している、レビュー時の心掛けについて取り上げてみたいと思います!!    ■ レビュー時の心掛け Web開発をチームで行う際は大抵、複数名がコードを記載し、１名以上の方が開発途中か開発終了時にソースレビューをして、記載コードに問題がないか、問題があれば指摘やアドバイスをもらい、再度修正を行うかと思います。 私たちが普段、そのレビュー時に特に意識しているのは、「実施した目的・内容、確認して欲しい箇所、テスト結果、リクエスト・レスポンス」をまとめてレビュワーに伝えてフィードバックをもらうことで...",
-            "url": "https://zenn.dev/milab/articles/5934d6edcd647f",
-            "title": "ソースレビュー時の心掛け | Zennのトレンド",
-            "summary": "皆さんこんにちは!! 株式会社エムアイ・ラボの第4回目の記事として、今回は私たち開発チームが普段意識している、レビュー時の心掛けについて取り上げてみたいと思います!!    ■ レビュー時の心掛け Web開発をチームで行う際は大抵、複数名がコードを記載し、１名以上の方が開発途中か開発終了時にソースレビューをして、記載コードに問題がないか、問題があれば指摘やアドバイスをもらい、再度修正を行うかと思い...",
-            "date_modified": "2022-09-15T06:53:49.000Z",
-            "date_published": "2022-09-15T06:53:49.000Z",
-            "author": {
-                "name": "milab"
-            },
             "tags": []
         },
         {
@@ -1486,7 +1516,7 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10579",
-            "content_html": "こんにちは、@nov です。 それ以前も数年間、技術顧問として MoneyFor … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scrum Fest Osaka 2022 に参加してきました！  クラウド会計を支えるマイクロサービスをインターン生中心でリリースしました！  【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う  【レポート】第1回 マネーフォワードエンジニア総会  エンジニアブログ、始めました   Copyright © Money Forward Engineers' Blog [Sign in with Apple Revocation API & Consent Revoked Notification 対応 2022], All Right Reserved. 2022.",
+            "content_html": "こんにちは、@nov です。 それ以前も数年間、技術顧問として MoneyFor … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scrum Fest Niigata 2022 に登壇しました！  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会  社内エンジニア生産系可視化ツールで個人のメトリクスを見れるようにした話  待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・   Copyright © Money Forward Engineers' Blog [Sign in with Apple Revocation API & Consent Revoked Notifica...",
             "url": "https://moneyforward.com/engineers_blog/2022/09/15/sign-in-with-apple/",
             "title": "Sign in with Apple Revocation API & Consent Revoked Notification 対応 2022 | Money Forward Engineers' Blog",
             "summary": "こんにちは、@nov です。 それ以前も数年間、技術顧問として MoneyFor … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scr...",
@@ -1498,19 +1528,6 @@
             "tags": [
                 "お知らせ"
             ]
-        },
-        {
-            "id": "https://zenn.dev/offers/articles/20220915-datadog-synthetics-introduce-subtest",
-            "content_html": "概要 こんにちは、Offers を運営している株式会社 overflow のバックエンドエンジニアの shun です。今回は、Datadog Synthetics 上でブラウザテストを作成する際に利用できる Subtest についてご紹介します。   Datadog Syntheticsとは？ Datadog という SaaS の一機能で、主にブラウザテストを GUI で作成し、定期実行 or CI 経由の実行を可能にしてくれるものです。 ブラウザテストの作成を大量に行う際、当然メンテナンスコストもかかってきますが、今回ご紹介する Subtest を用いると、比較的メンテナンスがしや...",
-            "url": "https://zenn.dev/offers/articles/20220915-datadog-synthetics-introduce-subtest",
-            "title": "Datadog SyntheticsのSubtestでブラウザテストをComponent化する｜Offers Tech Blog | Zennのトレンド",
-            "summary": "概要 こんにちは、Offers を運営している株式会社 overflow のバックエンドエンジニアの shun です。今回は、Datadog Synthetics 上でブラウザテストを作成する際に利用できる Subtest についてご紹介します。   Datadog Syntheticsとは？ Datadog という SaaS の一機能で、主にブラウザテストを GUI で作成し、定期実行 or C...",
-            "date_modified": "2022-09-15T00:30:00.000Z",
-            "date_published": "2022-09-15T00:30:00.000Z",
-            "author": {
-                "name": "Offers Tech Blog"
-            },
-            "tags": []
         },
         {
             "id": "https://forest.watch.impress.co.jp/docs/update/driver/1440112.html",
@@ -1795,19 +1812,6 @@
             "summary": "TL;DR ファイルを見る 「Build ID」とは 「debuginfo」 とは debuginfoとBuild IDの関係 「debuginfoの素早い検証」 「ダンプに対応するバイナリの発見」 複数バージョンのdebuginfoをシステムへ導入する /usr/lib/.build-id の通常rpmへの移動 Build IDの応用 Red Hatの森若です。 rpmパッケージに含まれるファイ...",
             "date_modified": "2022-09-14T09:25:09.000Z",
             "date_published": "2022-09-14T09:25:09.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/macneko/articles/06aec138a357b9",
-            "content_html": "はじめに 技術書典13にて、株式会社ゆめみのiOSギルドの有志で「ゆめみ大技林 '22」という技術同人誌を制作し、頒布しました。 https://techbookfest.org/product/9g7iLPz8dzmL2QrrbedbxG?productVariantID=gfsBNShXyWyxHiubY2f1m7 私は編集者としてこの本の制作に携わり、主に本としての体裁を整える作業を行いました。 その中で執筆陣からVivliostyleのテーマを自分たちなりにいい感じにカスタマイズしたいという要望を受けました。 この記事は初めてVivliostyleを触った私が、テーマをカスタ...",
-            "url": "https://zenn.dev/macneko/articles/06aec138a357b9",
-            "title": "Vivliostyleの公式テーマをカスタマイズして、ゆめみ大技林 '22のテーマを作った | Zennのトレンド",
-            "summary": "はじめに 技術書典13にて、株式会社ゆめみのiOSギルドの有志で「ゆめみ大技林 '22」という技術同人誌を制作し、頒布しました。 https://techbookfest.org/product/9g7iLPz8dzmL2QrrbedbxG?productVariantID=gfsBNShXyWyxHiubY2f1m7 私は編集者としてこの本の制作に携わり、主に本としての体裁を整える作業を行いまし...",
-            "date_modified": "2022-09-14T08:33:55.000Z",
-            "date_published": "2022-09-14T08:33:55.000Z",
-            "author": {
-                "name": "macneko"
-            },
             "tags": []
         },
         {
@@ -2719,6 +2723,16 @@
             "tags": []
         },
         {
+            "id": "https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-meta-towards-trustworthy-products-in-ar-vr-and-smart-devices-and-security-research-requests-for-proposals/",
+            "content_html": "In April, Meta jointly launched the 2022 Meta Security request for proposals (RFP) and the third annual Towards Trustworthy Products in AR, VR, and Smart Devices RFP...",
+            "url": "https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-meta-towards-trustworthy-products-in-ar-vr-and-smart-devices-and-security-research-requests-for-proposals/",
+            "title": "Announcing the winners of the Meta Towards Trustworthy Products in AR, VR, and Smart Devices and Security Research requests for proposals | Meta Research",
+            "summary": "In April, Meta jointly launched the 2022 Meta Security request for proposals (RFP) and the third annual Towards Trustworthy Products in AR, VR, and Smart Devices RFP...",
+            "date_modified": "2022-09-13T04:00:00.000Z",
+            "date_published": "2022-09-13T04:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://tech.visasq.com/2022/09/13/120924",
             "content_html": "こんにちは。SREチームでリーダーをやっている木村です。 座右の名は「明日自分が交通事故にあっても、システムの運用を滞りなくする」です。 先日、ビザスク SRE チームでオフサイト (半日程時間をとって集中して、テーマに関して議論する時間です) を行って「次の半年でやりたいこと」を議論しましたので、 こちらの内容を生々しくお伝えしていきたいと思います。 なぜオフサイトを開いたのか？ 日々の業務で SRE チームは同期・非同期的な積極的にコミュニケーションを取りながら日々の仕事をしていますが、 日々の中だとどうしても目の前の課題にフォーカスした内容になり、中長期的なちょっと遠い目線の話しは後回し…",
             "url": "https://tech.visasq.com/2022/09/13/120924",
@@ -2852,21 +2866,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.zozo.com/entry/zozotown-css-in-js",
-            "content_html": "はじめに こんにちは。ZOZOTOWN開発本部フロントエンドの菊地（@hiro0218）です。 現在、ZOZOTOWNではWebフロントエンド技術のリプレイスプロジェクトが進行しています1。本記事では、WebフロントエンドのリプレイスでCSS in JSの技術選定をした際の背景や課題についてご紹介します。 既存技術スタックの課題 リプレイス以前の環境は、Classic ASPのテンプレートエンジンに依存したUI実装が多く存在しており、新規開発や変更のタイミングで実装をReact + CSS Modulesへ改修しています。そのため、レガシーな実装とモダンな実装が共存した状態です。 こういった背…",
-            "url": "https://techblog.zozo.com/entry/zozotown-css-in-js",
-            "title": "ZOZOTOWN Webフロントエンドリプレイスにおける CSS in JS の技術選定で Emotion を選定した話 | ZOZO TECH BLOG",
-            "summary": "はじめに こんにちは。ZOZOTOWN開発本部フロントエンドの菊地（@hiro0218）です。 現在、ZOZOTOWNではWebフロントエンド技術のリプレイスプロジェクトが進行しています1。本記事では、WebフロントエンドのリプレイスでCSS in JSの技術選定をした際の背景や課題についてご紹介します。 既存技術スタックの課題 リプレイス以前の環境は、Classic ASPのテンプレートエンジン...",
-            "date_modified": "2022-09-13T02:00:00.000Z",
-            "date_published": "2022-09-13T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.yahoo.co.jp/entry/2022091330337753/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
             "content_html": "Digital Hack Day 2022をより楽しむために、イベントの開催意義や前回の作品、今回利用できるテクノロジーについてご紹介します",
             "url": "https://techblog.yahoo.co.jp/entry/2022091330337753/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
             "title": "Digital Hack Day 2022に出場して、さまざまなテクノロジーに触れてみよう！ | Yahoo! JAPAN Tech Blog",
             "summary": "Digital Hack Day 2022をより楽しむために、イベントの開催意義や前回の作品、今回利用できるテクノロジーについてご紹介します",
+            "date_modified": "2022-09-13T02:00:00.000Z",
+            "date_published": "2022-09-13T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.zozo.com/entry/zozotown-css-in-js",
+            "content_html": "はじめに こんにちは。ZOZOTOWN開発本部フロントエンドの菊地（@hiro0218）です。 現在、ZOZOTOWNではWebフロントエンド技術のリプレイスプロジェクトが進行しています1。本記事では、WebフロントエンドのリプレイスでCSS in JSの技術選定をした際の背景や課題についてご紹介します。 既存技術スタックの課題 リプレイス以前の環境は、Classic ASPのテンプレートエンジンに依存したUI実装が多く存在しており、新規開発や変更のタイミングで実装をReact + CSS Modulesへ改修しています。そのため、レガシーな実装とモダンな実装が共存した状態です。 こういった背…",
+            "url": "https://techblog.zozo.com/entry/zozotown-css-in-js",
+            "title": "ZOZOTOWN Webフロントエンドリプレイスにおける CSS in JS の技術選定で Emotion を選定した話 | ZOZO TECH BLOG",
+            "summary": "はじめに こんにちは。ZOZOTOWN開発本部フロントエンドの菊地（@hiro0218）です。 現在、ZOZOTOWNではWebフロントエンド技術のリプレイスプロジェクトが進行しています1。本記事では、WebフロントエンドのリプレイスでCSS in JSの技術選定をした際の背景や課題についてご紹介します。 既存技術スタックの課題 リプレイス以前の環境は、Classic ASPのテンプレートエンジン...",
             "date_modified": "2022-09-13T02:00:00.000Z",
             "date_published": "2022-09-13T02:00:00.000Z",
             "tags": []
@@ -3279,6 +3293,16 @@
             "summary": "先日公開した新作プログラミングゲーム『エンジニア騎士とクエリの魔女』、皆さんプレイしていただけましたでしょうか？今作ははじめてSQLの問題を出題したこともあり、いつも以上に多くの方が楽しんでくださったと思います。この記事では、SQLのA・Bランク相当の問題の解説・解答例をお届けします。挑戦したけど難しかった・解けなかったという方は、参考にして再挑戦してみてください。なお、C・Dランク相当の問題は、...",
             "date_modified": "2022-09-12T05:00:00.000Z",
             "date_published": "2022-09-12T05:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://research.facebook.com/blog/2022/9/qa-with-murali-annavaram-professor-at-university-of-southern-california-and-meta-academic-collaborator/",
+            "content_html": "For August, we are spotlighting Murali Annavaram, professor of Electrical and Computer Engineering and Computer Science at the University of Southern California (USC) and Director...",
+            "url": "https://research.facebook.com/blog/2022/9/qa-with-murali-annavaram-professor-at-university-of-southern-california-and-meta-academic-collaborator/",
+            "title": "Q&A with Murali Annavaram, professor at University of Southern California and Meta academic collaborator | Meta Research",
+            "summary": "For August, we are spotlighting Murali Annavaram, professor of Electrical and Computer Engineering and Computer Science at the University of Southern California (USC) and Director...",
+            "date_modified": "2022-09-12T04:00:00.000Z",
+            "date_published": "2022-09-12T04:00:00.000Z",
             "tags": []
         },
         {
@@ -3720,10 +3744,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10565",
-            "content_html": "3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年7月)  社内勉強会カレンダーのご紹介  qiitaの中の人たちとWIPな情報共有のよさを語り合いました  マネーフォワード内定者がRust.Tokyo 2021に登壇します  [勤怠FEギルド] Jestを使ってファイル・ディレクトリの命名規約をテストする   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！], All Right Reserved. 2022.",
+            "content_html": "3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How MySQL Multi-Threaded Slave (MTS) Works  「Money Forward Techbook#2」を技術書典 応援祭に出品します  技術顧問giginetさんインタビュー コミュニティ活動やOSS活動の秘訣を聞いてみました  リニューアル後の国税庁サイトを検索できるサービスを作ってみた  地域ユーザーの課題を技術で解決するエックスカンパニーのエンジニア組織について   Copyright © Money Forward Engineers' Blog [#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！], All R...",
             "url": "https://moneyforward.com/engineers_blog/2022/09/11/iosdc-2022-day0/",
             "title": "#iOSDC Day0に参加して人生で初めてスポンサーブースの運営スタッフをしてきました！ | Money Forward Engineers' Blog",
-            "summary": "3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
+            "summary": "3年ぶりのオフラインイベントに参加！ 久しぶりのお祭りはやっぱり楽しいぞ！とテン … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How...",
             "date_modified": "2022-09-10T15:34:16.000Z",
             "date_published": "2022-09-10T15:34:16.000Z",
             "author": {
@@ -5538,10 +5562,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10517",
-            "content_html": "序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scrum Fest Niigata 2022 に登壇しました！  世界有数のAPI利用企業で考える標準仕様範囲外の仕様とユーザー体験の関係性  [MFクラウド会計]ユーザーの声がサービスに届くまで  iOS Appの開発効率を上げるライブラリ＆ツール [Object・JSON変換]  マネーフォワードCTOが考えていること（2020年3月）   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します], All Right Reserved. 2022.",
+            "content_html": "序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: google-authenticator-railsを試してみた  京都拠点のカジュアル面談でウケが良かった話・悪かった話  【レポート速報】Google I/O 2016 - Day1  もし年末に夏休みが取れたら京都に行こう！  マネーフォワードのItamae Tips   Copyright © Money Forward Engineers' Blog [二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/07/money-forward-techbook5/",
             "title": "二代目編集長として「Money Forward Techbook#5」を技術書典13に出品します | Money Forward Engineers' Blog",
-            "summary": "序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scr...",
+            "summary": "序文という名の宣伝 こんにちは、エンジニアリング戦略室で技術広報をしている lu … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: goo...",
             "date_modified": "2022-09-07T03:00:53.000Z",
             "date_published": "2022-09-07T03:00:53.000Z",
             "author": {
@@ -5680,10 +5704,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10530",
-            "content_html": "どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Zeitwerkとrequire_dependency  Pull Requestを育てて開発しよう  MoneyForward Meetupレポート「ワークOSSバランス」  MF KESSAI Tech Blog新設のおしらせ  マネーフォワードへの道（msb Tamachi編）   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポンサーブース出展のお知らせ], All Right Reserved. 2022.",
+            "content_html": "どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 地獄のミ、、、rssフィードをjsonフィードに変換するTips  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台  Rubyをもっと前へ  CRISP-DMに沿ってデータ分析する  マネーフォワードはRubyプランで Kaigi on Rails 2021 に協賛します！   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポンサーブース出展のお知らせ], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/07/iosdc-2022/",
             "title": "iOSDC Japan 2022 にマネーフォワードの社員が登壇&スポンサーブース出展のお知らせ | Money Forward Engineers' Blog",
-            "summary": "どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Zei...",
+            "summary": "どうも！初めまして！マネーフォワードのクラウド経費本部Product開発部でモバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 地獄の...",
             "date_modified": "2022-09-07T01:00:07.000Z",
             "date_published": "2022-09-07T01:00:07.000Z",
             "author": {
@@ -5961,10 +5985,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10544",
-            "content_html": "こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Pull Requestを育てて開発しよう  とあるエンジニアのマネフォ的 1日の過ごし方  [インターンレポ] Web脆弱性診断スキルマップのシルバーランクを目指す  表舞台と裏舞台からみたGo Conference 2022 Spring  Javaエンジニアが、Rubyを始めてみて受けた衝撃   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All Right Reserved. 2022.",
+            "content_html": "こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sign in with Apple Revocation API & Consent Revoked Notification 対応 2022  Dockerを使って開発環境を構築する  2020年度版おすすめ書籍 in マネフォ京都メンバー  年末にesaの大掃除をしてみた  haml2slim でハマった点とその解決方法   Copyright © Money Forward Engineers' Blog [マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/06/rubykaigi-2022/",
             "title": "マネーフォワードはRubyKaigi2022に協賛します！登壇者情報や、配布ノベルティ、気になるセッションについて | Money Forward Engineers' Blog",
-            "summary": "こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Pul...",
+            "summary": "こんにちは、8月からマネーフォワードでエンジニア採用広報をしています @acha … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sig...",
             "date_modified": "2022-09-06T08:00:54.000Z",
             "date_published": "2022-09-06T08:00:54.000Z",
             "author": {
@@ -6152,6 +6176,16 @@
             "url": "https://developers.freee.co.jp/entry/hachi-refactoring-tips",
             "title": "リファクタリングは事前準備が９割 | freee Developers Hub",
             "summary": "会計チームで債権周りの開発をしている hachi (@hachiblog)です。会計チームが開発している freee 会計は freee の中で一番歴史が長いプロダクトです。加えて会計というドメインは複雑かつバグを生むと顧客の業務を大きく阻害するという点で一度作ったものを変更しづらいという特徴があります。 そのような環境で今回、債権のチームでは freee会計の初期からある「自動で経理」という機能...",
+            "date_modified": "2022-09-06T01:00:00.000Z",
+            "date_published": "2022-09-06T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-2022-systems-research-request-for-proposals/",
+            "content_html": "For this RFP, we were especially interested in proposals that addressed fundamental challenges that arise in distributed systems operating at a large scale.",
+            "url": "https://research.facebook.com/blog/2022/9/announcing-the-winners-of-the-2022-systems-research-request-for-proposals/",
+            "title": "Announcing the winners of the 2022 Systems Research request for proposals | Meta Research",
+            "summary": "For this RFP, we were especially interested in proposals that addressed fundamental challenges that arise in distributed systems operating at a large scale.",
             "date_modified": "2022-09-06T01:00:00.000Z",
             "date_published": "2022-09-06T01:00:00.000Z",
             "tags": []
@@ -6644,21 +6678,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.zozo.com/entry/gitops-with-flux2",
-            "content_html": "はじめに こんにちは。SRE部の巣立（@ksudate）です。 ZOZOTOWNのマイクロサービス基盤では、GitHub Actionsを利用したCDパイプラインを構築しています。しかし、管理するマイクロサービスが増えるにつれて運用負荷が高まりつつありました。 本記事では、ZOZOTOWNのマイクロサービス基盤のCDパイプラインが抱える課題と、それらをFlux2でどのように解決したのかを紹介します。また、Flux2の導入にあたり工夫したポイントを紹介します。 目次 はじめに 目次 Flux2の導入背景 マイクロサービス基盤のCI/CDパイプラインが抱える課題とこれまでの対策 Flux2とは？ …",
-            "url": "https://techblog.zozo.com/entry/gitops-with-flux2",
-            "title": "CIOpsからGitOpsへ。Flux2でマイクロサービスのデプロイを爆速にした話 | ZOZO TECH BLOG",
-            "summary": "はじめに こんにちは。SRE部の巣立（@ksudate）です。 ZOZOTOWNのマイクロサービス基盤では、GitHub Actionsを利用したCDパイプラインを構築しています。しかし、管理するマイクロサービスが増えるにつれて運用負荷が高まりつつありました。 本記事では、ZOZOTOWNのマイクロサービス基盤のCDパイプラインが抱える課題と、それらをFlux2でどのように解決したのかを紹介します...",
-            "date_modified": "2022-09-05T02:00:00.000Z",
-            "date_published": "2022-09-05T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.yahoo.co.jp/entry/2022090530337093/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
             "content_html": "ヤフー全社でCore Web Vitals指標の改善に取り組んだ際の「全社Webパフォーマンス改善プロジェクト」について、経緯や施策内容をすべてご紹介します。",
             "url": "https://techblog.yahoo.co.jp/entry/2022090530337093/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
             "title": "ヤフー全社横断「Webパフォーマンス改善」の取り組み (Core Web Vitalsスコアの向上) | Yahoo! JAPAN Tech Blog",
             "summary": "ヤフー全社でCore Web Vitals指標の改善に取り組んだ際の「全社Webパフォーマンス改善プロジェクト」について、経緯や施策内容をすべてご紹介します。",
+            "date_modified": "2022-09-05T02:00:00.000Z",
+            "date_published": "2022-09-05T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.zozo.com/entry/gitops-with-flux2",
+            "content_html": "はじめに こんにちは。SRE部の巣立（@ksudate）です。 ZOZOTOWNのマイクロサービス基盤では、GitHub Actionsを利用したCDパイプラインを構築しています。しかし、管理するマイクロサービスが増えるにつれて運用負荷が高まりつつありました。 本記事では、ZOZOTOWNのマイクロサービス基盤のCDパイプラインが抱える課題と、それらをFlux2でどのように解決したのかを紹介します。また、Flux2の導入にあたり工夫したポイントを紹介します。 目次 はじめに 目次 Flux2の導入背景 マイクロサービス基盤のCI/CDパイプラインが抱える課題とこれまでの対策 Flux2とは？ …",
+            "url": "https://techblog.zozo.com/entry/gitops-with-flux2",
+            "title": "CIOpsからGitOpsへ。Flux2でマイクロサービスのデプロイを爆速にした話 | ZOZO TECH BLOG",
+            "summary": "はじめに こんにちは。SRE部の巣立（@ksudate）です。 ZOZOTOWNのマイクロサービス基盤では、GitHub Actionsを利用したCDパイプラインを構築しています。しかし、管理するマイクロサービスが増えるにつれて運用負荷が高まりつつありました。 本記事では、ZOZOTOWNのマイクロサービス基盤のCDパイプラインが抱える課題と、それらをFlux2でどのように解決したのかを紹介します...",
             "date_modified": "2022-09-05T02:00:00.000Z",
             "date_published": "2022-09-05T02:00:00.000Z",
             "tags": []
@@ -7062,26 +7096,6 @@
                 "KDnuggets Originals",
                 "Machine Learning"
             ]
-        },
-        {
-            "id": "https://blog.gmo.media/post-2151/",
-            "content_html": "GMOメディア株式会社では今年10周年を迎えた「ゲソてん」というブラウザゲームのプラットフォームを運営しております。 そのゲソてんの中で特に人気のゲームが「ゲゲゲの鬼太郎 妖怪横丁」となります。 今回、2022年8月27 [&#8230;]",
-            "url": "https://blog.gmo.media/post-2151/",
-            "title": "「鬼太郎オフ会2022 by GMOメディア株式会社」開催レポート | GMO MEDIA CREATOR BLOG",
-            "summary": "GMOメディア株式会社では今年10周年を迎えた「ゲソてん」というブラウザゲームのプラットフォームを運営しております。 そのゲソてんの中で特に人気のゲームが「ゲゲゲの鬼太郎 妖怪横丁」となります。 今回、2022年8月27 [&#8230;]",
-            "date_modified": "2022-09-02T10:41:23.000Z",
-            "date_published": "2022-09-02T10:41:23.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.m3tech.blog/entry/wedding-app",
-            "content_html": "エムスリーエンジニアリンググループ AI・機械学習チームでソフトウェアエンジニアをしている中村(po3rin) です。検索とGoが好きです。 今回は友人の結婚式の余興用に作ったアプリケーションの実装とエラーゼロで突破するための工夫などを紹介します。",
-            "url": "https://www.m3tech.blog/entry/wedding-app",
-            "title": "絶対に落とせない！友人の結婚式の余興用アプリケーションをエラーゼロで突破した | エムスリーテックブログ",
-            "summary": "エムスリーエンジニアリンググループ AI・機械学習チームでソフトウェアエンジニアをしている中村(po3rin) です。検索とGoが好きです。 今回は友人の結婚式の余興用に作ったアプリケーションの実装とエラーゼロで突破するための工夫などを紹介します。",
-            "date_modified": "2022-09-02T09:40:38.000Z",
-            "date_published": "2022-09-02T09:40:38.000Z",
-            "tags": []
         }
     ]
 }
