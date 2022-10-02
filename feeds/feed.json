@@ -7,6 +7,21 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://math-fun.net/?p=27926",
+            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、ヒルベルト空間の直交補空間が閉部分空間であることの証明を紹介します。 導入、定義 \\(H\\)をヒルベルト空間（完備な内積空間）、\\(V \\subset ... ヒルベルト空間の直交補空間が閉部分空間であることの証明 first appeared on 趣味の大学数学.",
+            "url": "https://math-fun.net/20221002/27926/",
+            "title": "ヒルベルト空間の直交補空間が閉部分空間であることの証明 | 趣味の大学数学",
+            "summary": "どうも、木村（@kimu3_slime）です。 今回は、ヒルベルト空間の直交補空間が閉部分空間であることの証明を紹介します。 導入、定義 \\(H\\)をヒルベルト空間（完備な内積空間）、\\(V \\subset ... ヒルベルト空間の直交補空間が閉部分空間であることの証明 first appeared on 趣味の大学数学.",
+            "date_modified": "2022-10-02T05:37:24.000Z",
+            "date_published": "2022-10-02T05:37:24.000Z",
+            "author": {
+                "name": "kimu3"
+            },
+            "tags": [
+                "関数解析"
+            ]
+        },
+        {
             "id": "https://rheb.hatenablog.com/entry/ansible_ssh_details",
             "content_html": "レッドハットの杉村です。Ansible のテクニカルサポートをしています。 今回は以前のお問い合わせいただいた事例から、SSH (Secure Shell Protocol) について一つ紹介しようと思います。Ansible は Linux サーバを制御対象とするときは SSH で接続して処理を実行しますので、SSH の通信についてのトラブルは問題に直結します。 RHEL 8.6 + Ansible Core 2.13 で確認しています。 Ansible の基本的な動作原理 まずは Ansible はどうやって動いているのかというのを軽く振り返ってみます。 Ansible が動作するサーバをコ…",
             "url": "https://rheb.hatenablog.com/entry/ansible_ssh_details",
@@ -54,6 +69,41 @@
             ]
         },
         {
+            "id": "https://zenn.dev/nameless_sn/articles/books-for-past-me",
+            "content_html": "はじめに 今回の記事では、私がプログラマー活動や情報発信を継続する上で、「最初の1年間で読むべきだった」と思う技術書を簡潔にまとめる。今回の記事は情報量が非常に多いので、全部を確認するのは不可能だ。そのため、流し読みして興味が湧いた書籍や情報にアクセスするように使ってほしい。 これからWebプログラマーになる人、プログラミング初心者やWebプログラマー1年目の参考になれば非常に幸いである。 1年目の私に教えてあげたい書籍とのリストは次の通りである。 【プログラマー関連】  リーダブルコード プリンシプル オブ プログラミング プログラマーは世界をどう見ているのか IT用語図鑑[エンジ...",
+            "url": "https://zenn.dev/nameless_sn/articles/books-for-past-me",
+            "title": "プログラミング独学1年目の私に教えてあげたい書籍リスト | Zennのトレンド",
+            "summary": "はじめに 今回の記事では、私がプログラマー活動や情報発信を継続する上で、「最初の1年間で読むべきだった」と思う技術書を簡潔にまとめる。今回の記事は情報量が非常に多いので、全部を確認するのは不可能だ。そのため、流し読みして興味が湧いた書籍や情報にアクセスするように使ってほしい。 これからWebプログラマーになる人、プログラミング初心者やWebプログラマー1年目の参考になれば非常に幸いである。 1年目...",
+            "date_modified": "2022-10-01T23:47:12.000Z",
+            "date_published": "2022-10-01T23:47:12.000Z",
+            "author": {
+                "name": "Shota Nukumizu"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://hackernoon.com/a-breakdown-of-salaries-of-data-scientists?source=rss",
+            "content_html": "",
+            "url": "https://hackernoon.com/a-breakdown-of-salaries-of-data-scientists?source=rss",
+            "title": "A Breakdown of Salaries of Data Scientists | Hacker Noon - machine-learning",
+            "date_modified": "2022-10-01T23:05:27.000Z",
+            "date_published": "2022-10-01T23:05:27.000Z",
+            "author": {
+                "name": "@web monitization Anupriya"
+            },
+            "tags": [
+                "data-science",
+                "data-science-tools",
+                "data-science-certification",
+                "software-engineering-salary",
+                "data-science-salary",
+                "data-architect",
+                "machine-learning",
+                "software-development",
+                "web-monetization"
+            ]
+        },
+        {
             "id": "https://hackernoon.com/10-1-2022-noonification?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/10-1-2022-noonification?source=rss",
@@ -71,6 +121,32 @@
                 "machine-learning",
                 "open-source"
             ]
+        },
+        {
+            "id": "https://zenn.dev/ruccho/articles/a2996516338c01",
+            "content_html": "UnityでShift_JISを扱おうとして直面した様々な問題について書いていきます。   基本 C#でShift_JISを扱うためには、基本的にSystem.Text.Encoding.GetEncoding(\"Shift_JIS\")を使用します。   ①ビルド後にエラーを吐く問題 エディタでは問題なく動作しますが、ビルドするとGetEncoding(\"Shift_JIS\")で実行時エラーを吐きます。  NotSupportedException: Encoding 932 data could not be found. Make sure you have correct inte...",
+            "url": "https://zenn.dev/ruccho/articles/a2996516338c01",
+            "title": "UnityにおけるShift_JISのややこしすぎる事情たち | Zennのトレンド",
+            "summary": "UnityでShift_JISを扱おうとして直面した様々な問題について書いていきます。   基本 C#でShift_JISを扱うためには、基本的にSystem.Text.Encoding.GetEncoding(\"Shift_JIS\")を使用します。   ①ビルド後にエラーを吐く問題 エディタでは問題なく動作しますが、ビルドするとGetEncoding(\"Shift_JIS\")で実行時エラーを吐き...",
+            "date_modified": "2022-10-01T15:38:27.000Z",
+            "date_published": "2022-10-01T15:38:27.000Z",
+            "author": {
+                "name": "ruccho"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/sapuri/articles/f03027f4d66792",
+            "content_html": "6年以上前から運営している Django 製のウェブサイトである srandom.com を VPS から Cloud Run + PlanetScale に移行しました。 Cloud Run も PlanetScale も無料枠が大きいので、規模の小さいサービスであればほぼ無料で運用できる上、そのままスケールさせることもできるので便利そうです。 以下、作業手順を雑に書いていきます。   1. Dockerize Cloud Run で動かすのでまずは Dockerfile 単体で実行できるようにする。  Uvicorn で動かす  asgi.py を作成する  最近の Django プ...",
+            "url": "https://zenn.dev/sapuri/articles/f03027f4d66792",
+            "title": "Django 製 Web サービスを Cloud Run + PlanetScale に移行する | Zennのトレンド",
+            "summary": "6年以上前から運営している Django 製のウェブサイトである srandom.com を VPS から Cloud Run + PlanetScale に移行しました。 Cloud Run も PlanetScale も無料枠が大きいので、規模の小さいサービスであればほぼ無料で運用できる上、そのままスケールさせることもできるので便利そうです。 以下、作業手順を雑に書いていきます。   1. D...",
+            "date_modified": "2022-10-01T14:21:46.000Z",
+            "date_published": "2022-10-01T14:21:46.000Z",
+            "author": {
+                "name": "さぷり"
+            },
+            "tags": []
         },
         {
             "id": "https://qiita.com/sayyyyyy/items/deb03bce2d1d881882fe?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -104,10 +180,10 @@
         },
         {
             "id": "https://zenn.dev/kou_pg_0131/articles/badge-generator-introduction",
-            "content_html": "こういうのを生成できるやつです。  ぜひ GitHub Profile とかに使ってください。 ちなみに AtCoder のバッジの色はレーティングによって変化します。   作ったもの https://badgen.org/ ユーザー名とスタイルを指定して好きなバッジを選んでコピーして使ってください。  Badge Generator ソースコードはこちらです。 https://github.com/koki-develop/badge-generator   仕組み Google Cloud Run 上で Next.js アプリケーションを動かしているだけのシンプルな構成です。 API...",
+            "content_html": "こういうのを生成できるやつです。  ぜひ GitHub Profile とかに使ってください。 ちなみに AtCoder のバッジの色はレーティングによって変化します。   更新  2022/10/02 : バッジのラベルをカスタマイズできるようになりました。    作ったもの https://badgen.org/ ユーザー名とスタイルを指定して好きなバッジを選んでコピーして使ってください。  Badge Generator ソースコードはこちらです。 https://github.com/koki-develop/badge-generator   仕組み Google Cloud ...",
             "url": "https://zenn.dev/kou_pg_0131/articles/badge-generator-introduction",
             "title": "Zenn や Qiita や AtCoder のバッジを生成できるサービスを公開しました | Zennのトレンド",
-            "summary": "こういうのを生成できるやつです。  ぜひ GitHub Profile とかに使ってください。 ちなみに AtCoder のバッジの色はレーティングによって変化します。   作ったもの https://badgen.org/ ユーザー名とスタイルを指定して好きなバッジを選んでコピーして使ってください。  Badge Generator ソースコードはこちらです。 https://github.co...",
+            "summary": "こういうのを生成できるやつです。  ぜひ GitHub Profile とかに使ってください。 ちなみに AtCoder のバッジの色はレーティングによって変化します。   更新  2022/10/02 : バッジのラベルをカスタマイズできるようになりました。    作ったもの https://badgen.org/ ユーザー名とスタイルを指定して好きなバッジを選んでコピーして使ってください。  ...",
             "date_modified": "2022-10-01T11:01:14.000Z",
             "date_published": "2022-10-01T11:01:14.000Z",
             "author": {
@@ -363,6 +439,19 @@
             "summary": "こんばんは。  前回の退職エントリが思いのほかたくさんの人に読まれていて、驚いています。書いていた時は「きっと批判されるだろうな」と思っていたのに反して、励ましのお言葉やご意見など、温かいコメントをい…",
             "date_modified": "2022-09-30T15:35:13.000Z",
             "date_published": "2022-09-30T15:35:13.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/tenntenn/articles/cadd13074e6d61",
+            "content_html": "(*testing.T).Fatalメソッドはruntime.Goexit()を呼ぶ Goのテストは*testing.T型を引数にとり名前がTestで始まる関数をテスト関数とします。*testing.T型は、t.Errorメソッドやt.Fatalメソッドのようなテストを理由とともに失敗させるためのメソッドをいくつか用意しています。 名前にErrorがつくメソッドは、テストを指定したメッセージとともに失敗させます。しかし、テストはそのまま継続させます。一方、名前にFatalがつくメソッドは、Error系のメソッドと同様にテストを失敗させるだけではなく、それに加え処理をその時点で終了させ...",
+            "url": "https://zenn.dev/tenntenn/articles/cadd13074e6d61",
+            "title": "クロージャ内では(*testing.T).Fatalメソッドの呼び出しを避ける理由 | Zennのトレンド",
+            "summary": "(*testing.T).Fatalメソッドはruntime.Goexit()を呼ぶ Goのテストは*testing.T型を引数にとり名前がTestで始まる関数をテスト関数とします。*testing.T型は、t.Errorメソッドやt.Fatalメソッドのようなテストを理由とともに失敗させるためのメソッドをいくつか用意しています。 名前にErrorがつくメソッドは、テストを指定したメッセージととも...",
+            "date_modified": "2022-09-30T15:00:51.000Z",
+            "date_published": "2022-09-30T15:00:51.000Z",
+            "author": {
+                "name": "tenntenn"
+            },
             "tags": []
         },
         {
@@ -988,19 +1077,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/ai_scholar/status/1575714005426982912#m",
-            "content_html": "二人組の会話において、話し手と聞き手の協調性は必要不可欠な要素であり、既存研究においても頭の動きなどの聞き手からの非言語的なフィードバックは、会話の流れを維持する上で返答の内容よりも重要であることが分かっています。 ai-scholar.tech/articles/3d/…",
-            "url": "https://nitter.net/ai_scholar/status/1575714005426982912#m",
-            "title": "RT by @ai_scholar: 二人組の会話において、話し手と聞き手の協調性は必要不可欠な要素であり、既存研究においても頭の動きなどの聞き手からの非言語的なフィードバックは、会話の流れを維持する上で返答の内容よりも重要であることが分かっています。\nhttps://ai-scholar.tech/articles/3d/learning2listen | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
-            "summary": "二人組の会話において、話し手と聞き手の協調性は必要不可欠な要素であり、既存研究においても頭の動きなどの聞き手からの非言語的なフィードバックは、会話の流れを維持する上で返答の内容よりも重要であることが分かっています。 ai-scholar.tech/articles/3d/…",
-            "date_modified": "2022-09-30T05:07:48.000Z",
-            "date_published": "2022-09-30T05:07:48.000Z",
-            "author": {
-                "name": "@ai_scholar"
-            },
-            "tags": []
-        },
-        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1443893.html",
             "content_html": "米Microsoftは9月29日（現地時間）、「Windows 11 バージョン 22H2」において、一部のインストール済みプリンターでデフォルトの設定しか利用できなくなる問題が発生していることを明らかにした。この問題の影響を受ける環境にはセーフガードが適用されており、「Windows 11 バージョン 22H2」へアップグレードできなくなっている。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1443893.html",
@@ -1082,10 +1158,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10668",
-            "content_html": "初めまして。クラウド経費本部とDI本部兼務のQAを担当しております入江と申します … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 内波生一「価値のあるものに対して、自分自身が前に進める力になっていたい」  インターンから見たマネーフォワード  チームにInVisionを導入してみてカイゼンしたこと  マネーフォワードに新卒入社してからの3ヶ月を振り返ってみた  フロントエンド勉強会@Nkzn 〜主催者レポート編〜   Copyright © Money Forward Engineers' Blog [ソフトウェア品質シンポジウム2022に参加してきました！], All Right Reserved. 2022.",
+            "content_html": "初めまして。クラウド経費本部とDI本部兼務のQAを担当しております入江と申します … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Swift2.0で作るAPI通信基盤  Swift2.0で追加された新機能 3選  Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法  2019年もマネーフォワード開発合宿を開催しました！  【速報】RubyKaigi 2014レポ：Write ruby code to change ruby code   Copyright © Money Forward Engineers' Blog [ソフトウェア品質シンポジウム2022に参加してきました！], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/30/event-report-sqip-symposium-2022/",
             "title": "ソフトウェア品質シンポジウム2022に参加してきました！ | Money Forward Engineers' Blog",
-            "summary": "初めまして。クラウド経費本部とDI本部兼務のQAを担当しております入江と申します … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
+            "summary": "初めまして。クラウド経費本部とDI本部兼務のQAを担当しております入江と申します … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Swi...",
             "date_modified": "2022-09-30T03:00:19.000Z",
             "date_published": "2022-09-30T03:00:19.000Z",
             "author": {
@@ -1320,19 +1396,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/kichion/articles/cf611ecd7e9439",
-            "content_html": "Slack releases platform open beta powered by Deno https://deno.com/blog/slack-open-beta 2022/09/21にSlackの公式ブログでDenoを使ったSlack platformのオープンベータがリリースされていました javascriptランタイムとして最速を目指すDenoで動くなんてワクワクしちゃいますが、個人的にはDenoだろうがSlack botのインフラができたことが嬉しいです   以前のSlack bot開発 これまでの自前Slack bot開発といえば頑張ってインフラを用意しつつSl...",
-            "url": "https://zenn.dev/kichion/articles/cf611ecd7e9439",
-            "title": "Denoで動くSlack bot開発を試す | Zennのトレンド",
-            "summary": "Slack releases platform open beta powered by Deno https://deno.com/blog/slack-open-beta 2022/09/21にSlackの公式ブログでDenoを使ったSlack platformのオープンベータがリリースされていました javascriptランタイムとして最速を目指すDenoで動くなんてワクワクしちゃいますが、...",
-            "date_modified": "2022-09-30T01:29:22.000Z",
-            "date_published": "2022-09-30T01:29:22.000Z",
-            "author": {
-                "name": "kichion"
-            },
-            "tags": []
-        },
-        {
             "id": "https://techblog.recochoku.jp/8551",
             "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h2>はじめに</h2>  こんにちは、iOSアプリ開発Gの深山です。  現在、所属プロジェクトでリアーキテクチャに取り組んでいます。その中でCoreDataのユニットテストを実装する機会があったのですが、日本語のわかりやすい記事がなかなか見つからなかったため、英語で執筆されている「<a href=\"https://www.raywenderlich.com/11349416-unit-testing-core-data-in-ios\">Unit Testing Core Data in iOS</a>」という記事を元にまとめてみました。  <h2>ユニットテストって？</h2>  表題に入る前に、まず「ユニットテストと...",
             "url": "https://techblog.recochoku.jp/8551",
@@ -1354,10 +1417,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10661",
-            "content_html": "こんにちは！集合写真を見て”ふぃんてっくTシャツ”のダサ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだけ主夫をやった話  最近のruby-core (2016年3月)  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  マネーフォワード社内PRに見られるRubyの書き方について - (4) 真理値  最近のruby-core (2016年9月)   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022でLT枠で登壇してきました], All Right Reserved. 2022.",
+            "content_html": "こんにちは！集合写真を見て”ふぃんてっくTシャツ”のダサ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する  あの部署何やってるの？カスタマーサポート本部 MFクラウドサポート部 編 最近のruby-core (2017年1月)  MF KESSAI Tech Blog新設のおしらせ  ソートアルゴリズムについてまとめてみた   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022でLT枠で登壇してきました], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/30/iosdc-2022-for-speaker/",
             "title": "iOSDC Japan 2022でLT枠で登壇してきました | Money Forward Engineers' Blog",
-            "summary": "こんにちは！集合写真を見て”ふぃんてっくTシャツ”のダサ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 少しだけ主夫をやった話  最近...",
+            "summary": "こんにちは！集合写真を見て”ふぃんてっくTシャツ”のダサ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Go製マイクロサービスのAPI...",
             "date_modified": "2022-09-30T01:00:19.000Z",
             "date_published": "2022-09-30T01:00:19.000Z",
             "author": {
@@ -2169,10 +2232,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10636",
-            "content_html": "初めまして。マネーフォワードエックスカンパニーでモバイルエンジニアをやっています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジニアリング + 技術広報 = ユニークキャリア  如何にしてわたしはマネーフォワードの一員になったのか  GraphQL Federation - API Gatewayの進化  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  ESLintで開発環境をエンチャント   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022に参加してしてきました。], All Right Reserved. 2022.",
+            "content_html": "初めまして。マネーフォワードエックスカンパニーでモバイルエンジニアをやっています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2020年9月）  新卒エンジニアと話した「制度」と「役職」の捉え方  Rails探訪 ~ create_table 編 ~ 本番環境で全削除コマンド！  書類読み取りってどうやるの？？一例を紹介！！   Copyright © Money Forward Engineers' Blog [iOSDC Japan 2022に参加してしてきました。], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/29/reported-iosdc-japan-2022/",
             "title": "iOSDC Japan 2022に参加してしてきました。 | Money Forward Engineers' Blog",
-            "summary": "初めまして。マネーフォワードエックスカンパニーでモバイルエンジニアをやっています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: エンジ...",
+            "summary": "初めまして。マネーフォワードエックスカンパニーでモバイルエンジニアをやっています … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-09-29T01:00:45.000Z",
             "date_published": "2022-09-29T01:00:45.000Z",
             "author": {
@@ -2238,19 +2301,6 @@
                 "便利ツール",
                 "python"
             ]
-        },
-        {
-            "id": "https://zenn.dev/sonatard/articles/ca764e39c6d257",
-            "content_html": "はじめに Appify Technologiesでは以下のGraphQLの静的解析ツールをGoで実装しました。   Yamashou/gqlgenc - GraphQLクライアントコードの生成  gqlgo/lackid - idの指定を忘れているQueryを検出  gqlgo/nodecheck - Nodeを実装していないtypeを検出  gqlgo/deprecatedquery - deprecatedなqueryを検出  gqlgo/optionalschema - optionalなfieldをSchemaから検出  gqlgo/querystring - ソースコードの...",
-            "url": "https://zenn.dev/sonatard/articles/ca764e39c6d257",
-            "title": "GoでGraphQLの静的解析ツールを作る | Zennのトレンド",
-            "summary": "はじめに Appify Technologiesでは以下のGraphQLの静的解析ツールをGoで実装しました。   Yamashou/gqlgenc - GraphQLクライアントコードの生成  gqlgo/lackid - idの指定を忘れているQueryを検出  gqlgo/nodecheck - Nodeを実装していないtypeを検出  gqlgo/deprecatedquery - dep...",
-            "date_modified": "2022-09-29T00:35:05.000Z",
-            "date_published": "2022-09-29T00:35:05.000Z",
-            "author": {
-                "name": "sonatard"
-            },
-            "tags": []
         },
         {
             "id": "https://blog.studysapuri.jp/entry/2022/09/29/093000",
@@ -2341,19 +2391,6 @@
             "date_published": "2022-09-28T17:58:53.000Z",
             "author": {
                 "name": "ykpythemind"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/OpenAI/status/1575172538459598848#m",
-            "content_html": "We’ve removed the waitlist for DALL·E. Sign up and start creating immediately! openai.com/blog/dall-e-now-a…",
-            "url": "https://nitter.net/OpenAI/status/1575172538459598848#m",
-            "title": "We’ve removed the waitlist for DALL·E. Sign up and start creating immediately! https://openai.com/blog/dall-e-now-available-without-waitlist/ | OpenAI / @OpenAI",
-            "summary": "We’ve removed the waitlist for DALL·E. Sign up and start creating immediately! openai.com/blog/dall-e-now-a…",
-            "date_modified": "2022-09-28T17:16:13.000Z",
-            "date_published": "2022-09-28T17:16:13.000Z",
-            "author": {
-                "name": "@OpenAI"
             },
             "tags": []
         },
@@ -2530,19 +2567,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/kanachan/articles/1684b3721971d1",
-            "content_html": "少し前に、TypeScript 4.9 betaがリリースされましたね。その中でもsatisfiesオペレータに、「おお！いいやん！」と個人的に興奮したので軽く記事にしたいと思います。 ! 2022.09.28現在はまだbeta版なので、正式版としてリリースされるのはもう少し先のことかと思いますのでご注意ください。  https://devblogs.microsoft.com/typescript/announcing-typescript-4-9-beta/   概要 一言で言うと「typoとかが嫌なので型でしばりたい が 推論は具体的なままでいてほしい」という想いを実現してくれるの...",
-            "url": "https://zenn.dev/kanachan/articles/1684b3721971d1",
-            "title": "【TypeScript 4.9 beta】satisfies に大満足 | Zennのトレンド",
-            "summary": "少し前に、TypeScript 4.9 betaがリリースされましたね。その中でもsatisfiesオペレータに、「おお！いいやん！」と個人的に興奮したので軽く記事にしたいと思います。 ! 2022.09.28現在はまだbeta版なので、正式版としてリリースされるのはもう少し先のことかと思いますのでご注意ください。  https://devblogs.microsoft.com/typescrip...",
-            "date_modified": "2022-09-28T10:28:17.000Z",
-            "date_published": "2022-09-28T10:28:17.000Z",
-            "author": {
-                "name": "kana-chan"
-            },
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/manalink/articles/manalink-gifted-chat-customization",
             "content_html": "オンライン家庭教師マナリンク でインターンをしている Yukiです。 React Native製アプリでチャットを実装したい時に使えるライブラリにreact-native-gifted-chat があります。今回はreact-native-gifted-chatでメッセージを入れる吹き出しをカスタマイズする方法を解説します。 具体的には、メッセージを送った際に自分の名前は表示させず、相手の名前のみ表示する方法と自分と相手の吹き出しの色を変更する方法を実際のコードを交え、紹介したいと思います。   動作環境  React Native v0.64.3  react-native-gifte...",
             "url": "https://zenn.dev/manalink/articles/manalink-gifted-chat-customization",
@@ -2570,19 +2594,6 @@
                 "KDnuggets 2022 Issues",
                 "News"
             ]
-        },
-        {
-            "id": "https://zenn.dev/karugamo/articles/bb7477d1e7a648",
-            "content_html": "https://www.youtube.com/watch?v=htrsHoqhoTY （映像もつくりました） prizmという、市町村から都道府県を当てる新感覚クイズゲームをReactで個人開発した話です。 https://prizm.pw   内容 今までPHPやjQueryなどで開発をしてきた18歳です。 モダンなフロントエンド技術の習得を目的に、今回React・TypeScriptで初めて作った成果物です。 制作期間は1ヶ月弱ほどです。 もしよければ、読んで・遊んでもらえるとうれしいです！  TypeScript React Redux Firebase Realtime Dat...",
-            "url": "https://zenn.dev/karugamo/articles/bb7477d1e7a648",
-            "title": "はじめてのReactで都道府県を当てるゲームをつくりました | Zennのトレンド",
-            "summary": "https://www.youtube.com/watch?v=htrsHoqhoTY （映像もつくりました） prizmという、市町村から都道府県を当てる新感覚クイズゲームをReactで個人開発した話です。 https://prizm.pw   内容 今までPHPやjQueryなどで開発をしてきた18歳です。 モダンなフロントエンド技術の習得を目的に、今回React・TypeScriptで初めて...",
-            "date_modified": "2022-09-28T09:42:02.000Z",
-            "date_published": "2022-09-28T09:42:02.000Z",
-            "author": {
-                "name": "こるりり"
-            },
-            "tags": []
         },
         {
             "id": "https://tech.connehito.com/entry/2022/09/28/181432",
@@ -3080,10 +3091,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10628",
-            "content_html": "初めまして！2022年6月からクラウド横断本部でバックエンドエンジニアとして働い … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Android開発をもっと前へ！開発を加速させるTips・ツール  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  JSON仕様（ECMA-404） を眺めてみる  RubyKaigi 2016 Rubyスポンサー申込み  OpenAPIでスキーマ駆動開発してみた   Copyright © Money Forward Engineers' Blog [初めてのオフラインカンファレンス ~ RubyKaigi 2022 に参加して思ったこと ~], All Right Reserved. 2022.",
+            "content_html": "初めまして！2022年6月からクラウド横断本部でバックエンドエンジニアとして働い … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「社内キャリアチェンジ」  LINE Payを使って割り勘をフォワードする  Railsで複雑なSQL処理をする時のTips：squeel編  【速報】RubyKaigi 2014レポ：The Twelve-factor Ruby 「Ruby を良くするための12のポイント」  RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！   Copyright © Money Forward Engineers' Blog [初めてのオフラインカンファレンス ~ RubyKaigi 2022 に参加して思ったこと ~], All...",
             "url": "https://moneyforward.com/engineers_blog/2022/09/28/rubykaigi-2022-in-offline/",
             "title": "初めてのオフラインカンファレンス ~ RubyKaigi 2022 に参加して思ったこと ~ | Money Forward Engineers' Blog",
-            "summary": "初めまして！2022年6月からクラウド横断本部でバックエンドエンジニアとして働い … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: And...",
+            "summary": "初めまして！2022年6月からクラウド横断本部でバックエンドエンジニアとして働い … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...",
             "date_modified": "2022-09-28T01:00:27.000Z",
             "date_published": "2022-09-28T01:00:27.000Z",
             "author": {
@@ -3417,19 +3428,6 @@
             "tags": []
         },
         {
-            "id": "https://nitter.net/ai_scholar/status/1574687948234104832#m",
-            "content_html": "本記事で紹介する論文では、この問題に対処するため、知識蒸留(Knowledge Distillation)により大規模モデルを圧縮し優れた性能を発揮するための、より効果的な方法を特定することに取り組みました。 ai-scholar.tech/articles/kno…",
-            "url": "https://nitter.net/ai_scholar/status/1574687948234104832#m",
-            "title": "RT by @ai_scholar: 本記事で紹介する論文では、この問題に対処するため、知識蒸留(Knowledge Distillation)により大規模モデルを圧縮し優れた性能を発揮するための、より効果的な方法を特定することに取り組みました。\nhttps://ai-scholar.tech/articles/knowledge-distillation/patient-consistent-kd | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
-            "summary": "本記事で紹介する論文では、この問題に対処するため、知識蒸留(Knowledge Distillation)により大規模モデルを圧縮し優れた性能を発揮するための、より効果的な方法を特定することに取り組みました。 ai-scholar.tech/articles/kno…",
-            "date_modified": "2022-09-27T09:10:37.000Z",
-            "date_published": "2022-09-27T09:10:37.000Z",
-            "author": {
-                "name": "@ai_scholar"
-            },
-            "tags": []
-        },
-        {
             "id": "https://blog.fascode.net/?p=15648",
             "content_html": "皆さんお久しぶりです。2ヶ月ぶりにブログを書いたmk419です。大学生って忙しいね。夏休みだから暇だっただろって言われそうですが（大学生は9月まで夏休み）、自動車免許関連で時間がほとんど無かったです。今回はこのことについ […] 自動車免許を取った話 first appeared on FascodeNetwork Blog.",
             "url": "https://blog.fascode.net/2022/09/27/getting_a_drivers_license/",
@@ -3714,10 +3712,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10613",
-            "content_html": "こんにちは宮村（みやむー） @miyamura.koyo です。 2021年9月 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「Money Forward Techbook#3」を技術書典9に出品します  マネーフォワードエンジニアインタビュー 西方夏子「大事なのは、その時々で最善な道を考えること」  【ランチタイム活用】仲間とビデオ勉強会をしよう！  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  1年間地方コミュニティーを運営して感じた成長の軌跡と未来の課題   Copyright © Money Forward Engineers' Blog [【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場...",
+            "content_html": "こんにちは宮村（みやむー） @miyamura.koyo です。 2021年9月 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: サーバサイドの進捗に依存しないための Next.js x GraphQL のフロントエンド開発の工夫  MoneyForwardの検索ロジック歴史  マネーフォワードはシルバースポンサーとしてiOSDC JAPAN 2021を応援させていただきます！  Bye, tachikoma gem #railsdm  待望のGo新機能のリリース！！でもちょっと待って！プロダクションコードに反映する前に・・・   Copyright © Money Forward Engineers' Blog [【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場した話], All Right Res...",
             "url": "https://moneyforward.com/engineers_blog/2022/09/27/isucon12-fukuoka-gardians/",
             "title": "【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場した話 | Money Forward Engineers' Blog",
-            "summary": "こんにちは宮村（みやむー） @miyamura.koyo です。 2021年9月 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「Mo...",
+            "summary": "こんにちは宮村（みやむー） @miyamura.koyo です。 2021年9月 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: サーバ...",
             "date_modified": "2022-09-27T01:00:17.000Z",
             "date_published": "2022-09-27T01:00:17.000Z",
             "author": {
@@ -3941,19 +3939,6 @@
             ]
         },
         {
-            "id": "https://nitter.net/ai_scholar/status/1574326100641345536#m",
-            "content_html": "本記事で紹介する論文では、METER(Multimodal End-to-end TransformER)フレームワークを提案し、完全なTransformerベースのVLPモデルをエンドツーエンドで事前学習させる方法を調査しました。 ai-scholar.tech/articles/tra…",
-            "url": "https://nitter.net/ai_scholar/status/1574326100641345536#m",
-            "title": "本記事で紹介する論文では、METER(Multimodal End-to-end TransformER)フレームワークを提案し、完全なTransformerベースのVLPモデルをエンドツーエンドで事前学習させる方法を調査しました。\nhttps://ai-scholar.tech/articles/transformer/meter | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
-            "summary": "本記事で紹介する論文では、METER(Multimodal End-to-end TransformER)フレームワークを提案し、完全なTransformerベースのVLPモデルをエンドツーエンドで事前学習させる方法を調査しました。 ai-scholar.tech/articles/tra…",
-            "date_modified": "2022-09-26T09:12:46.000Z",
-            "date_published": "2022-09-26T09:12:46.000Z",
-            "author": {
-                "name": "@ai_scholar"
-            },
-            "tags": []
-        },
-        {
             "id": "https://tech.excite.co.jp/entry/2022/09/26/173143",
             "content_html": "おはようございます。エキサイト株式会社の中尾です。 intellijの便利なショートカット、pvsmとsouXXについて紹介します。 psvm とエディター上で打つと、、、なんと 一発で、以下が補完されます。 ちょっと動かしてみたいとかで、いちいち以下をタイピングしていると大変だと思います。 スペルミスとかやっていたら時間の無駄です。 IDEの恩恵を受けましょう。 public static void main(String[] args) { } また、souXX を打つと以下のSystem.out.printXX系の補完も効きます。 便利な補完はガンガン使っていきましょう！",
             "url": "https://tech.excite.co.jp/entry/2022/09/26/173143",
@@ -3995,7 +3980,7 @@
         },
         {
             "id": "https://techblog.recochoku.jp/8490",
-            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは、iOSアプリ開発グループの神山です。  SwiftUIについて絶賛勉強中なのですが、今回はUIKitでのUITableViewに相当するListの作成方法についてまとめてみました。  <h1>List</h1>  Listはデータの一覧を表示するのに適したコンポーネントです。 静的なデータを表示するだけなら以下のようなコードで簡単に表示することができます。  [crayon-63391852e4f84071040503/]  <img src=\"/wp-content/uploads/2022/09/Preview1.png\" alt=\"Preview1.png\" />  動的なデ...",
+            "content_html": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  こんにちは、iOSアプリ開発グループの神山です。  SwiftUIについて絶賛勉強中なのですが、今回はUIKitでのUITableViewに相当するListの作成方法についてまとめてみました。  <h1>List</h1>  Listはデータの一覧を表示するのに適したコンポーネントです。 静的なデータを表示するだけなら以下のようなコードで簡単に表示することができます。  [crayon-63393f15506f5204938861/]  <img src=\"/wp-content/uploads/2022/09/Preview1.png\" alt=\"Preview1.png\" />  動的なデ...",
             "url": "https://techblog.recochoku.jp/8490",
             "title": "【SwiftUI】 UIコンポーネントの作成方法 List編 | レコチョクのエンジニアブログ",
             "summary": "<p><img width=\"180\" height=\"180\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p><h1>はじめに</h1>  ...",
@@ -4025,10 +4010,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10595",
-            "content_html": "こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Ruby の Enumerator とたわむれる  Dockerを使って開発環境を構築する  マネーフォワードCTOが考えていること（2021年6月）  エンジニアにとって重要なボルダリングテクニック  （83億レコード移行の続編）BigQueryを導入して改善サイクルがスピードアップした話   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022にGOLD SPONSORとして協賛、マネーフォワードの社員が登壇します], All Right Reserved. 2022.",
+            "content_html": "こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ［iOS 12］Siri Shortcutsの最小実装 - Intent編  Safari Books Online のすすめ - エンジニアなら当然読んでおきたい英語の書籍をお得に読む方法  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  RubyKaigi 2017 - Ruby Sponsorのお知らせ ＆ 広島グルメの話  ARは二度死なない   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022にGOLD SPONSORとして協賛、マネーフォワードの社員が登壇します], All Right Res...",
             "url": "https://moneyforward.com/engineers_blog/2022/09/26/droidkaigi-2022/",
             "title": "DroidKaigi 2022にGOLD SPONSORとして協賛、マネーフォワードの社員が登壇します | Money Forward Engineers' Blog",
-            "summary": "こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...",
+            "summary": "こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ［iO...",
             "date_modified": "2022-09-26T05:00:30.000Z",
             "date_published": "2022-09-26T05:00:30.000Z",
             "author": {
@@ -4949,10 +4934,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10611",
-            "content_html": "こんにちは、マネーフォワード CTO の中出（なかで）です。 CTO の私が、普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MoneyForward Meetupレポート「リニューアルの裏側Night」  Scrum Fest Osaka 2020 @ Online に登壇＆参加してきました  SageMaker Experimentsによる実験管理とQuickSightを使ったその可視化  開発チームで業務知識を獲得するための取り組み  Slackのデータを可視化してコミュニケーションを活性化させた話   Copyright © Money Forward Engineers' Blog [マネーフォワード CTO が考えていること（2022 年 9 月）], All Right Reserved. 2022.",
+            "content_html": "こんにちは、マネーフォワード CTO の中出（なかで）です。 CTO の私が、普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 生産性が上がるオフィスづくり。  ES2015のGenerator、および Async/Await を使った非同期処理について  やるぞ！Kaigi on Rails 2021！！今年もやります、スポンサード！！！  MoneyForward Meetupレポート：「僕はまだ本当のCSを知らない」  「テックトーク」で知識と経験を共有しよう   Copyright © Money Forward Engineers' Blog [マネーフォワード CTO が考えていること（2022 年 9 月）], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/09/22/cto-message-202209/",
             "title": "マネーフォワード CTO が考えていること（2022 年 9 月） | Money Forward Engineers' Blog",
-            "summary": "こんにちは、マネーフォワード CTO の中出（なかで）です。 CTO の私が、普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...",
+            "summary": "こんにちは、マネーフォワード CTO の中出（なかで）です。 CTO の私が、普 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 生産性...",
             "date_modified": "2022-09-22T01:00:05.000Z",
             "date_published": "2022-09-22T01:00:05.000Z",
             "author": {
@@ -5084,19 +5069,6 @@
             "summary": "AWS FargateでのECS Exec、session managerを利用した運用tipsを書きました。",
             "date_modified": "2022-09-21T18:00:00.000Z",
             "date_published": "2022-09-21T18:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/OpenAI/status/1572629923017400326#m",
-            "content_html": "We've trained a neural net called Whisper that approaches human-level robustness and accuracy on English speech recognition. It performs well even on diverse accents and technical language. Whisper is open source for all to use. openai.com/blog/whisper/",
-            "url": "https://nitter.net/OpenAI/status/1572629923017400326#m",
-            "title": "We've trained a neural net called Whisper that approaches human-level robustness and accuracy on English speech recognition. It performs well even on diverse accents and technical language. Whisper is open source for all to use. https://openai.com/blog/whisper/ | OpenAI / @OpenAI",
-            "summary": "We've trained a neural net called Whisper that approaches human-level robustness and accuracy on English speech recognition. It performs well even on diverse accents and technical language. Whisper is...",
-            "date_modified": "2022-09-21T16:52:46.000Z",
-            "date_published": "2022-09-21T16:52:46.000Z",
-            "author": {
-                "name": "@OpenAI"
-            },
             "tags": []
         },
         {
@@ -5234,19 +5206,6 @@
                 "イベント",
                 "働く環境"
             ]
-        },
-        {
-            "id": "https://nitter.net/ai_scholar/status/1572522473308168198#m",
-            "content_html": "本記事で紹介する論文では、これまで主に教師あり学習に対して研究されていたバックドア攻撃を、自己教師あり学習に対して実行することに成功した論文について紹介します。 ai-scholar.tech/articles/bac…",
-            "url": "https://nitter.net/ai_scholar/status/1572522473308168198#m",
-            "title": "RT by @ai_scholar: 本記事で紹介する論文では、これまで主に教師あり学習に対して研究されていたバックドア攻撃を、自己教師あり学習に対して実行することに成功した論文について紹介します。\nhttps://ai-scholar.tech/articles/backdoor-attack/backdoor-ssl | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
-            "summary": "本記事で紹介する論文では、これまで主に教師あり学習に対して研究されていたバックドア攻撃を、自己教師あり学習に対して実行することに成功した論文について紹介します。 ai-scholar.tech/articles/bac…",
-            "date_modified": "2022-09-21T09:45:48.000Z",
-            "date_published": "2022-09-21T09:45:48.000Z",
-            "author": {
-                "name": "@ai_scholar"
-            },
-            "tags": []
         },
         {
             "id": "https://research.facebook.com/blog/2022/9/what-its-like-to-be-a-parent-on-the-core-data-science-team-at-meta/",
@@ -5400,21 +5359,6 @@
             "date_modified": "2022-09-21T05:56:25.000Z",
             "date_published": "2022-09-21T05:56:25.000Z",
             "tags": []
-        },
-        {
-            "id": "https://math-fun.net/?p=27454",
-            "content_html": "どうも、木村（@kimu3_slime）です。 今回は、有界線形作用素のなす空間\\(B(X,Y)\\)がノルム空間となることの証明を紹介します。 導入 \\(X,Y\\)をノルム空間とし、有界線形作用素のなす線形 ... 有界線形作用素のなす空間B(X,Y)がノルム空間となることの証明 first appeared on 趣味の大学数学.",
-            "url": "https://math-fun.net/20220921/27454/",
-            "title": "有界線形作用素のなす空間B(X,Y)がノルム空間となることの証明 | 趣味の大学数学",
-            "summary": "どうも、木村（@kimu3_slime）です。 今回は、有界線形作用素のなす空間\\(B(X,Y)\\)がノルム空間となることの証明を紹介します。 導入 \\(X,Y\\)をノルム空間とし、有界線形作用素のなす線形 ... 有界線形作用素のなす空間B(X,Y)がノルム空間となることの証明 first appeared on 趣味の大学数学.",
-            "date_modified": "2022-09-21T05:26:08.000Z",
-            "date_published": "2022-09-21T05:26:08.000Z",
-            "author": {
-                "name": "kimu3"
-            },
-            "tags": [
-                "関数解析"
-            ]
         },
         {
             "id": "22242",
@@ -5914,19 +5858,6 @@
             ]
         },
         {
-            "id": "https://nitter.net/ai_scholar/status/1572073643517317121#m",
-            "content_html": "より人間らしいジェスチャー生成のための大規模なマルチモーダルデータセットであるBEAT(Body-Expression-Audio-Text Dataset)を構築 ai-scholar.tech/articles/dat…",
-            "url": "https://nitter.net/ai_scholar/status/1572073643517317121#m",
-            "title": "RT by @ai_scholar: より人間らしいジェスチャー生成のための大規模なマルチモーダルデータセットであるBEAT(Body-Expression-Audio-Text Dataset)を構築\nhttps://ai-scholar.tech/articles/dataset/BEAT | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
-            "summary": "より人間らしいジェスチャー生成のための大規模なマルチモーダルデータセットであるBEAT(Body-Expression-Audio-Text Dataset)を構築 ai-scholar.tech/articles/dat…",
-            "date_modified": "2022-09-20T04:02:18.000Z",
-            "date_published": "2022-09-20T04:02:18.000Z",
-            "author": {
-                "name": "@ai_scholar"
-            },
-            "tags": []
-        },
-        {
             "id": "https://paiza.hatenablog.com/entry/2022/09/20/130000",
             "content_html": "こんにちは。倉内です。コロナ禍以降、「リモートワークの普及率が高い」「景気に左右されにくい専門職」などの理由から、以前にも増して人気の高いITエンジニア職。paizaでも学習コンテンツや未経験からのエンジニア転職を支援するサービスを提供しており、多くの方がエンジニアになり活躍されている姿を見てきました。一方で、エンジニアになって働き始めてから「思っていたのと違う……」と後悔している方もいらっしゃいます。エンジニアに限らず、仕事は実際に始めてみないと分からない部分もありますし、選考時点では見えていなかった会社の雰囲気が合わないというケースもあります。ただ、エンジニアになるためにかけた時間（や場合…",
             "url": "https://paiza.hatenablog.com/entry/2022/09/20/130000",
@@ -6185,6 +6116,16 @@
             "tags": []
         },
         {
+            "id": "https://www.m3tech.blog/entry/2022/09/20/090000",
+            "content_html": "こんにちは。エムスリーでプロダクトマネージャーとして働いている岩田（@a___iwata）です。 最近、弊社山崎が各所で「ホームランを打つ」ということについて言及しています。 anchor.fm エムスリーでは「ホームラン」と呼べるような事業が多数立ち上がっています。 最近では、後払いによる会計待ち時間ゼロ、使いやすい予約と問診、QRでのチェックインといったスマートな診療を実現するデジスマ診療が例として挙げられます。 digikar-smart.jp ここでは、そんなホームランを打てる人が多数在籍している環境に身を置くことでどんなことが分かったのかを振り返っていこうと思います。 ホームランバッ…",
+            "url": "https://www.m3tech.blog/entry/2022/09/20/090000",
+            "title": "ホームランバッターと同じ環境で働けると何が嬉しいのか？ - \"アイデアこそ全て\"症 | エムスリーテックブログ",
+            "summary": "こんにちは。エムスリーでプロダクトマネージャーとして働いている岩田（@a___iwata）です。 最近、弊社山崎が各所で「ホームランを打つ」ということについて言及しています。 anchor.fm エムスリーでは「ホームラン」と呼べるような事業が多数立ち上がっています。 最近では、後払いによる会計待ち時間ゼロ、使いやすい予約と問診、QRでのチェックインといったスマートな診療を実現するデジスマ診療が例...",
+            "date_modified": "2022-09-20T00:00:00.000Z",
+            "date_published": "2022-09-20T00:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://tech-blog.cloud-config.jp/?p=118196",
             "content_html": "9月から Power Platformを学び始めたキノピ―です。学んだことをブログで発信していきます。 今回はPower BIのマップを使ったレポート作成方法を紹介します。 Power BI（パワービーアイ）とは 簡単に […] 🎀よんデジマップ作ってみた🎀 first appeared on cloud.config Tech Blog.",
             "url": "https://tech-blog.cloud-config.jp/2022-09-20-yondejimap-powerbi/",
@@ -6198,16 +6139,6 @@
             "tags": [
                 "Azure"
             ]
-        },
-        {
-            "id": "https://www.m3tech.blog/entry/2022/09/20/090000",
-            "content_html": "こんにちは。エムスリーでプロダクトマネージャーとして働いている岩田（@a___iwata）です。 最近、弊社山崎が各所で「ホームランを打つ」ということについて言及しています。 anchor.fm エムスリーでは「ホームラン」と呼べるような事業が多数立ち上がっています。 最近では、後払いによる会計待ち時間ゼロ、使いやすい予約と問診、QRでのチェックインといったスマートな診療を実現するデジスマ診療が例として挙げられます。 digikar-smart.jp ここでは、そんなホームランを打てる人が多数在籍している環境に身を置くことでどんなことが分かったのかを振り返っていこうと思います。 ホームランバッ…",
-            "url": "https://www.m3tech.blog/entry/2022/09/20/090000",
-            "title": "ホームランバッターと同じ環境で働けると何が嬉しいのか？ - \"アイデアこそ全て\"症 | エムスリーテックブログ",
-            "summary": "こんにちは。エムスリーでプロダクトマネージャーとして働いている岩田（@a___iwata）です。 最近、弊社山崎が各所で「ホームランを打つ」ということについて言及しています。 anchor.fm エムスリーでは「ホームラン」と呼べるような事業が多数立ち上がっています。 最近では、後払いによる会計待ち時間ゼロ、使いやすい予約と問診、QRでのチェックインといったスマートな診療を実現するデジスマ診療が例...",
-            "date_modified": "2022-09-20T00:00:00.000Z",
-            "date_published": "2022-09-20T00:00:00.000Z",
-            "tags": []
         },
         {
             "id": "https://techdo.mediado.jp/entry/2022/09/20/090000",
