@@ -249,6 +249,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['TECHBLOG - Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
   ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
   ['AIST: 産業技術総合研究所', 'https://www.aist.go.jp/ctl/module/mid/27/tid/75/rss.php'],
+  ['統計数理研究所 - プレスリリース', 'https://www.ism.ac.jp/ura/press/rss.rss'],
 
   // 追加分(Podcast)
   ['fukabori.fm', 'https://pitpa.jp/rss/fukabori'],
