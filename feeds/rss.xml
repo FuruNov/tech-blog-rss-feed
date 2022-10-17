@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Mon, 17 Oct 2022 07:57:01 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Oct 2022 09:49:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,43 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[【Scala】任意の値からメソッドチェーンを生やすメソッドを車輪の再発明した話 | pixiv inside]]></title>
+            <link>https://inside.pixiv.blog/2022/10/17/181605?utm_source=feed</link>
+            <guid>https://inside.pixiv.blog/2022/10/17/181605?utm_source=feed</guid>
+            <pubDate>Mon, 17 Oct 2022 09:16:05 GMT</pubDate>
+            <description><![CDATA[はじめに はじめましての方ははじめまして。 Scala エンジニアの Javakky です！ 今回は、 Scala の標準ライブラリにある pipe / tap というメソッドを求めて旅した過程を書いていこうと思います。 pipe / tap とは？ Scala Standard Library 2.13.6 - scala.util.ChainingOpsで定義されているメソッドで、任意の値をメ...]]></description>
+            <content:encoded><![CDATA[はじめに はじめましての方ははじめまして。 Scala エンジニアの Javakky です！ 今回は、 Scala の標準ライブラリにある pipe / tap というメソッドを求めて旅した過程を書いていこうと思います。 pipe / tap とは？ Scala Standard Library 2.13.6 - scala.util.ChainingOpsで定義されているメソッドで、任意の値をメソッドチェーンのソースとして扱えるすごいやつです。 pipe pipe メソッドは任意の値を受け取り、処理結果を返す関数に値を渡してくれるメソッドです。 今回求めていた機能もこいつになります。 /**…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[83. Node.js、Deno、Bun（後編） w/ yosuke_furukawa | fukabori.fm]]></title>
+            <guid>https://podcast-pitpa-enginner.cdn.pitpa.jp/fukabori/episodes/084_UpQdY.mp3</guid>
+            <pubDate>Mon, 17 Oct 2022 09:00:00 GMT</pubDate>
+            <description><![CDATA[yosuke_furukawaさんをゲストに、Bunの狙い、Bunのパフォーマンス比較、Node.jsとBunとのIO実装の違いなどについて語っていただいたエピソードです。 話したネタ Bunはどういう課題感を持って登場してきた？ Node.jsの3倍速いという主張 パフォーマンス比較時におけるZigとJavaScript実装の差 ライブラリのマーケティング戦略 libuv とは？ OS の違いに...]]></description>
+            <content:encoded><![CDATA[yosuke_furukawaさんをゲストに、Bunの狙い、Bunのパフォーマンス比較、Node.jsとBunとのIO実装の違いなどについて語っていただいたエピソードです。 話したネタ Bunはどういう課題感を持って登場してきた？ Node.jsの3倍速いという主張 パフォーマンス比較時におけるZigとJavaScript実装の差 ライブラリのマーケティング戦略 libuv とは？ OS の違いにおける実装隠ぺい戦略 Bun は libuv を利用していない Mac向けにkqueue、Linux向けにio_uring Bun のProduction利用は? honojs/hono この後、業界はどのように変わっていく？ 三国志 JSConf JP 採用: NIJIBOX 採用: リクルート 番組のスポンサー  D.Node採用募集ページはこちら]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Railsの技: TailwindスタイルのCSSトランジションをStimulusJSで行う（翻訳） | TechRacho]]></title>
+            <link>https://techracho.bpsinc.jp/hachi8833/2022_10_17/120660</link>
+            <guid>https://techracho.bpsinc.jp/?p=120660</guid>
+            <pubDate>Mon, 17 Oct 2022 08:30:29 GMT</pubDate>
+            <description><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Tailwind style CSS transitions with StimulusJS | Boring Rails: Skip the bullshit and ship fast 原文公開日: 2022/06/01 原著者: Matt Swanson サイト: Boring Rails Railsの技: Tailwindスタイル...]]></description>
+            <content:encoded><![CDATA[概要 原著者の許諾を得て翻訳・公開いたします。 英語記事: Tailwind style CSS transitions with StimulusJS | Boring Rails: Skip the bullshit and ship fast 原文公開日: 2022/06/01 原著者: Matt Swanson サイト: Boring Rails Railsの技: TailwindスタイルのCSSトランジションをStimulusJSで行う（翻訳） 本記事は、Boring Railsの新シーズンコンテンツ「Hotwire Summer」の一部です。 StimulusJSでUI要素をビルドしたことがあるなら、 […] The post Railsの技: TailwindスタイルのCSSトランジションをStimulusJSで行う（翻訳） first appeared on TechRacho.]]></content:encoded>
+            <category>Ruby / Rails以外の開発一般</category>
+            <category>Ruby / Rails関連</category>
+            <category>Ruby on Rails</category>
+            <category>Stimulus.js</category>
+            <category>tailwindcss</category>
+            <category>翻訳記事</category>
+        </item>
+        <item>
+            <title><![CDATA[個人開発で作った技術スタックDBサービスの掲載企業数がもうすぐ70社に到達する！ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/mycndev/items/89f7d017176276d4cc79?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/mycndev/items/89f7d017176276d4cc79?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 07:31:55 GMT</pubDate>
+            <description><![CDATA[8月に個人開発で「what we use」という企業の技術スタックをまとめたデータベースサイトをリリースしました。  企業の技術スタックを横断的に検索できるWebサービスです。例えば、「Rust」を使…]]></description>
+            <content:encoded><![CDATA[8月に個人開発で「what we use」という企業の技術スタックをまとめたデータベースサイトをリリースしました。  企業の技術スタックを横断的に検索できるWebサービスです。例えば、「Rust」を使…]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2023年度内定式を開催しました！ | 株式会社Polestar-ID エンジニアブログ]]></title>
             <link>https://www.psid.co.jp/news/2022/10/17/2023%e5%b9%b4%e5%ba%a6%e5%86%85%e5%ae%9a%e5%bc%8f%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/</link>
@@ -161,6 +198,14 @@
             <content:encoded><![CDATA[ECS コンテナログから特定のアプリケーションログを Fluent Bit コンテナで抽出し Athena でクエリ実行できる様にした話です。  Fluent Bit の設定ファイルに対して GitHub Actions でテストをしてみました。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Gitの内部はどうなっているのか | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/k-yanai60/items/4020a19e4adfab01a895?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/k-yanai60/items/4020a19e4adfab01a895?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 03:19:42 GMT</pubDate>
+            <description><![CDATA[はじめに  現在参画しているプロジェクトではソースコードをGitで管理していて、日々修正した結果をコミットしています。 ですが、Gitがどういう仕組みで履歴を管理しているか知りませんでした。  コマン…]]></description>
+            <content:encoded><![CDATA[はじめに  現在参画しているプロジェクトではソースコードをGitで管理していて、日々修正した結果をコミットしています。 ですが、Gitがどういう仕組みで履歴を管理しているか知りませんでした。  コマン…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[【インターンレポート】言語モデルにおける公平性の評価技術の開発 | LINE ENGINEERING Feed ja]]></title>
             <link>https://engineering.linecorp.com/ja/blog/evaluating-fairness-in-language-models</link>
             <guid>https://engineering.linecorp.com/ja/blog/evaluating-fairness-in-language-models</guid>
@@ -198,6 +243,14 @@
             <category>フリーミアム</category>
         </item>
         <item>
+            <title><![CDATA[Go言語入門 学習メモ 1 変数、型、定数 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/fsd-osw/items/5d542c367d0bebb403b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/fsd-osw/items/5d542c367d0bebb403b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 02:32:40 GMT</pubDate>
+            <description><![CDATA[はじめに  船井総研デジタルのoswです。業務でGo言語を使うことになったのでこれから学習していきます。その備忘録です。参考になる方がいらっしゃれば幸いです。  対象読者   これからGo言語を学習する方 既に他の言語で基本構文を学習されている…]]></description>
+            <content:encoded><![CDATA[はじめに  船井総研デジタルのoswです。業務でGo言語を使うことになったのでこれから学習していきます。その備忘録です。参考になる方がいらっしゃれば幸いです。  対象読者   これからGo言語を学習する方 既に他の言語で基本構文を学習されている…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[エウレカはJAWS DAYS 2022 -Satellitesに登壇＆協賛させていただきました！ | Eureka Engineering - Medium]]></title>
             <link>https://medium.com/eureka-engineering/%E3%82%A8%E3%82%A6%E3%83%AC%E3%82%AB%E3%81%AFjaws-days-2022-satellites%E3%81%AB%E7%99%BB%E5%A3%87-%E5%8D%94%E8%B3%9B%E3%81%95%E3%81%9B%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%97%E3%81%9F-1e349e70467?source=rss----5c512e0ddc60---4</link>
             <guid>https://medium.com/p/1e349e70467</guid>
@@ -210,6 +263,14 @@
             <pubDate>Mon, 17 Oct 2022 02:15:28 GMT</pubDate>
             <description><![CDATA[こんにちは。CPOをやっている@itoshoです。 先日AWSさん主催のCTO Night & Day 2022 in 長崎（以下、CTO Night）に参加させていただきましたので、簡単にレポートをお届けします。*1 長崎とCTO Nightと私 CTO Nightとは技術の立場から経営に参画するリーダーが一堂に会する招待制カンファレンスですが、今年は3年ぶりにオフサイト開催となりました。僕自身...]]></description>
             <content:encoded><![CDATA[こんにちは。CPOをやっている@itoshoです。 先日AWSさん主催のCTO Night & Day 2022 in 長崎（以下、CTO Night）に参加させていただきましたので、簡単にレポートをお届けします。*1 長崎とCTO Nightと私 CTO Nightとは技術の立場から経営に参画するリーダーが一堂に会する招待制カンファレンスですが、今年は3年ぶりにオフサイト開催となりました。僕自身も前回参加させていただいたのが、3年前の京都開催のCTO Nightでしたので、久しぶりのオフサイト開催は"くる"ものがありました。*2 CTO Night and Day 2019 | AWS St…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Azure FunctionsからMySQLに接続する～Java編～ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/fsdg-nagumo/items/4c069fe09676ac1b3326?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/fsdg-nagumo/items/4c069fe09676ac1b3326?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 02:04:29 GMT</pubDate>
+            <description><![CDATA[対象者   Azure FunctionsからAzure Database for MySQLに接続してみたい方 Javaで開発したい方 コマンドベースで操作したい方   概要  この記事では以下の内容につ…]]></description>
+            <content:encoded><![CDATA[対象者   Azure FunctionsからAzure Database for MySQLに接続してみたい方 Javaで開発したい方 コマンドベースで操作したい方   概要  この記事では以下の内容につ…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Windows11にアップグレードしたいのでPCもアップグレードしてみた（GPU編） | GMOアドパートナーズ TECH BLOG byGMO]]></title>
@@ -264,12 +325,28 @@
             <content:encoded><![CDATA[米Microsoftは10月12日（現地時間）、「Microsoft Edge」の省電力機能「効率モード」を改善したと発表した。一部環境から順次展開しているという。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[Azure Fundamentals(AZ-900)：Azure の基礎: Azure のアーキテクチャとサービスについて説明する「Azure仮想ネットワーク(VNet)」 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/fsd-jume/items/4a0d14f1e415f7c2c165?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/fsd-jume/items/4a0d14f1e415f7c2c165?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 01:33:18 GMT</pubDate>
+            <description><![CDATA[Microsoft Learnを用いたMicrosoft Azure Fundamentals(AZ-900)の試験内容をまとめる投稿です。 この投稿ではMicrosoft Learnで学ぶ内容をで…]]></description>
+            <content:encoded><![CDATA[Microsoft Learnを用いたMicrosoft Azure Fundamentals(AZ-900)の試験内容をまとめる投稿です。 この投稿ではMicrosoft Learnで学ぶ内容をで…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Oracle Database Service for Azure (ODSA)でBase Databaseを構築しAzureからOCIに接続する | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ykuma614/items/9bcf764a40a4eec42a17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ykuma614/items/9bcf764a40a4eec42a17?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 01:00:59 GMT</pubDate>
+            <description><![CDATA[はじめに  Oracle Database Service for Azure (ODSA)構築からAzureとOCIのマルチクラウド間疎通を実装したので手順と結果をまとめます。  事前に構築手順を確…]]></description>
+            <content:encoded><![CDATA[はじめに  Oracle Database Service for Azure (ODSA)構築からAzureとOCIのマルチクラウド間疎通を実装したので手順と結果をまとめます。  事前に構築手順を確…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[RubyMineに開発用コマンドを登録してチームで共有しよう | Money Forward Engineers' Blog]]></title>
             <link>https://moneyforward.com/engineers_blog/2022/10/17/convenient-rubymine/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10751</guid>
             <pubDate>Mon, 17 Oct 2022 01:00:38 GMT</pubDate>
-            <description><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Res...]]></description>
-            <content:encoded><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Respectの気持ちでチームを盛り上げるチームビルディング術  マネーフォワードはシルバースポンサーとしてiOSDC JAPAN 2021を応援させていただきます！  初めてOSS貢献体験と、それにより変化した考え方について  【社内レポ】IT勉強会向けに無料で会場を提供します  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る   Copyright © Money Forward Engineers' Blog [RubyMineに開発用コマンドを登録してチームで共有しよう], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...]]></description>
+            <content:encoded><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2016年7月)  書評 データ分析プロジェクトの手引（献本御礼）  遅すぎるfeatureテストに対して試したこと  技術顧問giginetさんインタビュー コミュニティ活動やOSS活動の秘訣を聞いてみました  キャッシュレス社会の到来を加速させるマネーフォワード   Copyright © Money Forward Engineers' Blog [RubyMineに開発用コマンドを登録してチームで共有しよう], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -303,6 +380,22 @@
             <pubDate>Mon, 17 Oct 2022 00:50:10 GMT</pubDate>
             <description><![CDATA[2022年10月下旬発行予定の新刊書籍、『Race Car Design』のご紹介です。 同書の「監訳者まえがき」を、発行に先駆けて公開します。   続きをみる]]></description>
             <content:encoded><![CDATA[2022年10月下旬発行予定の新刊書籍、『Race Car Design』のご紹介です。 同書の「監訳者まえがき」を、発行に先駆けて公開します。   続きをみる]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【CSS】CSSだけで画像を任意の場所をトリミングできる「object-view-box」が便利すぎた。 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/degudegu2510/items/fc9b5a3405a2aed6e6fc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/degudegu2510/items/fc9b5a3405a2aed6e6fc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 00:41:57 GMT</pubDate>
+            <description><![CDATA[はじめに   みなさんは、CSSで画像をトリミングする時どんな方法を使いますか？  object-fitを使ったり、 background-sizeとbackground-positionを使ったりとい…]]></description>
+            <content:encoded><![CDATA[はじめに   みなさんは、CSSで画像をトリミングする時どんな方法を使いますか？  object-fitを使ったり、 background-sizeとbackground-positionを使ったりとい…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【UiPath】バージョン「22.10」リリースまとめ - 2（Robot/Assistant 編） | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/miya_gis/items/c16b917f5e85c7c977fa?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/miya_gis/items/c16b917f5e85c7c977fa?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Mon, 17 Oct 2022 00:37:06 GMT</pubDate>
+            <description><![CDATA[はじめに  この投稿は、RPAツール「UiPath」で 2022年10月にリリースされた、バージョン「2022.10」について「個人的に」 まとめたものです。 沢山あるので、何回かに分けて紹介します…]]></description>
+            <content:encoded><![CDATA[はじめに  この投稿は、RPAツール「UiPath」で 2022年10月にリリースされた、バージョン「2022.10」について「個人的に」 まとめたものです。 沢山あるので、何回かに分けて紹介します…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[10年越しの Web フロントエンドという職種界隈についての考 | Offers Tech Blog | Zennのトレンド]]></title>
@@ -358,6 +451,14 @@
             <category>プーレ数</category>
         </item>
         <item>
+            <title><![CDATA[新卒エンジニアの教育で重要なこと6つ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/kawadasatoshi/items/504e8942ace789b5c516?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/kawadasatoshi/items/504e8942ace789b5c516?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 16 Oct 2022 22:30:11 GMT</pubDate>
+            <description><![CDATA[元記事  https://pm.short-tips.info/culture/1053manager.md  参考    参考：Googleのソフトウェアエンジニアリング  https://www.orei…]]></description>
+            <content:encoded><![CDATA[元記事  https://pm.short-tips.info/culture/1053manager.md  参考    参考：Googleのソフトウェアエンジニアリング  https://www.orei…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[【アップデート情報】窓の杜収録ソフト　10月17日　～「LibreOffice（最新版）」や「AOMEI Backupper Standard」など | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/update/library/1447697.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/update/library/1447697.html</guid>
@@ -388,6 +489,14 @@
             <pubDate>Sun, 16 Oct 2022 21:45:00 GMT</pubDate>
             <description><![CDATA[“やじうまの杜”では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></description>
             <content:encoded><![CDATA[“やじうまの杜”では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[three.jsでデバッグのために入れるもの色々 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/xrxoxcxox/items/157b04ffef659dc5f7d9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/xrxoxcxox/items/157b04ffef659dc5f7d9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 16 Oct 2022 19:35:58 GMT</pubDate>
+            <description><![CDATA[この記事の概要  three.jsを触っていると、動かないコードを書いているのか、位置やサイズを間違えて画面内に描画できていないだけなのか、分からなくなることがあります。^unskilled デバッ…]]></description>
+            <content:encoded><![CDATA[この記事の概要  three.jsを触っていると、動かないコードを書いているのか、位置やサイズを間違えて画面内に描画できていないだけなのか、分からなくなることがあります。^unskilled デバッ…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Wordles, Centaur and Code: Building a Game | Hacker Noon - machine-learning]]></title>
@@ -450,6 +559,14 @@
             <pubDate>Sun, 16 Oct 2022 14:31:17 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[「What's new in Livebook 0.7」YouTubeを楽しみました（Elixir） | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/torifukukaiou/items/8598a1fb9d0a363fe674?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/torifukukaiou/items/8598a1fb9d0a363fe674?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 16 Oct 2022 14:18:57 GMT</pubDate>
+            <description><![CDATA[はじめに  「What's new in Livebook 0.7」と題したYouTubeがあります。 José Valimさんが紹介していました。  Official Livebook v0.7 a…]]></description>
+            <content:encoded><![CDATA[はじめに  「What's new in Livebook 0.7」と題したYouTubeがあります。 José Valimさんが紹介していました。  Official Livebook v0.7 a…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[DreamFusion: An AI that Generates 3D Models from Text | Hacker Noon - machine-learning]]></title>
             <link>https://hackernoon.com/dreamfusion-an-ai-that-generates-3d-models-from-text?source=rss</link>
             <guid>https://hackernoon.com/dreamfusion-an-ai-that-generates-3d-models-from-text?source=rss</guid>
@@ -471,6 +588,14 @@
             <pubDate>Sun, 16 Oct 2022 12:11:55 GMT</pubDate>
             <description><![CDATA[TypeScriptは業務で使っていますが、このサイトで改めて勉強し、初めて知ったことが結構あったので、アウトプットがてら記事に残すことにしました。 まだサイトの序盤を読んでいる段階なので、適宜追記…]]></description>
             <content:encoded><![CDATA[TypeScriptは業務で使っていますが、このサイトで改めて勉強し、初めて知ったことが結構あったので、アウトプットがてら記事に残すことにしました。 まだサイトの序盤を読んでいる段階なので、適宜追記…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NGINXセキュリティ設定の脆弱性診断による検証 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/mingchun_zhao/items/3f0ad2217ec7459effe5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/mingchun_zhao/items/3f0ad2217ec7459effe5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 16 Oct 2022 11:48:19 GMT</pubDate>
+            <description><![CDATA[はじめに  Webサーバをサイバー攻撃から守るため、強固なセキュリティ設定が求められています。 NGINXセキュリティ設定に必要な項目を、脆弱性診断ツールなどを利用し検証しました。  関連用語のおさらい …]]></description>
+            <content:encoded><![CDATA[はじめに  Webサーバをサイバー攻撃から守るため、強固なセキュリティ設定が求められています。 NGINXセキュリティ設定に必要な項目を、脆弱性診断ツールなどを利用し検証しました。  関連用語のおさらい …]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[最速攻略！　Reactの `use` RFC | Zennのトレンド]]></title>
@@ -515,14 +640,6 @@
             <content:encoded><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 今回が第 94 回目です。過去の記事はこちら。   news 📺   Highlights from Git 2.38 | The GitHub Blog https://github.blog/2022-10-03-highlights-from-git-2-38/ Git 2.38 がリリースされ、いく...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ABC273をPythonとC++で | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/MoroeTachibana-oh/items/4befb253fce7e4cd4826?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/MoroeTachibana-oh/items/4befb253fce7e4cd4826?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sun, 16 Oct 2022 06:59:47 GMT</pubDate>
-            <description><![CDATA[0 はじめに  0-1 記事について  AtCoder Beginner Contest 273の解説です。 実装はPythonとC++で書きます。 公式解説と違いがあるかも知れませんがご了承。 ミス…]]></description>
-            <content:encoded><![CDATA[0 はじめに  0-1 記事について  AtCoder Beginner Contest 273の解説です。 実装はPythonとC++で書きます。 公式解説と違いがあるかも知れませんがご了承。 ミス…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[AOSPのAndroidX開発環境メモ | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/takahirom/items/3310ba8b77dcdac46ccc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/takahirom/items/3310ba8b77dcdac46ccc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -546,14 +663,6 @@
             <description><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ノルム空間の有限次元部分空間が閉集合であることの証明を紹介します。 導入 関数空間など無限次元の空間では、部分空間が閉集合であるとは限らず、閉部分空間 ... ノルム空間の有限次元部分空間が閉集合であることの証明 first appeared on 趣味の大学数学.]]></description>
             <content:encoded><![CDATA[どうも、木村（@kimu3_slime）です。 今回は、ノルム空間の有限次元部分空間が閉集合であることの証明を紹介します。 導入 関数空間など無限次元の空間では、部分空間が閉集合であるとは限らず、閉部分空間 ... ノルム空間の有限次元部分空間が閉集合であることの証明 first appeared on 趣味の大学数学.]]></content:encoded>
             <category>関数解析</category>
-        </item>
-        <item>
-            <title><![CDATA[【解決】Macbook Pro 2013にOS Xをクリーンインストールした後、App Storeから正しいAppleIDと正しいパスワードを入力したところ、ログインできない | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/riraosan/items/1839754659d4821a2ff5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/riraosan/items/1839754659d4821a2ff5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sun, 16 Oct 2022 05:46:26 GMT</pubDate>
-            <description><![CDATA[My Story  Macbook Pro 2013が起動しなくなったので、クリーンインストールをしたあとCatalinaをインストールしようとして詰んでいたところ、アップルサポートに助けていただい…]]></description>
-            <content:encoded><![CDATA[My Story  Macbook Pro 2013が起動しなくなったので、クリーンインストールをしたあとCatalinaをインストールしようとして詰んでいたところ、アップルサポートに助けていただい…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[レガシーなMPAアプリケーションをWebpackからViteに移行する話 | Zennのトレンド]]></title>
@@ -588,14 +697,6 @@
             <content:encoded><![CDATA[自分がほしい答えをうまく引き出す方法  今回は質問の投げかけ方、質問の仕方について話していきたいと思います。  自分がほしい答えをうまく相手から引き出す方法の紹介です。  質問をすることに抵抗ありますか？ …]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Salesforce上級アドミニストレーター試験の公式サンプル問題解説してみた-01 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/Takaa/items/4025fb884e3b3ba0f7f6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/Takaa/items/4025fb884e3b3ba0f7f6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sun, 16 Oct 2022 01:12:48 GMT</pubDate>
-            <description><![CDATA[こんにちは 本橋孝昭です  今回の内容は動画でも解説しています  https://www.youtube.com/watch?v=7CX10P0eT-w    Salesforce上級アドミニストレーター試験…]]></description>
-            <content:encoded><![CDATA[こんにちは 本橋孝昭です  今回の内容は動画でも解説しています  https://www.youtube.com/watch?v=7CX10P0eT-w    Salesforce上級アドミニストレーター試験…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[開発・学習で必見のWEB記事 10選 | Zennのトレンド]]></title>
             <link>https://zenn.dev/nameless_sn/articles/awesome_web_articles</link>
             <guid>https://zenn.dev/nameless_sn/articles/awesome_web_articles</guid>
@@ -604,28 +705,20 @@
             <content:encoded><![CDATA[はじめに 今回の記事では、プログラマーが開発・学習で必ず確認するべきWEB記事を10個紹介する。本記事の読者の対象は以下の通り。  情報収集に困っているプログラマー プログラミング初心者  今回の記事で紹介されているものはあくまで一例に過ぎない。1つでも興味深い記事が見つかれば非常に幸いである。   【まとめ】これ知らないプログラマって損してんなって思う汎用的なツール 100超 https://qiita.com/suin/items/f570f057a0ff927b47dc 開発を効率化させるWebサービスやツールを100以上も紹介してあるQiita記事。便利なWebサービスを探し...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[【UiPath】バージョン「22.10」リリースまとめ - 1（Studio/StudioX編） | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/miya_gis/items/fe2a1af1657ef8de9427?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/miya_gis/items/fe2a1af1657ef8de9427?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sat, 15 Oct 2022 23:59:40 GMT</pubDate>
+            <description><![CDATA[はじめに  この投稿は、RPAツール「UiPath」で 2022年10月にリリースされた、バージョン「2022.10」について「個人的に」 まとめたものです。 沢山あるので、何回かに分けて紹介します…]]></description>
+            <content:encoded><![CDATA[はじめに  この投稿は、RPAツール「UiPath」で 2022年10月にリリースされた、バージョン「2022.10」について「個人的に」 まとめたものです。 沢山あるので、何回かに分けて紹介します…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[TypeScriptってなんのために使うの？ | Zennのトレンド]]></title>
             <link>https://zenn.dev/fumina/articles/95876888664844</link>
             <guid>https://zenn.dev/fumina/articles/95876888664844</guid>
             <pubDate>Sat, 15 Oct 2022 22:36:42 GMT</pubDate>
             <description><![CDATA[タイトルのような疑問を持ちながらTypeScriptをとりあえず書いていた時期が私にもありました。 いちいち型書かなきゃいけないのめんど・・・という時期が。 今回はTypeScriptはなんのために使うものなのか、どんなメリットがあるのかを中心に TypeScriptの恩恵についてお話ししていきたいと思います！    TypeScriptとは 公式(https://www.typescriptla...]]></description>
             <content:encoded><![CDATA[タイトルのような疑問を持ちながらTypeScriptをとりあえず書いていた時期が私にもありました。 いちいち型書かなきゃいけないのめんど・・・という時期が。 今回はTypeScriptはなんのために使うものなのか、どんなメリットがあるのかを中心に TypeScriptの恩恵についてお話ししていきたいと思います！    TypeScriptとは 公式(https://www.typescriptlang.org/ja/)にはシンプルにこう書かれています。  TypeScript は、型の構文を持つ JavaScript です。  え？! つまりTypeScriptってJavaScriptな...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Render.comでRailsアプリの本番環境を作成する方法をどこよりも優しく伝える！ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/ysk91_engineer/items/b7db950f4739fa896f57?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/ysk91_engineer/items/b7db950f4739fa896f57?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 22:15:40 GMT</pubDate>
-            <description><![CDATA[目的  Herokuの有料化により他のPaasを探している方もいるのではないでしょうか？ 本記事は Render.com というサービスを本番環境に使用する方向けの記事です。  前記事からの続編となっ…]]></description>
-            <content:encoded><![CDATA[目的  Herokuの有料化により他のPaasを探している方もいるのではないでしょうか？ 本記事は Render.com というサービスを本番環境に使用する方向けの記事です。  前記事からの続編となっ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[別プロセスのメモリを読みたかった話 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/Mikage32/items/91fda6df9bc20eb6ef6c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/Mikage32/items/91fda6df9bc20eb6ef6c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 19:05:43 GMT</pubDate>
-            <description><![CDATA[はじめに  ふとしたときになにかしらのプロセスのメモリを読みたくなることってあると思います。Windowsの場合Win32APIで用意されているReadProcessMemoryを呼び出すことで動作…]]></description>
-            <content:encoded><![CDATA[はじめに  ふとしたときになにかしらのプロセスのメモリを読みたくなることってあると思います。Windowsの場合Win32APIで用意されているReadProcessMemoryを呼び出すことで動作…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Ray Tracing: How NVIDIA Solved the Impossible! | Two Minute Papers]]></title>
@@ -664,38 +757,6 @@
             <pubDate>Sat, 15 Oct 2022 13:40:00 GMT</pubDate>
             <description><![CDATA[毎回ググってるので備忘録。   概要 GitHub Actions では OpenID Connect (OIDC) がサポートされています。 OIDC を使用することにより長期間有効なアクセスキーなどを用意することなく AWS 認証を行うことができます。 詳細については下記ページをご参照ください。 https://docs.github.com/en/actions/deployment/sec...]]></description>
             <content:encoded><![CDATA[毎回ググってるので備忘録。   概要 GitHub Actions では OpenID Connect (OIDC) がサポートされています。 OIDC を使用することにより長期間有効なアクセスキーなどを用意することなく AWS 認証を行うことができます。 詳細については下記ページをご参照ください。 https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect この記事では GitHub Actio...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[PyCon JP 2022参加レポート（2日目） | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/ryu22e/items/f406a87d64e5ba66228c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/ryu22e/items/f406a87d64e5ba66228c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 12:34:16 GMT</pubDate>
-            <description><![CDATA[1日目のレポート  PyCon JP 2022 2日目の参加レポートです。    キーノート  https://2022.pycon.jp/timetable?id=HFEB37 2日目のキーノートのスピーカ…]]></description>
-            <content:encoded><![CDATA[1日目のレポート  PyCon JP 2022 2日目の参加レポートです。    キーノート  https://2022.pycon.jp/timetable?id=HFEB37 2日目のキーノートのスピーカ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Javaの隠された (しかも、ちょっと面白い) 文法 3選 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/Snowman-s/items/0138e07f2c60154d76dc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/Snowman-s/items/0138e07f2c60154d76dc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 10:58:09 GMT</pubDate>
-            <description><![CDATA[この記事は？  この記事は知名度がかなり低そうなJavaの文法を、独断で3つ選んで紹介するものです。  動作確認したJavaのバージョンは OpenJDK19 ですが、Java8 の時にはこれらの文法…]]></description>
-            <content:encoded><![CDATA[この記事は？  この記事は知名度がかなり低そうなJavaの文法を、独断で3つ選んで紹介するものです。  動作確認したJavaのバージョンは OpenJDK19 ですが、Java8 の時にはこれらの文法…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Fortigate VMトライアルライセンス永続化 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/nw-engineer/items/353958334b65356baa5a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/nw-engineer/items/353958334b65356baa5a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 10:36:48 GMT</pubDate>
-            <description><![CDATA[昨日の脆弱性（CVE-2022-40684）を受けて、最新バージョンの7.2.2をダウンロードしEVE-NG上でデプロイした所、ライセンスを適用する旨の画面が。。。 15日トライアルライセンスは廃止…]]></description>
-            <content:encoded><![CDATA[昨日の脆弱性（CVE-2022-40684）を受けて、最新バージョンの7.2.2をダウンロードしEVE-NG上でデプロイした所、ライセンスを適用する旨の画面が。。。 15日トライアルライセンスは廃止…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Web3で生成AIはマジヤバイ（ポエム） | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/singyura_med/items/2b773a4a1a089988508c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/singyura_med/items/2b773a4a1a089988508c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 15 Oct 2022 10:30:57 GMT</pubDate>
-            <description><![CDATA[前提: web3での暗殺市場が既に成立している  Augurという、賭けを行うweb3アプリがあります。 Augurでは、将来の試合結果の勝ち負けなどを予想し、当たれば賭け金をもらえる、というもので…]]></description>
-            <content:encoded><![CDATA[前提: web3での暗殺市場が既に成立している  Augurという、賭けを行うweb3アプリがあります。 Augurでは、将来の試合結果の勝ち負けなどを予想し、当たれば賭け金をもらえる、というもので…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【Next.js】デプロイから考えるCSR,SSG,SSR | Qiita - 人気の記事]]></title>
@@ -756,8 +817,8 @@
             <link>https://qiita.com/daisuke-team-ai/items/260c6b9f4fd8a72e7e0c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/daisuke-team-ai/items/260c6b9f4fd8a72e7e0c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
             <pubDate>Sat, 15 Oct 2022 03:21:34 GMT</pubDate>
-            <description><![CDATA[はじめに    Team AI = 機械学習研究会    Why We Do    What We Do    how We Do  意思決定の仕方のコツ - 大人数で決めすぎない。船頭が多いとハッカソンは勝てない。 - 仲…]]></description>
-            <content:encoded><![CDATA[はじめに    Team AI = 機械学習研究会    Why We Do    What We Do    how We Do  意思決定の仕方のコツ - 大人数で決めすぎない。船頭が多いとハッカソンは勝てない。 - 仲…]]></content:encoded>
+            <description><![CDATA[はじめに    Team AI = 機械学習研究会    Why We Do    What We Do  (output)   ...   ...   ...    how We Do  意思決定の仕方のコツ - 大人数で決めすぎない。…]]></description>
+            <content:encoded><![CDATA[はじめに    Team AI = 機械学習研究会    Why We Do    What We Do  (output)   ...   ...   ...    how We Do  意思決定の仕方のコツ - 大人数で決めすぎない。…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【必見】Flutter開発で確認するべきGitHubリポジトリ・Webサイト 10選 | Zennのトレンド]]></title>
@@ -818,14 +879,6 @@
             <pubDate>Fri, 14 Oct 2022 15:27:01 GMT</pubDate>
             <description><![CDATA[How Amazon’s Supply Chain Optimization Technologies team has evolved over time to meet a challenge of staggering complexity.]]></description>
             <content:encoded><![CDATA[How Amazon’s Supply Chain Optimization Technologies team has evolved over time to meet a challenge of staggering complexity.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[draw.ioで作成した画面レイアウトから仕様書を自動で生成するツールを作ってみた | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/capybara-alt/items/eaa8a73f09f9ec9d07c7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/capybara-alt/items/eaa8a73f09f9ec9d07c7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 14 Oct 2022 14:44:11 GMT</pubDate>
-            <description><![CDATA[このツールを作った背景  draw.ioのライブラリを作ったので、実践編として投稿することにした。 前職がSIerでお客様に見せる画面イメージをdraw.ioで作成し、それを画面レイアウト定義(画面…]]></description>
-            <content:encoded><![CDATA[このツールを作った背景  draw.ioのライブラリを作ったので、実践編として投稿することにした。 前職がSIerでお客様に見せる画面イメージをdraw.ioで作成し、それを画面レイアウト定義(画面…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[PyCon JP 2022参加レポート（1日目） | Qiita - 人気の記事]]></title>
@@ -1124,14 +1177,6 @@ xpaper.challenge Slackへの招待リンクを送ります。 | cvpaper.challeng
             <category>運営方針</category>
         </item>
         <item>
-            <title><![CDATA[生成AI界隈で「誰も仕様を知らず、ドキュメントの存在しないライブラリの仕様を世界中で掘り起こす」宝探しのビッグウェーブが起きている | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/yakuma_en/items/43482db7919b1bde0970?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/yakuma_en/items/43482db7919b1bde0970?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 14 Oct 2022 05:07:49 GMT</pubDate>
-            <description><![CDATA[画像生成AI界隈、StableDiffusionからNovelAIに至るまで学習過程がだいぶアングラなのだが、それを差し引いてもエンジニア的・技術的には物凄く面白い流れになってきている。規模は全世界…]]></description>
-            <content:encoded><![CDATA[画像生成AI界隈、StableDiffusionからNovelAIに至るまで学習過程がだいぶアングラなのだが、それを差し引いてもエンジニア的・技術的には物凄く面白い流れになってきている。規模は全世界…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[今日からサポーターズ技育祭 2022 秋が始まります | CARTA TECH BLOG]]></title>
             <link>https://techblog.cartaholdings.co.jp/entry/2022/10/14/132414</link>
             <guid>https://techblog.cartaholdings.co.jp/entry/2022/10/14/132414</guid>
@@ -1212,14 +1257,6 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <pubDate>Fri, 14 Oct 2022 02:45:00 GMT</pubDate>
             <description><![CDATA[本連載では、無料の高機能3Dモデリングツール「Blender」の使い方や関連情報を幅広くお伝えします。]]></description>
             <content:encoded><![CDATA[本連載では、無料の高機能3Dモデリングツール「Blender」の使い方や関連情報を幅広くお伝えします。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[SUUMOの物件情報を自動取得（スクレイピング）したのでコードを解説する。 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/tomyu/items/a08d3180b7cbe63667c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/tomyu/items/a08d3180b7cbe63667c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 14 Oct 2022 02:44:00 GMT</pubDate>
-            <description><![CDATA[こちらの記事をご覧いただきありがとうございます。  以前スクレイピングの基本の記事を投稿しました。こちらの記事では、スクレイピングを使ってSUUMOの物件情報を自動取得したその過程を書きます。  …]]></description>
-            <content:encoded><![CDATA[こちらの記事をご覧いただきありがとうございます。  以前スクレイピングの基本の記事を投稿しました。こちらの記事では、スクレイピングを使ってSUUMOの物件情報を自動取得したその過程を書きます。  …]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[VLDB 2022 参加報告 | LINE ENGINEERING Feed ja]]></title>
@@ -1323,14 +1360,6 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <pubDate>Fri, 14 Oct 2022 00:58:41 GMT</pubDate>
             <description><![CDATA[はじめに 今回の記事では、私たちプログラマーが開発や学習を進める中で必ず確認しておくべきGitHubリポジトリを20紹介する。今回の記事の対象は主に以下の通り。  開発・学習に必要な情報を収集しているプログラマー GitHubを開発・学習の参考にしたいプログラマー 情報収集の方法がわからないプログラマー    freeCodeCamp 世界最大規模のプログラミングメディアであるfreeCodeCa...]]></description>
             <content:encoded><![CDATA[はじめに 今回の記事では、私たちプログラマーが開発や学習を進める中で必ず確認しておくべきGitHubリポジトリを20紹介する。今回の記事の対象は主に以下の通り。  開発・学習に必要な情報を収集しているプログラマー GitHubを開発・学習の参考にしたいプログラマー 情報収集の方法がわからないプログラマー    freeCodeCamp 世界最大規模のプログラミングメディアであるfreeCodeCampのGitHubリポジトリ。扱う内容はWeb開発、モバイルアプリ開発やデータサイエンスなど非常に幅広い。特にPythonやReact、Node.js、Flutterを実務で扱うプログラマー...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[英語でGoogle検索なんて無理！なんて思っているエンジニアのための英語スキル（少しずつ）向上法 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/arisa5/items/c339b922361a1d1eb6f7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/arisa5/items/c339b922361a1d1eb6f7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 14 Oct 2022 00:32:45 GMT</pubDate>
-            <description><![CDATA[個人的に、エンジニアは英語できた方が楽だよね^1と常々思っているので、それに関する記事をさっくり書いてみる。  結論、質問を文で書けるように(最低でも理解てきるように)なると、英語での検索ははかどりま…]]></description>
-            <content:encoded><![CDATA[個人的に、エンジニアは英語できた方が楽だよね^1と常々思っているので、それに関する記事をさっくり書いてみる。  結論、質問を文で書けるように(最低でも理解てきるように)なると、英語での検索ははかどりま…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　10月14日　～NECパーソナルコンピュータなど | 窓の杜]]></title>
@@ -1546,6 +1575,23 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <category>Twitter</category>
         </item>
         <item>
+            <title><![CDATA[静的コンテンツ公開時のCloud Storageのキャッシュについて | エンジニアブログ | iret.media]]></title>
+            <link>https://iret.media/65183</link>
+            <guid>https://iret.media/?p=65183</guid>
+            <pubDate>Thu, 13 Oct 2022 09:00:06 GMT</pubDate>
+            <description><![CDATA[はじめに Cloud Storage(以降GCSと記載)経由で静的Webサイトとして公開してる場合に最新の状態が表示されないことがあり、それの原因について調査した。 構成 LB → GCS、GCF 静的コンテンツはGCS […]]]></description>
+            <content:encoded><![CDATA[はじめに Cloud Storage(以降GCSと記載)経由で静的Webサイトとして公開してる場合に最新の状態が表示されないことがあり、それの原因について調査した。 構成 LB → GCS、GCF 静的コンテンツはGCS […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>Cloud CDN</category>
+            <category>Cloud Functions</category>
+            <category>Cloud Storage</category>
+            <category>GCF</category>
+            <category>GCS</category>
+            <category>Google Cloud</category>
+            <category>サンプルソース</category>
+            <category>トラブル解決</category>
+        </item>
+        <item>
             <title><![CDATA[AWS CodeBuildからECSへexecute-commandする | TechRacho]]></title>
             <link>https://techracho.bpsinc.jp/yamasita-taisuke/2022_10_13/122544</link>
             <guid>https://techracho.bpsinc.jp/?p=122544</guid>
@@ -1743,7 +1789,7 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <guid>https://moneyforward.com/engineers_blog/?p=10734</guid>
             <pubDate>Thu, 13 Oct 2022 01:00:37 GMT</pubDate>
             <description><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
-            <content:encoded><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 鈴木研吾「崖から落とさないためのディフェンス役」  最近のruby-core (2016年7月)  IT勉強会の会場無料提供のご案内  iOSエンジニア向けOSS Forwardワークショップを開催しました  Javaエンジニアが、Rubyを始めてみて受けた衝撃   Copyright © Money Forward Engineers' Blog [strong_migrations gemのススメ], All Right Reserved. 2022.]]></content:encoded>
+            <content:encoded><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのtvOSアプリケーションを開発した話  Money Forward Advent Calendar 2015  ０からはじめる社内勉強会〜がんばれQAエンジニア！〜  How I integrated the Kibela API into my local note-taking routine  マネーフォワードのJavaエンジニアはどのような環境で仕事をしているのか   Copyright © Money Forward Engineers' Blog [strong_migrations gemのススメ], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2220,8 +2266,8 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <link>https://moneyforward.com/engineers_blog/2022/10/12/droidkaigi-2022-side-speaker/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10723</guid>
             <pubDate>Wed, 12 Oct 2022 01:00:27 GMT</pubDate>
-            <description><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Sam...]]></description>
-            <content:encoded><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: SamurAI Codingに参加してみませんか？  database_rewinderにpull requestを投げた結果  Android版「マネーフォワード」をマテリアルデザイン対応したときのあれこれ  マネーフォワード社員のお金の管理術 「お金を貯めるにはヒリヒリしよう」  [勤怠FEギルド] Jestを使ってファイル・ディレクトリの命名規約をテストする   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022 登壇レポート 初めての登壇を終えて], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></description>
+            <content:encoded><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi 2014参加レポ(マネーフォワード編)  Story of being a speaker at a tech panel discussion  DroidKaigi 2018に登壇 & SILVER SPONSORとして協賛します  【Ruby】クラウド勤怠におけるゴーストメソッド利用例  試食会のすゝめ   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022 登壇レポート 初めての登壇を終えて], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3527,13 +3573,13 @@ https://ai-scholar.tech/articles/reinforcement-learning/MA-POCA | AI技術最新
             <category>フリーソフト</category>
             <category>レビュー</category>
             <category>カテゴリー済み</category>
-            <category>spleeter</category>
-            <category>Real-ESRGAN</category>
-            <category>basic-pitch</category>
             <category>音MAD</category>
             <category>yt-dlp</category>
             <category>ffmpeg</category>
             <category>demucs v3</category>
+            <category>spleeter</category>
+            <category>Real-ESRGAN</category>
+            <category>basic-pitch</category>
         </item>
         <item>
             <title><![CDATA[CSS: フィーチャークエリを理解する（翻訳） | TechRacho]]></title>
@@ -3574,8 +3620,8 @@ https://ai-scholar.tech/articles/reinforcement-learning/MA-POCA | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/10/06/droidkaig-2022-day1/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10710</guid>
             <pubDate>Thu, 06 Oct 2022 04:52:20 GMT</pubDate>
-            <description><![CDATA[こばなし DroidKaigi に参加された皆さん、Day1は楽しんでいただけた … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mon...]]></description>
-            <content:encoded><![CDATA[こばなし DroidKaigi に参加された皆さん、Day1は楽しんでいただけた … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Moneyforward APIで車ゲームを作る  私の履歴書：マネーフォワードの会計開発チーム編  京都開発拠点を2年運営して見えてきた採用の傾向  GitHub Actionsのワークフローを利用してクロスブラウザのE2Eテストを自動化する  Scrum Fest Niigata 2022 に登壇しました！   Copyright © Money Forward Engineers' Blog [ブログを書くまでが #DroidKaigi Day1 なのだ！], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こばなし DroidKaigi に参加された皆さん、Day1は楽しんでいただけた … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [15...]]></description>
+            <content:encoded><![CDATA[こばなし DroidKaigi に参加された皆さん、Day1は楽しんでいただけた … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [15分で] グラフデータベースNeo4jに超入門してみた  Github Actionsを利用して作業を自動化してみよう  ようこそpockeさん！マネーフォワード関西開発拠点へ〜日々改善と新機能開発を続けるチームでやりたいこと〜  ビジュアルリグレッションテストにChromaticを導入したらデザインレビューが捗った話  大量データで性能テストをする際に考えた事 ~ 将来のユーザーを見据えたテスト方針 ~   Copyright © Money Forward Engineers' Blog [ブログを書くまでが #DroidKaigi Day1 なのだ！], All Right Reserve...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3662,8 +3708,8 @@ https://ai-scholar.tech/articles/reinforcement-learning/MA-POCA | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/10/06/tailwindcss-and-figma-tokens/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10704</guid>
             <pubDate>Thu, 06 Oct 2022 00:30:33 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは。クラウド勤怠チーム、フロントエンドエンジニアの佐藤です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: この春オ...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは。クラウド勤怠チーム、フロントエンドエンジニアの佐藤です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: この春オススメしたい第三のエディタ  詳解 リリース計画  複数行に対応したjQuery validatorを書く場合 + 小ネタ  世界有数のAPI利用企業で考える標準仕様範囲外の仕様とユーザー体験の関係性  最近のruby-core (2016年10月)   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] TailwindCSSの導入とFigmaTokensとの連携], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[はじめに こんにちは。クラウド勤怠チーム、フロントエンドエンジニアの佐藤です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフ...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。クラウド勤怠チーム、フロントエンドエンジニアの佐藤です。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのQAエンジニアのお話  Android開発をもっと前へ！開発を加速させるTips・ツール  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  Swiftで学ぶ関数型 〜 immutable 〜   Copyright © Money Forward Engineers' Blog [[勤怠FEギルド] TailwindCSSの導入とFigmaTokensとの連携], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4108,8 +4154,8 @@ https://ai-scholar.tech/articles/nas/nas-for-tts | AI技術最新情報メディ
             <link>https://moneyforward.com/engineers_blog/2022/10/05/zenn-publication/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10650</guid>
             <pubDate>Wed, 05 Oct 2022 00:30:17 GMT</pubDate>
-            <description><![CDATA[序文 こんにちは、技術広報のluccafortです。 最近朝はオートミール、お昼 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dat...]]></description>
-            <content:encoded><![CDATA[序文 こんにちは、技術広報のluccafortです。 最近朝はオートミール、お昼 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Datadogを使った分散トレーシングをクラウド会計で見えるようにした話  【速報】RubyKaigi 2014レポ：Non-Linear Pattern Matching against Unfree Data Types in Ruby  【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場した話  マネーフォワードエンジニアインタビュー 谷口徹「BtoBはユーザーとの距離が近い」  An engineering visualization tool at Money Forward   Copyright © Money Forward Engineers' Blog [...]]></content:encoded>
+            <description><![CDATA[序文 こんにちは、技術広報のluccafortです。 最近朝はオートミール、お昼 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報...]]></description>
+            <content:encoded><![CDATA[序文 こんにちは、技術広報のluccafortです。 最近朝はオートミール、お昼 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【速報】RubyKaigi 2014レポ："Gem of this Week" - building culture and making gem  共働き世帯の夫婦を助けるテクノロジー達  ポエムは恥だが役に立つ  [PR]Interface誌2022年5月号に記事を寄稿しました  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」   Copyright © Money Forward Engineers' Blog [Zenn Publication機能のクローズドβに申し込み、無事承認されたのでやっていこうと思います。], Al...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4560,8 +4606,8 @@ https://ai-scholar.tech/articles/nas/nas-for-tts | AI技術最新情報メディ
             <link>https://moneyforward.com/engineers_blog/2022/10/04/mf-iosdc-japan-2022-report/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10684</guid>
             <pubDate>Tue, 04 Oct 2022 01:00:50 GMT</pubDate>
-            <description><![CDATA[こんにちは、Pay事業本部にて「マネーフォワード Pay for Busines … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></description>
-            <content:encoded><![CDATA[こんにちは、Pay事業本部にて「マネーフォワード Pay for Busines … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年5月)  地獄のミ、、、rssフィードをjsonフィードに変換するTips  RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！  【レポート速報】Google I/O 2016 - Day1  【クラウド勤怠】爆発する組み合わせテストと真摯に向き合う   Copyright © Money Forward Engineers' Blog [マネーフォワードのiOSDC Japan 2022参加記録], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、Pay事業本部にて「マネーフォワード Pay for Busines … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [イン...]]></description>
+            <content:encoded><![CDATA[こんにちは、Pay事業本部にて「マネーフォワード Pay for Busines … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [インターンレポ] Web脆弱性診断スキルマップのシルバーランクを目指す  accepts_nested_attributes_forを使わず、複数の子レコードを保存する  Goがつなぐコミュニティーの輪を広げるために大事なたった1つの方法  [関西開発拠点] オンラインミートアップ開催のお知らせ   Copyright © Money Forward Engineers' Blog [マネーフォワードのiOSDC Japan 2022参加記録], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4709,68 +4755,6 @@ https://ai-scholar.tech/articles/nas/nas-for-tts | AI技術最新情報メディ
             <content:encoded><![CDATA[Learn about beginner-friendly Git GUI clients and perform Git-based tasks using an interactive user interface.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Programming</category>
-        </item>
-        <item>
-            <title><![CDATA[週刊Railsウォッチ: Kaigi on Rails 2022のタイムテーブル発表、書籍『Practicing Rails』ほか（20221003前編） | TechRacho]]></title>
-            <link>https://techracho.bpsinc.jp/hachi8833/2022_10_03/122307</link>
-            <guid>https://techracho.bpsinc.jp/?p=122307</guid>
-            <pubDate>Mon, 03 Oct 2022 09:30:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoで...]]></description>
-            <content:encoded><![CDATA[こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoではRubyやRailsなどの最新情報記事を平日に公開しています。TechRacho記事をいち早くお読みになりたい方はTwitterにて@techrachoのフォローをお願いします。また、タグやカテゴリごとにRSSフィードを購読 […] The post 週刊Railsウォッチ: Kaigi on Rails 2022のタイムテーブル発表、書籍『Practicing Rails』ほか（20221003前編） first appeared on TechRacho.]]></content:encoded>
-            <category>Ruby / Rails関連</category>
-            <category>Ruby</category>
-            <category>Ruby on Rails</category>
-            <category>週刊Railsウォッチ</category>
-        </item>
-        <item>
-            <title><![CDATA[IdPとしてSAML認証機能を自前実装した | BASEプロダクトチームブログ]]></title>
-            <link>https://devblog.thebase.in/entry/2022/10/03/180000</link>
-            <guid>https://devblog.thebase.in/entry/2022/10/03/180000</guid>
-            <pubDate>Mon, 03 Oct 2022 09:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに みなさんはじめまして。BASEでエンジニアをしております田村 ( taiyou )です。 先日、BASEではショップオーナー向けのコミュニティサイト「BASE Street」にログインするための機能としてSSOログイン機能をリリースしました。 SSOログインを実現するための認証方式はいくつかあるのですが、弊社ではSAML認証方式を用いて実現しました。 そのため、この記事ではSAML認証機...]]></description>
-            <content:encoded><![CDATA[はじめに みなさんはじめまして。BASEでエンジニアをしております田村 ( taiyou )です。 先日、BASEではショップオーナー向けのコミュニティサイト「BASE Street」にログインするための機能としてSSOログイン機能をリリースしました。 SSOログインを実現するための認証方式はいくつかあるのですが、弊社ではSAML認証方式を用いて実現しました。 そのため、この記事ではSAML認証機構のIdPとしてOSSを使わずにSAML認証機能を実装する方法を紹介します。 前回のテックブログで、このSSOログイン機能のフロント側を開発したPJメンバーの若菜が「サーバーサイドエンジニアがフロント…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Synology DS220 Plusを導入したら最高だった | FascodeNetwork Blog]]></title>
-            <link>https://blog.fascode.net/2022/10/03/synology-ds220p/</link>
-            <guid>https://blog.fascode.net/?p=15689</guid>
-            <pubDate>Mon, 03 Oct 2022 09:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、山田ハヤオです。 Fascodeの前身のSerene Teamを立ち上げて開発が始まったとき、開発に使うソースコードやアセットを自前で構築したFTPサーバに保存していました。 その時のサーバは余ってるPCにD […] Synology DS220 Plusを導入したら最高だった first appeared on FascodeNetwork Blog.]]></description>
-            <content:encoded><![CDATA[こんにちは、山田ハヤオです。 Fascodeの前身のSerene Teamを立ち上げて開発が始まったとき、開発に使うソースコードやアセットを自前で構築したFTPサーバに保存していました。 その時のサーバは余ってるPCにD […] Synology DS220 Plusを導入したら最高だった first appeared on FascodeNetwork Blog.]]></content:encoded>
-            <category>Linux</category>
-            <category>ガジェット</category>
-            <category>レビュー</category>
-            <category>カテゴリー済み</category>
-        </item>
-        <item>
-            <title><![CDATA[Rails: :before_validationコールバックの逸脱した用法を改善する（翻訳） | TechRacho]]></title>
-            <link>https://techracho.bpsinc.jp/hachi8833/2022_10_03/48367</link>
-            <guid>https://techracho.bpsinc.jp/?p=48367</guid>
-            <pubDate>Mon, 03 Oct 2022 08:42:39 GMT</pubDate>
-            <description><![CDATA[概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: 原著者の許諾を得て翻訳・公開いたします。 英語記事: The Case Against Exotic Usage of :before_validate Callbacks 原文公開日: 2017/10/29 著者: Karol Galanciak サイト: BookingSync なお、原文のbefore_validateは訳文でbe...]]></description>
-            <content:encoded><![CDATA[概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: 原著者の許諾を得て翻訳・公開いたします。 英語記事: The Case Against Exotic Usage of :before_validate Callbacks 原文公開日: 2017/10/29 著者: Karol Galanciak サイト: BookingSync なお、原文のbefore_validateは訳文でbefore_validationに修正しました。 2017/12/12: 初版公開 2022/10/04: 更新 Rails: :before_validationコールバックの逸脱した用法を改善する（翻訳） Active […] The post Rails: :before_validationコールバックの逸脱した用法を改善する（翻訳） first appeared on TechRacho.]]></content:encoded>
-            <category>Ruby / Rails関連</category>
-            <category>Ruby on Rails</category>
-            <category>コールバック</category>
-            <category>バリデーション</category>
-            <category>翻訳記事</category>
-        </item>
-        <item>
-            <title><![CDATA[11月本社移転　虎ノ門ヒルズへ | 株式会社Polestar-ID エンジニアブログ]]></title>
-            <link>https://www.psid.co.jp/news/2022/10/03/11%e6%9c%88%e6%9c%ac%e7%a4%be%e7%a7%bb%e8%bb%a2%e3%80%80%e8%99%8e%e3%83%8e%e9%96%80%e3%83%92%e3%83%ab%e3%82%ba%e3%81%b8/</link>
-            <guid>https://www.psid.co.jp/news/?p=3888</guid>
-            <pubDate>Mon, 03 Oct 2022 08:30:15 GMT</pubDate>
-            <description><![CDATA[11月7日から虎ノ門ヒルズに本社が移転となります❗️今回特別に未だ内装工事が入っていない新オフィスの視察に行ってきましたので、皆様にご紹介したいと思います❗️ 銀座 […]]]></description>
-            <content:encoded><![CDATA[11月7日から虎ノ門ヒルズに本社が移転となります❗️今回特別に未だ内装工事が入っていない新オフィスの視察に行ってきましたので、皆様にご紹介したいと思います❗️ 銀座 […]]]></content:encoded>
-            <category>未分類</category>
-        </item>
-        <item>
-            <title><![CDATA[ホームラン級のプロダクトビジョンを作る | エムスリーテックブログ]]></title>
-            <link>https://www.m3tech.blog/entry/2022/10/03/170000</link>
-            <guid>https://www.m3tech.blog/entry/2022/10/03/170000</guid>
-            <pubDate>Mon, 03 Oct 2022 08:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは。プロダクトマネージャーの泉です。 2022年6月にエムスリーに入社し、デジスマ診療のプロダクトマネージャーを担当しています。 昨年リリースしたデジスマ診療 リリースから1年を迎えたデジスマ診療 *1 のプロダクトビジョンの更新を、弊社VPoPでありメインプロダクトマネージャーの山崎と進めており、そこで得られた学びを共有したいと思います。 なぜプロダクトビジョンの更新が必要なのか？ 小さ...]]></description>
-            <content:encoded><![CDATA[こんにちは。プロダクトマネージャーの泉です。 2022年6月にエムスリーに入社し、デジスマ診療のプロダクトマネージャーを担当しています。 昨年リリースしたデジスマ診療 リリースから1年を迎えたデジスマ診療 *1 のプロダクトビジョンの更新を、弊社VPoPでありメインプロダクトマネージャーの山崎と進めており、そこで得られた学びを共有したいと思います。 なぜプロダクトビジョンの更新が必要なのか？ 小さな希望の光を最大化する 小さな希望の光を見つけるには 辿り着いた希望の光 まとめ We are hiring!! なぜプロダクトビジョンの更新が必要なのか？ リリース以降プロダクトとして急激に成長し、…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[クライアント・サーバサイドに分散する計算ロジックのマイクロサービス化 | メルカリエンジニアリングブログ]]></title>
