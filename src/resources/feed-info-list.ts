@@ -246,19 +246,20 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['食べチョク', 'https://tech.tabechoku.com/feed'],
 
   // 追加分(テックブログ)
-  ['TECHBLOG - Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
+  ['TECHBLOG-Engineering at Recruit', 'https://engineers.recruit-jinji.jp/techblog/feed/'],
   ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
+  ['TEGAKARI', 'https://www.tegakari.net/feed/'],
   
   // 追加分(研究機関)
-  ['AIST: 産業技術総合研究所', 'https://www.aist.go.jp/ctl/module/mid/27/tid/75/rss.php'],
-  ['統計数理研究所 - プレスリリース', 'https://www.ism.ac.jp/ura/press/rss.rss'],
-  ['理化学研究所 - プレスリリース', 'https://www.riken.jp/feed/press_feed/'],
-  ['理化学研究所 - お知らせ', 'https://www.riken.jp/feed/news_feed/'],
-  ['理化学研究所 - イベント', 'https://www.riken.jp/feed/events_feed/'],
-  ['理化学研究所 - シンポジウム', 'https://www.riken.jp/feed/symposia_feed/'],
-  ['理化学研究所 - セミナー', 'https://www.riken.jp/feed/seminars_feed/'],
-  ['理化学研究所 - レクチャー', 'https://www.riken.jp/feed/lectures_feed/'],
-  ['理化学研究所 - クローズアップ科学道', 'https://www.riken.jp/feed/closeup_feed/'],
+  ['AIST 産業技術総合研究所', 'https://www.aist.go.jp/ctl/module/mid/27/tid/75/rss.php'],
+  ['統計数理研究所 プレスリリース', 'https://www.ism.ac.jp/ura/press/rss.rss'],
+  ['理化学研究所 プレスリリース', 'https://www.riken.jp/feed/press_feed/'],
+  ['理化学研究所 お知らせ', 'https://www.riken.jp/feed/news_feed/'],
+  ['理化学研究所 イベント', 'https://www.riken.jp/feed/events_feed/'],
+  ['理化学研究所 シンポジウム', 'https://www.riken.jp/feed/symposia_feed/'],
+  ['理化学研究所 セミナー', 'https://www.riken.jp/feed/seminars_feed/'],
+  ['理化学研究所 レクチャー', 'https://www.riken.jp/feed/lectures_feed/'],
+  ['理化学研究所 クローズアップ科学道', 'https://www.riken.jp/feed/closeup_feed/'],
 
   // 追加分(Podcast)
   ['fukabori.fm', 'https://pitpa.jp/rss/fukabori'],
