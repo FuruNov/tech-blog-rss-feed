@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sun, 23 Oct 2022 04:45:30 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Oct 2022 07:36:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -58,6 +58,14 @@
             <link>https://www.youtube.com/watch?v=VxbTiuabW0k</link>
             <guid>https://www.youtube.com/watch?v=VxbTiuabW0k</guid>
             <pubDate>Sat, 22 Oct 2022 15:02:32 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cloudflare Workersとマイクロフロントエンド | Zennのトレンド]]></title>
+            <link>https://zenn.dev/laiso/articles/972b9d82030542</link>
+            <guid>https://zenn.dev/laiso/articles/972b9d82030542</guid>
+            <pubDate>Sat, 22 Oct 2022 14:39:16 GMT</pubDate>
+            <description><![CDATA[https://blog.cloudflare.com/better-micro-frontends/ Cloudflareブログで興味深い記事が投稿されていたので読んだ。 趣旨としてはマイクロフロントエンドアーキテクチャのFragments組成をブラウザからではなくEdgeサーバーとSSRのレイヤーで実現する、というものだと思う。 マイクロサービスアーキテクチャのAPI Gateway / Ba...]]></description>
+            <content:encoded><![CDATA[https://blog.cloudflare.com/better-micro-frontends/ Cloudflareブログで興味深い記事が投稿されていたので読んだ。 趣旨としてはマイクロフロントエンドアーキテクチャのFragments組成をブラウザからではなくEdgeサーバーとSSRのレイヤーで実現する、というものだと思う。 マイクロサービスアーキテクチャのAPI Gateway / Backends for Frontendsパターンのうちブラウザアプリケーションに限定して拡張したものという理解をした。   Fragments組成 例えばこんな感じに画面の一部を描画するエンドポ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Hasura, PostgreSQL, MySQL対応の速度改善ツールを作りました - GravityR | Zennのトレンド]]></title>
@@ -114,6 +122,14 @@
             <pubDate>Sat, 22 Oct 2022 08:06:14 GMT</pubDate>
             <description><![CDATA[NeRFやってみた しがない備忘録です。こちらを参考にした中で困ったことや、そもそもわからんところをコメント入れている感じです。 https://lilea.net/lab/how-to-setup-instant-ngp/   注意書き こちらのサイトは二窓で見ていただくとありがたいかもです！  そしてここは本文引用です（Ctrl+Fとかで該当部分を出して照会しながらみてくれるとありがたい）  ...]]></description>
             <content:encoded><![CDATA[NeRFやってみた しがない備忘録です。こちらを参考にした中で困ったことや、そもそもわからんところをコメント入れている感じです。 https://lilea.net/lab/how-to-setup-instant-ngp/   注意書き こちらのサイトは二窓で見ていただくとありがたいかもです！  そしてここは本文引用です（Ctrl+Fとかで該当部分を出して照会しながらみてくれるとありがたい）    CMake 編  CMakeを入れる。 最新版ではなく3.22.3を入れる (最新版はビルドに失敗するようなので注意)  こちらのURLでは3.22.3は出なかったので、直接ググったとこ...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[マイク入力をWhisperで音声認識 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/karaage0703/articles/d47bbb085fcb83</link>
+            <guid>https://zenn.dev/karaage0703/articles/d47bbb085fcb83</guid>
+            <pubDate>Sat, 22 Oct 2022 07:44:03 GMT</pubDate>
+            <description><![CDATA[Whisperを試す Whisperの音声認識が優秀ということで、マイクで試せるようにしてみました。 別に無理して使う必要なかったのですが、諸事上によりDockerを使ってマイクがつながったアプリとソケット通信したりしています。以下みたいな感じです。  リポジトリは以下です。 https://github.com/karaage0703/whisper-docker ほとんど自分のためのメモですが...]]></description>
+            <content:encoded><![CDATA[Whisperを試す Whisperの音声認識が優秀ということで、マイクで試せるようにしてみました。 別に無理して使う必要なかったのですが、諸事上によりDockerを使ってマイクがつながったアプリとソケット通信したりしています。以下みたいな感じです。  リポジトリは以下です。 https://github.com/karaage0703/whisper-docker ほとんど自分のためのメモですが、同じようなことしたい人がいるかもしれないので、簡単に説明を書いておきます。 説明はちょい雑です（すみません）。今後追記したり補足するかも…です。   セットアップ方法 Linux（Ubu...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【ボードゲーム】ゴブレットの局面遷移を調べてみた【盤面解析】 | Qiita - 人気の記事]]></title>
@@ -271,14 +287,6 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <content:encoded><![CDATA[Next.js において、環境変数 process.env を検証することで型安全に扱えるようにする記事です。 ↓こんな感じで環境変数を使えるようにします。  クライアント側 import { clientEnv } from '../env/client'  const validUrl = clientEnv.NEXT_PUBLIC_SITE_URL // string型。url形式の値であることが検証済み const invalidUrl = clientEnv.NEXT_PUBLIC_SITE_URK // タイポはコンパイルエラーになる   サーバー側 import { ser...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ちくちく言葉チェッカーを作ってみた | Zennのトレンド]]></title>
-            <link>https://zenn.dev/taka_shino/articles/a28d0369377169</link>
-            <guid>https://zenn.dev/taka_shino/articles/a28d0369377169</guid>
-            <pubDate>Fri, 21 Oct 2022 23:22:18 GMT</pubDate>
-            <description><![CDATA[はじめに Google が公開している機械学習のフレームワークに TensorFlow というものがあります。 TensorFlow.js とは、JavaScript 製のフレームワークです。 今回は、Toxicity というモデルを使ってみました。 https://github.com/tensorflow/tfjs-models/tree/master/toxicity   作ったもの   こ...]]></description>
-            <content:encoded><![CDATA[はじめに Google が公開している機械学習のフレームワークに TensorFlow というものがあります。 TensorFlow.js とは、JavaScript 製のフレームワークです。 今回は、Toxicity というモデルを使ってみました。 https://github.com/tensorflow/tfjs-models/tree/master/toxicity   作ったもの   こちらのサイトです。 テキストエリアに文章を入力して、ちくちく言葉であるかグラフで可視化します。 現状英語のみ対応しています。   以下の環境で動作確認しています。 "@tensorflow-...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Firebase Firestoreの新機能のクエリビルダーの使い方まとめ | Zennのトレンド]]></title>
             <link>https://zenn.dev/peraichi_blog/articles/d78e07e4a371af</link>
             <guid>https://zenn.dev/peraichi_blog/articles/d78e07e4a371af</guid>
@@ -427,7 +435,7 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <guid>https://blog.s-style.co.jp/?p=9412</guid>
             <pubDate>Fri, 21 Oct 2022 09:00:03 GMT</pubDate>
             <description><![CDATA[Terraform や Kubernates のマニフェスト等、インフラ界隈ではより安全でバージョン管理可能、かつ自動化に組み込みやすい「宣言型」の方法での構築が流行ですが、MySQLにもサードパーティ製の宣言型スキーマ定義ツールであるSkeemaがありますので、今回試してみました。 検証環境 おなじみの dbdeployer で環境を作成します。 手元にあった 8.0.27 を使いました。 [c...]]></description>
-            <content:encoded><![CDATA[Terraform や Kubernates のマニフェスト等、インフラ界隈ではより安全でバージョン管理可能、かつ自動化に組み込みやすい「宣言型」の方法での構築が流行ですが、MySQLにもサードパーティ製の宣言型スキーマ定義ツールであるSkeemaがありますので、今回試してみました。 検証環境 おなじみの dbdeployer で環境を作成します。 手元にあった 8.0.27 を使いました。 [crayon-6354c6d04f14b7...]]></content:encoded>
+            <content:encoded><![CDATA[Terraform や Kubernates のマニフェスト等、インフラ界隈ではより安全でバージョン管理可能、かつ自動化に組み込みやすい「宣言型」の方法での構築が流行ですが、MySQLにもサードパーティ製の宣言型スキーマ定義ツールであるSkeemaがありますので、今回試してみました。 検証環境 おなじみの dbdeployer で環境を作成します。 手元にあった 8.0.27 を使いました。 [crayon-6354eeeb0fa190...]]></content:encoded>
             <category>MySQL</category>
             <category>Other</category>
             <category>技術情報</category>
@@ -984,8 +992,8 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <link>https://moneyforward.com/engineers_blog/2022/10/21/droidkaigi-2022-event-report/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10767</guid>
             <pubDate>Fri, 21 Oct 2022 01:00:24 GMT</pubDate>
-            <description><![CDATA[はじめ こんにちは、マネーフォワードホームカンパニーでモバイルエンジニアをやって … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
-            <content:encoded><![CDATA[はじめ こんにちは、マネーフォワードホームカンパニーでモバイルエンジニアをやって … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2021年3月）  本番環境で全削除コマンド！  マネーフォワードに来てから7ヶ月過ぎました - インターン生から見た京都拠点の話 -  ふんいきがわかるCSSレイアウトの知識  世界のエンジニア達と話した結果ｗｗｗ - Google I/O in San Francisco   Copyright © Money Forward Engineers' Blog [DroidKaigi2022参加レポート], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[はじめ こんにちは、マネーフォワードホームカンパニーでモバイルエンジニアをやって … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 拝啓、...]]></description>
+            <content:encoded><![CDATA[はじめ こんにちは、マネーフォワードホームカンパニーでモバイルエンジニアをやって … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 拝啓、ブログの進捗が出ない君へ。1日30分から始められるペアブロギングで、ネタ出しから公開までのハードルを下げよう  マネーフォワード社員のお金の管理術 「お金を貯めるにはヒリヒリしよう」  サーバサイドの進捗に依存しないための Next.js x GraphQL のフロントエンド開発の工夫  書評 データ分析プロジェクトの手引（献本御礼）  あの部署何やってるの？カスタマーサポート本部 MFクラウドサポート部 編 Copyright © Money Forward Engineers' Blog [DroidKaigi2022参加レポート], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1033,14 +1041,6 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <pubDate>Fri, 21 Oct 2022 00:17:07 GMT</pubDate>
             <description><![CDATA[スイッチサイエンスのWebページが更新されて、商品一覧から在庫数を確認しにくくなりました。委託販売をお願いしている自分としては、自分の商品の在庫数を確認したいのですが、これがやりにくくなってしまいま…]]></description>
             <content:encoded><![CDATA[スイッチサイエンスのWebページが更新されて、商品一覧から在庫数を確認しにくくなりました。委託販売をお願いしている自分としては、自分の商品の在庫数を確認したいのですが、これがやりにくくなってしまいま…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[[TypeScript/JavaScript] Promiseの終了を待たないawaitの利用方法 | Zennのトレンド]]></title>
-            <link>https://zenn.dev/sora_kumo/articles/65eed4bfa990ce</link>
-            <guid>https://zenn.dev/sora_kumo/articles/65eed4bfa990ce</guid>
-            <pubDate>Fri, 21 Oct 2022 00:02:26 GMT</pubDate>
-            <description><![CDATA[こちらにも同じ記事を書いています   Promiseの終了を待たないawaitの利用方法   Promiseは不便？ Promiseで非同期のプログラムを組む際、対象のPromiseはresolveを呼び出して実行を完了しているのか、それともまだ実行中なのかを判断したいことがあります。しかし単純にawaitで状態を確認しようとしても、終了まで処理がブロックされてしまいます。また、thenの実行時に...]]></description>
-            <content:encoded><![CDATA[こちらにも同じ記事を書いています   Promiseの終了を待たないawaitの利用方法   Promiseは不便？ Promiseで非同期のプログラムを組む際、対象のPromiseはresolveを呼び出して実行を完了しているのか、それともまだ実行中なのかを判断したいことがあります。しかし単純にawaitで状態を確認しようとしても、終了まで処理がブロックされてしまいます。また、thenの実行時にフラグを操作すれば状態を確認することは可能ですが、それなりに書き方が冗長になります。 「await時にまだ処理が終了していなければ、ブロックせずに実行中であることを識別できる値を返す」というのが...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[「LibreOffice」が「Microsoft Store」に登場／オープンソースのオフィス統合環境 | 窓の杜]]></title>
@@ -1195,6 +1195,14 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <content:encoded><![CDATA[This article will provide an overview of what TinyML is, its use cases, and why it is becoming more popular.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Machine Learning</category>
+        </item>
+        <item>
+            <title><![CDATA[新米Rustaceanの🌾🦀による🌾🦀のためのRust入門「C++/C#プログラマーでも読めるようになる」 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/arkbig/articles/newbie-rustacean_e671397817b780b3b0851839dae00c4ad</link>
+            <guid>https://zenn.dev/arkbig/articles/newbie-rustacean_e671397817b780b3b0851839dae00c4ad</guid>
+            <pubDate>Thu, 20 Oct 2022 13:16:06 GMT</pubDate>
+            <description><![CDATA[Rustで簡単なツールを作ってみました。はじめてのTUI（モドキ）のツールです。 https://github.com/arkbig/mntime このバージョン0.1.0を作ったことで得られた知見をまとめてみます。 長文になってしまったので目次をうまく使ってください。（スマホ画面だと上部の目次をタップしないと表示されないので少し見づらいです。） 「いいね」、「ツイート」、「バッジを贈る」、「コメ...]]></description>
+            <content:encoded><![CDATA[Rustで簡単なツールを作ってみました。はじめてのTUI（モドキ）のツールです。 https://github.com/arkbig/mntime このバージョン0.1.0を作ったことで得られた知見をまとめてみます。 長文になってしまったので目次をうまく使ってください。（スマホ画面だと上部の目次をタップしないと表示されないので少し見づらいです。） 「いいね」、「ツイート」、「バッジを贈る」、「コメント」大歓迎です！   作成ツール紹介  みなさん、timeコマンドでコマンドの実行時間を計測しますよね？Rust製のhyperfineというツールがあり、複数回実行して平均を出したり、複数コマ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[予算の上限に達したらFirestoreを自動で停止するやつで請求青天井の恐怖に怯える日々を卒業する | Zennのトレンド]]></title>
@@ -1476,8 +1484,8 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <link>https://moneyforward.com/engineers_blog/2022/10/20/scrum-fest-sapporo-2022/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10739</guid>
             <pubDate>Thu, 20 Oct 2022 01:00:37 GMT</pubDate>
-            <description><![CDATA[こんにちは！ HRソリューション本部でQAエンジニアをしているhonaminです … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
-            <content:encoded><![CDATA[こんにちは！ HRソリューション本部でQAエンジニアをしているhonaminです … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 飯田祐基「収益を生むインフラを目指したい」  金融機関様向けのPFMサービス 第一弾リリース！  170万ユーザーを支えるアカウントアグリゲーション開発の裏側  プロダクトにSwiftGenを導入してタイポ0の世界を作る  Day1からData Informedを実現するAmazon QuickSight   Copyright © Money Forward Engineers' Blog [「Scrum Fest Sapporo 2022」にマネーフォワードから2名登壇します！], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは！ HRソリューション本部でQAエンジニアをしているhonaminです … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インタ...]]></description>
+            <content:encoded><![CDATA[こんにちは！ HRソリューション本部でQAエンジニアをしているhonaminです … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インターンでの性能改善タスクの取り組み  vimのカラースキームを作ってみた  【社内レポ】改めてスクラムを学ぶ社内講習会  エンジニアブログ、始めました  【社内レポ】エンジニアドリブンのための「Sketch.app」講座 Vol.1   Copyright © Money Forward Engineers' Blog [「Scrum Fest Sapporo 2022」にマネーフォワードから2名登壇します！], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1495,14 +1503,6 @@ https://hirokatsukataoka16.github.io/Formula-Driven-DataBase-Group/ | cvpaper.ch
             <pubDate>Thu, 20 Oct 2022 01:00:00 GMT</pubDate>
             <description><![CDATA[虎の穴ラボ・インフラ担当のSKです。 当社ではインフラエンジニア担当として、ネットワーク機器やサーバのセキュリティ構築・運用を担当しておりますがユメノソラ（虎の穴）グループ内のセキュリティ啓蒙活動も行っています。 その一環として、お馴染みIPAが毎年掲載している、情報セキュリティ白書の最新2022年版の内容をチーム内で確認する取り組みを実施したのでご紹介いたします。 情報セキュリティ白書って？ I...]]></description>
             <content:encoded><![CDATA[虎の穴ラボ・インフラ担当のSKです。 当社ではインフラエンジニア担当として、ネットワーク機器やサーバのセキュリティ構築・運用を担当しておりますがユメノソラ（虎の穴）グループ内のセキュリティ啓蒙活動も行っています。 その一環として、お馴染みIPAが毎年掲載している、情報セキュリティ白書の最新2022年版の内容をチーム内で確認する取り組みを実施したのでご紹介いたします。 情報セキュリティ白書って？ IPA(情報処理推進機構)が毎年発行している情報です。 一定期間はパスワードが必要なPDFとして公開されていますが、2022/9/1 よりパスワードなしのPDFが公開され誰でも見ることが可能になっていま…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[tRPC これから流行るかもしれないBFFフレームワークの紹介 ｜Offers Tech Blog | Zennのトレンド]]></title>
-            <link>https://zenn.dev/offers/articles/20221020-intro-trpc</link>
-            <guid>https://zenn.dev/offers/articles/20221020-intro-trpc</guid>
-            <pubDate>Thu, 20 Oct 2022 00:30:00 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは!! プロダクト開発人材の複業転職プラットフォーム Offers を運営する株式会社 overflow 普通のバックエンドエンジニアの takkun7171 でございます。 最近 netflix で サイバーパンク エッジランナー を見て、やっぱりサイバーパンクいいなあと思って、PS5 のサイバーパンク 2077 を衝動買いしました w まああんなディストピアで幸せに生きていけ...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは!! プロダクト開発人材の複業転職プラットフォーム Offers を運営する株式会社 overflow 普通のバックエンドエンジニアの takkun7171 でございます。 最近 netflix で サイバーパンク エッジランナー を見て、やっぱりサイバーパンクいいなあと思って、PS5 のサイバーパンク 2077 を衝動買いしました w まああんなディストピアで幸せに生きていける気がしないけどね w   tRPCとは こちらの記事で紹介されているのですが、 Theo 氏が提唱した最近話題の T3 Stac という技術スタックがあります。 https://zen...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　10月20日　～ASRockなど | 窓の杜]]></title>
@@ -1928,8 +1928,8 @@ https://ai-scholar.tech/articles/transformer/MITR | AI技術最新情報メデ�
             <link>https://moneyforward.com/engineers_blog/2022/10/19/improve-web-performance-for-camid/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10772</guid>
             <pubDate>Wed, 19 Oct 2022 01:00:47 GMT</pubDate>
-            <description><![CDATA[大阪開発拠点でマネーフォワード クラウド会計Plus（以下、会計Plus）プロダ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></description>
-            <content:encoded><![CDATA[大阪開発拠点でマネーフォワード クラウド会計Plus（以下、会計Plus）プロダ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】第1回 マネーフォワードエンジニア総会  マネーフォワードへの道（msb Tamachi編）  セキュリティイベント・活動のご紹介  【クラウド人事管理】E2Eテスト自動化導入のすべて  ジモティーの光の戦士がやって来たぞ   Copyright © Money Forward Engineers' Blog [会計PlusのWebフロントエンドパフォーマンス改善], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[大阪開発拠点でマネーフォワード クラウド会計Plus（以下、会計Plus）プロダ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネ...]]></description>
+            <content:encoded><![CDATA[大阪開発拠点でマネーフォワード クラウド会計Plus（以下、会計Plus）プロダ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ビジネスカンパニー初採用のデータアナリストが入社3ヶ月を総括する  【レポート】MF Geeks Night (2015年5月)  時間がかかっていた依存パッケージの更新フローをカイゼンした話  ソフトウェア品質シンポジウム2022に参加してきました！  マネーフォワードエンジニアインタビュー 鈴木信太郎「モノポリーから始まったエンジニアへの道」   Copyright © Money Forward Engineers' Blog [会計PlusのWebフロントエンドパフォーマンス改善], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -2843,14 +2843,6 @@ https://ai-scholar.tech/articles/transformer/MITR | AI技術最新情報メデ�
             <content:encoded><![CDATA[エッジAIカメラSafieOneで利用可能なサービスStore People Detection Packで開発した画像認識システムとアルゴリズムについて紹介します！]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[第2回テクデザBeer Bashを開催しました | エキサイト TechBlog.]]></title>
-            <link>https://tech.excite.co.jp/entry/2022/10/17/150000</link>
-            <guid>https://tech.excite.co.jp/entry/2022/10/17/150000</guid>
-            <pubDate>Mon, 17 Oct 2022 06:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、エキサイトでエンジニアをしている吉川です。 先日9/30（金）に弊社エンジニア・デザイナーの交流会として「テクデザBeer Bash」を開催したので、そのレポートを書いていきます。 第1回の様子はこちら Beer Bashとは 当日の様子 怖い話 excite Tech Blogバナーのライブ作成 今後について Beer Bashとは 「Beer Bash（ビアバッシュ）」とは、ビール...]]></description>
-            <content:encoded><![CDATA[こんにちは、エキサイトでエンジニアをしている吉川です。 先日9/30（金）に弊社エンジニア・デザイナーの交流会として「テクデザBeer Bash」を開催したので、そのレポートを書いていきます。 第1回の様子はこちら Beer Bashとは 当日の様子 怖い話 excite Tech Blogバナーのライブ作成 今後について Beer Bashとは 「Beer Bash（ビアバッシュ）」とは、ビールなどのお酒や軽食を片手に行う社内ミーティングのことを言います。beer（ビール）＋ bash（にぎやかなパーティー、どんちゃん騒ぎ）を合わせた造語で、真面目な部分を残しつつ、社員同士がカジュアルな雰囲…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[☆*: .｡.大切なお知らせメール自動化 .｡.:*☆ | cloud.config Tech Blog]]></title>
             <link>https://tech-blog.cloud-config.jp/2022-10-17-power-automate/</link>
             <guid>https://tech-blog.cloud-config.jp/?p=118804</guid>
@@ -2860,6 +2852,14 @@ https://ai-scholar.tech/articles/transformer/MITR | AI技術最新情報メデ�
             <category>Power Platform</category>
             <category>Microsoft</category>
             <category>Power Automate</category>
+        </item>
+        <item>
+            <title><![CDATA[第2回テクデザBeer Bashを開催しました | エキサイト TechBlog.]]></title>
+            <link>https://tech.excite.co.jp/entry/2022/10/17/150000</link>
+            <guid>https://tech.excite.co.jp/entry/2022/10/17/150000</guid>
+            <pubDate>Mon, 17 Oct 2022 06:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、エキサイトでエンジニアをしている吉川です。 先日9/30（金）に弊社エンジニア・デザイナーの交流会として「テクデザBeer Bash」を開催したので、そのレポートを書いていきます。 第1回の様子はこちら Beer Bashとは 当日の様子 怖い話 excite Tech Blogバナーのライブ作成 今後について Beer Bashとは 「Beer Bash（ビアバッシュ）」とは、ビール...]]></description>
+            <content:encoded><![CDATA[こんにちは、エキサイトでエンジニアをしている吉川です。 先日9/30（金）に弊社エンジニア・デザイナーの交流会として「テクデザBeer Bash」を開催したので、そのレポートを書いていきます。 第1回の様子はこちら Beer Bashとは 当日の様子 怖い話 excite Tech Blogバナーのライブ作成 今後について Beer Bashとは 「Beer Bash（ビアバッシュ）」とは、ビールなどのお酒や軽食を片手に行う社内ミーティングのことを言います。beer（ビール）＋ bash（にぎやかなパーティー、どんちゃん騒ぎ）を合わせた造語で、真面目な部分を残しつつ、社員同士がカジュアルな雰囲…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【PhpStorm入門】基本的な使い方 | RAKUS Developers Blog | ラクス エンジニアブログ]]></title>
@@ -2999,8 +2999,8 @@ https://ai-scholar.tech/articles/transformer/MITR | AI技術最新情報メデ�
             <link>https://moneyforward.com/engineers_blog/2022/10/17/convenient-rubymine/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10751</guid>
             <pubDate>Mon, 17 Oct 2022 01:00:38 GMT</pubDate>
-            <description><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
-            <content:encoded><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードへの道（バスで行く 京都開発拠点編）  インフラ留学を糧に理想の開発を目指して組織を作るまでの話(Plus Ops でこんにちは)  CircleCIのPerformance Planが控え目に言って最高という話  最近のruby-core (2017年1月)  （83億レコード移行の続編）BigQueryを導入して改善サイクルがスピードアップした話   Copyright © Money Forward Engineers' Blog [RubyMineに開発用コマンドを登録してチームで共有しよう], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rea...]]></description>
+            <content:encoded><![CDATA[クラウド債務支払チーム、サーバサイドエンジニアのいいねです。 私は開発環境として … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: React Componentの実装ルールを決めてみた  新卒から始めるアカウントアグリゲーション  【クラウド勤怠】QAがチームに入ったことで変化したソフトウェア品質向上に向けた活動  Optional(2018)年あけましておめでとうございます  MoneyForward Meetupレポート「Drinkup！2016年総振り返り～5分間LT大会～」   Copyright © Money Forward Engineers' Blog [RubyMineに開発用コマンドを登録してチームで共有しよう], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3947,8 +3947,8 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <link>https://moneyforward.com/engineers_blog/2022/10/13/suggestion-strong-migrations-gem/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10734</guid>
             <pubDate>Thu, 13 Oct 2022 01:00:37 GMT</pubDate>
-            <description><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mic...]]></description>
-            <content:encoded><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）  accepts_nested_attributes_forを使わず、複数の子レコードを保存する  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  今回、エンジニアブログはお休みです  PyCallを触ってみる   Copyright © Money Forward Engineers' Blog [strong_migrations gemのススメ], All Right Re...]]></content:encoded>
+            <description><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 参考に...]]></description>
+            <content:encoded><![CDATA[こんにちは。会計Plusでエンジニアをしているぽっけです。最近はシャケをしばくバ … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 参考にしたい！ JavaScript(CoffeeScript)スタイルガイド7選！  Prophetを使ってこの先を占ってみた  webpackでRailsアプリのアセットをビルドする  【レポート】MF Geeks Night (2015年3月)  [pixiv × MoneyForward] セキュリティー合同勉強会レポ   Copyright © Money Forward Engineers' Blog [strong_migrations gemのススメ], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4405,8 +4405,8 @@ https://ai-scholar.tech/articles/dataset/artemis-v2.0 | AI技術最新情報メ�
             <link>https://moneyforward.com/engineers_blog/2022/10/12/droidkaigi-2022-side-speaker/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10723</guid>
             <pubDate>Wed, 12 Oct 2022 01:00:27 GMT</pubDate>
-            <description><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: New...]]></description>
-            <content:encoded><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Newcomerがイイと思った、マネフォの新サービスリリースTips  [書評] 基礎から学ぶチーム開発の成功法則（献本御礼）  [関西開発拠点] オンラインミートアップ開催のお知らせ  Go Conference 2022 Spring Onlineにメンバーが2名登壇、スポンサー協賛もおこないます！  try! Swiftに参加してきました   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022 登壇レポート 初めての登壇を終えて], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scr...]]></description>
+            <content:encoded><![CDATA[こんにちは。Androidエンジニアの宮本です。 2022年10月5日(水)から … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Scrum Fest Osaka 2022 に参加してきました！  Service Infra Team Principles  Rails のモデルのコールバックを削除したら、とある処理を 33 倍速くできた話  オフィスの便利ツール紹介：トイレ混雑チェッカー  金融機関様向けのPFMサービス 第一弾リリース！   Copyright © Money Forward Engineers' Blog [DroidKaigi 2022 登壇レポート 初めての登壇を終えて], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
