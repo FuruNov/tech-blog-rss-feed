@@ -250,6 +250,7 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['FascodeNetwork Official Blog', 'https://blog.fascode.net/feed/'],
   ['TEGAKARI', 'https://www.tegakari.net/feed/'],
   ['アカリク', 'https://acaric.jp/articles/feed'],
+  ['トイビト', 'https://www.toibito.com/feed'],
 
   // 追加分(研究機関)
   ['AIST 産業技術総合研究所', 'https://www.aist.go.jp/ctl/module/mid/27/tid/75/rss.php'],
