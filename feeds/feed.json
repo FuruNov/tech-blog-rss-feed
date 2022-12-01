@@ -7,6 +7,137 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://engineering.linecorp.com/ja/blog/open-source-summit-japan-2022",
+            "content_html": "",
+            "url": "https://engineering.linecorp.com/ja/blog/open-source-summit-japan-2022",
+            "title": "【協賛情報】Open Source Summit Japan 2022 | LINE ENGINEERING Feed ja",
+            "date_modified": "2022-12-02T02:00:00.000Z",
+            "date_published": "2022-12-02T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2022/12/01/182617",
+            "content_html": "はじめに FlutterでAnalyticsを送信する時に setCurrentScreen を使用するかと思います。 その際にparameterを含めることができない問題を解消する方法がないか調べましたので備忘録として書きます。 実装 今回私が使用した方法としては FirebaseAnalytics にある logEvent を使用しました。 こちらですとparameterを含めることがきるのでこちらを setCurrentScreen と同タイミングで発火することによってSVの数に対してどのような要素が含まれているのかビジネスサイドの人が確認できるようにしました。 弊社でよく使用しているl…",
+            "url": "https://tech.excite.co.jp/entry/2022/12/01/182617",
+            "title": "FirebaseAnalyticsでscreen_viewにパラメータが付与できない | エキサイト TechBlog.",
+            "summary": "はじめに FlutterでAnalyticsを送信する時に setCurrentScreen を使用するかと思います。 その際にparameterを含めることができない問題を解消する方法がないか調べましたので備忘録として書きます。 実装 今回私が使用した方法としては FirebaseAnalytics にある logEvent を使用しました。 こちらですとparameterを含めることがきるので...",
+            "date_modified": "2022-12-01T09:26:17.000Z",
+            "date_published": "2022-12-01T09:26:17.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://rheb.hatenablog.com/entry/xfs-preallocation",
+            "content_html": "Red Hatの森若です。 ddやcatで大きめのファイルを操作して、dfでファイルシステムの統計情報を確認する簡単な実験をします。 (注意: 諸条件によりお手元で同じ操作をしても再現しない場合があります) ## 1GBのファイルhogeを作ります # dd if=/dev/zero of=/hoge bs=1GiB count=1 1+0 records in 1+0 records out 1073741824 bytes (1.1 GB, 1.0 GiB) copied, 0.474922 s, 2.3 GB/s # df -h / Filesystem Size Used Avail …",
+            "url": "https://rheb.hatenablog.com/entry/xfs-preallocation",
+            "title": "XFSで使った以上に容量が減るナゾ | 赤帽エンジニアブログ",
+            "summary": "Red Hatの森若です。 ddやcatで大きめのファイルを操作して、dfでファイルシステムの統計情報を確認する簡単な実験をします。 (注意: 諸条件によりお手元で同じ操作をしても再現しない場合があります) ## 1GBのファイルhogeを作ります # dd if=/dev/zero of=/hoge bs=1GiB count=1 1+0 records in 1+0 records out 1...",
+            "date_modified": "2022-12-01T09:15:09.000Z",
+            "date_published": "2022-12-01T09:15:09.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://iret.media/?p=66138",
+            "content_html": "アイレット株式会社 22新卒 Advent Calendar 2022 1日目の投稿です！ 社外へアウトプットする習慣を作ることを目的として、このアドベントカレンダーを企画しました🙌 同期25人で最後まで完走することを目 […]",
+            "url": "https://iret.media/66138",
+            "title": "【22新卒 Advent Calendar 2022】microCMS & Astro で永久0円のJamstack爆速ブログを作成する丁寧なハンズオン | エンジニアブログ | iret.media",
+            "summary": "アイレット株式会社 22新卒 Advent Calendar 2022 1日目の投稿です！ 社外へアウトプットする習慣を作ることを目的として、このアドベントカレンダーを企画しました🙌 同期25人で最後まで完走することを目 […]",
+            "date_modified": "2022-12-01T09:00:04.000Z",
+            "date_published": "2022-12-01T09:00:04.000Z",
+            "author": {
+                "name": "井上迪也"
+            },
+            "tags": [
+                "アイレットのこと",
+                "エンジニアブログ",
+                "22卒",
+                "Astro",
+                "Jamstack",
+                "Lighthouse",
+                "microCMS",
+                "Qiita Advent Calendar 2022",
+                "SaaS",
+                "Vercel"
+            ]
+        },
+        {
+            "id": "https://rheb.hatenablog.com/entry/lets-use-openshift",
+            "content_html": "レッドハットの織です。2022年のOpenShift Advent Calendarの1日目ということで、改めてOpenShiftのご紹介をしたいと思います。 OpenShiftとは OpenShiftは、Red Hatが開発・提供するKubernetesディストリビューションです。エンタープライズ/ミッションクリティカルなワークロードで使用されることを想定し、upstreamのKubernetesに対して様々な改良を加えたりコンポーネントを追加したりし、オープンソースソフトウェア製品として提供しています。CNCFの認定を取得し、Kubernetesの標準に準拠しています [1]。 www.r…",
+            "url": "https://rheb.hatenablog.com/entry/lets-use-openshift",
+            "title": "OpenShiftを使ってみよう | 赤帽エンジニアブログ",
+            "summary": "レッドハットの織です。2022年のOpenShift Advent Calendarの1日目ということで、改めてOpenShiftのご紹介をしたいと思います。 OpenShiftとは OpenShiftは、Red Hatが開発・提供するKubernetesディストリビューションです。エンタープライズ/ミッションクリティカルなワークロードで使用されることを想定し、upstreamのKubernete...",
+            "date_modified": "2022-12-01T08:55:39.000Z",
+            "date_published": "2022-12-01T08:55:39.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.uzabase.com/entry/2022/12/01/175423",
+            "content_html": "このブログは NewsPicks Advent Calendar 2022 1日目の記事です。 qiita.com NewsPicksのSREチームでリーダーをしている安藤です。 NewsPicksに入社して1年が経ちましたが、最近は円安により親の顔よりもAWS Cost Explorerを見る毎日です。 ということで、コストの話をしていきたいと思います。 NewsPicksでのコンテナ移行について NewsPicksでは、Amazon ECSによる全面コンテナ化を進めています。 本丸の共通バックエンドのコンテナ移行は完了し、AWS Dev Day 2022 Japanでも事例として発表させて…",
+            "url": "https://tech.uzabase.com/entry/2022/12/01/175423",
+            "title": "AWS FargateではなくECS on EC2を選ぶメリット〜コスト編〜 | Uzabase for Engineers",
+            "summary": "このブログは NewsPicks Advent Calendar 2022 1日目の記事です。 qiita.com NewsPicksのSREチームでリーダーをしている安藤です。 NewsPicksに入社して1年が経ちましたが、最近は円安により親の顔よりもAWS Cost Explorerを見る毎日です。 ということで、コストの話をしていきたいと思います。 NewsPicksでのコンテナ移行につい...",
+            "date_modified": "2022-12-01T08:54:23.000Z",
+            "date_published": "2022-12-01T08:54:23.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techracho.bpsinc.jp/?p=124298",
+            "content_html": "morimorihogeです。今年もアドベントカレンダーの季節がやってきました。TechRachoを運営している弊社：BPS株式会社に縁のある人達の記事をお楽しみ下さい。 初日は僕から、今年は自宅作業環境のうち、そこまであちこちで触れられないなーと思うようなものについて触れてみます。 前提作業環境について 僕の自宅での作業環境は以前スマート「窓」Atmoph Window 2の自宅運用3ヶ月目レビューという記事でも紹介した感じになっています。 机の下にデスクトップPCを置いてあり、卓上の48型4k有機ELディスプレイ＋49型4k液晶ディスプレイ2枚をメイン、サブに27インチWQHD液晶ディスプレイを縦にVESAマ […] The post 自宅作業環境でやっている工夫紹介 first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/morimorihoge/2022_12_01/124298",
+            "title": "自宅作業環境でやっている工夫紹介 | TechRacho",
+            "summary": "morimorihogeです。今年もアドベントカレンダーの季節がやってきました。TechRachoを運営している弊社：BPS株式会社に縁のある人達の記事をお楽しみ下さい。 初日は僕から、今年は自宅作業環境のうち、そこまであちこちで触れられないなーと思うようなものについて触れてみます。 前提作業環境について 僕の自宅での作業環境は以前スマート「窓」Atmoph Window 2の自宅運用3ヶ月目レビ...",
+            "date_modified": "2022-12-01T08:30:17.000Z",
+            "date_published": "2022-12-01T08:30:17.000Z",
+            "author": {
+                "name": "morimorihoge"
+            },
+            "tags": [
+                "ライフ",
+                "アドベントカレンダー2022",
+                "リモートワーク"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1460442.html",
+            "content_html": "Amazon.co.jpでは12月1日（木）までの期間限定で年に一度の大型セール「ブラックフライデー」を開催中です。その一環として、Chromebookのセールが行われています。",
+            "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1460442.html",
+            "title": "終了間近のAmazonブラックフライデーでChromebookが最大39％OFF！【本日みつけたお買い得情報】 | 窓の杜",
+            "summary": "Amazon.co.jpでは12月1日（木）までの期間限定で年に一度の大型セール「ブラックフライデー」を開催中です。その一環として、Chromebookのセールが行われています。",
+            "date_modified": "2022-12-01T08:17:00.000Z",
+            "date_published": "2022-12-01T08:17:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://iret.media/?p=66882",
+            "content_html": "概要 AWS re:Invent 2022 で AWS Lambda に対して、 Amazon Inspector によるスキャンが対応したため、その機能を検証しました。 結論 本機能は、他サービス向けの Inspect […]",
+            "url": "https://iret.media/66882",
+            "title": "【AWS re:Invent 2022】AWS Lambda の Inspector 対応を検証してみた | エンジニアブログ | iret.media",
+            "summary": "概要 AWS re:Invent 2022 で AWS Lambda に対して、 Amazon Inspector によるスキャンが対応したため、その機能を検証しました。 結論 本機能は、他サービス向けの Inspect […]",
+            "date_modified": "2022-12-01T08:07:33.000Z",
+            "date_published": "2022-12-01T08:07:33.000Z",
+            "author": {
+                "name": "中村 昌登"
+            },
+            "tags": [
+                "エンジニアブログ",
+                "注目コンテンツ",
+                "Amazon Inspector",
+                "AWS",
+                "AWS CodeGuru",
+                "AWS Lambda",
+                "AWS re:Invent 2022",
+                "re:Invent"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/digest/1460422.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/digest/1460422.html",
+            "title": "次期「Universal Media Server 12」のアップデート内容が公開　ほか【ダイジェストニュース】 | 窓の杜",
+            "date_modified": "2022-12-01T07:51:18.000Z",
+            "date_published": "2022-12-01T07:51:18.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1460382.html",
             "content_html": "米Microsoftは11月29日（現地時間）、「Microsoft Excel」の2022年11月アップデートを発表した。今回のアップデートでは、Web版、Windows版、Mac版、iOS版それぞれに新たな機能が追加されている。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1460382.html",
@@ -218,6 +349,16 @@
             "tags": [
                 "elastic"
             ]
+        },
+        {
+            "id": "https://qiita.com/MinoDriven/items/d6babd15a3f1faaeb0d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "こんにちは、リファクタリングが大好きなミノ駆動です。 この記事は READYFORアドベントカレンダー2022 、初日の記事です。 これはなに？ 日々の開発をただ漫然とこなすだけでなく、獲得した技術…",
+            "url": "https://qiita.com/MinoDriven/items/d6babd15a3f1faaeb0d5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "さまざまな恩恵を得るための技術発信術 | Qiita - 人気の記事",
+            "summary": "こんにちは、リファクタリングが大好きなミノ駆動です。 この記事は READYFORアドベントカレンダー2022 、初日の記事です。 これはなに？ 日々の開発をただ漫然とこなすだけでなく、獲得した技術…",
+            "date_modified": "2022-12-01T02:51:43.000Z",
+            "date_published": "2022-12-01T02:51:43.000Z",
+            "tags": []
         },
         {
             "id": "24021",
@@ -436,11 +577,31 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/miumiu0917/items/11e682f45611468e53f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに やる気を削ぐ会議術  会議（かいぎ）は、関係者が集まり、特定の目的（議題）に関して意見交換・審議し、合意・施策などの意思決定をすること、およびその物理的構成員の集まりを意味する。  会議 - …",
+            "url": "https://qiita.com/miumiu0917/items/11e682f45611468e53f3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "エンジニアのやる気を削ぐ会議術 | Qiita - 人気の記事",
+            "summary": "はじめに やる気を削ぐ会議術  会議（かいぎ）は、関係者が集まり、特定の目的（議題）に関して意見交換・審議し、合意・施策などの意思決定をすること、およびその物理的構成員の集まりを意味する。  会議 - …",
+            "date_modified": "2022-12-01T01:05:40.000Z",
+            "date_published": "2022-12-01T01:05:40.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/umanetes/items/81cdde32d10737ae1656?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 今年もこの季節がやってまいりました。本年もOpenStandiaでAdvent Calendarを書いていきます。今年は特にテーマは決めずOpenStandiaのメンバが興味のある技術につ…",
+            "url": "https://qiita.com/umanetes/items/81cdde32d10737ae1656?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "様々なリソースをKubernetesの管理に統一するCrossplaneについて | Qiita - 人気の記事",
+            "summary": "はじめに 今年もこの季節がやってまいりました。本年もOpenStandiaでAdvent Calendarを書いていきます。今年は特にテーマは決めずOpenStandiaのメンバが興味のある技術につ…",
+            "date_modified": "2022-12-01T01:05:16.000Z",
+            "date_published": "2022-12-01T01:05:16.000Z",
+            "tags": []
+        },
+        {
             "id": "https://moneyforward.com/engineers_blog/?p=11005",
-            "content_html": "はじめに こんにちは、マネーフォワード ID 開発チームのMapduと申します。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How to avoid Security Group changes corruption in terraform by applying Open Policy Agents (OPA)?  Hardening 1010 Cash Flow 参加レポート  Scrum Fest Niigata 2022 に登壇しました！  マネーフォワードからGopherConに参加しました！  Railsでリファクタリングにオススメな gem 5選   Copyright © Money Forward Engineers' Blog [OAuth 2.0 認可コードグラントフローについて理解したことをまと...",
+            "content_html": "はじめに こんにちは、マネーフォワード ID 開発チームのMapduと申します。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードのItamae Tips  database_rewinderにpull requestを投げた結果  GraphQL Federation - API Gatewayの進化  ActiveRecordを拡張するgemでテストを書くには？  Amazon ECSのローリングアップデート開始からSidekiq停止までの流れを追う   Copyright © Money Forward Engineers' Blog [OAuth 2.0 認可コードグラントフローについて理解したことをまとめます], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/01/authorization-code-grant-flow/",
             "title": "OAuth 2.0 認可コードグラントフローについて理解したことをまとめます | Money Forward Engineers' Blog",
-            "summary": "はじめに こんにちは、マネーフォワード ID 開発チームのMapduと申します。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How...",
+            "summary": "はじめに こんにちは、マネーフォワード ID 開発チームのMapduと申します。 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-12-01T01:00:12.000Z",
             "date_published": "2022-12-01T01:00:12.000Z",
             "author": {
@@ -452,10 +613,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10945",
-            "content_html": "いつものおまじない いやーFIFA ワールドカップがアツくて寝不足な日々が続いて … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: goroutine内のpanic handling  ソートアルゴリズムについてまとめてみた  【レポート】potatotips #36 を開催しました  【レポート速報】Google I/O 2016 – Day3 「RecyclerViw ins and outs」  マネーフォワードエンジニアインタビュー 谷口徹「BtoBはユーザーとの距離が近い」   Copyright © Money Forward Engineers' Blog [ナレッジの淀みを解消するLGTM賞 〜小さく始めて大きく育てるコミュニティマネジメント〜], All Right Reserved. 2022.",
+            "content_html": "いつものおまじない いやーFIFA ワールドカップがアツくて寝不足な日々が続いて … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dockerを使って開発環境を構築する  SageMaker Experimentsによる実験管理とQuickSightを使ったその可視化  【速報】RubyKaigi 2014レポ：The Twelve-factor Ruby 「Ruby を良くするための12のポイント」  エンジニア３大がっかりのひとつ ドキュメントの陳腐化への対応  怠惰な拠点長が取り組むペーパーレス・オペレーションレス   Copyright © Money Forward Engineers' Blog [ナレッジの淀みを解消するLGTM賞 〜小さく始めて大きく育てるコミュニティマネジメント〜], All Right Re...",
             "url": "https://moneyforward.com/engineers_blog/2022/12/01/lgtm-award/",
             "title": "ナレッジの淀みを解消するLGTM賞 〜小さく始めて大きく育てるコミュニティマネジメント〜 | Money Forward Engineers' Blog",
-            "summary": "いつものおまじない いやーFIFA ワールドカップがアツくて寝不足な日々が続いて … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: gor...",
+            "summary": "いつものおまじない いやーFIFA ワールドカップがアツくて寝不足な日々が続いて … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Doc...",
             "date_modified": "2022-12-01T01:00:04.000Z",
             "date_published": "2022-12-01T01:00:04.000Z",
             "author": {
@@ -521,6 +682,16 @@
             "summary": "オープンソースのメールソフト「Thunderbird」v102.5.1が、12月1日（米国時間）に公開された。「Mail extension API」がアップデートされたほか、以下の不具合修正や機能改善が施されている。",
             "date_modified": "2022-12-01T01:00:00.000Z",
             "date_published": "2022-12-01T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/MG_TANAKA/items/7eb0f5655fd871667203?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事は「【マイスター・ギルド】本物のAdvent Calendar 2022」1日目の記事です。 ブラウザで動き、マウスクリックで遊ぶゲームを作ってみましょう。 15Game という、古典的なゲ…",
+            "url": "https://qiita.com/MG_TANAKA/items/7eb0f5655fd871667203?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ブラウザ・ゲームを作ってみよう | Qiita - 人気の記事",
+            "summary": "この記事は「【マイスター・ギルド】本物のAdvent Calendar 2022」1日目の記事です。 ブラウザで動き、マウスクリックで遊ぶゲームを作ってみましょう。 15Game という、古典的なゲ…",
+            "date_modified": "2022-12-01T00:44:38.000Z",
+            "date_published": "2022-12-01T00:44:38.000Z",
             "tags": []
         },
         {
@@ -742,6 +913,136 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/syamozipc/items/6f4bd67e61717ef7e747?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "2020年11月にエンジニアとして働き始め、先月でちょうど2年が経ちました。 私自身がどのようにこの2年間を過ごしてきたかを共有することで、エンジニア転職を考えている方・エンジニア歴の浅い方のキャリ…",
+            "url": "https://qiita.com/syamozipc/items/6f4bd67e61717ef7e747?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "エンジニアになってからの2年間を振り返ってみた | Qiita - 人気の記事",
+            "summary": "2020年11月にエンジニアとして働き始め、先月でちょうど2年が経ちました。 私自身がどのようにこの2年間を過ごしてきたかを共有することで、エンジニア転職を考えている方・エンジニア歴の浅い方のキャリ…",
+            "date_modified": "2022-11-30T22:04:14.000Z",
+            "date_published": "2022-11-30T22:04:14.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/s_noza/items/6313d475dd94c4926ff9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに:xmas-tree: QAエンジニアにとってアジャイルとはどのようなものなのか、アジャイルの現場におけるQAエンジニアの活動とはどのようなものになるのか、Agile TPIのWhitepa…",
+            "url": "https://qiita.com/s_noza/items/6313d475dd94c4926ff9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Agile TPI の Whitepaperを読んでみた | Qiita - 人気の記事",
+            "summary": "はじめに:xmas-tree: QAエンジニアにとってアジャイルとはどのようなものなのか、アジャイルの現場におけるQAエンジニアの活動とはどのようなものになるのか、Agile TPIのWhitepa…",
+            "date_modified": "2022-11-30T22:04:04.000Z",
+            "date_published": "2022-11-30T22:04:04.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/inukai-masanori/items/7628a4bd3498e0002597?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "これは何 私は開発作業をしているとき、一旦手を動かすことを優先することが多く、1つ1つのコミットの修正範囲が大きくなってしまうことが多いです。 コミットログを想像しながら開発ができればいいのですが、…",
+            "url": "https://qiita.com/inukai-masanori/items/7628a4bd3498e0002597?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "これを知っていればコミット整理が楽になる | Qiita - 人気の記事",
+            "summary": "これは何 私は開発作業をしているとき、一旦手を動かすことを優先することが多く、1つ1つのコミットの修正範囲が大きくなってしまうことが多いです。 コミットログを想像しながら開発ができればいいのですが、…",
+            "date_modified": "2022-11-30T22:04:02.000Z",
+            "date_published": "2022-11-30T22:04:02.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/tosiooooooo/items/326150e874dbad694549?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "ミックスソース 上司に詰められたボックのような世界では 外注がそれぞれ出会った誰かと寄り添い合ってる そこに紛れ込んだ僕らは営業職みたいに 優良企業のフリしながら 微笑み浮かべる 幸せの発注依頼の上…",
+            "url": "https://qiita.com/tosiooooooo/items/326150e874dbad694549?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "SHIPPAY✕GAICHU | Qiita - 人気の記事",
+            "summary": "ミックスソース 上司に詰められたボックのような世界では 外注がそれぞれ出会った誰かと寄り添い合ってる そこに紛れ込んだ僕らは営業職みたいに 優良企業のフリしながら 微笑み浮かべる 幸せの発注依頼の上…",
+            "date_modified": "2022-11-30T22:03:35.000Z",
+            "date_published": "2022-11-30T22:03:35.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/mihotoyama/items/d7d2463ee7c86e1bebd2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事は、LITALICO Engineers Advent Calendar 2022 2つめ 12/1 公開の記事です  概要 この記事は、キャリア極浅のエンジニアが手動のテストを楽しんでいる…",
+            "url": "https://qiita.com/mihotoyama/items/d7d2463ee7c86e1bebd2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ひよこから若鶏になったエンジニアが驚いたことランキング堂々の第一位『テストが楽しい！』 | Qiita - 人気の記事",
+            "summary": "この記事は、LITALICO Engineers Advent Calendar 2022 2つめ 12/1 公開の記事です  概要 この記事は、キャリア極浅のエンジニアが手動のテストを楽しんでいる…",
+            "date_modified": "2022-11-30T22:03:34.000Z",
+            "date_published": "2022-11-30T22:03:34.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/ment_RE/items/5b1ceeeddc5b55c9c183?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "タイトル詐欺です大変申し訳ありません。 No.1レビュワーは語弊ありです。PRのdiscussionで指摘を入れている数がチーム内で一番多い、というだけですすみません。 そもそもレビュワーにランキン…",
+            "url": "https://qiita.com/ment_RE/items/5b1ceeeddc5b55c9c183?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": " レビュー経験0の新入りが1年弱でチームNo.1レビュワーになるまで | Qiita - 人気の記事",
+            "summary": "タイトル詐欺です大変申し訳ありません。 No.1レビュワーは語弊ありです。PRのdiscussionで指摘を入れている数がチーム内で一番多い、というだけですすみません。 そもそもレビュワーにランキン…",
+            "date_modified": "2022-11-30T22:03:28.000Z",
+            "date_published": "2022-11-30T22:03:28.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/blendthink/items/c2d6bdc4ebb8bbe8f666?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 株式会社ゆめみの Flutter の研修課題を公開しました https://github.com/yumemi-inc/flutter-training-template ゆめみは、202…",
+            "url": "https://qiita.com/blendthink/items/c2d6bdc4ebb8bbe8f666?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ゆめみの Flutter の研修課題を公開しました | Qiita - 人気の記事",
+            "summary": "はじめに 株式会社ゆめみの Flutter の研修課題を公開しました https://github.com/yumemi-inc/flutter-training-template ゆめみは、202…",
+            "date_modified": "2022-11-30T22:03:15.000Z",
+            "date_published": "2022-11-30T22:03:15.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/tyamahori/items/06003e250f26dfe8af9a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "これは何？  LITALICO Engineers Advent Calendar 2022 1日目の記事です  この記事では、  PhpStormのFile Watchers機能 PHP-CS-Fixer…",
+            "url": "https://qiita.com/tyamahori/items/06003e250f26dfe8af9a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "PhpStorm/PHPStan/PHP CS Fixerを組み合わせてコード品質をよくしよう！ | Qiita - 人気の記事",
+            "summary": "これは何？  LITALICO Engineers Advent Calendar 2022 1日目の記事です  この記事では、  PhpStormのFile Watchers機能 PHP-CS-Fixer…",
+            "date_modified": "2022-11-30T22:03:06.000Z",
+            "date_published": "2022-11-30T22:03:06.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/Niiboy/items/87355e686a5dc549634f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事は、Supershipグループ Advent Calendar 2022 の1日目の記事になります。 今回は無限$10$進数展開について書きたいと思います。 予備知識は特にないのでそういうの…",
+            "url": "https://qiita.com/Niiboy/items/87355e686a5dc549634f?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "無限10進数展開について 〜2乗して元に戻る数を例に〜 | Qiita - 人気の記事",
+            "summary": "この記事は、Supershipグループ Advent Calendar 2022 の1日目の記事になります。 今回は無限$10$進数展開について書きたいと思います。 予備知識は特にないのでそういうの…",
+            "date_modified": "2022-11-30T22:02:53.000Z",
+            "date_published": "2022-11-30T22:02:53.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/DeepTama/items/85470a66972432e14224?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに Qiitaで統計学の記事を書く際に様々な数式を記載する必要がありますが、数式を記載する際に便利なようによく使う数式をまとめました（書式を記載しているので必要に応じてコピペしてお使いください…",
+            "url": "https://qiita.com/DeepTama/items/85470a66972432e14224?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "これで完璧 Qiitaでの数式記法（統計学対応） | Qiita - 人気の記事",
+            "summary": "はじめに Qiitaで統計学の記事を書く際に様々な数式を記載する必要がありますが、数式を記載する際に便利なようによく使う数式をまとめました（書式を記載しているので必要に応じてコピペしてお使いください…",
+            "date_modified": "2022-11-30T22:01:22.000Z",
+            "date_published": "2022-11-30T22:01:22.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/shinmura0/items/9dcf12b9c9e8d42b8633?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "今年、念願のKaggle competition masterになれました！ そこで、masterになるまでの知見、自分流コンペの選び方をご紹介します。 先に結論 私は、以下の項目を調べ、上位に食い…",
+            "url": "https://qiita.com/shinmura0/items/9dcf12b9c9e8d42b8633?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "【Kaggle】コンペの選び方 | Qiita - 人気の記事",
+            "summary": "今年、念願のKaggle competition masterになれました！ そこで、masterになるまでの知見、自分流コンペの選び方をご紹介します。 先に結論 私は、以下の項目を調べ、上位に食い…",
+            "date_modified": "2022-11-30T22:01:07.000Z",
+            "date_published": "2022-11-30T22:01:07.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/ninomiyt/items/09bd01d5cf9c907d5ea9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "株式会社LIFULLのプロダクトエンジニアリング部の二宮と申します。 以前「GitHub Discussionsで社内のQ&Aフォーラムを開設する」でもご紹介したことがあるのですが、LIFULLでは…",
+            "url": "https://qiita.com/ninomiyt/items/09bd01d5cf9c907d5ea9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "社内のQ&Aフォーラムに寄せられて嬉しかったこと | Qiita - 人気の記事",
+            "summary": "株式会社LIFULLのプロダクトエンジニアリング部の二宮と申します。 以前「GitHub Discussionsで社内のQ&Aフォーラムを開設する」でもご紹介したことがあるのですが、LIFULLでは…",
+            "date_modified": "2022-11-30T22:00:55.000Z",
+            "date_published": "2022-11-30T22:00:55.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/nem_takanobu/items/c5509605129f6be2efde?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "NFTマーケットプレイス等で実装されているロイヤリティ（転売されるたびにクリエイターに一定の金額が支払われる仕組み）ですが、その仕組みをスキップするようなサービスも増え始めていると聞きます。 「そも…",
+            "url": "https://qiita.com/nem_takanobu/items/c5509605129f6be2efde?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Symbolブロックチェーンでオンチェーンロイヤリティを実現する | Qiita - 人気の記事",
+            "summary": "NFTマーケットプレイス等で実装されているロイヤリティ（転売されるたびにクリエイターに一定の金額が支払われる仕組み）ですが、その仕組みをスキップするようなサービスも増え始めていると聞きます。 「そも…",
+            "date_modified": "2022-11-30T22:00:22.000Z",
+            "date_published": "2022-11-30T22:00:22.000Z",
+            "tags": []
+        },
+        {
             "id": "https://labs.septeni.co.jp/entry/aws-rotating-secrets",
             "content_html": "こんにちは。FLINTERSアドベントカレンダー1日目を担当します、堀越です。 はじめに セキュリティに対する意識の高まりを感じる昨今、機密情報(以降、Secretsと称します)の管理の重要性が増してきているように感じます。 代表的な Secrets としてデータベースの認証情報などが挙げられますよね。弊社のポリシーとして定期的にパスワードを更新しましょうというのがあるのですが そもそも更新作業自体が手間だし、更新すると認証情報の保管庫やローカルのGUIアプリの設定も合わせて更新せねばならず...といった感じで辛い部分が多いです。 わたしのチームではWebアプリをAWSで動かす機会が多く、デー…",
             "url": "https://labs.septeni.co.jp/entry/aws-rotating-secrets",
@@ -769,6 +1070,19 @@
             "summary": "米Microsoftは11月29日（現地時間）、「Windows 11 バージョン 22H2」で入力方式エディター（IME）の入力モードを変更すると一部のアプリケーションが応答しなくなる問題を修正したと発表した。",
             "date_modified": "2022-11-30T21:45:00.000Z",
             "date_published": "2022-11-30T21:45:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/OpenAI/status/1598014522098208769#m",
+            "content_html": "Try talking with ChatGPT, our new AI system which is optimized for dialogue. Your feedback will help us improve it. openai.com/blog/chatgpt/",
+            "url": "https://nitter.net/OpenAI/status/1598014522098208769#m",
+            "title": "Try talking with ChatGPT, our new AI system which is optimized for dialogue. Your feedback will help us improve it. https://openai.com/blog/chatgpt/ | OpenAI / @OpenAI",
+            "summary": "Try talking with ChatGPT, our new AI system which is optimized for dialogue. Your feedback will help us improve it. openai.com/blog/chatgpt/",
+            "date_modified": "2022-11-30T18:02:06.000Z",
+            "date_published": "2022-11-30T18:02:06.000Z",
+            "author": {
+                "name": "@OpenAI"
+            },
             "tags": []
         },
         {
@@ -801,7 +1115,7 @@
             "id": "https://www.youtube.com/watch?v=263vx1g52eM",
             "content_html": "",
             "url": "https://www.youtube.com/watch?v=263vx1g52eM",
-            "title": "OpenAI’s New AI: They Did The Homework! | Two Minute Papers",
+            "title": "OpenAI’s New AI: It Does Your Homework! 🤖 | Two Minute Papers",
             "date_modified": "2022-11-30T17:48:54.000Z",
             "date_published": "2022-11-30T17:48:54.000Z",
             "tags": []
@@ -823,13 +1137,23 @@
             ]
         },
         {
-            "id": "https://qiita.com/kotomin_m/items/f750478cf1d36a90c3d4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事は？ ことみん Advent Calendar 2022 1日目の記事です！ 新卒2年目エンジニアの私が、日々やっているインプット・アウトプットの方法を書いてみます。 こんな人もいるんだなと…",
-            "url": "https://qiita.com/kotomin_m/items/f750478cf1d36a90c3d4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "日々のインプット・アウトプットの実践方法/心構え | Qiita - 人気の記事",
-            "summary": "この記事は？ ことみん Advent Calendar 2022 1日目の記事です！ 新卒2年目エンジニアの私が、日々やっているインプット・アウトプットの方法を書いてみます。 こんな人もいるんだなと…",
-            "date_modified": "2022-11-30T16:05:21.000Z",
-            "date_published": "2022-11-30T16:05:21.000Z",
+            "id": "https://qiita.com/hanaseleb/items/0cc635155e1beb282837?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに セルフサービスBIを行うときも、チームや組織でPower BIを導入するときも、レポート作成方法や共有方法などなど、ある程度ガイドラインを決めておくと運用及びメンテナンスがしやすくなります…",
+            "url": "https://qiita.com/hanaseleb/items/0cc635155e1beb282837?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Power BI開発ガイドライン素案 | Qiita - 人気の記事",
+            "summary": "はじめに セルフサービスBIを行うときも、チームや組織でPower BIを導入するときも、レポート作成方法や共有方法などなど、ある程度ガイドラインを決めておくと運用及びメンテナンスがしやすくなります…",
+            "date_modified": "2022-11-30T16:43:35.000Z",
+            "date_published": "2022-11-30T16:43:35.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/tenntenn/items/a003fe8774b82325e2df?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事はtenntenn Advent Calendarの1日目の記事です。 本記事は、Gopher塾で扱ったテストの話で、参加者の方から質問が出た並列テストにおけるよくあるバグについての解説とG…",
+            "url": "https://qiita.com/tenntenn/items/a003fe8774b82325e2df?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Goの並列テストでよくあるバグ（tt := tt忘れ）に対する対策 | Qiita - 人気の記事",
+            "summary": "この記事はtenntenn Advent Calendarの1日目の記事です。 本記事は、Gopher塾で扱ったテストの話で、参加者の方から質問が出た並列テストにおけるよくあるバグについての解説とG…",
+            "date_modified": "2022-11-30T16:26:16.000Z",
+            "date_published": "2022-11-30T16:26:16.000Z",
             "tags": []
         },
         {
@@ -840,6 +1164,16 @@
             "summary": "Posted by Alexander Zlokapa, Student Researcher, and Hartmut Neven, VP of Engineering, Quantum AI Team Wormholes — wrinkles in the fabric of spacetime that connect two disparate locations — may seem l...",
             "date_modified": "2022-11-30T16:04:00.005Z",
             "date_published": "2022-11-30T16:04:00.005Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/tadsan/items/c041716650fbe2427663?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "メリークリスマス！ みなさまに愛されたPHP7.x系は2022年11月28日をもってEOLを迎えました さて、標記のAttribute(アトリビュート)とは、PHP 8.0で追加された機能です。 #…",
+            "url": "https://qiita.com/tadsan/items/c041716650fbe2427663?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Attributesで実現するPHP8時代のバリデータ | Qiita - 人気の記事",
+            "summary": "メリークリスマス！ みなさまに愛されたPHP7.x系は2022年11月28日をもってEOLを迎えました さて、標記のAttribute(アトリビュート)とは、PHP 8.0で追加された機能です。 #…",
+            "date_modified": "2022-11-30T15:28:52.000Z",
+            "date_published": "2022-11-30T15:28:52.000Z",
             "tags": []
         },
         {
@@ -863,16 +1197,6 @@
             "summary": "クソアプリ Advent Calendar 2022 1日目の記事です。 前置き おはようございます。DE-TEIUです。 ポインセチアが美しい紅色を見せる時期となりましたが、皆様いかがお過ごしでし…",
             "date_modified": "2022-11-30T15:09:41.000Z",
             "date_published": "2022-11-30T15:09:41.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/inaho3517/items/63d7f11bdda456510da4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事について 以下の方を想定して、記事を書いております。   RPAをこれから学習する予定の人 他のRPAツールにトライしてみたいと考えている人 リスキリングでRPAに取り組んでみようと思っている方   順番どおりに習うより、まずはアウトプットしてみたい！という方に合っている内容かもしれません…",
-            "url": "https://qiita.com/inaho3517/items/63d7f11bdda456510da4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "初心者向け！RPAのインストールと取り組み方 | Qiita - 人気の記事",
-            "summary": "この記事について 以下の方を想定して、記事を書いております。   RPAをこれから学習する予定の人 他のRPAツールにトライしてみたいと考えている人 リスキリングでRPAに取り組んでみようと思っている方   順番どおりに習うより、まずはアウトプットしてみたい！という方に合っている内容かもしれません…",
-            "date_modified": "2022-11-30T15:03:49.000Z",
-            "date_published": "2022-11-30T15:03:49.000Z",
             "tags": []
         },
         {
@@ -907,16 +1231,6 @@
                 "Google Apps Script",
                 "Tool"
             ]
-        },
-        {
-            "id": "https://qiita.com/noborus/items/a6ef3d2578717406be80?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "PostgreSQL 15 日本語マニュアルは現時点で以下のURLにあり〼 https://pgsql-jp.github.io/jpug-doc/15.0/html/ （現時点ではcurrentに…",
-            "url": "https://qiita.com/noborus/items/a6ef3d2578717406be80?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "PostgreSQL 15 日本語マニュアルあり〼 | Qiita - 人気の記事",
-            "summary": "PostgreSQL 15 日本語マニュアルは現時点で以下のURLにあり〼 https://pgsql-jp.github.io/jpug-doc/15.0/html/ （現時点ではcurrentに…",
-            "date_modified": "2022-11-30T15:00:53.000Z",
-            "date_published": "2022-11-30T15:00:53.000Z",
-            "tags": []
         },
         {
             "id": "https://qiita.com/honey32/items/62edf5165aced7d0c4bf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1577,10 +1891,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11016",
-            "content_html": "Hello, I’m achamixx. Money Forward is wo … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: サーバサイドの進捗に依存しないための Next.js x GraphQL のフロントエンド開発の工夫  公用語が英語の組織で、日本語話者エンジニアがオススメする英語学習お役立ちツール【2022年初版】  MUIで作成したテーブルコンポーネントのパフォーマンス改善  【Rails】トランザクションを張るときにSQLキャッシュで気にすべきこと  Moneyforward APIで車ゲームを作る   Copyright © Money Forward Engineers' Blog [MoneyForward Tech Blogathon 2022 starts!], All Right Reserved...",
+            "content_html": "Hello, I’m achamixx. Money Forward is wo … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: SSL 3.0の脆弱性「POODLE」対応済みのお知らせ  Rubyアプリのコードレビューを支えるsaddler  ふりかえりのススメ！〜モチベーションのコントロール〜  【速報】RubyKaigi 2014レポ：\"Gem of this Week\" - building culture and making gem  新卒が社内懇親会アプリを開発したら、障害対応まで経験できた話   Copyright © Money Forward Engineers' Blog [MoneyForward Tech Blogathon 2022 starts!], All Right Reserved. 202...",
             "url": "https://moneyforward.com/engineers_blog/2022/11/30/moneyforward-tech-blogathon-2022/",
             "title": "MoneyForward Tech Blogathon 2022 starts! | Money Forward Engineers' Blog",
-            "summary": "Hello, I’m achamixx. Money Forward is wo … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: サーバ...",
+            "summary": "Hello, I’m achamixx. Money Forward is wo … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: SSL...",
             "date_modified": "2022-11-30T05:00:42.000Z",
             "date_published": "2022-11-30T05:00:42.000Z",
             "author": {
@@ -1678,7 +1992,7 @@
         },
         {
             "id": "https://techblog.kayac.com/advent-calendar-2022",
-            "content_html": "こんにちは！ Advent Calendar 実行委員の中村です。 今年もあと残り1ヶ月となりました。 qiita.com 去年、2021年の記事まとめはこちら techblog.kayac.com 社内の様々な事業部のメンバーに、技術に関する色んな記事を書いていただく予定です！ 予定されている記事のトピックは技術の話はもちろんのこと、カヤックでしか聞けないような話も知ることが出来るかもしれません！ 是非ご覧ください！ スケジュール 記事が公開されるたびに、ここにリンクを追加していきます。 12/1 12/2 12/3 12/4 12/5 12/6 12/7 12/8 12/9 12/10 1…",
+            "content_html": "こんにちは！ Advent Calendar 実行委員の中村です。 今年もあと残り1ヶ月となりました。 qiita.com 去年、2021年の記事まとめはこちら techblog.kayac.com 社内の様々な事業部のメンバーに、技術に関する色んな記事を書いていただく予定です！ 予定されている記事のトピックは技術の話はもちろんのこと、カヤックでしか聞けないような話も知ることが出来るかもしれません！ 是非ご覧ください！ スケジュール 記事が公開されるたびに、ここにリンクを追加していきます。 12/1 techblog.kayac.com 12/2 12/3 12/4 12/5 12/6 12/…",
             "url": "https://techblog.kayac.com/advent-calendar-2022",
             "title": "Tech KAYAC Advent Calendar 2022 | KAYAC engineers' blog",
             "summary": "こんにちは！ Advent Calendar 実行委員の中村です。 今年もあと残り1ヶ月となりました。 qiita.com 去年、2021年の記事まとめはこちら techblog.kayac.com 社内の様々な事業部のメンバーに、技術に関する色んな記事を書いていただく予定です！ 予定されている記事のトピックは技術の話はもちろんのこと、カヤックでしか聞けないような話も知ることが出来るかもしれません...",
@@ -1730,16 +2044,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/y-mto/items/2b252743127fd0449958?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに 今回は、Leafletを使用して国土地理院ベクトルタイルの地図上に町丁目ポリゴンを表示してみました。この記事はOpenLayersを使ってOpenStreetMapに町丁目ポリゴンを表示し…",
-            "url": "https://qiita.com/y-mto/items/2b252743127fd0449958?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Leafletを使って国土地理院ベクトルタイルに町丁目ポリゴンを表示してみる | Qiita - 人気の記事",
-            "summary": "はじめに 今回は、Leafletを使用して国土地理院ベクトルタイルの地図上に町丁目ポリゴンを表示してみました。この記事はOpenLayersを使ってOpenStreetMapに町丁目ポリゴンを表示し…",
-            "date_modified": "2022-11-30T02:24:25.000Z",
-            "date_published": "2022-11-30T02:24:25.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.gmo-ap.jp/?p=30343",
             "content_html": "GMO NIKKOのS.Tです。 Slackにメッセージを送信する機会が増えてきたのでSlack APIを使用してメッセージを送信する方法を紹介します。 設定 APIを使用するにはSlackアプリが必要なので作成しま",
             "url": "https://techblog.gmo-ap.jp/2022/11/30/send_message_to_slack_with_php/",
@@ -1787,26 +2091,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/nasuvitz/items/5b7589b911cccf35ea30?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "AWS re:Invent 2022の会期中に発表された新サービス/アップデートのまとめです。 今年も、後から出来るだけ素早く簡単に振り返ることができるようにまとめました！ 会期終了まで随時更新いた…",
-            "url": "https://qiita.com/nasuvitz/items/5b7589b911cccf35ea30?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "AWS re:Invent 2022で発表された新サービス/アップデートまとめ | Qiita - 人気の記事",
-            "summary": "AWS re:Invent 2022の会期中に発表された新サービス/アップデートのまとめです。 今年も、後から出来るだけ素早く簡単に振り返ることができるようにまとめました！ 会期終了まで随時更新いた…",
-            "date_modified": "2022-11-30T01:27:48.000Z",
-            "date_published": "2022-11-30T01:27:48.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/Asya-kawai/items/cf30abf484fd91cabec5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "そもそも なぜCDNが必要なのか ※すぐにアーキテクチャを知りたい人は読み飛ばして下さい 多くのユーザが利用するWebサービスであれば、高速なコンテンツ配信を提供するためです。 これはCDNが地理的…",
-            "url": "https://qiita.com/Asya-kawai/items/cf30abf484fd91cabec5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "CDNでWebサービスのコンテンツ配信を行う際のポイント、そして誤解 | Qiita - 人気の記事",
-            "summary": "そもそも なぜCDNが必要なのか ※すぐにアーキテクチャを知りたい人は読み飛ばして下さい 多くのユーザが利用するWebサービスであれば、高速なコンテンツ配信を提供するためです。 これはCDNが地理的…",
-            "date_modified": "2022-11-30T01:24:04.000Z",
-            "date_published": "2022-11-30T01:24:04.000Z",
-            "tags": []
-        },
-        {
             "id": "24197",
             "content_html": "こんにちは！ソウゾウ機械学習チームのSoftware engineerの@wakanapoです。 「メルカリShops [フライング] アドベントカレンダー2022」の17日目を担当します。 以前のTechBlogでメル […]",
             "url": "https://engineering.mercari.com/blog/entry/20221130-souzoh-similarsearch-update/",
@@ -1818,10 +2102,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10989",
-            "content_html": "はじめに こんにちは。 SREグループの佐々木と申します。 Amazon ECS … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会  マネーフォワードエンジニアインターン 小笠原純也「ユーザーの人生に寄り添えるサービスを」  関西開発拠点で毎週開催している勉強会「ゆるスタ」の紹介  LINE Payを使って割り勘をフォワードする  Safari Books Online のすすめ - エンジニアなら当然読んでおきたい英語の書籍をお得に読む方法   Copyright © Money Forward Engineers' Blog [Amazon ECSのローリングアップデート開始からSidekiq停止までの流れを追う], All Right Res...",
+            "content_html": "はじめに こんにちは。 SREグループの佐々木と申します。 Amazon ECS … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  2020年度版おすすめ書籍 in マネフォ京都メンバー  MFクラウド経費とRODEMを使って近距離交通費精算を10秒で終わらせる  Respectの気持ちでチームを盛り上げるチームビルディング術  マネーフォワード内定者がRust.Tokyo 2021に登壇します   Copyright © Money Forward Engineers' Blog [Amazon ECSのローリングアップデート開始からSidekiq停止までの流れを追う], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/11/30/flow-of-sidekiq-stop/",
             "title": "Amazon ECSのローリングアップデート開始からSidekiq停止までの流れを追う | Money Forward Engineers' Blog",
-            "summary": "はじめに こんにちは。 SREグループの佐々木と申します。 Amazon ECS … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...",
+            "summary": "はじめに こんにちは。 SREグループの佐々木と申します。 Amazon ECS … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-11-30T01:00:10.000Z",
             "date_published": "2022-11-30T01:00:10.000Z",
             "author": {
@@ -2098,26 +2382,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/Aichi_Lover/items/b819846033b7b02956ba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "1.はじめに どうも、ARIの名古屋支社に勤務している愛知県民こと、 新藏（にいくら）と申します♪ (/・ω・)/ 今回は久しぶりにAmazonConnect中心の記事です！ 最近、諸事情で設定した AmazonConnectで通話中にNGワードを検知して、アラートメールを送る方…",
-            "url": "https://qiita.com/Aichi_Lover/items/b819846033b7b02956ba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【AWS】AmazonConnectでの通話中にNGワードを検知し、アラートメールを送信する | Qiita - 人気の記事",
-            "summary": "1.はじめに どうも、ARIの名古屋支社に勤務している愛知県民こと、 新藏（にいくら）と申します♪ (/・ω・)/ 今回は久しぶりにAmazonConnect中心の記事です！ 最近、諸事情で設定した AmazonConnectで通話中にNGワードを検知して、アラートメールを送る方…",
-            "date_modified": "2022-11-29T15:17:38.000Z",
-            "date_published": "2022-11-29T15:17:38.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/warapuri/items/17721b113be8c44e5369?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "いやなダイアログだ。思わずため息が出る。Unity Android開発者は何度このダイアログに悩まされることになるのだろう。 環境 Unity Editor: Unity 2021.1.6f1 P…",
-            "url": "https://qiita.com/warapuri/items/17721b113be8c44e5369?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "UnityのAndroidビルドでAPIレベル31にしたらGradle地獄だった話 | Qiita - 人気の記事",
-            "summary": "いやなダイアログだ。思わずため息が出る。Unity Android開発者は何度このダイアログに悩まされることになるのだろう。 環境 Unity Editor: Unity 2021.1.6f1 P…",
-            "date_modified": "2022-11-29T15:00:25.000Z",
-            "date_published": "2022-11-29T15:00:25.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.kdnuggets.com/?p=149069",
             "content_html": "Discussion on an entry-level data science interview question.",
             "url": "https://www.kdnuggets.com/2022/11/comparing-linear-logistic-regression.html?utm_source=rss&utm_medium=rss&utm_campaign=comparing-linear-and-logistic-regression",
@@ -2229,16 +2493,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/re_2osushi8888/items/306511599de730e0b8ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "ご挨拶 Qiita初投稿です。お見苦しいところ多々あると思いますがどうぞまったりと見ていただければと思います。 今回の記事では自分の恥をさらし、今後CKA受験を予定されている方々へお役に立てればと思…",
-            "url": "https://qiita.com/re_2osushi8888/items/306511599de730e0b8ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "失敗だらけのCKA合格体験記(2022/10) | Qiita - 人気の記事",
-            "summary": "ご挨拶 Qiita初投稿です。お見苦しいところ多々あると思いますがどうぞまったりと見ていただければと思います。 今回の記事では自分の恥をさらし、今後CKA受験を予定されている方々へお役に立てればと思…",
-            "date_modified": "2022-11-29T13:07:08.000Z",
-            "date_published": "2022-11-29T13:07:08.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.kdnuggets.com/?p=149045",
             "content_html": "Improve the model performance by balancing the dataset using the synthetic minority oversampling technique.",
             "url": "https://www.kdnuggets.com/2022/11/introduction-smote.html?utm_source=rss&utm_medium=rss&utm_campaign=an-introduction-to-smote",
@@ -2318,12 +2572,13 @@
             ]
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/digest/1459639.html",
-            "content_html": "",
-            "url": "https://forest.watch.impress.co.jp/docs/digest/1459639.html",
-            "title": "マイクロソフトがBetaチャネル向け「Windows 11 Insider Preview」を更新　ほか【ダイジェストニュース】 | 窓の杜",
-            "date_modified": "2022-11-29T09:02:04.000Z",
-            "date_published": "2022-11-29T09:02:04.000Z",
+            "id": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
+            "content_html": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介します。 道のり この日は、Googleマップで見たら一番近そうだった獨協大学前駅で降り、目的地まで歩くことにしました。（⚠️無料でバスが出ています） www.yunoizumi.com 少し雨が降って…",
+            "url": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
+            "title": "草加健康センターで、整ってきました。 | ITANDI Engineer Blog",
+            "summary": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介し...",
+            "date_modified": "2022-11-29T09:00:00.000Z",
+            "date_published": "2022-11-29T09:00:00.000Z",
             "tags": []
         },
         {
@@ -2337,16 +2592,6 @@
             "tags": []
         },
         {
-            "id": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
-            "content_html": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介します。 道のり この日は、Googleマップで見たら一番近そうだった獨協大学前駅で降り、目的地まで歩くことにしました。（⚠️無料でバスが出ています） www.yunoizumi.com 少し雨が降って…",
-            "url": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
-            "title": "草加健康センターで、整ってきました。 | ITANDI Engineer Blog",
-            "summary": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介し...",
-            "date_modified": "2022-11-29T09:00:00.000Z",
-            "date_published": "2022-11-29T09:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://inside.pixiv.blog/2022/11/29/180000?utm_source=feed",
             "content_html": "ピクシブ株式会社は、モバイルアプリエンジニア向けのイベント「pixiv App Night」を定期的に開催していく予定です。 このイベントではiOS / Androidのエンジニアが一堂に会して、クリエイターの創作活動を支えるアプリのウラ側を質疑応答も交えながら、ざっくばらんにお話しさせていただきます。 本日はイベントの詳細と、先日10月27日に開催したイベントの登壇内容を皆様にご紹介したいと思います。 これまでの歩み ピクシブのモバイルアプリエンジニアは、iOSエンジニア・Androidエンジニア共に、長らく外部登壇・情報発信に積極的に取り組んできました。 【参考記事】 iOSDC Japa…",
             "url": "https://inside.pixiv.blog/2022/11/29/180000?utm_source=feed",
@@ -2354,16 +2599,6 @@
             "summary": "ピクシブ株式会社は、モバイルアプリエンジニア向けのイベント「pixiv App Night」を定期的に開催していく予定です。 このイベントではiOS / Androidのエンジニアが一堂に会して、クリエイターの創作活動を支えるアプリのウラ側を質疑応答も交えながら、ざっくばらんにお話しさせていただきます。 本日はイベントの詳細と、先日10月27日に開催したイベントの登壇内容を皆様にご紹介したいと思い...",
             "date_modified": "2022-11-29T09:00:00.000Z",
             "date_published": "2022-11-29T09:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1459627.html",
-            "content_html": "Amazon.co.jpでは12月1日（木）までの期間限定で年に一度の大型セール「ブラックフライデー」を開催中です。その一環として各社液晶モニターのセールが行われています。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1459627.html",
-            "title": "Amazonブラックフライデーで各社高解像度ディスプレイが安い！ 50インチ液晶が37％OFF【本日みつけたお買い得情報】 | 窓の杜",
-            "summary": "Amazon.co.jpでは12月1日（木）までの期間限定で年に一度の大型セール「ブラックフライデー」を開催中です。その一環として各社液晶モニターのセールが行われています。",
-            "date_modified": "2022-11-29T08:46:19.000Z",
-            "date_published": "2022-11-29T08:46:19.000Z",
             "tags": []
         },
         {
@@ -2570,10 +2805,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10958",
-            "content_html": "自己紹介 こんにちは。関西開発拠点でエンジニアをしている辻です。 季節の変わり目 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近のruby-core (2017年3月)  MUIで作成したテーブルコンポーネントのパフォーマンス改善  マネーフォワードCTOが考えていること（2021年9月）  拠点サイトを作って文化の発信源が生まれた  Coding CDN in MoneyForward   Copyright © Money Forward Engineers' Blog [機能開発と技術的負債の返済を両立させるシステム改善Dayのすすめ], All Right Reserved. 2022.",
+            "content_html": "自己紹介 こんにちは。関西開発拠点でエンジニアをしている辻です。 季節の変わり目 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証  【速報】RubyKaigi 2014レポ：tending the ruby ecosystem  Go Conference 2021 Autumn にブロンズプランで協賛します  Go製マイクロサービスのAPI仕様をSwaggerで作成、管理する  RailsConf 2018に参加してきました   Copyright © Money Forward Engineers' Blog [機能開発と技術的負債の返済を両立させるシステム改善Dayのすすめ], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/11/29/kaizenday-in-kansai-div/",
             "title": "機能開発と技術的負債の返済を両立させるシステム改善Dayのすすめ | Money Forward Engineers' Blog",
-            "summary": "自己紹介 こんにちは。関西開発拠点でエンジニアをしている辻です。 季節の変わり目 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 最近の...",
+            "summary": "自己紹介 こんにちは。関西開発拠点でエンジニアをしている辻です。 季節の変わり目 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
             "date_modified": "2022-11-29T01:00:27.000Z",
             "date_published": "2022-11-29T01:00:27.000Z",
             "author": {
@@ -2621,16 +2856,6 @@
             "summary": "こんにちは。カミナシ ソフトウェアエンジニアのAomanです。 最近ちょこちょこアルゴリズムやデータ構造、Goのキャッチアップしています。 そんな中、go.devのブログ Go blog のとある記事でダブルポインタを使用するコードに出会いました。筆者は今まで、RubyやJavaScript/TypeScriptなどの言語を多く触っていたためか、お恥ずかしながらダブルポインタを使うコードを初めて見...",
             "date_modified": "2022-11-29T00:30:00.000Z",
             "date_published": "2022-11-29T00:30:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/sakuma_h/items/9caea7bc491dfbc8c60e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに 自分は普段、業務システムのバックエンド担当で、HTML,CSSはシンプルなものしか実装したことがありません。今までCSSをがっつりと書いたことがなく、CSSではレイアウトの調整、JavaS…",
-            "url": "https://qiita.com/sakuma_h/items/9caea7bc491dfbc8c60e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "CSSだけでJavaScriptっぽい動きを実装してみた | Qiita - 人気の記事",
-            "summary": "はじめに 自分は普段、業務システムのバックエンド担当で、HTML,CSSはシンプルなものしか実装したことがありません。今までCSSをがっつりと書いたことがなく、CSSではレイアウトの調整、JavaS…",
-            "date_modified": "2022-11-28T23:50:34.000Z",
-            "date_published": "2022-11-28T23:50:34.000Z",
             "tags": []
         },
         {
@@ -2822,16 +3047,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/LabPixel/items/a2780ded7533405b02a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "42Tokyoの蔀（シトミ）です。 普段は札幌の高校に通いながら、個人事業主としてバックエンドエンジニアやプログラミング講師をしています。 先日「HARDENING 2022 DECADE」に参加…",
-            "url": "https://qiita.com/LabPixel/items/a2780ded7533405b02a5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "沖縄でのセキュリティ大会Hardeningに行ってきた | Qiita - 人気の記事",
-            "summary": "42Tokyoの蔀（シトミ）です。 普段は札幌の高校に通いながら、個人事業主としてバックエンドエンジニアやプログラミング講師をしています。 先日「HARDENING 2022 DECADE」に参加…",
-            "date_modified": "2022-11-28T11:41:32.000Z",
-            "date_published": "2022-11-28T11:41:32.000Z",
-            "tags": []
-        },
-        {
             "id": "https://aimstogeek.hatenablog.com/entry/2022/11/28/202254",
             "content_html": "はじめまして！クイックに中途入社して早１年になりますソフトウェアエンジニアのたかにーです。 今回は弊社サイトの高速化に取り組んだ際に、プロファイラを用いてボトルネック調査をした時のお話をしたいと思います。 パフォーマンス改善を行うにあたり、重そうな場所を手当たり次第チューニングしたくなるところですが、まずはプログラムを計測してどこがボトルネックとなっているかを見極めることが重要です。 「Goの父」とも呼ばれるロブ・パイク氏も「Rob Pike's 5 Rules of Programming（プログラミング5カ条）」において、以下のようにおっしゃっていますね。 1. プログラムがどこで時間を費…",
             "url": "https://aimstogeek.hatenablog.com/entry/2022/11/28/202254",
@@ -2839,16 +3054,6 @@
             "summary": "はじめまして！クイックに中途入社して早１年になりますソフトウェアエンジニアのたかにーです。 今回は弊社サイトの高速化に取り組んだ際に、プロファイラを用いてボトルネック調査をした時のお話をしたいと思います。 パフォーマンス改善を行うにあたり、重そうな場所を手当たり次第チューニングしたくなるところですが、まずはプログラムを計測してどこがボトルネックとなっているかを見極めることが重要です。 「Goの父」...",
             "date_modified": "2022-11-28T11:22:54.000Z",
             "date_published": "2022-11-28T11:22:54.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/rana_kualu/items/ab82a9c6dbd2e7c6edd0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "PHPの乱数といえば古来より様々な問題が存在していることで有名です。 乱数の質という大問題についてはrandom_intの登場によってひとまずの解決を見ましたが、それ以外にも状態がグローバルである等…",
-            "url": "https://qiita.com/rana_kualu/items/ab82a9c6dbd2e7c6edd0?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【PHP8.2】PHPの乱数がすごい改善される | Qiita - 人気の記事",
-            "summary": "PHPの乱数といえば古来より様々な問題が存在していることで有名です。 乱数の質という大問題についてはrandom_intの登場によってひとまずの解決を見ましたが、それ以外にも状態がグローバルである等…",
-            "date_modified": "2022-11-28T10:42:06.000Z",
-            "date_published": "2022-11-28T10:42:06.000Z",
             "tags": []
         },
         {
@@ -3056,16 +3261,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/lvn-okino/items/263d3eecdf07e2099db1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに 達人に学ぶSQL徹底指南書を読んでいてクエリチューニングの章があったので、 この機会に本書および各種記事から学んだクエリのチューニング方法の中で すぐに実践可能なものをまとめてみようと思い…",
-            "url": "https://qiita.com/lvn-okino/items/263d3eecdf07e2099db1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【SQL】今日からできるクエリチューニング | Qiita - 人気の記事",
-            "summary": "はじめに 達人に学ぶSQL徹底指南書を読んでいてクエリチューニングの章があったので、 この機会に本書および各種記事から学んだクエリのチューニング方法の中で すぐに実践可能なものをまとめてみようと思い…",
-            "date_modified": "2022-11-28T06:40:15.000Z",
-            "date_published": "2022-11-28T06:40:15.000Z",
-            "tags": []
-        },
-        {
             "id": "http://deeplearning.jp/?p=15111",
             "content_html": "",
             "url": "https://deeplearning.jp/breakpoint-transformers-for-modeling-and-tracking-intermediate-beliefs-emnlp-2022/",
@@ -3124,16 +3319,6 @@
             "summary": "こんにちは。倉内です。「プログラミングを学んでみたい」と思った方が最初に選ぶ言語というと、最近はPythonが人気ですよね。またエンジニアを目指す方にとっては求人数が多いJavaやPHP、Web系のエンジニアに転向したいという方ならJavaScriptなどが候補に挙がってくるかと思います。ただ、大規模な業務システムからゲーム、スマホアプリ、Webサービスの開発まで幅広く採用されていて、安定した人気...",
             "date_modified": "2022-11-28T04:00:00.000Z",
             "date_published": "2022-11-28T04:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/degudegu2510/items/1821047debbd58384117?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに みなさんは、どんなトレーディングカードゲームをやったことがありますか？ 僕が触れたことがあるトレーディングカードゲームは、遊戯王、デュエマ、ポケカくらいですが、他にも、1993年からあるマ…",
-            "url": "https://qiita.com/degudegu2510/items/1821047debbd58384117?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【CSS】ホバーするとキラキラ光って見えるカードを作る | Qiita - 人気の記事",
-            "summary": "はじめに みなさんは、どんなトレーディングカードゲームをやったことがありますか？ 僕が触れたことがあるトレーディングカードゲームは、遊戯王、デュエマ、ポケカくらいですが、他にも、1993年からあるマ…",
-            "date_modified": "2022-11-28T03:48:19.000Z",
-            "date_published": "2022-11-28T03:48:19.000Z",
             "tags": []
         },
         {
@@ -3267,16 +3452,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/sagae_twins_developper/items/607dea0de14f9e851f17?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "こんにちは、ISSUEの寒河江です。 今回はフリーランスエンジニアで働く上でのメリット・デメリットについて考えてみました。私自身もフリーランスを4年ほどしていたのと、ISSUEで働くフリーランスの方…",
-            "url": "https://qiita.com/sagae_twins_developper/items/607dea0de14f9e851f17?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "29歳、フリーランス歴4年のエンジニアがフリーランスエンジニアのメリット・デメリットを考えてみた | Qiita - 人気の記事",
-            "summary": "こんにちは、ISSUEの寒河江です。 今回はフリーランスエンジニアで働く上でのメリット・デメリットについて考えてみました。私自身もフリーランスを4年ほどしていたのと、ISSUEで働くフリーランスの方…",
-            "date_modified": "2022-11-28T00:53:12.000Z",
-            "date_published": "2022-11-28T00:53:12.000Z",
-            "tags": []
-        },
-        {
             "id": "https://made.livesense.co.jp/entry/2022/11/28/090000",
             "content_html": "先日、社内でテクニカルライティングに関しての勉強会が開催されました。 リブセンス社内の多数のエンジニアが参加し、大盛況となりました。この記事ではそんな勉強会の模様を紹介します。 概要 開催の経緯 エンジニアブログの記事を自信を持って書いてもらえるようになってほしい 良い文章とはどんな文章かの共通認識を作りしたい 講義の内容 テクニカルライティングの基本的な考え方を知る 伝える情報を整理する アウトラインを作る トピック単位で文章構成の骨組みを作る わかりやすく、簡潔な文章で書く 質疑応答 最後に 概要 今回の勉強会では、外部より仲田 尚央さん(@naoh_nak)に講師をお願いしました。テクニ…",
             "url": "https://made.livesense.co.jp/entry/2022/11/28/090000",
@@ -3284,16 +3459,6 @@
             "summary": "先日、社内でテクニカルライティングに関しての勉強会が開催されました。 リブセンス社内の多数のエンジニアが参加し、大盛況となりました。この記事ではそんな勉強会の模様を紹介します。 概要 開催の経緯 エンジニアブログの記事を自信を持って書いてもらえるようになってほしい 良い文章とはどんな文章かの共通認識を作りしたい 講義の内容 テクニカルライティングの基本的な考え方を知る 伝える情報を整理する アウト...",
             "date_modified": "2022-11-28T00:00:00.000Z",
             "date_published": "2022-11-28T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/nasuB7373/items/770815c70467e37d0099?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "初めに タイトルにもあるように、Web開発の実務経験１年半程だった私が 2022年の某月回の転職ドラフトに初参加したところ、まさかの  指名18件獲得 年収約700万円の内定獲得  を実現することができ…",
-            "url": "https://qiita.com/nasuB7373/items/770815c70467e37d0099?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "実務1年半が転職ドラフトで、指名18件＆約700万内定を獲得した話【web試験・コーディング試験・面接対策あり】 | Qiita - 人気の記事",
-            "summary": "初めに タイトルにもあるように、Web開発の実務経験１年半程だった私が 2022年の某月回の転職ドラフトに初参加したところ、まさかの  指名18件獲得 年収約700万円の内定獲得  を実現することができ…",
-            "date_modified": "2022-11-27T23:41:58.000Z",
-            "date_published": "2022-11-27T23:41:58.000Z",
             "tags": []
         },
         {
@@ -3307,26 +3472,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/Jun-T/items/c269a553338b6ae27d1a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "就職活動・転職活動に備えてポートフォリオサイトを作成したので経緯や内容・工夫点をご紹介します。 簡単に実践できてサイトの質を向上させることができる工夫点も複数紹介しているので，参考になる方も多いと思…",
-            "url": "https://qiita.com/Jun-T/items/c269a553338b6ae27d1a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "就活成功に導いたポートフォリオサイトの紹介 | Qiita - 人気の記事",
-            "summary": "就職活動・転職活動に備えてポートフォリオサイトを作成したので経緯や内容・工夫点をご紹介します。 簡単に実践できてサイトの質を向上させることができる工夫点も複数紹介しているので，参考になる方も多いと思…",
-            "date_modified": "2022-11-27T23:10:51.000Z",
-            "date_published": "2022-11-27T23:10:51.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/kojimadev/items/e29f56a241f502e54131?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "1. はじめに 本稿は、ペアプログラミングとモブプログラミング（以降、ペアプロ・モブプロと表記）について、私のチームでのガイドラインを紹介します。執筆時点でのペアプロ・モブプロ歴は4年です。 私のチ…",
-            "url": "https://qiita.com/kojimadev/items/e29f56a241f502e54131?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "皆で楽しく成長するためのペアプログラミングとモブプログラミングのガイドライン | Qiita - 人気の記事",
-            "summary": "1. はじめに 本稿は、ペアプログラミングとモブプログラミング（以降、ペアプロ・モブプロと表記）について、私のチームでのガイドラインを紹介します。執筆時点でのペアプロ・モブプロ歴は4年です。 私のチ…",
-            "date_modified": "2022-11-27T23:05:16.000Z",
-            "date_published": "2022-11-27T23:05:16.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.studysapuri.jp/entry/2022/11/28/080000",
             "content_html": "こんにちは、iOS エンジニアの @manicmaniac です。 現在スタディサプリ iOS アプリ開発チームのエンジニアリングマネージャをしています。 「スタディサプリ」ブランドで出ているアプリは数多くあるのですが、今回は今年リリースされたばかりの「スタディサプリ 中学講座」というアプリについて書きます。",
             "url": "https://blog.studysapuri.jp/entry/2022/11/28/080000",
@@ -3334,26 +3479,6 @@
             "summary": "こんにちは、iOS エンジニアの @manicmaniac です。 現在スタディサプリ iOS アプリ開発チームのエンジニアリングマネージャをしています。 「スタディサプリ」ブランドで出ているアプリは数多くあるのですが、今回は今年リリースされたばかりの「スタディサプリ 中学講座」というアプリについて書きます。",
             "date_modified": "2022-11-27T23:00:00.000Z",
             "date_published": "2022-11-27T23:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/masaki_nakada_ari/items/39953452cfb12a58c4a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "概要 プログラミングの良い概念を理解するとプログラマーレベルが上がると考えています。 良い概念は特定のプログラミング言語に縛られないので、様々なプログラミング言語で役に立ちます。 前回は関数は変数で…",
-            "url": "https://qiita.com/masaki_nakada_ari/items/39953452cfb12a58c4a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "オブジェクト指向プログラミングの3大要素 - Good Concepts in Programming - | Qiita - 人気の記事",
-            "summary": "概要 プログラミングの良い概念を理解するとプログラマーレベルが上がると考えています。 良い概念は特定のプログラミング言語に縛られないので、様々なプログラミング言語で役に立ちます。 前回は関数は変数で…",
-            "date_modified": "2022-11-27T22:46:05.000Z",
-            "date_published": "2022-11-27T22:46:05.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/k1morikawa@github/items/c8a51891ddd143e6fd45?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "コロナになって3年目、リモートワークもなれてきた頃です。皆さん、会社単位で、プロジェクト単位で、部署単位で、色々と工夫されてると思います。 リモートワークで最も重要なのが、コミュニケーションツールで…",
-            "url": "https://qiita.com/k1morikawa@github/items/c8a51891ddd143e6fd45?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "若手エンジニア向け：ストックとフローの使い分け | Qiita - 人気の記事",
-            "summary": "コロナになって3年目、リモートワークもなれてきた頃です。皆さん、会社単位で、プロジェクト単位で、部署単位で、色々と工夫されてると思います。 リモートワークで最も重要なのが、コミュニケーションツールで…",
-            "date_modified": "2022-11-27T22:45:30.000Z",
-            "date_published": "2022-11-27T22:45:30.000Z",
             "tags": []
         },
         {
@@ -3896,10 +4021,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10925",
-            "content_html": "マネーフォワードでSREをしている増田です。 普段はSREとしてSLO/SLIの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 地獄のミ、、、rssフィードをjsonフィードに変換するTips  マネーフォワードCTOが考えていること（2021年9月）  経理処理の定式化とその実装、もしくはBigQueryにおける再帰  TwitterにMoney Forward Developersを開設しました  ActiveRecordのincludes, preload, eager_load の個人的な使い分け   Copyright © Money Forward Engineers' Blog [Sidekiq Worker+Semantic Loggerの構成の際にJob名とJob IDを出す方法], All Right R...",
+            "content_html": "マネーフォワードでSREをしている増田です。 普段はSREとしてSLO/SLIの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rails奮闘記 〜ActiveRecordのコールバック ハマり編〜  【速報】RubyKaigi 2014レポ：Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails  【イベント参加レポ】渋谷Ruby会議01に参加してきました！  私が思うQAエンジニア像の変遷の話 〜そして私はマネーフォワードに辿り着いた！〜  【レポート】MF Geeks Night (2015年11月)   Copyright © Money Forward Engineers' Blog [Sidekiq Worker+Semant...",
             "url": "https://moneyforward.com/engineers_blog/2022/11/25/sidekiq-worker-and-semantic-logger/",
             "title": "Sidekiq Worker+Semantic Loggerの構成の際にJob名とJob IDを出す方法 | Money Forward Engineers' Blog",
-            "summary": "マネーフォワードでSREをしている増田です。 普段はSREとしてSLO/SLIの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 地獄の...",
+            "summary": "マネーフォワードでSREをしている増田です。 普段はSREとしてSLO/SLIの … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...",
             "date_modified": "2022-11-25T01:00:40.000Z",
             "date_published": "2022-11-25T01:00:40.000Z",
             "author": {
@@ -4340,10 +4465,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10932",
-            "content_html": "はじめに こんにちは。クラウド勤怠チームでエンジニアをしております katuoで … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: GraphQL Federation - API Gatewayの進化  S3のファイルをX-Accel-Redirectで配信する  マネーフォワードにおけるソース管理手法  【速報】RubyKaigi 2014レポ：Kids, Ruby, Fun!: Introduction of the Smalruby and the Ruby Programming Shounendan  金融機関様向けのPFMサービス 第一弾リリース！   Copyright © Money Forward Engineers' Blog [[FEギルド] クラウド勤怠のフロントエンド生産性を高めるために半年取り組んで...",
+            "content_html": "はじめに こんにちは。クラウド勤怠チームでエンジニアをしております katuoで … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Respectの気持ちでチームを盛り上げるチームビルディング術  入社から約1年半、Money ForwardのAndroidエンジニアとしての活動を振り返る  Ansible galaxyを使って銀河の彼方からJenkinsおじさんを召喚する  【番外編】マネーフォワードっぽいホワイトデーを考えてみた  OAuth 2.0 認可コードグラントフローについて理解したことをまとめます   Copyright © Money Forward Engineers' Blog [[FEギルド] クラウド勤怠のフロントエンド生産性を高めるために半年取り組んできたこと], All Right Reserved....",
             "url": "https://moneyforward.com/engineers_blog/2022/11/24/improvement-fronend-half-a-year/",
             "title": "[FEギルド] クラウド勤怠のフロントエンド生産性を高めるために半年取り組んできたこと | Money Forward Engineers' Blog",
-            "summary": "はじめに こんにちは。クラウド勤怠チームでエンジニアをしております katuoで … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Gra...",
+            "summary": "はじめに こんにちは。クラウド勤怠チームでエンジニアをしております katuoで … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Res...",
             "date_modified": "2022-11-24T01:30:19.000Z",
             "date_published": "2022-11-24T01:30:19.000Z",
             "author": {
@@ -5100,10 +5225,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10916",
-            "content_html": "こんにちは クラウド経費開発チーム 、 クラウド債務支払開発チーム の 宮村（み … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インターンでの性能改善タスクの取り組み  マネーフォワードのコーポレートエンジニアがやっているSaaSの障害検知方法  RubyKaigi 2016 Rubyスポンサー申込み  とあるエンジニアのマネフォ的 1日の過ごし方  CRISP-DMを活用する上で注意すること   Copyright © Money Forward Engineers' Blog [複数ページのテスト用PDFをサクッと作成する方法], All Right Reserved. 2022.",
+            "content_html": "こんにちは クラウド経費開発チーム 、 クラウド債務支払開発チーム の 宮村（み … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: キャッシュレス社会の到来を加速させるマネーフォワード  MoneyForwardの検索ロジック歴史  RubyKaigi 2014参加レポ(マネーフォワード編)  さくっと各サービスのライブラリのバージョンを見ようの巻  マネーフォワードのサマーインターン2022に参加しました！   Copyright © Money Forward Engineers' Blog [複数ページのテスト用PDFをサクッと作成する方法], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/11/22/create-pdf-for-test/",
             "title": "複数ページのテスト用PDFをサクッと作成する方法 | Money Forward Engineers' Blog",
-            "summary": "こんにちは クラウド経費開発チーム 、 クラウド債務支払開発チーム の 宮村（み … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: インタ...",
+            "summary": "こんにちは クラウド経費開発チーム 、 クラウド債務支払開発チーム の 宮村（み … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: キャッ...",
             "date_modified": "2022-11-22T01:00:57.000Z",
             "date_published": "2022-11-22T01:00:57.000Z",
             "author": {
@@ -6615,79 +6740,6 @@
                 "Gitリポジトリ",
                 "Looker",
                 "LookML"
-            ]
-        },
-        {
-            "id": "https://tech.uzabase.com/entry/2022/11/17/175027",
-            "content_html": "こんにちは！SaaS Product Team（UzabaseのB2B SaaS事業を開発するチームのこと）のイベントチームの炭谷、田中です。2022年10月にSaaS Product Team全体でキックオフを行いました。今回の記事はそのイベントレポートとなります。 キックオフは毎年上期と下期の初めにリモートで開催しているのですが、今回のキックオフでは新型コロナウイルス対策を考慮しつつオフィスで開催することになりました。 キックオフとは キックオフは、SaaS Product Teamが上期、下期に全員集まり、テーマを決めて1日、話し合いやワークショップを行うイベントです。話し合うテーマは\"…",
-            "url": "https://tech.uzabase.com/entry/2022/11/17/175027",
-            "title": "SaaS Product Team 2022年下期キックオフイベントレポート | Uzabase for Engineers",
-            "summary": "こんにちは！SaaS Product Team（UzabaseのB2B SaaS事業を開発するチームのこと）のイベントチームの炭谷、田中です。2022年10月にSaaS Product Team全体でキックオフを行いました。今回の記事はそのイベントレポートとなります。 キックオフは毎年上期と下期の初めにリモートで開催しているのですが、今回のキックオフでは新型コロナウイルス対策を考慮しつつオフィスで...",
-            "date_modified": "2022-11-17T08:50:27.000Z",
-            "date_published": "2022-11-17T08:50:27.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://techracho.bpsinc.jp/?p=123229",
-            "content_html": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Security Best Practices for Your Rails Application | AppSignal Blog 原文公開日: 2022/10/05 原著者: Paweł Dąbrowski サイト: AppSignal Blog 参考: 週刊Railsウォッチ20221011 Railsのセキュリティベストプラクティス 日本語タイトルは内容に即したものにしました。原文の章インデントは訳文で一部を変更しています。 以下のRailsセキュリティガイドもおすすめです。 参考: Rails セキュリティガイド – Rails […] The post 保存版: Railsアプリケーションのセキュリティベストプラクティス（翻訳） first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/hachi8833/2022_11_17/123229",
-            "title": "保存版: Railsアプリケーションのセキュリティベストプラクティス（翻訳） | TechRacho",
-            "summary": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Security Best Practices for Your Rails Application | AppSignal Blog 原文公開日: 2022/10/05 原著者: Paweł Dąbrowski サイト: AppSignal Blog 参考: 週刊Railsウォッチ20221011 Railsのセキュリティベストプラク...",
-            "date_modified": "2022-11-17T08:30:36.000Z",
-            "date_published": "2022-11-17T08:30:36.000Z",
-            "author": {
-                "name": "hachi8833"
-            },
-            "tags": [
-                "Ruby / Rails関連",
-                "Ruby on Rails",
-                "セキュリティ",
-                "翻訳記事"
-            ]
-        },
-        {
-            "id": "http://techracho.bpsinc.jp/?p=25010",
-            "content_html": "更新情報 2016/08/23: 初版公開 2022/11/17: 細部を更新 こんにちは、hachi8833です。 状況や好みによって異なりますが、条件分岐が二重否定の形になると、一般にコードが読みにくくなる傾向があります。 unlessはうまく使えば読みやすいコードを書くときに役立ちますが、unlessが二重否定を形成するとかえって読みにくくなることもあります。三重四重は言わずもがなですね。 🔗 unlessと||の組み合わせは避けよう unlessの是非は好みが分かれることが多く、よく議論のネタになります。 少なくともunlessと||の組み合わせは苦情が出やすいので避けましょう。 unless obj1. […] The post Rubyにおけるunlessとコードの読みやすさについて first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/hachi8833/2022_11_17/25010",
-            "title": "Rubyにおけるunlessとコードの読みやすさについて | TechRacho",
-            "summary": "更新情報 2016/08/23: 初版公開 2022/11/17: 細部を更新 こんにちは、hachi8833です。 状況や好みによって異なりますが、条件分岐が二重否定の形になると、一般にコードが読みにくくなる傾向があります。 unlessはうまく使えば読みやすいコードを書くときに役立ちますが、unlessが二重否定を形成するとかえって読みにくくなることもあります。三重四重は言わずもがなですね。 ...",
-            "date_modified": "2022-11-17T08:30:24.000Z",
-            "date_published": "2022-11-17T08:30:24.000Z",
-            "author": {
-                "name": "hachi8833"
-            },
-            "tags": [
-                "Ruby / Rails関連",
-                "Ruby",
-                "unless",
-                "条件分岐"
-            ]
-        },
-        {
-            "id": "https://note.com/kurashicom_tech/n/na6e45abde246",
-            "content_html": "こんにちは。クラシコムデータ分析チームの高尾です。 先日、Kurashicom Tech Talkにてデータ分析に関するお話をしました。 続きをみる",
-            "url": "https://note.com/kurashicom_tech/n/na6e45abde246",
-            "title": "「こういうデータ分析チームもありかもしれない」と思えた話 | Kurashicom Tech Blog",
-            "summary": "こんにちは。クラシコムデータ分析チームの高尾です。 先日、Kurashicom Tech Talkにてデータ分析に関するお話をしました。 続きをみる",
-            "date_modified": "2022-11-17T08:07:41.000Z",
-            "date_published": "2022-11-17T08:07:41.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech-lab.sios.jp/?p=31902",
-            "content_html": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回はSQLで文字列をHash化するときに気を付けるポイントについてご紹介します。 基本的な事ですが、意外と気づかずハマってしまう人も多いかと思うので最後までご覧ください [...] SQL句で文字列をHash化する時にはデータ型に気を付けよう！ first appeared on SIOS Tech. Lab.",
-            "url": "https://tech-lab.sios.jp/archives/31902",
-            "title": "SQL句で文字列をHash化する時にはデータ型に気を付けよう！ | SIOS Tech. Lab",
-            "summary": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回はSQLで文字列をHash化するときに気を付けるポイントについてご紹介します。 基本的な事ですが、意外と気づかずハマってしまう人も多いかと思うので最後までご覧ください [...] SQL句で文字列をHash化する時にはデータ型に気を付けよう！ first appeared on SIOS Tech. Lab.",
-            "date_modified": "2022-11-17T07:56:09.000Z",
-            "date_published": "2022-11-17T07:56:09.000Z",
-            "author": {
-                "name": "佐藤陽"
-            },
-            "tags": [
-                "Tips",
-                "Azure SQL Database",
-                "T-SQL"
             ]
         },
         {
