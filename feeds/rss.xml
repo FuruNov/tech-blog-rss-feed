@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 13 Dec 2022 09:26:52 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 13 Dec 2022 11:22:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,40 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Go MachineryでGraceful shutdownできてないバグを直した話 | LayerX エンジニアブログ]]></title>
+            <link>https://tech.layerx.co.jp/entry/2022/12/13/201832</link>
+            <guid>https://tech.layerx.co.jp/entry/2022/12/13/201832</guid>
+            <pubDate>Tue, 13 Dec 2022 11:18:32 GMT</pubDate>
+            <description><![CDATA[こんにちは、バクラクのOCRを開発しているTomoakiです。 Machineryとは MachineryはGo製の非同期タスク管理フレームワークです。 github.com バクラクのバックエンドでは主にGo言語を採用しており、非同期で実行したい処理はメッセージキューとしてAmazon SQS、メッセージの送受信やジョブワーカーの管理にはMachinery(v1)を使用しています。 OCRでも採...]]></description>
+            <content:encoded><![CDATA[こんにちは、バクラクのOCRを開発しているTomoakiです。 Machineryとは MachineryはGo製の非同期タスク管理フレームワークです。 github.com バクラクのバックエンドでは主にGo言語を採用しており、非同期で実行したい処理はメッセージキューとしてAmazon SQS、メッセージの送受信やジョブワーカーの管理にはMachinery(v1)を使用しています。 OCRでも採用している技術スタックは同じで、突然大量のリクエストが来ても対応できるように非同期処理を多用しております。 以下の図のようにファイルがアップロードされてから、OCRの実行結果を返すまでの過程で非同期処…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【22新卒 Advent Calendar 2022】資格勉強に科学を取り入れてみる | エンジニアブログ | iret.media]]></title>
+            <link>https://iret.media/67808</link>
+            <guid>https://iret.media/?p=67808</guid>
+            <pubDate>Tue, 13 Dec 2022 10:00:02 GMT</pubDate>
+            <description><![CDATA[はじめに みなさん、資格の勉強は捗っていますでしょうか 私はそこそこ捗ってます。この間は1ヶ月間で5個も資格を取得できました。 信じられない人向け合格証明書 受験日で言うと 2022/10/28 ~ 2022/11/21 […]]]></description>
+            <content:encoded><![CDATA[はじめに みなさん、資格の勉強は捗っていますでしょうか 私はそこそこ捗ってます。この間は1ヶ月間で5個も資格を取得できました。 信じられない人向け合格証明書 受験日で言うと 2022/10/28 ~ 2022/11/21 […]]]></content:encoded>
+            <category>エンジニアブログ</category>
+            <category>22卒</category>
+            <category>Qiita Advent Calendar 2022</category>
+            <category>勉強方法</category>
+            <category>認定試験</category>
+            <category>認定資格</category>
+        </item>
+        <item>
+            <title><![CDATA[週刊Railsウォッチ: 『RubyとRailsの何が強いのか』、書籍『Ruby on Railsステップアップ』ほか（20221213前編） | TechRacho]]></title>
+            <link>https://techracho.bpsinc.jp/hachi8833/2022_12_13/125286</link>
+            <guid>https://techracho.bpsinc.jp/?p=125286</guid>
+            <pubDate>Tue, 13 Dec 2022 09:45:30 GMT</pubDate>
+            <description><![CDATA[こんにちは、hachi8833です。ウォッチ20221129で紹介した”Railsに関わる技術の体系化を目指した本 “が、『Ruby on Railsステップアップ』というタイトルになってKindle Unlimitedで読めるようになりました🎉 参考: Rails初・中級者向けの技術の体系化を目指した本を書きました[追記・宣伝あり] つっつきボイス:「早くもKindle Unlimitedで読...]]></description>
+            <content:encoded><![CDATA[こんにちは、hachi8833です。ウォッチ20221129で紹介した”Railsに関わる技術の体系化を目指した本 “が、『Ruby on Railsステップアップ』というタイトルになってKindle Unlimitedで読めるようになりました🎉 参考: Rails初・中級者向けの技術の体系化を目指した本を書きました[追記・宣伝あり] つっつきボイス:「早くもKindle Unlimitedで読めるようになった🎉」「Kindle Unlimitedはチェックアウトした本が上限に達するとどれかを返却する必要があるんですよね」「そうそう」「自分のKindle Unlimitedの上限を見たら2 […] The post 週刊Railsウォッチ: 『RubyとRailsの何が強いのか』、書籍『Ruby on Railsステップアップ』ほか（20221213前編） first appeared on TechRacho.]]></content:encoded>
+            <category>Ruby / Rails関連</category>
+            <category>Ruby</category>
+            <category>Ruby on Rails</category>
+            <category>週刊Railsウォッチ</category>
+        </item>
         <item>
             <title><![CDATA[可変関数を駆使してテンプレートにTwigを採用したPHPフレームワークを自作してみた話 | Technology]]></title>
             <link>https://www.klab.com/jp/blog/tech/2022/php-light-framework.html</link>
@@ -522,8 +556,8 @@ https://speakerdeck.com/akiratosei/ccc-winter-2022-ji-pan-moderu | cvpaper.chall
             <link>https://moneyforward.com/engineers_blog/2022/12/13/shinsotsu-scrum-master/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11157</guid>
             <pubDate>Tue, 13 Dec 2022 01:00:25 GMT</pubDate>
-            <description><![CDATA[この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チー...]]></description>
-            <content:encoded><![CDATA[この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チームでワークショップをしたら「外化しようぜ！」が共通言語になった話  エンジニアが技術広報に取り組んだ奮闘記 2021年上期  Refactoring Terraform with moved blocks  ZapierでSlackMessageをParseして外部システムとつなぐ  マネーフォワードの未来について語る会を開催   Copyright © Money Forward Engineers' Blog [チーム運営の仮説検証サイクルを高速化させるために、新卒スクラムマスターが取り組んだこと], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフ...]]></description>
+            <content:encoded><![CDATA[この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードとオープンソース・ソフトウェア  Google Playのin-app updatesを使って最高のアップデート体験を実現する  【レポート】3/26 人気アプリの裏側、語っちゃいます！モバイルアプリ開発勉強会  Dockerを使って開発環境を構築する  マネーフォワードCTOが考えていること（2021年3月）   Copyright © Money Forward Engineers' Blog [チーム運営の仮説検証サイクルを高速化させるために、新卒スクラムマスターが取り組んだこと], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1123,8 +1157,8 @@ https://note.com/dahlian0/n/n078bb48a018b | cvpaper.challenge | AI/CV研究コ�
             <link>https://zenn.dev/okunokentaro/articles/01gm2prv1mkqp13k3wxyg9b2bg</link>
             <guid>https://zenn.dev/okunokentaro/articles/01gm2prv1mkqp13k3wxyg9b2bg</guid>
             <pubDate>Mon, 12 Dec 2022 09:02:40 GMT</pubDate>
-            <description><![CDATA[こんにちは、クレスウェア株式会社の奥野賢太郎 ( @okunokentaro ) です。本記事はTypeScript 一人 Advent Calendar 2022の 1 日目です。 本記事での TypeScript バージョンは 4.9 です。本カレンダーのすべての記事は、TypeScript 初心者を脱し始めてもっと活用していきたいと願う読者層に向けていますので、最低限の前提は省略して記述して...]]></description>
-            <content:encoded><![CDATA[こんにちは、クレスウェア株式会社の奥野賢太郎 ( @okunokentaro ) です。本記事はTypeScript 一人 Advent Calendar 2022の 1 日目です。 本記事での TypeScript バージョンは 4.9 です。本カレンダーのすべての記事は、TypeScript 初心者を脱し始めてもっと活用していきたいと願う読者層に向けていますので、最低限の前提は省略して記述しています。   Utility Types TypeScript には Utility Types というものがあります。TypeScript 2.1 から徐々に導入され、4.9 の現在では、 U...]]></content:encoded>
+            <description><![CDATA[こんにちは、クレスウェア株式会社の奥野賢太郎 (@okunokentaro) です。本記事はTypeScript 一人 Advent Calendar 2022の1日目です。 本記事でのTypeScriptバージョンは4.9です。本カレンダーのすべての記事は、TypeScript初心者を脱し始めてもっと活用していきたいと願う読者層に向けていますので、最低限の前提は省略して記述しています。   Ut...]]></description>
+            <content:encoded><![CDATA[こんにちは、クレスウェア株式会社の奥野賢太郎 (@okunokentaro) です。本記事はTypeScript 一人 Advent Calendar 2022の1日目です。 本記事でのTypeScriptバージョンは4.9です。本カレンダーのすべての記事は、TypeScript初心者を脱し始めてもっと活用していきたいと願う読者層に向けていますので、最低限の前提は省略して記述しています。   Utility Types TypeScriptにはUtility Typesというものがあります。TypeScript 2.1から徐々に導入され、4.9の現在では、Utility Typesを全く...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[技術記事を書くモチベーション | エンジニアブログ | iret.media]]></title>
@@ -1165,7 +1199,7 @@ https://research-p.com/event/955 | cvpaper.challenge | AI/CV研究コミュニ�
             <content:encoded><![CDATA[1990年代にセガ メガドライブでカルトヒットしたゲーム『トージャム＆アール』(ToeJam ＆ Earl)がハリウッド映画化されることが分かりました。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ChatGPTさんに企画候補・企画書の生成・コーディングまでやってもらった (小説風) | Qiita - 人気の記事]]></title>
+            <title><![CDATA[企画の壁打ち・企画書の自動生成・コード生成までChatGPTさんにやってもらった (小説風) | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/alclimb/items/91d9183aed12fd6db4f8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/alclimb/items/91d9183aed12fd6db4f8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
             <pubDate>Mon, 12 Dec 2022 08:50:47 GMT</pubDate>
@@ -1507,8 +1541,8 @@ https://research-p.com/event/955 | cvpaper.challenge | AI/CV研究コミュニ�
             <link>https://moneyforward.com/engineers_blog/2022/12/12/event-report-kotlin-fest-2022/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11152</guid>
             <pubDate>Mon, 12 Dec 2022 03:00:07 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！  MoneyForward Meetupレポート「さぁB2Bサービスを爆速で開発しよう」  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証  グループ会社横断でシングルサインオンをできるようにしてみた  Railsのnew_framework_defaultsとの向き合い方   Copyright © Money Forward Engineers' Blog [Kotlin Fest 2022 登壇レポート], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【番外...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【番外編】マネーフォワードっぽいホワイトデーを考えてみた  MoneyForward Meetupレポート「デザインをもっと前へ」  社内エンジニア生産系可視化ツールで個人のメトリクスを見れるようにした話  ～リロケーションサポートのお知らせ～マネーフォワードはエンジニア・デザイナー向けに福岡・京都・大阪・名古屋・東京へのUIターンをサポートします！  京都大学の超交流会2019に出展してきた   Copyright © Money Forward Engineers' Blog [Kotlin Fest 2022 登壇レポート], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -1679,8 +1713,8 @@ https://note.com/cvpaperchallenge/n/n0ef38e4a9684 | cvpaper.challenge | AI/CV研
             <link>https://moneyforward.com/engineers_blog/2022/12/12/agile-testing-days-2022/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11067</guid>
             <pubDate>Mon, 12 Dec 2022 01:00:46 GMT</pubDate>
-            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Cod...]]></description>
-            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）  開発チームで業務知識を獲得するための取り組み  エンジンの Rails を 4.2 にアップグレードした話  【速報】RubyKaigi 2014レポ：Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails  もし年末に夏休みが取れたら京都に行こう！   Copyright © Money Forward Engineers' Blog [Agile Testing Days 2022に...]]></content:encoded>
+            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ACM...]]></description>
+            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: ACML2019 参加レポート  My favorite gem: Strong Migrations  Scrum Fest Osaka 2022 に参加してきました！  Rails探訪 ~ create_table 編 ~ 【速報】RubyKaigi 2014レポ：The Twelve-factor Ruby 「Ruby を良くするための12のポイント」   Copyright © Money Forward Engineers' Blog [Agile Testing Days 2022に参加してきました！], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -3452,8 +3486,8 @@ https://ai-scholar.tech/articles/data-augmentation/TeachAugment | AI技術最新
             <link>https://moneyforward.com/engineers_blog/2022/12/09/start-scrum-master/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11137</guid>
             <pubDate>Fri, 09 Dec 2022 01:05:46 GMT</pubDate>
-            <description><![CDATA[おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dro...]]></description>
-            <content:encoded><![CDATA[おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DroidKaigi2022参加レポート  組織にSREの文化を作り上げていくEnabling SRE  マネーフォワードボルダリング部  MySQL パーティショニングで高速化  Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）   Copyright © Money Forward Engineers' Blog [経験0からスクラムマスターを始めるためにやったこと], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポ...]]></description>
+            <content:encoded><![CDATA[おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 【レポート】MF Geeks Night (2015年4月)  【イベント参加レポ】渋谷Ruby会議01に参加してきました！  [iOS]MonkeyTalkの導入と挫折  Googleフォームで参加者募集して、自動でGoogleカレンダーに申込者を招待する小技  iOS版マネーフォワード MEのダークモード対応   Copyright © Money Forward Engineers' Blog [経験0からスクラムマスターを始めるためにやったこと], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4097,8 +4131,8 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <link>https://moneyforward.com/engineers_blog/2022/12/08/strong-migrations-en/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11098</guid>
             <pubDate>Thu, 08 Dec 2022 01:11:43 GMT</pubDate>
-            <description><![CDATA[This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dro...]]></description>
-            <content:encoded><![CDATA[This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DroidKaigi 2020に登壇する予定でした & 登壇動画公開のお知らせ  AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1  【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場した話  S3のファイルをX-Accel-Redirectで配信する  Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）   Copyright © Money Forward Engineers' Blog [My favorite gem: Strong Migrations], ...]]></content:encoded>
+            <description><![CDATA[This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」  【レポート】スタートアップのデザイナー集合！ サービスづくりについて語り合う会  QAエンジニアのMISSION/VISION/VALUEを作りました！  Apple Payで！マネーフォワードとSuicaを！ついに連携する！  会計PlusのWebフロントエンドパフォーマンス改善   Copyright © Money Forward Engineers' Blog [My favorite gem: Strong Migrations], All Right Reserved....]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4388,15 +4422,15 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <pubDate>Wed, 07 Dec 2022 15:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[理研シンポジウム：第10回「光量子工学研究」 | イベントニュース]]></title>
-            <link>https://www.riken.jp/pr/events/symposia/20221220_1/index.html</link>
-            <guid> https://www.riken.jp/pr/events/symposia/20221220_1/index.html</guid>
-            <pubDate>Wed, 07 Dec 2022 15:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[島津賞・島津奨励賞の受賞について | お知らせ]]></title>
             <link>https://www.riken.jp/pr/news/2022/20221208_1/index.html</link>
             <guid> https://www.riken.jp/pr/news/2022/20221208_1/index.html</guid>
+            <pubDate>Wed, 07 Dec 2022 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[理研シンポジウム：第10回「光量子工学研究」 | イベントニュース]]></title>
+            <link>https://www.riken.jp/pr/events/symposia/20221220_1/index.html</link>
+            <guid> https://www.riken.jp/pr/events/symposia/20221220_1/index.html</guid>
             <pubDate>Wed, 07 Dec 2022 15:00:00 GMT</pubDate>
         </item>
         <item>
@@ -4616,25 +4650,6 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <pubDate>Wed, 07 Dec 2022 07:30:02 GMT</pubDate>
             <description><![CDATA[イーロン・マスク率いる脳～コンピューターインターフェイス開発企業 Neuralink に対し、米国の動物福祉法に違反するとの疑いで米国の政府当局が調査に入っていると報じられています。]]></description>
             <content:encoded><![CDATA[イーロン・マスク率いる脳～コンピューターインターフェイス開発企業 Neuralink に対し、米国の動物福祉法に違反するとの疑いで米国の政府当局が調査に入っていると報じられています。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【22新卒 Advent Calendar 2022】開発小ネタ集 | エンジニアブログ | iret.media]]></title>
-            <link>https://iret.media/67456</link>
-            <guid>https://iret.media/?p=67456</guid>
-            <pubDate>Wed, 07 Dec 2022 07:00:48 GMT</pubDate>
-            <description><![CDATA[何を書くか 普段業務などで色々使うショートカットや便利機能、アプリなどを紹介しようと思います。 既に知っているものが多いと思いますが、一つでも知らないものがあり「へぇ〜」となれば幸いです。 では書いていきます… ショート […]]]></description>
-            <content:encoded><![CDATA[何を書くか 普段業務などで色々使うショートカットや便利機能、アプリなどを紹介しようと思います。 既に知っているものが多いと思いますが、一つでも知らないものがあり「へぇ〜」となれば幸いです。 では書いていきます… ショート […]]]></content:encoded>
-            <category>エンジニアブログ</category>
-            <category>22卒</category>
-            <category>Bandwidth+</category>
-            <category>Clipy</category>
-            <category>jsonフォーマット</category>
-            <category>Qiita Advent Calendar 2022</category>
-            <category>RunCat</category>
-            <category>ショートカット</category>
-            <category>スーパーリロード</category>
-            <category>スニペット</category>
-            <category>小ネタ</category>
         </item>
         <item>
             <title><![CDATA[349: Craig Is Here (hak) | Rebuild]]></title>
@@ -4923,8 +4938,8 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <link>https://moneyforward.com/engineers_blog/2022/12/07/improving-team-communication/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11109</guid>
             <pubDate>Wed, 07 Dec 2022 01:00:40 GMT</pubDate>
-            <description><![CDATA[This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How...]]></description>
-            <content:encoded><![CDATA[This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How MySQL Multi-Threaded Slave (MTS) Works  ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと  Dockerを使って開発環境を構築する  CTOになって5年経った感想、振り返りなど  3ヶ月間の英語研修でTOEICスコア 665 → 890 になった話   Copyright © Money Forward Engineers' Blog [Improving Team Communication through Sharing Meeting], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [PR...]]></description>
+            <content:encoded><![CDATA[This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: [PR]6/15(水)19時開催！【Retty×マネーフォワード】コラボイベント どう進める？大規模toCサービスのリアーキテクト 〜私たちのアンチパターン〜🎉  マネフォのプロダクトマネージャーが勝手に語る、pmconf 2020の見所！  デザイナーが制作時に気にしていること  Nuxt v2 のSPAモードが起動するまでの流れを追ってみた  とあるエンジニアのマネフォ的 1日の過ごし方   Copyright © Money Forward Engineers' Blog [Improving Team Communication through Sharing Meeting], All ...]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -4932,8 +4947,8 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <link>https://moneyforward.com/engineers_blog/2022/12/07/managed-metadata/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11116</guid>
             <pubDate>Wed, 07 Dec 2022 01:00:02 GMT</pubDate>
-            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 83億...]]></description>
-            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 83億レコードを移行し、日々2,500万レコードのアクセスログをBigQueryに記録している話（インフラ編）  20分でできるLIFFアプリ(LINE bot)  お知らせ: SIerからベンチャーへのエンジニア転職〜キャリアチェンジになにを求めたか？〜 を開催します  オフィスの便利ツール紹介：トイレ混雑チェッカー  【レポート】MF Geeks Night (2015年4月)   Copyright © Money Forward Engineers' Blog [内製データカタログによる分析基盤の改善〜ミニマムなメタデータ管理で分析を前に進めよう〜], All Right Reserved....]]></content:encoded>
+            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Agi...]]></description>
+            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Agile Testing Days 2022に参加してきました！  Swiftで学ぶ関数型 〜 immutable 〜  それ、Swift Bondでくっつけちゃおう  私の履歴書：マネーフォワードの会計開発チーム編  ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと   Copyright © Money Forward Engineers' Blog [内製データカタログによる分析基盤の改善〜ミニマムなメタデータ管理で分析を前に進めよう〜], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -5242,17 +5257,6 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <content:encoded><![CDATA[こんにちは, メディア開発部の今村です. この記事はGunosy Advent Calendar 2022の6日目の記事です. 昨日の記事は村田さんの「Digdag が突然止まった障害を受けて」でした. この記事 (前編) と明日の後編では, EventBridgeとECSでバッチ処理基盤を整備した話を紹介します. 背景 & 技術選定 スケジューリング 実行環境 監視 タスク管理リポジトリの作成 構成 ecspressoでタスク定義を管理する より開発しやすくするために おわりに 背景 & 技術選定 最近はプッシュ通知送信システムのリプレイスを行なっており, その一環でEC2インスタンス上のc…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[一人暮らし初心者のフルリモート環境+α | TechRacho]]></title>
-            <link>https://techracho.bpsinc.jp/yama13/2022_12_06/124793</link>
-            <guid>https://techracho.bpsinc.jp/?p=124793</guid>
-            <pubDate>Tue, 06 Dec 2022 08:30:43 GMT</pubDate>
-            <description><![CDATA[遅ればせながら最近一人暮らしを始めました。一人暮らしは全て自分好みにできていいですね。時間もお金もかかりますがいい経験になっています。 僕はマーケター兼経理という少し変わった立ち位置で、非エンジニアです。モニター1枚とノートパソコンなので比較的シンプルです。ミニマリストに少し憧れます。 作業環境 業務ではSurface Laptop 4を使っています。 マウスはMicrosoftのSurface ...]]></description>
-            <content:encoded><![CDATA[遅ればせながら最近一人暮らしを始めました。一人暮らしは全て自分好みにできていいですね。時間もお金もかかりますがいい経験になっています。 僕はマーケター兼経理という少し変わった立ち位置で、非エンジニアです。モニター1枚とノートパソコンなので比較的シンプルです。ミニマリストに少し憧れます。 作業環境 業務ではSurface Laptop 4を使っています。 マウスはMicrosoftのSurface Precision Mouse、キーボードはMicrosoft Designer Compact Keyboardを使っています。どちらもBluetooth接続で、接続する端末をボタンで切り替えられます。 普段はメモ帳と […] The post 一人暮らし初心者のフルリモート環境+α first appeared on TechRacho.]]></content:encoded>
-            <category>ライフ</category>
-            <category>アドベントカレンダー2022</category>
-            <category>リモートワーク</category>
-        </item>
-        <item>
             <title><![CDATA[三面モニタ対応のコックピット型ワークステーション「Orb X」Cooler Masterが発表 | TechnoEdge]]></title>
             <link>https://www.techno-edge.net/article/2022/12/06/579.html</link>
             <guid>https://www.techno-edge.net/article/2022/12/06/579.html</guid>
@@ -5531,8 +5535,8 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <link>https://moneyforward.com/engineers_blog/2022/12/06/unit-test-in-i18n-yaml-files/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11044</guid>
             <pubDate>Tue, 06 Dec 2022 01:00:50 GMT</pubDate>
-            <description><![CDATA[こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...]]></description>
-            <content:encoded><![CDATA[こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rails奮闘記 〜ActiveRecordのコールバック ハマり編〜  エンジニアリング + 技術広報 = ユニークキャリア  Android 13で導入されるNotification runtime permissionについて調べてみた  2021年のエンジニアブログをふりかえる  【社内レポ】最新型MacBook Proを投入！   Copyright © Money Forward Engineers' Blog [i18n YAML ファイル中の日本語/英語のズレを検知する単体テスト], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードクラウド確定申告Androidアプリの設計方針  モヤモヤしたままにしない！マネーフォワード クラウド勤怠チームがメンバー同士で言いたいことを伝え合うために実践する3つの土台  【社内レポ】IT勉強会 よちよち.rb(第42回) でご利用いただきました  RubyGems.orgの脆弱性について  2022年6月のJCSQE初級資格認定試験で2名の合格者が出ました！   Copyright © Money Forward Engineers' Blog [i18n YAML ファイル中の日本語/英語のズレを検知する単体テスト], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -5673,7 +5677,7 @@ https://ai-scholar.tech/articles/transfer-learning/GAIA | AI技術最新情報�
             <guid>http://terrytao.wordpress.com/?p=13525</guid>
             <pubDate>Mon, 05 Dec 2022 16:53:32 GMT</pubDate>
             <description><![CDATA[[The following information was provided to me by Geordie Williamson, who is Director of the Sydney Mathematics Research Institute – T.] We are currently advertising two positions in math and AI: Both ...]]></description>
-            <content:encoded><![CDATA[[The following information was provided to me by Geordie Williamson, who is Director of the Sydney Mathematics Research Institute – T.] We are currently advertising two positions in math and AI: Both positions are for three years and are based at the Sydney Mathematical Research Institute. The positions are research only, but teaching at the … … Continue reading →]]></content:encoded>
+            <content:encoded><![CDATA[[The following information was provided to me by Geordie Williamson, who is Director of the Sydney Mathematics Research Institute – T.] We are currently advertising two positions in math and AI: Both positions are for three years and are based at the Sydney Mathematical Research Institute. The positions are research only, but teaching at the […]]]></content:encoded>
             <category>advertising</category>
             <category>Jobs</category>
             <category>SMRI</category>
@@ -6999,8 +7003,8 @@ https://ai-scholar.tech/articles/3d/DreamFusion | AI技術最新情報メディ�
             <link>https://moneyforward.com/engineers_blog/2022/12/03/enabling-frontend-forward/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=11088</guid>
             <pubDate>Sat, 03 Dec 2022 01:00:11 GMT</pubDate>
-            <description><![CDATA[こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュ...]]></description>
-            <content:encoded><![CDATA[こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュリティイベント・活動のご紹介  941::blogさんがやってきた！  ICカードリーダーのiOSアプリをSwiftUIで開発しました  副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」   Copyright © Money Forward Engineers' Blog [マネーフォワードのフロントエンドを前に進めるフロントエンド推進グループの紹介], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 本番稼...]]></description>
+            <content:encoded><![CDATA[こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 本番稼働中のEKSクラスタにCluster Autoscalerを導入した話  京都開発拠点におけるインターン生の活躍  vim のイースターエッグの話  Hardening 1010 Cash Flow 参加レポート  マネーフォワードエンジニアインタビュー 鈴木信太郎「モノポリーから始まったエンジニアへの道」   Copyright © Money Forward Engineers' Blog [マネーフォワードのフロントエンドを前に進めるフロントエンド推進グループの紹介], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -7766,8 +7770,8 @@ https://ai-scholar.tech/articles/face-recognition/SynFace | AI技術最新情報
             <link>https://moneyforward.com/engineers_blog/2022/12/02/ios-engineer-english-study/</link>
             <guid>https://moneyforward.com/engineers_blog/?p=10978</guid>
             <pubDate>Fri, 02 Dec 2022 01:00:33 GMT</pubDate>
-            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザ...]]></description>
-            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザインマインド」と「絵（ビジュアル）」  ESLintで開発環境をエンチャント  マネーフォワードはRubyプランで Kaigi on Rails 2021 に協賛します！  もうひとつのデザインについての話をしよう  如何にしてわたしはマネーフォワードの一員になったのか   Copyright © Money Forward Engineers' Blog [私の英語学習法とその結果～iOSエンジニアの場合～], All Right Reserved. 2022.]]></content:encoded>
+            <description><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...]]></description>
+            <content:encoded><![CDATA[この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアインタビュー 鈴木信太郎「モノポリーから始まったエンジニアへの道」  全社員に「セキュリティ」への興味をもたせたい！ 社内報『月刊マネフォセキュリティ』の紹介  【クラウド勤怠】フロントエンド生産性を高めるために半年取り組んできたこと  機能開発と技術的負債の返済を両立させるシステム改善Dayのすすめ  STIとautoloadingとRails 7   Copyright © Money Forward Engineers' Blog [私の英語学習法とその結果～iOSエンジニアの場合～], All Right Reserved. 2022.]]></content:encoded>
             <category>お知らせ</category>
         </item>
         <item>
@@ -8664,20 +8668,20 @@ https://ai-scholar.tech/articles/time-series/GraphTNC | AI技術最新情報メ�
             <content:encoded><![CDATA[こんにちは。スタディサプリ小中高 / Quipper SREの@kyontanです。 この記事は Recruit Engineers Advent Calendar 2022 の1日目の記事です。 開発チームが事実に基づいて(= fact-basedな)意思決定をできるようにするための一助として、SREチームではSLO (Service Level Objective)が設定されていることをサービス公開時の要件としています。 スタディサプリ小中高におけるSLOの運用については、以前弊チームの@chaspyが SRE NEXT 2020 で「SLO Review」というタイトルで登壇しました #…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[開発の中心は仕様書 | Techtouch Developers Blog]]></title>
-            <link>https://tech.techtouch.jp/entry/product-wiki</link>
-            <guid>https://tech.techtouch.jp/entry/product-wiki</guid>
-            <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
-            <description><![CDATA[自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。]]></description>
-            <content:encoded><![CDATA[自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Hardhatで始めるDapps開発2 | テコテック開発者ブログ]]></title>
             <link>https://tec.tecotec.co.jp/entry/2022/12/01/000000</link>
             <guid>https://tec.tecotec.co.jp/entry/2022/12/01/000000</guid>
             <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
             <description><![CDATA[どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリ...]]></description>
             <content:encoded><![CDATA[どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリーズは下記の通りです。 TruffleSuiteで始めるDapps開発 - テコテック開発者ブログ TruffleSuiteで始めるDapps開発2 - テコテック開発者ブログ TruffleSuit…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[開発の中心は仕様書 | Techtouch Developers Blog]]></title>
+            <link>https://tech.techtouch.jp/entry/product-wiki</link>
+            <guid>https://tech.techtouch.jp/entry/product-wiki</guid>
+            <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
+            <description><![CDATA[自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。]]></description>
+            <content:encoded><![CDATA[自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ApolloClientからRelayに乗り換えようとして諦めた話 | バイセル Tech Blog]]></title>
@@ -8718,6 +8722,12 @@ https://ai-scholar.tech/articles/time-series/GraphTNC | AI技術最新情報メ�
             <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[2022年度 理化学研究所 筑波地区一般公開を開催しました | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2022/20221201_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2022/20221201_1/index.html</guid>
+            <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[極低温の量子流体中に現れる普遍的な力 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2022/20221201_4/index.html</link>
             <guid>https://www.riken.jp/press/2022/20221201_4/index.html</guid>
@@ -8748,12 +8758,6 @@ https://ai-scholar.tech/articles/time-series/GraphTNC | AI技術最新情報メ�
             <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
             <description><![CDATA[－データベース構築で食生活や病気との関わりを明らかに－]]></description>
             <content:encoded><![CDATA[－データベース構築で食生活や病気との関わりを明らかに－]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[2022年度 理化学研究所 筑波地区一般公開を開催しました | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2022/20221201_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2022/20221201_1/index.html</guid>
-            <pubDate>Wed, 30 Nov 2022 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[チームではじめるアジャイルメトリクス | ROXX開発者ブログ]]></title>
@@ -8939,7 +8943,7 @@ https://ai-scholar.tech/articles/time-series/GraphTNC | AI技術最新情報メ�
             <guid>http://terrytao.wordpress.com/?p=13517</guid>
             <pubDate>Wed, 30 Nov 2022 04:59:07 GMT</pubDate>
             <description><![CDATA[Rachel Greenfeld and I have just uploaded to the arXiv our paper “A counterexample to the periodic tiling conjecture“. This is the full version of the result I announced on this blog a few months ago,...]]></description>
-            <content:encoded><![CDATA[Rachel Greenfeld and I have just uploaded to the arXiv our paper “A counterexample to the periodic tiling conjecture“. This is the full version of the result I announced on this blog a few months ago, in which we disprove the periodic tiling conjecture of Grünbaum-Shephard and Lagarias-Wang. The paper took a little longer than … … Continue reading →]]></content:encoded>
+            <content:encoded><![CDATA[Rachel Greenfeld and I have just uploaded to the arXiv our paper “A counterexample to the periodic tiling conjecture“. This is the full version of the result I announced on this blog a few months ago, in which we disprove the periodic tiling conjecture of Grünbaum-Shephard and Lagarias-Wang. The paper took a little longer than […]]]></content:encoded>
             <category>math.CO</category>
             <category>paper</category>
             <category>periodic tiling conjecture</category>
@@ -9265,14 +9269,6 @@ https://ai-scholar.tech/articles/time-series/GraphTNC | AI技術最新情報メ�
             <category>hackernoon-fr</category>
             <category>hackernoon-pt</category>
             <category>hackernoon-ja</category>
-        </item>
-        <item>
-            <title><![CDATA[Cloud Run上で動く商品画像一括アップロード機能を作った話 | メルカリエンジニアリングブログ]]></title>
-            <link>https://engineering.mercari.com/blog/entry/20221129-image-uploader/</link>
-            <guid>24161</guid>
-            <pubDate>Tue, 29 Nov 2022 02:00:22 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは! ソウゾウのSoftware engineerの@gotomoです。「メルカリShops [フライング] アドベントカレンダー2022」の16日目を担当します。本記事ではメルカリShopsの商品画像 […]]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは! ソウゾウのSoftware engineerの@gotomoです。「メルカリShops [フライング] アドベントカレンダー2022」の16日目を担当します。本記事ではメルカリShopsの商品画像 […]]]></content:encoded>
         </item>
     </channel>
 </rss>
