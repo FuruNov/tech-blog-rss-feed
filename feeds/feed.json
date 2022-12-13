@@ -7,6 +7,122 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://www.klab.com/jp/blog/tech/2022/php-light-framework.html",
+            "content_html": "個人開発をしていたアプリで、レンタルサーバーを借りてサーバーサイドの開発をしていたのですが、 LaravelやZendFramework等の大手のフレームワークを使おうとしたら、必要なエクステンションのインストールができなかったため、 勉強がてら最低限必要な機能を搭載したPHPフレームワークを自作してみました。 そもそもそれらのPHPフレームワークはどうやって動いているのか？という疑問もあったので、このあたりを勉強した記録も載せます。 本稿で紹介しているフレームワークは以下のURLで公開しています。 https://github.com/KLab/Levis_PHPFramework 目標 オートローダーの実装 マイグレーション機能の搭載 APIとCMS用のWebサイトを表示する機能を実装する テンプレートシステムはTwigを使用する(要求される権限が極めて少ないため) MVCパターンを採用 オートローダーについて PHPがサポートしている可変関数の概念と呼び出したいクラスがロードされていない事がわかったタイミングで呼び出されるコールバック機能を利用して、URLから自動でコントローラと...",
+            "url": "https://www.klab.com/jp/blog/tech/2022/php-light-framework.html",
+            "title": "可変関数を駆使してテンプレートにTwigを採用したPHPフレームワークを自作してみた話 | Technology",
+            "summary": "個人開発をしていたアプリで、レンタルサーバーを借りてサーバーサイドの開発をしていたのですが、 LaravelやZendFramework等の大手のフレームワークを使おうとしたら、必要なエクステンションのインストールができなかったため、 勉強がてら最低限必要な機能を搭載したPHPフレームワークを自作してみました。 そもそもそれらのPHPフレームワークはどうやって動いているのか？という疑問もあったので...",
+            "date_modified": "2022-12-13T09:00:00.000Z",
+            "date_published": "2022-12-13T09:00:00.000Z",
+            "tags": [
+                "PHP",
+                "サーバーサイド",
+                "ノウハウ",
+                "自作紹介"
+            ]
+        },
+        {
+            "id": "https://inside.pixiv.blog/2022/12/13/180000?utm_source=feed",
+            "content_html": "みなさん、こんにちは！技術広報室のkamikoです。個性豊かな自分のアバターが、さまざまなVR/ARプラットフォームで動き回る。そんな夢のような世界を実現しているのが、VRoidプロジェクトのひとつ、VRoid SDKのサービスです。 ピクシブ株式会社としてもVRoidプロジェクト含む、新規サービスへの投資を加速しており、新しくメンバーに加わっていただける方を大募集中です。 そこで本日はSDK開発を一手に引き受けているエンジニアに、SDKが目指す未来や今後の展望、開発の面白さを聞き出すべく、インタビューをしてみました。 自己紹介をお願いします nyamadan（にゃまだん）って言います。Web…",
+            "url": "https://inside.pixiv.blog/2022/12/13/180000?utm_source=feed",
+            "title": "自分のアバターが様々なプラットフォームで動き出す！そんな夢の世界を支えるVRoid SDKの開発に加わってみませんか？ | pixiv inside",
+            "summary": "みなさん、こんにちは！技術広報室のkamikoです。個性豊かな自分のアバターが、さまざまなVR/ARプラットフォームで動き回る。そんな夢のような世界を実現しているのが、VRoidプロジェクトのひとつ、VRoid SDKのサービスです。 ピクシブ株式会社としてもVRoidプロジェクト含む、新規サービスへの投資を加速しており、新しくメンバーに加わっていただける方を大募集中です。 そこで本日はSDK開発...",
+            "date_modified": "2022-12-13T09:00:00.000Z",
+            "date_published": "2022-12-13T09:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2022/12/13/613.html",
+            "content_html": "HUAWEIが、ディスプレイを開いてイヤホンを内蔵できるスパイグッズのようなスマートウォッチ「HUAWEI WATCH Buds」を中国で発表しました。価格は2988元（約5万9000円）で、すでに発売されています。",
+            "url": "https://www.techno-edge.net/article/2022/12/13/613.html",
+            "title": "イヤホン内蔵スマートウォッチ HUAWEI WATCH Buds発売。まるでスパイグッズ | TechnoEdge",
+            "summary": "HUAWEIが、ディスプレイを開いてイヤホンを内蔵できるスパイグッズのようなスマートウォッチ「HUAWEI WATCH Buds」を中国で発表しました。価格は2988元（約5万9000円）で、すでに発売されています。",
+            "date_modified": "2022-12-13T08:31:34.000Z",
+            "date_published": "2022-12-13T08:31:34.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techracho.bpsinc.jp/?p=124979",
+            "content_html": "（この問題はRuby 3.1.3では解決済みです） 🔗 セットアップ Macbook Pro 2021（M1） macOS Ventura 13.0.1 homebrew: 3.6.12 openssl@3/3.0.7 libyaml: stable 0.2.5 (bottled) readline: stable 8.2.1 (bottled) [keg-only] gmp: stable 6.2.1 (bottled), HEAD CommandLineTools: 14.1.0.0.1.1666437224 直接関係なさそうですが、念のためBisonも3以上にアップデートしてあります↓。 Ruby 3.2 […] The post Ruby 3.1.1: M1 Macbookにcapstoneがインストールされているとビルドできない first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/hachi8833/2022_12_13/124979",
+            "title": "Ruby 3.1.1: M1 Macbookにcapstoneがインストールされているとビルドできない | TechRacho",
+            "summary": "（この問題はRuby 3.1.3では解決済みです） 🔗 セットアップ Macbook Pro 2021（M1） macOS Ventura 13.0.1 homebrew: 3.6.12 openssl@3/3.0.7 libyaml: stable 0.2.5 (bottled) readline: stable 8.2.1 (bottled) [keg-only] gmp: stable 6...",
+            "date_modified": "2022-12-13T08:30:30.000Z",
+            "date_published": "2022-12-13T08:30:30.000Z",
+            "author": {
+                "name": "hachi8833"
+            },
+            "tags": [
+                "Ruby / Rails関連",
+                "rbenv",
+                "Ruby",
+                "アドベントカレンダー2022"
+            ]
+        },
+        {
+            "id": "https://techracho.bpsinc.jp/?p=125306",
+            "content_html": "当社と、株式会社キロルは、2017年10月04日に公開したプレスリリース記事「北海道・札幌のiOS/Android開発会社、株式会社キロルへの資本参加に関するお知らせ」にてお知らせしましたとおり、資本業務提携契約を（以下、「本資本業務提携契約」といいます。）を締結し、本資本業務提携に取組んでまいりました。 この度、本資本業務提携において当事者間での協議の結果、本資本業務提携が一定の成果を得たという認識に至ったこと、今後は当社独自の成長戦略を推進してゆくことが望ましいとの判断に至ったことをふまえまして、2022年10月末日付で本資本業務提携を解消いたしましたことをお知らせいたします。 The post 株式会社キロルとの資本業務提携の解消に関するお知らせ first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/piichan1031/2022_12_13/125306",
+            "title": "株式会社キロルとの資本業務提携の解消に関するお知らせ | TechRacho",
+            "summary": "当社と、株式会社キロルは、2017年10月04日に公開したプレスリリース記事「北海道・札幌のiOS/Android開発会社、株式会社キロルへの資本参加に関するお知らせ」にてお知らせしましたとおり、資本業務提携契約を（以下、「本資本業務提携契約」といいます。）を締結し、本資本業務提携に取組んでまいりました。 この度、本資本業務提携において当事者間での協議の結果、本資本業務提携が一定の成果を得たという...",
+            "date_modified": "2022-12-13T08:30:05.000Z",
+            "date_published": "2022-12-13T08:30:05.000Z",
+            "author": {
+                "name": "渡辺 正毅"
+            },
+            "tags": [
+                "プレス・実績・お知らせ",
+                "お知らせ"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/digest/1463381.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/digest/1463381.html",
+            "title": "「艦これ改込みIME」が「鳳翔改二戦」と「強風改二」を追加して全艦に対応　ほか【ダイジェストニュース】 | 窓の杜",
+            "date_modified": "2022-12-13T08:18:14.000Z",
+            "date_published": "2022-12-13T08:18:14.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.smarthr.jp/entry/2022/12/13/171016",
+            "content_html": "今回の記事テーマは「SmartHR UIの現在」についてです。最後のSmartHR UIの記事から1年、現状共有から数えると2年...SmartHR がどう進化しているのかを説明します。 また、今回は特別企画として「社内開発者から見てSmartHR UIはどう見えているのか？」を軸に実施した社内アンケートの結果を公開します。SmartHR UIの開発の現状を通して社内の様子をご紹介できればと思います。",
+            "url": "https://tech.smarthr.jp/entry/2022/12/13/171016",
+            "title": "プロダクト体験の「インフラ」となったUIコンポーネントSmartHR UIの現在とこれから | SmartHR Tech Blog",
+            "summary": "今回の記事テーマは「SmartHR UIの現在」についてです。最後のSmartHR UIの記事から1年、現状共有から数えると2年...SmartHR がどう進化しているのかを説明します。 また、今回は特別企画として「社内開発者から見てSmartHR UIはどう見えているのか？」を軸に実施した社内アンケートの結果を公開します。SmartHR UIの開発の現状を通して社内の様子をご紹介できればと思いま...",
+            "date_modified": "2022-12-13T08:10:16.000Z",
+            "date_published": "2022-12-13T08:10:16.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://medium.com/p/c98058e5a64b",
+            "content_html": "",
+            "url": "https://mixi-developers.mixi.co.jp/cloud-cost-optimization-c98058e5a64b?source=rss----bc6b0ae5a97c---4",
+            "title": "MIXIにおけるクラウドコスト最適化術 〜 10年選手の現SREマネージャー 2名に訊く 〜 | MIXI DEVELOPERS - Medium",
+            "date_modified": "2022-12-13T08:01:49.000Z",
+            "date_published": "2022-12-13T08:01:49.000Z",
+            "author": {
+                "name": "Chihappy"
+            },
+            "tags": [
+                "cloud-cost-optimization",
+                "reinvent",
+                "cloud-cost-management",
+                "aws",
+                "site-reliability-engineer"
+            ]
+        },
+        {
+            "id": "https://rheb.hatenablog.com/entry/2022/12/13/162925",
+            "content_html": "こんにちは、ソリューションアーキテクトの蒸野（ムシノ）です。 今回は、Red Hat Summit: Connect | Japan 2022でお話させていただきました「Application Manages Servicesの紹介」を今一度ご紹介させていただけたらと思います。 過去の記事でもRed Hat マネージサービスについては既に紹介させていただいていますので、こちらをご覧ください。本記事では一部のマネージドサービスに特化した内容でご紹介をさせていただきたいと思います。 Red Hat ではマネージドサービスを推奨する理由として、次のように説明しています。 特に運用煩雑性からの開放と安…",
+            "url": "https://rheb.hatenablog.com/entry/2022/12/13/162925",
+            "title": "Red Hat Summit: Connect | Japan 2022 | Application Manages Servicesのご紹介 | 赤帽エンジニアブログ",
+            "summary": "こんにちは、ソリューションアーキテクトの蒸野（ムシノ）です。 今回は、Red Hat Summit: Connect | Japan 2022でお話させていただきました「Application Manages Servicesの紹介」を今一度ご紹介させていただけたらと思います。 過去の記事でもRed Hat マネージサービスについては既に紹介させていただいていますので、こちらをご覧ください。本記事...",
+            "date_modified": "2022-12-13T07:29:25.000Z",
+            "date_published": "2022-12-13T07:29:25.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1463334.html",
             "content_html": "米Googleは12月2日（現地時間）、「Google Chrome 108」安定版で「パスキー」（passkeys）をサポートしたと発表した。Windows 11、macOS、Androidで利用できる。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1463334.html",
@@ -40,7 +156,7 @@
             "id": "https://nitter.net/ai_scholar/status/1602560949856382976#m",
             "content_html": "新たなフレームワークである「DualNet」の他に2つのサブネットワークがうまく協調するように、反復学習と共同微調整からなる対応する学習戦略も提案されています。 ai-scholar.tech/articles/ima…",
             "url": "https://nitter.net/ai_scholar/status/1602560949856382976#m",
-            "title": "新たなフレームワークである「DualNet」の他に2つのサブネットワークがうまく協調するように、反復学習と共同微調整からなる対応する学習戦略も提案されています。\nhttps://ai-scholar.tech/articles/image-recognition/DualNet | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
+            "title": "RT by @ai_scholar: 新たなフレームワークである「DualNet」の他に2つのサブネットワークがうまく協調するように、反復学習と共同微調整からなる対応する学習戦略も提案されています。\nhttps://ai-scholar.tech/articles/image-recognition/DualNet | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar",
             "summary": "新たなフレームワークである「DualNet」の他に2つのサブネットワークがうまく協調するように、反復学習と共同微調整からなる対応する学習戦略も提案されています。 ai-scholar.tech/articles/ima…",
             "date_modified": "2022-12-13T07:07:59.000Z",
             "date_published": "2022-12-13T07:07:59.000Z",
@@ -50,13 +166,39 @@
             "tags": []
         },
         {
+            "id": "https://nitter.net/yumion7488/status/1602560598314987525#m",
+            "content_html": "cvpaper.challenge conference winter 2022の speakerdeck.com/yu1ut/ccc-wi…",
+            "url": "https://nitter.net/yumion7488/status/1602560598314987525#m",
+            "title": "RT by @CVpaperChalleng: cvpaper.challenge conference winter 2022の\n半教師あり学習の登壇資料も公開された\nhttps://speakerdeck.com/yu1ut/ccc-winter-2022-hukayomiban-jiao-shi-arixue-xi | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
+            "summary": "cvpaper.challenge conference winter 2022の speakerdeck.com/yu1ut/ccc-wi…",
+            "date_modified": "2022-12-13T07:06:35.000Z",
+            "date_published": "2022-12-13T07:06:35.000Z",
+            "author": {
+                "name": "@yumion7488"
+            },
+            "tags": []
+        },
+        {
             "id": "https://www.techno-edge.net/article/2022/12/13/612.html",
             "content_html": "あの「三体」が動く。もし視聴することが可能なら、「いきなりあのシーン？」と驚くことでしょう。",
             "url": "https://www.techno-edge.net/article/2022/12/13/612.html",
-            "title": "宇宙の終わりまで描くSF大河小説「三体」のアニメ版、驚愕の冒頭シーンで公開開始。ただし日本からは視聴できず（CloseBox） | TechnoEdge",
+            "title": "壮大すぎるSF大河小説「三体」のアニメ版、驚愕の冒頭シーンで公開開始。ただし日本からは視聴できず（CloseBox） | TechnoEdge",
             "summary": "あの「三体」が動く。もし視聴することが可能なら、「いきなりあのシーン？」と驚くことでしょう。",
             "date_modified": "2022-12-13T06:50:00.000Z",
             "date_published": "2022-12-13T06:50:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://nitter.net/K_Ryuichirou/status/1602544237111046149#m",
+            "content_html": "大規模計算機を深層学習に利用する方法｜cvpaper.challenge #note note.com/cvpaperchallenge/n/…",
+            "url": "https://nitter.net/K_Ryuichirou/status/1602544237111046149#m",
+            "title": "RT by @CVpaperChalleng: 大規模計算機を深層学習に利用する方法｜cvpaper.challenge #note https://note.com/cvpaperchallenge/n/n0ef38e4a9684 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
+            "summary": "大規模計算機を深層学習に利用する方法｜cvpaper.challenge #note note.com/cvpaperchallenge/n/…",
+            "date_modified": "2022-12-13T06:01:34.000Z",
+            "date_published": "2022-12-13T06:01:34.000Z",
+            "author": {
+                "name": "@K_Ryuichirou"
+            },
             "tags": []
         },
         {
@@ -216,7 +358,7 @@
         },
         {
             "id": "https://techblog.cartaholdings.co.jp/entry/2022/12/13/120000",
-            "content_html": "CARTA HOLDINGS fluct エンジニアのyanyanです。 2022年はそれなりに技術書を読み漁ったので、印象に残っていたいくつかの本について感想をカジュアルに述べていこうと思います。 A Philosophy of Software Design いきなり洋書なんですが、ソフトウェアの複雑性とは？というのを知るのにはかなりいい本でした。実際この本きっかけで普段書くコードに対して認知負荷とか考えるようになりました。 実は最後まで読んでません。 APoSDはCARTA HOLDINGS 社内のエンジニアと @t_wadaさんによる読書会も行われています。自分も何回か参加しましたが、…",
+            "content_html": "CARTA HOLDINGS fluct エンジニアのyanyanです。 2022年はそれなりに技術書を読み漁ったので、印象に残っていたいくつかの本について感想をカジュアルに述べていこうと思います。 A Philosophy of Software Design いきなり洋書なんですが、ソフトウェアの複雑性とは？というのを知るのにはかなりいい本でした。実際この本きっかけで普段書くコードに対して認知負荷とか考えるようになりました。 実は最後まで読んでません。 APoSD(A Philosophy of Software Design)はCARTA HOLDINGS 社内のエンジニアと @t_wa…",
             "url": "https://techblog.cartaholdings.co.jp/entry/2022/12/13/120000",
             "title": "今年読んだ技術書の感想を一言ずつ述べていく | CARTA TECH BLOG",
             "summary": "CARTA HOLDINGS fluct エンジニアのyanyanです。 2022年はそれなりに技術書を読み漁ったので、印象に残っていたいくつかの本について感想をカジュアルに述べていこうと思います。 A Philosophy of Software Design いきなり洋書なんですが、ソフトウェアの複雑性とは？というのを知るのにはかなりいい本でした。実際この本きっかけで普段書くコードに対して認知...",
@@ -457,6 +599,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/sagae_twins_developper/items/d17c516b4ee4133a71a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "こんにちはISSUEの寒河江です。 今回はエージェントなどの紹介サービスを利用せずに業務委託エンジニアの仕事を獲得方法を説明します。ISSUEというクラウドソーシングサービスを立ち上げる中で、雇用者…",
+            "url": "https://qiita.com/sagae_twins_developper/items/d17c516b4ee4133a71a7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "業務委託エンジニアの自力案件獲得術 | Qiita - 人気の記事",
+            "summary": "こんにちはISSUEの寒河江です。 今回はエージェントなどの紹介サービスを利用せずに業務委託エンジニアの仕事を獲得方法を説明します。ISSUEというクラウドソーシングサービスを立ち上げる中で、雇用者…",
+            "date_modified": "2022-12-13T01:46:47.000Z",
+            "date_published": "2022-12-13T01:46:47.000Z",
+            "tags": []
+        },
+        {
             "id": "https://creators-note.chatwork.com/entry/2022/12/13/103922",
             "content_html": "はじめまして、サーバーサイド開発部（Scala）の阿部（rabe1028）です。 業務ではScalaを書いていますが、一番好きな言語はRustです。 Chatwork Advent Calendar 2022 13日目の記事です。 昨年から今年の頭にかけて実施したシステム移行のお話をチームメンバーを代表して書こうと思います。 *1 *1:一緒に移行を担当したチームメンバーには最後までお世話になりました。ありがとうございました。",
             "url": "https://creators-note.chatwork.com/entry/2022/12/13/103922",
@@ -533,10 +685,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11157",
-            "content_html": "この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードCTOが考えていること（2020年3月）  strong_migrations gemのススメ  マネーフォワードのコーポレートエンジニアがやっているSaaSの障害検知方法  マネーフォワードエンジニアインタビュー 金子雄一郎「経理から会計の未来をつくるエンジニアへ」  最近のruby-core (2016年6月)   Copyright © Money Forward Engineers' Blog [チーム運営の仮説検証サイクルを高速化させるために、新卒スクラムマスターが取り組んだこと], All Right Reserved. 2022.",
+            "content_html": "この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チームでワークショップをしたら「外化しようぜ！」が共通言語になった話  エンジニアが技術広報に取り組んだ奮闘記 2021年上期  Refactoring Terraform with moved blocks  ZapierでSlackMessageをParseして外部システムとつなぐ  マネーフォワードの未来について語る会を開催   Copyright © Money Forward Engineers' Blog [チーム運営の仮説検証サイクルを高速化させるために、新卒スクラムマスターが取り組んだこと], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/13/shinsotsu-scrum-master/",
             "title": "チーム運営の仮説検証サイクルを高速化させるために、新卒スクラムマスターが取り組んだこと | Money Forward Engineers' Blog",
-            "summary": "この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフ...",
+            "summary": "この記事はMoney Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 開発チー...",
             "date_modified": "2022-12-13T01:00:25.000Z",
             "date_published": "2022-12-13T01:00:25.000Z",
             "author": {
@@ -547,21 +699,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day13",
-            "content_html": "目次 目次 はじめに そもそもGPTとは 日本語データセットで学習されたGPT 入力文章 GPTによる生成コード 出力結果 ChatGPTで生成 まとめ ABEJAについて はじめに 本記事はABEJAアドベントカレンダー2022の13日目の記事です。 こんにちは！カスタマーサクセス統括部 データサイエンスグループでインターンをやらせていただいている村尾(@MURA_omura)です。 私は高専の専攻科生で、現在GANsを用いた音声生成に関する研究に取り組んでいます。 高専といえばYouTubeで100万人の登録者がいるかっつーさんや、生活に技術を取り込むのが上手なラムダ技術部さんが有名です。…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day13",
-            "title": "GPTでKey作品の名言から文章を生成してみた | ABEJA Tech Blog",
-            "summary": "目次 目次 はじめに そもそもGPTとは 日本語データセットで学習されたGPT 入力文章 GPTによる生成コード 出力結果 ChatGPTで生成 まとめ ABEJAについて はじめに 本記事はABEJAアドベントカレンダー2022の13日目の記事です。 こんにちは！カスタマーサクセス統括部 データサイエンスグループでインターンをやらせていただいている村尾(@MURA_omura)です。 私は高専の...",
-            "date_modified": "2022-12-13T01:00:00.000Z",
-            "date_published": "2022-12-13T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/13/100000",
             "content_html": "アンドパッドでVPoE をやっている @gessy0129 です。 こちらはANDPADのカレンダー | Advent Calendar 2022 - Qiitaの13日目の記事です。 かつ こちらは開発生産性のカレンダー | Advent Calendar 2022 - Qiita の13日目の記事です。 量産しようと思ったのですが、 VPoE から話すならこれだろうという事で、同じものにさせて頂きました。 開発生産性を語る上で、アンドパッドとして大切にしていることをお伝えできればと思います。 d/d/d やfour keys などそこらへんの運用は他の方をご参考に！ ミィーティング時間が細…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/13/100000",
             "title": "ANDPADが考える生産性を語る上で大切にしたい3つの考え方 | ANDPAD Tech Blog",
             "summary": "アンドパッドでVPoE をやっている @gessy0129 です。 こちらはANDPADのカレンダー | Advent Calendar 2022 - Qiitaの13日目の記事です。 かつ こちらは開発生産性のカレンダー | Advent Calendar 2022 - Qiita の13日目の記事です。 量産しようと思ったのですが、 VPoE から話すならこれだろうという事で、同じものにさせて...",
+            "date_modified": "2022-12-13T01:00:00.000Z",
+            "date_published": "2022-12-13T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day13",
+            "content_html": "目次 目次 はじめに そもそもGPTとは 日本語データセットで学習されたGPT 入力文章 GPTによる生成コード 出力結果 ChatGPTで生成 まとめ ABEJAについて はじめに 本記事はABEJAアドベントカレンダー2022の13日目の記事です。 こんにちは！カスタマーサクセス統括部 データサイエンスグループでインターンをやらせていただいている村尾(@MURA_omura)です。 私は高専の専攻科生で、現在GANsを用いた音声生成に関する研究に取り組んでいます。 高専といえばYouTubeで100万人の登録者がいるかっつーさんや、生活に技術を取り込むのが上手なラムダ技術部さんが有名です。…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day13",
+            "title": "GPTでKey作品の名言から文章を生成してみた | ABEJA Tech Blog",
+            "summary": "目次 目次 はじめに そもそもGPTとは 日本語データセットで学習されたGPT 入力文章 GPTによる生成コード 出力結果 ChatGPTで生成 まとめ ABEJAについて はじめに 本記事はABEJAアドベントカレンダー2022の13日目の記事です。 こんにちは！カスタマーサクセス統括部 データサイエンスグループでインターンをやらせていただいている村尾(@MURA_omura)です。 私は高専の...",
             "date_modified": "2022-12-13T01:00:00.000Z",
             "date_published": "2022-12-13T01:00:00.000Z",
             "tags": []
@@ -711,6 +863,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/ouauai/items/d38eeef9f0af5a4a87da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事はNuco Advent Calendar 2022の13日目の記事です はじめに 私は情報系の学部に通う大学４年生です。大学でプログラミングを学んだことをきっかけに、プログラミングを使用し…",
+            "url": "https://qiita.com/ouauai/items/d38eeef9f0af5a4a87da?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "知らないと恥ずかしいコードレビューで指摘されがちなポイント14選 | Qiita - 人気の記事",
+            "summary": "この記事はNuco Advent Calendar 2022の13日目の記事です はじめに 私は情報系の学部に通う大学４年生です。大学でプログラミングを学んだことをきっかけに、プログラミングを使用し…",
+            "date_modified": "2022-12-13T00:13:30.000Z",
+            "date_published": "2022-12-13T00:13:30.000Z",
+            "tags": []
+        },
+        {
             "id": "https://nitter.net/CVpaperChalleng/status/1602455419955605504#m",
             "content_html": "受付は本日お昼休憩まで（〜12/13 13:00）なら間に合うようにしました！！！！ nitter.net/CVpaperChalleng/status/1593086367504150528#m",
             "url": "https://nitter.net/CVpaperChalleng/status/1602455419955605504#m",
@@ -802,6 +964,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/KanNishida/items/1a4c809cd63a5a82c3e7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "さようなら、データサイエンス！ この10年近く、世の中には大風呂敷を広げたデータサイエンスのプロジェクトがたくさんありました。どこかに貯めたビッグデータを使い、様々なデータをつなぎ合わせ、最新のA…",
+            "url": "https://qiita.com/KanNishida/items/1a4c809cd63a5a82c3e7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "さようなら、クレイジー・データサイエンス！ | Qiita - 人気の記事",
+            "summary": "さようなら、データサイエンス！ この10年近く、世の中には大風呂敷を広げたデータサイエンスのプロジェクトがたくさんありました。どこかに貯めたビッグデータを使い、様々なデータをつなぎ合わせ、最新のA…",
+            "date_modified": "2022-12-12T23:42:26.000Z",
+            "date_published": "2022-12-12T23:42:26.000Z",
+            "tags": []
+        },
+        {
             "id": "https://tech.isid.co.jp/entry/2022/12/13/%E8%AB%96%E6%96%87%E7%B4%B9%E4%BB%8B%EF%BC%9A%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3GO%E3%81%AF%E3%81%86%E3%81%A4%E3%81%AB%E5%8A%B9%E3%81%8F%E3%82%89%E3%81%97%E3%81%84",
             "content_html": "電通国際情報サービス Advent Calendar 2022 の12/13の記事です。 XI本部 オープンイノベーションラボの飯田です。 今回は、ヘルスケア×ITっぽい領域の論文の紹介になります。 最近、デジタルヘルスやデジタルセラピューティクス（DTx）といった、デジタル技術で病気の予防や診断・治療を支援することがトレンドになってきています。 ISIDでも、VRをつかった幻肢痛に対するセラピーや錐体外路症状（EPS）重症度判定など、ヘルスケア×ITの取り組みを進めています。 www.isid.co.jp www.isid.co.jp 業務インプットのために医療×ITの論文を調べていて、面白…",
             "url": "https://tech.isid.co.jp/entry/2022/12/13/%E8%AB%96%E6%96%87%E7%B4%B9%E4%BB%8B%EF%BC%9A%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3GO%E3%81%AF%E3%81%86%E3%81%A4%E3%81%AB%E5%8A%B9%E3%81%8F%E3%82%89%E3%81%97%E3%81%84",
@@ -809,6 +981,16 @@
             "summary": "電通国際情報サービス Advent Calendar 2022 の12/13の記事です。 XI本部 オープンイノベーションラボの飯田です。 今回は、ヘルスケア×ITっぽい領域の論文の紹介になります。 最近、デジタルヘルスやデジタルセラピューティクス（DTx）といった、デジタル技術で病気の予防や診断・治療を支援することがトレンドになってきています。 ISIDでも、VRをつかった幻肢痛に対するセラピー...",
             "date_modified": "2022-12-12T23:00:00.000Z",
             "date_published": "2022-12-12T23:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/john-Q/items/8b42d56b0be4ec63edb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに はじめまして、「拳で」 と申します。 NRI OpenStandia Advent Calendar 2022の13日目は ワイのGitHubリポジトリおすすめ設定(2022年 決定版) …",
+            "url": "https://qiita.com/john-Q/items/8b42d56b0be4ec63edb4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ワイのGitHubリポジトリおすすめ設定(2022年 決定版) | Qiita - 人気の記事",
+            "summary": "はじめに はじめまして、「拳で」 と申します。 NRI OpenStandia Advent Calendar 2022の13日目は ワイのGitHubリポジトリおすすめ設定(2022年 決定版) …",
+            "date_modified": "2022-12-12T22:33:22.000Z",
+            "date_published": "2022-12-12T22:33:22.000Z",
             "tags": []
         },
         {
@@ -840,6 +1022,46 @@
             ]
         },
         {
+            "id": "https://qiita.com/nakaan/items/370c2d4de01524a9c267?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "アイスタイル Advent Calendar 2022 13日目の記事です。 みなさま、こんにちは！ 最近久しぶりに歯医者に行ったら「歯磨きが上手ですね」と褒められて、毎日長時間歯を眺めてるnaka…",
+            "url": "https://qiita.com/nakaan/items/370c2d4de01524a9c267?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "クリスマスなのでサンタさんがプレゼントを集めるゲームを作る | Qiita - 人気の記事",
+            "summary": "アイスタイル Advent Calendar 2022 13日目の記事です。 みなさま、こんにちは！ 最近久しぶりに歯医者に行ったら「歯磨きが上手ですね」と褒められて、毎日長時間歯を眺めてるnaka…",
+            "date_modified": "2022-12-12T22:04:30.000Z",
+            "date_published": "2022-12-12T22:04:30.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/yugoes1021/items/135134e840d915856db3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 本記事は Microsoft Power BI Advent Calendar 2022 のカレンダー1 - 13日目の投稿です。 本記事では、今年お仕事でいろんな方へレクチャーなりコンサ…",
+            "url": "https://qiita.com/yugoes1021/items/135134e840d915856db3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "[初学者へ向けて] Power BI で基本を守る大切さ と 今から学ぶ難しさについて | Qiita - 人気の記事",
+            "summary": "はじめに 本記事は Microsoft Power BI Advent Calendar 2022 のカレンダー1 - 13日目の投稿です。 本記事では、今年お仕事でいろんな方へレクチャーなりコンサ…",
+            "date_modified": "2022-12-12T22:03:56.000Z",
+            "date_published": "2022-12-12T22:03:56.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/bassa_mokumoku/items/30b86d9849b3d69c0816?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに こんにちは！(^O^) RUNTEQで、未経験からのWebエンジニア転職を目指して学習中のニョロニョロです🍄 この度、〜毎日投稿イベント Advent Calendar 2022~に参加さ…",
+            "url": "https://qiita.com/bassa_mokumoku/items/30b86d9849b3d69c0816?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "MySQLのバージョンを8系から5系に落とした際のSQL起動エラー解決までの備忘録（The server quit without updating PID file ~~~） | Qiita - 人気の記事",
+            "summary": "はじめに こんにちは！(^O^) RUNTEQで、未経験からのWebエンジニア転職を目指して学習中のニョロニョロです🍄 この度、〜毎日投稿イベント Advent Calendar 2022~に参加さ…",
+            "date_modified": "2022-12-12T22:02:35.000Z",
+            "date_published": "2022-12-12T22:02:35.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/hikari_yyy/items/2659ecd3407456a14f00?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事は株式会社ビットキー Advent Calendar 2022 13日目の記事です。 User Experience Designの[Hikari Yoshioka | @hikari_yyy]が担当します…",
+            "url": "https://qiita.com/hikari_yyy/items/2659ecd3407456a14f00?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "事業会社のUI/UXデザイナーがデザイン領域外へ寄り道する理由 | Qiita - 人気の記事",
+            "summary": "この記事は株式会社ビットキー Advent Calendar 2022 13日目の記事です。 User Experience Designの[Hikari Yoshioka | @hikari_yyy]が担当します…",
+            "date_modified": "2022-12-12T22:02:24.000Z",
+            "date_published": "2022-12-12T22:02:24.000Z",
+            "tags": []
+        },
+        {
             "id": "https://medium.com/p/83db00baf42d",
             "content_html": "",
             "url": "https://studist.tech/cidr-ip-restriction-with-mysql-and-ruby-83db00baf42d?source=rss----1b85cc1f989a---4",
@@ -856,6 +1078,16 @@
                 "cidr",
                 "ruby"
             ]
+        },
+        {
+            "id": "https://qiita.com/tantanian/items/f7cbd7c1a64f385fc954?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめまして、こんにちは。 探耽（たんたん）と申します(⌒▽⌒) ( ｀・∀・´)ﾉﾖﾛｼｸお願いいたします！ きっかけ(*'▽')  『ナビつき！つくってわかる はじめてゲームプログラミング』（以下、はじプ…",
+            "url": "https://qiita.com/tantanian/items/f7cbd7c1a64f385fc954?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "はじプロを手にする前とその後 | Qiita - 人気の記事",
+            "summary": "はじめまして、こんにちは。 探耽（たんたん）と申します(⌒▽⌒) ( ｀・∀・´)ﾉﾖﾛｼｸお願いいたします！ きっかけ(*'▽')  『ナビつき！つくってわかる はじめてゲームプログラミング』（以下、はじプ…",
+            "date_modified": "2022-12-12T22:00:56.000Z",
+            "date_published": "2022-12-12T22:00:56.000Z",
+            "tags": []
         },
         {
             "id": "https://tech.enigmo.co.jp/entry/2022/12/13/070000",
@@ -875,6 +1107,16 @@
             "summary": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
             "date_modified": "2022-12-12T21:55:00.000Z",
             "date_published": "2022-12-12T21:55:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/tsukapon/items/90d18c565936ac3e2c3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  佐賀県の小売業（着物ローカルチェーン 約８０店舗）で情シス（現在2名）をしています。 ＩＴとはかけ離れた業種（着物屋）で、かつＩＴリテラシーがとても低い企業ですが少しでもＩＴリテラシーを…",
+            "url": "https://qiita.com/tsukapon/items/90d18c565936ac3e2c3b?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Power Appsにて社内アプリを作成しリリースを行い1カ月経過してみて | Qiita - 人気の記事",
+            "summary": "はじめに  佐賀県の小売業（着物ローカルチェーン 約８０店舗）で情シス（現在2名）をしています。 ＩＴとはかけ離れた業種（着物屋）で、かつＩＴリテラシーがとても低い企業ですが少しでもＩＴリテラシーを…",
+            "date_modified": "2022-12-12T21:23:04.000Z",
+            "date_published": "2022-12-12T21:23:04.000Z",
             "tags": []
         },
         {
@@ -908,6 +1150,16 @@
                 "KDnuggets Originals",
                 "Machine Learning"
             ]
+        },
+        {
+            "id": "https://qiita.com/ti_aiuto/items/5ef2a8c17377c70f63c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事はLITALICO Advent Calendar 2022のカレンダー1の13日目の記事です。 https://qiita.com/advent-calendar/2022/litali…",
+            "url": "https://qiita.com/ti_aiuto/items/5ef2a8c17377c70f63c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Core Web Vitalsを改善してスコアを13点から68点に上げた話(進め方・やったこと・効果) | Qiita - 人気の記事",
+            "summary": "この記事はLITALICO Advent Calendar 2022のカレンダー1の13日目の記事です。 https://qiita.com/advent-calendar/2022/litali…",
+            "date_modified": "2022-12-12T15:24:59.000Z",
+            "date_published": "2022-12-12T15:24:59.000Z",
+            "tags": []
         },
         {
             "id": "https://techblog.gmo-ap.jp/?p=29916",
@@ -1078,6 +1330,16 @@
             "author": {
                 "name": "TF"
             },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/YusukeHosonuma/items/dc986c408e14106caf29?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "SwiftUI Advent Calendar 2022 の12日目の記事です。 iOSアプリによく見られる、選択中のタブがもう一度タップされたら上までスクロール、というのをSwiftUIでやってみ…",
+            "url": "https://qiita.com/YusukeHosonuma/items/dc986c408e14106caf29?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "[SwiftUI] タブがタップされた時に上までスクロールする。あるいはそれを共通化する話。 | Qiita - 人気の記事",
+            "summary": "SwiftUI Advent Calendar 2022 の12日目の記事です。 iOSアプリによく見られる、選択中のタブがもう一度タップされたら上までスクロール、というのをSwiftUIでやってみ…",
+            "date_modified": "2022-12-12T12:24:41.000Z",
+            "date_published": "2022-12-12T12:24:41.000Z",
             "tags": []
         },
         {
@@ -1295,6 +1557,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/alclimb/items/91d9183aed12fd6db4f8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "プロローグ 今までは、プログラミングを自分で行うのが当たり前だったのだが、今回は新しいチャレンジをしようと思った。そのために、当時流行していた「ChatGPT」という人工知能を使ったプログラミング支…",
+            "url": "https://qiita.com/alclimb/items/91d9183aed12fd6db4f8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ChatGPTさんに企画候補・企画書の生成・コーディングまでやってもらった (小説風) | Qiita - 人気の記事",
+            "summary": "プロローグ 今までは、プログラミングを自分で行うのが当たり前だったのだが、今回は新しいチャレンジをしようと思った。そのために、当時流行していた「ChatGPT」という人工知能を使ったプログラミング支…",
+            "date_modified": "2022-12-12T08:50:47.000Z",
+            "date_published": "2022-12-12T08:50:47.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1463037.html",
             "content_html": "AIアートグランプリ実行委員会は12月12日、ドスパラ（株式会社サードウェーブ）との共催で、第1回「AIアートグランプリ」を開催することを宣言した。グランプリ受賞者には賞金10万円とGeForce RTX 4080搭載PC「GALLERIA」が贈られる。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1463037.html",
@@ -1302,19 +1574,6 @@
             "summary": "AIアートグランプリ実行委員会は12月12日、ドスパラ（株式会社サードウェーブ）との共催で、第1回「AIアートグランプリ」を開催することを宣言した。グランプリ受賞者には賞金10万円とGeForce RTX 4080搭載PC「GALLERIA」が贈られる。",
             "date_modified": "2022-12-12T08:46:16.000Z",
             "date_published": "2022-12-12T08:46:16.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://nitter.net/dahlian0/status/1602221310448656390#m",
-            "content_html": "こちらついに明日となりました! まだご登録間に合います🏃‍♂️💨 nitter.net/CVpaperChalleng/status/1602216698861715456#m",
-            "url": "https://nitter.net/dahlian0/status/1602221310448656390#m",
-            "title": "RT by @CVpaperChalleng: こちらついに明日となりました! まだご登録間に合います🏃‍♂️💨　\n皆様のご参加、お待ちしております！ | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "こちらついに明日となりました! まだご登録間に合います🏃‍♂️💨 nitter.net/CVpaperChalleng/status/1602216698861715456#m",
-            "date_modified": "2022-12-12T08:38:22.000Z",
-            "date_published": "2022-12-12T08:38:22.000Z",
-            "author": {
-                "name": "@dahlian0"
-            },
             "tags": []
         },
         {
@@ -1537,6 +1796,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/katsuya_tanaka/items/647315c4c5b4cea9a440?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに はじめまして。 リンクアンドモチベーションでエンジニアをしている田中です。 まだまだ若輩者のエンジニアですが 直近、データ移行タスクに挑戦する機会があり、大事な観点を特に3点学んだのでこの…",
+            "url": "https://qiita.com/katsuya_tanaka/items/647315c4c5b4cea9a440?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "データ移行をして学んだ3つのこと | Qiita - 人気の記事",
+            "summary": "はじめに はじめまして。 リンクアンドモチベーションでエンジニアをしている田中です。 まだまだ若輩者のエンジニアですが 直近、データ移行タスクに挑戦する機会があり、大事な観点を特に3点学んだのでこの…",
+            "date_modified": "2022-12-12T05:29:03.000Z",
+            "date_published": "2022-12-12T05:29:03.000Z",
+            "tags": []
+        },
+        {
             "id": "https://blog.studysapuri.jp/entry/gql-codegen-ts-react-apollo-memories",
             "content_html": "プロジェクト内で使っている @graphql-codegen/typescript-react-apollo package との思い出を書き綴りました。",
             "url": "https://blog.studysapuri.jp/entry/gql-codegen-ts-react-apollo-memories",
@@ -1659,6 +1928,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/yoshii0110/items/cbbfe797845dfa7e181d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "概要  2022年4月頃に、AWS のコンテナヒーロである Vlad Ionescu が Amazon ECS でのコンテナスケーリング時の起動速度をまとめたブログが公開された。 今回は、ブログを読み…",
+            "url": "https://qiita.com/yoshii0110/items/cbbfe797845dfa7e181d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "AWS側がしてきたECS / Fargate のスケーリング速度改善の話 | Qiita - 人気の記事",
+            "summary": "概要  2022年4月頃に、AWS のコンテナヒーロである Vlad Ionescu が Amazon ECS でのコンテナスケーリング時の起動速度をまとめたブログが公開された。 今回は、ブログを読み…",
+            "date_modified": "2022-12-12T03:56:10.000Z",
+            "date_published": "2022-12-12T03:56:10.000Z",
+            "tags": []
+        },
+        {
             "id": "hatenablog://entry/4207112889943460015",
             "content_html": "皆さんこんにちは 機械学習チーム YAMALEXチームの@tereka114です。最近、寒いので、鍋を中心に食べて生きています。 そもそもなぜ、Pandasのメモリ削減技術が必要なのか 準備 Pandasのメモリ削減 1. 型修正 2. 逐次読み込み 3. 読み込み時の型指定 4. 逐次読み込み＆集約 5. 不要なものを読み込まない 6. 不要なカラム／DataFrameを消す 番外編：そもそもPandasを利用しない 最後に そもそもなぜ、Pandasのメモリ削減技術が必要なのか Pandasで扱うデータの多くのファイルはCSV,Parquet, JSON（JSONL）になります。 準備 まずは、データを準備します。 import pandas as pd import numpy as np  N = 10000000 df = pd.DataFrame({  \"id\": [i for i in range(N)],  \"user_id\": np.array([\"user_0\", \"user_1\", \"user_2\", \"user_3\",\"user_4\", \"user_5\"])[n...",
             "url": "https://acro-engineer.hatenablog.com/entry/2022/12/12/124822",
@@ -1727,10 +2006,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11152",
-            "content_html": "はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードHR領域プロダクトでの不具合分析の取り組み（導入編）  Day1からData Informedを実現するAmazon QuickSight  CircleCIのPerformance Planが控え目に言って最高という話  Reacji Channelerを使って楽をしようとしたら情弱であることを晒してしまった…の巻  ARは二度死なない   Copyright © Money Forward Engineers' Blog [Kotlin Fest 2022 登壇レポート], All Right Reserved. 2022.",
+            "content_html": "はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: RubyKaigi Takeout 2021 のプラチナスポンサーでの協賛をします！  MoneyForward Meetupレポート「さぁB2Bサービスを爆速で開発しよう」  マネーフォワード社内PRに見られるRubyの書き方について - (3) 文字列の生成や検証  グループ会社横断でシングルサインオンをできるようにしてみた  Railsのnew_framework_defaultsとの向き合い方   Copyright © Money Forward Engineers' Blog [Kotlin Fest 2022 登壇レポート], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/12/event-report-kotlin-fest-2022/",
             "title": "Kotlin Fest 2022 登壇レポート | Money Forward Engineers' Blog",
-            "summary": "はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
+            "summary": "はじめに こんにちわとこんばんは、Androidエンジニアの@nyafunta9 … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rub...",
             "date_modified": "2022-12-12T03:00:07.000Z",
             "date_published": "2022-12-12T03:00:07.000Z",
             "author": {
@@ -1809,19 +2088,6 @@
                 "トラッキング",
                 "人間行動学"
             ]
-        },
-        {
-            "id": "https://nitter.net/tkaytkuy/status/1602133118923653120#m",
-            "content_html": "明日（12/13）開催の「cvpaper.challenge Conference winter 2022」に #vitbook の執筆者のお二人（@omiita_atiimo , @sei_shinagawa）が登壇されます！（14:10〜） 注目の話題ばかりで楽しみ research-p.com/event/955",
-            "url": "https://nitter.net/tkaytkuy/status/1602133118923653120#m",
-            "title": "RT by @CVpaperChalleng: 明日（12/13）開催の「cvpaper.challenge Conference winter 2022」に #vitbook の執筆者のお二人（@omiita_atiimo , @sei_shinagawa）が登壇されます！（14:10〜）　注目の話題ばかりで楽しみ\nhttps://research-p.com/event/955 | cvpaper.challenge | AI/CV研究コミュニティ / @CVpaperChalleng",
-            "summary": "明日（12/13）開催の「cvpaper.challenge Conference winter 2022」に #vitbook の執筆者のお二人（@omiita_atiimo , @sei_shinagawa）が登壇されます！（14:10〜） 注目の話題ばかりで楽しみ research-p.com/event/955",
-            "date_modified": "2022-12-12T02:47:56.000Z",
-            "date_published": "2022-12-12T02:47:56.000Z",
-            "author": {
-                "name": "@tkaytkuy"
-            },
-            "tags": []
         },
         {
             "id": "https://forest.watch.impress.co.jp/docs/serial/accessranking/1462828.html",
@@ -1971,10 +2237,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11067",
-            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Day1からData Informedを実現するAmazon QuickSight  広告と三方よし  OAuth 2.0 認可コードグラントフローについて理解したことをまとめます  金融機関様向けのPFMサービス 第一弾リリース！  RubyMineに開発用コマンドを登録してチームで共有しよう   Copyright © Money Forward Engineers' Blog [Agile Testing Days 2022に参加してきました！], All Right Reserved. 2022.",
+            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）  開発チームで業務知識を獲得するための取り組み  エンジンの Rails を 4.2 にアップグレードした話  【速報】RubyKaigi 2014レポ：Hypermedia: the Missing Element to Building Adaptable Web APIs in Rails  もし年末に夏休みが取れたら京都に行こう！   Copyright © Money Forward Engineers' Blog [Agile Testing Days 2022に...",
             "url": "https://moneyforward.com/engineers_blog/2022/12/12/agile-testing-days-2022/",
             "title": "Agile Testing Days 2022に参加してきました！ | Money Forward Engineers' Blog",
-            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Day...",
+            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Cod...",
             "date_modified": "2022-12-12T01:00:46.000Z",
             "date_published": "2022-12-12T01:00:46.000Z",
             "author": {
@@ -1985,21 +2251,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day12",
-            "content_html": "こちらは ABEJA アドベントカレンダー 12日目の記事です。 こんにちは。CTO室の村主です。セキュリティ強化も自組織の役割であるため、ABEJAのセキュリティ対策に関する内容を共有したいと思います。 はじめに trufflehog（トリュフホッグ） クレデンシャルの埋め込みに対する取り組み 1. まず現在のリポジトリがクリーンな状態を担保するために、全リポジトリをスキャンしました（1,000以上…） 2. 次に新しいコミットに対してクレデンシャルが埋め込まれないように全エンジニアに pre-commit に trufflehog を設定してもらいました 3. そこで、GitHub Act…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day12",
-            "title": "trufflehog x pre-commit & GitHub Actions で GitHubのセキュリティを強化したってばよ | ABEJA Tech Blog",
-            "summary": "こちらは ABEJA アドベントカレンダー 12日目の記事です。 こんにちは。CTO室の村主です。セキュリティ強化も自組織の役割であるため、ABEJAのセキュリティ対策に関する内容を共有したいと思います。 はじめに trufflehog（トリュフホッグ） クレデンシャルの埋め込みに対する取り組み 1. まず現在のリポジトリがクリーンな状態を担保するために、全リポジトリをスキャンしました（1,000...",
-            "date_modified": "2022-12-12T01:00:00.000Z",
-            "date_published": "2022-12-12T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/12/100000",
             "content_html": "前置き この記事は ANDPAD Advent Calendar 2022 の 12日目の記事です。 全力で身内ネタですがQCの冨士川さんの韻を踏む記事で大量に並ぶラップ音声ファイルを見て腹抱えて笑いました。果たして全部聞いた人はいるのか……！？この位のゆるさが好き。 お久しぶりです、バックエンドのtomtwinkleです。 ANDPADボードのバックエンドリードエンジニアをしております。 今回の記事は「ちょっと早めの忘年Goパーティ」で発表したLTの内容の解説コーナーです。レッツトランスフォーム！ voicy.connpass.com https://speakerdeck.com/tomt…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/12/100000",
             "title": "Go の x/text/transform を自作する方法 & おもしろ実装サンプル | ANDPAD Tech Blog",
             "summary": "前置き この記事は ANDPAD Advent Calendar 2022 の 12日目の記事です。 全力で身内ネタですがQCの冨士川さんの韻を踏む記事で大量に並ぶラップ音声ファイルを見て腹抱えて笑いました。果たして全部聞いた人はいるのか……！？この位のゆるさが好き。 お久しぶりです、バックエンドのtomtwinkleです。 ANDPADボードのバックエンドリードエンジニアをしております。 今回の...",
+            "date_modified": "2022-12-12T01:00:00.000Z",
+            "date_published": "2022-12-12T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day12",
+            "content_html": "こちらは ABEJA アドベントカレンダー 12日目の記事です。 こんにちは。CTO室の村主です。セキュリティ強化も自組織の役割であるため、ABEJAのセキュリティ対策に関する内容を共有したいと思います。 はじめに trufflehog（トリュフホッグ） クレデンシャルの埋め込みに対する取り組み 1. まず現在のリポジトリがクリーンな状態を担保するために、全リポジトリをスキャンしました（1,000以上…） 2. 次に新しいコミットに対してクレデンシャルが埋め込まれないように全エンジニアに pre-commit に trufflehog を設定してもらいました 3. そこで、GitHub Act…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day12",
+            "title": "trufflehog x pre-commit & GitHub Actions で GitHubのセキュリティを強化したってばよ | ABEJA Tech Blog",
+            "summary": "こちらは ABEJA アドベントカレンダー 12日目の記事です。 こんにちは。CTO室の村主です。セキュリティ強化も自組織の役割であるため、ABEJAのセキュリティ対策に関する内容を共有したいと思います。 はじめに trufflehog（トリュフホッグ） クレデンシャルの埋め込みに対する取り組み 1. まず現在のリポジトリがクリーンな状態を担保するために、全リポジトリをスキャンしました（1,000...",
             "date_modified": "2022-12-12T01:00:00.000Z",
             "date_published": "2022-12-12T01:00:00.000Z",
             "tags": []
@@ -2052,16 +2318,6 @@
             "summary": "こんにちは！！虎の穴ラボ 新規開発チームのgodanです。 本記事は 虎の穴ラボ Advent Calendar 202212日の記事です。 アドベントカレンダーを書いてると年の瀬が迫っているのを実感します。 昨日はT.Mさんで「AWSのコンテナツール、Finchを動かしてみる」でした。Finchのロゴは個人的に結構好みなので気になっていました。自分もブログを読みながら試してみたいと思います。 G...",
             "date_modified": "2022-12-12T01:00:00.000Z",
             "date_published": "2022-12-12T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/seunghwan_lee/items/b24ea21208395c705b48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "🎅 この記事は「【マイスター・ギルド】本物のAdvent Calendar 2022」8日目の記事です。 0. これちょっとおかしくないですか？  なぜか調べてみよう🤔 1. RAM(Random-a…",
-            "url": "https://qiita.com/seunghwan_lee/items/b24ea21208395c705b48?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "[computer science] 1.1 + 0.1 ≠ 1.2 | Qiita - 人気の記事",
-            "summary": "🎅 この記事は「【マイスター・ギルド】本物のAdvent Calendar 2022」8日目の記事です。 0. これちょっとおかしくないですか？  なぜか調べてみよう🤔 1. RAM(Random-a…",
-            "date_modified": "2022-12-12T00:50:06.000Z",
-            "date_published": "2022-12-12T00:50:06.000Z",
             "tags": []
         },
         {
@@ -2293,16 +2549,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/ay-kapi/items/dcc42859b52a6d2625fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "1. はじめに NRI OpenStandia Advent Calendar 2022の 12 日目は、React 用のアニメーションライブラリである Framer Motionの基本的な使い方…",
-            "url": "https://qiita.com/ay-kapi/items/dcc42859b52a6d2625fa?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Framer Motion＋MUIで、麻雀の点数表示ができる　Reactアプリを作ってみた | Qiita - 人気の記事",
-            "summary": "1. はじめに NRI OpenStandia Advent Calendar 2022の 12 日目は、React 用のアニメーションライブラリである Framer Motionの基本的な使い方…",
-            "date_modified": "2022-12-11T22:03:14.000Z",
-            "date_published": "2022-12-11T22:03:14.000Z",
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/i_am_miko/items/e7d622cc74ca3b0db807?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "ビットキーでアナリティクスエンジニアをしている三河内です 2022年時点では以下のような業務を担当しています（アナリティクスエンジニアについての詳細はこちら）  今回は注力領域であるDWH構築におい…",
             "url": "https://qiita.com/i_am_miko/items/e7d622cc74ca3b0db807?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -2310,36 +2556,6 @@
             "summary": "ビットキーでアナリティクスエンジニアをしている三河内です 2022年時点では以下のような業務を担当しています（アナリティクスエンジニアについての詳細はこちら）  今回は注力領域であるDWH構築におい…",
             "date_modified": "2022-12-11T22:02:15.000Z",
             "date_published": "2022-12-11T22:02:15.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/naiki____/items/d64794b46231528fa622?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "HRBrain Advent Calendar 2022 カレンダー1の12日目の記事です。 https://qiita.com/advent-calendar/2022/hrbrain 1. Co…",
-            "url": "https://qiita.com/naiki____/items/d64794b46231528fa622?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Pythonで始めるCode Golf  | Qiita - 人気の記事",
-            "summary": "HRBrain Advent Calendar 2022 カレンダー1の12日目の記事です。 https://qiita.com/advent-calendar/2022/hrbrain 1. Co…",
-            "date_modified": "2022-12-11T22:02:09.000Z",
-            "date_published": "2022-12-11T22:02:09.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/t-konta/items/4071cf36eb2c38d6f76e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "近寄りがたいAttribute PHP８からAttribute（アトリビュート）が導入されました。 アトリビュートはライブラリやフレームワークの開発者向けの活用事例が多く、通常の開発案件においてはあ…",
-            "url": "https://qiita.com/t-konta/items/4071cf36eb2c38d6f76e?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "PHP8 Attributesの活用例 | Qiita - 人気の記事",
-            "summary": "近寄りがたいAttribute PHP８からAttribute（アトリビュート）が導入されました。 アトリビュートはライブラリやフレームワークの開発者向けの活用事例が多く、通常の開発案件においてはあ…",
-            "date_modified": "2022-12-11T22:02:02.000Z",
-            "date_published": "2022-12-11T22:02:02.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/toro0000toro/items/dee9f85098c861bb7473?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに この記事は、ニンテンドーSwitch「ナビつき！つくってわかる はじめてゲームプログラミング」（以下、はじプロ）において、ボードゲーム/パズル系のゲームを開発する際のノウハウについて紹介し…",
-            "url": "https://qiita.com/toro0000toro/items/dee9f85098c861bb7473?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "はじプロによるボードゲームやパズルの開発 | Qiita - 人気の記事",
-            "summary": "はじめに この記事は、ニンテンドーSwitch「ナビつき！つくってわかる はじめてゲームプログラミング」（以下、はじプロ）において、ボードゲーム/パズル系のゲームを開発する際のノウハウについて紹介し…",
-            "date_modified": "2022-12-11T22:00:39.000Z",
-            "date_published": "2022-12-11T22:00:39.000Z",
             "tags": []
         },
         {
@@ -2406,16 +2622,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/fukushima1981/items/0e0f2a56b115d3271ebf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事はOpenCV Advent Calendar 2022の12日目の記事です． 1. はじめに キャリブレーションパターンことチェッカーボードの検出には，cv::findChessboard…",
-            "url": "https://qiita.com/fukushima1981/items/0e0f2a56b115d3271ebf?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "facebook（現Meta）のキャリブレーションパターン検出器の精度はOpenCV実装よりも高い | Qiita - 人気の記事",
-            "summary": "この記事はOpenCV Advent Calendar 2022の12日目の記事です． 1. はじめに キャリブレーションパターンことチェッカーボードの検出には，cv::findChessboard…",
-            "date_modified": "2022-12-11T20:50:16.000Z",
-            "date_published": "2022-12-11T20:50:16.000Z",
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/hinastory/articles/7857427ea390c5",
             "content_html": "この記事はRust Advent Calendar 2022 - Qiitaの11日目の記事です。  Rustはプログラマに愛されている言語だと言われています。でも、その愛されている理由をRustを知らない人に説明しようとしたとき苦労した経験はないでしょうか？たくさんの愛を語れば語るほど 「難しそう」 という一言に心を砕かれるのです。 私はRustが多くのプログラマに愛される理由はRustが多くの場面で実用的だからだと思っています。しかしプログラミング言語における「実用性」を定義するのも説明するのも非常に困難を極めるため、Rust布教の大きな壁になっていると感じています。 そこで本記事で...",
             "url": "https://zenn.dev/hinastory/articles/7857427ea390c5",
@@ -2448,6 +2654,16 @@
             "author": {
                 "name": "lotz"
             },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/ingen084/items/73ae7233b8c0c45ce359?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "こんにちは。 (ニコニコ)プレミアム課金開発チームに所属しております @ingen084 です。 去年は ニコニコで13年運用された決済システムが移行されてからのその後の改善 を投稿させていただきま…",
+            "url": "https://qiita.com/ingen084/items/73ae7233b8c0c45ce359?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "14年間継ぎ足し続けられた課金ページを分離して整理した話 | Qiita - 人気の記事",
+            "summary": "こんにちは。 (ニコニコ)プレミアム課金開発チームに所属しております @ingen084 です。 去年は ニコニコで13年運用された決済システムが移行されてからのその後の改善 を投稿させていただきま…",
+            "date_modified": "2022-12-11T15:14:31.000Z",
+            "date_published": "2022-12-11T15:14:31.000Z",
             "tags": []
         },
         {
@@ -2857,21 +3073,21 @@
             "tags": []
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day11",
-            "content_html": "ABEJA Advent Calendar 2022 11日目の記事です。昨日は服部さんの夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話でした。 はじめに こんにちは、こんばんは、おはようございます、エンジニアの小笠原(@seiro-ogasawara)です。 去年の Advent Calendar で @toshitanian がオフィスDXを支える技術（バックエンド編）という記事を書いていましたが、本記事はそれの2022年版です。5日の記事で石川 (@ishikawa) がフロントエンド、というかネイティブアプリの機能紹介を行っているので、興味のある方はそち…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day11",
-            "title": "オフィスDXを支える技術2022年版(チャットツール連携編) | ABEJA Tech Blog",
-            "summary": "ABEJA Advent Calendar 2022 11日目の記事です。昨日は服部さんの夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話でした。 はじめに こんにちは、こんばんは、おはようございます、エンジニアの小笠原(@seiro-ogasawara)です。 去年の Advent Calendar で @toshitanian がオフィスDXを支える技術（バックエ...",
-            "date_modified": "2022-12-11T01:00:00.000Z",
-            "date_published": "2022-12-11T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/11/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 11日目の記事です。 アンドパッドで EM (Engineering Manager) を担当している栗山です。現在、施工管理アプリチームというモバイルアプリの開発を専門に担当するチームに所属しています。前職では iOS エンジニアを担当していたことから、前職での経験を活かしながら日々改善を進めているところです。 今回は、入社から約半年が経過した今に至るまでに自分やメンバーが試した改善施策や、私が所属する施工管理アプリチームがスゴいと思う点について書いていきたいと思います。 これまで実施した施策について ここでは、2つに絞…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/11/100000",
             "title": "施工管理アプリチームの改善の取り組みと入社半年のメンバーから見たチームのここがスゴい | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 11日目の記事です。 アンドパッドで EM (Engineering Manager) を担当している栗山です。現在、施工管理アプリチームというモバイルアプリの開発を専門に担当するチームに所属しています。前職では iOS エンジニアを担当していたことから、前職での経験を活かしながら日々改善を進めているところです。 今回は、入社...",
+            "date_modified": "2022-12-11T01:00:00.000Z",
+            "date_published": "2022-12-11T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day11",
+            "content_html": "ABEJA Advent Calendar 2022 11日目の記事です。昨日は服部さんの夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話でした。 はじめに こんにちは、こんばんは、おはようございます、エンジニアの小笠原(@seiro-ogasawara)です。 去年の Advent Calendar で @toshitanian がオフィスDXを支える技術（バックエンド編）という記事を書いていましたが、本記事はそれの2022年版です。5日の記事で石川 (@ishikawa) がフロントエンド、というかネイティブアプリの機能紹介を行っているので、興味のある方はそち…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day11",
+            "title": "オフィスDXを支える技術2022年版(チャットツール連携編) | ABEJA Tech Blog",
+            "summary": "ABEJA Advent Calendar 2022 11日目の記事です。昨日は服部さんの夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話でした。 はじめに こんにちは、こんばんは、おはようございます、エンジニアの小笠原(@seiro-ogasawara)です。 去年の Advent Calendar で @toshitanian がオフィスDXを支える技術（バックエ...",
             "date_modified": "2022-12-11T01:00:00.000Z",
             "date_published": "2022-12-11T01:00:00.000Z",
             "tags": []
@@ -2914,16 +3130,6 @@
             "summary": "※この記事は、2022 Speee Advent Calendar11日目の記事です。 昨日の記事はこちら tech.speee.jp こんにちは、DX事業本部エンジニアのさとーる（@satotoru2000）です。 私は今年の6月から「イエウール」というプロダクトのSEOコンテンツ開発チームで開発をしています。今回はその中でやったことをまとめながら、 モノリシックRailsアプリの一部のドメイン...",
             "date_modified": "2022-12-11T00:50:00.000Z",
             "date_published": "2022-12-11T00:50:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/ishigero/items/88198c3abf47d11c8bf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事はNuco Advent Calendar 2022の11日目の記事です。 インフラに関わるエンジニアにとって必須の知識であるIaCについて書こうと思います。 IaCは、Infrastrac…",
-            "url": "https://qiita.com/ishigero/items/88198c3abf47d11c8bf3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "TerraformとCloudFormationで学ぶインフラ構築の自動化 | Qiita - 人気の記事",
-            "summary": "この記事はNuco Advent Calendar 2022の11日目の記事です。 インフラに関わるエンジニアにとって必須の知識であるIaCについて書こうと思います。 IaCは、Infrastrac…",
-            "date_modified": "2022-12-11T00:32:15.000Z",
-            "date_published": "2022-12-11T00:32:15.000Z",
             "tags": []
         },
         {
@@ -2994,53 +3200,13 @@
             ]
         },
         {
-            "id": "https://qiita.com/mainy/items/62e85191744f4f69f01c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "先日、徳丸本（正式名称: 安全なWebアプリケーションの作り方 第2版）の実習環境 Docker 対応バージョンが公開されました。 こちら、M1/M2 Mac にも対応したものになっています。 リリ…",
-            "url": "https://qiita.com/mainy/items/62e85191744f4f69f01c?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "徳丸本の Docker 実習環境を M1/M2 Mac で１から構築した | Qiita - 人気の記事",
-            "summary": "先日、徳丸本（正式名称: 安全なWebアプリケーションの作り方 第2版）の実習環境 Docker 対応バージョンが公開されました。 こちら、M1/M2 Mac にも対応したものになっています。 リリ…",
-            "date_modified": "2022-12-10T22:04:47.000Z",
-            "date_published": "2022-12-10T22:04:47.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/ryamate/items/80d5a69e7dcdaf58cac6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "Udemy のページにアクセスするとき、トップに表示される素敵な笑顔の人はどこの誰で何してる人なんだろう、次の人はどんな人だろう、と想像するのがちょっとした楽しみです。 https://www.u…",
-            "url": "https://qiita.com/ryamate/items/80d5a69e7dcdaf58cac6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Udemy「新人にすすめたい勉強法、言うてみー」私「動画学習3つのTipsをシェアします！」 | Qiita - 人気の記事",
-            "summary": "Udemy のページにアクセスするとき、トップに表示される素敵な笑顔の人はどこの誰で何してる人なんだろう、次の人はどんな人だろう、と想像するのがちょっとした楽しみです。 https://www.u…",
-            "date_modified": "2022-12-10T22:04:32.000Z",
-            "date_published": "2022-12-10T22:04:32.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/cozy_sauna/items/6a34648ec2a0eb20ef35?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "【AtCoder】文系大学生がアルゴリズム・ヒューリスティックで青色になるまで🚶‍♂️🏔 ABC265で念願の青色を達成しました🎉#AtCoder #ABC265 pic.twitter.com/5…",
-            "url": "https://qiita.com/cozy_sauna/items/6a34648ec2a0eb20ef35?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【AtCoder】文系大学生が青色になるまで | Qiita - 人気の記事",
-            "summary": "【AtCoder】文系大学生がアルゴリズム・ヒューリスティックで青色になるまで🚶‍♂️🏔 ABC265で念願の青色を達成しました🎉#AtCoder #ABC265 pic.twitter.com/5…",
-            "date_modified": "2022-12-10T22:03:21.000Z",
-            "date_published": "2022-12-10T22:03:21.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/yug1224/items/2a87f34dd49593b8bd4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "HRBrain Advent Calendar 2022 カレンダー2の11日目の記事です。 https://qiita.com/advent-calendar/2022/hrbrain はじめに …",
-            "url": "https://qiita.com/yug1224/items/2a87f34dd49593b8bd4a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "かけだしエンジニアリングマネージャーが1on1ミーティングで大切にしていること | Qiita - 人気の記事",
-            "summary": "HRBrain Advent Calendar 2022 カレンダー2の11日目の記事です。 https://qiita.com/advent-calendar/2022/hrbrain はじめに …",
-            "date_modified": "2022-12-10T22:03:14.000Z",
-            "date_published": "2022-12-10T22:03:14.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/GoS67/items/a06209a0493a103cdd80?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに こんにちは。 この記事は株式会社ビットキー Advent Calendar 2022 11日目の記事です。 モバイルアプリチームのEngineering Managerを務めている ＠Go…",
-            "url": "https://qiita.com/GoS67/items/a06209a0493a103cdd80?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "タスクをアサインするという行為に秘められた価値を最大化するためには | Qiita - 人気の記事",
-            "summary": "はじめに こんにちは。 この記事は株式会社ビットキー Advent Calendar 2022 11日目の記事です。 モバイルアプリチームのEngineering Managerを務めている ＠Go…",
-            "date_modified": "2022-12-10T22:02:09.000Z",
-            "date_published": "2022-12-10T22:02:09.000Z",
+            "id": "https://qiita.com/yutaroud/items/dfd0e93656e22bf2d975?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "Ateam Group U-30 Advent Calendar 2022の11日目は 株式会社エイチームライフデザインの @yutaroud が担当します。 はじめに この1年で、円安によって1ド…",
+            "url": "https://qiita.com/yutaroud/items/dfd0e93656e22bf2d975?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "「ワイくん、来月からサーバー費用30%削減でよろしく。」 | Qiita - 人気の記事",
+            "summary": "Ateam Group U-30 Advent Calendar 2022の11日目は 株式会社エイチームライフデザインの @yutaroud が担当します。 はじめに この1年で、円安によって1ド…",
+            "date_modified": "2022-12-10T22:02:07.000Z",
+            "date_published": "2022-12-10T22:02:07.000Z",
             "tags": []
         },
         {
@@ -3095,16 +3261,6 @@
                 "GCP",
                 "クラウド"
             ]
-        },
-        {
-            "id": "https://qiita.com/minorun365/items/eb21541a1352837fe16a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事は AWS Advent Calendar 2022 11日目の記事です。  昨日は @ItsukiOnishi さんの AMIによるEC2インスタンスの起動からターゲットグループへの登録まで…",
-            "url": "https://qiita.com/minorun365/items/eb21541a1352837fe16a?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "いにしえのインフラエンジニアが気になったAWS re:Invent 2022の新機能 | Qiita - 人気の記事",
-            "summary": "この記事は AWS Advent Calendar 2022 11日目の記事です。  昨日は @ItsukiOnishi さんの AMIによるEC2インスタンスの起動からターゲットグループへの登録まで…",
-            "date_modified": "2022-12-10T15:00:23.000Z",
-            "date_published": "2022-12-10T15:00:23.000Z",
-            "tags": []
         },
         {
             "id": "https://techblog.recochoku.jp/8737",
@@ -3438,21 +3594,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day10",
-            "content_html": "皆さんこんにちは！ ABEJAでデータサイエンティストをしている服部といいます。 本記事はABEJA Advent Calendar2022の10日目の記事になります。 背景 引っ越しから2年.... データサイエンティストとしてのリベンジ 前回の反省を踏まえて.... 1. お得そうに見える土地には絶対に理由がある 2. 土地の数はせいぜい限られていて全部探すのも難しくない 今回解く課題 土地探しにおける意見の違いとは？ どうやってデータサイエンスを使って夫婦の擦り合せを行う？ アプローチ 実装 1. 架空の土地条件をランダムに沢山作る 土地条件の項目数や取りうる範囲が増えすぎないようにする…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day10",
-            "title": "夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話 | ABEJA Tech Blog",
-            "summary": "皆さんこんにちは！ ABEJAでデータサイエンティストをしている服部といいます。 本記事はABEJA Advent Calendar2022の10日目の記事になります。 背景 引っ越しから2年.... データサイエンティストとしてのリベンジ 前回の反省を踏まえて.... 1. お得そうに見える土地には絶対に理由がある 2. 土地の数はせいぜい限られていて全部探すのも難しくない 今回解く課題 土地探...",
-            "date_modified": "2022-12-10T01:00:00.000Z",
-            "date_published": "2022-12-10T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/10/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 10日目の記事です。 アンドパッドでエンジニアをしている森です。Google Cloud Professional Data Engineer 認定資格をリモート環境で受験し、無事に合格”内定”（詳細は記事を参照）しました！受験までの勉強の過程と、受験当日の様子をまとめたいと思います。 受験の背景 過去に Google と共催したハンズオンワークショップ（テックブログ記事 2022/7/27）のつながりで、Google Cloud Innovators Gym（以降、G.I.G. と呼称）というプログラムに参加する機会をい…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/10/100000",
             "title": "Google Cloud Professional Data Engineer 認定試験を受験しました | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 10日目の記事です。 アンドパッドでエンジニアをしている森です。Google Cloud Professional Data Engineer 認定資格をリモート環境で受験し、無事に合格”内定”（詳細は記事を参照）しました！受験までの勉強の過程と、受験当日の様子をまとめたいと思います。 受験の背景 過去に Google と共催...",
+            "date_modified": "2022-12-10T01:00:00.000Z",
+            "date_published": "2022-12-10T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day10",
+            "content_html": "皆さんこんにちは！ ABEJAでデータサイエンティストをしている服部といいます。 本記事はABEJA Advent Calendar2022の10日目の記事になります。 背景 引っ越しから2年.... データサイエンティストとしてのリベンジ 前回の反省を踏まえて.... 1. お得そうに見える土地には絶対に理由がある 2. 土地の数はせいぜい限られていて全部探すのも難しくない 今回解く課題 土地探しにおける意見の違いとは？ どうやってデータサイエンスを使って夫婦の擦り合せを行う？ アプローチ 実装 1. 架空の土地条件をランダムに沢山作る 土地条件の項目数や取りうる範囲が増えすぎないようにする…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day10",
+            "title": "夫婦で納得の土地探しをするためにLINE Bot作ったりデータサイエンスした話 | ABEJA Tech Blog",
+            "summary": "皆さんこんにちは！ ABEJAでデータサイエンティストをしている服部といいます。 本記事はABEJA Advent Calendar2022の10日目の記事になります。 背景 引っ越しから2年.... データサイエンティストとしてのリベンジ 前回の反省を踏まえて.... 1. お得そうに見える土地には絶対に理由がある 2. 土地の数はせいぜい限られていて全部探すのも難しくない 今回解く課題 土地探...",
             "date_modified": "2022-12-10T01:00:00.000Z",
             "date_published": "2022-12-10T01:00:00.000Z",
             "tags": []
@@ -3504,16 +3660,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/yukimuraryofu/items/638cb528a4ca2a5c4c90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事はNuco Advent Calendar 2022の10日目の記事です。 自己紹介 現在、某国立大学の情報科学類に通っている大学４年生です。 今年の夏ごろから初めてのベンチャー企業の長期イ…",
-            "url": "https://qiita.com/yukimuraryofu/items/638cb528a4ca2a5c4c90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "実務に入る前にやっておいた方がいいこと６選 | Qiita - 人気の記事",
-            "summary": "この記事はNuco Advent Calendar 2022の10日目の記事です。 自己紹介 現在、某国立大学の情報科学類に通っている大学４年生です。 今年の夏ごろから初めてのベンチャー企業の長期イ…",
-            "date_modified": "2022-12-10T00:00:55.000Z",
-            "date_published": "2022-12-10T00:00:55.000Z",
-            "tags": []
-        },
-        {
             "id": "https://made.livesense.co.jp/entry/2022/12/10/083000",
             "content_html": "これは Livesense Advent Calendar 2022 DAY 10 の記事です。 年末のお掃除捗っていますか？我が家では窓掃除にWV1が大活躍しています。 データエンジニアの毛利です。サービス横断のデータ分析基盤であるLivesense Analytics（以降LA）の開発、運用を行っています。 背景 データ利用状況の可視化 テーブルの利用状況 Redshiftユーザーの利用状況 運用してみてわかったこと 最後に 背景 データを提供したものの、気がつくとほとんど使われていない、というのはよくある話だと思います。 LAでも様々なデータを提供できるように機能追加してきた結果、日々デ…",
             "url": "https://made.livesense.co.jp/entry/2022/12/10/083000",
@@ -3551,26 +3697,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/ksj555/items/b49b33cf6993e7a200bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "１．はじめに  私は普段、IT企業の企画系部門で仕事をしています。以前はアプリケーションエンジニアとして現場に入っていましたので、それなりの開発経験もあります。 これまで、業務に関する学習は当然のこ…",
-            "url": "https://qiita.com/ksj555/items/b49b33cf6993e7a200bb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "★新人エンジニアが知っておきたい『学習スキーム』と『究極の勉強法』！！★ | Qiita - 人気の記事",
-            "summary": "１．はじめに  私は普段、IT企業の企画系部門で仕事をしています。以前はアプリケーションエンジニアとして現場に入っていましたので、それなりの開発経験もあります。 これまで、業務に関する学習は当然のこ…",
-            "date_modified": "2022-12-09T22:04:55.000Z",
-            "date_published": "2022-12-09T22:04:55.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/cvusk/items/358e7964927af4128d32?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "12月10日の2022ソフトウェアテストアドベントカレンダーです。 Launchable社でエンジニアとして働いているcvuskと申します。機械学習界隈では機械学習を実用化するためのシステム開発の本…",
-            "url": "https://qiita.com/cvusk/items/358e7964927af4128d32?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ソフトウェアテストの実行を効率化するPredictive Test Selectionの衝撃 | Qiita - 人気の記事",
-            "summary": "12月10日の2022ソフトウェアテストアドベントカレンダーです。 Launchable社でエンジニアとして働いているcvuskと申します。機械学習界隈では機械学習を実用化するためのシステム開発の本…",
-            "date_modified": "2022-12-09T22:01:56.000Z",
-            "date_published": "2022-12-09T22:01:56.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.s-style.co.jp/?p=9512",
             "content_html": "はじめに これまで、OCI関連の記事を起稿する際には、いつリリースされた機能なのかという情報は リリースノート を元にして掲載させていただいておりましたし、記事化する際にも、なるべく新機能をご紹介するべくリリースノートをチェックするようにしていました 今回、ご紹介する内容は記事執筆時点（2022/12/07）でリリースノートに記載されていませんが、オラクル倶楽部様 (@ora_club) が ツイート されていましたのでご紹介させていた...",
             "url": "https://blog.s-style.co.jp/2022/12/9512/",
@@ -3585,16 +3711,6 @@
                 "Oracle Cloud",
                 "技術情報"
             ]
-        },
-        {
-            "id": "https://qiita.com/Junya_Tsukuba/items/dee5d735b6b419927bac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "おことわり データ構造とアルゴリズム Advent Calendar 2022 10日目の記事です． ネタ記事です．マジレスやめてください． 前置き 昨年，こんな論文が発表されました． Is thi…",
-            "url": "https://qiita.com/Junya_Tsukuba/items/dee5d735b6b419927bac?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ぼくの知っている最高のソートアルゴリズム | Qiita - 人気の記事",
-            "summary": "おことわり データ構造とアルゴリズム Advent Calendar 2022 10日目の記事です． ネタ記事です．マジレスやめてください． 前置き 昨年，こんな論文が発表されました． Is thi…",
-            "date_modified": "2022-12-09T22:00:45.000Z",
-            "date_published": "2022-12-09T22:00:45.000Z",
-            "tags": []
         },
         {
             "id": "https://hackernoon.com/mobile-price-classification-an-open-source-data-science-project-with-dagshub?source=rss",
@@ -4083,15 +4199,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/bookwatch/sale/1462552.html",
-            "content_html": "",
-            "url": "https://forest.watch.impress.co.jp/docs/bookwatch/sale/1462552.html",
-            "title": "Kindleストアで講談社 冬電書2023キャンペーン！ 理工学書が30％OFF／全1万冊以上がセール中。理工系専門書350冊超も対象【Book Watch/セール情報】 | 窓の杜",
-            "date_modified": "2022-12-09T06:51:42.000Z",
-            "date_published": "2022-12-09T06:51:42.000Z",
-            "tags": []
-        },
-        {
             "id": "https://rheb.hatenablog.com/entry/aap_lifecycle",
             "content_html": "レッドハットの杉村です。Ansible のテクニカルサポートをしています。 この記事は Ansible Advent Calendar 2022 の9日目の記事です。 adventar.org Ansible Automation Platform (AAP) は比較的足の速い製品で、頻繁に新しいリリースを出しています。リリース後およそ1年半でサポート終了 (End Of Life, EOL) となるため、いつもアップグレードをお願いしているという状態になっています。実際の問い合わせでもアップグレードについての問題が結構な数を占めます。 今回の記事では、新しいバージョンを使うと何がうれしいのか…",
             "url": "https://rheb.hatenablog.com/entry/aap_lifecycle",
@@ -4428,10 +4535,10 @@
         },
         {
             "id": "https://techblog.nhn-techorus.com/?p=21824",
-            "content_html": "ども、マーケティングチームの壱岐尾です。 2022年12月7日にテコラスパートナープログラムに参画されているDELTA株式会社様と共催セミナー 「予算、人材、ノウハウが足りない！アプリケーション改修とクラウド最適化でコストを削減する勘所」 ... 続きを読む クラウドのコスト削減、どうする？DELTA株式会社との共催セミナー first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.",
+            "content_html": "ども、マーケティングチームの壱岐尾です。 2022年12月7日にテコラスパートナープログラムに参画されている株式会社DELTA様と共催セミナー 「予算、人材、ノウハウが足りない！アプリケーション改修とクラウド最適化でコストを削減する勘所」 ... 続きを読む クラウドのコスト削減、どうする？株式会社DELTAとの共催セミナー first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.",
             "url": "https://techblog.nhn-techorus.com/archives/21824",
-            "title": "クラウドのコスト削減、どうする？DELTA株式会社との共催セミナー | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ",
-            "summary": "ども、マーケティングチームの壱岐尾です。 2022年12月7日にテコラスパートナープログラムに参画されているDELTA株式会社様と共催セミナー 「予算、人材、ノウハウが足りない！アプリケーション改修とクラウド最適化でコストを削減する勘所」 ... 続きを読む クラウドのコスト削減、どうする？DELTA株式会社との共催セミナー first appeared on NHN テコラス Tech Blog...",
+            "title": "クラウドのコスト削減、どうする？株式会社DELTAとの共催セミナー | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ",
+            "summary": "ども、マーケティングチームの壱岐尾です。 2022年12月7日にテコラスパートナープログラムに参画されている株式会社DELTA様と共催セミナー 「予算、人材、ノウハウが足りない！アプリケーション改修とクラウド最適化でコストを削減する勘所」 ... 続きを読む クラウドのコスト削減、どうする？株式会社DELTAとの共催セミナー first appeared on NHN テコラス Tech Blog...",
             "date_modified": "2022-12-09T02:47:22.000Z",
             "date_published": "2022-12-09T02:47:22.000Z",
             "author": {
@@ -4524,10 +4631,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11137",
-            "content_html": "おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネーフォワードエンジニアのアウトプットを可視化してみた  マネーフォワードCTOが考えていること（2020年9月）  IT勉強会の会場無料提供のご案内  MoneyForward Meetupレポート：CISOとインフラ・セキュリティ担当が登壇した交流イベントを開催  中学生ハルキのエンジニア体験記   Copyright © Money Forward Engineers' Blog [経験0からスクラムマスターを始めるためにやったこと], All Right Reserved. 2022.",
+            "content_html": "おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DroidKaigi2022参加レポート  組織にSREの文化を作り上げていくEnabling SRE  マネーフォワードボルダリング部  MySQL パーティショニングで高速化  Coding Talk：Rubyの20年を支えたのは「フルタイムコミッターの公共性」と「書く気持ちよさ」（社内イベントレポ）   Copyright © Money Forward Engineers' Blog [経験0からスクラムマスターを始めるためにやったこと], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/09/start-scrum-master/",
             "title": "経験0からスクラムマスターを始めるためにやったこと | Money Forward Engineers' Blog",
-            "summary": "おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: マネー...",
+            "summary": "おはようございます！！ マネーフォワードMEでAndroidエンジニア兼スクラム … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dro...",
             "date_modified": "2022-12-09T01:05:46.000Z",
             "date_published": "2022-12-09T01:05:46.000Z",
             "author": {
@@ -4538,21 +4645,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day09",
-            "content_html": "こんにちは。株式会社ABEJA でPM兼DS兼プリセールスと色々な仕事をさせてもらってます道辻です。本記事はABEJAアドベントカレンダー2022の9日目の記事です！ 私にとって2022年はテキストから画像生成のstable diffusion、音声認識のWhisper等、遊びがいのある技術がたくさん出てきたわくわくする年でした。（IoT自作してオフィスの温湿度CO2など測定して分析などもやっていたので忙しかったです。） そして、今ChatGPTが流行っています。12/5時点で100万ユーザーが利用しているそうです。今までやりたいなーと思っていたことを試していたらだいたいできてしまったので、他…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day09",
-            "title": "ChatGPTでフランクな翻訳、コード譜付きの作詞、アイディア発想法の応用を試してみたら想像以上に使えそうだった話 | ABEJA Tech Blog",
-            "summary": "こんにちは。株式会社ABEJA でPM兼DS兼プリセールスと色々な仕事をさせてもらってます道辻です。本記事はABEJAアドベントカレンダー2022の9日目の記事です！ 私にとって2022年はテキストから画像生成のstable diffusion、音声認識のWhisper等、遊びがいのある技術がたくさん出てきたわくわくする年でした。（IoT自作してオフィスの温湿度CO2など測定して分析などもやってい...",
-            "date_modified": "2022-12-09T01:00:00.000Z",
-            "date_published": "2022-12-09T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/09/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 9日目の記事です。 こんにちは柴田です。 Ruby のフルタイムコミッタとして活動を開始した 11/7 から 12/1 までに行った Ruby の開発についてご紹介します。 毎日多くの時間を Ruby に費やす事ができるようになり、最初に手をつけたのはつぎはぎの時間では集中して解決まで持っていく事が難しかった ruby-lang.org の裏側にあるサーバー群のリプレイスです。 今回は複数のサーバーのうち、neon と呼ばれる debian で稼働し続けていたメールサーバーを別の何かしらの SaaS またはクラウド環境へ同…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/09/100000",
             "title": "Ruby のフルタイムコミッタとして最初の1ヶ月でやったこと | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 9日目の記事です。 こんにちは柴田です。 Ruby のフルタイムコミッタとして活動を開始した 11/7 から 12/1 までに行った Ruby の開発についてご紹介します。 毎日多くの時間を Ruby に費やす事ができるようになり、最初に手をつけたのはつぎはぎの時間では集中して解決まで持っていく事が難しかった ruby-lan...",
+            "date_modified": "2022-12-09T01:00:00.000Z",
+            "date_published": "2022-12-09T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day09",
+            "content_html": "こんにちは。株式会社ABEJA でPM兼DS兼プリセールスと色々な仕事をさせてもらってます道辻です。本記事はABEJAアドベントカレンダー2022の9日目の記事です！ 私にとって2022年はテキストから画像生成のstable diffusion、音声認識のWhisper等、遊びがいのある技術がたくさん出てきたわくわくする年でした。（IoT自作してオフィスの温湿度CO2など測定して分析などもやっていたので忙しかったです。） そして、今ChatGPTが流行っています。12/5時点で100万ユーザーが利用しているそうです。今までやりたいなーと思っていたことを試していたらだいたいできてしまったので、他…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day09",
+            "title": "ChatGPTでフランクな翻訳、コード譜付きの作詞、アイディア発想法の応用を試してみたら想像以上に使えそうだった話 | ABEJA Tech Blog",
+            "summary": "こんにちは。株式会社ABEJA でPM兼DS兼プリセールスと色々な仕事をさせてもらってます道辻です。本記事はABEJAアドベントカレンダー2022の9日目の記事です！ 私にとって2022年はテキストから画像生成のstable diffusion、音声認識のWhisper等、遊びがいのある技術がたくさん出てきたわくわくする年でした。（IoT自作してオフィスの温湿度CO2など測定して分析などもやってい...",
             "date_modified": "2022-12-09T01:00:00.000Z",
             "date_published": "2022-12-09T01:00:00.000Z",
             "tags": []
@@ -5385,10 +5492,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11098",
-            "content_html": "This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EKSへのデプロイを楽にするためにGitHub Appsを導入しました  DroidKaigi 2018に登壇 & SILVER SPONSORとして協賛します  ブログを書くまでが #DroidKaigi Day1 なのだ！  【レポート】MF Geeks Night (2015年11月)  RubyKaigi 2016 Rubyスポンサー申込み   Copyright © Money Forward Engineers' Blog [My favorite gem: Strong Migrations], All Right Reserved. 2022.",
+            "content_html": "This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: DroidKaigi 2020に登壇する予定でした & 登壇動画公開のお知らせ  AsanaのタスクをGoogleスプレッドシートに連携して不具合管理をしてみた：その1  【福岡はいいぞ】福岡拠点開発部の「気軽な」ノリで ISUCON12 に出場した話  S3のファイルをX-Accel-Redirectで配信する  Microsoftの技術イベント「de:code 2016」に参加してきました（当社サービスとの連携も紹介して頂きました）   Copyright © Money Forward Engineers' Blog [My favorite gem: Strong Migrations], ...",
             "url": "https://moneyforward.com/engineers_blog/2022/12/08/strong-migrations-en/",
             "title": "My favorite gem: Strong Migrations | Money Forward Engineers' Blog",
-            "summary": "This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: EKS...",
+            "summary": "This article is a part of MoneyForward T … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Dro...",
             "date_modified": "2022-12-08T01:11:43.000Z",
             "date_published": "2022-12-08T01:11:43.000Z",
             "author": {
@@ -5399,21 +5506,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day08",
-            "content_html": "はじめまして！今年、ABEJAに入社しました高崎です！こちらは、ABEJAアドベントカレンダー2022の8日目の記事になります。 今回は、箸休め的に、ABEJAへの入社エントリ（ビジネス職）をお届けします！ この記事で伝えたいこと いわゆる文系でもAIの世界で活躍の場がある！むしろこれから AIだけでなく、ヒトも大事にしたい。共感してくれたのがABEJA 興味がある人は、ぜひABEJAに来てほしい！お話しましょう！ 目次 この記事で伝えたいこと 目次 今は何をしている人？ 元々何をしていた人？ もともと、AIには「いいイメージ」を持っていなかった AI時代にマーケティングをやっていくとしたら？…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day08",
-            "title": "文系大学院(人類学)にいくつもりが、いつのまにかAIベンチャーに転職してた【入社エントリ】 | ABEJA Tech Blog",
-            "summary": "はじめまして！今年、ABEJAに入社しました高崎です！こちらは、ABEJAアドベントカレンダー2022の8日目の記事になります。 今回は、箸休め的に、ABEJAへの入社エントリ（ビジネス職）をお届けします！ この記事で伝えたいこと いわゆる文系でもAIの世界で活躍の場がある！むしろこれから AIだけでなく、ヒトも大事にしたい。共感してくれたのがABEJA 興味がある人は、ぜひABEJAに来てほしい...",
-            "date_modified": "2022-12-08T01:00:00.000Z",
-            "date_published": "2022-12-08T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/08/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 8日目の記事です。 リアーキテクティングチームの白土 (@kei_s) です。 最近は、ボーアとアインシュタインに量子を読む - 量子物理学の原理をめぐってという本がとても面白く、ちまちま読んでいます*1。 去る2022年10月21,22日に開催された Kaigi on Rails 2022 で、実践 Rails アソシエーションリファクタリングというタイトルで発表しました。今回の記事では、この発表の補足をしようと思います。 Kaigi on Rails に参加して 本題の前に Kaigi on Rails に参加した感想…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/08/100000",
             "title": "Kaigi on Rails 2022 「実践 Rails アソシエーションリファクタリング」で伝えきれなかったこと | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 8日目の記事です。 リアーキテクティングチームの白土 (@kei_s) です。 最近は、ボーアとアインシュタインに量子を読む - 量子物理学の原理をめぐってという本がとても面白く、ちまちま読んでいます*1。 去る2022年10月21,22日に開催された Kaigi on Rails 2022 で、実践 Rails アソシエーシ...",
+            "date_modified": "2022-12-08T01:00:00.000Z",
+            "date_published": "2022-12-08T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day08",
+            "content_html": "はじめまして！今年、ABEJAに入社しました高崎です！こちらは、ABEJAアドベントカレンダー2022の8日目の記事になります。 今回は、箸休め的に、ABEJAへの入社エントリ（ビジネス職）をお届けします！ この記事で伝えたいこと いわゆる文系でもAIの世界で活躍の場がある！むしろこれから AIだけでなく、ヒトも大事にしたい。共感してくれたのがABEJA 興味がある人は、ぜひABEJAに来てほしい！お話しましょう！ 目次 この記事で伝えたいこと 目次 今は何をしている人？ 元々何をしていた人？ もともと、AIには「いいイメージ」を持っていなかった AI時代にマーケティングをやっていくとしたら？…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day08",
+            "title": "文系大学院(人類学)にいくつもりが、いつのまにかAIベンチャーに転職してた【入社エントリ】 | ABEJA Tech Blog",
+            "summary": "はじめまして！今年、ABEJAに入社しました高崎です！こちらは、ABEJAアドベントカレンダー2022の8日目の記事になります。 今回は、箸休め的に、ABEJAへの入社エントリ（ビジネス職）をお届けします！ この記事で伝えたいこと いわゆる文系でもAIの世界で活躍の場がある！むしろこれから AIだけでなく、ヒトも大事にしたい。共感してくれたのがABEJA 興味がある人は、ぜひABEJAに来てほしい...",
             "date_modified": "2022-12-08T01:00:00.000Z",
             "date_published": "2022-12-08T01:00:00.000Z",
             "tags": []
@@ -5784,19 +5891,19 @@
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/news/2022/20221208_1/index.html",
+            "id": " https://www.riken.jp/pr/events/symposia/20221220_1/index.html",
             "content_html": "",
-            "url": "https://www.riken.jp/pr/news/2022/20221208_1/index.html",
-            "title": "島津賞・島津奨励賞の受賞について | お知らせ",
+            "url": "https://www.riken.jp/pr/events/symposia/20221220_1/index.html",
+            "title": "理研シンポジウム：第10回「光量子工学研究」 | イベントニュース",
             "date_modified": "2022-12-07T15:00:00.000Z",
             "date_published": "2022-12-07T15:00:00.000Z",
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/symposia/20221220_1/index.html",
+            "id": " https://www.riken.jp/pr/news/2022/20221208_1/index.html",
             "content_html": "",
-            "url": "https://www.riken.jp/pr/events/symposia/20221220_1/index.html",
-            "title": "理研シンポジウム：第10回「光量子工学研究」 | イベントニュース",
+            "url": "https://www.riken.jp/pr/news/2022/20221208_1/index.html",
+            "title": "島津賞・島津奨励賞の受賞について | お知らせ",
             "date_modified": "2022-12-07T15:00:00.000Z",
             "date_published": "2022-12-07T15:00:00.000Z",
             "tags": []
@@ -6509,10 +6616,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11109",
-            "content_html": "This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: MacにUbuntuを入れるとOSXより起動が速い  Agile Testing Days 2022に参加してきました！  マネーフォワードHR領域プロダクトでの不具合分析の取り組み（運用試行錯誤編）  マネーフォワード社内PRに見られるRubyの書き方について – (5) 文の環境  Jira Cloud for Sheets, Google Apps Script, Google Data Portalを使って、日次で不具合消化状況を可視化してみた   Copyright © Money Forward Engineers' Blog [Improving Team Communication ...",
+            "content_html": "This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How MySQL Multi-Threaded Slave (MTS) Works  ビジネス職からエンジニアへシフトした私が新卒研修で学んだ1つのこと  Dockerを使って開発環境を構築する  CTOになって5年経った感想、振り返りなど  3ヶ月間の英語研修でTOEICスコア 665 → 890 になった話   Copyright © Money Forward Engineers' Blog [Improving Team Communication through Sharing Meeting], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/07/improving-team-communication/",
             "title": "Improving Team Communication through Sharing Meeting | Money Forward Engineers' Blog",
-            "summary": "This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Mac...",
+            "summary": "This is 7th article of MoneyForward Tech … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: How...",
             "date_modified": "2022-12-07T01:00:40.000Z",
             "date_published": "2022-12-07T01:00:40.000Z",
             "author": {
@@ -6524,10 +6631,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11116",
-            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 情報共有ツール(Kibela)の記事をDeepLで自動翻訳できるようにしてみた  【速報】RubyKaigi 2014レポ：Kids, Ruby, Fun!: Introduction of the Smalruby and the Ruby Programming Shounendan  「テックトーク」で知識と経験を共有しよう  goroutine内のpanic handling  最近のruby-core (2016年4月)   Copyright © Money Forward Engineers' Blog [内製データカタログによる分析基盤の改善〜ミニマムなメタデータ管理で分析を前に進め...",
+            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 83億レコードを移行し、日々2,500万レコードのアクセスログをBigQueryに記録している話（インフラ編）  20分でできるLIFFアプリ(LINE bot)  お知らせ: SIerからベンチャーへのエンジニア転職〜キャリアチェンジになにを求めたか？〜 を開催します  オフィスの便利ツール紹介：トイレ混雑チェッカー  【レポート】MF Geeks Night (2015年4月)   Copyright © Money Forward Engineers' Blog [内製データカタログによる分析基盤の改善〜ミニマムなメタデータ管理で分析を前に進めよう〜], All Right Reserved....",
             "url": "https://moneyforward.com/engineers_blog/2022/12/07/managed-metadata/",
             "title": "内製データカタログによる分析基盤の改善〜ミニマムなメタデータ管理で分析を前に進めよう〜 | Money Forward Engineers' Blog",
-            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 情報共...",
+            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 83億...",
             "date_modified": "2022-12-07T01:00:02.000Z",
             "date_published": "2022-12-07T01:00:02.000Z",
             "author": {
@@ -6538,21 +6645,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day07",
-            "content_html": "こんにちは。株式会社ABEJA でスクラムマスターをしている小川です。本記事はABEJAアドベントカレンダー2022の7日目の記事です！ 私は前職も含めると5年ほどスクラムでの開発を開発者として経験してきました。今のチームでは２ヶ月前にスクラムマスターとしてスクラムの導入から携わっております。 スクラムマスターとしてはまだ駆け出しの私ですが、自分なりに導入にあたってケアしてきたことや、スクラムのTips、よく聞かれること等々をご紹介したいと思います！ 目次 私のチームのスクラムについてご紹介します！ スクラム導入効果 スクラム導入前の課題 スクラム導入において意識していること 1. チーム文化…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day07",
-            "title": "【スクラム初心者必見】スクラム導入で大事なこと7選 〜開発力を6.2 倍にした話〜 | ABEJA Tech Blog",
-            "summary": "こんにちは。株式会社ABEJA でスクラムマスターをしている小川です。本記事はABEJAアドベントカレンダー2022の7日目の記事です！ 私は前職も含めると5年ほどスクラムでの開発を開発者として経験してきました。今のチームでは２ヶ月前にスクラムマスターとしてスクラムの導入から携わっております。 スクラムマスターとしてはまだ駆け出しの私ですが、自分なりに導入にあたってケアしてきたことや、スクラムのT...",
-            "date_modified": "2022-12-07T01:00:00.000Z",
-            "date_published": "2022-12-07T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/07/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 7日目の記事です。 qiita.com こんにちは、ydahです。 先日のRubyWorld Conference 2022で燗酒の美味しさに感動していたのですが、ふと気がついたら島根の日本酒がたくさん我が家にいました。 気が付くと何故か我が家にいらっしゃった方々(不思議だ...) そして、また気がつくと枡や徳利、平盃も我が家にいらした(不思議ですね...)のでこれから寒くなるので、燗酒を飲んで温まっていこうと思います。 はじめに 本記事では私が所属しているANDPAD検査チームで取り組んだ以下のことについて紹介いたします…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/07/100000",
             "title": "RSpec の Request spec をチームで改善していった話 | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 7日目の記事です。 qiita.com こんにちは、ydahです。 先日のRubyWorld Conference 2022で燗酒の美味しさに感動していたのですが、ふと気がついたら島根の日本酒がたくさん我が家にいました。 気が付くと何故か我が家にいらっしゃった方々(不思議だ...) そして、また気がつくと枡や徳利、平盃も我が家...",
+            "date_modified": "2022-12-07T01:00:00.000Z",
+            "date_published": "2022-12-07T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day07",
+            "content_html": "こんにちは。株式会社ABEJA でスクラムマスターをしている小川です。本記事はABEJAアドベントカレンダー2022の7日目の記事です！ 私は前職も含めると5年ほどスクラムでの開発を開発者として経験してきました。今のチームでは２ヶ月前にスクラムマスターとしてスクラムの導入から携わっております。 スクラムマスターとしてはまだ駆け出しの私ですが、自分なりに導入にあたってケアしてきたことや、スクラムのTips、よく聞かれること等々をご紹介したいと思います！ 目次 私のチームのスクラムについてご紹介します！ スクラム導入効果 スクラム導入前の課題 スクラム導入において意識していること 1. チーム文化…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day07",
+            "title": "【スクラム初心者必見】スクラム導入で大事なこと7選 〜開発力を6.2 倍にした話〜 | ABEJA Tech Blog",
+            "summary": "こんにちは。株式会社ABEJA でスクラムマスターをしている小川です。本記事はABEJAアドベントカレンダー2022の7日目の記事です！ 私は前職も含めると5年ほどスクラムでの開発を開発者として経験してきました。今のチームでは２ヶ月前にスクラムマスターとしてスクラムの導入から携わっております。 スクラムマスターとしてはまだ駆け出しの私ですが、自分なりに導入にあたってケアしてきたことや、スクラムのT...",
             "date_modified": "2022-12-07T01:00:00.000Z",
             "date_published": "2022-12-07T01:00:00.000Z",
             "tags": []
@@ -7338,10 +7445,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11044",
-            "content_html": "こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOSDC Japan 2022でLT枠で登壇してきました  マネーフォワードエンジニアインタビュー 児玉孝太郎「世の中の課題を解決できる人でありたい」  Discord Botを使ってインターン生とのコミュニケーションを改善しました！  マネーフォワードのSRE、インフラエンジニア組織のこれから  チームでやっている ZenHub x Scrapbox を使ったフルリモートなアジャイル開発の紹介   Copyright © Money Forward Engineers' Blog [i18n YAML ファイル中の日本語/英語のズレを検知する単体テスト], All Right Reserved....",
+            "content_html": "こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rails奮闘記 〜ActiveRecordのコールバック ハマり編〜  エンジニアリング + 技術広報 = ユニークキャリア  Android 13で導入されるNotification runtime permissionについて調べてみた  2021年のエンジニアブログをふりかえる  【社内レポ】最新型MacBook Proを投入！   Copyright © Money Forward Engineers' Blog [i18n YAML ファイル中の日本語/英語のズレを検知する単体テスト], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/06/unit-test-in-i18n-yaml-files/",
             "title": "i18n YAML ファイル中の日本語/英語のズレを検知する単体テスト | Money Forward Engineers' Blog",
-            "summary": "こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: iOS...",
+            "summary": "こんにちは クラウド経費開発チーム 、クラウド債務支払開発チーム の 宮村（みや … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: Rai...",
             "date_modified": "2022-12-06T01:00:50.000Z",
             "date_published": "2022-12-06T01:00:50.000Z",
             "author": {
@@ -7830,40 +7937,6 @@
                 "youtube-transcripts",
                 "hackernoon-top-story",
                 "web-monetization"
-            ]
-        },
-        {
-            "id": "https://techracho.bpsinc.jp/?p=124363",
-            "content_html": "morimorihogeです。 Railsを3.0betaの頃から触り始めてかれこれ12～13年くらい経ちました。これだけ長い間特定のライブラリやフレームワークを使い続けたことはなかったので、今やRuby/Railsには実家のような親しみを感じています。 今でも最盛期ほどではないとはいえRailsやRubyの利用は進んでおり、開発・周辺コミュニティも活発なため、日々新しくRubyやRailsに触れる人が増えています。自分の推しが新しい人達にも理解されるのはありがたいことです。うれしい。 一方で、長くRuby/Railsを使い続けているが故に昔からの利用者の中では当たり前のように使われている用語が新規参入者にとって […] The post Ruby/Rails開発する際に知っておきたい省略用語集 2022年末版 first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/morimorihoge/2022_12_05/124363",
-            "title": "Ruby/Rails開発する際に知っておきたい省略用語集 2022年末版 | TechRacho",
-            "summary": "morimorihogeです。 Railsを3.0betaの頃から触り始めてかれこれ12～13年くらい経ちました。これだけ長い間特定のライブラリやフレームワークを使い続けたことはなかったので、今やRuby/Railsには実家のような親しみを感じています。 今でも最盛期ほどではないとはいえRailsやRubyの利用は進んでおり、開発・周辺コミュニティも活発なため、日々新しくRubyやRailsに触れ...",
-            "date_modified": "2022-12-05T08:30:20.000Z",
-            "date_published": "2022-12-05T08:30:20.000Z",
-            "author": {
-                "name": "morimorihoge"
-            },
-            "tags": [
-                "Ruby / Rails関連",
-                "Ruby",
-                "Ruby on Rails",
-                "アドベントカレンダー2022"
-            ]
-        },
-        {
-            "id": "https://techracho.bpsinc.jp/?p=124852",
-            "content_html": "株式会社ザ・リード様 のWebサービス「オンライン自動販売システム ファネシー」のユーザー向け管理画面全般のデザインを担当しました。 ファネシーは、「オンラインビジネスをもっとシンプルに」することを目的とした、セールスファネル構築をオールインワンで行える多機能Webサービスです。 起業家・フリーランスに向け調整されており、用意されたテンプレートを書き換えるだけで簡単にWebサイトが作成が行えるが特徴です。 デザインのポイント シンプルでわかりやすいUIを目指しデザインを行いました。 ブランドカラーのグリーンで爽やかにまとめ、強弱のある配色でわかりやすいUIとなるよう設計しています。 多機能で設定項目など要素が多い […] The post 【デザイン実績紹介】「オンライン自動販売システム ファネシー」のデザインを担当 first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/sugiyama/2022_12_05/124852",
-            "title": "【デザイン実績紹介】「オンライン自動販売システム ファネシー」のデザインを担当 | TechRacho",
-            "summary": "株式会社ザ・リード様 のWebサービス「オンライン自動販売システム ファネシー」のユーザー向け管理画面全般のデザインを担当しました。 ファネシーは、「オンラインビジネスをもっとシンプルに」することを目的とした、セールスファネル構築をオールインワンで行える多機能Webサービスです。 起業家・フリーランスに向け調整されており、用意されたテンプレートを書き換えるだけで簡単にWebサイトが作成が行えるが特...",
-            "date_modified": "2022-12-05T08:30:13.000Z",
-            "date_published": "2022-12-05T08:30:13.000Z",
-            "author": {
-                "name": "スギヤマ"
-            },
-            "tags": [
-                "デザイン",
-                "アドベントカレンダー2022"
             ]
         },
         {
@@ -8967,21 +9040,21 @@
             "tags": []
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day04",
-            "content_html": "こんにちは。システム開発グループでエンジニアをやっている鈴木です。 本記事はABEJAアドベントカレンダー2022の4日目の記事です！ タイトルだけ見ると、なんのこっちゃって感じですが、本記事は真面目な書き方をするとデータサイエンティストとの協業がテーマになります。 社外向けイベントでも紹介させていただいたのですが、今回は技術に突っ込んだ部分も含めてお話しします。 目次 目次 転生したらデータサイエンスの国でクッキーの型職人になっていた エンジニアリングの国で働く データサイエンスの国でも働く 課題 モデル開発 インテグレーション クッキーの型を創る仕事 モデル開発テンプレート Cookiec…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day04",
-            "title": "転生したらデータサイエンスの国でクッキーの型職人になっていた件 | ABEJA Tech Blog",
-            "summary": "こんにちは。システム開発グループでエンジニアをやっている鈴木です。 本記事はABEJAアドベントカレンダー2022の4日目の記事です！ タイトルだけ見ると、なんのこっちゃって感じですが、本記事は真面目な書き方をするとデータサイエンティストとの協業がテーマになります。 社外向けイベントでも紹介させていただいたのですが、今回は技術に突っ込んだ部分も含めてお話しします。 目次 目次 転生したらデータサイ...",
-            "date_modified": "2022-12-04T01:00:00.000Z",
-            "date_published": "2022-12-04T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/04/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 4日目の記事です。 ごあいさつ はじめましてアンドパッドでQuality Controlをやっている冨士川です。 1974年生まれのアンドパッド内でもかなり年齢高めのメンバーとして頑張っております。 先日、ジブリパークに行きとても楽しかったので写真を貼ってみました。 シータを助けたり、カプローニと夢を語り合ったり大満足でした！ アンドパッドラップを始めたわけ さて、私は2021年7月にアンドパッドにJoinしました。 新しい会社に入ったばかりの私は、何か新しいことに挑戦したいなと考えていました。 「アンドパッドには製品がた…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/04/100000",
             "title": "ANDPADで韻を踏む | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 4日目の記事です。 ごあいさつ はじめましてアンドパッドでQuality Controlをやっている冨士川です。 1974年生まれのアンドパッド内でもかなり年齢高めのメンバーとして頑張っております。 先日、ジブリパークに行きとても楽しかったので写真を貼ってみました。 シータを助けたり、カプローニと夢を語り合ったり大満足でした！...",
+            "date_modified": "2022-12-04T01:00:00.000Z",
+            "date_published": "2022-12-04T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day04",
+            "content_html": "こんにちは。システム開発グループでエンジニアをやっている鈴木です。 本記事はABEJAアドベントカレンダー2022の4日目の記事です！ タイトルだけ見ると、なんのこっちゃって感じですが、本記事は真面目な書き方をするとデータサイエンティストとの協業がテーマになります。 社外向けイベントでも紹介させていただいたのですが、今回は技術に突っ込んだ部分も含めてお話しします。 目次 目次 転生したらデータサイエンスの国でクッキーの型職人になっていた エンジニアリングの国で働く データサイエンスの国でも働く 課題 モデル開発 インテグレーション クッキーの型を創る仕事 モデル開発テンプレート Cookiec…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day04",
+            "title": "転生したらデータサイエンスの国でクッキーの型職人になっていた件 | ABEJA Tech Blog",
+            "summary": "こんにちは。システム開発グループでエンジニアをやっている鈴木です。 本記事はABEJAアドベントカレンダー2022の4日目の記事です！ タイトルだけ見ると、なんのこっちゃって感じですが、本記事は真面目な書き方をするとデータサイエンティストとの協業がテーマになります。 社外向けイベントでも紹介させていただいたのですが、今回は技術に突っ込んだ部分も含めてお話しします。 目次 目次 転生したらデータサイ...",
             "date_modified": "2022-12-04T01:00:00.000Z",
             "date_published": "2022-12-04T01:00:00.000Z",
             "tags": []
@@ -9349,10 +9422,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=11088",
-            "content_html": "こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: CRISP-DMを活用する上で注意すること  マネーフォワード CTO が考えていること（2022 年 9 月）  マネーフォワードエンジニアインターン 小笠原純也「ユーザーの人生に寄り添えるサービスを」  マネーフォワードのtvOSアプリケーションを開発した話  関西開発拠点で毎週開催している勉強会「ゆるスタ」の紹介   Copyright © Money Forward Engineers' Blog [マネーフォワードのフロントエンドを前に進めるフロントエンド推進グループの紹介], All Right Reserved. 2022.",
+            "content_html": "こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュリティイベント・活動のご紹介  941::blogさんがやってきた！  ICカードリーダーのiOSアプリをSwiftUIで開発しました  副業QAエンジニアは週3時間でいかに価値を出すか〜組織横断のヒッティング・パートナーをめざして〜  マネーフォワードエンジニアインタビュー 中川敦「隣のおじさんから学んだC言語と”Inside Macintosh”」   Copyright © Money Forward Engineers' Blog [マネーフォワードのフロントエンドを前に進めるフロントエンド推進グループの紹介], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/03/enabling-frontend-forward/",
             "title": "マネーフォワードのフロントエンドを前に進めるフロントエンド推進グループの紹介 | Money Forward Engineers' Blog",
-            "summary": "こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: CRI...",
+            "summary": "こんにちは、フロントエンド推進グループのthincellerです この記事は、M … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: セキュ...",
             "date_modified": "2022-12-03T01:00:11.000Z",
             "date_published": "2022-12-03T01:00:11.000Z",
             "author": {
@@ -9363,21 +9436,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day03",
-            "content_html": "はじめに 皆さんこんにちは。 毎年の Advent Calendarで Notion やら Google AppSheet やら業務効率系の記事を書いている齋藤です。 本記事は ABEJA Advent Calendar 2022 の3日目の記事になります。 今回は、私が今年の元日(2022/01/01)公開した「プロセカNote」*1を例に、「業務や個人で活用するときにも活きるノウハウであるかどうか」を考慮して工夫した点を3点ピックアップして共有しようと思います。 前提 そもそも、今回私が本気で整備している Notion のページ(プロセカNote)に関して、超簡単にご紹介します。 プロセカ…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day03",
-            "title": "Notion DB をイイ感じに活用する Tips 3選 〜巷で人気の音ゲーの楽曲リストを例に〜 | ABEJA Tech Blog",
-            "summary": "はじめに 皆さんこんにちは。 毎年の Advent Calendarで Notion やら Google AppSheet やら業務効率系の記事を書いている齋藤です。 本記事は ABEJA Advent Calendar 2022 の3日目の記事になります。 今回は、私が今年の元日(2022/01/01)公開した「プロセカNote」*1を例に、「業務や個人で活用するときにも活きるノウハウであるかど...",
-            "date_modified": "2022-12-03T01:00:00.000Z",
-            "date_published": "2022-12-03T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/03/100000",
             "content_html": "この記事は ANDPAD Advent Calendar 2022 の 3日目の記事です。 初めまして、アンドパッドに10月にJOINしました後藤です。 開発チームのマネージャーとして活動しているかたわらで、エンジニア組織の組織づくりをミッションとして組織課題を見つけたり、改善に向けた取り組みをしています。 10月に入社しようやく2ヶ月経ちましたが、まだ社歴が短い分新鮮な目でみなさんにアンドパッドのお話ができるかなと思います。この記事では技術的なお話はありません。 2022年10月以前 前職でのお仕事 私はアンドパッドに来る前は価格.comというサービスでシステム部門の部門長をしていました。 …",
             "url": "https://tech.andpad.co.jp/entry/2022/12/03/100000",
             "title": "アンドパッドに入社して2ヶ月間で体験したこと | ANDPAD Tech Blog",
             "summary": "この記事は ANDPAD Advent Calendar 2022 の 3日目の記事です。 初めまして、アンドパッドに10月にJOINしました後藤です。 開発チームのマネージャーとして活動しているかたわらで、エンジニア組織の組織づくりをミッションとして組織課題を見つけたり、改善に向けた取り組みをしています。 10月に入社しようやく2ヶ月経ちましたが、まだ社歴が短い分新鮮な目でみなさんにアンドパッド...",
+            "date_modified": "2022-12-03T01:00:00.000Z",
+            "date_published": "2022-12-03T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day03",
+            "content_html": "はじめに 皆さんこんにちは。 毎年の Advent Calendarで Notion やら Google AppSheet やら業務効率系の記事を書いている齋藤です。 本記事は ABEJA Advent Calendar 2022 の3日目の記事になります。 今回は、私が今年の元日(2022/01/01)公開した「プロセカNote」*1を例に、「業務や個人で活用するときにも活きるノウハウであるかどうか」を考慮して工夫した点を3点ピックアップして共有しようと思います。 前提 そもそも、今回私が本気で整備している Notion のページ(プロセカNote)に関して、超簡単にご紹介します。 プロセカ…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day03",
+            "title": "Notion DB をイイ感じに活用する Tips 3選 〜巷で人気の音ゲーの楽曲リストを例に〜 | ABEJA Tech Blog",
+            "summary": "はじめに 皆さんこんにちは。 毎年の Advent Calendarで Notion やら Google AppSheet やら業務効率系の記事を書いている齋藤です。 本記事は ABEJA Advent Calendar 2022 の3日目の記事になります。 今回は、私が今年の元日(2022/01/01)公開した「プロセカNote」*1を例に、「業務や個人で活用するときにも活きるノウハウであるかど...",
             "date_modified": "2022-12-03T01:00:00.000Z",
             "date_published": "2022-12-03T01:00:00.000Z",
             "tags": []
@@ -10393,10 +10466,10 @@
         },
         {
             "id": "https://moneyforward.com/engineers_blog/?p=10978",
-            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941::blogさんがやってきた！  会計PlusのWebフロントエンドパフォーマンス改善  MUIで作成したテーブルコンポーネントのパフォーマンス改善  TensorFlowをビルドしてみた  Android：マテリアルデザイン対応を効率的に進めるためにSupport Libraryを積極的に使ってみる   Copyright © Money Forward Engineers' Blog [私の英語学習法とその結果～iOSエンジニアの場合～], All Right Reserved. 2022.",
+            "content_html": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザインマインド」と「絵（ビジュアル）」  ESLintで開発環境をエンチャント  マネーフォワードはRubyプランで Kaigi on Rails 2021 に協賛します！  もうひとつのデザインについての話をしよう  如何にしてわたしはマネーフォワードの一員になったのか   Copyright © Money Forward Engineers' Blog [私の英語学習法とその結果～iOSエンジニアの場合～], All Right Reserved. 2022.",
             "url": "https://moneyforward.com/engineers_blog/2022/12/02/ios-engineer-english-study/",
             "title": "私の英語学習法とその結果～iOSエンジニアの場合～ | Money Forward Engineers' Blog",
-            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 941...",
+            "summary": "この記事は、Money Forward Engineering 1 Advent … 続きを読む →  Tags: Del.icio.us  Facebook  TweetThis  Digg  StumbleUpon  Comments: 0 (Zero), Be the first to leave a reply!   You might be interested in this: 「デザ...",
             "date_modified": "2022-12-02T01:00:33.000Z",
             "date_published": "2022-12-02T01:00:33.000Z",
             "author": {
@@ -10407,21 +10480,21 @@
             ]
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day02",
-            "content_html": "目次 目次 はじめに アイデア 検証方法 データ準備 分析アプローチ データ取得 前処理・特徴量エンジニアリング 学習 結果 考察 まとめ ABEJAについて はじめに はじめまして！今年2月にABEJAにデータサイエンティストとして入社しました真鍋と申します。 こちらは、ABEJAアドベントカレンダー2022の2日目の記事になります。 2日目にしていきなり限界野球オタク丸出しの記事ですが 野球は2番最強打者論もあるくらいなので縁起の良い数字ですね、はい。 アイデア ある程度野球を見ている方なら想像ができるのではないかと思いますが、野球の試合では、｢あ、そりゃ打たれるわ」という球があったりしま…",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day02",
-            "title": "野球の投球の｢危険度」を予測してみた　～「あ、この球、打たれるわ」をAIで判断～ | ABEJA Tech Blog",
-            "summary": "目次 目次 はじめに アイデア 検証方法 データ準備 分析アプローチ データ取得 前処理・特徴量エンジニアリング 学習 結果 考察 まとめ ABEJAについて はじめに はじめまして！今年2月にABEJAにデータサイエンティストとして入社しました真鍋と申します。 こちらは、ABEJAアドベントカレンダー2022の2日目の記事になります。 2日目にしていきなり限界野球オタク丸出しの記事ですが 野球は...",
-            "date_modified": "2022-12-02T01:00:00.000Z",
-            "date_published": "2022-12-02T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/02/100000",
             "content_html": "こちらは ANDPAD Advent Calendar 2022 の２日目の記事です。 こんにちは、ショートカットおじさん、もとい soe-j です。 アドベントカレンダーらしいライトな記事を書くためにやってきました。 入社してから変わらず、より高い価値をいち早く／長く届けたい思いで試行錯誤する毎日を送っております。 その中で「どのように設計するか」「どのように作業分担するか」など議論することが多いと思います。 チームとしてどう開発するか、長期的に品質を保つにはどうするべきか.... 時間をかけるべき観点です。 さて、いざ開発するとき。ここからは言うなれば個人の戦いです。 要件、タスクをコード…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/02/100000",
             "title": "己の限界に挑め！コードライティングRTAを攻略せよ！ | ANDPAD Tech Blog",
             "summary": "こちらは ANDPAD Advent Calendar 2022 の２日目の記事です。 こんにちは、ショートカットおじさん、もとい soe-j です。 アドベントカレンダーらしいライトな記事を書くためにやってきました。 入社してから変わらず、より高い価値をいち早く／長く届けたい思いで試行錯誤する毎日を送っております。 その中で「どのように設計するか」「どのように作業分担するか」など議論することが多...",
+            "date_modified": "2022-12-02T01:00:00.000Z",
+            "date_published": "2022-12-02T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day02",
+            "content_html": "目次 目次 はじめに アイデア 検証方法 データ準備 分析アプローチ データ取得 前処理・特徴量エンジニアリング 学習 結果 考察 まとめ ABEJAについて はじめに はじめまして！今年2月にABEJAにデータサイエンティストとして入社しました真鍋と申します。 こちらは、ABEJAアドベントカレンダー2022の2日目の記事になります。 2日目にしていきなり限界野球オタク丸出しの記事ですが 野球は2番最強打者論もあるくらいなので縁起の良い数字ですね、はい。 アイデア ある程度野球を見ている方なら想像ができるのではないかと思いますが、野球の試合では、｢あ、そりゃ打たれるわ」という球があったりしま…",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day02",
+            "title": "野球の投球の｢危険度」を予測してみた　～「あ、この球、打たれるわ」をAIで判断～ | ABEJA Tech Blog",
+            "summary": "目次 目次 はじめに アイデア 検証方法 データ準備 分析アプローチ データ取得 前処理・特徴量エンジニアリング 学習 結果 考察 まとめ ABEJAについて はじめに はじめまして！今年2月にABEJAにデータサイエンティストとして入社しました真鍋と申します。 こちらは、ABEJAアドベントカレンダー2022の2日目の記事になります。 2日目にしていきなり限界野球オタク丸出しの記事ですが 野球は...",
             "date_modified": "2022-12-02T01:00:00.000Z",
             "date_published": "2022-12-02T01:00:00.000Z",
             "tags": []
@@ -10813,7 +10886,10 @@
             "summary": "Amazon/楽天のブラックフライデーで例年通り散財した、@kojiisdです。 パナソニックのコンデジを買ってしまいました。 さて、アクロクエストでは、エンジニアたちが仕事の中で気になっていたことを調査・検討・検証した際に、 アドベントカレンダーとしてブログに公開していくことにしました～！ 初日はタイトルにもあるとおり、「Amazon EventBridge Schedulerの使いどころを整理...",
             "date_modified": "2022-12-01T11:00:00.000Z",
             "date_published": "2022-12-01T11:00:00.000Z",
-            "tags": []
+            "tags": [
+                "AWS",
+                "アドベントカレンダー"
+            ]
         },
         {
             "id": "https://www.techno-edge.net/article/2022/12/01/564.html",
@@ -10915,16 +10991,6 @@
                 "retail-technology",
                 "ai-in-retail"
             ]
-        },
-        {
-            "id": "https://www.techno-edge.net/article/2022/12/01/563.html",
-            "content_html": "8月の予約開始以来、ながらく音沙汰がなかった日本でのSteam Deck発売ですが、12月17日から発送を開始すると発表されました。予約者に対しては、12月1日から注文確定に必要なメールを順次送付するとのことです。",
-            "url": "https://www.techno-edge.net/article/2022/12/01/563.html",
-            "title": "国内版Steam Deck、12月17日に発送開始。予約者には順次確認メールを送付 | TechnoEdge",
-            "summary": "8月の予約開始以来、ながらく音沙汰がなかった日本でのSteam Deck発売ですが、12月17日から発送を開始すると発表されました。予約者に対しては、12月1日から注文確定に必要なメールを順次送付するとのことです。",
-            "date_modified": "2022-12-01T07:42:02.000Z",
-            "date_published": "2022-12-01T07:42:02.000Z",
-            "tags": []
         },
         {
             "id": "https://blog.brainpad.co.jp/entry/2022/12/01/160010",
@@ -11270,21 +11336,21 @@
             "tags": []
         },
         {
-            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day01",
-            "content_html": "本日ご紹介するのは相棒を涙ながらに分解し再度構築した男の汗と涙の物語です",
-            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day01",
-            "title": "掃除ロボットをかゆいところまで手の届く仕様に改造する | ABEJA Tech Blog",
-            "summary": "本日ご紹介するのは相棒を涙ながらに分解し再度構築した男の汗と涙の物語です",
-            "date_modified": "2022-12-01T01:00:00.000Z",
-            "date_published": "2022-12-01T01:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.andpad.co.jp/entry/2022/12/01/100000",
             "content_html": "はじめまして、バックエンドエンジニアをしています武山 (bushiyama) です。 この記事は ANDPAD Advent Calendar 2022 の 1日目の記事です。 そんなルールはありませんが、アドベンドカレンダー 2022 初日なので初級な内容で暖めていきたいと存じます。 お題 非エンジニア職「ちょっとこの csv を集計したいんだけど、件数が多すぎなので助けて わたし「おｋ そもそも、システム上で集計できるよう諸々設計するのが最善ではあります。 しかしどんなに完璧なシステムを作っても、エンジニアには生涯で３回ぐらいは n 万行の CSV に立ち向かわなければならない日が来ます。…",
             "url": "https://tech.andpad.co.jp/entry/2022/12/01/100000",
             "title": "そびえ立つ n 万行の csv を Go 言語で簡単クッキング | ANDPAD Tech Blog",
             "summary": "はじめまして、バックエンドエンジニアをしています武山 (bushiyama) です。 この記事は ANDPAD Advent Calendar 2022 の 1日目の記事です。 そんなルールはありませんが、アドベンドカレンダー 2022 初日なので初級な内容で暖めていきたいと存じます。 お題 非エンジニア職「ちょっとこの csv を集計したいんだけど、件数が多すぎなので助けて わたし「おｋ そもそ...",
+            "date_modified": "2022-12-01T01:00:00.000Z",
+            "date_published": "2022-12-01T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-blog.abeja.asia/entry/advent-2022-day01",
+            "content_html": "本日ご紹介するのは相棒を涙ながらに分解し再度構築した男の汗と涙の物語です",
+            "url": "https://tech-blog.abeja.asia/entry/advent-2022-day01",
+            "title": "掃除ロボットをかゆいところまで手の届く仕様に改造する | ABEJA Tech Blog",
+            "summary": "本日ご紹介するのは相棒を涙ながらに分解し再度構築した男の汗と涙の物語です",
             "date_modified": "2022-12-01T01:00:00.000Z",
             "date_published": "2022-12-01T01:00:00.000Z",
             "tags": []
@@ -11598,21 +11664,21 @@
             "tags": []
         },
         {
-            "id": "https://tec.tecotec.co.jp/entry/2022/12/01/000000",
-            "content_html": "どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリーズは下記の通りです。 TruffleSuiteで始めるDapps開発 - テコテック開発者ブログ TruffleSuiteで始めるDapps開発2 - テコテック開発者ブログ TruffleSuit…",
-            "url": "https://tec.tecotec.co.jp/entry/2022/12/01/000000",
-            "title": "Hardhatで始めるDapps開発2 | テコテック開発者ブログ",
-            "summary": "どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリ...",
-            "date_modified": "2022-11-30T15:00:00.000Z",
-            "date_published": "2022-11-30T15:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://tech.techtouch.jp/entry/product-wiki",
             "content_html": "自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。",
             "url": "https://tech.techtouch.jp/entry/product-wiki",
             "title": "開発の中心は仕様書 | Techtouch Developers Blog",
             "summary": "自分が開発で仕様書が重要だと感じている理由や作る上で気をつけていることを紹介します。",
+            "date_modified": "2022-11-30T15:00:00.000Z",
+            "date_published": "2022-11-30T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tec.tecotec.co.jp/entry/2022/12/01/000000",
+            "content_html": "どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリーズは下記の通りです。 TruffleSuiteで始めるDapps開発 - テコテック開発者ブログ TruffleSuiteで始めるDapps開発2 - テコテック開発者ブログ TruffleSuit…",
+            "url": "https://tec.tecotec.co.jp/entry/2022/12/01/000000",
+            "title": "Hardhatで始めるDapps開発2 | テコテック開発者ブログ",
+            "summary": "どうも、次世代デジタル基盤開発事業部の土田です。 本投稿は TECOTEC Advent Calendar 2022 の1日目の記事です。 去年もトップバッターでした。一年って早いものですね。さて、今回はいつまで経っても終わっていなかったCryptoZombieを終わらせようと思います。タスクの年末大掃除です！ CryptoZombieは下記です。 cryptozombies.io これまでのシリ...",
             "date_modified": "2022-11-30T15:00:00.000Z",
             "date_published": "2022-11-30T15:00:00.000Z",
             "tags": []
@@ -12411,61 +12477,6 @@
                 "hackernoon-pt",
                 "hackernoon-ja"
             ]
-        },
-        {
-            "id": "https://blog.fascode.net/?p=15523",
-            "content_html": "こんにちは。Lunaeです。最近VTuberにハマってからヤバいです。金と時間が溶けていきます。 さて本題。皆さんもWindowsのOBSで「Appleの AAC エンコーダを使いたいけど無駄なモノは入れたくないな～～」 […] OBSでAppleのAACエンコーダを使いたい。でも無駄なものを入れたくない場合の対処法 first appeared on FascodeNetwork Blog.",
-            "url": "https://blog.fascode.net/2022/11/29/obsappleaac/",
-            "title": "OBSでAppleのAACエンコーダを使いたい。でも無駄なものを入れたくない場合の対処法 | FascodeNetwork Blog",
-            "summary": "こんにちは。Lunaeです。最近VTuberにハマってからヤバいです。金と時間が溶けていきます。 さて本題。皆さんもWindowsのOBSで「Appleの AAC エンコーダを使いたいけど無駄なモノは入れたくないな～～」 […] OBSでAppleのAACエンコーダを使いたい。でも無駄なものを入れたくない場合の対処法 first appeared on FascodeNetwork Blog.",
-            "date_modified": "2022-11-29T09:07:06.000Z",
-            "date_published": "2022-11-29T09:07:06.000Z",
-            "author": {
-                "name": "Lunae"
-            },
-            "tags": [
-                "フリーソフト"
-            ]
-        },
-        {
-            "id": "https://tech.gunosy.io/entry/argocd_hooks",
-            "content_html": "こんにちは。広告技術部の yamaYu です。 広告サービスのバックエンド〜インフラを中心に触っています。 最近は専らパルデアの大地を駆け回る日々です。 今回の記事ですが、Kubernetes 上で管理している Rails 製システムの DB マイグレーションの扱いについて書きました。 下の記事の続編になっているため、こちらも参考にしていただけると幸いです。 tech.gunosy.io tech.gunosy.io Kubernetes 上でいいかんじに DB マイグレーションしたい Sync Phases, Waves, Resource Hooks Resource Hooks を用いた…",
-            "url": "https://tech.gunosy.io/entry/argocd_hooks",
-            "title": "管理画面にGitOpsを導入しました 〜DBマイグレーション編〜 | Gunosy Tech Blog",
-            "summary": "こんにちは。広告技術部の yamaYu です。 広告サービスのバックエンド〜インフラを中心に触っています。 最近は専らパルデアの大地を駆け回る日々です。 今回の記事ですが、Kubernetes 上で管理している Rails 製システムの DB マイグレーションの扱いについて書きました。 下の記事の続編になっているため、こちらも参考にしていただけると幸いです。 tech.gunosy.io tech...",
-            "date_modified": "2022-11-29T09:00:00.000Z",
-            "date_published": "2022-11-29T09:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
-            "content_html": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介します。 道のり この日は、Googleマップで見たら一番近そうだった獨協大学前駅で降り、目的地まで歩くことにしました。（⚠️無料でバスが出ています） www.yunoizumi.com 少し雨が降って…",
-            "url": "https://tech.itandi.co.jp/entry/2022/11/29/180000",
-            "title": "草加健康センターで、整ってきました。 | ITANDI Engineer Blog",
-            "summary": "はじめに イタンジ株式会社で、toC向けのサービス「OHEYAGO」の開発をしている田中です。 こちらの記事では、最近行ってきたおすすめのサウナについて書きたいと思います。 社会人になってからサウナにハマり、いろんなところに通うようになりました。ほとんど一人で行きますが、サウナは一人でも楽しめるところも良いです。 今回は1時間半ほどかけて行ってきた、埼玉県草加市にある「草加健康センター」をご紹介し...",
-            "date_modified": "2022-11-29T09:00:00.000Z",
-            "date_published": "2022-11-29T09:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://inside.pixiv.blog/2022/11/29/180000?utm_source=feed",
-            "content_html": "ピクシブ株式会社は、モバイルアプリエンジニア向けのイベント「pixiv App Night」を定期的に開催していく予定です。 このイベントではiOS / Androidのエンジニアが一堂に会して、クリエイターの創作活動を支えるアプリのウラ側を質疑応答も交えながら、ざっくばらんにお話しさせていただきます。 本日はイベントの詳細と、先日10月27日に開催したイベントの登壇内容を皆様にご紹介したいと思います。 これまでの歩み ピクシブのモバイルアプリエンジニアは、iOSエンジニア・Androidエンジニア共に、長らく外部登壇・情報発信に積極的に取り組んできました。 【参考記事】 iOSDC Japa…",
-            "url": "https://inside.pixiv.blog/2022/11/29/180000?utm_source=feed",
-            "title": "モバイルアプリ開発の知見を共有！pixiv App Nightを開催しました | pixiv inside",
-            "summary": "ピクシブ株式会社は、モバイルアプリエンジニア向けのイベント「pixiv App Night」を定期的に開催していく予定です。 このイベントではiOS / Androidのエンジニアが一堂に会して、クリエイターの創作活動を支えるアプリのウラ側を質疑応答も交えながら、ざっくばらんにお話しさせていただきます。 本日はイベントの詳細と、先日10月27日に開催したイベントの登壇内容を皆様にご紹介したいと思い...",
-            "date_modified": "2022-11-29T09:00:00.000Z",
-            "date_published": "2022-11-29T09:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://kaminashi-developer.hatenablog.jp/entry/2022/11/29/162917",
-            "content_html": "はじめに こんにちは、カミナシ社でソフトウェアエンジニアをやっている浦岡です。 我々は「ノーコードでユーザー独自の現場アプリを作成できる」サービスを開発しています。 そのサービスのフロントエンドの開発にはReact×Reduxを使っているのですが、 サービス特性のため「Reduxのstateがファットになりがち」であったり「コンポーネント間のデータの依存関係が多くなりがち」といった状態に陥ります。 その結果、アプリの反応速度が遅くなりがちです... この記事では、上のような状態に陥った「React×Redux」アプリの高速化の一例をサンプルアプリを用いて説明します。 サンプルアプリについて 今…",
-            "url": "https://kaminashi-developer.hatenablog.jp/entry/2022/11/29/162917",
-            "title": "ReactコンポーネントをブルブルさせながらReduxのパフォーマンスチューニング | カミナシ エンジニアブログ",
-            "summary": "はじめに こんにちは、カミナシ社でソフトウェアエンジニアをやっている浦岡です。 我々は「ノーコードでユーザー独自の現場アプリを作成できる」サービスを開発しています。 そのサービスのフロントエンドの開発にはReact×Reduxを使っているのですが、 サービス特性のため「Reduxのstateがファットになりがち」であったり「コンポーネント間のデータの依存関係が多くなりがち」といった状態に陥ります。...",
-            "date_modified": "2022-11-29T07:29:17.000Z",
-            "date_published": "2022-11-29T07:29:17.000Z",
-            "tags": []
         },
         {
             "id": "24161",
