@@ -369,6 +369,9 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['新着ソフトレビュー - Vector', 'https://www.vector.co.jp/rss/softnews.xml'],
   ['窓の杜', 'https://forest.watch.impress.co.jp/data/rss/1.0/wf/feed.rdf'],
   ['ソフタロウ', 'https://softaro.net/feed/'],
+  
+  // 追加分(コンシューマーゲーム)
+  ['Gaming - Polygon', 'https://www.polygon.com/rss/gaming/index.xml'],
 ]);
 
 // 候補
