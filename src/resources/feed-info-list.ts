@@ -373,6 +373,9 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // 追加分(コンシューマーゲーム)
   ['Gaming - Polygon', 'https://www.polygon.com/rss/gaming/index.xml'],
   ['Gaming - IGNJapan', 'https://jp.ign.com/games.xml'],
+  
+  // 追加分(ガジェット)
+  ['ギズモード・ジャパン', 'http://feeds.gizmodo.jp/rss/gizmodo/index.xml'],
 ]);
 
 // 候補
