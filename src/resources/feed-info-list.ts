@@ -263,6 +263,9 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['理化学研究所 セミナー', 'https://www.riken.jp/feed/seminars_feed/'],
   ['理化学研究所 レクチャー', 'https://www.riken.jp/feed/lectures_feed/'],
   ['理化学研究所 クローズアップ科学道', 'https://www.riken.jp/feed/closeup_feed/'],
+  
+  //追加分(学会)
+  ['日本応用数理学会', 'https://jsiam.org/feed/'],
 
   // 追加分(Podcast)
   ['fukabori.fm', 'https://pitpa.jp/rss/fukabori'],
