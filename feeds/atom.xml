@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2023-03-13T11:22:48.196Z</updated>
+    <updated>2023-03-13T23:26:15.017Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,364 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[AWS CDKでMavenではなくGradleを使用する | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2023/03/14/082308</id>
+        <link href="https://tech.excite.co.jp/entry/2023/03/14/082308"/>
+        <updated>2023-03-13T23:23:08.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKをGradleで使用できるようにしていきたいと思います。 前の記事 tech.excite.co.jp AWS CDKとMaven & Gradle AWS CDKのコードをJavaで作成するにあたって、 cdk init app --language java で自動生成されるプロジェクトはビルドツール...]]></summary>
+        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKをGradleで使用できるようにしていきたいと思います。 前の記事 tech.excite.co.jp AWS CDKとMaven & Gradle AWS CDKのコードをJavaで作成するにあたって、 cdk init app --language java で自動生成されるプロジェクトはビルドツールにMavenを使用しています。 しかし、既存のプロジェクトで使用しているなどの理由でGradleを使用したい場合も十分にあると思います。 今回は、AWS CDKにおいてGradleを使って開発できるよ…]]></content>
+        <published>2023-03-13T23:23:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS CDKのテストをやってみる | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2023/03/14/082100</id>
+        <link href="https://tech.excite.co.jp/entry/2023/03/14/082100"/>
+        <updated>2023-03-13T23:21:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKで正しくリソースが定義されているかをテストするための方法をご紹介します。 前の記事 tech.excite.co.jp 2種類のテスト AWS CDKは通常のプログラミング言語で記述できるということもあって、テストが書けるというのも魅力の一つなようです。 AWS CDKでは2種類のテストがサポートされてい...]]></summary>
+        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKで正しくリソースが定義されているかをテストするための方法をご紹介します。 前の記事 tech.excite.co.jp 2種類のテスト AWS CDKは通常のプログラミング言語で記述できるということもあって、テストが書けるというのも魅力の一つなようです。 AWS CDKでは2種類のテストがサポートされています。 一つは、CDKで記述したコードから生成されたAWS CloudFormationテンプレートの特定の要素をテストするためのFine-grained assertionsと呼ばれるものです。 あ…]]></content>
+        <published>2023-03-13T23:21:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS CDKでの開発の流れについてまとめてみた | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2023/03/14/081904</id>
+        <link href="https://tech.excite.co.jp/entry/2023/03/14/081904"/>
+        <updated>2023-03-13T23:19:04.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKを使ってクラウドアプリケーションリソースを定義する流れを勉強しましたので、まとめてみたいと思います。 ※ この記事では全体の流れを軽く掴むことを目的としています。用語や必要な概念の詳しい内容はまた別の記事にまとめます。 前の記事 tech.excite.co.jp そもそもAWS CDKとは？ 公式ドキュ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKを使ってクラウドアプリケーションリソースを定義する流れを勉強しましたので、まとめてみたいと思います。 ※ この記事では全体の流れを軽く掴むことを目的としています。用語や必要な概念の詳しい内容はまた別の記事にまとめます。 前の記事 tech.excite.co.jp そもそもAWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い慣れたプログラミング言語を…]]></content>
+        <published>2023-03-13T23:19:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CDKの新機能であるcdk importを触ってみた | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2023/03/14/081516</id>
+        <link href="https://tech.excite.co.jp/entry/2023/03/14/081516"/>
+        <updated>2023-03-13T23:15:16.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回はAWS CDKのv2.20.0（Release v2.20.0 · aws/aws-cdk · GitHub）でプレビューとなっているcdk importを使ってみようと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ AWS CDKについては以下の記事で解説しているので、興味があればそちら...]]></summary>
+        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回はAWS CDKのv2.20.0（Release v2.20.0 · aws/aws-cdk · GitHub）でプレビューとなっているcdk importを使ってみようと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ AWS CDKについては以下の記事で解説しているので、興味があればそちらもご確認ください。 ※ここにリンクが入ります。 cdk importとは？ AWS CDKを使っていて、既存のリソースをCDKで管理したいな〜と思ったことはないでしょうか。 どうせCDKを使うなら新し…]]></content>
+        <published>2023-03-13T23:15:16.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS CDKの基礎 | エキサイト TechBlog.]]></title>
+        <id>https://tech.excite.co.jp/entry/2023/03/14/081019</id>
+        <link href="https://tech.excite.co.jp/entry/2023/03/14/081019"/>
+        <updated>2023-03-13T23:10:19.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKの基礎を勉強しましたので、まとめてみたいと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い...]]></summary>
+        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKの基礎を勉強しましたので、まとめてみたいと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い慣れたプログラミング言語を使用してクラウドアプリケーションリソースを定義するためのオープンソースのソフトウェア開発フレームワークです。 要は、これまで手作業でポチポチやっていたり、独自の言語や形式を使…]]></content>
+        <published>2023-03-13T23:10:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日本のAI第一人者「ChatGPTはホワイトカラーの仕事ほとんどすべてに影響する」 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/tokyo-unv-matsuo-ken-llm.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/tokyo-unv-matsuo-ken-llm.html"/>
+        <updated>2023-03-13T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo:IrynaImago(Shutterstock)日本のAI第一人者のひとりである松尾豊氏が、「これまでのホワイトカラーの仕事ほぼすべてに影響が出る可能性が高い」と書いた資料が注目されています。その文言は、自民党が新たに立ち上げた「AIの進化と実装に関するプロジェクトチーム」のAI戦略の検討会で使われた資料の一部に書かれています（資料はDL可能です）。松尾豊氏は、東京大学大学院工学系研究]]></summary>
+        <content type="html"><![CDATA[Photo:IrynaImago(Shutterstock)日本のAI第一人者のひとりである松尾豊氏が、「これまでのホワイトカラーの仕事ほぼすべてに影響が出る可能性が高い」と書いた資料が注目されています。その文言は、自民党が新たに立ち上げた「AIの進化と実装に関するプロジェクトチーム」のAI戦略の検討会で使われた資料の一部に書かれています（資料はDL可能です）。松尾豊氏は、東京大学大学院工学系研究]]></content>
+        <author>
+            <name>中川真知子</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2023-03-13T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ソウルライクゲーム『Bleak Faith: Forsaken』にモーション盗作の疑惑が浮上 『ELDEN RING』などフロム・ソフトウェアのゲームとの類似点が指摘されている | IGN Japan games]]></title>
+        <id>https://jp.ign.com/bleak-faith-forsaken/66487/news/bleak-faith-forsaken-elden-ring</id>
+        <link href="https://jp.ign.com/bleak-faith-forsaken/66487/news/bleak-faith-forsaken-elden-ring"/>
+        <updated>2023-03-13T22:58:37.000Z</updated>
+        <summary type="html"><![CDATA[複数の類似点が指摘されている 「Bleak Faith」の一部モーションと『ELDEN RING』や『Dark Souls』の一部モーションの間に、驚くほどの類似点が確認されているらしい。]]></summary>
+        <content type="html"><![CDATA[複数の類似点が指摘されている 「Bleak Faith」の一部モーションと『ELDEN RING』や『Dark Souls』の一部モーションの間に、驚くほどの類似点が確認されているらしい。]]></content>
+        <author>
+            <name>Yinyangfooey</name>
+        </author>
+        <category label="Bleak Faith: Forsaken"/>
+        <category label="PC"/>
+        <category label="ゲーム"/>
+        <category label="News"/>
+        <published>2023-03-13T22:58:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　3月14日　～「Adobe Acrobat Reader DC」や「LosslessCut」など | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/update/library/1485411.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/update/library/1485411.html"/>
+        <updated>2023-03-13T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[PDFファイルビューワー]]></summary>
+        <content type="html"><![CDATA[PDFファイルビューワー]]></content>
+        <published>2023-03-13T22:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プライベート・エンドポイントのデータベース・アクションにインターネット経由でアクセスしてみる | スマートスタイル技術ブログ]]></title>
+        <id>https://blog.s-style.co.jp/?p=9702</id>
+        <link href="https://blog.s-style.co.jp/2023/03/9702/"/>
+        <updated>2023-03-13T22:19:20.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Autonomous Database （以下 ADB）には データベース・アクション*1 というデータベース開発、管理およびモニタリング機能を備えたブラウザベースのアプリケーションがあります データベース・アクションの実行は、OCI コンソールで ADB の詳細画面を表示し、データベース・アクションボタンをクリックすることで実行することが出来ます しかし、データベース・アクションは A...]]></summary>
+        <content type="html"><![CDATA[はじめに Autonomous Database （以下 ADB）には データベース・アクション*1 というデータベース開発、管理およびモニタリング機能を備えたブラウザベースのアプリケーションがあります データベース・アクションの実行は、OCI コンソールで ADB の詳細画面を表示し、データベース・アクションボタンをクリックすることで実行することが出来ます しかし、データベース・アクションは ADB のエンドポイントに https で...]]></content>
+        <author>
+            <name>kitada</name>
+        </author>
+        <category label="Autonomous"/>
+        <category label="Oracle Cloud"/>
+        <category label="技術情報"/>
+        <category label="Oracle Autonomous Database"/>
+        <published>2023-03-13T22:19:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【PDFを他のファイル形式に変換したい！】PDFをWordやExcel、PowerPointに戻したり画像で出力する方法【柳谷智宣の「実は色々できるPDFの活用法」】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/shseri/pdfapp/1485296.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/shseri/pdfapp/1485296.html"/>
+        <updated>2023-03-13T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PDFファイルはどんなプラットフォームでも同じように表示できるフォーマットなので、紙に印刷するような感じで、最終的なファイル形式だと思われていることがある。もちろん、編集を禁止することで、そのような扱いもできるのだが、通常はPDFファイルを編集したり、ファイル形式を変換したりできる。]]></summary>
+        <content type="html"><![CDATA[PDFファイルはどんなプラットフォームでも同じように表示できるフォーマットなので、紙に印刷するような感じで、最終的なファイル形式だと思われていることがある。もちろん、編集を禁止することで、そのような扱いもできるのだが、通常はPDFファイルを編集したり、ファイル形式を変換したりできる。]]></content>
+        <published>2023-03-13T22:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[芋が足らない！ 仏のマックがフライドベジタブルを開発 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/mcdonalds-france-made-fried-vegitables.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/mcdonalds-france-made-fried-vegitables.html"/>
+        <updated>2023-03-13T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:Twitter新たなフレンチフライの誕生。ハンバーガーとご一緒にポテトもいかがですか？と勧められるフライドポテトは、マクドナルドの定番サイドメニュー。ですが、世界では物流の混乱などにより、ジャガイモが不足しています。新しいクリスピー・グルメフランスのマクドナルドでは打開策として、ビーツ、パースニップ（シロニンジン）、人参といった根菜を混在させた「フライドベジタブル」を開発。期間限定で発]]></summary>
+        <content type="html"><![CDATA[Image:Twitter新たなフレンチフライの誕生。ハンバーガーとご一緒にポテトもいかがですか？と勧められるフライドポテトは、マクドナルドの定番サイドメニュー。ですが、世界では物流の混乱などにより、ジャガイモが不足しています。新しいクリスピー・グルメフランスのマクドナルドでは打開策として、ビーツ、パースニップ（シロニンジン）、人参といった根菜を混在させた「フライドベジタブル」を開発。期間限定で発]]></content>
+        <author>
+            <name>岡本玄介</name>
+        </author>
+        <category label="NEWS"/>
+        <published>2023-03-13T22:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This game fixes Myst by adding guns, demons, and a sick metal soundtrack | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23638533/myst-fps-mod-woe-industries-point-and-kill-adventure</id>
+        <link href="https://www.polygon.com/23638533/myst-fps-mod-woe-industries-point-and-kill-adventure"/>
+        <updated>2023-03-13T21:50:44.000Z</updated>
+        <summary type="html"><![CDATA[Image: Cyan Worlds  Play Myst FPS in your browser  Myst is one of the most revered point-and-click adventure games of all time, known for it’s meditative nature and thoughtful narrative. But what if y...]]></summary>
+        <content type="html"><![CDATA[Image: Cyan Worlds  Play Myst FPS in your browser  Myst is one of the most revered point-and-click adventure games of all time, known for it’s meditative nature and thoughtful narrative. But what if you threw all of that Zen-like exploration of a strange, beautiful island right out the window? The team at Woe Industries was brave enough to ask this question, and the answer they delivered is Myst FPS, a “point-and-kill” adventure game that tasks the player with something truly novel — killing dem...]]></content>
+        <published>2023-03-13T21:50:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ボイスチェンジiPhoneアプリ「Voidol: mobile」に無料ボイスモデル3種類が追加！／simpαtix寺嶋由芙・髙井つき奈のボイスも | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1485405.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1485405.html"/>
+        <updated>2023-03-13T21:45:00.000Z</updated>
+        <summary type="html"><![CDATA[クリムゾンテクノロジー（株）は3月10日、AIでリアルタイムに声質を変換できるiOS用アプリ「Voidol: mobile」において、無料で利用できるボイスモデルに「寺嶋由芙（simpαtix）」、「髙井つき奈（simpαtix）」、「キューティ・エイリアン ペロロ」の3種類を追加した。]]></summary>
+        <content type="html"><![CDATA[クリムゾンテクノロジー（株）は3月10日、AIでリアルタイムに声質を変換できるiOS用アプリ「Voidol: mobile」において、無料で利用できるボイスモデルに「寺嶋由芙（simpαtix）」、「髙井つき奈（simpαtix）」、「キューティ・エイリアン ペロロ」の3種類を追加した。]]></content>
+        <published>2023-03-13T21:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kerbal Space Program 2 patch will attempt to fix its bizarre physics bugs | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23637866/kerbal-space-program-2-patch-release-date-bug-fix</id>
+        <link href="https://www.polygon.com/23637866/kerbal-space-program-2-patch-release-date-bug-fix"/>
+        <updated>2023-03-13T20:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Image: Intercept Games/Private Division  The early access release has been plagued with issues  Kerbal Space Program 2 launched into early access this February, courting much of the fanbase for the or...]]></summary>
+        <content type="html"><![CDATA[Image: Intercept Games/Private Division  The early access release has been plagued with issues  Kerbal Space Program 2 launched into early access this February, courting much of the fanbase for the original video game. But the initial release included some challenging bugs, specifically issues with its user interface and challenges with achieving Earth orbit. Luckily the development team is working on the game’s first patch, which it plans to release on Thursday at the earliest. In a Kerbal Spac...]]></content>
+        <published>2023-03-13T20:00:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Advance diversity and inclusion in voice AI with speech disentanglement | Amazon Science homepage]]></title>
+        <id>https://www.amazon.science/news-and-features/remars-revisited-advance-diversity-and-inclusion-in-voice-ai-with-speech-disentanglement</id>
+        <link href="https://www.amazon.science/news-and-features/remars-revisited-advance-diversity-and-inclusion-in-voice-ai-with-speech-disentanglement"/>
+        <updated>2023-03-13T18:56:07.000Z</updated>
+        <summary type="html"><![CDATA[Learn how Amazon uses machine-learning techniques to modify different aspects of speech — tone, phrasing, intonation, expressiveness, and accent — to create unique Alexa responses.]]></summary>
+        <content type="html"><![CDATA[Learn how Amazon uses machine-learning techniques to modify different aspects of speech — tone, phrasing, intonation, expressiveness, and accent — to create unique Alexa responses.]]></content>
+        <published>2023-03-13T18:56:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 3DS/Wii U eShops have two weeks to live. Here’s how to buy some last-minute games | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/guides/23637492/wii-u-3ds-eshop-closing-date-how-to-buy-digital-games</id>
+        <link href="https://www.polygon.com/guides/23637492/wii-u-3ds-eshop-closing-date-how-to-buy-digital-games"/>
+        <updated>2023-03-13T18:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: Nintendo  Merge, then splurge  There isn’t much time left to buy games and digital content for Nintendo’s 3DS/2DS and Wii U. Nintendo will close the digital storefronts for both platforms on Ma...]]></summary>
+        <content type="html"><![CDATA[Image: Nintendo  Merge, then splurge  There isn’t much time left to buy games and digital content for Nintendo’s 3DS/2DS and Wii U. Nintendo will close the digital storefronts for both platforms on March 27, which means that you need to act quickly if you want new digital games at their retail prices, and to pick up some Virtual Console titles. If you haven’t used either console in a while, or if you’re buying a used model right as they’re about to slip further into obscurity (I fully support th...]]></content>
+        <published>2023-03-13T18:05:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A century later, baseball’s Negro Leagues are getting their due in a video game | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23636607/mlb-the-show-23-negro-leagues-storylines-preview</id>
+        <link href="https://www.polygon.com/23636607/mlb-the-show-23-negro-leagues-storylines-preview"/>
+        <updated>2023-03-13T17:17:17.000Z</updated>
+        <summary type="html"><![CDATA[Before breaking baseball’s color barrier in 1947, Jackie Robinson spent one season with the Kansas City Monarchs of the Negro American League. | Image: SIE San Diego Studio/Sony Interactive Entertainm...]]></summary>
+        <content type="html"><![CDATA[Before breaking baseball’s color barrier in 1947, Jackie Robinson spent one season with the Kansas City Monarchs of the Negro American League. | Image: SIE San Diego Studio/Sony Interactive Entertainment  MLB The Show 23’s Storylines mode aims to be both educational and fun  Marvin Gaye’s 1971 masterpiece, What’s Going On, closes on a somber note with “Inner City Blues (Make Me Wanna Holler).” For a song with the word “holler” in its title, the feel is subdued; it’s a lament about America’s impo...]]></content>
+        <published>2023-03-13T17:17:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STALKER 2 team says it was hacked by pro-Russian group, is being blackmailed | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23637543/stalker-2-hack-russian-war-in-ukraine-threats</id>
+        <link href="https://www.polygon.com/23637543/stalker-2-hack-russian-war-in-ukraine-threats"/>
+        <updated>2023-03-13T16:26:57.000Z</updated>
+        <summary type="html"><![CDATA[Image: GSC Game World  ‘We have experienced many things that are much more terrifying’  GSC Game World, the Ukraine-based developer of STALKER 2: Heart of Chornobyl, has been hacked, according to a st...]]></summary>
+        <content type="html"><![CDATA[Image: GSC Game World  ‘We have experienced many things that are much more terrifying’  GSC Game World, the Ukraine-based developer of STALKER 2: Heart of Chornobyl, has been hacked, according to a statement from the studio on Sunday. An anonymous user on the Russian social media network VK has taken responsibility for the breach, and is threatening to release art and story details for the upcoming game unless its demands aren’t met by March 15. GSC confirmed the hack on social media, saying it ...]]></content>
+        <published>2023-03-13T16:26:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Back To Basics, Part Dos: Gradient Descent | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=152692</id>
+        <link href="https://www.kdnuggets.com/2023/03/back-basics-part-dos-gradient-descent.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=back-to-basics-part-dos-gradient-descent"/>
+        <updated>2023-03-13T16:00:11.000Z</updated>
+        <summary type="html"><![CDATA[Explore the inner workings of the powerful optimization algorithm.]]></summary>
+        <content type="html"><![CDATA[Explore the inner workings of the powerful optimization algorithm.]]></content>
+        <author>
+            <name>Shreya Rao</name>
+        </author>
+        <category label="KDnuggets Evergreen"/>
+        <category label="KDnuggets Republished"/>
+        <category label="Machine Learning"/>
+        <published>2023-03-13T16:00:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[リボソーム品質管理の破綻と神経疾患 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2023/20230314_1/index.html</id>
+        <link href="https://www.riken.jp/press/2023/20230314_1/index.html"/>
+        <updated>2023-03-13T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－TTC3タンパク質の異常な蓄積による認知・発達障害の発現－]]></summary>
+        <content type="html"><![CDATA[－TTC3タンパク質の異常な蓄積による認知・発達障害の発現－]]></content>
+        <published>2023-03-13T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vote in our second annual Who Would Win Week tournament  | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/2023/3/13/23632405/who-would-win-week-bracket-2023</id>
+        <link href="https://www.polygon.com/2023/3/13/23632405/who-would-win-week-bracket-2023"/>
+        <updated>2023-03-13T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: Matt Patches/Polygon  It’s back, baby! Who will join Yuri on the Victor’s podium?  The second annual Who Would Win Week bracket is here — and the competition is tighter than ever. Last year, Yu...]]></summary>
+        <content type="html"><![CDATA[Image: Matt Patches/Polygon  It’s back, baby! Who will join Yuri on the Victor’s podium?  The second annual Who Would Win Week bracket is here — and the competition is tighter than ever. Last year, Yuri Katsuki skated his way to a surprise victory over fierce competitors like Kirby, Pikachu, and Waluigi. This year, we’ve picked four totally new categories with a completely new lineup of contestants. What exactly are we measuring? What are these characters fighting with/about/over? We’ll just say...]]></content>
+        <published>2023-03-13T14:59:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 | アイブン]]></title>
+        <id>https://aiboom.net/?p=51377</id>
+        <link href="https://aiboom.net/archives/51377"/>
+        <updated>2023-03-13T14:14:45.000Z</updated>
+        <summary type="html"><![CDATA[マイページに保存科学研究において、大量の文献から必要な情報を抽出することは非常に重要な作業です。しかし、手動での抽出は非常に時間がかかる上、誤りが発生する可能性もあるため、自動化が求められていました。そこで、ウィスコンシ […] ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 first appeared on アイブン.]]></summary>
+        <content type="html"><![CDATA[マイページに保存科学研究において、大量の文献から必要な情報を抽出することは非常に重要な作業です。しかし、手動での抽出は非常に時間がかかる上、誤りが発生する可能性もあるため、自動化が求められていました。そこで、ウィスコンシ […] ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 first appeared on アイブン.]]></content>
+        <author>
+            <name>Parks, Inc.</name>
+        </author>
+        <category label="自然言語処理"/>
+        <category label="論文カジュアル紹介"/>
+        <published>2023-03-13T14:14:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 More Command Line Tools for Data Science | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=152672</id>
+        <link href="https://www.kdnuggets.com/2023/03/5-command-line-tools-data-science.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-more-command-line-tools-for-data-science"/>
+        <updated>2023-03-13T14:00:35.000Z</updated>
+        <summary type="html"><![CDATA[Use these tools to Access API, Manipulate CSV files, download datasets, and more from your terminal.]]></summary>
+        <content type="html"><![CDATA[Use these tools to Access API, Manipulate CSV files, download datasets, and more from your terminal.]]></content>
+        <author>
+            <name>Abid Ali Awan</name>
+        </author>
+        <category label="KDnuggets Evergreen"/>
+        <category label="KDnuggets Originals"/>
+        <category label="Data Science"/>
+        <published>2023-03-13T14:00:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why video game protagonists have become so chatty | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23631177/chatty-video-game-characters-god-of-war-horizon-forbidden-west-high-on-life-forspoken</id>
+        <link href="https://www.polygon.com/23631177/chatty-video-game-characters-god-of-war-horizon-forbidden-west-high-on-life-forspoken"/>
+        <updated>2023-03-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: SIE Santa Monica Studio/Sony Interactive Entertainment via Polygon  You’re not just imagining it  The gaming landscape wasn’t always this loud. Recent protagonists have offered a stark contrast...]]></summary>
+        <content type="html"><![CDATA[Image: SIE Santa Monica Studio/Sony Interactive Entertainment via Polygon  You’re not just imagining it  The gaming landscape wasn’t always this loud. Recent protagonists have offered a stark contrast to the strong, silent type that historically dominated video game character design. Back then, voiceless playable characters like Link or Gordon Freeman would sit back and let their companions dictate how to save the day. Friendly NPCs would communicate vital information about the games’ quests and...]]></content>
+        <published>2023-03-13T14:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[レゴファンのデザインが商品化！公募に寄せられた作品たち | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/lego-bricklink-series-1-designs-12-sets-fans-vote.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/lego-bricklink-series-1-designs-12-sets-fans-vote.html"/>
+        <updated>2023-03-13T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[また新しいレゴシリーズが出ます。今回は「ブリックリンク・デザイナー・プログラム」という企画。レゴファンがデザインした375作品の中から商品化してほしいレゴデザインを投票するというもの。]]></summary>
+        <content type="html"><![CDATA[また新しいレゴシリーズが出ます。今回は「ブリックリンク・デザイナー・プログラム」という企画。レゴファンがデザインした375作品の中から商品化してほしいレゴデザインを投票するというもの。]]></content>
+        <author>
+            <name>岩田リョウコ</name>
+        </author>
+        <category label="DESIGN"/>
+        <published>2023-03-13T14:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pivot your D&D group to a different system built with role-play — not combat — in mind | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/what-to-play/23632869/dnd-dungeons-dragons-alternatives-role-play-storytelling</id>
+        <link href="https://www.polygon.com/what-to-play/23632869/dnd-dungeons-dragons-alternatives-role-play-storytelling"/>
+        <updated>2023-03-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo: Charlie Hall/Polygon  5 of the best modern storytelling engines  James D’Amato is an actual play podcaster, game designer, and author of the Ultimate RPG Guide series published by Adams Media. ...]]></summary>
+        <content type="html"><![CDATA[Photo: Charlie Hall/Polygon  5 of the best modern storytelling engines  James D’Amato is an actual play podcaster, game designer, and author of the Ultimate RPG Guide series published by Adams Media. For 10 years he has recorded sessions of hundreds of different RPGs for the One Shot podcast. After the roller coaster ride of Dungeons & Dragons’ recent OGL fiasco, many fans of tabletop role-playing games are looking to try something different. Many don’t know that other TTRPGs exist, and those th...]]></content>
+        <published>2023-03-13T13:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[表面の凹凸がリアル｡本物の月みたいな宙に浮くライト | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/giz-yatai-moon-g-1.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/giz-yatai-moon-g-1.html"/>
+        <updated>2023-03-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ギズ屋台の人気商品「Vintage Bulb G」に新たな仲間が加わりました。今度は、月を模したライトがついた「Moon G」です。]]></summary>
+        <content type="html"><![CDATA[ギズ屋台の人気商品「Vintage Bulb G」に新たな仲間が加わりました。今度は、月を模したライトがついた「Moon G」です。]]></content>
+        <author>
+            <name>中川真知子</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2023-03-13T13:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[賃貸でも使えるスマートロックおすすめはどれ？人気4機種の比較＆選び方を解説【2023年】 | デジクル]]></title>
+        <id>https://smartparty.jp/?p=55471</id>
+        <link href="https://smartparty.jp/smart-lock-compare"/>
+        <updated>2023-03-13T12:38:36.000Z</updated>
+        <summary type="html"><![CDATA[鍵を持たないでも玄関の鍵を施錠、解除できるようになる便利アイテムのスマートロック。 楽天やAmazonで検索してみると様々なアイテムがあり、こんなことにお悩みの方も多いのではないでしょうか？ そこで本記事では数年前からい ...]]></summary>
+        <content type="html"><![CDATA[鍵を持たないでも玄関の鍵を施錠、解除できるようになる便利アイテムのスマートロック。 楽天やAmazonで検索してみると様々なアイテムがあり、こんなことにお悩みの方も多いのではないでしょうか？ そこで本記事では数年前からい ...]]></content>
+        <author>
+            <name>タカヒロ</name>
+        </author>
+        <category label="スマート家電"/>
+        <published>2023-03-13T12:38:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RTX 4090外付けGPUボックスROG XG Mobile (2023)、約40万円で発売 | TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2023/03/13/1007.html</id>
+        <link href="https://www.techno-edge.net/article/2023/03/13/1007.html"/>
+        <updated>2023-03-13T12:29:42.000Z</updated>
+        <summary type="html"><![CDATA[ASUS JAPANが、ゲーミングノートPC「ROG Flow」シリーズと専用コネクタで接続する外付けGPUボックス、ROG XG Mobileの2023年モデルを発表しました。3月下旬に39万9800円で発売します。]]></summary>
+        <content type="html"><![CDATA[ASUS JAPANが、ゲーミングノートPC「ROG Flow」シリーズと専用コネクタで接続する外付けGPUボックス、ROG XG Mobileの2023年モデルを発表しました。3月下旬に39万9800円で発売します。]]></content>
+        <published>2023-03-13T12:29:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一回AIアートグランプリを受賞したので自分の作品解説とファイナリスト作品への感想。そしてその先（CloseBox） | TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2023/03/13/1006.html</id>
+        <link href="https://www.techno-edge.net/article/2023/03/13/1006.html"/>
+        <updated>2023-03-13T12:26:05.000Z</updated>
+        <summary type="html"><![CDATA[第一回AIアートグランプリに応募し、グランプリを獲得した筆者によるレポート。]]></summary>
+        <content type="html"><![CDATA[第一回AIアートグランプリに応募し、グランプリを獲得した筆者によるレポート。]]></content>
+        <published>2023-03-13T12:26:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS、ROG Flow Z13発表。第13世代Core i9にRTX 4060搭載の13.4型ゲーミングタブレット | TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2023/03/13/1005.html</id>
+        <link href="https://www.techno-edge.net/article/2023/03/13/1005.html"/>
+        <updated>2023-03-13T12:09:07.000Z</updated>
+        <summary type="html"><![CDATA[ASUS JAPANは3月13日、ゲーミングブランドROGシリーズの中でもコンパクトなモバイルノート「Flowシリーズ」の新モデル、「ROG Flow Z13」を発表しました。価格は28万9800円からで3月17日に発売の予定です。]]></summary>
+        <content type="html"><![CDATA[ASUS JAPANは3月13日、ゲーミングブランドROGシリーズの中でもコンパクトなモバイルノート「Flowシリーズ」の新モデル、「ROG Flow Z13」を発表しました。価格は28万9800円からで3月17日に発売の予定です。]]></content>
+        <published>2023-03-13T12:09:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Find Set Difference in Python | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=152659</id>
+        <link href="https://www.kdnuggets.com/2023/03/find-set-difference-python.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-find-set-difference-in-python"/>
+        <updated>2023-03-13T12:00:05.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to find the set difference between two Python sets using the difference() method and the difference (-) operator.]]></summary>
+        <content type="html"><![CDATA[Learn how to find the set difference between two Python sets using the difference() method and the difference (-) operator.]]></content>
+        <author>
+            <name>Bala Priya C</name>
+        </author>
+        <category label="KDnuggets Evergreen"/>
+        <category label="KDnuggets Originals"/>
+        <category label="Python"/>
+        <published>2023-03-13T12:00:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YMOのアルバムをモチーフにした「テクノ屏風」開封の儀に潜入！ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/ymo-techno-byoubu.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/ymo-techno-byoubu.html"/>
+        <updated>2023-03-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[YMOと日本伝統工芸のコラボ「テクノ屏風」お披露目イベントのレポート。 イベントでは、YMO関連の著作が多いライターの吉村栄一さん、dommuneの宇川直宏さん、ケン・イシイさんらによる対談や、能楽師の辰巳満次郎さんとケン・イシイさんのDJによる「TECHNOH」なるパフォーマンスが行われた。テクノ屏風は限定50隻で、既に多数のオーダーが入っている。]]></summary>
+        <content type="html"><![CDATA[YMOと日本伝統工芸のコラボ「テクノ屏風」お披露目イベントのレポート。 イベントでは、YMO関連の著作が多いライターの吉村栄一さん、dommuneの宇川直宏さん、ケン・イシイさんらによる対談や、能楽師の辰巳満次郎さんとケン・イシイさんのDJによる「TECHNOH」なるパフォーマンスが行われた。テクノ屏風は限定50隻で、既に多数のオーダーが入っている。]]></content>
+        <author>
+            <name>巽英俊</name>
+        </author>
+        <category label="DESIGN"/>
+        <published>2023-03-13T12:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Gatherを実際に使っているLAPRASさんに聞く、バーチャルオフィスツールの活用事例 | ROXX開発者ブログ]]></title>
         <id>https://techblog.roxx.co.jp/entry/2023/03/13/201727</id>
@@ -29,7 +387,7 @@
         <published>2023-03-13T11:04:27.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[定期的に見ておこう。iPhoneのサブスクリプションを確認・解約する方法をチェック | ギズモード・ジャパン]]></title>
+        <title type="html"><![CDATA[iPhoneのサブスクリプションを解約する方法 | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2023/03/how-to-check-iphone-subscriptions.html</id>
         <link href="https://www.gizmodo.jp/2023/03/how-to-check-iphone-subscriptions.html"/>
         <updated>2023-03-13T11:00:00.000Z</updated>
@@ -142,6 +500,18 @@
         <published>2023-03-13T09:30:52.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[3rd Generation Intel® Xeon® Scalable Processors における暗号処理の高速化について | Zennのトレンド]]></title>
+        <id>https://zenn.dev/shiguredo/articles/crypto-acceleration-on-xeon-3rd</id>
+        <link href="https://zenn.dev/shiguredo/articles/crypto-acceleration-on-xeon-3rd"/>
+        <updated>2023-03-13T09:22:54.000Z</updated>
+        <summary type="html"><![CDATA[3rd Generation Xeon において追加された Crypto Acceleration についてのまとめです。 おかしな部分等あれば指摘いただけると幸いです。   概要 3rd Generation Intel® Xeon® Scalable processors (と一部の第 10 世代 Core シリーズ)においては AVX512 系の命令がいくつか追加されており、それらの命令を利...]]></summary>
+        <content type="html"><![CDATA[3rd Generation Xeon において追加された Crypto Acceleration についてのまとめです。 おかしな部分等あれば指摘いただけると幸いです。   概要 3rd Generation Intel® Xeon® Scalable processors (と一部の第 10 世代 Core シリーズ)においては AVX512 系の命令がいくつか追加されており、それらの命令を利用することで暗号処理の高速化を実現することができます。 これらの高速化に関連する拡張命令は次の 4 つです。  AVX512F AVX512_IFMA   積和演算(fuse multiply ...]]></content>
+        <author>
+            <name>so298</name>
+        </author>
+        <published>2023-03-13T09:22:54.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[iOS版 Kyash Widgetのエラーハンドリング事例 | Kyash Product Blog]]></title>
         <id>https://blog.kyash.co/entry/2023/03/13/180607</id>
         <link href="https://blog.kyash.co/entry/2023/03/13/180607"/>
@@ -174,6 +544,18 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[【前編】社内ラジオはいいぞ！ - gatherを活用した事例 | Magic Moment Tech Blogさんのフィード]]></title>
+        <id>https://zenn.dev/magicmoment/articles/tech-radio-20230303</id>
+        <link href="https://zenn.dev/magicmoment/articles/tech-radio-20230303"/>
+        <updated>2023-03-13T08:50:55.000Z</updated>
+        <summary type="html"><![CDATA[はじめに フロントエンドエンジニアの飯田です。 今回は開発とは関係がありませんが、弊社 Tech チームで昨年秋頃から行っている社内ラジオ（通称：Tech ラジオ）についてお話したいと思います！   なぜ Tech ラジオを始めたのか 昨年 9 月よりプロジェクトごとにチームが分けられることになり、別プロジェクトチームのメンバーとのコミュニケーション機会が激減していました。 またそんな中でも続々と...]]></summary>
+        <content type="html"><![CDATA[はじめに フロントエンドエンジニアの飯田です。 今回は開発とは関係がありませんが、弊社 Tech チームで昨年秋頃から行っている社内ラジオ（通称：Tech ラジオ）についてお話したいと思います！   なぜ Tech ラジオを始めたのか 昨年 9 月よりプロジェクトごとにチームが分けられることになり、別プロジェクトチームのメンバーとのコミュニケーション機会が激減していました。 またそんな中でも続々と新メンバーが入社し、組織の拡大と共によく知らないメンバーが増えていくことに対して課題感を感じていました。 人数が少ないときは月 1 でワークショップを行っていましたが、人数も増え、前ほど気軽...]]></content>
+        <author>
+            <name>Magic Moment Tech Blog</name>
+        </author>
+        <published>2023-03-13T08:50:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【前編】社内ラジオはいいぞ！ - gatherを活用した事例 | Zennのトレンド]]></title>
         <id>https://zenn.dev/magicmoment/articles/tech-radio-20230303</id>
         <link href="https://zenn.dev/magicmoment/articles/tech-radio-20230303"/>
         <updated>2023-03-13T08:50:55.000Z</updated>
@@ -249,11 +631,29 @@
         <published>2023-03-13T08:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【Google Chrome 111】View Transition APIって、Chrome以外のブラウザではどんな挙動になるの？ | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ryo0403/items/78f0f7fbf8a6956f2047?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ryo0403/items/78f0f7fbf8a6956f2047?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-13T07:52:13.000Z</updated>
+        <summary type="html"><![CDATA[はじめに つい先日、Google Chrome 111がリリースされ、エンジニアの皆さんはきっと大騒ぎされたことでしょう。 （僕は騒ぎました） Google Chrome 111の詳細は以下のリンク…]]></summary>
+        <content type="html"><![CDATA[はじめに つい先日、Google Chrome 111がリリースされ、エンジニアの皆さんはきっと大騒ぎされたことでしょう。 （僕は騒ぎました） Google Chrome 111の詳細は以下のリンク…]]></content>
+        <published>2023-03-13T07:52:13.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Android版「Gmail」の改善など先週の「Google Workspace」更新点まとめ　ほか【ダイジェストニュース】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/digest/1485429.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/digest/1485429.html"/>
         <updated>2023-03-13T07:51:41.000Z</updated>
         <published>2023-03-13T07:51:41.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[おれおれ PowerShell PROFILE | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/youzhen0x38/items/0a795937350caca445f7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/youzhen0x38/items/0a795937350caca445f7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-13T07:46:38.000Z</updated>
+        <summary type="html"><![CDATA[$PROFILE作成 Set-ExecutionPolicy RemoteSigned # 適宜 if (!(Test-Path -Path $PROFILE)) {  New-Item -ItemT…]]></summary>
+        <content type="html"><![CDATA[$PROFILE作成 Set-ExecutionPolicy RemoteSigned # 適宜 if (!(Test-Path -Path $PROFILE)) {  New-Item -ItemT…]]></content>
+        <published>2023-03-13T07:46:38.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[家のカチコチ水垢をラクに落としたのは「話題のふきん」と水でした | ギズモード・ジャパン]]></title>
@@ -278,22 +678,22 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Steam"/>
-        <category label="Xbox One"/>
-        <category label="Xbox Series X"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
-        <category label="Apex Legends"/>
-        <category label="xbox-one"/>
-        <category label="イベント"/>
-        <category label="News"/>
-        <category label="PC"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
+        <category label="PlayStation 5"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
+        <category label="イベント"/>
+        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
+        <category label="Steam"/>
+        <category label="Apex Legends"/>
+        <category label="Xbox One"/>
+        <category label="News"/>
         <published>2023-03-13T07:25:49.000Z</published>
     </entry>
     <entry>
@@ -384,10 +784,10 @@
             <name>重田雄一</name>
         </author>
         <category label="The Outlast Trials"/>
-        <category label="Steam"/>
-        <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="Steam"/>
+        <category label="News"/>
         <published>2023-03-13T06:08:38.000Z</published>
     </entry>
     <entry>
@@ -453,14 +853,23 @@
         <author>
             <name>片岡龍一</name>
         </author>
+        <category label="任天堂"/>
+        <category label="ゲーム"/>
+        <category label="nintendo-switch"/>
         <category label="Nintendo Switch"/>
         <category label="Nintendo Switch（有機ELモデル）"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
-        <category label="News"/>
-        <category label="ゲーム"/>
         <category label="なつもん！ 20世紀の夏休み"/>
+        <category label="News"/>
         <published>2023-03-13T05:49:51.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UnityのShader(ShaderLab/HLSL)入門その1 : Shaderの書き方 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/Yumuru/items/77a642004d015b83e0ce?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/Yumuru/items/77a642004d015b83e0ce?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-13T05:35:24.000Z</updated>
+        <summary type="html"><![CDATA[Shaderについて Shaderは3Dの物体を画面上に表示するときに、画面上のピクセルに対してどのような色を表示するかを決めるプログラムである。 このプログラムによって、物体の色と3D空間上の光源…]]></summary>
+        <content type="html"><![CDATA[Shaderについて Shaderは3Dの物体を画面上に表示するときに、画面上のピクセルに対してどのような色を表示するかを決めるプログラムである。 このプログラムによって、物体の色と3D空間上の光源…]]></content>
+        <published>2023-03-13T05:35:24.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[手のひらサイズの「オセロ」が移動時間の暇つぶしにうってつけ | ギズモード・ジャパン]]></title>
@@ -531,8 +940,8 @@
         <author>
             <name>葛西祝</name>
         </author>
-        <category label="イベント"/>
         <category label="Feature"/>
+        <category label="イベント"/>
         <category label="ゲーム"/>
         <published>2023-03-13T04:02:49.000Z</published>
     </entry>
@@ -604,18 +1013,18 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
-        <category label="Xbox Series X"/>
-        <category label="GUILTY GEAR -STRIVE-"/>
-        <category label="Xbox Series S"/>
-        <category label="xbox-one"/>
-        <category label="News"/>
-        <category label="PC"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="GUILTY GEAR -STRIVE-"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
+        <category label="Xbox Series S"/>
+        <category label="Xbox One"/>
+        <category label="News"/>
         <published>2023-03-13T03:33:02.000Z</published>
     </entry>
     <entry>
@@ -726,33 +1135,12 @@
         <published>2023-03-13T02:00:05.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Last of Us factions: Who they are and what they want | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23585034/last-us-group-fireflies-fedra-hunters</id>
-        <link href="https://www.polygon.com/23585034/last-us-group-fireflies-fedra-hunters"/>
-        <updated>2023-03-13T02:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Photo: Liane Hentscher/HBO  FEDRA, Fireflies, Hunters — we break it down for you  Life in The Last of Us is hard, to put it extremely, extremely mildly. Traveling anywhere is tough and involves siphon...]]></summary>
-        <content type="html"><![CDATA[Photo: Liane Hentscher/HBO  FEDRA, Fireflies, Hunters — we break it down for you  Life in The Last of Us is hard, to put it extremely, extremely mildly. Traveling anywhere is tough and involves siphoning off 20-year-old gas from abandoned cars. Zombies are everywhere, in increasingly terrifying forms. No one will laugh at your pun book. Perhaps worst of all, there’s the sense that danger is all around, even from the other people around you. The Last of Us universe is filled with factions, all cl...]]></content>
-        <published>2023-03-13T02:00:02.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【Turning Encounters into Innovation in Cebu】Vol. 1: Mabuhay, we are Sansan Cebu! | Sansan Tech Blog]]></title>
         <id>https://buildersbox.corp-sansan.com/entry/2023/03/13/110000</id>
         <link href="https://buildersbox.corp-sansan.com/entry/2023/03/13/110000"/>
         <updated>2023-03-13T02:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hi, I am Jay from the Overseas Establishment Team of the Engineering Division. In November 2022, Sasan announced the establishment of a development center in the Philippines to strengthen Sansan's pro...]]></summary>
         <content type="html"><![CDATA[Hi, I am Jay from the Overseas Establishment Team of the Engineering Division. In November 2022, Sasan announced the establishment of a development center in the Philippines to strengthen Sansan's product functions for global markets. We began preparations and actively scouting for talented engineer…]]></content>
-        <published>2023-03-13T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jamstack な Nuxt.js + microCMS サイトにプレビューページを追加してみた | Zennのトレンド]]></title>
-        <id>https://zenn.dev/hacobell_dev/articles/nuxt-ssg-preview</id>
-        <link href="https://zenn.dev/hacobell_dev/articles/nuxt-ssg-preview"/>
-        <updated>2023-03-13T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ハコベルシステム開発部の大石貴則です。普段はフロントエンドエンジニアとして物流 DX SaaS プロダクトの開発を行なっています。 この記事では、 Nuxt.js (static mode) + microCMS で構成した Jamstack なサイトにおいて、デプロイ不要でコンテンツをプレビューするページを追加し、執筆者が下書きを即時プレビューできるようにする方法を解説します。 (Vue.js ...]]></summary>
-        <content type="html"><![CDATA[ハコベルシステム開発部の大石貴則です。普段はフロントエンドエンジニアとして物流 DX SaaS プロダクトの開発を行なっています。 この記事では、 Nuxt.js (static mode) + microCMS で構成した Jamstack なサイトにおいて、デプロイ不要でコンテンツをプレビューするページを追加し、執筆者が下書きを即時プレビューできるようにする方法を解説します。 (Vue.js 2, Nuxt.js 2 を使用しています)   ハコベルサービスサイトの技術構成について ハコベルのサービスサイトは、Nuxt.js の static mode と、ヘッドレス CMS である...]]></content>
-        <author>
-            <name>Oishi Takanori</name>
-        </author>
         <published>2023-03-13T02:00:00.000Z</published>
     </entry>
     <entry>
@@ -764,6 +1152,18 @@
         <content type="html"><![CDATA[Hakuro Matsuda さんをゲストに迎えて、Silicon Valley Bank, レイオフ、Galaxy S23, テレビ、スマートホームなどについて話しました。 Show Notes  Rebuild: Watercooler ep16 preview What is Silicon Valley Bank? The bank’s collapse, explained. Silicon Valley Bank’s depositors will be fully protected, according to the Federal Reserve Biden Budget Declares War on Supersized IRAs 「グーグル」日本法人で労働組合を結成 LeetCode Meta Quest Pro VR headset price drops to $999 Meta doesn’t seem to know its VR headsets are game consoles Samsung Galaxy S23 Ultra: Early GPU...]]></content>
         <author>
             <name>Tatsuhiko Miyagawa</name>
+        </author>
+        <published>2023-03-13T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jamstack な Nuxt.js + microCMS サイトにプレビューページを追加してみた | Zennのトレンド]]></title>
+        <id>https://zenn.dev/hacobell_dev/articles/nuxt-ssg-preview</id>
+        <link href="https://zenn.dev/hacobell_dev/articles/nuxt-ssg-preview"/>
+        <updated>2023-03-13T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ハコベルシステム開発部の大石貴則です。普段はフロントエンドエンジニアとして物流 DX SaaS プロダクトの開発を行なっています。 この記事では、 Nuxt.js (static mode) + microCMS で構成した Jamstack なサイトにおいて、デプロイ不要でコンテンツをプレビューするページを追加し、執筆者が下書きを即時プレビューできるようにする方法を解説します。 (Vue.js ...]]></summary>
+        <content type="html"><![CDATA[ハコベルシステム開発部の大石貴則です。普段はフロントエンドエンジニアとして物流 DX SaaS プロダクトの開発を行なっています。 この記事では、 Nuxt.js (static mode) + microCMS で構成した Jamstack なサイトにおいて、デプロイ不要でコンテンツをプレビューするページを追加し、執筆者が下書きを即時プレビューできるようにする方法を解説します。 (Vue.js 2, Nuxt.js 2 を使用しています)   ハコベルサービスサイトの技術構成について ハコベルのサービスサイトは、Nuxt.js の static mode と、ヘッドレス CMS である...]]></content>
+        <author>
+            <name>Oishi Takanori</name>
         </author>
         <published>2023-03-13T02:00:00.000Z</published>
     </entry>
@@ -808,15 +1208,6 @@
         <updated>2023-03-13T01:30:00.000Z</updated>
         <summary type="html"><![CDATA[こんにちは。セキュリティエンジニアの@okazu_dmです。  皆さんはブラウザにおいてLocal StorageやCookieに格納されている値が暗号化されているかどうかを考えたことはあるでしょうか。これらWebサービスの認証・認可において使われるデータが、XSSのようなアプリケーションの脆弱性への耐性に差があるかどうかは頻繁に議論されるところです。  しかし、ブラウザに保存されたデータが暗号化...]]></summary>
         <content type="html"><![CDATA[こんにちは。セキュリティエンジニアの@okazu_dmです。  皆さんはブラウザにおいてLocal StorageやCookieに格納されている値が暗号化されているかどうかを考えたことはあるでしょうか。これらWebサービスの認証・認可において使われるデータが、XSSのようなアプリケーションの脆弱性への耐性に差があるかどうかは頻繁に議論されるところです。  しかし、ブラウザに保存されたデータが暗号化されているかどうかはまた別の攻撃経路への耐性の話であり、馴染みがないのではないでしょうか。  これは、基礎知識としてLocal StorageとCookieの仕組み/挙動の紹介と比較をしつつ、Google Chromeにおけるそれらの暗号化の実装上の違いを検証する記事です。]]></content>
-        <published>2023-03-13T01:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[All the Last of Us season 2 news we’ve heard so far  | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23634196/last-us-season-2-release-date-cast-news</id>
-        <link href="https://www.polygon.com/23634196/last-us-season-2-release-date-cast-news"/>
-        <updated>2023-03-13T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo: Liane Hentscher/HBO  The Last of Us Part 2’s story could take more than a season, but who knows when it might start  The Last of Us’ first season has come to an end, but there’s more to Joel an...]]></summary>
-        <content type="html"><![CDATA[Photo: Liane Hentscher/HBO  The Last of Us Part 2’s story could take more than a season, but who knows when it might start  The Last of Us’ first season has come to an end, but there’s more to Joel and Ellie’s story than one season of TV could tell. Unfortunately, HBO hasn’t revealed too much about the next season of the show, beyond the fact that it’s happening. We don’t even know when season 2 might arrive, but given HBO’s habit of waiting two years between the first two seasons of its biggest...]]></content>
         <published>2023-03-13T01:30:00.000Z</published>
     </entry>
     <entry>
@@ -921,6 +1312,18 @@
         <published>2023-03-13T00:11:09.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Rust + Webpack = Rspack の紹介 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sa2knight/articles/rspack_introduction</id>
+        <link href="https://zenn.dev/sa2knight/articles/rspack_introduction"/>
+        <updated>2023-03-13T00:05:25.000Z</updated>
+        <summary type="html"><![CDATA[概要 本記事では、JavaScript モジュールバンドラの一種である、 Rspack について、公式ドキュメントからわかることを要約し、自分なりの所感を付け加えて紹介します。  https://www.rspack.dev/misc/branding.html ※ 本記事は、Webpack に関する最低限の知識を前提としています。 ※ 本記事は、2023/03/12 時点の情報であり、古い内容が...]]></summary>
+        <content type="html"><![CDATA[概要 本記事では、JavaScript モジュールバンドラの一種である、 Rspack について、公式ドキュメントからわかることを要約し、自分なりの所感を付け加えて紹介します。  https://www.rspack.dev/misc/branding.html ※ 本記事は、Webpack に関する最低限の知識を前提としています。 ※ 本記事は、2023/03/12 時点の情報であり、古い内容が残っている場合があります   TL;DR;   Rspack は Webpack との互換性とパフォーマンスを両立したモジュールバンドラ  Webpack より5~10倍高速  Webpac...]]></content>
+        <author>
+            <name>shingo.sasaki</name>
+        </author>
+        <published>2023-03-13T00:05:25.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[本社移転のお知らせ | TEGAKARI]]></title>
         <id>https://www.tegakari.net/?p=25509</id>
         <link href="https://www.tegakari.net/2023/03/move-3/"/>
@@ -954,21 +1357,12 @@
         <published>2023-03-12T23:51:11.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【すばやさ特化】Visual Studio Codeでスライド作成・発表まで行う | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/aki_number16/items/43e0ffc99a7675ac1b69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/aki_number16/items/43e0ffc99a7675ac1b69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-12T23:16:38.000Z</updated>
-        <summary type="html"><![CDATA[年に1~2回は社内でLTを行ってきていて、今年もプレゼンテーションを行う機会が訪れました。LTの発表は数分で終わりますが、時間がかかるのは準備の方です。LTの準備には、まず発表テーマと内容を決めて、…]]></summary>
-        <content type="html"><![CDATA[年に1~2回は社内でLTを行ってきていて、今年もプレゼンテーションを行う機会が訪れました。LTの発表は数分で終わりますが、時間がかかるのは準備の方です。LTの準備には、まず発表テーマと内容を決めて、…]]></content>
-        <published>2023-03-12T23:16:38.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[TypeScriptでpdfからテキストを抽出する（PDF.js） | Zennのトレンド]]></title>
         <id>https://zenn.dev/hosaka313/articles/63df4a8007f9d3</id>
         <link href="https://zenn.dev/hosaka313/articles/63df4a8007f9d3"/>
         <updated>2023-03-12T23:16:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 本記事ではNode.js環境でTypeScriptを用いたPDFテキストの抽出する手順について、プロジェクトのセットアップから扱います。また、型定義を参照しつつサンプルコードに解説を加え、筆者の環境で遭遇したエラーも簡単に取り上げています。   想定読者  PDFをTypeScriptで扱いたい人。    使うもの／環境 2023年3月上旬、下記の環境化での実装です。  OS: Wind...]]></summary>
-        <content type="html"><![CDATA[はじめに 本記事ではNode.js環境でTypeScriptを用いたPDFテキストの抽出する手順について、プロジェクトのセットアップから扱います。また、型定義を参照しつつサンプルコードに解説を加え、筆者の環境で遭遇したエラーも簡単に取り上げています。   想定読者  PDFをTypeScriptで扱いたい人。    使うもの／環境 2023年3月上旬、下記の環境化での実装です。  OS: Windows 11 VSCode  コードの実行はCode Runnerを使用。   Node.js  v16.13.2  16系だとエラーが生じます。本文ではそのエラーも扱います。     Ty...]]></content>
+        <summary type="html"><![CDATA[はじめに 本記事ではNode.js環境でTypeScriptを用いてPDFテキストを抽出する手順について、プロジェクトのセットアップから扱います。また、型定義を参照しつつサンプルコードに解説を加え、筆者の環境で遭遇したエラーも簡単に取り上げています。   想定読者  PDFをTypeScriptで扱いたい人。    使うもの／環境 2023年3月上旬、下記の環境化での実装です。  OS: Wind...]]></summary>
+        <content type="html"><![CDATA[はじめに 本記事ではNode.js環境でTypeScriptを用いてPDFテキストを抽出する手順について、プロジェクトのセットアップから扱います。また、型定義を参照しつつサンプルコードに解説を加え、筆者の環境で遭遇したエラーも簡単に取り上げています。   想定読者  PDFをTypeScriptで扱いたい人。    使うもの／環境 2023年3月上旬、下記の環境化での実装です。  OS: Windows 11 VSCode  コードの実行はCode Runnerを使用。   Node.js  v16.13.2  16系だとエラーが生じます。本文ではそのエラーも扱います。     Ty...]]></content>
         <author>
             <name>hosaka313</name>
         </author>
@@ -1002,24 +1396,21 @@
         <published>2023-03-12T22:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[OpenAPIからコードを自動生成！『Orval』のメリットと選定理由 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/taisei-13046/items/f6717504ad5b85c27295?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/taisei-13046/items/f6717504ad5b85c27295?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-12T22:20:10.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 本記事ではOpenAPIからclientコードを自動生成するライブラリ『Orval』を紹介します。そしてOrvalの強みを明らかにし、どのような場合に選定するべきかを提案できたらと考えます。…]]></summary>
+        <content type="html"><![CDATA[はじめに 本記事ではOpenAPIからclientコードを自動生成するライブラリ『Orval』を紹介します。そしてOrvalの強みを明らかにし、どのような場合に選定するべきかを提案できたらと考えます。…]]></content>
+        <published>2023-03-12T22:20:10.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[terraformignoreの仕様にハマりながらローカルplan時間を大幅に短縮した | ISID テックブログ]]></title>
         <id>https://tech.isid.co.jp/entry/2023/03/13/terraformignore%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%AB%E3%83%8F%E3%83%9E%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%ABplan%E6%99%82%E9%96%93%E3%82%92%E5%A4%A7%E5%B9%85%E3%81%AB%E7%9F%AD</id>
         <link href="https://tech.isid.co.jp/entry/2023/03/13/terraformignore%E3%81%AE%E4%BB%95%E6%A7%98%E3%81%AB%E3%83%8F%E3%83%9E%E3%82%8A%E3%81%AA%E3%81%8C%E3%82%89%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%ABplan%E6%99%82%E9%96%93%E3%82%92%E5%A4%A7%E5%B9%85%E3%81%AB%E7%9F%AD"/>
         <updated>2023-03-12T22:00:00.000Z</updated>
         <summary type="html"><![CDATA[みなさんこんにちは！ 金融ソリューション事業部リースソリューション部の寺山です。本年から所属部署が変わりました。 今回は業務中に発見した Terraform の Tips を紹介する短めの記事となります。 先に結論 Terraform CloudのRemoteモードについて Remoteモード時のローカルplan時間の課題 解決方法と私がハマったポイント 注意点 先に結論 タイトルを先に回収します...]]></summary>
         <content type="html"><![CDATA[みなさんこんにちは！ 金融ソリューション事業部リースソリューション部の寺山です。本年から所属部署が変わりました。 今回は業務中に発見した Terraform の Tips を紹介する短めの記事となります。 先に結論 Terraform CloudのRemoteモードについて Remoteモード時のローカルplan時間の課題 解決方法と私がハマったポイント 注意点 先に結論 タイトルを先に回収しますと、ローカル plan 時間が大幅に改善された .terraformignore は以下です。 # ignore all ** # include terraform !code/terraform/…]]></content>
-        <published>2023-03-12T22:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Elasticsearchの構成要素とユースケース（実例） | Zennのトレンド]]></title>
-        <id>https://zenn.dev/kasa/articles/elasticsearch</id>
-        <link href="https://zenn.dev/kasa/articles/elasticsearch"/>
-        <updated>2023-03-12T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本記事について Elasticsearchを知らない人に向けて Elasticsearchの構成要素とユースケースについて解説します。 本記事後半にて、私が実際にプロジェクトで構築したシステムを実例として紹介します。   Elasticsearchの概要・特徴  Javaで書かれている全文検索ソフトウェア 索引型検索を利用 クラスタ構成・シャーディングによって高可用性を実現 REST APIによる...]]></summary>
-        <content type="html"><![CDATA[本記事について Elasticsearchを知らない人に向けて Elasticsearchの構成要素とユースケースについて解説します。 本記事後半にて、私が実際にプロジェクトで構築したシステムを実例として紹介します。   Elasticsearchの概要・特徴  Javaで書かれている全文検索ソフトウェア 索引型検索を利用 クラスタ構成・シャーディングによって高可用性を実現 REST APIによるアクセスが可能 データはJSON形式 Query DSLというJSON形式の言語で検索が可能 ログ収集・可視化などの様々なエコシステムと連携可能  ! 索引型検索 文書を高速に検索できるよう...]]></content>
-        <author>
-            <name>kasa</name>
-        </author>
         <published>2023-03-12T22:00:00.000Z</published>
     </entry>
     <entry>
@@ -1150,32 +1541,6 @@
         <published>2023-03-12T13:29:35.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[子供やペットの見守りに｡自動追従&通話可能なネットワークカメラ | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/giz-yatai-ranger-2c.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/giz-yatai-ranger-2c.html"/>
-        <updated>2023-03-12T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:三浦一紀2021年9月17日の記事を編集して再掲載しています。防犯に、見守りに。留守中の家の中って気になりますよね？一人暮らしや、日中誰もいなくなるご家庭では不審者の侵入が気がかりですし、小さなお子さんがいるご家庭ではお子さんだけの留守番のときは心配。ペットがいる場合は、留守中にどんな風に過ごしているのか気になったりします。そんなときに使いたいのがネットワークカメラ。今回はギズ屋台で販]]></summary>
-        <content type="html"><![CDATA[Photo:三浦一紀2021年9月17日の記事を編集して再掲載しています。防犯に、見守りに。留守中の家の中って気になりますよね？一人暮らしや、日中誰もいなくなるご家庭では不審者の侵入が気がかりですし、小さなお子さんがいるご家庭ではお子さんだけの留守番のときは心配。ペットがいる場合は、留守中にどんな風に過ごしているのか気になったりします。そんなときに使いたいのがネットワークカメラ。今回はギズ屋台で販]]></content>
-        <author>
-            <name>三浦一紀</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-12T13:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シーンに応じて携帯方法が選べる旅行用バックパック「TRIPPER」 | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/machi-ya-tripper-start-636478.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/machi-ya-tripper-start-636478.html"/>
-        <updated>2023-03-12T12:45:00.000Z</updated>
-        <summary type="html"><![CDATA[40L大容量にして整理整頓もはかどる旅行用バックパック「TRIPPER」が登場。オプション含め収納スペース22個を備え防水性能も搭載。折り畳めるシューズ用収納スペースも付いています。マグネットタイプのバックルやロック機構搭載のショルダーストラップなど旅を快適にする機能が満載です。]]></summary>
-        <content type="html"><![CDATA[40L大容量にして整理整頓もはかどる旅行用バックパック「TRIPPER」が登場。オプション含め収納スペース22個を備え防水性能も搭載。折り畳めるシューズ用収納スペースも付いています。マグネットタイプのバックルやロック機構搭載のショルダーストラップなど旅を快適にする機能が満載です。]]></content>
-        <author>
-            <name>山田洋路</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-12T12:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[最新の論文をChatGPTで要約して毎朝Slackに共有してくれるbotを作る！ | Zennのトレンド]]></title>
         <id>https://zenn.dev/ozushi/articles/ebe3f47bf50a86</id>
         <link href="https://zenn.dev/ozushi/articles/ebe3f47bf50a86"/>
@@ -1188,19 +1553,6 @@
         <published>2023-03-12T12:21:07.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[アラジンのトースターにかわいい桜色がカムバック | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/aladdin-toaster-sakura.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/aladdin-toaster-sakura.html"/>
-        <updated>2023-03-12T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[家電らしくない色の家電、いいよね。ラウンドワンの景品にもなっちゃうほどデザインがかわいらしい、アラジンのトースター。今年は春らしい限定カラーのSAKURA（ピンク色）が数量限定で販売されます。人気カラーが2年ぶりの再販SAKURAは2018年春のシーズナルカラーとして登場し、その反響の大きさから2021年にも再販がありました。なので今年で3回目の販売。これ、相当人気ってことですよね。限定カラーにな]]></summary>
-        <content type="html"><![CDATA[家電らしくない色の家電、いいよね。ラウンドワンの景品にもなっちゃうほどデザインがかわいらしい、アラジンのトースター。今年は春らしい限定カラーのSAKURA（ピンク色）が数量限定で販売されます。人気カラーが2年ぶりの再販SAKURAは2018年春のシーズナルカラーとして登場し、その反響の大きさから2021年にも再販がありました。なので今年で3回目の販売。これ、相当人気ってことですよね。限定カラーにな]]></content>
-        <author>
-            <name>ヤマダユウス型</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-12T12:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ワイ「solid.jsについて教えてくれんか？」新人君(chatGPT)「はい」 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/ihcamonoihS/items/3688444cfaea3a657025?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/ihcamonoihS/items/3688444cfaea3a657025?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1208,19 +1560,6 @@
         <summary type="html"><![CDATA[この記事はほぼchatGPTを使って生成されています 流行りのchatGPTに以下のプロンプトを使って入力して得られた出力を、内容を軽く精査して、プロンプトをまたいだ出力が自然につながるようにだけ手…]]></summary>
         <content type="html"><![CDATA[この記事はほぼchatGPTを使って生成されています 流行りのchatGPTに以下のプロンプトを使って入力して得られた出力を、内容を軽く精査して、プロンプトをまたいだ出力が自然につながるようにだけ手…]]></content>
         <published>2023-03-12T11:58:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[猫さま大興奮で飼い主も大満足！ ばねの力が本能を呼び覚ます新感覚の猫じゃらし | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/266128-bane-jarashi.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/266128-bane-jarashi.html"/>
-        <updated>2023-03-12T11:45:00.000Z</updated>
-        <summary type="html"><![CDATA[ばね会社が作った新感覚ねこじゃらし「ばねじゃらし」で我が家猫たちと遊んでみた。ばねの弾性で生き物のように動くおもちゃに猫たち夢中！ 地鶏の羽を使用するなど、猫の本能くすぐる仕掛けが詰まっていたよ。シンプルなデザインも嬉しい。]]></summary>
-        <content type="html"><![CDATA[ばね会社が作った新感覚ねこじゃらし「ばねじゃらし」で我が家猫たちと遊んでみた。ばねの弾性で生き物のように動くおもちゃに猫たち夢中！ 地鶏の羽を使用するなど、猫の本能くすぐる仕掛けが詰まっていたよ。シンプルなデザインも嬉しい。]]></content>
-        <author>
-            <name>にしやまあやか</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-12T11:45:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[スクレイピングした文字列を ChatGPT で簡単にフォーマットする | Qiita - 人気の記事]]></title>
@@ -1304,25 +1643,12 @@
         <author>
             <name>洋ナシ</name>
         </author>
-        <category label="Contraband Police"/>
         <category label="PCゲーム極☆道"/>
-        <category label="Feature"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="Contraband Police"/>
+        <category label="Feature"/>
         <published>2023-03-12T08:01:07.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[この米袋、欲しい。防災にまつわる"コメ知識"が印刷された新潟米 | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/rice-saver.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/rice-saver.html"/>
-        <updated>2023-03-12T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:にいがた防災ステーションマメ知識じゃなくてコメ知識。食材の商品パッケージのデザインにはいろいろありますが、作り方やお勧めの食べ方以外に有益な情報というのはあんまり見かけません。一方で米袋というのは大きなパッケージなので、空きスペースを好きなように活用して、レイアウトを工夫したり自由度が高いのが特徴です。文化と防災知識の融合中越地震を経験した新潟県は、美味しいお米でも知られる土地です。ま]]></summary>
-        <content type="html"><![CDATA[Image:にいがた防災ステーションマメ知識じゃなくてコメ知識。食材の商品パッケージのデザインにはいろいろありますが、作り方やお勧めの食べ方以外に有益な情報というのはあんまり見かけません。一方で米袋というのは大きなパッケージなので、空きスペースを好きなように活用して、レイアウトを工夫したり自由度が高いのが特徴です。文化と防災知識の融合中越地震を経験した新潟県は、美味しいお米でも知られる土地です。ま]]></content>
-        <author>
-            <name>岡本玄介</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-12T08:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[なぜゲームで行う“わるい行為”は魅力的なのか？『ホグワーツ・レガシー』から見る「正しさへの違和感」 | IGN Japan games]]></title>
@@ -1334,25 +1660,25 @@
         <author>
             <name>渡邉卓也</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
-        <category label="Nintendo Switch（有機ELモデル）"/>
-        <category label="Xbox Series X"/>
-        <category label="nintendo-switch"/>
-        <category label="ホグワーツ・レガシー"/>
-        <category label="任天堂"/>
-        <category label="xbox-one"/>
-        <category label="Feature"/>
-        <category label="PC"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
+        <category label="PlayStation 5"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
+        <category label="Feature"/>
+        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
+        <category label="Nintendo Switch（有機ELモデル）"/>
+        <category label="ホグワーツ・レガシー"/>
+        <category label="Xbox One"/>
         <published>2023-03-12T05:01:06.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[タイピングが上達するための方法 | Qiita - 人気の記事]]></title>
+        <title type="html"><![CDATA[タイピングを上達させるための方法 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/saku_it/items/ae37712e8b91dc7cece0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/saku_it/items/ae37712e8b91dc7cece0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2023-03-12T04:19:05.000Z</updated>
@@ -1371,6 +1697,15 @@
             <name>kameoncloud</name>
         </author>
         <published>2023-03-12T04:09:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTにブレストしてもらってビジュアライゼーションもしてもらうツール作った | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/saitofjp/items/428c39a4d50098a47e61?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/saitofjp/items/428c39a4d50098a47e61?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-12T04:03:14.000Z</updated>
+        <summary type="html"><![CDATA[これです  これはなに ChatGPTに、ブレストさせて、ビジュアル化です。  起動画面↑ なぜつくった？ ChatGPTは思考補助としてブレストに使えると思ってたのですが... 「なるほど。じゃあ、こ…]]></summary>
+        <content type="html"><![CDATA[これです  これはなに ChatGPTに、ブレストさせて、ビジュアル化です。  起動画面↑ なぜつくった？ ChatGPTは思考補助としてブレストに使えると思ってたのですが... 「なるほど。じゃあ、こ…]]></content>
+        <published>2023-03-12T04:03:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[就活を終えたので色々と書く | Qiita - 人気の記事]]></title>
@@ -1404,15 +1739,6 @@
             <name>あんちぽ</name>
         </author>
         <published>2023-03-12T03:28:56.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTTP/2、CORS、IPFS を活用して個人スケールで大容量の地理空間情報をホストする | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/hfu/items/aeaeafeaa1b3359579c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/hfu/items/aeaeafeaa1b3359579c4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-12T03:21:26.000Z</updated>
-        <summary type="html"><![CDATA[個人スケールで大容量の地理空間情報をホストするために有望な3つの要素である HTTP/2、CORS、IPFS と、それらを用いるのに便利な nginxの概要、および個人スケールで大容量の地理空間情報…]]></summary>
-        <content type="html"><![CDATA[個人スケールで大容量の地理空間情報をホストするために有望な3つの要素である HTTP/2、CORS、IPFS と、それらを用いるのに便利な nginxの概要、および個人スケールで大容量の地理空間情報…]]></content>
-        <published>2023-03-12T03:21:26.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ChatGPT が回答する Discord Bot をほぼ0円運用できるように作った | Zennのトレンド]]></title>
@@ -1463,20 +1789,20 @@
         <author>
             <name>野村光</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
         <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
-        <category label="nintendo-switch"/>
-        <category label="Akka Arrh"/>
-        <category label="任天堂"/>
         <category label="xbox-one"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
+        <category label="Akka Arrh"/>
+        <category label="Xbox One"/>
         <published>2023-03-12T02:01:06.000Z</published>
     </entry>
     <entry>
@@ -1489,49 +1815,13 @@
         <published>2023-03-12T01:41:32.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CDKはどこから来たのか CDKは何者か CDKはどこへ行くのか | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/sasamuku/items/39ab4d480e4c90c8be0b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/sasamuku/items/39ab4d480e4c90c8be0b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-12T01:38:22.000Z</updated>
-        <summary type="html"><![CDATA[前置き 社内 LT で AWS CDK の概要を紹介したので Qiita に焼き増しします。 なお筆者は CDK 歴が浅いです。何かあれば指摘いただけますと勉強になります。 https://ja.w…]]></summary>
-        <content type="html"><![CDATA[前置き 社内 LT で AWS CDK の概要を紹介したので Qiita に焼き増しします。 なお筆者は CDK 歴が浅いです。何かあれば指摘いただけますと勉強になります。 https://ja.w…]]></content>
-        <published>2023-03-12T01:38:22.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Steam Deck accessories | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/what-to-buy/23627961/best-steam-deck-accessories</id>
-        <link href="https://www.polygon.com/what-to-buy/23627961/best-steam-deck-accessories"/>
-        <updated>2023-03-11T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Graphic: William Joel/Polygon | Source images: 8Bitdo, Anker  You can get even more out of the handheld PC with a couple of accessories  Valve’s Steam Deck is a powerful handheld PC that can run many ...]]></summary>
-        <content type="html"><![CDATA[Graphic: William Joel/Polygon | Source images: 8Bitdo, Anker  You can get even more out of the handheld PC with a couple of accessories  Valve’s Steam Deck is a powerful handheld PC that can run many games from the vast catalog of Steam games, but you probably knew that already. Maybe you didn’t know that within a few months of its release in early 2022, the accessory scene around the Steam Deck was already full of great options. It’s true, you don’t need many add-ons at all to have a wonderful ...]]></content>
-        <published>2023-03-11T18:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Patch Quest a roguelike, Metroidvania, bullet hell, or Pokémon-like? Yes | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/reviews/23630629/patch-quest-review-roguelike-metroidvania-pokemon-steam</id>
-        <link href="https://www.polygon.com/reviews/23630629/patch-quest-review-roguelike-metroidvania-pokemon-steam"/>
-        <updated>2023-03-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: Lychee Game Labs/Curve Games  Patch Quest performs an impressive juggling act  At first glance, the world of Patch Quest is inviting, colorful, and warm. However, you soon come face to face wit...]]></summary>
-        <content type="html"><![CDATA[Image: Lychee Game Labs/Curve Games  Patch Quest performs an impressive juggling act  At first glance, the world of Patch Quest is inviting, colorful, and warm. However, you soon come face to face with a colossal web-slinging spider, and suddenly, the world seems much more dangerous.    In Patch Quest, you play as an explorer looking to stitch together the quilted world of Patchlantis with the help of your monster pals. Your first few hours are an amalgamation of numerous games that have come be...]]></content>
-        <published>2023-03-11T16:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【GitHub】GitHubでコードを見るときは | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/SNQ-2001/items/0467aa99fb9430353e1b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/SNQ-2001/items/0467aa99fb9430353e1b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2023-03-11T11:38:30.000Z</updated>
-        <summary type="html"><![CDATA[はじめに この間、教えてもらって衝撃を受けたGitHubの機能を記事にしておきます。 やりかた リポジトリを開きます。  .を押します。  おわり この機能めっちゃ便利！ 今までフォルダのURLを開いて…]]></summary>
-        <content type="html"><![CDATA[はじめに この間、教えてもらって衝撃を受けたGitHubの機能を記事にしておきます。 やりかた リポジトリを開きます。  .を押します。  おわり この機能めっちゃ便利！ 今までフォルダのURLを開いて…]]></content>
+        <summary type="html"><![CDATA[はじめに この間、教えてもらって衝撃を受けたGitHubの機能を記事にしておきます。 やりかた リポジトリを開きます。  キーボードで.を打ちます。  おわり この機能めっちゃ便利！ 今までフォルダのU…]]></summary>
+        <content type="html"><![CDATA[はじめに この間、教えてもらって衝撃を受けたGitHubの機能を記事にしておきます。 やりかた リポジトリを開きます。  キーボードで.を打ちます。  おわり この機能めっちゃ便利！ 今までフォルダのU…]]></content>
         <published>2023-03-11T11:38:30.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[eclipse + Tomcat + MySQL + Javaを使用して動的Web作成してみた | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/usamaro/items/83de0d8733561661dd5b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/usamaro/items/83de0d8733561661dd5b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-11T10:29:57.000Z</updated>
-        <summary type="html"><![CDATA[やりたいこと ・eclipse,サーブレット,JSPを使用した動的Webサービスの作成 今回は、軽く説明を加えながら誰でも好きな書籍名と好きなポイントを投稿できるサービスを作成していきます。 本投稿…]]></summary>
-        <content type="html"><![CDATA[やりたいこと ・eclipse,サーブレット,JSPを使用した動的Webサービスの作成 今回は、軽く説明を加えながら誰でも好きな書籍名と好きなポイントを投稿できるサービスを作成していきます。 本投稿…]]></content>
-        <published>2023-03-11T10:29:57.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【ChatGPT×LINE】ホメホメAI🤗チャットボットを作ってみた | Qiita - 人気の記事]]></title>
@@ -1575,14 +1865,14 @@
         <author>
             <name>Anthony Wood</name>
         </author>
-        <category label="The Outer Worlds: Spacer's Choice Edition"/>
-        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
-        <category label="Xbox Series X"/>
-        <category label="The Outer Worlds"/>
-        <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
+        <category label="The Outer Worlds: Spacer's Choice Edition"/>
+        <category label="The Outer Worlds"/>
+        <category label="News"/>
         <published>2023-03-11T09:54:15.000Z</published>
     </entry>
     <entry>
@@ -1607,20 +1897,20 @@
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="nintendo-switch"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
         <category label="任天堂"/>
+        <category label="nintendo-switch"/>
+        <category label="PlayStation 5"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
+        <category label="Xbox Series X"/>
         <category label="xbox-one"/>
         <category label="リマスター版『零 ～月蝕の仮面～』"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
+        <category label="Xbox One"/>
+        <category label="News"/>
         <published>2023-03-11T07:53:24.000Z</published>
     </entry>
     <entry>
@@ -1711,25 +2001,13 @@
         <author>
             <name>Anthony Wood</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
-        <category label="FORSPOKEN"/>
-        <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="FORSPOKEN"/>
+        <category label="News"/>
         <published>2023-03-11T03:09:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エンジニアとビジネスと、の手前の話 - あなたの給与はどこから？ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/339/articles/1cd8320ef5db9f</id>
-        <link href="https://zenn.dev/339/articles/1cd8320ef5db9f"/>
-        <updated>2023-03-11T00:54:34.000Z</updated>
-        <summary type="html"><![CDATA[まえおき（本題と関係ありません） 最近、エンジニアとビジネスという謎の話題が流行っています。 エンジニアとビジネスということについては、私は次のように思っています。  仕事には役割分担があるので、エンジニアの人は必ずしも利益最適化を考えなくてもよい  下手の考え休むに似たり、餅は餅屋 ただし、自分で考えないとすればそれは委任であって、結論に従う義務がある もし自分で考えたとしても、チームや会社の結...]]></summary>
-        <content type="html"><![CDATA[まえおき（本題と関係ありません） 最近、エンジニアとビジネスという謎の話題が流行っています。 エンジニアとビジネスということについては、私は次のように思っています。  仕事には役割分担があるので、エンジニアの人は必ずしも利益最適化を考えなくてもよい  下手の考え休むに似たり、餅は餅屋 ただし、自分で考えないとすればそれは委任であって、結論に従う義務がある もし自分で考えたとしても、チームや会社の結論は個人の意見と関係なく是とすべき  法律や道徳的信念に反する場合は別   また、ゼロベースで考えることはしなくても、出た結論について誰かがエンジニアリング観点で再設計・最適化することは実装...]]></content>
-        <author>
-            <name>さざんかぬふ</name>
-        </author>
-        <published>2023-03-11T00:54:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【期間限定無料】ChatGPTのLINEボットを30分でプログラミングせずに作る | Qiita - 人気の記事]]></title>
@@ -1739,33 +2017,6 @@
         <summary type="html"><![CDATA[上手く動作しない場合は、動作しない時のTipsを確認してみてください。 Twitterで質問承ります！  3月1日に公開されたChatGPTのAPIを用いたサービスが続々と登場していますが、日本では…]]></summary>
         <content type="html"><![CDATA[上手く動作しない場合は、動作しない時のTipsを確認してみてください。 Twitterで質問承ります！  3月1日に公開されたChatGPTのAPIを用いたサービスが続々と登場していますが、日本では…]]></content>
         <published>2023-03-10T22:48:58.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo’s Switch OLED is $50 off and includes $140 worth of extras at Sam’s Club | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/2023/3/10/23634363/nintendo-switch-oled-deal-accessories-bundle-sams-club</id>
-        <link href="https://www.polygon.com/deals/2023/3/10/23634363/nintendo-switch-oled-deal-accessories-bundle-sams-club"/>
-        <updated>2023-03-10T21:03:17.000Z</updated>
-        <summary type="html"><![CDATA[Update: This deal is now over  If you want a Switch OLED, you usually have to pay $349.99 — $50 more than the standard Switch. That isn’t the case right now for Sam’s Club members, who can get one, al...]]></summary>
-        <content type="html"><![CDATA[Update: This deal is now over  If you want a Switch OLED, you usually have to pay $349.99 — $50 more than the standard Switch. That isn’t the case right now for Sam’s Club members, who can get one, along with a whole mess of free accessories, for $299.99 by selecting “pickup” before adding one to your cart. In addition to the console, which includes two white Joy-Cons, this bundle comes with a 256 GB SanDisk microSD card, a wired PDP Faceoff Deluxe Plus controller (featuring a headphone jack for...]]></content>
-        <published>2023-03-10T21:03:17.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Super Mario Bros. Movie’s final trailer is full of great little details | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23634018/super-mario-bros-movie-trailer-easter-eggs-breakdown-references</id>
-        <link href="https://www.polygon.com/23634018/super-mario-bros-movie-trailer-easter-eggs-breakdown-references"/>
-        <updated>2023-03-10T18:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: Illumination/Nintendo  Illumination is putting in the work when it comes to Mario Easter eggs  Nintendo and Illumination debuted the final trailer for The Super Mario Bros. Movie on Thursday, r...]]></summary>
-        <content type="html"><![CDATA[Image: Illumination/Nintendo  Illumination is putting in the work when it comes to Mario Easter eggs  Nintendo and Illumination debuted the final trailer for The Super Mario Bros. Movie on Thursday, revealing just a bit more about Mario, Luigi, Peach, and Toad’s adventures through the Mushroom Kingdom. The animated Mario movie’s most recent trailer didn’t explain too much new about the story, but it did give us plenty of Mad Max: Fury Road-inspired action on Mario Kart’s Rainbow Road and offered...]]></content>
-        <published>2023-03-10T18:50:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pedro Pascal’s next live-action game adaptation is weird as hell | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23634094/pedro-pascal-video-game-adaptation-merge-mansion-ad</id>
-        <link href="https://www.polygon.com/23634094/pedro-pascal-video-game-adaptation-merge-mansion-ad"/>
-        <updated>2023-03-10T18:39:06.000Z</updated>
-        <summary type="html"><![CDATA[Image: Metacore Games  What’s grandma hiding? Pedro Pascal can help  When Pedro Pascal isn’t busy starring in The Last of Us and The Mandalorian, or being daddy, he’s solving a mobile game’s weirdly i...]]></summary>
-        <content type="html"><![CDATA[Image: Metacore Games  What’s grandma hiding? Pedro Pascal can help  When Pedro Pascal isn’t busy starring in The Last of Us and The Mandalorian, or being daddy, he’s solving a mobile game’s weirdly intense murder mystery. Yes, Pascal has joined the Merge Mansion universe, starring in the mobile game’s latest ad. The cinematic ad is named “A Twisted Game,” where Pascal plays a detective named Tim Rockford. Let me back up a little bit before explaining why a mobile game needs a detective: Merge M...]]></content>
-        <published>2023-03-10T18:39:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub CLI for Data Science Cheat Sheet | KDnuggets]]></title>
@@ -1782,15 +2033,6 @@
         <published>2023-03-10T18:30:40.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[When will Attack on Titan skin Eren Yeager be released in Fortnite | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/fortnite-guide/23633803/eren-jaeger-yeager-attack-on-titan-get-unlock-skin-outfit</id>
-        <link href="https://www.polygon.com/fortnite-guide/23633803/eren-jaeger-yeager-attack-on-titan-get-unlock-skin-outfit"/>
-        <updated>2023-03-10T18:19:55.000Z</updated>
-        <summary type="html"><![CDATA[Image: Epic Games  Chapter 4 Season 2’s mid-season skin release date  Attack on Titan’s Eren Jaeger reels into Fortnite during Chapter 4 Season 2. Eren Jaeger is a battle pass exclusive, however, unli...]]></summary>
-        <content type="html"><![CDATA[Image: Epic Games  Chapter 4 Season 2’s mid-season skin release date  Attack on Titan’s Eren Jaeger reels into Fortnite during Chapter 4 Season 2. Eren Jaeger is a battle pass exclusive, however, unlike the other battle pass skins, Eren Jaeger won’t be available until halfway through the season. Read on to find out the release date for the Eren Jaeger skin and Attack on Titan cosmetic items. When does the Eren Jaeger skin come out in Fortnite Image: Epic Games via Polygon  The mid-season Battle ...]]></content>
-        <published>2023-03-10T18:19:55.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PaLM-E: An embodied multimodal language model | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html</id>
         <link href="http://ai.googleblog.com/2023/03/palm-e-embodied-multimodal-language.html"/>
@@ -1798,15 +2040,6 @@
         <summary type="html"><![CDATA[Posted by Danny Driess, Student Researcher, and Pete Florence, Research Scientist, Robotics at Google Recent years have seen tremendous advances across machine learning domains, from models that can e...]]></summary>
         <content type="html"><![CDATA[Posted by Danny Driess, Student Researcher, and Pete Florence, Research Scientist, Robotics at Google Recent years have seen tremendous advances across machine learning domains, from models that can explain jokes or answer visual questions in a variety of languages to those that can produce images based on text descriptions. Such innovations have been possible due to the increase in availability of large scale datasets along with novel advances that enable the training of models on these data. W...]]></content>
         <published>2023-03-10T17:25:00.005Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lego’s latest Super Mario set takes you to Dry Bowser’s Castle | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/23632377/lego-super-mario-day-dry-bowser-expansion-set-where-to-buy</id>
-        <link href="https://www.polygon.com/deals/23632377/lego-super-mario-day-dry-bowser-expansion-set-where-to-buy"/>
-        <updated>2023-03-10T16:41:48.000Z</updated>
-        <summary type="html"><![CDATA[The expansion will be available starting on August 1 for $109.99  Just in time for Mario Day, Lego has unveiled a new expansion set for its lineup of Super Mario starter sets. This is a 1,321-piece ki...]]></summary>
-        <content type="html"><![CDATA[The expansion will be available starting on August 1 for $109.99  Just in time for Mario Day, Lego has unveiled a new expansion set for its lineup of Super Mario starter sets. This is a 1,321-piece kit themed after Dry Bowser’s Castle, and it’ll be available through Lego for $109.99 with an August 1 release date. Some of the unique elements of this particular expansion set (other than Dry Bowser) include an imprisoned purple Toadstool, a fiery Marmaargh creature, and a Bone Goomba. It’s designed...]]></content>
-        <published>2023-03-10T16:41:48.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[フルトラ用センサHaritoraXワイヤレス予約開始。足首も動く全身トラッキングデバイス | TechnoEdge]]></title>
@@ -1879,18 +2112,6 @@
         <published>2023-03-10T15:00:51.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Node.jsを初めて学ぶ人が覚えるべきこと | Zennのトレンド]]></title>
-        <id>https://zenn.dev/daiyaone/articles/5da30a5b248351</id>
-        <link href="https://zenn.dev/daiyaone/articles/5da30a5b248351"/>
-        <updated>2023-03-10T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Node.jsを初めて学ぶ人が覚えるべきこと Node.jsは、サーバーサイドでJavaScriptを実行するためのランタイムです。 以下は、Node.jsを初めて学ぶ人が覚えるべきことです。  Node.jsのインストールと環境構築 JavaScriptの基本的な知識 Node.jsのコアモジュール npmパッケージマネージャー コールバック関数と非同期処理 モジュールの作成とインポート フレー...]]></summary>
-        <content type="html"><![CDATA[Node.jsを初めて学ぶ人が覚えるべきこと Node.jsは、サーバーサイドでJavaScriptを実行するためのランタイムです。 以下は、Node.jsを初めて学ぶ人が覚えるべきことです。  Node.jsのインストールと環境構築 JavaScriptの基本的な知識 Node.jsのコアモジュール npmパッケージマネージャー コールバック関数と非同期処理 モジュールの作成とインポート フレームワークの使用 デバッグ 非同期処理の制御 セキュリティの考慮  では、それぞれ説明しているので見て行きましょう。   Node.jsのインストールと環境構築 Node.jsをインストールし...]]></content>
-        <author>
-            <name>ダイヤオルタ</name>
-        </author>
-        <published>2023-03-10T14:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Understanding the Differences between Data Science and Data Engineering  | Hacker Noon - machine-learning]]></title>
         <id>https://hackernoon.com/understanding-the-differences-between-data-science-and-data-engineering?source=rss</id>
         <link href="https://hackernoon.com/understanding-the-differences-between-data-science-and-data-engineering?source=rss"/>
@@ -1957,15 +2178,6 @@
         <published>2023-03-10T10:59:38.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AWSにおけるアプリケーションのログ記録のベストプラクティス | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/hasmukhrathod_nttdintellilink/items/f05529cd7e6ad5a50a06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/hasmukhrathod_nttdintellilink/items/f05529cd7e6ad5a50a06?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-10T10:23:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに アプリケーションログは、アプリケーションの動作状況をログファイルに記録するプロセスです。アプリケーションよって、この動作状況は1つ以上のファイルに記録することが多いです。このログファイルは…]]></summary>
-        <content type="html"><![CDATA[はじめに アプリケーションログは、アプリケーションの動作状況をログファイルに記録するプロセスです。アプリケーションよって、この動作状況は1つ以上のファイルに記録することが多いです。このログファイルは…]]></content>
-        <published>2023-03-10T10:23:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Google CloudのShared VPCを用いたハイブリッド環境設計の勘所 | MicroAd Developers Blog]]></title>
         <id>https://developers.microad.co.jp/entry/2023/03/10/190500</id>
         <link href="https://developers.microad.co.jp/entry/2023/03/10/190500"/>
@@ -1984,11 +2196,11 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="PC"/>
+        <category label="ゲーム"/>
         <category label="Steam"/>
         <category label="セール情報"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
         <published>2023-03-10T10:02:52.000Z</published>
     </entry>
     <entry>
@@ -2035,18 +2247,18 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ライザのアトリエ3 ～終わりの錬金術士と秘密の鍵～"/>
-        <category label="Nintendo Switch（有機ELモデル）"/>
-        <category label="Preview"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
-        <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
+        <category label="PlayStation 5"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
+        <category label="Preview"/>
+        <category label="Nintendo Switch（有機ELモデル）"/>
         <published>2023-03-10T09:00:58.000Z</published>
     </entry>
     <entry>
@@ -2105,14 +2317,14 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
-        <category label="Steam"/>
-        <category label="Xbox Series X"/>
-        <category label="RoboCop: Rogue City"/>
-        <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
+        <category label="Steam"/>
+        <category label="RoboCop: Rogue City"/>
+        <category label="News"/>
         <published>2023-03-10T08:40:48.000Z</published>
     </entry>
     <entry>
@@ -2169,12 +2381,12 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="エンタメ"/>
-        <category label="グッズ"/>
-        <category label="Death Stranding 2"/>
         <category label="小島秀夫"/>
-        <category label="News"/>
+        <category label="Death Stranding 2"/>
         <category label="ゲーム"/>
+        <category label="グッズ"/>
+        <category label="エンタメ"/>
+        <category label="News"/>
         <published>2023-03-10T07:54:33.000Z</published>
     </entry>
     <entry>
@@ -2269,12 +2481,12 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Nintendo Switch"/>
-        <category label="nintendo-switch"/>
-        <category label="レイトン教授と蒸気の新世界"/>
         <category label="任天堂"/>
-        <category label="News"/>
         <category label="ゲーム"/>
+        <category label="nintendo-switch"/>
+        <category label="Nintendo Switch"/>
+        <category label="レイトン教授と蒸気の新世界"/>
+        <category label="News"/>
         <published>2023-03-10T05:14:09.000Z</published>
     </entry>
     <entry>
@@ -2436,16 +2648,16 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="プラグマタ"/>
-        <category label="鬼武者"/>
-        <category label="Dragon's Dogma II"/>
-        <category label="Xbox Series X"/>
-        <category label="News"/>
         <category label="モンスターハンター"/>
+        <category label="Sony PlayStation"/>
+        <category label="プラグマタ"/>
         <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="PlayStation 5"/>
+        <category label="鬼武者"/>
+        <category label="Xbox Series X"/>
+        <category label="Dragon's Dogma II"/>
+        <category label="News"/>
         <published>2023-03-10T03:16:18.000Z</published>
     </entry>
     <entry>
@@ -2552,19 +2764,19 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="エグゾプライマル"/>
         <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
+        <category label="バイオハザード RE:4"/>
         <category label="モンスターハンターライズ：サンブレイク"/>
         <category label="Xbox Series X"/>
-        <category label="エグゾプライマル"/>
         <category label="xbox-one"/>
+        <category label="Xbox One"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="バイオハザード RE:4"/>
-        <category label="ゲーム"/>
         <published>2023-03-10T00:51:45.000Z</published>
     </entry>
     <entry>
@@ -2577,17 +2789,17 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
         <category label="ロックマンエグゼ アドバンスドコレクション"/>
-        <category label="Nintendo Switch（有機ELモデル）"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
-        <category label="News"/>
-        <category label="PC"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
+        <category label="PC"/>
+        <category label="Nintendo Switch"/>
+        <category label="Nintendo Switch（有機ELモデル）"/>
+        <category label="News"/>
         <published>2023-03-10T00:29:38.000Z</published>
     </entry>
     <entry>
@@ -2650,20 +2862,20 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Nintendo Switch"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="nintendo-switch"/>
         <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
+        <category label="Nintendo Switch"/>
+        <category label="PC"/>
         <category label="モンスターハンターライズ：サンブレイク"/>
         <category label="Xbox Series X"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
         <category label="xbox-one"/>
+        <category label="Xbox One"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
         <published>2023-03-09T23:54:09.000Z</published>
     </entry>
     <entry>
@@ -2685,15 +2897,15 @@
         <author>
             <name>Logan Plant</name>
         </author>
-        <category label="DC"/>
-        <category label="PlayStation 5"/>
-        <category label="Sony PlayStation"/>
-        <category label="Xbox Series X"/>
-        <category label="Suicide Squad: Kill The Justice League"/>
         <category label="スーサイド・スクワッド：キル・ザ・ジャスティス・リーグ"/>
-        <category label="News"/>
+        <category label="Sony PlayStation"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Suicide Squad: Kill The Justice League"/>
+        <category label="DC"/>
+        <category label="Xbox Series X"/>
+        <category label="News"/>
         <published>2023-03-09T23:32:55.000Z</published>
     </entry>
     <entry>
@@ -2706,16 +2918,16 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="『ゴースト トリック』リマスター"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="xbox-one"/>
         <category label="Steam"/>
         <category label="Xbox One"/>
-        <category label="『ゴースト トリック』リマスター"/>
-        <category label="xbox-one"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
         <published>2023-03-09T23:28:07.000Z</published>
     </entry>
     <entry>
@@ -2728,17 +2940,17 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
-        <category label="Xbox Series X"/>
-        <category label="エグゾプライマル"/>
-        <category label="xbox-one"/>
-        <category label="News"/>
-        <category label="PC"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="エグゾプライマル"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
+        <category label="Xbox One"/>
+        <category label="News"/>
         <published>2023-03-09T23:20:37.000Z</published>
     </entry>
     <entry>
@@ -2751,16 +2963,16 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="PC"/>
         <category label="PlayStation 5"/>
+        <category label="バイオハザード RE:4"/>
         <category label="Xbox Series X"/>
         <category label="Xbox Series S"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="バイオハザード RE:4"/>
-        <category label="ゲーム"/>
         <published>2023-03-09T23:19:51.000Z</published>
     </entry>
     <entry>
@@ -2782,12 +2994,12 @@
         <author>
             <name>Adele Ankers-Range</name>
         </author>
+        <category label="任天堂"/>
+        <category label="ゲーム"/>
+        <category label="nintendo-switch"/>
         <category label="Nintendo Switch"/>
         <category label="マリオカート8 デラックス"/>
-        <category label="nintendo-switch"/>
-        <category label="任天堂"/>
         <category label="News"/>
-        <category label="ゲーム"/>
         <published>2023-03-09T22:25:40.000Z</published>
     </entry>
     <entry>
@@ -2990,16 +3202,16 @@
         <author>
             <name>Logan Plant</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="Steam"/>
-        <category label="Xbox Series X"/>
-        <category label="News"/>
-        <category label="PC"/>
-        <category label="バイオハザード RE:4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
+        <category label="PC"/>
+        <category label="PlayStation 5"/>
+        <category label="バイオハザード RE:4"/>
+        <category label="Xbox Series X"/>
+        <category label="Steam"/>
+        <category label="News"/>
         <published>2023-03-09T09:52:05.000Z</published>
     </entry>
     <entry>
@@ -3012,14 +3224,14 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Call of Duty: Warzone Mobile"/>
-        <category label="Mobile"/>
-        <category label="Android"/>
-        <category label="android"/>
-        <category label="News"/>
-        <category label="iphone"/>
         <category label="Call of Duty: Mobile"/>
+        <category label="Mobile"/>
+        <category label="Call of Duty: Warzone Mobile"/>
         <category label="ゲーム"/>
+        <category label="News"/>
+        <category label="android"/>
+        <category label="iphone"/>
+        <category label="Android"/>
         <published>2023-03-09T09:30:40.000Z</published>
     </entry>
     <entry>
@@ -3075,17 +3287,17 @@
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Call of Duty: Modern Warfare 2"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
         <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
+        <category label="コール オブ デューティ モダン・ウォーフェア2"/>
         <category label="Xbox Series X"/>
         <category label="xbox-one"/>
-        <category label="コール オブ デューティ モダン・ウォーフェア2"/>
+        <category label="Call of Duty: Modern Warfare 2"/>
+        <category label="Xbox One"/>
         <category label="News"/>
-        <category label="ゲーム"/>
         <published>2023-03-09T08:17:44.000Z</published>
     </entry>
     <entry>
@@ -3139,12 +3351,12 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
-        <category label="Nintendo Switch"/>
-        <category label="nintendo-switch"/>
         <category label="任天堂"/>
-        <category label="News"/>
-        <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="nintendo-switch"/>
+        <category label="PC"/>
+        <category label="Nintendo Switch"/>
+        <category label="News"/>
         <published>2023-03-09T07:07:29.000Z</published>
     </entry>
     <entry>
@@ -3175,14 +3387,14 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Nintendo Switch"/>
-        <category label="Steam"/>
-        <category label="nintendo-switch"/>
         <category label="Wargroove 2"/>
         <category label="任天堂"/>
-        <category label="News"/>
-        <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="nintendo-switch"/>
+        <category label="PC"/>
+        <category label="Nintendo Switch"/>
+        <category label="Steam"/>
+        <category label="News"/>
         <published>2023-03-09T06:12:04.000Z</published>
     </entry>
     <entry>
@@ -3243,15 +3455,6 @@
         <published>2023-03-09T04:00:16.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Apache HTTP Server」にセキュリティアップデート ～2件の脆弱性を修正／「Apache 2.4.56」への更新を | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1484555.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1484555.html"/>
-        <updated>2023-03-09T03:43:54.000Z</updated>
-        <summary type="html"><![CDATA[The Apache Software Foundationは3月7日、「Apache HTTP Server 2.4.56」を公開した。以下の2件の脆弱性を修正したセキュリティアップデートとなっている。]]></summary>
-        <content type="html"><![CDATA[The Apache Software Foundationは3月7日、「Apache HTTP Server 2.4.56」を公開した。以下の2件の脆弱性を修正したセキュリティアップデートとなっている。]]></content>
-        <published>2023-03-09T03:43:54.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[NECのWi-Fi 6無線LANルーターAterm WX1500HPがAmazonでセール。32％オフの6343円に #てくのじDeals | TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2023/03/09/985.html</id>
         <link href="https://www.techno-edge.net/article/2023/03/09/985.html"/>
@@ -3289,13 +3492,6 @@
         <summary type="html"><![CDATA[こんにちは。 コーポレート部の由元です。 いよいよPHPerKaigi 2023が開催されますね。 ハートビーツも協賛やポスターセッションへの参加で盛り上げてまいります。...]]></summary>
         <content type="html"><![CDATA[こんにちは。 コーポレート部の由元です。 いよいよPHPerKaigi 2023が開催されますね。 ハートビーツも協賛やポスターセッションへの参加で盛り上げてまいります。...]]></content>
         <published>2023-03-09T03:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【アップデート情報】パッケージ・ドライバー関連　3月9日　～シャープなど | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/update/driver/1484472.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/update/driver/1484472.html"/>
-        <updated>2023-03-09T02:58:30.000Z</updated>
-        <published>2023-03-09T02:58:30.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[APIをダウンタイムなしでAWSからGCPに引越しました | JX通信社エンジニアブログ]]></title>
@@ -3359,15 +3555,6 @@
         <published>2023-03-09T01:45:05.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Windows 11 Insider Program」のDevチャネルが再始動 ～23000台ビルドが初公開／Windows開発チームのアイデアにいち早く触れることができる | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1484469.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1484469.html"/>
-        <updated>2023-03-09T01:10:59.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは3月8日（現地時間）、「Windows 11 Insider Preview」Build 23403をDevチャネルでリリースした。Canaryチャネルの新設に伴い、ビルドナンバーを23000台に変更しての再始動となる。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは3月8日（現地時間）、「Windows 11 Insider Preview」Build 23403をDevチャネルでリリースした。Canaryチャネルの新設に伴い、ビルドナンバーを23000台に変更しての再始動となる。]]></content>
-        <published>2023-03-09T01:10:59.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[フロントエンドエンジニアがモバイルアプリ開発に参画した話 | ANDPAD Tech Blog]]></title>
         <id>https://tech.andpad.co.jp/entry/2023/03/09/100000</id>
         <link href="https://tech.andpad.co.jp/entry/2023/03/09/100000"/>
@@ -3386,11 +3573,11 @@
         <author>
             <name>Yinyangfooey</name>
         </author>
+        <category label="PC"/>
+        <category label="ゲーム"/>
         <category label="Xbox Series X"/>
         <category label="Starfield"/>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
         <published>2023-03-08T23:33:42.000Z</published>
     </entry>
     <entry>
@@ -3452,17 +3639,17 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
         <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="ゲーム"/>
+        <category label="PC"/>
         <category label="PlayStation 5"/>
-        <category label="Xbox One"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
         <category label="xbox-one"/>
         <category label="リマスター版『零 ～月蝕の仮面～』"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
+        <category label="Xbox One"/>
         <published>2023-03-08T15:01:02.000Z</published>
     </entry>
     <entry>
@@ -3560,10 +3747,10 @@
         <author>
             <name>Taylor-Lyles</name>
         </author>
-        <category label="Nintendo GameCube"/>
         <category label="任天堂"/>
-        <category label="News"/>
         <category label="ゲーム"/>
+        <category label="Nintendo GameCube"/>
+        <category label="News"/>
         <published>2023-03-08T10:19:14.000Z</published>
     </entry>
     <entry>
@@ -3576,11 +3763,11 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Steam"/>
-        <category label="Contraband Police"/>
-        <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="Contraband Police"/>
+        <category label="Steam"/>
+        <category label="News"/>
         <published>2023-03-08T09:54:44.000Z</published>
     </entry>
     <entry>
@@ -3623,31 +3810,10 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="エンタメ"/>
         <category label="News"/>
+        <category label="エンタメ"/>
         <category label="ゲーム"/>
         <published>2023-03-08T09:37:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『サイバーパンク2077』と『スーパーロボット大戦30』がほぼ半額に！PS StoreのMEGA MARCHセールは3月15日まで | IGN Japan games]]></title>
-        <id>https://jp.ign.com/storesale/66223/news/207730ps-storemega-march315</id>
-        <link href="https://jp.ign.com/storesale/66223/news/207730ps-storemega-march315"/>
-        <updated>2023-03-08T08:59:34.000Z</updated>
-        <summary type="html"><![CDATA[DLCやゲーム内通貨も含めて全1114アイテムがセール中 最大80％オフのMEGA MARCHセールがPS Storeで開催中だ。]]></summary>
-        <content type="html"><![CDATA[DLCやゲーム内通貨も含めて全1114アイテムがセール中 最大80％オフのMEGA MARCHセールがPS Storeで開催中だ。]]></content>
-        <author>
-            <name>馬淵寛昭</name>
-        </author>
-        <category label="PlayStation 4"/>
-        <category label="Sony PlayStation"/>
-        <category label="ps4"/>
-        <category label="PlayStation 5"/>
-        <category label="サイバーパンク2077（PS4/Xbox One版）"/>
-        <category label="セール情報"/>
-        <category label="News"/>
-        <category label="サイバーパンク2077"/>
-        <category label="ゲーム"/>
-        <published>2023-03-08T08:59:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「アレクサ、私のプリンを食べたIAMユーザーを特定して」 | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
@@ -4865,11 +5031,11 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <category label="医学・看護学・薬学"/>
         <category label="センサー技術"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
+        <category label="パフォーマンス"/>
+        <category label="脳波"/>
         <category label="BCI"/>
         <category label="ニューロテクノロジー"/>
         <category label="スポーツ"/>
-        <category label="パフォーマンス"/>
-        <category label="脳波"/>
         <published>2023-03-06T05:36:24.000Z</published>
     </entry>
     <entry>
@@ -5234,19 +5400,6 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <published>2023-03-03T18:20:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【2023年】Amazon新生活セールで買うべきおすすめ商品まとめ！ | デジクル]]></title>
-        <id>https://smartparty.jp/?p=34959</id>
-        <link href="https://smartparty.jp/amazon-sale-new-life"/>
-        <updated>2023-03-03T16:00:37.000Z</updated>
-        <summary type="html"><![CDATA[春といえば、異動・転勤・お引越し・入社・退職・・・などなど、自分をとりまく環境が変化するタイミング。 新生活に向けて購入を検討している家電や雑貨があるという方も多いのではないでしょうか。 Amazonでは毎年3月に新生活 ...]]></summary>
-        <content type="html"><![CDATA[春といえば、異動・転勤・お引越し・入社・退職・・・などなど、自分をとりまく環境が変化するタイミング。 新生活に向けて購入を検討している家電や雑貨があるという方も多いのではないでしょうか。 Amazonでは毎年3月に新生活 ...]]></content>
-        <author>
-            <name>タカヒロ</name>
-        </author>
-        <category label="webサービス"/>
-        <published>2023-03-03T16:00:37.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Meta Quest Proが約7万円値下げ、Quest 2も1万円安に価格改定。量販店でもQuest Pro販売へ | TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2023/03/04/962.html</id>
         <link href="https://www.techno-edge.net/article/2023/03/04/962.html"/>
@@ -5571,15 +5724,6 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <published>2023-03-03T03:19:25.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5.25インチMOとそっくりなのに1度しか書き込みできない「130mm追記形光ディスクカートリッジ」（650MB、1987年頃～）：ロストメモリーズ File012 | TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2023/03/03/957.html</id>
-        <link href="https://www.techno-edge.net/article/2023/03/03/957.html"/>
-        <updated>2023-03-03T02:30:40.000Z</updated>
-        <summary type="html"><![CDATA[「130mm追記形光ディスクカートリッジ」は、5.25インチ（130mm）のディスクをカートリッジに納めた光ディスクメディア。]]></summary>
-        <content type="html"><![CDATA[「130mm追記形光ディスクカートリッジ」は、5.25インチ（130mm）のディスクをカートリッジに納めた光ディスクメディア。]]></content>
-        <published>2023-03-03T02:30:40.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[成功するキックオフの視点 | エムスリーテックブログ]]></title>
         <id>https://www.m3tech.blog/entry/2023/03/03/110000</id>
         <link href="https://www.m3tech.blog/entry/2023/03/03/110000"/>
@@ -5651,15 +5795,6 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
             <name>Magic Moment Tech Blog</name>
         </author>
         <published>2023-03-03T01:06:10.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google検索『マンダロリアン』でイースターエッグ。フォースで結果をぐちゃぐちゃに破壊 | TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2023/03/03/956.html</id>
-        <link href="https://www.techno-edge.net/article/2023/03/03/956.html"/>
-        <updated>2023-03-03T01:02:12.000Z</updated>
-        <summary type="html"><![CDATA[スター・ウォーズ実写ドラマ『The Mandalorian』(マンダロリアン)シーズン3の配信開始にあわせ、Google検索でお約束の「イースターエッグ」サプライズが始まりました。]]></summary>
-        <content type="html"><![CDATA[スター・ウォーズ実写ドラマ『The Mandalorian』(マンダロリアン)シーズン3の配信開始にあわせ、Google検索でお約束の「イースターエッグ」サプライズが始まりました。]]></content>
-        <published>2023-03-03T01:02:12.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[独立に拡張するマイクロサービスと複数サービス管理の簡略化【インターンシップ@ABEMA】 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
@@ -5802,6 +5937,13 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <published>2023-03-02T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[第4回中高生のためのオンライン特別授業「日常生活を読み解く脳研究」 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20230404_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20230404_1/index.html"/>
+        <updated>2023-03-02T15:00:00.000Z</updated>
+        <published>2023-03-02T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[異常金属における超低速臨界電子電荷ゆらぎの観測に成功 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2023/20230303_2/index.html</id>
         <link href="https://www.riken.jp/press/2023/20230303_2/index.html"/>
@@ -5823,13 +5965,6 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <title type="html"><![CDATA[前川 禎通 特別顧問が本多記念賞を受賞 | お知らせ]]></title>
         <id> https://www.riken.jp/pr/news/2023/20230303_1/index.html</id>
         <link href="https://www.riken.jp/pr/news/2023/20230303_1/index.html"/>
-        <updated>2023-03-02T15:00:00.000Z</updated>
-        <published>2023-03-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第4回中高生のためのオンライン特別授業「日常生活を読み解く脳研究」 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20230404_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20230404_1/index.html"/>
         <updated>2023-03-02T15:00:00.000Z</updated>
         <published>2023-03-02T15:00:00.000Z</published>
     </entry>
@@ -5869,15 +6004,6 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <category label="KDnuggets Originals"/>
         <category label="Data Science"/>
         <published>2023-03-02T13:00:27.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Watch Ultraが初のタイムセール対象に。Amazon新生活セールでApple製品が割引販売中 #てくのじDeals | TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2023/03/02/955.html</id>
-        <link href="https://www.techno-edge.net/article/2023/03/02/955.html"/>
-        <updated>2023-03-02T12:07:10.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpで開催されている新生活セール（3月6日23:59まで）にともない、Apple製品も一部がセール対象になっています。]]></summary>
-        <content type="html"><![CDATA[Amazon.co.jpで開催されている新生活セール（3月6日23:59まで）にともない、Apple製品も一部がセール対象になっています。]]></content>
-        <published>2023-03-02T12:07:10.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Rails: 私の好きなコード（1）大胆かつ的確なドメイン駆動開発（翻訳） | TechRacho]]></title>
@@ -6999,189 +7125,5 @@ Clear-Cut as It Looks | Hacker Noon - machine-learning]]></title>
         <category label="MySQL8.0"/>
         <category label="高可用性"/>
         <published>2023-02-27T23:48:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フランス語で 曜日なんという？ | AIリサーチコレクション]]></title>
-        <id>https://ai-research-collection.com/?p=3083</id>
-        <link href="https://ai-research-collection.com/french-weekday/"/>
-        <updated>2023-02-27T23:00:19.000Z</updated>
-        <summary type="html"><![CDATA[フランス語の曜日を覚える際にみなさんはどのように覚えていますか？英語と違う部分もありますが，共通する概念もあるので共通点も含め，この記事では月〜日までの曜日についてまとめていきます！ フランス語で 曜日なんという？ 曜日 […]]]></summary>
-        <content type="html"><![CDATA[フランス語の曜日を覚える際にみなさんはどのように覚えていますか？英語と違う部分もありますが，共通する概念もあるので共通点も含め，この記事では月〜日までの曜日についてまとめていきます！ フランス語で 曜日なんという？ 曜日 […]]]></content>
-        <author>
-            <name>Metacrinus</name>
-        </author>
-        <category label="フランス"/>
-        <category label="French"/>
-        <category label="曜日"/>
-        <published>2023-02-27T23:00:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HasuraのRemote Schema to Database Relationshipsを用いたElasticsearchとの検索連携 | バイセル Tech Blog]]></title>
-        <id>https://tech.buysell-technologies.com/entry/2023/02/28/080000</id>
-        <link href="https://tech.buysell-technologies.com/entry/2023/02/28/080000"/>
-        <updated>2023-02-27T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。開発2部の尾沼です。 私の所属するチームでは最近、HasuraとElasticsearchを組み合わせて検索を行えるようにしました。今回はこれを実現するために私たちが採用した方法を紹介したいと思います。 はじめに 背景 採用した構成 前提 方針 データの準備 Remote Schema to Database Relationshipsの設定 処理の流れ フロントエンド → ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。開発2部の尾沼です。 私の所属するチームでは最近、HasuraとElasticsearchを組み合わせて検索を行えるようにしました。今回はこれを実現するために私たちが採用した方法を紹介したいと思います。 はじめに 背景 採用した構成 前提 方針 データの準備 Remote Schema to Database Relationshipsの設定 処理の流れ フロントエンド → Hasura Hasura → Remote Schema Remote Schema → Elasticsearch Elasticsearch → Remote Schema Remote Sch…]]></content>
-        <published>2023-02-27T23:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prompt Engineers Can Make $335K a Year: What Are They and How to Become One | Hacker Noon - machine-learning]]></title>
-        <id>https://hackernoon.com/prompt-engineers-can-make-$335k-a-year-what-are-they-and-how-to-become-one?source=rss</id>
-        <link href="https://hackernoon.com/prompt-engineers-can-make-$335k-a-year-what-are-they-and-how-to-become-one?source=rss"/>
-        <updated>2023-02-27T21:41:45.000Z</updated>
-        <author>
-            <name>Annalooksup</name>
-        </author>
-        <category label="ai"/>
-        <category label="artificial-intelligence"/>
-        <category label="tech"/>
-        <category label="machine-learning"/>
-        <category label="chatbots"/>
-        <category label="engineering"/>
-        <category label="prompt-engineering"/>
-        <published>2023-02-27T21:41:45.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JSON Web Token（JWT）の仕様と実装例を紹介 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作テクノロジー の記事一覧 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作]]></title>
-        <id>https://liginc.co.jp/?p=617624</id>
-        <link href="https://liginc.co.jp/617624"/>
-        <updated>2023-02-27T21:00:08.000Z</updated>
-        <summary type="html"><![CDATA[システム構成における「フロントエンド/バックエンド」という区分けは、今や当たり前のものとなりました。 かつてはWebページのデザイン、そのコンテンツとデータ表示、認証動作など、すべてがごっちゃになっていましたが、「フロン […]]]></summary>
-        <content type="html"><![CDATA[システム構成における「フロントエンド/バックエンド」という区分けは、今や当たり前のものとなりました。 かつてはWebページのデザイン、そのコンテンツとデータ表示、認証動作など、すべてがごっちゃになっていましたが、「フロン […]]]></content>
-        <author>
-            <name>がみさん</name>
-        </author>
-        <category label="テクノロジー"/>
-        <published>2023-02-27T21:00:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Getting Started with Python Generators | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152101</id>
-        <link href="https://www.kdnuggets.com/2023/02/getting-started-python-generators.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=getting-started-with-python-generators"/>
-        <updated>2023-02-27T17:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Learn about Python generators and write memory-efficient and Pythonic code.]]></summary>
-        <content type="html"><![CDATA[Learn about Python generators and write memory-efficient and Pythonic code.]]></content>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="KDnuggets Evergreen"/>
-        <category label="KDnuggets Originals"/>
-        <category label="Python"/>
-        <published>2023-02-27T17:00:16.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「かにらっきょ先輩、ライジングサン、サレジオ」(さうして、このごろ2022年8月版) | pooneilの脳科学論文コメント]]></title>
-        <id>http://pooneil.sakura.ne.jp/archives/permalink/001755.php</id>
-        <link href="http://pooneil.sakura.ne.jp/archives/permalink/001755.php"/>
-        <updated>2023-02-27T16:19:12.000Z</updated>
-        <summary type="html"><![CDATA[「かにらっきょ先輩」っていうペンネームを考案した。念のためググってみたら、カニの...]]></summary>
-        <content type="html"><![CDATA[「かにらっきょ先輩」っていうペンネームを考案した。念のためググってみたら、カニの...]]></content>
-        <published>2023-02-27T16:19:12.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top Posts February 20-26: 5 SQL Visualization Tools for Data Engineers | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152234</id>
-        <link href="https://www.kdnuggets.com/2023/02/top-posts-week-0220-0226.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-posts-february-20-26-5-sql-visualization-tools-for-data-engineers"/>
-        <updated>2023-02-27T15:40:43.000Z</updated>
-        <summary type="html"><![CDATA[5 SQL Visualization Tools for Data Engineers • Free TensorFlow 2.0 Complete Course • The Importance of Probability in Data Science • 4 Ways to Rename Pandas Columns • 5 Statistical Paradoxes Data Scie...]]></summary>
-        <content type="html"><![CDATA[5 SQL Visualization Tools for Data Engineers • Free TensorFlow 2.0 Complete Course • The Importance of Probability in Data Science • 4 Ways to Rename Pandas Columns • 5 Statistical Paradoxes Data Scientists Should Know]]></content>
-        <author>
-            <name>KDnuggets</name>
-        </author>
-        <category label="KDnuggets News"/>
-        <category label="News"/>
-        <published>2023-02-27T15:40:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 5 Advantages That CatBoost ML Brings to Your Data to Make it Purr | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152086</id>
-        <link href="https://www.kdnuggets.com/2023/02/top-5-advantages-catboost-ml-brings-data-make-purr.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-5-advantages-that-catboost-ml-brings-to-your-data-to-make-it-purr"/>
-        <updated>2023-02-27T15:00:59.000Z</updated>
-        <summary type="html"><![CDATA[This article outlines the advantages of CatBoost as a GBDTs for interpreting data sources that are highly categorical or contain missing data points.]]></summary>
-        <content type="html"><![CDATA[This article outlines the advantages of CatBoost as a GBDTs for interpreting data sources that are highly categorical or contain missing data points.]]></content>
-        <author>
-            <name>Gellért Nacsa</name>
-        </author>
-        <category label="KDnuggets Originals"/>
-        <category label="Machine Learning"/>
-        <published>2023-02-27T15:00:59.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[データ基盤のワークフローエンジンをGoogle Cloud Composer 2へバージョンアップしました | Pepabo Tech Portal]]></title>
-        <id>https://tech.pepabo.com/2023/02/28/bump-google-cloud-composer-2/</id>
-        <link href="https://tech.pepabo.com/2023/02/28/bump-google-cloud-composer-2/"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[技術部データ基盤チームに所属しているまつもとです。 ペパボのデータ基盤では、ワークフローエンジンとしてGoogle Cloud Composerを利用しています。2021年のGoogle Cloud Composerバージョンアップに続き、昨年2022年12月に大きなバージョンアップを行いました。2021年はCloud Composerで稼働するApache Airflowをversion 1から...]]></summary>
-        <content type="html"><![CDATA[技術部データ基盤チームに所属しているまつもとです。 ペパボのデータ基盤では、ワークフローエンジンとしてGoogle Cloud Composerを利用しています。2021年のGoogle Cloud Composerバージョンアップに続き、昨年2022年12月に大きなバージョンアップを行いました。2021年はCloud Composerで稼働するApache Airflowをversion 1からversion 2に変更する大きなバージョンアップでした。そして、今回はCloud Composer自体をversion 1からversion 2に変更するものです。 移行作業においてはバージョンアップによる影響を最小限に留めるため、Airflowのバージョンは変えず、Cloud Composerのバージョンのみを変更しました。 この記事ではバージョンアップ作業において苦労した点や、作業時に遭遇した不具合への対処について記載します。 バージョンアップの概要 前回は、composer-1.15.1-airflow-1.10.14からcomposer-1.17.6-airflow-2.1.4へのバ...]]></content>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「リーダブルコード」を読んでTerraformの可読性について考える | フューチャー技術ブログ]]></title>
-        <id>https://future-architect.github.io/articles/20230228a/</id>
-        <link href="https://future-architect.github.io/articles/20230228a/"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="/images/20230228a/top.jpg" alt="" width="400" height="565">  <p>こんにちは。TIGの伊藤太斉です。</p> <p>この記事は、<a]]></summary>
-        <content type="html"><![CDATA[<img src="/images/20230228a/top.jpg" alt="" width="400" height="565">  <p>こんにちは。TIGの伊藤太斉です。</p> <p>この記事は、<a]]></content>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プラスチックの劣化状態を非破壊分析するシステムを開発－結晶の厚みと結晶中の高分子らせんの数を同時計測－ | AIST： 産業技術総合研究所]]></title>
-        <id>6991-2</id>
-        <link href="https://www.aist.go.jp/aist_j/press_release/pr2023/pr20230228/pr20230228.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[海底地形にゴジラの名前！？－フィリピン海プレート上の巨大メガムリオンの掘削の実現に向けて前進－ | AIST： 産業技術総合研究所]]></title>
-        <id>6989-6</id>
-        <link href="https://www.aist.go.jp/aist_j/news/au20230228_2.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本研究のポイントフィリピン海プレート上の海底地形である巨大メガムリオンにゴジラの名前が付けられた。ゴジラメガムリオンは、海底拡大時に形成された地球上最大の深海底のドーム状地形。国際深海科学掘削計...]]></summary>
-        <content type="html"><![CDATA[本研究のポイントフィリピン海プレート上の海底地形である巨大メガムリオンにゴジラの名前が付けられた。ゴジラメガムリオンは、海底拡大時に形成された地球上最大の深海底のドーム状地形。国際深海科学掘削計...]]></content>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[翻訳阻害剤を介した、植物と糸状菌間の生存競争 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230228_2/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230228_2/index.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－植物が持つ抗菌性物質をすり抜けて感染する新たな菌を発見－]]></summary>
-        <content type="html"><![CDATA[－植物が持つ抗菌性物質をすり抜けて感染する新たな菌を発見－]]></content>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[植物の器官再生を制御する酵素を発見 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230228_1/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230228_1/index.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[テレビ放映のお知らせ「NHKスペシャル」（2023年3月4日、5日） | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2023/20230228_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2023/20230228_1/index.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[理研よこはまサイエンスカフェ「動く遺伝子の働きで紐解く進化の謎」 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20230320_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20230320_1/index.html"/>
-        <updated>2023-02-27T15:00:00.000Z</updated>
-        <published>2023-02-27T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Data Warehousing and ETL Best Practices | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152079</id>
-        <link href="https://www.kdnuggets.com/2023/02/data-warehousing-etl-best-practices.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=data-warehousing-and-etl-best-practices"/>
-        <updated>2023-02-27T13:00:49.000Z</updated>
-        <summary type="html"><![CDATA[How you can improve your data warehousing ETL process with these simple practices.]]></summary>
-        <content type="html"><![CDATA[How you can improve your data warehousing ETL process with these simple practices.]]></content>
-        <author>
-            <name>Nisha Arya</name>
-        </author>
-        <category label="KDnuggets Originals"/>
-        <category label="Data Engineering"/>
-        <published>2023-02-27T13:00:49.000Z</published>
     </entry>
 </feed>
