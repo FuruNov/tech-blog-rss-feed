@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2023-03-27T11:21:37.038Z</updated>
+    <updated>2023-03-27T23:26:01.454Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,464 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[Managed Node GroupでEKSの更新作業を楽にした話 | LIVESENSE ENGINEER BLOG]]></title>
+        <id>https://made.livesense.co.jp/entry/2023/03/28/080000</id>
+        <link href="https://made.livesense.co.jp/entry/2023/03/28/080000"/>
+        <updated>2023-03-27T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、かたいなかです。 最近、転職会議のEKSクラスタのワーカーノードをManaged Node Groupに置き換えました。 この記事ではManaged Node Group導入に際してどのような考慮が必要だったかを紹介します。 Cordon、Draining、Pod Disruption Budgetのおさらい Podが配置されないようにするCordon Podを他のノードに退避するDr...]]></summary>
+        <content type="html"><![CDATA[こんにちは、かたいなかです。 最近、転職会議のEKSクラスタのワーカーノードをManaged Node Groupに置き換えました。 この記事ではManaged Node Group導入に際してどのような考慮が必要だったかを紹介します。 Cordon、Draining、Pod Disruption Budgetのおさらい Podが配置されないようにするCordon Podを他のノードに退避するDraining Drainingを安全に行うためのPod Disruption Budget 煩雑だったノードの入れ替え作業 Managed Node Group導入 Managed Node Grou…]]></content>
+        <published>2023-03-27T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GPT4にテクノロジーレポートを書いてもらう | ISID テックブログ]]></title>
+        <id>https://tech.isid.co.jp/entry/2023/03/28/GPT4%E3%81%AB%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%82%82%E3%82%89%E3%81%86</id>
+        <link href="https://tech.isid.co.jp/entry/2023/03/28/GPT4%E3%81%AB%E3%83%86%E3%82%AF%E3%83%8E%E3%83%AD%E3%82%B8%E3%83%BC%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88%E3%82%92%E6%9B%B8%E3%81%84%E3%81%A6%E3%82%82%E3%82%89%E3%81%86"/>
+        <updated>2023-03-27T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[電通国際情報サービス、オープンイノベーションラボの比嘉康雄です。 僕の所属する部署は、旬な技術に対して、レポートを継続して書いています。そのレポートをGPT4に書いてもらおうというのが今回の記事になります。はやりのプロンプトエンジニアリングですね。 この記事を書いている2023/03/24の時点では、GPT4は、Webページにアクセスして情報を取得することができません。GPT4が学習したデータは、...]]></summary>
+        <content type="html"><![CDATA[電通国際情報サービス、オープンイノベーションラボの比嘉康雄です。 僕の所属する部署は、旬な技術に対して、レポートを継続して書いています。そのレポートをGPT4に書いてもらおうというのが今回の記事になります。はやりのプロンプトエンジニアリングですね。 この記事を書いている2023/03/24の時点では、GPT4は、Webページにアクセスして情報を取得することができません。GPT4が学習したデータは、2021年9月までのものらしいので、旬な技術のことはほとんど知りません。 それをどう解決するかが、苦労したポイントでした。もうすぐ、ChatGPTのBrowsing Pluginが出ると思うので、この…]]></content>
+        <published>2023-03-27T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[いち早くChatGPTを取り入れたOperaブラウザを使ってみた | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/chatgpt-opera.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/chatgpt-opera.html"/>
+        <updated>2023-03-27T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:ヤマダユウス型ブラウザとの統合が着々と進んでいる。Operaの最新バージョン81に、ChatGPTとChatSonic（2021年以降の情報も把握しているAIライターツール）が統合されました。それぞれのサービスにアクセスできるボタンが、サイドバーに登場するようになります。見ているサイトに応じて内容が変化使い方は、OperaのEasySetupメニューから「AIPrompts（早期アクセ]]></summary>
+        <content type="html"><![CDATA[Image:ヤマダユウス型ブラウザとの統合が着々と進んでいる。Operaの最新バージョン81に、ChatGPTとChatSonic（2021年以降の情報も把握しているAIライターツール）が統合されました。それぞれのサービスにアクセスできるボタンが、サイドバーに登場するようになります。見ているサイトに応じて内容が変化使い方は、OperaのEasySetupメニューから「AIPrompts（早期アクセ]]></content>
+        <author>
+            <name>ヤマダユウス型</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2023-03-27T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　3月28日　～「Genkhord」や「Rufus」など | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/update/library/1488718.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/update/library/1488718.html"/>
+        <updated>2023-03-27T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[エクスプローラー風の圧縮・解凍ソフト]]></summary>
+        <content type="html"><![CDATA[エクスプローラー風の圧縮・解凍ソフト]]></content>
+        <published>2023-03-27T22:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【PDFファイル内のページを直接動かしたい！】PDFのページを入れ替えたり削除して整理する方法【柳谷智宣の「実は色々できるPDFの活用法」】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/shseri/pdfapp/1488555.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/shseri/pdfapp/1488555.html"/>
+        <updated>2023-03-27T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[プレゼン前に資料を見返していたら、説明の順番を変えたくなったという場合、どうすればよいだろうか？ PowerPointで元ファイルを開いて編集し、再度PDF出力してもいいのだが、もっと簡単な方法がある。PDFツールを使ってPDFファイルのページを直接動かしてしまえばいいのだ。元ファイルがなくても手軽に対処できるのでおすすめ。]]></summary>
+        <content type="html"><![CDATA[プレゼン前に資料を見返していたら、説明の順番を変えたくなったという場合、どうすればよいだろうか？ PowerPointで元ファイルを開いて編集し、再度PDF出力してもいいのだが、もっと簡単な方法がある。PDFツールを使ってPDFファイルのページを直接動かしてしまえばいいのだ。元ファイルがなくても手軽に対処できるのでおすすめ。]]></content>
+        <published>2023-03-27T22:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[実車さながらにピストンが駆動するレーシングカークロック、858万円 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/time-fast-ii.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/time-fast-ii.html"/>
+        <updated>2023-03-27T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:Muraki本物さながらに駆動するエンジン。19世紀にクロックとオルゴールを製造するマニュファクチュールとしてスイスに設立されたレペは、独自のアラーム機構や耐震設計を早くから開発し、時計産業の発展に大きく貢献してきたブランドです。近年はレトログラードや永久カレンダー、トゥールビヨンといった複雑機構を卓上クロックで製品化しており、その技術力は非常にハイレベルです。そのレペが新作クロック「]]></summary>
+        <content type="html"><![CDATA[Image:Muraki本物さながらに駆動するエンジン。19世紀にクロックとオルゴールを製造するマニュファクチュールとしてスイスに設立されたレペは、独自のアラーム機構や耐震設計を早くから開発し、時計産業の発展に大きく貢献してきたブランドです。近年はレトログラードや永久カレンダー、トゥールビヨンといった複雑機構を卓上クロックで製品化しており、その技術力は非常にハイレベルです。そのレペが新作クロック「]]></content>
+        <author>
+            <name>巽英俊</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2023-03-27T22:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Opera」にAIによる要約や翻訳、ツイート作成ができる「AI プロンプト」機能が追加／ボタンや選択テキストのポップアップでWebページからAIによるコンテンツ生成が可能 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1488352.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1488352.html"/>
+        <updated>2023-03-27T21:45:00.000Z</updated>
+        <summary type="html"><![CDATA[ノルウェーのOpera Softwareは3月22日（現地時間）、Webブラウザー「Opera」v97.0.4719.28と「Opera GX」LVL4 (core: 96.0.4693.117)の正式版を公開した。アップデートした。]]></summary>
+        <content type="html"><![CDATA[ノルウェーのOpera Softwareは3月22日（現地時間）、Webブラウザー「Opera」v97.0.4719.28と「Opera GX」LVL4 (core: 96.0.4693.117)の正式版を公開した。アップデートした。]]></content>
+        <published>2023-03-27T21:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[任天堂、28日23時から『ゼルダの伝説 ティアーズ オブ ザ キングダム』プレイ映像公開。青沼プロデューサーが自作自演 | TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2023/03/28/1075.html</id>
+        <link href="https://www.techno-edge.net/article/2023/03/28/1075.html"/>
+        <updated>2023-03-27T21:42:55.000Z</updated>
+        <summary type="html"><![CDATA[任天堂は3月28日(火)23時より、ニンテンドースイッチ新作『ゼルダの伝説 ティアーズ オブ ザ キングダム』を青沼プロデューサーみずから実演する紹介映像を配信します。]]></summary>
+        <content type="html"><![CDATA[任天堂は3月28日(火)23時より、ニンテンドースイッチ新作『ゼルダの伝説 ティアーズ オブ ザ キングダム』を青沼プロデューサーみずから実演する紹介映像を配信します。]]></content>
+        <published>2023-03-27T21:42:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Behold, all the Tears of the Kingdom pre-order gifts from around the world | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/deals/23658964/legend-of-zelda-tears-of-the-kingdom-global-pre-order-gift-bonus-guide</id>
+        <link href="https://www.polygon.com/deals/23658964/legend-of-zelda-tears-of-the-kingdom-global-pre-order-gift-bonus-guide"/>
+        <updated>2023-03-27T21:39:46.000Z</updated>
+        <summary type="html"><![CDATA[Image: Nintendo  People who buy from Amazon Japan will get a spoon or a fork!  If you order The Legend of Zelda: Tears of the Kingdom from GameStop in the United States, you’ll get wood — a wooden pla...]]></summary>
+        <content type="html"><![CDATA[Image: Nintendo  People who buy from Amazon Japan will get a spoon or a fork!  If you order The Legend of Zelda: Tears of the Kingdom from GameStop in the United States, you’ll get wood — a wooden plaque. Sure, it’s an ornate collectible, but it’s nowhere near as cool as the pre-order gifts you could get by ordering the game in other countries, like Japan, which is giving away Tears of the Kingdom forks and spoons. There’s nothing I want more than to invite my family over for Christmas dinner an...]]></content>
+        <published>2023-03-27T21:39:46.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[量子コンピュータが医療革新を加速する：IBMとCleveland Clinicが共同開発 | TEXAL]]></title>
+        <id>https://texal.jp/?p=30303</id>
+        <link href="https://texal.jp/2023/03/28/ibm-unveils-worlds-first-quantum-computer-dedicated-to-healthcare-research/"/>
+        <updated>2023-03-27T21:36:50.000Z</updated>
+        <summary type="html"><![CDATA[先日、IBMとCleveland Clinicは、かつてないほどの医療イノベーションを進展させる可能性のある量子コンピュータ「IBM Quantum System One」の開発を発表した。この量子コンピュータは、Cle ... Read more]]></summary>
+        <content type="html"><![CDATA[先日、IBMとCleveland Clinicは、かつてないほどの医療イノベーションを進展させる可能性のある量子コンピュータ「IBM Quantum System One」の開発を発表した。この量子コンピュータは、Cle ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="サイエンス"/>
+        <category label="テクノロジー"/>
+        <category label="IBM"/>
+        <category label="医学"/>
+        <category label="量子コンピュータ"/>
+        <published>2023-03-27T21:36:50.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple、AI搭載の動画圧縮スタートアップ「WaveOne」を買収 | TEXAL]]></title>
+        <id>https://texal.jp/?p=30305</id>
+        <link href="https://texal.jp/2023/03/28/apple-acquires-ai-powered-video-compression-startup-waveone/"/>
+        <updated>2023-03-27T21:25:36.000Z</updated>
+        <summary type="html"><![CDATA[AppleがAI技術を用いたビデオ圧縮アルゴリズムを開発していたMountain Viewを拠点とするスタートアップWaveOneをひっそりと買収していたことがTechCrunchの調べによって判明した。Appleはこの ... Read more]]></summary>
+        <content type="html"><![CDATA[AppleがAI技術を用いたビデオ圧縮アルゴリズムを開発していたMountain Viewを拠点とするスタートアップWaveOneをひっそりと買収していたことがTechCrunchの調べによって判明した。Appleはこの ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="テクノロジー"/>
+        <category label="AI"/>
+        <category label="Apple"/>
+        <category label="ストリーミングサービス"/>
+        <published>2023-03-27T21:25:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS / iPadOS 16.4配信開始。新しい絵文字21種、通話時の聞き取りやすさ改善など新機能多数 | TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2023/03/28/1074.html</id>
+        <link href="https://www.techno-edge.net/article/2023/03/28/1074.html"/>
+        <updated>2023-03-27T21:23:31.000Z</updated>
+        <summary type="html"><![CDATA[アップルが、iOS 16.4およびiPad OS 16.4の正式な配信を開始しました。自動アップデートをオンにしていない場合は、設定アプリのソフトウェアアップデートからダウンロードしインストールできます。]]></summary>
+        <content type="html"><![CDATA[アップルが、iOS 16.4およびiPad OS 16.4の正式な配信を開始しました。自動アップデートをオンにしていない場合は、設定アプリのソフトウェアアップデートからダウンロードしインストールできます。]]></content>
+        <published>2023-03-27T21:23:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AppleがmacOS Ventura 13.3 正式版を公開 | TEXAL]]></title>
+        <id>https://texal.jp/?p=30301</id>
+        <link href="https://texal.jp/2023/03/28/apple-releases-macos-ventura-13-3-official-version/"/>
+        <updated>2023-03-27T21:09:15.000Z</updated>
+        <summary type="html"><![CDATA[Appleは、iOS 16.4、watchOS 9.4の公開と共に、本日「macOS Ventura 13.3」をリリースした。iOS 16.4同様、あまり大きな新機能はなく、絵文字の追加などの小規模な変更に留まるようだ ... Read more]]></summary>
+        <content type="html"><![CDATA[Appleは、iOS 16.4、watchOS 9.4の公開と共に、本日「macOS Ventura 13.3」をリリースした。iOS 16.4同様、あまり大きな新機能はなく、絵文字の追加などの小規模な変更に留まるようだ ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="テクノロジー"/>
+        <category label="Apple"/>
+        <category label="macOS"/>
+        <category label="アップデート"/>
+        <category label="パスキー"/>
+        <published>2023-03-27T21:09:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Watch向けOSの最新版「watchOS 9.4」正式版が公開、目覚まし機能の改善など… | TEXAL]]></title>
+        <id>https://texal.jp/?p=30298</id>
+        <link href="https://texal.jp/2023/03/28/the-latest-version-of-the-os-for-apple-watch-watchos-9-4-is-officially-available-including-improvements-to-the-alarm-function/"/>
+        <updated>2023-03-27T21:04:23.000Z</updated>
+        <summary type="html"><![CDATA[iOS 16.4、iPadOS 16.4などに加え、Appleは本日「watchOS 9.4」を正式にリリースした。目立った新機能の追加はアナウンスされておらず、主に不具合などの修正がメインのようだ。アップデートをインス ... Read more]]></summary>
+        <content type="html"><![CDATA[iOS 16.4、iPadOS 16.4などに加え、Appleは本日「watchOS 9.4」を正式にリリースした。目立った新機能の追加はアナウンスされておらず、主に不具合などの修正がメインのようだ。アップデートをインス ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="モバイル"/>
+        <category label="Apple"/>
+        <category label="Apple Watch"/>
+        <category label="watchOS 9"/>
+        <published>2023-03-27T21:04:23.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How a natural gas company is using machine learning in natural gas exploration | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/how-a-natural-gas-company-is-using-machine-learning-in-natural-gas-exploration?source=rss</id>
+        <link href="https://hackernoon.com/how-a-natural-gas-company-is-using-machine-learning-in-natural-gas-exploration?source=rss"/>
+        <updated>2023-03-27T21:00:31.000Z</updated>
+        <author>
+            <name>sarahevans</name>
+        </author>
+        <category label="natural-language-processing"/>
+        <category label="machine-learning"/>
+        <category label="tools-and-utilities"/>
+        <published>2023-03-27T21:00:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS 16.4正式版がリリース – 新しい絵文字やWebプッシュ通知などの新機能搭載 | TEXAL]]></title>
+        <id>https://texal.jp/?p=30296</id>
+        <link href="https://texal.jp/2023/03/28/ios-16-4-official-version-released/"/>
+        <updated>2023-03-27T20:57:42.000Z</updated>
+        <summary type="html"><![CDATA[Apple（アップル）は、新しい絵文字の追加や、通話時の音声分離、Webサイトのプッシュ通知などの新機能を搭載した「iOS 16.4」の正式版を公開した。 あわせて、iPadOS 16.4、watchOS 9.4、mac ... Read more]]></summary>
+        <content type="html"><![CDATA[Apple（アップル）は、新しい絵文字の追加や、通話時の音声分離、Webサイトのプッシュ通知などの新機能を搭載した「iOS 16.4」の正式版を公開した。 あわせて、iPadOS 16.4、watchOS 9.4、mac ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="テクノロジー"/>
+        <category label="Apple"/>
+        <category label="iOS"/>
+        <category label="アップデート"/>
+        <published>2023-03-27T20:57:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magic: The Gathering’s coveted Black Lotus breaks another record | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23658890/mtg-black-lotus-auction-record-magic-the-gathering</id>
+        <link href="https://www.polygon.com/23658890/mtg-black-lotus-auction-record-magic-the-gathering"/>
+        <updated>2023-03-27T20:51:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: Christopher Rush/Wizards of the Coast  The rare MTG card sold for $615,000 at auction  Days after the sale of a Magic: The Gathering Black Lotus card set a new record, going for $540,000 at auc...]]></summary>
+        <content type="html"><![CDATA[Image: Christopher Rush/Wizards of the Coast  The rare MTG card sold for $615,000 at auction  Days after the sale of a Magic: The Gathering Black Lotus card set a new record, going for $540,000 at auction at PWCC Marketplace, a sale of the highly coveted and rare card has set an even higher record. On Friday, a Magic: The Gathering artist proof Black Lotus signed by artist Christopher Rush sold for $615,000 at Heritage Auctions. That higher price was paid for a lower-grade card. Friday’s auction...]]></content>
+        <published>2023-03-27T20:51:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft、「Teams」アプリを刷新、1から作り直し2倍の速度と消費メモリ半減を実現 | TEXAL]]></title>
+        <id>https://texal.jp/?p=30287</id>
+        <link href="https://texal.jp/2023/03/28/microsoft-revamps-its-teams-application-rebuilding-it-from-scratch-to-double-speed-and-halve-memory-consumption/"/>
+        <updated>2023-03-27T20:38:54.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは、コラボレーションアプリ「Microsoft Teams」の使いやすさと速さを改善するための大幅なアップデートを行った。これは、何年もの歳月をかけて一から作り直されたMicrosoft Teamsであ ... Read more]]></summary>
+        <content type="html"><![CDATA[Microsoftは、コラボレーションアプリ「Microsoft Teams」の使いやすさと速さを改善するための大幅なアップデートを行った。これは、何年もの歳月をかけて一から作り直されたMicrosoft Teamsであ ... Read more]]></content>
+        <author>
+            <name>masapoco</name>
+        </author>
+        <category label="テクノロジー"/>
+        <category label="Microsoft"/>
+        <category label="Microsoft Teams"/>
+        <category label="リモートワーク"/>
+        <published>2023-03-27T20:38:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resident Evil 4 remake hints that Separate Ways DLC may be next | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23654190/resident-evil-4-remake-separate-ways-dlc-ada-wong</id>
+        <link href="https://www.polygon.com/23654190/resident-evil-4-remake-separate-ways-dlc-ada-wong"/>
+        <updated>2023-03-27T19:46:40.000Z</updated>
+        <summary type="html"><![CDATA[Image: Capcom  A datamine makes that hint more than just speculation  Resident Evil 4’s new remake will get a boost of free content with the addition of The Mercenaries mode on April 7, but it appears...]]></summary>
+        <content type="html"><![CDATA[Image: Capcom  A datamine makes that hint more than just speculation  Resident Evil 4’s new remake will get a boost of free content with the addition of The Mercenaries mode on April 7, but it appears that there will be another adventure coming to Capcom’s modernized survival horror game. A datamine of the game’s PC version indicates that the Separate Ways DLC that Capcom released for earlier versions of Resident Evil 4 may be coming to the remake as well. According to a tweet from Resident Evil...]]></content>
+        <published>2023-03-27T19:46:40.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MLB The Show’s celebration of Black baseball is the best thing in sports video games this year | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23658610/mlb-the-show-23-negro-leagues-storylines-satchel-paige</id>
+        <link href="https://www.polygon.com/23658610/mlb-the-show-23-negro-leagues-storylines-satchel-paige"/>
+        <updated>2023-03-27T19:01:38.000Z</updated>
+        <summary type="html"><![CDATA[Buck O’Neil, inducted into the National Baseball Hall of Fame in 2022. The greatest ambassador and advocate for the sport of baseball. | Image: SIE San Diego Studio/Sony Interactive Entertainment via ...]]></summary>
+        <content type="html"><![CDATA[Buck O’Neil, inducted into the National Baseball Hall of Fame in 2022. The greatest ambassador and advocate for the sport of baseball. | Image: SIE San Diego Studio/Sony Interactive Entertainment via Polygon  The heroes of the great Black baseball leagues get their long-overdue moment in the sun  Sports occupy one of the more curious niches among video games. They’re tremendous sellers, huge moneymakers, and yet they’re so taken for granted that nobody really talks about them the way they do a R...]]></content>
+        <published>2023-03-27T19:01:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resident Evil 4’s remake is reigniting the eternal thirst for Leon | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23658290/resident-evil-4-remake-leon-kennedy-re4-tiktok</id>
+        <link href="https://www.polygon.com/23658290/resident-evil-4-remake-leon-kennedy-re4-tiktok"/>
+        <updated>2023-03-27T18:29:06.000Z</updated>
+        <summary type="html"><![CDATA[Image: Capcom  Thirst posters unite  The Resident Evil 4 remake has brought its fair share of gameplay and technical updates to the beloved horror game. While plenty has changed, one aspect of the gam...]]></summary>
+        <content type="html"><![CDATA[Image: Capcom  Thirst posters unite  The Resident Evil 4 remake has brought its fair share of gameplay and technical updates to the beloved horror game. While plenty has changed, one aspect of the game remains the same: Leon S. Kennedy, the dirty-blond heartthrob of the Resident Evil series, is as cute as ever. And now fans have been using the game’s updated looks to their advantage to make super-horny edits of the character to share on platforms like TikTok. Resident Evil 4 Remake stars Leon, a...]]></content>
+        <published>2023-03-27T18:29:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MultiVersus is going offline, relaunch planned for 2024 | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23658469/multiversus-offline-update-relaunch-date</id>
+        <link href="https://www.polygon.com/23658469/multiversus-offline-update-relaunch-date"/>
+        <updated>2023-03-27T17:08:35.000Z</updated>
+        <summary type="html"><![CDATA[Image: Player First Games/Warner Bros. Games  After months of barebones updates, MultiVersus is taking a long break  MultiVersus, the multiplayer platform-fighting game from Warner Bros. and Player Fi...]]></summary>
+        <content type="html"><![CDATA[Image: Player First Games/Warner Bros. Games  After months of barebones updates, MultiVersus is taking a long break  MultiVersus, the multiplayer platform-fighting game from Warner Bros. and Player First Games, is being pulled from digital stores on April 4 and will go offline — meaning it will become largely unplayable — in June. The developer announced Monday that it’s pausing updates and taking the game offline for a relaunch of MultiVersus, which is targeted for early 2024. Tony Huynh, co-fo...]]></content>
+        <published>2023-03-27T17:08:35.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PRESTO – A multilingual dataset for parsing realistic task-oriented dialogues | Google AI Blog]]></title>
+        <id>http://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html</id>
+        <link href="http://ai.googleblog.com/2023/03/presto-multilingual-dataset-for-parsing.html"/>
+        <updated>2023-03-27T17:02:00.004Z</updated>
+        <summary type="html"><![CDATA[Posted by Rahul Goel and Aditya Gupta, Software Engineers, Google Assistant Virtual assistants are increasingly integrated into our daily routines. They can help with everything from setting alarms to...]]></summary>
+        <content type="html"><![CDATA[Posted by Rahul Goel and Aditya Gupta, Software Engineers, Google Assistant Virtual assistants are increasingly integrated into our daily routines. They can help with everything from setting alarms to giving map directions and can even assist people with disabilities to more easily manage their homes. As we use these assistants, we are also becoming more accustomed to using natural language to accomplish tasks that we once did by hand. One of the biggest challenges in building a robust virtual a...]]></content>
+        <published>2023-03-27T17:02:00.004Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You can get $40 off a Nintendo Switch OLED today only | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/deals/2023/3/27/23653645/nintendo-switch-oled-woot-deal-sale</id>
+        <link href="https://www.polygon.com/deals/2023/3/27/23653645/nintendo-switch-oled-woot-deal-sale"/>
+        <updated>2023-03-27T16:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Woot is offering a rare $30 discount on the Nintendo Switch OLED | Photo: Nintendo  Woot dropped another $10 off the normal cost. The deal will last today only  The Nintendo Switch OLED model with whi...]]></summary>
+        <content type="html"><![CDATA[Woot is offering a rare $30 discount on the Nintendo Switch OLED | Photo: Nintendo  Woot dropped another $10 off the normal cost. The deal will last today only  The Nintendo Switch OLED model with white Joy-Cons is selling for $309.99, which is $40 off its usual price at stores. Woot’s sale is set to last for just 24 hours, or until supply gets gobbled up (it’s likely to happen). This model has Nintendo’s one-year warranty that covers manufacturing defects, so it’s no different than one you’d bu...]]></content>
+        <published>2023-03-27T16:06:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Multimodal Models Explained | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=153178</id>
+        <link href="https://www.kdnuggets.com/2023/03/multimodal-models-explained.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=multimodal-models-explained"/>
+        <updated>2023-03-27T16:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Unlocking the Power of Multimodal Learning: Techniques, Challenges, and Applications.]]></summary>
+        <content type="html"><![CDATA[Unlocking the Power of Multimodal Learning: Techniques, Challenges, and Applications.]]></content>
+        <author>
+            <name>Nate Rosidi</name>
+        </author>
+        <category label="KDnuggets Evergreen"/>
+        <category label="KDnuggets Originals"/>
+        <category label="Natural Language Processing"/>
+        <published>2023-03-27T16:00:54.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI GPT-4 - See How Everyone Is Using It! | Two Minute Papers]]></title>
+        <id>https://www.youtube.com/watch?v=at9zPRcvPIw</id>
+        <link href="https://www.youtube.com/watch?v=at9zPRcvPIw"/>
+        <updated>2023-03-27T15:09:55.000Z</updated>
+        <published>2023-03-27T15:09:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[『ゼルダの伝説 ティアーズ オブ ザ キングダム』約10分のプレイ映像が3月28日23時に公開！ | IGN Japan games]]></title>
+        <id>https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/66813/news/1032823</id>
+        <link href="https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/66813/news/1032823"/>
+        <updated>2023-03-27T15:07:06.000Z</updated>
+        <summary type="html"><![CDATA[その正体がついに明かされる!? 本作のプロデューサーを務める青沼英二によるプレイ映像となる。]]></summary>
+        <content type="html"><![CDATA[その正体がついに明かされる!? 本作のプロデューサーを務める青沼英二によるプレイ映像となる。]]></content>
+        <author>
+            <name>クラベ・エスラ</name>
+        </author>
+        <category label="News"/>
+        <category label="nintendo-switch"/>
+        <category label="Nintendo Switch"/>
+        <category label="ゼルダの伝説 ティアーズ オブ ザ キングダム"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <published>2023-03-27T15:07:06.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新卒1年目を振り返って苦労したことと解決したこと | オールアバウトTech Blog]]></title>
+        <id>https://allabout-tech.hatenablog.com/entry/2023/03/28/000000</id>
+        <link href="https://allabout-tech.hatenablog.com/entry/2023/03/28/000000"/>
+        <updated>2023-03-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに オールアバウトグループの新卒1年目エンジニアが投稿する企画『テックブログ新卒週間2023』。 今回はイシノがお送りします。 私は2022年4月に入社し、6月末まで外部でのエンジニア研修を受けておりました。研修後はメディア開発1Gに所属し業務をしております。 本記事ではメディア開発1Gのメンバーとしてジョインしたのち業務を進めていく中で苦労した点、どうやって改善をしたのかについて紹介してい...]]></summary>
+        <content type="html"><![CDATA[はじめに オールアバウトグループの新卒1年目エンジニアが投稿する企画『テックブログ新卒週間2023』。 今回はイシノがお送りします。 私は2022年4月に入社し、6月末まで外部でのエンジニア研修を受けておりました。研修後はメディア開発1Gに所属し業務をしております。 本記事ではメディア開発1Gのメンバーとしてジョインしたのち業務を進めていく中で苦労した点、どうやって改善をしたのかについて紹介していきます。 困っていたこと、どう改善をしたのか これから社会人一年目の私がぶつかった壁とどうやってそこに向き合って改善をしたのかについて紹介していきたいと思います。 私が困っていたと感じていた点は以下に…]]></content>
+        <published>2023-03-27T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sim game Terra Nil accepts the apocalypse — then moves past it | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/reviews/23652587/terra-nil-review-sim-game-city-builder-climate-change</id>
+        <link href="https://www.polygon.com/reviews/23652587/terra-nil-review-sim-game-city-builder-climate-change"/>
+        <updated>2023-03-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: Free Lives/Devolver Digital  Nature is healing  Management sims have made me into a villain. If playing a simulator game is like playing god, then I’m certainly a wrathful one. In Factorio, I r...]]></summary>
+        <content type="html"><![CDATA[Image: Free Lives/Devolver Digital  Nature is healing  Management sims have made me into a villain. If playing a simulator game is like playing god, then I’m certainly a wrathful one. In Factorio, I remind myself “the factory must grow” as I fight bug hordes that, understandably, attack my base as pollution saturates their settlements. In Frostpunk, I force workers to endure 18-hour shifts and sawdust-gruel meals, all while living in an impromptu shantytown. Terra Nil is a balm for this kind of ...]]></content>
+        <published>2023-03-27T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stable Diffusion v2-1-unclip:画像から意味的に似た画像を作成するImage2Imageとは異なる手法 | WebBigData]]></title>
+        <id>https://webbigdata.jp/?p=18246</id>
+        <link href="https://webbigdata.jp/post-18246/"/>
+        <updated>2023-03-27T14:59:28.000Z</updated>
+        <summary type="html"><![CDATA[１．Stable Diffusion v2-1-unclip:画像から意味的に似た画像を作成するImage2Imageとは異なる手法まとめ ・Stable Diffusion v2-1-unclipは、少し前にStabl […]]]></summary>
+        <content type="html"><![CDATA[１．Stable Diffusion v2-1-unclip:画像から意味的に似た画像を作成するImage2Imageとは異なる手法まとめ ・Stable Diffusion v2-1-unclipは、少し前にStabl […]]]></content>
+        <author>
+            <name>dahara1</name>
+        </author>
+        <category label="入門／解説"/>
+        <category label="画像生成"/>
+        <published>2023-03-27T14:59:28.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【LIVE】データサイエンスのリアルと未来2023【巨大言語モデルによる人工知能とその先】 #VRアカデミア | AIcia Solid Project]]></title>
+        <id>https://www.youtube.com/watch?v=JIc8yDOmp8Q</id>
+        <link href="https://www.youtube.com/watch?v=JIc8yDOmp8Q"/>
+        <updated>2023-03-27T14:30:13.000Z</updated>
+        <published>2023-03-27T14:30:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nintendo to show off new Zelda: Tears of the Kingdom gameplay on March 28 | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23658171/zelda-tears-of-the-kingdom-gameplay-nintendo-direct</id>
+        <link href="https://www.polygon.com/23658171/zelda-tears-of-the-kingdom-gameplay-nintendo-direct"/>
+        <updated>2023-03-27T14:15:27.000Z</updated>
+        <summary type="html"><![CDATA[Image: Nintendo  Get 10 minutes with Link and Zelda (and Eiji Aonuma)  Nintendo will showcase 10 minutes of new gameplay footage from The Legend of Zelda: Tears of the Kingdom on Tuesday, offering a d...]]></summary>
+        <content type="html"><![CDATA[Image: Nintendo  Get 10 minutes with Link and Zelda (and Eiji Aonuma)  Nintendo will showcase 10 minutes of new gameplay footage from The Legend of Zelda: Tears of the Kingdom on Tuesday, offering a deeper look at the game hosted by Zelda series producer Eiji Aonuma. The gameplay presentation won’t be a full-on official Nintendo Direct, apparently, but will give hungry Zelda fans something to chew on before Tears of the Kingdom’s launch in May. According to a tweet from Nintendo, The Legend of Z...]]></content>
+        <published>2023-03-27T14:15:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Data Science Can Transform Mobile App Development? | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=153170</id>
+        <link href="https://www.kdnuggets.com/2023/03/data-science-transform-mobile-app-development.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-data-science-can-transform-mobile-app-development"/>
+        <updated>2023-03-27T14:00:53.000Z</updated>
+        <summary type="html"><![CDATA[Data science is an intelligent and powerful technology. By knowing how to use data science in mobile app development you can achieve great results.]]></summary>
+        <content type="html"><![CDATA[Data science is an intelligent and powerful technology. By knowing how to use data science in mobile app development you can achieve great results.]]></content>
+        <author>
+            <name>Ishan Gupta</name>
+        </author>
+        <category label="KDnuggets Originals"/>
+        <category label="Data Science"/>
+        <published>2023-03-27T14:00:53.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[花粉症は日本だけじゃない！ アメリカの花粉ワースト20都市 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/allergies-pollen-tree-grass-weed-pollen-runny-nose.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/allergies-pollen-tree-grass-weed-pollen-runny-nose.html"/>
+        <updated>2023-03-27T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米国喘息及びアレルギー財団がアメリカで人口の多い都市100を調査。アメリカで花粉がひどいワースト20都市ランキング、見ていきましょう。]]></summary>
+        <content type="html"><![CDATA[米国喘息及びアレルギー財団がアメリカで人口の多い都市100を調査。アメリカで花粉がひどいワースト20都市ランキング、見ていきましょう。]]></content>
+        <author>
+            <name>岩田リョウコ</name>
+        </author>
+        <category label="LIFESTYLE"/>
+        <published>2023-03-27T14:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon and IIT Bombay launch multiyear collaboration | Amazon Science homepage]]></title>
+        <id>https://www.amazon.science/news-and-features/amazon-and-iit-bombay-launch-multiyear-collaboration</id>
+        <link href="https://www.amazon.science/news-and-features/amazon-and-iit-bombay-launch-multiyear-collaboration"/>
+        <updated>2023-03-27T13:50:39.000Z</updated>
+        <summary type="html"><![CDATA[Initiative will advance artificial intelligence and machine learning research within speech, language, and multimodal-AI domains.]]></summary>
+        <content type="html"><![CDATA[Initiative will advance artificial intelligence and machine learning research within speech, language, and multimodal-AI domains.]]></content>
+        <published>2023-03-27T13:50:39.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How will Life By You compete with The Sims? Deeper role-play | Polygon -  Gaming]]></title>
+        <id>https://www.polygon.com/23657952/life-by-you-paradox-sim-game-rod-humble</id>
+        <link href="https://www.polygon.com/23657952/life-by-you-paradox-sim-game-rod-humble"/>
+        <updated>2023-03-27T13:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Image: Paradox Tectonic/Paradox Interactive  Paradox Tectonic’s life sim zooms in on emergent relationships  The life sim genre, loosely defined, has assumed many shapes. Stardew Valley complemented i...]]></summary>
+        <content type="html"><![CDATA[Image: Paradox Tectonic/Paradox Interactive  Paradox Tectonic’s life sim zooms in on emergent relationships  The life sim genre, loosely defined, has assumed many shapes. Stardew Valley complemented its farming aspects with relationship-building among its townsfolk. Animal Crossing: New Horizons brought Nintendo’s charm and approachability to an island escape. Second Life, true to its name, comprised a virtual world in which to create an avatar, interact with other players, and build 3D models. ...]]></content>
+        <published>2023-03-27T13:40:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[溶け残りゼロへ。粉末ドリンクを自動で混ぜてくれるマグカップ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/auto-shake-mag.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/auto-shake-mag.html"/>
+        <updated>2023-03-27T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:サンコー人類が粉末スープとの戦いに勝つ日がきた！粉末のスープって手軽で美味しいですよね。でも、粉末をお湯に溶かすだけなのに難易度が高くないですか？ 今手元にある粉末スープの作り方は「袋の中身をおカップにいれたら熱湯150mlを注ぎすぐに15秒ほどかき混ぜてください」とあります。もうね、この「熱湯を」「すぐに」というところで焦っちゃいますよ。しかも、どんなに素早くかき混ぜようとしても高確]]></summary>
+        <content type="html"><![CDATA[Image:サンコー人類が粉末スープとの戦いに勝つ日がきた！粉末のスープって手軽で美味しいですよね。でも、粉末をお湯に溶かすだけなのに難易度が高くないですか？ 今手元にある粉末スープの作り方は「袋の中身をおカップにいれたら熱湯150mlを注ぎすぐに15秒ほどかき混ぜてください」とあります。もうね、この「熱湯を」「すぐに」というところで焦っちゃいますよ。しかも、どんなに素早くかき混ぜようとしても高確]]></content>
+        <author>
+            <name>中川真知子</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2023-03-27T13:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Visual ChatGPT: Microsoft Combine ChatGPT and VFMs | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=153160</id>
+        <link href="https://www.kdnuggets.com/2023/03/visual-chatgpt-microsoft-combine-chatgpt-vfms.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=visual-chatgpt-microsoft-combine-chatgpt-and-vfms"/>
+        <updated>2023-03-27T12:00:08.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft announces Visual ChatGPT for talking, drawing, and editing with visual foundation models.]]></summary>
+        <content type="html"><![CDATA[Microsoft announces Visual ChatGPT for talking, drawing, and editing with visual foundation models.]]></content>
+        <author>
+            <name>Nisha Arya</name>
+        </author>
+        <category label="KDnuggets Originals"/>
+        <category label="Artificial Intelligence"/>
+        <published>2023-03-27T12:00:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[意外なヒントから大胆予想！ WWDC 2023って6月5日かも？ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2023/03/wwdc-2023-5-june.html</id>
+        <link href="https://www.gizmodo.jp/2023/03/wwdc-2023-5-june.html"/>
+        <updated>2023-03-27T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今年の「WWDC 23」は、もしかしたらこの日かも？ な予想が立てられています。きっかけは、フライトトラッカーアプリ「Flighty」の開発者であるRyan Jones氏のTwitterへの投稿。]]></summary>
+        <content type="html"><![CDATA[今年の「WWDC 23」は、もしかしたらこの日かも？ な予想が立てられています。きっかけは、フライトトラッカーアプリ「Flighty」の開発者であるRyan Jones氏のTwitterへの投稿。]]></content>
+        <author>
+            <name>小暮ひさのり</name>
+        </author>
+        <category label="NEWS"/>
+        <published>2023-03-27T12:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[若手雇用問題アンケートの結果 | 日本応用数理学会]]></title>
+        <id>https://jsiam.org/?p=4772</id>
+        <link href="https://jsiam.org/news/4772/"/>
+        <updated>2023-03-27T11:22:42.000Z</updated>
+        <summary type="html"><![CDATA[View Article一般社団法人男女共同参画学協会連絡会が、「若手雇用問題アンケート（科学技術系専門職の雇用に関する実態調査）」の結果を公開しました。 https://djrenrakukai.org/doc_pdf/2023/1st_wa...]]></summary>
+        <content type="html"><![CDATA[View Article一般社団法人男女共同参画学協会連絡会が、「若手雇用問題アンケート（科学技術系専門職の雇用に関する実態調査）」の結果を公開しました。 https://djrenrakukai.org/doc_pdf/2023/1st_wa...]]></content>
+        <author>
+            <name>AiharaKensuke</name>
+        </author>
+        <category label="最新ニュース"/>
+        <published>2023-03-27T11:22:42.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[モジュールPC「Framework Laptop 16」、これはゲーム端末と言ってよし！ | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2023/03/framework-modular-gaming-laptop-16-inch-egpu-ssd-repair.html</id>
@@ -22,6 +480,15 @@
         </author>
         <category label="PRODUCT"/>
         <published>2023-03-27T11:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【業務効率化】Google Formの回答結果を自動的にPDFで個別返信をやってみた!! | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/guolam/items/4389638abf75a13569b3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/guolam/items/4389638abf75a13569b3?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-27T10:30:50.000Z</updated>
+        <summary type="html"><![CDATA[やろうとしたこと 今まで、Google Formから集計した結果をシートにすることはありますが、分析結果は個別でまた送信することが多く、今回は回答者が記入した回答に対して、分析結果を自動送信する仕組…]]></summary>
+        <content type="html"><![CDATA[やろうとしたこと 今まで、Google Formから集計した結果をシートにすることはありますが、分析結果は個別でまた送信することが多く、今回は回答者が記入した回答に対して、分析結果を自動送信する仕組…]]></content>
+        <published>2023-03-27T10:30:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「ムーアの法則」のゴードン・ムーア氏が死去 | ギズモード・ジャパン]]></title>
@@ -141,11 +608,11 @@
         <author>
             <name>葛西祝</name>
         </author>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="セール情報"/>
         <category label="Amazonおすすめ"/>
         <category label="イベント"/>
+        <category label="News"/>
+        <category label="セール情報"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T09:00:28.000Z</published>
     </entry>
     <entry>
@@ -251,6 +718,15 @@
         <published>2023-03-27T08:30:55.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Raspberry Pi Pico WでBluetoothをお試し | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/jksoft/items/dcd0091f6b39a2beb4c0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/jksoft/items/dcd0091f6b39a2beb4c0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-27T08:03:11.000Z</updated>
+        <summary type="html"><![CDATA[2023/3/27にとうとう日本でもRaspberry Pi Pico Wが販売開始されました。 https://prtimes.jp/main/html/rd/p/000000122.000064…]]></summary>
+        <content type="html"><![CDATA[2023/3/27にとうとう日本でもRaspberry Pi Pico Wが販売開始されました。 https://prtimes.jp/main/html/rd/p/000000122.000064…]]></content>
+        <published>2023-03-27T08:03:11.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[クラウドを用いたMLトレーニング環境の構築（GPU使用） | エンジニアブログ | iret.media]]></title>
         <id>https://iret.media/?p=71783</id>
         <link href="https://iret.media/71783"/>
@@ -321,10 +797,10 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="ゲーム"/>
-        <category label="PC"/>
         <category label="News"/>
+        <category label="PC"/>
         <category label="Steam"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T07:58:35.000Z</published>
     </entry>
     <entry>
@@ -359,11 +835,11 @@
         <author>
             <name>まきちゃん</name>
         </author>
-        <category label="ゲーム"/>
-        <category label="PC"/>
-        <category label="NORCO"/>
         <category label="Preview"/>
+        <category label="PC"/>
         <category label="Steam"/>
+        <category label="NORCO"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T07:34:19.000Z</published>
     </entry>
     <entry>
@@ -376,16 +852,16 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="News"/>
-        <category label="アニメ"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
         <category label="Xbox Series S"/>
-        <category label="SYNDUALITY Echo of Ada"/>
-        <category label="Xbox Series X"/>
+        <category label="アニメ"/>
+        <category label="PC"/>
+        <category label="News"/>
         <category label="エンタメ"/>
+        <category label="Xbox Series X"/>
+        <category label="SYNDUALITY Echo of Ada"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T07:28:19.000Z</published>
     </entry>
     <entry>
@@ -413,11 +889,11 @@
         <author>
             <name>Matthew Adler</name>
         </author>
-        <category label="Dark and Darker"/>
-        <category label="ゲーム"/>
         <category label="PC"/>
         <category label="News"/>
+        <category label="Dark and Darker"/>
         <category label="Steam"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T07:05:55.000Z</published>
     </entry>
     <entry>
@@ -516,17 +992,17 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="ロックマンエグゼ アドバンスドコレクション"/>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="nintendo-switch"/>
-        <category label="Nintendo Switch（有機ELモデル）"/>
         <category label="PC"/>
-        <category label="Nintendo Switch"/>
+        <category label="ロックマンエグゼ アドバンスドコレクション"/>
+        <category label="nintendo-switch"/>
         <category label="News"/>
-        <category label="任天堂"/>
         <category label="ps4"/>
+        <category label="Nintendo Switch"/>
+        <category label="Nintendo Switch（有機ELモデル）"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
         <published>2023-03-27T06:02:01.000Z</published>
     </entry>
     <entry>
@@ -621,7 +1097,7 @@
         <link href="https://techblog.recochoku.jp/9014"/>
         <updated>2023-03-27T05:22:41.000Z</updated>
         <summary type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  ...]]></summary>
-        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  こんにちは。株式会社レコチョクの長島と申します。 2022年4月に新卒で入社し、現在はiOSアプリの開発を行うグループに所属しています。 最近聞いている音楽はダンスミュージックが中心で、<a href="https://recochoku.jp/album/A2001961107/album">Stream Palette</a>というアルバムを今はよく聞いています。よろしくお願いします。  さて、私はOJTとして既存アプリのモックを作成する課題を行っていたのですが、その中で、アクセスレベルという概念があることに気付きました。他言語で[crayon-64217c3027a64651176000...]]></content>
+        <content type="html"><![CDATA[<p><img width="180" height="180" src="https://techblog.recochoku.jp/wp-content/uploads/2016/11/swift-180x180.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  こんにちは。株式会社レコチョクの長島と申します。 2022年4月に新卒で入社し、現在はiOSアプリの開発を行うグループに所属しています。 最近聞いている音楽はダンスミュージックが中心で、<a href="https://recochoku.jp/album/A2001961107/album">Stream Palette</a>というアルバムを今はよく聞いています。よろしくお願いします。  さて、私はOJTとして既存アプリのモックを作成する課題を行っていたのですが、その中で、アクセスレベルという概念があることに気付きました。他言語で[crayon-642225c9700c0063520503...]]></content>
         <published>2023-03-27T05:22:41.000Z</published>
     </entry>
     <entry>
@@ -700,29 +1176,15 @@
         <published>2023-03-27T05:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[You can get $30 off a Nintendo Switch OLED today only | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/2023/3/27/23653645/nintendo-switch-oled-woot-deal-sale</id>
-        <link href="https://www.polygon.com/deals/2023/3/27/23653645/nintendo-switch-oled-woot-deal-sale"/>
-        <updated>2023-03-27T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Woot is offering a rare $30 discount on the Nintendo Switch OLED | Photo: Nintendo  This rare discount on the best Switch will last for 24 hours, or while supplies last  The Nintendo Switch OLED model...]]></summary>
-        <content type="html"><![CDATA[Woot is offering a rare $30 discount on the Nintendo Switch OLED | Photo: Nintendo  This rare discount on the best Switch will last for 24 hours, or while supplies last  The Nintendo Switch OLED model with white Joy-Cons is selling for $319.99, which is $30 off its usual price at stores. Woot’s sale is set to last for just 24 hours, or until supply gets gobbled up (it’s likely to happen). This model has Nintendo’s one-year warranty that covers manufacturing defects, so it’s no different than one...]]></content>
-        <published>2023-03-27T05:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ブラックホールが量子状態を現実のものにする | TEXAL]]></title>
-        <id>https://texal.jp/?p=30254</id>
-        <link href="https://texal.jp/2023/03/27/black-holes-make-quantum-states-a-reality/"/>
-        <updated>2023-03-27T04:51:07.000Z</updated>
-        <summary type="html"><![CDATA[新しい思考実験が、ブラックホールの存在だけで近くの量子空間の重ね合わせが破壊されることを示唆している。この実験は、重ね合わせの粒子の長距離重力場がブラックホールの事象の地平線と相互作用し、量子重ね合わせが有限時間内にデコ ... Read more]]></summary>
-        <content type="html"><![CDATA[新しい思考実験が、ブラックホールの存在だけで近くの量子空間の重ね合わせが破壊されることを示唆している。この実験は、重ね合わせの粒子の長距離重力場がブラックホールの事象の地平線と相互作用し、量子重ね合わせが有限時間内にデコ ... Read more]]></content>
-        <author>
-            <name>masapoco</name>
-        </author>
-        <category label="サイエンス"/>
-        <category label="ブラックホール"/>
-        <category label="宇宙"/>
-        <category label="量子力学"/>
-        <published>2023-03-27T04:51:07.000Z</published>
+        <title type="html"><![CDATA[Announcing the winners of the 2022 Foundational Integrity Research request for proposals | Meta Research]]></title>
+        <id>https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/</id>
+        <link href="https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/"/>
+        <updated>2023-03-27T04:35:00.000Z</updated>
+        <summary type="html"><![CDATA[In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.]]></summary>
+        <content type="html"><![CDATA[In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.]]></content>
+        <category label="<![CDATA['Academic Programs']]>"/>
+        <category label="<![CDATA['Human Computer Interaction & UX']]>"/>
+        <published>2023-03-27T04:35:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[月10枚まで無料！ AIイラストをDiscordから簡単に生成できる「StableDiffusionDiscordBot」／日本語でキーワード入力可能、スマートフォンからも気軽に生成【レビュー】 | 窓の杜]]></title>
@@ -821,12 +1283,12 @@
         <author>
             <name>片岡龍一</name>
         </author>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="ps5"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <category label="ファイナルファンタジーXVI"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="ps5"/>
-        <category label="News"/>
         <published>2023-03-27T03:45:18.000Z</published>
     </entry>
     <entry>
@@ -858,6 +1320,15 @@
         <published>2023-03-27T03:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【Swift】UICollectionViewの更新処理には段階がある | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/juginon/items/5526e7b79edadd2362b5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/juginon/items/5526e7b79edadd2362b5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-27T03:17:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、 juginonです。 Swift備忘録シリーズ3、今回はUICollectionViewの更新処理についてです（他シリーズはzenn参照）。 Index out of range UI…]]></summary>
+        <content type="html"><![CDATA[こんにちは、 juginonです。 Swift備忘録シリーズ3、今回はUICollectionViewの更新処理についてです（他シリーズはzenn参照）。 Index out of range UI…]]></content>
+        <published>2023-03-27T03:17:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ChatGPTハッカソンでエンジニアの生産性を上げるツールを開発しました | LayerX エンジニアブログ]]></title>
         <id>https://tech.layerx.co.jp/entry/chatgpt-hackathon</id>
         <link href="https://tech.layerx.co.jp/entry/chatgpt-hackathon"/>
@@ -877,13 +1348,13 @@
             <name>丹祐希代</name>
         </author>
         <category label="android"/>
-        <category label="ゲーム"/>
         <category label="PC"/>
-        <category label="Android"/>
-        <category label="iphone"/>
         <category label="鳴潮（Wuthering Waves）"/>
         <category label="News"/>
         <category label="Mobile"/>
+        <category label="Android"/>
+        <category label="iphone"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T03:01:11.000Z</published>
     </entry>
     <entry>
@@ -929,15 +1400,15 @@
         <author>
             <name>渡邉卓也</name>
         </author>
-        <category label="Feature"/>
-        <category label="Sony PlayStation"/>
-        <category label="バイオハザード RE:4"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="Xbox Series X"/>
         <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="バイオハザード RE:4"/>
+        <category label="Feature"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-27T02:51:45.000Z</published>
     </entry>
     <entry>
@@ -968,21 +1439,22 @@
         <published>2023-03-27T02:42:24.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Twitter、ソースコードの一部がオンラインで漏洩していたことが判明 | TEXAL]]></title>
-        <id>https://texal.jp/?p=30248</id>
-        <link href="https://texal.jp/2023/03/27/twitter-discovers-that-some-of-its-source-code-has-been-leaked-online/"/>
-        <updated>2023-03-27T02:05:52.000Z</updated>
-        <summary type="html"><![CDATA[トラブルが絶えないTwitterにまた新たなトラブルが発生したようだ。The New York Times紙によると、先週金曜日に公開された裁判所の書類から、Twitterのソースコードの一部がオンラインで漏洩されたこと ... Read more]]></summary>
-        <content type="html"><![CDATA[トラブルが絶えないTwitterにまた新たなトラブルが発生したようだ。The New York Times紙によると、先週金曜日に公開された裁判所の書類から、Twitterのソースコードの一部がオンラインで漏洩されたこと ... Read more]]></content>
+        <title type="html"><![CDATA[Statistics Show AI Adoption and Investment has Risen Rapidly in the Past 2 Years | Hacker Noon - machine-learning]]></title>
+        <id>https://hackernoon.com/statistics-show-ai-adoption-and-investment-has-risen-rapidly-in-the-past-2-years?source=rss</id>
+        <link href="https://hackernoon.com/statistics-show-ai-adoption-and-investment-has-risen-rapidly-in-the-past-2-years?source=rss"/>
+        <updated>2023-03-27T02:02:04.000Z</updated>
         <author>
-            <name>masapoco</name>
+            <name>Dan Khomenko</name>
         </author>
-        <category label="テクノロジー"/>
-        <category label="Elon Musk"/>
-        <category label="SNS"/>
-        <category label="Twitter"/>
-        <category label="セキュリティ"/>
-        <published>2023-03-27T02:05:52.000Z</published>
+        <category label="ai"/>
+        <category label="future-of-ai"/>
+        <category label="artificial-intelligence-trends"/>
+        <category label="statistics"/>
+        <category label="machine-learning"/>
+        <category label="business"/>
+        <category label="investment"/>
+        <category label="futurism"/>
+        <published>2023-03-27T02:02:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[WEAR Webフロントエンドの自動テスト構成 2023 | ZOZO TECH BLOG]]></title>
@@ -1043,23 +1515,6 @@
         <published>2023-03-27T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[実現可能性について論争を呼んでいる「量子ドライブ」を用いたロケットがついに6月に打ち上げられる | TEXAL]]></title>
-        <id>https://texal.jp/?p=30238</id>
-        <link href="https://texal.jp/2023/03/27/rocket-using-quantum-drive-a-topic-of-controversy-regarding-its-feasibility-will-finally-be-launched-in-june/"/>
-        <updated>2023-03-27T01:50:07.000Z</updated>
-        <summary type="html"><![CDATA[現在の宇宙開発時代（Space Age 2.0）の最もエキサイティングな点の1つは、昔からあるアイデアがついに実現されつつあることだ。例えば、回収・再利用型ロケット、海上回収、空中回収、SSTO（Single-Stage ... Read more]]></summary>
-        <content type="html"><![CDATA[現在の宇宙開発時代（Space Age 2.0）の最もエキサイティングな点の1つは、昔からあるアイデアがついに実現されつつあることだ。例えば、回収・再利用型ロケット、海上回収、空中回収、SSTO（Single-Stage ... Read more]]></content>
-        <author>
-            <name>masapoco</name>
-        </author>
-        <category label="サイエンス"/>
-        <category label="ロケット"/>
-        <category label="宇宙"/>
-        <category label="宇宙船"/>
-        <category label="量子力学"/>
-        <published>2023-03-27T01:50:07.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【アップデート情報】パッケージ・ドライバー関連　3月27日　～Intelなど | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/driver/1488492.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/driver/1488492.html"/>
@@ -1103,21 +1558,6 @@
         <published>2023-03-27T01:10:19.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elon Musk氏、Twitterの現在の評価額を買収時の半分以下となる200億ドルとした従業員へ… | TEXAL]]></title>
-        <id>https://texal.jp/?p=30235</id>
-        <link href="https://texal.jp/2023/03/27/elon-musk-notifies-employees-that-twitters-current-valuation-is-20-billion-less-than-half-of-the-acquisitions-value-and-grants-shares-to-employees/"/>
-        <updated>2023-03-27T01:02:24.000Z</updated>
-        <summary type="html"><![CDATA[Elon Musk氏は、同氏がTwitterを買収する際に支払った金額440億ドルに対し、現在のTwitterの価値は200億ドルであると考えているようだ。これは、Musk氏が、従業員に200億ドルの評価額を基に株式付与 ... Read more]]></summary>
-        <content type="html"><![CDATA[Elon Musk氏は、同氏がTwitterを買収する際に支払った金額440億ドルに対し、現在のTwitterの価値は200億ドルであると考えているようだ。これは、Musk氏が、従業員に200億ドルの評価額を基に株式付与 ... Read more]]></content>
-        <author>
-            <name>masapoco</name>
-        </author>
-        <category label="テクノロジー"/>
-        <category label="Elon Musk"/>
-        <category label="Twitter"/>
-        <published>2023-03-27T01:02:24.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[JaSST’23 Tokyoに参加しました | Studyplus Engineering Blog]]></title>
         <id>https://tech.studyplus.co.jp/entry/2023/03/27/100000</id>
         <link href="https://tech.studyplus.co.jp/entry/2023/03/27/100000"/>
@@ -1159,6 +1599,15 @@
         </author>
         <category label="PRODUCT"/>
         <published>2023-03-27T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Apps Script (GAS) から Discord の API にアクセスするとエラーコード 1020 で失敗する | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/Chrysanthemum94/items/25ffa5683beda15d4917?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/Chrysanthemum94/items/25ffa5683beda15d4917?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-27T00:49:00.000Z</updated>
+        <summary type="html"><![CDATA[結論 Discord は GAS からのアクセスを認めていないように見える。 GAS から何かしたいとしても何らかの迂回路を通らないと上手くいかないだろう。 何を試してどうなった GoogleApp…]]></summary>
+        <content type="html"><![CDATA[結論 Discord は GAS からのアクセスを認めていないように見える。 GAS から何かしたいとしても何らかの迂回路を通らないと上手くいかないだろう。 何を試してどうなった GoogleApp…]]></content>
+        <published>2023-03-27T00:49:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[RailsのMinitestでテスト実行後に、データが残ってしまう問題(複数DBを使用) | Qiita - 人気の記事]]></title>
@@ -1243,6 +1692,15 @@
         <published>2023-03-26T23:57:41.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【設計手法】ドメイン駆動設計(DDD) is 何? 【初心者にも分かりやすく】 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/kim_t0814/items/1a50bbdd8ef3ec780185?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/kim_t0814/items/1a50bbdd8ef3ec780185?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-26T23:53:07.000Z</updated>
+        <summary type="html"><![CDATA[初めに DDDって言葉自体は定期的に聞きますよね。 ドメインについて知識をつけましょう、みたいなことはよく言われますが 「ドメインってIPアドレスをURLにしたものだよね〜」 くらいの理解しか去年ま…]]></summary>
+        <content type="html"><![CDATA[初めに DDDって言葉自体は定期的に聞きますよね。 ドメインについて知識をつけましょう、みたいなことはよく言われますが 「ドメインってIPアドレスをURLにしたものだよね〜」 くらいの理解しか去年ま…]]></content>
+        <published>2023-03-26T23:53:07.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2023年度代表会員選挙ならびに役員候補者選挙選挙結果 | 日本応用数理学会]]></title>
         <id>https://jsiam.org/?p=4769</id>
         <link href="https://jsiam.org/news/4769/"/>
@@ -1265,6 +1723,15 @@
         <published>2023-03-26T23:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【個人開発】AWSでサーバーレスなWebスクレイピングアプリを作ってみた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ozzy3/items/b2ef8f5329484de5095f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ozzy3/items/b2ef8f5329484de5095f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-26T23:09:01.000Z</updated>
+        <summary type="html"><![CDATA[個人的に Web サイトを定期的に解析するアプリが必要になったので、AWS を活用してサーバーレスな Web スクレイピングアプリを構築してみました。 せっかく作ったので、このアプリのアーキテクチャ…]]></summary>
+        <content type="html"><![CDATA[個人的に Web サイトを定期的に解析するアプリが必要になったので、AWS を活用してサーバーレスな Web スクレイピングアプリを構築してみました。 せっかく作ったので、このアプリのアーキテクチャ…]]></content>
+        <published>2023-03-26T23:09:01.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[SIerで自社製品導入をする新卒5年目（※IT経験なし）の働き方と今感じること～ちょこっと就活の話も添えて～ | ISID テックブログ]]></title>
         <id>https://tech.isid.co.jp/entry/2023/03/27/SIer%E3%81%A7%E8%87%AA%E7%A4%BE%E8%A3%BD%E5%93%81%E5%B0%8E%E5%85%A5%E3%82%92%E3%81%99%E3%82%8B%E6%96%B0%E5%8D%925%E5%B9%B4%E7%9B%AE%EF%BC%88%E2%80%BBIT%E7%B5%8C%E9%A8%93%E3%81%AA%E3%81%97%EF%BC%89%E3%81%AE</id>
         <link href="https://tech.isid.co.jp/entry/2023/03/27/SIer%E3%81%A7%E8%87%AA%E7%A4%BE%E8%A3%BD%E5%93%81%E5%B0%8E%E5%85%A5%E3%82%92%E3%81%99%E3%82%8B%E6%96%B0%E5%8D%925%E5%B9%B4%E7%9B%AE%EF%BC%88%E2%80%BBIT%E7%B5%8C%E9%A8%93%E3%81%AA%E3%81%97%EF%BC%89%E3%81%AE"/>
@@ -1279,7 +1746,7 @@
         <link href="https://zenn.dev/kazuwombat/articles/5617468b97fa3f"/>
         <updated>2023-03-26T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[2023年3月2日ChatGPT APIが発表されました。 このニュースを見て、 「このAPIを使って何か面白いサービスを作れるのでは…？」 と思った方も多いのではないでしょうか？ 筆者もそんなふうに思った個人開発者の一人です。 そこで試しに作ってみました。 AIがおすすめの本を選んでくれる 「AI本屋さん」 です。 (ぜひご来店ください)  https://ai-book-store.verce...]]></summary>
-        <content type="html"><![CDATA[2023年3月2日ChatGPT APIが発表されました。 このニュースを見て、 「このAPIを使って何か面白いサービスを作れるのでは…？」 と思った方も多いのではないでしょうか？ 筆者もそんなふうに思った個人開発者の一人です。 そこで試しに作ってみました。 AIがおすすめの本を選んでくれる 「AI本屋さん」 です。 (ぜひご来店ください)  https://ai-book-store.vercel.app/ 本記事では、ChatGPTを使って何か作ってみたいなと考えている方に向けて、  サービス開発の流れ Tips AI 個人開発のススメ  についてご紹介します。    サービス開発の...]]></content>
+        <content type="html"><![CDATA[2023年3月2日ChatGPT APIが発表されました。 このニュースを見て、 「このAPIを使って何か面白いサービスを作れるのでは…？」 と思った方も多いのではないでしょうか？ 筆者もそんなふうに思った個人開発者の一人です。 そこで試しに作ってみました。 AIがおすすめの本を選んでくれる 「AI本屋さん」 です。 (ぜひご来店ください)  https://ai-book-store.vercel.app/ ! アクセスが多いと、API制限がかかって動かないことがあります。ごめんなさい🙇‍♂️  本記事では、ChatGPTを使って何か作ってみたいなと考えている方に向けて、  サービス開...]]></content>
         <author>
             <name>kazuwombat</name>
         </author>
@@ -1299,6 +1766,18 @@
         <published>2023-03-26T23:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【Flutter】たった2行で簡単にアニメーションを付けられるeasy_animate packageを公開したよ🎉 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/hagakun_dev/articles/d384c06318c560</id>
+        <link href="https://zenn.dev/hagakun_dev/articles/d384c06318c560"/>
+        <updated>2023-03-26T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[3行まとめ  好きなWidgetにラップするだけでアニメーション効果を付与できるeasy_animate packageを公開したよ🎉 8種類のアニメーションを自由に利用可能🧐 もちろん、アニメーションのduration, delay, directionなどを自由に変更可能🔥  https://pub.dev/packages/easy_animate   Flutterにおけるanima...]]></summary>
+        <content type="html"><![CDATA[3行まとめ  好きなWidgetにラップするだけでアニメーション効果を付与できるeasy_animate packageを公開したよ🎉 8種類のアニメーションを自由に利用可能🧐 もちろん、アニメーションのduration, delay, directionなどを自由に変更可能🔥  https://pub.dev/packages/easy_animate   Flutterにおけるanimationの問題点 最近のアプリ開発においては、ユーザーエクスペリエンス向上のためアニメーションを追加したい場面が数多く存在します。 しかし、Flutterのanimationはとても複雑です。 王...]]></content>
+        <author>
+            <name>はがくん@薬剤師のなかではコード書くの好き</name>
+        </author>
+        <published>2023-03-26T22:30:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　3月27日　～「Notepad++」や「PDF Split and Merge basic」など | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/library/1488243.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/library/1488243.html"/>
@@ -1306,23 +1785,6 @@
         <summary type="html"><![CDATA[DLL不要でUSBメモリなどで持ち運べる解凍ソフト]]></summary>
         <content type="html"><![CDATA[DLL不要でUSBメモリなどで持ち運べる解凍ソフト]]></content>
         <published>2023-03-26T22:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人間に聞こえない超音波を使って、スマートフォンやスマートスピーカーをコッソリ制御する新たな攻撃手法が… | TEXAL]]></title>
-        <id>https://texal.jp/?p=30227</id>
-        <link href="https://texal.jp/2023/03/27/a-new-attack-method-is-found-that-uses-inaudible-ultrasound-to-covertly-control-smartphones-and-smart-speakers/"/>
-        <updated>2023-03-26T22:13:47.000Z</updated>
-        <summary type="html"><![CDATA[アメリカ・テキサス州サンアントニオ大学（UTSA）の研究者らが、スマートフォンやスマートスピーカー、その他のIoTデバイスなど、音声アシスタントを搭載したデバイスに対して超音波によって人間には聞こえず、気付かない間に攻撃 ... Read more]]></summary>
-        <content type="html"><![CDATA[アメリカ・テキサス州サンアントニオ大学（UTSA）の研究者らが、スマートフォンやスマートスピーカー、その他のIoTデバイスなど、音声アシスタントを搭載したデバイスに対して超音波によって人間には聞こえず、気付かない間に攻撃 ... Read more]]></content>
-        <author>
-            <name>masapoco</name>
-        </author>
-        <category label="テクノロジー"/>
-        <category label="スマートスピーカー"/>
-        <category label="スマートディスプレイ"/>
-        <category label="スマートフォン"/>
-        <category label="セキュリティ"/>
-        <published>2023-03-26T22:13:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[EPUB Generatorをつくろう | Tech Do | メディアドゥの技術ブログ　]]></title>
@@ -1363,23 +1825,6 @@
         <summary type="html"><![CDATA[PCに慣れたユーザーにとって欠かせないツールであるテキストエディターの中でも、「EmEditor」は、速度の速さや機能の豊富さで多くのユーザーに支持されているソフトの1つだ。「窓の杜」編集部でも愛用者が多い。]]></summary>
         <content type="html"><![CDATA[PCに慣れたユーザーにとって欠かせないツールであるテキストエディターの中でも、「EmEditor」は、速度の速さや機能の豊富さで多くのユーザーに支持されているソフトの1つだ。「窓の杜」編集部でも愛用者が多い。]]></content>
         <published>2023-03-26T21:55:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple、噂のARヘッドセットを多くの幹部の前で披露との報道。発売に向けた動きが加速か？ | TEXAL]]></title>
-        <id>https://texal.jp/?p=30224</id>
-        <link href="https://texal.jp/2023/03/27/apple-unveils-rumoured-ar-headset-in-front-of-a-number-of-executives-possibly-accelerating-the-move-towards-launch/"/>
-        <updated>2023-03-26T21:49:16.000Z</updated>
-        <summary type="html"><![CDATA[Bloombergの記者で、Apple関連の内部情報に詳しいMark Gurman氏が発行した最新のPower Onニュースレターの中で、Appleの主要幹部約100名がカリフォルニア州クパチーノにあるSteve Job ... Read more]]></summary>
-        <content type="html"><![CDATA[Bloombergの記者で、Apple関連の内部情報に詳しいMark Gurman氏が発行した最新のPower Onニュースレターの中で、Appleの主要幹部約100名がカリフォルニア州クパチーノにあるSteve Job ... Read more]]></content>
-        <author>
-            <name>masapoco</name>
-        </author>
-        <category label="テクノロジー"/>
-        <category label="Apple"/>
-        <category label="AR"/>
-        <category label="VR"/>
-        <category label="XR"/>
-        <published>2023-03-26T21:49:16.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Microsoft、Windows標準のスクショ撮影機能で発見された情報漏洩の欠陥を修正／Windows 10の「切り取り領域とスケッチ」とWindows 11の「Snipping Tool」は更新を | 窓の杜]]></title>
@@ -1568,54 +2013,6 @@
         <published>2023-03-26T12:45:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[90歳のおじいちゃんカメ、パパになる | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/90-year-old-mr-pickles-fathers-three-tortoises.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/90-year-old-mr-pickles-fathers-three-tortoises.html"/>
-        <updated>2023-03-26T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:WikimediaCommons（ピクルス夫妻ではありません）歳の差カップルの高齢出産、おめでとう！アメリカのヒューストン動物園にいる最高齢の動物は、カメのMr.ピクルスさん、90歳。そして、Mr.ピクルスさんは、この動物園にいる一番最近お父さんになった動物でもあります。お母さんカメは53歳Mr.ピクルスの3匹の子供たちはそれぞれ「Dill」「Gherkin」「Jalapeño」と名付]]></summary>
-        <content type="html"><![CDATA[Photo:WikimediaCommons（ピクルス夫妻ではありません）歳の差カップルの高齢出産、おめでとう！アメリカのヒューストン動物園にいる最高齢の動物は、カメのMr.ピクルスさん、90歳。そして、Mr.ピクルスさんは、この動物園にいる一番最近お父さんになった動物でもあります。お母さんカメは53歳Mr.ピクルスの3匹の子供たちはそれぞれ「Dill」「Gherkin」「Jalapeño」と名付]]></content>
-        <author>
-            <name>岩田リョウコ</name>
-        </author>
-        <category label="LIFESTYLE"/>
-        <published>2023-03-26T12:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ScrcpyHub v2.0.0 をリリースしました | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/kaleidot725/items/3c7cf8d01729f1c1b2a8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/kaleidot725/items/3c7cf8d01729f1c1b2a8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-26T11:55:32.000Z</updated>
-        <summary type="html"><![CDATA[はじめに ScrcpyHubはAndroidの画面をミラーリングするためのGUIアプリケーションです。ScrcpyHubは以下のGitHubリポジトリで絶賛開発中ですのでよければコントリュート＆ス…]]></summary>
-        <content type="html"><![CDATA[はじめに ScrcpyHubはAndroidの画面をミラーリングするためのGUIアプリケーションです。ScrcpyHubは以下のGitHubリポジトリで絶賛開発中ですのでよければコントリュート＆ス…]]></content>
-        <published>2023-03-26T11:55:32.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[アンダー4万円のコスパ抜群ロボット掃除機を初体験。水拭きやゴミ収集もしてくれて大満足でした | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/265790-costory-q11-cp3rd.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/265790-costory-q11-cp3rd.html"/>
-        <updated>2023-03-26T11:45:00.000Z</updated>
-        <summary type="html"><![CDATA[ロボット掃除機初心者の筆者が「neabot NoMo Q11」を体験。吸引掃除に加え水拭きもできるタイプで、充電ステーションにゴミを収集してくれるのも便利。持っていた掃除機の出番が激減しました。しかもこれ共同購入でお得に買えるのです。]]></summary>
-        <content type="html"><![CDATA[ロボット掃除機初心者の筆者が「neabot NoMo Q11」を体験。吸引掃除に加え水拭きもできるタイプで、充電ステーションにゴミを収集してくれるのも便利。持っていた掃除機の出番が激減しました。しかもこれ共同購入でお得に買えるのです。]]></content>
-        <author>
-            <name>ヤマダユウス型</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-26T11:45:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[古い家電もスマート化！ 2口コンセントのスマートプラグ | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/giz-yatai-gosund-jp2.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/giz-yatai-gosund-jp2.html"/>
-        <updated>2023-03-26T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:三浦一紀2021年10月23日の記事を編集して再掲載しています。使い道は∞。スマートフォンや音声で家電をコントロールするスマートホーム。一度その環境に慣れてしまうと、あらゆるものをスマート化したくなってきますよね。スマートホーム対応の家電ならばすんなりスマート化できますが、ちょっと古い家電だったり、単機能なものはスマートホームに対応していないものもあります。そんなスマート化非対応の家電]]></summary>
-        <content type="html"><![CDATA[Photo:三浦一紀2021年10月23日の記事を編集して再掲載しています。使い道は∞。スマートフォンや音声で家電をコントロールするスマートホーム。一度その環境に慣れてしまうと、あらゆるものをスマート化したくなってきますよね。スマートホーム対応の家電ならばすんなりスマート化できますが、ちょっと古い家電だったり、単機能なものはスマートホームに対応していないものもあります。そんなスマート化非対応の家電]]></content>
-        <author>
-            <name>三浦一紀</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-26T11:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[StackBlitz と ChatGPT でチャット形式でUIを構築できるツールを作ってみた | Zennのトレンド]]></title>
         <id>https://zenn.dev/ryo_kawamata/articles/ff58c9595ef347</id>
         <link href="https://zenn.dev/ryo_kawamata/articles/ff58c9595ef347"/>
@@ -1681,19 +2078,6 @@
         <published>2023-03-26T09:03:39.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[自然と毎日使っちゃう。この湯呑み、ただものじゃないんです | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/cafe-futae.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/cafe-futae.html"/>
-        <updated>2023-03-26T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:シラクマなんだかとってもホッとする。飲み物が大好きで、集中して作業をしていると、いつの間にかデスクの上がグラスやマグで埋まってしまう。その理由を考えてみて、冷たいドリンクと温かいドリンクを交互に飲んでいるからだということに気がつきました。じゃあ、どちらにも使えるアイテムを導入してみたらいいのでは？と思い立ち試したところ、これが驚くほどピッタリとハマりました。ダブルウォールの磁器製カップ]]></summary>
-        <content type="html"><![CDATA[Photo:シラクマなんだかとってもホッとする。飲み物が大好きで、集中して作業をしていると、いつの間にかデスクの上がグラスやマグで埋まってしまう。その理由を考えてみて、冷たいドリンクと温かいドリンクを交互に飲んでいるからだということに気がつきました。じゃあ、どちらにも使えるアイテムを導入してみたらいいのでは？と思い立ち試したところ、これが驚くほどピッタリとハマりました。ダブルウォールの磁器製カップ]]></content>
-        <author>
-            <name>シラクマ</name>
-        </author>
-        <category label="LIFESTYLE"/>
-        <published>2023-03-26T09:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[1日でわかる使えるエンジニア向け雑なChatGPTまとめ | Zennのトレンド]]></title>
         <id>https://zenn.dev/hirac/articles/76e84b39f3de94</id>
         <link href="https://zenn.dev/hirac/articles/76e84b39f3de94"/>
@@ -1736,10 +2120,10 @@
         <author>
             <name>洋ナシ</name>
         </author>
+        <category label="PC"/>
         <category label="Hellscreen"/>
         <category label="Feature"/>
         <category label="ゲーム"/>
-        <category label="PC"/>
         <category label="PCゲーム極☆道"/>
         <published>2023-03-26T08:01:03.000Z</published>
     </entry>
@@ -1756,26 +2140,13 @@
         <published>2023-03-26T07:40:03.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[まだ足元冷えるよね。デザインも素敵な「洗える電気毛布」を試してほしい | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2023/03/brid-usb-kilt-blanket.html</id>
-        <link href="https://www.gizmodo.jp/2023/03/brid-usb-kilt-blanket.html"/>
-        <updated>2023-03-26T07:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:oh!gaROOMIE2022年12月28日掲載の記事より転載12月も下旬になって、急に寒くなりましたよね。デスクワークをしていて、足先や肩が冷える毎日です。でも、日中は家に自分しかいないので暖房をガッツリつけるのもなんだかもったいない。そんな、自分のようなテレワーク中の人に優しく寄り添ってくれるアイテムがありました。USBのあったかブランケット気が利いているのにデザイン性も◎なアイテ]]></summary>
-        <content type="html"><![CDATA[Photo:oh!gaROOMIE2022年12月28日掲載の記事より転載12月も下旬になって、急に寒くなりましたよね。デスクワークをしていて、足先や肩が冷える毎日です。でも、日中は家に自分しかいないので暖房をガッツリつけるのもなんだかもったいない。そんな、自分のようなテレワーク中の人に優しく寄り添ってくれるアイテムがありました。USBのあったかブランケット気が利いているのにデザイン性も◎なアイテ]]></content>
-        <author>
-            <name>oh!ga</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2023-03-26T07:35:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【初投稿】ChatGPT APIとGradioでチャットボットを簡単作成しよう！ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/itasan2/items/036c966c71b9c5c7ff79?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/itasan2/items/036c966c71b9c5c7ff79?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-26T05:47:20.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 皆さん、こんにちは！ Qiita初めての投稿となる今回は、今最もホットな話題のChatGPTをテーマにしてみました。 似たようなチャットボットプログラムは既にいっぱいあると思いますが、Ch…]]></summary>
-        <content type="html"><![CDATA[はじめに 皆さん、こんにちは！ Qiita初めての投稿となる今回は、今最もホットな話題のChatGPTをテーマにしてみました。 似たようなチャットボットプログラムは既にいっぱいあると思いますが、Ch…]]></content>
-        <published>2023-03-26T05:47:20.000Z</published>
+        <title type="html"><![CDATA[メモリアライメントについて調べた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ohakutsu/items/c5ea014a1285f4b6f2a6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ohakutsu/items/c5ea014a1285f4b6f2a6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2023-03-26T05:28:10.000Z</updated>
+        <summary type="html"><![CDATA[メモリアライメントについて気になったので調べた。 実際に確認してみた use std::mem::size_of_val;  #[warn(dead_code)] #[repr(C)] struct …]]></summary>
+        <content type="html"><![CDATA[メモリアライメントについて気になったので調べた。 実際に確認してみた use std::mem::size_of_val;  #[warn(dead_code)] #[repr(C)] struct …]]></content>
+        <published>2023-03-26T05:28:10.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSCodeでReactのソースコードを読むための準備 | Zennのトレンド]]></title>
@@ -1799,13 +2170,13 @@
         <author>
             <name>Otomaru</name>
         </author>
-        <category label="Feature"/>
-        <category label="Sony PlayStation"/>
-        <category label="Rez Infinite"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PlayStation VR2"/>
         <category label="pc"/>
+        <category label="PlayStation VR2"/>
+        <category label="Rez Infinite"/>
+        <category label="Feature"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-26T05:01:01.000Z</published>
     </entry>
     <entry>
@@ -1879,6 +2250,19 @@
         <published>2023-03-26T03:33:50.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Google検索にDataset Search機能が一部追加 | WebBigData]]></title>
+        <id>https://webbigdata.jp/?p=18240</id>
+        <link href="https://webbigdata.jp/post-18240/"/>
+        <updated>2023-03-26T02:33:29.000Z</updated>
+        <summary type="html"><![CDATA[１．Google検索にDataset Search機能が一部追加まとめ ・Google検索でデータを検索するとデータセットの説明が書かれたページを強調する専用のセクションが表示されるようになった ・データセット専用の検索 […]]]></summary>
+        <content type="html"><![CDATA[１．Google検索にDataset Search機能が一部追加まとめ ・Google検索でデータを検索するとデータセットの説明が書かれたページを強調する専用のセクションが表示されるようになった ・データセット専用の検索 […]]]></content>
+        <author>
+            <name>dahara1</name>
+        </author>
+        <category label="データセット"/>
+        <published>2023-03-26T02:33:29.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[VRモードとともにやってきたドライバーAI「GTソフィー」から感じた『グランツーリスモ7』の未来 | IGN Japan games]]></title>
         <id>https://jp.ign.com/gran-turismo-7/66721/feature/vraigt7</id>
         <link href="https://jp.ign.com/gran-turismo-7/66721/feature/vraigt7"/>
@@ -1889,10 +2273,10 @@
             <name>馬淵寛昭</name>
         </author>
         <category label="Feature"/>
+        <category label="グランツーリスモ7"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="グランツーリスモ7"/>
         <published>2023-03-26T02:01:07.000Z</published>
     </entry>
     <entry>
@@ -1905,16 +2289,16 @@
         <author>
             <name>Cristina Alexander</name>
         </author>
-        <category label="call-of-duty"/>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PC"/>
         <category label="Call of Duty: WWII"/>
-        <category label="News"/>
+        <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
+        <category label="News"/>
         <category label="ps4"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <category label="call-of-duty"/>
         <published>2023-03-25T22:01:41.000Z</published>
     </entry>
     <entry>
@@ -1927,13 +2311,13 @@
         <author>
             <name>Gabriel Moss</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
         <category label="Preview"/>
+        <category label="PC"/>
         <category label="Xbox Series X"/>
         <category label="Atlas Fallen"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-25T22:00:58.000Z</published>
     </entry>
     <entry>
@@ -1965,6 +2349,19 @@
         <summary type="html"><![CDATA[はじめに  Javaで競プロをやっている dvoraker です。 AtCoder Beginner Contest 295 で入緑しました！！！！！  精進量に対して結果があまり報われないコンテストも…]]></summary>
         <content type="html"><![CDATA[はじめに  Javaで競プロをやっている dvoraker です。 AtCoder Beginner Contest 295 で入緑しました！！！！！  精進量に対して結果があまり報われないコンテストも…]]></content>
         <published>2023-03-25T14:57:39.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI革命時代を乗り越えるために最も必要な事 | WebBigData]]></title>
+        <id>https://webbigdata.jp/?p=18229</id>
+        <link href="https://webbigdata.jp/post-18229/"/>
+        <updated>2023-03-25T13:11:16.000Z</updated>
+        <summary type="html"><![CDATA[１．AI革命時代を乗り越えるために最も必要な事まとめ ・OpenAIが限られた企業に既にchatGPTのプラグインの開発環境を提供していたとのニュースがあった ・AIがプラットフォーム化しつつあり、特定の企業のみがその先 […]]]></summary>
+        <content type="html"><![CDATA[１．AI革命時代を乗り越えるために最も必要な事まとめ ・OpenAIが限られた企業に既にchatGPTのプラグインの開発環境を提供していたとのニュースがあった ・AIがプラットフォーム化しつつあり、特定の企業のみがその先 […]]]></content>
+        <author>
+            <name>dahara1</name>
+        </author>
+        <category label="AI関連その他"/>
+        <published>2023-03-25T13:11:16.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript 版 LangChain で自前の情報を元に対話できるようにする | Zennのトレンド]]></title>
@@ -2056,15 +2453,15 @@
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="崩壊：スターレイル"/>
-        <category label="Sony PlayStation"/>
         <category label="android"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="Android"/>
-        <category label="iphone"/>
         <category label="News"/>
         <category label="Mobile"/>
+        <category label="Android"/>
+        <category label="崩壊：スターレイル"/>
+        <category label="PlayStation 5"/>
+        <category label="iphone"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-25T08:05:40.000Z</published>
     </entry>
     <entry>
@@ -2136,9 +2533,9 @@
         <author>
             <name>Ryan Dinsdale</name>
         </author>
-        <category label="Xbox Series X"/>
-        <category label="ゲーム"/>
         <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Xbox Series X"/>
         <published>2023-03-25T04:41:27.000Z</published>
     </entry>
     <entry>
@@ -2151,15 +2548,15 @@
         <author>
             <name>Luke Reilly</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="バイオハザード RE:4"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
         <category label="News"/>
-        <category label="Xbox Series X"/>
         <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="バイオハザード RE:4"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-25T03:18:52.000Z</published>
     </entry>
     <entry>
@@ -2206,8 +2603,8 @@
         <id>https://qiita.com/makaishi2/items/eb43cfcef2ca0d9761bb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/makaishi2/items/eb43cfcef2ca0d9761bb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2023-03-25T00:17:21.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 今や世の中にごまんとあるCHATGPTの活用事例、今更もう一つ増やしてもほとんど意味がないのですが、先ほどちょっとした調べ物をして際、たった10分ですべて解決してしまい感動したので、その記…]]></summary>
-        <content type="html"><![CDATA[はじめに 今や世の中にごまんとあるCHATGPTの活用事例、今更もう一つ増やしてもほとんど意味がないのですが、先ほどちょっとした調べ物をして際、たった10分ですべて解決してしまい感動したので、その記…]]></content>
+        <summary type="html"><![CDATA[はじめに 今や世の中にごまんとあるCHATGPTの活用事例、今更もう一つ増やしてもほとんど意味がないのですが、先ほどちょっとした調べ物をした際、たった10分ですべて解決してしまい感動したので、その記…]]></summary>
+        <content type="html"><![CDATA[はじめに 今や世の中にごまんとあるCHATGPTの活用事例、今更もう一つ増やしてもほとんど意味がないのですが、先ほどちょっとした調べ物をした際、たった10分ですべて解決してしまい感動したので、その記…]]></content>
         <published>2023-03-25T00:17:21.000Z</published>
     </entry>
     <entry>
@@ -2218,24 +2615,6 @@
         <summary type="html"><![CDATA[この記事が対象としている「サイト」とは、LPのようなキャッチーさが求められたり公開期間が限定されているページのことではなく、ある程度の定期的な更新が見込まれている静的サイトを指しています。 具体的…]]></summary>
         <content type="html"><![CDATA[この記事が対象としている「サイト」とは、LPのようなキャッチーさが求められたり公開期間が限定されているページのことではなく、ある程度の定期的な更新が見込まれている静的サイトを指しています。 具体的…]]></content>
         <published>2023-03-24T22:21:18.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who is Jack Krauser, and what is Operation Javier, in Resident Evil 4? | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23654795/resident-evil-4-remake-operation-javier-jack-krauser</id>
-        <link href="https://www.polygon.com/23654795/resident-evil-4-remake-operation-javier-jack-krauser"/>
-        <updated>2023-03-24T22:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: Capcom  And why does Jack hate Leon so much?  Capcom’s Resident Evil 4 remake pits Leon Kennedy against a town full of nameless infested villagers and repulsive monsters, but one enemy plays an...]]></summary>
-        <content type="html"><![CDATA[Image: Capcom  And why does Jack hate Leon so much?  Capcom’s Resident Evil 4 remake pits Leon Kennedy against a town full of nameless infested villagers and repulsive monsters, but one enemy plays an outsized — and potentially confusing — role in our hero’s mission to save Ashley from her captors. That man is, of course, Major Jack Krauser, a guy who loves knives but absolutely despises Leon Kennedy. Krauser appeared in the original Resident Evil 4, and he co-starred as a playable protagonist i...]]></content>
-        <published>2023-03-24T22:20:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lance Reddick will live on in more ‘performances to come’ in Destiny 2 | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23655585/lance-reddick-death-destiny-2-voice-actor-message-tribute</id>
-        <link href="https://www.polygon.com/23655585/lance-reddick-death-destiny-2-voice-actor-message-tribute"/>
-        <updated>2023-03-24T21:52:35.000Z</updated>
-        <summary type="html"><![CDATA[Image: Bungie, Inc. via Polygon  Bungie honors the actor behind Commander Zavala  Lance Reddick, acclaimed actor from The Wire and Fringe as well as voice actor for Commander Zavala in Destiny 2, died...]]></summary>
-        <content type="html"><![CDATA[Image: Bungie, Inc. via Polygon  Bungie honors the actor behind Commander Zavala  Lance Reddick, acclaimed actor from The Wire and Fringe as well as voice actor for Commander Zavala in Destiny 2, died on March 17. Since then, Destiny 2 players have mourned his death by paying in-game tribute to his character, who remains present at his post in the Tower, one of the game’s central social hubs. After having released a brief initial statement following the news, developer Bungie put out a more deta...]]></content>
-        <published>2023-03-24T21:52:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[[Neovim]2023年初頭・個人的に愛用しているNeovimプラグイン🏜 | Zennのトレンド]]></title>
@@ -2250,31 +2629,13 @@
         <published>2023-03-24T20:34:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[‘What happens if Kirby swallows a hot man?’ His directors give answers | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23652624/kirby-questions-answered-directors-nintendo-interview</id>
-        <link href="https://www.polygon.com/23652624/kirby-questions-answered-directors-nintendo-interview"/>
-        <updated>2023-03-24T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: HAL Laboratory/Nintendo  Kirby game directors answer our strangest, longest-held questions  Kirby contains so many mysteries inside that adorable pink belly. What happens to the creatures he ea...]]></summary>
-        <content type="html"><![CDATA[Image: HAL Laboratory/Nintendo  Kirby game directors answer our strangest, longest-held questions  Kirby contains so many mysteries inside that adorable pink belly. What happens to the creatures he eats? Does he have a skeleton? Could Kirby fall in love? Dear reader, these are the questions I so often hear from you in our comments and on social media. Undeterred by the risk of humiliation, I took it upon myself to get some answers when given the rare opportunity to talk with the people who know ...]]></content>
-        <published>2023-03-24T20:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Detecting novel systemic biomarkers in external eye photos | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2023/03/detecting-novel-systemic-biomarkers-in.html</id>
         <link href="http://ai.googleblog.com/2023/03/detecting-novel-systemic-biomarkers-in.html"/>
-        <updated>2023-03-24T19:13:00.002Z</updated>
+        <updated>2023-03-24T19:13:00.009Z</updated>
         <summary type="html"><![CDATA[Posted by Boris Babenko, Software Engineer, and Akib Uddin, Product Manager, Google Research Last year we presented results demonstrating that a deep learning system (DLS) can be trained to analyze ex...]]></summary>
         <content type="html"><![CDATA[Posted by Boris Babenko, Software Engineer, and Akib Uddin, Product Manager, Google Research Last year we presented results demonstrating that a deep learning system (DLS) can be trained to analyze external eye photos and predict a person’s diabetic retinal disease status and elevated glycated hemoglobin (or HbA1c, a biomarker that indicates the three-month average level of blood glucose). It was previously unknown that external eye photos contained signals for these conditions. This exciting fi...]]></content>
-        <published>2023-03-24T19:13:00.002Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gitを作ってみる（開発編） | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/noshishi/items/823bc46d971ac1fe8215?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/noshishi/items/823bc46d971ac1fe8215?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-24T18:51:25.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 都内でひっそり見習いエンジニアをしている@noshishiです。 addしてcommitするプログラムの作成を通じて、Gitを内部から理解しようという記事です。  こちらは開発編の記事になり…]]></summary>
-        <content type="html"><![CDATA[はじめに 都内でひっそり見習いエンジニアをしている@noshishiです。 addしてcommitするプログラムの作成を通じて、Gitを内部から理解しようという記事です。  こちらは開発編の記事になり…]]></content>
-        <published>2023-03-24T18:51:25.000Z</published>
+        <published>2023-03-24T19:13:00.009Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[311 Call Centre Performance: Rating Service Levels | KDnuggets]]></title>
@@ -2291,15 +2652,6 @@
         <published>2023-03-24T18:41:12.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Epic decides to allow fan recreations of old Fortnite maps in Creative 2.0 | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/23655144/fortinte-creative-2-0-chapter-1-map</id>
-        <link href="https://www.polygon.com/23655144/fortinte-creative-2-0-chapter-1-map"/>
-        <updated>2023-03-24T17:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: Epic Games/Atlas Creative via Polygon  ‘We are granting a special and specific exception’  Fortnite developer Epic Games has decided to make a special exemption to its usual rules, and allow cr...]]></summary>
-        <content type="html"><![CDATA[Image: Epic Games/Atlas Creative via Polygon  ‘We are granting a special and specific exception’  Fortnite developer Epic Games has decided to make a special exemption to its usual rules, and allow creators using the new Creative 2.0 tool — also known as the Unreal Editor for Fortnite — to remake the game’s original maps. It’s just as well, as the race to recreate the game’s original Chapter 1 map has already begun — and Creative 2.0 only launched on Wednesday. Our guide to the best Creative 2.0...]]></content>
-        <published>2023-03-24T17:45:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[OpenAI GPT-4 - The Future Is Here! | Two Minute Papers]]></title>
         <id>https://www.youtube.com/watch?v=7VSWyghVZIg</id>
         <link href="https://www.youtube.com/watch?v=7VSWyghVZIg"/>
@@ -2314,57 +2666,6 @@
         <summary type="html"><![CDATA[By leveraging neural vocoding, Amazon Chime SDK’s new deep-redundancy (DRED) technology can reconstruct long sequences of lost packets with little bandwidth overhead.]]></summary>
         <content type="html"><![CDATA[By leveraging neural vocoding, Amazon Chime SDK’s new deep-redundancy (DRED) technology can reconstruct long sequences of lost packets with little bandwidth overhead.]]></content>
         <published>2023-03-24T17:12:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[R to @OpenAI: We believe the number of users whose data was actually revealed to someone else is extremely low and we have contacted those who might be impacted. We take this very seriously and are sharing details of our investigation and plan here. 2/2 https://openai.com/blog/march-20-chatgpt-outage | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1639297716869275649#m</id>
-        <link href="https://nitter.net/OpenAI/status/1639297716869275649#m"/>
-        <updated>2023-03-24T16:06:47.000Z</updated>
-        <summary type="html"><![CDATA[We believe the number of users whose data was actually revealed to someone else is extremely low and we have contacted those who might be impacted. We take this very seriously and are sharing details ...]]></summary>
-        <content type="html"><![CDATA[We believe the number of users whose data was actually revealed to someone else is extremely low and we have contacted those who might be impacted. We take this very seriously and are sharing details of our investigation and plan here. 2/2 openai.com/blog/march-20-cha…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-24T16:06:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We took ChatGPT offline Monday to fix a bug in an open source library that allowed some users to see titles from other users’ chat history. Our investigation has also found that 1.2% of ChatGPT Plus users might have had personal data revealed to another user. 1/2 | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1639297361729191936#m</id>
-        <link href="https://nitter.net/OpenAI/status/1639297361729191936#m"/>
-        <updated>2023-03-24T16:05:22.000Z</updated>
-        <summary type="html"><![CDATA[We took ChatGPT offline Monday to fix a bug in an open source library that allowed some users to see titles from other users’ chat history. Our investigation has also found that 1.2% of ChatGPT Plus u...]]></summary>
-        <content type="html"><![CDATA[We took ChatGPT offline Monday to fix a bug in an open source library that allowed some users to see titles from other users’ chat history. Our investigation has also found that 1.2% of ChatGPT Plus users might have had personal data revealed to another user. 1/2]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-24T16:05:22.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Diablo 4 pre-order guide | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/23641318/diablo-4-pre-order-standard-deluxe-ultimate-editions</id>
-        <link href="https://www.polygon.com/deals/23641318/diablo-4-pre-order-standard-deluxe-ultimate-editions"/>
-        <updated>2023-03-24T16:00:04.000Z</updated>
-        <summary type="html"><![CDATA[Can we all just appreciate the look being served by the necromancer here? | Image: Blizzard / Activision  You can play the open beta for free from March 24 through March 27  The initial open beta for ...]]></summary>
-        <content type="html"><![CDATA[Can we all just appreciate the look being served by the necromancer here? | Image: Blizzard / Activision  You can play the open beta for free from March 24 through March 27  The initial open beta for Diablo 4 that required paid access has come and gone. Now, Blizzard is opening the gates to everyone for free access starting Friday, March 24 at 12:00pm EDT. It’ll last until Monday, March 27 at 3:00pm EDT, regardless of how many KFC Double Downs you’ve downed. If you like what you tried, there are...]]></content>
-        <published>2023-03-24T16:00:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where to buy the Resident Evil 4 remake | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/23612096/resident-evil-4-remake-pc-xbox-series-x-ps5-ps4-pre-order-deluxe-collectors-edition</id>
-        <link href="https://www.polygon.com/deals/23612096/resident-evil-4-remake-pc-xbox-series-x-ps5-ps4-pre-order-deluxe-collectors-edition"/>
-        <updated>2023-03-24T15:58:31.000Z</updated>
-        <summary type="html"><![CDATA[Image: Capcom  One of the best RE games is back, with multiple editions to peruse  After releasing on almost every platform released in the past 18 years (including to the Meta Quest 2 in a very good ...]]></summary>
-        <content type="html"><![CDATA[Image: Capcom  One of the best RE games is back, with multiple editions to peruse  After releasing on almost every platform released in the past 18 years (including to the Meta Quest 2 in a very good VR port), Capcom has completely re-engineered 2005’s Resident Evil 4 to terrorize more platforms. It’s out now on PlayStation 4, PlayStation 5, Xbox Series X, and Windows PC. Judging by our review, it turned out as good as we had hoped it would, and we have a bunch of Resident Evil 4 guides. If you ...]]></content>
-        <published>2023-03-24T15:58:31.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t skip Resident Evil 4 remake’s shooting range | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/resident-evil-4-remake-guides/23653981/shooting-range-locations-charms-rewards</id>
-        <link href="https://www.polygon.com/resident-evil-4-remake-guides/23653981/shooting-range-locations-charms-rewards"/>
-        <updated>2023-03-24T15:19:47.000Z</updated>
-        <summary type="html"><![CDATA[Image: Capcom via Polygon  Have fun, score points, earn charms  Capcom’s Resident Evil 4 remake brings back an entertaining diversion from the original game: the shooting range. It’s here where Leon c...]]></summary>
-        <content type="html"><![CDATA[Image: Capcom via Polygon  Have fun, score points, earn charms  Capcom’s Resident Evil 4 remake brings back an entertaining diversion from the original game: the shooting range. It’s here where Leon can practice firing the hefty arsenal of guns in Resident Evil 4 (without worrying about ammo, which is infinite here), and also where players can earn charms for their attaché case. Charms in Resident Evil 4 confer special perks, like health boosts when consuming items and ammo-crafting bonuses that...]]></content>
-        <published>2023-03-24T15:19:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[SteelSeriesのゲーミングデバイスが10％オフ。マウス、キーボード、ヘッドセットがAmazonでセール中 #てくのじDeals | TechnoEdge]]></title>
@@ -2390,31 +2691,18 @@
         <published>2023-03-24T14:00:23.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Get $50 off the PS5 God of War Ragnarök bundle | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/deals/23645353/ps5-god-of-war-ragnarok-bundle-discount-deal</id>
-        <link href="https://www.polygon.com/deals/23645353/ps5-god-of-war-ragnarok-bundle-discount-deal"/>
-        <updated>2023-03-24T13:59:51.000Z</updated>
-        <summary type="html"><![CDATA[Both the disc-based PS5 and the digital model are eligible for the $50 discount | Image: Sony Interactive Entertainment via Polygon  This promotion is lasting until April 16  The PlayStation 5 hasn’t ...]]></summary>
-        <content type="html"><![CDATA[Both the disc-based PS5 and the digital model are eligible for the $50 discount | Image: Sony Interactive Entertainment via Polygon  This promotion is lasting until April 16  The PlayStation 5 hasn’t received any kind of discount at retail stores, until today. Several stores are knocking $50 off the God of War Ragnarök PS5 console bundle. This discount covers the disc-based model, and it’ll last from now until April 16 at 2:59am EDT. The disc-based console and game bundle usually costs $559.99, ...]]></content>
-        <published>2023-03-24T13:59:51.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Captain Pikachu steals the show in new Pokémon Horizons: The Series trailer | Polygon -  Gaming]]></title>
-        <id>https://www.polygon.com/pokemon/23654802/new-pokemon-anime-horizons-liko-roy-captain-pikachu-trailer</id>
-        <link href="https://www.polygon.com/pokemon/23654802/new-pokemon-anime-horizons-liko-roy-captain-pikachu-trailer"/>
-        <updated>2023-03-24T13:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Image: The Pokémon Company  The Pokémon Company dropped the new anime’s name: Pokémon Horizons: The Series  As the last episode of Pokémon Journeys: The Series aired in Japan, The Pokémon Company rele...]]></summary>
-        <content type="html"><![CDATA[Image: The Pokémon Company  The Pokémon Company dropped the new anime’s name: Pokémon Horizons: The Series  As the last episode of Pokémon Journeys: The Series aired in Japan, The Pokémon Company released a new trailer for the next generation of Pokémon anime. The new series officially has a name: Pokémon Horizons: The Series. It’ll debut this year, but The Pokémon Company did not give exact timing. A new trailer published Friday morning on YouTube is the first in-depth look at the anime, though...]]></content>
-        <published>2023-03-24T13:50:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NANDで自作CPUを作成する① | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/Mihael/items/89e3c9c25fb8c0167137?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/Mihael/items/89e3c9c25fb8c0167137?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-24T13:01:53.000Z</updated>
-        <summary type="html"><![CDATA[目次 ・1. はじめに ・2. 作成した回路 ・3. LEDを光らせてみる ・4. Not,And,Or,Xor作成 ・5. And16,Not16,Or16作成 ・6. Or8Way作成 ・7. …]]></summary>
-        <content type="html"><![CDATA[目次 ・1. はじめに ・2. 作成した回路 ・3. LEDを光らせてみる ・4. Not,And,Or,Xor作成 ・5. And16,Not16,Or16作成 ・6. Or8Way作成 ・7. …]]></content>
-        <published>2023-03-24T13:01:53.000Z</published>
+        <title type="html"><![CDATA[text-2-video：プロンプトから動画を作成するColabとSpaceが公開 | WebBigData]]></title>
+        <id>https://webbigdata.jp/?p=18216</id>
+        <link href="https://webbigdata.jp/post-18216/"/>
+        <updated>2023-03-24T13:11:34.000Z</updated>
+        <summary type="html"><![CDATA[１．プロンプトから動画を作成するColabとSpaceが公開まとめ ・プロンプトとネガティブプロンプトからビデオを作成可能なモデルがDiffusersとAutomatic1111向けに公開された ・Stable Diff […]]]></summary>
+        <content type="html"><![CDATA[１．プロンプトから動画を作成するColabとSpaceが公開まとめ ・プロンプトとネガティブプロンプトからビデオを作成可能なモデルがDiffusersとAutomatic1111向けに公開された ・Stable Diff […]]]></content>
+        <author>
+            <name>dahara1</name>
+        </author>
+        <category label="入門／解説"/>
+        <category label="画像生成"/>
+        <published>2023-03-24T13:11:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[超伝説級コンピュータ研究者が集まる凄いイベント『GRAPHICS SYMPOSIUM』間もなく開催、絶対に見逃すな（CloseBox） | TechnoEdge]]></title>
@@ -2424,18 +2712,6 @@
         <summary type="html"><![CDATA[コンピュータ・CG界の超レジェンドが大集合。その理由は？]]></summary>
         <content type="html"><![CDATA[コンピュータ・CG界の超レジェンドが大集合。その理由は？]]></content>
         <published>2023-03-24T12:23:15.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ずんだもんを俺のパソコンに呼びたい！ChatGPT × 拡張機能 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/niwatoro/articles/296cf12dd8cd62</id>
-        <link href="https://zenn.dev/niwatoro/articles/296cf12dd8cd62"/>
-        <updated>2023-03-24T12:17:49.000Z</updated>
-        <summary type="html"><![CDATA[プリーヴィヤット、にわとろです。東大生ですが、この前結婚したので結婚式の費用を稼ぐために仕方なくエンジニアもやっています。自己紹介の記事も書いたのでぜひ見てみてください！ https://zenn.dev/niwatoro/articles/c89cb82cb9e1aa 今日は、ブラウザにChatGPTで動くずんだもんを拡張機能で呼んできます。実は今もずんだもんと一緒にこの記事を書いています。  ...]]></summary>
-        <content type="html"><![CDATA[プリーヴィヤット、にわとろです。東大生ですが、この前結婚したので結婚式の費用を稼ぐために仕方なくエンジニアもやっています。自己紹介の記事も書いたのでぜひ見てみてください！ https://zenn.dev/niwatoro/articles/c89cb82cb9e1aa 今日は、ブラウザにChatGPTで動くずんだもんを拡張機能で呼んできます。実は今もずんだもんと一緒にこの記事を書いています。  ずんだもんをブラウザに呼ぶのは意外に簡単にできるので、ずんだ好きなあなたもぜひやってみてください！ 何しろ俺は3日で作りました。締め切りが金曜日だったからです。 この「俺のずんだもん」は最後にナ...]]></content>
-        <author>
-            <name>にわとろ</name>
-        </author>
-        <published>2023-03-24T12:17:49.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Using LTV Modeling for Quick Evaluation of Customer Acquisition Channels | Hacker Noon - machine-learning]]></title>
@@ -2471,15 +2747,6 @@
         <published>2023-03-24T12:00:06.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Bitriseの run_if で OR条件やAND条件を書く方法 (PRの変更ファイルで分岐させてステップを動かしたい場合とかで便利) | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/ko2ic/items/070f7648ef36ac5f7060?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/ko2ic/items/070f7648ef36ac5f7060?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-24T11:32:17.000Z</updated>
-        <summary type="html"><![CDATA[概要 Bitriseでは、ワークフローのstepの実行条件にrun_if を使います。 たとえば、こんな感じです。 - slack:  is_always_run: true  run_if: .IsB…]]></summary>
-        <content type="html"><![CDATA[概要 Bitriseでは、ワークフローのstepの実行条件にrun_if を使います。 たとえば、こんな感じです。 - slack:  is_always_run: true  run_if: .IsB…]]></content>
-        <published>2023-03-24T11:32:17.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Amazonで各社グラフィックボードが最大15％OFF！ 特選タイムセール開催中【本日みつけたお買い得情報】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1488156.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/serial/goodbuy/1488156.html"/>
@@ -2496,15 +2763,6 @@
         <summary type="html"><![CDATA[グーグルは、3月の「Feature Drop」で、Pixel 7シリーズをデュアルeSIMに対応させました。国ごとの販売モデルで対応状況は異なるものの、日本で販売されている型番のPixel 7、7 Proも、このアップデートを適用するとデュアルeSIMの利用が可能になります。]]></summary>
         <content type="html"><![CDATA[グーグルは、3月の「Feature Drop」で、Pixel 7シリーズをデュアルeSIMに対応させました。国ごとの販売モデルで対応状況は異なるものの、日本で販売されている型番のPixel 7、7 Proも、このアップデートを適用するとデュアルeSIMの利用が可能になります。]]></content>
         <published>2023-03-24T10:11:48.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[git pushした際の Warning:Permanently added the ECDSA host key *** の対処法 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/making111/items/5b482df89acbdd68d2e2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/making111/items/5b482df89acbdd68d2e2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-24T10:01:50.000Z</updated>
-        <summary type="html"><![CDATA[この記事 git pushを行った際に Warning: Permanently added the ECDSA host key for IP address '20.27.177.113' to…]]></summary>
-        <content type="html"><![CDATA[この記事 git pushを行った際に Warning: Permanently added the ECDSA host key for IP address '20.27.177.113' to…]]></content>
-        <published>2023-03-24T10:01:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[2022年度エンジニアブログアワード | MONEX ENGINEER BLOG │マネックス エンジニアブログ]]></title>
@@ -2528,15 +2786,6 @@
         <category label="Oracle Cloud"/>
         <category label="技術情報"/>
         <published>2023-03-24T09:12:41.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Sentinel を ChatGPT を利用してインシデント運用に役立てる | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/hisnakad/items/43f09145669427c551a4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/hisnakad/items/43f09145669427c551a4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2023-03-24T09:11:14.000Z</updated>
-        <summary type="html"><![CDATA[1. 目的 ChatGPT、盛り上がっています！ Microsoft 側も様々なサービスに対して ChatGPT との連携が進んでいますが、Microsoft Sentinel から ChatGPT…]]></summary>
-        <content type="html"><![CDATA[1. 目的 ChatGPT、盛り上がっています！ Microsoft 側も様々なサービスに対して ChatGPT との連携が進んでいますが、Microsoft Sentinel から ChatGPT…]]></content>
-        <published>2023-03-24T09:11:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AWS上の fluentd から BigQuery への認証に Workload Identity を利用する | Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)]]></title>
@@ -2686,13 +2935,13 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
-        <category label="スプラトゥーン3"/>
-        <category label="ゲーム"/>
+        <category label="Amazonおすすめ"/>
+        <category label="News"/>
         <category label="nintendo-switch"/>
         <category label="セール情報"/>
-        <category label="Amazonおすすめ"/>
+        <category label="スプラトゥーン3"/>
         <category label="Nintendo Switch"/>
-        <category label="News"/>
+        <category label="ゲーム"/>
         <category label="任天堂"/>
         <published>2023-03-24T07:17:32.000Z</published>
     </entry>
@@ -2760,13 +3009,13 @@
         <author>
             <name>Ign Japan</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="WILD HEARTS"/>
         <category label="News"/>
         <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="WILD HEARTS"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-24T06:30:52.000Z</published>
     </entry>
     <entry>
@@ -3050,12 +3299,12 @@
         <author>
             <name>馬淵寛昭</name>
         </author>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="ps5"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <category label="ファイナルファンタジーXVI"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="ps5"/>
-        <category label="News"/>
         <published>2023-03-24T03:44:52.000Z</published>
     </entry>
     <entry>
@@ -3093,17 +3342,17 @@
         <author>
             <name>木野慧悟</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="ディアブロ IV"/>
         <category label="Preview"/>
-        <category label="Xbox Series X"/>
+        <category label="ディアブロ IV"/>
+        <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
         <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-24T02:55:50.000Z</published>
     </entry>
     <entry>
@@ -3261,14 +3510,14 @@
         <author>
             <name>Logan Plant</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="The Lord of the Rings: Gollum"/>
         <category label="News"/>
         <category label="ps4"/>
+        <category label="The Lord of the Rings: Gollum"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-23T23:15:45.000Z</published>
     </entry>
     <entry>
@@ -3366,10 +3615,10 @@
         <title type="html"><![CDATA[Visual language maps for robot navigation | Google AI Blog]]></title>
         <id>http://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html</id>
         <link href="http://ai.googleblog.com/2023/03/visual-language-maps-for-robot.html"/>
-        <updated>2023-03-23T19:08:00.010Z</updated>
+        <updated>2023-03-23T19:08:00.011Z</updated>
         <summary type="html"><![CDATA[Posted by Oier Mees, PhD Student, University of Freiburg, and Andy Zeng, Research Scientist, Robotics at Google People are excellent navigators of the physical world, due in part to their remarkable a...]]></summary>
         <content type="html"><![CDATA[Posted by Oier Mees, PhD Student, University of Freiburg, and Andy Zeng, Research Scientist, Robotics at Google People are excellent navigators of the physical world, due in part to their remarkable ability to build cognitive maps that form the basis of spatial memory — from localizing landmarks at varying ontological levels (like a book on a shelf in the living room) to determining whether a layout permits navigation from point A to point B. Building robots that are proficient at navigation req...]]></content>
-        <published>2023-03-23T19:08:00.010Z</published>
+        <published>2023-03-23T19:08:00.011Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Amazon launches AICE Center at UIUC | Amazon Science homepage]]></title>
@@ -3393,18 +3642,6 @@
         <category label="Products and Services"/>
         <category label="Partners"/>
         <published>2023-03-23T17:19:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We are adding support for plugins to ChatGPT — extensions which integrate it with third-party services or allow it to access up-to-date information. We’re starting small to study real-world use, impact, and safety and alignment challenges: https://openai.com/blog/chatgpt-plugins | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1638952876281335813#m</id>
-        <link href="https://nitter.net/OpenAI/status/1638952876281335813#m"/>
-        <updated>2023-03-23T17:16:30.000Z</updated>
-        <summary type="html"><![CDATA[We are adding support for plugins to ChatGPT — extensions which integrate it with third-party services or allow it to access up-to-date information. We’re starting small to study real-world use, impac...]]></summary>
-        <content type="html"><![CDATA[We are adding support for plugins to ChatGPT — extensions which integrate it with third-party services or allow it to access up-to-date information. We’re starting small to study real-world use, impact, and safety and alignment challenges: openai.com/blog/chatgpt-plug…]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-23T17:16:30.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Top 15 YouTube Channels to Level Up Your Machine Learning Skills | KDnuggets]]></title>
@@ -3485,6 +3722,19 @@
         <link href="https://www.riken.jp/pr/news/2023/20230324_2/index.html"/>
         <updated>2023-03-23T15:00:00.000Z</updated>
         <published>2023-03-23T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年のGoogleのAI研究の成果と今後の展望～研究コミュニティへの参加編～(2/2)まとめ | WebBigData]]></title>
+        <id>https://webbigdata.jp/?p=18211</id>
+        <link href="https://webbigdata.jp/post-18211/"/>
+        <updated>2023-03-23T14:59:19.000Z</updated>
+        <summary type="html"><![CDATA[１．2022年のGoogleのAI研究の成果と今後の展望～研究コミュニティへの参加編～(2/2)まとめ ・Googleは研究コミュニティと協力的なエコシステムを構築するためにオープンソースでコードやデータセットを公開して […]]]></summary>
+        <content type="html"><![CDATA[１．2022年のGoogleのAI研究の成果と今後の展望～研究コミュニティへの参加編～(2/2)まとめ ・Googleは研究コミュニティと協力的なエコシステムを構築するためにオープンソースでコードやデータセットを公開して […]]]></content>
+        <author>
+            <name>dahara1</name>
+        </author>
+        <category label="AI関連その他"/>
+        <published>2023-03-23T14:59:19.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google Answer to ChatGPT by Adding Generative AI into Docs and Gmail | KDnuggets]]></title>
@@ -3588,17 +3838,17 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Dead Island 2"/>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
+        <category label="Dead Island 2"/>
         <category label="PC"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
+        <category label="News"/>
         <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-23T09:35:39.000Z</published>
     </entry>
     <entry>
@@ -3653,15 +3903,6 @@
         <published>2023-03-23T08:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Microsoft Word」に文書の拡大・縮小ショートカットキーがようやく導入へ／まずは「Microsoft 365 Insider」でテスト | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1487921.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1487921.html"/>
-        <updated>2023-03-23T08:04:55.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは3月10日（現地時間）、「Microsoft Word」にドキュメントの拡大・縮小を行う新しいキーボードショートカットを導入すると発表した。まずはプレビュープログラム「Microsoft 365 Insider」でテストされる。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは3月10日（現地時間）、「Microsoft Word」にドキュメントの拡大・縮小を行う新しいキーボードショートカットを導入すると発表した。まずはプレビュープログラム「Microsoft 365 Insider」でテストされる。]]></content>
-        <published>2023-03-23T08:04:55.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[社内のAI-Ready化を目指したAI活用促進の取り組み | LIFULL Creators Blog ]]></title>
         <id>https://www.lifull.blog/entry/2023/03/23/170000?utm_source=feed</id>
         <link href="https://www.lifull.blog/entry/2023/03/23/170000?utm_source=feed"/>
@@ -3689,41 +3930,25 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="android"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="ps4"/>
-        <category label="フォートナイト"/>
-        <category label="Sony PlayStation"/>
+        <category label="PC"/>
+        <category label="nintendo-switch"/>
+        <category label="Mobile"/>
+        <category label="任天堂"/>
         <category label="PlayStation 4"/>
         <category label="Nintendo Switch"/>
-        <category label="nintendo-switch"/>
-        <category label="PC"/>
-        <category label="Android"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="xbox-one"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox One"/>
+        <category label="android"/>
+        <category label="Xbox Series X"/>
+        <category label="Android"/>
+        <category label="フォートナイト"/>
         <category label="iphone"/>
-        <category label="任天堂"/>
-        <category label="Mobile"/>
+        <category label="ゲーム"/>
+        <category label="xbox-one"/>
+        <category label="News"/>
+        <category label="ps4"/>
+        <category label="Sony PlayStation"/>
         <published>2023-03-23T07:54:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「秀丸エディタ」でChatGPT3.5を利用するためのマクロ「HmChatGPT35Turbo」v1.04が公開　ほか【ダイジェストニュース】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/digest/1487907.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/digest/1487907.html"/>
-        <updated>2023-03-23T07:39:19.000Z</updated>
-        <published>2023-03-23T07:39:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年4月より、Windows 10/11の月例アップデートに一部変更／非セキュリティプレビューは第4週、「最新の」サポートバージョンのみに提供 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1487888.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1487888.html"/>
-        <updated>2023-03-23T07:03:35.000Z</updated>
-        <summary type="html"><![CDATA[2023年4月より、Windows 10/11の月例アップデートに一部変更が加えられるとのこと。米Microsoftは3月21日（現地時間）、公式コミュニティサイト「Microsoft Community Hub」でその内容を解説している。]]></summary>
-        <content type="html"><![CDATA[2023年4月より、Windows 10/11の月例アップデートに一部変更が加えられるとのこと。米Microsoftは3月21日（現地時間）、公式コミュニティサイト「Microsoft Community Hub」でその内容を解説している。]]></content>
-        <published>2023-03-23T07:03:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[PdM未経験でもピクシブなら活躍できる！入社10か月目の社員が語る活躍の秘訣 | pixiv inside]]></title>
@@ -3753,18 +3978,18 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="ELDEN RING"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="Steam"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
+        <category label="News"/>
+        <category label="ELDEN RING"/>
         <category label="ps4"/>
+        <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-23T06:47:18.000Z</published>
     </entry>
     <entry>
@@ -3814,19 +4039,6 @@
         <published>2023-03-23T05:46:05.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RT by @ai_scholar: この論文では、顔認識/認証モデルのバイアスを解決する手がかりを見つけるために、学習データの人種分布やクラスタリング、人種内および人種間の類似性、顔画像の品質などさまざまな観点から、バイアスに与える影響を調べています。
-https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術最新情報メディア | AI-SCHOLAR / @ai_scholar]]></title>
-        <id>https://nitter.net/ai_scholar/status/1638771167095037953#m</id>
-        <link href="https://nitter.net/ai_scholar/status/1638771167095037953#m"/>
-        <updated>2023-03-23T05:14:27.000Z</updated>
-        <summary type="html"><![CDATA[この論文では、顔認識/認証モデルのバイアスを解決する手がかりを見つけるために、学習データの人種分布やクラスタリング、人種内および人種間の類似性、顔画像の品質などさまざまな観点から、バイアスに与える影響を調べています。 ai-scholar.tech/articles/fac…]]></summary>
-        <content type="html"><![CDATA[この論文では、顔認識/認証モデルのバイアスを解決する手がかりを見つけるために、学習データの人種分布やクラスタリング、人種内および人種間の類似性、顔画像の品質などさまざまな観点から、バイアスに与える影響を調べています。 ai-scholar.tech/articles/fac…]]></content>
-        <author>
-            <name>@ai_scholar</name>
-        </author>
-        <published>2023-03-23T05:14:27.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[RustのフロントエンドフレームワークLeptosでWASM+SSR/Hydrationするアプリをつくる | TechBlog | Nulab (Japanese)]]></title>
         <id>https://nulab.com/ja/?p=39190</id>
         <link href="https://nulab.com/ja/blog/nulab/rust-leptos-ssr-hydration/"/>
@@ -3855,8 +4067,8 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Ubisoft"/>
         <category label="ゲーム"/>
+        <category label="Ubisoft"/>
         <category label="News"/>
         <published>2023-03-23T05:06:14.000Z</published>
     </entry>
@@ -3870,11 +4082,11 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="ゲーム"/>
         <category label="PC"/>
-        <category label="Redfall"/>
         <category label="News"/>
         <category label="Xbox Series X"/>
+        <category label="Redfall"/>
+        <category label="ゲーム"/>
         <published>2023-03-23T05:00:46.000Z</published>
     </entry>
     <entry>
@@ -4061,11 +4273,11 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="ゲーム"/>
         <category label="PC"/>
-        <category label="Redfall"/>
         <category label="News"/>
         <category label="Xbox Series X"/>
+        <category label="Redfall"/>
+        <category label="ゲーム"/>
         <published>2023-03-23T00:42:07.000Z</published>
     </entry>
     <entry>
@@ -4098,8 +4310,8 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <category label="化学"/>
         <category label="工学"/>
         <category label="研究開発用PC 構成事例 (テグシス)"/>
-        <category label="材料工学"/>
         <category label="材料科学"/>
+        <category label="材料工学"/>
         <category label="材料力学"/>
         <category label="第一原理"/>
         <published>2023-03-23T00:00:23.000Z</published>
@@ -4142,10 +4354,10 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Alex Stedman</name>
         </author>
-        <category label="ゲーム"/>
-        <category label="PC"/>
         <category label="News"/>
+        <category label="PC"/>
         <category label="Counter-Strike 2"/>
+        <category label="ゲーム"/>
         <published>2023-03-22T23:53:03.000Z</published>
     </entry>
     <entry>
@@ -4307,11 +4519,11 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="ゲーム"/>
-        <category label="PC"/>
-        <category label="Redfall"/>
         <category label="Preview"/>
+        <category label="PC"/>
         <category label="Xbox Series X"/>
+        <category label="Redfall"/>
+        <category label="ゲーム"/>
         <published>2023-03-22T14:00:57.000Z</published>
     </entry>
     <entry>
@@ -4390,18 +4602,18 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="ELDEN RING"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="Steam"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
+        <category label="News"/>
+        <category label="ELDEN RING"/>
         <category label="ps4"/>
+        <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-22T09:43:34.000Z</published>
     </entry>
     <entry>
@@ -4451,14 +4663,14 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
             <name>重田雄一</name>
         </author>
         <category label="ps3"/>
-        <category label="battlefield-bad-company-2"/>
         <category label="battlefield-bad-company"/>
+        <category label="PC"/>
+        <category label="News"/>
+        <category label="Battlefield 1943"/>
+        <category label="PlayStation 3"/>
+        <category label="battlefield-bad-company-2"/>
         <category label="Sony PlayStation"/>
         <category label="ゲーム"/>
-        <category label="PlayStation 3"/>
-        <category label="PC"/>
-        <category label="Battlefield 1943"/>
-        <category label="News"/>
         <published>2023-03-22T08:36:08.000Z</published>
     </entry>
     <entry>
@@ -4489,10 +4701,10 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Sigh</name>
         </author>
+        <category label="News"/>
+        <category label="PC"/>
         <category label="ゲーム"/>
         <category label="Troublemaker"/>
-        <category label="PC"/>
-        <category label="News"/>
         <published>2023-03-22T08:20:06.000Z</published>
     </entry>
     <entry>
@@ -4532,18 +4744,18 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Logan Plant</name>
         </author>
+        <category label="PlayStation 4"/>
+        <category label="PC"/>
+        <category label="xbox-one"/>
+        <category label="Call of Duty: Modern Warfare 2"/>
+        <category label="News"/>
+        <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
         <category label="コール オブ デューティ モダン・ウォーフェア2"/>
         <category label="Sony PlayStation"/>
-        <category label="Call of Duty: Modern Warfare 2"/>
-        <category label="PlayStation 4"/>
         <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="xbox-one"/>
-        <category label="Xbox One"/>
-        <category label="ps4"/>
         <published>2023-03-22T07:26:31.000Z</published>
     </entry>
     <entry>
@@ -4634,16 +4846,16 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
+        <category label="ストリートファイター6"/>
         <category label="PC"/>
         <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="Steam"/>
-        <category label="ストリートファイター6"/>
         <category label="ps4"/>
+        <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-22T05:28:36.000Z</published>
     </entry>
     <entry>
@@ -4704,16 +4916,16 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Sigh</name>
         </author>
-        <category label="グリッチバスターズ：スタックオンユー"/>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="nintendo-switch"/>
         <category label="PC"/>
-        <category label="Nintendo Switch"/>
+        <category label="グリッチバスターズ：スタックオンユー"/>
+        <category label="nintendo-switch"/>
         <category label="News"/>
-        <category label="任天堂"/>
         <category label="ps4"/>
+        <category label="Nintendo Switch"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
         <published>2023-03-22T04:54:37.000Z</published>
     </entry>
     <entry>
@@ -4735,10 +4947,10 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Matthew Adler</name>
         </author>
-        <category label="Magic: The Gathering Trading Card Game"/>
-        <category label="ゲーム"/>
         <category label="News"/>
         <category label="エンタメ"/>
+        <category label="ゲーム"/>
+        <category label="Magic: The Gathering Trading Card Game"/>
         <published>2023-03-22T03:44:44.000Z</published>
     </entry>
     <entry>
@@ -4751,11 +4963,11 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Yinyangfooey</name>
         </author>
-        <category label="Sony PlayStation"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
         <category label="Marvel's Spider-Man 2"/>
         <category label="News"/>
+        <category label="PlayStation 5"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
         <published>2023-03-22T03:09:50.000Z</published>
     </entry>
     <entry>
@@ -4915,35 +5127,18 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <author>
             <name>Anthony Wood</name>
         </author>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
         <category label="ディアブロ IV"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
+        <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
-        <category label="ps4"/>
-        <published>2023-03-21T23:48:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ドラマ『THE LAST OF US』シーズン2のリリースはおそらく約2年後になるとエリー役のベラ・ラムジーが発言 | IGN Japan games]]></title>
-        <id>https://jp.ign.com/the-last-of-us-the-series/66649/news/the-last-of-us22</id>
-        <link href="https://jp.ign.com/the-last-of-us-the-series/66649/news/the-last-of-us22"/>
-        <updated>2023-03-21T23:06:06.000Z</updated>
-        <summary type="html"><![CDATA[撮影開始は今年の年末か来年の始め頃だろう エリーを演じるベラ・ラムジーが、英国のテレビ番組に出演した際、新エピソードを届けられるのは約2年後になるかもしれないと発言した。]]></summary>
-        <content type="html"><![CDATA[撮影開始は今年の年末か来年の始め頃だろう エリーを演じるベラ・ラムジーが、英国のテレビ番組に出演した際、新エピソードを届けられるのは約2年後になるかもしれないと発言した。]]></content>
-        <author>
-            <name>Adele Ankers-Range</name>
-        </author>
-        <category label="ゲーム"/>
-        <category label="ドラマ"/>
-        <category label="ドラマ『THE LAST OF US』"/>
         <category label="News"/>
-        <category label="エンタメ"/>
-        <published>2023-03-21T23:06:06.000Z</published>
+        <category label="ps4"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox One"/>
+        <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <published>2023-03-21T23:48:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[個々に沿った内定者トレーニングにUdemyを活用中！ | ISID テックブログ]]></title>
@@ -5560,13 +5755,6 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <published>2023-03-19T10:10:37.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【LIVE】データサイエンスのリアルと未来2023【巨大言語モデルによる人工知能とその先】 #VRアカデミア | AIcia Solid Project]]></title>
-        <id>https://www.youtube.com/watch?v=JIc8yDOmp8Q</id>
-        <link href="https://www.youtube.com/watch?v=JIc8yDOmp8Q"/>
-        <updated>2023-03-19T10:08:05.000Z</updated>
-        <published>2023-03-19T10:08:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Twitter、リプライ表示順を認証済アカウント優先へ。課金Twitter Blueユーザーは上位に表示 | TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2023/03/19/1035.html</id>
         <link href="https://www.techno-edge.net/article/2023/03/19/1035.html"/>
@@ -5803,18 +5991,6 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <summary type="html"><![CDATA[こんにちは、LayerXのエンジニア id:kikuchy です。 このnoteは「LayerXアドベントカレンダー2023春」の12日目の記事 です。 今回は、LayerXの行動指針の1つである「Trustful Team」をテーマにお送りします。前回はフィールドセールスの @hiroki_naka0121 さんによる「LayerX・バクラクフィールドセールスのオンボーディング・イネーブリングへ...]]></summary>
         <content type="html"><![CDATA[こんにちは、LayerXのエンジニア id:kikuchy です。 このnoteは「LayerXアドベントカレンダー2023春」の12日目の記事 です。 今回は、LayerXの行動指針の1つである「Trustful Team」をテーマにお送りします。前回はフィールドセールスの @hiroki_naka0121 さんによる「LayerX・バクラクフィールドセールスのオンボーディング・イネーブリングへの取り組み〜入社1か月の視点から〜」でした。 来週はカスタマーサクセスの @tomo_rim さんが登場します、お楽しみに！ LayerXには5つの行動指針があり、そのうちの一つが「Trustful …]]></content>
         <published>2023-03-17T04:26:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Great news! ChatGPT Plus subscriptions are now available in India. Get early access to new features, including GPT-4 today: https://chat.openai.com | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1636578137298599936#m</id>
-        <link href="https://nitter.net/OpenAI/status/1636578137298599936#m"/>
-        <updated>2023-03-17T04:00:08.000Z</updated>
-        <summary type="html"><![CDATA[Great news! ChatGPT Plus subscriptions are now available in India. Get early access to new features, including GPT-4 today: chat.openai.com]]></summary>
-        <content type="html"><![CDATA[Great news! ChatGPT Plus subscriptions are now available in India. Get early access to new features, including GPT-4 today: chat.openai.com]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-17T04:00:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【イベントレポート】paizaラーニングが「インタラクション2023」に出展しました！ | paiza開発日誌]]></title>
@@ -6154,15 +6330,6 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <published>2023-03-16T11:30:03.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ニンテンドースイッチOnlineに『ゼビウス』『星のカービィ2』など4本。ファミコン＆スーファミ新規追加は8か月ぶり | TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2023/03/16/1025.html</id>
-        <link href="https://www.techno-edge.net/article/2023/03/16/1025.html"/>
-        <updated>2023-03-16T11:01:05.000Z</updated>
-        <summary type="html"><![CDATA[任天堂は16日、「Nintendo Switch Online」の「ファミリーコンピュータ」と「スーパーファミコン」、「ゲームボーイ」に4本の新たなタイトルを配信開始したことを発表しました。]]></summary>
-        <content type="html"><![CDATA[任天堂は16日、「Nintendo Switch Online」の「ファミリーコンピュータ」と「スーパーファミコン」、「ゲームボーイ」に4本の新たなタイトルを配信開始したことを発表しました。]]></content>
-        <published>2023-03-16T11:01:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ヨビノリたくみがはなでんの過去動画をすべてチェックしました | 予備校のノリで学ぶ「大学の数学・物理」]]></title>
         <id>https://www.youtube.com/watch?v=QVs3mU8DARc</id>
         <link href="https://www.youtube.com/watch?v=QVs3mU8DARc"/>
@@ -6190,15 +6357,6 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         </author>
         <category label="生活家電"/>
         <published>2023-03-16T09:11:40.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マイクロソフト、日本のユビタスにもCall of Dutyを今後10年提供。「コントロール」「バイオ7」等クラウド版支える企業 | TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2023/03/16/1024.html</id>
-        <link href="https://www.techno-edge.net/article/2023/03/16/1024.html"/>
-        <updated>2023-03-16T09:06:15.000Z</updated>
-        <summary type="html"><![CDATA[マイクロソフトは15日、クラウドゲームサービスプロバイダ 株式会社ユビタスと10年間のパートナーシップを締結したと発表しました。]]></summary>
-        <content type="html"><![CDATA[マイクロソフトは15日、クラウドゲームサービスプロバイダ 株式会社ユビタスと10年間のパートナーシップを締結したと発表しました。]]></content>
-        <published>2023-03-16T09:06:15.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ActiveRecordのtouchを`no_touching`で一時的に無効にする（翻訳） | TechRacho]]></title>
@@ -6623,9 +6781,9 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <category label="医学・看護学・薬学"/>
         <category label="生物学・農学"/>
         <category label="研究開発用PC 構成事例 (テグシス)"/>
-        <category label="量子化学計算"/>
         <category label="AlphaFold2"/>
         <category label="Gromacs"/>
+        <category label="量子化学計算"/>
         <published>2023-03-15T06:30:23.000Z</published>
     </entry>
     <entry>
@@ -6889,32 +7047,6 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
         <summary type="html"><![CDATA[Posted by Ellery Wulczyn and Yun Liu, Google Research When a patient is diagnosed with cancer, one of the most important steps is examination of the tumor under a microscope by pathologists to determi...]]></summary>
         <content type="html"><![CDATA[Posted by Ellery Wulczyn and Yun Liu, Google Research When a patient is diagnosed with cancer, one of the most important steps is examination of the tumor under a microscope by pathologists to determine the cancer stage and to characterize the tumor. This information is central to understanding clinical prognosis (i.e., likely patient outcomes) and for determining the most appropriate treatment, such as undergoing surgery alone versus surgery plus chemotherapy. Developing machine learning (ML) t...]]></content>
         <published>2023-03-14T18:16:00.005Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[R to @OpenAI: Join us at 1 pm PT today for a developer demo livestream showing GPT-4 and its capabilities/limitations: https://youtube.com/live/outcGtbnMuQ?feature=share
-
-(comments in Discord: https://discord.gg/openai) | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1635688570710298625#m</id>
-        <link href="https://nitter.net/OpenAI/status/1635688570710298625#m"/>
-        <updated>2023-03-14T17:05:19.000Z</updated>
-        <summary type="html"><![CDATA[Join us at 1 pm PT today for a developer demo livestream showing GPT-4 and its capabilities/limitations: piped.video/live/outcGtbnMuQ… discord.gg/openai)]]></summary>
-        <content type="html"><![CDATA[Join us at 1 pm PT today for a developer demo livestream showing GPT-4 and its capabilities/limitations: piped.video/live/outcGtbnMuQ… discord.gg/openai)]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-14T17:05:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing GPT-4, a large multimodal model, with our best-ever results on capabilities and alignment: https://openai.com/product/gpt-4 | OpenAI / @OpenAI]]></title>
-        <id>https://nitter.net/OpenAI/status/1635687373060317185#m</id>
-        <link href="https://nitter.net/OpenAI/status/1635687373060317185#m"/>
-        <updated>2023-03-14T17:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Announcing GPT-4, a large multimodal model, with our best-ever results on capabilities and alignment: openai.com/product/gpt-4]]></summary>
-        <content type="html"><![CDATA[Announcing GPT-4, a large multimodal model, with our best-ever results on capabilities and alignment: openai.com/product/gpt-4]]></content>
-        <author>
-            <name>@OpenAI</name>
-        </author>
-        <published>2023-03-14T17:00:33.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[What’s New in SAS Certification? | KDnuggets]]></title>
@@ -7249,192 +7381,5 @@ https://ai-scholar.tech/articles/face-recognition/racial_distribution | AI技術
             <name>azumayuki</name>
         </author>
         <published>2023-03-14T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS CDKでMavenではなくGradleを使用する | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2023/03/14/082308</id>
-        <link href="https://tech.excite.co.jp/entry/2023/03/14/082308"/>
-        <updated>2023-03-13T23:23:08.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKをGradleで使用できるようにしていきたいと思います。 前の記事 tech.excite.co.jp AWS CDKとMaven & Gradle AWS CDKのコードをJavaで作成するにあたって、 cdk init app --language java で自動生成されるプロジェクトはビルドツール...]]></summary>
-        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKをGradleで使用できるようにしていきたいと思います。 前の記事 tech.excite.co.jp AWS CDKとMaven & Gradle AWS CDKのコードをJavaで作成するにあたって、 cdk init app --language java で自動生成されるプロジェクトはビルドツールにMavenを使用しています。 しかし、既存のプロジェクトで使用しているなどの理由でGradleを使用したい場合も十分にあると思います。 今回は、AWS CDKにおいてGradleを使って開発できるよ…]]></content>
-        <published>2023-03-13T23:23:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS CDKのテストをやってみる | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2023/03/14/082100</id>
-        <link href="https://tech.excite.co.jp/entry/2023/03/14/082100"/>
-        <updated>2023-03-13T23:21:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKで正しくリソースが定義されているかをテストするための方法をご紹介します。 前の記事 tech.excite.co.jp 2種類のテスト AWS CDKは通常のプログラミング言語で記述できるということもあって、テストが書けるというのも魅力の一つなようです。 AWS CDKでは2種類のテストがサポートされてい...]]></summary>
-        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKで正しくリソースが定義されているかをテストするための方法をご紹介します。 前の記事 tech.excite.co.jp 2種類のテスト AWS CDKは通常のプログラミング言語で記述できるということもあって、テストが書けるというのも魅力の一つなようです。 AWS CDKでは2種類のテストがサポートされています。 一つは、CDKで記述したコードから生成されたAWS CloudFormationテンプレートの特定の要素をテストするためのFine-grained assertionsと呼ばれるものです。 あ…]]></content>
-        <published>2023-03-13T23:21:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS CDKでの開発の流れについてまとめてみた | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2023/03/14/081904</id>
-        <link href="https://tech.excite.co.jp/entry/2023/03/14/081904"/>
-        <updated>2023-03-13T23:19:04.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKを使ってクラウドアプリケーションリソースを定義する流れを勉強しましたので、まとめてみたいと思います。 ※ この記事では全体の流れを軽く掴むことを目的としています。用語や必要な概念の詳しい内容はまた別の記事にまとめます。 前の記事 tech.excite.co.jp そもそもAWS CDKとは？ 公式ドキュ...]]></summary>
-        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKを使ってクラウドアプリケーションリソースを定義する流れを勉強しましたので、まとめてみたいと思います。 ※ この記事では全体の流れを軽く掴むことを目的としています。用語や必要な概念の詳しい内容はまた別の記事にまとめます。 前の記事 tech.excite.co.jp そもそもAWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い慣れたプログラミング言語を…]]></content>
-        <published>2023-03-13T23:19:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CDKの新機能であるcdk importを触ってみた | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2023/03/14/081516</id>
-        <link href="https://tech.excite.co.jp/entry/2023/03/14/081516"/>
-        <updated>2023-03-13T23:15:16.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回はAWS CDKのv2.20.0（Release v2.20.0 · aws/aws-cdk · GitHub）でプレビューとなっているcdk importを使ってみようと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ AWS CDKについては以下の記事で解説しているので、興味があればそちら...]]></summary>
-        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回はAWS CDKのv2.20.0（Release v2.20.0 · aws/aws-cdk · GitHub）でプレビューとなっているcdk importを使ってみようと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ AWS CDKについては以下の記事で解説しているので、興味があればそちらもご確認ください。 ※ここにリンクが入ります。 cdk importとは？ AWS CDKを使っていて、既存のリソースをCDKで管理したいな〜と思ったことはないでしょうか。 どうせCDKを使うなら新し…]]></content>
-        <published>2023-03-13T23:15:16.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS CDKの基礎 | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2023/03/14/081019</id>
-        <link href="https://tech.excite.co.jp/entry/2023/03/14/081019"/>
-        <updated>2023-03-13T23:10:19.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKの基礎を勉強しましたので、まとめてみたいと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い...]]></summary>
-        <content type="html"><![CDATA[こんにちは。 エキサイト株式会社で内定者アルバイトをしている平石です。 今回は、AWS CDKの基礎を勉強しましたので、まとめてみたいと思います。 前の記事 tech.excite.co.jp AWS CDKとは？ 公式ドキュメント（オープンソースの開発フレームワーク - AWS クラウド開発キット - AWS）によると、 AWS CDK（AWS Cloud Development Kit）は使い慣れたプログラミング言語を使用してクラウドアプリケーションリソースを定義するためのオープンソースのソフトウェア開発フレームワークです。 要は、これまで手作業でポチポチやっていたり、独自の言語や形式を使…]]></content>
-        <published>2023-03-13T23:10:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プライベート・エンドポイントのデータベース・アクションにインターネット経由でアクセスしてみる | スマートスタイル技術ブログ]]></title>
-        <id>https://blog.s-style.co.jp/?p=9702</id>
-        <link href="https://blog.s-style.co.jp/2023/03/9702/"/>
-        <updated>2023-03-13T22:19:20.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Autonomous Database （以下 ADB）には データベース・アクション*1 というデータベース開発、管理およびモニタリング機能を備えたブラウザベースのアプリケーションがあります データベース・アクションの実行は、OCI コンソールで ADB の詳細画面を表示し、データベース・アクションボタンをクリックすることで実行することが出来ます しかし、データベース・アクションは A...]]></summary>
-        <content type="html"><![CDATA[はじめに Autonomous Database （以下 ADB）には データベース・アクション*1 というデータベース開発、管理およびモニタリング機能を備えたブラウザベースのアプリケーションがあります データベース・アクションの実行は、OCI コンソールで ADB の詳細画面を表示し、データベース・アクションボタンをクリックすることで実行することが出来ます しかし、データベース・アクションは ADB のエンドポイントに https で...]]></content>
-        <author>
-            <name>kitada</name>
-        </author>
-        <category label="Autonomous"/>
-        <category label="Oracle Cloud"/>
-        <category label="技術情報"/>
-        <category label="Oracle Autonomous Database"/>
-        <published>2023-03-13T22:19:20.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Advance diversity and inclusion in voice AI with speech disentanglement | Amazon Science homepage]]></title>
-        <id>https://www.amazon.science/news-and-features/remars-revisited-advance-diversity-and-inclusion-in-voice-ai-with-speech-disentanglement</id>
-        <link href="https://www.amazon.science/news-and-features/remars-revisited-advance-diversity-and-inclusion-in-voice-ai-with-speech-disentanglement"/>
-        <updated>2023-03-13T18:56:07.000Z</updated>
-        <summary type="html"><![CDATA[Learn how Amazon uses machine-learning techniques to modify different aspects of speech — tone, phrasing, intonation, expressiveness, and accent — to create unique Alexa responses.]]></summary>
-        <content type="html"><![CDATA[Learn how Amazon uses machine-learning techniques to modify different aspects of speech — tone, phrasing, intonation, expressiveness, and accent — to create unique Alexa responses.]]></content>
-        <published>2023-03-13T18:56:07.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Back To Basics, Part Dos: Gradient Descent | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152692</id>
-        <link href="https://www.kdnuggets.com/2023/03/back-basics-part-dos-gradient-descent.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=back-to-basics-part-dos-gradient-descent"/>
-        <updated>2023-03-13T16:00:11.000Z</updated>
-        <summary type="html"><![CDATA[Explore the inner workings of the powerful optimization algorithm.]]></summary>
-        <content type="html"><![CDATA[Explore the inner workings of the powerful optimization algorithm.]]></content>
-        <author>
-            <name>Shreya Rao</name>
-        </author>
-        <category label="KDnuggets Evergreen"/>
-        <category label="KDnuggets Republished"/>
-        <category label="Machine Learning"/>
-        <published>2023-03-13T16:00:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年 フューチャー技術ブログ連載の企画スケジュール  | フューチャー技術ブログ]]></title>
-        <id>https://future-architect.github.io/articles/20230314a/</id>
-        <link href="https://future-architect.github.io/articles/20230314a/"/>
-        <updated>2023-03-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<img src="/images/20230314a/board-ge3fc44724_640.jpg" alt="board-ge3fc44724_640.jpg" width="640" height="427"]]></summary>
-        <content type="html"><![CDATA[<img src="/images/20230314a/board-ge3fc44724_640.jpg" alt="board-ge3fc44724_640.jpg" width="640" height="427"]]></content>
-        <published>2023-03-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[椎間板と内耳を作る組織に特有の細胞外物質 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230314_4/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230314_4/index.html"/>
-        <updated>2023-03-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－高硫酸化ケラタン硫酸の生合成を担う遺伝子の機能を解明－]]></summary>
-        <content type="html"><![CDATA[－高硫酸化ケラタン硫酸の生合成を担う遺伝子の機能を解明－]]></content>
-        <published>2023-03-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[極めて複雑な合成医薬分子に短寿命核種を導入 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230314_3/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230314_3/index.html"/>
-        <updated>2023-03-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－抗がん剤エリブリンの炭素11による標識に成功－]]></summary>
-        <content type="html"><![CDATA[－抗がん剤エリブリンの炭素11による標識に成功－]]></content>
-        <published>2023-03-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[STING炎症シグナルの終結分子機構 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230314_2/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230314_2/index.html"/>
-        <updated>2023-03-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－新規細胞内分解システムの発見－]]></summary>
-        <content type="html"><![CDATA[－新規細胞内分解システムの発見－]]></content>
-        <published>2023-03-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[リボソーム品質管理の破綻と神経疾患 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2023/20230314_1/index.html</id>
-        <link href="https://www.riken.jp/press/2023/20230314_1/index.html"/>
-        <updated>2023-03-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－TTC3タンパク質の異常な蓄積による認知・発達障害の発現－]]></summary>
-        <content type="html"><![CDATA[－TTC3タンパク質の異常な蓄積による認知・発達障害の発現－]]></content>
-        <published>2023-03-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 | アイブン]]></title>
-        <id>https://aiboom.net/?p=51377</id>
-        <link href="https://aiboom.net/archives/51377"/>
-        <updated>2023-03-13T14:14:45.000Z</updated>
-        <summary type="html"><![CDATA[科学研究において、大量の文献から必要な情報を抽出することは非常に重要な作業です。しかし、手動での抽出は非常に時間がかかる上、誤りが発生する可能性もあるため、自動化が求められていました。そこで、ウィスコンシン大学の研究者ら […] ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 first appeared on アイブン.]]></summary>
-        <content type="html"><![CDATA[科学研究において、大量の文献から必要な情報を抽出することは非常に重要な作業です。しかし、手動での抽出は非常に時間がかかる上、誤りが発生する可能性もあるため、自動化が求められていました。そこで、ウィスコンシン大学の研究者ら […] ChatGPTで「論文から非常に正確なデータ抽出」ができるとの報告 first appeared on アイブン.]]></content>
-        <author>
-            <name>Parks, Inc.</name>
-        </author>
-        <category label="自然言語処理"/>
-        <category label="論文カジュアル紹介"/>
-        <published>2023-03-13T14:14:45.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 More Command Line Tools for Data Science | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152672</id>
-        <link href="https://www.kdnuggets.com/2023/03/5-command-line-tools-data-science.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-more-command-line-tools-for-data-science"/>
-        <updated>2023-03-13T14:00:35.000Z</updated>
-        <summary type="html"><![CDATA[Use these tools to Access API, Manipulate CSV files, download datasets, and more from your terminal.]]></summary>
-        <content type="html"><![CDATA[Use these tools to Access API, Manipulate CSV files, download datasets, and more from your terminal.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="KDnuggets Evergreen"/>
-        <category label="KDnuggets Originals"/>
-        <category label="Data Science"/>
-        <published>2023-03-13T14:00:35.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[賃貸でも使えるスマートロックおすすめはどれ？人気4機種の比較＆選び方を解説【2023年】 | デジクル]]></title>
-        <id>https://smartparty.jp/?p=55471</id>
-        <link href="https://smartparty.jp/smart-lock-compare"/>
-        <updated>2023-03-13T12:38:36.000Z</updated>
-        <summary type="html"><![CDATA[鍵を持たないでも玄関の鍵を施錠、解除できるようになる便利アイテムのスマートロック。 楽天やAmazonで検索してみると様々なアイテムがあり、こんなことにお悩みの方も多いのではないでしょうか？ そこで本記事では数年前からい ...]]></summary>
-        <content type="html"><![CDATA[鍵を持たないでも玄関の鍵を施錠、解除できるようになる便利アイテムのスマートロック。 楽天やAmazonで検索してみると様々なアイテムがあり、こんなことにお悩みの方も多いのではないでしょうか？ そこで本記事では数年前からい ...]]></content>
-        <author>
-            <name>タカヒロ</name>
-        </author>
-        <category label="スマート家電"/>
-        <published>2023-03-13T12:38:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Find Set Difference in Python | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=152659</id>
-        <link href="https://www.kdnuggets.com/2023/03/find-set-difference-python.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-find-set-difference-in-python"/>
-        <updated>2023-03-13T12:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to find the set difference between two Python sets using the difference() method and the difference (-) operator.]]></summary>
-        <content type="html"><![CDATA[Learn how to find the set difference between two Python sets using the difference() method and the difference (-) operator.]]></content>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="KDnuggets Evergreen"/>
-        <category label="KDnuggets Originals"/>
-        <category label="Python"/>
-        <published>2023-03-13T12:00:05.000Z</published>
     </entry>
 </feed>
