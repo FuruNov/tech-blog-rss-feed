@@ -7,6 +7,196 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://techblog.zozo.com/entry/utilizing-logs-and-migrating-log-function-in-rtm",
+            "content_html": "こんにちは、MA部MA開発1ブロックの齋藤（@kyoppii13）です。 ZOZOTOWNではユーザ行動に基づくキャンペーン配信を実施しています。この配信はリアルタイムマーケティングシステム（以降、RTM）と呼ばれるシステムによって実現しており、RTMでは配信トリガーや配信タイミングの最適化等にユーザの行動ログを利用しています。 この行動ログは、ユーザがZOZOTOWNのページへアクセスした際に、HTTPリクエストをRTMが直接受信する形で収集していました。しかし、RTMの既存のログ収集機能はシステム要件や運用などの課題を抱えていました。また、その一方で全社的にログを収集・蓄積する基盤も並行し…",
+            "url": "https://techblog.zozo.com/entry/utilizing-logs-and-migrating-log-function-in-rtm",
+            "title": "リアルタイムマーケティングシステムにおける行動ログの活用方法とログ収集機能を移行した話 | ZOZO TECH BLOG",
+            "summary": "こんにちは、MA部MA開発1ブロックの齋藤（@kyoppii13）です。 ZOZOTOWNではユーザ行動に基づくキャンペーン配信を実施しています。この配信はリアルタイムマーケティングシステム（以降、RTM）と呼ばれるシステムによって実現しており、RTMでは配信トリガーや配信タイミングの最適化等にユーザの行動ログを利用しています。 この行動ログは、ユーザがZOZOTOWNのページへアクセスした際に、...",
+            "date_modified": "2023-05-09T02:00:00.000Z",
+            "date_published": "2023-05-09T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.m3tech.blog/entry/2023/05/09/110000",
+            "content_html": "こんにちは、エンジニアリンググループの穴繁です。 5/11日(木)から5/13日(土) に長野県松本市にてRubyKaigi 2023が開催されます。 rubykaigi.org 今回、エムスリーは2019年の参加から4年ぶりにRubyKaigi 2023にプラチナスポンサーとして協賛いたします！ 当日は、前回大好評だった難読Rubyクイズを開催予定です。 是非、弊社ブースにてクイズに挑戦していただけたらと思います。 難読Rubyクイズ 過去問 (in RubyKaigi 2019) irb> !????!:!?! => ? 選択肢：「false」 「“?”」 「:!」 「SyntaxErro…",
+            "url": "https://www.m3tech.blog/entry/2023/05/09/110000",
+            "title": "エムスリーは「RubyKaigi 2023」にプラチナスポンサーとして協賛 & ブース出展します | エムスリーテックブログ",
+            "summary": "こんにちは、エンジニアリンググループの穴繁です。 5/11日(木)から5/13日(土) に長野県松本市にてRubyKaigi 2023が開催されます。 rubykaigi.org 今回、エムスリーは2019年の参加から4年ぶりにRubyKaigi 2023にプラチナスポンサーとして協賛いたします！ 当日は、前回大好評だった難読Rubyクイズを開催予定です。 是非、弊社ブースにてクイズに挑戦していた...",
+            "date_modified": "2023-05-09T02:00:00.000Z",
+            "date_published": "2023-05-09T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2023/05/initialize-the-router-before-throwing-it-away.html",
+            "content_html": "中古ルーターには重要なデータが残っている。捨てる前には初期化を推奨。",
+            "url": "https://www.gizmodo.jp/2023/05/initialize-the-router-before-throwing-it-away.html",
+            "title": "企業秘密はここから漏れる… 中古ルーターのリスク | ギズモード・ジャパン",
+            "summary": "中古ルーターには重要なデータが残っている。捨てる前には初期化を推奨。",
+            "date_modified": "2023-05-09T02:00:00.000Z",
+            "date_published": "2023-05-09T02:00:00.000Z",
+            "author": {
+                "name": "そうこ"
+            },
+            "tags": [
+                "TECHNOLOGY"
+            ]
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2023/05/09/104957",
+            "content_html": "こんにちはしばたにえんです 今回は、Redisのスローログを確認する方法とKEYSではなくSCANを使った方がいい理由について紹介します。 スローログを確認する手順 Redisの注意点 KEYSは使わない方がいい SCANの概要 SCANを実行する 参考 スローログを確認する手順 １. redis-cliでredisに接続する redis-cli -h sample-redis-host ２. スローログを取得するクエリを実行する slowlog get 128 128 は取得するスローログの件数 1) 1) (integer) 6 2) (integer) 1683509330 3) (in…",
+            "url": "https://tech.excite.co.jp/entry/2023/05/09/104957",
+            "title": "Redisのスローログを確認する方法とKEYSではなくSCANを使った方がいい理由 | エキサイト TechBlog.",
+            "summary": "こんにちはしばたにえんです 今回は、Redisのスローログを確認する方法とKEYSではなくSCANを使った方がいい理由について紹介します。 スローログを確認する手順 Redisの注意点 KEYSは使わない方がいい SCANの概要 SCANを実行する 参考 スローログを確認する手順 １. redis-cliでredisに接続する redis-cli -h sample-redis-host ２. ス...",
+            "date_modified": "2023-05-09T01:49:57.000Z",
+            "date_published": "2023-05-09T01:49:57.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2023/05/machi-ya-punchingsystem-start-668315.html",
+            "content_html": "自宅のちょっとしたスペースでボクササイズができる「ホームパンチングシステム」が登場。携帯性に優れているのでいつでもどこでもパンチングできます。スキマ時間を使ったストレス解消やトレーニングにもピッタリ。静音性に優れた素材を採用していて時間帯を気にせず使えます。",
+            "url": "https://www.gizmodo.jp/2023/05/machi-ya-punchingsystem-start-668315.html",
+            "title": "自宅でボクササイズができる省スペース・静音設計の「ホームパンチングシステム」 | ギズモード・ジャパン",
+            "summary": "自宅のちょっとしたスペースでボクササイズができる「ホームパンチングシステム」が登場。携帯性に優れているのでいつでもどこでもパンチングできます。スキマ時間を使ったストレス解消やトレーニングにもピッタリ。静音性に優れた素材を採用していて時間帯を気にせず使えます。",
+            "date_modified": "2023-05-09T01:45:00.000Z",
+            "date_published": "2023-05-09T01:45:00.000Z",
+            "author": {
+                "name": "山田洋路"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
+            "id": "https://jp.ign.com/tokyo-sandbox-2023/67659/preview/melodia-tokyo-sandbox-2023",
+            "content_html": "2023年4月15日に秋葉原にてインディーゲームイベント「TOKYO SANDBOX 2023」が開催された。当イベントでは数多くのゲームが展示されたが、本稿ではインタラクティブ音楽ゲーム『Melodia』の試遊レポートをお届けする。  「メロディ」や「音楽」に主眼を置いた珍しいインタラクティブ音楽ゲーム  音楽とゲームプレイを融合させたインタラクティブな音楽ゲームは極めて珍しいものではない。ここ数年を振り返ってみても『クリプト・オブ・ネクロダンサー』や『Hi-Fi RUSH』、『BPM: BULLETS PER MINUTE』や『Metal: Hellsinger』といったタイトルがヒットを記録している。  操作は左スティックで移動、右スティックでカメラ、そしてXbox配列でABがジャンプ、XYがステップ（空中ダッシュ）というシンプルなものだ。だが、ジャンプとステップと本作のルールは密接な関係にあり、ひと癖あるゲームプレイとなっている。  本作では、ジャンプまたはステップのボタンを押すと「音階」が上下する。A・Xを押せば低くなり、B・Yを押せば高くなる、といった具合だ。音階には上限・...",
+            "url": "https://jp.ign.com/tokyo-sandbox-2023/67659/preview/melodia-tokyo-sandbox-2023",
+            "title": "プレイすると自然と音楽を奏でられる『Melodia』 メロディを主眼においたインタラクティブ音楽ゲーム【TOKYO SANDBOX 2023】 | IGN Japan games",
+            "summary": "2023年4月15日に秋葉原にてインディーゲームイベント「TOKYO SANDBOX 2023」が開催された。当イベントでは数多くのゲームが展示されたが、本稿ではインタラクティブ音楽ゲーム『Melodia』の試遊レポートをお届けする。  「メロディ」や「音楽」に主眼を置いた珍しいインタラクティブ音楽ゲーム  音楽とゲームプレイを融合させたインタラクティブな音楽ゲームは極めて珍しいものではない。ここ...",
+            "date_modified": "2023-05-09T01:40:57.000Z",
+            "date_published": "2023-05-09T01:40:57.000Z",
+            "author": {
+                "name": "みお"
+            },
+            "tags": [
+                "TOKYO SANDBOX",
+                "ゲーム",
+                "PC",
+                "Preview",
+                "TOKYO SANDBOX 2023"
+            ]
+        },
+        {
+            "id": "https://tech.visasq.com/chatgpt-classifier",
+            "content_html": "今年のGW は久しぶりに遠出をしてはしゃいできた 検索チームの tanker です。 (福利厚生の整体費用補助制度を使って疲れた体のリセットもできますよ！) AI は敵か味方か！ChatGPT との付き合い方を絶賛試行錯誤中しています。 ITチームのナカジマの記事のように、味方につけて機能向上に取り組む例もありますが、今回は敵として迎え撃つ話です。 tech.visasq.com 先月、 ChatGPT が作った文章を人間が作った文章かそうでないか見分けられるかという記事が話題になり、元の論文ではTPR (ChatGPTが生成した文章の内、正しく分類できた割合) は 最大でも 47.3% と低…",
+            "url": "https://tech.visasq.com/chatgpt-classifier",
+            "title": " ChatGPT判別器の論文読んでみた | VisasQ Dev Blog",
+            "summary": "今年のGW は久しぶりに遠出をしてはしゃいできた 検索チームの tanker です。 (福利厚生の整体費用補助制度を使って疲れた体のリセットもできますよ！) AI は敵か味方か！ChatGPT との付き合い方を絶賛試行錯誤中しています。 ITチームのナカジマの記事のように、味方につけて機能向上に取り組む例もありますが、今回は敵として迎え撃つ話です。 tech.visasq.com 先月、 Chat...",
+            "date_modified": "2023-05-09T01:33:47.000Z",
+            "date_published": "2023-05-09T01:33:47.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://texal.jp/?p=32504",
+            "content_html": "Bloombergの記者でApple関連のリーク情報を提供しているMark Gurman氏によると、Appleは、2023年に発売するApple Watch Series 9において、搭載チップに数年ぶりの大きなアップデ ... Read more",
+            "url": "https://texal.jp/2023/05/09/apple-watch-9-could-be-the-first-major-cpu-update-in-years/",
+            "title": "Apple Watch 9は数年ぶりにCPUの大幅なアップデートが行われる可能性 | TEXAL",
+            "summary": "Bloombergの記者でApple関連のリーク情報を提供しているMark Gurman氏によると、Appleは、2023年に発売するApple Watch Series 9において、搭載チップに数年ぶりの大きなアップデ ... Read more",
+            "date_modified": "2023-05-09T01:26:10.000Z",
+            "date_published": "2023-05-09T01:26:10.000Z",
+            "author": {
+                "name": "masapoco"
+            },
+            "tags": [
+                "テクノロジー",
+                "Apple",
+                "Apple Watch",
+                "スマートウォッチ"
+            ]
+        },
+        {
+            "id": "https://texal.jp/?p=32483",
+            "content_html": "この1年で、パンデミックによるリモートワークを続けてきた従業員に、フルタイムまたはパートタイムでオフィスに戻るよう求める企業が増えている。同僚と交流が持てるという点では良いことだが、通勤時間によっては、健康に悪影響を及ぼ ... Read more",
+            "url": "https://texal.jp/2023/05/09/commuting-environment-may-have-a-negative-impact-on-your-health/",
+            "title": "通勤環境があなたの健康に悪影響を与えるかもしれない | TEXAL",
+            "summary": "この1年で、パンデミックによるリモートワークを続けてきた従業員に、フルタイムまたはパートタイムでオフィスに戻るよう求める企業が増えている。同僚と交流が持てるという点では良いことだが、通勤時間によっては、健康に悪影響を及ぼ ... Read more",
+            "date_modified": "2023-05-09T01:05:46.000Z",
+            "date_published": "2023-05-09T01:05:46.000Z",
+            "author": {
+                "name": "The Conversation"
+            },
+            "tags": [
+                "サイエンス",
+                "メンタルヘルス",
+                "健康",
+                "医学"
+            ]
+        },
+        {
+            "id": "https://tech.medpeer.co.jp/entry/2023/05/09/100000",
+            "content_html": "サーバーサイドエンジニアの内藤(@naitoh) です。 Rails で構築された小規模な APIサーバー(Rails の API モードで構築したもの)で、Ruby 3.2 の YJITを有効化する事で性能アップすることができましたので、喜びを分かち合いたく共有させて頂きます。 shopify.engineering We’re able to measure real speedups ranging from 5% to 10% (depending on time of day) on our total end-to-end request completion time measu…",
+            "url": "https://tech.medpeer.co.jp/entry/2023/05/09/100000",
+            "title": "Rails APIサーバーで Ruby 3.2 の YJIT を有効化してみた。 | メドピア開発者ブログ",
+            "summary": "サーバーサイドエンジニアの内藤(@naitoh) です。 Rails で構築された小規模な APIサーバー(Rails の API モードで構築したもの)で、Ruby 3.2 の YJITを有効化する事で性能アップすることができましたので、喜びを分かち合いたく共有させて頂きます。 shopify.engineering We’re able to measure real speedups ran...",
+            "date_modified": "2023-05-09T01:00:00.000Z",
+            "date_published": "2023-05-09T01:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2023/05/check-drawn-by-jobs.html",
+            "content_html": "スティーブ・ジョブズがApple設立したばかりの1976年7月8日に振り出した小切手がオークションに。",
+            "url": "https://www.gizmodo.jp/2023/05/check-drawn-by-jobs.html",
+            "title": "1976年にスティーブ・ジョブズが切った175ドルの小切手がオークションに | ギズモード・ジャパン",
+            "summary": "スティーブ・ジョブズがApple設立したばかりの1976年7月8日に振り出した小切手がオークションに。",
+            "date_modified": "2023-05-09T01:00:00.000Z",
+            "date_published": "2023-05-09T01:00:00.000Z",
+            "author": {
+                "name": "岩田リョウコ"
+            },
+            "tags": [
+                "NEWS"
+            ]
+        },
+        {
+            "id": "https://www.gizmodo.jp/2023/05/machi-ya-inou-start-667340.html",
+            "content_html": "釣りやアウトドアアクティビティに適したデザインのバンドカラーシャツ「Banded Collar Long Sleeve Shirts｜INOU(LS)」はビジネスシーンでも活躍。大きな隠しポケットで手ぶらスタイルをサポートします。撥水性、速乾性、紫外線カット機能を備えたこのシャツは暑い季節にも快適性を提供してくれます。",
+            "url": "https://www.gizmodo.jp/2023/05/machi-ya-inou-start-667340.html",
+            "title": "カジュアルにもビジネスにも対応できるバンドカラーシャツ「Banded Collar Long Sleeve Shirts｜INOU(LS)」 | ギズモード・ジャパン",
+            "summary": "釣りやアウトドアアクティビティに適したデザインのバンドカラーシャツ「Banded Collar Long Sleeve Shirts｜INOU(LS)」はビジネスシーンでも活躍。大きな隠しポケットで手ぶらスタイルをサポートします。撥水性、速乾性、紫外線カット機能を備えたこのシャツは暑い季節にも快適性を提供してくれます。",
+            "date_modified": "2023-05-09T00:45:00.000Z",
+            "date_published": "2023-05-09T00:45:00.000Z",
+            "author": {
+                "name": "山田洋路"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1498816.html",
+            "content_html": "「Microsoft Edge 113」では「強化されたセキュリティ モード」が再編され、「基本・バランス・厳重」の3レベルから、「バランス・厳重」の2レベル構成に改められた。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1498816.html",
+            "title": "「Microsoft Edge」のめっちゃすげえセキュリティモード、再び2レベル構成に／「Edge 113」からは「基本」レベルが削除 | 窓の杜",
+            "summary": "「Microsoft Edge 113」では「強化されたセキュリティ モード」が再編され、「基本・バランス・厳重」の3レベルから、「バランス・厳重」の2レベル構成に改められた。",
+            "date_modified": "2023-05-08T23:55:15.000Z",
+            "date_published": "2023-05-08T23:55:15.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2023/05/machi-ya-spcase-review2-659306.html",
+            "content_html": "日常の外出の真ん中にスマホを据えた、画期的スマホポーチ。これさえあれば、普段のお出かけや、海外での街歩きも、十分対応可能です。コンパクトな設計ながら、複数のカードポケットを備えた、収納性もばっちりなポーチです。",
+            "url": "https://www.gizmodo.jp/2023/05/machi-ya-spcase-review2-659306.html",
+            "title": "ミニマリスト必見の「スマホポーチ」にスマホ＋αを収納してみた | ギズモード・ジャパン",
+            "summary": "日常の外出の真ん中にスマホを据えた、画期的スマホポーチ。これさえあれば、普段のお出かけや、海外での街歩きも、十分対応可能です。コンパクトな設計ながら、複数のカードポケットを備えた、収納性もばっちりなポーチです。",
+            "date_modified": "2023-05-08T23:45:00.000Z",
+            "date_published": "2023-05-08T23:45:00.000Z",
+            "author": {
+                "name": "飯田あゆみ"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
             "id": "https://ai-research-collection.com/?p=3237",
             "content_html": "ChatGPTで使えるプラグインについて知ってますか？この記事では，ChatGPTのプラグインについてまとめていきます！ ChatGPT プラグインとは？ 以下では、ChatGPTプラグインの各機能について、より詳しく説 […]",
             "url": "https://ai-research-collection.com/chatgpt-plugin/",
@@ -220,6 +410,15 @@
             "tags": []
         },
         {
+            "id": " https://www.riken.jp/pr/events/symposia/20230629_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/symposia/20230629_1/index.html",
+            "title": "理研IMS-JSI国際シンポジウム「RIKEN IMS-JSI International Symposium on Immunology 2023」 | イベントニュース",
+            "date_modified": "2023-05-08T15:00:00.000Z",
+            "date_published": "2023-05-08T15:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "gid://art19-episode-locator/V0/5EqWUb2GJKYxU4jupAk4Gb7TUeeQ00rtJcWAsndzd9c",
             "content_html": "Weights & Biases 創業者であるLukas Biewaldさんをゲストに、MLOpsプラットフォーム、起業のきっかけ、GPT-4の活用例、多くの従業員の考えを合わせる方法、OKR運用、全社オフサイトイベントなどについて語っていただいたエピソードです。 話したネタ  What is “Weights & Biases” as product? MLOps Platform Use \"Weights & Biases\" for Kaggle Why did you start “Weights & Biases”? / Motivation? To make ML in production easier ML doesn't give you errors; quietly fails Is there anything to find errors in ML? How do you think of a hype about generative AI? GPT-4 for code debugging Any integration GPT-4 and \"Weight...",
             "title": "95. Weights & Biases and Organization Management w/ l2k | fukabori.fm",
@@ -273,7 +472,7 @@
             "id": "https://www.gizmodo.jp/2023/05/microplastics-deposited-in-the-arctic-ocean.html",
             "content_html": "北極海の藻の中に大量のマイクロプラスチックが発見される。生態系や気候への影響が懸念される。",
             "url": "https://www.gizmodo.jp/2023/05/microplastics-deposited-in-the-arctic-ocean.html",
-            "title": "北極海の氷に下にもマイクロプラスチック。藻類と生態系の脅威に | ギズモード・ジャパン",
+            "title": "北極海の氷の下にもマイクロプラスチック。藻類と生態系の脅威に | ギズモード・ジャパン",
             "summary": "北極海の藻の中に大量のマイクロプラスチックが発見される。生態系や気候への影響が懸念される。",
             "date_modified": "2023-05-08T14:00:00.000Z",
             "date_published": "2023-05-08T14:00:00.000Z",
@@ -388,14 +587,14 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "ゲーム",
-                "News",
-                "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "任天堂",
+                "ゲーム",
                 "Nintendo Switch（有機ELモデル）",
                 "注目タイトル",
-                "Nintendo Switch"
+                "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -430,6 +629,19 @@
             "title": "「RPGツクール」シリーズ最新作「RPG Maker Unite」が3回の延期を経てついに発売！　ほか【ダイジェストニュース】 | 窓の杜",
             "date_modified": "2023-05-08T10:07:20.000Z",
             "date_published": "2023-05-08T10:07:20.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/tellernovel_inc/articles/3db9592810e655",
+            "content_html": "こんにちは。久しぶりに趣味でタイピングゲームに関するライブラリを開発している typer です。 テラーノベルでも遅まきながらバックエンド API を GraphQL に移行することになったので、GraphQL の表現力を活かしてドメインの関心事をスキーマに落とし込むことに四苦八苦している毎日です。今回は、こんな directive 作ってみたら解決したい問題にジャストフィットしたよ、というのを紹介していきます。   GraphQL 移行開始 2023年春現在、テラーノベルではバックエンド API を protocol buffer (protobuf) で定義しています。protobu...",
+            "url": "https://zenn.dev/tellernovel_inc/articles/3db9592810e655",
+            "title": "GraphQL(gqlgen) の directive で事前条件、事後条件を実装する | Zennのトレンド",
+            "summary": "こんにちは。久しぶりに趣味でタイピングゲームに関するライブラリを開発している typer です。 テラーノベルでも遅まきながらバックエンド API を GraphQL に移行することになったので、GraphQL の表現力を活かしてドメインの関心事をスキーマに落とし込むことに四苦八苦している毎日です。今回は、こんな directive 作ってみたら解決したい問題にジャストフィットしたよ、というのを紹...",
+            "date_modified": "2023-05-08T10:03:26.000Z",
+            "date_published": "2023-05-08T10:03:26.000Z",
+            "author": {
+                "name": "typer"
+            },
             "tags": []
         },
         {
@@ -542,12 +754,12 @@
             "tags": [
                 "android",
                 "ゲーム",
-                "Mobile",
                 "PC",
-                "iphone",
                 "Preview",
-                "鳴潮（Wuthering Waves）",
-                "Android"
+                "iphone",
+                "Mobile",
+                "Android",
+                "鳴潮（Wuthering Waves）"
             ]
         },
         {
@@ -650,20 +862,20 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "Nintendo Switch（有機ELモデル）",
-                "ゲーム",
-                "News",
-                "PC",
-                "Xbox Series X",
-                "Xbox Series S",
-                "セール情報",
+                "Nintendo Switch",
                 "nintendo-switch",
                 "ペルソナ５ ザ・ロイヤル",
-                "Nintendo Switch",
-                "任天堂",
-                "Sony PlayStation",
+                "ゲーム",
+                "Nintendo Switch（有機ELモデル）",
+                "PC",
                 "PlayStation 4",
+                "任天堂",
+                "セール情報",
+                "Xbox Series S",
+                "News",
                 "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -699,20 +911,20 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "xbox-one",
-                "ゲーム",
-                "News",
-                "PC",
-                "Xbox Series X",
-                "Steam",
-                "nintendo-switch",
                 "Nintendo Switch",
+                "nintendo-switch",
+                "Steam",
+                "ゲーム",
                 "Xbox One",
-                "任天堂",
-                "Sony PlayStation",
-                "ホグワーツ・レガシー",
+                "PC",
                 "PlayStation 4",
+                "任天堂",
+                "xbox-one",
+                "News",
+                "ホグワーツ・レガシー",
                 "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -872,24 +1084,6 @@
             ]
         },
         {
-            "id": "https://softaro.net/?p=113952",
-            "content_html": "よくある質問と回答 ライセンスについて。 Rename Multiple Files は、どなたでも無料で試用できるトライアル版のソフトウェアです。商用利用や引き続き使用される方はライセンスの購入を検討してください。",
-            "url": "https://softaro.net/rename-multiple-files/",
-            "title": "Rename Multiple Files 2.2 | ダウンロードと使い方 | ソフタロウ",
-            "summary": "よくある質問と回答 ライセンスについて。 Rename Multiple Files は、どなたでも無料で試用できるトライアル版のソフトウェアです。商用利用や引き続き使用される方はライセンスの購入を検討してください。",
-            "date_modified": "2023-05-08T05:35:00.000Z",
-            "date_published": "2023-05-08T05:35:00.000Z",
-            "author": {
-                "name": "softaro"
-            },
-            "tags": [
-                "ファイルリネーム",
-                "VOVSOFT",
-                "Windows",
-                "トライアル"
-            ]
-        },
-        {
             "id": "https://www.gizmodo.jp/2023/05/kingjim_filing.html",
             "content_html": "Photo:良品生活ROOMIE2022年12月27日掲載の記事より転載書類ってとりあえずクリアファイルに入れちゃいますよね。手軽だし持ち運びもラクだし、仕事の書類のデフォルトだし、結局クリアファイルなんですよね。ただ、書類は見つけにくいし、すべるし、整理はしにくいけど、まだまだクリアファイル文化は続きそう。そんな悩みをまるっと解決する画期的なファイルを見つけちゃいました！クリアファイルをそのまま",
             "url": "https://www.gizmodo.jp/2023/05/kingjim_filing.html",
@@ -916,10 +1110,10 @@
                 "name": "重田雄一"
             },
             "tags": [
+                "Steam",
                 "ゲーム",
-                "News",
                 "PC",
-                "Steam"
+                "News"
             ]
         },
         {
@@ -1088,14 +1282,14 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "ゲーム",
-                "News",
-                "PC",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "NEEDY GIRL OVERDOSE",
-                "任天堂",
+                "ゲーム",
                 "Nintendo Switch（有機ELモデル）",
-                "Nintendo Switch"
+                "PC",
+                "NEEDY GIRL OVERDOSE",
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -1113,10 +1307,10 @@
         },
         {
             "id": "https://www.gizmodo.jp/2023/05/google-pixel-tablet-amazon-co-jp.html",
-            "content_html": "Image:Googleまずは、勝ち確。昨年のMadebyGoogleで発表されたGoogleのAndrodiタブレット「PixelTablet」。まもなくのGoogleI/O2023で、「○○日から発売です！」みたいな発表を楽しみにしていたのですが、「こいつ、日本で買えるの？」みたいな不安感があったのも事実。でも、本日、買えることがほぼ確定しました。Amazon.co.jpで販売ページが一瞬公開",
+            "content_html": "Image:Googleまずは、勝ち確。昨年のMadebyGoogleで発表されたGoogleのAndroidタブレット「PixelTablet」。まもなくのGoogleI/O2023で、「○○日から発売です！」みたいな発表を楽しみにしていたのですが、「こいつ、日本で買えるの？」みたいな不安感があったのも事実。でも、本日、買えることがほぼ確定しました。Amazon.co.jpで販売ページが一瞬公開",
             "url": "https://www.gizmodo.jp/2023/05/google-pixel-tablet-amazon-co-jp.html",
             "title": "誤掲載でわかっちゃった！ 「Pixel Tablet」は7万9800円で国内販売あり | ギズモード・ジャパン",
-            "summary": "Image:Googleまずは、勝ち確。昨年のMadebyGoogleで発表されたGoogleのAndrodiタブレット「PixelTablet」。まもなくのGoogleI/O2023で、「○○日から発売です！」みたいな発表を楽しみにしていたのですが、「こいつ、日本で買えるの？」みたいな不安感があったのも事実。でも、本日、買えることがほぼ確定しました。Amazon.co.jpで販売ページが一瞬公開",
+            "summary": "Image:Googleまずは、勝ち確。昨年のMadebyGoogleで発表されたGoogleのAndroidタブレット「PixelTablet」。まもなくのGoogleI/O2023で、「○○日から発売です！」みたいな発表を楽しみにしていたのですが、「こいつ、日本で買えるの？」みたいな不安感があったのも事実。でも、本日、買えることがほぼ確定しました。Amazon.co.jpで販売ページが一瞬公開",
             "date_modified": "2023-05-08T03:30:00.000Z",
             "date_published": "2023-05-08T03:30:00.000Z",
             "author": {
@@ -1243,25 +1437,6 @@
             "tags": []
         },
         {
-            "id": "https://softaro.net/?p=113932",
-            "content_html": "よくある質問と回答 ライセンスについて。 Intel Wireless Bluetooth Driver は、どなたでも無料で使用できます。",
-            "url": "https://softaro.net/intel-wireless-bluetooth-driver/",
-            "title": "Intel Wireless Bluetooth Driver 22.220.1 | ダウンロードと使い方 | ソフタロウ",
-            "summary": "よくある質問と回答 ライセンスについて。 Intel Wireless Bluetooth Driver は、どなたでも無料で使用できます。",
-            "date_modified": "2023-05-08T02:00:44.000Z",
-            "date_published": "2023-05-08T02:00:44.000Z",
-            "author": {
-                "name": "softaro"
-            },
-            "tags": [
-                "ドライバ",
-                "Intel",
-                "Windows",
-                "ネットワークドライバ",
-                "フリーソフト"
-            ]
-        },
-        {
             "id": "https://techblog.yahoo.co.jp/entry/2023050830422060/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
             "content_html": "Yahoo!検索の関連検索ワードにて、高品質の文ベクトルを生成する手法SimCSEを使ったベクトル検索システムを導入した事例を紹介します。",
             "url": "https://techblog.yahoo.co.jp/entry/2023050830422060/?cpt_n=BlogFeed&cpt_m=lnk&cpt_s=atom",
@@ -1280,21 +1455,6 @@
             "date_modified": "2023-05-08T02:00:00.000Z",
             "date_published": "2023-05-08T02:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://www.gizmodo.jp/2023/05/apple-airtag-google-find-my-bluetooth-tracker-tile-eufy.html",
-            "content_html": "Image:ArtemGolub/GizmodoUS/Apple作ってないはずないだろうけど。今週開催されるGoogleI/Oを前に、すでに登場しそうなプロダクトの噂は出きった感があります。PixelFoldなんて噂どころか公式なツイートもあったくらいです。でも、まだ気になる話もあります。GoogleもAppleの忘れもの防止タグ「AirTag」的なものを開発してるって噂はどうなってるんでしたっけ",
-            "url": "https://www.gizmodo.jp/2023/05/apple-airtag-google-find-my-bluetooth-tracker-tile-eufy.html",
-            "title": "「Google版AirTagが出る」ってウワサはどうなったの？ | ギズモード・ジャパン",
-            "summary": "Image:ArtemGolub/GizmodoUS/Apple作ってないはずないだろうけど。今週開催されるGoogleI/Oを前に、すでに登場しそうなプロダクトの噂は出きった感があります。PixelFoldなんて噂どころか公式なツイートもあったくらいです。でも、まだ気になる話もあります。GoogleもAppleの忘れもの防止タグ「AirTag」的なものを開発してるって噂はどうなってるんでしたっけ",
-            "date_modified": "2023-05-08T02:00:00.000Z",
-            "date_published": "2023-05-08T02:00:00.000Z",
-            "author": {
-                "name": "そうこ"
-            },
-            "tags": [
-                "NEWS"
-            ]
         },
         {
             "id": "https://blog.colopl.dev/entry/2023/05/08/105336",
@@ -1327,21 +1487,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2023/05/machi-ya-charclay-start-668138.html",
-            "content_html": "健康のために毎日の食事を大切にしたいなら、調理器具も見直してみては？「CharClay」はフッ素化合物コーティングを施さない、けれども焦げつきにくいフライパン。竹炭や赤土などの自然由来の成分を用いたビオ・セラミックコーティングなら、毎日のお料理をより安心して楽しめそう。鉄分摂取や遠赤外線効果、抗菌などなど欲しかった機能が満載です。",
-            "url": "https://www.gizmodo.jp/2023/05/machi-ya-charclay-start-668138.html",
-            "title": "フッ素化合物不使用だけど焦げつかない自然素材のフライパン「CharClay」 | ギズモード・ジャパン",
-            "summary": "健康のために毎日の食事を大切にしたいなら、調理器具も見直してみては？「CharClay」はフッ素化合物コーティングを施さない、けれども焦げつきにくいフライパン。竹炭や赤土などの自然由来の成分を用いたビオ・セラミックコーティングなら、毎日のお料理をより安心して楽しめそう。鉄分摂取や遠赤外線効果、抗菌などなど欲しかった機能が満載です。",
-            "date_modified": "2023-05-08T01:45:00.000Z",
-            "date_published": "2023-05-08T01:45:00.000Z",
-            "author": {
-                "name": "にしやまあやか"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
-        },
-        {
             "id": "https://qiita.com/ockeghem/items/c6a3602d2c2409f89fbb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "ゴールデンウィークのはじめ（4月29日）に投稿された以下のツイートですが、5月7日20時において、1,938.8万件の表示ということで、非常に注目されていることが分かります。 我が名はアシタカ！スタ…",
             "url": "https://qiita.com/ockeghem/items/c6a3602d2c2409f89fbb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1349,6 +1494,19 @@
             "summary": "ゴールデンウィークのはじめ（4月29日）に投稿された以下のツイートですが、5月7日20時において、1,938.8万件の表示ということで、非常に注目されていることが分かります。 我が名はアシタカ！スタ…",
             "date_modified": "2023-05-08T01:41:39.000Z",
             "date_published": "2023-05-08T01:41:39.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/creek_coyote/books/positama_vol000",
+            "content_html": "Unreal Engineを始めとしたゲーム開発に関わる技術はものスゴイスピードで進化しています。 1人ではごく一部の専門しかカバーできません。  毎月、雑誌形式で特定の専門領域について紹介しながらゲーム開発を幅広くカバーできるようにします。 毎週各カテゴリーのページを1ページずつ無料で公開していきます。  継続して発信していきますので暖かい目で見守って頂けると幸いです。",
+            "url": "https://zenn.dev/creek_coyote/books/positama_vol000",
+            "title": "ポジTAMA Vol.000 Unreal Engineをはじめよう | Zennのトレンド",
+            "summary": "Unreal Engineを始めとしたゲーム開発に関わる技術はものスゴイスピードで進化しています。 1人ではごく一部の専門しかカバーできません。  毎月、雑誌形式で特定の専門領域について紹介しながらゲーム開発を幅広くカバーできるようにします。 毎週各カテゴリーのページを1ページずつ無料で公開していきます。  継続して発信していきますので暖かい目で見守って頂けると幸いです。",
+            "date_modified": "2023-05-08T01:22:19.000Z",
+            "date_published": "2023-05-08T01:22:19.000Z",
+            "author": {
+                "name": "株式会社クリーク・アンド・リバー社　ポジTA"
+            },
             "tags": []
         },
         {
@@ -1382,19 +1540,17 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2023/05/machi-ya-instacam-review-660860.html",
-            "content_html": "スマホに接続して使えるアクションカメラ「インスタカム」なら、自由なアングルでの撮影が可能に。標準／広角／マクロのレンズ3種を利用すれば、表現の幅が広がりユニークな映像を撮影できます。無料で使える推奨アプリも。",
-            "url": "https://www.gizmodo.jp/2023/05/machi-ya-instacam-review-660860.html",
-            "title": "スマホに接続して使えるアクションカメラ「インスタカム」を使って自由なアングルで撮影してみた | ギズモード・ジャパン",
-            "summary": "スマホに接続して使えるアクションカメラ「インスタカム」なら、自由なアングルでの撮影が可能に。標準／広角／マクロのレンズ3種を利用すれば、表現の幅が広がりユニークな映像を撮影できます。無料で使える推奨アプリも。",
-            "date_modified": "2023-05-08T00:45:00.000Z",
-            "date_published": "2023-05-08T00:45:00.000Z",
+            "id": "https://zenn.dev/google_cloud_jp/articles/getting-started-matching-engine",
+            "content_html": "はじめに 本記事では Vertex AI Matching Engine とは何かを簡単に説明して、使い始めるための手順を説明します。本記事の目的は、ベクトル検索を実現するために Matching Engine を使えるようになってもらうことです。  記事全体を理解するためにはある程度のクラウドやプログラミングの知識が必要です  必要に応じて補足したり、リンクしたりしています   Matching Engine の背景にある論文等の解説はしません 使い始めるための手順の中でいくつか選択肢があるとき、今後主流になりそうな選択肢の手順のみを説明します  とにかくまずは使ってみたいという方...",
+            "url": "https://zenn.dev/google_cloud_jp/articles/getting-started-matching-engine",
+            "title": "Vertex AI Matching Engine: フルマネージドで利用する Google のベクトル検索 | Zennのトレンド",
+            "summary": "はじめに 本記事では Vertex AI Matching Engine とは何かを簡単に説明して、使い始めるための手順を説明します。本記事の目的は、ベクトル検索を実現するために Matching Engine を使えるようになってもらうことです。  記事全体を理解するためにはある程度のクラウドやプログラミングの知識が必要です  必要に応じて補足したり、リンクしたりしています   Matching...",
+            "date_modified": "2023-05-08T00:45:56.000Z",
+            "date_published": "2023-05-08T00:45:56.000Z",
             "author": {
-                "name": "山科拓郎"
+                "name": "nownabe"
             },
-            "tags": [
-                "PRODUCT"
-            ]
+            "tags": []
         },
         {
             "id": "https://qiita.com/gk12/items/2f63fa115085e4b81ed3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1450,21 +1606,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2023/05/machi-ya-highspeckeiryocoat-end-653657.html",
-            "content_html": "「ハイスペック軽量コート」は一見すると薄手の爽やかなトレンチコート。秘密はその特殊な生地構造にあります。2.5枚構造の生地は高い耐水透湿性能を持っており、雨をしっかりブロック。フードを被ればレインコートとして利用できます。これからの梅雨の時期に活躍すること間違い無しでしょう。",
-            "url": "https://www.gizmodo.jp/2023/05/machi-ya-highspeckeiryocoat-end-653657.html",
-            "title": "耐水圧20000mmで雨にも負けない 「ハイスペック軽量コート」 | ギズモード・ジャパン",
-            "summary": "「ハイスペック軽量コート」は一見すると薄手の爽やかなトレンチコート。秘密はその特殊な生地構造にあります。2.5枚構造の生地は高い耐水透湿性能を持っており、雨をしっかりブロック。フードを被ればレインコートとして利用できます。これからの梅雨の時期に活躍すること間違い無しでしょう。",
-            "date_modified": "2023-05-07T23:45:00.000Z",
-            "date_published": "2023-05-07T23:45:00.000Z",
-            "author": {
-                "name": "shunki.n"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
-        },
-        {
             "id": "https://qiita.com/midiambear/items/2b0f17b6859e88b4f7ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに 開発者として働き始めてよく見るようになった黒い画面... コマンドライン... 使い方はなんとなくわかってきたけどもう少し便利に使いたいと思っている方も多いのではないでしょうか。 この記事…",
             "url": "https://qiita.com/midiambear/items/2b0f17b6859e88b4f7ca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -1503,21 +1644,6 @@
             "date_modified": "2023-05-07T23:00:00.000Z",
             "date_published": "2023-05-07T23:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://www.gizmodo.jp/2023/05/machi-ya-dritto-pen-case.html",
-            "content_html": "最近は以前ほど多くの筆記具を持ち歩くことはなくなってきましたよね。少量の筆記具をかっこよく持ち歩けるペンケースを探していたところ、デザインと実用性を兼ね備えた「dritto Pen」を見つけたんです。",
-            "url": "https://www.gizmodo.jp/2023/05/machi-ya-dritto-pen-case.html",
-            "title": "クルッと変身。机上でトレイにもなる革製ペンケース | ギズモード・ジャパン",
-            "summary": "最近は以前ほど多くの筆記具を持ち歩くことはなくなってきましたよね。少量の筆記具をかっこよく持ち歩けるペンケースを探していたところ、デザインと実用性を兼ね備えた「dritto Pen」を見つけたんです。",
-            "date_modified": "2023-05-07T23:00:00.000Z",
-            "date_published": "2023-05-07T23:00:00.000Z",
-            "author": {
-                "name": "三浦一紀"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
         },
         {
             "id": "https://www.techno-edge.net/article/2023/05/08/1251.html",
@@ -1654,23 +1780,6 @@
             ]
         },
         {
-            "id": "https://texal.jp/?p=32461",
-            "content_html": "Metaは最近、AIや機械学習のためのアクセラレータを開発する英国のスタートアップGraphcoreで人工知能ネットワーク技術を構築していた専門家チームのメンバーを、今年2月から3月にかけて少なくとも10名採用したようだ ... Read more",
-            "url": "https://texal.jp/2023/05/08/meta-hires-team-of-ai-experts-from-british-chip-startup-graphcore/",
-            "title": "Meta、英チップスタートアップGraphcoreのAI専門家チームを雇用 | TEXAL",
-            "summary": "Metaは最近、AIや機械学習のためのアクセラレータを開発する英国のスタートアップGraphcoreで人工知能ネットワーク技術を構築していた専門家チームのメンバーを、今年2月から3月にかけて少なくとも10名採用したようだ ... Read more",
-            "date_modified": "2023-05-07T20:23:13.000Z",
-            "date_published": "2023-05-07T20:23:13.000Z",
-            "author": {
-                "name": "masapoco"
-            },
-            "tags": [
-                "テクノロジー",
-                "AI",
-                "Meta"
-            ]
-        },
-        {
             "id": "https://zenn.dev/ribilynn/articles/3f1df059e67b85",
             "content_html": "この記事は、SwiftUI の Variadic View という半公開的な API を使い、独自のコンポネントの API をより SwiftUI らしいものにする方法を紹介します。   背景 SwiftUI では、TupleView という View があります。通常は自分で作成することはありませんが、ViewBuilder の中に複数の View が書かれた場合、最終的に構造された View の型は TupleView になります。 let stack = VStack {  Text(\"First\")  Text(\"Second\")  Text(\"Third\") ...",
             "url": "https://zenn.dev/ribilynn/articles/3f1df059e67b85",
@@ -1691,19 +1800,6 @@
             "summary": "Image: Respawn Entertainment/Electronic Arts  The High Republic, it’s a thing  Adding something new to a universe as beloved and familiar as Star Wars must seem an impossible task. Can you imagine how...",
             "date_modified": "2023-05-07T16:00:00.000Z",
             "date_published": "2023-05-07T16:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/airiswim/articles/2779f46d4a53a2",
-            "content_html": "SlackAPIを活用して日々の業務、タスクを効率化したい 日々使うSlack... ここにいつも必要な情報が自動で届いたら、よくない？ 送った資料も、全部自動でダウンロードできてたら便利！！！！ 分析が自動でしてくれて届いたら、便利では？！？！ じゃあ、APIがあるし、やってみようよ！ということで...まずはできることから調べてみよう! https://api.slack.com/ 補足：APIとは   APIとは Application Programming Interfaceの略で、 ソフトウェアやアプリケーションの機能を外部から呼び出し、利用するためのプログラムの集合体。 ...",
-            "url": "https://zenn.dev/airiswim/articles/2779f46d4a53a2",
-            "title": "業務効率化をしたい...SlackAPIがあるじゃないか！！①SlackAPI詳細と、APIの基礎(JSONについて) | Zennのトレンド",
-            "summary": "SlackAPIを活用して日々の業務、タスクを効率化したい 日々使うSlack... ここにいつも必要な情報が自動で届いたら、よくない？ 送った資料も、全部自動でダウンロードできてたら便利！！！！ 分析が自動でしてくれて届いたら、便利では？！？！ じゃあ、APIがあるし、やってみようよ！ということで...まずはできることから調べてみよう! https://api.slack.com/ 補足：API...",
-            "date_modified": "2023-05-07T15:48:16.000Z",
-            "date_published": "2023-05-07T15:48:16.000Z",
-            "author": {
-                "name": "Airichan"
-            },
             "tags": []
         },
         {
@@ -1939,23 +2035,17 @@
             "tags": []
         },
         {
-            "id": "https://texal.jp/?p=32449",
-            "content_html": "6月11日から16日にかけて開催される予定のVLSIシンポジウム2023において、Intelは、Intel 4ノードを用いて製造されたE-Coreチップ上で、同社が初採用する裏面電力供給テクノロジー「PowerVia」が ... Read more",
-            "url": "https://texal.jp/2023/05/07/intel-to-soon-release-a-chip-demonstration-showing-the-benefits-of-powervia-backside-power-delivery-implemented-on-intel-4/",
-            "title": "Intel、バックサイドパワーデリバリー「PowerVia」のメリットを示すチップデモをIntel … | TEXAL",
-            "summary": "6月11日から16日にかけて開催される予定のVLSIシンポジウム2023において、Intelは、Intel 4ノードを用いて製造されたE-Coreチップ上で、同社が初採用する裏面電力供給テクノロジー「PowerVia」が ... Read more",
-            "date_modified": "2023-05-07T06:41:51.000Z",
-            "date_published": "2023-05-07T06:41:51.000Z",
+            "id": "https://zenn.dev/uga_rosa/articles/ec5281d5a95a57",
+            "content_html": "はじめに 日本語話者にとって、IME は生活にかかせないものでしょう。 しかし、その仕組みについて考えたことがある人は意外と少ないのではないでしょうか？ この連載では、皆さんご存じの IME である skk を Neovim 上で実装していきます。 （ご存じない方はこちらが意外と詳しいのでどうぞ） 主に参考にするのはこちらです。最新のskk実装 (in Vim) で、TypeScript で記述されています。 https://github.com/vim-skk/skkeleton この記事も skkeleton を使って書いています。 第一回では、ローマ字をひらがなに変換する仕組み...",
+            "url": "https://zenn.dev/uga_rosa/articles/ec5281d5a95a57",
+            "title": "SKK実装入門 (1) ローマ字 -> ひらがな変換 | Zennのトレンド",
+            "summary": "はじめに 日本語話者にとって、IME は生活にかかせないものでしょう。 しかし、その仕組みについて考えたことがある人は意外と少ないのではないでしょうか？ この連載では、皆さんご存じの IME である skk を Neovim 上で実装していきます。 （ご存じない方はこちらが意外と詳しいのでどうぞ） 主に参考にするのはこちらです。最新のskk実装 (in Vim) で、TypeScript で記述さ...",
+            "date_modified": "2023-05-07T06:56:13.000Z",
+            "date_published": "2023-05-07T06:56:13.000Z",
             "author": {
-                "name": "masapoco"
+                "name": "uga-rosa"
             },
-            "tags": [
-                "テクノロジー",
-                "CPU",
-                "Intel",
-                "PowerVia",
-                "半導体"
-            ]
+            "tags": []
         },
         {
             "id": "https://qiita.com/ittetsu51/items/fcab6258f8fc8fff30e3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -2034,17 +2124,17 @@
                 "name": "Dias"
             },
             "tags": [
-                "xbox-one",
+                "Xbox One",
                 "ゲーム",
+                "Ghostwire: Tokyo",
                 "Feature",
                 "PC",
-                "Xbox Series X",
-                "Ghostwire: Tokyo",
-                "Xbox One",
-                "トロコンへの道",
-                "Sony PlayStation",
                 "PlayStation 4",
+                "xbox-one",
+                "トロコンへの道",
                 "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -2258,17 +2348,17 @@
                 "name": "Ign Japan"
             },
             "tags": [
-                "wii-u",
-                "ゼルダの伝説　ブレス オブ ザ ワイルド",
+                "Nintendo Switch",
+                "nintendo-switch",
+                "ゼルダの伝説",
                 "ゲーム",
                 "Feature",
-                "ゼルダの伝説 夢をみる島",
+                "ゼルダの伝説　ブレス オブ ザ ワイルド",
                 "ゼルダの伝説 ティアーズ オブ ザ キングダム",
-                "nintendo-switch",
                 "ゼルダの伝説 トワイライトプリンセス ＨＤ",
-                "任天堂",
-                "ゼルダの伝説",
-                "Nintendo Switch"
+                "wii-u",
+                "ゼルダの伝説 夢をみる島",
+                "任天堂"
             ]
         },
         {
@@ -2391,19 +2481,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/m_g/books/6df58ce8e82b03",
-            "content_html": "こちらを一読いただくとApp Runnerは何のために開発されたのか？どのように構築するのかが詳しくわかります。加えてGitHubActionsによるCDも組み込まれていてより実践的な内容になっております。",
-            "url": "https://zenn.dev/m_g/books/6df58ce8e82b03",
-            "title": "App Runner初心者大全 | Zennのトレンド",
-            "summary": "こちらを一読いただくとApp Runnerは何のために開発されたのか？どのように構築するのかが詳しくわかります。加えてGitHubActionsによるCDも組み込まれていてより実践的な内容になっております。",
-            "date_modified": "2023-05-05T10:06:06.000Z",
-            "date_published": "2023-05-05T10:06:06.000Z",
-            "author": {
-                "name": "M.G"
-            },
-            "tags": []
-        },
-        {
             "id": "https://mathlandscape.com/?p=30264",
             "content_html": "関数 がリプシッツ連続であるとは， が成り立つことを指します。 リプシッツ連続について，その定義と例，一様連続など他の連続性との関係，微分と関連する性質について述べましょう。 リプシッツ連続と他の連続性との関係 リプシッ […]",
             "url": "https://mathlandscape.com/lipschitz/",
@@ -2427,19 +2504,6 @@
             "title": "ベクトル解析入門④(勾配とは何か) | 予備校のノリで学ぶ「大学の数学・物理」",
             "date_modified": "2023-05-05T09:00:25.000Z",
             "date_published": "2023-05-05T09:00:25.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/takagimeow/articles/switch-from-useeffect-to-suspense",
-            "content_html": "Reactコンポーネントの開発時、データフェッチは欠かせません。 SPAで開発を行う時、あなたも含めてuseEffect()を使ったことがあるはずです。 あなたがSWRやReact Queryの代わりにuseEffect()を使う理由は、いくつかあるのでしょう。 そんな方のために、Reactが提供する<Suspense>を使ってデータフェッチを行う方法を紹介します。 ! Suspenseを実際のアプリケーションで使う場合、Next.jsなどのメタフレームワークを使用してください。もしくは、Suspenseに対応したデータフェッチライブラリを使いましょう。単体での実装方法は、公...",
-            "url": "https://zenn.dev/takagimeow/articles/switch-from-useeffect-to-suspense",
-            "title": "useEffectをやめて、Suspenseを使おう | Zennのトレンド",
-            "summary": "Reactコンポーネントの開発時、データフェッチは欠かせません。 SPAで開発を行う時、あなたも含めてuseEffect()を使ったことがあるはずです。 あなたがSWRやReact Queryの代わりにuseEffect()を使う理由は、いくつかあるのでしょう。 そんな方のために、Reactが提供する<Suspense>を使ってデータフェッチを行う方法を紹介します。 ! Suspenseを実際のア...",
-            "date_modified": "2023-05-05T08:15:01.000Z",
-            "date_published": "2023-05-05T08:15:01.000Z",
-            "author": {
-                "name": "たかぎとねこ"
-            },
             "tags": []
         },
         {
@@ -2485,25 +2549,12 @@
                 "name": "Matt Purslow"
             },
             "tags": [
-                "Redfall",
                 "ゲーム",
-                "News",
                 "PC",
+                "Redfall",
+                "News",
                 "Xbox Series X"
             ]
-        },
-        {
-            "id": "https://zenn.dev/a_da_chi/articles/758f77406cda60",
-            "content_html": "基本的には以下のNext.js 13.4のブログを翻訳してまとめたものになります。 https://nextjs.org/blog/next-13-4   TL;DR  Appルーター(安定版):  サーバーコンポーネント ネストされたルート&レイアウト 簡略化されたデータ取得 ストリーミング&サスペンス ビルトインSEO対応   Turbopack(ベータ版): より速く、安定性が改善されたローカル開発サーバー サーバーアクション(アルファ版): ゼロクライアントJavaScriptでサーバーのデータを更新  半年前にNext.js 13でベータ版としてAppルーターが...",
-            "url": "https://zenn.dev/a_da_chi/articles/758f77406cda60",
-            "title": "Next.js 13.4まとめ | Zennのトレンド",
-            "summary": "基本的には以下のNext.js 13.4のブログを翻訳してまとめたものになります。 https://nextjs.org/blog/next-13-4   TL;DR  Appルーター(安定版):  サーバーコンポーネント ネストされたルート&レイアウト 簡略化されたデータ取得 ストリーミング&サスペンス ビルトインSEO対応   Turbopack(ベータ版): より速く、安定性が改善されたロー...",
-            "date_modified": "2023-05-05T04:17:41.000Z",
-            "date_published": "2023-05-05T04:17:41.000Z",
-            "author": {
-                "name": "Yutaro Adachi"
-            },
-            "tags": []
         },
         {
             "id": "https://iret.media/?p=73041",
@@ -2536,31 +2587,31 @@
                 "name": "Ign Japan"
             },
             "tags": [
-                "Astro's Playroom",
                 "DEATHLOOP",
-                "ファイナルファンタジーVII リメイク インターグレード",
-                "It Takes Two",
-                "ゲーム",
-                "Sifu",
-                "サイバーパンク2077",
-                "レゴ スター・ウォーズ／スカイウォーカー・サーガ",
-                "Ghostwire: Tokyo",
-                "Horizon Forbidden West",
-                "Wo Long: Fallen Dynasty",
-                "モンスターハンターライズ",
-                "ディスコ エリジウム ザ ファイナル カット",
-                "バイオハザード RE:4",
-                "Stray",
-                "ELDEN RING",
-                "Sony PlayStation",
-                "ラチェット＆クランク パラレル・トラブル",
-                "Demon's Souls",
-                "Feature",
-                "バイオハザード ヴィレッジ",
-                "サイバーパンク2077（PS4/Xbox One版）",
-                "ホグワーツ・レガシー",
                 "PlayStation 5",
-                "ゴッド・オブ・ウォー ラグナロク"
+                "Sony PlayStation",
+                "ゲーム",
+                "ファイナルファンタジーVII リメイク インターグレード",
+                "ホグワーツ・レガシー",
+                "Demon's Souls",
+                "バイオハザード RE:4",
+                "Horizon Forbidden West",
+                "ELDEN RING",
+                "Sifu",
+                "Feature",
+                "Stray",
+                "ディスコ エリジウム ザ ファイナル カット",
+                "モンスターハンターライズ",
+                "ゴッド・オブ・ウォー ラグナロク",
+                "Wo Long: Fallen Dynasty",
+                "Ghostwire: Tokyo",
+                "サイバーパンク2077（PS4/Xbox One版）",
+                "サイバーパンク2077",
+                "Astro's Playroom",
+                "It Takes Two",
+                "ラチェット＆クランク パラレル・トラブル",
+                "レゴ スター・ウォーズ／スカイウォーカー・サーガ",
+                "バイオハザード ヴィレッジ"
             ]
         },
         {
@@ -2576,7 +2627,9 @@
             },
             "tags": [
                 "Kaggle",
-                "気になること"
+                "気になること",
+                "kaggle",
+                "Activeコンペ"
             ]
         },
         {
@@ -2653,8 +2706,8 @@
             "tags": [
                 "ゲーム",
                 "News",
-                "Xbox Series X",
-                "Starfield"
+                "Starfield",
+                "Xbox Series X"
             ]
         },
         {
@@ -2686,14 +2739,14 @@
                 "name": "渡邉卓也"
             },
             "tags": [
-                "ゲーム",
-                "Feature",
-                "ポケットモンスター スカーレット・バイオレット",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "任天堂",
-                "ポケットモンスター",
+                "ゲーム",
                 "Nintendo Switch（有機ELモデル）",
-                "Nintendo Switch"
+                "Feature",
+                "ポケットモンスター",
+                "ポケットモンスター スカーレット・バイオレット",
+                "任天堂"
             ]
         },
         {
@@ -2708,12 +2761,12 @@
                 "name": "Sigh"
             },
             "tags": [
-                "ゲーム",
-                "Feature",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "任天堂",
+                "ゲーム",
                 "Nintendo Switch（有機ELモデル）",
-                "Nintendo Switch"
+                "Feature",
+                "任天堂"
             ]
         },
         {
@@ -2768,10 +2821,10 @@
                 "name": "野村光"
             },
             "tags": [
+                "Steam",
                 "ゲーム",
                 "Feature",
-                "PC",
-                "Steam"
+                "PC"
             ]
         },
         {
@@ -2956,12 +3009,12 @@
             },
             "tags": [
                 "ゲーム",
-                "News",
                 "PC",
-                "Xbox Series X",
                 "STAR WARS ジェダイ：サバイバー",
-                "Sony PlayStation",
-                "PlayStation 5"
+                "News",
+                "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation"
             ]
         },
         {
@@ -3023,11 +3076,11 @@
                 "name": "洋ナシ"
             },
             "tags": [
+                "Steam",
                 "ゲーム",
                 "Feature",
-                "PCゲーム極☆道",
                 "PC",
-                "Steam"
+                "PCゲーム極☆道"
             ]
         },
         {
@@ -3139,16 +3192,16 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "xbox-one",
-                "ゲーム",
-                "PC",
-                "Xbox Series X",
-                "Preview",
                 "Xbox One",
+                "ゲーム",
                 "Apex Legends",
-                "Sony PlayStation",
+                "PC",
                 "PlayStation 4",
+                "Preview",
+                "xbox-one",
                 "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -3261,11 +3314,11 @@
                 "ゲーム",
                 "Feature",
                 "PC",
-                "Xbox Series X",
-                "ストリートファイター6",
-                "Sony PlayStation",
                 "PlayStation 4",
                 "PlayStation 5",
+                "ストリートファイター6",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -3326,12 +3379,12 @@
                 "name": "葛西祝"
             },
             "tags": [
-                "ゲーム",
-                "TOKYO SANDBOX",
-                "PC",
                 "Steam",
-                "TOKYO SANDBOX 2023",
-                "Preview"
+                "TOKYO SANDBOX",
+                "ゲーム",
+                "PC",
+                "Preview",
+                "TOKYO SANDBOX 2023"
             ]
         },
         {
@@ -3386,12 +3439,12 @@
             "tags": [
                 "ゲーム",
                 "PC",
-                "Xbox Series X",
-                "ストリートファイター6",
-                "Preview",
-                "Sony PlayStation",
                 "PlayStation 4",
+                "Preview",
                 "PlayStation 5",
+                "ストリートファイター6",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -3758,12 +3811,12 @@
                 "name": "みお"
             },
             "tags": [
-                "ゲーム",
-                "TOKYO SANDBOX",
-                "PC",
                 "Steam",
-                "TOKYO SANDBOX 2023",
-                "Preview"
+                "TOKYO SANDBOX",
+                "ゲーム",
+                "PC",
+                "Preview",
+                "TOKYO SANDBOX 2023"
             ]
         },
         {
@@ -3806,12 +3859,12 @@
                 "name": "葛西祝"
             },
             "tags": [
-                "ゲーム",
-                "TOKYO SANDBOX",
-                "PC",
                 "Steam",
-                "TOKYO SANDBOX 2023",
-                "Preview"
+                "TOKYO SANDBOX",
+                "ゲーム",
+                "PC",
+                "Preview",
+                "TOKYO SANDBOX 2023"
             ]
         },
         {
@@ -3878,9 +3931,9 @@
                 "アプリケーション開発・プログラミング",
                 "業務支援・効率化ツール",
                 "海外製品 新着情報 (ユニポス)",
-                "回路設計",
                 "AutoCAD",
                 "製品設計",
+                "回路設計",
                 "CAD",
                 "建築"
             ]
@@ -4088,16 +4141,6 @@
             "summary": "By Harvey Ico, backend engineer at Unifa With the release of Rails 7, webpacker is now optional!? Meaning to say, if you install a new rails application, you will now have to specify that it includes ...",
             "date_modified": "2023-05-01T03:00:00.000Z",
             "date_published": "2023-05-01T03:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/accessranking/1497756.html",
-            "content_html": "前週に閲覧数の多かった記事を、上位10位までレポートします。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/accessranking/1497756.html",
-            "title": "「Windows 10」の最終バージョンは「バージョン 22H2」 ～2025年10月14日でサポート終了 を報じた記事がトップ ～窓の杜アクセスランキング［2023/04/24～2023/04/30］【記事アクセスランキング】 | 窓の杜",
-            "summary": "前週に閲覧数の多かった記事を、上位10位までレポートします。",
-            "date_modified": "2023-05-01T02:45:00.000Z",
-            "date_published": "2023-05-01T02:45:00.000Z",
             "tags": []
         },
         {
@@ -4348,8 +4391,8 @@
             "tags": [
                 "ゲーム",
                 "Feature",
-                "The Red Strings Club",
                 "PC",
+                "The Red Strings Club",
                 "ゲームシナリオの解剖学"
             ]
         },
@@ -4385,14 +4428,14 @@
                 "name": "渡邉卓也"
             },
             "tags": [
+                "Nintendo Switch",
+                "nintendo-switch",
+                "Steam",
                 "ゲーム",
+                "Nintendo Switch（有機ELモデル）",
                 "Feature",
                 "PC",
-                "Steam",
-                "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch（有機ELモデル）",
-                "Nintendo Switch"
+                "任天堂"
             ]
         },
         {
@@ -4482,12 +4525,12 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "ゲーム",
-                "News",
-                "セール情報",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch"
+                "ゲーム",
+                "セール情報",
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -4503,11 +4546,11 @@
             },
             "tags": [
                 "ゲーム",
-                "News",
-                "セール情報",
-                "Sony PlayStation",
                 "PlayStation 4",
+                "セール情報",
+                "News",
                 "PlayStation 5",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -4544,12 +4587,12 @@
             },
             "tags": [
                 "ゲーム",
-                "Video",
                 "ARMORED CORE VI FIRES OF RUBICON",
                 "PC",
+                "PlayStation 5",
+                "Video",
                 "Xbox Series X",
-                "Sony PlayStation",
-                "PlayStation 5"
+                "Sony PlayStation"
             ]
         },
         {
@@ -4564,15 +4607,15 @@
                 "name": "片岡龍一"
             },
             "tags": [
+                "Nintendo Switch",
+                "nintendo-switch",
                 "ゲーム",
-                "News",
+                "Nintendo Switch（有機ELモデル）",
+                "セール情報",
                 "ゼルダの伝説 ティアーズ オブ ザ キングダム",
                 "Amazonおすすめ",
-                "セール情報",
-                "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch（有機ELモデル）",
-                "Nintendo Switch"
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -4656,9 +4699,9 @@
             },
             "tags": [
                 "ゲーム",
-                "News",
+                "グッズ",
                 "エンタメ",
-                "グッズ"
+                "News"
             ]
         },
         {
@@ -4706,16 +4749,16 @@
                 "name": "Luis Joshua Gutierrez"
             },
             "tags": [
-                "xbox-one",
-                "ゲーム",
-                "News",
-                "PC",
-                "Xbox Series X",
-                "ELDEN RING",
                 "Xbox One",
-                "Sony PlayStation",
+                "ゲーム",
+                "ELDEN RING",
+                "PC",
                 "PlayStation 4",
+                "xbox-one",
+                "News",
                 "PlayStation 5",
+                "Xbox Series X",
+                "Sony PlayStation",
                 "ps4"
             ]
         },
@@ -4772,13 +4815,13 @@
                 "name": "Yinyangfooey"
             },
             "tags": [
+                "Nintendo Switch",
+                "nintendo-switch",
                 "ゲーム",
+                "Xbox",
                 "Call of Duty: Modern Warfare 2",
                 "News",
-                "Xbox",
-                "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch"
+                "任天堂"
             ]
         },
         {
@@ -4808,8 +4851,8 @@
                 "name": "馬淵寛昭"
             },
             "tags": [
-                "ゲーム",
                 "星のカービィ",
+                "ゲーム",
                 "News"
             ]
         },
@@ -4835,14 +4878,14 @@
                 "name": "馬淵寛昭"
             },
             "tags": [
+                "Nintendo Switch",
+                "nintendo-switch",
                 "ゲーム",
-                "News",
+                "セール情報",
                 "Amazonおすすめ",
                 "周辺機器",
-                "セール情報",
-                "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch"
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -4877,13 +4920,13 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "ゲーム",
-                "News",
-                "PC",
-                "Steam",
+                "Nintendo Switch",
                 "nintendo-switch",
-                "任天堂",
-                "Nintendo Switch"
+                "Steam",
+                "ゲーム",
+                "PC",
+                "News",
+                "任天堂"
             ]
         },
         {
@@ -4908,10 +4951,19 @@
                 "name": "Ign Japan"
             },
             "tags": [
-                "ゲーム",
                 "スポンサードコンテンツ",
+                "ゲーム",
                 "ゲーミングPC"
             ]
+        },
+        {
+            "id": "https://www.youtube.com/watch?v=9FcpOfA4LEw",
+            "content_html": "",
+            "url": "https://www.youtube.com/watch?v=9FcpOfA4LEw",
+            "title": "中学数学からはじめる指数対数 | 予備校のノリで学ぶ「大学の数学・物理」",
+            "date_modified": "2023-04-28T09:00:04.000Z",
+            "date_published": "2023-04-28T09:00:04.000Z",
+            "tags": []
         },
         {
             "id": "https://techblog.raccoon.ne.jp/?p=8199",
@@ -4931,15 +4983,6 @@
                 "スマホ",
                 "未分類"
             ]
-        },
-        {
-            "id": "https://www.youtube.com/watch?v=9FcpOfA4LEw",
-            "content_html": "",
-            "url": "https://www.youtube.com/watch?v=9FcpOfA4LEw",
-            "title": "中学数学からはじめる指数対数 | 予備校のノリで学ぶ「大学の数学・物理」",
-            "date_modified": "2023-04-28T09:00:04.000Z",
-            "date_published": "2023-04-28T09:00:04.000Z",
-            "tags": []
         },
         {
             "id": "https://creators-note.chatwork.com/entry/ease-android-app-maintenance",
@@ -4983,10 +5026,10 @@
                 "name": "重田雄一"
             },
             "tags": [
+                "Steam",
                 "ゲーム",
-                "News",
                 "PC",
-                "Steam"
+                "News"
             ]
         },
         {
@@ -5149,11 +5192,11 @@
             "tags": [
                 "android",
                 "ゲーム",
-                "Mobile",
-                "News",
-                "iphone",
                 "ドラゴンクエスト　チャンピオンズ",
-                "Android"
+                "iphone",
+                "Mobile",
+                "Android",
+                "News"
             ]
         },
         {
@@ -5165,35 +5208,6 @@
             "date_modified": "2023-04-28T06:49:27.000Z",
             "date_published": "2023-04-28T06:49:27.000Z",
             "tags": []
-        },
-        {
-            "id": "https://jp.ign.com/bramble-the-mountain-king/67560/news/bramble-the-mountain-king",
-            "content_html": "「リトルナイトメア」シリーズを彷彿とさせる作品 北欧神話がテーマのホラーアドベンチャー『Bramble: The Mountain King』が各プラットフォームで配信開始となった。",
-            "url": "https://jp.ign.com/bramble-the-mountain-king/67560/news/bramble-the-mountain-king",
-            "title": "小人になって妹を救うために旅をするホラーアドベンチャー 『Bramble: The Mountain King』が配信開始！ | IGN Japan games",
-            "summary": "「リトルナイトメア」シリーズを彷彿とさせる作品 北欧神話がテーマのホラーアドベンチャー『Bramble: The Mountain King』が各プラットフォームで配信開始となった。",
-            "date_modified": "2023-04-28T06:34:28.000Z",
-            "date_published": "2023-04-28T06:34:28.000Z",
-            "author": {
-                "name": "重田雄一"
-            },
-            "tags": [
-                "xbox-one",
-                "ゲーム",
-                "News",
-                "PC",
-                "Xbox Series X",
-                "Steam",
-                "nintendo-switch",
-                "Nintendo Switch",
-                "Xbox One",
-                "任天堂",
-                "Bramble: The Mountain King",
-                "Sony PlayStation",
-                "PlayStation 4",
-                "PlayStation 5",
-                "ps4"
-            ]
         },
         {
             "id": "https://www.fabrica-com.co.jp/techblog/?p=10002",
@@ -5384,7 +5398,7 @@
                 "name": "塙尚也"
             },
             "tags": [
-                "未分類",
+                "OSS",
                 "Kubernetes",
                 "OpenShift"
             ]
@@ -6064,6 +6078,16 @@
             "tags": []
         },
         {
+            "id": "https://tech-blog.optim.co.jp/entry/2023/04/27/100000?utm_source=feed",
+            "content_html": "はじめに ICP（Iterative Closest Point）とは 点群の位置合わせ（Registration） ローカルとグローバル 基本のICP 方針 point-to-point point-to-plane 色情報を使ったICP（Colored Point Cloud Registration） 目的関数 概観 色情報の項の詳細 目的関数の最適化 ICPを動かそう まとめ はじめに こんにちは、R&Dユニットの葉山です。最近は測量アプリ Geo Scan の開発に取り組んでおり、その関係で点群を扱っております。今回は点群の位置合わせ（重ね合わせ）をご紹介させていただきます。基本的な…",
+            "url": "https://tech-blog.optim.co.jp/entry/2023/04/27/100000?utm_source=feed",
+            "title": "点群の重ね合わせに色情報も活用しよう！（Colored Point Cloud Registration の解説） | OPTiM TECH BLOG",
+            "summary": "はじめに ICP（Iterative Closest Point）とは 点群の位置合わせ（Registration） ローカルとグローバル 基本のICP 方針 point-to-point point-to-plane 色情報を使ったICP（Colored Point Cloud Registration） 目的関数 概観 色情報の項の詳細 目的関数の最適化 ICPを動かそう まとめ はじめに こ...",
+            "date_modified": "2023-04-27T01:00:00.000Z",
+            "date_published": "2023-04-27T01:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://technote.qualiarts.jp/article/54",
             "content_html": "初めての内定者アルバイトでのモバイルゲーム開発で、IDOLY PRIDEのエイプリルフール施策を担当しました",
             "url": "https://technote.qualiarts.jp/article/54",
@@ -6080,16 +6104,6 @@
                 "成長",
                 "学び"
             ]
-        },
-        {
-            "id": "https://tech-blog.optim.co.jp/entry/2023/04/27/100000?utm_source=feed",
-            "content_html": "はじめに ICP（Iterative Closest Point）とは 点群の位置合わせ（Registration） ローカルとグローバル 基本のICP 方針 point-to-point point-to-plane 色情報を使ったICP（Colored Point Cloud Registration） 目的関数 概観 色情報の項の詳細 目的関数の最適化 ICPを動かそう まとめ はじめに こんにちは、R&Dユニットの葉山です。最近は測量アプリ Geo Scan の開発に取り組んでおり、その関係で点群を扱っております。今回は点群の位置合わせ（重ね合わせ）をご紹介させていただきます。基本的な…",
-            "url": "https://tech-blog.optim.co.jp/entry/2023/04/27/100000?utm_source=feed",
-            "title": "点群の重ね合わせに色情報も活用しよう！（Colored Point Cloud Registration の解説） | OPTiM TECH BLOG",
-            "summary": "はじめに ICP（Iterative Closest Point）とは 点群の位置合わせ（Registration） ローカルとグローバル 基本のICP 方針 point-to-point point-to-plane 色情報を使ったICP（Colored Point Cloud Registration） 目的関数 概観 色情報の項の詳細 目的関数の最適化 ICPを動かそう まとめ はじめに こ...",
-            "date_modified": "2023-04-27T01:00:00.000Z",
-            "date_published": "2023-04-27T01:00:00.000Z",
-            "tags": []
         },
         {
             "id": "https://mathcafe.net/?p=2607",
@@ -7130,112 +7144,6 @@
             "summary": "こんにちは、こんばんわ！クラウドインテグレーション事業部の魚介系エンジニア松尾です。 このタイミングでのブログの投稿は AWS Summit Tokyo 2023 についての内容かと思われるかもしれませんが、全く関係ありません！(笑) 今回の内容は Terraform 知識ゼロの私が仕事でどうしても Terraform を利用する必要があり、設計・コーディングを進めていく中で、この数週間で悩み学ん...",
             "date_modified": "2023-04-25T02:12:10.000Z",
             "date_published": "2023-04-25T02:12:10.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://buildersbox.corp-sansan.com/entry/2023/04/25/110000",
-            "content_html": "こんにちは！Sansan 技術本部 Mobile Applicationグループのふるしんです furusin (@furusin_oriver) / Twitter私はNotionのTask Listを使って日々のTODOを管理していますが、毎日うまくタスク管理ができている気があまりしません どうすればいいかな？とChatGPTに色々と相談した結果「まずはタスク一覧を毎日見ざるを得ない仕組みを作ろう！」というところから仕組みを考えましたそこで「毎朝Notionで管理しているタスクをSlackに通知するGAS」を作ることにしました その通知はSlackに通知する時に鼓舞してもらうように工夫しま…",
-            "url": "https://buildersbox.corp-sansan.com/entry/2023/04/25/110000",
-            "title": "Notion + GASでタスク一覧をSlackに通知してタスク管理をしやすくする | Sansan Tech Blog",
-            "summary": "こんにちは！Sansan 技術本部 Mobile Applicationグループのふるしんです furusin (@furusin_oriver) / Twitter私はNotionのTask Listを使って日々のTODOを管理していますが、毎日うまくタスク管理ができている気があまりしません どうすればいいかな？とChatGPTに色々と相談した結果「まずはタスク一覧を毎日見ざるを得ない仕組みを作...",
-            "date_modified": "2023-04-25T02:00:00.000Z",
-            "date_published": "2023-04-25T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://toranoana-lab.hatenablog.com/entry/2023/04/25/105450",
-            "content_html": "こんにちは、虎の穴ラボの大場です。 私は先日、EC開発チームからシステムリプレイスチームに移籍し、役割もスクラムマスターから開発メンバーへ転向しました。 Next.js やTypeScriptといったモダンな技術に触れられる環境で開発をしてみたかったため希望してチームを移して頂きました。 ※虎の穴ラボでは上司と相談のうえチーム移動が行える仕組みがあり、自分がチャレンジしたい環境に身を置く事ができます。 スクラムマスターから開発メンバーとして役割が変わりましたが、これまでのマネジメント経験を生かして、 何かと苦労の絶えないパパさんスクラムマスターを支えていければなと思います。 さて今回は、チーム…",
-            "url": "https://toranoana-lab.hatenablog.com/entry/2023/04/25/105450",
-            "title": "「PMBOK対応 童話でわかるプロジェクトマネジメント 第2版」を読みました | 虎の穴開発室ブログ",
-            "summary": "こんにちは、虎の穴ラボの大場です。 私は先日、EC開発チームからシステムリプレイスチームに移籍し、役割もスクラムマスターから開発メンバーへ転向しました。 Next.js やTypeScriptといったモダンな技術に触れられる環境で開発をしてみたかったため希望してチームを移して頂きました。 ※虎の穴ラボでは上司と相談のうえチーム移動が行える仕組みがあり、自分がチャレンジしたい環境に身を置く事ができま...",
-            "date_modified": "2023-04-25T01:54:50.000Z",
-            "date_published": "2023-04-25T01:54:50.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.techno-edge.net/article/2023/04/25/1208.html",
-            "content_html": "米コロラド州に本社を置くスタートアップ企業Biofireが、所有者以外による「意図しない使用」を減らすことが可能とうたう拳銃「スマートガン(Smart Gun)」を発表しました。",
-            "url": "https://www.techno-edge.net/article/2023/04/25/1208.html",
-            "title": "指紋と顔認証対応の『スマート拳銃』。1ミリ秒で本人確認、事故を防ぎ安全と主張 | TechnoEdge",
-            "summary": "米コロラド州に本社を置くスタートアップ企業Biofireが、所有者以外による「意図しない使用」を減らすことが可能とうたう拳銃「スマートガン(Smart Gun)」を発表しました。",
-            "date_modified": "2023-04-25T01:24:46.000Z",
-            "date_published": "2023-04-25T01:24:46.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.excite.co.jp/entry/2023/04/25/101508",
-            "content_html": "こんにちは。 エキサイト株式会社の三浦です。 去る4月21日、第4回目となる「テクデザBeer Bash」を開催しましたので、そのレポートを書いていきます！ なお第3回のレポートは以下になりますので、ぜひ合わせてお読みください。 tech.excite.co.jp テクデザBeer Bashとは 当日の様子 23年新卒自己紹介 AI自動生成について フリートーク 最後に テクデザBeer Bashとは テクデザBeer Bashは、社内のエンジニア・デザイナーの交流を深めるためのイベントです。 軽食・お酒やソフトドリンクを片手に部署問わず参加者同士で話したり、登壇者によるコンテンツ発表を一緒に…",
-            "url": "https://tech.excite.co.jp/entry/2023/04/25/101508",
-            "title": "第4回テクデザBeer Bashを開催しました | エキサイト TechBlog.",
-            "summary": "こんにちは。 エキサイト株式会社の三浦です。 去る4月21日、第4回目となる「テクデザBeer Bash」を開催しましたので、そのレポートを書いていきます！ なお第3回のレポートは以下になりますので、ぜひ合わせてお読みください。 tech.excite.co.jp テクデザBeer Bashとは 当日の様子 23年新卒自己紹介 AI自動生成について フリートーク 最後に テクデザBeer Bash...",
-            "date_modified": "2023-04-25T01:15:08.000Z",
-            "date_published": "2023-04-25T01:15:08.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://techblog.forgevision.com/entry/awssummit2023report",
-            "content_html": "AWS Summit 2023でオンラインで視聴したセッションリポートです。機械学習系のセッション、アーキテクチャ道場などのご紹介記事です。",
-            "url": "https://techblog.forgevision.com/entry/awssummit2023report",
-            "title": "AWS Summit Tokyo 2023 オンライン漫遊記 | ForgeVision Engineer Blog",
-            "summary": "AWS Summit 2023でオンラインで視聴したセッションリポートです。機械学習系のセッション、アーキテクチャ道場などのご紹介記事です。",
-            "date_modified": "2023-04-25T01:11:02.000Z",
-            "date_published": "2023-04-25T01:11:02.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://heartbeats.jp/hbblog/2023/04/cache-with-cloudfront.html",
-            "content_html": "こんにちは、MSP事業部エンジニアリンググループの佐藤です。 Webサービスを運営していく中で、パフォーマンス改善等々でCDN（コンテンツ・デリバリー・ネットワーク）の導入を検討することは多々あるかと思います。 CDN事業者が提供する分散されたエッジサーバーを介してコンテンツ配信をすることで、Webサーバーやアプリケーションの負荷を軽減したり、DDoS攻撃対策などのセキュリティ面での効果が期待できたりします。 ただし、効果的に利用するためにはCDNのキャッシュをうまくコントロールする必要があり導入に二の足を踏んでいる人もいるのではないでしょうか。 私は前職で大規模なWebサイトの運営・運用に携わっていました。 その中で、Webディレクターなど技術に精通していない運用者たちとも多く話す機会がありました。 更新したはずなのにコンテンツになかなか反映されなかったりしてコンテンツ運用をむずかしくしてしまうという側面がCDNにはあります。 これが彼らはこわく感じてしまうようです。 そこで今回は、AWSが提供するCDNであるAmazon CloudFrontを題材に、次のようなゴールを目指してお伝...",
-            "url": "https://heartbeats.jp/hbblog/2023/04/cache-with-cloudfront.html",
-            "title": "Amazon CloudFrontとキャッシュについて | インフラエンジニアway - Powered by HEARTBEATS",
-            "summary": "こんにちは、MSP事業部エンジニアリンググループの佐藤です。 Webサービスを運営していく中で、パフォーマンス改善等々でCDN（コンテンツ・デリバリー・ネットワーク）の導入を検討することは多々あるかと思います。 CDN事業者が提供する分散されたエッジサーバーを介してコンテンツ配信をすることで、Webサーバーやアプリケーションの負荷を軽減したり、DDoS攻撃対策などのセキュリティ面での効果が期待でき...",
-            "date_modified": "2023-04-25T01:00:00.000Z",
-            "date_published": "2023-04-25T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.yaz.co.jp/?p=6387",
-            "content_html": "こんにちは！23新卒の市村です😸 タイトルにもある通り、登山合宿のブログを書かせていただきます。 今回の研修では主にチームでの山登りを行って、学びを得つつ、チームワークを深めていきました。結果から言うと、無事に終えるこ […]",
-            "url": "https://www.yaz.co.jp/news/careers/6387",
-            "title": "【新人合宿研修】登山合宿を行いました！　 | アプリ開発・制作／システム開発のYAZ",
-            "summary": "こんにちは！23新卒の市村です😸 タイトルにもある通り、登山合宿のブログを書かせていただきます。 今回の研修では主にチームでの山登りを行って、学びを得つつ、チームワークを深めていきました。結果から言うと、無事に終えるこ […]",
-            "date_modified": "2023-04-25T00:32:07.000Z",
-            "date_published": "2023-04-25T00:32:07.000Z",
-            "author": {
-                "name": "市村 朋也"
-            },
-            "tags": [
-                "新卒採用",
-                "採用情報"
-            ]
-        },
-        {
-            "id": "https://rheb.hatenablog.com/entry/2023/04/25/091647",
-            "content_html": "Red Hat コンサルタントの菅原です。こちらでの投稿は2回目です。 前回と比べると今回は小ネタといって良いと思いますが、RHEL で長年ネットワーク設定ファイルとして使われてきた ifcfg-rh 形式から NetworkManager ネイティブである keyfile 形式への、設定ファイルフォーマットの移行についてお話ししたいと思います。 ifcfg-rh 形式 古くから RHEL や RHEL 互換 OS (CentOS Linux 等) をお使いのユーザーにはおなじみの、/etc/sysconfig/network-scripts に保存される ifcfg-XXX (XXX の部分…",
-            "url": "https://rheb.hatenablog.com/entry/2023/04/25/091647",
-            "title": "RHEL のネットワーク設定での ifcfg-rh から keyfile への移行 | 赤帽エンジニアブログ",
-            "summary": "Red Hat コンサルタントの菅原です。こちらでの投稿は2回目です。 前回と比べると今回は小ネタといって良いと思いますが、RHEL で長年ネットワーク設定ファイルとして使われてきた ifcfg-rh 形式から NetworkManager ネイティブである keyfile 形式への、設定ファイルフォーマットの移行についてお話ししたいと思います。 ifcfg-rh 形式 古くから RHEL や R...",
-            "date_modified": "2023-04-25T00:16:47.000Z",
-            "date_published": "2023-04-25T00:16:47.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech-blog.rakus.co.jp/entry/20230425/prompt",
-            "content_html": "こんにちは 配配メール開発課 Jazumaです。 業務やプライベートでChatGPT等のAIを使いながらもより良い回答を得るためのプロンプトの作り方が分からないという方は多いのではないでしょうか。かく言う私もその一人です。 そこで今回は Best practices for prompt engineering with OpenAI API を見てプロンプトエンジニアリングのベストプラクティスを整理します。 より良い出力を得るためのプロンプト 最新のモデルを使う プロンプトの冒頭で指示を出す・区切り文字で指示と文脈を明確に区切る 具体的に指示を出す・説明する・詳細を記載する 例を提示して出力…",
-            "url": "https://tech-blog.rakus.co.jp/entry/20230425/prompt",
-            "title": "OpenAIのドキュメントでプロンプトのベストプラクティスを勉強してみた | RAKUS Developers Blog | ラクス エンジニアブログ",
-            "summary": "こんにちは 配配メール開発課 Jazumaです。 業務やプライベートでChatGPT等のAIを使いながらもより良い回答を得るためのプロンプトの作り方が分からないという方は多いのではないでしょうか。かく言う私もその一人です。 そこで今回は Best practices for prompt engineering with OpenAI API を見てプロンプトエンジニアリングのベストプラクティスを...",
-            "date_modified": "2023-04-25T00:12:45.000Z",
-            "date_published": "2023-04-25T00:12:45.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://engineering.dena.com/blog/2023/04/realtime-network-group-and-oss/",
-            "content_html": "こんにちは。 castaneai です。 ゲームサービス事業本部内のリアルタイムネットワークグループという部署に属しており、主にゲームのリアルタイム通信部分の開発・運用を担当しています。 2021年12月にDeNAに中途入社し、現在の勤務歴は1年ちょっとです。 入社後に私が行ったリアルタイムネットワークグループの業務内容について一部紹介できればと思います。 リアルタイムネットワークグループについて はじめにリアルタイムネットワ",
-            "url": "https://engineering.dena.com/blog/2023/04/realtime-network-group-and-oss/",
-            "title": "リアルタイムネットワークグループとOSS | Blog on DeNA Engineering",
-            "summary": "こんにちは。 castaneai です。 ゲームサービス事業本部内のリアルタイムネットワークグループという部署に属しており、主にゲームのリアルタイム通信部分の開発・運用を担当しています。 2021年12月にDeNAに中途入社し、現在の勤務歴は1年ちょっとです。 入社後に私が行ったリアルタイムネットワークグループの業務内容について一部紹介できればと思います。 リアルタイムネットワークグループについて...",
-            "date_modified": "2023-04-25T00:00:00.000Z",
-            "date_published": "2023-04-25T00:00:00.000Z",
             "tags": []
         }
     ]
