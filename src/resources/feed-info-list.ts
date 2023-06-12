@@ -382,6 +382,9 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   // 追加分(ガジェット)
   ['ギズモード・ジャパン', 'http://feeds.gizmodo.jp/rss/gizmodo/index.xml'],
   ['デジクル', 'https://smartparty.jp/feed'],
+  
+  // 追加分（勉強会）
+  ['勉強会スライドbot', 'https://yuji.software/tech_slideshare/feed.xml'],
 ]);
 
 // 候補
