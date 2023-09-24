@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sun, 24 Sep 2023 11:18:18 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 24 Sep 2023 23:20:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -16,6 +16,223 @@
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[AWS Cron式のlintを行い可読性を上げる | LIVESENSE ENGINEER BLOG]]></title>
+            <link>https://made.livesense.co.jp/entry/2023/09/25/080000</link>
+            <guid>https://made.livesense.co.jp/entry/2023/09/25/080000</guid>
+            <pubDate>Sun, 24 Sep 2023 23:00:00 GMT</pubDate>
+            <description><![CDATA[マッハバイトのAWS移行が進むにつれてECS Scheduled TaskやAWS Backupなどの利用が増え、TerraformにはAWS Cron式によるスケジュールの記載が増えてきました。ところがこのAWS Cron式、とてもミスしやすいのが悩みどころです。 このような事情から、プルリクエストが作られても、レビュアーが間違いに気付かずに承認すること、リリースしてしまうことが増えてきてしまい...]]></description>
+            <content:encoded><![CDATA[マッハバイトのAWS移行が進むにつれてECS Scheduled TaskやAWS Backupなどの利用が増え、TerraformにはAWS Cron式によるスケジュールの記載が増えてきました。ところがこのAWS Cron式、とてもミスしやすいのが悩みどころです。 このような事情から、プルリクエストが作られても、レビュアーが間違いに気付かずに承認すること、リリースしてしまうことが増えてきてしまいました。 自動テストしたいですよね。そんな気持ちから書いたGitHub Actionsの紹介です。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[経済産業省が提供するサービスのクライアントAPIを爆速生成してOSS公開までの手順を紹介してみる | クラウドワークス エンジニアブログ]]></title>
+            <link>https://engineer.crowdworks.jp/entry/2023/09/25/080000</link>
+            <guid>https://engineer.crowdworks.jp/entry/2023/09/25/080000</guid>
+            <pubDate>Sun, 24 Sep 2023 23:00:00 GMT</pubDate>
+            <description><![CDATA[株式会社クラウドワークスでエンジニアをしている、小西です。おすすめのサウナはウェルビー栄です。 2022年ごろからOSS活動をする機会が増え、OSSの公開にもチャレンジしていたりするのでOSSをテーマに記事を書いてみようと思います。 この記事でやろうとしていること 経済産業省が提供しているgBizINFOのクライアントAPI生成し、オープンソース化することとRubyGemsにアップロードするところ...]]></description>
+            <content:encoded><![CDATA[株式会社クラウドワークスでエンジニアをしている、小西です。おすすめのサウナはウェルビー栄です。 2022年ごろからOSS活動をする機会が増え、OSSの公開にもチャレンジしていたりするのでOSSをテーマに記事を書いてみようと思います。 この記事でやろうとしていること 経済産業省が提供しているgBizINFOのクライアントAPI生成し、オープンソース化することとRubyGemsにアップロードするところまでをゴールとします。 gBizINFOは法人番号や法人名から企業等の活動情報が検索できるプラットフォームで、法人番号公表サイトやEDINET、職場情報総合サイトと紐付けして情報を取得することができま…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[DigSportsのバージョンアップとプロダクトオーナーの苦悩 | ISID テックブログ]]></title>
+            <link>https://tech.isid.co.jp/entry/2023/09/25/DigSports%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97%E3%81%A8%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AE%E8%8B%A6%E6%82%A9</link>
+            <guid>https://tech.isid.co.jp/entry/2023/09/25/DigSports%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E3%82%A2%E3%83%83%E3%83%97%E3%81%A8%E3%83%97%E3%83%AD%E3%83%80%E3%82%AF%E3%83%88%E3%82%AA%E3%83%BC%E3%83%8A%E3%83%BC%E3%81%AE%E8%8B%A6%E6%82%A9</guid>
+            <pubDate>Sun, 24 Sep 2023 23:00:00 GMT</pubDate>
+            <description><![CDATA[XI本部 スマートソサエティセンターの飯田です。 私は「DigSports」というAIによって運動能力を測定し、どのスポーツに向いているかを提案する製品のプロダクトオーナーを担当しています。 DigSportsは、運動が苦手な子どもたちや運動から遠ざかってしまった働く世代の方々に対して、自分に合ったスポーツを見つけられる機会を提供し、運動を始めるきっかけや運動習慣化を後押ししています。 isid-...]]></description>
+            <content:encoded><![CDATA[XI本部 スマートソサエティセンターの飯田です。 私は「DigSports」というAIによって運動能力を測定し、どのスポーツに向いているかを提案する製品のプロダクトオーナーを担当しています。 DigSportsは、運動が苦手な子どもたちや運動から遠ざかってしまった働く世代の方々に対して、自分に合ったスポーツを見つけられる機会を提供し、運動を始めるきっかけや運動習慣化を後押ししています。 isid-ssc.jp そんなDigSportsなのですが、技術的なアーキテクチャをガラッと変えた新しいバージョンをリリースしました。 AIで適性のあるスポーツを判定する「DigSports」の新バージョンを提…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[オフィスチェアがソファ並みの座り心地に。ニトリのコイル内蔵クッション | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/09/nitori-n-coil-bk.html</link>
+            <guid>https://www.gizmodo.jp/2023/09/nitori-n-coil-bk.html</guid>
+            <pubDate>Sun, 24 Sep 2023 23:00:00 GMT</pubDate>
+            <description><![CDATA[81個のコイルを内蔵して、オフィスチェアを快適な座り心地に変えてくれるニトリの「ポケットコイル内蔵シートクッション」。]]></description>
+            <content:encoded><![CDATA[81個のコイルを内蔵して、オフィスチェアを快適な座り心地に変えてくれるニトリの「ポケットコイル内蔵シートクッション」。]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[「Google スライド」に複数人のマウスカーソルをリアルタイムで表示する機能が導入／他のユーザーと画面上でやりとり可能に | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1533697.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1533697.html</guid>
+            <pubDate>Sun, 24 Sep 2023 22:59:00 GMT</pubDate>
+            <description><![CDATA[米Googleは9月18日（現地時間）、同社のスライドショー作成ツール「Google スライド」に複数の参加者がリアルタイムでマウスカーソルを操作できる機能を追加したことを発表した。]]></description>
+            <content:encoded><![CDATA[米Googleは9月18日（現地時間）、同社のスライドショー作成ツール「Google スライド」に複数の参加者がリアルタイムでマウスカーソルを操作できる機能を追加したことを発表した。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[数行のコード追加でStable Diffusion生成画像を高品質にする「FreeU」、Llama2を10万トークンに低コストで増やす手法「LongLoRA」など重要論文5本を解説（生成AIウィークリー） | TechnoEdge]]></title>
+            <link>https://www.techno-edge.net/article/2023/09/25/1969.html</link>
+            <guid>https://www.techno-edge.net/article/2023/09/25/1969.html</guid>
+            <pubDate>Sun, 24 Sep 2023 22:11:57 GMT</pubDate>
+            <description><![CDATA[生成AIの重要論文5本を解説。「数行のコードを足すだけ…」生成画像・動画の品質が向上「FreeU」、LLaMA2を10万トークンに低コストで増やす手法「LongLoRA」など。]]></description>
+            <content:encoded><![CDATA[生成AIの重要論文5本を解説。「数行のコードを足すだけ…」生成画像・動画の品質が向上「FreeU」、LLaMA2を10万トークンに低コストで増やす手法「LongLoRA」など。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【部活動】野球部を紹介します！ | Tech Do | メディアドゥの技術ブログ　]]></title>
+            <link>https://techdo.mediado.jp/entry/2023/09/25/070000</link>
+            <guid>https://techdo.mediado.jp/entry/2023/09/25/070000</guid>
+            <pubDate>Sun, 24 Sep 2023 22:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは。TechDoブログ編集チームです！メディアドゥでは様々な部活動が活動しています。 バスケットボール、野球、フットサル、軽音、ボードゲーム、ランニング、ボルダリング、登山などなど…。 本日はその中から、野球部についてご紹介していきます！]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。TechDoブログ編集チームです！メディアドゥでは様々な部活動が活動しています。 バスケットボール、野球、フットサル、軽音、ボードゲーム、ランニング、ボルダリング、登山などなど…。 本日はその中から、野球部についてご紹介していきます！]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[衛星通信Starlink売り上げ爆増も予想より大きく下回る | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/09/starlink-2022-earnings-elon-musk-projections-investors.html</link>
+            <guid>https://www.gizmodo.jp/2023/09/starlink-2022-earnings-elon-musk-projections-investors.html</guid>
+            <pubDate>Sun, 24 Sep 2023 22:00:00 GMT</pubDate>
+            <description><![CDATA[ウォール・ストリート・ジャーナル（WSJ）の報道によれば、2022年のStarlinkの売上は14億ドル（約2062億円）。2021年が2億2200万ドル（約324億円）だったので、これは爆増と言える大飛躍です。]]></description>
+            <content:encoded><![CDATA[ウォール・ストリート・ジャーナル（WSJ）の報道によれば、2022年のStarlinkの売上は14億ドル（約2062億円）。2021年が2億2200万ドル（約324億円）だったので、これは爆増と言える大飛躍です。]]></content:encoded>
+            <category>NEWS</category>
+        </item>
+        <item>
+            <title><![CDATA[Wordは表を思うようにコピペできない！ イライラと無駄な作業を解消する方法【残業を減らす！Officeテクニック】 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/serial/offitech/1533709.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/serial/offitech/1533709.html</guid>
+            <pubDate>Sun, 24 Sep 2023 21:55:00 GMT</pubDate>
+            <description><![CDATA[Wordが言うことを聞かないことがありますよね。特に「表」はストレスが溜まる作業が盛りだくさんです。表の元データがあるのでコピー＆ペーストしたら書式もコピーされてしまった！という悩みもよく聞きます。せっかくラクしようと思ったのに、以下のような状態になってしまったら残念ですよね。]]></description>
+            <content:encoded><![CDATA[Wordが言うことを聞かないことがありますよね。特に「表」はストレスが溜まる作業が盛りだくさんです。表の元データがあるのでコピー＆ペーストしたら書式もコピーされてしまった！という悩みもよく聞きます。せっかくラクしようと思ったのに、以下のような状態になってしまったら残念ですよね。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Unity、新しい料金体系「Unity Runtime Fee」の修正案を公表 ～批判を受け大幅に譲歩／Personalプランは引き続き無料、Pro/Enterpriseも2024年以降のLTSから適用に | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1533912.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1533912.html</guid>
+            <pubDate>Sun, 24 Sep 2023 21:45:00 GMT</pubDate>
+            <description><![CDATA[「Unity」で開発したゲームの収益とランタイムのインストール数を基準とする料金体系「Unity Runtime Fee」を突如発表して批判を浴びていることに関し、米Unity Technologiesは9月23日（現地時間）、謝罪と新しいポリシーを発表した。]]></description>
+            <content:encoded><![CDATA[「Unity」で開発したゲームの収益とランタイムのインストール数を基準とする料金体系「Unity Runtime Fee」を突如発表して批判を浴びていることに関し、米Unity Technologiesは9月23日（現地時間）、謝罪と新しいポリシーを発表した。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[中国ではチップ製造ツールの急激な国産化が進行中だが海外勢に追いつくには時間がかかりそうだ | TEXAL]]></title>
+            <link>https://texal.jp/2023/09/25/rapid-domestic-production-of-chip-manufacturing-tools-is-underway-in-china-but-it-will-take-time-to-catch-up-with-foreign-players/</link>
+            <guid>https://texal.jp/?p=39831</guid>
+            <pubDate>Sun, 24 Sep 2023 21:26:01 GMT</pubDate>
+            <description><![CDATA[BloombergのデータをまとめたDigiTimesのレポートによると、中国は半導体セクターの発展において大きな進歩を遂げ、現在では製造装置の40％以上が国産化されている事が明らかになった。成長率はわずか2年で倍増して ... Read more]]></description>
+            <content:encoded><![CDATA[BloombergのデータをまとめたDigiTimesのレポートによると、中国は半導体セクターの発展において大きな進歩を遂げ、現在では製造装置の40％以上が国産化されている事が明らかになった。成長率はわずか2年で倍増して ... Read more]]></content:encoded>
+            <category>テクノロジー</category>
+            <category>中国</category>
+            <category>半導体</category>
+            <category>米中問題</category>
+        </item>
+        <item>
+            <title><![CDATA[機械学習の進化が宇宙の干し草の山から針を見付け出すことを可能にする | TEXAL]]></title>
+            <link>https://texal.jp/2023/09/25/advances-in-machine-learning-make-it-possible-to-find-the-needle-in-the-cosmic-haystack/</link>
+            <guid>https://texal.jp/?p=39825</guid>
+            <pubDate>Sun, 24 Sep 2023 20:59:51 GMT</pubDate>
+            <description><![CDATA[天文学の様相は変わりつつある。狭視野のポイント・アンド・シュート天文学は依然として重要だが（JWSTは？）、大規模な広視野サーベイは、特に機械学習の出現により、今後数十年の間に発見の強豪となることが約束されている。 最近 ... Read more]]></description>
+            <content:encoded><![CDATA[天文学の様相は変わりつつある。狭視野のポイント・アンド・シュート天文学は依然として重要だが（JWSTは？）、大規模な広視野サーベイは、特に機械学習の出現により、今後数十年の間に発見の強豪となることが約束されている。 最近 ... Read more]]></content:encoded>
+            <category>サイエンス</category>
+            <category>AI</category>
+            <category>天文学</category>
+            <category>宇宙</category>
+            <category>機械学習</category>
+        </item>
+        <item>
+            <title><![CDATA[【レビュー】iPhone 15 Pro Max ファーストインプレッション：大きな変化は軽量化？ | TEXAL]]></title>
+            <link>https://texal.jp/2023/09/25/iphone-15-pro-max-first-impressions-is-the-big-change-lighter/</link>
+            <guid>https://texal.jp/?p=39686</guid>
+            <pubDate>Sun, 24 Sep 2023 20:37:23 GMT</pubDate>
+            <description><![CDATA[今年も新たなiPhone発売の季節となった。新たなiPhone 15シリーズでは、標準モデルにDynamic Islandの採用が進み、前モデルから大きな進化になっているが、プロモデルも勿論改善が行われ、チタンフレームの ... Read more]]></description>
+            <content:encoded><![CDATA[今年も新たなiPhone発売の季節となった。新たなiPhone 15シリーズでは、標準モデルにDynamic Islandの採用が進み、前モデルから大きな進化になっているが、プロモデルも勿論改善が行われ、チタンフレームの ... Read more]]></content:encoded>
+            <category>モバイル</category>
+            <category>レビュー</category>
+            <category>Apple</category>
+            <category>iPhone 14 Pro</category>
+            <category>iPhone 14 Pro Max</category>
+        </item>
+        <item>
+            <title><![CDATA[Flesh and Blood’s Bright Lights expansion adds a mech suit built for breaking faces | Polygon -  Gaming]]></title>
+            <link>https://www.polygon.com/tabletop-games/23885496/flesh-and-blood-bright-lights</link>
+            <guid>https://www.polygon.com/tabletop-games/23885496/flesh-and-blood-bright-lights</guid>
+            <pubDate>Sun, 24 Sep 2023 17:01:53 GMT</pubDate>
+            <description><![CDATA[Image: Legend Story Studios via YouTube  The Magic competitor’s next expansion builds out the game’s unique Mechanologist heroes  In the ever-evolving world of the Flesh and Blood trading card game, w...]]></description>
+            <content:encoded><![CDATA[Image: Legend Story Studios via YouTube  The Magic competitor’s next expansion builds out the game’s unique Mechanologist heroes  In the ever-evolving world of the Flesh and Blood trading card game, where warriors and technologists battle for supremacy, the upcoming expansion set, Bright Lights, introduces a new take on equipment cards. It will completely change the way players build decks around new and old Mechanologist heroes. At its core, Flesh and Blood is a turn-based strategy game that pi...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[All the new video games launching in 2024 | Polygon -  Gaming]]></title>
+            <link>https://www.polygon.com/gaming/23844302/video-game-release-dates-2024-new-upcoming</link>
+            <guid>https://www.polygon.com/gaming/23844302/video-game-release-dates-2024-new-upcoming</guid>
+            <pubDate>Sun, 24 Sep 2023 17:00:00 GMT</pubDate>
+            <description><![CDATA[Graphic: Michael McWhertor/Polygon | Source images: Various  2024 will be a massive year for new games While 2023 was a banner year for video games, with the releases of Baldur’s Gate 3, Diablo 4, Fin...]]></description>
+            <content:encoded><![CDATA[Graphic: Michael McWhertor/Polygon | Source images: Various  2024 will be a massive year for new games While 2023 was a banner year for video games, with the releases of Baldur’s Gate 3, Diablo 4, Final Fantasy 16, Starfield, Street Fighter 6, and The Legend of Zelda: Tears of the Kingdom, the year in video games for 2024 is already looking like an even match. Major new games like Star Wars Outlaws, Tekken 8, and Final Fantasy 7 Rebirth are on the docket, as are major new expansions for Destiny ...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AtCoder Library Practice Contest を ac-library-rs で解いてみた - データ構造編 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/hossie/items/084e7cf777fb023234f5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/hossie/items/084e7cf777fb023234f5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 15:30:15 GMT</pubDate>
+            <description><![CDATA[はじめに AtCoder 2023年8月の 新ジャッジコンテストから、Rust で ac-library-rs をそのまま use できるようになりました。C++ オリジナルの AtCoder Li…]]></description>
+            <content:encoded><![CDATA[はじめに AtCoder 2023年8月の 新ジャッジコンテストから、Rust で ac-library-rs をそのまま use できるようになりました。C++ オリジナルの AtCoder Li…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第２回U16愛知プログラミングコンテスト作品紹介シート (台紙).pptx | 勉強会スライドBot]]></title>
+            <link>https://docs.google.com/presentation/d/1EkA3iLpLvlDUDNLetOxPGLzqcKUB9IfO/preview</link>
+            <guid>https://docs.google.com/presentation/d/1EkA3iLpLvlDUDNLetOxPGLzqcKUB9IfO/preview</guid>
+            <pubDate>Sun, 24 Sep 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Laravel + Vue + Vite + Inertia.js Docker開発環境の構築 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ryosuke-horie/items/4ee6eb332a7041426a9c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ryosuke-horie/items/4ee6eb332a7041426a9c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 14:56:48 GMT</pubDate>
+            <description><![CDATA[はじめに この記事で構築するDocker環境は前回作った記事で構築した開発環境をDockerを利用して作り直したものになります。 前提条件は前回までと一緒です。 https://qiita.com/…]]></description>
+            <content:encoded><![CDATA[はじめに この記事で構築するDocker環境は前回作った記事で構築した開発環境をDockerを利用して作り直したものになります。 前提条件は前回までと一緒です。 https://qiita.com/…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Johnny Cage can never die | Polygon -  Gaming]]></title>
+            <link>https://www.polygon.com/23883703/mortal-kombat-1-johnny-cage-brief-history</link>
+            <guid>https://www.polygon.com/23883703/mortal-kombat-1-johnny-cage-brief-history</guid>
+            <pubDate>Sun, 24 Sep 2023 14:01:00 GMT</pubDate>
+            <description><![CDATA[Graphic: Matt Patches/Polygon | Source images: NetherRealm Studios  Mortal Kombat’s lovable asshole is the heart of Mortal Kombat  Johnny Cage has been kind of a big deal for Mortal Kombat from the be...]]></description>
+            <content:encoded><![CDATA[Graphic: Matt Patches/Polygon | Source images: NetherRealm Studios  Mortal Kombat’s lovable asshole is the heart of Mortal Kombat  Johnny Cage has been kind of a big deal for Mortal Kombat from the beginning. Scorpion and Sub-Zero may be the faces of the franchise, and Liu Kang its hero, but Johnny is critical to Mortal Kombat’s genesis. He was the very first character that series co-creators Ed Boon and John Tobias filmed for 1992’s Mortal Kombat. Part stand-in for and part homage to Jean-Claud...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[木製家具をメンテナンス！ オイルが適さない部品の潤滑にはKUREの速乾性潤滑スプレー | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/09/amazon-kure-dryfastlube.html</link>
+            <guid>https://www.gizmodo.jp/2023/09/amazon-kure-dryfastlube.html</guid>
+            <pubDate>Sun, 24 Sep 2023 12:45:00 GMT</pubDate>
+            <description><![CDATA[多くの人は、潤滑剤といえば粘度の高いオイルを連想するでしょう。しかし実際には、鍵穴など、高粘度のオイルを利用することで不具合を起こしてしまう部品もあります。「KURE（呉工業） ドライファストルブ」は、そんな部品にピッタリの潤滑剤。木材にも使えるので、持っているとかなり役立つアイテムですよ。]]></description>
+            <content:encoded><![CDATA[多くの人は、潤滑剤といえば粘度の高いオイルを連想するでしょう。しかし実際には、鍵穴など、高粘度のオイルを利用することで不具合を起こしてしまう部品もあります。「KURE（呉工業） ドライファストルブ」は、そんな部品にピッタリの潤滑剤。木材にも使えるので、持っているとかなり役立つアイテムですよ。]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[Androidのワイヤレスデバックの接続が不安定で悩んでいる | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/cozyk100/items/14d69783776191ded322?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/cozyk100/items/14d69783776191ded322?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 12:09:49 GMT</pubDate>
+            <description><![CDATA[Androidのワイヤレスデバック 以前にAndroidのワイヤレスデバックについてQiita記事を書きました https://qiita.com/cozyk100/items/dce05340d5…]]></description>
+            <content:encoded><![CDATA[Androidのワイヤレスデバック 以前にAndroidのワイヤレスデバックについてQiita記事を書きました https://qiita.com/cozyk100/items/dce05340d5…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[10年使えるパソコン、ほしい？ Chromebookが10年間アップデート可能に | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/09/google-chromebook-software-update-10-years-promise.html</link>
+            <guid>https://www.gizmodo.jp/2023/09/google-chromebook-software-update-10-years-promise.html</guid>
+            <pubDate>Sun, 24 Sep 2023 12:00:00 GMT</pubDate>
+            <description><![CDATA[Photo:FlorenceIon/GizmodoUS安心して10年使い続けられる！いま世は次々と新品に買い替えるより、1台のマシンを長く愛用するサステナブルな使い方が評価される時代となってきています。メンテで最新状態のまま8年使い続けられるスマホとか、そこまでではなくても、スマホOSのアップデート期間を延ばすトレンドが強まってますよね。そんな流れで、もし買ってから10年間も最新状態のまま使えるパ]]></description>
+            <content:encoded><![CDATA[Photo:FlorenceIon/GizmodoUS安心して10年使い続けられる！いま世は次々と新品に買い替えるより、1台のマシンを長く愛用するサステナブルな使い方が評価される時代となってきています。メンテで最新状態のまま8年使い続けられるスマホとか、そこまでではなくても、スマホOSのアップデート期間を延ばすトレンドが強まってますよね。そんな流れで、もし買ってから10年間も最新状態のまま使えるパ]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[TVを見ながらでもOK！ 手軽に使えるトレーニングボール「Core squeeze LITE」 | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/09/machi-ya-core_squeeze_lite-end-678108.html</link>
+            <guid>https://www.gizmodo.jp/2023/09/machi-ya-core_squeeze_lite-end-678108.html</guid>
+            <pubDate>Sun, 24 Sep 2023 11:45:00 GMT</pubDate>
+            <description><![CDATA[「Core squeeze LITE」は、手軽にながら筋トレにぴったりなトレーニングボール。押しつぶす動作で各部位に負荷をかける仕組み。2種類の硬さのウレタンを採用し、段階的に強度を変え筋トレ可能です。スペースの限られる自宅でも使いやすいので、トレーニングのハードルも下がりそうですね。]]></description>
+            <content:encoded><![CDATA[「Core squeeze LITE」は、手軽にながら筋トレにぴったりなトレーニングボール。押しつぶす動作で各部位に負荷をかける仕組み。2種類の硬さのウレタンを採用し、段階的に強度を変え筋トレ可能です。スペースの限られる自宅でも使いやすいので、トレーニングのハードルも下がりそうですね。]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[タクティクスRPG『鈴蘭の剣：この平和な世界のために』試遊レポート 「開発者は松野泰己ゲー好きすぎるでしょ」と言いたくなるような作品【TGS2023】 | IGN Japan games]]></title>
+            <link>https://jp.ign.com/sword-of-convallaria-for-this-world-of-peace/70780/preview/rpg-tgs2023</link>
+            <guid>https://jp.ign.com/sword-of-convallaria-for-this-world-of-peace/70780/preview/rpg-tgs2023</guid>
+            <pubDate>Sun, 24 Sep 2023 11:39:34 GMT</pubDate>
+            <description><![CDATA[アートディレクターと話ができたので、その内容もまじえて感想をお届けする タクティクスRPG『鈴蘭の剣：この平和な世界のために』をTGS2023で試遊した感想をお届けする。]]></description>
+            <content:encoded><![CDATA[アートディレクターと話ができたので、その内容もまじえて感想をお届けする タクティクスRPG『鈴蘭の剣：この平和な世界のために』をTGS2023で試遊した感想をお届けする。]]></content:encoded>
+            <category>Mobile</category>
+            <category>Android</category>
+            <category>鈴蘭の剣：この平和な世界のために</category>
+            <category>android</category>
+            <category>Preview</category>
+            <category>ゲーム</category>
+            <category>PC</category>
+            <category>iphone</category>
+        </item>
+        <item>
             <title><![CDATA[8in1マルチハブ付き！iPadやタブレットの角度や高さを自由に調整できる多機能スタンド「MagHub 3」 | ギズモード・ジャパン]]></title>
             <link>https://www.gizmodo.jp/2023/09/machi-ya-maghub3-start-696484.html</link>
             <guid>https://www.gizmodo.jp/2023/09/machi-ya-maghub3-start-696484.html</guid>
@@ -25,6 +242,22 @@
             <category>PRODUCT</category>
         </item>
         <item>
+            <title><![CDATA[上級者のための Hello World! ~C/C++ プログラミング~ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/KaoruHosokawa00/items/77122f99988e2f793b46?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/KaoruHosokawa00/items/77122f99988e2f793b46?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 10:38:20 GMT</pubDate>
+            <description><![CDATA[はじめに 今回は C/C++ を使ったプログラミングについて書き留めていく。コンパイラは gcc を、OS は Ubuntu22.04 を使う。なお文中でのコンピュータとは、一つのハードウェアの上で…]]></description>
+            <content:encoded><![CDATA[はじめに 今回は C/C++ を使ったプログラミングについて書き留めていく。コンパイラは gcc を、OS は Ubuntu22.04 を使う。なお文中でのコンピュータとは、一つのハードウェアの上で…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[NoSQLって何？ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/kenogi/items/4a278eb03f3a145df84c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/kenogi/items/4a278eb03f3a145df84c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 10:35:03 GMT</pubDate>
+            <description><![CDATA[chatGPTを使って勉強をしています。 個人アプリにNoSQLを使うことを決めたんですが、使ったことがRedisしかないので改めて勉強してみたいと思いました。 NoSQLって何？ NoSQL（"N…]]></description>
+            <content:encoded><![CDATA[chatGPTを使って勉強をしています。 個人アプリにNoSQLを使うことを決めたんですが、使ったことがRedisしかないので改めて勉強してみたいと思いました。 NoSQLって何？ NoSQL（"N…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[ミステリーが楽しめる…新世代ガチャの景品は玩具じゃなくてオーディオドラマ | ギズモード・ジャパン]]></title>
             <link>https://www.gizmodo.jp/2023/09/mobest-capsule-drama.html</link>
             <guid>https://www.gizmodo.jp/2023/09/mobest-capsule-drama.html</guid>
@@ -32,6 +265,30 @@
             <description><![CDATA[MOBESTからオーディオドラマが聴けるQRコードが入ったガチャ「カプセルドラマシリーズ・怪盗からの予告状」発売。]]></description>
             <content:encoded><![CDATA[MOBESTからオーディオドラマが聴けるQRコードが入ったガチャ「カプセルドラマシリーズ・怪盗からの予告状」発売。]]></content:encoded>
             <category></category>
+        </item>
+        <item>
+            <title><![CDATA[【個人開発】LINEMessagingAPIを使って無差別に飯テロできるアプリを作りました | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/suzuyu0115/items/6ca6ce071d0379467459?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/suzuyu0115/items/6ca6ce071d0379467459?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 10:20:41 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、すずゆーと申します。 突然ですが皆様は飯テロをしたことはありますでしょうか。 私はSNSに美味しいご飯をアップするのが大好きです。 アップした写真に対してフォロワーさんからの反…]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは、すずゆーと申します。 突然ですが皆様は飯テロをしたことはありますでしょうか。 私はSNSに美味しいご飯をアップするのが大好きです。 アップした写真に対してフォロワーさんからの反…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ServerlessDays Tokyo 2023 セッション資料まとめ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/takanorig/items/c7f3c3a38ee5010610d1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/takanorig/items/c7f3c3a38ee5010610d1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 09:46:20 GMT</pubDate>
+            <description><![CDATA[2023/09/23（土）に開催された、ServerlessDays Tokyo 2023 に参加してきました。 ServerlessDays Tokyo は、4年ぶりのオフライン開催（＠日比谷フォ…]]></description>
+            <content:encoded><![CDATA[2023/09/23（土）に開催された、ServerlessDays Tokyo 2023 に参加してきました。 ServerlessDays Tokyo は、4年ぶりのオフライン開催（＠日比谷フォ…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GAS で公開するウェブページをスマホ画面に対応させる | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/tinymouse/items/76e1a1ae94e4d9732d27?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/tinymouse/items/76e1a1ae94e4d9732d27?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 09:00:08 GMT</pubDate>
+            <description><![CDATA[GAS でウェブページを公開する Google Apps Script (GAS) のコードでウェブページを公開することができます。 HTML サービス: HTML の作成と配信 | Apps …]]></description>
+            <content:encoded><![CDATA[GAS でウェブページを公開する Google Apps Script (GAS) のコードでウェブページを公開することができます。 HTML サービス: HTML の作成と配信 | Apps …]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[映画『ハンガー・ゲーム』最新作は、独裁者になる前のスノー大統領を描いた前日譚 | ギズモード・ジャパン]]></title>
@@ -82,15 +339,15 @@
             <pubDate>Sun, 24 Sep 2023 07:47:44 GMT</pubDate>
             <description><![CDATA[サイコロで世界に出る！ 6カ月というものすごく短いプレイではあったが、桃鉄おなじみのおもしろさは健在で、発売が楽しみだ。]]></description>
             <content:encoded><![CDATA[サイコロで世界に出る！ 6カ月というものすごく短いプレイではあったが、桃鉄おなじみのおもしろさは健在で、発売が楽しみだ。]]></content:encoded>
-            <category>Preview</category>
-            <category>Nintendo Switch（有機ELモデル）</category>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>Nintendo Switch</category>
             <category>桃太郎電鉄ワールド ～地球は希望でまわってる！～</category>
             <category>nintendo-switch</category>
-            <category>東京ゲームショウ2023</category>
+            <category>Nintendo Switch（有機ELモデル）</category>
+            <category>Preview</category>
+            <category>東京ゲームショウ</category>
             <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>Nintendo Switch</category>
+            <category>東京ゲームショウ2023</category>
         </item>
         <item>
             <title><![CDATA[これぞ究極の手ぶらTシャツ！大容量5ポケットに外出時の必需品を収納できる「THE PERFECT 2WAY TEE＋」 | ギズモード・ジャパン]]></title>
@@ -134,16 +391,16 @@
             <pubDate>Sun, 24 Sep 2023 06:08:48 GMT</pubDate>
             <description><![CDATA[互いに「攻め合う」アグレッシブな内容に 新システムの「ヒートシステム」などをひっさげての登場となる『鉄拳8』。TGSで試遊した。]]></description>
             <content:encoded><![CDATA[互いに「攻め合う」アグレッシブな内容に 新システムの「ヒートシステム」などをひっさげての登場となる『鉄拳8』。TGSで試遊した。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
+            <category>鉄拳8</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>鉄拳8</category>
+            <category>東京ゲームショウ</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
             <category>東京ゲームショウ2023</category>
             <category>Amazonおすすめ</category>
-            <category>Xbox Series X</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[AWS Control Towerを既存のAWS Organizations運用に導入する際の考慮点 | エンジニアブログ | iret.media]]></title>
@@ -187,19 +444,19 @@
             <pubDate>Sun, 24 Sep 2023 05:06:49 GMT</pubDate>
             <description><![CDATA[ボスの攻撃を耐えきったあとの反撃に達成感あり 『イースX -NORDICS-』の東京ゲームショウ2023試遊レポートをお届けする。]]></description>
             <content:encoded><![CDATA[ボスの攻撃を耐えきったあとの反撃に達成感あり 『イースX -NORDICS-』の東京ゲームショウ2023試遊レポートをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>Preview</category>
-            <category>PlayStation 4</category>
-            <category>Nintendo Switch（有機ELモデル）</category>
-            <category>イースⅩ -NORDICS-</category>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>Nintendo Switch</category>
             <category>nintendo-switch</category>
-            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 5</category>
+            <category>Nintendo Switch（有機ELモデル）</category>
             <category>ps4</category>
+            <category>東京ゲームショウ</category>
             <category>任天堂</category>
+            <category>Preview</category>
+            <category>ゲーム</category>
+            <category>イースⅩ -NORDICS-</category>
+            <category>Nintendo Switch</category>
+            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[あの「タルコフ」がスピーディーなチーム対戦FPSに！ハードコアさはそのままな『Escape from Tarkov: Arena』試遊レポート【TGS2023】 | IGN Japan games]]></title>
@@ -208,12 +465,20 @@
             <pubDate>Sun, 24 Sep 2023 04:27:41 GMT</pubDate>
             <description><![CDATA[気軽に遊べるゲームになりつつ、ハードコアな「タルコフ」らしさが残っている TGS2023に出展された、『Escape from Tarkov: Arena』の試遊レポートをお届けする。]]></description>
             <content:encoded><![CDATA[気軽に遊べるゲームになりつつ、ハードコアな「タルコフ」らしさが残っている TGS2023に出展された、『Escape from Tarkov: Arena』の試遊レポートをお届けする。]]></content:encoded>
-            <category>Escape from Tarkov Arena</category>
             <category>Preview</category>
-            <category>ゲーム</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>PC</category>
+            <category>Escape from Tarkov Arena</category>
             <category>東京ゲームショウ2023</category>
+        </item>
+        <item>
+            <title><![CDATA[『MSX0 Stack』の操作方法 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ht_deko/items/b284cb93ac34e2b77d9a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ht_deko/items/b284cb93ac34e2b77d9a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 04:16:15 GMT</pubDate>
+            <description><![CDATA[はじめに 『MSX0』の操作方法についてです。  See also:  MSX0 Stackで伝説の 8 ビット MSX パソコンが甦り、IoT 用コンピュータに (CAMPFIRE) MSX (Wik…]]></description>
+            <content:encoded><![CDATA[はじめに 『MSX0』の操作方法についてです。  See also:  MSX0 Stackで伝説の 8 ビット MSX パソコンが甦り、IoT 用コンピュータに (CAMPFIRE) MSX (Wik…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[物語の見え方が大きく変わることを実感する『ファイナルファンタジーVII リバース』試遊レポート【セフィロス共闘編】 | IGN Japan games]]></title>
@@ -222,13 +487,13 @@
             <pubDate>Sun, 24 Sep 2023 04:15:04 GMT</pubDate>
             <description><![CDATA[フォトリアルなグラフィックによって付け足された、セフィロスのキャラクター性 今回のリメイクでは単なる敵以上の存在であることになるのだろうと思わせる、そんな体験となった。]]></description>
             <content:encoded><![CDATA[フォトリアルなグラフィックによって付け足された、セフィロスのキャラクター性 今回のリメイクでは単なる敵以上の存在であることになるのだろうと思わせる、そんな体験となった。]]></content:encoded>
-            <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>ゲーム</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>東京ゲームショウ2023</category>
             <category>ファイナルファンタジーVII リバース</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[チョコボに乗って探索＆お宝探し！『ファイナルファンタジーVII リバース』試遊レポート【探索編】 | IGN Japan games]]></title>
@@ -237,13 +502,13 @@
             <pubDate>Sun, 24 Sep 2023 04:14:55 GMT</pubDate>
             <description><![CDATA[より立体的に表現されたフィールドを探索 オープンワールドの要素を取り入れた“新しい探索”のプレイレポートをお届けする。]]></description>
             <content:encoded><![CDATA[より立体的に表現されたフィールドを探索 オープンワールドの要素を取り入れた“新しい探索”のプレイレポートをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>ゲーム</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>東京ゲームショウ2023</category>
             <category>ファイナルファンタジーVII リバース</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[PhpStormで明日から使えるおすすめプラグイン | エンジニアブログ | iret.media]]></title>
@@ -314,6 +579,14 @@
             <category>画像処理</category>
         </item>
         <item>
+            <title><![CDATA[Youtubeのチャンネル別に最新動画を全部見たい | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ooba1192/items/ac53c46f53f2fc05873d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ooba1192/items/ac53c46f53f2fc05873d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 02:55:55 GMT</pubDate>
+            <description><![CDATA[動画の自動再生が歯抜け再生されるのがイヤ 最近、といっても１年位前からだがYoutubeを頻繁に見始めた。 気に入ったチャンネルが１０個くらいあってそれを巡回しているだけなのだが、少し間が開くとチャ…]]></description>
+            <content:encoded><![CDATA[動画の自動再生が歯抜け再生されるのがイヤ 最近、といっても１年位前からだがYoutubeを頻繁に見始めた。 気に入ったチャンネルが１０個くらいあってそれを巡回しているだけなのだが、少し間が開くとチャ…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[iPhone 15用の新素材「ファインウーブン」ケースを分解。6ミクロン繊維の極細綾織、シミには注意 | TechnoEdge]]></title>
             <link>https://www.techno-edge.net/article/2023/09/24/1967.html</link>
             <guid>https://www.techno-edge.net/article/2023/09/24/1967.html</guid>
@@ -322,16 +595,24 @@
             <content:encoded><![CDATA[アップルはiPhone 15シリーズと同時に、新素材の「ファインウーブン」を使ったアクセサリーを発売しました。2030年までに全アップル製品をカーボンニュートラルにするとの目標に合わせて、従来のレザー素材と入れ替えたかっこうです。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[ectoで自動生成したSQLでカラム名が重複した際に気になった | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/kitune330/items/6ee7205bf52d0988d156?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/kitune330/items/6ee7205bf52d0988d156?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 02:34:58 GMT</pubDate>
+            <description><![CDATA[困ったこと ecto で同じテーブルをjoinした際に、カラム名が被るので気になった (実害はなし) 原因 同じテーブルなのでしょうがない 対応 fragmentで別名をつけるのが簡単そう from…]]></description>
+            <content:encoded><![CDATA[困ったこと ecto で同じテーブルをjoinした際に、カラム名が被るので気になった (実害はなし) 原因 同じテーブルなのでしょうがない 対応 fragmentで別名をつけるのが簡単そう from…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[パリィのような居合斬りがめちゃくちゃ気持ちいい！和風ローグライクアクション『百剣討妖伝綺譚』をプレイ【TGS2023】 | IGN Japan games]]></title>
             <link>https://jp.ign.com/yasha-legends-of-the-demon-blade/70761/preview/tgs2023</link>
             <guid>https://jp.ign.com/yasha-legends-of-the-demon-blade/70761/preview/tgs2023</guid>
             <pubDate>Sun, 24 Sep 2023 02:08:27 GMT</pubDate>
             <description><![CDATA[台湾産の和風『Hades』ライク？ 台湾産の和風ローグライクアクション『百剣討妖伝綺譚』を試遊した感想をお届けする。]]></description>
             <content:encoded><![CDATA[台湾産の和風『Hades』ライク？ 台湾産の和風ローグライクアクション『百剣討妖伝綺譚』を試遊した感想をお届けする。]]></content:encoded>
-            <category>Preview</category>
             <category>百剣討妖伝綺譚</category>
-            <category>ゲーム</category>
+            <category>Preview</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>PC</category>
             <category>東京ゲームショウ2023</category>
         </item>
@@ -342,14 +623,14 @@
             <pubDate>Sun, 24 Sep 2023 02:04:31 GMT</pubDate>
             <description><![CDATA[こだわりを見せるガチガチのアドベンチャー スタニスワフ・レムの小説を原作とするアドベンチャーゲーム『インヴィンシブル』をTGS2023で先行プレイ。きちんとした日本語化が行われているのが嬉しい。]]></description>
             <content:encoded><![CDATA[こだわりを見せるガチガチのアドベンチャー スタニスワフ・レムの小説を原作とするアドベンチャーゲーム『インヴィンシブル』をTGS2023で先行プレイ。きちんとした日本語化が行われているのが嬉しい。]]></content:encoded>
-            <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
-            <category>The Invincible</category>
             <category>Preview</category>
+            <category>東京ゲームショウ</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
             <category>東京ゲームショウ2023</category>
+            <category>Sony PlayStation</category>
+            <category>The Invincible</category>
         </item>
         <item>
             <title><![CDATA[波がなくても波に乗る！ Cyrusherの電動サーフボードが楽しそう | ギズモード・ジャパン]]></title>
@@ -384,17 +665,17 @@
             <pubDate>Sun, 24 Sep 2023 01:38:50 GMT</pubDate>
             <description><![CDATA[師である「ストV」のF.A.N.G.を彷彿とさせる技も リートファイター6』の新規追加キャラクターであるA.K.I.を試遊する機会があったので、軽くインプレッションを述べておきたい。]]></description>
             <content:encoded><![CDATA[師である「ストV」のF.A.N.G.を彷彿とさせる技も リートファイター6』の新規追加キャラクターであるA.K.I.を試遊する機会があったので、軽くインプレッションを述べておきたい。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
-            <category>ストリートファイター6</category>
             <category>Preview</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
             <category>東京ゲームショウ2023</category>
-            <category>ps4</category>
-            <category>Xbox Series X</category>
+            <category>PlayStation 4</category>
+            <category>ストリートファイター6</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[プレイアブル新キャラクターのエルはチャージ後の攻撃が強力！『ペルソナ５ タクティカ』試遊レポート【TGS2023】 | IGN Japan games]]></title>
@@ -403,21 +684,29 @@
             <pubDate>Sun, 24 Sep 2023 01:36:06 GMT</pubDate>
             <description><![CDATA[新たな総攻撃「TRIBANGLE」も発動可能 『ペルソナ５ タクティカ』の東京ゲームショウ2023試遊レポートをお届けする。]]></description>
             <content:encoded><![CDATA[新たな総攻撃「TRIBANGLE」も発動可能 『ペルソナ５ タクティカ』の東京ゲームショウ2023試遊レポートをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>ペルソナ5 タクティカ</category>
-            <category>PlayStation 4</category>
-            <category>xbox-one</category>
-            <category>Preview</category>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>Nintendo Switch</category>
-            <category>nintendo-switch</category>
-            <category>東京ゲームショウ2023</category>
-            <category>ps4</category>
-            <category>任天堂</category>
             <category>Xbox Series X</category>
+            <category>ペルソナ5 タクティカ</category>
+            <category>nintendo-switch</category>
+            <category>PlayStation 5</category>
+            <category>Preview</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
+            <category>任天堂</category>
+            <category>xbox-one</category>
+            <category>ゲーム</category>
             <category>Xbox One</category>
+            <category>Nintendo Switch</category>
+            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
+        </item>
+        <item>
+            <title><![CDATA[データ分析の基礎 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/wooooo/items/24d1a4d6be5ab7bf023f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/wooooo/items/24d1a4d6be5ab7bf023f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Sun, 24 Sep 2023 01:04:40 GMT</pubDate>
+            <description><![CDATA[1. データ分析の概要と目的 データ分析とは、大量のデータから有用な情報や知識を抽出するプロセスです。 このプロセスには、データの収集、前処理、探索、モデリング、評価、そして最終的な知識の抽出が含ま…]]></description>
+            <content:encoded><![CDATA[1. データ分析の概要と目的 データ分析とは、大量のデータから有用な情報や知識を抽出するプロセスです。 このプロセスには、データの収集、前処理、探索、モデリング、評価、そして最終的な知識の抽出が含ま…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[卓上グリルやホットプレートの油煙を効果的に吸い込んでくれる「卓上レンジフード」 | ギズモード・ジャパン]]></title>
@@ -541,13 +830,13 @@
             <pubDate>Sat, 23 Sep 2023 15:00:46 GMT</pubDate>
             <description><![CDATA[獣人族は初代作から構想にあったが、当時は毛並みの表現で処理が重くなるため断念 『ドラゴンズドグマ 2』の開発者インタビューをお届けする。]]></description>
             <content:encoded><![CDATA[獣人族は初代作から構想にあったが、当時は毛並みの表現で処理が重くなるため断念 『ドラゴンズドグマ 2』の開発者インタビューをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
+            <category>Review</category>
             <category>PlayStation 5</category>
-            <category>ドラゴンズドグマ 2</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Review</category>
-            <category>Xbox Series X</category>
+            <category>ドラゴンズドグマ 2</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[即座に連携してくれる仲間との共闘が醍醐味！オープンワールドアクションRPG『ドラゴンズドグマ 2』を約1時間プレイした感想！ | IGN Japan games]]></title>
@@ -556,15 +845,15 @@
             <pubDate>Sat, 23 Sep 2023 15:00:40 GMT</pubDate>
             <description><![CDATA[美しく発見に満ちたオープンワールドアクションRPG 『ドラゴンズドグマ 2』を約1時間プレイしたレポートをお届け。]]></description>
             <content:encoded><![CDATA[美しく発見に満ちたオープンワールドアクションRPG 『ドラゴンズドグマ 2』を約1時間プレイしたレポートをお届け。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
-            <category>ドラゴンズドグマ 2</category>
             <category>Preview</category>
+            <category>東京ゲームショウ</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
             <category>東京ゲームショウ2023</category>
-            <category>Xbox Series X</category>
+            <category>ドラゴンズドグマ 2</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[Cyberpunk 2077 is 40% off before next week’s launch of Phantom Liberty | Polygon -  Gaming]]></title>
@@ -573,6 +862,18 @@
             <pubDate>Sat, 23 Sep 2023 15:00:00 GMT</pubDate>
             <description><![CDATA[Image: CD Projekt Red/CD Projekt  Our weekend deals will reintroduce you to the streets of Night City  Cyberpunk 2077 is selling for a sweet price ahead of the Sep. 25 launch of its awesome expansion,...]]></description>
             <content:encoded><![CDATA[Image: CD Projekt Red/CD Projekt  Our weekend deals will reintroduce you to the streets of Night City  Cyberpunk 2077 is selling for a sweet price ahead of the Sep. 25 launch of its awesome expansion, Phantom Liberty, making this weekend a prime opportunity to see what CD Projekt Red has improved with its long-awaited 2.0 patch. You can also find this and other discounts on titles that have recently received a fresh coat of paint below. Just in case you’re new to our weekend coverage, this is Po...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[モニタリングでパフォーマンス改善入門(shimizuAsami) | 勉強会スライドBot]]></title>
+            <link>https://docs.google.com/presentation/d/1m4b8EYs4jrXEjNIFoelInZMSxZHCFArBUkcZz1zzRQY/preview</link>
+            <guid>https://docs.google.com/presentation/d/1m4b8EYs4jrXEjNIFoelInZMSxZHCFArBUkcZz1zzRQY/preview</guid>
+            <pubDate>Sat, 23 Sep 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jetpack Glanceではじめる Material 3のColor (mochico) | 勉強会スライドBot]]></title>
+            <link>https://speakerdeck.com/mochico/jetpack-glancedehazimeru-material-3nocolor</link>
+            <guid>https://speakerdeck.com/mochico/jetpack-glancedehazimeru-material-3nocolor</guid>
+            <pubDate>Sat, 23 Sep 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[LLM Fine-Tuning (東大松尾研LLM講座 Day5資料) (Shota Nakasuji) | 勉強会スライドBot]]></title>
@@ -679,15 +980,6 @@
             <category>Machine Learning</category>
         </item>
         <item>
-            <title><![CDATA[ワインの川が流れる村 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/09/destilaria-levira.html</link>
-            <guid>https://www.gizmodo.jp/2023/09/destilaria-levira.html</guid>
-            <pubDate>Sat, 23 Sep 2023 12:00:00 GMT</pubDate>
-            <description><![CDATA[ゴオオオォォォ。 Screenshot:TheTelegraph/YouTube紛れもない赤ワイン。ワイン余り気味の欧州でワインの樽が割れ、ポルトガルの村がワインの洪水に見舞われる事態となりました。割れたのは醸造元DestilariaLevira社が保有する巨大なタンク2基。PedroCarvalhoCEO曰く、「構造上の問題」で1基目のタンクの上が吹っ飛び、噴き出したワインの勢いで2基目も決壊し]]></description>
-            <content:encoded><![CDATA[ゴオオオォォォ。 Screenshot:TheTelegraph/YouTube紛れもない赤ワイン。ワイン余り気味の欧州でワインの樽が割れ、ポルトガルの村がワインの洪水に見舞われる事態となりました。割れたのは醸造元DestilariaLevira社が保有する巨大なタンク2基。PedroCarvalhoCEO曰く、「構造上の問題」で1基目のタンクの上が吹っ飛び、噴き出したワインの勢いで2基目も決壊し]]></content:encoded>
-            <category>NEWS</category>
-        </item>
-        <item>
             <title><![CDATA[tfcmtとtfsecを導入して、terraformのCIツールを充実させよう | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/bkend_2/items/95b3082f7216788f3d20?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/bkend_2/items/95b3082f7216788f3d20?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -696,28 +988,10 @@
             <content:encoded><![CDATA[はじめに tfcmtを導入すると、プルリク内にterraform planの結果を表示することができます。 またtfsecを導入することで、作成するリソースがセキュリティやベストプラクティスの観点か…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[【Amazonタイムセール祭り】買うもの悩んでいる人はこれだけは見てって！｢なんぼあってもいい｣系だけ集めたよ | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/09/amazon-timesale-fes-2023-0923-3.html</link>
-            <guid>https://www.gizmodo.jp/2023/09/amazon-timesale-fes-2023-0923-3.html</guid>
-            <pubDate>Sat, 23 Sep 2023 11:45:00 GMT</pubDate>
-            <description><![CDATA[Amazon（アマゾン）では、2023年9月22日9時から9月24日23時59分まで「Amazon Fashion×秋のお出かけタイムセール祭り」を開催中。  現在、バッファローのMicroSDカードやエネループ、グンゼのインナーシャツなど、自宅にストックしておきたい常備アイテムがお買い得に登場しています。]]></description>
-            <content:encoded><![CDATA[Amazon（アマゾン）では、2023年9月22日9時から9月24日23時59分まで「Amazon Fashion×秋のお出かけタイムセール祭り」を開催中。  現在、バッファローのMicroSDカードやエネループ、グンゼのインナーシャツなど、自宅にストックしておきたい常備アイテムがお買い得に登場しています。]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
             <title><![CDATA[【ヨビノリたくみvs河野玄斗】究極のディベート対決 | 予備校のノリで学ぶ「大学の数学・物理」]]></title>
             <link>https://www.youtube.com/watch?v=ch21hVppCB0</link>
             <guid>https://www.youtube.com/watch?v=ch21hVppCB0</guid>
             <pubDate>Sat, 23 Sep 2023 11:30:21 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[最強ノイキャンの後継機「Bose QuietComfort Ultra Earbuds」が発表 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/09/bose-quietcomfort-ultra-earbuds.html</link>
-            <guid>https://www.gizmodo.jp/2023/09/bose-quietcomfort-ultra-earbuds.html</guid>
-            <pubDate>Sat, 23 Sep 2023 11:00:00 GMT</pubDate>
-            <description><![CDATA[Boseから、新しいワイヤレスイヤホン「Bose QuietComfort Ultra Earbuds」が発表されました。Bose、キミもウルトラとか言うようになったんか…！]]></description>
-            <content:encoded><![CDATA[Boseから、新しいワイヤレスイヤホン「Bose QuietComfort Ultra Earbuds」が発表されました。Bose、キミもウルトラとか言うようになったんか…！]]></content:encoded>
-            <category></category>
         </item>
         <item>
             <title><![CDATA[Unity、開発者の猛反発受け価格体系を改訂 | TechnoEdge]]></title>
@@ -728,25 +1002,17 @@
             <content:encoded><![CDATA[先日発表したゲームエンジンの新料金体系により、ゲーム開発者らからの激しい抗議に遭ったUnityが、このエンジンの価格設定を再び変更しました。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[[Swift] PRをマージした時にSwiftFormatを実行するGithub Actionsを作成する | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/Ryu0118/items/9788ea4a3e7ed73c7a8d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/Ryu0118/items/9788ea4a3e7ed73c7a8d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 10:30:21 GMT</pubDate>
-            <description><![CDATA[PRがmainにマージされた時にSwiftFormatを実行したら思ったより便利だったので、備忘録として残しておきます。 実装 SwiftFormatを実行するためにMintを使用しています。 na…]]></description>
-            <content:encoded><![CDATA[PRがmainにマージされた時にSwiftFormatを実行したら思ったより便利だったので、備忘録として残しておきます。 実装 SwiftFormatを実行するためにMintを使用しています。 na…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Xbox Series Xの着せ替えカバー「Xbox Series X Console Wraps」が日本でも展開へ | IGN Japan games]]></title>
             <link>https://jp.ign.com/xbox-series-x/70750/news/xbox-series-xxbox-series-x-console-wraps</link>
             <guid>https://jp.ign.com/xbox-series-x/70750/news/xbox-series-xxbox-series-x-console-wraps</guid>
             <pubDate>Sat, 23 Sep 2023 10:16:46 GMT</pubDate>
             <description><![CDATA[時期は明言されなかったが、「いつか必ず」日本でも展開するとのこと Xbox Series Xの着せ替えカバー「Xbox Series X Console Wraps」が日本でも展開予定であることが明らかになった。]]></description>
             <content:encoded><![CDATA[時期は明言されなかったが、「いつか必ず」日本でも展開するとのこと Xbox Series Xの着せ替えカバー「Xbox Series X Console Wraps」が日本でも展開予定であることが明らかになった。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>東京ゲームショウ2023</category>
-            <category>Phil Spencer</category>
             <category>Xbox Series X</category>
+            <category>Phil Spencer</category>
+            <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
+            <category>東京ゲームショウ2023</category>
             <category>News</category>
         </item>
         <item>
@@ -764,15 +1030,15 @@
             <pubDate>Sat, 23 Sep 2023 09:47:47 GMT</pubDate>
             <description><![CDATA[いかん、雨が降ってきたな ファンの間では、アニメのキャラクターがナイトシティのどこかに隠れているのではないかという説も浮上している。]]></description>
             <content:encoded><![CDATA[いかん、雨が降ってきたな ファンの間では、アニメのキャラクターがナイトシティのどこかに隠れているのではないかという説も浮上している。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>アニメ</category>
-            <category>サイバーパンク エッジランナーズ</category>
-            <category>ゲーム</category>
-            <category>エンタメ</category>
-            <category>PC</category>
-            <category>サイバーパンク2077</category>
             <category>Xbox Series X</category>
+            <category>PlayStation 5</category>
+            <category>サイバーパンク エッジランナーズ</category>
+            <category>アニメ</category>
+            <category>ゲーム</category>
+            <category>PC</category>
+            <category>エンタメ</category>
+            <category>サイバーパンク2077</category>
+            <category>Sony PlayStation</category>
             <category>News</category>
         </item>
         <item>
@@ -795,10 +1061,10 @@
             <pubDate>Sat, 23 Sep 2023 09:12:48 GMT</pubDate>
             <description><![CDATA[宇宙から惑星へ、ファストトラベルもロードもなし 『Starfield』で、『No Man's Sky』のようにシームレスに移動できない点に不満を持っているプレイヤーに朗報だ。]]></description>
             <content:encoded><![CDATA[宇宙から惑星へ、ファストトラベルもロードもなし 『Starfield』で、『No Man's Sky』のようにシームレスに移動できない点に不満を持っているプレイヤーに朗報だ。]]></content:encoded>
-            <category>Starfield</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Xbox Series X</category>
+            <category>Starfield</category>
             <category>News</category>
         </item>
         <item>
@@ -810,37 +1076,12 @@
             <content:encoded><![CDATA[こんにちは。サイボウズ株式会社 生産性向上チームの平木場です。 僕たち生産性向上チームは毎週水曜日に Productivity Weekly という「1 週間の間に発見された開発者の生産性向上に関するネタを共有する会」を社内で開催しています。 本記事はその時のネタをまとめたものです。 2023-01-25 号から、基本的に隔週で連載することとしました。たまに単独でも投稿するかもしれません。 今週は 2023-09-13, 2023-09-06 合併号です。 今回が第 124 回目です。過去の記事はこちら。 ! 2023-05-10 号から、実験的に生産性向上チームの他メンバーにいくつかの...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[絶対にPixel Watchを割るわけにはいかない。絶対に、絶対にだ | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/09/google-wont-offer-pixel-watch-parts-for-repairs.html</link>
-            <guid>https://www.gizmodo.jp/2023/09/google-wont-offer-pixel-watch-parts-for-repairs.html</guid>
-            <pubDate>Sat, 23 Sep 2023 09:00:00 GMT</pubDate>
-            <description><![CDATA[Googleは、Pixelスマートフォンなどに向けて、自分でも分解修理できるキットやパーツの提供を開始しています。ところが、Pixel Watchについて、当面は対応することはないと明かしました。]]></description>
-            <content:encoded><![CDATA[Googleは、Pixelスマートフォンなどに向けて、自分でも分解修理できるキットやパーツの提供を開始しています。ところが、Pixel Watchについて、当面は対応することはないと明かしました。]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
-            <title><![CDATA[【初学者】API？パース？なにそれ？おいしいの？ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/kumaryoya/items/eafbc5063e60e3aaa4d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/kumaryoya/items/eafbc5063e60e3aaa4d5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 08:59:25 GMT</pubDate>
-            <description><![CDATA[はじめに お疲れさまです。 おおくまです。 今回は、個人的に私が苦手意識を持っている「API」と「パース」と向き合いました。 Railsでミニアプリを作りながら、理解を深めてみました。 環境 Rub…]]></description>
-            <content:encoded><![CDATA[はじめに お疲れさまです。 おおくまです。 今回は、個人的に私が苦手意識を持っている「API」と「パース」と向き合いました。 Railsでミニアプリを作りながら、理解を深めてみました。 環境 Rub…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Serverless Days Tokyo 2023に参加してきました！（後編） | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/minorun365/items/3ea48a1bbb94f5b1d020?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/minorun365/items/3ea48a1bbb94f5b1d020?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
             <pubDate>Sat, 23 Sep 2023 08:20:18 GMT</pubDate>
             <description><![CDATA[日比谷のクラスメソッド社さん会場に100名以上が集結するオフラインイベント、午後編です！ https://tokyo.serverlessdays.io/ ※リアルタイムの走り書きのため、誤り等あれ…]]></description>
             <content:encoded><![CDATA[日比谷のクラスメソッド社さん会場に100名以上が集結するオフラインイベント、午後編です！ https://tokyo.serverlessdays.io/ ※リアルタイムの走り書きのため、誤り等あれ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[三角図表（ternary diagram）を描く | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/WolfMoon/items/0c90ec9f7645129859b7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/WolfMoon/items/0c90ec9f7645129859b7?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 08:15:42 GMT</pubDate>
-            <description><![CDATA[以下の文献に三角図表が使われていたので，さほど使うこともないので放っておいたのだが，今回一念発起で描いてみた。 当然，Pythonで書かれたプログラムは山ほどある。車輪の再発明である。自分で書くと，…]]></description>
-            <content:encoded><![CDATA[以下の文献に三角図表が使われていたので，さほど使うこともないので放っておいたのだが，今回一念発起で描いてみた。 当然，Pythonで書かれたプログラムは山ほどある。車輪の再発明である。自分で書くと，…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【iretテクニカルアンバサダーブログリレー】 私たち/俺たちの活動実績（廣山 豊） | エンジニアブログ | iret.media]]></title>
@@ -856,28 +1097,19 @@
             <category>人事</category>
         </item>
         <item>
-            <title><![CDATA[お値段超絶なライトセーバー型時計。地球の自転＆公転距離も表示 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/09/urwerk-space-time-blade.html</link>
-            <guid>https://www.gizmodo.jp/2023/09/urwerk-space-time-blade.html</guid>
-            <pubDate>Sat, 23 Sep 2023 08:00:00 GMT</pubDate>
-            <description><![CDATA[スイスの超高級腕時計メーカーURWERK（ウルベルク）が『スター・ウォーズ』の武器ライトセーバーそっくりな縦型の置き時計「SPACE-TIME BLADE」発売。]]></description>
-            <content:encoded><![CDATA[スイスの超高級腕時計メーカーURWERK（ウルベルク）が『スター・ウォーズ』の武器ライトセーバーそっくりな縦型の置き時計「SPACE-TIME BLADE」発売。]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
             <title><![CDATA[『ゼルダの伝説 ティアーズ オブ ザ キングダム』限定版セットなどがAmazonにて「在庫処分セール」の対象に 最大38%オフ | IGN Japan games]]></title>
             <link>https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/70744/news/amazon-38</link>
             <guid>https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/70744/news/amazon-38</guid>
             <pubDate>Sat, 23 Sep 2023 07:51:03 GMT</pubDate>
             <description><![CDATA[発売前話題になっていた「ステンレスカトラリースプーン」も付属する Amazonにて『ゼルダの伝説 ティアーズ オブ ザ キングダム』限定版セットなどが、「在庫処分セール」の対象となっている。]]></description>
             <content:encoded><![CDATA[発売前話題になっていた「ステンレスカトラリースプーン」も付属する Amazonにて『ゼルダの伝説 ティアーズ オブ ザ キングダム』限定版セットなどが、「在庫処分セール」の対象となっている。]]></content:encoded>
+            <category>セール情報</category>
+            <category>nintendo-switch</category>
+            <category>任天堂</category>
             <category>ゲーム</category>
             <category>Nintendo Switch</category>
             <category>ゼルダの伝説 ティアーズ オブ ザ キングダム</category>
-            <category>セール情報</category>
-            <category>nintendo-switch</category>
             <category>Amazonおすすめ</category>
-            <category>任天堂</category>
             <category>News</category>
         </item>
         <item>
@@ -887,9 +1119,9 @@
             <pubDate>Sat, 23 Sep 2023 07:47:44 GMT</pubDate>
             <description><![CDATA[CMAが結論を出す マイクロソフトによるActivision Blizzard買収は、ついに英国が買収を承認する意向を示したことにより、2023年10月に完了することになりそうだ。]]></description>
             <content:encoded><![CDATA[CMAが結論を出す マイクロソフトによるActivision Blizzard買収は、ついに英国が買収を承認する意向を示したことにより、2023年10月に完了することになりそうだ。]]></content:encoded>
-            <category>Xbox</category>
-            <category>ゲーム</category>
             <category>Policy</category>
+            <category>ゲーム</category>
+            <category>Xbox</category>
             <category>News</category>
         </item>
         <item>
@@ -899,32 +1131,16 @@
             <pubDate>Sat, 23 Sep 2023 07:45:14 GMT</pubDate>
             <description><![CDATA[アクションRPGとしても楽しめそうな一作 鳥山明の漫画が原作となるゲーム版『SAND LAND』をプレイ。アクションRPGとしての遊びの幅も要チェック。]]></description>
             <content:encoded><![CDATA[アクションRPGとしても楽しめそうな一作 鳥山明の漫画が原作となるゲーム版『SAND LAND』をプレイ。アクションRPGとしての遊びの幅も要チェック。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>ゲーム版『SAND LAND』</category>
-            <category>Preview</category>
-            <category>PlayStation 4</category>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>東京ゲームショウ2023</category>
-            <category>ps4</category>
             <category>Xbox Series X</category>
-        </item>
-        <item>
-            <title><![CDATA[Rails Tutorial 第8章 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/ryoheitakahashi/items/412efdf6be506d3ad74e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/ryoheitakahashi/items/412efdf6be506d3ad74e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 07:35:48 GMT</pubDate>
-            <description><![CDATA[演習1 1, GET login_pathとPOST login_pathとの違いを説明できますか? 少し考えてみましょう。 まずはGETとPOSTの違いを知る必要があります 分かりやすい話としては…]]></description>
-            <content:encoded><![CDATA[演習1 1, GET login_pathとPOST login_pathとの違いを説明できますか? 少し考えてみましょう。 まずはGETとPOSTの違いを知る必要があります 分かりやすい話としては…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[JSでPNGファイルを「直接」生成する | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/McbeEringi/items/9928a9bc05798924e68c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/McbeEringi/items/9928a9bc05798924e68c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 07:12:16 GMT</pubDate>
-            <description><![CDATA[jsでpngを作りたいときcanvasなどのAPIを使う方法が一般的 しかし配列にあるデータからpngを作りたい場合 canvasを用意→ループでfillRect→toBlob の手順を踏む必要があ…]]></description>
-            <content:encoded><![CDATA[jsでpngを作りたいときcanvasなどのAPIを使う方法が一般的 しかし配列にあるデータからpngを作りたい場合 canvasを用意→ループでfillRect→toBlob の手順を踏む必要があ…]]></content:encoded>
+            <category>PlayStation 5</category>
+            <category>Preview</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
+            <category>ゲーム版『SAND LAND』</category>
+            <category>ゲーム</category>
+            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[ホームシアターでゲームが遊べちゃう!?BenQのプロジェクター「Xシリーズ」Gaming Projector体験レポート【PR】 | IGN Japan games]]></title>
@@ -933,11 +1149,11 @@
             <pubDate>Sat, 23 Sep 2023 07:08:18 GMT</pubDate>
             <description><![CDATA[映画館でゲームを遊ぶ夢が叶う時が来た BenQから、新たにゲームに特化したプロジェクター「Xシリーズ」が東京ゲームショウ2023で発表された。]]></description>
             <content:encoded><![CDATA[映画館でゲームを遊ぶ夢が叶う時が来た BenQから、新たにゲームに特化したプロジェクター「Xシリーズ」が東京ゲームショウ2023で発表された。]]></content:encoded>
-            <category>周辺機器</category>
-            <category>ゲーム</category>
-            <category>東京ゲームショウ</category>
-            <category>東京ゲームショウ2023</category>
             <category>スポンサードコンテンツ</category>
+            <category>周辺機器</category>
+            <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
+            <category>東京ゲームショウ2023</category>
         </item>
         <item>
             <title><![CDATA[仮想空間で凶悪犯を追い詰めろ！レベルファイブ新作『デカポリス』試遊レポート【TGS2023】 | IGN Japan games]]></title>
@@ -946,16 +1162,16 @@
             <pubDate>Sat, 23 Sep 2023 06:46:03 GMT</pubDate>
             <description><![CDATA[状況に応じて、様々な方法で犯人を追い詰めていくのがおもしろい レベルファイブが贈るクライムサスペンスRPG『デカポリス』はちょうどいい難易度でテンポよく進行できた。]]></description>
             <content:encoded><![CDATA[状況に応じて、様々な方法で犯人を追い詰めていくのがおもしろい レベルファイブが贈るクライムサスペンスRPG『デカポリス』はちょうどいい難易度でテンポよく進行できた。]]></content:encoded>
-            <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
-            <category>東京ゲームショウ2023</category>
-            <category>ps4</category>
             <category>デカポリス</category>
+            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[amiiboなどが付属する『スプラトゥーン3』のセットがAmazonにて「在庫処分セール」の対象に 最大32%オフ | IGN Japan games]]></title>
@@ -964,22 +1180,14 @@
             <pubDate>Sat, 23 Sep 2023 06:32:39 GMT</pubDate>
             <description><![CDATA[エキスパンション・パス第2弾「サイド・オーダー」は2024年春以降に配信予定 Amazonにて、amiiboなどが付属する『スプラトゥーン3』のセットが「在庫処分セール」の対象となっている。]]></description>
             <content:encoded><![CDATA[エキスパンション・パス第2弾「サイド・オーダー」は2024年春以降に配信予定 Amazonにて、amiiboなどが付属する『スプラトゥーン3』のセットが「在庫処分セール」の対象となっている。]]></content:encoded>
+            <category>セール情報</category>
             <category>スプラトゥーン3</category>
+            <category>nintendo-switch</category>
+            <category>任天堂</category>
             <category>ゲーム</category>
             <category>Nintendo Switch</category>
-            <category>セール情報</category>
-            <category>nintendo-switch</category>
             <category>Amazonおすすめ</category>
-            <category>任天堂</category>
             <category>News</category>
-        </item>
-        <item>
-            <title><![CDATA[TableViewが空の状態の時、説明画像を表示しよう！ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/hinakko/items/977e0f4bcbd312b3d1c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/hinakko/items/977e0f4bcbd312b3d1c5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Sat, 23 Sep 2023 06:29:52 GMT</pubDate>
-            <description><![CDATA[メリット・実際の活用例 ユーザーエクスペリエンスを高める！ ・初めてユーザーがアプリを使用する際、ユーザーを誘導することができる。 今回は、左画像のようなごほうびリストに追加がない際に、右のような…]]></description>
-            <content:encoded><![CDATA[メリット・実際の活用例 ユーザーエクスペリエンスを高める！ ・初めてユーザーがアプリを使用する際、ユーザーを誘導することができる。 今回は、左画像のようなごほうびリストに追加がない際に、右のような…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[別アカウントにあるCodePipelineを実行する際の必要権限整理をしてみた | エンジニアブログ | iret.media]]></title>
@@ -1014,14 +1222,14 @@
             <pubDate>Sat, 23 Sep 2023 05:29:31 GMT</pubDate>
             <description><![CDATA[『ファイナルファンタジーVII リバース』に備えてプレイするのもおすすめだ Amazonにて、『クライシス コア-ファイナルファンタジーVII- リユニオン』が「在庫処分セール」の対象となっている。]]></description>
             <content:encoded><![CDATA[『ファイナルファンタジーVII リバース』に備えてプレイするのもおすすめだ Amazonにて、『クライシス コア-ファイナルファンタジーVII- リユニオン』が「在庫処分セール」の対象となっている。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>セール情報</category>
             <category>PlayStation 5</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
             <category>ゲーム</category>
             <category>クライシス コア-ファイナルファンタジーVII- リユニオン</category>
-            <category>セール情報</category>
+            <category>PlayStation 4</category>
             <category>Amazonおすすめ</category>
-            <category>ps4</category>
+            <category>Sony PlayStation</category>
             <category>News</category>
         </item>
         <item>
@@ -1062,13 +1270,13 @@
             <pubDate>Sat, 23 Sep 2023 03:50:28 GMT</pubDate>
             <description><![CDATA[蜘蛛の巣に触れてしまった蝶のような体験 巨大な少女、冴子とデートする『SAEKO: Giantess Dating Sim』を先行プレイ。まさかの新ジャンル「巨大少女デートシム」である。]]></description>
             <content:encoded><![CDATA[蜘蛛の巣に触れてしまった蝶のような体験 巨大な少女、冴子とデートする『SAEKO: Giantess Dating Sim』を先行プレイ。まさかの新ジャンル「巨大少女デートシム」である。]]></content:encoded>
-            <category>Preview</category>
             <category>SAEKO: Giantess Dating Sim</category>
-            <category>ゲーム</category>
+            <category>Preview</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ2023</category>
             <category>Steam</category>
+            <category>東京ゲームショウ2023</category>
         </item>
         <item>
             <title><![CDATA[次世代トップエンジニア創出インターンシップ ACEに参加しました | Zennのトレンド]]></title>
@@ -1101,20 +1309,20 @@
             <pubDate>Sat, 23 Sep 2023 03:32:38 GMT</pubDate>
             <description><![CDATA[宮本武蔵は最初から参戦キャラクターとして考えられていた 開発の裏側について話を聞くことができた。]]></description>
             <content:encoded><![CDATA[宮本武蔵は最初から参戦キャラクターとして考えられていた 開発の裏側について話を聞くことができた。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Review</category>
+            <category>nintendo-switch</category>
             <category>PlayStation 5</category>
-            <category>PlayStation 4</category>
             <category>Nintendo Switch（有機ELモデル）</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
+            <category>任天堂</category>
+            <category>Fate/Samurai Remnant</category>
             <category>ゲーム</category>
             <category>PC</category>
             <category>Nintendo Switch</category>
-            <category>東京ゲームショウ</category>
-            <category>Fate/Samurai Remnant</category>
-            <category>nintendo-switch</category>
             <category>東京ゲームショウ2023</category>
-            <category>Review</category>
-            <category>ps4</category>
-            <category>任天堂</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[見習い魔女が配達業務で成長していくアドベンチャー『ミカと魔女の山』をプレイ【TGS2023】 | IGN Japan games]]></title>
@@ -1123,16 +1331,16 @@
             <pubDate>Sat, 23 Sep 2023 03:23:09 GMT</pubDate>
             <description><![CDATA[ゲームもまだまだ成長中 ミニオープンワールドをのんびり冒険するインディーゲーム『ミカと魔女の山』を試遊。第二の『A Short Hike』となるか。]]></description>
             <content:encoded><![CDATA[ゲームもまだまだ成長中 ミニオープンワールドをのんびり冒険するインディーゲーム『ミカと魔女の山』を試遊。第二の『A Short Hike』となるか。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>nintendo-switch</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>ゲーム</category>
             <category>東京ゲームショウ</category>
-            <category>Nintendo Switch</category>
-            <category>ミカと魔女の山</category>
-            <category>nintendo-switch</category>
-            <category>東京ゲームショウ2023</category>
             <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>Nintendo Switch</category>
+            <category>東京ゲームショウ2023</category>
+            <category>ミカと魔女の山</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[ TreasureData -> Snowflake へのデータ基盤移行のお話 | FLINTERS Engineer's Blog]]></title>
@@ -1149,20 +1357,20 @@
             <pubDate>Sat, 23 Sep 2023 02:54:23 GMT</pubDate>
             <description><![CDATA[スネーク、なぜなんだ？ KONAMIは、『METAL GEAR SOLID: MASTER COLLECTION Vol.1』に収録される3作品の解像度およびフレームレートを公開した。]]></description>
             <content:encoded><![CDATA[スネーク、なぜなんだ？ KONAMIは、『METAL GEAR SOLID: MASTER COLLECTION Vol.1』に収録される3作品の解像度およびフレームレートを公開した。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
+            <category>News</category>
+            <category>nintendo-switch</category>
             <category>PlayStation 5</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
+            <category>任天堂</category>
             <category>xbox-one</category>
             <category>ゲーム</category>
             <category>PC</category>
             <category>Nintendo Switch</category>
-            <category>nintendo-switch</category>
-            <category>METAL GEAR SOLID: MASTER COLLECTION Vol.1</category>
-            <category>ps4</category>
-            <category>任天堂</category>
-            <category>Xbox Series X</category>
             <category>Xbox One</category>
-            <category>News</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
+            <category>METAL GEAR SOLID: MASTER COLLECTION Vol.1</category>
         </item>
         <item>
             <title><![CDATA[Rustのクロージャーにおけるライフタイム推論について | Zennのトレンド]]></title>
@@ -1187,13 +1395,13 @@
             <pubDate>Sat, 23 Sep 2023 01:41:23 GMT</pubDate>
             <description><![CDATA[ゼルダ姫の覚悟、シナリオの覚悟 『ゼルダの伝説 ティアーズ オブ ザ キングダム』をクリアして、エンディングに抱いた不満について語る。]]></description>
             <content:encoded><![CDATA[ゼルダ姫の覚悟、シナリオの覚悟 『ゼルダの伝説 ティアーズ オブ ザ キングダム』をクリアして、エンディングに抱いた不満について語る。]]></content:encoded>
+            <category>Column</category>
+            <category>nintendo-switch</category>
+            <category>任天堂</category>
             <category>ゲーム</category>
             <category>Nintendo Switch</category>
             <category>ゼルダの伝説 ティアーズ オブ ザ キングダム</category>
-            <category>nintendo-switch</category>
             <category>Amazonおすすめ</category>
-            <category>任天堂</category>
-            <category>Column</category>
         </item>
         <item>
             <title><![CDATA[東京ゲームショウ2023、一般公開日1日目の一日入場券が完売 | IGN Japan games]]></title>
@@ -1202,8 +1410,8 @@
             <pubDate>Sat, 23 Sep 2023 01:11:48 GMT</pubDate>
             <description><![CDATA[会場では一日入場券の販売はないので注意 久しぶりに幕張メッセ全館を使っての開催となった東京ゲームショウ。チケットは売り切れが出るほど盛況のようだ。]]></description>
             <content:encoded><![CDATA[会場では一日入場券の販売はないので注意 久しぶりに幕張メッセ全館を使っての開催となった東京ゲームショウ。チケットは売り切れが出るほど盛況のようだ。]]></content:encoded>
-            <category>ゲーム</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>東京ゲームショウ2023</category>
             <category>News</category>
         </item>
@@ -1214,14 +1422,14 @@
             <pubDate>Sat, 23 Sep 2023 00:30:32 GMT</pubDate>
             <description><![CDATA[家庭用ゲーム機版タイトルと遜色ないほどのリッチなグラフィック 『レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～』の先行プレイレポートをお届けする。]]></description>
             <content:encoded><![CDATA[家庭用ゲーム機版タイトルと遜色ないほどのリッチなグラフィック 『レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～』の先行プレイレポートをお届けする。]]></content:encoded>
-            <category>レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～</category>
+            <category>Mobile</category>
+            <category>Android</category>
+            <category>android</category>
             <category>Preview</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>android</category>
             <category>iphone</category>
-            <category>Mobile</category>
-            <category>Android</category>
+            <category>レスレリアーナのアトリエ ～忘れられた錬金術と極夜の解放者～</category>
         </item>
         <item>
             <title><![CDATA[共に旅するポーンの心強さをあらためて実感する『ドラゴンズドグマ 2』【TGS2023】 | IGN Japan games]]></title>
@@ -1230,13 +1438,13 @@
             <pubDate>Sat, 23 Sep 2023 00:05:04 GMT</pubDate>
             <description><![CDATA[「ポーンがプレイヤーで私はポーンなのでは」と思うくらいに心強い 15分では短すぎたとライターが語る、『ドラゴンズドグマ 2』のデモ版試遊。その理由は魅力に満ち溢れた世界の描き方にあった。]]></description>
             <content:encoded><![CDATA[「ポーンがプレイヤーで私はポーンなのでは」と思うくらいに心強い 15分では短すぎたとライターが語る、『ドラゴンズドグマ 2』のデモ版試遊。その理由は魅力に満ち溢れた世界の描き方にあった。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
-            <category>ドラゴンズドグマ 2</category>
             <category>Preview</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Xbox Series X</category>
+            <category>ドラゴンズドグマ 2</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[Python使いの皆さん、Rのキモいところをいっぱいお見せします | Qiita - 人気の記事]]></title>
@@ -1256,14 +1464,6 @@
             <category>テクノロジー</category>
             <category>Unity</category>
             <category>ゲームエンジン</category>
-        </item>
-        <item>
-            <title><![CDATA[【初心者】「みんなで最新情報の共有をしたい」そのお悩み、お手伝いさせてください！ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/yuma-blau56/items/09e79abcd36023c5ecc5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/yuma-blau56/items/09e79abcd36023c5ecc5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 22 Sep 2023 23:06:39 GMT</pubDate>
-            <description><![CDATA[初めまして！ 食品スーパーに勤めて3年目、私は日用品を担当しています。 今回は、こんなのがあったら便利だな～と思っていたことを、皆さんにも知っていただきたくて初投稿しました！ 私の悩み 皆さんはテレ…]]></description>
-            <content:encoded><![CDATA[初めまして！ 食品スーパーに勤めて3年目、私は日用品を担当しています。 今回は、こんなのがあったら便利だな～と思っていたことを、皆さんにも知っていただきたくて初投稿しました！ 私の悩み 皆さんはテレ…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[YouTube、AIによる動画編集が可能になる「YouTube Create」アプリのベータ版をリリ… | TEXAL]]></title>
@@ -1292,14 +1492,6 @@
             <category>太陽系</category>
             <category>宇宙</category>
             <category>木星</category>
-        </item>
-        <item>
-            <title><![CDATA[Vector2Dを自作してみよう！ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/owapote/items/967b7ada39bd9ba97f69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/owapote/items/967b7ada39bd9ba97f69?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 22 Sep 2023 21:09:45 GMT</pubDate>
-            <description><![CDATA[0.軽く自己紹介 初めましての方は初めまして！owapote(おわぽて)といいます。 DxLib歴は実質3ヶ月くらいです。プログラミング自体は7~8年やっていますが... 現在、DxLibで2Dのシ…]]></description>
-            <content:encoded><![CDATA[0.軽く自己紹介 初めましての方は初めまして！owapote(おわぽて)といいます。 DxLib歴は実質3ヶ月くらいです。プログラミング自体は7~8年やっていますが... 現在、DxLibで2Dのシ…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Jurassic World is roaring into Magic: The Gathering | Polygon -  Gaming]]></title>
@@ -1340,38 +1532,6 @@
             <pubDate>Fri, 22 Sep 2023 18:00:00 GMT</pubDate>
             <description><![CDATA[Image: Hoyoverse  It’s a fashion-forward spectacle fighter with Persona vibes  With its gacha behemoths ticking away in the background, Hoyoverse is throwing focus on a bold new experiment. Zenless Zo...]]></description>
             <content:encoded><![CDATA[Image: Hoyoverse  It’s a fashion-forward spectacle fighter with Persona vibes  With its gacha behemoths ticking away in the background, Hoyoverse is throwing focus on a bold new experiment. Zenless Zone Zero is an action-RPG with life simulator elements and an urban fantasy setting. Instead of gliding through lush biomes or riding intergalactic space trains, its characters eat konbini food in front of billboards and pose on top of street racing cars. Set in a post-apocalyptic metropolis drenched...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[You can now buy the Spider-Man 2 PS5 console and accessories | Polygon -  Gaming]]></title>
-            <link>https://www.polygon.com/deals/23810394/spider-man-2-ps5-console-special-edition-covers-dualsense-pre-order-buy</link>
-            <guid>https://www.polygon.com/deals/23810394/spider-man-2-ps5-console-special-edition-covers-dualsense-pre-order-buy</guid>
-            <pubDate>Fri, 22 Sep 2023 17:45:35 GMT</pubDate>
-            <description><![CDATA[Image: Sony  You can still find the limited edition console in stock  The hot, new Spider-Man 2 special edition PS5 console and themed accessories is now available, even though Marvel’s Spider-Man 2 d...]]></description>
-            <content:encoded><![CDATA[Image: Sony  You can still find the limited edition console in stock  The hot, new Spider-Man 2 special edition PS5 console and themed accessories is now available, even though Marvel’s Spider-Man 2 doesn’t launch until Oct. 20. As for what makes it special, just look at it; this PlayStation 5’s removable plates and DualSense controller have a unique color treatment that blends Spidey’s signature red with a venomous black consuming it. This $599.99 console comes packaged with a digital code for ...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[The John Wick movies have always lived by video game rules | Polygon -  Gaming]]></title>
-            <link>https://www.polygon.com/entertainment/23870227/john-wick-movies-video-game-logic</link>
-            <guid>https://www.polygon.com/entertainment/23870227/john-wick-movies-video-game-logic</guid>
-            <pubDate>Fri, 22 Sep 2023 17:00:00 GMT</pubDate>
-            <description><![CDATA[Graphic: Alice Newcome-Beill/Polygon | Image source: Lionsgate  The best video game movies aren’t based on video games at all  Hollywood has gotten hot for video games in 2023, with live-action televi...]]></description>
-            <content:encoded><![CDATA[Graphic: Alice Newcome-Beill/Polygon | Image source: Lionsgate  The best video game movies aren’t based on video games at all  Hollywood has gotten hot for video games in 2023, with live-action television adaptations of The Last of Us and Twisted Metal debuting on major streaming services and the animated Super Mario Bros. Movie banking over $1 billion in theaters. Hell, there was even a movie about Tetris this year. And yet, few direct adaptations of video game properties preserve the bizarre a...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[We’ve got a couple dozen Persona-themed gift ideas | Polygon -  Gaming]]></title>
-            <link>https://www.polygon.com/23875068/persona-gifts-books-music-games-accessories</link>
-            <guid>https://www.polygon.com/23875068/persona-gifts-books-music-games-accessories</guid>
-            <pubDate>Fri, 22 Sep 2023 16:30:00 GMT</pubDate>
-            <description><![CDATA[Image: Cameron Faulkner/Polygon | Source images: Various  Take the heart of the Persona fan in your life with these gift ideas  The Persona series has become one of gaming’s shining stars, with deep c...]]></description>
-            <content:encoded><![CDATA[Image: Cameron Faulkner/Polygon | Source images: Various  Take the heart of the Persona fan in your life with these gift ideas  The Persona series has become one of gaming’s shining stars, with deep characters, thoughtful stories, and unforgettable music. From Persona 4’s excavation of subconscious truths to Persona 5’s stylish, jazz-filled railing against corruption, the series is full of dark themes, touching relationships, and amazing tunes that linger long after the credits roll — even longe...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[tkinterを使って和音の波形ジェネレーターを作ってみたよ | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/chemweb000/items/770010317a4b331f2e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/chemweb000/items/770010317a4b331f2e11?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 22 Sep 2023 16:01:55 GMT</pubDate>
-            <description><![CDATA[tkinterを使って波形ジェエネレーターを作ろう  tkinterはpythonでGUIを作れるモジュールです。ボタンやプルダウンボックスを指定してインタラクティブなアプリケーションを作成すること…]]></description>
-            <content:encoded><![CDATA[tkinterを使って波形ジェエネレーターを作ろう  tkinterはpythonでGUIを作れるモジュールです。ボタンやプルダウンボックスを指定してインタラクティブなアプリケーションを作成すること…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Top 5 Free Alternatives to GPT-4 | KDnuggets]]></title>
@@ -1472,6 +1632,14 @@
             <link>https://speakerdeck.com/yumeneko/benetechkonpecan-zhan-ji</link>
             <guid>https://speakerdeck.com/yumeneko/benetechkonpecan-zhan-ji</guid>
             <pubDate>Fri, 22 Sep 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ハッカソンにおけるチーム開発のGit Hub運用 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/hiroto_dnpk/items/c1345cdbcab444c4fe5e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/hiroto_dnpk/items/c1345cdbcab444c4fe5e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Fri, 22 Sep 2023 14:18:09 GMT</pubDate>
+            <description><![CDATA[はじめに １週間〜１ヶ月規模のハッカソンにおけるGithubの運用を仲間内で共有するために書いています。Githubの環境が整えられる人材がいて、メンバーに共有する想定であるため、詳しい解説は省いて…]]></description>
+            <content:encoded><![CDATA[はじめに １週間〜１ヶ月規模のハッカソンにおけるGithubの運用を仲間内で共有するために書いています。Githubの環境が整えられる人材がいて、メンバーに共有する想定であるため、詳しい解説は省いて…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[フロントエンドのテスト構成について考えてみた in 2023 | Zennのトレンド]]></title>
@@ -1601,18 +1769,18 @@
             <pubDate>Fri, 22 Sep 2023 09:26:05 GMT</pubDate>
             <description><![CDATA[敵の弱点を突く攻撃を教えてくれるアシスト機能が便利 『ペルソナ３ リロード』の東京ゲームショウ2023試遊レポートをお届けする。]]></description>
             <content:encoded><![CDATA[敵の弱点を突く攻撃を教えてくれるアシスト機能が便利 『ペルソナ３ リロード』の東京ゲームショウ2023試遊レポートをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
-            <category>ペルソナ3 リロード</category>
             <category>Preview</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
             <category>xbox-one</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Amazonおすすめ</category>
-            <category>ps4</category>
-            <category>Xbox Series X</category>
             <category>Xbox One</category>
+            <category>ペルソナ3 リロード</category>
+            <category>PlayStation 4</category>
+            <category>Amazonおすすめ</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[戦術性を増しながらも、誰でも遊べるサッカーゲームとして作りこまれた「イナイレ」に 最新作「英雄たちのヴィクトリーロード」を試遊してわかったその魅力【TGS2023】 | IGN Japan games]]></title>
@@ -1621,20 +1789,20 @@
             <pubDate>Fri, 22 Sep 2023 09:25:30 GMT</pubDate>
             <description><![CDATA[「イナイレ」最新作がサッカーゲームとして目指すもの 幾度かの発売延期やタイトル変更を乗り越えて帰ってくる「イナズマイレブン」最新作。その試遊でわかったことをお届け。]]></description>
             <content:encoded><![CDATA[「イナイレ」最新作がサッカーゲームとして目指すもの 幾度かの発売延期やタイトル変更を乗り越えて帰ってくる「イナズマイレブン」最新作。その試遊でわかったことをお届け。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>Preview</category>
-            <category>PlayStation 4</category>
-            <category>ゲーム</category>
-            <category>iphone</category>
-            <category>Nintendo Switch</category>
-            <category>android</category>
             <category>Mobile</category>
             <category>nintendo-switch</category>
             <category>Android</category>
-            <category>イナズマイレブン 英雄たちのヴィクトリーロード</category>
+            <category>PlayStation 5</category>
+            <category>android</category>
             <category>ps4</category>
+            <category>Preview</category>
             <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>イナズマイレブン 英雄たちのヴィクトリーロード</category>
+            <category>Nintendo Switch</category>
+            <category>iphone</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[TSMC、2nmプロセスの開発遅延が報じられる | TEXAL]]></title>
@@ -1647,14 +1815,6 @@
             <category>2nm</category>
             <category>TSMC</category>
             <category>半導体</category>
-        </item>
-        <item>
-            <title><![CDATA[Rails7のActive Recordを利用したデータの暗号化について | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/SeiuchiAzarashi/items/b7469c19fdf3ca4be20f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/SeiuchiAzarashi/items/b7469c19fdf3ca4be20f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 22 Sep 2023 09:20:18 GMT</pubDate>
-            <description><![CDATA[基本的な導入例 給与などを決定する評価テーブル(MySQL)を暗号化することを仮定します。 テーブル設計 一旦暗号化のことを考えず以下のように作成したいテーブルの定義を考えます。 CREATE TA…]]></description>
-            <content:encoded><![CDATA[基本的な導入例 給与などを決定する評価テーブル(MySQL)を暗号化することを仮定します。 テーブル設計 一旦暗号化のことを考えず以下のように作成したいテーブルの定義を考えます。 CREATE TA…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[OCI CLI の Tips | スマートスタイル技術ブログ]]></title>
@@ -1730,14 +1890,14 @@
             <pubDate>Fri, 22 Sep 2023 08:07:43 GMT</pubDate>
             <description><![CDATA[サバイバルホラーでありながらアメリカ大統領直属エージェントシミュでもある PlayStation VR2版『バイオハザード RE:4』を試遊してわかった、前2作との大きな違いについて。]]></description>
             <content:encoded><![CDATA[サバイバルホラーでありながらアメリカ大統領直属エージェントシミュでもある PlayStation VR2版『バイオハザード RE:4』を試遊してわかった、前2作との大きな違いについて。]]></content:encoded>
-            <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
-            <category>Preview</category>
-            <category>バイオハザード RE:4</category>
-            <category>ゲーム</category>
             <category>PlayStation VR2</category>
+            <category>Preview</category>
             <category>東京ゲームショウ</category>
+            <category>ゲーム</category>
             <category>東京ゲームショウ2023</category>
+            <category>Sony PlayStation</category>
+            <category>バイオハザード RE:4</category>
         </item>
         <item>
             <title><![CDATA[PvPvE×二足歩行メカ×AI美少女の全部のせ バンナムの新作『SYNDUALITY: Echo of Ada』プレイレポ【TGS2023】 | IGN Japan games]]></title>
@@ -1746,13 +1906,13 @@
             <pubDate>Fri, 22 Sep 2023 08:02:27 GMT</pubDate>
             <description><![CDATA[カジュアルなPvPvEとして人気を獲得できるか バンダイナムコエンターテインメントの新たなタイトル『SYNDUALITY: Echo of Ada』をTGS2023でプレイ。独自性を持ったPvPvEだが、発売には少し時間がかかりそうだ。]]></description>
             <content:encoded><![CDATA[カジュアルなPvPvEとして人気を獲得できるか バンダイナムコエンターテインメントの新たなタイトル『SYNDUALITY: Echo of Ada』をTGS2023でプレイ。独自性を持ったPvPvEだが、発売には少し時間がかかりそうだ。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
-            <category>SYNDUALITY Echo of Ada</category>
             <category>Preview</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Xbox Series X</category>
+            <category>Sony PlayStation</category>
+            <category>SYNDUALITY Echo of Ada</category>
         </item>
         <item>
             <title><![CDATA[【iretテクニカルアンバサダーブログリレー】 俺たちの活動実績（新川 貴章） | エンジニアブログ | iret.media]]></title>
@@ -1820,11 +1980,11 @@
             <pubDate>Fri, 22 Sep 2023 07:33:48 GMT</pubDate>
             <description><![CDATA[ファミマコラボでカービィは食べられる側に 『星のカービィ 鏡の大迷宮』がゲームボーイアドバンスNintendo Switch Onlineの配信タイトルとして、9月29日に追加される。]]></description>
             <content:encoded><![CDATA[ファミマコラボでカービィは食べられる側に 『星のカービィ 鏡の大迷宮』がゲームボーイアドバンスNintendo Switch Onlineの配信タイトルとして、9月29日に追加される。]]></content:encoded>
-            <category>星のカービィ</category>
-            <category>ゲーム</category>
-            <category>Nintendo Switch</category>
             <category>nintendo-switch</category>
             <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>星のカービィ</category>
+            <category>Nintendo Switch</category>
             <category>News</category>
         </item>
         <item>
@@ -1834,17 +1994,6 @@
             <pubDate>Fri, 22 Sep 2023 07:24:50 GMT</pubDate>
             <description><![CDATA[米マイクロソフトは9月21日（現地時間）に開催したスペシャルイベントで、26日にWindows 11の最新アップデートを実施すると発表しました。]]></description>
             <content:encoded><![CDATA[米マイクロソフトは9月21日（現地時間）に開催したスペシャルイベントで、26日にWindows 11の最新アップデートを実施すると発表しました。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Google、マップの更新を怠り橋の崩落情報を放置し事故死を招いたとして遺族から訴えられる | TEXAL]]></title>
-            <link>https://texal.jp/2023/09/22/google-is-sued-by-family-members-for-failing-to-update-maps-and-leaving-out-information-on-bridge-collapses-causing-accidental-deaths/</link>
-            <guid>https://texal.jp/?p=39684</guid>
-            <pubDate>Fri, 22 Sep 2023 07:07:47 GMT</pubDate>
-            <description><![CDATA[Googleは、地元の人々がGoogleマップの情報が古く危険であるとして更新を求めたにもかかわらず、著しく古い情報を提供していたことによりある男性の死を招いたとして、遺族から訴えられている。妻と2人の子供がいるPhil ... Read more]]></description>
-            <content:encoded><![CDATA[Googleは、地元の人々がGoogleマップの情報が古く危険であるとして更新を求めたにもかかわらず、著しく古い情報を提供していたことによりある男性の死を招いたとして、遺族から訴えられている。妻と2人の子供がいるPhil ... Read more]]></content:encoded>
-            <category>テクノロジー</category>
-            <category>Google</category>
-            <category>Google Map</category>
         </item>
         <item>
             <title><![CDATA[【リリース情報】次世代 Song Meter : Mini 2 / Mini Bat 2 / Micro 2 【予約受付中】 | TEGAKARI]]></title>
@@ -1868,35 +2017,23 @@
             <pubDate>Fri, 22 Sep 2023 07:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[世界初となる超新星の3Dシミュレーション画像は500万時間かけて作成された | TEXAL]]></title>
-            <link>https://texal.jp/2023/09/22/worlds-first-3d-simulated-image-of-a-supernova-took-5-million-hours-to-create/</link>
-            <guid>https://texal.jp/?p=39680</guid>
-            <pubDate>Fri, 22 Sep 2023 06:59:23 GMT</pubDate>
-            <description><![CDATA[宇宙最大の恒星は、燃料が尽きると超新星爆発を起こし、内側に崩壊して中性子星やブラックホールを残すか、あるいは完全に蒸発してしまう。その爆発の内部で何が起きているのかを理解するのは難しい。特に、恒星爆発の中でも最も稀で最も ... Read more]]></description>
-            <content:encoded><![CDATA[宇宙最大の恒星は、燃料が尽きると超新星爆発を起こし、内側に崩壊して中性子星やブラックホールを残すか、あるいは完全に蒸発してしまう。その爆発の内部で何が起きているのかを理解するのは難しい。特に、恒星爆発の中でも最も稀で最も ... Read more]]></content:encoded>
-            <category>サイエンス</category>
-            <category>天文学</category>
-            <category>宇宙</category>
-            <category>超新星</category>
-        </item>
-        <item>
             <title><![CDATA[伊勢佐木異人町の3倍の広さを誇るハワイの舞台を冒険！『龍が如く８』試遊レポート【TGS2023】 | IGN Japan games]]></title>
             <link>https://jp.ign.com/like-a-dragon-8/70694/preview/38tgs2023</link>
             <guid>https://jp.ign.com/like-a-dragon-8/70694/preview/38tgs2023</guid>
             <pubDate>Fri, 22 Sep 2023 06:57:10 GMT</pubDate>
             <description><![CDATA[ついに舞台は海外へ！ハワイでプレイスポット巡り 『龍が如く８』、TGSの試遊でしか体験できないバージョンをプレイしたのでレポートをお届けする。]]></description>
             <content:encoded><![CDATA[ついに舞台は海外へ！ハワイでプレイスポット巡り 『龍が如く８』、TGSの試遊でしか体験できないバージョンをプレイしたのでレポートをお届けする。]]></content:encoded>
-            <category>Sony PlayStation</category>
+            <category>Xbox Series X</category>
             <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
+            <category>龍が如く8</category>
             <category>xbox-one</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>龍が如く8</category>
-            <category>ps4</category>
-            <category>Xbox Series X</category>
             <category>Xbox One</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[Windows 11の「ペイント」アプリに画像生成AI「Cocreator」が統合へ／言葉で説明した通りにAIが画像を作り出してくれる【やじうまの杜】 | 窓の杜]]></title>
@@ -1913,17 +2050,6 @@
             <pubDate>Fri, 22 Sep 2023 06:43:27 GMT</pubDate>
             <description><![CDATA[Microsoftは9月21日（現地時間）、12.4インチのノートPC「Surface Laptop Go 3」を発表しました。すでに日本国内でも予約が開始されており、価格は14万2780円から。10月3日に発売の予定です。]]></description>
             <content:encoded><![CDATA[Microsoftは9月21日（現地時間）、12.4インチのノートPC「Surface Laptop Go 3」を発表しました。すでに日本国内でも予約が開始されており、価格は14万2780円から。10月3日に発売の予定です。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[人工甘味料アスパルテームが学習・記憶障害を引き起こし、子孫に遺伝させる可能性が示される | TEXAL]]></title>
-            <link>https://texal.jp/2023/09/22/artificial-sweetener-aspartame-shown-to-cause-learning-and-memory-impairment-and-can-be-passed-on-to-offspring/</link>
-            <guid>https://texal.jp/?p=39676</guid>
-            <pubDate>Fri, 22 Sep 2023 06:38:34 GMT</pubDate>
-            <description><![CDATA[WHOがアスパルテームの発がん性を示唆してから2カ月が経過したが、この人工甘味料にまたもや、まだ知られていない負の側面があるのではとの疑いが浮上している。新たな研究では今度は学習と記憶に悪影響を及ぼす可能性があるとの報告 ... Read more]]></description>
-            <content:encoded><![CDATA[WHOがアスパルテームの発がん性を示唆してから2カ月が経過したが、この人工甘味料にまたもや、まだ知られていない負の側面があるのではとの疑いが浮上している。新たな研究では今度は学習と記憶に悪影響を及ぼす可能性があるとの報告 ... Read more]]></content:encoded>
-            <category>サイエンス</category>
-            <category>健康</category>
-            <category>食品</category>
         </item>
         <item>
             <title><![CDATA[GPT-4を使用した知的労働者のパフォーマンスは軒並み向上し、もとの成績が良くないほど顕著。※注意点あり | AIDB]]></title>
@@ -2006,19 +2132,19 @@
             <pubDate>Fri, 22 Sep 2023 05:36:23 GMT</pubDate>
             <description><![CDATA[バトルに遊びに大忙しの浄龍 TGS2023で試遊した『龍が如く７外伝 名を消した男』のプレイインプレッションをお届け。]]></description>
             <content:encoded><![CDATA[バトルに遊びに大忙しの浄龍 TGS2023で試遊した『龍が如く７外伝 名を消した男』のプレイインプレッションをお届け。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
+            <category>Xbox Series X</category>
             <category>龍が如く7外伝 名を消した男</category>
+            <category>PlayStation 5</category>
             <category>Preview</category>
-            <category>PlayStation 4</category>
+            <category>ps4</category>
+            <category>東京ゲームショウ</category>
             <category>xbox-one</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>東京ゲームショウ</category>
-            <category>東京ゲームショウ2023</category>
-            <category>ps4</category>
-            <category>Xbox Series X</category>
             <category>Xbox One</category>
+            <category>東京ゲームショウ2023</category>
+            <category>PlayStation 4</category>
+            <category>Sony PlayStation</category>
         </item>
         <item>
             <title><![CDATA[【SchemaSpy】データベースの仕様書作成を自動化する【Azure Pipelines】 | SIOS Tech. Lab]]></title>
@@ -2062,9 +2188,9 @@
             <pubDate>Fri, 22 Sep 2023 05:06:04 GMT</pubDate>
             <description><![CDATA[食生活をどうするのかが気になる 「ロード・オブ・ザ・リング」のホビット族の生活を体験する新作ゲーム『Tales of the Shire』が発表された。]]></description>
             <content:encoded><![CDATA[食生活をどうするのかが気になる 「ロード・オブ・ザ・リング」のホビット族の生活を体験する新作ゲーム『Tales of the Shire』が発表された。]]></content:encoded>
+            <category>ロード・オブ・ザ・リング</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>ロード・オブ・ザ・リング</category>
             <category>News</category>
         </item>
         <item>
@@ -2101,14 +2227,6 @@
             <category>線形代数</category>
         </item>
         <item>
-            <title><![CDATA[【2023年】初心者がやってみた！Android アプリの公開 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/mamime/items/10c02102840a92f6326d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/mamime/items/10c02102840a92f6326d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Fri, 22 Sep 2023 04:13:22 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは、mamimeです この記事は初心者がなるべく難しいことをせずにAndroidアプリを公開する手順を書きました。 私もアプリ開発自体未熟なので、もし訂正箇所がありましたらぜひとも…]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは、mamimeです この記事は初心者がなるべく難しいことをせずにAndroidアプリを公開する手順を書きました。 私もアプリ開発自体未熟なので、もし訂正箇所がありましたらぜひとも…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[“Template error: Fn::Select cannot select nonexistent value at index 2″の対処方法 | エンジニアブログ | iret.media]]></title>
             <link>https://iret.media/80672</link>
             <guid>https://iret.media/?p=80672</guid>
@@ -2125,27 +2243,6 @@
             <link>https://engineering.linecorp.com/ja/blog/natural-language-control-speakability</link>
             <guid>https://engineering.linecorp.com/ja/blog/natural-language-control-speakability</guid>
             <pubDate>Fri, 22 Sep 2023 04:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ナンバリング最新作も期待したくなる「モンスターハンター」シリーズ20周年ティザーサイトがオープン | IGN Japan games]]></title>
-            <link>https://jp.ign.com/monster-hunter-rise-sunbreak/70689/news/20</link>
-            <guid>https://jp.ign.com/monster-hunter-rise-sunbreak/70689/news/20</guid>
-            <pubDate>Fri, 22 Sep 2023 03:55:11 GMT</pubDate>
-            <description><![CDATA[2024年3月にシリーズ20周年を迎える 「モンスターハンター」シリーズが20周年を迎えることを記念したティザーサイトがオープンした。]]></description>
-            <content:encoded><![CDATA[2024年3月にシリーズ20周年を迎える 「モンスターハンター」シリーズが20周年を迎えることを記念したティザーサイトがオープンした。]]></content:encoded>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>モンスターハンター</category>
-            <category>モンスターハンターライズ：サンブレイク</category>
-            <category>PlayStation 4</category>
-            <category>ゲーム</category>
-            <category>PC</category>
-            <category>Nintendo Switch</category>
-            <category>nintendo-switch</category>
-            <category>ps4</category>
-            <category>任天堂</category>
-            <category>Xbox Series X</category>
-            <category>News</category>
         </item>
         <item>
             <title><![CDATA[レコチョクチケット特有の機能について | レコチョクのエンジニアブログ]]></title>
@@ -2353,14 +2450,6 @@
             <content:encoded><![CDATA[米Appleは9月21日（現地時間）、自社製品に複数の脆弱性が発見されたことを明らかにした。「iOS」、「iPadOS」、「macOS」、「watchOS」、「Safari」でセキュリティアップデートが提供されている。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[世界の地震発生マップを作成してみた | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/takakiba/items/953700d91d3df9d1bacc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/takakiba/items/953700d91d3df9d1bacc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Thu, 21 Sep 2023 18:37:55 GMT</pubDate>
-            <description><![CDATA[動機 YouTube で見かけた以下の動画を作ってみたくなった．ここまで綺麗なのは作れませんが．．  完成したもの https://github.com/takakiba/earthquake_map…]]></description>
-            <content:encoded><![CDATA[動機 YouTube で見かけた以下の動画を作ってみたくなった．ここまで綺麗なのは作れませんが．．  完成したもの https://github.com/takakiba/earthquake_map…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Shibboleth IdP5をDockerコンテナ化するスクリプトをGitHubで公開しました | SIOS Tech. Lab]]></title>
             <link>https://tech-lab.sios.jp/archives/37047</link>
             <guid>https://tech-lab.sios.jp/?p=37047</guid>
@@ -2422,24 +2511,6 @@
             <pubDate>Thu, 21 Sep 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[UIコンポーネントライブラリをうまく使うためにできること / components-with-designer (mottox2) | 勉強会スライドBot]]></title>
-            <link>https://speakerdeck.com/mottox2/components-with-designer</link>
-            <guid>https://speakerdeck.com/mottox2/components-with-designer</guid>
-            <pubDate>Thu, 21 Sep 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[2023-09-21 GitHub Actions Meetup Tokyo 2 | 勉強会スライドBot]]></title>
-            <link>https://docs.google.com/presentation/d/1HCN2LCJlE493HPSXMsZSFgd59LrhEzbGpudK37WQeCU/preview</link>
-            <guid>https://docs.google.com/presentation/d/1HCN2LCJlE493HPSXMsZSFgd59LrhEzbGpudK37WQeCU/preview</guid>
-            <pubDate>Thu, 21 Sep 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Amazon SES のバウンス率が急上昇 〜Amazon SES を止めてしまった日〜 (Takafumi Omuro) | 勉強会スライドBot]]></title>
-            <link>https://speakerdeck.com/tomuro/amazon-ses-nobaunsulu-gaji-shang-sheng-amazon-ses-wozhi-metesimatutari</link>
-            <guid>https://speakerdeck.com/tomuro/amazon-ses-nobaunsulu-gaji-shang-sheng-amazon-ses-wozhi-metesimatutari</guid>
-            <pubDate>Thu, 21 Sep 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Your Features Are Important? It Doesn’t Mean They Are Good | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/your-features-are-important-it-doesnt-mean-they-are-good?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=your-features-are-important-it-doesnt-mean-they-are-good</link>
             <guid>https://www.kdnuggets.com/?p=159695</guid>
@@ -2449,14 +2520,6 @@
             <category>KDnuggets Evergreen</category>
             <category>KDnuggets Republished</category>
             <category>Machine Learning</category>
-        </item>
-        <item>
-            <title><![CDATA[【Xcode】Xcode内でドキュメントを閲覧する | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/SNQ-2001/items/6da78bcffd7181163e44?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/SNQ-2001/items/6da78bcffd7181163e44?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Thu, 21 Sep 2023 12:38:50 GMT</pubDate>
-            <description><![CDATA[はじめに 今までわからないことがあれば検索からドキュメントに飛んでいましたが、 Xcode15からXcode内でドキュメントがPreviewできるようになったらしいので使ってみました やりかた ① …]]></description>
-            <content:encoded><![CDATA[はじめに 今までわからないことがあれば検索からドキュメントに飛んでいましたが、 Xcode15からXcode内でドキュメントがPreviewできるようになったらしいので使ってみました やりかた ① …]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[未定義動作でFizzBuzz | Zennのトレンド]]></title>
@@ -2882,30 +2945,6 @@
             <category>インターンシップ</category>
         </item>
         <item>
-            <title><![CDATA[Bingの生成AIチャットが「Microsoft Launcher」に対応 ～Androidのホーム画面に「Bing Chat」が登場／別のデバイスでセッションを再開できるQRコード機能も | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1532829.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1532829.html</guid>
-            <pubDate>Wed, 20 Sep 2023 23:08:00 GMT</pubDate>
-            <description><![CDATA[米Microsoftは9月15日（現地時間）、「Microsoft Launcher」へのBingの生成AIチャットサービス「Bing Chat」の追加と、デバイスを超えてセッションを再開できる機能を発表した。]]></description>
-            <content:encoded><![CDATA[米Microsoftは9月15日（現地時間）、「Microsoft Launcher」へのBingの生成AIチャットサービス「Bing Chat」の追加と、デバイスを超えてセッションを再開できる機能を発表した。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Amazonで「iMac」2021年モデル、「Mac mini」2018年モデルが最大35％OFF！【本日みつけたお買い得情報】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1532973.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1532973.html</guid>
-            <pubDate>Wed, 20 Sep 2023 22:55:00 GMT</pubDate>
-            <description><![CDATA[Amazon.co.jpでは現在、Apple製パソコンのセールを実施しています。「2021 iMac」「2018 Mac mini」が割引価格となっています。]]></description>
-            <content:encoded><![CDATA[Amazon.co.jpでは現在、Apple製パソコンのセールを実施しています。「2021 iMac」「2018 Mac mini」が割引価格となっています。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Amazonデバイスのニューモデル発表！ 新デバイス「Echo Hub」が登場【本日みつけたお買い得情報】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1532972.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1532972.html</guid>
-            <pubDate>Wed, 20 Sep 2023 22:40:00 GMT</pubDate>
-            <description><![CDATA[Amazon.co.jpは9月21日、同社のオリジナルハードウェア「Amazonデバイス」の新製品6機種を発表しました。新デバイスである「Echo Hub」をはじめ、「Fire TV Stick 4K」「Fire HD 10」の新モデルの発売予告が行われています。]]></description>
-            <content:encoded><![CDATA[Amazon.co.jpは9月21日、同社のオリジナルハードウェア「Amazonデバイス」の新製品6機種を発表しました。新デバイスである「Echo Hub」をはじめ、「Fire TV Stick 4K」「Fire HD 10」の新モデルの発売予告が行われています。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Microsoft「Semantic Kernel」を実装してみた | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作テクノロジー の記事一覧 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作]]></title>
             <link>https://liginc.co.jp/633770</link>
             <guid>https://liginc.co.jp/?p=633770</guid>
@@ -3132,6 +3171,20 @@
             <pubDate>Wed, 20 Sep 2023 07:22:36 GMT</pubDate>
             <description><![CDATA[こんにちは！@TOC です！ 最近は「ゾン100〜ゾンビになるまでにしたい100のこと〜」というアニメにハマっており、見るたびに「やりたいことをやるんだ！」という気持ちになります🙌 キャラも魅力的なのでこれからが楽しみですね！ さて、今回は社内で行った「Go言語による並行処理」本の輪読会が最近完走したので、その様子をご紹介しながら、輪読会をより良いものにするために行った工夫点についてご紹介します...]]></description>
             <content:encoded><![CDATA[こんにちは！@TOC です！ 最近は「ゾン100〜ゾンビになるまでにしたい100のこと〜」というアニメにハマっており、見るたびに「やりたいことをやるんだ！」という気持ちになります🙌 キャラも魅力的なのでこれからが楽しみですね！ さて、今回は社内で行った「Go言語による並行処理」本の輪読会が最近完走したので、その様子をご紹介しながら、輪読会をより良いものにするために行った工夫点についてご紹介します。 目次 輪読会で読む本の選定 どういう形式でやったのか 輪読会を進める上での工夫 1. 写経当番を決めて、実際に手を動かす 2. 学んだことを実践的にアウトプットしてみる勉強会でワイワイ 最後に 輪読…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Mastering Logistic Regression: A Comprehensive Guide with Practical Example | Hacker Noon - machine-learning]]></title>
+            <link>https://hackernoon.com/mastering-logistic-regression-a-comprehensive-guide-with-practical-example?source=rss</link>
+            <guid>https://hackernoon.com/mastering-logistic-regression-a-comprehensive-guide-with-practical-example?source=rss</guid>
+            <pubDate>Wed, 20 Sep 2023 06:54:16 GMT</pubDate>
+            <category>machine-learning</category>
+            <category>data-science</category>
+            <category>logistic-regression</category>
+            <category>linear-regression</category>
+            <category>machine-learning-tutorials</category>
+            <category>machine-learning-algorithms</category>
+            <category>data-classification</category>
+            <category>artificial-intelligence</category>
         </item>
         <item>
             <title><![CDATA[CEDEC2023に参加しました！ | freee Developers Hub]]></title>
@@ -3972,12 +4025,6 @@
             <content:encoded><![CDATA[<h1 id="はじめに"><a href="#はじめに" class="headerlink" title="はじめに"></a>はじめに</h1><div class="note warn" style="background: #fdf9e2; padding:16px;]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[理化学研究所・横浜市立大学 一般公開 2023 | イベントニュース]]></title>
-            <link>https://www.riken.jp/pr/events/events/20231021_1/index.html</link>
-            <guid> https://www.riken.jp/pr/events/events/20231021_1/index.html</guid>
-            <pubDate>Mon, 18 Sep 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[レーザー融解によるアイスコアの微細試料採取装置の開発 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2023/20230919_2/index.html</link>
             <guid>https://www.riken.jp/press/2023/20230919_2/index.html</guid>
@@ -3992,6 +4039,12 @@
             <pubDate>Mon, 18 Sep 2023 15:00:00 GMT</pubDate>
             <description><![CDATA[－様々な生体高分子のダイナミクスを決定する新たな方法論－]]></description>
             <content:encoded><![CDATA[－様々な生体高分子のダイナミクスを決定する新たな方法論－]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[理化学研究所・横浜市立大学 一般公開 2023 | イベントニュース]]></title>
+            <link>https://www.riken.jp/pr/events/events/20231021_1/index.html</link>
+            <guid> https://www.riken.jp/pr/events/events/20231021_1/index.html</guid>
+            <pubDate>Mon, 18 Sep 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[「理研CBS-トヨタ連携センター公開シンポジウム2023脳科学から迫る個人と集団のWell-beingダイナミクス」を開催しました | お知らせ]]></title>
@@ -4655,14 +4708,6 @@
             <pubDate>Fri, 15 Sep 2023 02:17:47 GMT</pubDate>
             <description><![CDATA[始めに 弊社では、数行と画像１枚の静的ページを表示させるためだけ に、1台サーバーを構築し保守運用してました。 それだけのために、1台のサーバーを保守運用するの馬鹿らしくね？？？？？？ ＼＼＼うん！馬鹿らしい／／／ ということで、AWS上に移行すること となりました にしました。 今回は、S3とCloudFrontを利用して静的ページを表示させる設定をご紹介させていただきます。 初歩的な内容となり...]]></description>
             <content:encoded><![CDATA[始めに 弊社では、数行と画像１枚の静的ページを表示させるためだけ に、1台サーバーを構築し保守運用してました。 それだけのために、1台のサーバーを保守運用するの馬鹿らしくね？？？？？？ ＼＼＼うん！馬鹿らしい／／／ ということで、AWS上に移行すること となりました にしました。 今回は、S3とCloudFrontを利用して静的ページを表示させる設定をご紹介させていただきます。 初歩的な内容となりますので、これから静的ページを作りたいんだけど！といった方向けの内容となります。 始めに 要件 構成について AWSの利用サービス 構成図 実際の設定手順 S3設定 1. バケット作成 2. inde…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[RTX 4060搭載13.4型ゲーミングノートがAmazonで2万円引きセール。ASUS ROG Flow X13 GV302XVがクーポンで割引 #てくのじDeals | TechnoEdge]]></title>
-            <link>https://www.techno-edge.net/article/2023/09/15/1918.html</link>
-            <guid>https://www.techno-edge.net/article/2023/09/15/1918.html</guid>
-            <pubDate>Fri, 15 Sep 2023 02:05:26 GMT</pubDate>
-            <description><![CDATA[Amazon.co.jpにて、GeForce RTX 4060搭載のASUS製ゲーミングノートPC「ROG Flow X13 GV302XV」に2万円オフクーポンが発行されています。価格は31万9800円ですが、クーポンを適用することで29万9800円にて購入可能です。]]></description>
-            <content:encoded><![CDATA[Amazon.co.jpにて、GeForce RTX 4060搭載のASUS製ゲーミングノートPC「ROG Flow X13 GV302XV」に2万円オフクーポンが発行されています。価格は31万9800円ですが、クーポンを適用することで29万9800円にて購入可能です。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【インターンレポート】LINE AndroidアプリのPDFプレビュー機能開発記 | LINE ENGINEERING Feed ja]]></title>
@@ -5963,69 +6008,6 @@
             <pubDate>Mon, 11 Sep 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[本文 こんにちは。 スタディプラスのカンファレンス/OSSサポートチーム、後藤です。 スタディプラスは、2023年9月14日から16日にかけてベルサール渋谷ガーデンおよびオンラインで開催される、DroidKaigi 2023に協賛します。 2023.droidkaigi.jp DroidKaigi 2023とは？ DroidKaigiは、エンジニアが主役のAndroidカンファレンスです。 And...]]></description>
             <content:encoded><![CDATA[本文 こんにちは。 スタディプラスのカンファレンス/OSSサポートチーム、後藤です。 スタディプラスは、2023年9月14日から16日にかけてベルサール渋谷ガーデンおよびオンラインで開催される、DroidKaigi 2023に協賛します。 2023.droidkaigi.jp DroidKaigi 2023とは？ DroidKaigiは、エンジニアが主役のAndroidカンファレンスです。 Android開発者有志によるDroidKaigi実行委員会が主催し、Android技術情報の共有とコミュニケーションを目的に開催されています。 【概要】 主催 ：DroidKaigi実行委員会 対象 ：A…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[trocco®使ってDailyデータをGoogleSpreadsheetに出してみた！ | CARTA TECH BLOG]]></title>
-            <link>https://techblog.cartaholdings.co.jp/entry/data-export-google-spreadsheet-trocco</link>
-            <guid>https://techblog.cartaholdings.co.jp/entry/data-export-google-spreadsheet-trocco</guid>
-            <pubDate>Sun, 10 Sep 2023 23:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、ジョンです。 今回初めてtrocco®を使ってデータの転送を行った経験をブログに投稿させていただきます！ まず、皆さんtrocco®についてご存知でしょうか？ trocco®は日本発のデータ分析基盤総合支援サービスです。 trocco®はデータ転送や変換、加工などのさまざまな機能をビジネスユーザの使いやすさに最適化したUI（User Interface）として提供することで、既存のデー...]]></description>
-            <content:encoded><![CDATA[こんにちは、ジョンです。 今回初めてtrocco®を使ってデータの転送を行った経験をブログに投稿させていただきます！ まず、皆さんtrocco®についてご存知でしょうか？ trocco®は日本発のデータ分析基盤総合支援サービスです。 trocco®はデータ転送や変換、加工などのさまざまな機能をビジネスユーザの使いやすさに最適化したUI（User Interface）として提供することで、既存のデータ総合エンジニアリングの工数を90%以上削減できる強みを持っています。 （200社以上の企業が導入しているそうです。） 今回ジョンが担当しているプロダクトで社内で利用しているチームの方から毎日のデータ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ノースキルのシスオペが事業会社のエンジニアになるまで | LIVESENSE ENGINEER BLOG]]></title>
-            <link>https://made.livesense.co.jp/entry/2023/09/11/080000</link>
-            <guid>https://made.livesense.co.jp/entry/2023/09/11/080000</guid>
-            <pubDate>Sun, 10 Sep 2023 23:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに インフラGの鈴木です。最近海外に行きやすくなったのと、パスポートの更新をしたことから、韓国の清道闘牛と釜山競馬のことしか考えてません。 ところで、リブセンスに入社して半年になりました。同時に社会人歴10年の節目なので、棚卸しがてら振り返ってみたところ、色々考えるきっかけになったので、共有してみます。 私の経歴 サマリ 大学を無内定卒業 半年に一回バイト変えて、最終的に日雇いみたいなのを1...]]></description>
-            <content:encoded><![CDATA[はじめに インフラGの鈴木です。最近海外に行きやすくなったのと、パスポートの更新をしたことから、韓国の清道闘牛と釜山競馬のことしか考えてません。 ところで、リブセンスに入社して半年になりました。同時に社会人歴10年の節目なので、棚卸しがてら振り返ってみたところ、色々考えるきっかけになったので、共有してみます。 私の経歴 サマリ 大学を無内定卒業 半年に一回バイト変えて、最終的に日雇いみたいなのを1年半くらい 未経験でソフトハウスに半年 システムオペレータを3年 SIerでインフラエンジニアを3年 外資のコンサルティングファームでSEを4ヶ月ほど リブセンスに入社して半年 説明 大学卒業後は、や…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Terraform で AWS に DB を構築するとき manage_master_user_password を使っていますか？ | ISID テックブログ]]></title>
-            <link>https://tech.isid.co.jp/entry/terraform_manage_master_user_password</link>
-            <guid>https://tech.isid.co.jp/entry/terraform_manage_master_user_password</guid>
-            <pubDate>Sun, 10 Sep 2023 23:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは。X（クロス）イノベーション本部 ソフトウェアデザインセンター セキュリティグループの耿です。 Terraform で Amazon RDS インスタンス/クラスターを作る時に、password または master_password 属性に指定したマスターユーザーのパスワードが tfstate ファイルに平文で残ってしまう問題がありました。 （参考） https://speakerde...]]></description>
-            <content:encoded><![CDATA[こんにちは。X（クロス）イノベーション本部 ソフトウェアデザインセンター セキュリティグループの耿です。 Terraform で Amazon RDS インスタンス/クラスターを作る時に、password または master_password 属性に指定したマスターユーザーのパスワードが tfstate ファイルに平文で残ってしまう問題がありました。 （参考） https://speakerdeck.com/harukasakihara/sekiyuanaterraformfalseshi-ifang-ji-mi-qing-bao-wokodonihan-mezuhuan-jing-gou-…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AWS Certified Security（SCS-C01） に合格しました | Tech Do | メディアドゥの技術ブログ　]]></title>
-            <link>https://techdo.mediado.jp/entry/2023/09/11/070000</link>
-            <guid>https://techdo.mediado.jp/entry/2023/09/11/070000</guid>
-            <pubDate>Sun, 10 Sep 2023 22:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは！メディアドゥエンジニアの藤澤です。 タイトルにもあるように、今年の6月に AWS Certified Security - Specialty（SCS-C01）の認定試験（更新）に合格することができました（以下、AWS Certified Security とさせていただきます）。 今回は、受験の経緯や私なりの勉強方法、モチベーションの保ち方等について書いていきたいと思います...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは！メディアドゥエンジニアの藤澤です。 タイトルにもあるように、今年の6月に AWS Certified Security - Specialty（SCS-C01）の認定試験（更新）に合格することができました（以下、AWS Certified Security とさせていただきます）。 今回は、受験の経緯や私なりの勉強方法、モチベーションの保ち方等について書いていきたいと思います。今後受験を考えている方の参考になれば嬉しいです。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[AI Reads Minds of 29 Patients! | Two Minute Papers]]></title>
-            <link>https://www.youtube.com/watch?v=qcfC53c3tSc</link>
-            <guid>https://www.youtube.com/watch?v=qcfC53c3tSc</guid>
-            <pubDate>Sun, 10 Sep 2023 16:39:41 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[双方向の表示順バイアスを考慮したランキング指標 | Recruit Data Blog]]></title>
-            <link>https://blog.recruit.co.jp/data/articles/kdd_2023_workshop/</link>
-            <guid>https://blog.recruit.co.jp/data/articles/kdd_2023_workshop/</guid>
-            <pubDate>Sun, 10 Sep 2023 15:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに データマイニング分野の国際会議KDD2023のワークショップである Causal Inference and Machine Learning in Practice にて、リクルートの翁と西村、東京]]></description>
-            <content:encoded><![CDATA[はじめに データマイニング分野の国際会議KDD2023のワークショップである Causal Inference and Machine Learning in Practice にて、リクルートの翁と西村、東京]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[和光市主催「子ども大学わこう」を開講しました。 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20230911_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20230911_1/index.html</guid>
-            <pubDate>Sun, 10 Sep 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Data Management Principles for Data Science | KDnuggets]]></title>
-            <link>https://www.kdnuggets.com/data-management-principles-for-data-science?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=data-management-principles-for-data-science</link>
-            <guid>https://www.kdnuggets.com/?p=159022</guid>
-            <pubDate>Sun, 10 Sep 2023 12:00:26 GMT</pubDate>
-            <description><![CDATA[Back to Basics: Understanding key data management principles that data scientists should know.]]></description>
-            <content:encoded><![CDATA[Back to Basics: Understanding key data management principles that data scientists should know.]]></content:encoded>
-            <category>KDnuggets Evergreen</category>
-            <category>KDnuggets Originals</category>
-            <category>SQL</category>
         </item>
     </channel>
 </rss>
