@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Sun, 03 Dec 2023 23:22:40 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Dec 2023 02:05:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,240 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[JavaのSpringBootでMyBatisを利用して複数のデータソースに接続する方法 | エキサイト TechBlog.]]></title>
+            <link>https://tech.excite.co.jp/entry/2023/12/04/093854</link>
+            <guid>https://tech.excite.co.jp/entry/2023/12/04/093854</guid>
+            <pubDate>Mon, 04 Dec 2023 21:30:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、エキサイト株式会社の平石です。エキサイトホールディングス Advent Calendar 2023の5日目を担当いたします。 今回はJavaのSpringBootでMyBatisを利用して、複数のデータソースに接続する方法をご紹介します。 はじめに 前提条件 問題設定 application.ymlファイルへの記述 接続設定項目をYAMLファイルから読み込む 実際に接続設定を行う おわ...]]></description>
+            <content:encoded><![CDATA[こんにちは、エキサイト株式会社の平石です。エキサイトホールディングス Advent Calendar 2023の5日目を担当いたします。 今回はJavaのSpringBootでMyBatisを利用して、複数のデータソースに接続する方法をご紹介します。 はじめに 前提条件 問題設定 application.ymlファイルへの記述 接続設定項目をYAMLファイルから読み込む 実際に接続設定を行う おわりに 参考文献 はじめに 複数のデータベースに利用したい情報が分散しており、一つの「アプリケーション」からそれらにアクセスする必要があるという場合を考えます。 このとき、考えられる対処法は主に2つあり…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[画像を理解するGPT-4 Visionで、既存の画像認識モデルを説明可能にする ~ 新宿の特徴は"ビル群"だが、日本橋の特徴は"密集したビル"? ~ | エムスリーテックブログ]]></title>
+            <link>https://www.m3tech.blog/entry/photo2geo_gpt4</link>
+            <guid>https://www.m3tech.blog/entry/photo2geo_gpt4</guid>
+            <pubDate>Mon, 04 Dec 2023 05:00:00 GMT</pubDate>
+            <description><![CDATA[特化型モデルで識別・ピクセル重要度抽出した後に、GPTで自然言語に変換する 画像認識モデルを作ったら、そのモデル自体から"こういうオブジェクトがあるから私はこう認識したんだよ"と教えてほしくありませんか？ 今回作るのは、図のように、写真が東京都中央区で撮られているとわかるのは、"照明と配管"が特徴的で、"箱やパッケージが多い"から市場らしさがあるんだよ、と自分で説明してくれるAIです。 背景ですが...]]></description>
+            <content:encoded><![CDATA[特化型モデルで識別・ピクセル重要度抽出した後に、GPTで自然言語に変換する 画像認識モデルを作ったら、そのモデル自体から"こういうオブジェクトがあるから私はこう認識したんだよ"と教えてほしくありませんか？ 今回作るのは、図のように、写真が東京都中央区で撮られているとわかるのは、"照明と配管"が特徴的で、"箱やパッケージが多い"から市場らしさがあるんだよ、と自分で説明してくれるAIです。 背景ですが、機械学習が、それを本業とする人以外にも幅広く使われるようになってくるのに伴い、モデルの説明可能性も重要視されているように思います。 テーブルデータからの識別問題であれば重要な項目を特徴重要度などから…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[小数点の罠：メンバーシップポイント計算の裏側 | BASEプロダクトチームブログ]]></title>
+            <link>https://devblog.thebase.in/entry/2023/12/04/110000</link>
+            <guid>https://devblog.thebase.in/entry/2023/12/04/110000</guid>
+            <pubDate>Mon, 04 Dec 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに この記事はBASEアドベントカレンダーの四日目の記事です。 こんにちは！私は@shiiyannnと申します。現在、メンバーシップ Appの開発に携わっています。メンバーシップ Appはショップオリジナルの「メンバーシップ」（会員制度）を作成することができる機能です。 2023年9月、メンバーシップ Appは大幅な機能アップデートを遂げました。今回のアップデートでは、ショップオーナーが商品...]]></description>
+            <content:encoded><![CDATA[はじめに この記事はBASEアドベントカレンダーの四日目の記事です。 こんにちは！私は@shiiyannnと申します。現在、メンバーシップ Appの開発に携わっています。メンバーシップ Appはショップオリジナルの「メンバーシップ」（会員制度）を作成することができる機能です。 2023年9月、メンバーシップ Appは大幅な機能アップデートを遂げました。今回のアップデートでは、ショップオーナーが商品購入時に独自のポイントを付与できるようになりました。付与されるポイントの量は、注文金額にショップオーナーが設定したポイント付与率を掛け合わせて計算されます。 この記事では、ポイント付与機能の開発中に直…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[アクセシビリティカンファレンス福岡 2023 | LINEヤフー Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20231204a</link>
+            <guid>https://techblog.lycorp.co.jp/ja/20231204a</guid>
+            <pubDate>Mon, 04 Dec 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[LINEヤフー Advent Calendar 2023の4日目の記事です。  こんにちは。UIT開発推進部、Webアクセシビリティチーム リーダーの富田です。 2023年11月11日（土）に福岡の...]]></description>
+            <content:encoded><![CDATA[LINEヤフー Advent Calendar 2023の4日目の記事です。  こんにちは。UIT開発推進部、Webアクセシビリティチーム リーダーの富田です。 2023年11月11日（土）に福岡の...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[アクセシビリティカンファレンス福岡 2023 | LINEヤフー Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20231204a</link>
+            <guid>https://techblog.lycorp.co.jp/ja/20231204a</guid>
+            <pubDate>Mon, 04 Dec 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[LINEヤフー Advent Calendar 2023の4日目の記事です。  こんにちは。UIT開発推進部、Webアクセシビリティチーム リーダーの富田です。 2023年11月11日（土）に福岡の...]]></description>
+            <content:encoded><![CDATA[LINEヤフー Advent Calendar 2023の4日目の記事です。  こんにちは。UIT開発推進部、Webアクセシビリティチーム リーダーの富田です。 2023年11月11日（土）に福岡の...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[世界最小級の外付けGPU。ゲームに動画編集に生成AIによし | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/12/onexgpu.html</link>
+            <guid>https://www.gizmodo.jp/2023/12/onexgpu.html</guid>
+            <pubDate>Mon, 04 Dec 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[デスクトップPCと違ってパワーアップのためのカスタムができる範囲が狭いノートPCですが、このポータブルな外付けGPU「ONEXGPU」があれば、処理能力を大幅に高められそう。]]></description>
+            <content:encoded><![CDATA[デスクトップPCと違ってパワーアップのためのカスタムができる範囲が狭いノートPCですが、このポータブルな外付けGPU「ONEXGPU」があれば、処理能力を大幅に高められそう。]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[エンジニアがバステクin首都圏2023に参加してみた！ | LCL Engineers' Blog]]></title>
+            <link>https://techblog.lclco.com/entry/2023/12/04/104343</link>
+            <guid>https://techblog.lclco.com/entry/2023/12/04/104343</guid>
+            <pubDate>Mon, 04 Dec 2023 01:43:43 GMT</pubDate>
+            <description><![CDATA[バックエンドエンジニアの高良です。 前回に引き続き業界関連のイベントに参加してきました！ techblog.lclco.com バステクin首都圏とは？ バスに関わる最新技術が集結するイベントです。 EVバスの新型車両やAIカメラによる事故防止システムといったトレンド関連のものから、新型のタイヤやデジタルサイネージなど様々な技術が一同に会します。 ニッチな業界ではありますが、それだけに様々なレイヤ...]]></description>
+            <content:encoded><![CDATA[バックエンドエンジニアの高良です。 前回に引き続き業界関連のイベントに参加してきました！ techblog.lclco.com バステクin首都圏とは？ バスに関わる最新技術が集結するイベントです。 EVバスの新型車両やAIカメラによる事故防止システムといったトレンド関連のものから、新型のタイヤやデジタルサイネージなど様々な技術が一同に会します。 ニッチな業界ではありますが、それだけに様々なレイヤーの技術を展示しているブースを一度に見ることができて、非常に見応えのあるイベントでした！ いくつかお話を伺ったブースの技術を紹介していきます。 ⁠AIカメラによる車内転倒事故防止システム AIカメラを…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【LIVE】お披露目配信会場はこちら！ 【新章突入！】 #VRアカデミア | AIcia Solid Project]]></title>
+            <link>https://www.youtube.com/watch?v=-vLx7vbbRuk</link>
+            <guid>https://www.youtube.com/watch?v=-vLx7vbbRuk</guid>
+            <pubDate>Mon, 04 Dec 2023 01:41:28 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[アルファ交流会、どうだった？　テクノエッジのポッドキャスト「TechnoEdge-Side」第33回、本日（12月4日）正午にライブ配信（TechnoEdge-Side） | TechnoEdge]]></title>
+            <link>https://www.techno-edge.net/article/2023/12/04/2387.html</link>
+            <guid>https://www.techno-edge.net/article/2023/12/04/2387.html</guid>
+            <pubDate>Mon, 04 Dec 2023 01:37:16 GMT</pubDate>
+            <description><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第32回放送を、本日（12月4日）正午（12時）に、YouTubeで行います。]]></description>
+            <content:encoded><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第32回放送を、本日（12月4日）正午（12時）に、YouTubeで行います。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　12月4日　～SteelSeriesなど | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/update/driver/1551664.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/update/driver/1551664.html</guid>
+            <pubDate>Mon, 04 Dec 2023 01:32:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CiscoとJuniperでタグVLANとVRRPを検証 | シナプス技術者ブログ]]></title>
+            <link>https://tech.synapse.jp/entry/2023/12/04/103000</link>
+            <guid>https://tech.synapse.jp/entry/2023/12/04/103000</guid>
+            <pubDate>Mon, 04 Dec 2023 01:30:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、ネットワーク課の若松です。 このたびシナプスのネットワーク機器のリプレース作業の一環としてCisco IOS XR機器とJuniper機器に触れる機会がありましたので、タグVLANとVRRPについて検証してみました。 タグVLANとVRRP タグVLANとは VRRPとは 検証環境 ホスト名とルータOSバージョン ネットワーク構成 コンフィグレーション Ciscoのコンフィグレーション...]]></description>
+            <content:encoded><![CDATA[こんにちは、ネットワーク課の若松です。 このたびシナプスのネットワーク機器のリプレース作業の一環としてCisco IOS XR機器とJuniper機器に触れる機会がありましたので、タグVLANとVRRPについて検証してみました。 タグVLANとVRRP タグVLANとは VRRPとは 検証環境 ホスト名とルータOSバージョン ネットワーク構成 コンフィグレーション Ciscoのコンフィグレーション Juniperのコンフィグレーション タグVLANの設定状況確認 Cisco側の状態 Juniper側の状態 VRRPの状態確認 Cisco側の確認 Juniper側の確認 Cisco側のプライオリ…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Javaで、文字列内に文字列変数を挿入する方法 | エキサイト TechBlog.]]></title>
+            <link>https://tech.excite.co.jp/entry/2023/12/04/102549</link>
+            <guid>https://tech.excite.co.jp/entry/2023/12/04/102549</guid>
+            <pubDate>Mon, 04 Dec 2023 01:25:49 GMT</pubDate>
+            <description><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 本記事は、エキサイトホールディングス Advent Calendar 2023の4日目のものになります。 qiita.com 良ければ他の記事もどうぞ！ さて、コーディングをしていると、文字列の中に変数で定義してある文字列を挿入したい場合があります。 今回は、Javaで変数挿入を行う方法を3つ紹介します。 1. + を使った連結 2. String.f...]]></description>
+            <content:encoded><![CDATA[こんにちは。 エキサイト株式会社の三浦です。 本記事は、エキサイトホールディングス Advent Calendar 2023の4日目のものになります。 qiita.com 良ければ他の記事もどうぞ！ さて、コーディングをしていると、文字列の中に変数で定義してある文字列を挿入したい場合があります。 今回は、Javaで変数挿入を行う方法を3つ紹介します。 1. + を使った連結 2. String.format を使う方法 3. 独自の文字列で置換する方法 おまけ：文字列内で変数を展開することはできない 最後に 1. + を使った連結 最も直感的なのは、 + を使った連結でしょう。 String …]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GitHub Actionsでデプロイした時に、自動的にCSSファイルをS3にアップロードする | エキサイト TechBlog.]]></title>
+            <link>https://tech.excite.co.jp/entry/2023/12/04/101738</link>
+            <guid>https://tech.excite.co.jp/entry/2023/12/04/101738</guid>
+            <pubDate>Mon, 04 Dec 2023 01:17:38 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、新卒1年目の岡崎です。エキサイトホールディングス Advent Calendar 2023の4日目を担当します。 今回はGitHub Actionsを使って、Amazon ECSにアプリケーションをデプロイした時に、自動的にCSSファイルをS3にアップロードする実装を行いました。その備忘録として記事に残します。 はじめに 環境 S3にCSSファイルをアップロードする 実装 ク...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは、新卒1年目の岡崎です。エキサイトホールディングス Advent Calendar 2023の4日目を担当します。 今回はGitHub Actionsを使って、Amazon ECSにアプリケーションをデプロイした時に、自動的にCSSファイルをS3にアップロードする実装を行いました。その備忘録として記事に残します。 はじめに 環境 S3にCSSファイルをアップロードする 実装 クライアントがCSSファイルにアクセスする方法 CloudFrontのキャッシュを削除する 実装 まとめ 環境 GitHub Actions AWS S3 CloudFront S3にCSSファイルをア…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[画像内のキャラを思うがままに抜群の精度で動かせる「Animate Anyone」、話した声をすぐに翻訳するMeta「Seamless」など重要論文5本を解説（生成AIウィークリー） | TechnoEdge]]></title>
+            <link>https://www.techno-edge.net/article/2023/12/04/2386.html</link>
+            <guid>https://www.techno-edge.net/article/2023/12/04/2386.html</guid>
+            <pubDate>Mon, 04 Dec 2023 01:10:25 GMT</pubDate>
+            <description><![CDATA[先週大きな話題となった、画像内のキャラクターや写真内の人物を骨格動画に応じて動かせる「Animate Anyone」など5本の生成AI論文を紹介。]]></description>
+            <content:encoded><![CDATA[先週大きな話題となった、画像内のキャラクターや写真内の人物を骨格動画に応じて動かせる「Animate Anyone」など5本の生成AI論文を紹介。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[「Google ドライブ」に［Home］ページが追加 ～機械学習でファイルを提案／フィルタリングも改善され、より簡単かつ迅速にファイルを探せるように | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1551366.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1551366.html</guid>
+            <pubDate>Mon, 04 Dec 2023 01:10:00 GMT</pubDate>
+            <description><![CDATA[米Googleは11月28日（現地時間）、「Google Drive」においてファイルをより簡単かつ迅速に探すことができる［Home］ページを、新たに追加したことを発表した。]]></description>
+            <content:encoded><![CDATA[米Googleは11月28日（現地時間）、「Google Drive」においてファイルをより簡単かつ迅速に探すことができる［Home］ページを、新たに追加したことを発表した。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[技術広報が支援会社から事業会社に転職したら、自我が崩壊した話 | Chatwork Creator's Note]]></title>
+            <link>https://creators-note.chatwork.com/entry/2023/12/04/100022</link>
+            <guid>https://creators-note.chatwork.com/entry/2023/12/04/100022</guid>
+            <pubDate>Mon, 04 Dec 2023 01:00:22 GMT</pubDate>
+            <description><![CDATA[この記事は Chatwork Advent Calendar 2023 4日目の記事です。クリスマスまで社員が 1 つずつ記事を書いていきます。 本日は、エンジニアの採用ブランディングチームに所属する大澤が担当します！ はじめに 私は今年の8月に、Chatworkへジョインしました。 前職はPR代理店に所属しており、某IT企業におけるエンジニアの採用PRを担当していました。 そんな私が、支援会社か...]]></description>
+            <content:encoded><![CDATA[この記事は Chatwork Advent Calendar 2023 4日目の記事です。クリスマスまで社員が 1 つずつ記事を書いていきます。 本日は、エンジニアの採用ブランディングチームに所属する大澤が担当します！ はじめに 私は今年の8月に、Chatworkへジョインしました。 前職はPR代理店に所属しており、某IT企業におけるエンジニアの採用PRを担当していました。 そんな私が、支援会社から事業会社への転職を通して、両者の違いについて感じたことがあり、その気づきをここにまとめます。 支援会社と事業会社の間でキャリアチェンジや会社選びに迷っている方がいらっしゃったら、一意見として参考にし…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[新任・採用広報3ヶ月の仕事報告とふりかえり | ANDPAD Tech Blog]]></title>
+            <link>https://tech.andpad.co.jp/entry/2023/12/04/100000</link>
+            <guid>https://tech.andpad.co.jp/entry/2023/12/04/100000</guid>
+            <pubDate>Mon, 04 Dec 2023 01:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、 id:sezemi です。 今月リリース予定のアオアシ 34 巻とブルーロック 27 巻を楽しみに、それぞれ 1 巻からふりかえりをしている毎日です。 そんなことより勉強しよう、おれ。 さて、この記事は ANDPAD Advent Calendar 2023 4 日目と 技術広報 Advent Calendar 2023 シリーズ 2 の 4 日目の記事です。 9 月 1 日に採用広...]]></description>
+            <content:encoded><![CDATA[こんにちは、 id:sezemi です。 今月リリース予定のアオアシ 34 巻とブルーロック 27 巻を楽しみに、それぞれ 1 巻からふりかえりをしている毎日です。 そんなことより勉強しよう、おれ。 さて、この記事は ANDPAD Advent Calendar 2023 4 日目と 技術広報 Advent Calendar 2023 シリーズ 2 の 4 日目の記事です。 9 月 1 日に採用広報としてアンドパッドに入社してから 3 ヶ月が経過したので、その仕事内容とふりかえりをします。 同じポジションにいらっしゃる方、もしくは興味がある方に、採用広報とはどんな仕事をしているのか、お伝えでき…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[新卒エンジニアの振り返りと俺流みんなと仲良くなり術 | Retty Tech Blog]]></title>
+            <link>https://engineer.retty.me/entry/wakanao_new_grad?utm_source=feed</link>
+            <guid>https://engineer.retty.me/entry/wakanao_new_grad?utm_source=feed</guid>
+            <pubDate>Mon, 04 Dec 2023 01:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに 自己紹介 何を伝えたいか なぜRettyへ入社したのか エンジニアとしての半年間の振り返り インターン不参加・Android開発未経験からの入社 とにかく自分の状況を発信する とにかく出来る人の真似をする チームで開発すること 俺流みんなと仲良くなり術 Slackでのコミュニケーション 絵文字をつける 即レス・即リアクションをする timesでちょっとウケようとする 出社して皆とご飯を食...]]></description>
+            <content:encoded><![CDATA[はじめに 自己紹介 何を伝えたいか なぜRettyへ入社したのか エンジニアとしての半年間の振り返り インターン不参加・Android開発未経験からの入社 とにかく自分の状況を発信する とにかく出来る人の真似をする チームで開発すること 俺流みんなと仲良くなり術 Slackでのコミュニケーション 絵文字をつける 即レス・即リアクションをする timesでちょっとウケようとする 出社して皆とご飯を食べる イベント参加 さいごに はじめに はじめまして、Rettyの23卒エンジニアのわかたなおきです。この記事はRetty Advent Calendar 2023の4日目かつ23卒エンジニア第一弾の…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[謎解き制作にfreeeQAプロセスを適用してみた | freee Developers Hub]]></title>
+            <link>https://developers.freee.co.jp/entry/freee-qa-advent-calendar-day4</link>
+            <guid>https://developers.freee.co.jp/entry/freee-qa-advent-calendar-day4</guid>
+            <pubDate>Mon, 04 Dec 2023 01:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。freee申告でQAエンジニアをしている金子です。 freee QA Advent Calendar2023 の4日目です。 freeeには謎解き部があり、謎解き公演に一緒に行ったり、社内イベント用に謎解き制作を行なったりしています。 この記事は、普段はWebサービスに対してfreeeのQAプロセスを回している人が、謎解き制作に対してfreeeのQAプロセスを試したらどうなるのかという...]]></description>
+            <content:encoded><![CDATA[こんにちは。freee申告でQAエンジニアをしている金子です。 freee QA Advent Calendar2023 の4日目です。 freeeには謎解き部があり、謎解き公演に一緒に行ったり、社内イベント用に謎解き制作を行なったりしています。 この記事は、普段はWebサービスに対してfreeeのQAプロセスを回している人が、謎解き制作に対してfreeeのQAプロセスを試したらどうなるのかというネタ投稿となっております。 もしかしたらfreeeのQAプロセスを他業種に活かすときの参考になるかもしれません。 Abstract 近年、謎解きの人気が伸びており、謎の需要が高まっている。しかし謎の品…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[サム・アルトマンの温かい言葉は、冷たくも響く | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2023/12/new-board-openai-sam-altman-ilya-sutskever-microsoft.html</link>
+            <guid>https://www.gizmodo.jp/2023/12/new-board-openai-sam-altman-ilya-sutskever-microsoft.html</guid>
+            <pubDate>Mon, 04 Dec 2023 01:00:00 GMT</pubDate>
+            <description><![CDATA[Image:jamesonwu1972/Shutterstock.com復帰した人、しなかった人。サム・アルトマンがOpenAIのCEOに正式に復帰。社長にグレッグ・ブロックマン、CTOにミラ・ムラティ、そして新しい取締役も決まっています。一方で、OpenAIの共同創設者のイリヤ・スツケバーの復帰も役職もまだ決まっていません。サム・アルトマンはプレスリリース以下のように述べています。「私はイリヤを]]></description>
+            <content:encoded><![CDATA[Image:jamesonwu1972/Shutterstock.com復帰した人、しなかった人。サム・アルトマンがOpenAIのCEOに正式に復帰。社長にグレッグ・ブロックマン、CTOにミラ・ムラティ、そして新しい取締役も決まっています。一方で、OpenAIの共同創設者のイリヤ・スツケバーの復帰も役職もまだ決まっていません。サム・アルトマンはプレスリリース以下のように述べています。「私はイリヤを]]></content:encoded>
+            <category>NEWS</category>
+        </item>
+        <item>
+            <title><![CDATA[AmazonがChatGPTより安全だとしていたAIチャットボット「Q」に機密情報を漏洩してしまう不… | TEXAL]]></title>
+            <link>https://texal.jp/2023/12/04/q-the-ai-chatbot-amazon-said-was-safer-than-chatgpt-reportedly-has-a-bug-that-leaks-confidential-information/</link>
+            <guid>https://texal.jp/?p=43988</guid>
+            <pubDate>Mon, 04 Dec 2023 00:56:41 GMT</pubDate>
+            <description><![CDATA[Amazonの機密情報を取り扱うための“ガードレール”を有し、ChatGPTよりも安全であるとの主張と共に登場したAIチャットボット「Q」が、発表からわずか数日後に「重度の幻覚」を経験し、機密データを漏洩している事がPl ... Read more]]></description>
+            <content:encoded><![CDATA[Amazonの機密情報を取り扱うための“ガードレール”を有し、ChatGPTよりも安全であるとの主張と共に登場したAIチャットボット「Q」が、発表からわずか数日後に「重度の幻覚」を経験し、機密データを漏洩している事がPl ... Read more]]></content:encoded>
+            <category>テクノロジー</category>
+            <category>AI</category>
+            <category>Amazon</category>
+            <category>Amazon Q</category>
+            <category>ChatGPT</category>
+            <category>チャットボット</category>
+        </item>
+        <item>
+            <title><![CDATA[【実例付き】Notion好き必見！NotionのDatabase automationsで効率化できる９つのこと | ABEJA Tech Blog]]></title>
+            <link>https://tech-blog.abeja.asia/entry/advent-2023-day04</link>
+            <guid>https://tech-blog.abeja.asia/entry/advent-2023-day04</guid>
+            <pubDate>Mon, 04 Dec 2023 00:30:00 GMT</pubDate>
+            <description><![CDATA[Database automationsに関して、その設定方法を細かくご説明し、Database automationsがどのように活用することができるのかを、「実例付き」でご紹介します。]]></description>
+            <content:encoded><![CDATA[Database automationsに関して、その設定方法を細かくご説明し、Database automationsがどのように活用することができるのかを、「実例付き」でご紹介します。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[「Copilot in Windows」＋マルチモニター環境で問題、「Windows 11 2023 Update」の提供を一時中断／デスクトップのアイコンが予期せず他のモニターへ移動してしまう | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1551614.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1551614.html</guid>
+            <pubDate>Mon, 04 Dec 2023 00:11:00 GMT</pubDate>
+            <description><![CDATA[米Microsoftは12月1日（現地時間）、「Copilot in Windows」に問題があることを明らかにした。マルチモニター環境でデスクトップのアイコンが予期せず他のモニターへ移動してしまったり、アイコンの配置に問題が生じることがあるという。]]></description>
+            <content:encoded><![CDATA[米Microsoftは12月1日（現地時間）、「Copilot in Windows」に問題があることを明らかにした。マルチモニター環境でデスクトップのアイコンが予期せず他のモニターへ移動してしまったり、アイコンの配置に問題が生じることがあるという。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[105冊がセール対象！ Amazon Kindleストアにて「2023年12月の月替わりセール」／『非売品ゲームソフトガイドブックGOLD』が52％OFFの1,155円など【Book Watch/セール情報】 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/bookwatch/sale/1551616.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/bookwatch/sale/1551616.html</guid>
+            <pubDate>Mon, 04 Dec 2023 00:02:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[突撃！隣のリモート・オフィス環境 2023 | freee Developers Hub]]></title>
+            <link>https://developers.freee.co.jp/entry/remote-2023</link>
+            <guid>https://developers.freee.co.jp/entry/remote-2023</guid>
+            <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[freee 会計でエンジニアをやっている jaxx です。今年もアドベントカレンダーの季節がやってきましたね。freee Developers Advent Calendar 2023 の 4 日目の記事となります。 去年に引き続き「突撃！隣のリモート・オフィス環境」をやりたいと思います。 developers.freee.co.jp 前回は freee 会計のエンジニア、QA に限定してデスク環...]]></description>
+            <content:encoded><![CDATA[freee 会計でエンジニアをやっている jaxx です。今年もアドベントカレンダーの季節がやってきましたね。freee Developers Advent Calendar 2023 の 4 日目の記事となります。 去年に引き続き「突撃！隣のリモート・オフィス環境」をやりたいと思います。 developers.freee.co.jp 前回は freee 会計のエンジニア、QA に限定してデスク環境を紹介しましたが、今回はスコープを広げて developers 全体に周知して書いてくれる方を募集しました。猛者揃い(?)だと思うので、こだわりのリモート・オフィス環境について紹介していきたいなと思…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[デモって本番で失敗するよね。という話。 | ユニファ開発者ブログ]]></title>
+            <link>https://tech.unifa-e.com/entry/2023/12/04/090000?utm_source=feed</link>
+            <guid>https://tech.unifa-e.com/entry/2023/12/04/090000?utm_source=feed</guid>
+            <pubDate>Mon, 04 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ユニファ主催のオンライン研修イベントでのデモ失敗談です。]]></description>
+            <content:encoded><![CDATA[ユニファ主催のオンライン研修イベントでのデモ失敗談です。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[iPhone/iPadユーザーに朗報！ 「Google ドライブ」のドキュメントスキャンが利用可能に／Android版も自動キャプチャーの追加など機能を強化 | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1551398.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1551398.html</guid>
+            <pubDate>Sun, 03 Dec 2023 23:38:00 GMT</pubDate>
+            <description><![CDATA[米Googleは11月28日（現地時間）、ストレージサービス「Google ドライブ」の撮影した写真をPDF化する「ドキュメントスキャン」機能を、iOS版アプリに追加するとともに、すでに搭載されているAndroid版アプリで機能を強化したことを発表した。]]></description>
+            <content:encoded><![CDATA[米Googleは11月28日（現地時間）、ストレージサービス「Google ドライブ」の撮影した写真をPDF化する「ドキュメントスキャン」機能を、iOS版アプリに追加するとともに、すでに搭載されているAndroid版アプリで機能を強化したことを発表した。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[KISS、3Dアバターとなり永遠の命を得てバンド活動継続。ABBA方式で | TechnoEdge]]></title>
+            <link>https://www.techno-edge.net/article/2023/12/04/2385.html</link>
+            <guid>https://www.techno-edge.net/article/2023/12/04/2385.html</guid>
+            <pubDate>Sun, 03 Dec 2023 23:31:56 GMT</pubDate>
+            <description><![CDATA[ハードロックバンドKISSがABBA方式で3Dアバター化し、活動を続けることが発表されました。]]></description>
+            <content:encoded><![CDATA[ハードロックバンドKISSがABBA方式で3Dアバター化し、活動を続けることが発表されました。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[SRE を立ち上げた4ヶ月後の世界 | Magic Moment Tech Blogさんのフィード]]></title>
+            <link>https://zenn.dev/magicmoment/articles/the-world-4-months-after-launching-sre-202312</link>
+            <guid>https://zenn.dev/magicmoment/articles/the-world-4-months-after-launching-sre-202312</guid>
+            <pubDate>Sun, 03 Dec 2023 23:28:36 GMT</pubDate>
+            <description><![CDATA[この記事は、Magic Moment Advent Calendar 2023 4 日目の記事です。  こんにちは! Magic Moment で Senior Engineering Manager 兼 SRE Engineering Manager をやっている 木村 (@ryurock) です。 Magic Moment アドベントカレンダー 4 日目では、2023年9月に SRE チーム ...]]></description>
+            <content:encoded><![CDATA[この記事は、Magic Moment Advent Calendar 2023 4 日目の記事です。  こんにちは! Magic Moment で Senior Engineering Manager 兼 SRE Engineering Manager をやっている 木村 (@ryurock) です。 Magic Moment アドベントカレンダー 4 日目では、2023年9月に SRE チーム を立ち上げた 4 ヶ月後の世界。 というテーマでアドカレやっていきたいと思っています。( ｰ`дｰ´)ｷﾘｯ   SRE チームの立ち上げの経緯 遡る事、2023年7月頃に弊社が提供しているサ...]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[「Excel」2023年11月のアップデートまとめ ～「Microsoft Loop」のテーブルを共有可能に／「GROUPBY」と「PIVOTBY」関数を導入、参照ブックの更新が簡単に | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/news/1551444.html</link>
@@ -162,7 +396,7 @@
             <content:encoded><![CDATA[OpenShift Ingress Controllerの負荷分散について 目次 OpenShift Ingress Controllerの負荷分散について 目次 はじめに OpenShift Ingress Controllerとは デフォルトの負荷分散 The Power of Two Choices in Load Balancing の要約 負荷分散のベストプラクティス まとめ 参考文献 はじめに OpenShift Advent Calendar 2023 の記事です。 OpenShift や Kubernetes を利用して Web サービスを構築する場合、デプロイした Pod は…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[Next.js(App Router) + microCMSで構築したハイパフォーマンスメディアの紹介 | Uzabase for Engineers]]></title>
+            <title><![CDATA[Next.js(App Router) + microCMSで構築したWebメディアの技術紹介 | Uzabase for Engineers]]></title>
             <link>https://tech.uzabase.com/entry/app-router-micro-cms-media</link>
             <guid>https://tech.uzabase.com/entry/app-router-micro-cms-media</guid>
             <pubDate>Sun, 03 Dec 2023 21:00:00 GMT</pubDate>
@@ -260,6 +494,14 @@
             <pubDate>Sun, 03 Dec 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[大規模言語モデルの事前学習知見を振り返る | Zennのトレンド]]></title>
+            <link>https://zenn.dev/turing_motors/articles/0f5ac6840f66fe</link>
+            <guid>https://zenn.dev/turing_motors/articles/0f5ac6840f66fe</guid>
+            <pubDate>Sun, 03 Dec 2023 14:46:19 GMT</pubDate>
+            <description><![CDATA[はじめに Turing 株式会社のリサーチチームでインターンをしている東京工業大学 横田研究室B4の藤井(@okoge_kaz)です。 2022年11月末にChatGPTがリリースされてから早1年、2023年は大規模言語モデル開発の領域において飛躍の１年となりました。国内でもCyberAgent, PFN, ELYZAを筆頭に3B〜13B程度のモデルが多数公開され、多くの方にとってLLMが身近にな...]]></description>
+            <content:encoded><![CDATA[はじめに Turing 株式会社のリサーチチームでインターンをしている東京工業大学 横田研究室B4の藤井(@okoge_kaz)です。 2022年11月末にChatGPTがリリースされてから早1年、2023年は大規模言語モデル開発の領域において飛躍の１年となりました。国内でもCyberAgent, PFN, ELYZAを筆頭に3B〜13B程度のモデルが多数公開され、多くの方にとってLLMが身近になった1年であったかと思われます。 Turingでは完全自動運転の実現に向けた研究開発の一環としてLLMに早くから着目し、社内で研究開発を行ってきました。 https://zenn.dev/t...]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[アブダビの砂漠に出現｡448個の砂のピラミッドが生み出す絶景 | ギズモード・ジャパン]]></title>
             <link>https://www.gizmodo.jp/2023/12/jim-denevan-pyramid-land-art-abu-dhabi.html</link>
             <guid>https://www.gizmodo.jp/2023/12/jim-denevan-pyramid-land-art-abu-dhabi.html</guid>
@@ -298,6 +540,14 @@
             <description><![CDATA[NASAのアルテミス計画の一環となる「多目的居住地（Multi-Purpose Habitat：MPH）」開発で使われる月面基地のコンセプト画像発表。]]></description>
             <content:encoded><![CDATA[NASAのアルテミス計画の一環となる「多目的居住地（Multi-Purpose Habitat：MPH）」開発で使われる月面基地のコンセプト画像発表。]]></content:encoded>
             <category>SCIENCE</category>
+        </item>
+        <item>
+            <title><![CDATA[テーブル駆動テストを使った QA エンジニアとソフトウェアエンジニアの連携 | Zennのトレンド]]></title>
+            <link>https://zenn.dev/ubie_dev/articles/29519ac15c4256</link>
+            <guid>https://zenn.dev/ubie_dev/articles/29519ac15c4256</guid>
+            <pubDate>Sun, 03 Dec 2023 11:52:09 GMT</pubDate>
+            <description><![CDATA[この記事はUbie Engineering Advent Calendar 2023の3日目です。  こんにちは、ユビーでプロダクト開発エンジニアをしている Sosuke Suzuki です。この記事では QA エンジニアと連携するにあたって、テーブル駆動テストがとても役に立ったという話をします。   テーブル駆動テストとは テーブル駆動テスト(Table-Driven Testing)とはテスト...]]></description>
+            <content:encoded><![CDATA[この記事はUbie Engineering Advent Calendar 2023の3日目です。  こんにちは、ユビーでプロダクト開発エンジニアをしている Sosuke Suzuki です。この記事では QA エンジニアと連携するにあたって、テーブル駆動テストがとても役に立ったという話をします。   テーブル駆動テストとは テーブル駆動テスト(Table-Driven Testing)とはテストを書くときのテクニックの一つです。複数のテストに共通するパターンをテーブルとして抽出することで、コードの記述量を減らすことができ、テストを追加するのが簡単になります。 TypeScriptとJe...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[地熱エネルギーでデータセンターを運用。Googleの壮大な計画 | ギズモード・ジャパン]]></title>
@@ -414,12 +664,6 @@
             <content:encoded><![CDATA[本稿は Next.js で今試せる React canary の機能「useFormState」に関する記事です。Server Action を使用すると、API Client を使用せずにブラウザから直接サーバーサイドの関数を実行できます。Server Action のメリットは以下のものが挙がります。  API Client が不要になる ハイドレーションを待たずに反応できる Progressive Enhancement を維持できる  useFormState の話の前に、Server Action について少し触れていきます。   Server Action だけではない「Cl...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[【LIVE】お披露目配信会場はこちら！ 【新章突入！】 #VRアカデミア | AIcia Solid Project]]></title>
-            <link>https://www.youtube.com/watch?v=-vLx7vbbRuk</link>
-            <guid>https://www.youtube.com/watch?v=-vLx7vbbRuk</guid>
-            <pubDate>Sun, 03 Dec 2023 06:07:26 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Anker Nano Power Bank レビュー！スマホに直挿できる軽量コンパクトなモバイルバッテリー | デジクル]]></title>
             <link>https://smartparty.jp/anker-nano-power-bank-review</link>
             <guid>https://smartparty.jp/?p=69611</guid>
@@ -427,19 +671,6 @@
             <description><![CDATA[普段外出する際、音楽を聴いたり、電子書籍を読んだりしながら移動することが多いため、スマホのバッテリー消費がとても早いです。 そんな僕にとってモバイルバッテリーは常にカバンに忍ばせておきたいアイテム。 これまでより快適に使 ...]]></description>
             <content:encoded><![CDATA[普段外出する際、音楽を聴いたり、電子書籍を読んだりしながら移動することが多いため、スマホのバッテリー消費がとても早いです。 そんな僕にとってモバイルバッテリーは常にカバンに忍ばせておきたいアイテム。 これまでより快適に使 ...]]></content:encoded>
             <category>iPhone</category>
-        </item>
-        <item>
-            <title><![CDATA[Panopreter Basic 3.0.95.4 | ダウンロードと使い方 | ソフタロウ]]></title>
-            <link>https://softaro.net/panopreter-basic/</link>
-            <guid>https://softaro.net/?p=127441</guid>
-            <pubDate>Sun, 03 Dec 2023 05:27:13 GMT</pubDate>
-            <description><![CDATA[よくある質問と回答 ライセンスについて。 Panopreter Basic は、どなたでも無料で利用できます。]]></description>
-            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて。 Panopreter Basic は、どなたでも無料で利用できます。]]></content:encoded>
-            <category>オーディオそのほか</category>
-            <category>Panopreter.com</category>
-            <category>Windows</category>
-            <category>フリーソフト</category>
-            <category>読み上げ</category>
         </item>
         <item>
             <title><![CDATA[LoL世界大会「Worlds 2023」を振り返る eスポーツ史上最大の同時視聴者数を記録した大会をさまざまな角度から | IGN Japan games]]></title>
@@ -452,6 +683,14 @@
             <category>リーグ・オブ・レジェンド</category>
             <category>PC</category>
             <category>ゲーム</category>
+        </item>
+        <item>
+            <title><![CDATA[OpenAIとMicrosoft Graph Search APIでM365の組織内データを検索するRAGアプリを作る | Zennのトレンド]]></title>
+            <link>https://zenn.dev/microsoft/articles/azure-openai-graph-rag-pattern</link>
+            <guid>https://zenn.dev/microsoft/articles/azure-openai-graph-rag-pattern</guid>
+            <pubDate>Sun, 03 Dec 2023 05:18:44 GMT</pubDate>
+            <description><![CDATA[共著者：@maruryupro / @kazuyan 社内ナレッジを検索するRAGアプリを作ろうとする場合、さまざまな文献でAzure AI Search(旧称Cognitive Search)を使うケースを多く目にします。Azure AI Searchは非常に高機能で組織専用の検索エンジンを作ることができる一方、データの前処理やインデクサーのカスタマイズなど様々なテクニックが必要になり、実現した...]]></description>
+            <content:encoded><![CDATA[共著者：@maruryupro / @kazuyan 社内ナレッジを検索するRAGアプリを作ろうとする場合、さまざまな文献でAzure AI Search(旧称Cognitive Search)を使うケースを多く目にします。Azure AI Searchは非常に高機能で組織専用の検索エンジンを作ることができる一方、データの前処理やインデクサーのカスタマイズなど様々なテクニックが必要になり、実現したいこととコストのトレードオフが発生するケースが多いように感じます。 この記事では、M365テナント内の情報をWeb API経由で検索できる「Microsoft Search Graph API」...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[認可のベストプラクティスとDDDでの実装パターン | Zennのトレンド]]></title>
@@ -501,6 +740,14 @@
             <pubDate>Sun, 03 Dec 2023 03:59:22 GMT</pubDate>
             <description><![CDATA[TL;DR: JavaScriptで使われるネイティブパーサーは、言語間の余分な作業のために常に速いとは限りません。これらのオーバーヘッドを回避し、マルチコアを使うことが性能にとって重要です。  Rustは、そのパフォーマンスと安全性の特徴から、JavaScriptエコシステムの中で急速に選択肢の一つになっています。しかし、RustをJavaScriptツールに統合することは、特に効率的で移植性の...]]></description>
             <content:encoded><![CDATA[TL;DR: JavaScriptで使われるネイティブパーサーは、言語間の余分な作業のために常に速いとは限りません。これらのオーバーヘッドを回避し、マルチコアを使うことが性能にとって重要です。  Rustは、そのパフォーマンスと安全性の特徴から、JavaScriptエコシステムの中で急速に選択肢の一つになっています。しかし、RustをJavaScriptツールに統合することは、特に効率的で移植性の高いプラグインシステムを設計する際に、固有の課題をもたらします。  「JavaScriptツールをRustで書き直すことは、広範な外部貢献を必要としない速度重視のプロジェクトにとって有利です。...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[PHP Playgroundを約1年間運用してみて | Zennのトレンド]]></title>
+            <link>https://zenn.dev/glassmonkey/articles/74ad10c6501f27</link>
+            <guid>https://zenn.dev/glassmonkey/articles/74ad10c6501f27</guid>
+            <pubDate>Sun, 03 Dec 2023 03:49:43 GMT</pubDate>
+            <description><![CDATA[こんにちは @glassmonekeyです。 この記事はPHPアドベントカレンダー3 日目の記事です。 今回のエントリーではPHP Playgroundを約 1 年間運用してみて得られた知見を振り返ります。最初は技術スタックでも書こうかなと思ったのですが、こちらのほうが意義のあるエントリになったので。 個人開発をこれから考えられる方やphp/php-srcに commit される方の手助けになれば...]]></description>
+            <content:encoded><![CDATA[こんにちは @glassmonekeyです。 この記事はPHPアドベントカレンダー3 日目の記事です。 今回のエントリーではPHP Playgroundを約 1 年間運用してみて得られた知見を振り返ります。最初は技術スタックでも書こうかなと思ったのですが、こちらのほうが意義のあるエントリになったので。 個人開発をこれから考えられる方やphp/php-srcに commit される方の手助けになれば幸いです。   PHP Playgroundについて 拙作の Wasm 製の PHP Playground です。 現状は先日めだたくリリースを迎えたPHP 8.3がデフォルトで使えるようになっ...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[dbt管理のクエリの異常をリリース前に検知するCIづくり | Eureka Engineering - Medium]]></title>
@@ -556,18 +803,6 @@
             <pubDate>Sun, 03 Dec 2023 02:20:48 GMT</pubDate>
             <description><![CDATA[この記事はNuco Advent Calendar 2023の3日目の記事です。  弊社Nucoでは、他にも様々なお役立ち記事を公開しています。よかったら、Organizationのページも覗いてみて…]]></description>
             <content:encoded><![CDATA[この記事はNuco Advent Calendar 2023の3日目の記事です。  弊社Nucoでは、他にも様々なお役立ち記事を公開しています。よかったら、Organizationのページも覗いてみて…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Free GIF Maker 1.3.51.1103 | ダウンロードと使い方 | ソフタロウ]]></title>
-            <link>https://softaro.net/free-gif-maker/</link>
-            <guid>https://softaro.net/?p=127427</guid>
-            <pubDate>Sun, 03 Dec 2023 02:13:12 GMT</pubDate>
-            <description><![CDATA[よくある質問と回答 ライセンスについて。 Free GIF Maker は、非営利目的のユーザーに限り無料で利用できます。]]></description>
-            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて。 Free GIF Maker は、非営利目的のユーザーに限り無料で利用できます。]]></content:encoded>
-            <category>ビデオエンコード</category>
-            <category>Digital Wave</category>
-            <category>Windows</category>
-            <category>フリーミアム</category>
         </item>
         <item>
             <title><![CDATA[Goによるバッチ実装テクニック | Retty Tech Blog]]></title>
@@ -652,6 +887,14 @@
             <pubDate>Sun, 03 Dec 2023 01:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。freee顧問先管理でQAエンジニアをしているyamaeriです。 freee QA Advent Calendar2023 3日目です。 今回はグローバルチームについての紹介と、働いてみて感じた文化などについてお伝えします。 自己紹介 私は2022年4月にfreeeにQAエンジニアとして入社し、半年間はfreee会計のQAを担当していました。 QAは「Quality Assuranc...]]></description>
             <content:encoded><![CDATA[こんにちは。freee顧問先管理でQAエンジニアをしているyamaeriです。 freee QA Advent Calendar2023 3日目です。 今回はグローバルチームについての紹介と、働いてみて感じた文化などについてお伝えします。 自己紹介 私は2022年4月にfreeeにQAエンジニアとして入社し、半年間はfreee会計のQAを担当していました。 QAは「Quality Assurance（品質保証）」の略で、QAエンジニアとはプロダクトを本当にリリースして大丈夫なのか、事前にプロダクトをテストする計画を立てたり、テストの実施をしたり、品質の改善に向けた活動をするエンジニアのことです…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【AWS re:Invent 2023】セキュリティの自動化について | カミナシ エンジニアブログ]]></title>
+            <link>https://kaminashi-developer.hatenablog.jp/entry/2023/12/03/180000</link>
+            <guid>https://kaminashi-developer.hatenablog.jp/entry/2023/12/03/180000</guid>
+            <pubDate>Sun, 03 Dec 2023 01:00:00 GMT</pubDate>
+            <description><![CDATA[どうもセキュリティエンジニアリングの西川です。 12/3(UTC)現在まだラスベガスにいます。これが今回のラスベガスで書く最後のブログとなります。 最高の仲間たちと過ごせて最高の1週間でした。笑いすぎてお腹が筋肉痛です。 たくさんのお土産話ができましたので、日本に帰った際は聞いていただけると嬉しいです。 ラスベガス最後は「セキュリティの自動化」について話をしていきたいと思います。セキュリティの自動...]]></description>
+            <content:encoded><![CDATA[どうもセキュリティエンジニアリングの西川です。 12/3(UTC)現在まだラスベガスにいます。これが今回のラスベガスで書く最後のブログとなります。 最高の仲間たちと過ごせて最高の1週間でした。笑いすぎてお腹が筋肉痛です。 たくさんのお土産話ができましたので、日本に帰った際は聞いていただけると嬉しいです。 ラスベガス最後は「セキュリティの自動化」について話をしていきたいと思います。セキュリティの自動化といってもAWS環境の話で、コンプライアンス違反があったら自動的に修復したりするもののことを言っています。 どうしてこうも世の中、「セキュリティの自動化」の話が多いのだろうと思いながら色々なセッショ…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[スタッフエンジニアを読んだ感想  | 虎の穴開発室ブログ]]></title>
@@ -982,6 +1225,7 @@
             <pubDate>Sat, 02 Dec 2023 15:10:59 GMT</pubDate>
             <description><![CDATA[この記事は GMOアドマーケティング Advent Calendar 2023 3日目の記事です。 皆さんこんにちは。GMOアドマーケティングのR.Aです。弊社ではAIにもっと触れてみようという目的で、AIを使]]></description>
             <content:encoded><![CDATA[この記事は GMOアドマーケティング Advent Calendar 2023 3日目の記事です。 皆さんこんにちは。GMOアドマーケティングのR.Aです。弊社ではAIにもっと触れてみようという目的で、AIを使]]></content:encoded>
+            <category>AM</category>
             <category>ChatGPT</category>
             <category>OpenAI</category>
             <category>Python</category>
@@ -1001,8 +1245,8 @@
             <pubDate>Sat, 02 Dec 2023 15:00:50 GMT</pubDate>
             <description><![CDATA[こんにちは。気づいたらITインフラ業界に15年近くいる元デザイナーの中川です。 いまはマーケティングとWebディレクションなどのお仕事をやっております。 NHN テコラス Advent Calendar 2023の3日目の記事を担当させてい... 続きを読む AWSの構成図を「はやく」「きれいに」作る5つのコツ first appeared on NHN テコラス Tech Blog | AWS、...]]></description>
             <content:encoded><![CDATA[こんにちは。気づいたらITインフラ業界に15年近くいる元デザイナーの中川です。 いまはマーケティングとWebディレクションなどのお仕事をやっております。 NHN テコラス Advent Calendar 2023の3日目の記事を担当させてい... 続きを読む AWSの構成図を「はやく」「きれいに」作る5つのコツ first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content:encoded>
-            <category>Column</category>
             <category>Advent Calendar</category>
+            <category>Column</category>
         </item>
         <item>
             <title><![CDATA[Version-Incompatibility Hazards の検出 | EmotionTechテックブログ]]></title>
@@ -1244,26 +1488,6 @@
             <category>NEWS</category>
         </item>
         <item>
-            <title><![CDATA[チェアの座面やソファや車内も。水で汚れを洗うコードレス掃除機でお掃除しよう | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/12/thanko-fabric-creaner-1.html</link>
-            <guid>https://www.gizmodo.jp/2023/12/thanko-fabric-creaner-1.html</guid>
-            <pubDate>Sat, 02 Dec 2023 07:35:00 GMT</pubDate>
-            <description><![CDATA[サンコーから「ファブリッククリーナー」発売。水を噴射して吸い取るので、汚れがひどいカーペットや車のシートもクリーンに。]]></description>
-            <content:encoded><![CDATA[サンコーから「ファブリッククリーナー」発売。水を噴射して吸い取るので、汚れがひどいカーペットや車のシートもクリーンに。]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
-            <title><![CDATA[OpenAIの騒動は、AI開発者が自らを規制できるかどうかを議論しなければならないことを示している | TEXAL]]></title>
-            <link>https://texal.jp/2023/12/02/turmoil-at-openai-shows-we-must-address-whether-ai-developers-can-regulate-themselves/</link>
-            <guid>https://texal.jp/?p=43934</guid>
-            <pubDate>Sat, 02 Dec 2023 07:29:24 GMT</pubDate>
-            <description><![CDATA[ChatGPTの開発者であり、人工知能（AI）分野をリードするイノベーターであるOpenAIは最近、最高経営責任者（CEO）であるSam Altmanが解雇され、混乱に陥った。彼がMicrosoftの先端AI研究チームに ... Read more]]></description>
-            <content:encoded><![CDATA[ChatGPTの開発者であり、人工知能（AI）分野をリードするイノベーターであるOpenAIは最近、最高経営責任者（CEO）であるSam Altmanが解雇され、混乱に陥った。彼がMicrosoftの先端AI研究チームに ... Read more]]></content:encoded>
-            <category>テクノロジー</category>
-            <category>AI</category>
-            <category>OpenAI</category>
-        </item>
-        <item>
             <title><![CDATA[「ウィッチャー」シリーズ第4作では自由度と濃厚なゲームプレイが重視される | IGN Japan games]]></title>
             <link>https://jp.ign.com/the-witcher-4-polaris/72187/news/4</link>
             <guid>https://jp.ign.com/the-witcher-4-polaris/72187/news/4</guid>
@@ -1297,15 +1521,6 @@
             <pubDate>Sat, 02 Dec 2023 05:49:41 GMT</pubDate>
             <description><![CDATA[はじめてのシステムメンテナンスをする君へ はじめに 主にインフラ周りや時折バックエンドでGoを書いているyoshikenです。 この記事はevery Tech Blog Advent Calendar 2023の2日目の記事となります。 昨日の記事は「Next.js + Go + AWS API Gateway で WebSocket API を使って API サーバーからフロントエンドに通知を送...]]></description>
             <content:encoded><![CDATA[はじめてのシステムメンテナンスをする君へ はじめに 主にインフラ周りや時折バックエンドでGoを書いているyoshikenです。 この記事はevery Tech Blog Advent Calendar 2023の2日目の記事となります。 昨日の記事は「Next.js + Go + AWS API Gateway で WebSocket API を使って API サーバーからフロントエンドに通知を送る」となります。 tech.every.tv tech.every.tv 対象読者層 インフラレイヤー(バックエンドも含)の知識/経験が少ないエンジニア エンジニアがどういう手順でメンテナンスをするの…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[火力もしっかりの手のひらサイズのバーナー。アウトドア飯の調理に | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2023/12/soto_g-stove.html</link>
-            <guid>https://www.gizmodo.jp/2023/12/soto_g-stove.html</guid>
-            <pubDate>Sat, 02 Dec 2023 05:35:00 GMT</pubDate>
-            <description><![CDATA[Photo:かくれい冬の車中泊やキャンプの朝は、凍える前に温かいものをサクッと食べたいですよね。CB缶が使える小さなバーナーそんな時に便利なのが、SOTOのG-ストーブ。ちょっとしたご飯作りに大活躍してくれます。SOTOといえば、キャンプなどアウトドア好きには定番のブランドで、ガスバーナーが人気です。「G-ストーブ」は、畳んだ状態だとスマホを2台重ねたくらいのサイズで、とってもコンパクト。アウトド]]></description>
-            <content:encoded><![CDATA[Photo:かくれい冬の車中泊やキャンプの朝は、凍える前に温かいものをサクッと食べたいですよね。CB缶が使える小さなバーナーそんな時に便利なのが、SOTOのG-ストーブ。ちょっとしたご飯作りに大活躍してくれます。SOTOといえば、キャンプなどアウトドア好きには定番のブランドで、ガスバーナーが人気です。「G-ストーブ」は、畳んだ状態だとスマホを2台重ねたくらいのサイズで、とってもコンパクト。アウトド]]></content:encoded>
-            <category>PRODUCT</category>
         </item>
         <item>
             <title><![CDATA[Go言語のORMであるGORMをv1からv2へのマイグレーションした話 #LayerXテックアドカレ | LayerX エンジニアブログ]]></title>
@@ -1911,14 +2126,6 @@
             <category>re:Invent</category>
         </item>
         <item>
-            <title><![CDATA[システム生物学って何だったんですか？(前編) | Zennのトレンド]]></title>
-            <link>https://zenn.dev/crmind/articles/4f2fde14c808c2</link>
-            <guid>https://zenn.dev/crmind/articles/4f2fde14c808c2</guid>
-            <pubDate>Fri, 01 Dec 2023 14:25:19 GMT</pubDate>
-            <description><![CDATA[はじめに システム生物学(systems biology)が提唱され(1998年)てすでに25年が経過しました。 諸外国をみると例えばUKなどではsystems biologyやその派生分野 (例えばsystems immunology)が比較的頻繁に使われ分野名として根付いているようであるのに対し、日本ではシステム生物学を標榜する研究室は思ったよりも少ないです。一方で、システム生物学が目指した研...]]></description>
-            <content:encoded><![CDATA[はじめに システム生物学(systems biology)が提唱され(1998年)てすでに25年が経過しました。 諸外国をみると例えばUKなどではsystems biologyやその派生分野 (例えばsystems immunology)が比較的頻繁に使われ分野名として根付いているようであるのに対し、日本ではシステム生物学を標榜する研究室は思ったよりも少ないです。一方で、システム生物学が目指した研究の方向性は、定量生物を始めとして国内においても自然に受け入れられ普及しています。つまり名実でいえば実は十分伴っているように見受けられます。そして、新たにシステム生物学入門の教科書が出版され...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[コードレビューの思想や心構え | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/nash_efp/items/b01f341ebc2e991a32ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/nash_efp/items/b01f341ebc2e991a32ac?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -2147,6 +2354,7 @@
             <content:encoded><![CDATA[本記事は日曜数学 Advent Calendar 2023の1日目の記事です。  ご無沙汰しています。日曜数学者のtsujimotterです。 2022年12月に子どもが生まれまして、そこからブログや動画の投稿が滞っていたのですが、アドベントカレンダーの季節ということで久しぶりに復活しました。*1  今年も日曜数学アドベントカレンダーを立ち上げました。 adventar.org 明日話したくなる数学豆知識 (2014)から数えると、なんと 10年目 です。 今年の分も、おかげさまでブログ執筆時点で21件の方が登録してくれています。記事が投稿されるのを楽しみにしています！ 残りの枠についても、よろしければご参加いただけると嬉しいです！ 背景  可愛い我が子の保育園を決めたのですが、これがtsujimotter家にとってはなかなかの難問でした。 近所にはよさげな保育園が4つ（保育園A・B・C・Dと呼ぶことにします）ありました。   保育園を決めるにあたっていろいろな項目を考える必要があり、どうやって決めていいかわからん・・・。  そんなときに思いついたのが AHP（階層分析法） を使うこと...]]></content:encoded>
             <category>数学</category>
             <category>アドベントカレンダー</category>
+            <category>線形代数</category>
         </item>
         <item>
             <title><![CDATA[Rustプログラムのデバッグ辛すぎ問題 | Qiita - 人気の記事]]></title>
@@ -2415,7 +2623,7 @@
             <guid>https://techblog.cartaholdings.co.jp/entry/2023/12/01/110348</guid>
             <pubDate>Fri, 01 Dec 2023 02:03:48 GMT</pubDate>
             <description><![CDATA[こんにちは！今年もやってきました12月！アドベントカレンダーの季節ですね。 CARTA TECH BLOGでも毎年ゆるーく記事を上げていっています。 ここはCARTA TECH BLOGアドベントカレンダーのまとめ記事となります。 新しい記事が追加されるごとに更新していくので、気になる方は定期的にチェックみてくださいね！ こちらは去年の様子になります。 techblog.cartaholdings...]]></description>
-            <content:encoded><![CDATA[こんにちは！今年もやってきました12月！アドベントカレンダーの季節ですね。 CARTA TECH BLOGでも毎年ゆるーく記事を上げていっています。 ここはCARTA TECH BLOGアドベントカレンダーのまとめ記事となります。 新しい記事が追加されるごとに更新していくので、気になる方は定期的にチェックみてくださいね！ こちらは去年の様子になります。 techblog.cartaholdings.co.jp 記事一覧 techblog.cartaholdings.co.jp techblog.cartaholdings.co.jp]]></content:encoded>
+            <content:encoded><![CDATA[こんにちは！今年もやってきました12月！アドベントカレンダーの季節ですね。 CARTA TECH BLOGでも毎年ゆるーく記事を上げていっています。 ここはCARTA TECH BLOGアドベントカレンダーのまとめ記事となります。 新しい記事が追加されるごとに更新していくので、気になる方は定期的にチェックみてくださいね！ こちらは去年の様子になります。 techblog.cartaholdings.co.jp 記事一覧 techblog.cartaholdings.co.jp techblog.cartaholdings.co.jp qiita.com]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[HTML / CSS でショップに雪をふらせましょう ⛄ | BASEプロダクトチームブログ]]></title>
@@ -2697,20 +2905,20 @@
             <category>音声対話</category>
         </item>
         <item>
-            <title><![CDATA[事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP#7 レポート | Blog on DeNA Engineering]]></title>
-            <link>https://engineering.dena.com/blog/2023/12/sremeetup7/</link>
-            <guid>https://engineering.dena.com/blog/2023/12/sremeetup7/</guid>
-            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[はじめに こんにちは、IT 基盤部の片山です。 前回に引き続き、connpass イベント「 事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP #7 」の企画をサポートしており、その様子をレポートしたいと思います。 前回のレポートはこちら。 最近の SRE MEET UP では、新卒や若手の立ち上がり方にフォーカスした内容がメインとなっていましたが、今回は立ち上がり方...]]></description>
-            <content:encoded><![CDATA[はじめに こんにちは、IT 基盤部の片山です。 前回に引き続き、connpass イベント「 事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP #7 」の企画をサポートしており、その様子をレポートしたいと思います。 前回のレポートはこちら。 最近の SRE MEET UP では、新卒や若手の立ち上がり方にフォーカスした内容がメインとなっていましたが、今回は立ち上がり方だけでなく技術的な内容にも焦点を当てており、インフラ経験のある]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[PdM の仕事と F1 のレースは似てるかもしれない | Chatwork Creator's Note]]></title>
             <link>https://creators-note.chatwork.com/entry/2023/12/01/090000</link>
             <guid>https://creators-note.chatwork.com/entry/2023/12/01/090000</guid>
             <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[この記事は Chatwork Advent Calendar 2023 1 日目の記事です。本日からクリスマスまで社員が 1 つずつ記事を書いていきます。初日は 3 年振りに記事を書くプロダクトマネージャー（PM / PdM）の宮下（@ryugoo_）がお送りします。 何となく思いついたことを、思うがままに書いた記事なので肩肘張らずにご覧ください。]]></description>
             <content:encoded><![CDATA[この記事は Chatwork Advent Calendar 2023 1 日目の記事です。本日からクリスマスまで社員が 1 つずつ記事を書いていきます。初日は 3 年振りに記事を書くプロダクトマネージャー（PM / PdM）の宮下（@ryugoo_）がお送りします。 何となく思いついたことを、思うがままに書いた記事なので肩肘張らずにご覧ください。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP#7 レポート | Blog on DeNA Engineering]]></title>
+            <link>https://engineering.dena.com/blog/2023/12/sremeetup7/</link>
+            <guid>https://engineering.dena.com/blog/2023/12/sremeetup7/</guid>
+            <pubDate>Fri, 01 Dec 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、IT 基盤部の片山です。 前回に引き続き、connpass イベント「 事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP #7 」の企画をサポートしており、その様子をレポートしたいと思います。 前回のレポートはこちら。 最近の SRE MEET UP では、新卒や若手の立ち上がり方にフォーカスした内容がメインとなっていましたが、今回は立ち上がり方...]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは、IT 基盤部の片山です。 前回に引き続き、connpass イベント「 事業を支えるコストコントロール手法 DeNA インフラ/SRE MEET UP #7 」の企画をサポートしており、その様子をレポートしたいと思います。 前回のレポートはこちら。 最近の SRE MEET UP では、新卒や若手の立ち上がり方にフォーカスした内容がメインとなっていましたが、今回は立ち上がり方だけでなく技術的な内容にも焦点を当てており、インフラ経験のある]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[【AWS re:Invent 2023】ラスベガスで開催されたAWS GameDay Championshipsで優勝しました 🙌 | カミナシ エンジニアブログ]]></title>
@@ -2920,20 +3128,13 @@
             <category>slackbot</category>
         </item>
         <item>
-            <title><![CDATA[関数の定義位置により結果が変わるコード | Zennのトレンド]]></title>
-            <link>https://zenn.dev/kaityo256/articles/position_of_functions</link>
-            <guid>https://zenn.dev/kaityo256/articles/position_of_functions</guid>
-            <pubDate>Thu, 30 Nov 2023 15:19:48 GMT</pubDate>
-            <description><![CDATA[はじめに 少し前、こんなポストをしました。  これは、C言語において、関数の宣言よりも前に関数呼び出しがあり、かつ引数の型が異なる場合、結果が想定の逆になってしまう、というものです。 この現象の本質は、暗黙のプロトタイプ宣言とABIにあり、以下の記事で説明は尽きています。 Cの可変長引数とABIの奇妙な関係 ですが、先のポストへの反応を見ていると、いまいち何が起きているかが伝わっていないようだった...]]></description>
-            <content:encoded><![CDATA[はじめに 少し前、こんなポストをしました。  これは、C言語において、関数の宣言よりも前に関数呼び出しがあり、かつ引数の型が異なる場合、結果が想定の逆になってしまう、というものです。 この現象の本質は、暗黙のプロトタイプ宣言とABIにあり、以下の記事で説明は尽きています。 Cの可変長引数とABIの奇妙な関係 ですが、先のポストへの反応を見ていると、いまいち何が起きているかが伝わっていないようだったので、簡単に説明しようと思います。 以下、使用コンパイラはGCC 9.3.0、環境はWSL上のUbuntu 20.04です。   現象 まず、この現象はprintf関数が本質ではありません。...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Four Keys導入で変わる？エンジニア組織の生産性可視化と現場マネージャーの本音 | GMOアドパートナーズ TECH BLOG byGMO]]></title>
             <link>https://techblog.gmo-ap.jp/2023/12/01/four-keys-engineering-productivity-manager-insights/</link>
             <guid>https://techblog.gmo-ap.jp/?p=39018</guid>
             <pubDate>Thu, 30 Nov 2023 15:02:00 GMT</pubDate>
             <description><![CDATA[この記事は GMOアドマーケティング Advent Calendar 2023 1日目の記事です。 はじめに 皆さん、こんにちは。開発本部 本部長のクリスです。 昨夏、エンジニア組織の生産性を可視化するため、Four K]]></description>
             <content:encoded><![CDATA[この記事は GMOアドマーケティング Advent Calendar 2023 1日目の記事です。 はじめに 皆さん、こんにちは。開発本部 本部長のクリスです。 昨夏、エンジニア組織の生産性を可視化するため、Four K]]></content:encoded>
+            <category>AM</category>
             <category>Four Keys</category>
             <category>マネジメント</category>
         </item>
@@ -3068,22 +3269,6 @@
             <link>https://www.riken.jp/pr/events/lectures/20240313_1/index.html</link>
             <guid> https://www.riken.jp/pr/events/lectures/20240313_1/index.html</guid>
             <pubDate>Thu, 30 Nov 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[なぜソーシャルログインの際にemailをキーにして参照するのか | Zennのトレンド]]></title>
-            <link>https://zenn.dev/ritou/articles/ca7be3f329e68f</link>
-            <guid>https://zenn.dev/ritou/articles/ca7be3f329e68f</guid>
-            <pubDate>Thu, 30 Nov 2023 15:00:00 GMT</pubDate>
-            <description><![CDATA[ritouです。 Digital Identity技術勉強会 #iddance Advent Calendar 2023 の 初日の記事です。 https://qiita.com/advent-calendar/2023/iddance こちら、参加者を募集中です！気軽に参加してみてください！してくれよ！はよ！   なんの話か ちょっと想定以上に反応をいただいたこちらの記事について、ちょっとだけ補...]]></description>
-            <content:encoded><![CDATA[ritouです。 Digital Identity技術勉強会 #iddance Advent Calendar 2023 の 初日の記事です。 https://qiita.com/advent-calendar/2023/iddance こちら、参加者を募集中です！気軽に参加してみてください！してくれよ！はよ！   なんの話か ちょっと想定以上に反応をいただいたこちらの記事について、ちょっとだけ補足をしたいと思います。 https://sizu.me/ritou/posts/sb41dem2cehd   なんの話か詳しく 自分のはてブのコメントをつけたポストにもたくさん反応いただきました...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Google Cloud をゼロから学ぶならこれ! おすすめの学習リソース | Zennのトレンド]]></title>
-            <link>https://zenn.dev/google_cloud_jp/articles/6a8a0e571841ef</link>
-            <guid>https://zenn.dev/google_cloud_jp/articles/6a8a0e571841ef</guid>
-            <pubDate>Thu, 30 Nov 2023 15:00:00 GMT</pubDate>
-            <description><![CDATA[Google Cloud、始めてみませんか？ この記事は Google Cloud Japan Advent Calendar 2023 (入門編) の 1 日目の記事です。 この記事では、「Google Cloud を始めてみたいけど、何から手をつけて良いのか分からない」「ドキュメントの見方もよくわからないぞ？」という方々にとって、お役に立ちそうな情報を記載していきます。 全体像を学ぶ方法から、...]]></description>
-            <content:encoded><![CDATA[Google Cloud、始めてみませんか？ この記事は Google Cloud Japan Advent Calendar 2023 (入門編) の 1 日目の記事です。 この記事では、「Google Cloud を始めてみたいけど、何から手をつけて良いのか分からない」「ドキュメントの見方もよくわからないぞ？」という方々にとって、お役に立ちそうな情報を記載していきます。 全体像を学ぶ方法から、最新情報をキャッチアップする方法まで、自分の今の状況に合わせて、記事で紹介しているコンテンツを活用いただければと思います！   全体像を学ぶ プロダクトや機能について学ぶ前の段階として、そもそも...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[『極意本』サンプルコードをクラウド上で動かそう | u++の備忘録]]></title>
@@ -3322,15 +3507,15 @@
             <description><![CDATA[こんにちは。早く業務に慣れたい開発チーム入社１年目の髙垣です。 急ですが皆さん。ふと、音をフーリエ変換したい時ってありませんか？ ありますよね。 でも、「フーリエ変換って学校で計算式で習ったけど、結局は何をしているんだ？ … "【Python】プログラムでフーリエ変換を理解しよう！【FFT, 標本化定理, ナイキスト周波数】" の続きを読む]]></description>
             <content:encoded><![CDATA[こんにちは。早く業務に慣れたい開発チーム入社１年目の髙垣です。 急ですが皆さん。ふと、音をフーリエ変換したい時ってありませんか？ ありますよね。 でも、「フーリエ変換って学校で計算式で習ったけど、結局は何をしているんだ？ … "【Python】プログラムでフーリエ変換を理解しよう！【FFT, 標本化定理, ナイキスト周波数】" の続きを読む]]></content:encoded>
             <category>開発</category>
+            <category>標本化定理</category>
+            <category>python</category>
+            <category>numpy</category>
             <category>fft</category>
             <category>dft</category>
             <category>matplotlib</category>
             <category>フーリエ変換</category>
             <category>高速フーリエ変換</category>
             <category>ナイキスト周波数</category>
-            <category>標本化定理</category>
-            <category>python</category>
-            <category>numpy</category>
         </item>
         <item>
             <title><![CDATA[CTOが育児休暇を取ってみた | CARTA TECH BLOG]]></title>
@@ -3708,22 +3893,6 @@
             <content:encoded><![CDATA[こんにちは、開発２部の早瀬です。 私のチームではGoのTestifyを使用して、バックエンドのテストを実装しています。 少し前にテストの実装を見直して、サブテスト間が影響し合わずに独立して実行できるようにしたので、今回はその方法について紹介したいと思います！]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[「Chromium」のゼロデイ脆弱性、「Microsoft Edge」も1日遅れで対処／アップデートの確認を | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1550842.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1550842.html</guid>
-            <pubDate>Thu, 30 Nov 2023 00:15:00 GMT</pubDate>
-            <description><![CDATA[米Microsoftは11月29日（現地時間）、デスクトップ版「Microsoft Edge」v119.0.2151.97を安定（Stable）チャネルでリリースした。拡張安定チャネルもv118.0.2088.122へとアップデートされている。]]></description>
-            <content:encoded><![CDATA[米Microsoftは11月29日（現地時間）、デスクトップ版「Microsoft Edge」v119.0.2151.97を安定（Stable）チャネルでリリースした。拡張安定チャネルもv118.0.2088.122へとアップデートされている。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[黙っていればわからないのに……「Vivaldi」が正直に告白したセキュリティ問題／利便性やデザインも大事だけど、アプリを選ぶときにもっておきたい評価軸【やじうまの杜】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1550759.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1550759.html</guid>
-            <pubDate>Wed, 29 Nov 2023 23:30:00 GMT</pubDate>
-            <description><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></description>
-            <content:encoded><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[『Starfield』のニューゲーム＋を33回クリアしたプレイヤー、驚きのシチュエーションに遭遇 | IGN Japan games]]></title>
             <link>https://jp.ign.com/starfield/72127/news/starfield33</link>
             <guid>https://jp.ign.com/starfield/72127/news/starfield33</guid>
@@ -3743,14 +3912,6 @@
             <pubDate>Wed, 29 Nov 2023 22:00:00 GMT</pubDate>
             <description><![CDATA[AWS re:Invent 参加中のソフトウェアエンジニアの内田（@A2hiro_tim）です。 “Build and scale generative AI applications with Amazon Bedrock” という Workshop Session に参加しました。 Workshop Session は、まず簡単に Amazon Bedrock の概要を10分ほど話して、そこか...]]></description>
             <content:encoded><![CDATA[AWS re:Invent 参加中のソフトウェアエンジニアの内田（@A2hiro_tim）です。 “Build and scale generative AI applications with Amazon Bedrock” という Workshop Session に参加しました。 Workshop Session は、まず簡単に Amazon Bedrock の概要を10分ほど話して、そこから用意された 資料の説明に沿ってひたすら進める形式でした。資料はおおまかに以下の構成です。 簡単な Prompt Engineering をやってみる Email 生成アプリを使ってみる 後半の資料と…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ChatGPTをExcelの関数として利用できるアドイン『生成AIツール for Excel』が公開／分類専用の関数で、アンケート処理などExcelによるテキスト処理の実務を効率化 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1550721.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1550721.html</guid>
-            <pubDate>Wed, 29 Nov 2023 21:45:00 GMT</pubDate>
-            <description><![CDATA[株式会社ビジー・ビーは11月24日、同社が独自開発したExcel用のアドイン『生成AIツール for Excel』を、米MicrosoftのOffice ストアにて公開した。]]></description>
-            <content:encoded><![CDATA[株式会社ビジー・ビーは11月24日、同社が独自開発したExcel用のアドイン『生成AIツール for Excel』を、米MicrosoftのOffice ストアにて公開した。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[KDnuggets News, November 29: 5 Free Courses to Master Machine Learning • Stunning Data Viz with ChatGPT | KDnuggets]]></title>
@@ -3803,14 +3964,6 @@
             <content:encoded><![CDATA[Inflection-2, Automatic detection of hallucination with SelfCheckGPT, Steerable Neural Networks, a paper on Video-LLaVA: Learning United Visual Representation by Alignment Before Projection, and more!]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[AmazonにてPC・オフィス用品の「在庫一掃セール」がスタート！【Amazonブラックフライデー】【本日みつけたお買い得情報】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1550834.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1550834.html</guid>
-            <pubDate>Wed, 29 Nov 2023 15:30:11 GMT</pubDate>
-            <description><![CDATA[Amazon.co.jpにて11月24日（金）から行われてきた年末のビッグセール「Amazon ブラックフライデー 2023」が、いよいよ12月1日（金）に終了します。]]></description>
-            <content:encoded><![CDATA[Amazon.co.jpにて11月24日（金）から行われてきた年末のビッグセール「Amazon ブラックフライデー 2023」が、いよいよ12月1日（金）に終了します。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Learn Probability in Computer Science with Stanford University for FREE | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/learn-probability-in-computer-science-with-stanford-university-for-free?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learn-probability-in-computer-science-with-stanford-university-for-free</link>
             <guid>https://www.kdnuggets.com/?p=162302</guid>
@@ -3849,14 +4002,6 @@
             <pubDate>Wed, 29 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[ヒューマノイドロボットは再生医療の現場へ | プレスリリースニュース]]></title>
-            <link>https://www.riken.jp/press/2023/20231130_1/index.html</link>
-            <guid>https://www.riken.jp/press/2023/20231130_1/index.html</guid>
-            <pubDate>Wed, 29 Nov 2023 15:00:00 GMT</pubDate>
-            <description><![CDATA[－移植用細胞の調製を自動化する細胞培養加工施設を開発－]]></description>
-            <content:encoded><![CDATA[－移植用細胞の調製を自動化する細胞培養加工施設を開発－]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[理研の研究者25名がHighly Cited Researchers 2023に選出 | お知らせ]]></title>
             <link>https://www.riken.jp/pr/news/2023/20231130_3/index.html</link>
             <guid> https://www.riken.jp/pr/news/2023/20231130_3/index.html</guid>
@@ -3875,6 +4020,14 @@
             <link>https://www.riken.jp/pr/news/2023/20231130_1/index.html</link>
             <guid> https://www.riken.jp/pr/news/2023/20231130_1/index.html</guid>
             <pubDate>Wed, 29 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ヒューマノイドロボットは再生医療の現場へ | プレスリリースニュース]]></title>
+            <link>https://www.riken.jp/press/2023/20231130_1/index.html</link>
+            <guid>https://www.riken.jp/press/2023/20231130_1/index.html</guid>
+            <pubDate>Wed, 29 Nov 2023 15:00:00 GMT</pubDate>
+            <description><![CDATA[－移植用細胞の調製を自動化する細胞培養加工施設を開発－]]></description>
+            <content:encoded><![CDATA[－移植用細胞の調製を自動化する細胞培養加工施設を開発－]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ロボットは「道徳的行為者」になれるのか！？ | クローズアップ科学道]]></title>
@@ -3934,12 +4087,6 @@
             <content:encoded><![CDATA[From ANI to AGI and Beyond: Deciphering AI's Evolutionary Path.]]></content:encoded>
             <category>KDnuggets Originals</category>
             <category>Artificial Intelligence</category>
-        </item>
-        <item>
-            <title><![CDATA[「Google スライド」にプレゼンを録画して共有する機能が追加　ほか【ダイジェストニュース】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/digest/1550805.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/digest/1550805.html</guid>
-            <pubDate>Wed, 29 Nov 2023 12:12:34 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[『F-ZERO 99』に初代ルールの「クラシックレース」追加。スピンアタックもスカイウェイも封印、スーファミ感覚でプレイ可能 | TechnoEdge]]></title>
@@ -4574,18 +4721,18 @@
             <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[「2023和光市民まつり」に出展しました | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2023/20231129_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2023/20231129_1/index.html</guid>
+            <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[アトピー性皮膚炎のかゆみ伝達機序を解明 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2023/20231129_1/index.html</link>
             <guid>https://www.riken.jp/press/2023/20231129_1/index.html</guid>
             <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
             <description><![CDATA[－かゆみ治療のためのSTAT3阻害薬開発の重要性を示唆－]]></description>
             <content:encoded><![CDATA[－かゆみ治療のためのSTAT3阻害薬開発の重要性を示唆－]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[「2023和光市民まつり」に出展しました | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20231129_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20231129_1/index.html</guid>
-            <pubDate>Tue, 28 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[災害対策にポータブル電源を購入。ブラックフライデーで1264WhのJackery 1000 Plusとソーラーパネル セットが4割引きでした：編集部買い物日記（仮） | TechnoEdge]]></title>
@@ -4992,6 +5139,12 @@
             <content:encoded><![CDATA[<img src="/images/20231128a/top.png" alt="" width="329" height="153">  <p>Playwrightあるいはそのロケーターの元ネタとなっているTesting Libraryでは、DOMを指定する方法として]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[細胞単位で計測できる新しい細菌叢解析法のプロトコルを公開 | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2023/20231127_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2023/20231127_1/index.html</guid>
+            <pubDate>Mon, 27 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[反強磁性状態における空間変調した超伝導状態の存在を予言 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2023/20231128_1/index.html</link>
             <guid>https://www.riken.jp/press/2023/20231128_1/index.html</guid>
@@ -5003,12 +5156,6 @@
             <title><![CDATA[第22回理研イノベーションセミナー | イベントニュース]]></title>
             <link>https://www.riken.jp/pr/events/seminars/20240219_1/index.html</link>
             <guid> https://www.riken.jp/pr/events/seminars/20240219_1/index.html</guid>
-            <pubDate>Mon, 27 Nov 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[細胞単位で計測できる新しい細菌叢解析法のプロトコルを公開 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20231127_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20231127_1/index.html</guid>
             <pubDate>Mon, 27 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
@@ -5344,14 +5491,6 @@
             <content:encoded><![CDATA[こんにちは、技術本部 Eight Engineering Unit でエンジニアをやっている茂木です。 普段はSansan株式会社で正社員としてフルコミットしつつ、情報系の大学に通っています。 今回は Reviewdog x RuboCop を使って、ローカル環境で Lint をかける機構を Eight に導入した話をしていきます。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ついに最強のCI/CDが完成した 〜巨大リポジトリで各チームが独立して・安全に・高速にリリースする〜 | ZOZO TECH BLOG]]></title>
-            <link>https://techblog.zozo.com/entry/the-best-cicd</link>
-            <guid>https://techblog.zozo.com/entry/the-best-cicd</guid>
-            <pubDate>Mon, 27 Nov 2023 02:00:00 GMT</pubDate>
-            <description><![CDATA[ZOZOTOWNにおけるマイクロサービス基盤のCI/CDが抱える課題と解決に至るまでの取り組みをご紹介します。]]></description>
-            <content:encoded><![CDATA[ZOZOTOWNにおけるマイクロサービス基盤のCI/CDが抱える課題と解決に至るまでの取り組みをご紹介します。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[12月は毎日更新、アドベントカレンダー開催します | LINEヤフー Tech Blog]]></title>
             <link>https://techblog.lycorp.co.jp/ja/20231127a</link>
             <guid>https://techblog.lycorp.co.jp/ja/20231127a</guid>
@@ -5360,12 +5499,12 @@
             <content:encoded><![CDATA[クリスマスシーズンに毎日記事を発信する、アドベントカレンダーを開催します。  LINEヤフー Advent Calendar 2023  合併に伴いメディアとしても心機一転し、新「LINEヤフー T...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[今日はアルトマン祭り（ブラックフライデー感謝祭も）。テクノエッジのポッドキャスト「TechnoEdge-Side」第32回、本日（11月27日）正午にライブ配信（TechnoEdge-Side） | TechnoEdge]]></title>
-            <link>https://www.techno-edge.net/article/2023/11/27/2337.html</link>
-            <guid>https://www.techno-edge.net/article/2023/11/27/2337.html</guid>
-            <pubDate>Mon, 27 Nov 2023 01:48:24 GMT</pubDate>
-            <description><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第32回放送を、本日（11月27日）正午（12時）に、YouTubeで行います。]]></description>
-            <content:encoded><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第32回放送を、本日（11月27日）正午（12時）に、YouTubeで行います。]]></content:encoded>
+            <title><![CDATA[ついに最強のCI/CDが完成した 〜巨大リポジトリで各チームが独立して・安全に・高速にリリースする〜 | ZOZO TECH BLOG]]></title>
+            <link>https://techblog.zozo.com/entry/the-best-cicd</link>
+            <guid>https://techblog.zozo.com/entry/the-best-cicd</guid>
+            <pubDate>Mon, 27 Nov 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[ZOZOTOWNにおけるマイクロサービス基盤のCI/CDが抱える課題と解決に至るまでの取り組みをご紹介します。]]></description>
+            <content:encoded><![CDATA[ZOZOTOWNにおけるマイクロサービス基盤のCI/CDが抱える課題と解決に至るまでの取り組みをご紹介します。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[自己学習習慣者になりたい | OpenWork Tech Blog]]></title>
@@ -5376,28 +5515,12 @@
             <content:encoded><![CDATA[意識高い系の記事と見せかけて実は意識低い記事 こんにちは、インフラチームの西川です。最近太ってきたので運動しようと思い色々調べていたところ、厚生労働省のページに「運動習慣者」という定義があるのを見つけました。 www.mhlw.go.jp ふと下記のように「運動」の部分をそのまま「自己学習」に置き換えて「自己学習習慣者」と定義しても良いのでは、と思ったので考えをまとめるために記事にしてみました。 週2回以上、1回30分以上、1年以上、自己学習をしている者 エンジニアはなぜ自己学習しないといけないのですか？ そもそも自己学習って必要なの？ という意見もあるかと思うのでChatGPTさんに聞いてみ…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[最新スマートグラス「XREAL Air 2 Pro」、キャンプ場で使うとなぜいいのか（体験動画） | TechnoEdge]]></title>
-            <link>https://www.techno-edge.net/article/2023/11/27/2336.html</link>
-            <guid>https://www.techno-edge.net/article/2023/11/27/2336.html</guid>
-            <pubDate>Mon, 27 Nov 2023 00:30:01 GMT</pubDate>
-            <description><![CDATA[スマートグラス新製品「XREAL Air 2 Pro」の先行体験会に参加してきました。その動画をどうぞ。]]></description>
-            <content:encoded><![CDATA[スマートグラス新製品「XREAL Air 2 Pro」の先行体験会に参加してきました。その動画をどうぞ。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[スタディプラスに新卒入社してからの半年間を振り返る | Studyplus Engineering Blog]]></title>
             <link>https://tech.studyplus.co.jp/entry/2023/11/27/090000</link>
             <guid>https://tech.studyplus.co.jp/entry/2023/11/27/090000</guid>
             <pubDate>Mon, 27 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[はじめに どうも、クライアントグループエンジニアの後藤です。 最近寒くなってきましたね。昔は冬が圧倒的に好きだったんですが、歳を重ねるごとに夏の方が好きになっていっている自分がいます。 そんな自分がスタディプラスに入社してからもう半年が経ちました。この記事では入社してからの半年間を振り返って、取り組んだことや感じたことをお話しします。 はじめに 内定承諾後の流れ 内定者インターン（入社前） エンジ...]]></description>
             <content:encoded><![CDATA[はじめに どうも、クライアントグループエンジニアの後藤です。 最近寒くなってきましたね。昔は冬が圧倒的に好きだったんですが、歳を重ねるごとに夏の方が好きになっていっている自分がいます。 そんな自分がスタディプラスに入社してからもう半年が経ちました。この記事では入社してからの半年間を振り返って、取り組んだことや感じたことをお話しします。 はじめに 内定承諾後の流れ 内定者インターン（入社前） エンジニアのマインドセット研修 アプリ開発研修 振り返り Flutter、Dartの基礎を習得できた 伝えることの難しさを感じた 新卒研修（入社後） アプリ開発研修 勉強会（抜粋） 振り返り 業務開発に入る…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[全能の人・音の魔術師トッド・ラングレン、20年前のインタビューを再録：音楽配信、アーティスト支援システムについて聞いた（CloseBox） | TechnoEdge]]></title>
-            <link>https://www.techno-edge.net/article/2023/11/27/2335.html</link>
-            <guid>https://www.techno-edge.net/article/2023/11/27/2335.html</guid>
-            <pubDate>Sun, 26 Nov 2023 23:00:02 GMT</pubDate>
-            <description><![CDATA[自身で構築したネット配信サービスやミュージックビデオ制作などテクノロジーをいち早く活用してきたトッド・ラングレンに取材した2002年のインタビューを再録した。]]></description>
-            <content:encoded><![CDATA[自身で構築したネット配信サービスやミュージックビデオ制作などテクノロジーをいち早く活用してきたトッド・ラングレンに取材した2002年のインタビューを再録した。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[要件定義であったしくじりとTRYしていること | クイック エンジニアリングブログ]]></title>
@@ -5820,6 +5943,12 @@
             <content:encoded><![CDATA[<img src="/images/20231124a/top.jpg" alt="" width="800"]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[十倉 好紀 センター長・于 秀珍 チームリーダーが第20回江崎玲於奈賞を受賞 | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2023/20231124_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2023/20231124_1/index.html</guid>
+            <pubDate>Thu, 23 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[トランジスタの新動作原理プラズモンでテラヘルツ波の検出感度を一桁以上高めることに成功 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2023/20231124_3/index.html</link>
             <guid>https://www.riken.jp/press/2023/20231124_3/index.html</guid>
@@ -5845,12 +5974,6 @@
             <title><![CDATA[理研シンポジウム：第6回R-CCS国際シンポジウム | イベントニュース]]></title>
             <link>https://www.riken.jp/pr/events/symposia/20240129_1/index.html</link>
             <guid> https://www.riken.jp/pr/events/symposia/20240129_1/index.html</guid>
-            <pubDate>Thu, 23 Nov 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[十倉 好紀 センター長・于 秀珍 チームリーダーが第20回江崎玲於奈賞を受賞 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20231124_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20231124_1/index.html</guid>
             <pubDate>Thu, 23 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
@@ -6117,12 +6240,12 @@
             <content:encoded><![CDATA[こんにちは。たむら＠認定スクラムマスター です。 今回は、先日社内で開発に関わる事業部側メンバー（ノンエンジニア）に向けてスクラムガイドの紹介を行ったので、そのことについて書こうと思います。 イントロ さて、弊社では前T … "スクラムはロールプレイングゲーム！？『スクラムガイド』でルールを覚えて、Let’s game！" の続きを読む]]></content:encoded>
             <category>開発</category>
             <category>研修</category>
-            <category>アジャイル開発</category>
-            <category>アジャイル</category>
-            <category>スクラム</category>
             <category>scrum guide</category>
             <category>product development</category>
             <category>agile</category>
+            <category>アジャイル開発</category>
+            <category>アジャイル</category>
+            <category>スクラム</category>
         </item>
         <item>
             <title><![CDATA[FUSE 向け汎用 CSI ドライバ meta-fuse-csi-plugin | Blog - Preferred Networks Research & Development]]></title>
@@ -6142,20 +6265,20 @@
             <content:encoded><![CDATA[こんにちは。2023年9月に開発領域でエンジニアとして長期のインターンに参加いたしました土佐凜斗です。約1カ月の間Yahoo!ショッピングのストアフロントチームにて業務に携わりました。 この記事では、...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[最も小さいZOZO箱を選ぶための数理最適化モデル | ZOZO TECH BLOG]]></title>
-            <link>https://techblog.zozo.com/entry/packing-material-selection</link>
-            <guid>https://techblog.zozo.com/entry/packing-material-selection</guid>
-            <pubDate>Wed, 22 Nov 2023 02:00:00 GMT</pubDate>
-            <description><![CDATA[ZOZOTOWNで注文された商品を梱包するZOZO箱について、なるべく小さいものを選ぶために使っている数理最適化モデルについて解説します。]]></description>
-            <content:encoded><![CDATA[ZOZOTOWNで注文された商品を梱包するZOZO箱について、なるべく小さいものを選ぶために使っている数理最適化モデルについて解説します。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[テストを考えることはサービスを考えることだ、と学んだ話  | LINEヤフー Tech Blog]]></title>
             <link>https://techblog.lycorp.co.jp/ja/20231122a</link>
             <guid>https://techblog.lycorp.co.jp/ja/20231122a</guid>
             <pubDate>Wed, 22 Nov 2023 02:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。2023年9月に開発領域でエンジニアとして長期のインターンに参加いたしました土佐凜斗です。約1カ月の間Yahoo!ショッピングのストアフロントチームにて業務に携わりました。 この記事では、...]]></description>
             <content:encoded><![CDATA[こんにちは。2023年9月に開発領域でエンジニアとして長期のインターンに参加いたしました土佐凜斗です。約1カ月の間Yahoo!ショッピングのストアフロントチームにて業務に携わりました。 この記事では、...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[最も小さいZOZO箱を選ぶための数理最適化モデル | ZOZO TECH BLOG]]></title>
+            <link>https://techblog.zozo.com/entry/packing-material-selection</link>
+            <guid>https://techblog.zozo.com/entry/packing-material-selection</guid>
+            <pubDate>Wed, 22 Nov 2023 02:00:00 GMT</pubDate>
+            <description><![CDATA[ZOZOTOWNで注文された商品を梱包するZOZO箱について、なるべく小さいものを選ぶために使っている数理最適化モデルについて解説します。]]></description>
+            <content:encoded><![CDATA[ZOZOTOWNで注文された商品を梱包するZOZO箱について、なるべく小さいものを選ぶために使っている数理最適化モデルについて解説します。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[さくらのVPSを使ってシステム開発に必要な知識を学ぶ 〜第10回〜 | さくらのナレッジ]]></title>
@@ -6357,6 +6480,18 @@
             <content:encoded><![CDATA[<img src="/images/20231122a/81+3DpjuMdL._SL1500_.jpg" alt="" width="500" height="709">  <h1 id="はじめに"><a href="#はじめに" class="headerlink"]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[黒﨑 知博 チームリーダーが持田記念学術賞を受賞 | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2023/20231122_2/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2023/20231122_2/index.html</guid>
+            <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[量子コンピュータとスパコンを連携利用するためのプラットフォーム研究開発プロジェクトを始動 | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2023/20231122_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2023/20231122_1/index.html</guid>
+            <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[最重要MRIプローブであるピルビン酸の光を用いた高核偏極化に成功 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2023/20231122_3/index.html</link>
             <guid>https://www.riken.jp/press/2023/20231122_3/index.html</guid>
@@ -6382,18 +6517,6 @@
             <title><![CDATA[理研DAY：研究者と話そう！「タンパク質のおもろい世界」、ハイブリッド開催 in大阪 | イベントニュース]]></title>
             <link>https://www.riken.jp/pr/events/events/20240126_1/index.html</link>
             <guid> https://www.riken.jp/pr/events/events/20240126_1/index.html</guid>
-            <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[黒﨑 知博 チームリーダーが持田記念学術賞を受賞 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20231122_2/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20231122_2/index.html</guid>
-            <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[量子コンピュータとスパコンを連携利用するためのプラットフォーム研究開発プロジェクトを始動 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2023/20231122_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2023/20231122_1/index.html</guid>
             <pubDate>Tue, 21 Nov 2023 15:00:00 GMT</pubDate>
         </item>
         <item>
@@ -6761,10 +6884,10 @@
             <category>業務支援・効率化ツール</category>
             <category>海外製品 新着情報 (ユニポス)</category>
             <category>バージョンアップ情報</category>
+            <category>パフォーマンス</category>
             <category>並列処理解析</category>
             <category>テスト評価</category>
             <category>HPC</category>
-            <category>パフォーマンス</category>
         </item>
         <item>
             <title><![CDATA[社内向けAI botの運用で学んだ技術コミュニケーションのコツ | LIFULL Creators Blog ]]></title>
@@ -6927,70 +7050,6 @@
             <pubDate>Mon, 20 Nov 2023 03:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは！2023年4月に新卒入社したtatsubeeと申します。現在はpixiv事業本部アプリエンジニアリングチームでpixivのiOSアプリを開発しています。 9月に完全招待制のカンファレンス「PIXIV MEETUP 2023」が開催され、その中でライトニングトークとして「pixiv-iosを破壊したい」というお話をしてきました。 この記事ではスライドだけでは伝わらない、トークに乗せた思い...]]></description>
             <content:encoded><![CDATA[こんにちは！2023年4月に新卒入社したtatsubeeと申します。現在はpixiv事業本部アプリエンジニアリングチームでpixivのiOSアプリを開発しています。 9月に完全招待制のカンファレンス「PIXIV MEETUP 2023」が開催され、その中でライトニングトークとして「pixiv-iosを破壊したい」というお話をしてきました。 この記事ではスライドだけでは伝わらない、トークに乗せた思いを綴っていきます！ぜひスライドと併せてご覧ください！ pixivのモバイルアプリについて pixivはWebサービスだけでなく、モバイルアプリケーションもiOS/Androidともに公開されています。…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[VS Codeで作るErlangアプリケーション開発環境 | ISID テックブログ]]></title>
-            <link>https://tech.isid.co.jp/entry/2023/11/20/VS_Code%E3%81%A7%E4%BD%9C%E3%82%8BErlang%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83</link>
-            <guid>https://tech.isid.co.jp/entry/2023/11/20/VS_Code%E3%81%A7%E4%BD%9C%E3%82%8BErlang%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83</guid>
-            <pubDate>Mon, 20 Nov 2023 02:02:54 GMT</pubDate>
-            <description><![CDATA[みなさんこんにちは、電通国際情報サービス（ISID）Xイノベーション本部ソフトウェアデザインセンターの佐藤太一です。 皆さんは最近発売された『実践プロパティベーステスト ― PropErとErlang/Elixirではじめよう』はもう読みましたか？ この本はErlangやElixirを使ってプロパティベーステストというテスト手法について具体的なコードを使って実践的に学習できる本です。非常に素晴らし...]]></description>
-            <content:encoded><![CDATA[みなさんこんにちは、電通国際情報サービス（ISID）Xイノベーション本部ソフトウェアデザインセンターの佐藤太一です。 皆さんは最近発売された『実践プロパティベーステスト ― PropErとErlang/Elixirではじめよう』はもう読みましたか？ この本はErlangやElixirを使ってプロパティベーステストというテスト手法について具体的なコードを使って実践的に学習できる本です。非常に素晴らしい本ですが、難しい部分も多いため私は少しずつ読んでいる所です。 この記事では、この本を読むにあたってサンプルコードを動かすための環境を使っているOSに依存せずに作成する方法を説明します。 事前の準備 …]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[JJUG CCC 2023 Fall で初登壇しました | エムスリーテックブログ]]></title>
-            <link>https://www.m3tech.blog/entry/2023/11/20/110000</link>
-            <guid>https://www.m3tech.blog/entry/2023/11/20/110000</guid>
-            <pubDate>Mon, 20 Nov 2023 02:00:00 GMT</pubDate>
-            <description><![CDATA[希望する登壇者がもらえたNinja Tシャツ こんにちは、製薬企業向けプラットフォームチームエンジニアの桑原です。 JJUG CCC が2023-11-11にオフラインで開催され、エムスリーはロゴスポンサーとして参加しました。 ccc2023fall.java-users.jp JJUG CCC はコロナが流行しだした2020 Spring 以降では初のオフラインのみの開催となり、参加者も400名...]]></description>
-            <content:encoded><![CDATA[希望する登壇者がもらえたNinja Tシャツ こんにちは、製薬企業向けプラットフォームチームエンジニアの桑原です。 JJUG CCC が2023-11-11にオフラインで開催され、エムスリーはロゴスポンサーとして参加しました。 ccc2023fall.java-users.jp JJUG CCC はコロナが流行しだした2020 Spring 以降では初のオフラインのみの開催となり、参加者も400名を超えたり活気もだんだん戻ってきているように感じます！ #JJUG_CCC 400名のチェックインを超えました！ありがとうございます！https://t.co/bzbfA5eOcG— JJUG (@J…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[複数クライアント向けアプリのカスタマイズのつらみと向き合う | every Tech Blog]]></title>
-            <link>https://tech.every.tv/entry/2023/11/20/103051?utm_source=feed</link>
-            <guid>https://tech.every.tv/entry/2023/11/20/103051?utm_source=feed</guid>
-            <pubDate>Mon, 20 Nov 2023 01:30:51 GMT</pubDate>
-            <description><![CDATA[はじめに DELISH KITCHEN 開発部で小売向き合いの開発に携わっている野口です。主に Flutter でのアプリ開発を担当しています。 弊社では retail HUB という小売向けのサービスを行っています https://biz.delishkitchen.tv/retailhub 今回は弊社で開発している retail HUB で作成しているアプリの構成について２つ紹介し、 複数クラ...]]></description>
-            <content:encoded><![CDATA[はじめに DELISH KITCHEN 開発部で小売向き合いの開発に携わっている野口です。主に Flutter でのアプリ開発を担当しています。 弊社では retail HUB という小売向けのサービスを行っています https://biz.delishkitchen.tv/retailhub 今回は弊社で開発している retail HUB で作成しているアプリの構成について２つ紹介し、 複数クライアントアプリのつらみとそれぞれのメリット、デメリットを述べたいと思っています。 複数クライアントのアプリ構成とは 上記で紹介している複数クライアントのアプリとは複数のアプリを共通のソースコードで管理…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[新規プロジェクトでモブ設計を実施してみた | Studyplus Engineering Blog]]></title>
-            <link>https://tech.studyplus.co.jp/entry/2023/11/20/090000</link>
-            <guid>https://tech.studyplus.co.jp/entry/2023/11/20/090000</guid>
-            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは。ウェブアプリケーショングループのエンジニアの川井です。 最近、新しいプロジェクトを立ち上げる際、開発を始める前に新しい仕様や設計に関する整理やコミュニケーションを強化するため、モブ設計を導入しました。この記事では、モブ設計の概要と実施方法について紹介します。 背景 新しいプロジェクトを始める際、従来は1人のエンジニアが最初の段階の設計と仕様の整理を担当し他のメンバーにレビューしてもらっ...]]></description>
-            <content:encoded><![CDATA[こんにちは。ウェブアプリケーショングループのエンジニアの川井です。 最近、新しいプロジェクトを立ち上げる際、開発を始める前に新しい仕様や設計に関する整理やコミュニケーションを強化するため、モブ設計を導入しました。この記事では、モブ設計の概要と実施方法について紹介します。 背景 新しいプロジェクトを始める際、従来は1人のエンジニアが最初の段階の設計と仕様の整理を担当し他のメンバーにレビューしてもらってました。 このやり方では以下の問題がありました。 設計を担当するメンバーの大きな負担になっていた。 設計の検討や仕様の整理もそのメンバーに属人化していた。 設計に関してチーム内でのコミュニケーション…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[「初チャレンジ業務の成功確率を飛躍的に上げる」思考法 | クイック エンジニアリングブログ]]></title>
-            <link>https://aimstogeek.hatenablog.com/entry/2023/11/20/090000</link>
-            <guid>https://aimstogeek.hatenablog.com/entry/2023/11/20/090000</guid>
-            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは。クイックSREチームのみっちーです。 最近はプロジェクトマネジメントの観点から、案件に携わることが増えました。 そんな中、携わっていた案件の振り返りで、メンバーからこんな話がありました。 「未経験業務を成功させるのは非常に難しい」「見えないリスクには気付けない」 その言葉を聞いて「その通りだな」と共感しました。 ただ振り返ると、同様の失敗をしたケースも多かったのですが、 失敗 ⇨手応え...]]></description>
-            <content:encoded><![CDATA[こんにちは。クイックSREチームのみっちーです。 最近はプロジェクトマネジメントの観点から、案件に携わることが増えました。 そんな中、携わっていた案件の振り返りで、メンバーからこんな話がありました。 「未経験業務を成功させるのは非常に難しい」「見えないリスクには気付けない」 その言葉を聞いて「その通りだな」と共感しました。 ただ振り返ると、同様の失敗をしたケースも多かったのですが、 失敗 ⇨手応え につなげることができたケースもあったことを思い出しました。 ではなぜ失敗から手応えにつなげることができたのか。 この部分はもしかしたら誰かの役に立つ情報かもしれない…そう思ってまとめてみることにしま…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[入稿devsチームで、校閲PDF出力機能のリニューアルをおこなった話【2/2 振り返り編】 | スタディサプリ Product Team Blog]]></title>
-            <link>https://blog.studysapuri.jp/entry/2023/11/20/nyuko-devs-pdf-generator-renewal-2</link>
-            <guid>https://blog.studysapuri.jp/entry/2023/11/20/nyuko-devs-pdf-generator-renewal-2</guid>
-            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、スタディサプリで開発をしている @motorollerscalatron です。 前編では、「入稿」「校閲」ドメインの発足からサブチームへの切り出しと、校閲出力サービスのリニューアルのエピソードを技術的観点を交えながら共有させていただきました。この後編では、プロジェクトが完成しきった時点での自身の省みを中心に共有させていただきます。 今回の案件で、問題解決に対して大事だと感じたこと 知...]]></description>
-            <content:encoded><![CDATA[こんにちは、スタディサプリで開発をしている @motorollerscalatron です。 前編では、「入稿」「校閲」ドメインの発足からサブチームへの切り出しと、校閲出力サービスのリニューアルのエピソードを技術的観点を交えながら共有させていただきました。この後編では、プロジェクトが完成しきった時点での自身の省みを中心に共有させていただきます。 今回の案件で、問題解決に対して大事だと感じたこと 知識をもっている人をうまく引き込むためには、質問は端折らない ペアプロと壁打ち 少しでも難しく見えてきたら issue を分割・追加／１回で完璧なものを作ろうとしない まとめ 今回の案件で、問題解決に対…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[入稿devsチームで、校閲PDF出力機能のリニューアルをおこなった話【1/2 入稿ドメインとは？〜開発事例編】 | スタディサプリ Product Team Blog]]></title>
-            <link>https://blog.studysapuri.jp/entry/2023/11/20/nyuko-devs-pdf-generator-renewal-1</link>
-            <guid>https://blog.studysapuri.jp/entry/2023/11/20/nyuko-devs-pdf-generator-renewal-1</guid>
-            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、スタディサプリで開発をしている @motorollerscalatron です。 私は、5 年前に web エンジニアとしてスタディサプリに join していますが、今年に入ってから、今までの社内(中学講座の開発プロジェクト（通称 tara、最近は 小学講座も加わっています） の web アプリケーション開発に比べて、少し細分化されたドメイン領域である「入稿」のコード開発と運用をおこな...]]></description>
-            <content:encoded><![CDATA[こんにちは、スタディサプリで開発をしている @motorollerscalatron です。 私は、5 年前に web エンジニアとしてスタディサプリに join していますが、今年に入ってから、今までの社内(中学講座の開発プロジェクト（通称 tara、最近は 小学講座も加わっています） の web アプリケーション開発に比べて、少し細分化されたドメイン領域である「入稿」のコード開発と運用をおこなっています。今回は、その中でNext.jsを使った校閲出力に特化したマイクロサービスを１つ立てることになったプロジェクトが最近完成したので、そのお話をさせてください。 「入稿」というドメイン領域の切り…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[リアルタイム検索最適化：Reactアプリにdebounce処理を組み込む | Techtouch Developers Blog]]></title>
-            <link>https://tech.techtouch.jp/entry/realtime-search-optimization-debounce-react-app</link>
-            <guid>https://tech.techtouch.jp/entry/realtime-search-optimization-debounce-react-app</guid>
-            <pubDate>Mon, 20 Nov 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[Reactアプリケーションでdebounce処理を実装する際に考慮したことについて紹介します。]]></description>
-            <content:encoded><![CDATA[Reactアプリケーションでdebounce処理を実装する際に考慮したことについて紹介します。]]></content:encoded>
         </item>
     </channel>
 </rss>
