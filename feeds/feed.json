@@ -27,11 +27,166 @@
             "tags": []
         },
         {
+            "id": "https://tech.excite.co.jp/entry/2024/04/03/180927",
+            "content_html": "はじめに こんにちは。新卒2年目の岡崎です。今回は、GitHub Actionsでプルリクエストがマージされた時、自動的にGitタグをつける方法を紹介します。 また、この記事はGitHub Actionsのことがあまり分からない初心者向けの記事になっております。 はじめに 実装 name on jobs 最後に 実装 実装例を紹介します。 workflows配下にYAMLファイルを作成し、実装を行います。 . ├─ .github └─workfrows 実際に実装したYAMLファイルは以下です。 name: Git tag | Create run-name: ${{ github.work…",
+            "url": "https://tech.excite.co.jp/entry/2024/04/03/180927",
+            "title": "GitHub Actionsでプルリクエストがマージされた時、自動的にGitタグをつける | エキサイト TechBlog.",
+            "summary": "はじめに こんにちは。新卒2年目の岡崎です。今回は、GitHub Actionsでプルリクエストがマージされた時、自動的にGitタグをつける方法を紹介します。 また、この記事はGitHub Actionsのことがあまり分からない初心者向けの記事になっております。 はじめに 実装 name on jobs 最後に 実装 実装例を紹介します。 workflows配下にYAMLファイルを作成し、実装を行...",
+            "date_modified": "2024-04-03T09:09:27.000Z",
+            "date_published": "2024-04-03T09:09:27.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2024/04/03/180919",
+            "content_html": "こんにちは、エキサイト株式会社の平石です。 今回は、HTMXでhx-getやhx-postを使ってリクエストを実行した後に任意のJavaScriptコードを実行する方法をご紹介します。 はじめに HTMXでは、hx-getやhx-postを利用して、リクエストを実行することができます。 そして、レスポンスとして返ってきたHTMLテンプレートで既存のテンプレートの全体または一部を置き換えることができます。 しかし、このリクエストの実行後に任意のJavaScriptコードを実行したい場合もあると思います。 今回は、その方法をブログ記事として残しておきたいと思います。 環境 以下の環境で動作確認をし…",
+            "url": "https://tech.excite.co.jp/entry/2024/04/03/180919",
+            "title": "HTMXでリクエスト実行後にJavaScriptコードを実行する方法 | エキサイト TechBlog.",
+            "summary": "こんにちは、エキサイト株式会社の平石です。 今回は、HTMXでhx-getやhx-postを使ってリクエストを実行した後に任意のJavaScriptコードを実行する方法をご紹介します。 はじめに HTMXでは、hx-getやhx-postを利用して、リクエストを実行することができます。 そして、レスポンスとして返ってきたHTMLテンプレートで既存のテンプレートの全体または一部を置き換えることができ...",
+            "date_modified": "2024-04-03T09:09:19.000Z",
+            "date_published": "2024-04-03T09:09:19.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2024/04/03/180654",
+            "content_html": "こんにちは、エキサイト株式会社の平石です。 私の担当するサービスでは、Spring Boot (Java)を利用していますが、ローカルではFlyway + MyBatis GeneratorでDB環境および、JavaからDBへの接続環境を構築しています。 その際、複数のデータベースに接続しようとすると、生成されるMapper名（Bean扱い）が重複してしまい、エラーになってしまいました。 その問題の解決方法を紹介したいと思います。 FlywayとMyBatis Generatorについて 生成されたMapper名がコンフリクトする historyテーブルの名前を変更する 終わりに 参考文献 F…",
+            "url": "https://tech.excite.co.jp/entry/2024/04/03/180654",
+            "title": "Flywayを使ったマイグレーションで利用されるhistoryテーブルの名前を変更する | エキサイト TechBlog.",
+            "summary": "こんにちは、エキサイト株式会社の平石です。 私の担当するサービスでは、Spring Boot (Java)を利用していますが、ローカルではFlyway + MyBatis GeneratorでDB環境および、JavaからDBへの接続環境を構築しています。 その際、複数のデータベースに接続しようとすると、生成されるMapper名（Bean扱い）が重複してしまい、エラーになってしまいました。 その問題...",
+            "date_modified": "2024-04-03T09:06:54.000Z",
+            "date_published": "2024-04-03T09:06:54.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/digest/1581562.html",
+            "content_html": "",
+            "url": "https://forest.watch.impress.co.jp/docs/digest/1581562.html",
+            "title": "広く普及している無料ブログシステム「WordPress」v6.5　ほか【ダイジェストニュース】 | 窓の杜",
+            "date_modified": "2024-04-03T09:04:51.000Z",
+            "date_published": "2024-04-03T09:04:51.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech.excite.co.jp/entry/2024/04/03/180132",
+            "content_html": "こんにちは、エキサイト株式会社の平石です。 今回はMyBatis Generatorを利用して、ModelやMapperを自動生成する方法をご紹介します。 はじめに 導入 環境 実際にやってみる Javaプログラムから実行する方法 依存関係 設定ファイル PostgreSQLを使う際の補足 実際に生成する 動作確認 サードパーティのGradle Pluginを利用する方法 依存関係 実際に生成する 終わりに 参考文献 はじめに DBからデータを取得するためのSQLや、DBから取得したデータを格納しておくDTO (Data Transfer Object) をいちいち作成するのは面倒です。 特に…",
+            "url": "https://tech.excite.co.jp/entry/2024/04/03/180132",
+            "title": "MyBatis Generatorを利用して、Model（DTO）やMapperを自動生成する | エキサイト TechBlog.",
+            "summary": "こんにちは、エキサイト株式会社の平石です。 今回はMyBatis Generatorを利用して、ModelやMapperを自動生成する方法をご紹介します。 はじめに 導入 環境 実際にやってみる Javaプログラムから実行する方法 依存関係 設定ファイル PostgreSQLを使う際の補足 実際に生成する 動作確認 サードパーティのGradle Pluginを利用する方法 依存関係 実際に生成する...",
+            "date_modified": "2024-04-03T09:01:32.000Z",
+            "date_published": "2024-04-03T09:01:32.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/04/samsung-music-frame-jpn.html",
+            "content_html": "Photo:ArtemGolub/Gizmodo今年のCESでSamsungが発表したスピーカーMusicFrame。ワイヤレススピーカーですが、見た目はアートフレーム、写真立て、額縁。実際に中に写真やアートを飾ることができます。発表時はわからなかった価格が明らかになりました。399ドル（約6万円）。けっこうします。米Gizmodoがさっそく触ってきたので、そのレビューをお届けします。結果からいう",
+            "url": "https://www.gizmodo.jp/2024/04/samsung-music-frame-jpn.html",
+            "title": "音質は想像以上にいい。サムスンのフレーム型スピーカー「Music Frame」レビュー | ギズモード・ジャパン",
+            "summary": "Photo:ArtemGolub/Gizmodo今年のCESでSamsungが発表したスピーカーMusicFrame。ワイヤレススピーカーですが、見た目はアートフレーム、写真立て、額縁。実際に中に写真やアートを飾ることができます。発表時はわからなかった価格が明らかになりました。399ドル（約6万円）。けっこうします。米Gizmodoがさっそく触ってきたので、そのレビューをお届けします。結果からいう",
+            "date_modified": "2024-04-03T09:00:00.000Z",
+            "date_published": "2024-04-03T09:00:00.000Z",
+            "author": {
+                "name": "そうこ"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2024/04/03/3106.html",
+            "content_html": "iOS 17.4をインストールしたiPhone 12が、Qi2規格に対応する15Wワイヤレス充電器をサポートすることが伝えられています。これにより、MagSafeを搭載するiPhoneはすべてQi2ワイヤレス充電器の15W充電に対応したことになりました(一部機種を除く)。",
+            "url": "https://www.techno-edge.net/article/2024/04/03/3106.html",
+            "title": "iPhone 12も結局Qi2急速充電対応？iOS 17.4で15Wワイヤレス充電に対応との報告、リリースノートに記載なし | テクノエッジ TechnoEdge",
+            "summary": "iOS 17.4をインストールしたiPhone 12が、Qi2規格に対応する15Wワイヤレス充電器をサポートすることが伝えられています。これにより、MagSafeを搭載するiPhoneはすべてQi2ワイヤレス充電器の15W充電に対応したことになりました(一部機種を除く)。",
+            "date_modified": "2024-04-03T08:58:15.000Z",
+            "date_published": "2024-04-03T08:58:15.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/74265/news/ut426",
+            "content_html": "デザインは「日常を冒険しよう」がコンセプトになっているとのこと 『ゼルダの伝説 ティアーズ オブ ザ キングダム』をテーマとしたUTが2024年4月26日に発売される。",
+            "url": "https://jp.ign.com/the-legend-of-zelda-tears-of-the-kingdom/74265/news/ut426",
+            "title": "『ゼルダの伝説 ティアーズ オブ ザ キングダム』のUTが4月26日に発売へ ポケットに隠れているコログやカバンダのデザインも | IGN Japan games",
+            "summary": "デザインは「日常を冒険しよう」がコンセプトになっているとのこと 『ゼルダの伝説 ティアーズ オブ ザ キングダム』をテーマとしたUTが2024年4月26日に発売される。",
+            "date_modified": "2024-04-03T08:53:04.000Z",
+            "date_published": "2024-04-03T08:53:04.000Z",
+            "author": {
+                "name": "重田雄一"
+            },
+            "tags": [
+                "nintendo-switch",
+                "News",
+                "グッズ",
+                "ゲーム",
+                "Nintendo Switch",
+                "任天堂",
+                "エンタメ",
+                "ゼルダの伝説 ティアーズ オブ ザ キングダム"
+            ]
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2024/04/03/3105.html",
+            "content_html": "LGエレクトロニクス・ジャパンが、4in1マルチ機能空気清浄機「LG PuriCare AeroFurniture（エルジー・プリケア・エアロファニチャー）」の新モデル「AS207PKU0（ラウンドブラック）」を、2024年4月下旬に発売します。予想実売価格は5万9400円前後。",
+            "url": "https://www.techno-edge.net/article/2024/04/03/3105.html",
+            "title": "LGの空気清浄テーブルPuriCareに新色ブラック。Qi充電やライト搭載の「4 in 1」多機能家電 | テクノエッジ TechnoEdge",
+            "summary": "LGエレクトロニクス・ジャパンが、4in1マルチ機能空気清浄機「LG PuriCare AeroFurniture（エルジー・プリケア・エアロファニチャー）」の新モデル「AS207PKU0（ラウンドブラック）」を、2024年4月下旬に発売します。予想実売価格は5万9400円前後。",
+            "date_modified": "2024-04-03T08:32:33.000Z",
+            "date_published": "2024-04-03T08:32:33.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techracho.bpsinc.jp/?p=140402",
+            "content_html": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Read the .ruby-version into your Gemfile - Andy Croll 原文公開日: 2024/02/07 原著者: Andy Croll Ruby: Gemfileに.ruby-versionを読み込む便利技（翻訳） 以下の過去記事で、Gemfile内に記述するRubyバージョン指定をゆるくすることを推奨したことがあります。これは現在でも価値のある方法ですが、それとは別にほとんどの場合でうまく動く方法を紹介します。 参考: Use Loose Ruby Versioning in Your Gemfile - An […] The post Ruby: Gemfileに.ruby-versionを読み込む便利技（翻訳） first appeared on TechRacho.",
+            "url": "https://techracho.bpsinc.jp/hachi8833/2024_04_03/140402",
+            "title": "Ruby: Gemfileに.ruby-versionを読み込む便利技（翻訳） | TechRacho",
+            "summary": "概要 元サイトの許諾を得て翻訳・公開いたします。 英語記事: Read the .ruby-version into your Gemfile - Andy Croll 原文公開日: 2024/02/07 原著者: Andy Croll Ruby: Gemfileに.ruby-versionを読み込む便利技（翻訳） 以下の過去記事で、Gemfile内に記述するRubyバージョン指定をゆるくすること...",
+            "date_modified": "2024-04-03T08:30:03.000Z",
+            "date_published": "2024-04-03T08:30:03.000Z",
+            "author": {
+                "name": "hachi8833"
+            },
+            "tags": [
+                "Ruby / Rails関連",
+                "bundler",
+                "Ruby",
+                "RubyGem",
+                "翻訳記事"
+            ]
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/04/u-s-congressional-staff-are-prohibited-from-using-copilot.html",
+            "content_html": "機密事項がクラウドサービスに漏洩する懸念から、米下院職員はMicrosoftのCopilot使用禁止に。",
+            "url": "https://www.gizmodo.jp/2024/04/u-s-congressional-staff-are-prohibited-from-using-copilot.html",
+            "title": "情報の漏洩を懸念。アメリカ下院の職員はCopilotが使用禁止に | ギズモード・ジャパン",
+            "summary": "機密事項がクラウドサービスに漏洩する懸念から、米下院職員はMicrosoftのCopilot使用禁止に。",
+            "date_modified": "2024-04-03T08:00:00.000Z",
+            "date_published": "2024-04-03T08:00:00.000Z",
+            "author": {
+                "name": "ヤマダユウス型"
+            },
+            "tags": [
+                "NEWS"
+            ]
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/04/mini-laundry-1.html",
+            "content_html": "Image:サンコー2023年2月18日の記事を編集して再掲載しています。これ便利だよ、多分。サンコーの「お湯も使えるミニランドリー」です。これは何かと言うと、シンクの横に置ける小さな洗濯機。Image:サンコー注水はシンク内の桶を使って自動で行なうか、自分でタンクに入れます。排水もしてくれるので、セミオートという感じですね。何を洗うかというと、台ぶきんとかですかね。水温は45℃まで対応。40℃く",
+            "url": "https://www.gizmodo.jp/2024/04/mini-laundry-1.html",
+            "title": "シンクの脇にちょこっと洗濯機置かない？ | ギズモード・ジャパン",
+            "summary": "Image:サンコー2023年2月18日の記事を編集して再掲載しています。これ便利だよ、多分。サンコーの「お湯も使えるミニランドリー」です。これは何かと言うと、シンクの横に置ける小さな洗濯機。Image:サンコー注水はシンク内の桶を使って自動で行なうか、自分でタンクに入れます。排水もしてくれるので、セミオートという感じですね。何を洗うかというと、台ぶきんとかですかね。水温は45℃まで対応。40℃く",
+            "date_modified": "2024-04-03T07:35:00.000Z",
+            "date_published": "2024-04-03T07:35:00.000Z",
+            "author": {
+                "name": "三浦一紀"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
             "id": "https://developer.hatenastaff.com/entry/intern-2024-preentry",
-            "content_html": "こんにちは、CTO の id:motemen です。 はてなは今年も、学生を対象としたエンジニア向けの夏のインターンシップ、「はてなインターンシップ2024」を開催します。 今年も昨年に引き続き、8月後半〜9月前半にかけて3週間程度のプログラムを企画しています。今年はリモートとオフィスの両方を活用したハイブリッドの開催を企画しています。 昨年のインターンの様子はこちらをご覧ください。（昨年はリモート中心に行われました） はてなリモートインターンシップ2023 レポートサイト はてなインターンの特徴は、前半は講義、後半は実践と、「学び、そして作る」両方を体験してもらえることです。今回も、最高の夏…",
+            "content_html": "こんにちは、CTO の id:motemen です。 はてなは今年も、学生を対象としたエンジニア向けの夏のインターンシップ、「はてなインターンシップ2024」を開催します。 今年も昨年に引き続き、8月後半〜9月前半にかけて3週間程度のプログラムを企画しています。今年はリモートとオフィスの両方を活用したハイブリッドの開催を検討しています。 昨年のインターンの様子はこちらをご覧ください。（昨年はリモート中心に行われました） はてなリモートインターンシップ2023 レポートサイト はてなインターンの特徴は、前半は講義、後半は実践と、「学び、そして作る」両方を体験してもらえることです。今回も、最高の夏…",
             "url": "https://developer.hatenastaff.com/entry/intern-2024-preentry",
             "title": "はてなインターンシップ2024を開催します！お知らせ登録フォームを開設しました | Hatena Developer Blog",
-            "summary": "こんにちは、CTO の id:motemen です。 はてなは今年も、学生を対象としたエンジニア向けの夏のインターンシップ、「はてなインターンシップ2024」を開催します。 今年も昨年に引き続き、8月後半〜9月前半にかけて3週間程度のプログラムを企画しています。今年はリモートとオフィスの両方を活用したハイブリッドの開催を企画しています。 昨年のインターンの様子はこちらをご覧ください。（昨年はリモー...",
+            "summary": "こんにちは、CTO の id:motemen です。 はてなは今年も、学生を対象としたエンジニア向けの夏のインターンシップ、「はてなインターンシップ2024」を開催します。 今年も昨年に引き続き、8月後半〜9月前半にかけて3週間程度のプログラムを企画しています。今年はリモートとオフィスの両方を活用したハイブリッドの開催を検討しています。 昨年のインターンの様子はこちらをご覧ください。（昨年はリモー...",
             "date_modified": "2024-04-03T07:18:23.000Z",
             "date_published": "2024-04-03T07:18:23.000Z",
             "tags": []
@@ -241,6 +396,16 @@
             ]
         },
         {
+            "id": "https://qiita.com/minorun365/items/98cd0bdde6d98011d5af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "4/3 13:51更新 AWS公式ブログも投稿されました！  ビジネス観点 https://aws.amazon.com/jp/blogs/machine-learning/aws-and-mist…",
+            "url": "https://qiita.com/minorun365/items/98cd0bdde6d98011d5af?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Mistralの最新モデルLargeがAWSのBedrockに登場!? API叩いてみた | Qiita - 人気の記事",
+            "summary": "4/3 13:51更新 AWS公式ブログも投稿されました！  ビジネス観点 https://aws.amazon.com/jp/blogs/machine-learning/aws-and-mist…",
+            "date_modified": "2024-04-03T03:58:22.000Z",
+            "date_published": "2024-04-03T03:58:22.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1581369.html",
             "content_html": "米Googleは2月27日（日本時間）、変体仮名を表示できるフォント「Noto Hentaigana」をリリースした。すべての文字を表せるようにする取り組み「Noto」プロジェクトの一環として制作された。現在「GitHub」のリリースページから無償でダウンロードできる。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1581369.html",
@@ -248,6 +413,16 @@
             "summary": "米Googleは2月27日（日本時間）、変体仮名を表示できるフォント「Noto Hentaigana」をリリースした。すべての文字を表せるようにする取り組み「Noto」プロジェクトの一環として制作された。現在「GitHub」のリリースページから無償でダウンロードできる。",
             "date_modified": "2024-04-03T03:52:25.000Z",
             "date_published": "2024-04-03T03:52:25.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/sky2432/items/23b0da50dfb0d3a34da2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 自分はフリーランスエンジニアとして約2年間macで開発をしていました。先日初めてwindowsへの移行を試し、結果問題ありませんでした。本記事では移行した理由、感想、windowsの開発環…",
+            "url": "https://qiita.com/sky2432/items/23b0da50dfb0d3a34da2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "開発環境をmacからwindowsへ移行 | Qiita - 人気の記事",
+            "summary": "はじめに 自分はフリーランスエンジニアとして約2年間macで開発をしていました。先日初めてwindowsへの移行を試し、結果問題ありませんでした。本記事では移行した理由、感想、windowsの開発環…",
+            "date_modified": "2024-04-03T03:31:38.000Z",
+            "date_published": "2024-04-03T03:31:38.000Z",
             "tags": []
         },
         {
@@ -286,6 +461,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/tuneyukkie/items/7457b416bbf52ce31aba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  Excelで、表の集計でChatGPTを使いたい、と思うことは無いでしょうか？  たとえば、大量のアンケートを集計・分析したい、とか・・・   今回、OfficeScriptとChatGPT（O…",
+            "url": "https://qiita.com/tuneyukkie/items/7457b416bbf52ce31aba?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ExcelでChatGPTを呼び出して楽をする | Qiita - 人気の記事",
+            "summary": "はじめに  Excelで、表の集計でChatGPTを使いたい、と思うことは無いでしょうか？  たとえば、大量のアンケートを集計・分析したい、とか・・・   今回、OfficeScriptとChatGPT（O…",
+            "date_modified": "2024-04-03T02:57:42.000Z",
+            "date_published": "2024-04-03T02:57:42.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.techno-edge.net/article/2024/04/03/3100.html",
             "content_html": "マイクロソフトがまた Xbox ワイヤレス コントローラーの新色を発表しました。新製品は暗緑色の『ノクターナル ベイパー スペシャル エディション』。",
             "url": "https://www.techno-edge.net/article/2024/04/03/3100.html",
@@ -319,6 +504,16 @@
             "author": {
                 "name": "mugi"
             },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/IkuyaM/items/d0515584d134dbe628a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "SaaSなどのサブスクリプション型のビジネスでは、MRR（月間定期収益）といった収益の指標をモニターしているだけでは、前月と比較して収益が増えた、あるいは減ったといったことしか分からず、ビジネスがど…",
+            "url": "https://qiita.com/IkuyaM/items/d0515584d134dbe628a3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "サブスク型ビジネスの成長の効率性を測るために必須の3つのグロースKPI | Qiita - 人気の記事",
+            "summary": "SaaSなどのサブスクリプション型のビジネスでは、MRR（月間定期収益）といった収益の指標をモニターしているだけでは、前月と比較して収益が増えた、あるいは減ったといったことしか分からず、ビジネスがど…",
+            "date_modified": "2024-04-03T02:04:33.000Z",
+            "date_published": "2024-04-03T02:04:33.000Z",
             "tags": []
         },
         {
@@ -384,6 +579,16 @@
             "title": "【アップデート情報】パッケージ・ドライバー関連　4月3日　～ASRockなど | 窓の杜",
             "date_modified": "2024-04-03T01:30:00.000Z",
             "date_published": "2024-04-03T01:30:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/taisei-ide-lyd/items/f3673e913e8b658946a6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "Nodeのバージョン18以上のLambdaでは、デフォルトファイルの拡張子がmjsに変更されています。LambdaのNodeのバージョンを更新するにあたり、mjsファイルとjsファイルとの違いについ…",
+            "url": "https://qiita.com/taisei-ide-lyd/items/f3673e913e8b658946a6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "拡張子がmjsとjsのファイルの違いについて | Qiita - 人気の記事",
+            "summary": "Nodeのバージョン18以上のLambdaでは、デフォルトファイルの拡張子がmjsに変更されています。LambdaのNodeのバージョンを更新するにあたり、mjsファイルとjsファイルとの違いについ…",
+            "date_modified": "2024-04-03T01:12:26.000Z",
+            "date_published": "2024-04-03T01:12:26.000Z",
             "tags": []
         },
         {
@@ -569,6 +774,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/yuta-shoji/items/eff0af8529640d3472e4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに  この記事の対象者  Spring Bootについてある程度理解している Spring Boot Data JPAを使用してREST APIを構築している DBへのデータ追加、変更、削除を追跡…",
+            "url": "https://qiita.com/yuta-shoji/items/eff0af8529640d3472e4?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "【Spring Boot Envers】超簡単！JPAデータエンティティの変更を監視する | Qiita - 人気の記事",
+            "summary": "はじめに  この記事の対象者  Spring Bootについてある程度理解している Spring Boot Data JPAを使用してREST APIを構築している DBへのデータ追加、変更、削除を追跡…",
+            "date_modified": "2024-04-02T22:45:15.000Z",
+            "date_published": "2024-04-02T22:45:15.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.polygon.com/24119354/into-light-whisper-zero-hour-worm-outbreak-final-shape",
             "content_html": "Image: Bungie  The Whisper and Zero Hour are finally coming back  Destiny 2’s upcoming free update, Into the Light, is truly looking to be a greatest hits collection for the MMO ahead of The Final Shape expansion this June. The variety of beloved and returning weapons revealed on March 26 made that obvious, but it seems Bungie is really pulling out all the stops with some upcoming mission reprisals. During a livestream on Tuesday, Bungie revealed the return of The Whisper and Zero Hour missions ...",
             "url": "https://www.polygon.com/24119354/into-light-whisper-zero-hour-worm-outbreak-final-shape",
@@ -582,7 +797,7 @@
             "id": "https://forest.watch.impress.co.jp/docs/serial/exceltips/1581293.html",
             "content_html": "名簿などの一覧では「ふりがな」列を用意することがありますよね。ひとつずつ手入力する必要はありません。PHONETIC関数で簡単に取り出せます。",
             "url": "https://forest.watch.impress.co.jp/docs/serial/exceltips/1581293.html",
-            "title": "【Excel】「ふりがな」を表示するPHONETIC関数のトラブルを解決！【いまさら聞けないExcelの使い方講座】 | 窓の杜",
+            "title": "【Excel】名簿の「ふりがな」欄で起こるトラブル対策！ PHONETIC関数の使いこなし【いまさら聞けないExcelの使い方講座】 | 窓の杜",
             "summary": "名簿などの一覧では「ふりがな」列を用意することがありますよね。ひとつずつ手入力する必要はありません。PHONETIC関数で簡単に取り出せます。",
             "date_modified": "2024-04-02T21:55:00.000Z",
             "date_published": "2024-04-02T21:55:00.000Z",
@@ -672,6 +887,16 @@
             "summary": "Graphic: Maddy Myers/Polygon | Source images: Stumbling Cat/Hawthorn Games; photo courtesy of Renee Gittins  ‘I did not want to be seen as weak or incompetent, but I also knew that sharing that vulner...",
             "date_modified": "2024-04-02T16:27:55.000Z",
             "date_published": "2024-04-02T16:27:55.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/gengen0719/items/58fb7369d2b8e4fbbdeb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに かれこれ１年以上前のことになりますが、今の開発組織でデータベースに接続するIntegrationTest^1 を開発者のPCとCIで実行できる仕組みを作りました。  トライしたきっかけと想い 仕組みの設計・導入をする時に気を付けたこ…",
+            "url": "https://qiita.com/gengen0719/items/58fb7369d2b8e4fbbdeb?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "データベースに接続するテストの仕組みを整備した話 | Qiita - 人気の記事",
+            "summary": "はじめに かれこれ１年以上前のことになりますが、今の開発組織でデータベースに接続するIntegrationTest^1 を開発者のPCとCIで実行できる仕組みを作りました。  トライしたきっかけと想い 仕組みの設計・導入をする時に気を付けたこ…",
+            "date_modified": "2024-04-02T16:20:14.000Z",
+            "date_published": "2024-04-02T16:20:14.000Z",
             "tags": []
         },
         {
@@ -947,6 +1172,16 @@
             ]
         },
         {
+            "id": "https://qiita.com/segre5458/items/38195892d0b1775c2385?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに Proxmoxを使っている皆さん、IP管理はどのようにしていますか？ 一般的にはDHCPサーバーに一任したり、起動後に固定したりすることが多いと思います。 私の環境ではVMを作成後、DHC…",
+            "url": "https://qiita.com/segre5458/items/38195892d0b1775c2385?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Proxmox VEでIPAM+cloud-initを用いてIP管理 | Qiita - 人気の記事",
+            "summary": "はじめに Proxmoxを使っている皆さん、IP管理はどのようにしていますか？ 一般的にはDHCPサーバーに一任したり、起動後に固定したりすることが多いと思います。 私の環境ではVMを作成後、DHC…",
+            "date_modified": "2024-04-02T09:38:07.000Z",
+            "date_published": "2024-04-02T09:38:07.000Z",
+            "tags": []
+        },
+        {
             "id": "https://jp.ign.com/hollow-knight-silksong/74247/news/hollow-knight-silksongxbox",
             "content_html": "それだけ新情報を待ち望んでいるファンが多いということ 名作メトロイドヴァニア続編『Hollow Knight: Silksong』のMicrosoft Storeのページが開設された。",
             "url": "https://jp.ign.com/hollow-knight-silksong/74247/news/hollow-knight-silksongxbox",
@@ -1109,6 +1344,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/m_pig/items/9da1d040c82a173638c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事でわかること  ジェネリックをどのような場面で使用するか（型の安全性について） out(共変) について in(反変) について  ジェネリックをどのような場面で使用するか（型の安全性について） Kotlinにおいて、ジェネリックを利用することで、様々な型に対応可能な汎用的なクラスやメソッドを簡単に作成できます。ここでは、ジェネリックを使ったシンプルなBoxクラスを例に取り上げ、その基本的な使い方を説明します…",
+            "url": "https://qiita.com/m_pig/items/9da1d040c82a173638c6?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ジェネリックについて少し理解できた気がする | Qiita - 人気の記事",
+            "summary": "この記事でわかること  ジェネリックをどのような場面で使用するか（型の安全性について） out(共変) について in(反変) について  ジェネリックをどのような場面で使用するか（型の安全性について） Kotlinにおいて、ジェネリックを利用することで、様々な型に対応可能な汎用的なクラスやメソッドを簡単に作成できます。ここでは、ジェネリックを使ったシンプルなBoxクラスを例に取り上げ、その基本的...",
+            "date_modified": "2024-04-02T08:18:47.000Z",
+            "date_published": "2024-04-02T08:18:47.000Z",
+            "tags": []
+        },
+        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1581224.html",
             "content_html": "（株）jig.jpは4月1日、子供向けシングルボードパソコンIchigoJam用のOS「IchigoJam BASIC」のオープンソース化を発表した。ライセンスはMITライセンスで、現在GitHubから利用できる。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1581224.html",
@@ -1169,7 +1414,7 @@
             "id": "https://forest.watch.impress.co.jp/docs/news/1581191.html",
             "content_html": "AI時代に対応した高い処理能力のPCが生み出す未来を描くイベント「AI PC Garden」が2024年3月30日（土）、31日（日）に、原宿のCafé STUDIOで開かれた。このイベントはインテル（株）が2023年末に発表した「インテル Core Ultra プロセッサー」が可能にするユーザー体験を広く一般に伝えるもので、テック関連のイベントとは思えない鮮やかなフラワーデザインで彩られた空間に、同プロセッサーを搭載したPCが並び、来場者を迎えた。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1581191.html",
-            "title": "インテルが生成AIをローカルで動かす「AI PC」のユーザー体験に触れるイベントを開催／NPU（Neural Processing Unit）搭載PCでオフラインでAIが高速動作する未来 | 窓の杜",
+            "title": "インテルが生成AIをローカルで動かす「AI PC」のユーザー体験に触れるイベントを開催／NPU（Neural Processing Unit）搭載PCでオフラインでAIが高速動作する未來 | 窓の杜",
             "summary": "AI時代に対応した高い処理能力のPCが生み出す未来を描くイベント「AI PC Garden」が2024年3月30日（土）、31日（日）に、原宿のCafé STUDIOで開かれた。このイベントはインテル（株）が2023年末に発表した「インテル Core Ultra プロセッサー」が可能にするユーザー体験を広く一般に伝えるもので、テック関連のイベントとは思えない鮮やかなフラワーデザインで彩られた空間に...",
             "date_modified": "2024-04-02T07:14:16.000Z",
             "date_published": "2024-04-02T07:14:16.000Z",
@@ -1350,16 +1595,6 @@
             "tags": [
                 "PRODUCT"
             ]
-        },
-        {
-            "id": "https://qiita.com/3405691582/items/c6fa00e58181b6bb6ca5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "RetNetの計算式は以下のようになっています： Y_i=X_iW_Q\\sum_{j\\in[0,i]}A^{i-j}W_K^\\mathsf{T}X_j^\\mathsf{T}X_jW_V  ここで$A$…",
-            "url": "https://qiita.com/3405691582/items/c6fa00e58181b6bb6ca5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "RetNetを線形時変システムにする | Qiita - 人気の記事",
-            "summary": "RetNetの計算式は以下のようになっています： Y_i=X_iW_Q\\sum_{j\\in[0,i]}A^{i-j}W_K^\\mathsf{T}X_j^\\mathsf{T}X_jW_V  ここで$A$…",
-            "date_modified": "2024-04-02T04:24:41.000Z",
-            "date_published": "2024-04-02T04:24:41.000Z",
-            "tags": []
         },
         {
             "id": "https://jp.ign.com/games/74238/news/2024pc",
@@ -1569,16 +1804,6 @@
             "summary": "こんにちは。GunosyでiOSアプリ開発をしている吉岡(@rikusouda)です。 try! Swift Tokyo 2024に参加してきたのでレポートを書きます。",
             "date_modified": "2024-04-02T01:53:54.000Z",
             "date_published": "2024-04-02T01:53:54.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/ucan-lab/items/63d2a39914dc51b547ae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "概要 IssueやPull Requestの作成時にアサインを指定忘れることないでしょうか？ Assigneesが未指定の場合は作成した人がアサインされるようにする方法をご紹介します。 GitHu…",
-            "url": "https://qiita.com/ucan-lab/items/63d2a39914dc51b547ae?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "GitHub Actions イシュー、プルリク作成時にアサインを自動付与する | Qiita - 人気の記事",
-            "summary": "概要 IssueやPull Requestの作成時にアサインを指定忘れることないでしょうか？ Assigneesが未指定の場合は作成した人がアサインされるようにする方法をご紹介します。 GitHu…",
-            "date_modified": "2024-04-02T01:34:04.000Z",
-            "date_published": "2024-04-02T01:34:04.000Z",
             "tags": []
         },
         {
@@ -1962,21 +2187,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2024/04/iphone-16-case.html",
-            "content_html": "今年の秋に発表が予想されるiPhone 16シリーズ。ProじゃないスタンダードモデルのiPhone 16のカメラは縦型になるとウワサされていますが、どうやらその可能性がさらに高まってきました。",
-            "url": "https://www.gizmodo.jp/2024/04/iphone-16-case.html",
-            "title": "iPhone 16用ケース画像がリーク。やっぱり縦型カメラで決まりかな | ギズモード・ジャパン",
-            "summary": "今年の秋に発表が予想されるiPhone 16シリーズ。ProじゃないスタンダードモデルのiPhone 16のカメラは縦型になるとウワサされていますが、どうやらその可能性がさらに高まってきました。",
-            "date_modified": "2024-04-01T13:00:00.000Z",
-            "date_published": "2024-04-01T13:00:00.000Z",
-            "author": {
-                "name": "はらいさん"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
-        },
-        {
             "id": "https://www.gizmodo.jp/2024/04/amazon-newlife-sale-final-2024-real-buy-list.html",
             "content_html": "Image:Midjourney現在開催中のAmazon新生活セールFINAL。ギズモード・ジャパンのみんなも、お仕事しながらちょいちょいお買い物しております。ガジェットのみならず、趣味のアイテムやアウトドアアイテム、家電など、バリエーションもさまざま。みんなが実際に購入したものを覗いてみましょう〜。※セール品ではないもの、品切れになっているものも含みます。また、変更の可能性もありますので、詳しく",
             "url": "https://www.gizmodo.jp/2024/04/amazon-newlife-sale-final-2024-real-buy-list.html",
@@ -1989,6 +2199,21 @@
             },
             "tags": [
                 "NEWS"
+            ]
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/04/iphone-16-case.html",
+            "content_html": "今年の秋に発表が予想されるiPhone 16シリーズ。ProじゃないスタンダードモデルのiPhone 16のカメラは縦型になるとウワサされていますが、どうやらその可能性がさらに高まってきました。",
+            "url": "https://www.gizmodo.jp/2024/04/iphone-16-case.html",
+            "title": "iPhone 16用ケース画像がリーク。やっぱり縦型カメラで決まりかな | ギズモード・ジャパン",
+            "summary": "今年の秋に発表が予想されるiPhone 16シリーズ。ProじゃないスタンダードモデルのiPhone 16のカメラは縦型になるとウワサされていますが、どうやらその可能性がさらに高まってきました。",
+            "date_modified": "2024-04-01T13:00:00.000Z",
+            "date_published": "2024-04-01T13:00:00.000Z",
+            "author": {
+                "name": "はらいさん"
+            },
+            "tags": [
+                "PRODUCT"
             ]
         },
         {
@@ -2102,21 +2327,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2024/04/what-happens-to-batteries-in-hot-and-cold-weather.html",
-            "content_html": "Image:Rabanser/Shutterstock.comバッテリー、けっこう繊細なんだな。私たちの生活はバッテリーなしには成り立ちません。なにせ、スマホもタブレットもノートPCも、便利なものはすべてバッテリー搭載。充電できるかできないかがカフェ選びの判断基準になっている人も多いのではないでしょうか。そんなバッテリーは、実は繊細。最適な動作温度があって、暑過ぎたり寒すぎたりする環境では要注意だ",
-            "url": "https://www.gizmodo.jp/2024/04/what-happens-to-batteries-in-hot-and-cold-weather.html",
-            "title": "バッテリーで動くガジェット、「暑すぎ」にも「寒すぎ」にも弱いワケ | ギズモード・ジャパン",
-            "summary": "Image:Rabanser/Shutterstock.comバッテリー、けっこう繊細なんだな。私たちの生活はバッテリーなしには成り立ちません。なにせ、スマホもタブレットもノートPCも、便利なものはすべてバッテリー搭載。充電できるかできないかがカフェ選びの判断基準になっている人も多いのではないでしょうか。そんなバッテリーは、実は繊細。最適な動作温度があって、暑過ぎたり寒すぎたりする環境では要注意だ",
-            "date_modified": "2024-04-01T10:00:00.000Z",
-            "date_published": "2024-04-01T10:00:00.000Z",
-            "author": {
-                "name": "中川真知子"
-            },
-            "tags": [
-                "TECHNOLOGY"
-            ]
-        },
-        {
             "id": "https://tech.willgate.co.jp/entry/2024/04/01/184252",
             "content_html": "こんにちは！ウィルゲート SREチーム 4年目エンジニアのことみん(@kotomin_m)です ウィルゲートでは24新卒エンジニア 内定者向けに新卒研修を実施しました！ この記事では、新卒研修の内容と、研修の中でも私が担当した「エンジニア基礎」の作成の裏側や資料を公開したいと思います！ 作成した資料は、私の3年間の学びを凝縮したものであり、そのためかなりボリュームがあります。 しかし、今日から新卒エンジニアの皆さんだけでなく、先輩エンジニアの皆さんにも見て頂き、是非後輩エンジニアの教育の際に使ってもらえると嬉しいです！（頑張って作ったので何卒……！！） 新卒研修の内容 エンジニア基礎 資料公開…",
             "url": "https://tech.willgate.co.jp/entry/2024/04/01/184252",
@@ -2156,21 +2366,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2024/04/amazon-sale-braun-mini-m-1010.html",
-            "content_html": "Amazon新生活セールFinalで、ブラウンのミニシェーバーがお買い得です。",
-            "url": "https://www.gizmodo.jp/2024/04/amazon-sale-braun-mini-m-1010.html",
-            "title": "5,000円でお釣りが来るミニシェーバー。頼れる二番手 #Amazon新生活セール | ギズモード・ジャパン",
-            "summary": "Amazon新生活セールFinalで、ブラウンのミニシェーバーがお買い得です。",
-            "date_modified": "2024-04-01T09:00:00.000Z",
-            "date_published": "2024-04-01T09:00:00.000Z",
-            "author": {
-                "name": "小暮ひさのり"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
-        },
-        {
             "id": "https://zenn.dev/lovegraph/articles/d8736faadc0ecc",
             "content_html": "はじめに ラブグラフ 開発チーム インターン の こるく です。 私がラブグラフに Join してまず感動したのが、コマンド一発で完了する超お手軽な環境構築でした。 普通プロジェクトに Join するときは面倒な環境構築をする必要がありますが、ラブグラフではそれが全くありませんでした。 ということで今回は、それを実現している Make と Docker を使って、開発、テスト、CI、本番のすべての環境で、ランタイムの環境と環境変数の設定をすべてコードベース ( IaC というやつ？ ) でラクに共有して開発体験を爆アゲしようと思います。   この構成が目指すところ ✅ 環境で悩むこと...",
             "url": "https://zenn.dev/lovegraph/articles/d8736faadc0ecc",
@@ -2202,16 +2397,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/48Ta/items/a68bb1d74edc3cc97429?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "HomebrewのXZ Utilsバージョンの確認と対処 2024年3月29日にXZ Utils(以下XZ)にバックドアなどが仕込まれている可能性が発見された。 XZはHomebrewを介して入れて…",
-            "url": "https://qiita.com/48Ta/items/a68bb1d74edc3cc97429?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "HomebrewのXZ Utilsバージョンの確認と対処 | Qiita - 人気の記事",
-            "summary": "HomebrewのXZ Utilsバージョンの確認と対処 2024年3月29日にXZ Utils(以下XZ)にバックドアなどが仕込まれている可能性が発見された。 XZはHomebrewを介して入れて…",
-            "date_modified": "2024-04-01T08:06:33.000Z",
-            "date_published": "2024-04-01T08:06:33.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.lifull.blog/entry/2024/04/01/170000?utm_source=feed",
             "content_html": "こんにちは。LIFULL Tech Vietnam（以下、LFTV）CEOの加藤です。 2016年よりLIFULLへ中途入社し、主にLIFULL HOME'S 注文住宅領域のエンジニアチームのマネジメントを経験したのち、2023年10月よりLFTVのCEOへ就任致しました。 就任し約半年が経過しましたが、今回はこれからのLFTVが目指す未来について紹介したいと思います。",
             "url": "https://www.lifull.blog/entry/2024/04/01/170000?utm_source=feed",
@@ -2220,21 +2405,6 @@
             "date_modified": "2024-04-01T08:00:00.000Z",
             "date_published": "2024-04-01T08:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://www.gizmodo.jp/2024/04/apple-vision-pro-reaction-sugokatta.html",
-            "content_html": "Photo:小暮ひさのりそこにあったのは確かな「感動」でした。待ちに待ったApple（アップル）のMRヘッドセット「VisionPro」。約50万円するこのガジェットが届いた編集部では回しプレイならぬ、回し空間コンピュータが大盛りあがり。「microOLEDの解像度がすごいね！」とか、「アイトラッキングの精度が尋常じゃない！」とか。ガジェット大好物メンたちがハードウェア的な未来感に食いついていた中",
-            "url": "https://www.gizmodo.jp/2024/04/apple-vision-pro-reaction-sugokatta.html",
-            "title": "50万円のガジェット、よく知らん人でもすごいって思うのかな？ | ギズモード・ジャパン",
-            "summary": "Photo:小暮ひさのりそこにあったのは確かな「感動」でした。待ちに待ったApple（アップル）のMRヘッドセット「VisionPro」。約50万円するこのガジェットが届いた編集部では回しプレイならぬ、回し空間コンピュータが大盛りあがり。「microOLEDの解像度がすごいね！」とか、「アイトラッキングの精度が尋常じゃない！」とか。ガジェット大好物メンたちがハードウェア的な未来感に食いついていた中",
-            "date_modified": "2024-04-01T08:00:00.000Z",
-            "date_published": "2024-04-01T08:00:00.000Z",
-            "author": {
-                "name": "小暮ひさのり"
-            },
-            "tags": [
-                "TECHNOLOGY"
-            ]
         },
         {
             "id": "https://jp.ign.com/ib-remake-2022/74228/news/ibamazon-3ps530",
@@ -2482,6 +2652,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/ssc-ksaitou/items/6815741104185a55e55d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "プロキシサーバをHonoで作ろう 前回、最近 Hono で外部連携用の AWS Lambda 書いていますという記事を書きましたが、記事の中でユースケースとしてあげていた「他のサービスへのデータ連携…",
+            "url": "https://qiita.com/ssc-ksaitou/items/6815741104185a55e55d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "AWS Lambda + Honoで外部REST APIサーバ用のプロキシサーバを書く | Qiita - 人気の記事",
+            "summary": "プロキシサーバをHonoで作ろう 前回、最近 Hono で外部連携用の AWS Lambda 書いていますという記事を書きましたが、記事の中でユースケースとしてあげていた「他のサービスへのデータ連携…",
+            "date_modified": "2024-04-01T02:38:58.000Z",
+            "date_published": "2024-04-01T02:38:58.000Z",
+            "tags": []
+        },
+        {
             "id": "https://developer.hatenastaff.com/entry/2024/04/01/112732",
             "content_html": "こんにちは！マンガアプリチームでiOSアプリエンジニアをしています id:fxwx23 です。 2024年3月22日から24日にかけてベルサール渋谷ファーストにて try! Swift Tokyo 2024 が開催されました。はてなは今回シルバースポンサーとして協賛させていただき、はてなの一員として参加してきました。聴講した中で印象深かったセッションについていくつかピックアップしてご紹介します。 tryswift.jp try! Swift Tokyo 2024 に参加してみて try! Swift Tokyo 2024 において印象深かったセッション AIによる言語学習の変革：Duoling…",
             "url": "https://developer.hatenastaff.com/entry/2024/04/01/112732",
@@ -2603,16 +2783,6 @@
             "tags": []
         },
         {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1580659.html",
-            "content_html": "Amazon.co.jpでは、4月1日（月）までの期間限定で、春のビッグセール「新生活SALE FINAL」を開催しています。その一環として、Anker製品のセールが行われており、ポータブル電源各種が割引価格で販売中です。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/goodbuy/1580659.html",
-            "title": "AmazonでAnker製ポータブル電源が最大44％OFF！【新生活SALE FINAL】【本日みつけたお買い得情報】 | 窓の杜",
-            "summary": "Amazon.co.jpでは、4月1日（月）までの期間限定で、春のビッグセール「新生活SALE FINAL」を開催しています。その一環として、Anker製品のセールが行われており、ポータブル電源各種が割引価格で販売中です。",
-            "date_modified": "2024-04-01T01:51:53.000Z",
-            "date_published": "2024-04-01T01:51:53.000Z",
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/heapjp/items/a663b9e3d9a0d9c35f16?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "TLDR  社内のデータを元に質問への回答を LLM が生成する仕組み（RAG）を構築するためのサービスを開発しました。 β 版として無料で公開しているので是非使ってみてください。 サーバーレスな構成…",
             "url": "https://qiita.com/heapjp/items/a663b9e3d9a0d9c35f16?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -2716,10 +2886,10 @@
         },
         {
             "id": "https://qiita.com/log0417/items/7dddf1669d49f3e298dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "本記事は4月2日11:30（JST)時点で判明している事実をまとめたものです。誤りがあればコメントでお知らせください。 発覚から数日経過していますが、情報が錯そうしている部分もあり、誤りが含まれてい…",
+            "content_html": "本記事は4月3日15:30（JST)時点で判明している事実をまとめたものです。誤りがあればコメントでお知らせください。 発覚から数日経過していますが、情報が錯そうしている部分もあり、誤りが含まれてい…",
             "url": "https://qiita.com/log0417/items/7dddf1669d49f3e298dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "title": "xzにバックドアが混入した件のまとめ(CVE-2024-3094) | Qiita - 人気の記事",
-            "summary": "本記事は4月2日11:30（JST)時点で判明している事実をまとめたものです。誤りがあればコメントでお知らせください。 発覚から数日経過していますが、情報が錯そうしている部分もあり、誤りが含まれてい…",
+            "summary": "本記事は4月3日15:30（JST)時点で判明している事実をまとめたものです。誤りがあればコメントでお知らせください。 発覚から数日経過していますが、情報が錯そうしている部分もあり、誤りが含まれてい…",
             "date_modified": "2024-03-31T23:16:24.000Z",
             "date_published": "2024-03-31T23:16:24.000Z",
             "tags": []
@@ -2981,16 +3151,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/damuha/items/8a191a74d3f20a587eca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "こんにちは！ bgrass株式会社CEO兼CTOのだむはです。 先日、シンプル参加者として初めて技術カンファレンスに参加したので、初めてのレポートを書いてみます！！（デブサミもこの前行ったけど登壇メ…",
-            "url": "https://qiita.com/damuha/items/8a191a74d3f20a587eca?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【参加レポ】初めての技術カンファレンス！Object-Oriented Conference 2024に行ってきた！ | Qiita - 人気の記事",
-            "summary": "こんにちは！ bgrass株式会社CEO兼CTOのだむはです。 先日、シンプル参加者として初めて技術カンファレンスに参加したので、初めてのレポートを書いてみます！！（デブサミもこの前行ったけど登壇メ…",
-            "date_modified": "2024-03-31T11:02:22.000Z",
-            "date_published": "2024-03-31T11:02:22.000Z",
-            "tags": []
-        },
-        {
             "id": "https://zenn.dev/ryota_09/articles/26d52fdefe7c2a",
             "content_html": "こんにちは！@Ryo54388667です!☺️ 普段は都内でフロントエンドエンジニアとして業務をしてます！ 主にTypeScriptやNext.jsといった技術を触っています。 今回はレスポンスの遅いAPIをリクエストしたときのローディングUIを紹介したいと思います。   📌 作ろうと思った背景 きっかけは生成AIのエージェントAPIを利用するとき、レスポンスを待つ時間が非常に長かったからです。。😇 生成AIのプロダクトではプロンプトを解析したり、最適な問い合わせ先を判断したり、オリジンにリクエストするなど、さまざまな処理を行う(オーケストレーションレイヤー)関係でレスポンス時間が遅くな...",
             "url": "https://zenn.dev/ryota_09/articles/26d52fdefe7c2a",
@@ -3042,26 +3202,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/mysoshake/items/fb5e9d439d09f84b0602?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "概要 Microsoft Officeの各ソフトにはリボンというツールバーがあります．これに自作のタブを追加したりマクロを登録したりするとき，個人であれば設定から1つずつ追加すればよいです． しかし…",
-            "url": "https://qiita.com/mysoshake/items/fb5e9d439d09f84b0602?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【Excel VBA】リボンの自作タブをアドインファイル(xlam)に埋め込む | Qiita - 人気の記事",
-            "summary": "概要 Microsoft Officeの各ソフトにはリボンというツールバーがあります．これに自作のタブを追加したりマクロを登録したりするとき，個人であれば設定から1つずつ追加すればよいです． しかし…",
-            "date_modified": "2024-03-31T07:24:53.000Z",
-            "date_published": "2024-03-31T07:24:53.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/tkek321/items/9e5b38021d321e9b4272?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "この記事は、しっかり理解していないと、場合によってはシステム障害になってしまいかねない RDB のデッドロックについて、基本を説明する機会があったので、調べ直したついでにまとめた記事になります。 デ…",
-            "url": "https://qiita.com/tkek321/items/9e5b38021d321e9b4272?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "RDB のデッドロックとロックについて | Qiita - 人気の記事",
-            "summary": "この記事は、しっかり理解していないと、場合によってはシステム障害になってしまいかねない RDB のデッドロックについて、基本を説明する機会があったので、調べ直したついでにまとめた記事になります。 デ…",
-            "date_modified": "2024-03-31T06:52:02.000Z",
-            "date_published": "2024-03-31T06:52:02.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.techno-edge.net/article/2024/03/31/3081.html",
             "content_html": "ComfyUIでControlNet(Canny/Depth/OpenPose)を使うには",
             "url": "https://www.techno-edge.net/article/2024/03/31/3081.html",
@@ -3069,16 +3209,6 @@
             "summary": "ComfyUIでControlNet(Canny/Depth/OpenPose)を使うには",
             "date_modified": "2024-03-31T06:29:55.000Z",
             "date_published": "2024-03-31T06:29:55.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/jnchito/items/5f22a87364bd70616da8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに たとえばUserクラスにnameというprotectedメソッドがあったとします。 （protectedメソッドの登場頻度はかなり少ないと思いますが） class User  protect…",
-            "url": "https://qiita.com/jnchito/items/5f22a87364bd70616da8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【トリビア】Rubyで users .map(&:name) の形式で呼び出せるのはpublicメソッドだけ | Qiita - 人気の記事",
-            "summary": "はじめに たとえばUserクラスにnameというprotectedメソッドがあったとします。 （protectedメソッドの登場頻度はかなり少ないと思いますが） class User  protect…",
-            "date_modified": "2024-03-31T05:19:58.000Z",
-            "date_published": "2024-03-31T05:19:58.000Z",
             "tags": []
         },
         {
@@ -3120,26 +3250,6 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/nekotadon/items/f376d17de85dfb84fbd5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに Win32APIについて Windows API - Wikipedia  Microsoft Windowsのシステムコール用APIのこと。特に32ビットプロセッサで動作するWindows…",
-            "url": "https://qiita.com/nekotadon/items/f376d17de85dfb84fbd5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "C# Win32API完全入門 | Qiita - 人気の記事",
-            "summary": "はじめに Win32APIについて Windows API - Wikipedia  Microsoft Windowsのシステムコール用APIのこと。特に32ビットプロセッサで動作するWindows…",
-            "date_modified": "2024-03-31T03:55:59.000Z",
-            "date_published": "2024-03-31T03:55:59.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/koichi_baseball/items/4e2061464783560ee5e7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "はじめに OpenCVで画像から物体を検出する際、以下の作業を行うことがあります。  HSV空間に変換してHueの要素から色を検出する あるしきい値を基準にバイナリ画像へ変換する  それらのしきい値を変…",
-            "url": "https://qiita.com/koichi_baseball/items/4e2061464783560ee5e7?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "【C++/Qt/OpenCV】QtとOpenCVでインタラクティブな画像の加工を試す | Qiita - 人気の記事",
-            "summary": "はじめに OpenCVで画像から物体を検出する際、以下の作業を行うことがあります。  HSV空間に変換してHueの要素から色を検出する あるしきい値を基準にバイナリ画像へ変換する  それらのしきい値を変…",
-            "date_modified": "2024-03-31T03:46:33.000Z",
-            "date_published": "2024-03-31T03:46:33.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.techno-edge.net/article/2024/03/31/3079.html",
             "content_html": "大規模言語モデル（LLM）でコンセプトを考えて、AI作曲サービスでボーカル入り楽曲を作り出す。そんなやり方で制作したコンセプトアルバムを音楽配信に載せるという話を、自ら音楽レーベルを主宰し、テクノロジー関連の執筆もこなしている山崎潤一郎さんに、数回にわたって執筆いただきます。",
             "url": "https://www.techno-edge.net/article/2024/03/31/3079.html",
@@ -3147,16 +3257,6 @@
             "summary": "大規模言語モデル（LLM）でコンセプトを考えて、AI作曲サービスでボーカル入り楽曲を作り出す。そんなやり方で制作したコンセプトアルバムを音楽配信に載せるという話を、自ら音楽レーベルを主宰し、テクノロジー関連の執筆もこなしている山崎潤一郎さんに、数回にわたって執筆いただきます。",
             "date_modified": "2024-03-31T03:19:28.000Z",
             "date_published": "2024-03-31T03:19:28.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/taka_yayoi/items/c67b3f5fb168342a4b90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "苦戦してましたが、同僚のエンジニアの方に教えてもらいました。 https://huggingface.co/databricks/dbrx-instruct クラスターの設定  Azure Datab…",
-            "url": "https://qiita.com/taka_yayoi/items/c67b3f5fb168342a4b90?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Hugging Faceのdbrx-instructを動かしてみる | Qiita - 人気の記事",
-            "summary": "苦戦してましたが、同僚のエンジニアの方に教えてもらいました。 https://huggingface.co/databricks/dbrx-instruct クラスターの設定  Azure Datab…",
-            "date_modified": "2024-03-31T03:02:38.000Z",
-            "date_published": "2024-03-31T03:02:38.000Z",
             "tags": []
         },
         {
@@ -3820,7 +3920,7 @@
         },
         {
             "id": "https://techblog.recochoku.jp/10454",
-            "content_html": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2022/12/SwiftUI_logo-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p>はじめまして、普段iOSアプリを開発している澁谷太智です。 最近、メイドコアというジャンルの音楽にハマっています。 もともとインスト楽曲が好きで、色々掘り下げて行った結果辿り着きました。 ニッチかつ成り立ちが大クセなので、気になる方は検索してみてください。  さて、SwiftUIを触り始めて2、3ヶ月経ちました。 現在、UIKitの画面をSwiftUIで作り替える作業を行なっています。 その作業の中で [crayon-660d03537c9f2159985174-i/] を用いて画面更新処理を実装していました。 しかし、なぜか iOS 15 でだけ ScrollView を引っ張っても [crayon-660...",
+            "content_html": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2022/12/SwiftUI_logo-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p>はじめまして、普段iOSアプリを開発している澁谷太智です。 最近、メイドコアというジャンルの音楽にハマっています。 もともとインスト楽曲が好きで、色々掘り下げて行った結果辿り着きました。 ニッチかつ成り立ちが大クセなので、気になる方は検索してみてください。  さて、SwiftUIを触り始めて2、3ヶ月経ちました。 現在、UIKitの画面をSwiftUIで作り替える作業を行なっています。 その作業の中で [crayon-660d205ded5d4691977103-i/] を用いて画面更新処理を実装していました。 しかし、なぜか iOS 15 でだけ ScrollView を引っ張っても [crayon-660...",
             "url": "https://techblog.recochoku.jp/10454",
             "title": "【SwiftUI】iOS 15でリフレッシュ可能なScrollView を作る - RefreshableScrollView - | レコチョクのエンジニアブログ",
             "summary": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2022/12/SwiftUI_logo-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p>はじめまして、普...",
@@ -5309,6 +5409,24 @@
             ]
         },
         {
+            "id": "https://jp.ign.com/stellar-blade/74135/gallery/stellar-blade",
+            "content_html": "",
+            "url": "https://jp.ign.com/stellar-blade/74135/gallery/stellar-blade",
+            "title": "『Stellar Blade』スクリーンショット | IGN Japan games",
+            "date_modified": "2024-03-27T13:01:22.000Z",
+            "date_published": "2024-03-27T13:01:22.000Z",
+            "author": {
+                "name": "クラベ・エスラ"
+            },
+            "tags": [
+                "PlayStation 5",
+                "Sony PlayStation",
+                "Slideshow",
+                "ゲーム",
+                "Stellar Blade"
+            ]
+        },
+        {
             "id": "https://jp.ign.com/stellar-blade/74134/preview/nierautomatasekirostellar-blade",
             "content_html": "反応する気持ちよさ 2024年4月26日にPS5向けにリリース予定の『Stellar Blade』をプレイした感想をお届け。",
             "url": "https://jp.ign.com/stellar-blade/74134/preview/nierautomatasekirostellar-blade",
@@ -5323,24 +5441,6 @@
                 "PlayStation 5",
                 "Preview",
                 "Sony PlayStation",
-                "ゲーム",
-                "Stellar Blade"
-            ]
-        },
-        {
-            "id": "https://jp.ign.com/stellar-blade/74135/gallery/stellar-blade",
-            "content_html": "",
-            "url": "https://jp.ign.com/stellar-blade/74135/gallery/stellar-blade",
-            "title": "『Stellar Blade』スクリーンショット | IGN Japan games",
-            "date_modified": "2024-03-27T13:01:22.000Z",
-            "date_published": "2024-03-27T13:01:22.000Z",
-            "author": {
-                "name": "クラベ・エスラ"
-            },
-            "tags": [
-                "PlayStation 5",
-                "Sony PlayStation",
-                "Slideshow",
                 "ゲーム",
                 "Stellar Blade"
             ]
@@ -5509,16 +5609,6 @@
             "tags": []
         },
         {
-            "id": "https://www.techno-edge.net/article/2024/03/27/3056.html",
-            "content_html": "既存のカテゴリーの曲を巧みに作り上げるSuno V3。では、これまでにないような音楽をAIは作ることができるのでしょうか？",
-            "url": "https://www.techno-edge.net/article/2024/03/27/3056.html",
-            "title": "AIは人類が体験したことのない新しい音楽ジャンルを作れるか？　Claude 3 OpusとSuno V3に問うた結果（CloseBox） | テクノエッジ TechnoEdge",
-            "summary": "既存のカテゴリーの曲を巧みに作り上げるSuno V3。では、これまでにないような音楽をAIは作ることができるのでしょうか？",
-            "date_modified": "2024-03-27T07:40:14.000Z",
-            "date_published": "2024-03-27T07:40:14.000Z",
-            "tags": []
-        },
-        {
             "id": "https://jp.ign.com/v-rising/74162/news/v-rising-58",
             "content_html": "『V Rising』のPS5版は2024年後半に配信予定 ヴァンパイアがテーマのサバイバルクラフトゲーム『V Rising』に「悪魔城ドラキュラ』のコラボコンテンツが登場する。",
             "url": "https://jp.ign.com/v-rising/74162/news/v-rising-58",
@@ -5575,26 +5665,6 @@
             ]
         },
         {
-            "id": "https://jp.ign.com/red-dead-redemption/74160/news/gta-ps560fps",
-            "content_html": "GTA+は『GTAオンライン』向けのサブスクだが、初代RDRを遊べるだけでもお得と言えそうだ 初代『レッド・デッド・リデンプション』がサブスクリプションサービスのGTA+でプレイできるようになった。",
-            "url": "https://jp.ign.com/red-dead-redemption/74160/news/gta-ps560fps",
-            "title": "初代『レッド・デッド・リデンプション』がサブスクのGTA+でプレイ可能に PS5では60FPS動作に対応済み | IGN Japan games",
-            "summary": "GTA+は『GTAオンライン』向けのサブスクだが、初代RDRを遊べるだけでもお得と言えそうだ 初代『レッド・デッド・リデンプション』がサブスクリプションサービスのGTA+でプレイできるようになった。",
-            "date_modified": "2024-03-27T05:36:26.000Z",
-            "date_published": "2024-03-27T05:36:26.000Z",
-            "author": {
-                "name": "重田雄一"
-            },
-            "tags": [
-                "PlayStation 5",
-                "Sony PlayStation",
-                "Xbox Series X",
-                "News",
-                "Red Dead Redemption",
-                "ゲーム"
-            ]
-        },
-        {
             "id": "https://techblog.openwork.co.jp/entry/engineering-manager",
             "content_html": "マネージャーの姿 Web開発グループのグループマネージャーをやっている大力です。 現在当社は拡大路線をとっており、エンジニアもさることながらエンジニアリングマネージャーのニーズも高まっています。 エンジニアリングマネージャー、なかなか集まらないんです。採用活動でもエンジニアリングマネージャーになると急に難易度が上がるように感じています。 そこで、本記事で私がこの会社でマネージャー業務として『どんなことをやっているのか』を書くことで、マネージャー候補へのアピールとか敷居を下げるようなことができないかと思って筆を執りました。 まさに、当社の掲げている『「働く」のすべてをオープンに』の一環とも言えま…",
             "url": "https://techblog.openwork.co.jp/entry/engineering-manager",
@@ -5602,16 +5672,6 @@
             "summary": "マネージャーの姿 Web開発グループのグループマネージャーをやっている大力です。 現在当社は拡大路線をとっており、エンジニアもさることながらエンジニアリングマネージャーのニーズも高まっています。 エンジニアリングマネージャー、なかなか集まらないんです。採用活動でもエンジニアリングマネージャーになると急に難易度が上がるように感じています。 そこで、本記事で私がこの会社でマネージャー業務として『どんな...",
             "date_modified": "2024-03-27T04:47:38.000Z",
             "date_published": "2024-03-27T04:47:38.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.techno-edge.net/article/2024/03/27/3055.html",
-            "content_html": "ソニーはPlayStation 5の新機能として、ユーザーのゲームプレイから自動的に映像を作成して他のユーザー向けのヒント動画として共有できる「コミュニティーゲームヘルプ」を後日提供すると発表しました。",
-            "url": "https://www.techno-edge.net/article/2024/03/27/3055.html",
-            "title": "PS5、プレイを自動録画して他の人のヒントする新機能「コミュニティーゲームヘルプ」発表。オプトイン形式で後日提供 | テクノエッジ TechnoEdge",
-            "summary": "ソニーはPlayStation 5の新機能として、ユーザーのゲームプレイから自動的に映像を作成して他のユーザー向けのヒント動画として共有できる「コミュニティーゲームヘルプ」を後日提供すると発表しました。",
-            "date_modified": "2024-03-27T04:12:39.000Z",
-            "date_published": "2024-03-27T04:12:39.000Z",
             "tags": []
         },
         {
@@ -5890,20 +5950,20 @@
             "tags": []
         },
         {
-            "id": "https://www.riken.jp/press/2024/20240327_1/index.html",
-            "content_html": "－新規微生物のゲノム配列が次々と明らかに－",
-            "url": "https://www.riken.jp/press/2024/20240327_1/index.html",
-            "title": "ロングリードメタゲノムによる植物共生微生物叢の分子基盤の解明 | プレスリリースニュース",
-            "summary": "－新規微生物のゲノム配列が次々と明らかに－",
+            "id": " https://www.riken.jp/pr/events/events/20240410_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/events/20240410_1/index.html",
+            "title": "理研CBSフォーラム：デジタル時代にインターネットとソーシャルメディアが幸福感とどのように関連しているか | イベントニュース",
             "date_modified": "2024-03-26T15:00:00.000Z",
             "date_published": "2024-03-26T15:00:00.000Z",
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/events/20240410_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/events/20240410_1/index.html",
-            "title": "理研CBSフォーラム：デジタル時代にインターネットとソーシャルメディアが幸福感とどのように関連しているか | イベントニュース",
+            "id": "https://www.riken.jp/press/2024/20240327_1/index.html",
+            "content_html": "－新規微生物のゲノム配列が次々と明らかに－",
+            "url": "https://www.riken.jp/press/2024/20240327_1/index.html",
+            "title": "ロングリードメタゲノムによる植物共生微生物叢の分子基盤の解明 | プレスリリースニュース",
+            "summary": "－新規微生物のゲノム配列が次々と明らかに－",
             "date_modified": "2024-03-26T15:00:00.000Z",
             "date_published": "2024-03-26T15:00:00.000Z",
             "tags": []
@@ -6128,7 +6188,7 @@
         },
         {
             "id": "https://techblog.recochoku.jp/10412",
-            "content_html": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2021/12/a11b4bb3ba448d1fa402ac3dc62cc91f-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p>お疲れ様です。 次世代ビジネス推進部の荻原です。  今回は<a href=\"https://techblog.recochoku.jp/10409\">【ERC4337（2）】EntryPoint、Paymaster、Smart Contract Account、ContractFactoryの実装の仕方</a>の続き、第3回目です。  前回の準備を踏まえて実際に[crayon-660d03537de58936237452-i/]をPythonで実行してみます。\"Pythonで\"というところがポイントで、JavaScriptやTypeScriptのERC4337用のライブ...",
+            "content_html": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2021/12/a11b4bb3ba448d1fa402ac3dc62cc91f-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" alt=\"\" /></p>お疲れ様です。 次世代ビジネス推進部の荻原です。  今回は<a href=\"https://techblog.recochoku.jp/10409\">【ERC4337（2）】EntryPoint、Paymaster、Smart Contract Account、ContractFactoryの実装の仕方</a>の続き、第3回目です。  前回の準備を踏まえて実際に[crayon-660d205defdf7796274103-i/]をPythonで実行してみます。\"Pythonで\"というところがポイントで、JavaScriptやTypeScriptのERC4337用のライブ...",
             "url": "https://techblog.recochoku.jp/10412",
             "title": "【ERC4337（3）】UserOperationをPythonで実行する | レコチョクのエンジニアブログ",
             "summary": "<p><img width=\"200\" height=\"200\" src=\"https://techblog.recochoku.jp/wp-content/uploads/2021/12/a11b4bb3ba448d1fa402ac3dc62cc91f-200x200.png\" class=\"attachment-thumbnail size-thumbnail wp-post-image\" a...",
@@ -6413,20 +6473,20 @@
             "tags": []
         },
         {
-            "id": "https://www.riken.jp/press/2024/20240326_1/index.html",
-            "content_html": "－オミクス解析による分子病態理解と治療法開発への期待－",
-            "url": "https://www.riken.jp/press/2024/20240326_1/index.html",
-            "title": "自閉スペクトラム症の新たなモデルマウスを開発 | プレスリリースニュース",
-            "summary": "－オミクス解析による分子病態理解と治療法開発への期待－",
+            "id": " https://www.riken.jp/pr/events/events/20240420_2/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/events/20240420_2/index.html",
+            "title": "第5回中高生のためのオンライン特別授業「顕微鏡で見る！調べる！細胞の世界」 | イベントニュース",
             "date_modified": "2024-03-25T15:00:00.000Z",
             "date_published": "2024-03-25T15:00:00.000Z",
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/events/20240420_2/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/events/20240420_2/index.html",
-            "title": "第5回中高生のためのオンライン特別授業「顕微鏡で見る！調べる！細胞の世界」 | イベントニュース",
+            "id": "https://www.riken.jp/press/2024/20240326_1/index.html",
+            "content_html": "－オミクス解析による分子病態理解と治療法開発への期待－",
+            "url": "https://www.riken.jp/press/2024/20240326_1/index.html",
+            "title": "自閉スペクトラム症の新たなモデルマウスを開発 | プレスリリースニュース",
+            "summary": "－オミクス解析による分子病態理解と治療法開発への期待－",
             "date_modified": "2024-03-25T15:00:00.000Z",
             "date_published": "2024-03-25T15:00:00.000Z",
             "tags": []
@@ -6771,20 +6831,20 @@
             "tags": []
         },
         {
-            "id": "https://www.riken.jp/press/2024/20240325_1/index.html",
-            "content_html": "－コーンオリゴペプチドの肥満、脂肪性肝炎抑制効果を発見－",
-            "url": "https://www.riken.jp/press/2024/20240325_1/index.html",
-            "title": "トウモロコシ由来化合物で肥満や脂肪肝を改善 | プレスリリースニュース",
-            "summary": "－コーンオリゴペプチドの肥満、脂肪性肝炎抑制効果を発見－",
+            "id": " https://www.riken.jp/pr/events/events/20240419_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/events/20240419_1/index.html",
+            "title": "理研DAY：研究者と話そう！「一家に１枚 “数理”」で知ろう！〜世界とつながる“数理”〜 | イベントニュース",
             "date_modified": "2024-03-24T15:00:00.000Z",
             "date_published": "2024-03-24T15:00:00.000Z",
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/events/20240419_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/events/20240419_1/index.html",
-            "title": "理研DAY：研究者と話そう！「一家に１枚 “数理”」で知ろう！〜世界とつながる“数理”〜 | イベントニュース",
+            "id": "https://www.riken.jp/press/2024/20240325_1/index.html",
+            "content_html": "－コーンオリゴペプチドの肥満、脂肪性肝炎抑制効果を発見－",
+            "url": "https://www.riken.jp/press/2024/20240325_1/index.html",
+            "title": "トウモロコシ由来化合物で肥満や脂肪肝を改善 | プレスリリースニュース",
+            "summary": "－コーンオリゴペプチドの肥満、脂肪性肝炎抑制効果を発見－",
             "date_modified": "2024-03-24T15:00:00.000Z",
             "date_published": "2024-03-24T15:00:00.000Z",
             "tags": []
@@ -7037,24 +7097,6 @@
             "date_modified": "2024-03-22T02:50:00.000Z",
             "date_published": "2024-03-22T02:50:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://techracho.bpsinc.jp/?p=140607",
-            "content_html": "rdoc gemとstringio gemのセキュリティ修正がリリースされました。 We disclosed two CVEs for the default gems today. * https://t.co/do5D0xqdch* https://t.co/NLcUmoRgrY We recommend upgrading them for keep your code as safety. — Ruby Programming Language (@rubylangorg) March 21, 2024 🔗 rdoc gemの修正 リリースノート: CVE-2024-27281: RCE vu […] The post Ruby: rdoc gemとstringio gemのセキュリティ修正がリリースされました first appeared on TechRacho.",
-            "url": "https://techracho.bpsinc.jp/hachi8833/2024_03_22/140607",
-            "title": "Ruby: rdoc gemとstringio gemのセキュリティ修正がリリースされました | TechRacho",
-            "summary": "rdoc gemとstringio gemのセキュリティ修正がリリースされました。 We disclosed two CVEs for the default gems today. * https://t.co/do5D0xqdch* https://t.co/NLcUmoRgrY We recommend upgrading them for keep your code as safety....",
-            "date_modified": "2024-03-22T02:40:08.000Z",
-            "date_published": "2024-03-22T02:40:08.000Z",
-            "author": {
-                "name": "hachi8833"
-            },
-            "tags": [
-                "Ruby / Rails関連",
-                "Ruby",
-                "Rubyリリース情報",
-                "セキュリティ"
-            ]
         },
         {
             "id": "https://techblog.openwork.co.jp/entry/try-using-mysql-shell",
