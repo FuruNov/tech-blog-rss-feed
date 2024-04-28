@@ -7,6 +7,133 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://zenn.dev/treastrain/articles/a78b5f892f4654",
+            "content_html": "「Timer とか使うんだっけ…」「while ループで無限ループを作ってn秒待機させてから実行…か……？」よりも Swift Concurrency っぽいコードを目指します。   まとめ すべて「約1秒ごとに処理を実行し始める」コード AsyncTimerSequence（Swift 5.7+、Swift Async Algorithms）import AsyncAlgorithms import Foundation  let timer = AsyncTimerSequence(  interval: .seconds(1),  clock: .continuous ...",
+            "url": "https://zenn.dev/treastrain/articles/a78b5f892f4654",
+            "title": "Swift Concurrency 時代の「n秒ごとに処理を実行する」 | Zennのトレンド",
+            "summary": "「Timer とか使うんだっけ…」「while ループで無限ループを作ってn秒待機させてから実行…か……？」よりも Swift Concurrency っぽいコードを目指します。   まとめ すべて「約1秒ごとに処理を実行し始める」コード AsyncTimerSequence（Swift 5.7+、Swift Async Algorithms）import AsyncAlgorithms impo...",
+            "date_modified": "2024-04-28T20:22:36.000Z",
+            "date_published": "2024-04-28T20:22:36.000Z",
+            "author": {
+                "name": "treastrain / Tanaka Ryoga"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://www.polygon.com/24138602/games-like-shogun-shadow-tactics-total-war-shogun-2",
+            "content_html": "Image: Creative Assembly/Sega  Now you can reenact your own version of ‘Crimson Sky’  Shōgun, the limited TV series based on the historical-fiction novel by James Clavell, quickly asserted itself as one of this year’s best new series, thanks to a captivating cast of characters and a stirring performance by lead Hiroyuki Sanada as Lord Toranaga. If you’re still devastated by this week’s series finale and are looking for a game to sate your desire for more great storytelling set in historical Japa...",
+            "url": "https://www.polygon.com/24138602/games-like-shogun-shadow-tactics-total-war-shogun-2",
+            "title": "If you loved Shōgun, keep the historical Japan vibes going with these games | Polygon -  Gaming",
+            "summary": "Image: Creative Assembly/Sega  Now you can reenact your own version of ‘Crimson Sky’  Shōgun, the limited TV series based on the historical-fiction novel by James Clavell, quickly asserted itself as o...",
+            "date_modified": "2024-04-28T15:00:00.000Z",
+            "date_published": "2024-04-28T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/tatamiya/articles/0d9a79260ebb42",
+            "content_html": "この記事は？ この記事では、R にデフォルトで入っている stats パッケージの線形回帰関数 lm を題材に、R のパッケージ・関数がどのように実装されているかを辿っていく。   はじめに R のパッケージ・関数の使い方は、? コマンドや Web 上でドキュメントを読めば一通り知ることができる。 しかし、時としてどうしてもドキュメントには書かれていないような詳細を知りたくなるケースに遭遇することがある。 このような時には、実装コードを読みにいくことで疑問が解決することが多い。 また、定評のあるパッケージの実装を知ることで、それまで知らなかった書き方や言語仕様に触れることができ、コー...",
+            "url": "https://zenn.dev/tatamiya/articles/0d9a79260ebb42",
+            "title": "R の線形回帰 lm 関数の実装を辿る | Zennのトレンド",
+            "summary": "この記事は？ この記事では、R にデフォルトで入っている stats パッケージの線形回帰関数 lm を題材に、R のパッケージ・関数がどのように実装されているかを辿っていく。   はじめに R のパッケージ・関数の使い方は、? コマンドや Web 上でドキュメントを読めば一通り知ることができる。 しかし、時としてどうしてもドキュメントには書かれていないような詳細を知りたくなるケースに遭遇すること...",
+            "date_modified": "2024-04-28T14:14:21.000Z",
+            "date_published": "2024-04-28T14:14:21.000Z",
+            "author": {
+                "name": "畳屋民也"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2024/04/28/3263.html",
+            "content_html": "Google Meet が微妙な Quality of Life 向上機能を追加しました。移動中にスマホで、デスクにたどり着いたらPCで",
+            "url": "https://www.techno-edge.net/article/2024/04/28/3263.html",
+            "title": "ビデオ会議中にスマホからPCへこっそり移動。Google Meetが通話転送の新機能「このデバイスに切り替える」追加 | テクノエッジ TechnoEdge",
+            "summary": "Google Meet が微妙な Quality of Life 向上機能を追加しました。移動中にスマホで、デスクにたどり着いたらPCで",
+            "date_modified": "2024-04-28T14:13:26.000Z",
+            "date_published": "2024-04-28T14:13:26.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/mesi/articles/e21b15967e4843",
+            "content_html": "DBMSのメモリ管理について データベース管理システム（DBMS）の設計では、大量のデータと複雑なクエリを処理するために、ハードウェアの特性を最大限引き出すことが求められます。 この記事では、DBMSがどのようにメモリを使ってデータアクセスの速度を向上させ、同時にデータの安全性を確保しているのかを解説します。   DBMSと記憶装置の関係について DBMSが使う記憶装置は次の2つです。   HDD  HDDは磁気ディスクを使用してデータを記録・読み取りする記憶装置です。その主な特徴は大容量であり、コスト効率が良いことです。DBMSでは、データの永続的な保存にHDDが用いられます。これ...",
+            "url": "https://zenn.dev/mesi/articles/e21b15967e4843",
+            "title": "今更聞けないDBMSのメモリ管理について | Zennのトレンド",
+            "summary": "DBMSのメモリ管理について データベース管理システム（DBMS）の設計では、大量のデータと複雑なクエリを処理するために、ハードウェアの特性を最大限引き出すことが求められます。 この記事では、DBMSがどのようにメモリを使ってデータアクセスの速度を向上させ、同時にデータの安全性を確保しているのかを解説します。   DBMSと記憶装置の関係について DBMSが使う記憶装置は次の2つです。   HDD...",
+            "date_modified": "2024-04-28T13:54:38.000Z",
+            "date_published": "2024-04-28T13:54:38.000Z",
+            "author": {
+                "name": "MESI"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/eihigh/articles/ebitengine-weekly-6",
+            "content_html": "本編の前に、Ebitengine (Weekly) について Ebitengine とは、Go言語で2Dゲームを作るための非常にシンプルなライブラリです。習得しやすく、モバイルやNintendo Switchにも移植でき、実績も豊富です。（公式サイト） 英語メインですが、日本語チャンネルもある Discord Server があるので、是非ご参加ください。 この記事、Ebitengine Weekly では、そんな Ebitengine に関するありとあらゆる話題を収集し、zenn 上で毎週お届けしています。発信場所としては  zenn の #ebitengineweekly トピ...",
+            "url": "https://zenn.dev/eihigh/articles/ebitengine-weekly-6",
+            "title": "Ebitengine Weekly #6 - みんなのゲーム進捗紹介など | Zennのトレンド",
+            "summary": "本編の前に、Ebitengine (Weekly) について Ebitengine とは、Go言語で2Dゲームを作るための非常にシンプルなライブラリです。習得しやすく、モバイルやNintendo Switchにも移植でき、実績も豊富です。（公式サイト） 英語メインですが、日本語チャンネルもある Discord Server があるので、是非ご参加ください。 この記事、Ebitengine Week...",
+            "date_modified": "2024-04-28T13:05:04.000Z",
+            "date_published": "2024-04-28T13:05:04.000Z",
+            "author": {
+                "name": "eihigh"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://www.polygon.com/24141738/fallout-games-pc-difficult-in-2024-new-vegas-mods",
+            "content_html": "Image: Obsidian Entertainment/Bethesda Softworks  Even a next-gen update for Fallout 4 hasn’t made it any better  Like so many other people, after I finished the Fallout series on Amazon Prime, I wanted to jump into a Fallout game again. I lived in the Boston area — where Fallout 4 is set — in 2015, when that game was released, so I clocked in almost 70 hours there, but I couldn’t resist the temptation to boot up my favorite game in the series: Fallout: New Vegas. Unfortunately, that was easier ...",
+            "url": "https://www.polygon.com/24141738/fallout-games-pc-difficult-in-2024-new-vegas-mods",
+            "title": "Why is it so difficult to play Fallout games on PC right now? | Polygon -  Gaming",
+            "summary": "Image: Obsidian Entertainment/Bethesda Softworks  Even a next-gen update for Fallout 4 hasn’t made it any better  Like so many other people, after I finished the Fallout series on Amazon Prime, I want...",
+            "date_modified": "2024-04-28T13:00:00.000Z",
+            "date_published": "2024-04-28T13:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/04/uchu-zatsugaku-matom.html",
+            "content_html": "2012年にNASAのGalaxyEvolutionMapper（宇宙進化地図）が捉えたアンドロメダ星雲。Image:NASA/JPL-Caltech約465億光年の広さと言われている宇宙は、私たちの知らないことで溢れています。時間に余裕のあるゴールデンウィークの真っ只中、ちょっとだけ宇宙について学んでみませんか？誰かに話したくなっちゃうような、サクッと読めるおもしろい話をまとめてみました。惑星の",
+            "url": "https://www.gizmodo.jp/2024/04/uchu-zatsugaku-matom.html",
+            "title": "おもわず誰かに話したくなる。サクッと読める宇宙の雑学まとめ | ギズモード・ジャパン",
+            "summary": "2012年にNASAのGalaxyEvolutionMapper（宇宙進化地図）が捉えたアンドロメダ星雲。Image:NASA/JPL-Caltech約465億光年の広さと言われている宇宙は、私たちの知らないことで溢れています。時間に余裕のあるゴールデンウィークの真っ只中、ちょっとだけ宇宙について学んでみませんか？誰かに話したくなっちゃうような、サクッと読めるおもしろい話をまとめてみました。惑星の",
+            "date_modified": "2024-04-28T13:00:00.000Z",
+            "date_published": "2024-04-28T13:00:00.000Z",
+            "author": {
+                "name": "編集部"
+            },
+            "tags": [
+                "SCIENCE"
+            ]
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2024/04/28/3262.html",
+            "content_html": "2010年の映画『ソーシャル・ネットワーク』の脚本家アーロン・ソーキン氏が、その続編になる可能性ある作品を執筆中だと報じられています。",
+            "url": "https://www.techno-edge.net/article/2024/04/28/3262.html",
+            "title": "映画『ソーシャル・ネットワーク』の続編、脚本家が執筆中。米議会襲撃とFacebookの関係描く | テクノエッジ TechnoEdge",
+            "summary": "2010年の映画『ソーシャル・ネットワーク』の脚本家アーロン・ソーキン氏が、その続編になる可能性ある作品を執筆中だと報じられています。",
+            "date_modified": "2024-04-28T12:32:08.000Z",
+            "date_published": "2024-04-28T12:32:08.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.techno-edge.net/article/2024/04/28/3261.html",
+            "content_html": "テクノエッジの公式オンラインストア「テクノエッジ購買部」では、角度調節ができるノートPC用スリーブケース「Fleeve」の取り扱いを開始しました。",
+            "url": "https://www.techno-edge.net/article/2024/04/28/3261.html",
+            "title": "スタンドにもなるノートPC用スリーブケース「Fleeve」をテクノエッジ購買部で販売開始 | テクノエッジ TechnoEdge",
+            "summary": "テクノエッジの公式オンラインストア「テクノエッジ購買部」では、角度調節ができるノートPC用スリーブケース「Fleeve」の取り扱いを開始しました。",
+            "date_modified": "2024-04-28T12:31:49.000Z",
+            "date_published": "2024-04-28T12:31:49.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/phyblas/items/4fa8fc71b83eb348fd71?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "この記事はMATLABで機械学習を実装する方法について説明します。 前置き 機械学習をやると言ったら、殆どの人はPythonですよね。でもRやJuliaなど他の言語は少ないながら使っている人がある程…",
+            "url": "https://qiita.com/phyblas/items/4fa8fc71b83eb348fd71?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "機械学習の実装をMATLABでも簡単にできますよ | Qiita - 人気の記事",
+            "summary": "この記事はMATLABで機械学習を実装する方法について説明します。 前置き 機械学習をやると言ったら、殆どの人はPythonですよね。でもRやJuliaなど他の言語は少ないながら使っている人がある程…",
+            "date_modified": "2024-04-28T12:05:47.000Z",
+            "date_published": "2024-04-28T12:05:47.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.gizmodo.jp/2024/04/muji_matome.html",
             "content_html": "痒い所に手が届き、インテリアの邪魔もしない絶妙なアイテムの宝庫「無印良品」。そんな無印で見つけた、家の居心地をグッと良くしてくれるアイテムを3つまとめました。キッチンが居場所になるスツールPhoto:haco気付いたら居るのがキッチン。例えばある時は、煮物をコトコト煮込んでいる間にスマホで返信をしたり、音楽を楽しんだり。またある時は、カウンター越しに家族と話をしたり。手を動かしながら聞くこともあれ",
             "url": "https://www.gizmodo.jp/2024/04/muji_matome.html",
@@ -20,6 +147,36 @@
             "tags": [
                 "PRODUCT"
             ]
+        },
+        {
+            "id": "https://qiita.com/Sicut_study/items/27b767a59c9972627550?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに おはようございます。Watanabe Jin(@Sicut_study)です。 今回は「やる気がない日も机に向かうべきか」について書いていこうと思います！ ぜひやる気が出ないときはぜひ試…",
+            "url": "https://qiita.com/Sicut_study/items/27b767a59c9972627550?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "プログラミングのやる気がでないとき机に向かうべきか | Qiita - 人気の記事",
+            "summary": "はじめに おはようございます。Watanabe Jin(@Sicut_study)です。 今回は「やる気がない日も机に向かうべきか」について書いていこうと思います！ ぜひやる気が出ないときはぜひ試…",
+            "date_modified": "2024-04-28T10:37:51.000Z",
+            "date_published": "2024-04-28T10:37:51.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/toshi_456/items/93f320edd6b914e9e794?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 最近、Large Vision Language Model(以下LVLM)ではLLaVA NEXTのように画像を高解像度のまま入力することでモデルの性能が上がるという論文をarXiv上で…",
+            "url": "https://qiita.com/toshi_456/items/93f320edd6b914e9e794?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "解像度の高い画像が入力可能な日本語VLMを学習させてみた | Qiita - 人気の記事",
+            "summary": "はじめに 最近、Large Vision Language Model(以下LVLM)ではLLaVA NEXTのように画像を高解像度のまま入力することでモデルの性能が上がるという論文をarXiv上で…",
+            "date_modified": "2024-04-28T10:31:47.000Z",
+            "date_published": "2024-04-28T10:31:47.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/malt03/items/99c09c226f7f54775072?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "https://qiita.com/malt03/items/ad8eae77c46496e304c2 これの続き ED法で CrossEntropyLoss を使った学習を実装している。 線形変換…",
+            "url": "https://qiita.com/malt03/items/99c09c226f7f54775072?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ED法で複数出力の学習の経過報告 | Qiita - 人気の記事",
+            "summary": "https://qiita.com/malt03/items/ad8eae77c46496e304c2 これの続き ED法で CrossEntropyLoss を使った学習を実装している。 線形変換…",
+            "date_modified": "2024-04-28T10:26:11.000Z",
+            "date_published": "2024-04-28T10:26:11.000Z",
+            "tags": []
         },
         {
             "id": "https://www.youtube.com/watch?v=wv2YAZBz0VA",
@@ -99,6 +256,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/polix/articles/ccfc73fb66b02c",
+            "content_html": "概要 タイトルのままです。Cloudflare Workersでlinebotを作りました。私が初めて動かした2024-04-27の時点で非常に簡単に動くことを確認しました。 ただしwebhookの署名検証は、Cloudflare WorkersでcryptoのtimingSafeEqualがNode.jsとは異なる場所に実装されているため、@line/bot-sdkで提供されている関数をそのまま利用することはできず、ほぼコピペで済むながらも自分で行う必要がありました。JavaScriptのruntimeはNode.js以外にもたくさん登場してきたものの、互換性はまだまだ完璧ではない...",
+            "url": "https://zenn.dev/polix/articles/ccfc73fb66b02c",
+            "title": "linebotのsdkをNode.jsだけでなくCloudflare WorkersでもBunでもDenoでも使って動くことを確かめてみた | Zennのトレンド",
+            "summary": "概要 タイトルのままです。Cloudflare Workersでlinebotを作りました。私が初めて動かした2024-04-27の時点で非常に簡単に動くことを確認しました。 ただしwebhookの署名検証は、Cloudflare WorkersでcryptoのtimingSafeEqualがNode.jsとは異なる場所に実装されているため、@line/bot-sdkで提供されている関数をそのまま...",
+            "date_modified": "2024-04-28T06:52:28.000Z",
+            "date_published": "2024-04-28T06:52:28.000Z",
+            "author": {
+                "name": "polixswe"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/takemarutake/items/be85c77b87211e8327dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに 今回は、プログラミング初心者の自分が React の実務に入るまでに学習してきたことについて解説していきます。 就活的な内容は省いて、色々学習してきた中で良かった教材をピックアップしていき…",
             "url": "https://qiita.com/takemarutake/items/be85c77b87211e8327dc?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -144,6 +314,16 @@
             "tags": []
         },
         {
+            "id": "https://qiita.com/katumasa3/items/21f06a75456ef4468512?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "今回、Winnyの開発者である金子勇さんが考案したED法というニューラルネットワークの学習アルゴリズムの高速化に取り組みました。 以下の記事に質問をさせていただき、その改良も出たので、もう不要な記事…",
+            "url": "https://qiita.com/katumasa3/items/21f06a75456ef4468512?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "ED法の学習速度を8倍高速化する行列計算の改良 | Qiita - 人気の記事",
+            "summary": "今回、Winnyの開発者である金子勇さんが考案したED法というニューラルネットワークの学習アルゴリズムの高速化に取り組みました。 以下の記事に質問をさせていただき、その改良も出たので、もう不要な記事…",
+            "date_modified": "2024-04-28T04:13:24.000Z",
+            "date_published": "2024-04-28T04:13:24.000Z",
+            "tags": []
+        },
+        {
             "id": "https://iret.media/?p=101620",
             "content_html": "はじめに モバイルアプリを海外リージョンに展開する場合、海外から日本サーバにアクセスしたい、または日本から海外サーバにアクセスして動作確認をしたいことがあります。その場合は、VPNアプリを使って動作確認をすることができま […]",
             "url": "https://iret.media/101620",
@@ -159,6 +339,19 @@
                 "VPNアプリ",
                 "個人向け Google サービス"
             ]
+        },
+        {
+            "id": "https://zenn.dev/tamoto/articles/098b90b47accc0",
+            "content_html": "はじめに 初めまして！京都大学理学部3年の田本と申します。 去年の5月にプログラミングを学び始め、そろそろ1年が経とうとしています。 これまでの総括と自己紹介を兼ねて、プログラミングを1年間本気で学んでできたことをここでアウトプットしていこうと思います。 この記事を読んで、プログラミングに少しでも興味を持つ人が増えれば幸いです。   きっかけ 僕は大学2年までは決して優秀な学生とは言えませんでした。 大学へは平均週2コマ程度しか出席せず、期末テストのみ受けて取れる単位を取り、それ以外の時間はほとんどゲームに費やしていました。 そんな中、ゲームで知り合った元エンジニア・経営者の溝口さん...",
+            "url": "https://zenn.dev/tamoto/articles/098b90b47accc0",
+            "title": "プログラミングで人生変わった話 | Zennのトレンド",
+            "summary": "はじめに 初めまして！京都大学理学部3年の田本と申します。 去年の5月にプログラミングを学び始め、そろそろ1年が経とうとしています。 これまでの総括と自己紹介を兼ねて、プログラミングを1年間本気で学んでできたことをここでアウトプットしていこうと思います。 この記事を読んで、プログラミングに少しでも興味を持つ人が増えれば幸いです。   きっかけ 僕は大学2年までは決して優秀な学生とは言えませんでした...",
+            "date_modified": "2024-04-28T04:00:22.000Z",
+            "date_published": "2024-04-28T04:00:22.000Z",
+            "author": {
+                "name": "田本 晴輝"
+            },
+            "tags": []
         },
         {
             "id": "https://www.techno-edge.net/article/2024/04/28/3258.html",
@@ -178,6 +371,19 @@
             "summary": "Googleの廉価版スマートフォン「Pixel 8a」に関しては、すでに様々な自称リークや予想CG、実物と称する写真が複数の情報源から届けられています。それらの間には矛盾が見当たらず、製品像は着々と固まりつつあります。",
             "date_modified": "2024-04-28T03:43:58.000Z",
             "date_published": "2024-04-28T03:43:58.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/koichi_51/articles/eeddbd103d2fa2",
+            "content_html": "初めに 今回は Swift のデータ永続化フレームワークである SwiftData の実装をしてみたいと思います。   記事の対象者  Swift 学習者 Swift でデータ永続化を行いたい方    目的 今回は上記の通り SwiftData を用いた実装をしてみたいと思います。 最終的には以下の動画のように簡単なTODOアプリを作ってみたいと思います。 https://youtu.be/nxZltyzB0RU   環境 今回は visionOS を含む以下の環境で実装を行います。  Xcode 15.2 visionOS 1.0  ! SwiftData は以下のバージョンでのみ...",
+            "url": "https://zenn.dev/koichi_51/articles/eeddbd103d2fa2",
+            "title": "【Swift】SwiftData を使ってみる | Zennのトレンド",
+            "summary": "初めに 今回は Swift のデータ永続化フレームワークである SwiftData の実装をしてみたいと思います。   記事の対象者  Swift 学習者 Swift でデータ永続化を行いたい方    目的 今回は上記の通り SwiftData を用いた実装をしてみたいと思います。 最終的には以下の動画のように簡単なTODOアプリを作ってみたいと思います。 https://youtu.be/nxZ...",
+            "date_modified": "2024-04-28T03:19:09.000Z",
+            "date_published": "2024-04-28T03:19:09.000Z",
+            "author": {
+                "name": "Koichi"
+            },
             "tags": []
         },
         {
@@ -225,6 +431,19 @@
                 "字幕変換",
                 "字幕編集"
             ]
+        },
+        {
+            "id": "https://zenn.dev/raru_ex/articles/eb3aa038b38771",
+            "content_html": "元フルスタックエンジニア(死語)をやらせていただいていたものです。 JavaScript(TS)周りの進歩が凄く、あまりにもついていけていなかったので、気になったワードを片っ端から整理してみました。 それぞれに対する説明の正しくないものが含まれてしまっている可能性があります。 そんなところを見つけたときは優しく教えてくださると助かります。 各ツールの詳細というよりは、それぞれがどんな役割のものなのかを記載しています。 この記事が誰かの助けになれば幸いです。   調査・分類した言葉(技術)たち  Hono Bun Deno Biome Vite Webpack esbuild Babel ...",
+            "url": "https://zenn.dev/raru_ex/articles/eb3aa038b38771",
+            "title": "フロントエンドのスピードに置いていかれたので、よく聞く技術を調べて分類してみた | Zennのトレンド",
+            "summary": "元フルスタックエンジニア(死語)をやらせていただいていたものです。 JavaScript(TS)周りの進歩が凄く、あまりにもついていけていなかったので、気になったワードを片っ端から整理してみました。 それぞれに対する説明の正しくないものが含まれてしまっている可能性があります。 そんなところを見つけたときは優しく教えてくださると助かります。 各ツールの詳細というよりは、それぞれがどんな役割のものなの...",
+            "date_modified": "2024-04-28T01:00:00.000Z",
+            "date_published": "2024-04-28T01:00:00.000Z",
+            "author": {
+                "name": "raru"
+            },
+            "tags": []
         },
         {
             "id": "https://www.gizmodo.jp/2024/04/casio-baby-g-plus.html",
@@ -285,6 +504,16 @@
             ]
         },
         {
+            "id": "https://qiita.com/zono0013/items/783d561391ac26434b39?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "私が最近，Webサイトを作成する際に多用しているgridの使い方について紹介する． gridって何? CSSのGrid Layoutは，2次元レイアウトを簡単に作成することができる機能です．列と行を…",
+            "url": "https://qiita.com/zono0013/items/783d561391ac26434b39?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Grid Layoutを使った簡単なweb配置 | Qiita - 人気の記事",
+            "summary": "私が最近，Webサイトを作成する際に多用しているgridの使い方について紹介する． gridって何? CSSのGrid Layoutは，2次元レイアウトを簡単に作成することができる機能です．列と行を…",
+            "date_modified": "2024-04-27T23:15:22.000Z",
+            "date_published": "2024-04-27T23:15:22.000Z",
+            "tags": []
+        },
+        {
             "id": "https://paiza.hatenablog.com/entry/2024/04/28/080000",
             "content_html": "＜この記事の著者＞ ばんか（bamka） - Tech Team Journal Web制作会社の会社員（Webディレクター）として働きつつ、個人でブログ／メディアライターとしても活動するパラレルワーカー。 ChatGPT等AIを公私で駆使し、ITツール・ガジェットを用いて人々の生活をより豊かにするための活用術を提供するブログも運営。 ブロガーは基本的に、自身が運営しているブログの執筆・運営を行うものです。ITエンジニアの技術を含むテックブログから趣味ブログまでその定義は明確でしょう。私はブロガーとして活動する一方、企業からの執筆依頼を受注して記事を書く「メディアライター」としても活動していま…",
             "url": "https://paiza.hatenablog.com/entry/2024/04/28/080000",
@@ -305,6 +534,26 @@
             "author": {
                 "name": "Kanon"
             },
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/RyuNen344/items/ebe0adb9d3b6281f2558?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "Kotlin Multiplatform Gradle Plugin supports SwiftPM Export  今までFramework or XCFrameworkのDilectLink, …",
+            "url": "https://qiita.com/RyuNen344/items/ebe0adb9d3b6281f2558?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Kotlin 2.0.0でKMPのSwiftPM export機能が入る（のかもしれない） | Qiita - 人気の記事",
+            "summary": "Kotlin Multiplatform Gradle Plugin supports SwiftPM Export  今までFramework or XCFrameworkのDilectLink, …",
+            "date_modified": "2024-04-27T21:12:53.000Z",
+            "date_published": "2024-04-27T21:12:53.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://qiita.com/sumisumi2000/items/87fe50fa77af27afde16?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "はじめに 皆さま、こんにちは、すみ（@sumisumi2000） と申します。 2024 年 1 月 20 日より、オンラインプログラミングスクール RUNTEQ にて、Ruby on Rails …",
+            "url": "https://qiita.com/sumisumi2000/items/87fe50fa77af27afde16?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "「ローカル環境 × Rails × Render」でデプロイ | Qiita - 人気の記事",
+            "summary": "はじめに 皆さま、こんにちは、すみ（@sumisumi2000） と申します。 2024 年 1 月 20 日より、オンラインプログラミングスクール RUNTEQ にて、Ruby on Rails …",
+            "date_modified": "2024-04-27T16:40:57.000Z",
+            "date_published": "2024-04-27T16:40:57.000Z",
             "tags": []
         },
         {
@@ -331,7 +580,7 @@
             "id": "https://zenn.dev/shibayan/articles/0f4e793eab1423",
             "content_html": "最近、AIがとても話題になっていますね。ただ、この分野は非常に技術の成長スピードが速く、正直今のAI分野の技術に全くついていけていないという方も多いと思ったため、今話題になっているAI技術についてわかりやすくまとめました。   現状の主なモデル一覧 まず、現状の主なLLMの一覧について紹介していきます。   GPT https://openai.com/ GPTはOpenAIが開発しているLLMです。現状だとGPT-4が最新です。GPT-4は月額20ドルの有料プランでのみ利用できます。GPT-3.5は無料で使えます。   Claude  ClaudeはAnthropicが開発しているLL...",
             "url": "https://zenn.dev/shibayan/articles/0f4e793eab1423",
-            "title": "【2024年最新版】知らないと損するAIモデルや技術まとめ10選 | Zennのトレンド",
+            "title": "【2024年最新版】知らないと損するAIモデルや技術10選まとめ | Zennのトレンド",
             "summary": "最近、AIがとても話題になっていますね。ただ、この分野は非常に技術の成長スピードが速く、正直今のAI分野の技術に全くついていけていないという方も多いと思ったため、今話題になっているAI技術についてわかりやすくまとめました。   現状の主なモデル一覧 まず、現状の主なLLMの一覧について紹介していきます。   GPT https://openai.com/ GPTはOpenAIが開発しているLLMで...",
             "date_modified": "2024-04-27T14:41:26.000Z",
             "date_published": "2024-04-27T14:41:26.000Z",
@@ -420,23 +669,13 @@
             "tags": []
         },
         {
-            "id": "https://qiita.com/mikecat_mixc/items/e80ded9fcb13fb50a331?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "実行できない配列 例として、x86_64 で第1引数と第2引数の値の和を返すプログラムを用意する。 89 f8 mov eax, edi 01 f0 add eax, esi c3 ret  これを呼…",
-            "url": "https://qiita.com/mikecat_mixc/items/e80ded9fcb13fb50a331?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "C言語 (GCC) で配列の配置先を切り替えて実行可能にする | Qiita - 人気の記事",
-            "summary": "実行できない配列 例として、x86_64 で第1引数と第2引数の値の和を返すプログラムを用意する。 89 f8 mov eax, edi 01 f0 add eax, esi c3 ret  これを呼…",
-            "date_modified": "2024-04-27T12:30:12.000Z",
-            "date_published": "2024-04-27T12:30:12.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/ccHarvestasya/items/c5650ce5c22a8a3b32ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "アグリゲートコンプリートトランザクション 複数のトランザクションを1つにまとめて発行することが出来ます。署名者から複数の受信者へ送信するトランザクションを「アグリゲートコンプリートトランザクション」…",
-            "url": "https://qiita.com/ccHarvestasya/items/c5650ce5c22a8a3b32ad?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "トランザクション - Blockchain Symbol-SDK v3.2 | Qiita - 人気の記事",
-            "summary": "アグリゲートコンプリートトランザクション 複数のトランザクションを1つにまとめて発行することが出来ます。署名者から複数の受信者へ送信するトランザクションを「アグリゲートコンプリートトランザクション」…",
-            "date_modified": "2024-04-27T12:20:17.000Z",
-            "date_published": "2024-04-27T12:20:17.000Z",
+            "id": "https://qiita.com/yuu_yabu/items/9e2bc27e87b6f1b5fdf5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "TL;DR Windowsの設定で システム＞ストレージ＞新しいコンテンツの保存先 をCドライブに設定 Xboxのインストール先設定もできればCドライブに 困ったら C:/Program Files…",
+            "url": "https://qiita.com/yuu_yabu/items/9e2bc27e87b6f1b5fdf5?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "知らぬうちにWSLがCドライブ以外のところにインストールされてた件 | Qiita - 人気の記事",
+            "summary": "TL;DR Windowsの設定で システム＞ストレージ＞新しいコンテンツの保存先 をCドライブに設定 Xboxのインストール先設定もできればCドライブに 困ったら C:/Program Files…",
+            "date_modified": "2024-04-27T12:02:51.000Z",
+            "date_published": "2024-04-27T12:02:51.000Z",
             "tags": []
         },
         {
@@ -465,26 +704,13 @@
             ]
         },
         {
-            "id": "https://zenn.dev/y_mrok/articles/installed_ubutu_server_and_set_up_an_ansible",
-            "content_html": "2024-04-25 に Ubuntu 24.04 LTS がリリースされました。早速、Ubuntu Server で Ansible サーバーを構築してみました。   Ubuntu Server をインストールする インストールする環境に合わせて IP アドレスの変更やアカウントを作成しますが、基本はデフォルトのままで問題ありません。  インストールメディアをセットして起動 ⇒ [Enter] キーを押す    起動時のメッセージが流れ終わるのを待つ    使用する言語を選択 ⇒ [Enter] キーを押す    キーボードレイアウトの選択：[English (US)] から [Jap...",
-            "url": "https://zenn.dev/y_mrok/articles/installed_ubutu_server_and_set_up_an_ansible",
-            "title": "Ubuntu Server 24.04 LTS がリリースされたので Ansible サーバーを作ってみた | Zennのトレンド",
-            "summary": "2024-04-25 に Ubuntu 24.04 LTS がリリースされました。早速、Ubuntu Server で Ansible サーバーを構築してみました。   Ubuntu Server をインストールする インストールする環境に合わせて IP アドレスの変更やアカウントを作成しますが、基本はデフォルトのままで問題ありません。  インストールメディアをセットして起動 ⇒ [Enter] ...",
-            "date_modified": "2024-04-27T10:17:32.000Z",
-            "date_published": "2024-04-27T10:17:32.000Z",
-            "author": {
-                "name": "y_mrok"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/_jinta/items/62777087b4807b3cb301?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "Polarsにはリスト型があります。 一見ややこしい処理も、Polarsならではの直感的な操作が使えて便利です。 最近使うことが多かったので、ややニッチかとは思いますが備忘がてら紹介します。 準備 …",
-            "url": "https://qiita.com/_jinta/items/62777087b4807b3cb301?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Polarsのリスト型に対するよくある操作 | Qiita - 人気の記事",
-            "summary": "Polarsにはリスト型があります。 一見ややこしい処理も、Polarsならではの直感的な操作が使えて便利です。 最近使うことが多かったので、ややニッチかとは思いますが備忘がてら紹介します。 準備 …",
-            "date_modified": "2024-04-27T10:15:04.000Z",
-            "date_published": "2024-04-27T10:15:04.000Z",
+            "id": "https://qiita.com/friedaji/items/130b17f4a1e1157f405d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "content_html": "経緯  最近、Snowflakeに取り込もうとするデータがちょくちょく怪しい ファイルに対してSelectをかけた後のデータはある意味壊れたデータになる為、元データを確認したい しかしセキュリティの要…",
+            "url": "https://qiita.com/friedaji/items/130b17f4a1e1157f405d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
+            "title": "Snowflakeからステージ上のファイルをパースせずに読み込む | Qiita - 人気の記事",
+            "summary": "経緯  最近、Snowflakeに取り込もうとするデータがちょくちょく怪しい ファイルに対してSelectをかけた後のデータはある意味壊れたデータになる為、元データを確認したい しかしセキュリティの要…",
+            "date_modified": "2024-04-27T10:46:56.000Z",
+            "date_published": "2024-04-27T10:46:56.000Z",
             "tags": []
         },
         {
@@ -532,16 +758,6 @@
                 "llm-research",
                 "hackernoon-top-story"
             ]
-        },
-        {
-            "id": "https://qiita.com/malt03/items/ad8eae77c46496e304c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "https://qiita.com/malt03/items/d55a72e7623db03e8843 これの続き BCELossがいい感じだったのでmnistをやってみる 2レイヤーで、合計157…",
-            "url": "https://qiita.com/malt03/items/ad8eae77c46496e304c2?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ED法でmnistを学習する(BCELoss) | Qiita - 人気の記事",
-            "summary": "https://qiita.com/malt03/items/d55a72e7623db03e8843 これの続き BCELossがいい感じだったのでmnistをやってみる 2レイヤーで、合計157…",
-            "date_modified": "2024-04-27T07:41:13.000Z",
-            "date_published": "2024-04-27T07:41:13.000Z",
-            "tags": []
         },
         {
             "id": "https://qiita.com/masaki-oomura/items/4444cb77e8e90dd78766?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -648,19 +864,6 @@
             "tags": [
                 "PRODUCT"
             ]
-        },
-        {
-            "id": "https://zenn.dev/microsoft/articles/how-to-develop-ts-for-blazor",
-            "content_html": "はじめに ASP.NET Core Blazor で色々開発していくと、どうしても JavaScript でやりたいということが出てくると思います。 その場合に TypeScript でなるべく開発する方法について書いていこうと思います。   Razor コンポーネントに紐づく TypeScript ファイルを作成する方法 まずは、Razor コンポーネントに紐づく JavaScript ファイルを使う方法から説明します。 普通は Components/Pages/Home.razor という Razor コンポーネントに対して Components/Pages/Home.razor...",
-            "url": "https://zenn.dev/microsoft/articles/how-to-develop-ts-for-blazor",
-            "title": "ASP.NET Core Blazor 向けに TypeScript で開発する方法 | Zennのトレンド",
-            "summary": "はじめに ASP.NET Core Blazor で色々開発していくと、どうしても JavaScript でやりたいということが出てくると思います。 その場合に TypeScript でなるべく開発する方法について書いていこうと思います。   Razor コンポーネントに紐づく TypeScript ファイルを作成する方法 まずは、Razor コンポーネントに紐づく JavaScript ファイル...",
-            "date_modified": "2024-04-27T05:14:04.000Z",
-            "date_published": "2024-04-27T05:14:04.000Z",
-            "author": {
-                "name": "Kazuki Ota"
-            },
-            "tags": []
         },
         {
             "id": "https://iret.media/?p=101531",
@@ -803,16 +1006,6 @@
             ]
         },
         {
-            "id": "https://qiita.com/eigs/items/906928956b572b71d8b8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "プロット作るとき、文字が下付き（添字）になっちゃって困ったことありませんか？ 解決策を 3 つ  _ の前に \\ をつけておく Interpreter プロパティを none に変更 そもそもデフォル…",
-            "url": "https://qiita.com/eigs/items/906928956b572b71d8b8?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Figure のタイトルや軸ラベルに添字が現れちゃう問題（Interpreter の設定） | Qiita - 人気の記事",
-            "summary": "プロット作るとき、文字が下付き（添字）になっちゃって困ったことありませんか？ 解決策を 3 つ  _ の前に \\ をつけておく Interpreter プロパティを none に変更 そもそもデフォル…",
-            "date_modified": "2024-04-26T22:53:23.000Z",
-            "date_published": "2024-04-26T22:53:23.000Z",
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/kohki_takatama/items/3051d23bf3c5d5cbeede?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに .zshrcを編集して、macのターミナルを便利にしましょう。 .zshrcの設定手順 1. エディタで.zshrcを開く 好きなやり方で大丈夫です。 .zshrcはホームディレクトリ直下…",
             "url": "https://qiita.com/kohki_takatama/items/3051d23bf3c5d5cbeede?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -926,16 +1119,6 @@
             "tags": []
         },
         {
-            "id": "https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced",
-            "content_html": "Awardees, who represent 51 universities in 15 countries, have access to Amazon public datasets, along with AWS AI/ML services and tools.",
-            "url": "https://www.amazon.science/research-awards/program-updates/99-amazon-research-awards-recipients-announced",
-            "title": "Amazon Research Awards recipients announced | Amazon Science homepage",
-            "summary": "Awardees, who represent 51 universities in 15 countries, have access to Amazon public datasets, along with AWS AI/ML services and tools.",
-            "date_modified": "2024-04-26T15:45:48.000Z",
-            "date_published": "2024-04-26T15:45:48.000Z",
-            "tags": []
-        },
-        {
             "id": "https://hackernoon.com/navigating-complex-search-tasks-with-ai-copilots-ai-copilots?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/navigating-complex-search-tasks-with-ai-copilots-ai-copilots?source=rss",
@@ -986,16 +1169,6 @@
             "tags": [
                 "LIFESTYLE"
             ]
-        },
-        {
-            "id": "https://qiita.com/malt03/items/d55a72e7623db03e8843?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "最近話題のED法、色々見ても理解できなかったのでRustで再実装してみました。 かなりED法のコンセンプトをわかりやすく実装に落とし込めた気がします。 そしてやはり静的型付け言語はいい…読みやすい… 試しに二乗誤差以外の損失関数も使えるか試したところ、BCELossでも(BCEWithLogitsLossでも)学習がうまく行ったので共有します…",
-            "url": "https://qiita.com/malt03/items/d55a72e7623db03e8843?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ED法はBCELossでも学習できる (Rustで再実装) | Qiita - 人気の記事",
-            "summary": "最近話題のED法、色々見ても理解できなかったのでRustで再実装してみました。 かなりED法のコンセンプトをわかりやすく実装に落とし込めた気がします。 そしてやはり静的型付け言語はいい…読みやすい… 試しに二乗誤差以外の損失関数も使えるか試したところ、BCELossでも(BCEWithLogitsLossでも)学習がうまく行ったので共有します…",
-            "date_modified": "2024-04-26T13:55:14.000Z",
-            "date_published": "2024-04-26T13:55:14.000Z",
-            "tags": []
         },
         {
             "id": "https://www.gizmodo.jp/2024/04/uniqlo-mesh-tote.html",
@@ -1324,19 +1497,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/yumemi_inc/articles/eslint-legacy-config-flat-config-structure",
-            "content_html": "概要 ESLint v9 への対応を進めていると、いくつか Flat Config に対応していない Plugin や Config に遭遇することがあります。その際に、Legacy Config のみ対応している Plugin と、Flat Config も対応している Plugin の両方の構造の違いを知っておくと、Flat Config に向けた対応をすすめる上で便利だったため、その違いを俯瞰するための資料としてまとめました。   前提  以下で例示する Plugin は、パッケージ名を eslint-plugin-example として、いくつかのカスタムルールと、カスタム ...",
-            "url": "https://zenn.dev/yumemi_inc/articles/eslint-legacy-config-flat-config-structure",
-            "title": "ESLint の Legacy Config と Flat Config における Plugin 構造の違いと両対応 Plugin の構造 | Zennのトレンド",
-            "summary": "概要 ESLint v9 への対応を進めていると、いくつか Flat Config に対応していない Plugin や Config に遭遇することがあります。その際に、Legacy Config のみ対応している Plugin と、Flat Config も対応している Plugin の両方の構造の違いを知っておくと、Flat Config に向けた対応をすすめる上で便利だったため、その違いを俯...",
-            "date_modified": "2024-04-26T08:30:52.000Z",
-            "date_published": "2024-04-26T08:30:52.000Z",
-            "author": {
-                "name": "strozw"
-            },
-            "tags": []
-        },
-        {
             "id": "https://techracho.bpsinc.jp/?p=141461",
             "content_html": "こんにちは、hachi8833です。 週刊Railsウォッチについて 各記事冒頭には🔗でパーマリンクを置いてあります: 社内やTwitterでの議論などにどうぞ 「つっつきボイス」はRailsウォッチ公開前ドラフトを（鍋のように）社内有志でつっついたときの会話の再構成です👄 お気づきの点がありましたら@hachi8833までメンションをいただければ確認・対応いたします🙏 TechRachoではRubyやRailsなどの最新情報記事を平日に公開しています。TechRacho記事をいち早くお読みになりたい方はTwitterにて@techrachoのフォローをお願いします。また、タグやカテゴリごとにRSSフィードを購読 […] The post 週刊Railsウォッチ: Prismの歴史と現況を振り返る、Steepの\"narrowing\"実装の内部ドキュメントほか（20240426後編） first appeared on TechRacho.",
             "url": "https://techracho.bpsinc.jp/hachi8833/2024_04_26/141461",
@@ -1433,21 +1593,6 @@
             "tags": []
         },
         {
-            "id": "https://www.gizmodo.jp/2024/04/how-to-unplug-lan-cable-1.html",
-            "content_html": "Image:エレコム/Twitter2023年2月16日の記事を編集して再掲載しています。もう一生抜けないかも…。と、絶望する前に、これを試してみてください。ハブやルータに刺さったLANケーブル。基本的に「抜けちゃうとマズイ」ものなので、がっちりハマっているものがほとんどだけど、その抜けにくさが仇になって「抜きたいのに抜けない」と絶望することも…。こんな時に役立つ情報をエレコムさんのTwitter",
-            "url": "https://www.gizmodo.jp/2024/04/how-to-unplug-lan-cable-1.html",
-            "title": "エレコムが発信した「抜けなくなったLANケーブルを抜く方法」 | ギズモード・ジャパン",
-            "summary": "Image:エレコム/Twitter2023年2月16日の記事を編集して再掲載しています。もう一生抜けないかも…。と、絶望する前に、これを試してみてください。ハブやルータに刺さったLANケーブル。基本的に「抜けちゃうとマズイ」ものなので、がっちりハマっているものがほとんどだけど、その抜けにくさが仇になって「抜きたいのに抜けない」と絶望することも…。こんな時に役立つ情報をエレコムさんのTwitter",
-            "date_modified": "2024-04-26T07:35:00.000Z",
-            "date_published": "2024-04-26T07:35:00.000Z",
-            "author": {
-                "name": "小暮ひさのり"
-            },
-            "tags": [
-                "LIFESTYLE"
-            ]
-        },
-        {
             "id": "https://tech.layerx.co.jp/entry/snowflake-sso-scim",
             "content_html": "SnowflakeでMicrosoft Entra IDを使ったSingle Sign-On及びSCIMプロビジョニングを有効化する方法を画像付きで詳しく説明します。",
             "url": "https://tech.layerx.co.jp/entry/snowflake-sso-scim",
@@ -1455,16 +1600,6 @@
             "summary": "SnowflakeでMicrosoft Entra IDを使ったSingle Sign-On及びSCIMプロビジョニングを有効化する方法を画像付きで詳しく説明します。",
             "date_modified": "2024-04-26T07:18:52.000Z",
             "date_published": "2024-04-26T07:18:52.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/ssc-yshikeda/items/6272ef35d3c9bb5a4de1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "今回解説すること Copilot Studioは、手軽にTeamsボットを作成できるMicrosoftのサービスです。 今回は、Copilot StudioでOpenAI APIを扱った時につまづい…",
-            "url": "https://qiita.com/ssc-yshikeda/items/6272ef35d3c9bb5a4de1?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Copilot StudioでOpenAI APIを扱う ~HTTP要求の使い方~ | Qiita - 人気の記事",
-            "summary": "今回解説すること Copilot Studioは、手軽にTeamsボットを作成できるMicrosoftのサービスです。 今回は、Copilot StudioでOpenAI APIを扱った時につまづい…",
-            "date_modified": "2024-04-26T07:12:41.000Z",
-            "date_published": "2024-04-26T07:12:41.000Z",
             "tags": []
         },
         {
@@ -1534,19 +1669,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/mybest_dev/articles/a37dcb67cfc448",
-            "content_html": "! これは mybest BlogKaigi 2024 10日目の記事です    はじめに 株式会社マイベストでフロントエンドエンジニアをしているyamadaです。 近年、企業やプロダクトチームでデザインシステムを導入する動きが加速しています。 弊社でもデザインシステムの構築に力を入れており、Material UIやChakra UIのようなUIライブラリを参考にしながら独自のデザインシステムの開発を進めています。 今回はその独自のデザインシステムの重要な構成要素であるレイアウトコンポーネントを紹介したいと思います。   レイアウトコンポーネントとは 弊社ではアプリケーションの構造やレイ...",
-            "url": "https://zenn.dev/mybest_dev/articles/a37dcb67cfc448",
-            "title": "マイベストのデザインシステムで使用しているレイアウトコンポーネントを紹介 | Zennのトレンド",
-            "summary": "! これは mybest BlogKaigi 2024 10日目の記事です    はじめに 株式会社マイベストでフロントエンドエンジニアをしているyamadaです。 近年、企業やプロダクトチームでデザインシステムを導入する動きが加速しています。 弊社でもデザインシステムの構築に力を入れており、Material UIやChakra UIのようなUIライブラリを参考にしながら独自のデザインシステムの開...",
-            "date_modified": "2024-04-26T06:23:11.000Z",
-            "date_published": "2024-04-26T06:23:11.000Z",
-            "author": {
-                "name": "ymdman"
-            },
-            "tags": []
-        },
-        {
             "id": "https://developer.hatenastaff.com/entry/intern-2024-entry",
             "content_html": "CTO の id:motemen です。このたび、はてなサマーインターンシップ2024の募集を開始しました。2024/8/19（月）～2024/9/6（金）に開催する3週間にわたるインターンシップとなります。エンジニアを目指す学生の皆さん、奮ってご応募ください。 「はてなサマーインターンシップ2024」は、1週間の京都オフィスと、2週間のリモートを組み合わせたハイブリッドなインターンシップです。 Webサービス開発の技術を学ぶ前半パートと、開発チームに配属されてサービス開発を実践する後半パートで構成されます。 前半日程は、Webサービスの開発・運用について、講義と課題による集中的なトレーニング…",
             "url": "https://developer.hatenastaff.com/entry/intern-2024-entry",
@@ -1554,19 +1676,6 @@
             "summary": "CTO の id:motemen です。このたび、はてなサマーインターンシップ2024の募集を開始しました。2024/8/19（月）～2024/9/6（金）に開催する3週間にわたるインターンシップとなります。エンジニアを目指す学生の皆さん、奮ってご応募ください。 「はてなサマーインターンシップ2024」は、1週間の京都オフィスと、2週間のリモートを組み合わせたハイブリッドなインターンシップです。 ...",
             "date_modified": "2024-04-26T06:12:18.000Z",
             "date_published": "2024-04-26T06:12:18.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/canary_techblog/articles/bcb7a8a249d6ff",
-            "content_html": "はじめに 弱く春風が包むので初投稿です。 株式会社カナリーでは現在「Canary」というお部屋探しのアプリを作っています。 https://corp.canary-app.jp/about/about_canary.html https://prtimes.jp/main/html/rd/p/000000018.000046040.html 我々はTerraformのplan/apply自動化を目的としてtfactionを利用しています。 tfactionはGitHub Actionsを通して、Terraform plan/applyなどのワークフローの構築を簡単にしてくれるフレーム...",
-            "url": "https://zenn.dev/canary_techblog/articles/bcb7a8a249d6ff",
-            "title": "tfaction v1.3.0ではlocal modulesの更新でtfactionをtriggerできるようになった | Zennのトレンド",
-            "summary": "はじめに 弱く春風が包むので初投稿です。 株式会社カナリーでは現在「Canary」というお部屋探しのアプリを作っています。 https://corp.canary-app.jp/about/about_canary.html https://prtimes.jp/main/html/rd/p/000000018.000046040.html 我々はTerraformのplan/apply自動化を目...",
-            "date_modified": "2024-04-26T06:08:15.000Z",
-            "date_published": "2024-04-26T06:08:15.000Z",
-            "author": {
-                "name": "Yuki Okushi"
-            },
             "tags": []
         },
         {
@@ -2215,26 +2324,6 @@
             "tags": []
         },
         {
-            "id": "https://www.polygon.com/deals/24140369/itch-io-palestine-relief-bundle-gaming-deal-sale",
-            "content_html": "Image: Robust Games  Coffee Talk, A Short Hike, and hundreds of other titles for just $8  Over 300 itch.io creators have come together to offer a bundle of their work to benefit relief efforts for Palestine. The itch.io Palestine Relief Bundle costs just $8 and includes a collection of digital games, tabletop role-playing systems, and other cool stuff. All proceeds from this bundle will be donated to the Palestine Children’s Relief Fund (PCRF), a more than 30-year-old registered non-profit organ...",
-            "url": "https://www.polygon.com/deals/24140369/itch-io-palestine-relief-bundle-gaming-deal-sale",
-            "title": "Indie devs rally for Palestine with this $8 itch.io bundle | Polygon -  Gaming",
-            "summary": "Image: Robust Games  Coffee Talk, A Short Hike, and hundreds of other titles for just $8  Over 300 itch.io creators have come together to offer a bundle of their work to benefit relief efforts for Pal...",
-            "date_modified": "2024-04-25T18:52:30.000Z",
-            "date_published": "2024-04-25T18:52:30.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.polygon.com/blizzcon/24140370/blizzcon-2024-canceled",
-            "content_html": "Photo: Joe Scarnici/Getty Images  ‘This decision was not made lightly’  Blizzard Entertainment has canceled this year’s fan convention BlizzCon, which was expected to be held in Anaheim, California in November. The company, which is now owned by Microsoft, announced the cancelation on Thursday, but promised to bring the event back “in future years.” “After careful consideration over the last year, we at Blizzard have made the decision not to hold BlizzCon in 2024,” Blizzard posted to its website...",
-            "url": "https://www.polygon.com/blizzcon/24140370/blizzcon-2024-canceled",
-            "title": "BlizzCon 2024 canceled, but promised to come back ‘in future years’ | Polygon -  Gaming",
-            "summary": "Photo: Joe Scarnici/Getty Images  ‘This decision was not made lightly’  Blizzard Entertainment has canceled this year’s fan convention BlizzCon, which was expected to be held in Anaheim, California in...",
-            "date_modified": "2024-04-25T18:00:38.000Z",
-            "date_published": "2024-04-25T18:00:38.000Z",
-            "tags": []
-        },
-        {
             "id": "https://hackernoon.com/ai-industries-converge-llama-3-and-electric-atlas-have-more-in-common-than-you-think?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/ai-industries-converge-llama-3-and-electric-atlas-have-more-in-common-than-you-think?source=rss",
@@ -2254,16 +2343,6 @@
                 "boston-dynamics",
                 "meta"
             ]
-        },
-        {
-            "id": "https://qiita.com/obgynengine/items/44e8cfe2bdd25ac49cb3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "先日、金子勇さんの誤差拡散法(ED法)について神経生理になぞらえた記事を書かせていただいたところ、医学知識に興味のあるエンジニアの方が多くいらっしゃることを知りました。だからというわけでもないのです…",
-            "url": "https://qiita.com/obgynengine/items/44e8cfe2bdd25ac49cb3?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ED法とSNNの違いを考えてみる | Qiita - 人気の記事",
-            "summary": "先日、金子勇さんの誤差拡散法(ED法)について神経生理になぞらえた記事を書かせていただいたところ、医学知識に興味のあるエンジニアの方が多くいらっしゃることを知りました。だからというわけでもないのです…",
-            "date_modified": "2024-04-25T16:01:08.000Z",
-            "date_published": "2024-04-25T16:01:08.000Z",
-            "tags": []
         },
         {
             "id": "http://terrytao.wordpress.com/?p=14486",
@@ -2352,26 +2431,6 @@
             "title": "2024年度理研ECL制度公募方針について | お知らせ",
             "date_modified": "2024-04-25T15:00:00.000Z",
             "date_published": "2024-04-25T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/owayo/items/8b4cb63b35b84a343054?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "Gemini Proは 2024/5/2から課金開始 Gemini ProのAPIは無料で利用できます ただし、以下に記載の通り、2024/5/2以降、課金が有効な Google Cloud Pla…",
-            "url": "https://qiita.com/owayo/items/8b4cb63b35b84a343054?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "Gemini Proを無料で使い続けるための確認ポイント | Qiita - 人気の記事",
-            "summary": "Gemini Proは 2024/5/2から課金開始 Gemini ProのAPIは無料で利用できます ただし、以下に記載の通り、2024/5/2以降、課金が有効な Google Cloud Pla…",
-            "date_modified": "2024-04-25T14:07:53.000Z",
-            "date_published": "2024-04-25T14:07:53.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://qiita.com/pocokhc/items/f4387c099a28a69df918?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "content_html": "前回の記事の続きです。 https://qiita.com/pocokhc/items/f7ab56051bb936740b8f 今回はED法を少し補足した後に性能について見てみました。 （ついでに…",
-            "url": "https://qiita.com/pocokhc/items/f4387c099a28a69df918?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
-            "title": "ED法を高速化してその性能をMNISTで検証してみた | Qiita - 人気の記事",
-            "summary": "前回の記事の続きです。 https://qiita.com/pocokhc/items/f7ab56051bb936740b8f 今回はED法を少し補足した後に性能について見てみました。 （ついでに…",
-            "date_modified": "2024-04-25T13:46:23.000Z",
-            "date_published": "2024-04-25T13:46:23.000Z",
             "tags": []
         },
         {
@@ -2579,19 +2638,6 @@
             "summary": "こんにちは、虎の穴ラボのA.M.です。 今回は書籍のご紹介です。 読んだきっかけ 直近のタスクで自身の生産性があまり良くなかったので、何か良い本がないか探していたところ、この本を見つけました。 試し読みをしてみたところ、以下のような内容があり、自分の課題に対して解決策が書かれているように感じたので、購入しました。 どうやったら不得意なことでも効率よく人並みのことができるのか 「思考法」（マインドセ...",
             "date_modified": "2024-04-25T08:00:00.000Z",
             "date_published": "2024-04-25T08:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/snowmount/articles/f9e22df14edab0",
-            "content_html": "<img src=\"画像URL\" alt=\"画像の説明\"> alt属性について調べる機会があり、自分なりにまとめてみました。 間違い・ご指摘などあればご教示いただければと思います。   alt属性に結局何入れればいいのか問題 alt属性は入れるべきというのは聞いたことあるけど、実際どのように入れればいいのかわからないという方は多いと思います。明確な決まりがなく、適切ではない文言を入れたとしても目に見えてエラーが出るわけでもないため、曖昧な理解になりがちだと思います。 W3C WAIというWEBのアクセシビリティに関してのガイドラインの作成などをしている組織が「画像チュートリ...",
-            "url": "https://zenn.dev/snowmount/articles/f9e22df14edab0",
-            "title": "imgタグのalt属性について | Zennのトレンド",
-            "summary": "<img src=\"画像URL\" alt=\"画像の説明\"> alt属性について調べる機会があり、自分なりにまとめてみました。 間違い・ご指摘などあればご教示いただければと思います。   alt属性に結局何入れればいいのか問題 alt属性は入れるべきというのは聞いたことあるけど、実際どのように入れればいいのかわからないという方は多いと思います。明確な決まりがなく、適切ではない文言を入れたとしても目に...",
-            "date_modified": "2024-04-25T07:39:38.000Z",
-            "date_published": "2024-04-25T07:39:38.000Z",
-            "author": {
-                "name": "yukiyama"
-            },
             "tags": []
         },
         {
@@ -3054,19 +3100,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/manalink_dev/articles/tailwind-zindex-tips",
-            "content_html": "背景 小ネタです。 先日以下のようなバグ改修タスクでソースレビューを担当しました。 「全画面モーダルを実装したら、グローバルメニューより上に表示されてしまった。なのでz-indexを修正しました！」 我々が開発しているマナリンクでは、画面右上の自分のアイコンをクリックするとメニューが表示されます。 ところが全画面モーダルを実装したら、モーダルがメニューよりも上に表示されてしまい、モーダル表示中にメニューを操作できなくなってしまったとのこと。 最初のPull Requestの時点では、以下のような差分になっていました。  <div - className={'z...",
-            "url": "https://zenn.dev/manalink_dev/articles/tailwind-zindex-tips",
-            "title": "Tailwind CSSでz-indexの値をマジックナンバーにしないための小ワザ | Zennのトレンド",
-            "summary": "背景 小ネタです。 先日以下のようなバグ改修タスクでソースレビューを担当しました。 「全画面モーダルを実装したら、グローバルメニューより上に表示されてしまった。なのでz-indexを修正しました！」 我々が開発しているマナリンクでは、画面右上の自分のアイコンをクリックするとメニューが表示されます。 ところが全画面モーダルを実装したら、モーダルがメニューよりも上に表示されてしまい、モーダル表示中にメ...",
-            "date_modified": "2024-04-25T00:10:59.000Z",
-            "date_published": "2024-04-25T00:10:59.000Z",
-            "author": {
-                "name": "meijin"
-            },
-            "tags": []
-        },
-        {
             "id": "https://tech-lab.sios.jp/?p=41208",
             "content_html": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回はオブジェクト指向プログラミングの強力な武器の一つである、ポリモーフィズムを利用した依存関係の制御について書きたいと思います。 「依存関係性の制御」や、「依存関係性の [...] オブジェクト指向の強力な武器 ~依存関係の制御~ first appeared on SIOS Tech. Lab.",
             "url": "https://tech-lab.sios.jp/archives/41208",
@@ -3085,19 +3118,6 @@
                 "SOLID",
                 "オブジェクト指向"
             ]
-        },
-        {
-            "id": "https://zenn.dev/daichi_gamedev/books/zenn-book-how-to-write",
-            "content_html": "この本はZennの本を書いてきた筆者が、Zenn本の作り方を1からまとめた本になります。  Zenn初心者の方向けに、ZennCLIの使い方や本のページの書き方、本の制作手順、収益化するための有料本の販売のコツなど、Zenn本制作の知識をできるだけわかりやすくまとめました。  半分まで全ページ無料で、前半無料後半有料となっています。この本はGoogleアカウントがあればPCだけではなくスマホから読むこともできます。  別冊およびこの本を購入してくれた方ありがとうございます。Zenn本制作の知識をもれなくこの本に全部詰め込みました。Zennでの本制作や記事の執筆にぜひ役立ててください！",
-            "url": "https://zenn.dev/daichi_gamedev/books/zenn-book-how-to-write",
-            "title": "Zennの本の書き方と稼ぎ方 (非公式) | Zennのトレンド",
-            "summary": "この本はZennの本を書いてきた筆者が、Zenn本の作り方を1からまとめた本になります。  Zenn初心者の方向けに、ZennCLIの使い方や本のページの書き方、本の制作手順、収益化するための有料本の販売のコツなど、Zenn本制作の知識をできるだけわかりやすくまとめました。  半分まで全ページ無料で、前半無料後半有料となっています。この本はGoogleアカウントがあればPCだけではなくスマホから読...",
-            "date_modified": "2024-04-25T00:02:55.000Z",
-            "date_published": "2024-04-25T00:02:55.000Z",
-            "author": {
-                "name": "daichi-gamedev"
-            },
-            "tags": []
         },
         {
             "id": "https://tech.smarthr.jp/entry/2024/04/25/090000",
@@ -3315,16 +3335,6 @@
                 "Originals",
                 "Python"
             ]
-        },
-        {
-            "id": "https://engineering.mercari.com/blog/entry/20240424-6f298aa43b/",
-            "content_html": "search infra teamのmrkm4ntrです。我々の運用するElasticsearchにはFunction Score Queryを使ったリクエストが送られてきます。Function Score Queryは […]",
-            "url": "https://engineering.mercari.com/blog/entry/20240424-6f298aa43b/",
-            "title": "ElasticsearchのFunction Score Queryのパフォーマンスを最適化する | メルカリエンジニアリングブログ",
-            "summary": "search infra teamのmrkm4ntrです。我々の運用するElasticsearchにはFunction Score Queryを使ったリクエストが送られてきます。Function Score Queryは […]",
-            "date_modified": "2024-04-24T10:49:35.000Z",
-            "date_published": "2024-04-24T10:49:35.000Z",
-            "tags": []
         },
         {
             "id": "https://jp.ign.com/assassins-creed-infinity/74569/news/hexe",
@@ -5290,15 +5300,6 @@
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/lectures/20240731_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/lectures/20240731_1/index.html",
-            "title": "理研BDR連携大学院集中レクチャー 生命科学研究プログラム2024  | イベントニュース",
-            "date_modified": "2024-04-21T15:00:00.000Z",
-            "date_published": "2024-04-21T15:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.riken.jp/press/2024/20240422_2/index.html",
             "content_html": "－モデルマウスのけいれん様症状をオキシトシンが抑制－",
             "url": "https://www.riken.jp/press/2024/20240422_2/index.html",
@@ -5332,6 +5333,15 @@
             "content_html": "",
             "url": "https://www.riken.jp/pr/news/2024/20240422_1/index.html",
             "title": "YouTube「理研チャンネル」新着動画（オンラインリハビリプロジェクト） | お知らせ",
+            "date_modified": "2024-04-21T15:00:00.000Z",
+            "date_published": "2024-04-21T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": " https://www.riken.jp/pr/events/lectures/20240731_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/lectures/20240731_1/index.html",
+            "title": "理研BDR連携大学院集中レクチャー 生命科学研究プログラム2024  | イベントニュース",
             "date_modified": "2024-04-21T15:00:00.000Z",
             "date_published": "2024-04-21T15:00:00.000Z",
             "tags": []
@@ -6142,16 +6152,6 @@
             "tags": []
         },
         {
-            "id": "https://www.techno-edge.net/article/2024/04/18/3213.html",
-            "content_html": "ファーウェイ・ジャパンが、最新スマートウォッチ「HUAWEI Band 9」を4月25日に発売します。フルオロエラストマーベルトの通常モデル（ブラック・ピンク・イエロー・ホワイト）は、市場想定価格8580円。ナイロンベルトモデルのブルーは9680円。",
-            "url": "https://www.techno-edge.net/article/2024/04/18/3213.html",
-            "title": "HUAWEI Band 9発表。睡眠計測が進化、約14gで二週間駆動のスマートウォッチ。8580円から | テクノエッジ TechnoEdge",
-            "summary": "ファーウェイ・ジャパンが、最新スマートウォッチ「HUAWEI Band 9」を4月25日に発売します。フルオロエラストマーベルトの通常モデル（ブラック・ピンク・イエロー・ホワイト）は、市場想定価格8580円。ナイロンベルトモデルのブルーは9680円。",
-            "date_modified": "2024-04-18T10:52:32.000Z",
-            "date_published": "2024-04-18T10:52:32.000Z",
-            "tags": []
-        },
-        {
             "id": "https://golem.ph.utexas.edu/category/2024/04/the_quintic_the_icosahedron_an.html",
             "content_html": "Bruce Bartlett has a new expository article on \"The quintic, the icosahedron, and ellliptic curves\".",
             "url": "https://golem.ph.utexas.edu/category/2024/04/the_quintic_the_icosahedron_an.html",
@@ -6169,16 +6169,6 @@
             "summary": "2024年3月25日に虎ノ門へオフィス移転をした弊社 paiza株式会社ですが、4月17日に普段からお世話になっているお客さま向けの移転記念パーティーを開催しました。なんと、110名もの方がお越しくださいました！【目次】 paizaの成長に向けた新たなステージへ 新オフィスのコンセプトは「異能をのばすオフィス」 ITエンジニアの原風景となるサービスに paizaラーニング活用学生によるLT オフィ...",
             "date_modified": "2024-04-18T10:26:02.000Z",
             "date_published": "2024-04-18T10:26:02.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://engineering.mercari.com/blog/entry/20240131-ja-okta-access-review/",
-            "content_html": "*Security & Privacy Divisionの原動力となっているバリュー、それは「By design, by default and at scale（設計で叶える、デフォルトに組み込む、スケールに対 […]",
-            "url": "https://engineering.mercari.com/blog/entry/20240131-ja-okta-access-review/",
-            "title": "Oktaアクセス権限のスケーラブルなレビュー方法 | メルカリエンジニアリングブログ",
-            "summary": "*Security & Privacy Divisionの原動力となっているバリュー、それは「By design, by default and at scale（設計で叶える、デフォルトに組み込む、スケールに対 […]",
-            "date_modified": "2024-04-18T10:12:50.000Z",
-            "date_published": "2024-04-18T10:12:50.000Z",
             "tags": []
         },
         {
@@ -6200,16 +6190,6 @@
             ]
         },
         {
-            "id": "https://www.techno-edge.net/article/2024/04/18/3212.html",
-            "content_html": "ラトビアのスタートアップ企業Orugaが、積雪、泥地、砂地、急勾配な坂道など、あらゆる地形を走破するとうたう3輪キャタピラバイク「Unitrack」を開発中です。",
-            "url": "https://www.techno-edge.net/article/2024/04/18/3212.html",
-            "title": "キャタピラ式の全地形対応電動バイク「Unitrack」、ラトビアのスタートアップOrugaが開発中 | テクノエッジ TechnoEdge",
-            "summary": "ラトビアのスタートアップ企業Orugaが、積雪、泥地、砂地、急勾配な坂道など、あらゆる地形を走破するとうたう3輪キャタピラバイク「Unitrack」を開発中です。",
-            "date_modified": "2024-04-18T09:12:52.000Z",
-            "date_published": "2024-04-18T09:12:52.000Z",
-            "tags": []
-        },
-        {
             "id": "https://blog.cybozu.io/entry/2024/04/18/180000",
             "content_html": "kintone 新機能開発チームに 23 新卒で入った、エンジニアの宇都宮、柿崎、宮村、和渕、デザイナーのかやです。 23 新卒として一緒に入社した他チームの同期から、kintone 開発について聞いてみたいことを募集しました。 その中からいくつかピックアップして、みんなで答えていきました！ 以下のような方の参考になると嬉しいです。 サイボウズに興味を持ってくれている就活生 24 卒・25 卒で kintone の開発に興味を持ってくれている人 配属で kintone 新機能開発を希望するサイボウズの新入社員 質問 質問 1 : kintone と他チームを比べて特徴的だなと新卒目線で感じてい…",
             "url": "https://blog.cybozu.io/entry/2024/04/18/180000",
@@ -6217,16 +6197,6 @@
             "summary": "kintone 新機能開発チームに 23 新卒で入った、エンジニアの宇都宮、柿崎、宮村、和渕、デザイナーのかやです。 23 新卒として一緒に入社した他チームの同期から、kintone 開発について聞いてみたいことを募集しました。 その中からいくつかピックアップして、みんなで答えていきました！ 以下のような方の参考になると嬉しいです。 サイボウズに興味を持ってくれている就活生 24 卒・25 卒で ...",
             "date_modified": "2024-04-18T09:00:00.000Z",
             "date_published": "2024-04-18T09:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.techno-edge.net/article/2024/04/18/3211.html",
-            "content_html": "「Apple Vision Proパーティー」第2回",
-            "url": "https://www.techno-edge.net/article/2024/04/18/3211.html",
-            "title": "Apple Vision Proが20台集まった「第2回Vision Proパーティー」リポート。先進ユーザーが知見をプレゼン（荻窪圭） | テクノエッジ TechnoEdge",
-            "summary": "「Apple Vision Proパーティー」第2回",
-            "date_modified": "2024-04-18T08:35:59.000Z",
-            "date_published": "2024-04-18T08:35:59.000Z",
             "tags": []
         },
         {
@@ -6523,24 +6493,6 @@
             "tags": []
         },
         {
-            "id": " https://www.riken.jp/pr/events/seminars/20240516_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/seminars/20240516_1/index.html",
-            "title": "理研セミナー: HIV-1 Gagタンパク質による被膜形成機構 | イベントニュース",
-            "date_modified": "2024-04-17T15:00:00.000Z",
-            "date_published": "2024-04-17T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": " https://www.riken.jp/pr/events/lectures/20240725_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/lectures/20240725_1/index.html",
-            "title": "R-CCS 計算科学インターンシッププログラム 2024 | イベントニュース",
-            "date_modified": "2024-04-17T15:00:00.000Z",
-            "date_published": "2024-04-17T15:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://www.riken.jp/press/2024/20240418_3/index.html",
             "content_html": "－新たな抗てんかん薬やPETプローブの開発に寄与－",
             "url": "https://www.riken.jp/press/2024/20240418_3/index.html",
@@ -6566,6 +6518,24 @@
             "url": "https://www.riken.jp/press/2024/20240418_1/index.html",
             "title": "「原子核時計」の実現に前進 | プレスリリースニュース",
             "summary": "－トリウム229の超低エネルギー原子核励起状態の寿命を決定－",
+            "date_modified": "2024-04-17T15:00:00.000Z",
+            "date_published": "2024-04-17T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": " https://www.riken.jp/pr/events/seminars/20240516_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/seminars/20240516_1/index.html",
+            "title": "理研セミナー: HIV-1 Gagタンパク質による被膜形成機構 | イベントニュース",
+            "date_modified": "2024-04-17T15:00:00.000Z",
+            "date_published": "2024-04-17T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": " https://www.riken.jp/pr/events/lectures/20240725_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/lectures/20240725_1/index.html",
+            "title": "R-CCS 計算科学インターンシッププログラム 2024 | イベントニュース",
             "date_modified": "2024-04-17T15:00:00.000Z",
             "date_published": "2024-04-17T15:00:00.000Z",
             "tags": []
@@ -6881,16 +6851,6 @@
             "tags": []
         },
         {
-            "id": "https://www.amazon.science/blog/virtual-try-all-visualizing-any-product-in-any-personal-setting",
-            "content_html": "First model to work across a wide range of products uses a second U-Net encoder to capture fine-grained product details.",
-            "url": "https://www.amazon.science/blog/virtual-try-all-visualizing-any-product-in-any-personal-setting",
-            "title": "Virtual try-all: Visualizing any product in any personal setting | Amazon Science homepage",
-            "summary": "First model to work across a wide range of products uses a second U-Net encoder to capture fine-grained product details.",
-            "date_modified": "2024-04-16T17:58:56.000Z",
-            "date_published": "2024-04-16T17:58:56.000Z",
-            "tags": []
-        },
-        {
             "id": "https://future-architect.github.io/articles/20240417b/",
             "content_html": "<p>こんにちは。TIGの伊藤です。</p> <p><a href=\"/articles/20240408a/\">春の入門連載</a>7日目です。</p> <h2 id=\"新しいこと、始めたい、知りたい\"><a href=\"#新しいこと、始めたい、知りたい\"",
             "url": "https://future-architect.github.io/articles/20240417b/",
@@ -6906,15 +6866,6 @@
             "url": "https://future-architect.github.io/articles/20240417a/",
             "title": "謎のAIチップベンダーTenstorrent製のAIボードを使ってみる（開封編） | フューチャー技術ブログ",
             "summary": "<p>SAIGの山本です。</p> <p>先日リリースされたTenstorrent製のAI推論アクセラレーションボード<a href=\"https://tenstorrent.com/cards/#grayskull-e150\">Grayskull",
-            "date_modified": "2024-04-16T15:00:00.000Z",
-            "date_published": "2024-04-16T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": " https://www.riken.jp/pr/events/lectures/20240819_1/index.html",
-            "content_html": "",
-            "url": "https://www.riken.jp/pr/events/lectures/20240819_1/index.html",
-            "title": "大学生のためのBDRサマースクール2024 | イベントニュース",
             "date_modified": "2024-04-16T15:00:00.000Z",
             "date_published": "2024-04-16T15:00:00.000Z",
             "tags": []
@@ -6965,6 +6916,15 @@
             "url": "https://www.riken.jp/pr/news/2024/20240417_1/index.html",
             "title": "“生細胞内での有機合成化学”による 新しい乳がん術中迅速診断法（CTS法）の臨床試験を開始 | お知らせ",
             "summary": "－病理医を必要としない、がん診断の新技術－",
+            "date_modified": "2024-04-16T15:00:00.000Z",
+            "date_published": "2024-04-16T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": " https://www.riken.jp/pr/events/lectures/20240819_1/index.html",
+            "content_html": "",
+            "url": "https://www.riken.jp/pr/events/lectures/20240819_1/index.html",
+            "title": "大学生のためのBDRサマースクール2024 | イベントニュース",
             "date_modified": "2024-04-16T15:00:00.000Z",
             "date_published": "2024-04-16T15:00:00.000Z",
             "tags": []
@@ -7527,55 +7487,6 @@
             "summary": "こんにちは、SREグループの 水口 です。 スタディプラスのエンジニアが配信するポッドキャスト「Studyplus Engineering Podcast」の新しいエピソードを公開しました。 「Studyplus Engineering Podcast」は、主にStudyplusのエンジニアが、業務で関わった技術的なことや気になっている技術などについて雑談をするPodcastです。 今回は2023...",
             "date_modified": "2024-04-15T00:00:00.000Z",
             "date_published": "2024-04-15T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.dentsusoken.com/entry/2024/04/15/IT%E4%BC%81%E6%A5%AD%E3%81%AB%E5%8B%A4%E3%82%81%E3%82%8B%E6%96%B0%E5%8D%922%E5%B9%B4%E7%9B%AE%E3%81%8C%E7%B0%BF%E8%A8%981%E7%B4%9A%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F",
-            "content_html": "グループ経営ソリューション事業部社員の水上です（24年4月から3年目になりました！）。昨年、日商簿記1級を受験し合格することができました。この記事では、ITコンサルタントとして働く私が簿記1級を受験した経緯や学習方法、資格取得して良かったこと・期待外れだったことをご紹介します。 ＜受験した経緯＞ ▶仕事内容のご紹介 まずは私の仕事内容について、簡単にご紹介します。 私が所属するグループ経営コンサルティング第1ユニット（GMC1ユニット）は、STRAVISという連結会計ソリューションを扱う部署です。私はその中で、STRAVISのコンサルタントとして、システムの導入PJやセールスに携わっています。…",
-            "url": "https://tech.dentsusoken.com/entry/2024/04/15/IT%E4%BC%81%E6%A5%AD%E3%81%AB%E5%8B%A4%E3%82%81%E3%82%8B%E6%96%B0%E5%8D%922%E5%B9%B4%E7%9B%AE%E3%81%8C%E7%B0%BF%E8%A8%981%E7%B4%9A%E3%82%92%E5%8F%96%E5%BE%97%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F",
-            "title": "IT企業に勤める新卒2年目が簿記1級を取得してみた | 電通総研 テックブログ",
-            "summary": "グループ経営ソリューション事業部社員の水上です（24年4月から3年目になりました！）。昨年、日商簿記1級を受験し合格することができました。この記事では、ITコンサルタントとして働く私が簿記1級を受験した経緯や学習方法、資格取得して良かったこと・期待外れだったことをご紹介します。 ＜受験した経緯＞ ▶仕事内容のご紹介 まずは私の仕事内容について、簡単にご紹介します。 私が所属するグループ経営コンサル...",
-            "date_modified": "2024-04-14T22:00:00.000Z",
-            "date_published": "2024-04-14T22:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.youtube.com/watch?v=CyIqd_HR6rY",
-            "content_html": "",
-            "url": "https://www.youtube.com/watch?v=CyIqd_HR6rY",
-            "title": "NVIDIA’s AI Puts You In a Video Game 75,000x Faster! | Two Minute Papers",
-            "date_modified": "2024-04-14T16:08:36.000Z",
-            "date_published": "2024-04-14T16:08:36.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://future-architect.github.io/articles/20240415a/",
-            "content_html": "<img src=\"/images/20240415a/gitlens-logo-anybg.png\" alt=\"\" width=\"952\" height=\"300\" loading=\"lazy\">  <p><a",
-            "url": "https://future-architect.github.io/articles/20240415a/",
-            "title": "VSCodeでGitLensを使う | フューチャー技術ブログ",
-            "summary": "<img src=\"/images/20240415a/gitlens-logo-anybg.png\" alt=\"\" width=\"952\" height=\"300\" loading=\"lazy\">  <p><a",
-            "date_modified": "2024-04-14T15:00:00.000Z",
-            "date_published": "2024-04-14T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.riken.jp/press/2024/20240415_2/index.html",
-            "content_html": "－汎コロナウイルス創薬の新規ターゲット開発に期待－",
-            "url": "https://www.riken.jp/press/2024/20240415_2/index.html",
-            "title": "SARS-CoV-2の転写開始の鍵となるRNA構造を同定 | プレスリリースニュース",
-            "summary": "－汎コロナウイルス創薬の新規ターゲット開発に期待－",
-            "date_modified": "2024-04-14T15:00:00.000Z",
-            "date_published": "2024-04-14T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.riken.jp/press/2024/20240415_1/index.html",
-            "content_html": "－スピントロニクスへの応用展開に期待－",
-            "url": "https://www.riken.jp/press/2024/20240415_1/index.html",
-            "title": "磁性半金属の特異な磁性をゲート電圧で変調することに成功 | プレスリリースニュース",
-            "summary": "－スピントロニクスへの応用展開に期待－",
-            "date_modified": "2024-04-14T15:00:00.000Z",
-            "date_published": "2024-04-14T15:00:00.000Z",
             "tags": []
         }
     ]
