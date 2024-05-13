@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-05-13T02:06:15.962Z</updated>
+    <updated>2024-05-13T03:25:35.693Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[フロントエンドから Amazon S3 にマルチパートアップロードしたい | カミナシ エンジニアブログ]]></title>
+        <id>https://kaminashi-developer.hatenablog.jp/entry/2024/05/13/120000</id>
+        <link href="https://kaminashi-developer.hatenablog.jp/entry/2024/05/13/120000"/>
+        <updated>2024-05-13T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Presigned URL（*) などで、Amazon S3 へのアップロード処理を実装していると、大きなサイズのファイルをアップロードしようとしたときに、以下のような課題に直面することがあります。 一回のPUT リクエストでアップロードできるサイズの上限が 5GB まで 単一の HTTP リクエストでアップロードするため、大きなサイズをアップロードしようとしたときに問題が起きる。例えば...]]></summary>
+        <content type="html"><![CDATA[はじめに Presigned URL（*) などで、Amazon S3 へのアップロード処理を実装していると、大きなサイズのファイルをアップロードしようとしたときに、以下のような課題に直面することがあります。 一回のPUT リクエストでアップロードできるサイズの上限が 5GB まで 単一の HTTP リクエストでアップロードするため、大きなサイズをアップロードしようとしたときに問題が起きる。例えば、アップロードの処理の途中で失敗したとき、最初からやり直しになる。 このようなときに活用したいのが、マルチパートアップロードです。マルチパートアップロードとは、その名の通り、アップロード対象のオブジェ…]]></content>
+        <published>2024-05-13T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コミック系プロダクトチームの内情を赤裸々に公開！？pixiv MANGA Nightイベントレポート | pixiv inside]]></title>
+        <id>https://inside.pixiv.blog/2024/05/13/120000?utm_source=feed</id>
+        <link href="https://inside.pixiv.blog/2024/05/13/120000?utm_source=feed"/>
+        <updated>2024-05-13T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！コミック事業部Palcy部エンジニアのKNRです！ pixiv・pixivコミック・pixivコミックインディーズ・Palcyのピクシブマンガ系事業で共催している「pixiv MANGA Night」は、ピクシブのマンガ事業に向ける思いや開発に関する知見を共有するエンジニア向けイベントです。毎回チームメンバーが登壇し、プロダクトを作る上で起きたことや工夫していることなど発表をしています...]]></summary>
+        <content type="html"><![CDATA[こんにちは！コミック事業部Palcy部エンジニアのKNRです！ pixiv・pixivコミック・pixivコミックインディーズ・Palcyのピクシブマンガ系事業で共催している「pixiv MANGA Night」は、ピクシブのマンガ事業に向ける思いや開発に関する知見を共有するエンジニア向けイベントです。毎回チームメンバーが登壇し、プロダクトを作る上で起きたことや工夫していることなど発表をしています！ 過去の内容では各プロダクトの紹介やエンジニアが画像系処理で詰まったところとその解消方法や、AWSの料金削減、共同運営しているPalcyから講談社様をお呼びしてデータ分析などの発表を行いました。 第…]]></content>
+        <published>2024-05-13T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deno 1.43 へのアップデートと変更事項まとめ | 虎の穴開発室ブログ]]></title>
+        <id>https://toranoana-lab.hatenablog.com/entry/2024/05/13/120000</id>
+        <link href="https://toranoana-lab.hatenablog.com/entry/2024/05/13/120000"/>
+        <updated>2024-05-13T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[皆さんこんにちは。おっくんです。 去る 2024 年 5 月 1 日に Deno 1.43 がリリースされました。 今回も、リリースノートを参考に 変更事項の気になるところを紹介します。 Deno 1.43 Deno 1.43 での変更事項をDeno 1.43 リリースノートを元に確認します。 Deno LSP サーバーの高速化 LSPサーバーはオートコンプリート機能などを提供しています。 多数の...]]></summary>
+        <content type="html"><![CDATA[皆さんこんにちは。おっくんです。 去る 2024 年 5 月 1 日に Deno 1.43 がリリースされました。 今回も、リリースノートを参考に 変更事項の気になるところを紹介します。 Deno 1.43 Deno 1.43 での変更事項をDeno 1.43 リリースノートを元に確認します。 Deno LSP サーバーの高速化 LSPサーバーはオートコンプリート機能などを提供しています。 多数のファイルを含むような大規模プロジェクトでは、パフォーマンスの問題があることを一部のユーザーから報告されていたそうです。 今回のリリースでは、レスポンスとメモリ消費が改善され、6~8秒かかっていたオート…]]></content>
+        <published>2024-05-13T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[700円の超ショートUSB-Cケーブルでカードリーダーやめました | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/05/yffsfdc-short-usb-cable.html</id>
+        <link href="https://www.gizmodo.jp/2024/05/yffsfdc-short-usb-cable.html"/>
+        <updated>2024-05-13T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[カメラとPCを直接つなぐときなどに役立つ超短いUSBケーブルが便利だった。]]></summary>
+        <content type="html"><![CDATA[カメラとPCを直接つなぐときなどに役立つ超短いUSBケーブルが便利だった。]]></content>
+        <author>
+            <name>小暮ひさのり</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-05-13T03:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[第22回Quesを弥生オフィスにて開催します | 弥生開発者ブログ]]></title>
         <id>https://tech-blog.yayoi-kk.co.jp/entry/2024/05/13/110000</id>
@@ -355,6 +395,15 @@
         <link href="https://www.youtube.com/watch?v=86FCHBxqZZ8"/>
         <updated>2024-05-12T15:58:31.000Z</updated>
         <published>2024-05-12T15:58:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ハイブリッドクラウドで動くカラーミーショップのマスターDBをMySQL 8.0にアップグレードした話 | Pepabo Tech Portal]]></title>
+        <id>https://tech.pepabo.com/2024/05/13/colrome-db-upgrade/</id>
+        <link href="https://tech.pepabo.com/2024/05/13/colrome-db-upgrade/"/>
+        <updated>2024-05-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。技術部プラットフォームグループのyuchiです。 2024年2月末にカラーミーショップのマスターデータベースをMySQL 5.7.44から8.0.35へアップグレードを行い、無事にアップグレード作業が終了したため、実際にどのようなことをやっていたのかを記した記事です。 また、メンテナンスを行うにあたり、ご理解ご協力いただいたショップオーナー様には感謝申し上げます。 このMySQL8.0...]]></summary>
+        <content type="html"><![CDATA[こんにちは。技術部プラットフォームグループのyuchiです。 2024年2月末にカラーミーショップのマスターデータベースをMySQL 5.7.44から8.0.35へアップグレードを行い、無事にアップグレード作業が終了したため、実際にどのようなことをやっていたのかを記した記事です。 また、メンテナンスを行うにあたり、ご理解ご協力いただいたショップオーナー様には感謝申し上げます。 このMySQL8.0アップグレードプロジェクトは開始から約4ヶ月で完了しました。途中1ヶ月は別のプロジェクトで中断があったため、実働は約3ヶ月のプロジェクトでした。 この記事では以下の要点に絞って書いています。 Amazon RDS+プライベートクラウドのマルチクラウド構成でのMySQLアップグレードを行った話 この記事で話さないこと MySQL8の変更に関する詳細な話 アプリケーションの修正の話 カラーミーショップとは カラーミーショップとはネットショップ作成サービスで、2005年にサービスを開始をして今年で19年目のサービスになります。 ご利用いただいているショップさんは約45000店舗、カラーミーショップで...]]></content>
+        <published>2024-05-12T15:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Real World HTTPの第3版ができあがりました | フューチャー技術ブログ]]></title>
@@ -1087,19 +1136,6 @@
         <category label="CloudWatch"/>
         <category label="自動ダッシュボード"/>
         <published>2024-05-11T04:00:05.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[挟んで焼くと、トーストは別次元の旨さになる。毎日食べたい新食感でした | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/05/abien_bread-grill.html</id>
-        <link href="https://www.gizmodo.jp/2024/05/abien_bread-grill.html"/>
-        <updated>2024-05-11T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:小暮ひさのりトーストの新しい触感、楽しめます。焦げ付かなく、薄く、スタイリッシュな未来型ホットプレートで人気のabien（アビエン）。その次なる提案は「パン本来の味わいを楽しもう」でした。それを叶えるために送り出されたのが、1枚焼きという贅沢なトーストを楽しめる両面グリル型トースター「abienBREADGRILL」です。以前Makuakeにて先行販売されていたプロダクトですが、昨日か]]></summary>
-        <content type="html"><![CDATA[Photo:小暮ひさのりトーストの新しい触感、楽しめます。焦げ付かなく、薄く、スタイリッシュな未来型ホットプレートで人気のabien（アビエン）。その次なる提案は「パン本来の味わいを楽しもう」でした。それを叶えるために送り出されたのが、1枚焼きという贅沢なトーストを楽しめる両面グリル型トースター「abienBREADGRILL」です。以前Makuakeにて先行販売されていたプロダクトですが、昨日か]]></content>
-        <author>
-            <name>小暮ひさのり</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-05-11T04:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[『ゴッド・オブ・ウォー ラグナロク』のPC版が発売予定か 今月にも発表との予想が報じられる | IGN Japan games]]></title>
