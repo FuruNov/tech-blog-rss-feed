@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Tue, 28 May 2024 02:06:45 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 May 2024 03:28:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -15,6 +15,92 @@
         </image>
         <copyright>yamadashy/tech-blog-rss-feed</copyright>
         <atom:link href="https://furunov.github.io/rss-feed/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Kubernetesのアプリケーションログ収集(2) | Chatwork Creator's Note]]></title>
+            <link>https://creators-note.chatwork.com/entry/2024/05/28/120000</link>
+            <guid>https://creators-note.chatwork.com/entry/2024/05/28/120000</guid>
+            <pubDate>Tue, 28 May 2024 03:00:00 GMT</pubDate>
+            <description><![CDATA[(1)では、Chatworkのリクエスト数やログの量など、Chatworkのログの背景をお伝えしました。 このブログでは、それらに対応している構成や、その構成になる前の話を記載したいと思います。 再掲ですが、Chatworkでは下記のように各ノードのforwarderとしてfluent-bit、aggregatorとしてfluentdというfluent兄弟を両方使っています。 概要図]]></description>
+            <content:encoded><![CDATA[(1)では、Chatworkのリクエスト数やログの量など、Chatworkのログの背景をお伝えしました。 このブログでは、それらに対応している構成や、その構成になる前の話を記載したいと思います。 再掲ですが、Chatworkでは下記のように各ノードのforwarderとしてfluent-bit、aggregatorとしてfluentdというfluent兄弟を両方使っています。 概要図]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[FLINTERSの利用してうれしかった制度や取り組みについて振り返ってみる | FLINTERS Engineer's Blog]]></title>
+            <link>https://blog.flinters.co.jp/entry/2024/05/28/120000</link>
+            <guid>https://blog.flinters.co.jp/entry/2024/05/28/120000</guid>
+            <pubDate>Tue, 28 May 2024 03:00:00 GMT</pubDate>
+            <description><![CDATA[FLINTERSの利用してうれしかった制度や取り組みについて振り返ってみる]]></description>
+            <content:encoded><![CDATA[FLINTERSの利用してうれしかった制度や取り組みについて振り返ってみる]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[デプロイ頻度が改善した要因を振り返ってみた | WILLGATE TECH BLOG]]></title>
+            <link>https://tech.willgate.co.jp/entry/2024/05/28/120000</link>
+            <guid>https://tech.willgate.co.jp/entry/2024/05/28/120000</guid>
+            <pubDate>Tue, 28 May 2024 03:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは！ウィルゲート開発室の佐々木です。 みなさん、たくさんデプロイしてますか？ 「開発生産性」という言葉がよく耳にされる現代では、デプロイ頻度に着目されているエンジニアの方も多いかと思います。 弊社でも各チームごとにデプロイ頻度を計測し、月次でモニタリングする時間を設けています。 私の所属するチームでは、直近の1年で劇的にデプロイ頻度が改善しました。 なぜ改善できたのか、その点についてチーム...]]></description>
+            <content:encoded><![CDATA[こんにちは！ウィルゲート開発室の佐々木です。 みなさん、たくさんデプロイしてますか？ 「開発生産性」という言葉がよく耳にされる現代では、デプロイ頻度に着目されているエンジニアの方も多いかと思います。 弊社でも各チームごとにデプロイ頻度を計測し、月次でモニタリングする時間を設けています。 私の所属するチームでは、直近の1年で劇的にデプロイ頻度が改善しました。 なぜ改善できたのか、その点についてチーム内で振り返りを行いましたので、ご紹介させてください。 はじめに デプロイ頻度の推移について 振り返り方法 改善するためのアクション 仕様はMiroへ集約 細かくコミット・細かくリリース 積極的にモブプ…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[AWSコスト異常検知を導入したら、『人にお願いする』トイルが発生したのでSlackBotを作って解消した | KAYAC engineers' blog]]></title>
+            <link>https://techblog.kayac.com/sre-toil-of-aws-cost-anomaly</link>
+            <guid>https://techblog.kayac.com/sre-toil-of-aws-cost-anomaly</guid>
+            <pubDate>Tue, 28 May 2024 03:00:00 GMT</pubDate>
+            <description><![CDATA[SREチームの池田(@mashiike)です。SRE連載の５月号になります。 AWSのコストについては、多くの方がすごく気にしていると思います。 カヤックでもAWSのコストの変動に関しては敏感に気にしています。 そんな方々の心のお供になる機能が、 AWSコスト異常検知(AWS Cost Anomaly Detection) です。 今回は、このコスト異常検知にまつわるトイル削減の取り組みを紹介しま...]]></description>
+            <content:encoded><![CDATA[SREチームの池田(@mashiike)です。SRE連載の５月号になります。 AWSのコストについては、多くの方がすごく気にしていると思います。 カヤックでもAWSのコストの変動に関しては敏感に気にしています。 そんな方々の心のお供になる機能が、 AWSコスト異常検知(AWS Cost Anomaly Detection) です。 今回は、このコスト異常検知にまつわるトイル削減の取り組みを紹介します。 背景 AWSコスト異常検知は、AWS マネジメントコンソールの中では『Billing and Cost Management』配下にある機能になります。 この機能を使うことでAWSで発生したコス…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[シワなしヨレなし、だけど値段はお高め。折りたたみMacBookが開発中 | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/05/folding-madbooks-are-expensive.html</link>
+            <guid>https://www.gizmodo.jp/2024/05/folding-madbooks-are-expensive.html</guid>
+            <pubDate>Tue, 28 May 2024 03:00:00 GMT</pubDate>
+            <description><![CDATA[2026年ごろに折りたたみディスプレイを備えたMacBookリリースとのリーク情報。]]></description>
+            <content:encoded><![CDATA[2026年ごろに折りたたみディスプレイを備えたMacBookリリースとのリーク情報。]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[Nero Media Player 2.1.6 | ダウンロードと使い方 | ソフタロウ]]></title>
+            <link>https://softaro.net/nero-media-player/</link>
+            <guid>https://softaro.net/?p=139056</guid>
+            <pubDate>Tue, 28 May 2024 02:31:45 GMT</pubDate>
+            <description><![CDATA[よくある質問と回答 ライセンスについて。 Nero Media Player は、どなたでも無料で使用できます。]]></description>
+            <content:encoded><![CDATA[よくある質問と回答 ライセンスについて。 Nero Media Player は、どなたでも無料で使用できます。]]></content:encoded>
+            <category>マルチメディアプレーヤー</category>
+            <category>Nero</category>
+            <category>Windows</category>
+            <category>フリーソフト</category>
+            <category>動画再生</category>
+        </item>
+        <item>
+            <title><![CDATA[Android向けの「Outlook Lite」がSMSに対応 ～たった16MBの軽量版／ | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1595148.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1595148.html</guid>
+            <pubDate>Tue, 28 May 2024 02:20:00 GMT</pubDate>
+            <description><![CDATA[米Microsoftは5月27日（現地時間）、「Microsoft Outlook Lite」アプリをがSMSに対応したと発表した。電話番号の管理からショートメッセージのやりとりまでを「Outlook Lite」だけで完結できる。]]></description>
+            <content:encoded><![CDATA[米Microsoftは5月27日（現地時間）、「Microsoft Outlook Lite」アプリをがSMSに対応したと発表した。電話番号の管理からショートメッセージのやりとりまでを「Outlook Lite」だけで完結できる。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【Code Review Challenge】解説７問目：単体テストのベストプラクティス #try! Swift Tokyo 2024 | LINEヤフー Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20240528a</link>
+            <guid>https://techblog.lycorp.co.jp/ja/20240528a</guid>
+            <pubDate>Tue, 28 May 2024 02:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは。iOSアプリエンジニアのKiichiです。 先日開催されたtry! Swift Tokyo 2024のLINEヤフー企業ブースでは、Code Review Challengeを行いました。...]]></description>
+            <content:encoded><![CDATA[こんにちは。iOSアプリエンジニアのKiichiです。 先日開催されたtry! Swift Tokyo 2024のLINEヤフー企業ブースでは、Code Review Challengeを行いました。...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【後編】24新卒開発研修で新しいツールを導入した話 〜pre-commit の導入方法と使い方など〜 | Sansan Tech Blog]]></title>
+            <link>https://buildersbox.corp-sansan.com/entry/2024/05/28/110000_1</link>
+            <guid>https://buildersbox.corp-sansan.com/entry/2024/05/28/110000_1</guid>
+            <pubDate>Tue, 28 May 2024 02:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、研究開発部 Automationグループで研究員をしている李です。 本ブログでは、前編 に続き、新卒開発研修*1 *2に導入したpre-commitの使い方などを共有します。 *1:2023年 研究開発部 新卒技術研修 ~ 実践編 ~ - Sansan Tech Blog *2:2023年 研究開発部 新卒技術研修 ~ テストコード編 ~ - Sansan Tech Blog]]></description>
+            <content:encoded><![CDATA[こんにちは、研究開発部 Automationグループで研究員をしている李です。 本ブログでは、前編 に続き、新卒開発研修*1 *2に導入したpre-commitの使い方などを共有します。 *1:2023年 研究開発部 新卒技術研修 ~ 実践編 ~ - Sansan Tech Blog *2:2023年 研究開発部 新卒技術研修 ~ テストコード編 ~ - Sansan Tech Blog]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[【前編】24新卒開発研修で新しいツールを導入した話 〜Ruffの導入方法と使い方など〜 | Sansan Tech Blog]]></title>
+            <link>https://buildersbox.corp-sansan.com/entry/2024/05/28/110000</link>
+            <guid>https://buildersbox.corp-sansan.com/entry/2024/05/28/110000</guid>
+            <pubDate>Tue, 28 May 2024 02:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、研究開発部 Automationグループで研究員をしている李です。業務として、Bill Oneの請求書情報に関する作業効率改善に従事しています。 例年通り *1 *2 4月24日（水）～4月26日（金）で研究開発部（以下、R&D）内の技術研修を実施しました。開発環境は昨年からのアップデートとして、Ruffとpre-commitを試みました。 本ブログでは、まず前編として、Ruffの導入...]]></description>
+            <content:encoded><![CDATA[こんにちは、研究開発部 Automationグループで研究員をしている李です。業務として、Bill Oneの請求書情報に関する作業効率改善に従事しています。 例年通り *1 *2 4月24日（水）～4月26日（金）で研究開発部（以下、R&D）内の技術研修を実施しました。開発環境は昨年からのアップデートとして、Ruffとpre-commitを試みました。 本ブログでは、まず前編として、Ruffの導入方法と使い方などについて共有します。 *1:2023年 研究開発部 新卒技術研修 ~ 実践編 ~ - Sansan Tech Blog *2:2023年 研究開発部 新卒技術研修 ~ テストコード編 …]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[【Code Review Challenge】解説７問目：単体テストのベストプラクティス #try! Swift Tokyo 2024 | LINEヤフー Tech Blog]]></title>
             <link>https://techblog.lycorp.co.jp/ja/20240528a</link>
@@ -157,6 +243,14 @@
             <content:encoded><![CDATA[こんにちは、Uzabaseの松並です。 ユーザベースのエンジニアカルチャーをゆるっとお伝えするPodcast、Meet UB Tech。 #48のテーマは、「ユーザベース SaaS Product Teamのペアプロの実態と組織文化に迫る」です。 今回のPodcastでは、ユーザベース SaaS Product Teamの阿久津さん・横山さんにお越しいただき、お話を伺いました！ open.spotify.com #48 の聞きどころはこちら。 タイトル： ユーザベース SaaS Product Teamのペアプロの実態と組織文化に迫る 出演者： 阿久津 優輔 @__u5k_4（ユーザベース S…]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[サイボウズは JaSST'24 Tohoku で協賛＆登壇します！ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+            <link>https://blog.cybozu.io/entry/2024/05/28/080000</link>
+            <guid>https://blog.cybozu.io/entry/2024/05/28/080000</guid>
+            <pubDate>Mon, 27 May 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、QA（品質保証）エンジニアの銭丸です。 サイボウズは 2024年5月31日(金)に開催されるJaSST'24 Tohokuに、ゴールドスポンサーとして協賛します。 また、スポンサーライトニングトークスにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、サイボウズ ...]]></description>
+            <content:encoded><![CDATA[こんにちは、QA（品質保証）エンジニアの銭丸です。 サイボウズは 2024年5月31日(金)に開催されるJaSST'24 Tohokuに、ゴールドスポンサーとして協賛します。 また、スポンサーライトニングトークスにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、サイボウズ Office、メールワイズなどチームを支えるサービスを開発しています。 その中でサイボウズのQAエンジニアは開発プロセス全体を通して品質を高める活動を行なっています。 そんな私たちが日々の活動でお世話…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[ステンレスが強そうなサイバートラック水筒。形が独特すぎ | ギズモード・ジャパン]]></title>
             <link>https://www.gizmodo.jp/2024/05/tesla-cybervessel.html</link>
             <guid>https://www.gizmodo.jp/2024/05/tesla-cybervessel.html</guid>
@@ -252,6 +346,18 @@
             <link>
 		https://www.riken.jp/pr/closeup/2024/20240528_1/index.html</link>
             <guid> https://www.riken.jp/pr/closeup/2024/20240528_1/index.html</guid>
+            <pubDate>Mon, 27 May 2024 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[入門プロパティベーステスト/learning-property-based-testing (Yasuhiro Kiwada) | 勉強会スライドBot]]></title>
+            <link>https://speakerdeck.com/kiway/learning-property-based-testing</link>
+            <guid>https://speakerdeck.com/kiway/learning-property-based-testing</guid>
+            <pubDate>Mon, 27 May 2024 15:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mutation Testingを活用して テスト品質を考える /introduction to mutation testing (kakehashi) | 勉強会スライドBot]]></title>
+            <link>https://speakerdeck.com/kakehashi/introduction-to-mutation-testing</link>
+            <guid>https://speakerdeck.com/kakehashi/introduction-to-mutation-testing</guid>
             <pubDate>Mon, 27 May 2024 15:00:00 GMT</pubDate>
         </item>
         <item>
@@ -438,17 +544,17 @@
             <pubDate>Mon, 27 May 2024 09:54:59 GMT</pubDate>
             <description><![CDATA[基本プレイ無料でついに国内でもリリース 2024年5月28日にローンチする「スマブラ」ライクなゲーム『マルチバーサス』を先行プレイ。]]></description>
             <content:encoded><![CDATA[基本プレイ無料でついに国内でもリリース 2024年5月28日にローンチする「スマブラ」ライクなゲーム『マルチバーサス』を先行プレイ。]]></content:encoded>
+            <category>ps4</category>
+            <category>xbox-one</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Xbox One</category>
+            <category>MultiVersus</category>
+            <category>Preview</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Preview</category>
-            <category>xbox-one</category>
-            <category>MultiVersus</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>Xbox One</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[DirectMLで量子化された「Phi-3 mini」が利用可能に　ほか【ダイジェストニュース】 | 窓の杜]]></title>
@@ -471,18 +577,18 @@
             <pubDate>Mon, 27 May 2024 09:14:54 GMT</pubDate>
             <description><![CDATA[『Bloodborne』に登場した教区長エミーリアのTシャツも販売 アパレルブランドのTORCH TORCHと『ELDEN RING』がコラボしたTシャツ「戦士の壺、アレキサンダー」の一般販売がスタートした。]]></description>
             <content:encoded><![CDATA[『Bloodborne』に登場した教区長エミーリアのTシャツも販売 アパレルブランドのTORCH TORCHと『ELDEN RING』がコラボしたTシャツ「戦士の壺、アレキサンダー」の一般販売がスタートした。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
-            <category>Xbox Series S</category>
-            <category>Bloodborne</category>
-            <category>News</category>
             <category>ELDEN RING</category>
-            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
-            <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>PlayStation 5</category>
+            <category>Xbox Series S</category>
+            <category>News</category>
             <category>ps4</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Bloodborne</category>
+            <category>Xbox Series X</category>
+            <category>ゲーム</category>
+            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
+            <category>PC</category>
+            <category>PlayStation 4</category>
         </item>
         <item>
             <title><![CDATA[モジュラーモノリスへ ~過剰なマイクロサービスの統廃合に取り組み始めた話~ | FiNC Tech Blog - Medium]]></title>
@@ -527,21 +633,21 @@
             <pubDate>Mon, 27 May 2024 08:55:55 GMT</pubDate>
             <description><![CDATA[「ドラゴンクエストビルダーズ」も40%オフ 「ドラゴンクエストの日」を記念してシリーズ作のダウンロード版がお買い得なセールが開催中だ。]]></description>
             <content:encoded><![CDATA[「ドラゴンクエストビルダーズ」も40%オフ 「ドラゴンクエストの日」を記念してシリーズ作のダウンロード版がお買い得なセールが開催中だ。]]></content:encoded>
+            <category>ドラゴンクエスト</category>
+            <category>News</category>
+            <category>ps4</category>
+            <category>ドラゴンクエストビルダーズ2　破壊神シドーとからっぽの島</category>
+            <category>ドラゴンクエスト トレジャーズ　蒼き瞳と大空の羅針盤</category>
+            <category>ドラゴンクエストビルダーズ アレフガルドを復活せよ</category>
+            <category>Sony PlayStation</category>
+            <category>nintendo-switch</category>
+            <category>Nintendo Switch</category>
+            <category>ドラゴンクエストX　目覚めし五つの種族　オフライン</category>
+            <category>任天堂</category>
             <category>ゲーム</category>
             <category>ドラゴンクエストIII　そして伝説へ…</category>
             <category>ドラゴンクエストXI 過ぎ去りし時を求めて S</category>
-            <category>News</category>
-            <category>ドラゴンクエスト トレジャーズ　蒼き瞳と大空の羅針盤</category>
-            <category>ドラゴンクエスト</category>
-            <category>任天堂</category>
-            <category>ドラゴンクエストビルダーズ2　破壊神シドーとからっぽの島</category>
-            <category>nintendo-switch</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Nintendo Switch</category>
-            <category>ドラゴンクエストX　目覚めし五つの種族　オフライン</category>
-            <category>ps4</category>
-            <category>ドラゴンクエストビルダーズ アレフガルドを復活せよ</category>
         </item>
         <item>
             <title><![CDATA[生成AIなどのテクノロジーの力でビジネス成長を目指す『Run with Tech』の活動紹介 | コネヒト開発者ブログ]]></title>
@@ -558,17 +664,17 @@
             <pubDate>Mon, 27 May 2024 08:48:08 GMT</pubDate>
             <description><![CDATA[待望の続報が「ドラゴンクエストの日」に発表 「ドラゴンクエスト」シリーズ公式Xが『HD-2D版 ドラゴンクエストIII』と思われる動画を公開した。]]></description>
             <content:encoded><![CDATA[待望の続報が「ドラゴンクエストの日」に発表 「ドラゴンクエスト」シリーズ公式Xが『HD-2D版 ドラゴンクエストIII』と思われる動画を公開した。]]></content:encoded>
-            <category>HD-2D版 ドラゴンクエストIII</category>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>Xbox Series S</category>
             <category>News</category>
-            <category>任天堂</category>
-            <category>nintendo-switch</category>
-            <category>Xbox Series X</category>
-            <category>Sony PlayStation</category>
-            <category>Nintendo Switch</category>
+            <category>HD-2D版 ドラゴンクエストIII</category>
             <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
+            <category>nintendo-switch</category>
+            <category>Nintendo Switch</category>
+            <category>任天堂</category>
+            <category>Xbox Series X</category>
+            <category>ゲーム</category>
+            <category>PC</category>
         </item>
         <item>
             <title><![CDATA[GAE (AppEngine) からの卒業！Cloud Run に移行してコスト4分の1に | Zennのトレンド]]></title>
@@ -638,11 +744,11 @@
             <pubDate>Mon, 27 May 2024 07:47:50 GMT</pubDate>
             <description><![CDATA[サマーセールは1カ月後なので、計画的に購入しよう Steamにて、「オープンワールドサバイバルクラフトフェス」がまもなく開催される。]]></description>
             <content:encoded><![CDATA[サマーセールは1カ月後なので、計画的に購入しよう Steamにて、「オープンワールドサバイバルクラフトフェス」がまもなく開催される。]]></content:encoded>
+            <category>News</category>
+            <category>Steam</category>
             <category>セール情報</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>Steam</category>
         </item>
         <item>
             <title><![CDATA[【効率化ツール】fORP Packages | 高精度なデータ収集を実現！ | TEGAKARI]]></title>
@@ -786,14 +892,14 @@
             <pubDate>Mon, 27 May 2024 05:10:13 GMT</pubDate>
             <description><![CDATA[体験版は6月に開催される「Steam Nextフェス」にて配信予定 「過去に干渉する力」などを使って戦うメトロイドヴァニア『ブレードキメラ』の発売時期を告げるトレーラーが公開された。]]></description>
             <content:encoded><![CDATA[体験版は6月に開催される「Steam Nextフェス」にて配信予定 「過去に干渉する力」などを使って戦うメトロイドヴァニア『ブレードキメラ』の発売時期を告げるトレーラーが公開された。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>News</category>
-            <category>任天堂</category>
             <category>ブレードキメラ</category>
             <category>nintendo-switch</category>
             <category>Steam</category>
             <category>Nintendo Switch</category>
+            <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>PC</category>
         </item>
         <item>
             <title><![CDATA[Next.js の Parallel Routes に入門したらユーザー体験に関する悩みが良い意味で増えた話 | Uzabase for Engineers]]></title>
@@ -1091,20 +1197,20 @@
             <content:encoded><![CDATA[はじめに 本記事では無料で公開されている企業のエンジニア向け研修資料をまとめました。 近年では、多くの企業が新人向けの研修資料を公開しています。これらの資料は内容が充実しており、初心者から中級者まで…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[GraphQL Trusted Documents の実装パターンを Signed Query に移行しました (Android編) | スタディサプリ Product Team Blog]]></title>
-            <link>https://blog.studysapuri.jp/entry/2024/5/27/signed-query-android</link>
-            <guid>https://blog.studysapuri.jp/entry/2024/5/27/signed-query-android</guid>
-            <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは、Androidエンジニアの@morux2です。スタディサプリ小学・中学講座ではデータ通信にGraphQLを採用しており、開発者が信頼したクエリのみを処理する仕組みとしてTrusted Documentsを実装しています。この度、従来のPersisted QueryからSigned Queryという新しいTrusted Documentsの実装パターンに移行したので、Android側の実...]]></description>
-            <content:encoded><![CDATA[こんにちは、Androidエンジニアの@morux2です。スタディサプリ小学・中学講座ではデータ通信にGraphQLを採用しており、開発者が信頼したクエリのみを処理する仕組みとしてTrusted Documentsを実装しています。この度、従来のPersisted QueryからSigned Queryという新しいTrusted Documentsの実装パターンに移行したので、Android側の実装についてご紹介できればと思います。 Signed Query の詳細な説明は以下のブログをご覧ください。 blog.studysapuri.jp 前提 移行の背景 従来のPersisted Quer…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[フロントエンド開発の効率化！Nx と Playwright でビジュアルリグレッションテストを賢く実施しよう | Techtouch Developers Blog]]></title>
             <link>https://tech.techtouch.jp/entry/nx-playwright-visual-regression-testing</link>
             <guid>https://tech.techtouch.jp/entry/nx-playwright-visual-regression-testing</guid>
             <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[Playwright と Nx を組み合わせることで、ビジュアルリグレッションテスト（VRT）の実行時間と撮影枚数を削減する方法を紹介します。]]></description>
             <content:encoded><![CDATA[Playwright と Nx を組み合わせることで、ビジュアルリグレッションテスト（VRT）の実行時間と撮影枚数を削減する方法を紹介します。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[GraphQL Trusted Documents の実装パターンを Signed Query に移行しました (Android編) | スタディサプリ Product Team Blog]]></title>
+            <link>https://blog.studysapuri.jp/entry/2024/5/27/signed-query-android</link>
+            <guid>https://blog.studysapuri.jp/entry/2024/5/27/signed-query-android</guid>
+            <pubDate>Mon, 27 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、Androidエンジニアの@morux2です。スタディサプリ小学・中学講座ではデータ通信にGraphQLを採用しており、開発者が信頼したクエリのみを処理する仕組みとしてTrusted Documentsを実装しています。この度、従来のPersisted QueryからSigned Queryという新しいTrusted Documentsの実装パターンに移行したので、Android側の実...]]></description>
+            <content:encoded><![CDATA[こんにちは、Androidエンジニアの@morux2です。スタディサプリ小学・中学講座ではデータ通信にGraphQLを採用しており、開発者が信頼したクエリのみを処理する仕組みとしてTrusted Documentsを実装しています。この度、従来のPersisted QueryからSigned Queryという新しいTrusted Documentsの実装パターンに移行したので、Android側の実装についてご紹介できればと思います。 Signed Query の詳細な説明は以下のブログをご覧ください。 blog.studysapuri.jp 前提 移行の背景 従来のPersisted Quer…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[KotlinでUnion Typeを使いこなそう | Zennのトレンド]]></title>
@@ -1281,20 +1387,20 @@
             <pubDate>Sun, 26 May 2024 15:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[非生物学的な嫌気的アンモニア酸化触媒を発見 | プレスリリースニュース]]></title>
-            <link>https://www.riken.jp/press/2024/20240527_1/index.html</link>
-            <guid>https://www.riken.jp/press/2024/20240527_1/index.html</guid>
-            <pubDate>Sun, 26 May 2024 15:00:00 GMT</pubDate>
-            <description><![CDATA[－新たな排水処理技術の開発や生命起源研究への貢献に期待－]]></description>
-            <content:encoded><![CDATA[－新たな排水処理技術の開発や生命起源研究への貢献に期待－]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[難治性前立腺がんに対する医師主導治験を開始 | お知らせ]]></title>
             <link>https://www.riken.jp/pr/news/2024/20240427_1/index.html</link>
             <guid> https://www.riken.jp/pr/news/2024/20240427_1/index.html</guid>
             <pubDate>Sun, 26 May 2024 15:00:00 GMT</pubDate>
             <description><![CDATA[－アスタチン標識薬を用いた革新的アルファ線治療－]]></description>
             <content:encoded><![CDATA[－アスタチン標識薬を用いた革新的アルファ線治療－]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[非生物学的な嫌気的アンモニア酸化触媒を発見 | プレスリリースニュース]]></title>
+            <link>https://www.riken.jp/press/2024/20240527_1/index.html</link>
+            <guid>https://www.riken.jp/press/2024/20240527_1/index.html</guid>
+            <pubDate>Sun, 26 May 2024 15:00:00 GMT</pubDate>
+            <description><![CDATA[－新たな排水処理技術の開発や生命起源研究への貢献に期待－]]></description>
+            <content:encoded><![CDATA[－新たな排水処理技術の開発や生命起源研究への貢献に期待－]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[ビックデータにおける、RAG性能向上戦略 (大堀遼介) | 勉強会スライドBot]]></title>
@@ -1372,15 +1478,6 @@
             <pubDate>Sun, 26 May 2024 12:18:10 GMT</pubDate>
             <description><![CDATA[起きたこと 僕が運営している『オンライン絵しりとり』というサイトで起きた話となります。 これは訪れたユーザー同士で絵しりとりを楽しめるサービスです。 ある日、このサービスをホスティングしているCon…]]></description>
             <content:encoded><![CDATA[起きたこと 僕が運営している『オンライン絵しりとり』というサイトで起きた話となります。 これは訪れたユーザー同士で絵しりとりを楽しめるサービスです。 ある日、このサービスをホスティングしているCon…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[ゴミ袋収納でかけるときどうする？ ダイソーのポーチがぴったりでした | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/05/daiso-agax-wet-sheet-box.html</link>
-            <guid>https://www.gizmodo.jp/2024/05/daiso-agax-wet-sheet-box.html</guid>
-            <pubDate>Sun, 26 May 2024 12:00:00 GMT</pubDate>
-            <description><![CDATA[Photo:oh!ga車で出かけるとき、「ちょっとゴミをまとめておきたいな」ということは結構あります。ただ、車の中にゴミ袋をストックしたり、持ち歩くことはしていなかったんです。だって、地味にかさばりませんか？ゴミ袋って。そんなときに、スッキリ持ち運べるアイテムをダイソーでみつけたんですよ。「かわいくない」ポーチダイソーの「ウェットシートポーチ」です。本来はウェットシート入れなんですが、大判なものに]]></description>
-            <content:encoded><![CDATA[Photo:oh!ga車で出かけるとき、「ちょっとゴミをまとめておきたいな」ということは結構あります。ただ、車の中にゴミ袋をストックしたり、持ち歩くことはしていなかったんです。だって、地味にかさばりませんか？ゴミ袋って。そんなときに、スッキリ持ち運べるアイテムをダイソーでみつけたんですよ。「かわいくない」ポーチダイソーの「ウェットシートポーチ」です。本来はウェットシート入れなんですが、大判なものに]]></content:encoded>
-            <category>PRODUCT</category>
         </item>
         <item>
             <title><![CDATA[【技術書典】Streamlitの入門書で初出展してみて | Qiita - 人気の記事]]></title>
@@ -1596,14 +1693,14 @@
             <pubDate>Sat, 25 May 2024 06:42:45 GMT</pubDate>
             <description><![CDATA[大きく出た ーティードッグの新作は、「ゲームに対する主流の認識を再定義する可能性がある」とニール・ドラックマンが明かした。]]></description>
             <content:encoded><![CDATA[大きく出た ーティードッグの新作は、「ゲームに対する主流の認識を再定義する可能性がある」とニール・ドラックマンが明かした。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>News</category>
             <category>アンチャーテッド 海賊王と最後の秘宝</category>
-            <category>PlayStation 4</category>
-            <category>The Last of Us Part II</category>
+            <category>News</category>
+            <category>ps4</category>
             <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
-            <category>ps4</category>
+            <category>The Last of Us Part II</category>
+            <category>ゲーム</category>
+            <category>PlayStation 4</category>
         </item>
         <item>
             <title><![CDATA[居酒屋で日本酒を注文するときの悩み解決LINE Bot | Qiita - 人気の記事]]></title>
@@ -1787,12 +1884,12 @@
             <pubDate>Fri, 24 May 2024 12:20:26 GMT</pubDate>
             <description><![CDATA[90年代から活躍するテクノアーティストたちがサントラで参加していたゲーム 石野卓球らがサウンドで参加した初代PSのゲーム『攻殻機動隊〜GHOST IN THE SHELL〜』のサントラが再販される。]]></description>
             <content:encoded><![CDATA[90年代から活躍するテクノアーティストたちがサントラで参加していたゲーム 石野卓球らがサウンドで参加した初代PSのゲーム『攻殻機動隊〜GHOST IN THE SHELL〜』のサントラが再販される。]]></content:encoded>
-            <category>セール情報</category>
-            <category>ゲーム</category>
             <category>News</category>
             <category>グッズ</category>
-            <category>エンタメ</category>
             <category>Amazonおすすめ</category>
+            <category>セール情報</category>
+            <category>エンタメ</category>
+            <category>ゲーム</category>
         </item>
         <item>
             <title><![CDATA[5 Free AI Playgrounds For You to Try in 2024 | KDnuggets]]></title>
@@ -1820,19 +1917,19 @@
             <pubDate>Fri, 24 May 2024 11:16:19 GMT</pubDate>
             <description><![CDATA[「……君も、そうなのだろう？」と、プレイヤーにもミケラを追うように誘っているようだ 『ELDEN RING』の公式Xにて、DLC「SHADOW OF THE ERDTREE」の登場人物だと思われるアートが公開された。]]></description>
             <content:encoded><![CDATA[「……君も、そうなのだろう？」と、プレイヤーにもミケラを追うように誘っているようだ 『ELDEN RING』の公式Xにて、DLC「SHADOW OF THE ERDTREE」の登場人物だと思われるアートが公開された。]]></content:encoded>
+            <category>ELDEN RING</category>
+            <category>News</category>
+            <category>ps4</category>
+            <category>xbox-one</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Steam</category>
+            <category>Xbox One</category>
+            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>ELDEN RING</category>
-            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
-            <category>xbox-one</category>
-            <category>Steam</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>Xbox One</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[【特異値分解⑤】全ては R = VΜU^-1 に書いてある！【行列27 R = VΜU^-1】 #179 #VRアカデミア #線型代数入門 | AIcia Solid Project]]></title>
@@ -1940,11 +2037,11 @@
             <pubDate>Fri, 24 May 2024 08:36:38 GMT</pubDate>
             <description><![CDATA[QoLアップデートもうれしい 『Stellar Blade』に新たなボスチャレンジモードと新衣装などを追加するアップデートが配信された。]]></description>
             <content:encoded><![CDATA[QoLアップデートもうれしい 『Stellar Blade』に新たなボスチャレンジモードと新衣装などを追加するアップデートが配信された。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>Sony PlayStation</category>
-            <category>News</category>
             <category>Stellar Blade</category>
+            <category>News</category>
             <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
+            <category>ゲーム</category>
         </item>
         <item>
             <title><![CDATA[Ruby 3.4: Rangeがイテレート不可の場合にRange#sizeがエラーにならない問題を修正（翻訳） | TechRacho]]></title>
@@ -1972,10 +2069,10 @@
             <pubDate>Fri, 24 May 2024 08:04:18 GMT</pubDate>
             <description><![CDATA[ゲーム実況者「わいわい」の参加は今回で3回目 インディーゲームイベント「BitSummit Drift」のスポンサー企業や出展企業の情報が公開された。]]></description>
             <content:encoded><![CDATA[ゲーム実況者「わいわい」の参加は今回で3回目 インディーゲームイベント「BitSummit Drift」のスポンサー企業や出展企業の情報が公開された。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>BitSummit</category>
             <category>News</category>
+            <category>BitSummit</category>
             <category>BitSummit Drift</category>
+            <category>ゲーム</category>
             <category>イベント</category>
         </item>
         <item>
@@ -2108,14 +2205,6 @@
             <content:encoded><![CDATA[<p><img width="200" height="200" src="https://techblog.recochoku.jp/wp-content/uploads/2024/04/Kendra-200x200.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" /></p><h2>はじめに</h2>  こんにちは。 株式会社レコチョクでエンジニアをしている小林です。 普段は、主にPythonを用いたAPIやSolidityによるスマートコントラクトの開発に携わっています。  最近はAIサービスを活用した社内専用のAIチャットツール開発に取り組んでいます。 既にβ版をリリースし、多くの社員にご利用いただいておりますが、更に使い勝手を向上させるため日々機能のアップデートを行っています。  社内専用のチャットツールであるからには、AIへの質問だけでなく社内ドキュメントを簡単に検索できるような機能が欲しいところですが、それらのドキュメントは認証が必要な場所に保管されており、APIからのアクセスは容...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RubyKaigi 2024 アンドパッドブースでの Ruby アンケート結果大公開 | ANDPAD Tech Blog]]></title>
-            <link>https://tech.andpad.co.jp/entry/2024/05/24/114500</link>
-            <guid>https://tech.andpad.co.jp/entry/2024/05/24/114500</guid>
-            <pubDate>Fri, 24 May 2024 02:45:00 GMT</pubDate>
-            <description><![CDATA[こんにちは hsbt です。RubyKaigi 2024 お疲れ様でした。RubyKaigi 2024 では、毎回のことですが半分以上の時間を廊下ですれ違った Rubyist と「最近どうですか」という会話をしたり、「例の件だけど」「Ruby でこういうことを考えている」というような海外から来た Rubyist と仕事の打ち合わせのようなこともやっていました。 さて、今回は RubyKaigi 2...]]></description>
-            <content:encoded><![CDATA[こんにちは hsbt です。RubyKaigi 2024 お疲れ様でした。RubyKaigi 2024 では、毎回のことですが半分以上の時間を廊下ですれ違った Rubyist と「最近どうですか」という会話をしたり、「例の件だけど」「Ruby でこういうことを考えている」というような海外から来た Rubyist と仕事の打ち合わせのようなこともやっていました。 さて、今回は RubyKaigi 2024 でアンドパッドのブースの企画として行っていたアンケートの中から Rubyist が気になるであろう項目についてご紹介します。有効回答数は設問によって異なりますが、いずれも 400 件弱という結…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[「Google Chrome」に緊急アップデート ～「V8」スクリプトエンジンにゼロデイ脆弱性／Windows環境にはv125.0.6422.112/.113が展開中 | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/news/1594266.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/news/1594266.html</guid>
@@ -2184,9 +2273,9 @@
             <pubDate>Thu, 23 May 2024 23:54:50 GMT</pubDate>
             <description><![CDATA[ついに正式発表 Activisionは、2024年の「Call of Duty」が『Call of Duty: Black Ops 6』になることを発表した。]]></description>
             <content:encoded><![CDATA[ついに正式発表 Activisionは、2024年の「Call of Duty」が『Call of Duty: Black Ops 6』になることを発表した。]]></content:encoded>
-            <category>Call of Duty [2024]</category>
             <category>ゲーム</category>
             <category>News</category>
+            <category>Call of Duty [2024]</category>
         </item>
         <item>
             <title><![CDATA[Eventarc を用いたイベントドリブンアーキテクチャ | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
@@ -2200,14 +2289,6 @@
             <category>EDA</category>
             <category>Eventarc</category>
             <category>FanTech</category>
-        </item>
-        <item>
-            <title><![CDATA[SNSの動画投稿が楽になる！ショート動画を簡単に自動生成するAIツール【無料あり】【今からでも遅くない！おすすめAIピックアップ】 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/serial/aipickup/1594036.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/serial/aipickup/1594036.html</guid>
-            <pubDate>Thu, 23 May 2024 23:30:00 GMT</pubDate>
-            <description><![CDATA[今回は、切り抜きやショート動画の作成が楽になるAIツールを紹介します。「YouTube」や「Instagram」などのSNSに載せるための短い動画を、長尺の動画から自動で生成してくれるので、導入するとかなり時短になります。トピックごとに最適な箇所をAIが切り取ってくれるため、細かい調整をするだけでよくなります。]]></description>
-            <content:encoded><![CDATA[今回は、切り抜きやショート動画の作成が楽になるAIツールを紹介します。「YouTube」や「Instagram」などのSNSに載せるための短い動画を、長尺の動画から自動で生成してくれるので、導入するとかなり時短になります。トピックごとに最適な箇所をAIが切り取ってくれるため、細かい調整をするだけでよくなります。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Global Buyma Glimpse Into the Future: Two-Day AI Conference Journey in Istanbul | エニグモ開発者ブログ]]></title>
@@ -2322,18 +2403,6 @@
             <content:encoded><![CDATA[－成長制御による植物バイオマスの増大に期待－]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[よりシンプルになる Svelte の世界 (azukiazusa) | 勉強会スライドBot]]></title>
-            <link>https://speakerdeck.com/azukiazusa1/yorisinpuruninaru-svelte-noshi-jie</link>
-            <guid>https://speakerdeck.com/azukiazusa1/yorisinpuruninaru-svelte-noshi-jie</guid>
-            <pubDate>Thu, 23 May 2024 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TanStackで効率的なルーティングとデータ取得を実現 (ytaisei) | 勉強会スライドBot]]></title>
-            <link>https://speakerdeck.com/ytaisei/tanstackdexiao-lu-de-naruteingutodetaqu-de-woshi-xian</link>
-            <guid>https://speakerdeck.com/ytaisei/tanstackdexiao-lu-de-naruteingutodetaqu-de-woshi-xian</guid>
-            <pubDate>Thu, 23 May 2024 15:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[Learning System Design: Top 5 Essential Reads | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/learning-system-design-top-5-essential-reads?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learning-system-design-top-5-essential-reads</link>
             <guid>https://www.kdnuggets.com/?p=175128</guid>
@@ -2369,16 +2438,16 @@
             <pubDate>Thu, 23 May 2024 11:13:42 GMT</pubDate>
             <description><![CDATA[アピールボタンを設定すると試しやすい 『ストリートファイター6』に実装されたばかりの豪鬼で、真豪鬼や神人豪鬼を思わせるパワーアップができるイースターエッグが発見された。]]></description>
             <content:encoded><![CDATA[アピールボタンを設定すると試しやすい 『ストリートファイター6』に実装されたばかりの豪鬼で、真豪鬼や神人豪鬼を思わせるパワーアップができるイースターエッグが発見された。]]></content:encoded>
+            <category>ストリートファイター6</category>
+            <category>News</category>
+            <category>ps4</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Steam</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>ストリートファイター6</category>
-            <category>Steam</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[ラクガキで悪の企業と戦え！グラフィティがテーマの3Dアクション『RKGK』がPCで配信開始 | IGN Japan games]]></title>
@@ -2387,10 +2456,10 @@
             <pubDate>Thu, 23 May 2024 10:32:21 GMT</pubDate>
             <description><![CDATA[開発はメキシコの新規スタジオ・Wabisabi Games グラフィティをテーマにした3Dアクション『RKGK』がPCでリリースされた。]]></description>
             <content:encoded><![CDATA[開発はメキシコの新規スタジオ・Wabisabi Games グラフィティをテーマにした3Dアクション『RKGK』がPCでリリースされた。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>News</category>
             <category>Steam</category>
+            <category>ゲーム</category>
+            <category>PC</category>
             <category>RKGK / Rakugaki</category>
         </item>
         <item>
@@ -2444,14 +2513,14 @@
             <pubDate>Thu, 23 May 2024 07:36:47 GMT</pubDate>
             <description><![CDATA[体験版は英語のみだが、製品版は日本語吹き替えでのローカライズを予定している 『Enotria: The Last Song』の約8時間遊べる体験版がPS5/PCで配信開始となった。]]></description>
             <content:encoded><![CDATA[体験版は英語のみだが、製品版は日本語吹き替えでのローカライズを予定している 『Enotria: The Last Song』の約8時間遊べる体験版がPS5/PCで配信開始となった。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
+            <category>Enotria: The Last Song</category>
             <category>News</category>
+            <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
             <category>Steam</category>
             <category>Xbox Series X</category>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>Enotria: The Last Song</category>
+            <category>ゲーム</category>
+            <category>PC</category>
         </item>
         <item>
             <title><![CDATA[【Azure OpenAI Service】Streamlit×LangChainでAIアプリ開発に入門してみた | SIOS Tech. Lab]]></title>
@@ -2571,9 +2640,9 @@
             <pubDate>Thu, 23 May 2024 03:59:23 GMT</pubDate>
             <description><![CDATA[どの世代にも楽しめる「ウィザードリィ」を 古典中の古典ともいうべきコンピュータRPG『ウィザードリィ』が帰ってきた。元祖Apple II版をベースにしつつ、往年のプレイヤーにも現代の若者にも楽しめるよう絶妙な調整を施した『Wizardry: Proving Grounds of the Mad Overlord』。パブリッシング』担当のジャスティン・ベイリー氏（Digital Eclipse）と原...]]></description>
             <content:encoded><![CDATA[どの世代にも楽しめる「ウィザードリィ」を 古典中の古典ともいうべきコンピュータRPG『ウィザードリィ』が帰ってきた。元祖Apple II版をベースにしつつ、往年のプレイヤーにも現代の若者にも楽しめるよう絶妙な調整を施した『Wizardry: Proving Grounds of the Mad Overlord』。パブリッシング』担当のジャスティン・ベイリー氏（Digital Eclipse）と原作者ロバート・ウッドヘッド氏に詳しく訊いた。]]></content:encoded>
-            <category>Review</category>
             <category>ゲーム</category>
             <category>Wizardry: Proving Grounds of the Mad Overlord [2023]</category>
+            <category>Review</category>
         </item>
         <item>
             <title><![CDATA[Google Ads API v16_1 のお知らせ | Google Developers Japan]]></title>
@@ -2606,9 +2675,9 @@
             <pubDate>Thu, 23 May 2024 03:09:38 GMT</pubDate>
             <description><![CDATA[ハードパワーを上げる進化なら誰でも想像できるが、人々に驚いてもらうものを作ろうとしてWiiが誕生したようだ 任天堂の元社長である岩田聡の単独インタビュー映像が20年の時を経て公開された。]]></description>
             <content:encoded><![CDATA[ハードパワーを上げる進化なら誰でも想像できるが、人々に驚いてもらうものを作ろうとしてWiiが誕生したようだ 任天堂の元社長である岩田聡の単独インタビュー映像が20年の時を経て公開された。]]></content:encoded>
-            <category>任天堂</category>
             <category>ゲーム</category>
             <category>News</category>
+            <category>任天堂</category>
         </item>
         <item>
             <title><![CDATA[CloudWatch Metric Mathを利用してAWS WAFのマネージドルールのブロック数を可視化する方法を解説 | LCL Engineers' Blog]]></title>
@@ -2704,9 +2773,9 @@
             <pubDate>Thu, 23 May 2024 00:55:21 GMT</pubDate>
             <description><![CDATA[サイトはテレビを模したデザインで、6つのチャンネルが設けられている 「Call of Duty: Black Ops 6」を紹介するものと思われるティーザーサイトと映像が公開されている。]]></description>
             <content:encoded><![CDATA[サイトはテレビを模したデザインで、6つのチャンネルが設けられている 「Call of Duty: Black Ops 6」を紹介するものと思われるティーザーサイトと映像が公開されている。]]></content:encoded>
-            <category>Call of Duty [2024]</category>
             <category>ゲーム</category>
             <category>News</category>
+            <category>Call of Duty [2024]</category>
         </item>
         <item>
             <title><![CDATA[中国で『AI習近平』誕生。「習近平思想」記した著書十数冊や公式文書で強化 | テクノエッジ TechnoEdge]]></title>
@@ -2886,10 +2955,10 @@
             <pubDate>Wed, 22 May 2024 08:34:34 GMT</pubDate>
             <description><![CDATA[肉弾戦を繰り広げるバイクアクション『Road Redemption』の開発元による新作 中世に現代兵器を持ち込んで戦うゲーム『Kingmakers』の新トレーラーが公開された。]]></description>
             <content:encoded><![CDATA[肉弾戦を繰り広げるバイクアクション『Road Redemption』の開発元による新作 中世に現代兵器を持ち込んで戦うゲーム『Kingmakers』の新トレーラーが公開された。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>News</category>
             <category>Steam</category>
+            <category>ゲーム</category>
+            <category>PC</category>
             <category>Kingmakers</category>
         </item>
         <item>
@@ -2987,13 +3056,13 @@
             <pubDate>Wed, 22 May 2024 05:39:54 GMT</pubDate>
             <description><![CDATA[イコライザーのプリセットが100以上のゲームで用意されている 2024年5月24日に発売されるヘッドセット「Arctis Nova 5」の発表会をレポートする。]]></description>
             <content:encoded><![CDATA[イコライザーのプリセットが100以上のゲームで用意されている 2024年5月24日に発売されるヘッドセット「Arctis Nova 5」の発表会をレポートする。]]></content:encoded>
+            <category>周辺機器</category>
+            <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
+            <category>Preview</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Preview</category>
-            <category>周辺機器</category>
-            <category>Xbox Series X</category>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
         </item>
         <item>
             <title><![CDATA[男子新体操とはエンジニアリングである | ROXX開発者ブログ]]></title>
@@ -3096,20 +3165,20 @@
             <content:encoded><![CDATA[LINEヤフー株式会社では、技術に関するイベントや勉強会の主催・協賛などを行っています。最新情報は各リンク先でご確認ください。タイミングによっては、申し込み開始前や既に満席となっていることがあります。...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[2024年6月の技術系イベント予定 | LINEヤフー Tech Blog]]></title>
-            <link>https://techblog.lycorp.co.jp/ja/20240522a</link>
-            <guid>https://techblog.lycorp.co.jp/ja/20240522a</guid>
-            <pubDate>Wed, 22 May 2024 02:00:00 GMT</pubDate>
-            <description><![CDATA[LINEヤフー株式会社では、技術に関するイベントや勉強会の主催・協賛などを行っています。最新情報は各リンク先でご確認ください。タイミングによっては、申し込み開始前や既に満席となっていることがあります。...]]></description>
-            <content:encoded><![CDATA[LINEヤフー株式会社では、技術に関するイベントや勉強会の主催・協賛などを行っています。最新情報は各リンク先でご確認ください。タイミングによっては、申し込み開始前や既に満席となっていることがあります。...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[ZOZOTOWNアプリのレガシーAPIリプレイスの道のり 〜チームでの挑戦〜 | ZOZO TECH BLOG]]></title>
             <link>https://techblog.zozo.com/entry/legacy-app-api-replace</link>
             <guid>https://techblog.zozo.com/entry/legacy-app-api-replace</guid>
             <pubDate>Wed, 22 May 2024 02:00:00 GMT</pubDate>
             <description><![CDATA[はじめに こんにちは、ZOZOTOWN開発本部アプリバックエンドブロックの髙井です。 私達のチームでは、レガシーとなっているZOZOTOWNアプリ用API（以下、レガシーAPIと呼ぶ）のリプレイスに2023年から着手しています。リプレイス対象となるレガシーAPIは規模が大きいので、フェーズで区切り、段階的にリプレイスを進めています。区切られた各フェーズは、フェーズ1、フェーズ2といった形で呼び分け...]]></description>
             <content:encoded><![CDATA[はじめに こんにちは、ZOZOTOWN開発本部アプリバックエンドブロックの髙井です。 私達のチームでは、レガシーとなっているZOZOTOWNアプリ用API（以下、レガシーAPIと呼ぶ）のリプレイスに2023年から着手しています。リプレイス対象となるレガシーAPIは規模が大きいので、フェーズで区切り、段階的にリプレイスを進めています。区切られた各フェーズは、フェーズ1、フェーズ2といった形で呼び分けており、フェーズごとにリプレイス対象とするエンドポイントを設定しています。一方で、事業案件や他マイクロサービスのリプレイスが並行して行われるため、フェーズごとにリプレイス計画を柔軟に調整してきました。…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2024年6月の技術系イベント予定 | LINEヤフー Tech Blog]]></title>
+            <link>https://techblog.lycorp.co.jp/ja/20240522a</link>
+            <guid>https://techblog.lycorp.co.jp/ja/20240522a</guid>
+            <pubDate>Wed, 22 May 2024 02:00:00 GMT</pubDate>
+            <description><![CDATA[LINEヤフー株式会社では、技術に関するイベントや勉強会の主催・協賛などを行っています。最新情報は各リンク先でご確認ください。タイミングによっては、申し込み開始前や既に満席となっていることがあります。...]]></description>
+            <content:encoded><![CDATA[LINEヤフー株式会社では、技術に関するイベントや勉強会の主催・協賛などを行っています。最新情報は各リンク先でご確認ください。タイミングによっては、申し込み開始前や既に満席となっていることがあります。...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[対話可能な選択的機械除草ロボットのプロジェクトとさくらの専用サーバの利用について | さくらのナレッジ]]></title>
@@ -3161,25 +3230,17 @@
             <category>Terraform</category>
         </item>
         <item>
-            <title><![CDATA[Amazon Web Service 社より生成AI関連機能のハンズオンを開催いただきました！ | ANDPAD Tech Blog]]></title>
-            <link>https://tech.andpad.co.jp/entry/2024/05/22/100000</link>
-            <guid>https://tech.andpad.co.jp/entry/2024/05/22/100000</guid>
-            <pubDate>Wed, 22 May 2024 01:00:00 GMT</pubDate>
-            <description><![CDATA[こんにちは！ANDPADでエンジニアをしている谷澤です。先日Amazon Web Service (以下AWS) 社より生成AI関連機能についてのプライベートなハンズオンを開催いただきました。 社外の方にも雰囲気をお伝えできればと思います。 はじめに 私が所属するデータ部は、アンドパッド社内に蓄積されたデータを活用して、継続的にビジネス価値を創出していくことを目指しています。 直近では黒板AI機能...]]></description>
-            <content:encoded><![CDATA[こんにちは！ANDPADでエンジニアをしている谷澤です。先日Amazon Web Service (以下AWS) 社より生成AI関連機能についてのプライベートなハンズオンを開催いただきました。 社外の方にも雰囲気をお伝えできればと思います。 はじめに 私が所属するデータ部は、アンドパッド社内に蓄積されたデータを活用して、継続的にビジネス価値を創出していくことを目指しています。 直近では黒板AI機能をリリースしています。 tech.andpad.co.jp 上記の他にも複数のプロジェクトが進行しており、将来皆様にお伝えできるのを楽しみにしています。 Amazon Bedrock のハンズオン ア…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[マイクロソフトがNinja Theoryの新作を承認したとの報道 『Senua's Saga: Hellblade II』開発スタジオの閉鎖予定はなし | IGN Japan games]]></title>
             <link>https://jp.ign.com/hellblade-2/74866/news/ninja-theory-senuas-saga-hellblade-ii</link>
             <guid>https://jp.ign.com/hellblade-2/74866/news/ninja-theory-senuas-saga-hellblade-ii</guid>
             <pubDate>Wed, 22 May 2024 00:40:50 GMT</pubDate>
             <description><![CDATA[スタジオ閉鎖が懸念されるなかで新作が承認される マイクロソフトが、『Senua's Saga: Hellblade II』で知られるNinja Theoryが手がける新たなゲームを承認したと報じられた。]]></description>
             <content:encoded><![CDATA[スタジオ閉鎖が懸念されるなかで新作が承認される マイクロソフトが、『Senua's Saga: Hellblade II』で知られるNinja Theoryが手がける新たなゲームを承認したと報じられた。]]></content:encoded>
+            <category>News</category>
             <category>Senua's Saga: Hellblade II</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>Xbox Series X</category>
         </item>
         <item>
             <title><![CDATA[知っておくとちょっと便利！dig コマンドの使い方 | SIOS Tech. Lab]]></title>
@@ -3238,18 +3299,18 @@
             <pubDate>Tue, 21 May 2024 23:36:42 GMT</pubDate>
             <description><![CDATA[枝分かれ 『ELDEN RING: SHADOW OF THE ERDTREE』のストーリートレーラーが公開された。]]></description>
             <content:encoded><![CDATA[枝分かれ 『ELDEN RING: SHADOW OF THE ERDTREE』のストーリートレーラーが公開された。]]></content:encoded>
+            <category>ELDEN RING</category>
+            <category>News</category>
+            <category>ps4</category>
+            <category>xbox-one</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Xbox One</category>
+            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>ELDEN RING</category>
-            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
-            <category>xbox-one</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>Xbox One</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[価値のあるテストを書き続けるために、考え実践していること | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
@@ -3373,12 +3434,12 @@
             <pubDate>Tue, 21 May 2024 13:27:40 GMT</pubDate>
             <description><![CDATA[同社の新作「Project Witches」にも言及された 『Stellar Blade』のシリーズ化などが計画されているようだ。]]></description>
             <content:encoded><![CDATA[同社の新作「Project Witches」にも言及された 『Stellar Blade』のシリーズ化などが計画されているようだ。]]></content:encoded>
+            <category>Stellar Blade</category>
+            <category>News</category>
+            <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>Stellar Blade</category>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
         </item>
         <item>
             <title><![CDATA[「ココロのプログラム」最終回まで読んだ | pooneilの脳科学論文コメント]]></title>
@@ -3403,12 +3464,12 @@
             <pubDate>Tue, 21 May 2024 10:16:55 GMT</pubDate>
             <description><![CDATA[Switch後継機種のゲームでShiver Entertainmentの技術が活かされそうだ 任天堂がShiver Entertainmentの子会社化を発表した。]]></description>
             <content:encoded><![CDATA[Switch後継機種のゲームでShiver Entertainmentの技術が活かされそうだ 任天堂がShiver Entertainmentの子会社化を発表した。]]></content:encoded>
-            <category>ゲーム</category>
             <category>News</category>
-            <category>ホグワーツ・レガシー</category>
-            <category>任天堂</category>
             <category>nintendo-switch</category>
             <category>Nintendo Switch</category>
+            <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>ホグワーツ・レガシー</category>
         </item>
         <item>
             <title><![CDATA[習慣化に失敗する人の特徴 | paiza times]]></title>
@@ -3451,11 +3512,11 @@
             <pubDate>Tue, 21 May 2024 08:23:25 GMT</pubDate>
             <description><![CDATA[Steam版『キングダム ハーツIII』ではプラットフォーム限定のキーブレードが使えるようだ これまでEpic Gamesストアでしか配信されていなかった「キングダム ハーツ」シリーズのPC版がSteamにやってくる。]]></description>
             <content:encoded><![CDATA[Steam版『キングダム ハーツIII』ではプラットフォーム限定のキーブレードが使えるようだ これまでEpic Gamesストアでしか配信されていなかった「キングダム ハーツ」シリーズのPC版がSteamにやってくる。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>キングダム ハーツIII</category>
             <category>News</category>
             <category>Steam</category>
+            <category>ゲーム</category>
+            <category>PC</category>
         </item>
         <item>
             <title><![CDATA[初心者必見！プロンプトエンジニアリング入門ガイド ~基礎編~ | SIOS Tech. Lab]]></title>
@@ -3868,21 +3929,21 @@
             <pubDate>Mon, 20 May 2024 09:44:39 GMT</pubDate>
             <description><![CDATA[体験版用にアレンジされたストーリー第1章をプレイ可能 Nintendo Switch向けに配信中の『イナズマイレブン 英雄たちのヴィクトリーロード』体験版にストーリーモードが追加される。]]></description>
             <content:encoded><![CDATA[体験版用にアレンジされたストーリー第1章をプレイ可能 Nintendo Switch向けに配信中の『イナズマイレブン 英雄たちのヴィクトリーロード』体験版にストーリーモードが追加される。]]></content:encoded>
-            <category>iphone</category>
             <category>Mobile</category>
-            <category>ゲーム</category>
-            <category>PC</category>
+            <category>android</category>
             <category>イナズマイレブン 英雄たちのヴィクトリーロード</category>
             <category>News</category>
-            <category>任天堂</category>
-            <category>Android</category>
-            <category>nintendo-switch</category>
-            <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Nintendo Switch</category>
-            <category>PlayStation 5</category>
             <category>ps4</category>
-            <category>android</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>nintendo-switch</category>
+            <category>Nintendo Switch</category>
+            <category>Android</category>
+            <category>iphone</category>
+            <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>PC</category>
+            <category>PlayStation 4</category>
         </item>
         <item>
             <title><![CDATA[技術書典16で『WANTEDLY TECH BOOK 14』を頒布します！ | Wantedly Engineer Blog]]></title>
@@ -3968,14 +4029,14 @@
             <pubDate>Mon, 20 May 2024 05:52:52 GMT</pubDate>
             <description><![CDATA[発売は2024年8月20日 西遊記をテーマにしたアクションRPG『黒神話：悟空』の新トレーラーが公開された。]]></description>
             <content:encoded><![CDATA[発売は2024年8月20日 西遊記をテーマにしたアクションRPG『黒神話：悟空』の新トレーラーが公開された。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
-            <category>News</category>
             <category>黒神話：悟空</category>
+            <category>News</category>
+            <category>PlayStation 5</category>
+            <category>Sony PlayStation</category>
             <category>Steam</category>
             <category>Xbox Series X</category>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
+            <category>ゲーム</category>
+            <category>PC</category>
         </item>
         <item>
             <title><![CDATA[PC版『Ghost of Tshusima』好調 ピーク時のプレイヤー数が『ゴッド・オブ・ウォー』や『Horizon Zero Dawn』を超える | IGN Japan games]]></title>
@@ -3984,15 +4045,15 @@
             <pubDate>Mon, 20 May 2024 05:50:47 GMT</pubDate>
             <description><![CDATA[Steamでピーク時のプレイヤー数が7万7000人を突破 PC版『Ghost of Tsushima Director's Cut』が好調だ。]]></description>
             <content:encoded><![CDATA[Steamでピーク時のプレイヤー数が7万7000人を突破 PC版『Ghost of Tsushima Director's Cut』が好調だ。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
-            <category>News</category>
-            <category>Ghost of Tsushima Director's Cut</category>
             <category>Ghost of Tsushima</category>
-            <category>PlayStation 4</category>
+            <category>News</category>
+            <category>ps4</category>
             <category>Sony PlayStation</category>
             <category>PlayStation 5</category>
-            <category>ps4</category>
+            <category>ゲーム</category>
+            <category>PC</category>
+            <category>Ghost of Tsushima Director's Cut</category>
+            <category>PlayStation 4</category>
         </item>
         <item>
             <title><![CDATA[【生成AI】Gemini 1.5 FlashがVertex AIで利用可能になりました！ | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
@@ -4028,19 +4089,19 @@
             <pubDate>Mon, 20 May 2024 04:04:09 GMT</pubDate>
             <description><![CDATA[不死身忍者、鬼っ子、虎のような獣人でプレイできる 和風ローグライクアクション『百剣討妖伝綺譚』の15秒ゲームプレイ映像が同作の公式Xで公開されている。]]></description>
             <content:encoded><![CDATA[不死身忍者、鬼っ子、虎のような獣人でプレイできる 和風ローグライクアクション『百剣討妖伝綺譚』の15秒ゲームプレイ映像が同作の公式Xで公開されている。]]></content:encoded>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>News</category>
+            <category>ps4</category>
+            <category>百剣討妖伝綺譚</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>nintendo-switch</category>
+            <category>Steam</category>
+            <category>Nintendo Switch</category>
             <category>任天堂</category>
             <category>Xbox Series X</category>
-            <category>百剣討妖伝綺譚</category>
-            <category>nintendo-switch</category>
+            <category>ゲーム</category>
+            <category>PC</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Nintendo Switch</category>
-            <category>Steam</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[CrystalMaker用ワークステーション | TEGAKARI]]></title>
@@ -4261,6 +4322,12 @@
             <content:encoded><![CDATA[ポイント国立研究開発法人情報通信研究機構と国立研究開発法人産業技術総合研究所が共同で、Beyond 5G/6G（以下、B5G/6G）時代に利用が本格化するテラヘルツ帯（100 GHz～）を含む周...]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[袖岡 幹子 副センター長が紫綬褒章を受章 | お知らせ]]></title>
+            <link>https://www.riken.jp/pr/news/2024/20240520_1/index.html</link>
+            <guid> https://www.riken.jp/pr/news/2024/20240520_1/index.html</guid>
+            <pubDate>Sun, 19 May 2024 15:00:00 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[日本人高齢者の膝伸展筋力のゲノムワイド関連解析 | プレスリリースニュース]]></title>
             <link>https://www.riken.jp/press/2024/20240520_1/index.html</link>
             <guid>https://www.riken.jp/press/2024/20240520_1/index.html</guid>
@@ -4269,22 +4336,16 @@
             <content:encoded><![CDATA[－TACC2遺伝子の多型は膝伸展筋力に関連する－]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[袖岡 幹子 副センター長が紫綬褒章を受章 | お知らせ]]></title>
-            <link>https://www.riken.jp/pr/news/2024/20240520_1/index.html</link>
-            <guid> https://www.riken.jp/pr/news/2024/20240520_1/index.html</guid>
-            <pubDate>Sun, 19 May 2024 15:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[AIを使いながらAIを目的とせず、相手とのあいまいなコミュニケーションを目指すADV2題――『Inverted Angel』と『_turing』について【東京ゲームダンジョン5】 | IGN Japan games]]></title>
             <link>https://jp.ign.com/tokyo-game-dungeon/74836/preview/aiaiadv2inverted-angel-turing5</link>
             <guid>https://jp.ign.com/tokyo-game-dungeon/74836/preview/aiaiadv2inverted-angel-turing5</guid>
             <pubDate>Sun, 19 May 2024 02:30:34 GMT</pubDate>
             <description><![CDATA[AIに異なる形でアプローチした2作 東京ゲームダンジョン5出展作品から、AIを利用したゲームを2作紹介。]]></description>
             <content:encoded><![CDATA[AIに異なる形でアプローチした2作 東京ゲームダンジョン5出展作品から、AIを利用したゲームを2作紹介。]]></content:encoded>
+            <category>東京ゲームダンジョン</category>
+            <category>Preview</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>Preview</category>
-            <category>東京ゲームダンジョン</category>
         </item>
         <item>
             <title><![CDATA[Orca Shiftleft Security API がリリースされました | ForgeVision Engineer Blog]]></title>
@@ -4317,9 +4378,9 @@
             <pubDate>Sat, 18 May 2024 09:06:07 GMT</pubDate>
             <description><![CDATA[帝国の逆襲 ストラテジーゲームを得意とするCreative Assemblyが、「スター・ウォーズ」をテーマにした「Total War」シリーズ新作を開発していると報じられた。]]></description>
             <content:encoded><![CDATA[帝国の逆襲 ストラテジーゲームを得意とするCreative Assemblyが、「スター・ウォーズ」をテーマにした「Total War」シリーズ新作を開発していると報じられた。]]></content:encoded>
-            <category>Total War: Pharaoh</category>
             <category>ゲーム</category>
             <category>News</category>
+            <category>Total War: Pharaoh</category>
         </item>
         <item>
             <title><![CDATA[Valveの新作ゲームは『オーバーウォッチ』風のヒーローシューターか タイトルは『Deadlock』になる模様 | IGN Japan games]]></title>
@@ -4328,9 +4389,9 @@
             <pubDate>Sat, 18 May 2024 09:00:33 GMT</pubDate>
             <description><![CDATA[まもなく発表されるとの情報も Valveの新作ゲームとされるものの画像と詳細情報がネット上にリークした。]]></description>
             <content:encoded><![CDATA[まもなく発表されるとの情報も Valveの新作ゲームとされるものの画像と詳細情報がネット上にリークした。]]></content:encoded>
-            <category>Deadlock [Rumored Title]</category>
             <category>ゲーム</category>
             <category>News</category>
+            <category>Deadlock [Rumored Title]</category>
         </item>
         <item>
             <title><![CDATA[『ELDEN RING』より新しい不気味な敵画像が突如公開 黄金のゴッドウィンとの関連を疑うファンの声も | IGN Japan games]]></title>
@@ -4339,32 +4400,24 @@
             <pubDate>Sat, 18 May 2024 03:24:29 GMT</pubDate>
             <description><![CDATA[プレイヤーがさまざまな説を展開 『ELDEN RING』を開発するフロム・ソフトウェアが、2024年6月21日に発売されるDLC「SHADOW OF THE ERDTREE」に先立って、新しい不気味な敵を公開した。]]></description>
             <content:encoded><![CDATA[プレイヤーがさまざまな説を展開 『ELDEN RING』を開発するフロム・ソフトウェアが、2024年6月21日に発売されるDLC「SHADOW OF THE ERDTREE」に先立って、新しい不気味な敵を公開した。]]></content:encoded>
+            <category>ELDEN RING</category>
+            <category>News</category>
+            <category>ps4</category>
+            <category>xbox-one</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>Xbox One</category>
+            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
+            <category>Xbox Series X</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>ELDEN RING</category>
-            <category>ELDEN RING: SHADOW OF THE ERDTREE</category>
-            <category>xbox-one</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Xbox Series X</category>
-            <category>Xbox One</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[Google I/O 2024: New AI That Looks Like Magic! | Two Minute Papers]]></title>
             <link>https://www.youtube.com/watch?v=MEJo5YSOrnU</link>
             <guid>https://www.youtube.com/watch?v=MEJo5YSOrnU</guid>
             <pubDate>Fri, 17 May 2024 19:10:42 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Generalizing diffusion modeling to multimodal, multitask settings | Amazon Science homepage]]></title>
-            <link>https://www.amazon.science/blog/generalizing-diffusion-modeling-to-multimodal-multitask-settings</link>
-            <guid>https://www.amazon.science/blog/generalizing-diffusion-modeling-to-multimodal-multitask-settings</guid>
-            <pubDate>Fri, 17 May 2024 15:32:49 GMT</pubDate>
-            <description><![CDATA[A novel loss function and a way to aggregate multimodal input data are key to dramatic improvements on some test data.]]></description>
-            <content:encoded><![CDATA[A novel loss function and a way to aggregate multimodal input data are key to dramatic improvements on some test data.]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Mastering Python: 7 Strategies for Writing Clear, Organized, and Efficient Code | KDnuggets]]></title>
@@ -4416,21 +4469,21 @@
             <pubDate>Fri, 17 May 2024 11:44:54 GMT</pubDate>
             <description><![CDATA[最大8人で遊べる、カジュアルなサンドボックス型サバイバルクラフトゲーム サンドボックスサバイバル『Core Keeper』の正式版が2024年8月27日に配信決定した。]]></description>
             <content:encoded><![CDATA[最大8人で遊べる、カジュアルなサンドボックス型サバイバルクラフトゲーム サンドボックスサバイバル『Core Keeper』の正式版が2024年8月27日に配信決定した。]]></content:encoded>
-            <category>Xbox One</category>
-            <category>ゲーム</category>
-            <category>PC</category>
             <category>News</category>
+            <category>ps4</category>
+            <category>xbox-one</category>
+            <category>Sony PlayStation</category>
+            <category>PlayStation 5</category>
+            <category>nintendo-switch</category>
+            <category>Steam</category>
+            <category>Nintendo Switch</category>
+            <category>Xbox One</category>
             <category>Core Keeper</category>
             <category>任天堂</category>
             <category>Xbox Series X</category>
-            <category>xbox-one</category>
-            <category>nintendo-switch</category>
+            <category>ゲーム</category>
+            <category>PC</category>
             <category>PlayStation 4</category>
-            <category>Sony PlayStation</category>
-            <category>Nintendo Switch</category>
-            <category>Steam</category>
-            <category>PlayStation 5</category>
-            <category>ps4</category>
         </item>
         <item>
             <title><![CDATA[『Minecraft』の正式リリース15周年記念セールが開催中 PC/ゲーム機版は50%オフ、モバイル版は70%オフに | IGN Japan games]]></title>
@@ -4439,26 +4492,26 @@
             <pubDate>Fri, 17 May 2024 11:32:12 GMT</pubDate>
             <description><![CDATA[シリーズタイトルもセール中 『Minecraft』の正式リリース15周年を記念し、シリーズのセールがおこなわれている。]]></description>
             <content:encoded><![CDATA[シリーズタイトルもセール中 『Minecraft』の正式リリース15周年を記念し、シリーズのセールがおこなわれている。]]></content:encoded>
-            <category>PC</category>
-            <category>PlayStation 4</category>
-            <category>iphone</category>
-            <category>Sony PlayStation</category>
-            <category>PlayStation 5</category>
-            <category>Minecraft</category>
-            <category>任天堂</category>
-            <category>xbox-one</category>
-            <category>Xbox Series X</category>
-            <category>ps4</category>
-            <category>android</category>
             <category>Mobile</category>
-            <category>ゲーム</category>
-            <category>Android</category>
-            <category>Nintendo Switch</category>
+            <category>Minecraft</category>
             <category>News</category>
-            <category>Minecraft Dungeons</category>
-            <category>nintendo-switch</category>
             <category>Minecraft Legends</category>
+            <category>ps4</category>
+            <category>PlayStation 5</category>
+            <category>Xbox Series X</category>
+            <category>PlayStation 4</category>
+            <category>xbox-one</category>
+            <category>nintendo-switch</category>
+            <category>Nintendo Switch</category>
+            <category>iphone</category>
+            <category>任天堂</category>
+            <category>ゲーム</category>
+            <category>PC</category>
+            <category>android</category>
+            <category>Sony PlayStation</category>
+            <category>Minecraft Dungeons</category>
             <category>Xbox One</category>
+            <category>Android</category>
         </item>
         <item>
             <title><![CDATA[ActivisionがストーリーベースのAAAゲームフランチャイズを開発する新スタジオを設立 | IGN Japan games]]></title>
@@ -4544,12 +4597,12 @@
             <pubDate>Fri, 17 May 2024 07:55:03 GMT</pubDate>
             <description><![CDATA[『100%おれんじじゅーすっ！』はフレンドと遊ぶとワイワイガヤガヤと盛り上がる ボードゲーム『100%おれんじじゅーすっ！』がSteamにて無料配布中だ。無料配布期間は2024年5月23日2:00まで。]]></description>
             <content:encoded><![CDATA[『100%おれんじじゅーすっ！』はフレンドと遊ぶとワイワイガヤガヤと盛り上がる ボードゲーム『100%おれんじじゅーすっ！』がSteamにて無料配布中だ。無料配布期間は2024年5月23日2:00まで。]]></content:encoded>
+            <category>Endless Legend</category>
+            <category>News</category>
+            <category>Steam</category>
             <category>ゲーム</category>
             <category>PC</category>
-            <category>News</category>
-            <category>Endless Legend</category>
             <category>100% Orange Juice</category>
-            <category>Steam</category>
         </item>
         <item>
             <title><![CDATA[BigQueryの分散処理の仕組みを深掘りする | PLAID Engineer Blog - 株式会社プレイド]]></title>
@@ -5686,38 +5739,6 @@
             <description><![CDATA[こんにちは！ 今回は、先日行われましたVision研修についてまとめていきます！ Vision研修とは？カルチャーデッキを理解することで、組織人として研修の意図や意味を理解し、自ら行動できる状態になることを目的に行われま […]]]></description>
             <content:encoded><![CDATA[こんにちは！ 今回は、先日行われましたVision研修についてまとめていきます！ Vision研修とは？カルチャーデッキを理解することで、組織人として研修の意図や意味を理解し、自ら行動できる状態になることを目的に行われま […]]]></content:encoded>
             <category>未分類</category>
-        </item>
-        <item>
-            <title><![CDATA[【R】解析結果を保存しておく方法 3 選 | アメリエフの技術ブログ]]></title>
-            <link>https://staffblog.amelieff.jp/entry/2024/05/14/120000</link>
-            <guid>https://staffblog.amelieff.jp/entry/2024/05/14/120000</guid>
-            <pubDate>Tue, 14 May 2024 03:00:00 GMT</pubDate>
-            <description><![CDATA[R で解析途中の結果を保存しておく方法 3 選！]]></description>
-            <content:encoded><![CDATA[R で解析途中の結果を保存しておく方法 3 選！]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[100人以上の資料を読んで見つけた伝わりやすい成果報告書の書き方 | CARTA TECH BLOG]]></title>
-            <link>https://techblog.cartaholdings.co.jp/entry/how-to-write-results-report</link>
-            <guid>https://techblog.cartaholdings.co.jp/entry/how-to-write-results-report</guid>
-            <pubDate>Tue, 14 May 2024 02:45:49 GMT</pubDate>
-            <description><![CDATA[TL;DR 自身の成果をアピールするために、1)Before/After、2)自分の寄与度、3)数字的インパクトを過不足なく伝えることが重要 説明の冒頭では、課題と解法の全体感と成果を述べ、詳細は後に肉付けすると伝わりやすい 課題を伝える際は"誰から見た課題か"を明確にする。課題は解法の前提であるためブレないように はじめに 技術広報のしゅーぞーです。この記事では、過去100人分程度の成果報告書を...]]></description>
-            <content:encoded><![CDATA[TL;DR 自身の成果をアピールするために、1)Before/After、2)自分の寄与度、3)数字的インパクトを過不足なく伝えることが重要 説明の冒頭では、課題と解法の全体感と成果を述べ、詳細は後に肉付けすると伝わりやすい 課題を伝える際は"誰から見た課題か"を明確にする。課題は解法の前提であるためブレないように はじめに 技術広報のしゅーぞーです。この記事では、過去100人分程度の成果報告書を読み、気付いた "自分の成果をわかりやすく伝える書き方"をまとめています。 仕事をしていると自身の成果を的確に伝える機会は数多くありますよね。 評価期、転職面接、昇格面談など 評価者に自分の成果をどう…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[目指すは企業価値最大化！？グループ会社支援チームのご紹介 | エムスリーテックブログ]]></title>
-            <link>https://www.m3tech.blog/entry/2024/05/14/113331</link>
-            <guid>https://www.m3tech.blog/entry/2024/05/14/113331</guid>
-            <pubDate>Tue, 14 May 2024 02:33:31 GMT</pubDate>
-            <description><![CDATA[エンジニアリンググループ、プロダクトマネージャーの岩田(@a___iwata)です。 今回はプロダクトマネジメントではなく、私が兼務しているグループ会社支援チームでの挑戦について記事を書きます。 グループ会社支援って何？ どんな面白さがあるの？ といった疑問に応えられればと思います。]]></description>
-            <content:encoded><![CDATA[エンジニアリンググループ、プロダクトマネージャーの岩田(@a___iwata)です。 今回はプロダクトマネジメントではなく、私が兼務しているグループ会社支援チームでの挑戦について記事を書きます。 グループ会社支援って何？ どんな面白さがあるの？ といった疑問に応えられればと思います。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Webhookとは？APIとの違いやメリットなど解説 | シー・エス・エス イノベーションラボ（ブログ）]]></title>
-            <link>https://blog.css-net.co.jp/entry/2024/05/14/113305</link>
-            <guid>https://blog.css-net.co.jp/entry/2024/05/14/113305</guid>
-            <pubDate>Tue, 14 May 2024 02:33:05 GMT</pubDate>
-            <description><![CDATA[こんにちは！ ES開発部のだいです！今私はアプリ開発の現場で業務をしています。 そこで初めて耳にしたWebhookという単語についてサクッとまとめていこうと思います。 Webhookとは WebhookとAPIの違い Webhookのメリット Webhookのデメリット 身の回りに潜むWebhook この記事を書いた人 Webhookとは Wikipediaを見ると以下のように書かれています。 w...]]></description>
-            <content:encoded><![CDATA[こんにちは！ ES開発部のだいです！今私はアプリ開発の現場で業務をしています。 そこで初めて耳にしたWebhookという単語についてサクッとまとめていこうと思います。 Webhookとは WebhookとAPIの違い Webhookのメリット Webhookのデメリット 身の回りに潜むWebhook この記事を書いた人 Webhookとは Wikipediaを見ると以下のように書かれています。 webhook（ウェブフック）は、web開発でカスタムのコールバックを用いてウェブページやウェブアプリケーションの動作を追加または変更するための方法である。このコールバックは、元のウェブサイトやアプリケ…]]></content:encoded>
         </item>
     </channel>
 </rss>
