@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-06-16T23:26:24.672Z</updated>
+    <updated>2024-06-17T02:11:11.820Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,204 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[ZIO 2.1.x で詰まってしまったコード | FLINTERS Engineer's Blog]]></title>
+        <id>https://blog.flinters.co.jp/entry/2024/06/17/110000</id>
+        <link href="https://blog.flinters.co.jp/entry/2024/06/17/110000"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。河内です。 今回の投稿はFLINTERSブログ祭りの記事です。テーマは #Scala #ZIO です。 2024年5月にリリースされた ZIO 2.1.0 では runtime にいくつかの変更があります。 一つは autoblocking のデフォルト無効化です。 2022年6月にリリースされた ZIO 2.0.0 では autoblocking という機能が導入されました。 これは...]]></summary>
+        <content type="html"><![CDATA[こんにちは。河内です。 今回の投稿はFLINTERSブログ祭りの記事です。テーマは #Scala #ZIO です。 2024年5月にリリースされた ZIO 2.1.0 では runtime にいくつかの変更があります。 一つは autoblocking のデフォルト無効化です。 2022年6月にリリースされた ZIO 2.0.0 では autoblocking という機能が導入されました。 これは blocking な操作を自動的に blocking 専用の thread pool で実行するようにランタイムが調整してくれるという機能です。 main 処理用の thread pool は CP…]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[従来のCMSからLandPress ContentにCMSを移行する理由 | LINEヤフー Tech Blog]]></title>
+        <id>https://techblog.lycorp.co.jp/ja/20240617b</id>
+        <link href="https://techblog.lycorp.co.jp/ja/20240617b"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></summary>
+        <content type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yahoo!フリマ Android開発チームの GitHub Copilot 活用事例 | LINEヤフー Tech Blog]]></title>
+        <id>https://techblog.lycorp.co.jp/ja/20240617a</id>
+        <link href="https://techblog.lycorp.co.jp/ja/20240617a"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。Yahoo!フリマのAndroid開発を担当している菅野です。 私の開発チームではGitHub Copilotを導入し、開発の生産性を高めています。今回は私たちの開発チームがどのようにGi...]]></summary>
+        <content type="html"><![CDATA[こんにちは。Yahoo!フリマのAndroid開発を担当している菅野です。 私の開発チームではGitHub Copilotを導入し、開発の生産性を高めています。今回は私たちの開発チームがどのようにGi...]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTとPydanticでかんたん契約書解析 | MNTSQ Techブログ]]></title>
+        <id>https://tech.mntsq.co.jp/entry/2024/06/17/110000</id>
+        <link href="https://tech.mntsq.co.jp/entry/2024/06/17/110000"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解か...]]></summary>
+        <content type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解かせてどんな結果になるか見てみます。 ざっくりやり方 GPT-4oのAPIを呼び出すところ ここではAzure OpenAIのGPT-4oを使います。Microsoftのサンプルコードほぼそのままですが…]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[従来のCMSからLandPress ContentにCMSを移行する理由 | LINEヤフー Tech Blog]]></title>
+        <id>https://techblog.lycorp.co.jp/ja/20240617b</id>
+        <link href="https://techblog.lycorp.co.jp/ja/20240617b"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></summary>
+        <content type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yahoo!フリマ Android開発チームの GitHub Copilot 活用事例 | LINEヤフー Tech Blog]]></title>
+        <id>https://techblog.lycorp.co.jp/ja/20240617a</id>
+        <link href="https://techblog.lycorp.co.jp/ja/20240617a"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。Yahoo!フリマのAndroid開発を担当している菅野です。 私の開発チームではGitHub Copilotを導入し、開発の生産性を高めています。今回は私たちの開発チームがどのようにGi...]]></summary>
+        <content type="html"><![CDATA[こんにちは。Yahoo!フリマのAndroid開発を担当している菅野です。 私の開発チームではGitHub Copilotを導入し、開発の生産性を高めています。今回は私たちの開発チームがどのようにGi...]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[時間を有意義に使うには。ChatGPTを時短に活用してみよう | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/make-the-most-of-your-time-with-chatgpt.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/make-the-most-of-your-time-with-chatgpt.html"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[簡単な文書作成やスケジュール管理など、AIを有効活用すれば時間が節約できる。]]></summary>
+        <content type="html"><![CDATA[簡単な文書作成やスケジュール管理など、AIを有効活用すれば時間が節約できる。]]></content>
+        <author>
+            <name>福田ミホ</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WWDC24総括とLuma AIを語るポッドキャスト第59回を本日（6月17日）正午にライブ配信 | テクノエッジ TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2024/06/17/3472.html</id>
+        <link href="https://www.techno-edge.net/article/2024/06/17/3472.html"/>
+        <updated>2024-06-17T01:50:44.000Z</updated>
+        <summary type="html"><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第59回放送を、本日（6月17日）正午（12時）に、YouTubeで行います。]]></summary>
+        <content type="html"><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第59回放送を、本日（6月17日）正午（12時）に、YouTubeで行います。]]></content>
+        <published>2024-06-17T01:50:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LenovoのインテルCPU搭載ノートが安い！Amazonタイムセール【本日みつけたお買い得情報】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/goodbuy/1600469.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/goodbuy/1600469.html"/>
+        <updated>2024-06-17T01:46:45.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのLenovoストアでは現在、インテル製CPU搭載ノートPCのセールが行われており、同社の「IdeaPad Slim」シリーズがタイムセール価格となっています。またお得なクーポン（有効期限6月23日）の配布も行われています。]]></summary>
+        <content type="html"><![CDATA[Amazon.co.jpのLenovoストアでは現在、インテル製CPU搭載ノートPCのセールが行われており、同社の「IdeaPad Slim」シリーズがタイムセール価格となっています。またお得なクーポン（有効期限6月23日）の配布も行われています。]]></content>
+        <published>2024-06-17T01:46:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video Duplicate Finder 3.0 Beta | ダウンロードと使い方 | ソフタロウ]]></title>
+        <id>https://softaro.net/?p=140294</id>
+        <link href="https://softaro.net/video-duplicate-finder/"/>
+        <updated>2024-06-17T01:44:19.000Z</updated>
+        <summary type="html"><![CDATA[よくある質問と回答 ライセンスについて。 Video Duplicate Finder は、どなたでも無料で利用できます。]]></summary>
+        <content type="html"><![CDATA[よくある質問と回答 ライセンスについて。 Video Duplicate Finder は、どなたでも無料で利用できます。]]></content>
+        <author>
+            <name>softaro</name>
+        </author>
+        <category label="ファイル管理"/>
+        <category label="0x90d"/>
+        <category label="Linux"/>
+        <category label="Mac"/>
+        <category label="Windows"/>
+        <category label="フリーソフト"/>
+        <category label="重複ファイル削除"/>
+        <category label="重複ファイル検索"/>
+        <published>2024-06-17T01:44:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac/Linuxでも楽しめる将棋アプリ「ShogiHome」が公開 ～オープンソース、Electron製／「Electron 将棋」から改称 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1600459.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1600459.html"/>
+        <updated>2024-06-17T01:31:33.000Z</updated>
+        <summary type="html"><![CDATA[オープンソースの将棋アプリ「ShogiHome」が6月14日、「GitHub」でリリースされた。ライセンスは「MIT License」で、無償でのダウンロードが可能。]]></summary>
+        <content type="html"><![CDATA[オープンソースの将棋アプリ「ShogiHome」が6月14日、「GitHub」でリリースされた。ライセンスは「MIT License」で、無償でのダウンロードが可能。]]></content>
+        <published>2024-06-17T01:31:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aceでテキストエリアをエディタ化する | GMOアドパートナーズ TECH BLOG byGMO]]></title>
+        <id>https://techblog.gmo-ap.jp/?p=41340</id>
+        <link href="https://techblog.gmo-ap.jp/2024/06/17/ace-editor/"/>
+        <updated>2024-06-17T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。GMO NIKKOのKONCEです。今回はJS製エディタのAceについて調べる機会があったのでブログの題材にしてみます。使用するケースはかなり限られてくると思いますがよければご覧ください 背景 ネイ]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは。GMO NIKKOのKONCEです。今回はJS製エディタのAceについて調べる機会があったのでブログの題材にしてみます。使用するケースはかなり限られてくると思いますがよければご覧ください 背景 ネイ]]></content>
+        <author>
+            <name>KONCE</name>
+        </author>
+        <category label="JavaScript"/>
+        <category label="Ace"/>
+        <category label="Webアプリケーション"/>
+        <published>2024-06-17T01:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【アップデート情報】パッケージ・ドライバー関連　6月17日　～ロジクールなど | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/update/driver/1600456.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/update/driver/1600456.html"/>
+        <updated>2024-06-17T01:30:00.000Z</updated>
+        <published>2024-06-17T01:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【ABEJAアジャイル活動記録】なぜアジャイルを採用するのか？ | ABEJA Tech Blog]]></title>
+        <id>https://tech-blog.abeja.asia/entry/why-agile-202406</id>
+        <link href="https://tech-blog.abeja.asia/entry/why-agile-202406"/>
+        <updated>2024-06-17T01:04:10.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ABEJA でスクラムマスターをしている小川です！ 最近、新規加入メンバーやステークホルダー向けにアジャイルとは？について説明/解説をする機会が増えたので、そこでよく話している内容をまとめてみました。 アジャイルについてギュッと短くまとめてみましたので、「知らないよ」という人には学びのきっかけに、「もう知ってるよ」という方にもチームや組織への説明材料の一つとしてお役に立てれば幸いです！...]]></summary>
+        <content type="html"><![CDATA[こんにちは！ABEJA でスクラムマスターをしている小川です！ 最近、新規加入メンバーやステークホルダー向けにアジャイルとは？について説明/解説をする機会が増えたので、そこでよく話している内容をまとめてみました。 アジャイルについてギュッと短くまとめてみましたので、「知らないよ」という人には学びのきっかけに、「もう知ってるよ」という方にもチームや組織への説明材料の一つとしてお役に立てれば幸いです！ 目次 はじめに 突然ですが... ウォーターフォール型の開発プロセスをおさらい アジャイルとは？ アジャイルの思想と手法 アジャイルの実践とその先にあるもの Be アジャイルな活動 結びのようなもの…]]></content>
+        <published>2024-06-17T01:04:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【やってみた】Colab EnterpriseからCloud Storageにファイル出力するPythonコードを実装する | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
+        <id>https://techblog.nhn-techorus.com/?p=33170</id>
+        <link href="https://techblog.nhn-techorus.com/archives/33170"/>
+        <updated>2024-06-17T01:00:37.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは、フクナガです。 以前、Colab EnterpriseでPythonノートブック環境を超短時間で用意するという記事を執筆しました！ 普段からPythonで開発をするわけではないので、サクッと環境を用意できて色々試せるの... 続きを読む 【やってみた】Colab EnterpriseからCloud Storageにファイル出力するPythonコードを実装する first ap...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは、フクナガです。 以前、Colab EnterpriseでPythonノートブック環境を超短時間で用意するという記事を執筆しました！ 普段からPythonで開発をするわけではないので、サクッと環境を用意できて色々試せるの... 続きを読む 【やってみた】Colab EnterpriseからCloud Storageにファイル出力するPythonコードを実装する first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
+        <author>
+            <name>フクナガ</name>
+        </author>
+        <category label="Google Cloud"/>
+        <category label="Python"/>
+        <category label="Colab Enterprise"/>
+        <category label="Cloud Storage"/>
+        <category label="Vertex AI"/>
+        <published>2024-06-17T01:00:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[開発生産性の改善から1年経過したチームで考えていること | メドピア開発者ブログ]]></title>
+        <id>https://tech.medpeer.co.jp/entry/2024/06/17/095000</id>
+        <link href="https://tech.medpeer.co.jp/entry/2024/06/17/095000"/>
+        <updated>2024-06-17T00:50:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。エンジニアの保立(@purunkaoru) です。 僕のチームでは、開発生産性の改善に取り組んでから1年経過しました。 開発生産性の改善系の記事やノウハウは世間によく出ていますが、1年経過した今、開発生産性に対してEMの立場で何を考えているかを言語化します。 チームメンバーの構成は、執筆時で以下の通りです。 フロントエンド: 5名 サーバーサイド: 9名 モバイルアプリ: 3名 EM（...]]></summary>
+        <content type="html"><![CDATA[こんにちは。エンジニアの保立(@purunkaoru) です。 僕のチームでは、開発生産性の改善に取り組んでから1年経過しました。 開発生産性の改善系の記事やノウハウは世間によく出ていますが、1年経過した今、開発生産性に対してEMの立場で何を考えているかを言語化します。 チームメンバーの構成は、執筆時で以下の通りです。 フロントエンド: 5名 サーバーサイド: 9名 モバイルアプリ: 3名 EM（保立）: 1名 弊社では、Findy Team+ を導入し、開発生産性を見えるようにしています。 まずはFindy Team+の画面を見ながら、改善結果を見ていきます。 直近1年間 直近2年間 直近2…]]></content>
+        <published>2024-06-17T00:50:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Visual Studio Code」に癒しを！ ペットがコーディングに寄り添ってくれる拡張機能／お馴染みのあいつやこいつも含んだ全17種類を飼える【レビュー】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/review/1600021.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/review/1600021.html"/>
+        <updated>2024-06-16T23:39:00.000Z</updated>
+        <summary type="html"><![CDATA[「Visual Studio Code」でコーディングしていると、時折“癒し”がほしくなることはないだろうか。ネコを飼うプログラマーが少なくないように見えるのは、張り詰めた神経を解きほぐし、リラックスするには、そばに寄り添ってくれるペットが癒しとなるからだろう。しかし、住環境やアレルギーなどが理由でペットが飼えない人もいる。]]></summary>
+        <content type="html"><![CDATA[「Visual Studio Code」でコーディングしていると、時折“癒し”がほしくなることはないだろうか。ネコを飼うプログラマーが少なくないように見えるのは、張り詰めた神経を解きほぐし、リラックスするには、そばに寄り添ってくれるペットが癒しとなるからだろう。しかし、住環境やアレルギーなどが理由でペットが飼えない人もいる。]]></content>
+        <published>2024-06-16T23:39:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ LiveLinkを使ってMetahumanの顔をモーションキャプチャで動かす　後編 | 電通総研 テックブログ]]></title>
+        <id>https://tech.dentsusoken.com/entry/ue_livelink_part2</id>
+        <link href="https://tech.dentsusoken.com/entry/ue_livelink_part2"/>
+        <updated>2024-06-16T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、電通総研金融ソリューション事業部の岡崎です。 前回の記事ではMetaHumanIdentityを使用してLiveLink動画を調整する手順まで説明しました。 この記事は前回の続きからになりますので、まだご覧になっていない方は、前編も是非ご一読ください！ 検証環境/ツール OS：Windows 11 pro GPU：NVIDIA GeForce RTX 4070 Ti Game Engi...]]></summary>
+        <content type="html"><![CDATA[こんにちは、電通総研金融ソリューション事業部の岡崎です。 前回の記事ではMetaHumanIdentityを使用してLiveLink動画を調整する手順まで説明しました。 この記事は前回の続きからになりますので、まだご覧になっていない方は、前編も是非ご一読ください！ 検証環境/ツール OS：Windows 11 pro GPU：NVIDIA GeForce RTX 4070 Ti Game Engine：Unreal Engine 5.2.1 iPhone14pro：IOS16.4.1 実装手順 LiveLinkを使用した撮影 UnrealEngineの準備 iPhoneで撮影した動画をインポー…]]></content>
+        <published>2024-06-16T23:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ LiveLinkを使ってMetaHumanの顔をモーションキャプチャで動かす　前編 | 電通総研 テックブログ]]></title>
+        <id>https://tech.dentsusoken.com/entry/ue_livelink_part1</id>
+        <link href="https://tech.dentsusoken.com/entry/ue_livelink_part1"/>
+        <updated>2024-06-16T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、電通総研金融ソリューション事業部の岡崎です。 今回はLive Link Face for Unreal EngineというiPhoneのアプリを使用して iPhoneのカメラで撮影した顔のアニメーションをキャプチャし、UnrealEngineのMetaHumanに適応させる方法を ご紹介します。 また、こちらの山下さんの記事では、Livelinkを用いてリアルタイムにMetaHuman...]]></summary>
+        <content type="html"><![CDATA[こんにちは、電通総研金融ソリューション事業部の岡崎です。 今回はLive Link Face for Unreal EngineというiPhoneのアプリを使用して iPhoneのカメラで撮影した顔のアニメーションをキャプチャし、UnrealEngineのMetaHumanに適応させる方法を ご紹介します。 また、こちらの山下さんの記事では、Livelinkを用いてリアルタイムにMetaHumanを動かす方法が紹介されていますので、ぜひそちらもご覧ください。 本記事は前編後編に分かれており、この記事では手順4の「MetaHumanIdentityを使用してLiveLink動画を調整」までをご紹…]]></content>
+        <published>2024-06-16T23:30:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptでもEffectを使ってScalaのZIO並に最高にハイな開発体験🚀 | FLINTERS Engineer's Blog]]></title>
         <id>https://blog.flinters.co.jp/entry/2024/06/17/080000</id>
@@ -111,12 +309,34 @@
         <published>2024-06-16T18:43:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[理研BDR共催イベント：EMBO | COB Workshop “Molecular mechanisms of developmental and regenerative biology” | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/symposia/20241106_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/symposia/20241106_1/index.html"/>
+        <updated>2024-06-16T15:00:00.000Z</updated>
+        <published>2024-06-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[漁業と環境に貢献するコンブの研究開発事業 | クローズアップ科学道]]></title>
+        <id> https://www.riken.jp/pr/closeup/2024/20240617_1/index.html</id>
+        <link href="
+		https://www.riken.jp/pr/closeup/2024/20240617_1/index.html"/>
+        <updated>2024-06-16T15:00:00.000Z</updated>
+        <published>2024-06-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Sports video games made me understand fanfiction | Polygon -  Gaming]]></title>
         <id>https://www.polygon.com/24177873/sports-video-games-fanfiction-challengers-topspin</id>
         <link href="https://www.polygon.com/24177873/sports-video-games-fanfiction-challengers-topspin"/>
         <updated>2024-06-16T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[Image: Hangar 13/2K Games via Polygon  Thank you to Challengers and TopSpin 2K25  I finally saw Challengers this week. It immediately entered my personal echelon of the great modern sports movies (as ...]]></summary>
         <content type="html"><![CDATA[Image: Hangar 13/2K Games via Polygon  Thank you to Challengers and TopSpin 2K25  I finally saw Challengers this week. It immediately entered my personal echelon of the great modern sports movies (as well as a gripping, thorny romantic drama). The movie does a terrific job of using the existing powerful narrative structures and character archetypes in sports to create a compelling story — the washed-up prospect, the fading star, the phenom who never got her seemingly fated shot at glory. And as ...]]></content>
+        <published>2024-06-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一人称視点映像解析の基礎と応用（CVIMチュートリアル） (Takuma Yagi) | 勉強会スライドBot]]></title>
+        <id>https://speakerdeck.com/takumayagi/ren-cheng-shi-dian-ying-xiang-jie-xi-noji-chu-toying-yong-cvimtiyutoriaru</id>
+        <link href="https://speakerdeck.com/takumayagi/ren-cheng-shi-dian-ying-xiang-jie-xi-noji-chu-toying-yong-cvimtiyutoriaru"/>
+        <updated>2024-06-16T15:00:00.000Z</updated>
         <published>2024-06-16T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -213,6 +433,18 @@
         <published>2024-06-16T11:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[一瞬で理解するHydration | Zennのトレンド]]></title>
+        <id>https://zenn.dev/ak/articles/dd60f8b1712628</id>
+        <link href="https://zenn.dev/ak/articles/dd60f8b1712628"/>
+        <updated>2024-06-16T10:52:14.000Z</updated>
+        <summary type="html"><![CDATA[はじめに この記事の内容は、以下の動画でも解説しているので是非見てみてください！（動画の方が多分分かりやすいです） https://youtu.be/PyXbb8YqaNg?si=tu3MPODwvaQjKe9-   Hydrationとは？ Hydration（ハイドレーション）とは、直訳すると「水分補給」という意味です。 フロントエンドの世界では、静的な HTML に JavaScript を...]]></summary>
+        <content type="html"><![CDATA[はじめに この記事の内容は、以下の動画でも解説しているので是非見てみてください！（動画の方が多分分かりやすいです） https://youtu.be/PyXbb8YqaNg?si=tu3MPODwvaQjKe9-   Hydrationとは？ Hydration（ハイドレーション）とは、直訳すると「水分補給」という意味です。 フロントエンドの世界では、静的な HTML に JavaScript を結び付けてインタラクティブにするプロセスのことを指します。 例えば、React で SSR する場合を考えてみましょう。  SSR では、まずブラウザはサーバーに対して、リクエストを送信しま...]]></content>
+        <author>
+            <name>aki</name>
+        </author>
+        <published>2024-06-16T10:52:14.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[エンジニアなら必ず読むべき技術書30選 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/Sicut_study/items/0b27dca18af96c80bec8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/Sicut_study/items/0b27dca18af96c80bec8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -222,7 +454,7 @@
         <published>2024-06-16T10:03:31.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[名刺入れがファミコンのカセットだったら、会話のきっかけになるかもしれない | ギズモード・ジャパン]]></title>
+        <title type="html"><![CDATA[名刺入れがファミコンのカセットだったら、会話のきっかけになるかも | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/06/new-family-caset-case-for-name-tag.html</id>
         <link href="https://www.gizmodo.jp/2024/06/new-family-caset-case-for-name-tag.html"/>
         <updated>2024-06-16T09:00:00.000Z</updated>
@@ -244,6 +476,18 @@
         <published>2024-06-16T08:47:30.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[近似近傍探索のチューニングで気をつけること | Zennのトレンド]]></title>
+        <id>https://zenn.dev/dmmdata/articles/6b8c228a912060</id>
+        <link href="https://zenn.dev/dmmdata/articles/6b8c228a912060"/>
+        <updated>2024-06-16T08:31:29.000Z</updated>
+        <summary type="html"><![CDATA[本記事ではFaissやScaNNといったライブラリに実装されているIVF-PQ系の近似近傍探索手法のパラメータチューニングの際に気をつける点を紹介します。pythonのプログラム上で動かすことを想定していて、vertex AI vector searchのようなAPIで行うものは対象外です。ただ、OpenSearchではfaissを近似近傍探索として選ぶことができるため、チューニングの参考になるか...]]></summary>
+        <content type="html"><![CDATA[本記事ではFaissやScaNNといったライブラリに実装されているIVF-PQ系の近似近傍探索手法のパラメータチューニングの際に気をつける点を紹介します。pythonのプログラム上で動かすことを想定していて、vertex AI vector searchのようなAPIで行うものは対象外です。ただ、OpenSearchではfaissを近似近傍探索として選ぶことができるため、チューニングの参考になるかもしれません。   はじめに: ANN-Benchmarksの罠 ANNの性能とパフォーマンスの参考になるサイトとして、ANN-Benchmarksというサイトがあります。このサイトでは各近似近...]]></content>
+        <author>
+            <name>nadare</name>
+        </author>
+        <published>2024-06-16T08:31:29.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[出来ないとヤバい！タイピング能力を鍛える | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/ryoheitakahashi/items/06d5fec2d35befce5f26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/ryoheitakahashi/items/06d5fec2d35befce5f26?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -251,6 +495,18 @@
         <summary type="html"><![CDATA[「タイピングってどのくらい出来る？」 突然なんだ？と思われるかも知れないですが、実は分かっているようで分かっていない、でもめちゃくちゃ大事な基本、それがタイピング力です。 「タイピングってどのくらい…]]></summary>
         <content type="html"><![CDATA[「タイピングってどのくらい出来る？」 突然なんだ？と思われるかも知れないですが、実は分かっているようで分かっていない、でもめちゃくちゃ大事な基本、それがタイピング力です。 「タイピングってどのくらい…]]></content>
         <published>2024-06-16T08:27:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCodeで生産性を上げる | Zennのトレンド]]></title>
+        <id>https://zenn.dev/ultrasupara/articles/174429511504c7</id>
+        <link href="https://zenn.dev/ultrasupara/articles/174429511504c7"/>
+        <updated>2024-06-16T08:09:30.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんなツイートを見て執筆をしようと思いました。 https://x.com/reo_kashiwazaki/status/1801103020983546243?s=46&t=yWfp0Ao85uPgDNU-Mzm9ew 実際に、VSCodeは機能の追加や拡張機能の開発が活発に行われており、かつUIもユーザーフレンドリーであるため人気のエディターだと思います。VSCodeを使いこなせるの...]]></summary>
+        <content type="html"><![CDATA[はじめに こんなツイートを見て執筆をしようと思いました。 https://x.com/reo_kashiwazaki/status/1801103020983546243?s=46&t=yWfp0Ao85uPgDNU-Mzm9ew 実際に、VSCodeは機能の追加や拡張機能の開発が活発に行われており、かつUIもユーザーフレンドリーであるため人気のエディターだと思います。VSCodeを使いこなせるのとそうでないのではエンジニアリングの生産性に大きな差が出てしまうと思います。   パンくずの設定  '>' を入力します。  '>' preferences: Open ...]]></content>
+        <author>
+            <name>asu_para</name>
+        </author>
+        <published>2024-06-16T08:09:30.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Podmanを始めたい | Qiita - 人気の記事]]></title>
@@ -304,18 +560,6 @@
         <summary type="html"><![CDATA[はじめに 今年も参加いただきありがとうございました。今年はgetRankとflagAliasの2問を提供しました。 [misc]getRankはJavaScriptの仕様を用いたパズルっぽいeasy…]]></summary>
         <content type="html"><![CDATA[はじめに 今年も参加いただきありがとうございました。今年はgetRankとflagAliasの2問を提供しました。 [misc]getRankはJavaScriptの仕様を用いたパズルっぽいeasy…]]></content>
         <published>2024-06-16T06:46:30.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SECCON CTF4b 2024 writeup | Zennのトレンド]]></title>
-        <id>https://zenn.dev/mizar/articles/83515f8291bb76</id>
-        <link href="https://zenn.dev/mizar/articles/83515f8291bb76"/>
-        <updated>2024-06-16T06:19:04.000Z</updated>
-        <summary type="html"><![CDATA[自分は去年のCTF4b2023がCTF競技の初参加で、今回が2回目になります。去年に引き続き、 VRC競プロ部(VRC-procon) のチームにて SECCON CTF4b 2024 に参加していました。  チーム成績は 998ポイント、962チーム中64位でした。チームで解いた問題は13問、そのうち自分が解いた問題、アシストした問題のwriteupをしてみます。   Challenge log...]]></summary>
-        <content type="html"><![CDATA[自分は去年のCTF4b2023がCTF競技の初参加で、今回が2回目になります。去年に引き続き、 VRC競プロ部(VRC-procon) のチームにて SECCON CTF4b 2024 に参加していました。  チーム成績は 998ポイント、962チーム中64位でした。チームで解いた問題は13問、そのうち自分が解いた問題、アシストした問題のwriteupをしてみます。   Challenge logs    CHALLENGE CATEGORY RANK DATE     Welcome welcome 21 2024-06-15T05:00:41.208Z   simpleoverflo...]]></content>
-        <author>
-            <name>Mizar/みざー</name>
-        </author>
-        <published>2024-06-16T06:19:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【Vue.js】単一ファイルコンポーネント（SFC） | Qiita - 人気の記事]]></title>
@@ -417,7 +661,7 @@
         <published>2024-06-16T03:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[移動中のコードの煩わしさが解消。ワイヤレス低周波治療器がとにかく快適そう | ギズモード・ジャパン]]></title>
+        <title type="html"><![CDATA[コードの煩わしさが解消。ワイヤレス低周波治療器がとにかく快適そう | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/06/omron-cordless-low-frequency-therapy.html</id>
         <link href="https://www.gizmodo.jp/2024/06/omron-cordless-low-frequency-therapy.html"/>
         <updated>2024-06-16T03:00:00.000Z</updated>
@@ -664,18 +908,6 @@
         <summary type="html"><![CDATA[Stable Diffusion開発元の、Stability AI Japan - External AdvocateのD̷ELLと申します。 今回、Stable Diffusion最高モデル S…]]></summary>
         <content type="html"><![CDATA[Stable Diffusion開発元の、Stability AI Japan - External AdvocateのD̷ELLと申します。 今回、Stable Diffusion最高モデル S…]]></content>
         <published>2024-06-15T14:56:46.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SnowflakeSummit2024 SnowflakeHorizon新機能まとめ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/misa_s/articles/89b443d0185c35</id>
-        <link href="https://zenn.dev/misa_s/articles/89b443d0185c35"/>
-        <updated>2024-06-15T14:12:41.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、Snowflake（SnowVillage）のデタマネコミュニティを運営している佐川です。 今年2024年のSnowflakeSummitにて、SnowflakeHorizonの機能が大量に追加されたので、新機能をまとめてみました。 自分向けのメモも兼ねてですが、ざっくり20超の機能が紹介されていて膨大過ぎる…という印象だったので、5つの柱＋α主観で分類してみています。 公式でもSno...]]></summary>
-        <content type="html"><![CDATA[こんにちは、Snowflake（SnowVillage）のデタマネコミュニティを運営している佐川です。 今年2024年のSnowflakeSummitにて、SnowflakeHorizonの機能が大量に追加されたので、新機能をまとめてみました。 自分向けのメモも兼ねてですが、ざっくり20超の機能が紹介されていて膨大過ぎる…という印象だったので、5つの柱＋α主観で分類してみています。 公式でもSnowflakeHorizonの新機能に関する記事がSummit直後に出ているのでご参考ください。 https://www.snowflake.com/blog/horizon-leading-go...]]></content>
-        <author>
-            <name>msgw_data</name>
-        </author>
-        <published>2024-06-15T14:12:41.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Creating a Systematic ESG Scoring System: Conclusion and Bibliography | HackerNoon - machine-learning]]></title>
@@ -965,6 +1197,18 @@
         <published>2024-06-15T05:35:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[軽量なStorybook駆動開発を支えるコンポーネント設計 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yuta_takahashi/articles/600e62c7ac7b3c</id>
+        <link href="https://zenn.dev/yuta_takahashi/articles/600e62c7ac7b3c"/>
+        <updated>2024-06-15T05:33:05.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。この記事ではStorybook駆動開発をゼロから導入するために実践した内容をコンポーネント設計の側面から紹介します。合わせて、紹介した設計を元にどのようなテストを実装しているかについても紹介します。   簡単に実装できることが持続可能なテストへの鍵 Webフロントエンドの持続可能なテスト文化を醸成するためには、テストを開発フローの中で簡単に実装できることが何よりも重要です。テストの実装...]]></summary>
+        <content type="html"><![CDATA[こんにちは。この記事ではStorybook駆動開発をゼロから導入するために実践した内容をコンポーネント設計の側面から紹介します。合わせて、紹介した設計を元にどのようなテストを実装しているかについても紹介します。   簡単に実装できることが持続可能なテストへの鍵 Webフロントエンドの持続可能なテスト文化を醸成するためには、テストを開発フローの中で簡単に実装できることが何よりも重要です。テストの実装に機能開発以上のコストが掛かってしまう場合、「時間が無いのでテストコードを後から実装する（結果実装されない）」という典型的なアンチパターンに繋がってしまいます。   持続可能なテストを実現するた...]]></content>
+        <author>
+            <name>Yuta Takahashi</name>
+        </author>
+        <published>2024-06-15T05:33:05.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[GitHub Projects] 私たちのプロジェクト管理方法を紹介 第3弾 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/Antonnion/items/ac3a865c030fed58655a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/Antonnion/items/ac3a865c030fed58655a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -972,19 +1216,6 @@
         <summary type="html"><![CDATA[はじめに こんにちは。株式会社 Panta Rhei のインフラ構築を担当している岸本です。 前回と前々回に引き続き私たちが採用しているプロジェクト管理方法第3弾をご紹介します。 今回は大項目、中項…]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。株式会社 Panta Rhei のインフラ構築を担当している岸本です。 前回と前々回に引き続き私たちが採用しているプロジェクト管理方法第3弾をご紹介します。 今回は大項目、中項…]]></content>
         <published>2024-06-15T04:28:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[部分群の定義・具体例｜部分群であることの証明テンプレも紹介 | あーるえぬ]]></title>
-        <id>https://math-note.xyz/?p=14885</id>
-        <link href="https://math-note.xyz/algebra/basics-of-group-theory/definition-of-subgroup/"/>
-        <updated>2024-06-15T04:02:05.000Z</updated>
-        <summary type="html"><![CDATA[線形空間に対して線形部分空間が定義されたように，群に対しても部分群というものが定義されます． 名前からも分かるように，部分群とは もとの群の集合の部分集合で もとの群と同じ演算で閉じていて 群となっているもの のことを言 […]]]></summary>
-        <content type="html"><![CDATA[線形空間に対して線形部分空間が定義されたように，群に対しても部分群というものが定義されます． 名前からも分かるように，部分群とは もとの群の集合の部分集合で もとの群と同じ演算で閉じていて 群となっているもの のことを言 […]]]></content>
-        <author>
-            <name>山本 拓人</name>
-        </author>
-        <category label="群論の基本"/>
-        <published>2024-06-15T04:02:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Google Cloud での GPU インスタンス利用までの道のり | エンジニアブログ | iret.media]]></title>
@@ -1314,13 +1545,6 @@
         <published>2024-06-14T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AndroidエンジニアがDroidKaigiに初参加した話 (chicken Jr.) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/chickenjr_mi/androidenziniagadroidkaiginichu-can-jia-sitahua</id>
-        <link href="https://speakerdeck.com/chickenjr_mi/androidenziniagadroidkaiginichu-can-jia-sitahua"/>
-        <updated>2024-06-14T15:00:00.000Z</updated>
-        <published>2024-06-14T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[祝🎉 POSIX.1-2024 (Issue 8) 改定！16年ぶりの大幅改定でシェルスクリプトはどう新しくなるのか？ | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/ko1nksm/items/b8dbf6aab82cb03eec51?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/ko1nksm/items/b8dbf6aab82cb03eec51?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1554,19 +1778,6 @@
         <updated>2024-06-14T09:00:00.000Z</updated>
         <summary type="html"><![CDATA[はじめに こんにちは。マイクロアドの機械学習チームです。5月28日(火) ~ 5月31日(金)に静岡県浜松市で開催されたJSAI2024 (第38回 人工知能学会全国大会）の参加レポートです。 マイクロアドはゴールドスポンサーとして協賛させていただき、ブース出展とインダストリアルセッションでの発表を行いました。 スポンサーブース 今回は「オンライン広告の入札制御例とCookie規制後の広告技術」を...]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。マイクロアドの機械学習チームです。5月28日(火) ~ 5月31日(金)に静岡県浜松市で開催されたJSAI2024 (第38回 人工知能学会全国大会）の参加レポートです。 マイクロアドはゴールドスポンサーとして協賛させていただき、ブース出展とインダストリアルセッションでの発表を行いました。 スポンサーブース 今回は「オンライン広告の入札制御例とCookie規制後の広告技術」をテーマにブース出展していました。 ありがたいことに多くの学生さんや企業の方などにお立ち寄りいただくことができ、広告事業やマイクロアドの業務についてご紹介することができました。 Google Chorm…]]></content>
-        <published>2024-06-14T09:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「涼しく感じる音楽」誕生。どういう仕組み？ | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/hibiya-music-festival-2024-kao-megrhythm.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/hibiya-music-festival-2024-kao-megrhythm.html"/>
-        <updated>2024-06-14T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:照沼健太今年の夏も暑くなりそうです。「熱中症対策は現代人のマストスキル」と言い切っても何もおかしくないくらい、最近の夏は暑いですよね。帽子や塩タブレットといった熱中症対策アイテムに加え、近年注目を集めているのがひんやり感じる冷感グッズですが、新しく「冷感音楽」が作られたと聞いたので体験しに行ってきました。音楽フェスで体験、涼しくなる音楽って？この「冷感音楽」を作ったのは、あの花王。20]]></summary>
-        <content type="html"><![CDATA[Photo:照沼健太今年の夏も暑くなりそうです。「熱中症対策は現代人のマストスキル」と言い切っても何もおかしくないくらい、最近の夏は暑いですよね。帽子や塩タブレットといった熱中症対策アイテムに加え、近年注目を集めているのがひんやり感じる冷感グッズですが、新しく「冷感音楽」が作られたと聞いたので体験しに行ってきました。音楽フェスで体験、涼しくなる音楽って？この「冷感音楽」を作ったのは、あの花王。20]]></content>
-        <author>
-            <name>照沼健太</name>
-        </author>
-        <category label="TECHNOLOGY"/>
         <published>2024-06-14T09:00:00.000Z</published>
     </entry>
     <entry>
@@ -2114,18 +2325,6 @@
         <published>2024-06-14T01:51:35.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[モンスターストライク スタジアムをAmazon EC2からAmazon ECS Fargateに移行しました | Zennのトレンド]]></title>
-        <id>https://zenn.dev/mixi/articles/242a1759255968</id>
-        <link href="https://zenn.dev/mixi/articles/242a1759255968"/>
-        <updated>2024-06-14T01:50:58.000Z</updated>
-        <summary type="html"><![CDATA[MIXI でモンストサーバチームとセキュリティ室を兼務している、atponsです。 モンストサーバチームでは、モンスターストライクとは別に、モンスターストライク スタジアムというスマートフォンのアプリゲームのサーバ開発・運用を行っています。 モンスターストライク スタジアムは、モンスターストライクとプレイスタイルは同じながら、4vs4の最大8人まで同時対戦や練習モードなどを備えたアプリになっており...]]></summary>
-        <content type="html"><![CDATA[MIXI でモンストサーバチームとセキュリティ室を兼務している、atponsです。 モンストサーバチームでは、モンスターストライクとは別に、モンスターストライク スタジアムというスマートフォンのアプリゲームのサーバ開発・運用を行っています。 モンスターストライク スタジアムは、モンスターストライクとプレイスタイルは同じながら、4vs4の最大8人まで同時対戦や練習モードなどを備えたアプリになっており、モンストのeスポーツ大会「モンストグランプリ」を開催する際にも利用されています。   開発体制の現状 モンスターストライク スタジアムは、初期の段階でモンスターストライクのコードから分岐する形...]]></content>
-        <author>
-            <name>atpons</name>
-        </author>
-        <published>2024-06-14T01:50:58.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[パフォーマンス改善：効率的なCSVインポートでSQL発行回数を大幅削減 | クラウドワークス エンジニアブログ]]></title>
         <id>https://engineer.crowdworks.jp/entry/2024/06/14/105009</id>
         <link href="https://engineer.crowdworks.jp/entry/2024/06/14/105009"/>
@@ -2493,9 +2692,9 @@
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[土壌中のナノプラスチック濃度の測定技術を開発－地圏環境中に拡散したプラスチック粒子量分布の把握に貢献－ | AIST： 産業技術総合研究所]]></title>
-        <id>7698-2</id>
-        <link href="https://www.aist.go.jp/aist_j/press_release/pr2024/pr20240614/pr20240614.html"/>
+        <title type="html"><![CDATA[第30回理化学研究所里庄セミナー | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20240817_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20240817_1/index.html"/>
         <updated>2024-06-13T15:00:00.000Z</updated>
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
@@ -2518,9 +2717,9 @@
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第30回理化学研究所里庄セミナー | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20240817_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20240817_1/index.html"/>
+        <title type="html"><![CDATA[土壌中のナノプラスチック濃度の測定技術を開発－地圏環境中に拡散したプラスチック粒子量分布の把握に貢献－ | AIST： 産業技術総合研究所]]></title>
+        <id>7698-2</id>
+        <link href="https://www.aist.go.jp/aist_j/press_release/pr2024/pr20240614/pr20240614.html"/>
         <updated>2024-06-13T15:00:00.000Z</updated>
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
@@ -3073,27 +3272,6 @@
         <published>2024-06-12T22:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Windows版「OneNote」アプリに新しいスポイトツール、挿入した画像からも色を採取可能／「Microsoft 365 Insider」より順次展開 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1599525.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1599525.html"/>
-        <updated>2024-06-12T21:45:00.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは6月7日（現地時間）、Windows向け「OneNote」アプリに新しいスポイトツールを追加すると発表した。「Microsoft 365 Insider」加入ユーザーであれば、「バージョン2403」（Build 17407.17509）以降で体験できる。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは6月7日（現地時間）、Windows向け「OneNote」アプリに新しいスポイトツールを追加すると発表した。「Microsoft 365 Insider」加入ユーザーであれば、「バージョン2403」（Build 17407.17509）以降で体験できる。]]></content>
-        <published>2024-06-12T21:45:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScriptの型システムに命を吹き込む: Typia と unplugin-typia | Zennのトレンド]]></title>
-        <id>https://zenn.dev/ryoppippi/articles/c4775a3a5f3c11</id>
-        <link href="https://zenn.dev/ryoppippi/articles/c4775a3a5f3c11"/>
-        <updated>2024-06-12T19:03:40.000Z</updated>
-        <summary type="html"><![CDATA[TL;DR  この度、unplugin-typia という Library を作りました  unplugin-typia を使うと今までめんどくさかった Typia の導入が簡単になります  Vite、esbuild、webpackなどフロントエンドで主流の様々なbundlerに対応しています  Next.jsでも簡単に使えます  Bunにも対応しています  https://github.com/...]]></summary>
-        <content type="html"><![CDATA[TL;DR  この度、unplugin-typia という Library を作りました  unplugin-typia を使うと今までめんどくさかった Typia の導入が簡単になります  Vite、esbuild、webpackなどフロントエンドで主流の様々なbundlerに対応しています  Next.jsでも簡単に使えます  Bunにも対応しています  https://github.com/ryoppippi/unplugin-typia/ https://jsr.io/@ryoppippi/unplugin-typia https://typia.io/docs/setup/...]]></content>
-        <author>
-            <name>ryoppippi</name>
-        </author>
-        <published>2024-06-12T19:03:40.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[人とLLMの実際のチャット履歴から抽出した1,024のリアルなタスクでLlama-3などを評価した結果 | AIDB]]></title>
         <id>https://ai-data-base.com/?p=70812</id>
         <link href="https://ai-data-base.com/archives/70812"/>
@@ -3358,15 +3536,6 @@
         <published>2024-06-12T10:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Apple ID」の名前が変更、秋には「Apple Account」に／iOS 18などのリリースに合わせ | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1599606.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1599606.html"/>
-        <updated>2024-06-12T09:52:00.000Z</updated>
-        <summary type="html"><![CDATA[米Appleは6月11日（現地時間）、「Apple ID」が「Apple Account」に名称を変更することを発表した。今秋に予定している、「iOS 18」「iPadOS 18」「macOS Sequoia」「watchOS 11」のリリース時期に合わせ、変更する。]]></summary>
-        <content type="html"><![CDATA[米Appleは6月11日（現地時間）、「Apple ID」が「Apple Account」に名称を変更することを発表した。今秋に予定している、「iOS 18」「iPadOS 18」「macOS Sequoia」「watchOS 11」のリリース時期に合わせ、変更する。]]></content>
-        <published>2024-06-12T09:52:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ヤプリiOSエンジニアの新プライバシー要件対応 | 実際に取り組んだ内容を大公開！ | Yappli Tech Blog]]></title>
         <id>https://tech.yappli.io/entry/ios-privacy-manifest-2</id>
         <link href="https://tech.yappli.io/entry/ios-privacy-manifest-2"/>
@@ -3440,15 +3609,6 @@
         <published>2024-06-12T08:50:30.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Copilot GPT Builder」が廃止、提供開始からわずか3カ月……／「自分専用GPT」を作るサービス | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1599602.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1599602.html"/>
-        <updated>2024-06-12T08:45:39.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは6月12日（現地時間、以下同）、「Copilot GPT Builder」を7月14日をもって廃止することを発表した。同機能は2024年3月に提供開始し、わずか数カ月での廃止となる。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは6月12日（現地時間、以下同）、「Copilot GPT Builder」を7月14日をもって廃止することを発表した。同機能は2024年3月に提供開始し、わずか数カ月での廃止となる。]]></content>
-        <published>2024-06-12T08:45:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rails 7.2.0 Active Storage CHANGELOG（全項目リンク付き） | TechRacho]]></title>
         <id>https://techracho.bpsinc.jp/?p=142432</id>
         <link href="https://techracho.bpsinc.jp/hachi8833/2024_06_12/142432"/>
@@ -3462,15 +3622,6 @@
         <category label="Active Storage"/>
         <category label="Ruby on Rails"/>
         <published>2024-06-12T08:30:44.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Firefox 127」が安定版に ～OS再起動後の自動復帰、重複タブの一掃コマンドを追加／セキュリティ関連の修正は15件 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1599509.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1599509.html"/>
-        <updated>2024-06-12T07:56:51.000Z</updated>
-        <summary type="html"><![CDATA[Mozillaは6月11日（米国時間）、デスクトップ向け「Firefox」の最新版v127.0をリリースチャネルで公開した。メジャーバージョンアップとなる「Firefox 127」では、Windowsを再起動した際に「Firefox」を自動で実行するよう設定できるようになった。Mozillaは「Firefox」の自動起動を設定することでブラウザー中心のデジタルルーチンの効率が最適化され、手動による...]]></summary>
-        <content type="html"><![CDATA[Mozillaは6月11日（米国時間）、デスクトップ向け「Firefox」の最新版v127.0をリリースチャネルで公開した。メジャーバージョンアップとなる「Firefox 127」では、Windowsを再起動した際に「Firefox」を自動で実行するよう設定できるようになった。Mozillaは「Firefox」の自動起動を設定することでブラウザー中心のデジタルルーチンの効率が最適化され、手動による起動の遅延がなくなり、すぐにWebへアクセスできるようになるとしている。]]></content>
-        <published>2024-06-12T07:56:51.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[X / 旧Twitterが「いいね」の仕様変更、非表示へ「攻撃されずに「いいね」できるように」とマスク氏。成人向けコンテンツ許容に続き | テクノエッジ TechnoEdge]]></title>
@@ -3952,15 +4103,6 @@
         <published>2024-06-11T16:34:13.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AISolとNIMSが研究成果の活用促進に向けた協定を締結しました | AIST： 産業技術総合研究所]]></title>
-        <id>7690-4</id>
-        <link href="https://www.aist.go.jp/aist_j/news/au20240612.html"/>
-        <updated>2024-06-11T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[産総研グループの株式会社AIST Solutions（以下、「AISol」）は、2024年6月12日国立研究開発法人 物質・材料研究機構（以下、「NIMS」）と研究成果の活用促進に向けた協定を締...]]></summary>
-        <content type="html"><![CDATA[産総研グループの株式会社AIST Solutions（以下、「AISol」）は、2024年6月12日国立研究開発法人 物質・材料研究機構（以下、「NIMS」）と研究成果の活用促進に向けた協定を締...]]></content>
-        <published>2024-06-11T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[BMI×ゲノムで2型糖尿病の遺伝的リスク予測精度を向上 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240612_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240612_1/index.html"/>
@@ -3974,6 +4116,15 @@
         <id> https://www.riken.jp/pr/news/2024/20240612_1/index.html</id>
         <link href="https://www.riken.jp/pr/news/2024/20240612_1/index.html"/>
         <updated>2024-06-11T15:00:00.000Z</updated>
+        <published>2024-06-11T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AISolとNIMSが研究成果の活用促進に向けた協定を締結しました | AIST： 産業技術総合研究所]]></title>
+        <id>7690-4</id>
+        <link href="https://www.aist.go.jp/aist_j/news/au20240612.html"/>
+        <updated>2024-06-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[産総研グループの株式会社AIST Solutions（以下、「AISol」）は、2024年6月12日国立研究開発法人 物質・材料研究機構（以下、「NIMS」）と研究成果の活用促進に向けた協定を締...]]></summary>
+        <content type="html"><![CDATA[産総研グループの株式会社AIST Solutions（以下、「AISol」）は、2024年6月12日国立研究開発法人 物質・材料研究機構（以下、「NIMS」）と研究成果の活用促進に向けた協定を締...]]></content>
         <published>2024-06-11T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -4393,8 +4544,8 @@
             <name>YUJI</name>
         </author>
         <category label="AWS"/>
-        <category label="AMI"/>
         <category label="AWS Systems Manager Automation"/>
+        <category label="AMI"/>
         <category label="Amazon EC2"/>
         <category label="Amazon EventBridge"/>
         <published>2024-06-11T01:00:47.000Z</published>
@@ -4781,19 +4932,6 @@
         <published>2024-06-10T07:53:37.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ルベーグ空間（Lᵖ空間）｜ルベーグ積分に関するノルム・内積 | あーるえぬ]]></title>
-        <id>https://math-note.xyz/?p=12205</id>
-        <link href="https://math-note.xyz/analysis/funtion-space/lebesgue-space/lebesgue-space-lp/"/>
-        <updated>2024-06-10T07:47:53.000Z</updated>
-        <summary type="html"><![CDATA[大雑把に言えば，関数$f$を$p$乗した関数が積分可能であるとき$f$は$p$乗可積分であるといい，$p$乗可積分関数全部の集合を$L^p$と表して，文字通り$L^p$(エルピー) 空間などと呼びます（$1\le p&l […]]]></summary>
-        <content type="html"><![CDATA[大雑把に言えば，関数$f$を$p$乗した関数が積分可能であるとき$f$は$p$乗可積分であるといい，$p$乗可積分関数全部の集合を$L^p$と表して，文字通り$L^p$(エルピー) 空間などと呼びます（$1\le p&l […]]]></content>
-        <author>
-            <name>山本 拓人</name>
-        </author>
-        <category label="ルベーグ空間"/>
-        <published>2024-06-10T07:47:53.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[フィル・スペンサーが噂になっているXboxの携帯ハードについて聞かれコメント 「ローカルでゲームをプレイできることは非常に重要」 | IGN Japan games]]></title>
         <id>https://jp.ign.com/xbox-series-x/75131/news/xbox</id>
         <link href="https://jp.ign.com/xbox-series-x/75131/news/xbox"/>
@@ -5119,6 +5257,22 @@
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[複数のマイクロRNAを同時検出する「RNA液滴コンピュータ」の開発に成功 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240610_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240610_1/index.html"/>
+        <updated>2024-06-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></summary>
+        <content type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></content>
+        <published>2024-06-09T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
+        <updated>2024-06-09T15:00:00.000Z</updated>
+        <published>2024-06-09T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[常圧・低濃度CO2からポリカーボネート・ポリウレタンの原料の合成に成功－加圧・精製設備を必要としないCO2の資源化に貢献－ | AIST： 産業技術総合研究所]]></title>
         <id>7687-4</id>
         <link href="https://www.aist.go.jp/aist_j/press_release/pr2024/pr20240610_2/pr20240610_2.html"/>
@@ -5139,22 +5293,6 @@
         <updated>2024-06-09T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[2024年2月29日、産業技術総合研究所（産総研）とKeysight Technologies, Inc.（キーサイト・テクノロジ－）は、量子技術の産業化に向けた連携の強化に向けた研究協力覚書（...]]></summary>
         <content type="html"><![CDATA[2024年2月29日、産業技術総合研究所（産総研）とKeysight Technologies, Inc.（キーサイト・テクノロジ－）は、量子技術の産業化に向けた連携の強化に向けた研究協力覚書（...]]></content>
-        <published>2024-06-09T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[複数のマイクロRNAを同時検出する「RNA液滴コンピュータ」の開発に成功 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240610_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240610_1/index.html"/>
-        <updated>2024-06-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></summary>
-        <content type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></content>
-        <published>2024-06-09T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
-        <updated>2024-06-09T15:00:00.000Z</updated>
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5647,11 +5785,11 @@
         <category label="人工知能"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="医薬品開発"/>
-        <category label="生物統計学"/>
         <category label="スポーツ"/>
         <category label="分子生物学"/>
         <category label="バイオインフォマティクス"/>
+        <category label="医薬品開発"/>
+        <category label="生物統計学"/>
         <category label="データ解析"/>
         <category label="バイオアッセイ"/>
         <category label="解析ツール"/>
@@ -5966,8 +6104,8 @@
         <id>https://historia.co.jp/?p=42619</id>
         <link href="https://historia.co.jp/archives/42619/"/>
         <updated>2024-06-06T03:00:58.000Z</updated>
-        <summary type="html"><![CDATA[ヒストリアは現在、新作の大人数脱落式アクションゲームを開発中です！ そこでリリースに向けて、クローズドベータテスト（以下、本テスト）を実施いたします。 アクションゲームが好きな人 大人数で遊ぶ […] The post ヒストリア新作タイトル！大人数脱落式アクションゲームの『クローズドベータテスト』参加者募集！【6月14日(金)/15日(土)開催】 first appeared on histor...]]></summary>
-        <content type="html"><![CDATA[ヒストリアは現在、新作の大人数脱落式アクションゲームを開発中です！ そこでリリースに向けて、クローズドベータテスト（以下、本テスト）を実施いたします。 アクションゲームが好きな人 大人数で遊ぶ […] The post ヒストリア新作タイトル！大人数脱落式アクションゲームの『クローズドベータテスト』参加者募集！【6月14日(金)/15日(土)開催】 first appeared on historia Inc - 株式会社ヒストリア.]]></content>
+        <summary type="html"><![CDATA[※本テストは終了しました ヒストリアは現在、新作の大人数脱落式アクションゲームを開発中です！ そこでリリースに向けて、クローズドベータテスト（以下、本テスト）を実施いたします。 アクションゲームが好きな人 […] The post ヒストリア新作タイトル！大人数脱落式アクションゲームの『クローズドベータテスト』参加者募集！【6月14日(金)/15日(土)開催】 first appeared on ...]]></summary>
+        <content type="html"><![CDATA[※本テストは終了しました ヒストリアは現在、新作の大人数脱落式アクションゲームを開発中です！ そこでリリースに向けて、クローズドベータテスト（以下、本テスト）を実施いたします。 アクションゲームが好きな人 […] The post ヒストリア新作タイトル！大人数脱落式アクションゲームの『クローズドベータテスト』参加者募集！【6月14日(金)/15日(土)開催】 first appeared on historia Inc - 株式会社ヒストリア.]]></content>
         <author>
             <name>ArisueKei</name>
         </author>
@@ -6571,8 +6709,8 @@
         <category label="マルチメディア(映像・画像・音声)処理"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="AR/VR"/>
         <category label="生成AI"/>
+        <category label="AR/VR"/>
         <category label="スマートグラス"/>
         <published>2024-06-05T01:00:54.000Z</published>
     </entry>
@@ -6616,8 +6754,8 @@
         <category label="ロボティクス"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="STEM/STEAM教育"/>
         <category label="教育ロボット"/>
+        <category label="STEM/STEAM教育"/>
         <category label="AI"/>
         <category label="ロボットハンド"/>
         <published>2024-06-05T00:00:28.000Z</published>
@@ -6716,6 +6854,20 @@
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[博物ふぇすてぃばる！10「サイエンスカンバッジワークショップ」と「いきもんぬりえ」 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20240720_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20240720_1/index.html"/>
+        <updated>2024-06-04T15:00:00.000Z</updated>
+        <published>2024-06-04T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[高校生のための生命科学体験講座2024 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20240725_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20240725_1/index.html"/>
+        <updated>2024-06-04T15:00:00.000Z</updated>
+        <published>2024-06-04T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[電子の回折をアト秒で制御 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240605_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240605_1/index.html"/>
@@ -6728,20 +6880,6 @@
         <title type="html"><![CDATA[パトリック・クラーマー マックス・プランク協会会長が東京地区・和光地区を訪問 | お知らせ]]></title>
         <id> https://www.riken.jp/pr/news/2024/20240605_1/index.html</id>
         <link href="https://www.riken.jp/pr/news/2024/20240605_1/index.html"/>
-        <updated>2024-06-04T15:00:00.000Z</updated>
-        <published>2024-06-04T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[博物ふぇすてぃばる！10「サイエンスカンバッジワークショップ」と「いきもんぬりえ」 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20240720_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20240720_1/index.html"/>
-        <updated>2024-06-04T15:00:00.000Z</updated>
-        <published>2024-06-04T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[高校生のための生命科学体験講座2024 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20240725_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20240725_1/index.html"/>
         <updated>2024-06-04T15:00:00.000Z</updated>
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
@@ -7144,21 +7282,6 @@
         <published>2024-06-04T01:03:07.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Google Cloud】Chrome Enterprise Premiumについてまとめてみた！ | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=32801</id>
-        <link href="https://techblog.nhn-techorus.com/archives/32801"/>
-        <updated>2024-06-04T01:00:27.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、Shunです！ 今回は、Google Cloud Next ’24で発表されたChrome Enterprise Premiumについて、ご紹介をいたします。 Chrome Enterprise Premi... 続きを読む 【Google Cloud】Chrome Enterprise Premiumについてまとめてみた！ first appeared on NHN テコラ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、Shunです！ 今回は、Google Cloud Next ’24で発表されたChrome Enterprise Premiumについて、ご紹介をいたします。 Chrome Enterprise Premi... 続きを読む 【Google Cloud】Chrome Enterprise Premiumについてまとめてみた！ first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>Shun</name>
-        </author>
-        <category label="Google Cloud"/>
-        <category label="Google Workspace"/>
-        <category label="Chrome Enterprise Premium"/>
-        <published>2024-06-04T01:00:27.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[性能は悪くなかったのに不運だった。AT&Tベル研生まれの32bit CISC「WE32000」（人知れず消えていったマイナーCPUを語ろう　第18回） | テクノエッジ TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2024/06/04/3429.html</id>
         <link href="https://www.techno-edge.net/article/2024/06/04/3429.html"/>
@@ -7516,110 +7639,5 @@
         <summary type="html"><![CDATA[クライアントグループの隅山です。 Flutterの標準Widgetをデザイン調整する際、どの範囲でデザイン調整できるのかをデザイナーと頻繁にやり取りすることがありました。 その中でWidgetbookというツールを活用することで、デザイン調整にかかる工数を大幅に削減できました。 今回はWidgetbookとはどのようなものか、そしてWidgetbookをどのように活用したのかを紹介します。 Wid...]]></summary>
         <content type="html"><![CDATA[クライアントグループの隅山です。 Flutterの標準Widgetをデザイン調整する際、どの範囲でデザイン調整できるのかをデザイナーと頻繁にやり取りすることがありました。 その中でWidgetbookというツールを活用することで、デザイン調整にかかる工数を大幅に削減できました。 今回はWidgetbookとはどのようなものか、そしてWidgetbookをどのように活用したのかを紹介します。 Widgetbookとは Widgetbookの導入 Widgetbookでのデザイン調整の方法 Widgetbookを利用した効果 Widgetbookとは WidgetbookはFlutterで開発され…]]></content>
         <published>2024-06-03T02:16:51.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[迷惑メール対策の注意点(SPFレコード)について | GMOアドパートナーズ TECH BLOG byGMO]]></title>
-        <id>https://techblog.gmo-ap.jp/?p=41195</id>
-        <link href="https://techblog.gmo-ap.jp/2024/06/03/checkpoint_on_mailauthentication/"/>
-        <updated>2024-06-03T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GMO Solution Partner のM.Sです。 Gmailにおけるガイドラインが2023年10月に発表され、2024年の2月1日の適用開始に対応するため、多くの方々が対応をされたのではないかと思います。当社並び]]></summary>
-        <content type="html"><![CDATA[GMO Solution Partner のM.Sです。 Gmailにおけるガイドラインが2023年10月に発表され、2024年の2月1日の適用開始に対応するため、多くの方々が対応をされたのではないかと思います。当社並び]]></content>
-        <author>
-            <name>M.S</name>
-        </author>
-        <category label="SP"/>
-        <category label="インフラ"/>
-        <published>2024-06-03T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AndroidでML Kit Document Scanner APIを触ってみた | Sansan Tech Blog]]></title>
-        <id>https://buildersbox.corp-sansan.com/entry/2024/06/03/110000</id>
-        <link href="https://buildersbox.corp-sansan.com/entry/2024/06/03/110000"/>
-        <updated>2024-06-03T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[APIの利用方法 gradleへの定義 ドキュメントスキャナーの準備 スキャンする 編集機能 まとめ こんにちは！Sansan 技術本部 Mobile Applicationグループのふるしんです。ML KitにてドキュメントスキャナのAPIが公開されました ML Kit | Google for DevelopersこれはGoogle Driveアプリですでに活用されている機能で、カメラを用いて...]]></summary>
-        <content type="html"><![CDATA[APIの利用方法 gradleへの定義 ドキュメントスキャナーの準備 スキャンする 編集機能 まとめ こんにちは！Sansan 技術本部 Mobile Applicationグループのふるしんです。ML KitにてドキュメントスキャナのAPIが公開されました ML Kit | Google for DevelopersこれはGoogle Driveアプリですでに活用されている機能で、カメラを用いて紙のドキュメントをPDFや画像として取り込めるものです。このAPIを試しに触ってみたのでまとめました。 ↓ 試してみた動画です。この中で汚れの除去を模してﾈｺﾁｬﾝを消してみました。 www.yout…]]></content>
-        <published>2024-06-03T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[発表イベント相次ぐ中お送りするポッドキャスト第57回を本日（6月3日）正午にライブ配信 | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/06/03/3425.html</id>
-        <link href="https://www.techno-edge.net/article/2024/06/03/3425.html"/>
-        <updated>2024-06-03T01:47:55.000Z</updated>
-        <summary type="html"><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第57回放送を、本日（6月3日）正午（12時）に、YouTubeで行います。]]></summary>
-        <content type="html"><![CDATA[テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を週1回のペースでお届けしています。その第57回放送を、本日（6月3日）正午（12時）に、YouTubeで行います。]]></content>
-        <published>2024-06-03T01:47:55.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SliceGPTを使って日本語LLMをPruningしてみる | TECH BLOG | 株式会社AI Shift]]></title>
-        <id>https://www.ai-shift.co.jp/?post_type=techblog&amp;p=4471</id>
-        <link href="https://www.ai-shift.co.jp/techblog/4471"/>
-        <updated>2024-06-03T01:39:41.000Z</updated>
-        <summary type="html"><![CDATA[こんにちはAIチームの戸田です 今回はLLMを軽量化するPruningを行うライブラリ、SliceGPTを使って日本語LLMのPruningを試してみたいと思います。 SliceGPT LLMに限らず、大規模なニューラル […] 投稿 SliceGPTを使って日本語LLMをPruningしてみる は 株式会社AI Shift に最初に表示されました。]]></summary>
-        <content type="html"><![CDATA[こんにちはAIチームの戸田です 今回はLLMを軽量化するPruningを行うライブラリ、SliceGPTを使って日本語LLMのPruningを試してみたいと思います。 SliceGPT LLMに限らず、大規模なニューラル […] 投稿 SliceGPTを使って日本語LLMをPruningしてみる は 株式会社AI Shift に最初に表示されました。]]></content>
-        <author>
-            <name>戸田隆道</name>
-        </author>
-        <published>2024-06-03T01:39:41.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[go 言語で cobra と slog を使った CLI ツール開発 | every Tech Blog]]></title>
-        <id>https://tech.every.tv/entry/2024/06/03/103933?utm_source=feed</id>
-        <link href="https://tech.every.tv/entry/2024/06/03/103933?utm_source=feed"/>
-        <updated>2024-06-03T01:39:33.000Z</updated>
-        <summary type="html"><![CDATA[この記事は every Tech Blog Advent Calendar 2024(夏) 3 日目の記事です。 はじめに こんにちは、トモニテでバックエンド周りの開発を行っている rymiyamoto です。 最近は学園アイドルのプロデューサー業に追われています。 今回は、Go 言語で CLI ツールを開発する際によく使われるライブラリである cobra と go1.21 から標準パッケージで使...]]></summary>
-        <content type="html"><![CDATA[この記事は every Tech Blog Advent Calendar 2024(夏) 3 日目の記事です。 はじめに こんにちは、トモニテでバックエンド周りの開発を行っている rymiyamoto です。 最近は学園アイドルのプロデューサー業に追われています。 今回は、Go 言語で CLI ツールを開発する際によく使われるライブラリである cobra と go1.21 から標準パッケージで使えるようになった slog を使って、CLI ツールを開発する方法について紹介します。 選定理由 現状の課題 Go 言語だとスクリプト処理を実装する際、簡単なものであれば main.go にそのまま処…]]></content>
-        <published>2024-06-03T01:39:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[テキスト校正をtextlintに任せて表記ゆれを減らしてみる | OpenWork Tech Blog]]></title>
-        <id>https://techblog.openwork.co.jp/entry/textlint</id>
-        <link href="https://techblog.openwork.co.jp/entry/textlint"/>
-        <updated>2024-06-03T00:40:34.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。「株式会社オープンワーク」ではなく「オープンワーク株式会社」の生永です。 文章を書くにあたって、タイポはもちろんのこと、組織内において定められている表記ルールに則さないことばを書いてしまったという経験をお持ちの方は少なくないのではないかと思います。 冒頭の挨拶も弊社の表記ルールに則ったもので、「株式会社オープンワーク」ではなく登記の商号に登録している「オープンワーク株式会社」が正式なも...]]></summary>
-        <content type="html"><![CDATA[こんにちは。「株式会社オープンワーク」ではなく「オープンワーク株式会社」の生永です。 文章を書くにあたって、タイポはもちろんのこと、組織内において定められている表記ルールに則さないことばを書いてしまったという経験をお持ちの方は少なくないのではないかと思います。 冒頭の挨拶も弊社の表記ルールに則ったもので、「株式会社オープンワーク」ではなく登記の商号に登録している「オープンワーク株式会社」が正式なものです。 表記ルールの徹底はなかなか難しいです。レビューによるチェック体制やルールの周知をしても、運用努力ということになり組織拡大に伴って増大する半永久コストになっていきます。 そこで今回、textl…]]></content>
-        <published>2024-06-03T00:40:34.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OCI Database Management サービスで Base Database を監視してみる | スマートスタイル TECH BLOG]]></title>
-        <id>https://blog.s-style.co.jp/?p=12000</id>
-        <link href="https://blog.s-style.co.jp/2024/06/12000/"/>
-        <updated>2024-06-03T00:30:13.000Z</updated>
-        <summary type="html"><![CDATA[はじめに オンプレミス環境では、オラクルデータベースの監視ツールとして Oracle Enterprise Manager が長らく使用されてきました。クラウド時代のオラクルデータベースの監視ツールとして、Oracle […]]]></summary>
-        <content type="html"><![CDATA[はじめに オンプレミス環境では、オラクルデータベースの監視ツールとして Oracle Enterprise Manager が長らく使用されてきました。クラウド時代のオラクルデータベースの監視ツールとして、Oracle […]]]></content>
-        <author>
-            <name>y-inaba</name>
-        </author>
-        <category label="Oracle Cloud"/>
-        <category label="技術情報"/>
-        <category label="Base Database"/>
-        <category label="Database Management"/>
-        <published>2024-06-03T00:30:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MySQL Shell Copy Instance ユーティリティの紹介 | スマートスタイル TECH BLOG]]></title>
-        <id>https://blog.s-style.co.jp/?p=11788</id>
-        <link href="https://blog.s-style.co.jp/2024/06/11788/"/>
-        <updated>2024-06-03T00:02:33.000Z</updated>
-        <summary type="html"><![CDATA[今回の記事は MySQL Shell 8.1 (Innovation release) で追加された新機能 Copy Instance ユーティリティ の紹介です。 リリースノートはこちら。 MySQL :: MySQL […]]]></summary>
-        <content type="html"><![CDATA[今回の記事は MySQL Shell 8.1 (Innovation release) で追加された新機能 Copy Instance ユーティリティ の紹介です。 リリースノートはこちら。 MySQL :: MySQL […]]]></content>
-        <author>
-            <name>fujimoto</name>
-        </author>
-        <category label="MySQL"/>
-        <category label="お知らせ"/>
-        <category label="技術情報"/>
-        <category label="MySQL Shell"/>
-        <category label="MySQL8.0"/>
-        <category label="データ移行"/>
-        <published>2024-06-03T00:02:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Studyplus Engineering Podcast #26 RubyKaigi 2024 参加レポート | Studyplus Engineering Blog]]></title>
-        <id>https://tech.studyplus.co.jp/entry/2024/06/03/090000</id>
-        <link href="https://tech.studyplus.co.jp/entry/2024/06/03/090000"/>
-        <updated>2024-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、SREグループの水口です。 スタディプラスのエンジニアが配信するポッドキャスト「Studyplus Engineering Podcast」の新しいエピソードを公開しました。「Studyplus Engineering Podcast」は、主にStudyplusのエンジニアが、業務で関わった技術的なことや気になっている技術などについて雑談をするPodcastです。 今回はRubyKai...]]></summary>
-        <content type="html"><![CDATA[こんにちは、SREグループの水口です。 スタディプラスのエンジニアが配信するポッドキャスト「Studyplus Engineering Podcast」の新しいエピソードを公開しました。「Studyplus Engineering Podcast」は、主にStudyplusのエンジニアが、業務で関わった技術的なことや気になっている技術などについて雑談をするPodcastです。 今回はRubyKaigi 2024の参加レポートです。ぜひ聞いてみてください。 26: RubyKaigi 2024 参加レポート RubyKaigiとは メンバーのRubyKaigi参加歴 セッションの感想 沖縄の食事…]]></content>
-        <published>2024-06-03T00:00:00.000Z</published>
     </entry>
 </feed>
