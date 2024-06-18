@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-06-18T03:28:55.333Z</updated>
+    <updated>2024-06-18T05:28:30.128Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -18,6 +18,163 @@
         <summary type="html"><![CDATA[データチームの出口です。 この記事はFLINTERSブログ祭りの記事です。テーマは #Snowflake #技術 #データパイプライン です。 今回はデータチームが現在取り組んでいるSnowflakeを活かしたデータパイプラインの構築について紹介したいと思います。 現状の問題点 現状の構成では以下の点に問題が生じていました。 格納データに不正なデータが混ざり(レコードの重複や主キーのNULLなど)...]]></summary>
         <content type="html"><![CDATA[データチームの出口です。 この記事はFLINTERSブログ祭りの記事です。テーマは #Snowflake #技術 #データパイプライン です。 今回はデータチームが現在取り組んでいるSnowflakeを活かしたデータパイプラインの構築について紹介したいと思います。 現状の問題点 現状の構成では以下の点に問題が生じていました。 格納データに不正なデータが混ざり(レコードの重複や主キーのNULLなど)、後続での利用に影響が生じるリスクがある 加工された値の格納のため、過去のAPIバージョンで取得した値をDWH上で確認できない そのため、取得データを確認するためにはS3上のAPI取得データを確認する…]]></content>
         <published>2024-06-18T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[キャリア台帳のE2EテストでPlaywrightを利用している話 | SmartHR Tech Blog]]></title>
+        <id>https://tech.smarthr.jp/entry/2024/06/18/140311</id>
+        <link href="https://tech.smarthr.jp/entry/2024/06/18/140311"/>
+        <updated>2024-06-18T05:03:11.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、SmartHRでキャリア台帳の開発を担当しているプロダクトエンジニアのhosoyaです。 今日は、私たちがどのようにPlaywrightを使ってキャリア台帳のE2Eテストを実装しているかについてお話しします。 なぜPlaywright？ E2Eの導入・運用の検討を始めた当時、SmartHRで運用されているE2Eは、Rspec x Selenium x Capybaraが主流でした。 キ...]]></summary>
+        <content type="html"><![CDATA[こんにちは、SmartHRでキャリア台帳の開発を担当しているプロダクトエンジニアのhosoyaです。 今日は、私たちがどのようにPlaywrightを使ってキャリア台帳のE2Eテストを実装しているかについてお話しします。 なぜPlaywright？ E2Eの導入・運用の検討を始めた当時、SmartHRで運用されているE2Eは、Rspec x Selenium x Capybaraが主流でした。 キャリア台帳は新規プロダクトという事もあり、新しいツールの選定をしてもよいのではないかということでチーム内での検討がはじまりました。 採用理由に関しては以前紹介された「E2Eテストを Playwrigh…]]></content>
+        <published>2024-06-18T05:03:11.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ddRAD-Seq解析用ワークステーション | TEGAKARI]]></title>
+        <id>https://www.tegakari.net/?p=30449</id>
+        <link href="https://www.tegakari.net/2024/06/pc-11922/"/>
+        <updated>2024-06-18T05:00:59.000Z</updated>
+        <summary type="html"><![CDATA[森林の生態系に関する研究に携わるお客様より、次世代シーケンサー解析用マシンをご相談いただきました。 具体的には Illumina NovaSeqX によるddR [...続きを見る] 投稿 ddRAD-Seq解析用ワークステーション は TEGAKARI に最初に表示されました。]]></summary>
+        <content type="html"><![CDATA[森林の生態系に関する研究に携わるお客様より、次世代シーケンサー解析用マシンをご相談いただきました。 具体的には Illumina NovaSeqX によるddR [...続きを見る] 投稿 ddRAD-Seq解析用ワークステーション は TEGAKARI に最初に表示されました。]]></content>
+        <author>
+            <name>テガラ株式会社</name>
+        </author>
+        <category label="研究用ワークステーション"/>
+        <category label="医学・看護学・薬学"/>
+        <category label="生物学・農学"/>
+        <category label="研究開発用PC 構成事例 (テグシス)"/>
+        <category label="次世代シーケンサー"/>
+        <published>2024-06-18T05:00:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloudの利用料金の見積もり方法について解説してみた！ | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
+        <id>https://techblog.nhn-techorus.com/?p=33220</id>
+        <link href="https://techblog.nhn-techorus.com/archives/33220"/>
+        <updated>2024-06-18T05:00:20.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、Shunです！ 本記事では、Google Cloudの利用料金の見積もり方法について解説をいたします！ はじめに Google Cloudの利用料金を見積もるには、Google Cloud が提供する「Google Cloud ... 続きを読む Google Cloudの利用料金の見積もり方法について解説してみた！ first appeared on NHN テコラス Tech Bl...]]></summary>
+        <content type="html"><![CDATA[こんにちは、Shunです！ 本記事では、Google Cloudの利用料金の見積もり方法について解説をいたします！ はじめに Google Cloudの利用料金を見積もるには、Google Cloud が提供する「Google Cloud ... 続きを読む Google Cloudの利用料金の見積もり方法について解説してみた！ first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
+        <author>
+            <name>Shun</name>
+        </author>
+        <category label="Google Cloud"/>
+        <category label="コスト最適化"/>
+        <published>2024-06-18T05:00:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ポケモンが高級キッチンウェアに進化。これは集めたくなっちゃう | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/le-creuset-pokemon.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/le-creuset-pokemon.html"/>
+        <updated>2024-06-18T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[高級調理器具で知られるLE CREUSET（ル・クルーゼ）が、ポケモンとコラボした特別コレクションを7月17日（水）から順次発売します。]]></summary>
+        <content type="html"><![CDATA[高級調理器具で知られるLE CREUSET（ル・クルーゼ）が、ポケモンとコラボした特別コレクションを7月17日（水）から順次発売します。]]></content>
+        <author>
+            <name>中川真知子</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-06-18T05:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[有料生成AIが完全無料・無制限の「wrtn（リートン）」に「Stable Diffusion 3」が追加へ／「GPT-4o」は正式実装、記念キャンペーンも開催 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1600975.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1600975.html"/>
+        <updated>2024-06-18T04:40:39.000Z</updated>
+        <summary type="html"><![CDATA[（株）リートンテクノロジーズジャパンは6月17日、完全無料・無制限で有料生成AIを使える「リートン」（wrtn）のWeb版および公式モバイルアプリに「GPT-4o」を正式実装した。]]></summary>
+        <content type="html"><![CDATA[（株）リートンテクノロジーズジャパンは6月17日、完全無料・無制限で有料生成AIを使える「リートン」（wrtn）のWeb版および公式モバイルアプリに「GPT-4o」を正式実装した。]]></content>
+        <published>2024-06-18T04:40:39.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hyperledeger Fabricのチュートリアルをやってみる Part1 | SIOS Tech. Lab]]></title>
+        <id>https://tech-lab.sios.jp/?p=41876</id>
+        <link href="https://tech-lab.sios.jp/archives/41876"/>
+        <updated>2024-06-18T04:25:49.000Z</updated>
+        <summary type="html"><![CDATA[初めに PS/SLの佐々木です。 今までWeb3チームではEthereumのようなパブリックチェーンを使用しての開発や技術検証を行ってきましたが、今年から新しい取り組みとしてコンソーシアム型のチェーンやプライベートチェー [...] Hyperledeger Fabricのチュートリアルをやってみる Part1 first appeared on SIOS Tech. Lab.]]></summary>
+        <content type="html"><![CDATA[初めに PS/SLの佐々木です。 今までWeb3チームではEthereumのようなパブリックチェーンを使用しての開発や技術検証を行ってきましたが、今年から新しい取り組みとしてコンソーシアム型のチェーンやプライベートチェー [...] Hyperledeger Fabricのチュートリアルをやってみる Part1 first appeared on SIOS Tech. Lab.]]></content>
+        <author>
+            <name>佐々木寛太</name>
+        </author>
+        <category label="Web3"/>
+        <category label="Linux"/>
+        <category label="Blockchain"/>
+        <category label="Hyperledger"/>
+        <published>2024-06-18T04:25:49.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今はなきAWS Database Specialty 試験 にて、知らなかった知識と思い出 | エンジニアブログ | iret.media]]></title>
+        <id>https://iret.media/?p=104141</id>
+        <link href="https://iret.media/104141"/>
+        <updated>2024-06-18T04:00:30.000Z</updated>
+        <summary type="html"><![CDATA[記事の目的 AWS Database Specialty で 自分がやってて試験に出そうだが、 間違えやすい、間違えた箇所をまとめました。 パッと知らない単語を探す程度にご活用ください。 あとは今はなき Database […]]]></summary>
+        <content type="html"><![CDATA[記事の目的 AWS Database Specialty で 自分がやってて試験に出そうだが、 間違えやすい、間違えた箇所をまとめました。 パッと知らない単語を探す程度にご活用ください。 あとは今はなき Database […]]]></content>
+        <author>
+            <name>tamae 玉衛</name>
+        </author>
+        <category label="エンジニアブログ"/>
+        <category label="AWS"/>
+        <published>2024-06-18T04:00:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[運良く趣味から仕事に | 2024年度新卒入社エントリ | SMARTCAMP Engineer Blog]]></title>
+        <id>https://tech.smartcamp.co.jp/entry/new-graduate-2024-legend?utm_source=feed</id>
+        <link href="https://tech.smartcamp.co.jp/entry/new-graduate-2024-legend?utm_source=feed"/>
+        <updated>2024-06-18T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[初めに 経歴 〜中学２年 転換期（中学２年） 暇（中学２年） プログラミング（中学２年〜3年） 高校〜大学進学 大学 大学院 就活 スマートキャンプに入った理由 スマートキャンプでのこれから 最後に 初めに はじめまして!!2024年4月に新卒としてスマートキャンプに入社したレジェンド（大塚琢生）です。 社内の方からは「レジェ」と呼ばれています。 FPSが好きで「VALORANT」というゲームをよ...]]></summary>
+        <content type="html"><![CDATA[初めに 経歴 〜中学２年 転換期（中学２年） 暇（中学２年） プログラミング（中学２年〜3年） 高校〜大学進学 大学 大学院 就活 スマートキャンプに入った理由 スマートキャンプでのこれから 最後に 初めに はじめまして!!2024年4月に新卒としてスマートキャンプに入社したレジェンド（大塚琢生）です。 社内の方からは「レジェ」と呼ばれています。 FPSが好きで「VALORANT」というゲームをよくやっているという話から、VALORANT→Riot Games→League of Legendsとなり、レジェンドになりました。 今回は、私が趣味でプログラミングを始めるまでの話と、スマートキャン…]]></content>
+        <published>2024-06-18T04:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[386: Craig in Paris (hak) | Rebuild]]></title>
+        <id>https://rebuild.fm/386/</id>
+        <link href="https://rebuild.fm/386/"/>
+        <updated>2024-06-18T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hakuro Matsuda さんをゲストに迎えて、WWDC, Copilot+ PC, コンテンツなどについて話しました。 Show Notes  もはや酒屋？「狂ったセブン」コロナ禍乗り越え今日もクラフトビールだらけ Keynote - WWDC24 Project Glass: Live Demo At Google I/O Apple Will Give Enterprise Access...]]></summary>
+        <content type="html"><![CDATA[Hakuro Matsuda さんをゲストに迎えて、WWDC, Copilot+ PC, コンテンツなどについて話しました。 Show Notes  もはや酒屋？「狂ったセブン」コロナ禍乗り越え今日もクラフトビールだらけ Keynote - WWDC24 Project Glass: Live Demo At Google I/O Apple Will Give Enterprise Access To Vision Pro's Cameras Chrome のロゴ、実は微妙にグラデーションがかかってる！？ Zenless Zone Zero Apple and Google won’t be able to stop third-party app stores in Japan Apple, Meta set to face EU charges under landmark tech rules, sources say Spatial Audio now works over AirPlay with iOS 18 Numi パルクールがネクストブームの予感 Private C...]]></content>
+        <author>
+            <name>Tatsuhiko Miyagawa</name>
+        </author>
+        <published>2024-06-18T04:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スポーツするG-SHOCKファンに。ライフログ機能充実のG-SQUAD | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/gsquad-gbd-300-1jf.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/gsquad-gbd-300-1jf.html"/>
+        <updated>2024-06-18T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ライフログ機能、振動機能、GPSなどが充実したアスリート向けウォッチG-SQUADに、新型「GBD-300-1JF」登場。]]></summary>
+        <content type="html"><![CDATA[ライフログ機能、振動機能、GPSなどが充実したアスリート向けウォッチG-SQUADに、新型「GBD-300-1JF」登場。]]></content>
+        <author>
+            <name>岡本玄介</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-06-18T04:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「スーパーマリオ」映画新作の日本劇場公開日が2026年4月24日に決定 宮本茂が任天堂公式SNSでコメント | IGN Japan games]]></title>
+        <id>https://jp.ign.com/super-mario-the-movie-illumination-entertainment/75248/news/2026424-sns</id>
+        <link href="https://jp.ign.com/super-mario-the-movie-illumination-entertainment/75248/news/2026424-sns"/>
+        <updated>2024-06-18T03:37:19.000Z</updated>
+        <summary type="html"><![CDATA[監督は『ザ・スーパーマリオブラザーズ・ムービー』から続投 「スーパーマリオ」映画新作の日本劇場公開日が2026年4月24日に決定した。]]></summary>
+        <content type="html"><![CDATA[監督は『ザ・スーパーマリオブラザーズ・ムービー』から続投 「スーパーマリオ」映画新作の日本劇場公開日が2026年4月24日に決定した。]]></content>
+        <author>
+            <name>片岡龍一</name>
+        </author>
+        <category label="ゲーム"/>
+        <category label="エンタメ"/>
+        <category label="任天堂"/>
+        <category label="ザ・スーパーマリオブラザーズ・ムービー"/>
+        <category label="News"/>
+        <category label="映画"/>
+        <published>2024-06-18T03:37:19.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人型ロボは運転もこなす。クルマまかせの自動運転よりも安心感アップ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/musashi-humanoid-driving.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/musashi-humanoid-driving.html"/>
+        <updated>2024-06-18T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[東京大学の河原塚健人氏のチームがEVを運転する人型ロボット「Musashi」を開発中。]]></summary>
+        <content type="html"><![CDATA[東京大学の河原塚健人氏のチームがEVを運転する人型ロボット「Musashi」を開発中。]]></content>
+        <author>
+            <name>岡本玄介</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2024-06-18T03:30:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[チームメンバーとふりかえり会を実施してみた | エキサイト TechBlog.]]></title>
@@ -582,6 +739,48 @@
         <published>2024-06-17T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Postmanワークショップ: テスト自動化 - 20231024 - 公開版 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1PbSV4hIvuVC7vR-db410sI_6x2heVs2NQXGFEFcCSSQ/preview</id>
+        <link href="https://docs.google.com/presentation/d/1PbSV4hIvuVC7vR-db410sI_6x2heVs2NQXGFEFcCSSQ/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmanワークショップ: テスト自動化 - 20231117 - 公開版 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1de6aOJCxsrvUgoe2J8NlP6JX5kKeBcPyYCAODrL1nVw/preview</id>
+        <link href="https://docs.google.com/presentation/d/1de6aOJCxsrvUgoe2J8NlP6JX5kKeBcPyYCAODrL1nVw/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmanオンラインワークショップ - APIコラボレーション - 20240122 - 公開用 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1zo33H_rNgNOiUPvjANmic0Vf7AB4-8WqvAPgrCgYiuY/preview</id>
+        <link href="https://docs.google.com/presentation/d/1zo33H_rNgNOiUPvjANmic0Vf7AB4-8WqvAPgrCgYiuY/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmanオンラインワークショップ: Postman入門 - 20240208 - 公開用 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1scyPL_Pe0I2RfA56AIcBbLHT1YDPBltOZuHzWJj7p_I/preview</id>
+        <link href="https://docs.google.com/presentation/d/1scyPL_Pe0I2RfA56AIcBbLHT1YDPBltOZuHzWJj7p_I/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmanオンラインワークショップ - API認証 - 20240222 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1ZX8jUjn1rLQ5s5yZ8IN39RhL1pTfEHwP-HDvgIoESF0/preview</id>
+        <link href="https://docs.google.com/presentation/d/1ZX8jUjn1rLQ5s5yZ8IN39RhL1pTfEHwP-HDvgIoESF0/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmanワークショップ: テスト自動化 - 20240613 - 公開版 | 勉強会スライドBot]]></title>
+        <id>https://docs.google.com/presentation/d/1PdjK2BltLsSvf3tLxtNuK9ZdAjSCgbUdyKluX4b6MqY/preview</id>
+        <link href="https://docs.google.com/presentation/d/1PdjK2BltLsSvf3tLxtNuK9ZdAjSCgbUdyKluX4b6MqY/preview"/>
+        <updated>2024-06-17T15:00:00.000Z</updated>
+        <published>2024-06-17T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「プログラマー脳」を読んで感覚的な部分が言語化された (shinnosuke) | 勉強会スライドBot]]></title>
         <id>https://speakerdeck.com/shinnosuke_kishida/puroguramanoy-wodu-ndegan-jue-de-nabu-fen-gayan-yu-hua-sareta</id>
         <link href="https://speakerdeck.com/shinnosuke_kishida/puroguramanoy-wodu-ndegan-jue-de-nabu-fen-gayan-yu-hua-sareta"/>
@@ -929,10 +1128,10 @@
         <category label="人工知能"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="分子生物学"/>
-        <category label="バイオインフォマティクス"/>
         <category label="医薬品開発"/>
         <category label="生物統計学"/>
+        <category label="分子生物学"/>
+        <category label="バイオインフォマティクス"/>
         <category label="データ解析"/>
         <category label="バイオアッセイ"/>
         <category label="解析ツール"/>
@@ -1132,8 +1331,8 @@
         <author>
             <name>AM</name>
         </author>
-        <category label="Azure"/>
         <category label="生成AI"/>
+        <category label="Azure"/>
         <published>2024-06-17T04:21:11.000Z</published>
     </entry>
     <entry>
@@ -1354,6 +1553,15 @@
         <published>2024-06-17T02:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ChatGPTとPydanticでかんたん契約書解析 | MNTSQ Techブログ]]></title>
+        <id>https://tech.mntsq.co.jp/entry/2024/06/17/110000</id>
+        <link href="https://tech.mntsq.co.jp/entry/2024/06/17/110000"/>
+        <updated>2024-06-17T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解か...]]></summary>
+        <content type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解かせてどんな結果になるか見てみます。 ざっくりやり方 GPT-4oのAPIを呼び出すところ ここではAzure OpenAIのGPT-4oを使います。Microsoftのサンプルコードほぼそのままですが…]]></content>
+        <published>2024-06-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Yahoo!フリマ Android開発チームの GitHub Copilot 活用事例 | LINEヤフー Tech Blog]]></title>
         <id>https://techblog.lycorp.co.jp/ja/20240617a</id>
         <link href="https://techblog.lycorp.co.jp/ja/20240617a"/>
@@ -1369,15 +1577,6 @@
         <updated>2024-06-17T02:00:00.000Z</updated>
         <summary type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></summary>
         <content type="html"><![CDATA[弊社では3年前、従来のヘッドレスCMSの構造とパフォーマンスを改善した新しいヘッドレスCMS、LandPress Contentを社内向けに公開しました。その後、従来のCMSを使用していた多くのLI...]]></content>
-        <published>2024-06-17T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPTとPydanticでかんたん契約書解析 | MNTSQ Techブログ]]></title>
-        <id>https://tech.mntsq.co.jp/entry/2024/06/17/110000</id>
-        <link href="https://tech.mntsq.co.jp/entry/2024/06/17/110000"/>
-        <updated>2024-06-17T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解か...]]></summary>
-        <content type="html"><![CDATA[こんにちは、MNTSQでアルゴリズムエンジニアとチームマネージャーをやっている平田です。 MNTSQでは自然言語処理を使って契約書を解析したり検索したりする機能を開発しています。 契約書解析には、次のようなタスクがあります。 秘密保持契約等の契約類型に分類 契約締結日や契約当事者等の基本情報を抽出 条項（第1条, 第2条, ...）単位で分解 本稿では、これらの契約書解析タスクをGPT-4oに解かせてどんな結果になるか見てみます。 ざっくりやり方 GPT-4oのAPIを呼び出すところ ここではAzure OpenAIのGPT-4oを使います。Microsoftのサンプルコードほぼそのままですが…]]></content>
         <published>2024-06-17T02:00:00.000Z</published>
     </entry>
     <entry>
@@ -2167,45 +2366,6 @@
         <published>2024-06-16T02:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[左手デバイスに“タッチパッド”が登場。ジェスチャーで作業が捗る〜 | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/sanwasupply_ma-pb521gm.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/sanwasupply_ma-pb521gm.html"/>
-        <updated>2024-06-16T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:SANWASUPPLYカンペがないと14種類は憶えられなさそう。俗に言う「左手デバイス」は、ボタン1発でショートカット入力をしたり、ツマミの回転やスライダーの移動でPC作業の効率化を図るものですよね。それも便利ですが、ノートPCにあるようなタッチパッドも独立していたら重宝しそう。左手にタッチパッドサンワサプライのBluetoothタッチパッド「MA-PB521GM」は、14種類ものジェ]]></summary>
-        <content type="html"><![CDATA[Image:SANWASUPPLYカンペがないと14種類は憶えられなさそう。俗に言う「左手デバイス」は、ボタン1発でショートカット入力をしたり、ツマミの回転やスライダーの移動でPC作業の効率化を図るものですよね。それも便利ですが、ノートPCにあるようなタッチパッドも独立していたら重宝しそう。左手にタッチパッドサンワサプライのBluetoothタッチパッド「MA-PB521GM」は、14種類ものジェ]]></content>
-        <author>
-            <name>岡本玄介</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-06-16T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[すべての歯間を14秒で一気にきれいにするマウスピース型フロス | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/blizzflosser-dental-floss.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/blizzflosser-dental-floss.html"/>
-        <updated>2024-06-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[自分の歯型に合わせて作ってくれるマウスピース型フロス「BlizzFlosser 4.0」。14秒で全歯間をきれいにする。]]></summary>
-        <content type="html"><![CDATA[自分の歯型に合わせて作ってくれるマウスピース型フロス「BlizzFlosser 4.0」。14秒で全歯間をきれいにする。]]></content>
-        <author>
-            <name>岡本玄介</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-06-16T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[年内のXboxポータブルの発表はないみたい | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/xbox-showcase-handheld-no-show.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/xbox-showcase-handheld-no-show.html"/>
-        <updated>2024-06-15T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:Shutterstock.AIかなり期待してたのに…。いまハンドヘルドゲーミングPCが熱いです。Valveの「SteamDeck」に始まって、Lenovo（レノボ）が発売した「LegionGo」だったり、次はMicrosoft（マイクロソフト）が本腰を入れるのでは？Xboxのポータブルゲーム機のバージョンなんて出たら、話題になった「NintendoSwitch」の後継機とも互角に勝負で]]></summary>
-        <content type="html"><![CDATA[Image:Shutterstock.AIかなり期待してたのに…。いまハンドヘルドゲーミングPCが熱いです。Valveの「SteamDeck」に始まって、Lenovo（レノボ）が発売した「LegionGo」だったり、次はMicrosoft（マイクロソフト）が本腰を入れるのでは？Xboxのポータブルゲーム機のバージョンなんて出たら、話題になった「NintendoSwitch」の後継機とも互角に勝負で]]></content>
-        <author>
-            <name>湯木進悟</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-06-15T23:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[言語習得の為に始めたAtCoderで入茶するまでの話 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/hiramax/items/4e6962f6e95d3f4b7e9e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/hiramax/items/4e6962f6e95d3f4b7e9e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -2235,48 +2395,6 @@
         <updated>2024-06-15T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[この記事は、every Tech Blog Advent Calendar 2024(夏) の16日目の記事です。 はじめまして、データストラテジストのoyabuです。 N1分析、色んなメリットがあるので頼る場面が多いのですがN1分析時に注意していることを書いてみます。 N1分析のpros/cons ここでのN1分析は、1人のユーザーをアクションログ単位で分析することを指します。インタビューなどは...]]></summary>
         <content type="html"><![CDATA[この記事は、every Tech Blog Advent Calendar 2024(夏) の16日目の記事です。 はじめまして、データストラテジストのoyabuです。 N1分析、色んなメリットがあるので頼る場面が多いのですがN1分析時に注意していることを書いてみます。 N1分析のpros/cons ここでのN1分析は、1人のユーザーをアクションログ単位で分析することを指します。インタビューなどは含みません。 そういったN1分析のpros/consは以下であると考えています。 pros ユーザーの解像度が上がる 楽しい cons 適当にみちゃうと時間の無駄 楽しいので時間が溶ける なので、基本…]]></content>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[イベント駆動アーキテクチャ導入の手引きと共通の落とし穴 / Guide to Implementing Event-Driven Architecture and Common Pitfalls (nrs) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/nrslib/guide-to-implementing-event-driven-architecture-and-common-pitfalls</id>
-        <link href="https://speakerdeck.com/nrslib/guide-to-implementing-event-driven-architecture-and-common-pitfalls"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monitoring user experience  of Flutter apps with SLI/SLO (日本語) (Takuma Osada) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/ostk0069/slowoyong-ite-flutterapuride-yuzati-yan-nopin-zhi-wojian-shi-suru</id>
-        <link href="https://speakerdeck.com/ostk0069/slowoyong-ite-flutterapuride-yuzati-yan-nopin-zhi-wojian-shi-suru"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[どこでも使える Cloudflare Workers！ (Kei Kamikawa) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/codehex/dokodemoshi-eru-cloudflare-workers</id>
-        <link href="https://speakerdeck.com/codehex/dokodemoshi-eru-cloudflare-workers"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[初めての研究発表を成功させよう！ スライド作成の基本 (Ayako Sato) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/ayaco0/how-to-create-research-presentation-slides-tutorial-for-new-lab-members</id>
-        <link href="https://speakerdeck.com/ayaco0/how-to-create-research-presentation-slides-tutorial-for-new-lab-members"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【JJUG CCC 2024 Spring】物理削除/論理削除 #jjug_ccc_c #jjug_ccc (hirotaka kono,@hk_it7) | 勉強会スライドBot]]></title>
-        <id>https://www.docswell.com/s/hk_it7/ZENPR1-2024-06-16-111139</id>
-        <link href="https://www.docswell.com/s/hk_it7/ZENPR1-2024-06-16-111139"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
-        <published>2024-06-15T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[チームの成長を促すためのスプリントレトロスペクティブの活用法 / How to use sprint retrospectives to promote team growth (mackey0225) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/mackey0225/how-to-use-sprint-retrospectives-to-promote-team-growth</id>
-        <link href="https://speakerdeck.com/mackey0225/how-to-use-sprint-retrospectives-to-promote-team-growth"/>
-        <updated>2024-06-15T15:00:00.000Z</updated>
         <published>2024-06-15T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -3649,15 +3767,6 @@
         <published>2024-06-13T22:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[オンラインゲームがラグる！ 光回線なのにゲームの通信が不安定になるのはなぜ？　【石田賀津男の『酒の肴にPCゲーム』】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/serial/sspcgame/1598951.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/serial/sspcgame/1598951.html"/>
-        <updated>2024-06-13T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[オンラインゲームをプレイしたことがある人なら、操作の反応が遅れたり、急に動いたりする状況は、誰もが経験したことがあるはず。これはサーバーとの通信がうまくいかず、データの送受信が一時的に途切れた時に発生する。通信のタイムラグが発生することから、ゲーマー界隈では「ラグる」と表現される。]]></summary>
-        <content type="html"><![CDATA[オンラインゲームをプレイしたことがある人なら、操作の反応が遅れたり、急に動いたりする状況は、誰もが経験したことがあるはず。これはサーバーとの通信がうまくいかず、データの送受信が一時的に途切れた時に発生する。通信のタイムラグが発生することから、ゲーマー界隈では「ラグる」と表現される。]]></content>
-        <published>2024-06-13T21:55:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[包括的なRAG評価ベンチマーク『CRAG』Metaなどが開発 | AIDB]]></title>
         <id>https://ai-data-base.com/?p=70850</id>
         <link href="https://ai-data-base.com/archives/70850"/>
@@ -3706,13 +3815,6 @@
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第30回理化学研究所里庄セミナー | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20240817_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20240817_1/index.html"/>
-        <updated>2024-06-13T15:00:00.000Z</updated>
-        <published>2024-06-13T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[最新技術で明らかにしたゴルジ体の真の姿 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240614_2/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240614_2/index.html"/>
@@ -3728,6 +3830,13 @@
         <updated>2024-06-13T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－無細胞タンパク質結晶化による天然変性タンパク質迅速構造決定－]]></summary>
         <content type="html"><![CDATA[－無細胞タンパク質結晶化による天然変性タンパク質迅速構造決定－]]></content>
+        <published>2024-06-13T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第30回理化学研究所里庄セミナー | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20240817_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20240817_1/index.html"/>
+        <updated>2024-06-13T15:00:00.000Z</updated>
         <published>2024-06-13T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -4476,24 +4585,6 @@
         <published>2024-06-12T08:58:04.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【AWS re:Inforce 2024】Amazon GuardDuty Malware Protection for Amazon S3 が発表されました | エンジニアブログ | iret.media]]></title>
-        <id>https://iret.media/?p=104198</id>
-        <link href="https://iret.media/104198"/>
-        <updated>2024-06-12T08:50:30.000Z</updated>
-        <summary type="html"><![CDATA[現在 US で開催されている re:Inforce 2024 にて、Amazon GuardDuty Malware Protection for Amazon S3（以下、GuardDuty Malware Prote […]]]></summary>
-        <content type="html"><![CDATA[現在 US で開催されている re:Inforce 2024 にて、Amazon GuardDuty Malware Protection for Amazon S3（以下、GuardDuty Malware Prote […]]]></content>
-        <author>
-            <name>佐伯 康浩</name>
-        </author>
-        <category label="イベントレポート"/>
-        <category label="エンジニアブログ"/>
-        <category label="AWS"/>
-        <category label="AWS re:Inforce 2024"/>
-        <category label="イベント"/>
-        <category label="セキュリティ"/>
-        <published>2024-06-12T08:50:30.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Rails 7.2.0 Active Storage CHANGELOG（全項目リンク付き） | TechRacho]]></title>
         <id>https://techracho.bpsinc.jp/?p=142432</id>
         <link href="https://techracho.bpsinc.jp/hachi8833/2024_06_12/142432"/>
@@ -4981,19 +5072,19 @@
         <published>2024-06-11T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[YouTube「理研チャンネル」新着動画（理化学研究所女性PIオーラルヒストリープロジェクト：PIへの軌跡5） | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240612_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240612_1/index.html"/>
-        <updated>2024-06-11T15:00:00.000Z</updated>
-        <published>2024-06-11T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[BMI×ゲノムで2型糖尿病の遺伝的リスク予測精度を向上 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240612_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240612_1/index.html"/>
         <updated>2024-06-11T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－やせているのに糖尿病になりやすい体質－]]></summary>
         <content type="html"><![CDATA[－やせているのに糖尿病になりやすい体質－]]></content>
+        <published>2024-06-11T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube「理研チャンネル」新着動画（理化学研究所女性PIオーラルヒストリープロジェクト：PIへの軌跡5） | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240612_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240612_1/index.html"/>
+        <updated>2024-06-11T15:00:00.000Z</updated>
         <published>2024-06-11T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5206,30 +5297,6 @@
         <published>2024-06-11T06:48:13.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[『Call of Duty: Black Ops 6』のインストールサイズは約300GBではない ストアページの表記から誤解されていたが、公式に説明される | IGN Japan games]]></title>
-        <id>https://jp.ign.com/call-of-duty-black-ops-6/75148/news/call-of-duty-black-ops-6300gb</id>
-        <link href="https://jp.ign.com/call-of-duty-black-ops-6/75148/news/call-of-duty-black-ops-6300gb"/>
-        <updated>2024-06-11T06:28:55.000Z</updated>
-        <summary type="html"><![CDATA[約300GBは、ほかの「Call of Duty」タイトルや言語パックをすべてダウンロードしたときの容量だそうだ ストアページの情報から『Call of Duty: Black Ops 6』の「ファイル容量が約300GBになるのではないか」と一部で推測されていたが、それは誤解だったそうだ。]]></summary>
-        <content type="html"><![CDATA[約300GBは、ほかの「Call of Duty」タイトルや言語パックをすべてダウンロードしたときの容量だそうだ ストアページの情報から『Call of Duty: Black Ops 6』の「ファイル容量が約300GBになるのではないか」と一部で推測されていたが、それは誤解だったそうだ。]]></content>
-        <author>
-            <name>重田雄一</name>
-        </author>
-        <category label="ゲーム"/>
-        <category label="PlayStation 4"/>
-        <category label="Xbox One"/>
-        <category label="Xbox Series X"/>
-        <category label="Steam"/>
-        <category label="PlayStation 5"/>
-        <category label="ps4"/>
-        <category label="News"/>
-        <category label="Sony PlayStation"/>
-        <category label="PC"/>
-        <category label="Call of Duty: Black Ops 6"/>
-        <category label="xbox-one"/>
-        <published>2024-06-11T06:28:55.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Java入門編に新講座追加 | 初心者でもジェネリクスを理解できる | paiza times]]></title>
         <id>https://paiza.hatenablog.com/entry/2024/06/11/152206</id>
         <link href="https://paiza.hatenablog.com/entry/2024/06/11/152206"/>
@@ -5376,8 +5443,8 @@
             <name>YUJI</name>
         </author>
         <category label="AWS"/>
-        <category label="AWS Systems Manager Automation"/>
         <category label="AMI"/>
+        <category label="AWS Systems Manager Automation"/>
         <category label="Amazon EC2"/>
         <category label="Amazon EventBridge"/>
         <published>2024-06-11T01:00:47.000Z</published>
@@ -6025,19 +6092,19 @@
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
-        <updated>2024-06-09T15:00:00.000Z</updated>
-        <published>2024-06-09T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[複数のマイクロRNAを同時検出する「RNA液滴コンピュータ」の開発に成功 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240610_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240610_1/index.html"/>
         <updated>2024-06-09T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></summary>
         <content type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></content>
+        <published>2024-06-09T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
+        <updated>2024-06-09T15:00:00.000Z</updated>
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -6543,13 +6610,13 @@
         <author>
             <name>佐藤 陽</name>
         </author>
-        <category label="Azure"/>
         <category label="生成AI"/>
-        <category label="AI"/>
-        <category label="RAG"/>
+        <category label="Azure"/>
         <category label="Document Intelligence"/>
         <category label="OCR"/>
         <category label="Azure AI Services"/>
+        <category label="AI"/>
+        <category label="RAG"/>
         <published>2024-06-07T00:25:52.000Z</published>
     </entry>
     <entry>
@@ -6904,21 +6971,6 @@
         <summary type="html"><![CDATA[ソフトウェアエンジニア&Shinjuku.rbオーガナイザーの onigra です。5/31にClassiオフィスにてShinjuku.rbを開催いたしました。足元の悪い中ご参加くださった方々、本当にありがとうございました。 Shinjuku.rb とは、新宿周辺のRuby技術者たちが気軽に集まるコミュニティです。 ミートアップでは一方的な発表のみならず、ディスカッションを通じたインタラクションを...]]></summary>
         <content type="html"><![CDATA[ソフトウェアエンジニア&Shinjuku.rbオーガナイザーの onigra です。5/31にClassiオフィスにてShinjuku.rbを開催いたしました。足元の悪い中ご参加くださった方々、本当にありがとうございました。 Shinjuku.rb とは、新宿周辺のRuby技術者たちが気軽に集まるコミュニティです。 ミートアップでは一方的な発表のみならず、ディスカッションを通じたインタラクションを大事にしているのが特徴の１つです。 今回の開催にあたり、同じくShinjuku.rbオーガナイザーである yuki3738さんが所属する 株式会社mov様より、フード&ドリンクスポンサーの協賛をいただ…]]></content>
         <published>2024-06-06T01:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon EC2インスタンスのメモリ使用率をAmazon CloudWatchでモニタリングする | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=32700</id>
-        <link href="https://techblog.nhn-techorus.com/archives/32700"/>
-        <updated>2024-06-06T01:00:56.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、eunseoです！ 本記事では、CloudWatch Agentを使用してEC2インスタンスのメモリ使用率をCloudWatchでモニタリングする方法について、ご紹介いたします。 概要 Amazon CloudWatc... 続きを読む Amazon EC2インスタンスのメモリ使用率をAmazon CloudWatchでモニタリングする first appeared on N...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、eunseoです！ 本記事では、CloudWatch Agentを使用してEC2インスタンスのメモリ使用率をCloudWatchでモニタリングする方法について、ご紹介いたします。 概要 Amazon CloudWatc... 続きを読む Amazon EC2インスタンスのメモリ使用率をAmazon CloudWatchでモニタリングする first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>eunseo</name>
-        </author>
-        <category label="AWS"/>
-        <category label="Amazon EC2"/>
-        <category label="Amazon CloudWatch"/>
-        <published>2024-06-06T01:00:56.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker Build Cloudを導入してコンテナイメージビルド時間を80%削減しました | スタディスト Tech Blog - Medium]]></title>
@@ -7434,8 +7486,8 @@
         <category label="マルチメディア(映像・画像・音声)処理"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="AR/VR"/>
         <category label="生成AI"/>
+        <category label="AR/VR"/>
         <category label="スマートグラス"/>
         <published>2024-06-05T01:00:54.000Z</published>
     </entry>
@@ -7545,6 +7597,15 @@
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[電子の回折をアト秒で制御 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240605_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240605_1/index.html"/>
+        <updated>2024-06-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－極限的な時間空間分解能を持つ電子顕微鏡開発への大きな一歩－]]></summary>
+        <content type="html"><![CDATA[－極限的な時間空間分解能を持つ電子顕微鏡開発への大きな一歩－]]></content>
+        <published>2024-06-04T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[博物ふぇすてぃばる！10「サイエンスカンバッジワークショップ」と「いきもんぬりえ」 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/events/20240720_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/events/20240720_1/index.html"/>
@@ -7563,15 +7624,6 @@
         <id> https://www.riken.jp/pr/news/2024/20240605_1/index.html</id>
         <link href="https://www.riken.jp/pr/news/2024/20240605_1/index.html"/>
         <updated>2024-06-04T15:00:00.000Z</updated>
-        <published>2024-06-04T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[電子の回折をアト秒で制御 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240605_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240605_1/index.html"/>
-        <updated>2024-06-04T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－極限的な時間空間分解能を持つ電子顕微鏡開発への大きな一歩－]]></summary>
-        <content type="html"><![CDATA[－極限的な時間空間分解能を持つ電子顕微鏡開発への大きな一歩－]]></content>
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -7820,32 +7872,5 @@
         <summary type="html"><![CDATA[アップルはM2チップ搭載iPad Airを発表した際に、10コアCPUを搭載していると述べていました。それが先週、公式サイトの技術仕様ページなどを更新し、記事執筆時点では「9コア」に修正しています。]]></summary>
         <content type="html"><![CDATA[アップルはM2チップ搭載iPad Airを発表した際に、10コアCPUを搭載していると述べていました。それが先週、公式サイトの技術仕様ページなどを更新し、記事執筆時点では「9コア」に修正しています。]]></content>
         <published>2024-06-04T06:47:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rails7.1へバージョンアップした話 | SMARTCAMP Engineer Blog]]></title>
-        <id>https://tech.smartcamp.co.jp/entry/rails-version-up-7-1?utm_source=feed</id>
-        <link href="https://tech.smartcamp.co.jp/entry/rails-version-up-7-1?utm_source=feed"/>
-        <updated>2024-06-04T03:50:40.000Z</updated>
-        <summary type="html"><![CDATA[はじめに バージョン詳細 作業内容 Railsバージョンアップ Rubyバージョンアップ new_framework_defaults_7_1.rb 大変だったこと&ハマったこと config.load_defaultsの値が5.2だった ローカルのsecret_key_baseの保存場所が変わっていた CircleCIでの"bundle install"ができなくなった 良かったこと&助かったこ...]]></summary>
-        <content type="html"><![CDATA[はじめに バージョン詳細 作業内容 Railsバージョンアップ Rubyバージョンアップ new_framework_defaults_7_1.rb 大変だったこと&ハマったこと config.load_defaultsの値が5.2だった ローカルのsecret_key_baseの保存場所が変わっていた CircleCIでの"bundle install"ができなくなった 良かったこと&助かったこと テストコード 新しいデフォルト設定値 最後に はじめに こんにちは！スマートキャンプ開発エンジニアの末吉(だいきち)です。 今回は、BALES CLOUDにてRailsとRubyのバージョンアップ…]]></content>
-        <published>2024-06-04T03:50:40.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[インテル、次世代Core UltraプロセッサLunar Lake詳細発表。計120TOPS AI PC性能でCopilot＋ PC対応、CPU・GPUも刷新 | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/06/04/3431.html</id>
-        <link href="https://www.techno-edge.net/article/2024/06/04/3431.html"/>
-        <updated>2024-06-04T03:49:47.000Z</updated>
-        <summary type="html"><![CDATA[Computex にあわせて、インテルが薄型ノートPC向けの次世代プロセッサ Lunar Lake の詳細を公開しました。]]></summary>
-        <content type="html"><![CDATA[Computex にあわせて、インテルが薄型ノートPC向けの次世代プロセッサ Lunar Lake の詳細を公開しました。]]></content>
-        <published>2024-06-04T03:49:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AMD、Copilot+ PC向けCPU『Ryzen AI 300』シリーズ発表。ノートPC製品が7月発売 | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/06/04/3430.html</id>
-        <link href="https://www.techno-edge.net/article/2024/06/04/3430.html"/>
-        <updated>2024-06-04T03:48:19.000Z</updated>
-        <summary type="html"><![CDATA[AMDが、台北市で開催されたComputexComputex 2024で新しい世代となるZen 5アーキテクチャーを採用したノートPC用CPU製品Ryzen AI 300を発表しました。7月より出荷を開始するとしています。]]></summary>
-        <content type="html"><![CDATA[AMDが、台北市で開催されたComputexComputex 2024で新しい世代となるZen 5アーキテクチャーを採用したノートPC用CPU製品Ryzen AI 300を発表しました。7月より出荷を開始するとしています。]]></content>
-        <published>2024-06-04T03:48:19.000Z</published>
     </entry>
 </feed>
