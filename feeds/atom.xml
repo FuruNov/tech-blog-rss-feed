@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-06-18T07:23:53.625Z</updated>
+    <updated>2024-06-18T09:26:11.568Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -11,12 +11,56 @@
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
     <entry>
+        <title type="html"><![CDATA[ピクサー新作『インサイド・ヘッド2』は思春期真っ盛り | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/inside-out-2-review-pixar-disney-toy-story-cars-nemo.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/inside-out-2-review-pixar-disney-toy-story-cars-nemo.html"/>
+        <updated>2024-06-18T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ピクサーの新作『インサイド・ヘッド2』は、ピクサーが魔法を起こしてくれることを思い出させてくれる、良質な作品となっています。]]></summary>
+        <content type="html"><![CDATA[ピクサーの新作『インサイド・ヘッド2』は、ピクサーが魔法を起こしてくれることを思い出させてくれる、良質な作品となっています。]]></content>
+        <author>
+            <name>岩田リョウコ</name>
+        </author>
+        <category label="ENTERTAINMENT"/>
+        <published>2024-06-18T09:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutterエンジニアが年150万円のサーバー費用を削減する話 | every Tech Blog]]></title>
+        <id>https://tech.every.tv/entry/2024/06/18/175820?utm_source=feed</id>
+        <link href="https://tech.every.tv/entry/2024/06/18/175820?utm_source=feed"/>
+        <updated>2024-06-18T08:58:20.000Z</updated>
+        <summary type="html"><![CDATA[この記事は every Tech Blog Advent Calendar 2024（夏） の18日目の記事です DELISH KITCHEN 開発部で小売様向き合いで主にアプリ開発をしている野口です。 Flutterエンジニアをしておりますが、直近インフラやサーバーサイドもやらせていただいております。 今回は事業譲渡されたネットスーパーアプリでインフラで使用しているFJcloud-V（旧ニフクラ...]]></summary>
+        <content type="html"><![CDATA[この記事は every Tech Blog Advent Calendar 2024（夏） の18日目の記事です DELISH KITCHEN 開発部で小売様向き合いで主にアプリ開発をしている野口です。 Flutterエンジニアをしておりますが、直近インフラやサーバーサイドもやらせていただいております。 今回は事業譲渡されたネットスーパーアプリでインフラで使用しているFJcloud-V（旧ニフクラ）で抱えていた問題を一部AWSに置き換えることで解決した話について紹介します。 課題 課題① SSL証明書更新対応に工数が掛かる SSL証明書はFJcloud-Vで管理しており、SSL証明書の更新には…]]></content>
+        <published>2024-06-18T08:58:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Magnitude Homology Equivalence | The n-Category Café]]></title>
+        <id>https://golem.ph.utexas.edu/category/2024/06/magnitude_homology_equivalence.html</id>
+        <link href="https://golem.ph.utexas.edu/category/2024/06/magnitude_homology_equivalence.html"/>
+        <updated>2024-06-18T08:46:19.000Z</updated>
+        <summary type="html"><![CDATA[When do two subsets of Euclidean space have the same magnitude homology? ]]></summary>
+        <content type="html"><![CDATA[When do two subsets of Euclidean space have the same magnitude homology? ]]></content>
+        <published>2024-06-18T08:46:19.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Snowpipe + Streamを用いたSnowflakeデータパイプラインの構築 | FLINTERS Engineer's Blog]]></title>
         <id>https://blog.flinters.co.jp/entry/2024/06/18/170000</id>
         <link href="https://blog.flinters.co.jp/entry/2024/06/18/170000"/>
         <updated>2024-06-18T08:00:00.000Z</updated>
         <summary type="html"><![CDATA[データチームの出口です。 この記事はFLINTERSブログ祭りの記事です。テーマは #Snowflake #技術 #データパイプライン です。 今回はデータチームが現在取り組んでいるSnowflakeを活かしたデータパイプラインの構築について紹介したいと思います。 現状の問題点 現状の構成では以下の点に問題が生じていました。 格納データに不正なデータが混ざり(レコードの重複や主キーのNULLなど)...]]></summary>
         <content type="html"><![CDATA[データチームの出口です。 この記事はFLINTERSブログ祭りの記事です。テーマは #Snowflake #技術 #データパイプライン です。 今回はデータチームが現在取り組んでいるSnowflakeを活かしたデータパイプラインの構築について紹介したいと思います。 現状の問題点 現状の構成では以下の点に問題が生じていました。 格納データに不正なデータが混ざり(レコードの重複や主キーのNULLなど)、後続での利用に影響が生じるリスクがある 加工された値の格納のため、過去のAPIバージョンで取得した値をDWH上で確認できない そのため、取得データを確認するためにはS3上のAPI取得データを確認する…]]></content>
+        <published>2024-06-18T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3万円ちょいから。お手頃なGalaxy Watchが登場 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/06/samsung-galaxy-watch-fe-smartwatch.html</id>
+        <link href="https://www.gizmodo.jp/2024/06/samsung-galaxy-watch-fe-smartwatch.html"/>
+        <updated>2024-06-18T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:SamsungSamsung（サムスン）のスマートウォッチシリーズ、GalaxyWatchに、お手頃価格の仲間が登場。その名も、GalaxyWatchFE。価格は、Bluetoothモデルが199.99ドル（3万円強）、LTEモデルは249.99ドル（4万円弱）。GalaxyWatch6が現在5万円なので、だいぶ安い。うーん、でも、機能を比べて、GalaxyWatch6とどっちがいいん]]></summary>
+        <content type="html"><![CDATA[Image:SamsungSamsung（サムスン）のスマートウォッチシリーズ、GalaxyWatchに、お手頃価格の仲間が登場。その名も、GalaxyWatchFE。価格は、Bluetoothモデルが199.99ドル（3万円強）、LTEモデルは249.99ドル（4万円弱）。GalaxyWatch6が現在5万円なので、だいぶ安い。うーん、でも、機能を比べて、GalaxyWatch6とどっちがいいん]]></content>
+        <author>
+            <name>小野寺しんいち</name>
+        </author>
+        <category label="PRODUCT"/>
         <published>2024-06-18T08:00:00.000Z</published>
     </entry>
     <entry>
@@ -243,6 +287,15 @@
         <published>2024-06-18T03:24:33.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【React】useState 地獄を脱するために | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/kobayashimakoto/items/1c022aef66890c8af24f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/kobayashimakoto/items/1c022aef66890c8af24f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-18T03:24:07.000Z</updated>
+        <summary type="html"><![CDATA[背景 お試しでreactを触ってみたところ、入力フォームで、各フォーム毎に State を管理していると大量のuseStateを定義・管理するのが面倒な経験をしました。 ここら辺スッキリ書けるといい…]]></summary>
+        <content type="html"><![CDATA[背景 お試しでreactを触ってみたところ、入力フォームで、各フォーム毎に State を管理していると大量のuseStateを定義・管理するのが面倒な経験をしました。 ここら辺スッキリ書けるといい…]]></content>
+        <published>2024-06-18T03:24:07.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Helm Chartのバージョンアップにどう取り組むか | FLINTERS Engineer's Blog]]></title>
         <id>https://blog.flinters.co.jp/entry/2024/06/18/120000_1</id>
         <link href="https://blog.flinters.co.jp/entry/2024/06/18/120000_1"/>
@@ -443,6 +496,24 @@
         <published>2024-06-18T01:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[自社サービスサイトをNuxtからAstroに置き換えた話 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/JunpeiNakagawa/items/b4f141526d142708b9dd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/JunpeiNakagawa/items/b4f141526d142708b9dd?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-18T01:14:10.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Nuxtで作られていた弊社サービスサイトを一部Astroに置き換えたので、よかったことや困ったことを書きたいと思います。 Astroとは 公式サイトには以下の様に記されています。  Astr…]]></summary>
+        <content type="html"><![CDATA[はじめに Nuxtで作られていた弊社サービスサイトを一部Astroに置き換えたので、よかったことや困ったことを書きたいと思います。 Astroとは 公式サイトには以下の様に記されています。  Astr…]]></content>
+        <published>2024-06-18T01:14:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[初めてLaravelのJob Queueを触ったことをまとめてみる | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/yuji0809/items/d3a2d9e649bfb3150de2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/yuji0809/items/d3a2d9e649bfb3150de2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-18T01:08:03.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Qiita Engineer Festa 2024 が開催されているせっかくの機会なので、 最近の開発の際に初めて触った、LaravelのJob Queueについて まとめてみようと思いま…]]></summary>
+        <content type="html"><![CDATA[はじめに Qiita Engineer Festa 2024 が開催されているせっかくの機会なので、 最近の開発の際に初めて触った、LaravelのJob Queueについて まとめてみようと思いま…]]></content>
+        <published>2024-06-18T01:08:03.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[直感的コントロールも予告した話題の高性能動画AI、Luma AI「Dream Machine」、10秒以上の動画生成が可能になったので試してみた（CloseBox） | テクノエッジ TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2024/06/18/3476.html</id>
         <link href="https://www.techno-edge.net/article/2024/06/18/3476.html"/>
@@ -554,6 +625,15 @@
         <published>2024-06-18T00:10:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[【QGIS】CS立体図が最新版のQGISでも作れる！CSMap Pluginを作成しました 🎉 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/geo_jagaimo/items/f81871b85b755f1f3b90?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/geo_jagaimo/items/f81871b85b755f1f3b90?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-18T00:08:38.000Z</updated>
+        <summary type="html"><![CDATA[はじめに CS立体図を最新版QGIS LTRで作成できるCSMap Pluginを作成しました 🎉 CS立体図を作成できるQGISプラグインではCSMapMakerが長らく使われています。しかし，…]]></summary>
+        <content type="html"><![CDATA[はじめに CS立体図を最新版QGIS LTRで作成できるCSMap Pluginを作成しました 🎉 CS立体図を作成できるQGISプラグインではCSMapMakerが長らく使われています。しかし，…]]></content>
+        <published>2024-06-18T00:08:38.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[RubyKaigi 2024に参加して良かったこと3選 | スタディスト Tech Blog - Medium]]></title>
         <id>https://medium.com/p/49529fe2681b</id>
         <link href="https://studist.tech/three-great-things-about-attending-rubykaigi-2024-49529fe2681b?source=rss----1b85cc1f989a---4"/>
@@ -591,6 +671,15 @@
         <published>2024-06-18T00:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Power Platform で市民開発する際に、SharePoint リストのユーザーまたはグループ列を使う際にはまること | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/Takashi_Masumori/items/0160c44ba5404ac13237?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/Takashi_Masumori/items/0160c44ba5404ac13237?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T23:44:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Power Platform で市民開発する際に、SharePoint リストをデータソースとして利用する方も多いと思います。 この際、以下のように、ユーザーまたはグループという種類の列を…]]></summary>
+        <content type="html"><![CDATA[はじめに Power Platform で市民開発する際に、SharePoint リストをデータソースとして利用する方も多いと思います。 この際、以下のように、ユーザーまたはグループという種類の列を…]]></content>
+        <published>2024-06-17T23:44:45.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AlloyDBへのマスターデータ移行@ABEMA | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
         <id>https://developers.cyberagent.co.jp/blog/?p=48425</id>
         <link href="https://developers.cyberagent.co.jp/blog/archives/48425/"/>
@@ -617,6 +706,15 @@
         </author>
         <category label="PRODUCT"/>
         <published>2024-06-17T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【VSCode】画面内でコードを改行したい | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/mmm_qiita/items/f9b0bf74ec50b260c115?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/mmm_qiita/items/f9b0bf74ec50b260c115?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T22:21:43.000Z</updated>
+        <summary type="html"><![CDATA[はじめに SQLやJava、Pythonを扱う際に"Visual Studio Code"を使用しています。 JavaやPythonは1行に詰め込むことがあまりないですが、複雑なSQLだとたまに長く…]]></summary>
+        <content type="html"><![CDATA[はじめに SQLやJava、Pythonを扱う際に"Visual Studio Code"を使用しています。 JavaやPythonは1行に詰め込むことがあまりないですが、複雑なSQLだとたまに長く…]]></content>
+        <published>2024-06-17T22:21:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[カイルくんよりこっちだろ！ AI「冴子先生」をOfficeアシスタントに復帰させる方法／「ChatGPT」ベースだが、ちゃんと冴子先生としての自我もあり【レビュー】 | 窓の杜]]></title>
@@ -715,6 +813,15 @@
         <category label="Products and Services"/>
         <category label="Partners"/>
         <published>2024-06-17T17:00:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Streamingに対応したFakeLLMを作ってLangChainアプリケーション開発を爆速にしよう | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/tubone/items/22dd7a54a1fb3fd160ce?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/tubone/items/22dd7a54a1fb3fd160ce?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T16:50:17.000Z</updated>
+        <summary type="html"><![CDATA[LLMを使ったアプリ開発での課題 LangChain入門3ヶ月目のtubone24です。よろしくお願いします。 皆さん、LangChainとLLMを使ったアプリケーション作ってますか？ LLMを使っ…]]></summary>
+        <content type="html"><![CDATA[LLMを使ったアプリ開発での課題 LangChain入門3ヶ月目のtubone24です。よろしくお願いします。 皆さん、LangChainとLLMを使ったアプリケーション作ってますか？ LLMを使っ…]]></content>
+        <published>2024-06-17T16:50:17.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Helldivers 2 dev made a donation to Save the Children because players chose to save the children | Polygon -  Gaming]]></title>
@@ -922,6 +1029,15 @@
         <published>2024-06-17T14:19:03.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[さくらVPSのUbuntu環境でGoogleDriveの共有ドライブをマウントする | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/razuma/items/347c8a4c01ec94e0dc54?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/razuma/items/347c8a4c01ec94e0dc54?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T14:14:45.000Z</updated>
+        <summary type="html"><![CDATA[背景 VPSサーバで何かしらのデータのバックアップを取っておきたいときに、バックアップを同一サーバ内に保存しておくでも良いが、手違いやアクシデントなどでサーバ自体のデータが消失したときのために、Ub…]]></summary>
+        <content type="html"><![CDATA[背景 VPSサーバで何かしらのデータのバックアップを取っておきたいときに、バックアップを同一サーバ内に保存しておくでも良いが、手違いやアクシデントなどでサーバ自体のデータが消失したときのために、Ub…]]></content>
+        <published>2024-06-17T14:14:45.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[空気中のゴミを可視化してみたら…思った以上に汚れていた | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/06/light-paintings-led-curtains-air-pollution.html</id>
         <link href="https://www.gizmodo.jp/2024/06/light-paintings-led-curtains-air-pollution.html"/>
@@ -1024,11 +1140,29 @@
         <published>2024-06-17T10:30:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[「AWSが分かっていない」のではなく、コンピュータサイエンスが分かっていなかった | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/mkt_hanada/items/f04131b427f90796f8e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/mkt_hanada/items/f04131b427f90796f8e8?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T10:29:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに ◆この記事は何？ 焦ってAWSの勉強をするよりもコンピュータサイエンスの基礎を勉強してからの方がよかったという私の経験を紹介する記事です ◆対象は？ AWSの勉強をしている方 特に若手 ◆…]]></summary>
+        <content type="html"><![CDATA[はじめに ◆この記事は何？ 焦ってAWSの勉強をするよりもコンピュータサイエンスの基礎を勉強してからの方がよかったという私の経験を紹介する記事です ◆対象は？ AWSの勉強をしている方 特に若手 ◆…]]></content>
+        <published>2024-06-17T10:29:45.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[好きな3Dモデルを音声対応の生成AIマスコットにできる「ChatdollKit」v0.7.3　ほか【ダイジェストニュース】 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/digest/1600777.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/digest/1600777.html"/>
         <updated>2024-06-17T10:20:57.000Z</updated>
         <published>2024-06-17T10:20:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML,CSS超初心者向け　クラス名の付け方 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/junta_takenochi/items/7705e55bec6be703e15b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/junta_takenochi/items/7705e55bec6be703e15b?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T10:07:36.000Z</updated>
+        <summary type="html"><![CDATA[CSS設計を学びたい！  どうもエンジニアになって数ヶ月のひよっこすらなっていない卵エンジニアです！🐣  この記事を見ているのはmarginなどのプロパティやレスポンシブ、flexを学んだばかりとい…]]></summary>
+        <content type="html"><![CDATA[CSS設計を学びたい！  どうもエンジニアになって数ヶ月のひよっこすらなっていない卵エンジニアです！🐣  この記事を見ているのはmarginなどのプロパティやレスポンシブ、flexを学んだばかりとい…]]></content>
+        <published>2024-06-17T10:07:36.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[蚊に対する人類の対抗策は“ドローン”。卵からやっつける | ギズモード・ジャパン]]></title>
@@ -1153,6 +1287,15 @@
         <published>2024-06-17T08:11:53.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[なぜ若者は得意を言えなくなったのか | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/Sicut_study/items/8e125519573003ce94de?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/Sicut_study/items/8e125519573003ce94de?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T08:00:50.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 得意なことが見つからないのは世の中が悪いのです あなたは「得意なことを教えてください」と質問されたらすぐに答えることができるでしょうか？ 私が多くの人をコーチングしている中で、現代の若者は…]]></summary>
+        <content type="html"><![CDATA[はじめに 得意なことが見つからないのは世の中が悪いのです あなたは「得意なことを教えてください」と質問されたらすぐに答えることができるでしょうか？ 私が多くの人をコーチングしている中で、現代の若者は…]]></content>
+        <published>2024-06-17T08:00:50.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[機械学習を使うデータサイエンスの仕事に比して、統計学を使うデータサイエンスの仕事が産業界に少ない理由 | 渋谷駅前で働くデータサイエンティストのブログ]]></title>
         <id>hatenablog://entry/6801883189113473450</id>
         <link href="https://tjo.hatenablog.com/entry/2024/06/17/170000"/>
@@ -1163,6 +1306,15 @@
         <category label="ビジネス"/>
         <category label="人材"/>
         <published>2024-06-17T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[AWS #5]AWSの責任共有モデル | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/aoiku/items/54875c93544facbcb39f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/aoiku/items/54875c93544facbcb39f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T07:39:01.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは 今回からは 「AWSのセキュリティ」 分野について取り上げていきたいと思います。 まずはAWSにおけるセキュリティに関しての基本的な考え方などの全体像を押さえていきたいと思いま…]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは 今回からは 「AWSのセキュリティ」 分野について取り上げていきたいと思います。 まずはAWSにおけるセキュリティに関しての基本的な考え方などの全体像を押さえていきたいと思いま…]]></content>
+        <published>2024-06-17T07:39:01.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[稲妻を高速撮影したら、避雷針の頑張りがわかった | ギズモード・ジャパン]]></title>
@@ -1279,6 +1431,15 @@
         <summary type="html"><![CDATA[米Microsoftは6月12日（現地時間）、「Microsoft Loop」で、ボードやテーブルにコメントを追加できる機能を発表した。現在Loopアプリの全ユーザーが利用できる。]]></summary>
         <content type="html"><![CDATA[米Microsoftは6月12日（現地時間）、「Microsoft Loop」で、ボードやテーブルにコメントを追加できる機能を発表した。現在Loopアプリの全ユーザーが利用できる。]]></content>
         <published>2024-06-17T06:16:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[現役高校生が考えるエンジニアとしてのプラン！！ | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/Takkesan/items/3fbec6487c2da62871e6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/Takkesan/items/3fbec6487c2da62871e6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T05:58:56.000Z</updated>
+        <summary type="html"><![CDATA[この記事について Qiita Engineer Festa 2024 の 「自分が考える最高のエンジニアライフプランについて紹介しよう」キャンペーンの記事です。 Z世代の高校生がエンジニアを志望する…]]></summary>
+        <content type="html"><![CDATA[この記事について Qiita Engineer Festa 2024 の 「自分が考える最高のエンジニアライフプランについて紹介しよう」キャンペーンの記事です。 Z世代の高校生がエンジニアを志望する…]]></content>
+        <published>2024-06-17T05:58:56.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ゲーム作りとかCGに関わる数学③(中級) | Qiita - 人気の記事]]></title>
@@ -1412,6 +1573,15 @@
         <published>2024-06-17T04:21:11.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[AWS #4]クラウドアーキテクチャの設計原理 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/aoiku/items/c3dc121c1a4db3cb8926?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/aoiku/items/c3dc121c1a4db3cb8926?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-17T04:17:25.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは 今回は 「クラウドアーキテクチャの設計原理」 についてご紹介いたします。 簡単に言うと「クラウドのメリットを活かした設計をしましょう！」ということです。 AWSクラウドコンピュ…]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは 今回は 「クラウドアーキテクチャの設計原理」 についてご紹介いたします。 簡単に言うと「クラウドのメリットを活かした設計をしましょう！」ということです。 AWSクラウドコンピュ…]]></content>
+        <published>2024-06-17T04:17:25.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[コスト削減の前後にあるもの | エンジニアブログ | iret.media]]></title>
         <id>https://iret.media/?p=104026</id>
         <link href="https://iret.media/104026"/>
@@ -1428,15 +1598,6 @@
         <category label="AWS Well-Architected Mini Bootcamp"/>
         <category label="コスト最適化"/>
         <published>2024-06-17T04:00:27.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【技術書】最近読んでよかった本まとめ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/Yporon/items/ac03741c5ec74bfdbfe9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/Yporon/items/ac03741c5ec74bfdbfe9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-17T04:00:11.000Z</updated>
-        <summary type="html"><![CDATA[はじめに エンジニア歴1年目の頃に「新人エンジニアの自分がおすすめする技術書ランキング2022春」という記事を投稿したのですが、エンジニア歴も4年目に入ったということで、改めて最近読んで良かった本を…]]></summary>
-        <content type="html"><![CDATA[はじめに エンジニア歴1年目の頃に「新人エンジニアの自分がおすすめする技術書ランキング2022春」という記事を投稿したのですが、エンジニア歴も4年目に入ったということで、改めて最近読んで良かった本を…]]></content>
-        <published>2024-06-17T04:00:11.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[エンジニア運用工数40%削減！Bill One における運用改善のとりくみ | Sansan Tech Blog]]></title>
@@ -1555,15 +1716,6 @@
         <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></summary>
         <content type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></content>
         <published>2024-06-17T02:45:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HRBrain QAチームの「今」 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/hh_hrb/items/06f8964f6545ccee0ed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/hh_hrb/items/06f8964f6545ccee0ed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-17T02:38:44.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、HRBrainでQAエンジニアをしているhh（@hh_hrb）です。 そろそろ入社して1年半ほど経ちますが、入社当時と比べて随分QAチームが変わってきたなと感じています。 2年…]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、HRBrainでQAエンジニアをしているhh（@hh_hrb）です。 そろそろ入社して1年半ほど経ちますが、入社当時と比べて随分QAチームが変わってきたなと感じています。 2年…]]></content>
-        <published>2024-06-17T02:38:44.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【駆け出しエンジニア向け】Python・Notionを使った情報整理革命 | paiza times]]></title>
@@ -1910,24 +2062,6 @@
         <published>2024-06-16T22:53:41.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flutter 通知モーダルのミューテックス排他制御 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/kitaike/items/d1c753b838af8a59f9f0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/kitaike/items/d1c753b838af8a59f9f0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T22:53:08.000Z</updated>
-        <summary type="html"><![CDATA[問題発覚 CBcloudが配送ドライバー向けに提供しているアプリ『ピックゴーパートナー』では、 特別なオファー通知が来るたびに、モーダルボトムシート（以下ではモーダルと略す）を表示する機能があります。…]]></summary>
-        <content type="html"><![CDATA[問題発覚 CBcloudが配送ドライバー向けに提供しているアプリ『ピックゴーパートナー』では、 特別なオファー通知が来るたびに、モーダルボトムシート（以下ではモーダルと略す）を表示する機能があります。…]]></content>
-        <published>2024-06-16T22:53:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NPSサーベイで実施すべき4つの分析手法 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/IkuyaM/items/ab7c90a34bed2d5b1595?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/IkuyaM/items/ab7c90a34bed2d5b1595?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T22:41:25.000Z</updated>
-        <summary type="html"><![CDATA[NPS（ネット・プロモーター・スコア）は、顧客のエンゲージメントやロイヤルティを測るための指標で、顧客のキャンセルや離反、あるいはリファラル（紹介）の先行指標として広く利用されています。 一方で、N…]]></summary>
-        <content type="html"><![CDATA[NPS（ネット・プロモーター・スコア）は、顧客のエンゲージメントやロイヤルティを測るための指標で、顧客のキャンセルや離反、あるいはリファラル（紹介）の先行指標として広く利用されています。 一方で、N…]]></content>
-        <published>2024-06-16T22:41:25.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【アップデート情報】窓の杜収録ソフト　6月17日　～「Microsoft OneNote」や「PeaZip」など | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/update/library/1600333.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/update/library/1600333.html"/>
@@ -1962,15 +2096,6 @@
         <summary type="html"><![CDATA[こんにちは。コミュニケーションIT事業部 ITソリューション部の英です。 普段はWebアプリやスマホアプリの案件などを担当しています。あと、趣味でAIを勉強しています。 前回に引き続き IoTデバイス(温度センサー)の異常検知 をテーマに記事を書いてみます。 前回の記事はManaged Apache Flinkを使用した閾値でのリアルタイム異常検知でした。 → 前回の記事 今回の記事では閾値(正解...]]></summary>
         <content type="html"><![CDATA[こんにちは。コミュニケーションIT事業部 ITソリューション部の英です。 普段はWebアプリやスマホアプリの案件などを担当しています。あと、趣味でAIを勉強しています。 前回に引き続き IoTデバイス(温度センサー)の異常検知 をテーマに記事を書いてみます。 前回の記事はManaged Apache Flinkを使用した閾値でのリアルタイム異常検知でした。 → 前回の記事 今回の記事では閾値(正解)を与えずに異常を検出する仕組みをご紹介します。 使用するのはSageMakerに搭載されているRCF(ランダムカットフォレスト)というアルゴリズムです。 ランダムカットフォレストとは？ ランダムカッ…]]></content>
         <published>2024-06-16T22:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[開発レビューをモブでやるようにしてみたら、 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/moromi25/items/e01178cf46d48cfa9ab5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/moromi25/items/e01178cf46d48cfa9ab5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T21:56:38.000Z</updated>
-        <summary type="html"><![CDATA[もともとレビュワーだった私としても、チーム全体としても、得られるものがとても大きくておすすめだよ、というお話です。 はじめに 私が所属するチームでは約半年前から、以下の3つのレビューをモブ形式で実施…]]></summary>
-        <content type="html"><![CDATA[もともとレビュワーだった私としても、チーム全体としても、得られるものがとても大きくておすすめだよ、というお話です。 はじめに 私が所属するチームでは約半年前から、以下の3つのレビューをモブ形式で実施…]]></content>
-        <published>2024-06-16T21:56:38.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[仕事で使うファイルが同期できてない！ そうなる前にOneDriveの設定を見直しておこう【残業を減らす！Officeテクニック】 | 窓の杜]]></title>
@@ -2040,13 +2165,6 @@
         <published>2024-06-16T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[世界脳週間2024 - 夏休み高校生理科教室 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20240809_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20240809_1/index.html"/>
-        <updated>2024-06-16T15:00:00.000Z</updated>
-        <published>2024-06-16T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[理化学研究所におけるBOOSTプログラムの活用方針について | お知らせ]]></title>
         <id> https://www.riken.jp/pr/news/2024/20240617_2/index.html</id>
         <link href="https://www.riken.jp/pr/news/2024/20240617_2/index.html"/>
@@ -2057,6 +2175,13 @@
         <title type="html"><![CDATA[「理化学研究所 和光地区見学ツアー2024」を開催しました | お知らせ]]></title>
         <id> https://www.riken.jp/pr/news/2024/20240617_1/index.html</id>
         <link href="https://www.riken.jp/pr/news/2024/20240617_1/index.html"/>
+        <updated>2024-06-16T15:00:00.000Z</updated>
+        <published>2024-06-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界脳週間2024 - 夏休み高校生理科教室 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20240809_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20240809_1/index.html"/>
         <updated>2024-06-16T15:00:00.000Z</updated>
         <published>2024-06-16T15:00:00.000Z</published>
     </entry>
@@ -2141,22 +2266,13 @@
         <published>2024-06-16T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[リーダブルコード勉強会の話 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/ykkk/items/e8af9e00dfb01ec47c68?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/ykkk/items/e8af9e00dfb01ec47c68?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T14:19:58.000Z</updated>
-        <summary type="html"><![CDATA[先日、社内で実施していたリーダブルコード勉強会を完遂しました！ そこで、この勉強会の内容や、企画・実施してみた感想を書き留めようと思います。 学習教材 リーダブルコード より良いコードを書くためのシ…]]></summary>
-        <content type="html"><![CDATA[先日、社内で実施していたリーダブルコード勉強会を完遂しました！ そこで、この勉強会の内容や、企画・実施してみた感想を書き留めようと思います。 学習教材 リーダブルコード より良いコードを書くためのシ…]]></content>
-        <published>2024-06-16T14:19:58.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python初めて学習 簡易備忘録 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/maasiii/items/54f4f1ea27df9b3de493?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/maasiii/items/54f4f1ea27df9b3de493?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T14:04:31.000Z</updated>
-        <summary type="html"><![CDATA[コンソール出力 print('Hello world')  コメントアウト # コメントアウト  if文 if 条件1:  # 処理1 elif 条件2:  # 処理2 else:  # else処理  list…]]></summary>
-        <content type="html"><![CDATA[コンソール出力 print('Hello world')  コメントアウト # コメントアウト  if文 if 条件1:  # 処理1 elif 条件2:  # 処理2 else:  # else処理  list…]]></content>
-        <published>2024-06-16T14:04:31.000Z</published>
+        <title type="html"><![CDATA[dbt × BigQueryで簡単なデータ基盤を作ってみた | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/suikabar/items/40394c6e2d5633689ed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/suikabar/items/40394c6e2d5633689ed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-06-16T14:30:16.000Z</updated>
+        <summary type="html"><![CDATA[データエンジニアリングに興味が湧いてきたので、趣味のデータで簡単なデータ基盤を作ってみました。 利用データ 今回はグライダーのフライトログデータを気象データと組み合わせるシンプルなデータ基盤を作って…]]></summary>
+        <content type="html"><![CDATA[データエンジニアリングに興味が湧いてきたので、趣味のデータで簡単なデータ基盤を作ってみました。 利用データ 今回はグライダーのフライトログデータを気象データと組み合わせるシンプルなデータ基盤を作って…]]></content>
+        <published>2024-06-16T14:30:16.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ExcelのVBAを使ってガントチャート（超簡易版）を作成したい...！ | Qiita - 人気の記事]]></title>
@@ -2224,15 +2340,6 @@
         <published>2024-06-16T09:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Vue.js】Vueにおけるリアクティブとは？ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/k12da/items/b596514c36bf9ff542a2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/k12da/items/b596514c36bf9ff542a2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T08:47:30.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Vue.jsチュートリアルで学んだことをアウトプットしていきます。 前提 宣言的レンダリング Vue.jsのテンプレート構文のことです。 JavaScriptのデータに基づいて表示が変更さ…]]></summary>
-        <content type="html"><![CDATA[はじめに Vue.jsチュートリアルで学んだことをアウトプットしていきます。 前提 宣言的レンダリング Vue.jsのテンプレート構文のことです。 JavaScriptのデータに基づいて表示が変更さ…]]></content>
-        <published>2024-06-16T08:47:30.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[近似近傍探索のチューニングで気をつけること | Zennのトレンド]]></title>
         <id>https://zenn.dev/dmmdata/articles/6b8c228a912060</id>
         <link href="https://zenn.dev/dmmdata/articles/6b8c228a912060"/>
@@ -2292,24 +2399,6 @@
         <published>2024-06-16T07:00:36.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Vue.js】OptionAPIとCompositionAPIの違い | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/k12da/items/0aa53609f53eab3f55e9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/k12da/items/0aa53609f53eab3f55e9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T06:54:45.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Vue.jsチュートリアルで学んだことをアウトプットしていきます。 概要 Vueコンポーネントの作成方法として、OptionsAPIとCompositionAPIの２種類のAPIスタイルが…]]></summary>
-        <content type="html"><![CDATA[はじめに Vue.jsチュートリアルで学んだことをアウトプットしていきます。 概要 Vueコンポーネントの作成方法として、OptionsAPIとCompositionAPIの２種類のAPIスタイルが…]]></content>
-        <published>2024-06-16T06:54:45.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Vue.js】単一ファイルコンポーネント（SFC） | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/k12da/items/faf2bb844bc4db015e89?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/k12da/items/faf2bb844bc4db015e89?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T05:57:12.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Vue.jsのチュートリアルで学んだことをアウトプットしていきます。 概要 単一ファイルコンポーネント（SFC）とは Vueコンポーネントのテンプレート、ロジック、スタイルを1つのファイルにカプセル…]]></summary>
-        <content type="html"><![CDATA[はじめに Vue.jsのチュートリアルで学んだことをアウトプットしていきます。 概要 単一ファイルコンポーネント（SFC）とは Vueコンポーネントのテンプレート、ロジック、スタイルを1つのファイルにカプセル…]]></content>
-        <published>2024-06-16T05:57:12.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【iOS 18】コントロールウィジェット入門 | Zennのトレンド]]></title>
         <id>https://zenn.dev/naoya_maeda/articles/b5e13101cdf904</id>
         <link href="https://zenn.dev/naoya_maeda/articles/b5e13101cdf904"/>
@@ -2320,19 +2409,6 @@
             <name>Naoya Maeda</name>
         </author>
         <published>2024-06-16T05:48:43.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[敷布団ユーザーなら絶対使ってほしいニトリの「洗える珪藻土シート」 | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/288611.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/288611.html"/>
-        <updated>2024-06-16T05:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:mioROOMIE2024年5月28日掲載の記事より転載湿気が気になり始めるこの季節。敷布団派のわが家は、こもったニオイやカビの対策を始めなければ……。そこで導入してみたのは、ニトリの洗って繰り返し使える除湿シートです。敷布団とフローリングの間の湿気をどうにかしたいニトリ「洗える珪藻土入り除湿シート シングル（NEWS）」※他セミダブル、ダブルそれが、「洗える珪藻土入り除湿シート」とい]]></summary>
-        <content type="html"><![CDATA[Photo:mioROOMIE2024年5月28日掲載の記事より転載湿気が気になり始めるこの季節。敷布団派のわが家は、こもったニオイやカビの対策を始めなければ……。そこで導入してみたのは、ニトリの洗って繰り返し使える除湿シートです。敷布団とフローリングの間の湿気をどうにかしたいニトリ「洗える珪藻土入り除湿シート シングル（NEWS）」※他セミダブル、ダブルそれが、「洗える珪藻土入り除湿シート」とい]]></content>
-        <author>
-            <name>mio</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-06-16T05:35:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[TypeScriptユーザーに贈るGleam入門 | Zennのトレンド]]></title>
@@ -2364,34 +2440,12 @@
         <published>2024-06-16T04:00:14.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Rails】本番環境でのアセットプリコンパイル | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/k12da/items/3ef197c090fbf74e82c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/k12da/items/3ef197c090fbf74e82c9?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-16T03:43:59.000Z</updated>
-        <summary type="html"><![CDATA[はじめに herokuへデプロイした際にアセットパイプラインやマニフェストファイルについて理解を深めたので、その内容をまとめました。 ※こちらは前回の投稿です。 【エラー】Error: node i…]]></summary>
-        <content type="html"><![CDATA[はじめに herokuへデプロイした際にアセットパイプラインやマニフェストファイルについて理解を深めたので、その内容をまとめました。 ※こちらは前回の投稿です。 【エラー】Error: node i…]]></content>
-        <published>2024-06-16T03:43:59.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Remix で LIFF アプリ作ってみる | FLINTERS Engineer's Blog]]></title>
         <id>https://blog.flinters.co.jp/entry/2024/06/16/120000</id>
         <link href="https://blog.flinters.co.jp/entry/2024/06/16/120000"/>
         <updated>2024-06-16T03:00:00.000Z</updated>
         <summary type="html"><![CDATA[今回は LINE の LIFF アプリを Remix で作ってみようと思い立ったので、パパっと作ってみようと思います。]]></summary>
         <content type="html"><![CDATA[今回は LINE の LIFF アプリを Remix で作ってみようと思い立ったので、パパっと作ってみようと思います。]]></content>
-        <published>2024-06-16T03:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[コードの煩わしさが解消。ワイヤレス低周波治療器がとにかく快適そう | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/06/omron-cordless-low-frequency-therapy.html</id>
-        <link href="https://www.gizmodo.jp/2024/06/omron-cordless-low-frequency-therapy.html"/>
-        <updated>2024-06-16T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:OMRON低周波治療器もスマートに。身体のコリやこわばった筋肉をほぐすのに、よく使われる低周波治療器。一般的なものはパッドから本体までコードがY字型に繋がっていて、コレが結構ジャマなんですよねぇ。コードの煩わしさが解消！OMRON（オムロン）の新製品「HV-F601T1」は、充電式のコードレス。操作はBluetooth接続したスマホ用アプリから、治療部位を選んだり開始／終了や強さの調節]]></summary>
-        <content type="html"><![CDATA[Image:OMRON低周波治療器もスマートに。身体のコリやこわばった筋肉をほぐすのに、よく使われる低周波治療器。一般的なものはパッドから本体までコードがY字型に繋がっていて、コレが結構ジャマなんですよねぇ。コードの煩わしさが解消！OMRON（オムロン）の新製品「HV-F601T1」は、充電式のコードレス。操作はBluetooth接続したスマホ用アプリから、治療部位を選んだり開始／終了や強さの調節]]></content>
-        <author>
-            <name>岡本玄介</name>
-        </author>
-        <category label="PRODUCT"/>
         <published>2024-06-16T03:00:00.000Z</published>
     </entry>
     <entry>
@@ -2601,33 +2655,6 @@
         <published>2024-06-15T13:10:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Nintendo Switch で突然インターネットに接続できなくなったときのトラブルシューティング | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/masato-sato/items/6bd6ade48ed9bf14c3fa?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/masato-sato/items/6bd6ade48ed9bf14c3fa?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-15T12:50:50.000Z</updated>
-        <summary type="html"><![CDATA[自宅で、Nintendo Switch を使用していたら、突然、インターネットに接続ができなくなりました。 ネットワークの接続状況を見たら、こんな状態でした。  今回は、復旧までのトラブルシューティン…]]></summary>
-        <content type="html"><![CDATA[自宅で、Nintendo Switch を使用していたら、突然、インターネットに接続ができなくなりました。 ネットワークの接続状況を見たら、こんな状態でした。  今回は、復旧までのトラブルシューティン…]]></content>
-        <published>2024-06-15T12:50:50.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【CSS】「状態変化」と「バリエーション違い」はCSS変数で整理できる | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/honey32/items/ac72d3c1ba66b412f9bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/honey32/items/ac72d3c1ba66b412f9bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-15T11:34:12.000Z</updated>
-        <summary type="html"><![CDATA[前書き: ボタンコンポーネントのスタイリングを題材に こんな感じのボタンのコンポーネントを題材に、CSS 変数を使った CSS 記述の改善について考えてみました。   今回は React と CSS M…]]></summary>
-        <content type="html"><![CDATA[前書き: ボタンコンポーネントのスタイリングを題材に こんな感じのボタンのコンポーネントを題材に、CSS 変数を使った CSS 記述の改善について考えてみました。   今回は React と CSS M…]]></content>
-        <published>2024-06-15T11:34:12.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snowflakeのいろんな数値を集めてみた(デフォルト、最大、仕様、推奨値等) | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/fkdfkdfkd/items/2b7a5107c56246627c3d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/fkdfkdfkd/items/2b7a5107c56246627c3d?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-15T09:23:39.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Snowflakeで出てくる、様々な設定や仕様にまつわる「数値」をまとめてみました。 主にSnowflakeの認定試験(SnowPro CoreやAdvanced Architect)に向…]]></summary>
-        <content type="html"><![CDATA[はじめに Snowflakeで出てくる、様々な設定や仕様にまつわる「数値」をまとめてみました。 主にSnowflakeの認定試験(SnowPro CoreやAdvanced Architect)に向…]]></content>
-        <published>2024-06-15T09:23:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[現場で使えるモードレスUIの具体例と実践テクニック | Zennのトレンド]]></title>
         <id>https://zenn.dev/miravy/articles/4e80e299bccf9e</id>
         <link href="https://zenn.dev/miravy/articles/4e80e299bccf9e"/>
@@ -2804,15 +2831,6 @@
         </author>
         <category label="MacBook"/>
         <published>2024-06-14T23:16:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[既存チームにジョインするときに気をつけていること | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/koji-yamauchi/items/4ba85aa1c86e7b16bae2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/koji-yamauchi/items/4ba85aa1c86e7b16bae2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-06-14T23:06:39.000Z</updated>
-        <summary type="html"><![CDATA[最初の心構え 顧客と伴走するようなプロジェクトの場合は、すでに存在するチームに途中参加することがあります。これは中途採用で入社するケースに状況として近いかもしれません。 このときに意識していることが…]]></summary>
-        <content type="html"><![CDATA[最初の心構え 顧客と伴走するようなプロジェクトの場合は、すでに存在するチームに途中参加することがあります。これは中途採用で入社するケースに状況として近いかもしれません。 このときに意識していることが…]]></content>
-        <published>2024-06-14T23:06:39.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[100 Papers on Magnitude | The n-Category Café]]></title>
@@ -5080,19 +5098,19 @@
         <published>2024-06-11T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[YouTube「理研チャンネル」新着動画（理化学研究所女性PIオーラルヒストリープロジェクト：PIへの軌跡5） | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240612_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240612_1/index.html"/>
+        <updated>2024-06-11T15:00:00.000Z</updated>
+        <published>2024-06-11T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[BMI×ゲノムで2型糖尿病の遺伝的リスク予測精度を向上 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240612_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240612_1/index.html"/>
         <updated>2024-06-11T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－やせているのに糖尿病になりやすい体質－]]></summary>
         <content type="html"><![CDATA[－やせているのに糖尿病になりやすい体質－]]></content>
-        <published>2024-06-11T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube「理研チャンネル」新着動画（理化学研究所女性PIオーラルヒストリープロジェクト：PIへの軌跡5） | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240612_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240612_1/index.html"/>
-        <updated>2024-06-11T15:00:00.000Z</updated>
         <published>2024-06-11T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5400,8 +5418,8 @@
         <id>https://blog.cybozu.io/entry/2024/06/11/111500</id>
         <link href="https://blog.cybozu.io/entry/2024/06/11/111500"/>
         <updated>2024-06-11T02:15:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、QA（品質保証）エンジニアの斉藤です。 サイボウズは 2024年6月21日(金)に開催されるJaSST'24 Kansaiに、ゴールドスポンサーとして協賛します。 また、テクノロジーセッションにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、 サイボウズ Off...]]></summary>
-        <content type="html"><![CDATA[こんにちは、QA（品質保証）エンジニアの斉藤です。 サイボウズは 2024年6月21日(金)に開催されるJaSST'24 Kansaiに、ゴールドスポンサーとして協賛します。 また、テクノロジーセッションにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、 サイボウズ Office、メールワイズなどチームを支えるサービスを開発しています。 その中でサイボウズのQAエンジニアは開発プロセス全体を通して品質を高める活動を行なっています。 そんな私たちが日々の活動でお世話になっ…]]></content>
+        <summary type="html"><![CDATA[こんにちは、QA（品質保証）エンジニアの斉藤です。 サイボウズは、2024年6月21日(金)に開催されるJaSST'24 Kansaiに協賛しています。 また、テクノロジーセッションにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、 サイボウズ Office、メールワイズな...]]></summary>
+        <content type="html"><![CDATA[こんにちは、QA（品質保証）エンジニアの斉藤です。 サイボウズは、2024年6月21日(金)に開催されるJaSST'24 Kansaiに協賛しています。 また、テクノロジーセッションにて登壇いたしますので、本記事ではその紹介をさせてください。 協賛について サイボウズでは「チームワークあふれる社会を創る」という企業理念のもと、kintoneやGaroon、 サイボウズ Office、メールワイズなどチームを支えるサービスを開発しています。 その中でサイボウズのQAエンジニアは開発プロセス全体を通して品質を高める活動を行なっています。 そんな私たちが日々の活動でお世話になっているソフトウェアテス…]]></content>
         <published>2024-06-11T02:15:00.000Z</published>
     </entry>
     <entry>
@@ -6100,19 +6118,19 @@
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
+        <updated>2024-06-09T15:00:00.000Z</updated>
+        <published>2024-06-09T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[複数のマイクロRNAを同時検出する「RNA液滴コンピュータ」の開発に成功 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240610_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240610_1/index.html"/>
         <updated>2024-06-09T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></summary>
         <content type="html"><![CDATA[－細胞の中で働く微小ロボットや化学的人工知能の実現にも貢献－]]></content>
-        <published>2024-06-09T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[盛山 正仁 文部科学大臣が神戸地区を視察 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240610_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240610_1/index.html"/>
-        <updated>2024-06-09T15:00:00.000Z</updated>
         <published>2024-06-09T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -7596,6 +7614,13 @@
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[パトリック・クラーマー マックス・プランク協会会長が東京地区・和光地区を訪問 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240605_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240605_1/index.html"/>
+        <updated>2024-06-04T15:00:00.000Z</updated>
+        <published>2024-06-04T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[電子の回折をアト秒で制御 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240605_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240605_1/index.html"/>
@@ -7615,13 +7640,6 @@
         <title type="html"><![CDATA[高校生のための生命科学体験講座2024 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/events/20240725_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/events/20240725_1/index.html"/>
-        <updated>2024-06-04T15:00:00.000Z</updated>
-        <published>2024-06-04T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パトリック・クラーマー マックス・プランク協会会長が東京地区・和光地区を訪問 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240605_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240605_1/index.html"/>
         <updated>2024-06-04T15:00:00.000Z</updated>
         <published>2024-06-04T15:00:00.000Z</published>
     </entry>
@@ -7829,29 +7847,5 @@
         <category label="データサイエンティスト"/>
         <category label="推薦システム"/>
         <published>2024-06-04T09:31:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rails 7.2.0 Active Record CHANGELOG（全項目リンク付き） | TechRacho]]></title>
-        <id>https://techracho.bpsinc.jp/?p=142381</id>
-        <link href="https://techracho.bpsinc.jp/hachi8833/2024_06_04/142381"/>
-        <updated>2024-06-04T08:30:01.000Z</updated>
-        <summary type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: rails/activerecord/CHANGELOG.md at 7-2-stable · rails/rails -- 7.2.0.beta2（2024/06/14） ライセンス: MIT Rails 7.2.0リリース後に必要であれば更新します。 なお、機能削除のエントリについては、原則として7.2での削除プルリクではなく...]]></summary>
-        <content type="html"><![CDATA[概要 MITライセンスに基づいて翻訳・公開いたします。 英語記事: rails/activerecord/CHANGELOG.md at 7-2-stable · rails/rails -- 7.2.0.beta2（2024/06/14） ライセンス: MIT Rails 7.2.0リリース後に必要であれば更新します。 なお、機能削除のエントリについては、原則として7.2での削除プルリクではなく、その機能が非推奨化されたときの過去のプルリクへリンクしています。 Rails 7.2.0 Active Record CHANGELOG（全項目リンク付き） 更新106件（うち非推奨削除29件） 🔗 Fix a per […] The post Rails 7.2.0 Active Record CHANGELOG（全項目リンク付き） first appeared on TechRacho.]]></content>
-        <author>
-            <name>hachi8833</name>
-        </author>
-        <category label="Ruby / Rails関連"/>
-        <category label="Active Record"/>
-        <category label="Ruby on Rails"/>
-        <published>2024-06-04T08:30:01.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quarkusに統合された JDK Flight Recorder | 赤帽エンジニアブログ]]></title>
-        <id>https://rheb.hatenablog.com/entry/2024/06/04/163557</id>
-        <link href="https://rheb.hatenablog.com/entry/2024/06/04/163557"/>
-        <updated>2024-06-04T07:35:57.000Z</updated>
-        <summary type="html"><![CDATA[Red Hat で Java や Quarkus を担当している伊藤ちひろです。 今回は、Quarkus で将来的に使えるようになる新機能を紹介します。 QuarkusはJDK Flight Recorderをquarkus-jfrとして統合しました。 JFRは、さまざまな情報をイベントとして記録します。 この統合により、各スレッドで発生したイベントを時系列に見られます。 この図では、Quarku...]]></summary>
-        <content type="html"><![CDATA[Red Hat で Java や Quarkus を担当している伊藤ちひろです。 今回は、Quarkus で将来的に使えるようになる新機能を紹介します。 QuarkusはJDK Flight Recorderをquarkus-jfrとして統合しました。 JFRは、さまざまな情報をイベントとして記録します。 この統合により、各スレッドで発生したイベントを時系列に見られます。 この図では、Quarkusの処理の中核であるvert.x-eventloop-threadがいつ何を処理しているのかを表しています。 スレッド名右側の四角は、左から右に時間が流れています。 緑はスレッドに何もイベントがありま…]]></content>
-        <published>2024-06-04T07:35:57.000Z</published>
     </entry>
 </feed>
