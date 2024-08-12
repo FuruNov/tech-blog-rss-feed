@@ -7,6 +7,49 @@
     "icon": "https://furunov.github.io/rss-feed/images/icon.png",
     "items": [
         {
+            "id": "https://blog.cybozu.io/entry/2024/08/12/110000",
+            "content_html": "この記事は、CYBOZU SUMMER BLOG FES '24 (クラウド基盤本部 Stage) DAY 9 の記事です。 こんにちは。DBRE チーム の山下です。 サイボウズではサービスを運用する上で多くのバッチ処理を実行しています。 Kubernetes 基盤を利用するにあたって、バッチ処理によく使われるのが Job だと思います。サイボウズでも多くの Job を活用しています。 そんな Kubernetes の Job ですが、リトライに関して想定と異なる挙動が見つかったためコードリーディング、kind での検証の両面から調査しました。 今回は調査によって得られた Kubernete…",
+            "url": "https://blog.cybozu.io/entry/2024/08/12/110000",
+            "title": "勘違いしがちな Kubernetes の Job のリトライの挙動を紐解く | Cybozu Inside Out | サイボウズエンジニアのブログ",
+            "summary": "この記事は、CYBOZU SUMMER BLOG FES '24 (クラウド基盤本部 Stage) DAY 9 の記事です。 こんにちは。DBRE チーム の山下です。 サイボウズではサービスを運用する上で多くのバッチ処理を実行しています。 Kubernetes 基盤を利用するにあたって、バッチ処理によく使われるのが Job だと思います。サイボウズでも多くの Job を活用しています。 そんな ...",
+            "date_modified": "2024-08-12T02:00:00.000Z",
+            "date_published": "2024-08-12T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://jp.ign.com/hi-fi-rush/76015/news/hi-fi-rushiptango-gameworkskrafton",
+            "content_html": "既存のゲームカタログへの影響はなし 閉鎖となったゲームスタジオ、Tango Gameworksの事業継承がKRAFTONから発表された。",
+            "url": "https://jp.ign.com/hi-fi-rush/76015/news/hi-fi-rushiptango-gameworkskrafton",
+            "title": "『Hi-Fi RUSH』のIP拡大や人材の雇用継承など、Tango Gameworksの事業継承をKRAFTONが発表 | IGN Japan games",
+            "summary": "既存のゲームカタログへの影響はなし 閉鎖となったゲームスタジオ、Tango Gameworksの事業継承がKRAFTONから発表された。",
+            "date_modified": "2024-08-12T01:16:16.000Z",
+            "date_published": "2024-08-12T01:16:16.000Z",
+            "author": {
+                "name": "千葉芳樹"
+            },
+            "tags": [
+                "PC",
+                "Xbox Series X",
+                "Hi-Fi RUSH",
+                "Ghostwire Tokyo - Prelude",
+                "ゲーム",
+                "PlayStation 5",
+                "News",
+                "Ghostwire: Tokyo",
+                "Sony PlayStation"
+            ]
+        },
+        {
+            "id": "https://www.polygon.com/24218268/krafton-tango-gameworks-bethesda-microsoft-hi-fi-rush",
+            "content_html": "Image: Tango Gameworks/Bethesda Softworks via Polygon  Tango Gameworks will live on, thanks to Krafton  Krafton, the publisher behind PUBG: Battlegrounds and The Callisto Protocol, has acquired Tango Gameworks, the studio responsible for The Evil Within games and Hi-Fi Rush. Tango was shuttered by Microsoft and ZeniMax Media in May, but the talent who formed the Tokyo-based studio will be integrated into Krafton, which now owns the rights to Hi-Fi Rush. In a news release, Krafton said it “intend...",
+            "url": "https://www.polygon.com/24218268/krafton-tango-gameworks-bethesda-microsoft-hi-fi-rush",
+            "title": "Hi-Fi Rush studio, shut down by Microsoft, saved by PUBG’s publisher | Polygon -  Gaming",
+            "summary": "Image: Tango Gameworks/Bethesda Softworks via Polygon  Tango Gameworks will live on, thanks to Krafton  Krafton, the publisher behind PUBG: Battlegrounds and The Callisto Protocol, has acquired Tango ...",
+            "date_modified": "2024-08-12T00:42:59.000Z",
+            "date_published": "2024-08-12T00:42:59.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.techno-edge.net/article/2024/08/12/3590.html",
             "content_html": "この1週間の気になる生成AI技術をピックアップして解説する「生成AIウィークリー」（第59回）では、オープンソースの動画生成AI「CogVideoX」や、動画理解でGPT-4VやClaude 3.5 Sonnetなどを精度で上回るMLLM「MiniCPM-V 2.6」を取り上げます",
             "url": "https://www.techno-edge.net/article/2024/08/12/3590.html",
@@ -47,6 +90,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/rm48/articles/aaed88b7b55ed0",
+            "content_html": "はじめに 前回まででEXステージの並列化ができました。 今回はMEMステージの並列化を行っていきます。   構成   概要  実際にメモリに書き込むMEMユニットを2つ備える EXステージから受け取った2つの信号を、それぞれMEMユニットに割り当てる 両方のユニットが書き込み完了したら「完了信号」を立てる  なお現在はEXステージが2つの信号を同時に渡してくる（信号の選別とタイミング合わせはEXステージ内で行う（前回参照））ので、MEMステージはかなりシンプルになります。   詳細 MEMステージ全体を管理するMemUnitMgrモジュールを作成しました。 内部では以下の構成をとりま...",
+            "url": "https://zenn.dev/rm48/articles/aaed88b7b55ed0",
+            "title": "chiselでスーパスカラを実装　その4 | Zennのトレンド",
+            "summary": "はじめに 前回まででEXステージの並列化ができました。 今回はMEMステージの並列化を行っていきます。   構成   概要  実際にメモリに書き込むMEMユニットを2つ備える EXステージから受け取った2つの信号を、それぞれMEMユニットに割り当てる 両方のユニットが書き込み完了したら「完了信号」を立てる  なお現在はEXステージが2つの信号を同時に渡してくる（信号の選別とタイミング合わせはEXス...",
+            "date_modified": "2024-08-11T21:04:31.000Z",
+            "date_published": "2024-08-11T21:04:31.000Z",
+            "author": {
+                "name": "rm48"
+            },
+            "tags": []
+        },
+        {
             "id": "https://www.polygon.com/24216942/lorelei-and-the-laser-eyes-daniel-olsen-music-interview",
             "content_html": "Image: Simogo/Annapurna Interactive  ‘The music should add to the lore of the game.’  It’s impossible to think of Simogo’s inventive library of games without conjuring the works of composer Daniel Olsén in your mind. From the chilling Year Walk, the hyperpop aesthetic of Sayonara Wild Hearts, or the mysterious Lorelei and the Laser Eyes, this catalog of indie titles take root in our minds in part because of how thematically their soundtracks match the gameplay and environment. To find out how Ol...",
             "url": "https://www.polygon.com/24216942/lorelei-and-the-laser-eyes-daniel-olsen-music-interview",
@@ -64,6 +120,19 @@
             "summary": "🌟 初めてのハッカソン 参加記 こんにちは！今回、初めてハッカソンに参加し、「技育CAMPハッカソン Vol.12」で優秀賞を獲得することができました。この記事では、私たちのプロジェクト「平和ネット…",
             "date_modified": "2024-08-11T15:42:09.000Z",
             "date_published": "2024-08-11T15:42:09.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/9yokuro/articles/c2f8f3dcfc0868",
+            "content_html": "この記事は、Vim駅伝の2024年8月12日の記事です。 Vim scriptを書いているときに、例えば for<Space> と入力すると for _ endfor のように補完する機能をVimのabbreviation機能を使って作りました。(_はカーソル) 行に何も無いときや、キーワードの前が空白文字のときに加えて、 classなら、classの前が  abstract export export abstract  のとき、 defなら、defの前が  export static  のとき、 enumやinterfaceなら、その前が  export  のとき、 補完...",
+            "url": "https://zenn.dev/9yokuro/articles/c2f8f3dcfc0868",
+            "title": "Vim scriptを書きやすくする設定 | Zennのトレンド",
+            "summary": "この記事は、Vim駅伝の2024年8月12日の記事です。 Vim scriptを書いているときに、例えば for<Space> と入力すると for _ endfor のように補完する機能をVimのabbreviation機能を使って作りました。(_はカーソル) 行に何も無いときや、キーワードの前が空白文字のときに加えて、 classなら、classの前が  abstract export exp...",
+            "date_modified": "2024-08-11T15:00:00.000Z",
+            "date_published": "2024-08-11T15:00:00.000Z",
+            "author": {
+                "name": "9yokuro"
+            },
             "tags": []
         },
         {
@@ -92,6 +161,19 @@
             "title": "MIRU2024チュートリアル「様々なセンサやモダリティを用いたシーン状態推定」 (Mariko Isogawa) | 勉強会スライドBot",
             "date_modified": "2024-08-11T15:00:00.000Z",
             "date_published": "2024-08-11T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/hijikix/articles/3f0cb839ef267e",
+            "content_html": "概要 https://github.com/run-llama/llama-agents llm agentフレームワークであるllama-agentsのソースコードを読んでみました。 以下のサンプルコードで何が行われているのかを見ていきます。 from llama_agents import (  AgentService,  AgentOrchestrator,  ControlPlaneServer,  SimpleMessageQueue, )  from llama_index.core.agent import ReActAgent from ll...",
+            "url": "https://zenn.dev/hijikix/articles/3f0cb839ef267e",
+            "title": "llama-agentsコードリーディング | Zennのトレンド",
+            "summary": "概要 https://github.com/run-llama/llama-agents llm agentフレームワークであるllama-agentsのソースコードを読んでみました。 以下のサンプルコードで何が行われているのかを見ていきます。 from llama_agents import (  AgentService,  AgentOrchestrator,  ControlPlaneSe...",
+            "date_modified": "2024-08-11T14:42:17.000Z",
+            "date_published": "2024-08-11T14:42:17.000Z",
+            "author": {
+                "name": "Daisuke Hashimoto"
+            },
             "tags": []
         },
         {
@@ -128,6 +210,19 @@
             "tags": [
                 "PRODUCT"
             ]
+        },
+        {
+            "id": "https://zenn.dev/firstautomation/articles/647ae59a3d8ba8",
+            "content_html": "はじめに 株式会社ファースト・オートメーションCTOの田中(しろくま)です！ 生成AIによる文章生成が発展してく中で、入力に関して文章だけでなく様々な入力を扱えるようになってきています。音声や画像だけでなく、 GoogleのGemini 1.5 Proでは最大で1時間程度の動画を入力として扱うことができます。 弊社では製造業向けの生成AIを活用したプロダクト・サービス展開を行っており、この動画入力の技術を用いて、 製造現場での作業動画から作業手順書 を作るということを今回試してみたいと思います。 以下の2つのモデルで作業手順書の作成を行います。  Google Gemini 1.5 ...",
+            "url": "https://zenn.dev/firstautomation/articles/647ae59a3d8ba8",
+            "title": "LLaVA-NeXTで作業動画から画像入りの手順書を作成してみる | Zennのトレンド",
+            "summary": "はじめに 株式会社ファースト・オートメーションCTOの田中(しろくま)です！ 生成AIによる文章生成が発展してく中で、入力に関して文章だけでなく様々な入力を扱えるようになってきています。音声や画像だけでなく、 GoogleのGemini 1.5 Proでは最大で1時間程度の動画を入力として扱うことができます。 弊社では製造業向けの生成AIを活用したプロダクト・サービス展開を行っており、この動画入力...",
+            "date_modified": "2024-08-11T13:03:48.000Z",
+            "date_published": "2024-08-11T13:03:48.000Z",
+            "author": {
+                "name": "しろくま"
+            },
+            "tags": []
         },
         {
             "id": "https://www.polygon.com/24214164/a-short-hike-composer-interview",
@@ -376,6 +471,19 @@
             ]
         },
         {
+            "id": "https://zenn.dev/yuki_fujisawa/articles/d502024c907a00",
+            "content_html": "はじめに Next.jsを使用してアプリケーションを開発する際、適切なCSSフレームワークの選択は重要な決定の一つです。 私自身、仕事でNext.js + MUI(Material-UI)を使用した経験がありますが、改めて各CSSフレームワークを比較し、Next.jsプロジェクトに最適なフレームワークを探ってみます。   CSSフレームワークの候補 ネット上の技術記事やGithubのスター数を踏まえ、Next.jsと組み合わせるのに人気の高いCSSフレームワークとして、以下の5つを候補に挙げました。  Tailwind CSS CSS Modules Styled Component...",
+            "url": "https://zenn.dev/yuki_fujisawa/articles/d502024c907a00",
+            "title": "【2024年版】Next.jsプロジェクトを始める前に押さえたい！CSS フレームワーク5選の総合比較 | Zennのトレンド",
+            "summary": "はじめに Next.jsを使用してアプリケーションを開発する際、適切なCSSフレームワークの選択は重要な決定の一つです。 私自身、仕事でNext.js + MUI(Material-UI)を使用した経験がありますが、改めて各CSSフレームワークを比較し、Next.jsプロジェクトに最適なフレームワークを探ってみます。   CSSフレームワークの候補 ネット上の技術記事やGithubのスター数を踏ま...",
+            "date_modified": "2024-08-11T02:42:48.000Z",
+            "date_published": "2024-08-11T02:42:48.000Z",
+            "author": {
+                "name": "藤澤勇樹(Yuki Fujisawa)"
+            },
+            "tags": []
+        },
+        {
             "id": "https://zenn.dev/nzws/articles/i-made-smart-older-doorbell",
             "content_html": "どうもこんにちは、@nzws です。今回は趣味で取り組んだ古のインターホンのスマート化について雑に書いていきます。 普段私は Web 系の開発をしていますが一応大学での専攻が IoT あたりという事もあり、たまにこういう事もやっています。(最近ほぼ IoT っぽいことをやっていませんが...)    できたもの インターホンの来客を知らせるインジケーターを光センサー（CdS セル）で読み取り、Discord/HomePod (Apple HomeKit)/Echo (Amazon Alexa)/Nest Hub (Google Home) にインターホンが鳴ったことを通知する仕組みを作...",
             "url": "https://zenn.dev/nzws/articles/i-made-smart-older-doorbell",
@@ -586,19 +694,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/wh_space/articles/26d4d8c17c727a",
-            "content_html": "どうやってFlutterでAndroid固有の機能を作るのか !   1.AndroidのKotlin（またはJava）ファイルに、Android固有の処理を実装   2.DartファイルでMethodChannelを使って、Kotlin/Javaで実装したネイティブ処理を呼び出すコードを書く  なぜ、DartにMainActivity.ktをインポートする必要がないのか !   Flutterでは、Dartコードとネイティブコードが異なるランタイムで実行されており、Platform Channelsがその間のブリッジとして機能するため  以下にAndroidのバッテリー状況を取得する方...",
-            "url": "https://zenn.dev/wh_space/articles/26d4d8c17c727a",
-            "title": "ケツリカ(結論から理解)するFlutterでAndroid固有の機能を使う方法 | Zennのトレンド",
-            "summary": "どうやってFlutterでAndroid固有の機能を作るのか !   1.AndroidのKotlin（またはJava）ファイルに、Android固有の処理を実装   2.DartファイルでMethodChannelを使って、Kotlin/Javaで実装したネイティブ処理を呼び出すコードを書く  なぜ、DartにMainActivity.ktをインポートする必要がないのか !   Flutterで...",
-            "date_modified": "2024-08-10T14:36:55.000Z",
-            "date_published": "2024-08-10T14:36:55.000Z",
-            "author": {
-                "name": "wh.space"
-            },
-            "tags": []
-        },
-        {
             "id": "https://www.polygon.com/24216350/composers-on-repetitive-video-game-music",
             "content_html": "Illustration: Jinhwa Jang/Polygon  ‘If I don’t hate myself after obsessively listening to my own music [...] then it can’t be that annoying’  I enjoy games that make me think, which means I often find myself pausing — not literally pressing pause, but simply staying still — to consider what I need to do next. Those are the moments, like stopping to investigate how I can climb that wall in Ori and the Blind Forest or checking my inventory before heading into the mines in Coral Island, that game s...",
             "url": "https://www.polygon.com/24216350/composers-on-repetitive-video-game-music",
@@ -633,32 +728,6 @@
             "date_published": "2024-08-10T13:17:16.000Z",
             "author": {
                 "name": "Rerrah"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/personal/articles/d5507acead3a4c",
-            "content_html": "話すこと  AIを使った課題解決手順 （一例） AIシステムを作成してきて大切と思うこと    読者対象  課題を解決する手段でAIも考えている人 AIプロジェクトの進め方を知りたい人 AI,ITは？。専門は強い人    課題解決手順  よい課題を見つける よい課題か確認する 解決方法を考える AIでする事を決める ROIの確認 日程、人員計画作成 AIの非機能要件を決める AIが行う機能の精度をどう確認するか決める 実験的なモデルを作り実現できそうか重要点を確認する（前後工程含む） 本番モデルの仕様を決める(機能、非機能要件) 本番モデルを作る 本番モデル評価 システムの仕様を決め...",
-            "url": "https://zenn.dev/personal/articles/d5507acead3a4c",
-            "title": "課題解決にAIも考えてみよう！（祝500ビュー!) | Zennのトレンド",
-            "summary": "話すこと  AIを使った課題解決手順 （一例） AIシステムを作成してきて大切と思うこと    読者対象  課題を解決する手段でAIも考えている人 AIプロジェクトの進め方を知りたい人 AI,ITは？。専門は強い人    課題解決手順  よい課題を見つける よい課題か確認する 解決方法を考える AIでする事を決める ROIの確認 日程、人員計画作成 AIの非機能要件を決める AIが行う機能の精度を...",
-            "date_modified": "2024-08-10T13:01:12.000Z",
-            "date_published": "2024-08-10T13:01:12.000Z",
-            "author": {
-                "name": "Saito"
-            },
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/kyami/articles/fbd9afe11c7910",
-            "content_html": "ある程度ちゃんとしたKubernetesのクラスター環境を構築しようとすると、やっぱり物理サーバが最低でも2台欲しいところ。。。 選択肢としては、次の３パターンのいづれかを採用したい。  2台のラズベリーパイ用意し、Kubernetesクラスターを構築する 1台の物理マシンにProxmoxを構築し、その上に2台のUbuntuマシンを立てKubernetesクラスターを構築する パターン2のOpenStack版  今回はパターン2を採用しました。 採用した背景として、まずお金をかけたくありませんでした。 そのため、新たにラズパイを2台購入するのはコストがかかるので選択肢から外れました。 次...",
-            "url": "https://zenn.dev/kyami/articles/fbd9afe11c7910",
-            "title": "Proxmoxを使ってお家Kubernetesクラスター構築 | Zennのトレンド",
-            "summary": "ある程度ちゃんとしたKubernetesのクラスター環境を構築しようとすると、やっぱり物理サーバが最低でも2台欲しいところ。。。 選択肢としては、次の３パターンのいづれかを採用したい。  2台のラズベリーパイ用意し、Kubernetesクラスターを構築する 1台の物理マシンにProxmoxを構築し、その上に2台のUbuntuマシンを立てKubernetesクラスターを構築する パターン2のOpen...",
-            "date_modified": "2024-08-10T12:31:33.000Z",
-            "date_published": "2024-08-10T12:31:33.000Z",
-            "author": {
-                "name": "kyami"
             },
             "tags": []
         },
@@ -768,19 +837,6 @@
             "summary": "はじめに 今回はRubyonRailsなどで用いられているMVCというものについて解説していきたいと思います。Railsをはじめ、MVCを採用しているフレームワークは多くあると思います。Railsに…",
             "date_modified": "2024-08-10T06:50:13.000Z",
             "date_published": "2024-08-10T06:50:13.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/mizchi/articles/moonbit-component-model-support",
-            "content_html": "Moonbit が Component Model に対応した。 https://www.moonbitlang.com/blog/component-model これはずっと自分がほしかった機能で、これによって moonbit が実用言語に一つ近づいたと思う。やっていきたい。   何が可能になったか できることになった例  Moonbit で書いたコードを TypeScript で型をつけて呼び出せる rust-wasm で生成した wasm コードを moonbit で呼べる wasi で CLI, wasi-http でサーバーが書けるようになる    component-mode...",
-            "url": "https://zenn.dev/mizchi/articles/moonbit-component-model-support",
-            "title": "moonbitがcomonponent-modelをサポートしたのでjco+TypeScript から呼んでみた | Zennのトレンド",
-            "summary": "Moonbit が Component Model に対応した。 https://www.moonbitlang.com/blog/component-model これはずっと自分がほしかった機能で、これによって moonbit が実用言語に一つ近づいたと思う。やっていきたい。   何が可能になったか できることになった例  Moonbit で書いたコードを TypeScript で型をつけて呼び...",
-            "date_modified": "2024-08-10T06:48:52.000Z",
-            "date_published": "2024-08-10T06:48:52.000Z",
-            "author": {
-                "name": "mizchi"
-            },
             "tags": []
         },
         {
@@ -910,12 +966,12 @@
                 "name": "Ryan Dinsdale"
             },
             "tags": [
-                "CONTROL",
-                "Max Payne 1 & 2",
-                "News",
                 "Control 2",
                 "Control Multiplayer Project Condor",
-                "ゲーム"
+                "CONTROL",
+                "ゲーム",
+                "News",
+                "Max Payne 1 & 2"
             ]
         },
         {
@@ -1012,16 +1068,6 @@
             "summary": "Image: Sega  We can’t possibly have two Sonic Generations games out there. Unless...  Sega is delisting 2011’s Sonic Generations from Steam and the Xbox Games Store to make way for the game’s upcoming...",
             "date_modified": "2024-08-09T20:53:50.000Z",
             "date_published": "2024-08-09T20:53:50.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.polygon.com/24216920/capcom-summer-2024-humble-bundle-sale",
-            "content_html": "Image: Capcom  So much punching and a dash of lawyering  The new Capcom Summer 2024 Humble Bundle is literally bundles within bundles of great games chronicling the publisher’s storied career. Through Aug. 28, you can pay as low as $30 to pick up 40 games — including several classic titles in Street Fighter, Ace Attorney, and Dead Rising series — which maths out to 75 cents per game. Looking at the official Humble Bundle listing, the collection doesn’t look as expansive as we described — there a...",
-            "url": "https://www.polygon.com/24216920/capcom-summer-2024-humble-bundle-sale",
-            "title": "Capcom Humble Bundle is a Hadouken of deals for as low as $30 | Polygon -  Gaming",
-            "summary": "Image: Capcom  So much punching and a dash of lawyering  The new Capcom Summer 2024 Humble Bundle is literally bundles within bundles of great games chronicling the publisher’s storied career. Through...",
-            "date_modified": "2024-08-09T19:14:31.000Z",
-            "date_published": "2024-08-09T19:14:31.000Z",
             "tags": []
         },
         {
@@ -1317,20 +1363,20 @@
             },
             "tags": [
                 "PC",
-                "任天堂",
                 "Meta Quest",
-                "8番出口",
-                "News",
-                "エンタメ",
                 "グッズ",
+                "8番出口",
                 "PlayStation 4",
-                "Nintendo Switch",
                 "ps4",
-                "nintendo-switch",
-                "Steam",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "Steam",
+                "エンタメ",
+                "PlayStation 5",
+                "News",
+                "任天堂",
+                "Sony PlayStation",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -1361,9 +1407,9 @@
             },
             "tags": [
                 "PC",
-                "News",
+                "ゲーム",
                 "Steam",
-                "ゲーム"
+                "News"
             ]
         },
         {
@@ -1379,12 +1425,12 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "Xbox Series X",
+                "ゲーム",
                 "Steam",
                 "PlayStation 5",
-                "ゲーム",
                 "デッドライジング デラックスリマスター",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -1476,6 +1522,19 @@
                 "夏のTechRachoフェア2024",
                 "採用"
             ]
+        },
+        {
+            "id": "https://zenn.dev/cybozu_frontend/articles/web-standardized-component-in-server-and-client",
+            "content_html": "! この記事は、CYBOZU SUMMER BLOG FES '24 (Frontend Stage) DAY 9の記事です。  Interop 2024のFocus Areasの1つに、Web Componentsがあります。このWeb Componentsに関連する機能として、Declarative Shadow DOMやsetHTMLUnsafe、parseHTMLUnsafeが2024年に入って新たにBaselineに追加されました。 これらの機能・Web APIは、サーバーサイドでの宣言的なShadow DOMの構築によるJavaScriptが無効な環境でも動作するWeb Co...",
+            "url": "https://zenn.dev/cybozu_frontend/articles/web-standardized-component-in-server-and-client",
+            "title": "Declarative Shadow DOMを利用したWeb ComponentsをSSR・CSRで実現する | Zennのトレンド",
+            "summary": "! この記事は、CYBOZU SUMMER BLOG FES '24 (Frontend Stage) DAY 9の記事です。  Interop 2024のFocus Areasの1つに、Web Componentsがあります。このWeb Componentsに関連する機能として、Declarative Shadow DOMやsetHTMLUnsafe、parseHTMLUnsafeが2024年に...",
+            "date_modified": "2024-08-09T08:30:00.000Z",
+            "date_published": "2024-08-09T08:30:00.000Z",
+            "author": {
+                "name": "saku"
+            },
+            "tags": []
         },
         {
             "id": "https://forest.watch.impress.co.jp/docs/shseri/readitnow/1613589.html",
@@ -1572,10 +1631,10 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "ゲーミングPC",
                 "セール情報",
-                "ゲーム"
+                "ゲーム",
+                "News",
+                "ゲーミングPC"
             ]
         },
         {
@@ -1921,12 +1980,12 @@
                 "name": "重田雄一"
             },
             "tags": [
+                "ゲーム",
                 "News",
                 "Stray",
-                "nintendo-switch",
+                "任天堂",
                 "Nintendo Switch",
-                "ゲーム",
-                "任天堂"
+                "nintendo-switch"
             ]
         },
         {
@@ -2050,19 +2109,6 @@
                 "トレンド",
                 "Tips"
             ]
-        },
-        {
-            "id": "https://zenn.dev/mkj/articles/3e12d706acde9d",
-            "content_html": "IoT x GenAI Lab 松尾研究所では、ソラコム様とIoT分野におけるLLMの活用を研究・推進する「IoT x GenAI Lab」（以下IoT GenAI Lab）を設立しています。IoT GenAI Labは、設立して約1年になり、三菱電機とソラコム・松尾研究所で空調機器制御の実証実験で快適さを維持した電気使用量削減といった好事例も出始めてきました。 本事例は、SORACOM様の大規模イベント「SORACOM Discovery 2024」でも、松尾研究所のチーフAIエンジニア 横山が発表していますが、そのSORACOM Discovery 2024でソラコム様から発表さ...",
-            "url": "https://zenn.dev/mkj/articles/3e12d706acde9d",
-            "title": "ソラカメとSORACOM Fluxで簡単実装！生成AIを活用した「ネコちゃん日記自動生成アプリ」 | Zennのトレンド",
-            "summary": "IoT x GenAI Lab 松尾研究所では、ソラコム様とIoT分野におけるLLMの活用を研究・推進する「IoT x GenAI Lab」（以下IoT GenAI Lab）を設立しています。IoT GenAI Labは、設立して約1年になり、三菱電機とソラコム・松尾研究所で空調機器制御の実証実験で快適さを維持した電気使用量削減といった好事例も出始めてきました。 本事例は、SORACOM様の大規模...",
-            "date_modified": "2024-08-09T02:50:00.000Z",
-            "date_published": "2024-08-09T02:50:00.000Z",
-            "author": {
-                "name": "karaage0703"
-            },
-            "tags": []
         },
         {
             "id": "https://iret.media/?p=110565",
@@ -2213,20 +2259,20 @@
             },
             "tags": [
                 "PC",
-                "任天堂",
-                "News",
-                "Xbox One",
-                "Xbox Series X",
+                "Doom II",
                 "PlayStation 4",
-                "Nintendo Switch",
+                "Xbox Series X",
                 "ps4",
-                "nintendo-switch",
-                "xbox-one",
-                "PlayStation 5",
                 "Doom (1993)",
                 "ゲーム",
-                "Doom II",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "任天堂",
+                "Sony PlayStation",
+                "Nintendo Switch",
+                "xbox-one",
+                "Xbox One",
+                "nintendo-switch"
             ]
         },
         {
@@ -2565,20 +2611,20 @@
             },
             "tags": [
                 "PC",
-                "任天堂",
-                "News",
-                "Xbox One",
-                "Xbox Series X",
                 "PlayStation 4",
-                "Nintendo Switch",
+                "Xbox Series X",
                 "ps4",
-                "nintendo-switch",
-                "Steam",
-                "xbox-one",
-                "PlayStation 5",
-                "ゲーム",
                 "ハリー・ポッター：クィディッチ・チャンピオンズ",
-                "Sony PlayStation"
+                "ゲーム",
+                "Steam",
+                "PlayStation 5",
+                "News",
+                "任天堂",
+                "Sony PlayStation",
+                "Nintendo Switch",
+                "xbox-one",
+                "Xbox One",
+                "nintendo-switch"
             ]
         },
         {
@@ -2628,19 +2674,6 @@
             ]
         },
         {
-            "id": "https://zenn.dev/yusukebe/articles/c7e2ec9f12427b",
-            "content_html": "生成AIをよりよくする手法の一つにRAG = Retrieval-Augmented Generationがあります。これは単純な仕組みから作ることができて、効果的で面白いです。そして、Cloudflare Workersを中心としたCloudflareスタックで実現できます。やってみると、Cloudflareを使ったアプリケーション作成に必要なエッセンスをいくつも体験できることが分かりました。そこ今回は、シンプルなRAGアプリを作りつつ、Cloudflareスタックを学んでみましょう。   リポジトリ 今回扱うコードや関連する例は以下のリポジトリでみれます。 https://githu...",
-            "url": "https://zenn.dev/yusukebe/articles/c7e2ec9f12427b",
-            "title": "RAGを作って学ぶCloudflareスタック | Zennのトレンド",
-            "summary": "生成AIをよりよくする手法の一つにRAG = Retrieval-Augmented Generationがあります。これは単純な仕組みから作ることができて、効果的で面白いです。そして、Cloudflare Workersを中心としたCloudflareスタックで実現できます。やってみると、Cloudflareを使ったアプリケーション作成に必要なエッセンスをいくつも体験できることが分かりました。そ...",
-            "date_modified": "2024-08-08T08:30:29.000Z",
-            "date_published": "2024-08-08T08:30:29.000Z",
-            "author": {
-                "name": "yusukebe"
-            },
-            "tags": []
-        },
-        {
             "id": "https://tech.plaid.co.jp/nodejs_vup_to_20",
             "content_html": "長期運用システムにおけるNode.js / npmアップデート工程を紹介します",
             "url": "https://tech.plaid.co.jp/nodejs_vup_to_20",
@@ -2662,17 +2695,17 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "PC",
-                "任天堂",
-                "News",
                 "HD-2D版『ドラゴンクエストIII そして伝説へ…』",
+                "PC",
                 "Xbox Series X",
-                "Nintendo Switch",
-                "nintendo-switch",
+                "ゲーム",
                 "Steam",
                 "PlayStation 5",
-                "ゲーム",
-                "Sony PlayStation"
+                "News",
+                "任天堂",
+                "Sony PlayStation",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -2782,13 +2815,13 @@
             },
             "tags": [
                 "PC",
-                "News",
+                "黒神話：悟空",
                 "Xbox Series X",
+                "ゲーム",
                 "Steam",
                 "PlayStation 5",
-                "ゲーム",
-                "Sony PlayStation",
-                "黒神話：悟空"
+                "News",
+                "Sony PlayStation"
             ]
         },
         {
@@ -2868,10 +2901,10 @@
                 "name": "Anthony Wood"
             },
             "tags": [
-                "News",
                 "dishonored",
                 "Prey",
-                "ゲーム"
+                "ゲーム",
+                "News"
             ]
         },
         {
@@ -2937,12 +2970,12 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "Warhammer 40,000: Space Marine 2",
                 "Xbox Series X",
+                "ゲーム",
+                "Warhammer 40,000: Space Marine 2",
                 "Steam",
                 "PlayStation 5",
-                "ゲーム",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -2959,11 +2992,11 @@
             },
             "tags": [
                 "PC",
-                "Video",
-                "Warhammer 40,000: Space Marine 2",
                 "Xbox Series X",
-                "PlayStation 5",
+                "Video",
                 "ゲーム",
+                "Warhammer 40,000: Space Marine 2",
+                "PlayStation 5",
                 "Sony PlayStation"
             ]
         },
@@ -3031,21 +3064,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.zozo.com/entry/measurement-chaos-engineering",
-            "content_html": "はじめに こんにちは、計測プラットフォーム開発本部SREブロックの山本です。普段はZOZOMATやZOZOGLASSなどの計測技術に関わるシステムの開発、運用に携わっています。 我々のチームは、複数サービスを運用する中で障害対応の経験不足や知見共有の難しさといった課題に直面していました。そこで、半年ほど前にカオスエンジニアリングの導入を開始しました。 本記事では、カオスエンジニアリングを一過性のものではなくチームの文化として根付かせ、継続的な改善サイクルを生み出すための導入から運用まで、我々のチームでの実践から得られた具体的な方法をお伝えします。 これからカオスエンジニアリングを始めようとして…",
-            "url": "https://techblog.zozo.com/entry/measurement-chaos-engineering",
-            "title": "障害への不安をぶっ壊す！カオスエンジニアリングを運用しシステムとチームの耐障害性を高める | ZOZO TECH BLOG",
-            "summary": "はじめに こんにちは、計測プラットフォーム開発本部SREブロックの山本です。普段はZOZOMATやZOZOGLASSなどの計測技術に関わるシステムの開発、運用に携わっています。 我々のチームは、複数サービスを運用する中で障害対応の経験不足や知見共有の難しさといった課題に直面していました。そこで、半年ほど前にカオスエンジニアリングの導入を開始しました。 本記事では、カオスエンジニアリングを一過性のも...",
-            "date_modified": "2024-08-08T02:00:00.000Z",
-            "date_published": "2024-08-08T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.lycorp.co.jp/ja/20240808icq",
             "content_html": "こんにちは。コミュニケーションアプリ「LINE」のモバイルクライアントを開発している石川です。 この記事は、毎週木曜の定期連載 \"Weekly Report\" 共有の第 37 回です。 LINEヤフー...",
             "url": "https://techblog.lycorp.co.jp/ja/20240808icq",
             "title": "コード品質向上のテクニック：第37回 長いライフサイクルに巻かれる | LINEヤフー Tech Blog",
             "summary": "こんにちは。コミュニケーションアプリ「LINE」のモバイルクライアントを開発している石川です。 この記事は、毎週木曜の定期連載 \"Weekly Report\" 共有の第 37 回です。 LINEヤフー...",
+            "date_modified": "2024-08-08T02:00:00.000Z",
+            "date_published": "2024-08-08T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.zozo.com/entry/measurement-chaos-engineering",
+            "content_html": "はじめに こんにちは、計測プラットフォーム開発本部SREブロックの山本です。普段はZOZOMATやZOZOGLASSなどの計測技術に関わるシステムの開発、運用に携わっています。 我々のチームは、複数サービスを運用する中で障害対応の経験不足や知見共有の難しさといった課題に直面していました。そこで、半年ほど前にカオスエンジニアリングの導入を開始しました。 本記事では、カオスエンジニアリングを一過性のものではなくチームの文化として根付かせ、継続的な改善サイクルを生み出すための導入から運用まで、我々のチームでの実践から得られた具体的な方法をお伝えします。 これからカオスエンジニアリングを始めようとして…",
+            "url": "https://techblog.zozo.com/entry/measurement-chaos-engineering",
+            "title": "障害への不安をぶっ壊す！カオスエンジニアリングを運用しシステムとチームの耐障害性を高める | ZOZO TECH BLOG",
+            "summary": "はじめに こんにちは、計測プラットフォーム開発本部SREブロックの山本です。普段はZOZOMATやZOZOGLASSなどの計測技術に関わるシステムの開発、運用に携わっています。 我々のチームは、複数サービスを運用する中で障害対応の経験不足や知見共有の難しさといった課題に直面していました。そこで、半年ほど前にカオスエンジニアリングの導入を開始しました。 本記事では、カオスエンジニアリングを一過性のも...",
             "date_modified": "2024-08-08T02:00:00.000Z",
             "date_published": "2024-08-08T02:00:00.000Z",
             "tags": []
@@ -3114,10 +3147,10 @@
             "tags": [
                 "PC",
                 "バルダーズ・ゲート3",
-                "News",
                 "Xbox Series X",
-                "PlayStation 5",
                 "ゲーム",
+                "PlayStation 5",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -3251,10 +3284,10 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "Arena Breakout: Infinite",
+                "ゲーム",
                 "Steam",
-                "ゲーム"
+                "News",
+                "Arena Breakout: Infinite"
             ]
         },
         {
@@ -3349,12 +3382,12 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "ファイナルファンタジーXVI",
-                "ps5",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "Sony PlayStation",
+                "ps5"
             ]
         },
         {
@@ -3397,12 +3430,12 @@
             },
             "tags": [
                 "PC",
-                "Xbox Game Pass",
-                "Xbox One",
-                "News",
                 "Xbox Series X",
+                "ゲーム",
+                "Xbox Game Pass",
+                "News",
                 "xbox-one",
-                "ゲーム"
+                "Xbox One"
             ]
         },
         {
@@ -3529,11 +3562,11 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "Xbox Series X",
                 "スター・ウォーズ 無法者たち",
-                "PlayStation 5",
                 "ゲーム",
+                "PlayStation 5",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -3550,16 +3583,16 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "Xbox One",
-                "Xbox Series X",
-                "STAR WARS ジェダイ：サバイバー",
                 "PlayStation 4",
+                "Xbox Series X",
                 "ps4",
-                "xbox-one",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "xbox-one",
+                "Sony PlayStation",
+                "STAR WARS ジェダイ：サバイバー",
+                "Xbox One"
             ]
         },
         {
@@ -3649,11 +3682,11 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "SILENT HILL 2（リメイク）",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "Sony PlayStation",
+                "SILENT HILL 2（リメイク）"
             ]
         },
         {
@@ -3859,9 +3892,9 @@
             },
             "tags": [
                 "PC",
-                "News",
+                "Japanese Drift Master",
                 "ゲーム",
-                "Japanese Drift Master"
+                "News"
             ]
         },
         {
@@ -3892,12 +3925,12 @@
                 "name": "片岡龍一"
             },
             "tags": [
+                "ゲーム",
                 "ゼルダの伝説 知恵のかりもの",
                 "News",
-                "nintendo-switch",
+                "任天堂",
                 "Nintendo Switch",
-                "ゲーム",
-                "任天堂"
+                "nintendo-switch"
             ]
         },
         {
@@ -3995,13 +4028,13 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "Xbox Series X",
-                "Xbox Series S",
-                "モンスターハンターワイルズ",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "Sony PlayStation",
+                "モンスターハンターワイルズ",
+                "Xbox Series S"
             ]
         },
         {
@@ -4052,20 +4085,20 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "Dead by Daylight",
                 "PC",
-                "News",
-                "Xbox One",
-                "Xbox Series X",
                 "PlayStation 4",
-                "Nintendo Switch",
+                "Xbox Series X",
                 "ps4",
-                "nintendo-switch",
-                "Steam",
-                "xbox-one",
-                "PlayStation 5",
                 "ゲーム",
-                "任天堂"
+                "Steam",
+                "PlayStation 5",
+                "News",
+                "任天堂",
+                "Nintendo Switch",
+                "xbox-one",
+                "Xbox One",
+                "Dead by Daylight",
+                "nintendo-switch"
             ]
         },
         {
@@ -4080,13 +4113,13 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
                 "Amazonおすすめ",
-                "nintendo-switch",
-                "Nintendo Switch",
                 "セール情報",
                 "ゲーム",
-                "任天堂"
+                "News",
+                "任天堂",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -4154,12 +4187,12 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
-                "nintendo-switch",
-                "Nintendo Switch",
                 "セール情報",
                 "ゲーム",
-                "任天堂"
+                "News",
+                "任天堂",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -4174,12 +4207,12 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
-                "nintendo-switch",
-                "Nintendo Switch",
                 "セール情報",
                 "ゲーム",
-                "任天堂"
+                "News",
+                "任天堂",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -4236,21 +4269,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.zozo.com/entry/newwear-renewal-new-grad-ios-engineer-approach",
-            "content_html": "はじめに こんにちは、ブランドソリューション開発本部でWEAR by ZOZOのiOSアプリの開発を担当している山田（@gamegamega_329）です。 2024年の5月、WEARはAIを活用したファッションジャンル診断などの新たな機能やコンテンツを導入し「WEAR by ZOZO」（以下、WEAR）としてリニューアルしました。私が入社してからすぐにWEARアプリのリニューアルに取り組んできました。 当時、私は業務経験の浅い新卒1年目であり、リニューアルにおいてどのようにチームに貢献できるか不安を抱えていました。しかし、業務経験が未熟な中でも、自分の力で挑戦できるタスクを見極め、それに取り…",
-            "url": "https://techblog.zozo.com/entry/newwear-renewal-new-grad-ios-engineer-approach",
-            "title": "WEARリニューアルにおける新卒iOSエンジニアの課題解決アプローチ | ZOZO TECH BLOG",
-            "summary": "はじめに こんにちは、ブランドソリューション開発本部でWEAR by ZOZOのiOSアプリの開発を担当している山田（@gamegamega_329）です。 2024年の5月、WEARはAIを活用したファッションジャンル診断などの新たな機能やコンテンツを導入し「WEAR by ZOZO」（以下、WEAR）としてリニューアルしました。私が入社してからすぐにWEARアプリのリニューアルに取り組んできま...",
-            "date_modified": "2024-08-06T02:00:00.000Z",
-            "date_published": "2024-08-06T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.lycorp.co.jp/ja/20240806a",
             "content_html": "はじめに はじめまして。セキュリティ開発チームのキム・ドヨン、キム・ヨンヒョン、パク・ギョンジュン、フバイン・チャールズ、アン・サンファンと申します。私たちが所属しているチームは、LINEヤフーの全般...",
             "url": "https://techblog.lycorp.co.jp/ja/20240806a",
             "title": "デバイスとアプリの完全性保証からサービスリクエストの保護まで：LINEのデバイス証明サービス 第1弾 | LINEヤフー Tech Blog",
             "summary": "はじめに はじめまして。セキュリティ開発チームのキム・ドヨン、キム・ヨンヒョン、パク・ギョンジュン、フバイン・チャールズ、アン・サンファンと申します。私たちが所属しているチームは、LINEヤフーの全般...",
+            "date_modified": "2024-08-06T02:00:00.000Z",
+            "date_published": "2024-08-06T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.zozo.com/entry/newwear-renewal-new-grad-ios-engineer-approach",
+            "content_html": "はじめに こんにちは、ブランドソリューション開発本部でWEAR by ZOZOのiOSアプリの開発を担当している山田（@gamegamega_329）です。 2024年の5月、WEARはAIを活用したファッションジャンル診断などの新たな機能やコンテンツを導入し「WEAR by ZOZO」（以下、WEAR）としてリニューアルしました。私が入社してからすぐにWEARアプリのリニューアルに取り組んできました。 当時、私は業務経験の浅い新卒1年目であり、リニューアルにおいてどのようにチームに貢献できるか不安を抱えていました。しかし、業務経験が未熟な中でも、自分の力で挑戦できるタスクを見極め、それに取り…",
+            "url": "https://techblog.zozo.com/entry/newwear-renewal-new-grad-ios-engineer-approach",
+            "title": "WEARリニューアルにおける新卒iOSエンジニアの課題解決アプローチ | ZOZO TECH BLOG",
+            "summary": "はじめに こんにちは、ブランドソリューション開発本部でWEAR by ZOZOのiOSアプリの開発を担当している山田（@gamegamega_329）です。 2024年の5月、WEARはAIを活用したファッションジャンル診断などの新たな機能やコンテンツを導入し「WEAR by ZOZO」（以下、WEAR）としてリニューアルしました。私が入社してからすぐにWEARアプリのリニューアルに取り組んできま...",
             "date_modified": "2024-08-06T02:00:00.000Z",
             "date_published": "2024-08-06T02:00:00.000Z",
             "tags": []
@@ -4488,13 +4521,13 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "Xbox Series X",
-                "Xbox Series S",
-                "真・三國無双 ORIGINS",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "Sony PlayStation",
+                "真・三國無双 ORIGINS",
+                "Xbox Series S"
             ]
         },
         {
@@ -4582,18 +4615,18 @@
                 "name": "重田雄一"
             },
             "tags": [
-                "PC",
-                "Delta Force: Hawk Ops",
-                "News",
-                "iphone",
-                "android",
-                "Xbox Series X",
-                "Mobile",
                 "Android",
-                "Steam",
-                "PlayStation 5",
+                "PC",
+                "Xbox Series X",
                 "ゲーム",
-                "Sony PlayStation"
+                "Steam",
+                "Delta Force: Hawk Ops",
+                "PlayStation 5",
+                "News",
+                "android",
+                "Sony PlayStation",
+                "Mobile",
+                "iphone"
             ]
         },
         {
@@ -4618,12 +4651,12 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
-                "nintendo-switch",
-                "Nintendo Switch",
                 "セール情報",
                 "ゲーム",
-                "任天堂"
+                "News",
+                "任天堂",
+                "Nintendo Switch",
+                "nintendo-switch"
             ]
         },
         {
@@ -4638,10 +4671,10 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
+                "ゲーム",
                 "gamescom",
                 "PlayStation 5",
-                "ゲーム",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -4677,12 +4710,12 @@
                 "name": "片岡龍一"
             },
             "tags": [
-                "News",
                 "PlayStation 4",
                 "ps4",
                 "セール情報",
-                "PlayStation 5",
                 "ゲーム",
+                "PlayStation 5",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -4743,21 +4776,21 @@
             "tags": []
         },
         {
-            "id": "https://techblog.zozo.com/entry/zozotown-css-in-js-followup",
-            "content_html": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入してから2年後の運用状況ついてご紹介します。",
-            "url": "https://techblog.zozo.com/entry/zozotown-css-in-js-followup",
-            "title": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入して2年後の状況 | ZOZO TECH BLOG",
-            "summary": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入してから2年後の運用状況ついてご紹介します。",
-            "date_modified": "2024-08-05T02:00:00.000Z",
-            "date_published": "2024-08-05T02:00:00.000Z",
-            "tags": []
-        },
-        {
             "id": "https://techblog.lycorp.co.jp/ja/20240805a",
             "content_html": "こんにちは。AndroidアプリエンジニアのChigitaとFukunoです。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を...",
             "url": "https://techblog.lycorp.co.jp/ja/20240805a",
             "title": "どちらのコードが好ましい？1−4問目（Kotlin Fest 2024 Pocket Code Battle） | LINEヤフー Tech Blog",
             "summary": "こんにちは。AndroidアプリエンジニアのChigitaとFukunoです。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を...",
+            "date_modified": "2024-08-05T02:00:00.000Z",
+            "date_published": "2024-08-05T02:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://techblog.zozo.com/entry/zozotown-css-in-js-followup",
+            "content_html": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入してから2年後の運用状況ついてご紹介します。",
+            "url": "https://techblog.zozo.com/entry/zozotown-css-in-js-followup",
+            "title": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入して2年後の状況 | ZOZO TECH BLOG",
+            "summary": "ZOZOTOWNのフロントエンド開発にCSS in JSを導入してから2年後の運用状況ついてご紹介します。",
             "date_modified": "2024-08-05T02:00:00.000Z",
             "date_published": "2024-08-05T02:00:00.000Z",
             "tags": []
@@ -4982,10 +5015,10 @@
             },
             "tags": [
                 "PC",
-                "BitSummit Drift",
                 "ゲーム",
-                "BitSummit",
-                "Preview"
+                "Preview",
+                "BitSummit Drift",
+                "BitSummit"
             ]
         },
         {
@@ -5001,10 +5034,10 @@
             },
             "tags": [
                 "PC",
-                "BitSummit Drift",
                 "ゲーム",
-                "BitSummit",
-                "Preview"
+                "Preview",
+                "BitSummit Drift",
+                "BitSummit"
             ]
         },
         {
@@ -5020,9 +5053,9 @@
             },
             "tags": [
                 "PC",
-                "PCゲーム極☆道",
                 "Feature",
-                "ゲーム"
+                "ゲーム",
+                "PCゲーム極☆道"
             ]
         },
         {
@@ -5038,11 +5071,11 @@
             },
             "tags": [
                 "PC",
-                "News",
                 "Xbox Series X",
                 "スター・ウォーズ 無法者たち",
-                "PlayStation 5",
                 "ゲーム",
+                "PlayStation 5",
+                "News",
                 "Sony PlayStation"
             ]
         },
@@ -5129,17 +5162,17 @@
             },
             "tags": [
                 "PC",
-                "Destiny 2",
-                "News",
-                "Xbox One",
-                "Xbox Series X",
                 "PlayStation 4",
+                "Xbox Series X",
+                "Marathon",
                 "ps4",
-                "xbox-one",
-                "PlayStation 5",
                 "ゲーム",
+                "Destiny 2",
+                "PlayStation 5",
+                "News",
+                "xbox-one",
                 "Sony PlayStation",
-                "Marathon"
+                "Xbox One"
             ]
         },
         {
@@ -5155,12 +5188,12 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "VALORANT",
                 "Xbox Series X",
-                "PlayStation 5",
                 "ゲーム",
-                "Sony PlayStation"
+                "PlayStation 5",
+                "News",
+                "Sony PlayStation",
+                "VALORANT"
             ]
         },
         {
@@ -5176,10 +5209,10 @@
             },
             "tags": [
                 "PC",
-                "News",
-                "Xbox Series X",
                 "Avowed",
-                "ゲーム"
+                "Xbox Series X",
+                "ゲーム",
+                "News"
             ]
         },
         {
@@ -5312,25 +5345,6 @@
             "date_modified": "2024-08-02T09:33:12.000Z",
             "date_published": "2024-08-02T09:33:12.000Z",
             "tags": []
-        },
-        {
-            "id": "https://jp.ign.com/spectre-divide/75894/news/3vs3fpsspectre-divide-126vs6fps",
-            "content_html": "変わったギミックのある「Counter-Strike」といった雰囲気だが、銃撃戦のプレイフィールは「Call of Duty」に近そうだ 3vs3のタクティカルFPS『Spectre Divide』が正式発表された。",
-            "url": "https://jp.ign.com/spectre-divide/75894/news/3vs3fpsspectre-divide-126vs6fps",
-            "title": "3vs3タクティカルFPS『Spectre Divide』が正式発表 1人のプレイヤーが2体を操作する、実質6vs6な爆破FPS | IGN Japan games",
-            "summary": "変わったギミックのある「Counter-Strike」といった雰囲気だが、銃撃戦のプレイフィールは「Call of Duty」に近そうだ 3vs3のタクティカルFPS『Spectre Divide』が正式発表された。",
-            "date_modified": "2024-08-02T09:09:37.000Z",
-            "date_published": "2024-08-02T09:09:37.000Z",
-            "author": {
-                "name": "重田雄一"
-            },
-            "tags": [
-                "PC",
-                "News",
-                "Steam",
-                "ゲーム",
-                "Spectre Divide"
-            ]
         },
         {
             "id": "https://www.youtube.com/watch?v=cSWlciqFqcs",
@@ -7222,116 +7236,6 @@
             "summary": "この記事は Thanet Knack Praneenararat による Google Ads Developer Blog の記事 \"Announcing v17 of the Google Ads API\" を元に翻訳・加筆したものです。詳しくは元記事をご覧ください。  この度、Google Ads API の v17 リリースをお知らせします。v17 の一部の機能を使用するには、クライアント...",
             "date_modified": "2024-07-29T02:24:00.002Z",
             "date_published": "2024-07-29T02:24:00.002Z",
-            "tags": []
-        },
-        {
-            "id": "https://www.techno-edge.net/article/2024/07/29/3565.html",
-            "content_html": "テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を2週に1回のペースでお届けしています。その第62回放送を、本日（7月29日）正午（12時）に、YouTubeで行います。",
-            "url": "https://www.techno-edge.net/article/2024/07/29/3565.html",
-            "title": "世界一斉ブルースクリーン事件などを語るポッドキャスト第63回を本日（7月29日）正午にライブ配信 | テクノエッジ TechnoEdge",
-            "summary": "テクノエッジ編集部では、「TechnoEdge-Side」（テクノエッジ・サイド）を2週に1回のペースでお届けしています。その第62回放送を、本日（7月29日）正午（12時）に、YouTubeで行います。",
-            "date_modified": "2024-07-29T02:02:48.000Z",
-            "date_published": "2024-07-29T02:02:48.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://techblog.lycorp.co.jp/ja/20240729a",
-            "content_html": "以前、LINEアプリで音声品質を測定するという記事で、LINEアプリにおけるアコースティック環境やネットワーク環境の変化、グローバル環境に対応する方法を紹介したことがあります。特に、アコースティック環...",
-            "url": "https://techblog.lycorp.co.jp/ja/20240729a",
-            "title": "LINEアプリのノイズ抑制技術の性能を測定する | LINEヤフー Tech Blog",
-            "summary": "以前、LINEアプリで音声品質を測定するという記事で、LINEアプリにおけるアコースティック環境やネットワーク環境の変化、グローバル環境に対応する方法を紹介したことがあります。特に、アコースティック環...",
-            "date_modified": "2024-07-29T02:00:00.000Z",
-            "date_published": "2024-07-29T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://buildersbox.corp-sansan.com/entry/2024/07/29/110000",
-            "content_html": "こんにちは。 名刺アプリ「Eight」でエンジニアをしている鳥山（@pvcresin）です。 最近、ミスタードーナツのミニオンコラボの商品を食べたのですが、 どれも美味しくて見た目もかわいいので最高でした。 特にポン・デ・リングベースのものは、表面のキャンディが口の中でパチパチと弾けて楽しいのでオススメです。 さて今回は、RailsのViewで使う、HTML用ERBファイルのフォーマットを統一した話をします。",
-            "url": "https://buildersbox.corp-sansan.com/entry/2024/07/29/110000",
-            "title": "HTML用ERBファイルのフォーマットを統一した話 | Sansan Tech Blog",
-            "summary": "こんにちは。 名刺アプリ「Eight」でエンジニアをしている鳥山（@pvcresin）です。 最近、ミスタードーナツのミニオンコラボの商品を食べたのですが、 どれも美味しくて見た目もかわいいので最高でした。 特にポン・デ・リングベースのものは、表面のキャンディが口の中でパチパチと弾けて楽しいのでオススメです。 さて今回は、RailsのViewで使う、HTML用ERBファイルのフォーマットを統一した...",
-            "date_modified": "2024-07-29T02:00:00.000Z",
-            "date_published": "2024-07-29T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://techblog.lycorp.co.jp/ja/20240729a",
-            "content_html": "以前、LINEアプリで音声品質を測定するという記事で、LINEアプリにおけるアコースティック環境やネットワーク環境の変化、グローバル環境に対応する方法を紹介したことがあります。特に、アコースティック環...",
-            "url": "https://techblog.lycorp.co.jp/ja/20240729a",
-            "title": "LINEアプリのノイズ抑制技術の性能を測定する | LINEヤフー Tech Blog",
-            "summary": "以前、LINEアプリで音声品質を測定するという記事で、LINEアプリにおけるアコースティック環境やネットワーク環境の変化、グローバル環境に対応する方法を紹介したことがあります。特に、アコースティック環...",
-            "date_modified": "2024-07-29T02:00:00.000Z",
-            "date_published": "2024-07-29T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://blog.colopl.dev/entry/2024/07/29/110000",
-            "content_html": "はじめに こんにちは。バックエンドエンジニアの Y.N. です。 普段は LCE チームの一員として新作開発のお手伝いなどをしています。（→ LCE については過去の記事があるのでそちらもぜひご覧ください） 最近はブロックチェーンゲーム Brilliantcrypto のリリースへ向けてバタバタしていましたが、無事リリースを迎えることができました。PC の方は、ぜひこの記事を読みながらダウンロードして遊んでみてください！ そんな私ですが、先日入社して初めての海外出張へ行く機会があったので、今回はその様子について共有させていただきます。 出張について 今回の出張は、コロプラが主に利用しているイン…",
-            "url": "https://blog.colopl.dev/entry/2024/07/29/110000",
-            "title": "初めての海外出張に行ってきました！【Google Cloud Next ‘24 in Las Vegas】 | COLOPL Tech Blog",
-            "summary": "はじめに こんにちは。バックエンドエンジニアの Y.N. です。 普段は LCE チームの一員として新作開発のお手伝いなどをしています。（→ LCE については過去の記事があるのでそちらもぜひご覧ください） 最近はブロックチェーンゲーム Brilliantcrypto のリリースへ向けてバタバタしていましたが、無事リリースを迎えることができました。PC の方は、ぜひこの記事を読みながらダウンロード...",
-            "date_modified": "2024-07-29T02:00:00.000Z",
-            "date_published": "2024-07-29T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech-blog.yayoi-kk.co.jp/entry/2024/07/29/110000",
-            "content_html": "TL;DR こんにちは。弥生R&D室の飯田です。R&D室ではSageMakerを使用して機械学習 (ML) のプロジェクトを進めていますが、SageMakerにはProcessingJobというサービスがあり、モデル訓練のような重い処理に適しているため大変便利です。 しかし計算用インスタンス上で実行しているプロセスの管理には直接 ps や kill を使うことができず、独自のコマンドが必要となるため、よく使うものをこの記事で紹介したいと思います。 実行環境 AWS CLI が動作する環境、および利用するSageMakerのドメインに対応したアクセスキーの設定が必要です。 コマンド集 現在動いて…",
-            "url": "https://tech-blog.yayoi-kk.co.jp/entry/2024/07/29/110000",
-            "title": "SageMaker ProcessingJobのCLIからのジョブ管理方法 | 弥生開発者ブログ",
-            "summary": "TL;DR こんにちは。弥生R&D室の飯田です。R&D室ではSageMakerを使用して機械学習 (ML) のプロジェクトを進めていますが、SageMakerにはProcessingJobというサービスがあり、モデル訓練のような重い処理に適しているため大変便利です。 しかし計算用インスタンス上で実行しているプロセスの管理には直接 ps や kill を使うことができず、独自のコマンドが必要となるた...",
-            "date_modified": "2024-07-29T02:00:00.000Z",
-            "date_published": "2024-07-29T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://heartbeats.jp/hbblog/2024/07/training-part2.html",
-            "content_html": "こんにちは。事業基盤グループ 人材開発チームの佐野です。 今回は「全員を戦力にす...",
-            "url": "https://heartbeats.jp/hbblog/2024/07/training-part2.html",
-            "title": "「全員を戦力にする人財育成術」という本で勉強してみた | インフラエンジニアway - Powered by HEARTBEATS",
-            "summary": "こんにちは。事業基盤グループ 人材開発チームの佐野です。 今回は「全員を戦力にす...",
-            "date_modified": "2024-07-29T01:00:00.000Z",
-            "date_published": "2024-07-29T01:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.repro.io/entry/2024/07/29/092929",
-            "content_html": "こんにちは。ReproのProduct Planning Teamでプロダクト企画を担当している正木です。 今回は前回の記事の続きで、なぜGoToMarketの改善活動の効果がなかったのかの原因と、そこへの対策についてお話をしていきます。 tech.repro.io 結論から先に言うと、機能提供から利用開始されるまでのリードタイムが減り、活用度も上がるという結果になりました！ GoToMarket改善活動はなぜ効果がなかったのか？ 大きく2つの理由がありました。 プロジェクト型組織構造によるナレッジの局所化 当時のReproの開発組織はプロジェクト制を取っており、何かの開発が決定すると都度プロ…",
-            "url": "https://tech.repro.io/entry/2024/07/29/092929",
-            "title": "作った機能をお客様に使ってもらうために必要なのは結局組織間連携の強化だった | Repro Tech Blog",
-            "summary": "こんにちは。ReproのProduct Planning Teamでプロダクト企画を担当している正木です。 今回は前回の記事の続きで、なぜGoToMarketの改善活動の効果がなかったのかの原因と、そこへの対策についてお話をしていきます。 tech.repro.io 結論から先に言うと、機能提供から利用開始されるまでのリードタイムが減り、活用度も上がるという結果になりました！ GoToMarket...",
-            "date_modified": "2024-07-29T00:29:29.000Z",
-            "date_published": "2024-07-29T00:29:29.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.jxpress.net/entry/2024/07/29/090000?utm_source=feed",
-            "content_html": "テーマの紹介 JX通信社エンジニアのr_uematsuです。 弊社は、日本テレビ放送網株式会社と共同で「日テレ気象・防災サイト」を開発しています。気象警報、地震・津波情報、噴火情報など、防災に関わる情報をまとめて閲覧できるサイトです。 bosai.news.ntv.co.jp 情報源には気象庁から配信されるXML（電文）を使用しています。 気象庁XMLは気象情報や地震情報など様々な情報を配信しており、日テレ防災サイト以外にも社内プロジェクトでも広く利用されています。 今回は気象庁XMLの紹介と正しく扱うためには、どんなことに気を付けるべきかを地震津波関連のXMLを例に掘り下げてみたいと思います…",
-            "url": "https://tech.jxpress.net/entry/2024/07/29/090000?utm_source=feed",
-            "title": "気象庁XMLを正しく扱いたい！ | JX通信社エンジニアブログ",
-            "summary": "テーマの紹介 JX通信社エンジニアのr_uematsuです。 弊社は、日本テレビ放送網株式会社と共同で「日テレ気象・防災サイト」を開発しています。気象警報、地震・津波情報、噴火情報など、防災に関わる情報をまとめて閲覧できるサイトです。 bosai.news.ntv.co.jp 情報源には気象庁から配信されるXML（電文）を使用しています。 気象庁XMLは気象情報や地震情報など様々な情報を配信してお...",
-            "date_modified": "2024-07-29T00:00:00.000Z",
-            "date_published": "2024-07-29T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://aimstogeek.hatenablog.com/entry/2024/07/29/090000",
-            "content_html": "みなさん、バグ（不具合）、出してますか？ こんにちは。ソフトウェアエンジニアのたかにぃです。 これまで開発を通じて数多くのバグと遭遇してきました。 自身が実装者として出してしまったものもあればプロジェクトとして出してしまったものもありますが、いずれも「なんとか防げなかったものか…」と、いつも考えてしまいます。 バグを出してしまうと、すごく辛い気持ちになりますよね。 申し訳なさやら恥ずかしさやら情けなさで夜も眠れなくなったりします。 今回はシステム開発において、切っても切れない、でもお目にかかりたくない、そんなバグについて、普段考えていることをつらつらと言語化していきたいと思います。 ちなみに「…",
-            "url": "https://aimstogeek.hatenablog.com/entry/2024/07/29/090000",
-            "title": "バグとどう向き合っていくか | クイック エンジニアリングブログ",
-            "summary": "みなさん、バグ（不具合）、出してますか？ こんにちは。ソフトウェアエンジニアのたかにぃです。 これまで開発を通じて数多くのバグと遭遇してきました。 自身が実装者として出してしまったものもあればプロジェクトとして出してしまったものもありますが、いずれも「なんとか防げなかったものか…」と、いつも考えてしまいます。 バグを出してしまうと、すごく辛い気持ちになりますよね。 申し訳なさやら恥ずかしさやら情け...",
-            "date_modified": "2024-07-29T00:00:00.000Z",
-            "date_published": "2024-07-29T00:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://tech.techtouch.jp/entry/reason-for-choosing-qase",
-            "content_html": "テスト管理ツールを導入するにあたり検討したこと、Qaseを選んだ理由と1年利用して分かったことについて紹介します。",
-            "url": "https://tech.techtouch.jp/entry/reason-for-choosing-qase",
-            "title": "最高効率でテストをするためにQaseを選んだ理由 | Techtouch Developers Blog",
-            "summary": "テスト管理ツールを導入するにあたり検討したこと、Qaseを選んだ理由と1年利用して分かったことについて紹介します。",
-            "date_modified": "2024-07-29T00:00:00.000Z",
-            "date_published": "2024-07-29T00:00:00.000Z",
             "tags": []
         }
     ]
