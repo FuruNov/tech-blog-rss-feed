@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-08-20T23:26:37.028Z</updated>
+    <updated>2024-08-21T02:14:03.494Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,189 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[【Google Cloud Next Tokyo ’24】セッションレポート インクルーシブ リーダーシップ：多様なチームを率いるためのスキルとマインドセット | エンジニアブログ | iret.media]]></title>
+        <id>https://iret.media/?p=115907</id>
+        <link href="https://iret.media/115907"/>
+        <updated>2024-08-21T02:00:15.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 8月は毎日暑い日が続いていますが、皆さんいかがお過ごしでしょうか。自分はパリオリンピックの中継やネット配信などを観ていたこともあり寝不足な日が多かったです。まだまだ厳しい暑さが続きますので体調を崩さいないように […]]]></summary>
+        <content type="html"><![CDATA[はじめに 8月は毎日暑い日が続いていますが、皆さんいかがお過ごしでしょうか。自分はパリオリンピックの中継やネット配信などを観ていたこともあり寝不足な日が多かったです。まだまだ厳しい暑さが続きますので体調を崩さいないように […]]]></content>
+        <author>
+            <name>たなべ。</name>
+        </author>
+        <category label="イベントレポート"/>
+        <category label="エンジニアブログ"/>
+        <category label="Google Cloud"/>
+        <category label="Google Cloud Next '24"/>
+        <category label="Google Cloud Next Tokyo ’24"/>
+        <published>2024-08-21T02:00:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SansanアプリにおけるKotlin Multiplatform導入の効果とアーキテクチャ紹介 | Sansan Tech Blog]]></title>
+        <id>https://buildersbox.corp-sansan.com/entry/2024/08/21/110000</id>
+        <link href="https://buildersbox.corp-sansan.com/entry/2024/08/21/110000"/>
+        <updated>2024-08-21T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！ 技術本部 Sansan Engineering Unit Mobile Applicationグループの桑原です。この度、Sansanモバイルアプリでは開発スピードを加速させるため、実プロダクトにKotlin Multiplatform（以下、KMP）を導入しました！ まずは1画面の導入から始めましたが、今後は既存の画面も順次KMPに移行していく予定です。この記事では、Android...]]></summary>
+        <content type="html"><![CDATA[こんにちは！ 技術本部 Sansan Engineering Unit Mobile Applicationグループの桑原です。この度、Sansanモバイルアプリでは開発スピードを加速させるため、実プロダクトにKotlin Multiplatform（以下、KMP）を導入しました！ まずは1画面の導入から始めましたが、今後は既存の画面も順次KMPに移行していく予定です。この記事では、Androidエンジニアの視点から、SansanアプリにKMPを導入した背景やその成果、さらにKMPの設計についても簡単に紹介します。]]></content>
+        <published>2024-08-21T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Difyで複数のLLMを切り替えるチャットを実現する | Taste of Tech Topics]]></title>
+        <id>hatenablog://entry/6801883189128640561</id>
+        <link href="https://acro-engineer.hatenablog.com/entry/2024/08/21/110000"/>
+        <updated>2024-08-21T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、新人エンジニアの前田です。 南海トラフ地震の臨時情報や台風などもあったりして、自衛のための事前準備は欠かせないなと思いました。 さて、今回はDifyを使って複数の大規模言語モデル（LLM）を切り替えるチャットチャットボットを作ってみたいと思います。  1. 概要 1.1.Difyとは 1.2. この記事で実現すること 2. アプリ作成 2.1. モデルの定義 2.2. モデルの選択 2...]]></summary>
+        <content type="html"><![CDATA[こんにちは、新人エンジニアの前田です。 南海トラフ地震の臨時情報や台風などもあったりして、自衛のための事前準備は欠かせないなと思いました。 さて、今回はDifyを使って複数の大規模言語モデル（LLM）を切り替えるチャットチャットボットを作ってみたいと思います。  1. 概要 1.1.Difyとは 1.2. この記事で実現すること 2. アプリ作成 2.1. モデルの定義 2.2. モデルの選択 2.3. 変数の集約 3. 作成したアプリを動かしてみる 4. まとめ 1. 概要 1.1.Difyとは Difyは、大規模言語モデル（LLM）を用いたオープンソースのアプリ開発プラットフォームです。 acro-engineer.hatenablog.com 環境構築方法も紹介されているので、初めてDifyを触れる人はそちらも確認してみてください。 1.2. この記事で実現すること Docker版のDify（バージョンは0.6.16）のチャットフローを使って複数のLLMを切り替えるチャットボットを作ります。  LLM IF/ELSE 変数集約器 次の章で各ブロックについて説明していきます。 2....]]></content>
+        <category label="Dify"/>
+        <category label="生成AI"/>
+        <published>2024-08-21T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ヨガイベントの写真でインドの核兵器の動向がバレちゃった！ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/08/292142.html</id>
+        <link href="https://www.gizmodo.jp/2024/08/292142.html"/>
+        <updated>2024-08-21T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[©IndianinSeyschellesviaInstagram.ソーシャルメディアから軍事動向も知れる時代？世界の核保有国は、核兵器をどこに隠しているかについて正確には公表していません。核兵器を持っていることは知られたいけれど、その所在地までは知られたくないのです。もちろんそれがまったく関係のないところでわかってしまうのは痛恨。インドのあるヨガイベントの様子がインスタグラムに投稿されたのですが、]]></summary>
+        <content type="html"><![CDATA[©IndianinSeyschellesviaInstagram.ソーシャルメディアから軍事動向も知れる時代？世界の核保有国は、核兵器をどこに隠しているかについて正確には公表していません。核兵器を持っていることは知られたいけれど、その所在地までは知られたくないのです。もちろんそれがまったく関係のないところでわかってしまうのは痛恨。インドのあるヨガイベントの様子がインスタグラムに投稿されたのですが、]]></content>
+        <author>
+            <name>岩田リョウコ</name>
+        </author>
+        <category label="NEWS"/>
+        <published>2024-08-21T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[教えて先輩！ 牧大輔さんインタビュー ──【後編】ポストコロナの新しい技術イベント、YouTubeで銀の盾 | SmartHR Tech Blog]]></title>
+        <id>https://tech.smarthr.jp/entry/2024/08/21/104734</id>
+        <link href="https://tech.smarthr.jp/entry/2024/08/21/104734"/>
+        <updated>2024-08-21T01:47:34.000Z</updated>
+        <summary type="html"><![CDATA[「教えて先輩！ DevRelの立ち上げ方」に続く「教えて先輩シリーズ」の第二弾としまして、JPA（Japan Perl Association）の初代代表理事、buildersconの立ち上げ、YAPC::Asia Tokyo時代のYAPC（Yet Another Perl Conference）の運営で知られるlestrratこと牧大輔さんにお話をうかがいました。インタビュアーはSmartHRの...]]></summary>
+        <content type="html"><![CDATA[「教えて先輩！ DevRelの立ち上げ方」に続く「教えて先輩シリーズ」の第二弾としまして、JPA（Japan Perl Association）の初代代表理事、buildersconの立ち上げ、YAPC::Asia Tokyo時代のYAPC（Yet Another Perl Conference）の運営で知られるlestrratこと牧大輔さんにお話をうかがいました。インタビュアーはSmartHRのDevRelのinaoです。 前編に続く後編は、主にポストコロナの新しい技術イベントやYouTubeのノウハウについてのお話です。 tech.smarthr.jp （インタビューは2024年7月に行い…]]></content>
+        <published>2024-08-21T01:47:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アジャイル開発とは？メリットとデメリットをわかりやすく解説 | シー・エス・エス イノベーションラボ（ブログ）]]></title>
+        <id>https://blog.css-net.co.jp/entry/2024/08/21/104401</id>
+        <link href="https://blog.css-net.co.jp/entry/2024/08/21/104401"/>
+        <updated>2024-08-21T01:44:01.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、デジタル戦略開発課のTDです。 私の現在従事している案件で、アジャイル開発という開発手法が採用されています。 アジャイル開発という開発方法は、最近の基本情報技術者試験の問題などでも時折選出されているため、ワードとして聞いたことのある方もいらっしゃると思います。 言葉を知っていても実際に採用している案件に従事したことのある方は多くないと思います。せっかくアジャイル開発を採用している案件に...]]></summary>
+        <content type="html"><![CDATA[こんにちは、デジタル戦略開発課のTDです。 私の現在従事している案件で、アジャイル開発という開発手法が採用されています。 アジャイル開発という開発方法は、最近の基本情報技術者試験の問題などでも時折選出されているため、ワードとして聞いたことのある方もいらっしゃると思います。 言葉を知っていても実際に採用している案件に従事したことのある方は多くないと思います。せっかくアジャイル開発を採用している案件に従事し、アジャイル開発に触れる機会をいただけたので、アジャイル開発について記事にしたいと思います。 アジャイル開発とは アジャイル開発のメリット 柔軟な対応ができる 開発スピードが速い 顧客のニーズに…]]></content>
+        <published>2024-08-21T01:44:01.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「ダイイングライト」新作『Dying Light: The Beast』が発表 | IGN Japan games]]></title>
+        <id>https://jp.ign.com/dying-light-the-beast/76143/news/dying-light-the-beast</id>
+        <link href="https://jp.ign.com/dying-light-the-beast/76143/news/dying-light-the-beast"/>
+        <updated>2024-08-21T01:33:09.000Z</updated>
+        <summary type="html"><![CDATA[獣を解き放て gamescomのOpening Night Liveにて、「ダイイングライト」シリーズの新作『Dying Light: The Beast』が発表された。]]></summary>
+        <content type="html"><![CDATA[獣を解き放て gamescomのOpening Night Liveにて、「ダイイングライト」シリーズの新作『Dying Light: The Beast』が発表された。]]></content>
+        <author>
+            <name>Rebekah Valentine</name>
+        </author>
+        <category label="Sony PlayStation"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="Xbox Series X"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Dying Light: The Beast"/>
+        <published>2024-08-21T01:33:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【アップデート情報】パッケージ・ドライバー関連　8月21日　～ニコンなど | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/update/driver/1617260.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/update/driver/1617260.html"/>
+        <updated>2024-08-21T01:30:00.000Z</updated>
+        <published>2024-08-21T01:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[個人と職場・学校の両対応の「Microsoft Teams」デスクトップアプリが一般公開／Windows 11、Windows 10、Macで無償提供 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1617262.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1617262.html"/>
+        <updated>2024-08-21T01:18:29.000Z</updated>
+        <summary type="html"><![CDATA[米Microsoftは8月20日（現地時間）、個人アカウントと職場・学校アカウントの両方に対応した「Microsoft Teams」デスクトップアプリを一般公開した。Windows 11、Windows 10、Macで無償提供される。]]></summary>
+        <content type="html"><![CDATA[米Microsoftは8月20日（現地時間）、個人アカウントと職場・学校アカウントの両方に対応した「Microsoft Teams」デスクトップアプリを一般公開した。Windows 11、Windows 10、Macで無償提供される。]]></content>
+        <author>
+            <name>樽井 秀人</name>
+        </author>
+        <published>2024-08-21T01:18:29.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[タッチパネルで簡単操作。わずか5分で水出しコーヒーが作れる全自動コーヒーマシン | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/08/delonghi-ecam45086t.html</id>
+        <link href="https://www.gizmodo.jp/2024/08/delonghi-ecam45086t.html"/>
+        <updated>2024-08-21T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:mioもしもこんなにいいマシンが家にあったら、出不精になっちゃうな。2024年9月3日、デロンギから新発売されるのは「エレッタエクスプロアWi-Fiモデル全自動コーヒーマシン（ECAM45086T）」。発売に先立って、このマシンを体験してきました。デロンギの全自動コーヒーマシンのラインナップの中でも上位機種とあって、テクノロジーの詰まった一台でした。デロンギ初の「コールドブリュー」機能]]></summary>
+        <content type="html"><![CDATA[Image:mioもしもこんなにいいマシンが家にあったら、出不精になっちゃうな。2024年9月3日、デロンギから新発売されるのは「エレッタエクスプロアWi-Fiモデル全自動コーヒーマシン（ECAM45086T）」。発売に先立って、このマシンを体験してきました。デロンギの全自動コーヒーマシンのラインナップの中でも上位機種とあって、テクノロジーの詰まった一台でした。デロンギ初の「コールドブリュー」機能]]></content>
+        <author>
+            <name>mio</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-08-21T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOSDC Japan 2024に社員2名が登壇 & スポンサー企画のご案内 | クックパッド開発者ブログ]]></title>
+        <id>https://techlife.cookpad.com/entry/iosdc-japan-2024-sponsorship</id>
+        <link href="https://techlife.cookpad.com/entry/iosdc-japan-2024-sponsorship"/>
+        <updated>2024-08-21T00:58:37.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは！クックパッドでモバイルアプリ開発エンジニアをしている新堀 (@tk108gabalian) です。 現在クックパッドでは空前のイジンデンブームが到来しております。イジンデンというのはダイソーから発売されているトレーディングカードゲームです。イジンデンに興味がある方は是非弊社オフィスにお越し下さい。基本イジンデン対応社員が在中していると思うので、いつでもダイブトゥイジンデンすることができ...]]></summary>
+        <content type="html"><![CDATA[こんにちは！クックパッドでモバイルアプリ開発エンジニアをしている新堀 (@tk108gabalian) です。 現在クックパッドでは空前のイジンデンブームが到来しております。イジンデンというのはダイソーから発売されているトレーディングカードゲームです。イジンデンに興味がある方は是非弊社オフィスにお越し下さい。基本イジンデン対応社員が在中していると思うので、いつでもダイブトゥイジンデンすることができます。 さて、今年もiOSDCが8/22(木)〜8/24(土)に開催されますね！ クックパッドはゴールドスポンサーとして協賛させていただきます。 トーク紹介 今回クックパッドからは2名が登壇いたします…]]></content>
+        <published>2024-08-21T00:58:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Orbbec Femto Mega の3Dビジョン技術がパラリンピック自転車選手をサポート【事例紹介】 | TEGAKARI]]></title>
+        <id>https://www.tegakari.net/?p=31051</id>
+        <link href="https://www.tegakari.net/2024/08/orbbec_femto_mega/"/>
+        <updated>2024-08-21T00:38:07.000Z</updated>
+        <summary type="html"><![CDATA[ユニポスの人気製品である Orbbec社の 3Dカメラ「Femto Mega」が採用されたバイク・フィッティングシステムが、米国のパラリンピック自転車選手 Sa [...続きを見る] 投稿 Orbbec Femto Mega の3Dビジョン技術がパラリンピック自転車選手をサポート【事例紹介】 は TEGAKARI に最初に表示されました。]]></summary>
+        <content type="html"><![CDATA[ユニポスの人気製品である Orbbec社の 3Dカメラ「Femto Mega」が採用されたバイク・フィッティングシステムが、米国のパラリンピック自転車選手 Sa [...続きを見る] 投稿 Orbbec Femto Mega の3Dビジョン技術がパラリンピック自転車選手をサポート【事例紹介】 は TEGAKARI に最初に表示されました。]]></content>
+        <author>
+            <name>テガラ株式会社</name>
+        </author>
+        <category label="センサー技術"/>
+        <category label="海外製品 新着情報 (ユニポス)"/>
+        <category label="Orbbec"/>
+        <category label="モーションキャプチャ"/>
+        <published>2024-08-21T00:38:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS Firehoseを使用した ログ出力設定について | CARTA TECH BLOG]]></title>
+        <id>https://techblog.cartaholdings.co.jp/entry/aws-firehose-log-output-setup</id>
+        <link href="https://techblog.cartaholdings.co.jp/entry/aws-firehose-log-output-setup"/>
+        <updated>2024-08-21T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに はじめてのかたははじめまして、たまにカレーにマヨネーズかけるよねって言ったら誰からも賛同を得られなかったhaya_timeです。 今回はAWSサービスのFirehoseを使ってログを出力した内容を書いていきたいと思います。 背景 私は社内の別々の部署間で案件のID管理をやり取りするWEBアプリケーションの開発・運用を担当しているのですが、実際にユーザがどの程度の頻度で なんの機能を使って...]]></summary>
+        <content type="html"><![CDATA[はじめに はじめてのかたははじめまして、たまにカレーにマヨネーズかけるよねって言ったら誰からも賛同を得られなかったhaya_timeです。 今回はAWSサービスのFirehoseを使ってログを出力した内容を書いていきたいと思います。 背景 私は社内の別々の部署間で案件のID管理をやり取りするWEBアプリケーションの開発・運用を担当しているのですが、実際にユーザがどの程度の頻度で なんの機能を使っているのかを分析したいので、ログを出力して欲しいという要望があがりました。 さらに集計するときデータ転送しやすいようにDB登録ではなく、JSON形式のファイルでアウトプットすることになりました。 とりあ…]]></content>
+        <published>2024-08-21T00:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[『Starfield』のDLC「Shattered Space」が9月30日に配信決定 無料アップデートでは新車両「REV-8」が登場 | IGN Japan games]]></title>
+        <id>https://jp.ign.com/starfield/76139/news/starfielddlcshattered-space930-rev-8</id>
+        <link href="https://jp.ign.com/starfield/76139/news/starfielddlcshattered-space930-rev-8"/>
+        <updated>2024-08-21T00:16:42.000Z</updated>
+        <summary type="html"><![CDATA[無料アップデートで新しい車両も登場 『Starfield』のDLC「Shattered Space」が、2024年9月30日に配信されることが決定した。]]></summary>
+        <content type="html"><![CDATA[無料アップデートで新しい車両も登場 『Starfield』のDLC「Shattered Space」が、2024年9月30日に配信されることが決定した。]]></content>
+        <author>
+            <name>Alex Stedman</name>
+        </author>
+        <category label="PC"/>
+        <category label="Xbox Series X"/>
+        <category label="Starfield"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Starfield: Shattered Space"/>
+        <published>2024-08-21T00:16:42.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WindowsをPC・スマホのWebブラウザーで遠隔操作できるようにする「TiWebRemote」／書斎のPCを居間のタブレット、寝室のスマホで。全機能を無償で試用可能【レビュー】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/review/1616797.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/review/1616797.html"/>
+        <updated>2024-08-20T23:32:33.000Z</updated>
+        <summary type="html"><![CDATA[「TiWebRemote」は、Windowsデスクトップを他のデバイスのWebブラウザーから遠隔操作できるようにするリモートデスクトップサーバー。Windows 10/11に対応しており、作者のWebサイトから無償でダウンロードできる。]]></summary>
+        <content type="html"><![CDATA[「TiWebRemote」は、Windowsデスクトップを他のデバイスのWebブラウザーから遠隔操作できるようにするリモートデスクトップサーバー。Windows 10/11に対応しており、作者のWebサイトから無償でダウンロードできる。]]></content>
+        <author>
+            <name>樽井 秀人</name>
+        </author>
+        <published>2024-08-20T23:32:33.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple Podcastsに「ブラウザ版」がきた。この日を、待ってた | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/08/apple-podcast-web.html</id>
@@ -79,24 +262,6 @@
         <published>2024-08-20T21:45:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Pokémon made a historic return at the 2024 World Championships | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/pokemon/441691/pokemon-worlds-historic-pachirisu</id>
-        <link href="https://www.polygon.com/pokemon/441691/pokemon-worlds-historic-pachirisu"/>
-        <updated>2024-08-20T21:30:17.000Z</updated>
-        <summary type="html"><![CDATA[Pikachu might be the main mascot of Pokémon, but it just got one-upped at the 2024 Pokémon World Championships. And it’s all because a very special Pachirisu captured the hearts of spectators both nea...]]></summary>
-        <content type="html"><![CDATA[Pikachu might be the main mascot of Pokémon, but it just got one-upped at the 2024 Pokémon World Championships. And it’s all because a very special Pachirisu captured the hearts of spectators both near and far when it emerged from its Poké Ball. Players and fans alike gathered for the 2024 Pokémon World Championships in [&#8230;]]]></content>
-        <published>2024-08-20T21:30:17.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indiana Jones and the Great Circle will be released on PS5, too | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gamescom/442222/indiana-jones-great-circle-playstation-port-release-date-gamescom-2024</id>
-        <link href="https://www.polygon.com/gamescom/442222/indiana-jones-great-circle-playstation-port-release-date-gamescom-2024"/>
-        <updated>2024-08-20T21:29:53.000Z</updated>
-        <summary type="html"><![CDATA[Indiana Jones and the Great Circle will debut on Xbox, but the adventure game will also make its way to PlayStation 5. Bethesda confirmed at Gamescom 2024 that the game is set to launch on Dec. 9 for ...]]></summary>
-        <content type="html"><![CDATA[Indiana Jones and the Great Circle will debut on Xbox, but the adventure game will also make its way to PlayStation 5. Bethesda confirmed at Gamescom 2024 that the game is set to launch on Dec. 9 for Xbox and PC, followed by a PlayStation 5 release in spring. Indiana Jones and the Great Circle [&#8230;]]]></content>
-        <published>2024-08-20T21:29:53.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[「リトルナイトメア」から生まれた2つの子と言っても過言ではない、『リトルナイトメア3』と『REANIMAL』のトレーラーが同日に公開 | IGN Japan games]]></title>
         <id>https://jp.ign.com/little-nightmares-iii/76141/news/23reanimal</id>
         <link href="https://jp.ign.com/little-nightmares-iii/76141/news/23reanimal"/>
@@ -122,78 +287,6 @@
         <category label="News"/>
         <category label="ゲーム"/>
         <published>2024-08-20T21:20:48.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PUBG dev&#8217;s new life sim looks like The Sims with a dash of GTA | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gamescom/441901/pubg-devs-life-sim-gta-inzoi-gamescom-2024</id>
-        <link href="https://www.polygon.com/gamescom/441901/pubg-devs-life-sim-gta-inzoi-gamescom-2024"/>
-        <updated>2024-08-20T21:12:59.000Z</updated>
-        <summary type="html"><![CDATA[Krafton, the developer and publisher behind PlayerUnknown&#8217;s Battlegrounds, shared a trailer for its upcoming life sim game, Inzoi, as part of Gamescom Opening Night Live on Tuesday. The develope...]]></summary>
-        <content type="html"><![CDATA[Krafton, the developer and publisher behind PlayerUnknown&#8217;s Battlegrounds, shared a trailer for its upcoming life sim game, Inzoi, as part of Gamescom Opening Night Live on Tuesday. The developers describe Inzoi as a game where players &#8220;have full control&#8221; and the power to change “everything as they wish&#8221; in their virtual lives. The new trailer [&#8230;]]]></content>
-        <published>2024-08-20T21:12:59.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Dune MMO sure looks like a worm-eat-worm world | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gamescom/442183/dune-mmo-survival-game-release-date-gamescom-2024</id>
-        <link href="https://www.polygon.com/gamescom/442183/dune-mmo-survival-game-release-date-gamescom-2024"/>
-        <updated>2024-08-20T21:04:59.000Z</updated>
-        <summary type="html"><![CDATA[Developer Funcom released an in-depth look at Dune: Awakening game as part of Gamescom Opening Night Live on Tuesday. It’s a survival MMO game set in the desert world of Arrakis and its larger sci-fi ...]]></summary>
-        <content type="html"><![CDATA[Developer Funcom released an in-depth look at Dune: Awakening game as part of Gamescom Opening Night Live on Tuesday. It’s a survival MMO game set in the desert world of Arrakis and its larger sci-fi universe. So far, it’s looking like a sleek, but gritty take on Dune that’s all about working your way up the [&#8230;]]]></content>
-        <published>2024-08-20T21:04:59.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mafia: The Old Country is a return to the series after at least 8 years | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/news/442193/mafia-the-old-country-is-a-return-to-the-series-after-at-least-8-years</id>
-        <link href="https://www.polygon.com/news/442193/mafia-the-old-country-is-a-return-to-the-series-after-at-least-8-years"/>
-        <updated>2024-08-20T20:37:14.000Z</updated>
-        <summary type="html"><![CDATA[Mafia maker Hangar 13 is returning to the iconic franchise with Mafia: The Old Country, the developer announced during Gamescom on Tuesday. The short teaser trailer is just over a minute long, and beg...]]></summary>
-        <content type="html"><![CDATA[Mafia maker Hangar 13 is returning to the iconic franchise with Mafia: The Old Country, the developer announced during Gamescom on Tuesday. The short teaser trailer is just over a minute long, and begins with dramatic, still-life shots of paintings and weapons. That’s before the camera pans over to what’s presumably the Italian countryside. There [&#8230;]]]></content>
-        <published>2024-08-20T20:37:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blur Studio’s cinematics-inspired series Secret Level gets a trailer, but co-founder Tim Miller choking up at Gamescom was the real treat | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gamescom/442159/secret-level-tim-miller-blur-studios-announcement-gamescom-2024</id>
-        <link href="https://www.polygon.com/gamescom/442159/secret-level-tim-miller-blur-studios-announcement-gamescom-2024"/>
-        <updated>2024-08-20T20:31:15.000Z</updated>
-        <summary type="html"><![CDATA[Tim Miller, co-founder of Blur Studio and director of Deadpool (2016), took the stage at Gamescom Opening Night Live to show off the first trailer for Secret Level, a 15-episode anthology of video gam...]]></summary>
-        <content type="html"><![CDATA[Tim Miller, co-founder of Blur Studio and director of Deadpool (2016), took the stage at Gamescom Opening Night Live to show off the first trailer for Secret Level, a 15-episode anthology of video game adaptations coming to Prime Video on Dec. 10. Miller also managed to bring quite a bit of personality and emotion to [&#8230;]]]></content>
-        <published>2024-08-20T20:31:15.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The big games, reveals, and trailers from Gamescom Opening Night Live 2024 | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gamescom/442015/gamescom-announcements-trailers-onl-2024</id>
-        <link href="https://www.polygon.com/gamescom/442015/gamescom-announcements-trailers-onl-2024"/>
-        <updated>2024-08-20T20:16:52.000Z</updated>
-        <summary type="html"><![CDATA[Gamescom’s Opening Night Live showcase is once again here to highlight games coming your way in the near future (and beyond). Hosted by Geoff Keighley, the creator of The Game Awards, the stream prima...]]></summary>
-        <content type="html"><![CDATA[Gamescom’s Opening Night Live showcase is once again here to highlight games coming your way in the near future (and beyond). Hosted by Geoff Keighley, the creator of The Game Awards, the stream primarily focused on new or first looks at previously announced games like Call of Duty: Black Ops 6, Sid Meier’s Civilization 7, [&#8230;]]]></content>
-        <published>2024-08-20T20:16:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buy 2 Nintendo Switch classics, get 1 free from Best Buy | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/good-deals/441980/buy-2-nintendo-switch-classics-get-1-free-from-best-buy</id>
-        <link href="https://www.polygon.com/good-deals/441980/buy-2-nintendo-switch-classics-get-1-free-from-best-buy"/>
-        <updated>2024-08-20T20:12:05.000Z</updated>
-        <summary type="html"><![CDATA[Looking to get the most out of your Nintendo Switch? Got a few selections on the backlog you’ve yet to pick up and play? My Best Buy and Best Buy Total members can use this Best Buy Offer Builder to b...]]></summary>
-        <content type="html"><![CDATA[Looking to get the most out of your Nintendo Switch? Got a few selections on the backlog you’ve yet to pick up and play? My Best Buy and Best Buy Total members can use this Best Buy Offer Builder to buy three Nintendo Switch games for the price of two. There are over 40 games [&#8230;]]]></content>
-        <published>2024-08-20T20:12:05.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Indiana Jones and the Great Circle might just have what a great Indy game needs | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gaming/442307/indiana-jones-game-great-circle-bethesda-hands-on</id>
-        <link href="https://www.polygon.com/gaming/442307/indiana-jones-game-great-circle-bethesda-hands-on"/>
-        <updated>2024-08-20T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Indiana Jones and the Great Circle has all the Indy trademarks you&#8217;d expect: action, adventure, the archaeologist&#8217;s iconic whip and fedora, and a long list of Nazi chuckleheads begging for...]]></summary>
-        <content type="html"><![CDATA[Indiana Jones and the Great Circle has all the Indy trademarks you&#8217;d expect: action, adventure, the archaeologist&#8217;s iconic whip and fedora, and a long list of Nazi chuckleheads begging for a knuckle sandwich. The game will have tombs to raid, ancient mysteries to solve, and artifacts to collect.&#160; But Wolfenstein developer MachineGames&#8217; take on Indiana [&#8230;]]]></content>
-        <published>2024-08-20T20:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peter Molyneux announces new game, Masters of Albion | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/news/442150/peter-molyneux-announces-new-game-masters-of-albion</id>
-        <link href="https://www.polygon.com/news/442150/peter-molyneux-announces-new-game-masters-of-albion"/>
-        <updated>2024-08-20T19:52:50.000Z</updated>
-        <summary type="html"><![CDATA[Dungeon Keeper and Fable creator Peter Molyneux appeared on stage at Gamescom Tuesday to announce Masters of Albion — “an open-world god game full of combat, choices, mystery, and story,” he said. Mol...]]></summary>
-        <content type="html"><![CDATA[Dungeon Keeper and Fable creator Peter Molyneux appeared on stage at Gamescom Tuesday to announce Masters of Albion — “an open-world god game full of combat, choices, mystery, and story,” he said. Molyneux said he’s getting the old team back together to create Masters of Albion, including folks who helped create Dungeon Keeper, Black &#38; [&#8230;]]]></content>
-        <published>2024-08-20T19:52:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「上手に焼けました」なシーンや蜘蛛のような姿の新モンスターが登場 『モンスターハンターワイルズ』の最新映像がgamescomで公開 | IGN Japan games]]></title>
@@ -508,6 +601,18 @@
             <name>窓の杜編集部</name>
         </author>
         <published>2024-08-20T09:18:39.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生産性向上チームを全人類に伝えたい | Zennのトレンド]]></title>
+        <id>https://zenn.dev/cybozu_ept/articles/tell-whole-human-about-ept</id>
+        <link href="https://zenn.dev/cybozu_ept/articles/tell-whole-human-about-ept"/>
+        <updated>2024-08-20T09:04:02.000Z</updated>
+        <summary type="html"><![CDATA[! この記事は、CYBOZU SUMMER BLOG FES '24 (Newcomer Stage) DAY 10 の記事です。  こんにちは！ サイボウズ 24 卒 開発本部 生産性向上チーム所属の佐々木（@ajfAfg）です。奇しくも Newcomer Stage のトリを飾ることになって緊張です。 突然ですが、僕は日々の業務でこんな悩みを抱えています。 ＿人人人人人人人人人人人人人人人人人...]]></summary>
+        <content type="html"><![CDATA[! この記事は、CYBOZU SUMMER BLOG FES '24 (Newcomer Stage) DAY 10 の記事です。  こんにちは！ サイボウズ 24 卒 開発本部 生産性向上チーム所属の佐々木（@ajfAfg）です。奇しくも Newcomer Stage のトリを飾ることになって緊張です。 突然ですが、僕は日々の業務でこんな悩みを抱えています。 ＿人人人人人人人人人人人人人人人人人人＿ ＞ 生産性向上チームの説明ムズすぎ！ ＜ ￣ Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y^Y ￣ 生産性向上チームは社内の開発者の生産性爆上げを目標に活動しているため、生産性向上チ...]]></content>
+        <author>
+            <name>ajfAfg</name>
+        </author>
+        <published>2024-08-20T09:04:02.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[『黒神話：悟空』のSteam版のプレイヤー数が100万人を突破 シングル専用ゲームとしては『サイバーパンク2077』を抜いてSteam史上最高の記録に | IGN Japan games]]></title>
@@ -887,6 +992,30 @@
         <published>2024-08-20T03:57:30.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[nuqsを使えば、useState無しでNext.jsのクエリパラメータ同期が簡潔に書ける | Zennのトレンド]]></title>
+        <id>https://zenn.dev/trusthub/articles/e3b792e60fe006</id>
+        <link href="https://zenn.dev/trusthub/articles/e3b792e60fe006"/>
+        <updated>2024-08-20T03:36:03.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、トラストハブのピロピロです。 突然ですが、検索フォームやフィルタなどのUIの変更に合わせて、URLのQuery paramが同期するコードをたくさん書いていてうんざりしませんか？難しいコードではないものの、状態が増えたりするたびに毎回似たようなコードが増えてきますよね。 そこで、最近弊社でリリースしたプロダクトであるトレーディングカード専門EC Cloveストア で導入したライブラリ”...]]></summary>
+        <content type="html"><![CDATA[こんにちは、トラストハブのピロピロです。 突然ですが、検索フォームやフィルタなどのUIの変更に合わせて、URLのQuery paramが同期するコードをたくさん書いていてうんざりしませんか？難しいコードではないものの、状態が増えたりするたびに毎回似たようなコードが増えてきますよね。 そこで、最近弊社でリリースしたプロダクトであるトレーディングカード専門EC Cloveストア で導入したライブラリ”nuqs”が便利だったのでご紹介させていただきます。   Next.jsで検索フォームとQuery paramを同期させる時の普通のコード 検索フォームやフィルタに入力した情報に合わせてブラウザ...]]></content>
+        <author>
+            <name>ピロピロ</name>
+        </author>
+        <published>2024-08-20T03:36:03.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Homebrew管理下のGUIもNixに移してみる nix-darwin篇 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/kawarimidoll/articles/271c339c5392ce</id>
+        <link href="https://zenn.dev/kawarimidoll/articles/271c339c5392ce"/>
+        <updated>2024-08-20T03:32:34.000Z</updated>
+        <summary type="html"><![CDATA[macOSにおけるパッケージマネージャといえばHomebrewが定番ですね。 https://brew.sh/ ところで、最近は純粋関数型パッケージマネージャのNixが流行りで激アツです。Nix関連ツールのnix-darwinを使うと、Homebrewのようなパッケージ管理ができるということを知り、やってみました。 https://nixos.wiki/wiki/Home_Manager 前回の記...]]></summary>
+        <content type="html"><![CDATA[macOSにおけるパッケージマネージャといえばHomebrewが定番ですね。 https://brew.sh/ ところで、最近は純粋関数型パッケージマネージャのNixが流行りで激アツです。Nix関連ツールのnix-darwinを使うと、Homebrewのようなパッケージ管理ができるということを知り、やってみました。 https://nixos.wiki/wiki/Home_Manager 前回の記事で作ったファイルを書き換える形で進めていくので、先に以下の記事をご確認ください。また、Apple Silicon Mac環境での作業を基に書いています。 https://zenn.dev/ka...]]></content>
+        <author>
+            <name>kawarimidoll</name>
+        </author>
+        <published>2024-08-20T03:32:34.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[「Stable Diffusion WebUI Forge」が画像生成AIモデル「Flux.1」に対応／WebUI統合アプリ「Stability Matrix」からもひと手間で利用可能 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1616778.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1616778.html"/>
@@ -1132,19 +1261,6 @@
         <published>2024-08-20T01:00:27.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[日差しが強いほどうれしい、ソーラーパネル搭載ハット | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/08/ecoflow-power-hat.html</id>
-        <link href="https://www.gizmodo.jp/2024/08/ecoflow-power-hat.html"/>
-        <updated>2024-08-20T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:EcoFlowあぢィ…。この暑さ、この日差しを何かに利用できないかなぁ。頭にソーラーパネルでも貼り付けようかなぁ。この夏、誰しも1度はぼーっと考えただろうアイディアが現実になったのがこれ、「エコフロー・パワーハット（EcoFlowPowerHat）」。スマホもネックファンも充電できる！アイディア自体はとってもシンプル。夏の日差しを直でうける頭＝帽子にソーラーパーネルをはりつけました。頭]]></summary>
-        <content type="html"><![CDATA[Image:EcoFlowあぢィ…。この暑さ、この日差しを何かに利用できないかなぁ。頭にソーラーパネルでも貼り付けようかなぁ。この夏、誰しも1度はぼーっと考えただろうアイディアが現実になったのがこれ、「エコフロー・パワーハット（EcoFlowPowerHat）」。スマホもネックファンも充電できる！アイディア自体はとってもシンプル。夏の日差しを直でうける頭＝帽子にソーラーパーネルをはりつけました。頭]]></content>
-        <author>
-            <name>そうこ</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-08-20T01:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[【保存版】GitHubアクセストークン全種別解説: Personal Access Token、OAuth、GitHub App、GITHUB_TOKENの違い | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/suin/items/1ce9e11bd1c203fb1167?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/suin/items/1ce9e11bd1c203fb1167?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -1161,6 +1277,18 @@
         <summary type="html"><![CDATA[この記事のきっかけ 最近、Vueを触る機会が増えてきたのですが、どうやって表示されているのか気になったので勉強したことをまとめてみました！SPAと呼ばれるアプリケーションは、どのように表示されている…]]></summary>
         <content type="html"><![CDATA[この記事のきっかけ 最近、Vueを触る機会が増えてきたのですが、どうやって表示されているのか気になったので勉強したことをまとめてみました！SPAと呼ばれるアプリケーションは、どのように表示されている…]]></content>
         <published>2024-08-20T00:56:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swift5でswift-testingを使用する方法 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/nextbeat/articles/a89679a951e432</id>
+        <link href="https://zenn.dev/nextbeat/articles/a89679a951e432"/>
+        <updated>2024-08-20T00:32:36.000Z</updated>
+        <summary type="html"><![CDATA[概要 Swift5.9からmacroが搭載され、2024年のWWDCではAppleがmacroを活かしたテストライブラリ、「swift-testing」を紹介しました。 swift-testingライブラリ自体は2023年から存在しており、Swift6が出る前から使用自体は可能だったのですが、残念ながら最新のswift-testingではSwift5のサポートが打ち切られており、Swift6しかサ...]]></summary>
+        <content type="html"><![CDATA[概要 Swift5.9からmacroが搭載され、2024年のWWDCではAppleがmacroを活かしたテストライブラリ、「swift-testing」を紹介しました。 swift-testingライブラリ自体は2023年から存在しており、Swift6が出る前から使用自体は可能だったのですが、残念ながら最新のswift-testingではSwift5のサポートが打ち切られており、Swift6しかサポートされていません。 Xcode16の安定版がリリースされていないため、Xcode15では最新のswift-testingを実行する手段がなく、Swift5.9がサポートされていた際にはド...]]></content>
+        <author>
+            <name>田中</name>
+        </author>
+        <published>2024-08-20T00:32:36.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「Google Meet」のビデオ通話画面がデザイン一新 ～複数エフェクトの同時使用も可能に／高度な機能へのアクセスがより簡単になり、絵文字リアクションなどの機能も利用できる | 窓の杜]]></title>
@@ -1223,19 +1351,6 @@
         <published>2024-08-19T23:15:10.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ANAの機内安全ビデオはピカチュウ。これなら集中して見ちゃう… | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/08/safetyvideo-with-pikachu-ana.html</id>
-        <link href="https://www.gizmodo.jp/2024/08/safetyvideo-with-pikachu-ana.html"/>
-        <updated>2024-08-19T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:ANA空の旅が、これまで以上に楽しくなります。8月15日から、ANAの「ピカチュウジェットNH」と「イーブイジェットNH」の2機でポケモンが登場する機内安全ビデオが上映されるようになったんですよ。何度も飛行機に乗っていると、ついつい機内安全の案内をスキップしてしまいがちですが、万が一のことがあったときに落ち着いて行動するためにも、しっかり見て理解しておく必要があるんですよね。ポケモンが]]></summary>
-        <content type="html"><![CDATA[Image:ANA空の旅が、これまで以上に楽しくなります。8月15日から、ANAの「ピカチュウジェットNH」と「イーブイジェットNH」の2機でポケモンが登場する機内安全ビデオが上映されるようになったんですよ。何度も飛行機に乗っていると、ついつい機内安全の案内をスキップしてしまいがちですが、万が一のことがあったときに落ち着いて行動するためにも、しっかり見て理解しておく必要があるんですよね。ポケモンが]]></content>
-        <author>
-            <name>中川真知子</name>
-        </author>
-        <category label="ENTERTAINMENT"/>
-        <published>2024-08-19T23:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[「Google Forms」のデータを「Google スプレッドシート」で自動整形して表示可能に／「Google Forms」と「Google スプレッドシート」の連携で業務を効率化 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1616765.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1616765.html"/>
@@ -1255,6 +1370,18 @@
         <summary type="html"><![CDATA[はじめに こんにちは。 この記事では、私がAWS Amplify（以下Amplifyと呼びます）を利用して開発・運用している家計管理アプリを紹介します。 このアプリについては過去に勉強会でネタにした…]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。 この記事では、私がAWS Amplify（以下Amplifyと呼びます）を利用して開発・運用している家計管理アプリを紹介します。 このアプリについては過去に勉強会でネタにした…]]></content>
         <published>2024-08-19T22:05:07.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go言語でAPIファーストな開発をしてみた - oapi-codegen実践編 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/kama_meshi/articles/e11d5c5842e5e2</id>
+        <link href="https://zenn.dev/kama_meshi/articles/e11d5c5842e5e2"/>
+        <updated>2024-08-19T22:03:40.000Z</updated>
+        <summary type="html"><![CDATA[対象読者  Go言語でのWeb API開発に興味のある方 APIファースト開発を学びたい方 oapi-codegenを使った具体的な開発手法を知りたい方    はじめに APIファースト開発とは、APIの設計を起点にアプリケーション開発を進める手法です。APIを最初に定義することで、開発者以外も並行作業が可能になるなどのメリットがあります。 しかし、個人的にはAPIファースト開発の真価はそれだけで...]]></summary>
+        <content type="html"><![CDATA[対象読者  Go言語でのWeb API開発に興味のある方 APIファースト開発を学びたい方 oapi-codegenを使った具体的な開発手法を知りたい方    はじめに APIファースト開発とは、APIの設計を起点にアプリケーション開発を進める手法です。APIを最初に定義することで、開発者以外も並行作業が可能になるなどのメリットがあります。 しかし、個人的にはAPIファースト開発の真価はそれだけではないと考えています。API設計に重点を置くことで、システムやアプリケーション間で本当に必要なインターフェースを明確化し、結果としてドメインの整理や設計にも役立つと考えています。 私自身、こ...]]></content>
+        <author>
+            <name>kama-meshi</name>
+        </author>
+        <published>2024-08-19T22:03:40.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[無料の3DCG統合環境「Blender 4.2」は『どこでもドア』やシャボン玉の表現が可能に【Blender ウォッチング】 | 窓の杜]]></title>
@@ -1308,6 +1435,24 @@
         <published>2024-08-19T21:00:20.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[The Animal Crossing Switch Lite is back on sale for its lowest price ever | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/good-deals/441666/nintendo-switch-lite-animal-crossing-sale</id>
+        <link href="https://www.polygon.com/good-deals/441666/nintendo-switch-lite-animal-crossing-sale"/>
+        <updated>2024-08-19T19:42:03.000Z</updated>
+        <summary type="html"><![CDATA[The Animal Crossing-themed Nintendo Switch Lite is on sale at Walmart for the lowest price we’ve seen anywhere. Right now you can pick up the console for $159 (was $199.99), which includes a downloada...]]></summary>
+        <content type="html"><![CDATA[The Animal Crossing-themed Nintendo Switch Lite is on sale at Walmart for the lowest price we’ve seen anywhere. Right now you can pick up the console for $159 (was $199.99), which includes a downloadable copy of Animal Crossing: New Horizons, the coziest island sim you can imagine. The teal-hued Switch Lite, officially dubbed “Timmy &#38; [&#8230;]]]></content>
+        <published>2024-08-19T19:42:03.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Myth: Wukong publisher issues bizarre directive on what streamers can (and can’t) say | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/news/441563/black-myth-wukong-streamer-restrictions-feminist-propaganda</id>
+        <link href="https://www.polygon.com/news/441563/black-myth-wukong-streamer-restrictions-feminist-propaganda"/>
+        <updated>2024-08-19T19:04:10.000Z</updated>
+        <summary type="html"><![CDATA[Ahead of Black Myth: Wukong’s Aug. 20 release date, publisher Hero Games (acting on behalf of developer Game Science) reportedly sent a strange directive to several video game streamers who received e...]]></summary>
+        <content type="html"><![CDATA[Ahead of Black Myth: Wukong’s Aug. 20 release date, publisher Hero Games (acting on behalf of developer Game Science) reportedly sent a strange directive to several video game streamers who received early codes for the game: Don’t talk about anything that “instigates negative discourse.” Several organizations, including gaming content agency GLHF and Forbes, confirmed that [&#8230;]]]></content>
+        <published>2024-08-19T19:04:10.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Erdos problem #385, the parity problem, and Siegel zeroes | What's new]]></title>
         <id>http://terrytao.wordpress.com/?p=14675</id>
         <link href="https://terrytao.wordpress.com/2024/08/19/erdos-problem-385-the-parity-problem-and-siegel-zeroes/"/>
@@ -1323,6 +1468,15 @@
         <category label="Paul Erdos"/>
         <category label="Siegel zero"/>
         <published>2024-08-19T17:04:36.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It’s officially Brat Summer in Roblox’s Dress to Impress | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/gaming/441531/roblox-dress-to-impress-charli-xcx-brat-summer-update</id>
+        <link href="https://www.polygon.com/gaming/441531/roblox-dress-to-impress-charli-xcx-brat-summer-update"/>
+        <updated>2024-08-19T16:12:50.000Z</updated>
+        <summary type="html"><![CDATA[Roblox fashion game Dress to Impress has always been brat. But it’s now officially Brat Summer in the game, with the Brat update launching in Dress to Impress on Aug. 17. The update is everything Brat...]]></summary>
+        <content type="html"><![CDATA[Roblox fashion game Dress to Impress has always been brat. But it’s now officially Brat Summer in the game, with the Brat update launching in Dress to Impress on Aug. 17. The update is everything Brat, Charli XCX’s new summer hit album. And it’s a perfect match. Dress to Impress was released on Roblox in [&#8230;]]]></content>
+        <published>2024-08-19T16:12:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Free Courses That Are Actually Free: AI & ML Edition | KDnuggets]]></title>
@@ -1361,6 +1515,15 @@
             <name>mugi</name>
         </author>
         <published>2024-08-19T15:10:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nah, you won&#8217;t find Switch 2 news on the Nintendo Museum Direct livestream | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/nintendo/441513/no-switch-2-news-nintendo-museum-tour</id>
+        <link href="https://www.polygon.com/nintendo/441513/no-switch-2-news-nintendo-museum-tour"/>
+        <updated>2024-08-19T15:00:58.000Z</updated>
+        <summary type="html"><![CDATA[Nintendo announced Sunday that it’s holding its next Nintendo Direct on Aug. 19 but told viewers not to expect game announcements or news on the Nintendo Switch successor, also known as the Switch 2. ...]]></summary>
+        <content type="html"><![CDATA[Nintendo announced Sunday that it’s holding its next Nintendo Direct on Aug. 19 but told viewers not to expect game announcements or news on the Nintendo Switch successor, also known as the Switch 2. “Join us tomorrow, August 19 at 3pm PT, for a tour of the Nintendo Museum that’s scheduled to open during the [&#8230;]]]></content>
+        <published>2024-08-19T15:00:58.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[t_wadaさんによる2024年度版TDDワークショップを開催しました | Pepabo Tech Portal]]></title>
@@ -1510,6 +1673,15 @@
             <name>なかじ</name>
         </author>
         <published>2024-08-19T13:19:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Everybody wants to change the world in Paper Trail and Slider | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/review/441238/paper-trail-slider-puzzle-games</id>
+        <link href="https://www.polygon.com/review/441238/paper-trail-slider-puzzle-games"/>
+        <updated>2024-08-19T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mastery is one of those words that gets tossed around when we talk about games. As an interactive medium, games can imbue in you a sense of accomplishment that, while not impossible to convey in nonin...]]></summary>
+        <content type="html"><![CDATA[Mastery is one of those words that gets tossed around when we talk about games. As an interactive medium, games can imbue in you a sense of accomplishment that, while not impossible to convey in noninteractive genres, comes naturally in an art form with fail states. If you can fail, it stands to reason that [&#8230;]]]></content>
+        <published>2024-08-19T13:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Managing Diabetes Using Artificial Intelligence  | HackerNoon - machine-learning]]></title>
@@ -1859,6 +2031,15 @@
         <category label="Preview"/>
         <category label="SILENT HILL 2（リメイク）"/>
         <published>2024-08-19T07:00:04.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Silent Hill 2 (2024) is most successful when it&#8217;s doing its best Silent Hill 2 (2001) imitation | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/impressions/440977/silent-hill-2-2024-preview</id>
+        <link href="https://www.polygon.com/impressions/440977/silent-hill-2-2024-preview"/>
+        <updated>2024-08-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Before sitting down to play three hours of the Silent Hill 2 remake at a recent Konami-led press event in London, we were shown a new trailer. Like the previous trailers, it left me skeptical. Althoug...]]></summary>
+        <content type="html"><![CDATA[Before sitting down to play three hours of the Silent Hill 2 remake at a recent Konami-led press event in London, we were shown a new trailer. Like the previous trailers, it left me skeptical. Although I’m not opposed to the project of remaking Silent Hill 2, I’m wary of any modernizing instinct that replaces [&#8230;]]]></content>
+        <published>2024-08-19T07:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Garoonにおけるジョブキュー切り替えの挑戦 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
@@ -2399,18 +2580,6 @@
         <published>2024-08-18T16:26:06.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Goで物理演算 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/demouth/articles/440924923293cb</id>
-        <link href="https://zenn.dev/demouth/articles/440924923293cb"/>
-        <updated>2024-08-18T15:53:44.000Z</updated>
-        <summary type="html"><![CDATA[jakecoffman/cp という物理演算を行うためのGoのパッケージがありまして、これはChipmunk2DというC言語で書かれた物理演算ライブラリをGoに移植したものです。今回はこのパッケージを使った物理演算をする方法を説明しようと思います。 物理演算というと難しそうなイメージがありますが、やってみると意外と簡単なのでご興味がある方は最後までお読み頂ければとおもいます。   最低限の知識 C...]]></summary>
-        <content type="html"><![CDATA[jakecoffman/cp という物理演算を行うためのGoのパッケージがありまして、これはChipmunk2DというC言語で書かれた物理演算ライブラリをGoに移植したものです。今回はこのパッケージを使った物理演算をする方法を説明しようと思います。 物理演算というと難しそうなイメージがありますが、やってみると意外と簡単なのでご興味がある方は最後までお読み頂ければとおもいます。   最低限の知識 Chipmunk2Dを使う上で最低限必要な知識は次の3つです。   Body  Bodyはmass（質量）, position（位置）, rotation（回転）, velocity(速度)など...]]></content>
-        <author>
-            <name>demouth</name>
-        </author>
-        <published>2024-08-18T15:53:44.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[パーサーコンビネータをもっと身近にする | フューチャー技術ブログ]]></title>
         <id>https://future-architect.github.io/articles/20240819b/</id>
         <link href="https://future-architect.github.io/articles/20240819b/"/>
@@ -2429,15 +2598,12 @@
         <published>2024-08-18T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Neovim + nvim-lspconfigで `gq` を使う際は気をつけよう | Zennのトレンド]]></title>
-        <id>https://zenn.dev/vim_jp/articles/5a95805896d6cf</id>
-        <link href="https://zenn.dev/vim_jp/articles/5a95805896d6cf"/>
+        <title type="html"><![CDATA[Outlanders 2 makes the case for city builders on mobile | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/review/440878/outlanders-2-review</id>
+        <link href="https://www.polygon.com/review/440878/outlanders-2-review"/>
         <updated>2024-08-18T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[結論 Neovimでgqコマンドを使う際、特にLSPのマルチクライアント環境では注意が必要です。 意図しないクライアントによってファイルがフォーマットされる可能性があります。   調査   背景 現在のNeovimは、LSPによる各種機能の提供にかなり積極的です。 Neovim標準のクライアント(vim.lsp)にはNeovim本来のformat呼び出し機構である'formatexpr'に設定する...]]></summary>
-        <content type="html"><![CDATA[結論 Neovimでgqコマンドを使う際、特にLSPのマルチクライアント環境では注意が必要です。 意図しないクライアントによってファイルがフォーマットされる可能性があります。   調査   背景 現在のNeovimは、LSPによる各種機能の提供にかなり積極的です。 Neovim標準のクライアント(vim.lsp)にはNeovim本来のformat呼び出し機構である'formatexpr'に設定するためのvim.lsp.formatexpr()が用意されています。 formatexpr({opts}) *vim....]]></content>
-        <author>
-            <name>kyoh86</name>
-        </author>
+        <summary type="html"><![CDATA[Building a town from the ground up is no small feat — and in video games, it’s a task that usually requires vast screen real estate and a pair of readers to see all that tiny text. But with Outlanders...]]></summary>
+        <content type="html"><![CDATA[Building a town from the ground up is no small feat — and in video games, it’s a task that usually requires vast screen real estate and a pair of readers to see all that tiny text. But with Outlanders 2 — the city builder/life sim developed by Pomelo Games available exclusively on Apple Arcade [&#8230;]]]></content>
         <published>2024-08-18T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -2490,30 +2656,6 @@
         <published>2024-08-18T14:43:22.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【PTU徹底解説】Azure OpenAIを高パフォーマンス&安定稼働で使う方法知ってる？【割引有り】 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/microsoft/articles/azure_perfectly_understand_ptu</id>
-        <link href="https://zenn.dev/microsoft/articles/azure_perfectly_understand_ptu"/>
-        <updated>2024-08-18T14:37:23.000Z</updated>
-        <summary type="html"><![CDATA[本記事では、Azure OpenAIを利用する上で理解しておくべき概念である PTU (Provisioned Throughput Units) について、完全に理解する為の記事です。 PTU とは何か、どのように活用できるのか、利用するとどのようなメリットがあるのか詳細に解説します。 また、Azure OpenAI の PTUは、購入モデルと Azure 標準との調整や、モデルに依存しないクォ...]]></summary>
-        <content type="html"><![CDATA[本記事では、Azure OpenAIを利用する上で理解しておくべき概念である PTU (Provisioned Throughput Units) について、完全に理解する為の記事です。 PTU とは何か、どのように活用できるのか、利用するとどのようなメリットがあるのか詳細に解説します。 また、Azure OpenAI の PTUは、購入モデルと Azure 標準との調整や、モデルに依存しないクォータへの移行を含めて、2024 年 8 月 12 日に大規模な更新がありました。 本記事はこの更新によって何が変わるのかも記載したいと思います。   PTUとは何か？   定義と役割 PTU（...]]></content>
-        <author>
-            <name>Yusuke Satake</name>
-        </author>
-        <published>2024-08-18T14:37:23.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[実践テスト駆動開発を読んだのでモックを使ったロンドン学派的なテストをGoとmoqで考える | Zennのトレンド]]></title>
-        <id>https://zenn.dev/jy8752/articles/cee5f11639ca83</id>
-        <link href="https://zenn.dev/jy8752/articles/cee5f11639ca83"/>
-        <updated>2024-08-18T14:09:32.000Z</updated>
-        <summary type="html"><![CDATA[はじめに この記事を読んでいるみなさんは単体テストの考え方/使い方はもう読まれましたでしょうか？わたしは単体テストの考え方を読んだことでテストに対して漠然と思っていたことが言語化されたように感じ大変感銘を受けました。その勢いで以下のようなzenn本も書かせていただきました。 https://zenn.dev/jy8752/books/73769005e6afa9 なのでしばらくはモックを極力使わな...]]></summary>
-        <content type="html"><![CDATA[はじめに この記事を読んでいるみなさんは単体テストの考え方/使い方はもう読まれましたでしょうか？わたしは単体テストの考え方を読んだことでテストに対して漠然と思っていたことが言語化されたように感じ大変感銘を受けました。その勢いで以下のようなzenn本も書かせていただきました。 https://zenn.dev/jy8752/books/73769005e6afa9 なのでしばらくはモックを極力使わない古典学派的な思想に寄っていたのですがモックを使ったテストの開発現場のレビューにて  「テスト対象の依存関係をモックにしたらテストすることがなくなりました。」  というコメントをチラッと見か...]]></content>
-        <author>
-            <name>ぱんだ</name>
-        </author>
-        <published>2024-08-18T14:09:32.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CSS｜要素の間に余白をつける | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/weeding_test_5/items/7b2cf894b3bb360abed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/weeding_test_5/items/7b2cf894b3bb360abed4?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
@@ -2530,18 +2672,6 @@
         <summary type="html"><![CDATA[はじめに CSVファイルをExcelで開こうとしたとき、電話番号や郵便番号の先頭のゼロ（0）が自動的に消えてしまったり、文字化けしてしまう...。そんな悩みをお持ちの方はいませんか？この記事では、デ…]]></summary>
         <content type="html"><![CDATA[はじめに CSVファイルをExcelで開こうとしたとき、電話番号や郵便番号の先頭のゼロ（0）が自動的に消えてしまったり、文字化けしてしまう...。そんな悩みをお持ちの方はいませんか？この記事では、デ…]]></content>
         <published>2024-08-18T12:44:38.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【T3Stack入門】原則と各技術の特徴を理解する | Zennのトレンド]]></title>
-        <id>https://zenn.dev/maicom/articles/efafe3fc3f40e2</id>
-        <link href="https://zenn.dev/maicom/articles/efafe3fc3f40e2"/>
-        <updated>2024-08-18T11:54:27.000Z</updated>
-        <summary type="html"><![CDATA[はじめに Typescriptでのフルスタック開発の選択肢として、型安全で先進的な開発ポリシーを持つT3 Stackは魅力的な技術スタックです。今回は入門編としてT3 Stackの原則と各技術の特徴を解説します。   T3 Stackとは？ https://create.t3.gg/ T3 Stackは、Theo氏が2021年に発案した、Webアプリケーション構築のための技術スタックです。 T3 ...]]></summary>
-        <content type="html"><![CDATA[はじめに Typescriptでのフルスタック開発の選択肢として、型安全で先進的な開発ポリシーを持つT3 Stackは魅力的な技術スタックです。今回は入門編としてT3 Stackの原則と各技術の特徴を解説します。   T3 Stackとは？ https://create.t3.gg/ T3 Stackは、Theo氏が2021年に発案した、Webアプリケーション構築のための技術スタックです。 T3 Stackでは simplicity(簡潔さ)、modularity(モジュール性)、full-stack typesafety(フルスタックの型安全)が重視されています。構成要素は下記のと...]]></content>
-        <author>
-            <name>こうまい</name>
-        </author>
-        <published>2024-08-18T11:54:27.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Clipboard APIで非同期処理を含む操作をする際の注意点とその対策 | Zennのトレンド]]></title>
@@ -2739,6 +2869,15 @@
         <published>2024-08-17T14:40:19.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[SteamWorld Heist 2 is a multi-classing masterwork | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/gaming/440624/steamworld-heist-2-multiclassing-baldurs-gate-3</id>
+        <link href="https://www.polygon.com/gaming/440624/steamworld-heist-2-multiclassing-baldurs-gate-3"/>
+        <updated>2024-08-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In tactical RPGs, it’s easy to fall into a familiar rhythm. You’re always gonna wanna take on missions with your long-range attacker, your up-close attacker, and maybe a support class of some sort. Th...]]></summary>
+        <content type="html"><![CDATA[In tactical RPGs, it’s easy to fall into a familiar rhythm. You’re always gonna wanna take on missions with your long-range attacker, your up-close attacker, and maybe a support class of some sort. These classes will usually gain ultra-powerful abilities that assist in their effectiveness at doing what they do best. But rarely do you [&#8230;]]]></content>
+        <published>2024-08-17T14:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Go 1.23のイテレータについて知っておくべきこと | Zennのトレンド]]></title>
         <id>https://zenn.dev/syumai/articles/cqud4gab5gv2qkig5vh0</id>
         <link href="https://zenn.dev/syumai/articles/cqud4gab5gv2qkig5vh0"/>
@@ -2820,6 +2959,24 @@
         <summary type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '24 (QA Engineer stage) DAY 4の記事です。 こんにちは！24年に新卒で入社したQAの水谷です！ 今回は、新卒でQAを始めた新人が感じた、スクラム開発におけるスプリントプランニングにQAが参加することのありがたさを QAにとって チームにとって スプリントプランニングによってQAが製品の品質にできる貢献 の3つの観...]]></summary>
         <content type="html"><![CDATA[この記事は、CYBOZU SUMMER BLOG FES '24 (QA Engineer stage) DAY 4の記事です。 こんにちは！24年に新卒で入社したQAの水谷です！ 今回は、新卒でQAを始めた新人が感じた、スクラム開発におけるスプリントプランニングにQAが参加することのありがたさを QAにとって チームにとって スプリントプランニングによってQAが製品の品質にできる貢献 の3つの観点からお伝えできればなと思います。 そもそもスプリントプランニングってなに？ ざっくりといえば、スプリントプランニングとは実際に製品を作る開発者が集まって製品をどうやって作るのか打ち合わせをすることで…]]></content>
         <published>2024-08-17T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Madison Beer says Roblox game Dress to Impress healed her — she has a point | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/culture/440808/madison-beer-dress-to-impress-roblox</id>
+        <link href="https://www.polygon.com/culture/440808/madison-beer-dress-to-impress-roblox"/>
+        <updated>2024-08-16T18:36:58.000Z</updated>
+        <summary type="html"><![CDATA[Dolled up in full-face makeup, giant hoop earrings, and a slouchy sweatshirt, YouTuber-turned-pop star Madison Beer exudes effortless glam as she chats with viewers of her Twitch stream. “You guys cha...]]></summary>
+        <content type="html"><![CDATA[Dolled up in full-face makeup, giant hoop earrings, and a slouchy sweatshirt, YouTuber-turned-pop star Madison Beer exudes effortless glam as she chats with viewers of her Twitch stream. “You guys changed my life. You changed my entire world. And… I’m referring to Dress to Impress.” Beer has emerged as a star for a new generation [&#8230;]]]></content>
+        <published>2024-08-16T18:36:58.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hey look, Morrigan’s back in Dragon Age: The Veilguard | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/gaming/441234/dragon-age-the-veilguard-morrigan-back-who</id>
+        <link href="https://www.polygon.com/gaming/441234/dragon-age-the-veilguard-morrigan-back-who"/>
+        <updated>2024-08-16T17:37:08.000Z</updated>
+        <summary type="html"><![CDATA[Dragon Age: The Veilguard’s new trailer is chock-full of details that my Tumblr mutuals keep screenshotting and dissecting. But those uninitiated with the deeper lore of the franchise might be wonderi...]]></summary>
+        <content type="html"><![CDATA[Dragon Age: The Veilguard’s new trailer is chock-full of details that my Tumblr mutuals keep screenshotting and dissecting. But those uninitiated with the deeper lore of the franchise might be wondering why everyone is specifically going feral for the woman who shapeshifts from the form of a giant crow. I mean, besides the fact that [&#8230;]]]></content>
+        <published>2024-08-16T17:37:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[kintone 開発チームのアラインメント・リーダーシップ向上に向けた取り組み | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
@@ -3147,18 +3304,6 @@
         <published>2024-08-16T06:33:56.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Visual Studio 2022」v17.11が一般公開 ～ショートカットを他のIDEに合わせ一部変更／「Code Search」が強化、AIコーディング支援「GitHub Copilot」も安全・便利に | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1616387.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1616387.html"/>
-        <updated>2024-08-16T06:10:00.000Z</updated>
-        <summary type="html"><![CDATA[米Microsoftは8月13日（現地時間）、統合開発環境「Visual Studio 2022」の最新版v17.11を一般公開した。.NET/C++ 開発、Web開発、ゲーム開発（Unreal Engine）などで多くの機能改善と不具合の修正が行われている。]]></summary>
-        <content type="html"><![CDATA[米Microsoftは8月13日（現地時間）、統合開発環境「Visual Studio 2022」の最新版v17.11を一般公開した。.NET/C++ 開発、Web開発、ゲーム開発（Unreal Engine）などで多くの機能改善と不具合の修正が行われている。]]></content>
-        <author>
-            <name>樽井 秀人</name>
-        </author>
-        <published>2024-08-16T06:10:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[スタイルガイドエンジンFractalの導入 | エンジニアブログ | iret.media]]></title>
         <id>https://iret.media/?p=115071</id>
         <link href="https://iret.media/115071"/>
@@ -3184,18 +3329,6 @@
         <published>2024-08-16T05:20:17.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Windows 11 2024 Update」で使えなくなる（かもしれない）機能とアプリ【先取り！Windows 11 2024 Update（24H2）】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/shseri/win1124h2/1616019.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/shseri/win1124h2/1616019.html"/>
-        <updated>2024-08-16T05:20:00.000Z</updated>
-        <summary type="html"><![CDATA[今秋の正式リリースが予定されている「Windows 11 2024 Update」（バージョン 24H2）の新要素を紹介する本連載。最終回となる本稿では、「バージョン 24H2」で削除予定の機能とアプリに触れる。利用中の場合は後継アプリへの移行が必要となる場合があるので注意したい。]]></summary>
-        <content type="html"><![CDATA[今秋の正式リリースが予定されている「Windows 11 2024 Update」（バージョン 24H2）の新要素を紹介する本連載。最終回となる本稿では、「バージョン 24H2」で削除予定の機能とアプリに触れる。利用中の場合は後継アプリへの移行が必要となる場合があるので注意したい。]]></content>
-        <author>
-            <name>樽井 秀人</name>
-        </author>
-        <published>2024-08-16T05:20:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[ポケモンが乗客として登場する飛行機の安全ビデオがANAから公開 転倒してしまうヨクバリスにかたくなるトランセルなど小ネタ満載 | IGN Japan games]]></title>
         <id>https://jp.ign.com/pocket-monstar/76078/news/ana</id>
         <link href="https://jp.ign.com/pocket-monstar/76078/news/ana"/>
@@ -3218,15 +3351,6 @@
         <summary type="html"><![CDATA[こんにちは、Androidエンジニアのジャズニーです。 最近になってようやく本格的にJetpack Composeに取り組んでみようと決意して、色々と勉強したり試したりしているなかで、状態管理という重要な問題の対応方法について調べていて、色々なやり方ある中、自分の中で一番しっくりきた方法の知見をまとめてみました。]]></summary>
         <content type="html"><![CDATA[こんにちは、Androidエンジニアのジャズニーです。 最近になってようやく本格的にJetpack Composeに取り組んでみようと決意して、色々と勉強したり試したりしているなかで、状態管理という重要な問題の対応方法について調べていて、色々なやり方ある中、自分の中で一番しっくりきた方法の知見をまとめてみました。]]></content>
         <published>2024-08-16T05:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[約3万円の「VMware Workstation Pro」が無償化 ～個人利用で、Mac向け「Fusion」も【再掲】【今すぐ読みたい！人気記事】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/shseri/readitnow/1613613.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/shseri/readitnow/1613613.html"/>
-        <updated>2024-08-16T04:48:00.000Z</updated>
-        <summary type="html"><![CDATA[「VMware Workstation/Fusion Player」は販売終了]]></summary>
-        <content type="html"><![CDATA[「VMware Workstation/Fusion Player」は販売終了]]></content>
-        <published>2024-08-16T04:48:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ジャンプTOON  Next.js App Router の活用〜得られた恩恵と課題〜 | CyberAgent Developers Blog | サイバーエージェント デベロッパーズブログ]]></title>
@@ -4265,22 +4389,6 @@
         <published>2024-08-14T06:00:34.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【より実践的なコードへ！】セマンティックなHTMLを書けるようにしよう | エンジニアブログ | iret.media]]></title>
-        <id>https://iret.media/?p=114743</id>
-        <link href="https://iret.media/114743"/>
-        <updated>2024-08-14T06:00:20.000Z</updated>
-        <summary type="html"><![CDATA[デザイン事業部の長谷です。 いきなりですが、皆さんは、プログラミング界隈で使用される Semantic（セマンティック）という言葉を聞いたことがあるでしょうか？詳しく知っている方もいれば、何それ？という方もいらっしゃると […]]]></summary>
-        <content type="html"><![CDATA[デザイン事業部の長谷です。 いきなりですが、皆さんは、プログラミング界隈で使用される Semantic（セマンティック）という言葉を聞いたことがあるでしょうか？詳しく知っている方もいれば、何それ？という方もいらっしゃると […]]]></content>
-        <author>
-            <name>デザイン事業部</name>
-        </author>
-        <category label="エンジニアブログ"/>
-        <category label="HTML"/>
-        <category label="inside UI/UX"/>
-        <category label="マークアップ"/>
-        <published>2024-08-14T06:00:20.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[390: Epic Fail Close (hak) | Rebuild]]></title>
         <id>https://rebuild.fm/390/</id>
         <link href="https://rebuild.fm/390/"/>
@@ -4471,25 +4579,6 @@
         <summary type="html"><![CDATA[「奥野さんと社員のリファクタリング部屋」は、リファクタリングに励むトレタの社員と技術顧問の奥野さん ( @okunokentaro ) の間で実際に行われた会話を切り取った開発現場実録コンテンツです。 技術顧問: 奥野さん 三度の飯よりリファクタリングが好き 今回の質問者: 武市さん トレタ在籍2年。沖縄在住のフロントエンジニア PR こちらに登場している2人が登壇するイベント・TORETA TE...]]></summary>
         <content type="html"><![CDATA[「奥野さんと社員のリファクタリング部屋」は、リファクタリングに励むトレタの社員と技術顧問の奥野さん ( @okunokentaro ) の間で実際に行われた会話を切り取った開発現場実録コンテンツです。 技術顧問: 奥野さん 三度の飯よりリファクタリングが好き 今回の質問者: 武市さん トレタ在籍2年。沖縄在住のフロントエンジニア PR こちらに登場している2人が登壇するイベント・TORETA TECH UDATEが2024/08/28に開催予定！ リファクタリングやリアーキテクトなど、サービスを提供させながらプロダクトの新陳代謝をいかにして行なってきたかを開発現場の実例と合わせて紹介します！ …]]></content>
         <published>2024-08-13T23:37:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『デッドライジング デラックスリマスター』ではオリジナル版に近い操作方式でプレイできる「クラシック」設定が選択可能 | IGN Japan games]]></title>
-        <id>https://jp.ign.com/dead-rising-deluxe-remaster/76036/news/</id>
-        <link href="https://jp.ign.com/dead-rising-deluxe-remaster/76036/news/"/>
-        <updated>2024-08-13T23:36:16.000Z</updated>
-        <summary type="html"><![CDATA[好みに合わせて設定できる 『デッドライジング デラックスリマスター』では、オリジナル版のボタン配置でプレイするかどうかを選ぶことができる。]]></summary>
-        <content type="html"><![CDATA[好みに合わせて設定できる 『デッドライジング デラックスリマスター』では、オリジナル版のボタン配置でプレイするかどうかを選ぶことができる。]]></content>
-        <author>
-            <name>Taylor Lyles</name>
-        </author>
-        <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="Xbox Series X"/>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="デッドライジング デラックスリマスター"/>
-        <published>2024-08-13T23:36:16.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[kintoneフロントエンドリアーキテクチャチームのMeetup開催レポート | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
@@ -4703,22 +4792,6 @@
         <category label="ベイズ統計学"/>
         <category label="BUGS/Stan"/>
         <published>2024-08-13T08:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[初代『レッド・デッド・リデンプション』のPC版リリースの噂が再浮上 なぜかPS StoreでPC版RDRに関する記述が発見 | IGN Japan games]]></title>
-        <id>https://jp.ign.com/red-dead-redemption/76029/news/pc-ps-storepcrdr</id>
-        <link href="https://jp.ign.com/red-dead-redemption/76029/news/pc-ps-storepcrdr"/>
-        <updated>2024-08-13T07:56:35.000Z</updated>
-        <summary type="html"><![CDATA[ただの誤植とは思えないほど、PC版の具体的な内容が書かれている 初代『レッド・デッド・リデンプション』のPC版が出るのではないかという噂が再び浮上しているようだ。]]></summary>
-        <content type="html"><![CDATA[ただの誤植とは思えないほど、PC版の具体的な内容が書かれている 初代『レッド・デッド・リデンプション』のPC版が出るのではないかという噂が再び浮上しているようだ。]]></content>
-        <author>
-            <name>重田雄一</name>
-        </author>
-        <category label="Red Dead Redemption"/>
-        <category label="PC"/>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <published>2024-08-13T07:56:35.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[拡散モデルの数理 | Deep Learning JP]]></title>
@@ -4985,8 +5058,8 @@
         <id>https://tech.dentsusoken.com/entry/2024/08/12/web3%E5%85%A5%E9%96%80%EF%BC%9Aweb3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%81%AF%EF%BC%9F%E4%B8%BB%E8%A6%813%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9</id>
         <link href="https://tech.dentsusoken.com/entry/2024/08/12/web3%E5%85%A5%E9%96%80%EF%BC%9Aweb3%E3%82%A6%E3%82%A9%E3%83%AC%E3%83%83%E3%83%88%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%81%AF%EF%BC%9F%E4%B8%BB%E8%A6%813%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9"/>
         <updated>2024-08-11T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。金融ソリューション事業部の姫野です。本ブログではweb3の重要な役割を担うweb3ウォレットサービス3つを解説します。前半はweb3の説明もしていますので、web3に馴染みがない方も、ぜひチェックしてみてください。 [:contents] 1. web3とは web3とはインターネットの新しい形態であり、ブロックチェーンなどの技術を活用した分散型ネットワークによってユーザーが自らのデー...]]></summary>
-        <content type="html"><![CDATA[こんにちは。金融ソリューション事業部の姫野です。本ブログではweb3の重要な役割を担うweb3ウォレットサービス3つを解説します。前半はweb3の説明もしていますので、web3に馴染みがない方も、ぜひチェックしてみてください。 [:contents] 1. web3とは web3とはインターネットの新しい形態であり、ブロックチェーンなどの技術を活用した分散型ネットワークによってユーザーが自らのデータを直接管理できる技術です。この技術により、デジタルアイデンティティやデジタルアセット（例えば、NFTや仮想通貨）を自分のコントロール下に置くことが可能となります。 web3で重要な役割を担うウォレッ…]]></content>
+        <summary type="html"><![CDATA[こんにちは。金融ソリューション事業部の姫野です。本ブログではweb3の重要な役割を担うweb3ウォレットサービス3つを解説します。前半はweb3の説明もしていますので、web3に馴染みがない方も、ぜひチェックしてみてください。 1. web3とは web3で重要な役割を担うウォレット（デジタルウォレット） Web1.0、Web2.0、web3の比較 web3における認証方式 2. web3ウォレッ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。金融ソリューション事業部の姫野です。本ブログではweb3の重要な役割を担うweb3ウォレットサービス3つを解説します。前半はweb3の説明もしていますので、web3に馴染みがない方も、ぜひチェックしてみてください。 1. web3とは web3で重要な役割を担うウォレット（デジタルウォレット） Web1.0、Web2.0、web3の比較 web3における認証方式 2. web3ウォレット普及の現状 インフラの未整備とセキュリティ不安の現実 UXの課題： セキュリティの課題： 3. ウォレットアズアサービス（WaaS：Wallet as a Service）とは何か？ WaaSのメリ…]]></content>
         <published>2024-08-11T23:00:00.000Z</published>
     </entry>
     <entry>
@@ -5349,8 +5422,8 @@
         <category label="アプリケーション開発・プログラミング"/>
         <category label="業務支援・効率化ツール"/>
         <category label="海外製品 新着情報 (ユニポス)"/>
-        <category label="生物統計学"/>
         <category label="医薬品開発"/>
+        <category label="生物統計学"/>
         <category label="データ解析"/>
         <category label="バイオアッセイ"/>
         <category label="解析ツール"/>
@@ -6065,185 +6138,5 @@
         <summary type="html"><![CDATA[BN研修の締めとして振り返り]]></summary>
         <content type="html"><![CDATA[BN研修の締めとして振り返り]]></content>
         <published>2024-08-07T03:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Optuna v4.0.0での多目的TPESampler大幅高速化 | Blog - Preferred Networks Research & Development]]></title>
-        <id>https://tech.preferred.jp/?p=14533</id>
-        <link href="https://tech.preferred.jp/ja/blog/optuna-v4-0-0%e3%81%a7%e3%81%ae%e5%a4%9a%e7%9b%ae%e7%9a%84tpesampler%e5%a4%a7%e5%b9%85%e9%ab%98%e9%80%9f%e5%8c%96/"/>
-        <updated>2024-08-07T02:00:06.000Z</updated>
-        <summary type="html"><![CDATA[本記事の要約 Optunaでは継続的に速度改善を行っており，Optuna v4.0.0では多目的TPESamplerの速度改善を行いました． 速度改善の結果，目的数2以上の目的関数での大幅な高速化を達成し，3目的200 […] 投稿 Optuna v4.0.0での多目的TPESampler大幅高速化 は Preferred Networks Research & Development に最初に表...]]></summary>
-        <content type="html"><![CDATA[本記事の要約 Optunaでは継続的に速度改善を行っており，Optuna v4.0.0では多目的TPESamplerの速度改善を行いました． 速度改善の結果，目的数2以上の目的関数での大幅な高速化を達成し，3目的200 […] 投稿 Optuna v4.0.0での多目的TPESampler大幅高速化 は Preferred Networks Research & Development に最初に表示されました。]]></content>
-        <author>
-            <name>Shuhei Watanabe</name>
-        </author>
-        <category label="Research"/>
-        <category label="AutoML"/>
-        <category label="Hyperparameter Optimization"/>
-        <category label="Machine Learning"/>
-        <category label="Optuna"/>
-        <published>2024-08-07T02:00:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[どちらのコードが好ましい？5問目（Kotlin Fest 2024 Pocket Code Battle） | LINEヤフー Tech Blog]]></title>
-        <id>https://techblog.lycorp.co.jp/ja/20240807a</id>
-        <link href="https://techblog.lycorp.co.jp/ja/20240807a"/>
-        <updated>2024-08-07T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。Androidアプリエンジニアの大石です。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を実施しました。「Pock...]]></summary>
-        <content type="html"><![CDATA[こんにちは。Androidアプリエンジニアの大石です。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を実施しました。「Pock...]]></content>
-        <published>2024-08-07T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[どちらのコードが好ましい？5問目（Kotlin Fest 2024 Pocket Code Battle） | LINEヤフー Tech Blog]]></title>
-        <id>https://techblog.lycorp.co.jp/ja/20240807a</id>
-        <link href="https://techblog.lycorp.co.jp/ja/20240807a"/>
-        <updated>2024-08-07T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。Androidアプリエンジニアの大石です。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を実施しました。「Pock...]]></summary>
-        <content type="html"><![CDATA[こんにちは。Androidアプリエンジニアの大石です。 先日開催されたKotlin Fest 2024のLINEヤフー企業ブースでは、「Pocket Code Battle」を実施しました。「Pock...]]></content>
-        <published>2024-08-07T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stable Diffusionの使い方と追加学習によるLoRAの作成 〜GPUコンテナサービス "高火力 DOK" の活用〜 | さくらのナレッジ]]></title>
-        <id>https://knowledge.sakura.ad.jp/?p=38430</id>
-        <link href="https://knowledge.sakura.ad.jp/38430/"/>
-        <updated>2024-08-07T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[この記事は、2024年6月29日(土)に行われたオープンソースカンファレンス2024 Hokkaidoにおけるセミナーを、さくナレ編集部にて記事化したものです。 はじめに さくらインターネットの江草と申します。今日は、つ […]]]></summary>
-        <content type="html"><![CDATA[この記事は、2024年6月29日(土)に行われたオープンソースカンファレンス2024 Hokkaidoにおけるセミナーを、さくナレ編集部にて記事化したものです。 はじめに さくらインターネットの江草と申します。今日は、つ […]]]></content>
-        <author>
-            <name>江草陽太</name>
-        </author>
-        <category label="エンジニア向け"/>
-        <category label="docker"/>
-        <category label="LoRA"/>
-        <category label="Stable Diffusion"/>
-        <category label="学習"/>
-        <category label="推論"/>
-        <category label="生成AI"/>
-        <category label="高火力"/>
-        <category label="高火力DOK"/>
-        <published>2024-08-07T02:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[育休を取得したパパエンジニアのリアルな体験談！ | SmartHR Tech Blog]]></title>
-        <id>https://tech.smarthr.jp/entry/2024/08/07/101538</id>
-        <link href="https://tech.smarthr.jp/entry/2024/08/07/101538"/>
-        <updated>2024-08-07T01:15:38.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、SmartHRプロダクトエンジニアをしているtkkrです。今年、子供が生まれたので育休を取って、最近復帰したのですが、ちょうど同じタイミングで育休から復帰した男性エンジニアが他にもいたので、せっかくなので弊社での育休に関してお話ししてみることにしました。この記事では、弊社のパパエンジニアたちが育休前後にどのように過ごしていたかの実体験をお届けします！ 参加メンバー紹介 wakasa 2...]]></summary>
-        <content type="html"><![CDATA[こんにちは、SmartHRプロダクトエンジニアをしているtkkrです。今年、子供が生まれたので育休を取って、最近復帰したのですが、ちょうど同じタイミングで育休から復帰した男性エンジニアが他にもいたので、せっかくなので弊社での育休に関してお話ししてみることにしました。この記事では、弊社のパパエンジニアたちが育休前後にどのように過ごしていたかの実体験をお届けします！ 参加メンバー紹介 wakasa 2015年にキヤノン株式会社へ入社し、監視カメラの販売管理業務に従事。2018年に株式会社ジラフに入社しエンジニア職に転向。その後、2019年5月にSmartHRへ入社し、SmartHRの本体機能の開発…]]></content>
-        <published>2024-08-07T01:15:38.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Google Cloud Next Tokyo ’24】 Platform Engineering入門 : Golden Path の構築と活用(D1-APP-01) | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=34407</id>
-        <link href="https://techblog.nhn-techorus.com/archives/34407"/>
-        <updated>2024-08-07T01:00:05.000Z</updated>
-        <summary type="html"><![CDATA[はじめに お久しぶりです、reonoです！ Google Cloud Next Tokyo ’24に現地参加してきました。 体験型のブースや興味深いセッションがあり楽しめました！ 今回は視聴セッション「Platform Engi... 続きを読む 【Google Cloud Next Tokyo ’24】 Platform Engineering入門 : Golden Path の構築と活用(D1...]]></summary>
-        <content type="html"><![CDATA[はじめに お久しぶりです、reonoです！ Google Cloud Next Tokyo ’24に現地参加してきました。 体験型のブースや興味深いセッションがあり楽しめました！ 今回は視聴セッション「Platform Engi... 続きを読む 【Google Cloud Next Tokyo ’24】 Platform Engineering入門 : Golden Path の構築と活用(D1-APP-01) first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>reono</name>
-        </author>
-        <category label="Google Cloud"/>
-        <category label="Google Cloud Next Tokyo '24"/>
-        <published>2024-08-07T01:00:05.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大阪Ruby会議04 を 256倍 楽しむための記事 | ANDPAD Tech Blog]]></title>
-        <id>https://tech.andpad.co.jp/entry/2024/08/07/100000</id>
-        <link href="https://tech.andpad.co.jp/entry/2024/08/07/100000"/>
-        <updated>2024-08-07T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。 id:sezemi です。 実は半生を関西は兵庫県で過ごしていた人間です。 折しも関西で過ごした年数と、東京で過ごした年数が、今年でちょうど同じになりました。 思えば遠くへ来たもんだ。 さて、今回は2024年8月24日(土) に開催される 大阪Ruby会議04 に向けてのアンドパッドの取り組みと、大阪Ruby会議を楽しむための情報をお届けします。 rubykansai.github....]]></summary>
-        <content type="html"><![CDATA[こんにちは。 id:sezemi です。 実は半生を関西は兵庫県で過ごしていた人間です。 折しも関西で過ごした年数と、東京で過ごした年数が、今年でちょうど同じになりました。 思えば遠くへ来たもんだ。 さて、今回は2024年8月24日(土) に開催される 大阪Ruby会議04 に向けてのアンドパッドの取り組みと、大阪Ruby会議を楽しむための情報をお届けします。 rubykansai.github.io アンドパッドのエンジニアが2名登壇します 大阪Ruby会議04 には、Keynoteスピーカーとして羽角(@hasumikin)、スピーカーとして川原(@makicamel)が登壇します。 11…]]></content>
-        <published>2024-08-07T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[この2年でFirebase Authentication はどう変わった？セキュリティ観点の仕様差分まとめ | Flatt Security Blog]]></title>
-        <id>https://blog.flatt.tech/entry/firebase_auth_update_2024?utm_source=feed</id>
-        <link href="https://blog.flatt.tech/entry/firebase_auth_update_2024?utm_source=feed"/>
-        <updated>2024-08-07T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、@okazu_dm です。 今回自分がぴざきゃっとさんが2022年4月に書いた以下の記事を更新したため、本記事ではその差分について簡単にまとめました。 Firebase Authentication利用上の注意点に関して生じた差分とは、すなわち「この2年強の間にどのような仕様変更があったか」と同義だと言えます。IDaaSに限らず認証のセキュリティに興味のある方には参考になるコ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、@okazu_dm です。 今回自分がぴざきゃっとさんが2022年4月に書いた以下の記事を更新したため、本記事ではその差分について簡単にまとめました。 Firebase Authentication利用上の注意点に関して生じた差分とは、すなわち「この2年強の間にどのような仕様変更があったか」と同義だと言えます。IDaaSに限らず認証のセキュリティに興味のある方には参考になるコンテンツだと思います。 更新した記事につきましては、以下をご覧ください。 差分について Firebase Authenticationの落とし穴と、その対策を7種類紹介する、というのがオリジナルの記事…]]></content>
-        <published>2024-08-07T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ネットワーク機器のOSアップデートでうまくいかなかったこと | シナプス技術者ブログ]]></title>
-        <id>https://tech.synapse.jp/entry/2024/08/07/100000</id>
-        <link href="https://tech.synapse.jp/entry/2024/08/07/100000"/>
-        <updated>2024-08-07T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[シナプスの技術部ネットワーク課の福山と申します。 ここ数年で、弊社ではネットワーク機器に新しいOSを導入しました。 Juniper MX204(Junos OS) Cisco NCS55A1(Cisco IOS XR) Juniper ACX7100-48L(Junos OS Evolved) 導入前の検証ではOSアップデートのテストは問題ありませんでしたが、運用開始後のOSアップデートで検証時の...]]></summary>
-        <content type="html"><![CDATA[シナプスの技術部ネットワーク課の福山と申します。 ここ数年で、弊社ではネットワーク機器に新しいOSを導入しました。 Juniper MX204(Junos OS) Cisco NCS55A1(Cisco IOS XR) Juniper ACX7100-48L(Junos OS Evolved) 導入前の検証ではOSアップデートのテストは問題ありませんでしたが、運用開始後のOSアップデートで検証時の手順では問題が発生しました。 問題が発生した内容と対応内容をご紹介したいと思います。 ケース１： Juniper MX204(Junos OS) バージョン情報 うまくいかなかったこと 調査 対応内容…]]></content>
-        <published>2024-08-07T01:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1,000億パラメータの独自LLM「PLaMo-100B」の事後学習が完了 | Blog - Preferred Networks Research & Development]]></title>
-        <id>https://tech.preferred.jp/?p=14541</id>
-        <link href="https://tech.preferred.jp/ja/blog/plamo-100b-post-training/"/>
-        <updated>2024-08-07T00:25:51.000Z</updated>
-        <summary type="html"><![CDATA[Preferred Networksの子会社のPreferred Elements（以下、PFE）では、2月から1,000億（100B）パラメータ規模のLLM「PLaMo-100B」の開発を行っていました。5月に事前学習 […] 投稿 1,000億パラメータの独自LLM「PLaMo-100B」の事後学習が完了 は Preferred Networks Research & Development ...]]></summary>
-        <content type="html"><![CDATA[Preferred Networksの子会社のPreferred Elements（以下、PFE）では、2月から1,000億（100B）パラメータ規模のLLM「PLaMo-100B」の開発を行っていました。5月に事前学習 […] 投稿 1,000億パラメータの独自LLM「PLaMo-100B」の事後学習が完了 は Preferred Networks Research & Development に最初に表示されました。]]></content>
-        <author>
-            <name>Yasuhiro Fujita</name>
-        </author>
-        <category label="Engineering"/>
-        <category label="Research"/>
-        <category label="Deep Learning"/>
-        <category label="LLM"/>
-        <published>2024-08-07T00:25:51.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[オリンピックにおけるIT活用とデジタル化の最新動向 | シー・エス・エス イノベーションラボ（ブログ）]]></title>
-        <id>https://blog.css-net.co.jp/entry/2024/08/07/090509</id>
-        <link href="https://blog.css-net.co.jp/entry/2024/08/07/090509"/>
-        <updated>2024-08-07T00:05:09.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、デジタルマーケティング部のサットンです。皆さんオリンピック見ていましたか？開会式の「最後の晩餐」シーンをめぐる論争やボクシング女子の性別騒動、相次ぐ誤審疑惑にセーヌ川汚染問題など、色々と世間を騒がせたパリオリンピックですが、日本人選手達の素晴らしい演技や戦いは、本当に感動でしたね。個人的には、柔道の阿部詩さんの悔しい姿が印象的で、私ももらい泣きしてしまいました。さてさて本日は、オリンピ...]]></summary>
-        <content type="html"><![CDATA[こんにちは、デジタルマーケティング部のサットンです。皆さんオリンピック見ていましたか？開会式の「最後の晩餐」シーンをめぐる論争やボクシング女子の性別騒動、相次ぐ誤審疑惑にセーヌ川汚染問題など、色々と世間を騒がせたパリオリンピックですが、日本人選手達の素晴らしい演技や戦いは、本当に感動でしたね。個人的には、柔道の阿部詩さんの悔しい姿が印象的で、私ももらい泣きしてしまいました。さてさて本日は、オリンピックにおけるIT活用とデジタル化の動向について詳しく解説し、IT技術がもたらすメリットや課題について掘り下げていこうと思います。 オリンピックとIT活用の現状 各国のIT戦略 リアルタイムデータと解析…]]></content>
-        <published>2024-08-07T00:05:09.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[金融時系列基盤モデルによる市場価格の予測 | Blog - Preferred Networks Research & Development]]></title>
-        <id>https://tech.preferred.jp/?p=14526</id>
-        <link href="https://tech.preferred.jp/ja/blog/timesfm/"/>
-        <updated>2024-08-07T00:00:11.000Z</updated>
-        <summary type="html"><![CDATA[この記事は、グローバルインターンのXinghong Fuさんによる寄稿です。 はじめに 金融市場における予測は難しいタスクと知られています。 これまで、金融市場における予測に関して様々な研究が行われており、様々なモデルが […] 投稿 金融時系列基盤モデルによる市場価格の予測 は Preferred Networks Research & Development に最初に表示されました。]]></summary>
-        <content type="html"><![CDATA[この記事は、グローバルインターンのXinghong Fuさんによる寄稿です。 はじめに 金融市場における予測は難しいタスクと知られています。 これまで、金融市場における予測に関して様々な研究が行われており、様々なモデルが […] 投稿 金融時系列基盤モデルによる市場価格の予測 は Preferred Networks Research & Development に最初に表示されました。]]></content>
-        <author>
-            <name>Masanori Hirano</name>
-        </author>
-        <category label="Research"/>
-        <category label="Deep Learning"/>
-        <category label="Qfin"/>
-        <category label="Quantitative Finance"/>
-        <category label="金融"/>
-        <published>2024-08-07T00:00:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AstroとTailwind CSSを使ってDeveloper Siteをリデザインした話 | TechBlog | Nulab (Japanese)]]></title>
-        <id>https://nulab.com/ja/?p=44726</id>
-        <link href="https://nulab.com/ja/blog/nulab/redesign-developer-site-using-astro/"/>
-        <updated>2024-08-07T00:00:08.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ウェブサイト課の東尾です。 今年の6月にBacklogをはじめとしたヌーラボの各サービスのAPIを紹介するDeveloper Siteのリデザインをリリースしました。同時期にリリースされたJBUG（ジェイバグ […] The post AstroとTailwind CSSを使ってDeveloper Siteをリデザインした話 appeared first on Nulab (Japan...]]></summary>
-        <content type="html"><![CDATA[こんにちは！ウェブサイト課の東尾です。 今年の6月にBacklogをはじめとしたヌーラボの各サービスのAPIを紹介するDeveloper Siteのリデザインをリリースしました。同時期にリリースされたJBUG（ジェイバグ […] The post AstroとTailwind CSSを使ってDeveloper Siteをリデザインした話 appeared first on Nulab (Japanese).]]></content>
-        <author>
-            <name>mikuhigashio</name>
-        </author>
-        <category label="Nulab"/>
-        <category label="ヌーラバー真夏のブログリレー2024"/>
-        <published>2024-08-07T00:00:08.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【月刊】Web3.0トピック振り返り～2024年7月編～ | テコテック開発者ブログ]]></title>
-        <id>https://tec.tecotec.co.jp/entry/2024/08/07/090000</id>
-        <link href="https://tec.tecotec.co.jp/entry/2024/08/07/090000"/>
-        <updated>2024-08-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。次世代デジタル基盤開発事業部の鈴木康男です。エンジニア・PMとして、Web3.0に関わるプロジェクトを担当しております。 「【月刊】Web3.0トピック振り返り」では、毎月Web3.0関連で気になったトピックを取り上げて紹介していきます。]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。次世代デジタル基盤開発事業部の鈴木康男です。エンジニア・PMとして、Web3.0に関わるプロジェクトを担当しております。 「【月刊】Web3.0トピック振り返り」では、毎月Web3.0関連で気になったトピックを取り上げて紹介していきます。]]></content>
-        <published>2024-08-07T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第27回 画像の認識・理解シンポジウム（MIRU2024）にシルバースポンサーとして参加します！ | エムスリーテックブログ]]></title>
-        <id>https://www.m3tech.blog/entry/miru2024</id>
-        <link href="https://www.m3tech.blog/entry/miru2024"/>
-        <updated>2024-08-06T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ AI・機械学習チームの氏家（@mowmow1259）です。 エムスリー福岡オフィスの一人目のエンジニアとして福岡で働いています。 本稿はエムスリーAI・機械学習チームで2週間連続で行われるブログリレー3日目の記事となります！ 2日目の記事も是非ご覧ください。 www.m3tech.blog さて、この度、エムスリー株式会社は8/6〜8/9に熊本で開催される第27回 画像の認識・理解シ...]]></summary>
-        <content type="html"><![CDATA[こんにちは！ AI・機械学習チームの氏家（@mowmow1259）です。 エムスリー福岡オフィスの一人目のエンジニアとして福岡で働いています。 本稿はエムスリーAI・機械学習チームで2週間連続で行われるブログリレー3日目の記事となります！ 2日目の記事も是非ご覧ください。 www.m3tech.blog さて、この度、エムスリー株式会社は8/6〜8/9に熊本で開催される第27回 画像の認識・理解シンポジウム（以下、MIRU）にシルバースポンサーとして参加させていただきます！ 皆様の研究発表から刺激を受けるとともに、弊社の臨床画像分野での研究の取り組みをご紹介することで医療分野での実応用の知見な…]]></content>
-        <published>2024-08-06T23:30:00.000Z</published>
     </entry>
 </feed>
