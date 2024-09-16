@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-09-16T11:24:46.933Z</updated>
+    <updated>2024-09-16T23:23:37.595Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -18,6 +18,261 @@
         <published>2024-10-04T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[メールはツラいよ！！波乱のメールサーバAWS移行を振り返ってみる | LIVESENSE ENGINEER BLOG]]></title>
+        <id>https://made.livesense.co.jp/entry/2024/09/17/080000</id>
+        <link href="https://made.livesense.co.jp/entry/2024/09/17/080000"/>
+        <updated>2024-09-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 概要 移行したメール基盤について AWS移行における制約事項 設計 機能要件の整理 移行過渡期の構成 移行後の構成 AWS移行前の準備 AWS上でのプロビジョニング OSレイヤでのプロビジョニング AWS移行中の課題 細かな設定値の調整とスケジュール AWS移行中に発生したトラブルの数々 AWS移行完了後の振り返り 普段からやっておいたほうが良いこと できればやっておいたほうが良いこと ...]]></summary>
+        <content type="html"><![CDATA[はじめに 概要 移行したメール基盤について AWS移行における制約事項 設計 機能要件の整理 移行過渡期の構成 移行後の構成 AWS移行前の準備 AWS上でのプロビジョニング OSレイヤでのプロビジョニング AWS移行中の課題 細かな設定値の調整とスケジュール AWS移行中に発生したトラブルの数々 AWS移行完了後の振り返り 普段からやっておいたほうが良いこと できればやっておいたほうが良いこと はじめに リブセンス インフラエンジニアのsheep_san_whiteです。お酒とロードバイクとランニングが好きなおじさんです。 リブセンスではオンプレミス環境からAWS環境への移行を進めてきました…]]></content>
+        <published>2024-09-16T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ヘルプサイトに機械翻訳サービスを導入してわかった、機械翻訳のハマりどころ | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
+        <id>https://blog.cybozu.io/entry/2024/09/17/080000</id>
+        <link href="https://blog.cybozu.io/entry/2024/09/17/080000"/>
+        <updated>2024-09-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。テクニカルライターチームのpiyo（@_chick_p）です。 このブログは、このブログは、テクニカルライター/ローカライズ リレーブログの3本目の記事（後編）です。 前編の記事では、多言語展開のために製品の画面文言を改善した話を紹介しました。 スペイン語対応でわかった、語順が変わる問題に取り組んだ話 - Cybozu Inside Out | サイボウズエンジニアのブログ 後編では、...]]></summary>
+        <content type="html"><![CDATA[こんにちは。テクニカルライターチームのpiyo（@_chick_p）です。 このブログは、このブログは、テクニカルライター/ローカライズ リレーブログの3本目の記事（後編）です。 前編の記事では、多言語展開のために製品の画面文言を改善した話を紹介しました。 スペイン語対応でわかった、語順が変わる問題に取り組んだ話 - Cybozu Inside Out | サイボウズエンジニアのブログ 後編では、ヘルプサイトに機械翻訳のサービスを導入する際にわかった、機械翻訳でのハマりどころとその解決策を紹介します。 機械翻訳のハマりどころ ヘルプサイトでは、元々の4言語に加え、スペイン語のコンテンツも提供し…]]></content>
+        <published>2024-09-16T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Supabase: 参照はRLS（Row Level Security）、登録更新削除はEdge Functionsで認可制御を実装した話 | 電通総研 テックブログ]]></title>
+        <id>https://tech.dentsusoken.com/entry/2024/09/17/Supabase%3A_%E5%8F%82%E7%85%A7%E3%81%AFRLS%EF%BC%88Row_Level_Security%EF%BC%89%E3%80%81%E7%99%BB%E9%8C%B2%E6%9B%B4%E6%96%B0%E5%89%8A%E9%99%A4%E3%81%AFEdge_Functions%E3%81%A7%E8%AA%8D%E5%8F%AF%E5%88%B6</id>
+        <link href="https://tech.dentsusoken.com/entry/2024/09/17/Supabase%3A_%E5%8F%82%E7%85%A7%E3%81%AFRLS%EF%BC%88Row_Level_Security%EF%BC%89%E3%80%81%E7%99%BB%E9%8C%B2%E6%9B%B4%E6%96%B0%E5%89%8A%E9%99%A4%E3%81%AFEdge_Functions%E3%81%A7%E8%AA%8D%E5%8F%AF%E5%88%B6"/>
+        <updated>2024-09-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、電通総研の瀧川亮弘です。 現在、Supabaseによるアプリ開発を行っています。 本記事ではSupabaseの認可制御をどのような方針で実装しているのか紹介します。 前提 アプリからSupabaseへのリクエストは2つのAPIを使い分けています。 一つ目にSupabaseがスキーマ情報をもとに自動生成するRESTful APIです。 内部的にはPostgRESTというライブラリが用いら...]]></summary>
+        <content type="html"><![CDATA[こんにちは、電通総研の瀧川亮弘です。 現在、Supabaseによるアプリ開発を行っています。 本記事ではSupabaseの認可制御をどのような方針で実装しているのか紹介します。 前提 アプリからSupabaseへのリクエストは2つのAPIを使い分けています。 一つ目にSupabaseがスキーマ情報をもとに自動生成するRESTful APIです。 内部的にはPostgRESTというライブラリが用いられています。 こちらは単純なCRUD操作しかできません。 二つ目にEdge Functionsです。 こちらはTypeScriptベースのサーバーレス関数です。 任意の処理をかけるため複雑な要件に対応…]]></content>
+        <published>2024-09-16T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[微弱電流で味覚を調整する“電気調味料”。ウェアラブルなものが新規参入 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/09/wearable-electric-seasoning.html</id>
+        <link href="https://www.gizmodo.jp/2024/09/wearable-electric-seasoning.html"/>
+        <updated>2024-09-16T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:AJINOMOTO装着しっぱなしでずっと美味しい。健康管理のためのガジェットはいろいろありますが、計測や管理や運動ばかりで「食」に関するものはまだまだ少ないかもしれません。電流で味変するガジェット2022年以降、微弱な電流で味覚を調整する食器がアレコレ生まれたのは記憶に新しいところ。たとえば塩味を1.5倍強く感じるお箸や、スプーン、お椀などがありました。味の素が電気で美味しさを底上げこ]]></summary>
+        <content type="html"><![CDATA[Image:AJINOMOTO装着しっぱなしでずっと美味しい。健康管理のためのガジェットはいろいろありますが、計測や管理や運動ばかりで「食」に関するものはまだまだ少ないかもしれません。電流で味変するガジェット2022年以降、微弱な電流で味覚を調整する食器がアレコレ生まれたのは記憶に新しいところ。たとえば塩味を1.5倍強く感じるお箸や、スプーン、お椀などがありました。味の素が電気で美味しさを底上げこ]]></content>
+        <author>
+            <name>岡本玄介</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-09-16T23:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Python in Excel」が一般公開 ～「Copilot」にコードを書いてもらう機能もテスト開始／1年以上のテストを経て正式機能に | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1624054.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1624054.html"/>
+        <updated>2024-09-16T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[米Microsoftは9月16日（現地時間）、「Python in Excel」の一般公開（GA）を発表した。昨年8月からパブリックプレビューとしてテストが続けられていたが、ようやく正式な機能として提供されることになった。]]></summary>
+        <content type="html"><![CDATA[米Microsoftは9月16日（現地時間）、「Python in Excel」の一般公開（GA）を発表した。昨年8月からパブリックプレビューとしてテストが続けられていたが、ようやく正式な機能として提供されることになった。]]></content>
+        <author>
+            <name>樽井 秀人</name>
+        </author>
+        <published>2024-09-16T22:40:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[手分けして作業してもらったパワポのスライドを目視で統合してはダメ！【残業を減らす！Officeテクニック】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/offitech/1623895.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/offitech/1623895.html"/>
+        <updated>2024-09-16T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[1つのスライドを複数人で手分けして仕上げることがありますよね。取りまとめる人が最終チェックをすると思いますが、文字などの細かな修正箇所には気付きにくいものです。例えば、2つのスライドを並べて目視でチェックするような方式をしていませんか？ PowerPointには［校閲］の機能があり、どの部分が修正されたのかを確認しながら、“承認”もしくは“拒否”することが可能です。]]></summary>
+        <content type="html"><![CDATA[1つのスライドを複数人で手分けして仕上げることがありますよね。取りまとめる人が最終チェックをすると思いますが、文字などの細かな修正箇所には気付きにくいものです。例えば、2つのスライドを並べて目視でチェックするような方式をしていませんか？ PowerPointには［校閲］の機能があり、どの部分が修正されたのかを確認しながら、“承認”もしくは“拒否”することが可能です。]]></content>
+        <author>
+            <name>今井 孝</name>
+        </author>
+        <published>2024-09-16T21:55:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「iOS 17.7」「iPadOS 17.7」が公開 ～すべてのユーザーに適用を推奨／CVE番号ベースで16件の脆弱性に対処 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1624053.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1624053.html"/>
+        <updated>2024-09-16T21:05:00.000Z</updated>
+        <summary type="html"><![CDATA[米Appleは9月16日（現地時間）、「iOS 17.7」「iPadOS 17.7」をリリースした。重要な不具合修正とセキュリティアップデートが含まれており、すべてのユーザーに適用が推奨されている。]]></summary>
+        <content type="html"><![CDATA[米Appleは9月16日（現地時間）、「iOS 17.7」「iPadOS 17.7」をリリースした。重要な不具合修正とセキュリティアップデートが含まれており、すべてのユーザーに適用が推奨されている。]]></content>
+        <author>
+            <name>樽井 秀人</name>
+        </author>
+        <published>2024-09-16T21:05:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Original Flappy Bird developer not involved with rerelease | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/news/452008/flappy-bird-original-developer-not-involved</id>
+        <link href="https://www.polygon.com/news/452008/flappy-bird-original-developer-not-involved"/>
+        <updated>2024-09-16T20:18:30.000Z</updated>
+        <summary type="html"><![CDATA[Flappy Bird has officially returned, now playable on Telegram — but things aren’t exactly soaring for the 10-year-old viral game. The Flappy Bird Foundation, a so-called “new team of passionate fans c...]]></summary>
+        <content type="html"><![CDATA[Flappy Bird has officially returned, now playable on Telegram — but things aren’t exactly soaring for the 10-year-old viral game. The Flappy Bird Foundation, a so-called “new team of passionate fans committed to sharing the game with the world,” announced Thursday that it was reviving Flappy Bird. The original game, first released for iOS in [&#8230;]]]></content>
+        <published>2024-09-16T20:18:30.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ノーコードでLLMマルチエージェントを操る『AUTOGEN STUDIO』Microsoftが新開発 | AIDB]]></title>
+        <id>https://ai-data-base.com/?p=75716</id>
+        <link href="https://ai-data-base.com/archives/75716"/>
+        <updated>2024-09-16T19:10:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事では、Microsoft Researchの研究者たちが作った「AUTOGEN STUDIO」についての報告を紹介します。「AUTOGEN STUDIO」は、複数のLLMエージェントが協働するシステムをプログラミ […] ノーコードでLLMマルチエージェントを操る『AUTOGEN STUDIO』Microsoftが新開発 first appeared on AIDB.]]></summary>
+        <content type="html"><![CDATA[この記事では、Microsoft Researchの研究者たちが作った「AUTOGEN STUDIO」についての報告を紹介します。「AUTOGEN STUDIO」は、複数のLLMエージェントが協働するシステムをプログラミ […] ノーコードでLLMマルチエージェントを操る『AUTOGEN STUDIO』Microsoftが新開発 first appeared on AIDB.]]></content>
+        <author>
+            <name>AIDB Research</name>
+        </author>
+        <category label="LLM"/>
+        <category label="エージェント"/>
+        <category label="論文"/>
+        <published>2024-09-16T19:10:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple、「iOS 18」「iPadOS 18」の一般提供を開始／ホーム画面のカスタマイズが強化、iPadに最適化された「計算機」アプリなども | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/news/1624051.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/news/1624051.html"/>
+        <updated>2024-09-16T18:07:14.000Z</updated>
+        <summary type="html"><![CDATA[米Appleは9月16日（日本時間）、「iOS 18」「iPadOS 18」の一般提供を開始した。「iOS 17」「iPadOS 17」に続くメジャーバージョンアップだ。]]></summary>
+        <content type="html"><![CDATA[米Appleは9月16日（日本時間）、「iOS 18」「iPadOS 18」の一般提供を開始した。「iOS 17」「iPadOS 17」に続くメジャーバージョンアップだ。]]></content>
+        <author>
+            <name>樽井 秀人</name>
+        </author>
+        <published>2024-09-16T18:07:14.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PlayStation 6 chip chosen back in 2022, partly over backward compatibility | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/playstation/451896/ps6-amd-cpu-gpu-backward-compatibility-sony</id>
+        <link href="https://www.polygon.com/playstation/451896/ps6-amd-cpu-gpu-backward-compatibility-sony"/>
+        <updated>2024-09-16T17:50:00.000Z</updated>
+        <summary type="html"><![CDATA[We already have our first information on Sony’s inevitable PlayStation 6: It will run on AMD chips, according to a report from Reuters, with chipmaker Intel having lost the bid to manufacture chips fo...]]></summary>
+        <content type="html"><![CDATA[We already have our first information on Sony’s inevitable PlayStation 6: It will run on AMD chips, according to a report from Reuters, with chipmaker Intel having lost the bid to manufacture chips for the next-gen PlayStation. One factor that reportedly led to Sony settling on AMD was ensuring backward compatibility with the current-gen PlayStation [&#8230;]]]></content>
+        <published>2024-09-16T17:50:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Accounting for cognitive bias in human evaluation of large language models | Amazon Science homepage]]></title>
+        <id>https://www.amazon.science/blog/accounting-for-cognitive-bias-in-human-evaluation-of-large-language-models</id>
+        <link href="https://www.amazon.science/blog/accounting-for-cognitive-bias-in-human-evaluation-of-large-language-models"/>
+        <updated>2024-09-16T17:03:02.000Z</updated>
+        <summary type="html"><![CDATA[A position paper presented at ACL proposes a framework for more-accurate human evaluation of LLMs.]]></summary>
+        <content type="html"><![CDATA[A position paper presented at ACL proposes a framework for more-accurate human evaluation of LLMs.]]></content>
+        <published>2024-09-16T17:03:02.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A new Zelda game is reminding everyone to finish the last one | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/zelda/451523/tears-of-the-kingdom-echoes-of-wisdom-deadline</id>
+        <link href="https://www.polygon.com/zelda/451523/tears-of-the-kingdom-echoes-of-wisdom-deadline"/>
+        <updated>2024-09-16T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[There is so much any given player can do in The Legend of Zelda: Tears of the Kingdom. You can become the architect of the world’s largest bridge, engineer crimes against Koroks, or, if you want, you ...]]></summary>
+        <content type="html"><![CDATA[There is so much any given player can do in The Legend of Zelda: Tears of the Kingdom. You can become the architect of the world’s largest bridge, engineer crimes against Koroks, or, if you want, you can just turn the sloping hills of Hyrule into Link’s personal skate park. It’s a giant game with [&#8230;]]]></content>
+        <published>2024-09-16T17:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Steam Deck accessories | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/what-to-buy/23627961/best-steam-deck-accessories</id>
+        <link href="https://www.polygon.com/what-to-buy/23627961/best-steam-deck-accessories"/>
+        <updated>2024-09-16T16:57:51.000Z</updated>
+        <summary type="html"><![CDATA[Valve’s Steam Deck LCD and Steam Deck OLED are major players in the console space. While they’re technically handheld-shaped PCs that run Linux, they are accessible and affordable enough to be the pre...]]></summary>
+        <content type="html"><![CDATA[Valve’s Steam Deck LCD and Steam Deck OLED are major players in the console space. While they’re technically handheld-shaped PCs that run Linux, they are accessible and affordable enough to be the preferred option for many gamers, especially those who want more power and a larger game library than the Nintendo Switch can provide. It [&#8230;]]]></content>
+        <published>2024-09-16T16:57:51.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get a headstart on fighting seasonal affective disorder with this Frostpunk deal | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/good-deals/451763/frostpunk-2-deluxe-edition-sale-steam-gog</id>
+        <link href="https://www.polygon.com/good-deals/451763/frostpunk-2-deluxe-edition-sale-steam-gog"/>
+        <updated>2024-09-16T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Taking place in a post-apocalyptic world where the daily high temperature is well below the threshold for frostbite, Frostpunk is a city builder that has you constantly balancing survival with moralit...]]></summary>
+        <content type="html"><![CDATA[Taking place in a post-apocalyptic world where the daily high temperature is well below the threshold for frostbite, Frostpunk is a city builder that has you constantly balancing survival with morality. If you’ve never had the chance to experience this evocative title from 11Bit Studios, or just wondered how child labor can bolster your workforce, [&#8230;]]]></content>
+        <published>2024-09-16T16:40:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Italian police seize $52.8M in fake video game consoles from trafficking ring | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/news/451734/italian-police-counterfeit-video-game-ring</id>
+        <link href="https://www.polygon.com/news/451734/italian-police-counterfeit-video-game-ring"/>
+        <updated>2024-09-16T16:29:52.000Z</updated>
+        <summary type="html"><![CDATA[Nine people have been arrested in Italy for their connection to a trafficking ring dealing in fake retro video game consoles, in an operation that seized more than $50 million in counterfeit goods. It...]]></summary>
+        <content type="html"><![CDATA[Nine people have been arrested in Italy for their connection to a trafficking ring dealing in fake retro video game consoles, in an operation that seized more than $50 million in counterfeit goods. Italy’s Guardia di Finanza — a militarized police force that deals with economic and financial crimes — announced Friday that it had [&#8230;]]]></content>
+        <published>2024-09-16T16:29:52.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dead by Daylight spinoff The Casting of Frank Stone needed to go harder | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/review/451854/dead-by-daylight-casting-of-frank-stone-story-franchise</id>
+        <link href="https://www.polygon.com/review/451854/dead-by-daylight-casting-of-frank-stone-story-franchise"/>
+        <updated>2024-09-16T16:17:13.000Z</updated>
+        <summary type="html"><![CDATA[Dead by Daylight is an enormously popular and successful game. Behaviour Interactive has used that as a springboard for other projects, like Deathgarden: Bloodharvest, Meet Your Maker, and Islands of ...]]></summary>
+        <content type="html"><![CDATA[Dead by Daylight is an enormously popular and successful game. Behaviour Interactive has used that as a springboard for other projects, like Deathgarden: Bloodharvest, Meet Your Maker, and Islands of Insight. But none have proven as successful as the developer’s flagship project, which Behaviour is now using to experiment with other genres, like the cheeky [&#8230;]]]></content>
+        <published>2024-09-16T16:17:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crack the Code: Mastering Category Encoders for Data Scientists | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=181086</id>
+        <link href="https://www.kdnuggets.com/crack-the-code-mastering-category-encoders-for-data-scientists?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=crack-the-code-mastering-category-encoders-for-data-scientists"/>
+        <updated>2024-09-16T16:00:55.000Z</updated>
+        <summary type="html"><![CDATA[Image by Author | Canva In data science, handling different types of data is a daily challenge. One of the most common data types is categorical data, which represents attributes or labels such as col...]]></summary>
+        <content type="html"><![CDATA[Image by Author | Canva In data science, handling different types of data is a daily challenge. One of the most common data types is categorical data, which represents attributes or labels such as colors, gender, or types of vehicles. These characteristics or names can be divided into distinct groups or categories, facilitating classification...]]></content>
+        <published>2024-09-16T16:00:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diablo 4’s item shop has made $150 million | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/diablo/451719/diablo-4-item-shop-microtransactions-money</id>
+        <link href="https://www.polygon.com/diablo/451719/diablo-4-item-shop-microtransactions-money"/>
+        <updated>2024-09-16T15:00:31.000Z</updated>
+        <summary type="html"><![CDATA[If you ever stumble across some genuinely interesting data about how much money a video game has made, you can be sure you’re not supposed to know it. So it is with the apparently accidental revelatio...]]></summary>
+        <content type="html"><![CDATA[If you ever stumble across some genuinely interesting data about how much money a video game has made, you can be sure you’re not supposed to know it. So it is with the apparently accidental revelation that Diablo 4, released in June 2023, has made $1 billion in revenue to date, including over $150 million [&#8230;]]]></content>
+        <published>2024-09-16T15:00:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You can get Rocksteady&#8217;s Batman: Arkham trilogy on Steam for just $9 | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/good-deals/451747/batman-arkham-collection-steam-asylum-city-knight-deal</id>
+        <link href="https://www.polygon.com/good-deals/451747/batman-arkham-collection-steam-asylum-city-knight-deal"/>
+        <updated>2024-09-16T14:40:34.000Z</updated>
+        <summary type="html"><![CDATA[One of the best deals on Steam is back. Through Sept. 22, you can grab the three-pack of Rocksteady’s Batman: Arkham games on Steam for just $8.99 (normally $59.99). This trio includes the respective ...]]></summary>
+        <content type="html"><![CDATA[One of the best deals on Steam is back. Through Sept. 22, you can grab the three-pack of Rocksteady’s Batman: Arkham games on Steam for just $8.99 (normally $59.99). This trio includes the respective Game of the Year editions of Batman: Arkham Asylum and Batman: Arkham City, plus Batman: Arkham Knight and its season pass. [&#8230;]]]></content>
+        <published>2024-09-16T14:40:34.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Perform Data Aggregation Over Time Series Data with Pandas | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=178597</id>
+        <link href="https://www.kdnuggets.com/how-to-perform-data-aggregation-over-time-series-data-with-pandas?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-perform-data-aggregation-over-time-series-data-with-pandas"/>
+        <updated>2024-09-16T14:00:48.000Z</updated>
+        <summary type="html"><![CDATA[Image by Editor | Ideogram Let’s learn how to perform time series data aggregation in Pandas. Preparation We would need the Pandas and Numpy packages installed, so we can install them using the follow...]]></summary>
+        <content type="html"><![CDATA[Image by Editor | Ideogram Let’s learn how to perform time series data aggregation in Pandas. Preparation We would need the Pandas and Numpy packages installed, so we can install them using the following code: pip install pandas numpy With the packages installed, let’s jump into the article. Time Series...]]></content>
+        <published>2024-09-16T14:00:48.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界初の「原子核時計」誕生。でもまだ原子時計の方が正確 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/09/scientists-reveal-the-worlds-first-nuclear-clock.html</id>
+        <link href="https://www.gizmodo.jp/2024/09/scientists-reveal-the-worlds-first-nuclear-clock.html"/>
+        <updated>2024-09-16T13:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:OliverDiekmann/TUWien地球がなくなるまで1秒も狂わない時計よりも、死ぬまで電池が切れない時計がほしい。世界初の原子核時計、爆誕。原子核時計は、その名の通り、原子核からのわずかな信号によって時間を刻む装置です。アメリカ国立標準・技術研究所（NIST）の共同研究機関である宇宙物理学研究所連合（JILA）の科学者が率いる研究チームは、原子核時計に関する研究結果をNatur]]></summary>
+        <content type="html"><![CDATA[Image:OliverDiekmann/TUWien地球がなくなるまで1秒も狂わない時計よりも、死ぬまで電池が切れない時計がほしい。世界初の原子核時計、爆誕。原子核時計は、その名の通り、原子核からのわずかな信号によって時間を刻む装置です。アメリカ国立標準・技術研究所（NIST）の共同研究機関である宇宙物理学研究所連合（JILA）の科学者が率いる研究チームは、原子核時計に関する研究結果をNatur]]></content>
+        <author>
+            <name>Kenji P. Miyajima</name>
+        </author>
+        <category label="SCIENCE"/>
+        <published>2024-09-16T13:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 27 best retro games for Nintendo Switch Online + Expansion Pack subscribers | Gaming – Polygon]]></title>
+        <id>https://www.polygon.com/nintendo-switch/22752182/nintendo-switch-online-expansion-pack-best-retro-games</id>
+        <link href="https://www.polygon.com/nintendo-switch/22752182/nintendo-switch-online-expansion-pack-best-retro-games"/>
+        <updated>2024-09-16T13:25:44.000Z</updated>
+        <summary type="html"><![CDATA[In 2021, Nintendo added an additional tier to its Nintendo Switch Online subscription service in the form of its Expansion Pack, which brought Nintendo 64 and Sega Genesis games to the already extensi...]]></summary>
+        <content type="html"><![CDATA[In 2021, Nintendo added an additional tier to its Nintendo Switch Online subscription service in the form of its Expansion Pack, which brought Nintendo 64 and Sega Genesis games to the already extensive list of NES and SNES titles. In February 2023, during a Nintendo Direct presentation, that list got even bigger: Nintendo added Game [&#8230;]]]></content>
+        <published>2024-09-16T13:25:44.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 YouTube Channels to Master LLMs | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=180910</id>
+        <link href="https://www.kdnuggets.com/5-youtube-channels-to-master-llms?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-youtube-channels-to-master-llms"/>
+        <updated>2024-09-16T12:00:57.000Z</updated>
+        <summary type="html"><![CDATA[Image by Author If you’re in the tech industry (or are attempting to transition into the field), LLMs are a must-learn. Companies have started integrating language models into their workflows to impro...]]></summary>
+        <content type="html"><![CDATA[Image by Author If you’re in the tech industry (or are attempting to transition into the field), LLMs are a must-learn. Companies have started integrating language models into their workflows to improve efficiencies and cut costs. Due to this, there have been a number of new AI job openings. New roles have begun to...]]></content>
+        <published>2024-09-16T12:00:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[食べられちゃっても諦めない。ウナギが捕食者の消化管から脱出する様子 | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/09/x-ray-footage-captures-freaky-moment-eels-burst-out-of-a-live-fish.html</id>
+        <link href="https://www.gizmodo.jp/2024/09/x-ray-footage-captures-freaky-moment-eels-burst-out-of-a-live-fish.html"/>
+        <updated>2024-09-16T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:Hasegawaetal.2024/CurrentBiologyあのぬるぬるした細身のボディーには意味があったのかもしれない。ニホンウナギが捕食者の消化管をすり抜けて、再び自由の身を手に入れる脱出のスペシャリストであることが判明しました。ニホンウナギが捕食者の体内から逃げ出せることは以前から知られていましたが、どうやって脱出するのかは謎のままでした。ウナギ稚魚はこうやって捕食者から脱出]]></summary>
+        <content type="html"><![CDATA[Image:Hasegawaetal.2024/CurrentBiologyあのぬるぬるした細身のボディーには意味があったのかもしれない。ニホンウナギが捕食者の消化管をすり抜けて、再び自由の身を手に入れる脱出のスペシャリストであることが判明しました。ニホンウナギが捕食者の体内から逃げ出せることは以前から知られていましたが、どうやって脱出するのかは謎のままでした。ウナギ稚魚はこうやって捕食者から脱出]]></content>
+        <author>
+            <name>Kenji P. Miyajima</name>
+        </author>
+        <category label="SCIENCE"/>
+        <published>2024-09-16T12:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[透明人間の技術が実現？ 食用色素で生体組織の透明化に成功 | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/09/researchers-turn-skin-invisible-using-food-dye.html</id>
         <link href="https://www.gizmodo.jp/2024/09/researchers-turn-skin-invisible-using-food-dye.html"/>
@@ -31,6 +286,15 @@
         <published>2024-09-16T11:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Free Courses That Are Actually Free: SQL Edition | KDnuggets]]></title>
+        <id>https://www.kdnuggets.com/?p=179954</id>
+        <link href="https://www.kdnuggets.com/free-courses-that-are-actually-free-sql-edition?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=free-courses-that-are-actually-free-sql-edition"/>
+        <updated>2024-09-16T10:00:17.000Z</updated>
+        <summary type="html"><![CDATA[Image by Author | Canva You’ve learned the fundamentals of computer science. You have learnt a new programming language and understand the elements of machine learning and artificial intelligence. You...]]></summary>
+        <content type="html"><![CDATA[Image by Author | Canva You’ve learned the fundamentals of computer science. You have learnt a new programming language and understand the elements of machine learning and artificial intelligence. You're starting to see all the pieces of the puzzle coming together. Now you’re thinking about learning SQL. For those of you who do not...]]></content>
+        <published>2024-09-16T10:00:17.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[えっ、美術品のオークションって富裕層じゃなくても参加できるの？ | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/09/heritage-auction.html</id>
         <link href="https://www.gizmodo.jp/2024/09/heritage-auction.html"/>
@@ -42,6 +306,15 @@
         </author>
         <category label="ENTERTAINMENT"/>
         <published>2024-09-16T10:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[role 属性とは、aria-* 属性とは、WAI-ARIA とは、いったい何なのか、いつ使うべきなのか | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ymrl/items/6c9c059208ea11e6d7bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ymrl/items/6c9c059208ea11e6d7bc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-16T09:04:51.000Z</updated>
+        <summary type="html"><![CDATA[最近、いくつかの場面でWebアクセシビリティについて、コーディングに関する技術的な説明をする機会がありました。そのなかで、そもそもWAI-ARIAというものが、どういう立ち位置のものなのかがわかりづ…]]></summary>
+        <content type="html"><![CDATA[最近、いくつかの場面でWebアクセシビリティについて、コーディングに関する技術的な説明をする機会がありました。そのなかで、そもそもWAI-ARIAというものが、どういう立ち位置のものなのかがわかりづ…]]></content>
+        <published>2024-09-16T09:04:51.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[荷物をミニマルに。必需品を整理して身軽に出かけられるサコッシュ | ギズモード・ジャパン]]></title>
@@ -73,13 +346,13 @@
         <published>2024-09-16T08:18:20.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[電子化対応を支援する！請求書自動整理ツールのご紹介 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/ogi_kimura/items/d1578a8bedc53404f8ef?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/ogi_kimura/items/d1578a8bedc53404f8ef?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-16T07:32:28.000Z</updated>
-        <summary type="html"><![CDATA[最近思うこと  2024年1月に電子帳簿保存法が改定され、領収書や請求書を紙ではなく電子データのまま保存できるようになりました。さらに、同年10月には郵便料金の値上げも予定されています。この変化に…]]></summary>
-        <content type="html"><![CDATA[最近思うこと  2024年1月に電子帳簿保存法が改定され、領収書や請求書を紙ではなく電子データのまま保存できるようになりました。さらに、同年10月には郵便料金の値上げも予定されています。この変化に…]]></content>
-        <published>2024-09-16T07:32:28.000Z</published>
+        <title type="html"><![CDATA[数学２の領域における問題について | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/arairuca/items/01a0f90414ae203cb5d0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/arairuca/items/01a0f90414ae203cb5d0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-16T08:00:46.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 高校数学の数学2の領域の問題は、一般的に難しく奥が深い傾向がある。というのは、時には三角関数や相加・相乗平均、微積分といった総合力が試され、必要条件や十分条件といった論理の理解も必要だから…]]></summary>
+        <content type="html"><![CDATA[はじめに 高校数学の数学2の領域の問題は、一般的に難しく奥が深い傾向がある。というのは、時には三角関数や相加・相乗平均、微積分といった総合力が試され、必要条件や十分条件といった論理の理解も必要だから…]]></content>
+        <published>2024-09-16T08:00:46.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【リメイク版】最新のNext.jsとSupabaseで認証ブログを作ろう | Zennのトレンド]]></title>
@@ -92,6 +365,18 @@
             <name>はる@フルスタックチャンネル</name>
         </author>
         <published>2024-09-16T06:17:57.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMアキネータ対戦環境を作ってみた | Zennのトレンド]]></title>
+        <id>https://zenn.dev/robustonian/articles/20_questions_bench</id>
+        <link href="https://zenn.dev/robustonian/articles/20_questions_bench"/>
+        <updated>2024-09-16T06:11:22.000Z</updated>
+        <summary type="html"><![CDATA[はじめに   どんな人向けの記事？  LLMに興味のある方 LLMの性能に興味のある方 LLM同士でアキネータゲームをしたときの挙動が気になる方   環境 Mac Studio（M2 Ultra 128GB）     概要 今回の記事の概要は下記のとおりです。  LLMの評価を行う方法の一つとして、LLMアキネータ対戦環境を構築 いくつかのモデルでの検証結果 所感と今後の課題 まとめ    背景 ...]]></summary>
+        <content type="html"><![CDATA[はじめに   どんな人向けの記事？  LLMに興味のある方 LLMの性能に興味のある方 LLM同士でアキネータゲームをしたときの挙動が気になる方   環境 Mac Studio（M2 Ultra 128GB）     概要 今回の記事の概要は下記のとおりです。  LLMの評価を行う方法の一つとして、LLMアキネータ対戦環境を構築 いくつかのモデルでの検証結果 所感と今後の課題 まとめ    背景 2つほど前の記事では、LLMに人狼ゲームをしてもらいました。 https://zenn.dev/robustonian/articles/llm_warewolf_bench しかし、人狼ゲ...]]></content>
+        <author>
+            <name>金のニワトリ</name>
+        </author>
+        <published>2024-09-16T06:11:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ULogViewer 4.0.12.915 | ダウンロードと使い方 | ソフタロウ]]></title>
@@ -112,6 +397,39 @@
         <category label="フリーソフト"/>
         <category label="ログビューア"/>
         <published>2024-09-16T05:59:47.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[努力してSAAに合格したので勉強方法と解き方のコツをシェア | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/ysk91_engineer/items/76db3634cee2b93c0eb0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/ysk91_engineer/items/76db3634cee2b93c0eb0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-16T05:40:55.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 2024年9月にSAAを受験して合格しました。 5月から勉強を開始したので、学習期間としては3〜4ヶ月程度となります。 著者スペック  エンジニア歴  1年4ヶ月   AWSとの関わり  未経験時に…]]></summary>
+        <content type="html"><![CDATA[はじめに 2024年9月にSAAを受験して合格しました。 5月から勉強を開始したので、学習期間としては3〜4ヶ月程度となります。 著者スペック  エンジニア歴  1年4ヶ月   AWSとの関わり  未経験時に…]]></content>
+        <published>2024-09-16T05:40:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nixファイルの整理方法: imports/import関数 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/yasunori_kirin/articles/0014-nix_file_arrangement_tips_for_import</id>
+        <link href="https://zenn.dev/yasunori_kirin/articles/0014-nix_file_arrangement_tips_for_import"/>
+        <updated>2024-09-16T05:37:20.000Z</updated>
+        <summary type="html"><![CDATA[始めに 前回書いたNixOSの記事の評判が良く、 「少しでもNixへチャレンジしてくれる人が増えてくれたら嬉しいな」と思う今日この頃です。 さて、今回は個人利用の範囲では常用運用できているNixOSですが、 どのように設定ファイルを分割して保守しているのか備忘録的にまとめたいと思います。   前提 https://zenn.dev/asa1984/books/nix-hands-on 早速ですが、...]]></summary>
+        <content type="html"><![CDATA[始めに 前回書いたNixOSの記事の評判が良く、 「少しでもNixへチャレンジしてくれる人が増えてくれたら嬉しいな」と思う今日この頃です。 さて、今回は個人利用の範囲では常用運用できているNixOSですが、 どのように設定ファイルを分割して保守しているのか備忘録的にまとめたいと思います。   前提 https://zenn.dev/asa1984/books/nix-hands-on 早速ですが、先日公開された「Nix入門：ハンズオン」は是非一読していただきたいです。 上記の本で紹介されているNix言語の文法を元に、私が使用している内容に触れていきます。 この記事ではNixOSやho...]]></content>
+        <author>
+            <name>yasunori0418</name>
+        </author>
+        <published>2024-09-16T05:37:20.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jotaiはどのようにして誕生したのか、単なるRecoilの代替手段なのか？ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/dai_shi/articles/f770b771b75f73</id>
+        <link href="https://zenn.dev/dai_shi/articles/f770b771b75f73"/>
+        <updated>2024-09-16T05:36:55.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、Jotaiの作者です。Jotaiが生まれるまでに様々な取り組みをした歴史を短い記事にしてありますのでよろしければご覧ください。今後のJotaiの発展に期待します。 https://blog.axlight.com/posts/how-jotai-was-born/ 以下、ChatGPTによる翻訳です。    はじめに この投稿では、なぜ私がJotaiの開発を始めたのか、その背景にあるス...]]></summary>
+        <content type="html"><![CDATA[こんにちは、Jotaiの作者です。Jotaiが生まれるまでに様々な取り組みをした歴史を短い記事にしてありますのでよろしければご覧ください。今後のJotaiの発展に期待します。 https://blog.axlight.com/posts/how-jotai-was-born/ 以下、ChatGPTによる翻訳です。    はじめに この投稿では、なぜ私がJotaiの開発を始めたのか、その背景にあるストーリーを共有したいと思います。JotaiはしばしばRecoilと似たような解決策と見なされますが、その開発にはもっと長い歴史があります。   React Hooks React Hooksが最...]]></content>
+        <author>
+            <name>daishi</name>
+        </author>
+        <published>2024-09-16T05:36:55.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[【個人開発】ソロ活をお助け！ひとり外食専用投稿アプリを作成しました🍽️【Rails】 | Qiita - 人気の記事]]></title>
@@ -152,6 +470,18 @@
         <summary type="html"><![CDATA[プロキシを無効にすることは必要な場合もありますが、リスクも伴います。以下の方法で行うことができます。  プロキシサーバーは、デバイスとインターネットの間にある中継サーバーです。プロキシサーバーはIPア…]]></summary>
         <content type="html"><![CDATA[プロキシを無効にすることは必要な場合もありますが、リスクも伴います。以下の方法で行うことができます。  プロキシサーバーは、デバイスとインターネットの間にある中継サーバーです。プロキシサーバーはIPア…]]></content>
         <published>2024-09-16T04:14:51.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QEMU で x86_64 Linux 環境を構築する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sankantsu/articles/e213afb3eb76c7</id>
+        <link href="https://zenn.dev/sankantsu/articles/e213afb3eb76c7"/>
+        <updated>2024-09-16T04:06:06.000Z</updated>
+        <summary type="html"><![CDATA[TL;DR # QEMU のインストール brew install qemu  # ディスクイメージの作成 qemu-img create -f qcow2 ubuntu-disk.img 32G  # Ubuntu Server のインストール wget https://ubuntu.com/download/server/thank-you?version=24.04.1&architectu...]]></summary>
+        <content type="html"><![CDATA[TL;DR # QEMU のインストール brew install qemu  # ディスクイメージの作成 qemu-img create -f qcow2 ubuntu-disk.img 32G  # Ubuntu Server のインストール wget https://ubuntu.com/download/server/thank-you?version=24.04.1&architecture=amd64&lts=true qemu-system-x86_64 -accel tcg -boot menu=on -cdrom ubuntu-24.04-live-...]]></content>
+        <author>
+            <name>sankantsu</name>
+        </author>
+        <published>2024-09-16T04:06:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Amazon S3 Glacier Deep Archiveからデータを取り出す方法(復元・ダウンロード) | エンジニアブログ | iret.media]]></title>
@@ -249,6 +579,15 @@
         <published>2024-09-15T23:02:09.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[「hello」と言うと、カラフルなパーティクルが画面の中央から噴出するゲーム。 | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/tetsutakamurata76/items/933c7f0c5f84f5e898ee?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/tetsutakamurata76/items/933c7f0c5f84f5e898ee?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-15T20:02:01.000Z</updated>
+        <summary type="html"><![CDATA[論文風の解説: 音声コマンドに基づくカラフルなパーティクルシステムの実装 概要 本研究では、音声コマンドをトリガーとして、視覚的に魅力的なカラフルなパーティクルシステムを生成するウェブアプリケーショ…]]></summary>
+        <content type="html"><![CDATA[論文風の解説: 音声コマンドに基づくカラフルなパーティクルシステムの実装 概要 本研究では、音声コマンドをトリガーとして、視覚的に魅力的なカラフルなパーティクルシステムを生成するウェブアプリケーショ…]]></content>
+        <published>2024-09-15T20:02:01.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Space of Physical Frameworks (Part 4) | The n-Category Café]]></title>
         <id>https://golem.ph.utexas.edu/category/2024/09/the_space_of_physical_framewor_2.html</id>
         <link href="https://golem.ph.utexas.edu/category/2024/09/the_space_of_physical_framewor_2.html"/>
@@ -258,13 +597,16 @@
         <published>2024-09-15T20:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[カッコイイ楕円球をながめるゲーム。 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/tetsutakamurata76/items/4f20f7f5534290a9d7de?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/tetsutakamurata76/items/4f20f7f5534290a9d7de?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-15T19:17:12.000Z</updated>
-        <summary type="html"><![CDATA[カッコイイ楕円球をながめるゲーム。    <!DOCTYPE html> <html lang="en"> <head>  <meta charset="UTF-8">  <meta name="viewpo…]]></summary>
-        <content type="html"><![CDATA[カッコイイ楕円球をながめるゲーム。    <!DOCTYPE html> <html lang="en"> <head>  <meta charset="UTF-8">  <meta name="viewpo…]]></content>
-        <published>2024-09-15T19:17:12.000Z</published>
+        <title type="html"><![CDATA[SF Symbolsをアニメーションさせる【UIKit / SwiftUI】 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/youandtaichi/articles/78d212c530a1f4</id>
+        <link href="https://zenn.dev/youandtaichi/articles/78d212c530a1f4"/>
+        <updated>2024-09-15T19:50:10.000Z</updated>
+        <summary type="html"><![CDATA[何の記事？ この記事ではSF Symbolsが提供しているアニメーション(Symbol Effect)についてまとめました。   動作環境  Xcode 16 Beta iOS 18.0 Beta    読んで欲しい人  最低限のUIKit/SwiftUIの知識がある人 SF Symbolsが標準で提供する強力なSymbol Effectを使いこなしてより良いインターフェースを設計したい人    ...]]></summary>
+        <content type="html"><![CDATA[何の記事？ この記事ではSF Symbolsが提供しているアニメーション(Symbol Effect)についてまとめました。   動作環境  Xcode 16 Beta iOS 18.0 Beta    読んで欲しい人  最低限のUIKit/SwiftUIの知識がある人 SF Symbolsが標準で提供する強力なSymbol Effectを使いこなしてより良いインターフェースを設計したい人    SF Symbolsについて 皆さんのアプリではSF Symbolsを利用していますか？ SF Symbolsは6,000以上のシンボルを収録したライブラリで、Appleプラットフォーム用...]]></content>
+        <author>
+            <name>armtic</name>
+        </author>
+        <published>2024-09-15T19:50:10.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[「コード×AI」宇宙最速レビュー！生成AI時代のプログラミング教書 | Qiita - 人気の記事]]></title>
@@ -295,6 +637,13 @@
             <name>yuys13</name>
         </author>
         <published>2024-09-15T15:00:05.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eBPFのこれまでとこれから (Yutaro Hayakawa) | 勉強会スライドBot]]></title>
+        <id>https://speakerdeck.com/yutarohayakawa/ebpfnokoremadetokorekara</id>
+        <link href="https://speakerdeck.com/yutarohayakawa/ebpfnokoremadetokorekara"/>
+        <updated>2024-09-15T15:00:00.000Z</updated>
+        <published>2024-09-15T15:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[PdMはどのように全てのスピードを上げられるか　~ 非連続進化のための具体的な取り組み ~ (SansanTech) | 勉強会スライドBot]]></title>
@@ -345,13 +694,13 @@
         <published>2024-09-15T13:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ノーズカーブと電圧不安定現象 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/arairuca/items/b2211c4bf933641daf56?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/arairuca/items/b2211c4bf933641daf56?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-15T13:21:51.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 変圧器のタップ切替時において電圧が不安定になる現象がある。これは、ノーズカーブと負荷曲線の交点である運転点がどのように推移するかで説明することができる。そこで今回は、平成27年の電験一種過…]]></summary>
-        <content type="html"><![CDATA[はじめに 変圧器のタップ切替時において電圧が不安定になる現象がある。これは、ノーズカーブと負荷曲線の交点である運転点がどのように推移するかで説明することができる。そこで今回は、平成27年の電験一種過…]]></content>
-        <published>2024-09-15T13:21:51.000Z</published>
+        <title type="html"><![CDATA[useSWRについての学習 useEffectよりも優れたデータ取得法（useSWRInfinite、useSWRSubscription...） | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/k-mat438/items/d7d8f11aa2523af62ecf?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/k-mat438/items/d7d8f11aa2523af62ecf?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-15T13:08:52.000Z</updated>
+        <summary type="html"><![CDATA[はじめに Reactアプリケーションでデータ取得を効率的に行うことは、パフォーマンスとユーザー体験を向上させる上で非常に重要です。その中で、Vercel社が開発したuseSWRは、データフェッチング…]]></summary>
+        <content type="html"><![CDATA[はじめに Reactアプリケーションでデータ取得を効率的に行うことは、パフォーマンスとユーザー体験を向上させる上で非常に重要です。その中で、Vercel社が開発したuseSWRは、データフェッチング…]]></content>
+        <published>2024-09-15T13:08:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[株式会社いい生活のサマーインターンに参加してきた | Qiita - 人気の記事]]></title>
@@ -386,15 +735,6 @@
         </author>
         <category label="LIFESTYLE"/>
         <published>2024-09-15T12:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hardening 2024 Convolutionsに向けてAyato Hardeningを開催した話 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/labpixel/items/3cc05a0345eefcbbfc93?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/labpixel/items/3cc05a0345eefcbbfc93?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-15T11:21:03.000Z</updated>
-        <summary type="html"><![CDATA[こんにちわ。株式会社フォアーゼットにてペンテスターをしている蔀と申します。 今回はHardeningにおける、技術演習を通じたチームビルディングについて書きます。現在もHardening競技会に向け…]]></summary>
-        <content type="html"><![CDATA[こんにちわ。株式会社フォアーゼットにてペンテスターをしている蔀と申します。 今回はHardeningにおける、技術演習を通じたチームビルディングについて書きます。現在もHardening競技会に向け…]]></content>
-        <published>2024-09-15T11:21:03.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[今回はiPhone 16に決定。僕には「Pro」はすごすぎた | ギズモード・ジャパン]]></title>
@@ -453,15 +793,6 @@
         <published>2024-09-15T09:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【アウトプット学習2ヶ月続けた結果】遂にゼロから個人開発アプリをリリース！ | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/acu8/items/30ab56eb9d77c2a67594?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/acu8/items/30ab56eb9d77c2a67594?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-15T09:02:07.000Z</updated>
-        <summary type="html"><![CDATA[はじめに アウトプット学習を初めて2ヶ月が経ったので振り返っていきたいと思います。 ちなみに1ヶ月目の振り返りはこちらになりますので、ご興味があれば覗いてみてください。 https://qiita.…]]></summary>
-        <content type="html"><![CDATA[はじめに アウトプット学習を初めて2ヶ月が経ったので振り返っていきたいと思います。 ちなみに1ヶ月目の振り返りはこちらになりますので、ご興味があれば覗いてみてください。 https://qiita.…]]></content>
-        <published>2024-09-15T09:02:07.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[動物の能力は無限大。動物たちのおもしろ生態系3選 | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/09/animal-habitats-matome.html</id>
         <link href="https://www.gizmodo.jp/2024/09/animal-habitats-matome.html"/>
@@ -482,18 +813,6 @@
         <summary type="html"><![CDATA[はじめに こんにちは、Watanabe Jin(@Sicut_study)です。 アプリを作る上で事前に手札が多いほうが、実現できるアイデアの幅も広くなります。 今回は「AIによる画像生成」「スト…]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは、Watanabe Jin(@Sicut_study)です。 アプリを作る上で事前に手札が多いほうが、実現できるアイデアの幅も広くなります。 今回は「AIによる画像生成」「スト…]]></content>
         <published>2024-09-15T08:51:24.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JR東日本のリアルタイムデータで乗換案内（OTP）を動かす -1.Docker起動編- | Zennのトレンド]]></title>
-        <id>https://zenn.dev/takoyaki3/articles/25c036daaf0d75</id>
-        <link href="https://zenn.dev/takoyaki3/articles/25c036daaf0d75"/>
-        <updated>2024-09-15T08:46:47.000Z</updated>
-        <summary type="html"><![CDATA[公共交通オープンデータチャレンジ2024で提供されるデータを使い、リアルタイム性を考慮した経路検索ができるOpenTripPlanner (OTP) と Docker Compose を用いて、JR東日本の首都圏のデータで、リアルタイムの運行情報を反映した経路検索を実行するまでをご紹介します。 公共交通オープンデータチャレンジ2024ではJR東日本の関東エリアにおける一部の路線遅延情報や在線情報な...]]></summary>
-        <content type="html"><![CDATA[公共交通オープンデータチャレンジ2024で提供されるデータを使い、リアルタイム性を考慮した経路検索ができるOpenTripPlanner (OTP) と Docker Compose を用いて、JR東日本の首都圏のデータで、リアルタイムの運行情報を反映した経路検索を実行するまでをご紹介します。 公共交通オープンデータチャレンジ2024ではJR東日本の関東エリアにおける一部の路線遅延情報や在線情報などのリアルタイム情報がGTFS-RT形式で配信されているため、下の図のように、山手線が現在7分遅れていることなど、リアルタイムな遅延を考慮した経路検索をローカル環境で動かすことができます！  過...]]></content>
-        <author>
-            <name>たこやき</name>
-        </author>
-        <published>2024-09-15T08:46:47.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Next.jsをCloud Runにデプロイする際にビルド時の環境変数を設定する | Zennのトレンド]]></title>
@@ -530,42 +849,6 @@
         <published>2024-09-15T07:06:34.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【Go】GinでCRUDなREST API作ってみた #1 (環境設定とモデルのマイグレーションまで) | Zennのトレンド]]></title>
-        <id>https://zenn.dev/daino/articles/41524068ce68bf</id>
-        <link href="https://zenn.dev/daino/articles/41524068ce68bf"/>
-        <updated>2024-09-15T06:34:06.000Z</updated>
-        <summary type="html"><![CDATA[Itemオブジェクトの作成(Create)、読み込み(Read)、更新(Update)、削除(Delete)を行うAPIをginフレームワーク、postgresqlを使用して作りました。 さらに、pgAdmin(postgresql用のGUI管理ツール)を使用し、データベースサーバーを作成しました。   はじめに   Ginフレームワークの特徴  軽量で高速なパフォーマンス  基数木（redix ...]]></summary>
-        <content type="html"><![CDATA[Itemオブジェクトの作成(Create)、読み込み(Read)、更新(Update)、削除(Delete)を行うAPIをginフレームワーク、postgresqlを使用して作りました。 さらに、pgAdmin(postgresql用のGUI管理ツール)を使用し、データベースサーバーを作成しました。   はじめに   Ginフレームワークの特徴  軽量で高速なパフォーマンス  基数木（redix tree）を元にしたルーティング、小さなメモリフットプリント、リフレクションなし、予測可能な API 性能などの特徴があります。   ミドルウェアのサポート  受信したHTTPリクエストをミドル...]]></content>
-        <author>
-            <name>dainouesuketarou</name>
-        </author>
-        <published>2024-09-15T06:34:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blosc2 で Numpy Array を高速に圧縮・展開する | Zennのトレンド]]></title>
-        <id>https://zenn.dev/zaburo_ch/articles/a13a0772d2f251</id>
-        <link href="https://zenn.dev/zaburo_ch/articles/a13a0772d2f251"/>
-        <updated>2024-09-15T06:32:18.000Z</updated>
-        <summary type="html"><![CDATA[Numpy Array を保存するとき、numpy に用意されている np.savez_compressed を使うのが一般的だと思いますが、blosc2.pack_array2/blosc2.unpack_array2 が速度・圧縮率の両面で優秀なので、適当なデータで圧縮してみた実験結果を紹介したいと思います。 最も典型的な Dense なデータで比較した結果だけ先に紹介しておくと、np.sav...]]></summary>
-        <content type="html"><![CDATA[Numpy Array を保存するとき、numpy に用意されている np.savez_compressed を使うのが一般的だと思いますが、blosc2.pack_array2/blosc2.unpack_array2 が速度・圧縮率の両面で優秀なので、適当なデータで圧縮してみた実験結果を紹介したいと思います。 最も典型的な Dense なデータで比較した結果だけ先に紹介しておくと、np.savez_compressed に比べて、圧縮が38倍、展開が16倍高速で、ファイルサイズも 8% 程度縮みます。   インストール 普通に pip でインストールできます pip install ...]]></content>
-        <author>
-            <name>zaburo_ch</name>
-        </author>
-        <published>2024-09-15T06:32:18.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT (o1-preview) にテストを渡してコードを実装させるとどうなるか試した | Zennのトレンド]]></title>
-        <id>https://zenn.dev/sterashima78/articles/2b6fafc86415b6</id>
-        <link href="https://zenn.dev/sterashima78/articles/2b6fafc86415b6"/>
-        <updated>2024-09-15T06:30:27.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 前にも別のモデルでやってる https://zenn.dev/sterashima78/articles/7876bd00aa2115 https://zenn.dev/sterashima78/articles/8bca47a054fabd ただ o1-preview は、やり取りを重ねるよりも一発で終わらせるほうがいいらしいので、最終的なテスト全体を渡すようにした。 情報の提示方法が...]]></summary>
-        <content type="html"><![CDATA[はじめに 前にも別のモデルでやってる https://zenn.dev/sterashima78/articles/7876bd00aa2115 https://zenn.dev/sterashima78/articles/8bca47a054fabd ただ o1-preview は、やり取りを重ねるよりも一発で終わらせるほうがいいらしいので、最終的なテスト全体を渡すようにした。 情報の提示方法が異なると当然結果も変わるので、 gpt-4o でも同様なことを試した。   材料 プロンプトは以下。 基本的に最初にやったときと同じ。ペアプロではないのでその部分の調整をしている - 私がテ...]]></content>
-        <author>
-            <name>sterashima78</name>
-        </author>
-        <published>2024-09-15T06:30:27.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[キングジムの「非常用車載セット」を車に積んでおくと、安心感がケタ違い | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/09/kingjim_set.html</id>
         <link href="https://www.gizmodo.jp/2024/09/kingjim_set.html"/>
@@ -586,15 +869,6 @@
         <summary type="html"><![CDATA[はじめに 包み隠さずオープンに伝えると、投稿主は質問が全然上手ではありません。 多分、この記事を読んでいる皆さんの方が何倍も上手です。 ということで本記事は以上です（冗談です） こちらでは誰よりも質…]]></summary>
         <content type="html"><![CDATA[はじめに 包み隠さずオープンに伝えると、投稿主は質問が全然上手ではありません。 多分、この記事を読んでいる皆さんの方が何倍も上手です。 ということで本記事は以上です（冗談です） こちらでは誰よりも質…]]></content>
         <published>2024-09-15T05:28:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SharePoint リストの選択肢列をPower Automateで操作する | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/ksgiksg/items/0c82d16cc1938d73b877?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/ksgiksg/items/0c82d16cc1938d73b877?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-15T05:06:42.000Z</updated>
-        <summary type="html"><![CDATA[はじめに リストの選択肢を自動的に増やしたり減らしたりしたいときの方法です。  ここを編集したい、というのが本記事の内容です。   SharePoint リストはよく、簡易データベースとしてPower A…]]></summary>
-        <content type="html"><![CDATA[はじめに リストの選択肢を自動的に増やしたり減らしたりしたいときの方法です。  ここを編集したい、というのが本記事の内容です。   SharePoint リストはよく、簡易データベースとしてPower A…]]></content>
-        <published>2024-09-15T05:06:42.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[画像生成AI Adobe Firefly × Illustrator | エンジニアブログ | iret.media]]></title>
@@ -658,6 +932,15 @@
         <published>2024-09-15T02:55:07.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Qiitaのトレンド記事を要約してまとめたモノ（さぼり） | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/chi1180/items/dd11c1ff97f070ead8b0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/chi1180/items/dd11c1ff97f070ead8b0?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-15T02:20:06.000Z</updated>
+        <summary type="html"><![CDATA[生産性爆上がり!?エンジニアのおやつ大解剖!!! エンジニアの集中力アップに役立つおやつ選びのポイントを紹介。ブドウ糖補給にはラムネやチョコレート、腹持ちにはナッツ類やドライフルーツ、リフレッシュに…]]></summary>
+        <content type="html"><![CDATA[生産性爆上がり!?エンジニアのおやつ大解剖!!! エンジニアの集中力アップに役立つおやつ選びのポイントを紹介。ブドウ糖補給にはラムネやチョコレート、腹持ちにはナッツ類やドライフルーツ、リフレッシュに…]]></content>
+        <published>2024-09-15T02:20:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[LayerXのサマーインターンに参加しました | Zennのトレンド]]></title>
         <id>https://zenn.dev/mshr0969/articles/9957757b3ee285</id>
         <link href="https://zenn.dev/mshr0969/articles/9957757b3ee285"/>
@@ -668,6 +951,18 @@
             <name>masa</name>
         </author>
         <published>2024-09-15T02:15:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Null許容参照型がF#にも来るぞー | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sayurin/articles/76862d81242f45</id>
+        <link href="https://zenn.dev/sayurin/articles/76862d81242f45"/>
+        <updated>2024-09-15T02:02:41.000Z</updated>
+        <summary type="html"><![CDATA[Null許容参照型 C# 8.0で導入された、Null許容参照型（Nullable Reference Types）がF#にも来るらしいです。   従来のNull対応 F#では従来からnull安全のための設計がされていました。基本的にnullを許さない方針で、代わりに用意されたOption型やValueOption型を使うように設計されています。どうしてもnullを扱う場合は、[<AllowNul...]]></summary>
+        <content type="html"><![CDATA[Null許容参照型 C# 8.0で導入された、Null許容参照型（Nullable Reference Types）がF#にも来るらしいです。   従来のNull対応 F#では従来からnull安全のための設計がされていました。基本的にnullを許さない方針で、代わりに用意されたOption型やValueOption型を使うように設計されています。どうしてもnullを扱う場合は、[<AllowNullLiteral>]属性を付けて明示するようになっていました。 しかし、F#がどんなに努力しても.NETクラスライブラリからはnullが送られてくるという現実からは避けられません...]]></content>
+        <author>
+            <name>Kurata Sayuri</name>
+        </author>
+        <published>2024-09-15T02:02:41.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[プレーヤー数急落の『パルワールド』、基本無料化を否定「私たちの方針には合わない」　今後のスキンやDLC販売は検討 | テクノエッジ TechnoEdge]]></title>
@@ -703,6 +998,15 @@
         </author>
         <category label="SCIENCE"/>
         <published>2024-09-15T01:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter で Bar Chart 📊 を自作しよう！ | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/temoki/items/34755b09fbee54075cda?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/temoki/items/34755b09fbee54075cda?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-15T00:56:14.000Z</updated>
+        <summary type="html"><![CDATA[2024/9/14 に石川県で開催された FlutterKaigi mini #2 で LT した資料です。  💪 モチベーション  🔋 愛車（EV）の日々の充電データをグラフ化したい 📊 デザインや…]]></summary>
+        <content type="html"><![CDATA[2024/9/14 に石川県で開催された FlutterKaigi mini #2 で LT した資料です。  💪 モチベーション  🔋 愛車（EV）の日々の充電データをグラフ化したい 📊 デザインや…]]></content>
+        <published>2024-09-15T00:56:14.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[15のProちゃん、さようなら。16登場で終売になったiPhoneたち | ギズモード・ジャパン]]></title>
@@ -811,21 +1115,12 @@
         <published>2024-09-14T13:15:40.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[作図はテキストで！Mermaid, PlantUML and Graphviz | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/aokikenichi/items/cb65c546fced7d89fdfb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/aokikenichi/items/cb65c546fced7d89fdfb?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-14T12:24:54.000Z</updated>
-        <summary type="html"><![CDATA[本記事のめあて 作図となるとExcelやPowerPoint、あるいは作図ツールを使うことが多いと思う。でも必要以上に凝りすぎて時間を無駄にしてませんか。 グラフ記法というものがあり、QiitaやV…]]></summary>
-        <content type="html"><![CDATA[本記事のめあて 作図となるとExcelやPowerPoint、あるいは作図ツールを使うことが多いと思う。でも必要以上に凝りすぎて時間を無駄にしてませんか。 グラフ記法というものがあり、QiitaやV…]]></content>
-        <published>2024-09-14T12:24:54.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[給与所得者の自作キーボード活動における税金の話 | Zennのトレンド]]></title>
         <id>https://zenn.dev/ymkn/articles/6a9e9fca3a3470</id>
         <link href="https://zenn.dev/ymkn/articles/6a9e9fca3a3470"/>
         <updated>2024-09-14T12:24:38.000Z</updated>
-        <summary type="html"><![CDATA[一般的な給与所得者が趣味の範囲で有償頒布を伴う自作キーボード活動をするにあたり、適切に税金を納めながらも手間を最小化するための考え方のメモ。 結論としては、活動による所得を0円以下（赤字）に抑え、PCB等を海外サービスに発注する際は送料等込み費用が1万円以下となるようにすれば、特に気にすることはない。 但し、JLCPCBでOCS Expressを配送業者に指定する場合は、送料を除外した費用が1万円...]]></summary>
-        <content type="html"><![CDATA[一般的な給与所得者が趣味の範囲で有償頒布を伴う自作キーボード活動をするにあたり、適切に税金を納めながらも手間を最小化するための考え方のメモ。 結論としては、活動による所得を0円以下（赤字）に抑え、PCB等を海外サービスに発注する際は送料等込み費用が1万円以下となるようにすれば、特に気にすることはない。 但し、JLCPCBでOCS Expressを配送業者に指定する場合は、送料を除外した費用が1万円以下かどうかで考えて良い（インコタームズがC&Fとなるようなので）。   本記事の対象 下記を全て満たす人が対象。  1箇所の一般法人のみに所属する給与所得者で給与収入が2000万円以下...]]></content>
+        <summary type="html"><![CDATA[一般的な給与所得者が趣味の範囲で有償頒布を伴う自作キーボード活動をするにあたり、適切に税金を納めながらも手間を最小化するための考え方のメモ。 結論としては、活動による所得を0円以下（赤字）に抑え、PCB等を海外サービスに発注する際は送料等込み費用が1万円以下となるようにすれば、特に気にすることはない。 なお、JLCPCBでOCS Expressを配送業者に指定する場合は、送料を除外した費用が1万円...]]></summary>
+        <content type="html"><![CDATA[一般的な給与所得者が趣味の範囲で有償頒布を伴う自作キーボード活動をするにあたり、適切に税金を納めながらも手間を最小化するための考え方のメモ。 結論としては、活動による所得を0円以下（赤字）に抑え、PCB等を海外サービスに発注する際は送料等込み費用が1万円以下となるようにすれば、特に気にすることはない。 なお、JLCPCBでOCS Expressを配送業者に指定する場合は、送料を除外した費用が1万円以下かどうかで考えて良いので少し余裕ができる（インコタームズがC&Fとなるようなので）。   本記事の対象 下記を全て満たす人が対象。  1箇所の一般法人のみに所属する給与所得者で給与収...]]></content>
         <author>
             <name>ymkn</name>
         </author>
@@ -901,19 +1196,6 @@
         <published>2024-09-14T10:35:50.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[折りたたみスマホのケース選びは、いつも以上に慎重になったほうがいい | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/09/fold-smartphone-case-select-think-well.html</id>
-        <link href="https://www.gizmodo.jp/2024/09/fold-smartphone-case-select-think-well.html"/>
-        <updated>2024-09-14T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:はらいさんコスパ的にどうなんだろう...。先日発売開始となったPixel9ProFold。初代に比べて明らかに使い勝手が良くなった印象を受けたんですが、約26万円という高級デバイスなだけに端末はしっかりと守りたい。そこで、安心感のあるメーカー純正の保護ケースを買ってみました。純正だから、満足の行く性能を発揮してくれると期待して。純正ケース、開封Image:GoogleStorePixe]]></summary>
-        <content type="html"><![CDATA[Photo:はらいさんコスパ的にどうなんだろう...。先日発売開始となったPixel9ProFold。初代に比べて明らかに使い勝手が良くなった印象を受けたんですが、約26万円という高級デバイスなだけに端末はしっかりと守りたい。そこで、安心感のあるメーカー純正の保護ケースを買ってみました。純正だから、満足の行く性能を発揮してくれると期待して。純正ケース、開封Image:GoogleStorePixe]]></content>
-        <author>
-            <name>はらいさん</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-09-14T10:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Laravel v11.23 で同時実行（Concurrency）が使えるようになったので試してみた | Zennのトレンド]]></title>
         <id>https://zenn.dev/yoppy/articles/laravel-concurrency</id>
         <link href="https://zenn.dev/yoppy/articles/laravel-concurrency"/>
@@ -926,17 +1208,13 @@
         <published>2024-09-14T09:55:22.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[美味しさにホッと一息。備えておきたい「グルメな保存食」3選 | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/09/preserved-food-matome.html</id>
-        <link href="https://www.gizmodo.jp/2024/09/preserved-food-matome.html"/>
-        <updated>2024-09-14T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:mio台風も多く、防災意識が高まる9月。いざというときの保存食は、ただ栄養があるだけでなく、ホッと安心できる美味しさがあることも大切です。そこで今回は、いま気になる美味しい保存食をまとめてご紹介します。まるでリゾットな「洋風トマトごはん」Photo:mio保存食で「美味しいごはん＝ライス」を食べたいときにぴったりなのが、HOZONHOZONの｢洋風トマトごはん｣。保存食というと味気ない]]></summary>
-        <content type="html"><![CDATA[Photo:mio台風も多く、防災意識が高まる9月。いざというときの保存食は、ただ栄養があるだけでなく、ホッと安心できる美味しさがあることも大切です。そこで今回は、いま気になる美味しい保存食をまとめてご紹介します。まるでリゾットな「洋風トマトごはん」Photo:mio保存食で「美味しいごはん＝ライス」を食べたいときにぴったりなのが、HOZONHOZONの｢洋風トマトごはん｣。保存食というと味気ない]]></content>
-        <author>
-            <name>シラクマ</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-09-14T09:00:00.000Z</published>
+        <title type="html"><![CDATA[ヘッダーにあるBearerって何なの？  | Qiita - 人気の記事]]></title>
+        <id>https://qiita.com/minatonton8092/items/34f9169f64d15172692a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
+        <link href="https://qiita.com/minatonton8092/items/34f9169f64d15172692a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
+        <updated>2024-09-14T08:44:34.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 開発をしている時に、ヘッダーの中でアクセストークンの前に書くBearerって何なのか疑問に思ったので、まとめてみました。 Bearer ベアラと読み、運搬者、伝達者、担い手、持参者などの意…]]></summary>
+        <content type="html"><![CDATA[はじめに 開発をしている時に、ヘッダーの中でアクセストークンの前に書くBearerって何なのか疑問に思ったので、まとめてみました。 Bearer ベアラと読み、運搬者、伝達者、担い手、持参者などの意…]]></content>
+        <published>2024-09-14T08:44:34.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Zustandって大規模な状態管理に使えるの？Zustand-Slicesを作ったワケ | Zennのトレンド]]></title>
@@ -949,31 +1227,6 @@
             <name>daishi</name>
         </author>
         <published>2024-09-14T08:09:37.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go × PostgreSQL で実装できる キューイングシステム River を触ってみる | Zennのトレンド]]></title>
-        <id>https://zenn.dev/otakakot/articles/6e31f62b6ebc3d</id>
-        <link href="https://zenn.dev/otakakot/articles/6e31f62b6ebc3d"/>
-        <updated>2024-09-14T07:50:49.000Z</updated>
-        <summary type="html"><![CDATA[はじめに キューイングシステムを構築する選択肢として Amazon SQS や Google Cloud Pub/Sub などが挙げられると思います。 そんな数あるキューイングシステムを構築する選択肢として Go × PostgreSQL で実装できる River というライブラリの存在を知りました。 本記事は River を実際にちょっと触って遊んでみたのでその共有となります。 ※ 記事執筆時の...]]></summary>
-        <content type="html"><![CDATA[はじめに キューイングシステムを構築する選択肢として Amazon SQS や Google Cloud Pub/Sub などが挙げられると思います。 そんな数あるキューイングシステムを構築する選択肢として Go × PostgreSQL で実装できる River というライブラリの存在を知りました。 本記事は River を実際にちょっと触って遊んでみたのでその共有となります。 ※ 記事執筆時の River のバージョンは v0.11.4 です。   River とは https://riverqueue.com/    Fast and reliable background j...]]></content>
-        <author>
-            <name>おーたかこーたろー</name>
-        </author>
-        <published>2024-09-14T07:50:49.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASAが打ち上げた「宇宙ヨット」、ついに帆を開く | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/09/how-to-catch-a-glimpse-of-nasas-orbiting-solar-sail.html</id>
-        <link href="https://www.gizmodo.jp/2024/09/how-to-catch-a-glimpse-of-nasas-orbiting-solar-sail.html"/>
-        <updated>2024-09-14T07:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:NASA太陽のエネルギーで進むことができる宇宙船の誕生が、いよいよ目前に迫っています。NASAが、宇宙に打ち上げていたソーラー・セイル・システム、AdvancedCompositeSolarSail（ACS3）の"帆"（ソーラー・セイル）の展開に成功しました。ソーラー・セイルは、宇宙ヨットとも呼ばれ、宇宙空間で広げた帆で太陽の光子を受け、推進力にするシステムです。異常検知されるも、展開]]></summary>
-        <content type="html"><![CDATA[Image:NASA太陽のエネルギーで進むことができる宇宙船の誕生が、いよいよ目前に迫っています。NASAが、宇宙に打ち上げていたソーラー・セイル・システム、AdvancedCompositeSolarSail（ACS3）の"帆"（ソーラー・セイル）の展開に成功しました。ソーラー・セイルは、宇宙ヨットとも呼ばれ、宇宙空間で広げた帆で太陽の光子を受け、推進力にするシステムです。異常検知されるも、展開]]></content>
-        <author>
-            <name>小野寺しんいち</name>
-        </author>
-        <category label="SCIENCE"/>
-        <published>2024-09-14T07:35:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[hadolintを使ってDockerfileをベストプラクティスに沿った状態に保つ | Zennのトレンド]]></title>
@@ -1017,18 +1270,6 @@
         <summary type="html"><![CDATA[原文:https://elixir-lang.org/blog/2024/08/28/typing-lists-and-tuples/ (監訳: 山崎 進 @zacky1972 ) 私たちは、Eli…]]></summary>
         <content type="html"><![CDATA[原文:https://elixir-lang.org/blog/2024/08/28/typing-lists-and-tuples/ (監訳: 山崎 進 @zacky1972 ) 私たちは、Eli…]]></content>
         <published>2024-09-14T06:49:52.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【警告】AOAIモデルをデプロイしただけで◯万円？PTUなモデルデプロイ有無を一括確認できるようにしてみた話 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/chips0711/articles/63166e84db8ee4</id>
-        <link href="https://zenn.dev/chips0711/articles/63166e84db8ee4"/>
-        <updated>2024-09-14T04:41:22.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 先日、Azure OpenAI Service（以下、AOAI）でモデルをデプロイしただけで高額な課金が発生するという、ヒヤリとする体験をしました。同様の事例が他の方にも起こっていることを知り、これは対策が必要だと感じました。(せめて横並び確認の自動化くらいは･･･) 参考にした記事はこちらです： https://zenn.dev/umi_mori/articles/aoai-warni...]]></summary>
-        <content type="html"><![CDATA[はじめに 先日、Azure OpenAI Service（以下、AOAI）でモデルをデプロイしただけで高額な課金が発生するという、ヒヤリとする体験をしました。同様の事例が他の方にも起こっていることを知り、これは対策が必要だと感じました。(せめて横並び確認の自動化くらいは･･･) 参考にした記事はこちらです： https://zenn.dev/umi_mori/articles/aoai-warning-ptu この記事では、同じ問題に直面した背景と、その解決策としてテナント内のすべてのAOAIリソースを一括でチェックし、Provisioned-managedなデプロイメントを特定する...]]></content>
-        <author>
-            <name>Naoki Matsumoto</name>
-        </author>
-        <published>2024-09-14T04:41:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[全リージョンのマネージドインスタンスからアプリケーション一覧を取得する | エンジニアブログ | iret.media]]></title>
@@ -1114,15 +1355,6 @@
         <published>2024-09-14T00:17:15.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cursor の無料版を使い続ける場合の設定 | Qiita - 人気の記事]]></title>
-        <id>https://qiita.com/7shi/items/2e8e3ed2c39e3dc4ee22?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
-        <link href="https://qiita.com/7shi/items/2e8e3ed2c39e3dc4ee22?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
-        <updated>2024-09-13T19:07:05.000Z</updated>
-        <summary type="html"><![CDATA[Cursor の Pro 版でサポートされる AI 機能は非常に強力であり、無料版と比較して多くのメリットがあります。しかし、個人開発者や学生など予算に限りがある人にとっては、Pro 版の利用は難し…]]></summary>
-        <content type="html"><![CDATA[Cursor の Pro 版でサポートされる AI 機能は非常に強力であり、無料版と比較して多くのメリットがあります。しかし、個人開発者や学生など予算に限りがある人にとっては、Pro 版の利用は難し…]]></content>
-        <published>2024-09-13T19:07:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[7日間でハッキングをはじめる本をやってみた | Zennのトレンド]]></title>
         <id>https://zenn.dev/anri99103/articles/e22ecab6512be5</id>
         <link href="https://zenn.dev/anri99103/articles/e22ecab6512be5"/>
@@ -1139,13 +1371,8 @@
         <id>https://www.kdnuggets.com/?p=181816</id>
         <link href="https://www.kdnuggets.com/getting-started-with-openai-o1-reasoning-models?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=getting-started-with-openai-o1-reasoning-models"/>
         <updated>2024-09-13T16:35:25.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to use the OpenAI o1-preview & o1-mini for decision-making, coding, and building an end-to-end machine learning project from scratch.]]></summary>
-        <content type="html"><![CDATA[Learn how to use the OpenAI o1-preview & o1-mini for decision-making, coding, and building an end-to-end machine learning project from scratch.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Artificial Intelligence"/>
+        <summary type="html"><![CDATA[Image by Author While anticipating GPT-5, OpenAI has released an advanced language model that thinks critically before responding, demonstrating intelligence similar to a PhD student. This improved mo...]]></summary>
+        <content type="html"><![CDATA[Image by Author While anticipating GPT-5, OpenAI has released an advanced language model that thinks critically before responding, demonstrating intelligence similar to a PhD student. This improved model is a big step forward, providing useful solutions instead of missing instructions or hallucinating. In this blog, we will learn about OpenAI's o1 reasoning model and...]]></content>
         <published>2024-09-13T16:35:25.000Z</published>
     </entry>
     <entry>
@@ -1224,13 +1451,8 @@
         <id>https://www.kdnuggets.com/?p=181432</id>
         <link href="https://www.kdnuggets.com/a-beginners-guide-to-clickhouse-database?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=a-beginners-guide-to-clickhouse-database"/>
         <updated>2024-09-13T14:00:16.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to install ClickHouse DBMS, create a database, and run SQL queries using native and Python clients.]]></summary>
-        <content type="html"><![CDATA[Learn how to install ClickHouse DBMS, create a database, and run SQL queries using native and Python clients.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Engineering"/>
+        <summary type="html"><![CDATA[Image by Author | Canva Pro In this tutorial, we will explore ClickHouse, which is a powerful and fast column-store database management system. The step-by-step guide will cover installing and setting...]]></summary>
+        <content type="html"><![CDATA[Image by Author | Canva Pro In this tutorial, we will explore ClickHouse, which is a powerful and fast column-store database management system. The step-by-step guide will cover installing and setting up ClickHouse using the CURL command, creating databases, running SQL queries, and interacting with the ClickHouse database using both the native client and...]]></content>
         <published>2024-09-13T14:00:16.000Z</published>
     </entry>
     <entry>
@@ -1238,13 +1460,8 @@
         <id>https://www.kdnuggets.com/?p=179411</id>
         <link href="https://www.kdnuggets.com/implementing-multimodal-models-with-hugging-face-transformers?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=implementing-multimodal-models-with-hugging-face-transformers"/>
         <updated>2024-09-13T13:17:47.000Z</updated>
-        <summary type="html"><![CDATA[Learn to use the advanced models from Hugging Face.]]></summary>
-        <content type="html"><![CDATA[Learn to use the advanced models from Hugging Face.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Machine Learning"/>
+        <summary type="html"><![CDATA[Image by Editor | Ideogram Machine learning models have made a lot of progress in the past year. Artificial intelligence seems able to do anything that might be close to that. Speaking of models that ...]]></summary>
+        <content type="html"><![CDATA[Image by Editor | Ideogram Machine learning models have made a lot of progress in the past year. Artificial intelligence seems able to do anything that might be close to that. Speaking of models that can do anything, this is where we will discuss Multimodal Models. Multimodal models are not your typical machine learning...]]></content>
         <published>2024-09-13T13:17:47.000Z</published>
     </entry>
     <entry>
@@ -1651,10 +1868,10 @@
             <name>長島翔梧</name>
         </author>
         <category label="インターン"/>
-        <category label="Azure AI Search"/>
-        <category label="2024年度インターン"/>
         <category label="Azure"/>
         <category label="Azure OpenAI"/>
+        <category label="Azure AI Search"/>
+        <category label="2024年度インターン"/>
         <published>2024-09-13T04:11:53.000Z</published>
     </entry>
     <entry>
@@ -1944,15 +2161,6 @@
         <published>2024-09-12T21:32:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[God of War Ragnarök is coming to PC on Sept. 19, and you can already get $10 off | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/good-deals/450854/god-of-war-gow-ragnarok-pre-order-steam-pc-deal</id>
-        <link href="https://www.polygon.com/good-deals/450854/god-of-war-gow-ragnarok-pre-order-steam-pc-deal"/>
-        <updated>2024-09-12T21:06:45.000Z</updated>
-        <summary type="html"><![CDATA[God of War Ragnarök, the latest of Sony’s exclusive PlayStation games to migrate to PC storefronts, launches Sept. 19. If you didn’t play this title when it came to PlayStation consoles, and want to s...]]></summary>
-        <content type="html"><![CDATA[God of War Ragnarök, the latest of Sony’s exclusive PlayStation games to migrate to PC storefronts, launches Sept. 19. If you didn’t play this title when it came to PlayStation consoles, and want to see what happens next in the rebooted series, you can currently save 17% on the standard and deluxe versions of the [&#8230;]]]></content>
-        <published>2024-09-12T21:06:45.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Unity、非難轟々の「Runtime Fee」を撤回 ～無料「Unity Personal」は逆に拡大へ／「Unity Pro」「Unity Enterprise」は料金引き上げ | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1623574.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1623574.html"/>
@@ -1963,15 +2171,6 @@
             <name>樽井 秀人</name>
         </author>
         <published>2024-09-12T21:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tony Hawk teases something ‘insanely exciting’ for Pro Skater’s 25th anniversary | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gaming/451091/tony-hawk-pro-skater-25th-anniversary-thps-3-4</id>
-        <link href="https://www.polygon.com/gaming/451091/tony-hawk-pro-skater-25th-anniversary-thps-3-4"/>
-        <updated>2024-09-12T20:27:52.000Z</updated>
-        <summary type="html"><![CDATA[Is Tony Hawk’s Pro Skater coming back… again? Tony Hawk won’t explicitly say, but it certainly sounds like something’s happening around the franchise’s 25th anniversary, according to recent comments f...]]></summary>
-        <content type="html"><![CDATA[Is Tony Hawk’s Pro Skater coming back… again? Tony Hawk won’t explicitly say, but it certainly sounds like something’s happening around the franchise’s 25th anniversary, according to recent comments from the pro skater himself. Hawk himself calls those developments “insanely exciting.” In a new episode of YouTube channel Mythical Kitchen’s Last Meal series, host Josh [&#8230;]]]></content>
-        <published>2024-09-12T20:27:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[How To Find The Best LLM For Your Project | HackerNoon - machine-learning]]></title>
@@ -1992,89 +2191,12 @@
         <published>2024-09-12T20:13:45.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Flappy Bird to return a decade after its viral rise and fall | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gaming/451035/flappy-bird-returns-2024-ios-android</id>
-        <link href="https://www.polygon.com/gaming/451035/flappy-bird-returns-2024-ios-android"/>
-        <updated>2024-09-12T19:58:44.000Z</updated>
-        <summary type="html"><![CDATA[It’s been more than 10 years since mobile game Flappy Bird went from mobile game obscurity to viral hit to an albatross for its creator, Dong Nguyen. Since then, other developers looking to cash in on...]]></summary>
-        <content type="html"><![CDATA[It’s been more than 10 years since mobile game Flappy Bird went from mobile game obscurity to viral hit to an albatross for its creator, Dong Nguyen. Since then, other developers looking to cash in on the game’s success have created hundreds of clones. Later this year, Flappy Bird will return officially under new ownership. [&#8230;]]]></content>
-        <published>2024-09-12T19:58:44.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Here’s what you get with Nintendo Switch Online + Expansion Pack | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/22747408/nintendo-switch-online-expansion-pack-faq-price-cancel-guide</id>
-        <link href="https://www.polygon.com/22747408/nintendo-switch-online-expansion-pack-faq-price-cancel-guide"/>
-        <updated>2024-09-12T19:48:04.000Z</updated>
-        <summary type="html"><![CDATA[Nintendo Switch Online + Expansion Pack is the upper-tier online subscription available for the Nintendo Switch. The $49.99 yearly price tag is more than double the rate of the basic tier of Nintendo ...]]></summary>
-        <content type="html"><![CDATA[Nintendo Switch Online + Expansion Pack is the upper-tier online subscription available for the Nintendo Switch. The $49.99 yearly price tag is more than double the rate of the basic tier of Nintendo Switch Online, but it brings the service’s offering more in line with its cousins on PlayStation and Xbox. It’s all about giving [&#8230;]]]></content>
-        <published>2024-09-12T19:48:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is this Star Wars game making me so hungry? | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gaming/450529/star-wars-outlaws-making-me-hungry</id>
-        <link href="https://www.polygon.com/gaming/450529/star-wars-outlaws-making-me-hungry"/>
-        <updated>2024-09-12T19:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Star Wars Outlaws gives you tons of things to do that immerse you in that galaxy far, far away. Sabacc! Speeder racing! Smuggling illegal goods! Quests and loot are to be expected in a massive open-wo...]]></summary>
-        <content type="html"><![CDATA[Star Wars Outlaws gives you tons of things to do that immerse you in that galaxy far, far away. Sabacc! Speeder racing! Smuggling illegal goods! Quests and loot are to be expected in a massive open-world game, but what I didn’t expect were the extravagant eating sequences. It turns out player character Kay is quite [&#8230;]]]></content>
-        <published>2024-09-12T19:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Helldivers 2 just got its biggest discount on Steam | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/good-deals/450832/helldivers-2-pc-steam-playstation-deal-sale</id>
-        <link href="https://www.polygon.com/good-deals/450832/helldivers-2-pc-steam-playstation-deal-sale"/>
-        <updated>2024-09-12T19:22:13.000Z</updated>
-        <summary type="html"><![CDATA[Helldivers 2 is one of the best games of 2024, and there have been next to no good opportunities to get a discount on it. I mean, fair enough; it’s an amazing third-person shooter that churns out memo...]]></summary>
-        <content type="html"><![CDATA[Helldivers 2 is one of the best games of 2024, and there have been next to no good opportunities to get a discount on it. I mean, fair enough; it’s an amazing third-person shooter that churns out memorable, often hilarious emergent moments by the minute. But now, as part of a sale on games made [&#8230;]]]></content>
-        <published>2024-09-12T19:22:13.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[McDonald’s Genshin Impact collab wants to give you in-game items instead of toys | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/genshin-impact/450401/mcdonalds-genshin-impact-collab-in-game-rewards</id>
-        <link href="https://www.polygon.com/genshin-impact/450401/mcdonalds-genshin-impact-collab-in-game-rewards"/>
-        <updated>2024-09-12T18:23:37.000Z</updated>
-        <summary type="html"><![CDATA[McDonald’s is pushing forward in the digital item game, thanks to Genshin Impact. On Tuesday, McDonald’s and game developer Hoyoverse announced a new partnership to bring Genshin Impact-themed menu it...]]></summary>
-        <content type="html"><![CDATA[McDonald’s is pushing forward in the digital item game, thanks to Genshin Impact. On Tuesday, McDonald’s and game developer Hoyoverse announced a new partnership to bring Genshin Impact-themed menu items to the store. McDonald’s has done numerous collabs with video games — from retro Sonic handhelds to the Tetris McNugget — but this one stands [&#8230;]]]></content>
-        <published>2024-09-12T18:23:37.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A full year later, Unity fully revokes maligned runtime fee | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/news/450804/unity-runtime-fee-canceled-sept-2024</id>
-        <link href="https://www.polygon.com/news/450804/unity-runtime-fee-canceled-sept-2024"/>
-        <updated>2024-09-12T17:58:22.000Z</updated>
-        <summary type="html"><![CDATA[A year ago, Unity Technologies created a huge problem for itself and the developers who use its game engine: It introduced a near-universally hated new fee tied to a developer’s game installs. While U...]]></summary>
-        <content type="html"><![CDATA[A year ago, Unity Technologies created a huge problem for itself and the developers who use its game engine: It introduced a near-universally hated new fee tied to a developer’s game installs. While Unity argued its fee change would impact only developers with “successful games” that had lots of revenue, Unity users didn’t see it [&#8230;]]]></content>
-        <published>2024-09-12T17:58:22.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You can save up to 25% on the Steam Deck right now | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/good-deals/450957/steam-deck-lcd-sale</id>
-        <link href="https://www.polygon.com/good-deals/450957/steam-deck-lcd-sale"/>
-        <updated>2024-09-12T17:49:14.000Z</updated>
-        <summary type="html"><![CDATA[In honor of its 21st birthday, Steam is offering an awesome discount on the original LCD Steam Deck. Right now through Sept. 26, the baseline, 64 GB model is on sale for $296.65 (was $349), matching i...]]></summary>
-        <content type="html"><![CDATA[In honor of its 21st birthday, Steam is offering an awesome discount on the original LCD Steam Deck. Right now through Sept. 26, the baseline, 64 GB model is on sale for $296.65 (was $349), matching its lowest price ever at 15% off. However, the 512 GB version is currently discounted to just $336.75 (was [&#8230;]]]></content>
-        <published>2024-09-12T17:49:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MultiVersus went the extra mile with the Powerpuff Girls | Gaming – Polygon]]></title>
-        <id>https://www.polygon.com/gaming/450786/multiversus-went-above-and-beyond-with-the-powerpuff-girls</id>
-        <link href="https://www.polygon.com/gaming/450786/multiversus-went-above-and-beyond-with-the-powerpuff-girls"/>
-        <updated>2024-09-12T17:12:10.000Z</updated>
-        <summary type="html"><![CDATA[The next character(s) coming to fighting game MultiVersus are the Powerpuff Girls. The trio of Blossom, Bubbles, and Buttercup draws inspiration from Super Smash Bros.’ Ice Climbers and Pokémon Traine...]]></summary>
-        <content type="html"><![CDATA[The next character(s) coming to fighting game MultiVersus are the Powerpuff Girls. The trio of Blossom, Bubbles, and Buttercup draws inspiration from Super Smash Bros.’ Ice Climbers and Pokémon Trainer, fighting together as a unified unit, with each girl taking the lead for certain special moves. MultiVersus already has a two-in-one fighter with Tom and [&#8230;]]]></content>
-        <published>2024-09-12T17:12:10.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Introducing the AI Lakehouse | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=181637</id>
         <link href="https://www.kdnuggets.com/2024/09/hopsworksai/introducing-the-ai-lakehouse?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=introducing-the-ai-lakehouse"/>
         <updated>2024-09-12T17:00:30.000Z</updated>
-        <summary type="html"><![CDATA[In order for Lakehouse to become a unified data layer for both analytics and AI, it needs to be extended with new capabilities]]></summary>
-        <content type="html"><![CDATA[In order for Lakehouse to become a unified data layer for both analytics and AI, it needs to be extended with new capabilities]]></content>
-        <author>
-            <name>KDnuggets</name>
-        </author>
-        <category label="Products and Services"/>
-        <category label="Partners"/>
+        <summary type="html"><![CDATA[Sponsored Content The Lakehouse is an open data analytics architecture that decouples data storage from query engines. The Lakehouse is now the dominant platform for storing data for analytics in the ...]]></summary>
+        <content type="html"><![CDATA[Sponsored Content The Lakehouse is an open data analytics architecture that decouples data storage from query engines. The Lakehouse is now the dominant platform for storing data for analytics in the Enterprise, but it lacks the capabilities needed to support the building and operating of AI systems. In order for Lakehouse to become a...]]></content>
         <published>2024-09-12T17:00:30.000Z</published>
     </entry>
     <entry>
@@ -2117,6 +2239,28 @@
         <published>2024-09-12T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[グローバル・コモンズ・フォーラム | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/symposia/20241008_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/symposia/20241008_1/index.html"/>
+        <updated>2024-09-12T15:00:00.000Z</updated>
+        <published>2024-09-12T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ロボットが未知の「もの」を理解するために | クローズアップ科学道]]></title>
+        <id> https://www.riken.jp/pr/closeup/2024/20240913_1/index.html</id>
+        <link href="
+		https://www.riken.jp/pr/closeup/2024/20240913_1/index.html"/>
+        <updated>2024-09-12T15:00:00.000Z</updated>
+        <published>2024-09-12T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「コンパクト超1GHz NMRの高性能汎用システム化開発および地域における共用・利用支援」に係る共同研究先を公募開始 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240913_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240913_1/index.html"/>
+        <updated>2024-09-12T15:00:00.000Z</updated>
+        <published>2024-09-12T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[細胞内の生体分子間のコミュニケーションの仕組みの解明 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240913_4/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240913_4/index.html"/>
@@ -2147,28 +2291,6 @@
         <title type="html"><![CDATA[二酸化炭素変換反応における電極材料性能・要因の予測 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240913_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240913_1/index.html"/>
-        <updated>2024-09-12T15:00:00.000Z</updated>
-        <published>2024-09-12T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[グローバル・コモンズ・フォーラム | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/symposia/20241008_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/symposia/20241008_1/index.html"/>
-        <updated>2024-09-12T15:00:00.000Z</updated>
-        <published>2024-09-12T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ロボットが未知の「もの」を理解するために | クローズアップ科学道]]></title>
-        <id> https://www.riken.jp/pr/closeup/2024/20240913_1/index.html</id>
-        <link href="
-		https://www.riken.jp/pr/closeup/2024/20240913_1/index.html"/>
-        <updated>2024-09-12T15:00:00.000Z</updated>
-        <published>2024-09-12T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「コンパクト超1GHz NMRの高性能汎用システム化開発および地域における共用・利用支援」に係る共同研究先を公募開始 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240913_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240913_1/index.html"/>
         <updated>2024-09-12T15:00:00.000Z</updated>
         <published>2024-09-12T15:00:00.000Z</published>
     </entry>
@@ -2229,24 +2351,12 @@
         <published>2024-09-12T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CDNのログでLPの可観測性を高めた話 (tak0x00) | 勉強会スライドBot]]></title>
-        <id>https://speakerdeck.com/tak0x00/cdnnorogudelpnoke-guan-ce-xing-wogao-metahua</id>
-        <link href="https://speakerdeck.com/tak0x00/cdnnorogudelpnoke-guan-ce-xing-wogao-metahua"/>
-        <updated>2024-09-12T15:00:00.000Z</updated>
-        <published>2024-09-12T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[5 Quirky Data Science Projects to Impress | KDnuggets]]></title>
         <id>https://www.kdnuggets.com/?p=180810</id>
         <link href="https://www.kdnuggets.com/5-quirky-data-science-projects-to-impress?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-quirky-data-science-projects-to-impress"/>
         <updated>2024-09-12T14:18:06.000Z</updated>
-        <summary type="html"><![CDATA[Develop unique yet standing-out data science projects to improve your data portfolio.]]></summary>
-        <content type="html"><![CDATA[Develop unique yet standing-out data science projects to improve your data portfolio.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
+        <summary type="html"><![CDATA[Image by Author | Ideogram Data science is a field many try to enter, but fail attempting to do so. It’s not because they are incapable; it’s that they are not standing out from the crowd. There are s...]]></summary>
+        <content type="html"><![CDATA[Image by Author | Ideogram Data science is a field many try to enter, but fail attempting to do so. It’s not because they are incapable; it’s that they are not standing out from the crowd. There are so many applicants for small pools of job openings that competition becomes fierce. That’s why data...]]></content>
         <published>2024-09-12T14:18:06.000Z</published>
     </entry>
     <entry>
@@ -2272,13 +2382,8 @@
         <id>https://www.kdnuggets.com/?p=181591</id>
         <link href="https://www.kdnuggets.com/10-github-repositories-to-master-computer-vision?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=10-github-repositories-to-master-computer-vision"/>
         <updated>2024-09-12T11:58:55.000Z</updated>
-        <summary type="html"><![CDATA[The GitHub repository includes up-to-date learning resources, research papers, guides, popular tools, tutorials, projects, and datasets.]]></summary>
-        <content type="html"><![CDATA[The GitHub repository includes up-to-date learning resources, research papers, guides, popular tools, tutorials, projects, and datasets.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Computer Vision"/>
+        <summary type="html"><![CDATA[Image Generated with Flux.1 | Edited with Canva Computer vision is a rapidly growing field that enables machines to interpret and understand visual data. It is gaining popularity due to image generati...]]></summary>
+        <content type="html"><![CDATA[Image Generated with Flux.1 | Edited with Canva Computer vision is a rapidly growing field that enables machines to interpret and understand visual data. It is gaining popularity due to image generation models like Stable Dignity and Flux.1, as well as the multimodal GPT-4o Vision model that enables large language models to understand images....]]></content>
         <published>2024-09-12T11:58:55.000Z</published>
     </entry>
     <entry>
@@ -2829,44 +2934,6 @@
         <published>2024-09-12T00:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Google 検索」に「Wayback Machine」リンク、過去ページへ直接アクセスできるように／検索キャッシュへのリンクがなくなっても、もう大丈夫？ | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1623195.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1623195.html"/>
-        <updated>2024-09-11T23:33:42.000Z</updated>
-        <summary type="html"><![CDATA[インターネット資料の収集・保全を行っている団体Internet Archiveは9月11日（米国時間）、「Google 検索」に「Wayback Machine」アーカイブへのリンクを追加したと発表した。検索結果から直接、以前の状態のWebページを閲覧できるようになる。]]></summary>
-        <content type="html"><![CDATA[インターネット資料の収集・保全を行っている団体Internet Archiveは9月11日（米国時間）、「Google 検索」に「Wayback Machine」アーカイブへのリンクを追加したと発表した。検索結果から直接、以前の状態のWebページを閲覧できるようになる。]]></content>
-        <author>
-            <name>樽井 秀人</name>
-        </author>
-        <published>2024-09-11T23:33:42.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PCの閲覧サイトへスマホファイルをアップロードできる「Microsoft Edge」の隠れ機能が便利／ファイル選択ダイアログからQRコードでペアリングして直接送信【やじうまの杜】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1622768.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/1622768.html"/>
-        <updated>2024-09-11T21:45:00.000Z</updated>
-        <summary type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></summary>
-        <content type="html"><![CDATA[「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。]]></content>
-        <author>
-            <name>樽井 秀人</name>
-        </author>
-        <published>2024-09-11T21:45:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Free Courses That Are Actually Free: Data Analytics Edition | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180453</id>
-        <link href="https://www.kdnuggets.com/free-courses-that-are-actually-free-data-analytics-edition?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=free-courses-that-are-actually-free-data-analytics-edition"/>
-        <updated>2024-09-11T16:00:39.000Z</updated>
-        <summary type="html"><![CDATA[Kickstart your data analyst career with all these free courses.]]></summary>
-        <content type="html"><![CDATA[Kickstart your data analyst career with all these free courses.]]></content>
-        <author>
-            <name>Nisha Arya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-11T16:00:39.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Deep Learning Weekly: Issue 370 | Deep Learning Weekly]]></title>
         <id>https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-370</id>
         <link href="https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-370"/>
@@ -2902,20 +2969,6 @@
         <published>2024-09-11T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[7 Free Cloud IDE for Data Science That You Are Missing Out | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180723</id>
-        <link href="https://www.kdnuggets.com/7-free-cloud-ide-for-data-science-that-you-are-missing-out?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=7-free-cloud-ide-for-data-science-that-you-are-missing-out"/>
-        <updated>2024-09-11T14:00:28.000Z</updated>
-        <summary type="html"><![CDATA[Access a pre-built Python environment with free GPUs, persistent storage, and large RAM. These Cloud IDEs include AI code assistants and numerous plugins for a fast and efficient development experienc...]]></summary>
-        <content type="html"><![CDATA[Access a pre-built Python environment with free GPUs, persistent storage, and large RAM. These Cloud IDEs include AI code assistants and numerous plugins for a fast and efficient development experience.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-11T14:00:28.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[XTCについて + Zappaについて | pooneilの脳科学論文コメント]]></title>
         <id>https://pooneil.sakura.ne.jp/archives/permalink/001802.php</id>
         <link href="https://pooneil.sakura.ne.jp/archives/permalink/001802.php"/>
@@ -2932,20 +2985,6 @@
         <summary type="html"><![CDATA[記事画像登録のために仮指定されたサマリーです。]]></summary>
         <content type="html"><![CDATA[記事画像登録のために仮指定されたサマリーです。]]></content>
         <published>2024-09-11T12:05:48.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bootstrapping Your Data Science Career: A Guide to Self-Learning Pathways | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180572</id>
-        <link href="https://www.kdnuggets.com/bootstrapping-your-data-science-career-a-guide-to-self-learning-pathways?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=bootstrapping-your-data-science-career-a-guide-to-self-learning-pathways"/>
-        <updated>2024-09-11T12:00:15.000Z</updated>
-        <summary type="html"><![CDATA[While not easy, bootstrapping your data science career is possible. Here's an overview of the most important skills and resource suggestions for learning them.]]></summary>
-        <content type="html"><![CDATA[While not easy, bootstrapping your data science career is possible. Here's an overview of the most important skills and resource suggestions for learning them.]]></content>
-        <author>
-            <name>Nate Rosidi</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-11T12:00:15.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[新DLC配信の『ペルソナ３ リロード』が35%OFF　『世界樹の迷宮』HDリマスターもお買い得な「アトラス」セールは9月25日まで | テクノエッジ TechnoEdge]]></title>
@@ -2982,20 +3021,6 @@
         <category label="ゲーム"/>
         <category label="Xbox Series X"/>
         <published>2024-09-11T10:19:54.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Developing End-to-End Data Science Pipelines with Data Ingestion, Processing, and Visualization | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179490</id>
-        <link href="https://www.kdnuggets.com/developing-end-to-end-data-science-pipelines-with-data-ingestion-processing-and-visualization?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=developing-end-to-end-data-science-pipelines-with-data-ingestion-processing-and-visualization"/>
-        <updated>2024-09-11T10:00:59.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to create a data science pipeline with a complete structure.]]></summary>
-        <content type="html"><![CDATA[Learn how to create a data science pipeline with a complete structure.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-11T10:00:59.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[PS5 Proの価格は高すぎる？IGN USで「PS5 Proの価格が高いと思うかどうか」についてのアンケートが実施 | IGN Japan games]]></title>
@@ -3045,16 +3070,6 @@
         <published>2024-09-11T09:09:35.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「Stable Diffusion 3 Medium」のファインチューニング方法を解説した記事　ほか【ダイジェストニュース】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/digest/1623102.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/digest/1623102.html"/>
-        <updated>2024-09-11T08:50:00.000Z</updated>
-        <author>
-            <name>窓の杜編集部</name>
-        </author>
-        <published>2024-09-11T08:50:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PS5 Pro (11万9980円)はUHD BDドライブ非搭載、後付けに対応。光学ドライブなしが標準に | テクノエッジ TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2024/09/11/3659.html</id>
         <link href="https://www.techno-edge.net/article/2024/09/11/3659.html"/>
@@ -3096,18 +3111,6 @@
         <summary type="html"><![CDATA[はじめに こんにちは。サーバーサイドエンジニアの冨家(@asahi05020934)です。現在は、全国の医師が経験やナレッジを 「集合知」として共有し合う医師専用コミュニティサイト「MedPeer」の開発を行っています。 Ruby 3.2からYJITが実用段階になりました。「MedPeer」でもパフォーマンスを改善するためにYJITを有効化することになりました。 本番環境でYJITを有効化後、EC...]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。サーバーサイドエンジニアの冨家(@asahi05020934)です。現在は、全国の医師が経験やナレッジを 「集合知」として共有し合う医師専用コミュニティサイト「MedPeer」の開発を行っています。 Ruby 3.2からYJITが実用段階になりました。「MedPeer」でもパフォーマンスを改善するためにYJITを有効化することになりました。 本番環境でYJITを有効化後、ECSサービスのMemory Utilizationに余裕があったので、ECSサービスのUnicornワーカー数を増やすことを検討しました。 しかし、YJIT有効化後のUnicornワーカー数とメトリクス…]]></content>
         <published>2024-09-11T07:49:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[絶対騙されると話題の詐欺リンクに対応した「秀丸スパムフィルター for Becky!」v1.34／「Becky! Internet Mail」に「秀丸メール」相当の迷惑メール対策を追加するプラグイン | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1623041.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1623041.html"/>
-        <updated>2024-09-11T07:03:21.000Z</updated>
-        <summary type="html"><![CDATA[（有）サイトー企画は9月10日、「Becky! Internet Mail」に「秀丸メール」相当の迷惑メールフィルターを追加するプラグイン「秀丸スパムフィルター for Becky!」v1.34を公開した。本バージョンの主な変更点は、最近話題となったフィッシングメールに使われる巧妙な偽装URL対策が追加されたこと。]]></summary>
-        <content type="html"><![CDATA[（有）サイトー企画は9月10日、「Becky! Internet Mail」に「秀丸メール」相当の迷惑メールフィルターを追加するプラグイン「秀丸スパムフィルター for Becky!」v1.34を公開した。本バージョンの主な変更点は、最近話題となったフィッシングメールに使われる巧妙な偽装URL対策が追加されたこと。]]></content>
-        <author>
-            <name>長谷川 正太郎</name>
-        </author>
-        <published>2024-09-11T07:03:21.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[アメリカ全土を舞台にしたオープンワールドレーシング『ザ クルー2』が98%オフで破格の132円でセール中 | IGN Japan games]]></title>
@@ -3400,20 +3403,6 @@
         <published>2024-09-10T20:25:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How To Trace Memory Allocation in Python | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179434</id>
-        <link href="https://www.kdnuggets.com/how-to-trace-memory-allocation-in-python?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-trace-memory-allocation-in-python"/>
-        <updated>2024-09-10T16:00:11.000Z</updated>
-        <summary type="html"><![CDATA[This tutorial is an introduction to tracing memory allocation in Python using the built-in tracemalloc module.]]></summary>
-        <content type="html"><![CDATA[This tutorial is an introduction to tracing memory allocation in Python using the built-in tracemalloc module.]]></content>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-10T16:00:11.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PS5 Pro正式発表。11万9980円で11月7日発売。AI超解像PSSR対応、GPU45％強化で画質とfps両立 | テクノエッジ TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2024/09/11/3654.html</id>
         <link href="https://www.techno-edge.net/article/2024/09/11/3654.html"/>
@@ -3465,15 +3454,6 @@
         <published>2024-09-10T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ウイルス感染症の世界最速ポータブル遺伝子検査装置の開発 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240911_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240911_1/index.html"/>
-        <updated>2024-09-10T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－臨床現場での即時検査への実用化に期待－]]></summary>
-        <content type="html"><![CDATA[－臨床現場での即時検査への実用化に期待－]]></content>
-        <published>2024-09-10T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[BioJapan2024 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/events/20241009_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/events/20241009_1/index.html"/>
@@ -3481,18 +3461,13 @@
         <published>2024-09-10T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Import Data in R | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179708</id>
-        <link href="https://www.kdnuggets.com/how-to-import-data-in-r?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-import-data-in-r"/>
-        <updated>2024-09-10T14:00:08.000Z</updated>
-        <summary type="html"><![CDATA[To import data in R, you need to choose the appropriate method based on the data format.]]></summary>
-        <content type="html"><![CDATA[To import data in R, you need to choose the appropriate method based on the data format.]]></content>
-        <author>
-            <name>Jayita Gulati</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Programming"/>
-        <published>2024-09-10T14:00:08.000Z</published>
+        <title type="html"><![CDATA[ウイルス感染症の世界最速ポータブル遺伝子検査装置の開発 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240911_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240911_1/index.html"/>
+        <updated>2024-09-10T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－臨床現場での即時検査への実用化に期待－]]></summary>
+        <content type="html"><![CDATA[－臨床現場での即時検査への実用化に期待－]]></content>
+        <published>2024-09-10T15:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Better-performing &#8220;25519&#8221; elliptic-curve cryptography | Amazon Science homepage]]></title>
@@ -3518,20 +3493,6 @@
         <summary type="html"><![CDATA[NTTグループのNTTコノキューデバイスが、独自のXRグラス『MiRZA』(ミルザ)を発表しました。]]></summary>
         <content type="html"><![CDATA[NTTグループのNTTコノキューデバイスが、独自のXRグラス『MiRZA』(ミルザ)を発表しました。]]></content>
         <published>2024-09-10T12:53:32.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 5 Machine Learning APIs Practitioners Should Know | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180716</id>
-        <link href="https://www.kdnuggets.com/top-5-machine-learning-apis-practitioners-should-know?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=top-5-machine-learning-apis-practitioners-should-know"/>
-        <updated>2024-09-10T12:00:53.000Z</updated>
-        <summary type="html"><![CDATA[Learn about machine learning APIs for datasets, models, web applications, free GPUs, and text, audio, and image generation.]]></summary>
-        <content type="html"><![CDATA[Learn about machine learning APIs for datasets, models, web applications, free GPUs, and text, audio, and image generation.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Machine Learning"/>
-        <published>2024-09-10T12:00:53.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Apple Intelligenceをフル活用するならiPhone 16やApple Watch 10を買わないとダメ？（CloseBox） | テクノエッジ TechnoEdge]]></title>
@@ -3623,13 +3584,13 @@
             <name>佐々木寛太</name>
         </author>
         <category label="Web3"/>
-        <category label="bitcoin"/>
         <category label="Blockchain"/>
         <category label="WebX"/>
         <category label="ethereum"/>
         <category label="web3"/>
         <category label="Hyperledger"/>
         <category label="webx2024"/>
+        <category label="bitcoin"/>
         <published>2024-09-10T10:48:30.000Z</published>
     </entry>
     <entry>
@@ -4084,20 +4045,6 @@
         <published>2024-09-09T17:18:46.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[New Professional Tech Certificates from Google, Snowflake & Microsoft | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179398</id>
-        <link href="https://www.kdnuggets.com/new-professional-tech-certificates-from-google-snowflake-microsoft?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=new-professional-tech-certificates-from-google-snowflake-microsoft"/>
-        <updated>2024-09-09T16:00:18.000Z</updated>
-        <summary type="html"><![CDATA[Be one of the first to be certified with these new professional certifications that have just landed]]></summary>
-        <content type="html"><![CDATA[Be one of the first to be certified with these new professional certifications that have just landed]]></content>
-        <author>
-            <name>Nisha Arya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Career Advice"/>
-        <published>2024-09-09T16:00:18.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Space of Physical Frameworks (Part 3) | The n-Category Café]]></title>
         <id>https://golem.ph.utexas.edu/category/2024/09/the_space_of_physical_framewor_1.html</id>
         <link href="https://golem.ph.utexas.edu/category/2024/09/the_space_of_physical_framewor_1.html"/>
@@ -4121,34 +4068,6 @@
         <summary type="html"><![CDATA[－老化時に起こる染色体構造変化と遺伝子発現変化を発見－]]></summary>
         <content type="html"><![CDATA[－老化時に起こる染色体構造変化と遺伝子発現変化を発見－]]></content>
         <published>2024-09-09T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Hidden Gem Python Libraries for Data Science | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180704</id>
-        <link href="https://www.kdnuggets.com/5-hidden-gem-python-libraries-for-data-science?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-hidden-gem-python-libraries-for-data-science"/>
-        <updated>2024-09-09T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Exploring the not-so-famous data science libraries that can be useful in your data workflow.]]></summary>
-        <content type="html"><![CDATA[Exploring the not-so-famous data science libraries that can be useful in your data workflow.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-09T14:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NumPy for Linear Algebra Applications | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179232</id>
-        <link href="https://www.kdnuggets.com/numpy-for-linear-algebra-applications?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=numpy-for-linear-algebra-applications"/>
-        <updated>2024-09-09T12:00:05.000Z</updated>
-        <summary type="html"><![CDATA[This guide shows you how to perform key operations like matrix multiplication, eigenvalue calculations, and solving linear systems. Learn to use NumPy’s functions for linear algebra computations.]]></summary>
-        <content type="html"><![CDATA[This guide shows you how to perform key operations like matrix multiplication, eigenvalue calculations, and solving linear systems. Learn to use NumPy’s functions for linear algebra computations.]]></content>
-        <author>
-            <name>Jayita Gulati</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-09T12:00:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[新たにPS2本体も登録された未来技術遺産の企画展が国立科学博物館で開催へ 9月10日～9月29日の期間限定 | IGN Japan games]]></title>
@@ -4296,20 +4215,6 @@
         <category label="iphone"/>
         <category label="ゲーム"/>
         <published>2024-09-09T10:20:56.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Steps to Mastering Math for Data Science | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=181234</id>
-        <link href="https://www.kdnuggets.com/7-steps-to-mastering-math-for-data-science?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=7-steps-to-mastering-math-for-data-science"/>
-        <updated>2024-09-09T10:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Want to learn math for data science? This guide will help you go about learning math for data science—linear algebra, calculus, statistics, and more.]]></summary>
-        <content type="html"><![CDATA[Want to learn math for data science? This guide will help you go about learning math for data science—linear algebra, calculus, statistics, and more.]]></content>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-09T10:00:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[意外とフォントが大事だった話 | スタディスト Tech Blog - Medium]]></title>
@@ -4859,20 +4764,6 @@
         <published>2024-09-07T08:50:45.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[I Took Udacity’s Free A/B Testing Course by Google: Here’s What I Learned | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180615</id>
-        <link href="https://www.kdnuggets.com/i-took-udacitys-free-a-b-testing-course-by-google-heres-what-i-learned?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=i-took-udacitys-free-a-b-testing-course-by-google-heres-what-i-learned"/>
-        <updated>2024-09-06T15:01:33.000Z</updated>
-        <summary type="html"><![CDATA[A beginner's guide to A/B testing by FAANG data scientists.]]></summary>
-        <content type="html"><![CDATA[A beginner's guide to A/B testing by FAANG data scientists.]]></content>
-        <author>
-            <name>Natassha Selvaraj</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-06T15:01:33.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GMOペパボ　サマーインターン2024 体験記 | Pepabo Tech Portal]]></title>
         <id>https://tech.pepabo.com/2024/09/07/2024-summer-intern-suzuri-1/</id>
         <link href="https://tech.pepabo.com/2024/09/07/2024-summer-intern-suzuri-1/"/>
@@ -4880,20 +4771,6 @@
         <summary type="html"><![CDATA[はじめに こんにちは。2024年サマーインターンシップに参加させていただきましたふじじです。この記事では、2024年7月29日から8月9日までの平日10日間、GMOペパボで行われたサマーインターンシップの感想や学びを共有します。 インターンシップに参加した経緯 サポーターズ主催の技育博に出場した際、さまざまな企業の方々からチラシをいただいた中で、ひときわ目を引いたのがGMOインターネットグループの...]]></summary>
         <content type="html"><![CDATA[はじめに こんにちは。2024年サマーインターンシップに参加させていただきましたふじじです。この記事では、2024年7月29日から8月9日までの平日10日間、GMOペパボで行われたサマーインターンシップの感想や学びを共有します。 インターンシップに参加した経緯 サポーターズ主催の技育博に出場した際、さまざまな企業の方々からチラシをいただいた中で、ひときわ目を引いたのがGMOインターネットグループのチラシでした。「新卒年収710万プログラム」というキャッチーなフレーズに目が留まり、詳細を見てみると普段使っているSUZURIがGMOペパボのサービスであることを知りました。普段使っているサービスの開発に携われることにワクワクし、また優秀な人材に多くの投資をする理念に共感し、応募に至りました。また、インターンシップが他社よりも早い時期に実施される点も魅力的でした。 インターンシップ概要 GMOペパボのインターンの最大の特徴は 「実際に使われるプロダクトや機能を作り、リリースすること」 です。インターンのためのタスクではなく、実際の開発組織の一員として働きます。今年は計11人のインターン生が4人...]]></content>
         <published>2024-09-06T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using FLUX.1 Locally | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=181445</id>
-        <link href="https://www.kdnuggets.com/using-flux-1-locally?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=using-flux-1-locally"/>
-        <updated>2024-09-06T14:26:43.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to install Stable Diffusion WebUI Forge easily and set up the FLUX.1 [dev] model for local use on a laptop.]]></summary>
-        <content type="html"><![CDATA[Learn how to install Stable Diffusion WebUI Forge easily and set up the FLUX.1 [dev] model for local use on a laptop.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Artificial Intelligence"/>
-        <published>2024-09-06T14:26:43.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[iOSDC Japan 2024 メルカリブース iOSクイズ解説 #iosdc #iwillblog | メルカリエンジニアリングブログ]]></title>
@@ -5270,20 +5147,6 @@
         <published>2024-09-05T19:22:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[End-to-end privacy for model training and inference with Concrete ML | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179836</id>
-        <link href="https://www.kdnuggets.com/end-to-end-privacy-for-model-training-and-inference-with-concrete-ml?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=end-to-end-privacy-for-model-training-and-inference-with-concrete-ml"/>
-        <updated>2024-09-05T17:00:52.000Z</updated>
-        <summary type="html"><![CDATA[End-to-end privacy for scikit-learn federated training models and encrypted inference using Fully Homomorphic Encryption (FHE)]]></summary>
-        <content type="html"><![CDATA[End-to-end privacy for scikit-learn federated training models and encrypted inference using Fully Homomorphic Encryption (FHE)]]></content>
-        <author>
-            <name>KDnuggets</name>
-        </author>
-        <category label="Products and Services"/>
-        <category label="Partners"/>
-        <published>2024-09-05T17:00:52.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Quantifying images&#8217; &#8220;conceptual similarity&#8221; | Amazon Science homepage]]></title>
         <id>https://www.amazon.science/blog/quantifying-images-conceptual-similarity</id>
         <link href="https://www.amazon.science/blog/quantifying-images-conceptual-similarity"/>
@@ -5311,20 +5174,6 @@
         <published>2024-09-05T16:00:31.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Understanding the Basics of Reinforcement Learning | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179163</id>
-        <link href="https://www.kdnuggets.com/understanding-the-basics-of-reinforcement-learning?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=understanding-the-basics-of-reinforcement-learning"/>
-        <updated>2024-09-05T16:00:12.000Z</updated>
-        <summary type="html"><![CDATA[How does AI learn by doing? Read this to discover the basics of reinforcement learning.]]></summary>
-        <content type="html"><![CDATA[How does AI learn by doing? Read this to discover the basics of reinforcement learning.]]></content>
-        <author>
-            <name>Iván Palomares Carrascosa</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Machine Learning"/>
-        <published>2024-09-05T16:00:12.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[DeepMind AlphaProteo AI: A Gift To Humanity! 🧬 | Two Minute Papers]]></title>
         <id>https://www.youtube.com/watch?v=lI3EoCjWC2E</id>
         <link href="https://www.youtube.com/watch?v=lI3EoCjWC2E"/>
@@ -5347,24 +5196,6 @@
         <updated>2024-09-05T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[<img src="/images/20240906a/スクリーンショット_2024-09-05_16.04.34.png" alt="" width="604" height="345" loading="lazy">  <p>▼WWDC2024:]]></summary>
         <content type="html"><![CDATA[<img src="/images/20240906a/スクリーンショット_2024-09-05_16.04.34.png" alt="" width="604" height="345" loading="lazy">  <p>▼WWDC2024:]]></content>
-        <published>2024-09-05T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[薬剤耐性を介した免疫原性ネオ抗原の機能性促進 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240906_2/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240906_2/index.html"/>
-        <updated>2024-09-05T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－ベムラフェニブ耐性ARID1A欠損腫瘍における抗腫瘍効果 －]]></summary>
-        <content type="html"><![CDATA[－ベムラフェニブ耐性ARID1A欠損腫瘍における抗腫瘍効果 －]]></content>
-        <published>2024-09-05T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[手のひらサイズの高輝度テラヘルツ波光源を開発 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240906_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240906_1/index.html"/>
-        <updated>2024-09-05T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－実用上の多様な非破壊検査対象に道筋－]]></summary>
-        <content type="html"><![CDATA[－実用上の多様な非破壊検査対象に道筋－]]></content>
         <published>2024-09-05T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5397,6 +5228,24 @@
         <published>2024-09-05T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[薬剤耐性を介した免疫原性ネオ抗原の機能性促進 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240906_2/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240906_2/index.html"/>
+        <updated>2024-09-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－ベムラフェニブ耐性ARID1A欠損腫瘍における抗腫瘍効果 －]]></summary>
+        <content type="html"><![CDATA[－ベムラフェニブ耐性ARID1A欠損腫瘍における抗腫瘍効果 －]]></content>
+        <published>2024-09-05T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[手のひらサイズの高輝度テラヘルツ波光源を開発 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240906_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240906_1/index.html"/>
+        <updated>2024-09-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－実用上の多様な非破壊検査対象に道筋－]]></summary>
+        <content type="html"><![CDATA[－実用上の多様な非破壊検査対象に道筋－]]></content>
+        <published>2024-09-05T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[AlphaProteo generates novel proteins for biology and health research | Google DeepMind Blog]]></title>
         <id>https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/</id>
         <link href="https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/"/>
@@ -5404,34 +5253,6 @@
         <summary type="html"><![CDATA[New AI system designs proteins that successfully bind to target molecules, with potential for advancing drug design, disease understanding and more.]]></summary>
         <content type="html"><![CDATA[New AI system designs proteins that successfully bind to target molecules, with potential for advancing drug design, disease understanding and more.]]></content>
         <published>2024-09-05T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Using FastAPI for Building ML-Powered Web Apps | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180745</id>
-        <link href="https://www.kdnuggets.com/using-fastapi-for-building-ml-powered-web-apps?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=using-fastapi-for-building-ml-powered-web-apps"/>
-        <updated>2024-09-05T14:00:35.000Z</updated>
-        <summary type="html"><![CDATA[A beginner tutorial on building a simple web application for machine learning model inference using FastAPI and Jinja2 templates.]]></summary>
-        <content type="html"><![CDATA[A beginner tutorial on building a simple web application for machine learning model inference using FastAPI and Jinja2 templates.]]></content>
-        <author>
-            <name>Abid Ali Awan</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-05T14:00:35.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Create a Custom Tokenizer for Non-English Languages with Hugging Face Transformers | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179239</id>
-        <link href="https://www.kdnuggets.com/how-to-create-a-custom-tokenizer-for-non-english-languages-with-hugging-face-transformers?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-create-a-custom-tokenizer-for-non-english-languages-with-hugging-face-transformers"/>
-        <updated>2024-09-05T11:22:10.000Z</updated>
-        <summary type="html"><![CDATA[Learn to create tokenizers for specific languages using Hugging Face Transformers to improve model performance.]]></summary>
-        <content type="html"><![CDATA[Learn to create tokenizers for specific languages using Hugging Face Transformers to improve model performance.]]></content>
-        <author>
-            <name>Kanwal Mehreen</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Language Models"/>
-        <published>2024-09-05T11:22:10.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AWSのプライベートサブネットにあるEC2にSession Managerを使ってセキュアにアクセスする | ROXX開発者ブログ]]></title>
@@ -5701,20 +5522,6 @@
         <published>2024-09-04T19:21:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Ghosted After an Interview? 5 Resources to Help You Bounce Back | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=178964</id>
-        <link href="https://www.kdnuggets.com/ghosted-after-an-interview-5-resources-to-help-you-bounce-back?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ghosted-after-an-interview-5-resources-to-help-you-bounce-back"/>
-        <updated>2024-09-04T16:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Check out this list of resources for different types of interviews.]]></summary>
-        <content type="html"><![CDATA[Check out this list of resources for different types of interviews.]]></content>
-        <author>
-            <name>Nisha Arya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Interview"/>
-        <published>2024-09-04T16:00:41.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Deep Learning Weekly: Issue 369 | Deep Learning Weekly]]></title>
         <id>https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-369</id>
         <link href="https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-369"/>
@@ -5757,34 +5564,6 @@
         <summary type="html"><![CDATA[－高性能な誤り耐性量子コンピュータの実現に道－]]></summary>
         <content type="html"><![CDATA[－高性能な誤り耐性量子コンピュータの実現に道－]]></content>
         <published>2024-09-04T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Must-Know R Packages for Data Analysis | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=181250</id>
-        <link href="https://www.kdnuggets.com/5-must-know-r-packages-for-data-analysis?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=5-must-know-r-packages-for-data-analysis"/>
-        <updated>2024-09-04T14:00:06.000Z</updated>
-        <summary type="html"><![CDATA[Here are five must-know R packages for data analysis in R.]]></summary>
-        <content type="html"><![CDATA[Here are five must-know R packages for data analysis in R.]]></content>
-        <author>
-            <name>Mehrnaz Siavoshi</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Programming"/>
-        <published>2024-09-04T14:00:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Implement Complex Filters on DataFrame Columns with Pandas | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=178589</id>
-        <link href="https://www.kdnuggets.com/how-to-implement-complex-filters-on-dataframe-columns-with-pandas?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-implement-complex-filters-on-dataframe-columns-with-pandas"/>
-        <updated>2024-09-04T12:00:45.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to acquire data you need with Pandas filter syntax.]]></summary>
-        <content type="html"><![CDATA[Learn how to acquire data you need with Pandas filter syntax.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-04T12:00:45.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[テックブログ Rebornします | istyle Tech Blog]]></title>
@@ -6087,35 +5866,12 @@
         <published>2024-09-03T23:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[An Introduction to Explainable AI (XAI) | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=178866</id>
-        <link href="https://www.kdnuggets.com/an-introduction-to-explainable-ai-xai?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=an-introduction-to-explainable-ai-xai"/>
-        <updated>2024-09-03T16:00:51.000Z</updated>
-        <summary type="html"><![CDATA[Explainable AI (XAI) makes it easier to understand how AI decisions are made. This introduction explains what XAI is and why it matters.]]></summary>
-        <content type="html"><![CDATA[Explainable AI (XAI) makes it easier to understand how AI decisions are made. This introduction explains what XAI is and why it matters.]]></content>
-        <author>
-            <name>Jayita Gulati</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Machine Learning"/>
-        <published>2024-09-03T16:00:51.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[TerraformでSnowflakeからGCSへのデータ連携を実現 | Recruit Data Blog]]></title>
         <id>https://blog.recruit.co.jp/data/articles/snowflake_to_gcs_with_terraform/</id>
         <link href="https://blog.recruit.co.jp/data/articles/snowflake_to_gcs_with_terraform/"/>
         <updated>2024-09-03T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[はじめに ファイナンスデータソリューショングループの高橋です。今回は、Snowflakeに存在するデータを定期的にGCSに]]></summary>
         <content type="html"><![CDATA[はじめに ファイナンスデータソリューショングループの高橋です。今回は、Snowflakeに存在するデータを定期的にGCSに]]></content>
-        <published>2024-09-03T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[免疫チェックポイント分子LAG-3による免疫抑制機構を解明 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240904_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240904_1/index.html"/>
-        <updated>2024-09-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－がん免疫療法の新たな薬剤開発に期待－]]></summary>
-        <content type="html"><![CDATA[－がん免疫療法の新たな薬剤開発に期待－]]></content>
         <published>2024-09-03T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -6133,32 +5889,13 @@
         <published>2024-09-03T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Compute the Cross-Correlation Between Two NumPy Arrays | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=178783</id>
-        <link href="https://www.kdnuggets.com/how-to-compute-the-cross-correlation-between-two-numpy-arrays?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-compute-the-cross-correlation-between-two-numpy-arrays"/>
-        <updated>2024-09-03T14:00:07.000Z</updated>
-        <summary type="html"><![CDATA[Let's see how to perform cross-correlation in NumPy, a method for measuring the similarity or relationship between two sequences of data as one is shifted in relation to the other.]]></summary>
-        <content type="html"><![CDATA[Let's see how to perform cross-correlation in NumPy, a method for measuring the similarity or relationship between two sequences of data as one is shifted in relation to the other.]]></content>
-        <author>
-            <name>Shittu Olumide</name>
-        </author>
-        <category label="Originals"/>
-        <category label="numpy"/>
-        <published>2024-09-03T14:00:07.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Manage Categorical Data Effectively with Pandas | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=178494</id>
-        <link href="https://www.kdnuggets.com/how-to-manage-categorical-data-effectively-with-pandas?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=how-to-manage-categorical-data-effectively-with-pandas"/>
-        <updated>2024-09-03T12:00:05.000Z</updated>
-        <summary type="html"><![CDATA[Let's learn about categorical data in Pandas.]]></summary>
-        <content type="html"><![CDATA[Let's learn about categorical data in Pandas.]]></content>
-        <author>
-            <name>Cornellius Yudha Wijaya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-03T12:00:05.000Z</published>
+        <title type="html"><![CDATA[免疫チェックポイント分子LAG-3による免疫抑制機構を解明 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240904_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240904_1/index.html"/>
+        <updated>2024-09-03T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－がん免疫療法の新たな薬剤開発に期待－]]></summary>
+        <content type="html"><![CDATA[－がん免疫療法の新たな薬剤開発に期待－]]></content>
+        <published>2024-09-03T15:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[SansanはDroidKaigi 2024にゴールドスポンサーとして協賛します！ | Sansan Tech Blog]]></title>
@@ -6445,181 +6182,5 @@
         <summary type="html"><![CDATA[こんにちは、Android エンジニアの @myamamic です。スタディサプリ小中講座の Android アプリ開発を担当しています。 この記事では私たちが実施している E2E テストについて、実施の目的や自動化によって受けている恩恵、E2E テストをどのように運用しているかを紹介します。 はじめに: E2E テストの目的 E2E テストケースの観点 E2E テストの自動化 MagicPod ...]]></summary>
         <content type="html"><![CDATA[こんにちは、Android エンジニアの @myamamic です。スタディサプリ小中講座の Android アプリ開発を担当しています。 この記事では私たちが実施している E2E テストについて、実施の目的や自動化によって受けている恩恵、E2E テストをどのように運用しているかを紹介します。 はじめに: E2E テストの目的 E2E テストケースの観点 E2E テストの自動化 MagicPod について E2E テストの運用: ケースの作成や修正 E2E テストの運用: MagicPod 一括実行のスケジューリング まとめ: E2E テスト自動化によって得られた恩恵 不具合の早期発見 アプリ…]]></content>
         <published>2024-09-03T00:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kaigi on Rails 2024 に Gold Sponsor として協賛します！ | ユニファ開発者ブログ]]></title>
-        <id>https://tech.unifa-e.com/entry/2024/09/03/080000?utm_source=feed</id>
-        <link href="https://tech.unifa-e.com/entry/2024/09/03/080000?utm_source=feed"/>
-        <updated>2024-09-02T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[皆様こんにちは。ユニファの赤沼です。 10月に開催される技術系カンファレンスである Kaigi on Rails 2024 に Gold Sponsor として協賛させていただけることになりました！]]></summary>
-        <content type="html"><![CDATA[皆様こんにちは。ユニファの赤沼です。 10月に開催される技術系カンファレンスである Kaigi on Rails 2024 に Gold Sponsor として協賛させていただけることになりました！]]></content>
-        <published>2024-09-02T23:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tailwind CSSでタグのベーススタイルを設定する方法 | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2024/09/03/073914</id>
-        <link href="https://tech.excite.co.jp/entry/2024/09/03/073914"/>
-        <updated>2024-09-02T22:39:14.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。エキサイトでデザイナーをしている齋藤です。 今回は、Tailwind CSSでタグのベーススタイルを設定する方法をご紹介します。 実現したいこと @layer baseでベーススタイルを設定できる さいごに 実現したいこと 冒頭、実現したいことを整理します。 例えば、サイト内のh1タグのスタイルをすべて共通にしたい場合、カスタムクラスを用意するという手があります。 @layer com...]]></summary>
-        <content type="html"><![CDATA[こんにちは。エキサイトでデザイナーをしている齋藤です。 今回は、Tailwind CSSでタグのベーススタイルを設定する方法をご紹介します。 実現したいこと @layer baseでベーススタイルを設定できる さいごに 実現したいこと 冒頭、実現したいことを整理します。 例えば、サイト内のh1タグのスタイルをすべて共通にしたい場合、カスタムクラスを用意するという手があります。 @layer components { .heading-1 { @apply font-body text-2xl } } <h1 class="heading-1">文字には「font-body text-2xl」が…]]></content>
-        <published>2024-09-02T22:39:14.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プロンプトに5つほど”価値観の例”を示すだけで、LLMは特定の文化に適応した回答ができるようになるとの報告 | AIDB]]></title>
-        <id>https://ai-data-base.com/?p=75111</id>
-        <link href="https://ai-data-base.com/archives/75111"/>
-        <updated>2024-09-02T22:27:00.000Z</updated>
-        <summary type="html"><![CDATA[この記事では、LLMが文化的な背景に沿って適切に回答するように変える手法を紹介します。 研究チームは、世界中の人々の価値観を調べたデータを使って、LLMがどのような文化的な考え方を持っているかを調べました。そして、LLM […] プロンプトに5つほど”価値観の例”を示すだけで、LLMは特定の文化に適応した回答ができるようになるとの報告 first appeared on AIDB.]]></summary>
-        <content type="html"><![CDATA[この記事では、LLMが文化的な背景に沿って適切に回答するように変える手法を紹介します。 研究チームは、世界中の人々の価値観を調べたデータを使って、LLMがどのような文化的な考え方を持っているかを調べました。そして、LLM […] プロンプトに5つほど”価値観の例”を示すだけで、LLMは特定の文化に適応した回答ができるようになるとの報告 first appeared on AIDB.]]></content>
-        <author>
-            <name>AIDB Research</name>
-        </author>
-        <category label="LLM"/>
-        <category label="プロンプト"/>
-        <category label="政治・社会"/>
-        <category label="論文"/>
-        <published>2024-09-02T22:27:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[小さい経路最適化ミドルウェアを実装してあらゆるAZ間通信を削減する | LIFULL Creators Blog ]]></title>
-        <id>https://www.lifull.blog/entry/2024/09/03/070000?utm_source=feed</id>
-        <link href="https://www.lifull.blog/entry/2024/09/03/070000?utm_source=feed"/>
-        <updated>2024-09-02T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[KEELチームの相原です。 前回のエントリは「LLMを利用したPlatform Engineering」でした。 www.lifull.blog 今回は、小さい経路最適化ミドルウェアを実装してAZ間通信を削減した話を書きたいと思います。 背景 我々KEELチームはKubernetsベースの内製PaaSであるKEELを開発しており、LIFULLのほとんどのサービスがこのKEEL上で動いています。 w...]]></summary>
-        <content type="html"><![CDATA[KEELチームの相原です。 前回のエントリは「LLMを利用したPlatform Engineering」でした。 www.lifull.blog 今回は、小さい経路最適化ミドルウェアを実装してAZ間通信を削減した話を書きたいと思います。 背景 我々KEELチームはKubernetsベースの内製PaaSであるKEELを開発しており、LIFULLのほとんどのサービスがこのKEEL上で動いています。 www.lifull.blog そして、KEELは巨大なマルチテナントのKubernetesクラスタとしてAWSの複数のAvailability Zone(以下AZ)に展開されていて、多くのmicros…]]></content>
-        <published>2024-09-02T22:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[R18成人向け文章も生成できる高性能ローカルAI「Command R+」最新版登場、プレイ画面をリアタイで画像生成できるゲームエンジン「GameNGen」など生成AI技術5つを解説（生成AIウィークリー） | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/09/03/3630.html</id>
-        <link href="https://www.techno-edge.net/article/2024/09/03/3630.html"/>
-        <updated>2024-09-02T21:52:15.000Z</updated>
-        <summary type="html"><![CDATA[この1週間の気になる生成AI技術をピックアップして解説する「生成AIウィークリー」（第62回）では、主要LLMでは制限がかかるような内容でも精度高く出力できるローカルLLM「Command R+」の最新バージョンや、論文などのドキュメントとチャットできるAIインタフェース「kotaemon」を取り上げます。]]></summary>
-        <content type="html"><![CDATA[この1週間の気になる生成AI技術をピックアップして解説する「生成AIウィークリー」（第62回）では、主要LLMでは制限がかかるような内容でも精度高く出力できるローカルLLM「Command R+」の最新バージョンや、論文などのドキュメントとチャットできるAIインタフェース「kotaemon」を取り上げます。]]></content>
-        <published>2024-09-02T21:52:15.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[テクノエッジ二周年パーティーを開催しました | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/09/03/3629.html</id>
-        <link href="https://www.techno-edge.net/article/2024/09/03/3629.html"/>
-        <updated>2024-09-02T21:48:19.000Z</updated>
-        <summary type="html"><![CDATA[7月31日、弊誌テクノエッジの創刊二周年パーティーを都内で開催いたしました。]]></summary>
-        <content type="html"><![CDATA[7月31日、弊誌テクノエッジの創刊二周年パーティーを都内で開催いたしました。]]></content>
-        <published>2024-09-02T21:48:19.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS Amplifyとは？初心者向けにメリットや始め方を紹介 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作テクノロジー の記事一覧 | 株式会社LIG(リグ)｜DX支援・システム開発・Web制作]]></title>
-        <id>https://liginc.co.jp/?p=647119</id>
-        <link href="https://liginc.co.jp/647119"/>
-        <updated>2024-09-02T21:00:47.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、テクノロジー部の山﨑です。 世界中で広く使われているクラウドコンピューティングサービス「AWS」。アプリ開発もサポートしていますがそのサービスは多種多様であるがゆえに、どのサービスを使えばいいかわからない、A […]]]></summary>
-        <content type="html"><![CDATA[こんにちは、テクノロジー部の山﨑です。 世界中で広く使われているクラウドコンピューティングサービス「AWS」。アプリ開発もサポートしていますがそのサービスは多種多様であるがゆえに、どのサービスを使えばいいかわからない、A […]]]></content>
-        <author>
-            <name>Shota Yamazaki</name>
-        </author>
-        <category label="アプリ開発"/>
-        <category label="テクノロジー"/>
-        <published>2024-09-02T21:00:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 Entry-Level Certificates from Microsoft to Land In-Demand Jobs | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=179403</id>
-        <link href="https://www.kdnuggets.com/4-entry-level-certificates-from-microsoft-to-land-in-demand-jobs?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=4-entry-level-certificates-from-microsoft-to-land-in-demand-jobs"/>
-        <updated>2024-09-02T16:29:51.000Z</updated>
-        <summary type="html"><![CDATA[4 in-demand jobs that do not get enough recognition.]]></summary>
-        <content type="html"><![CDATA[4 in-demand jobs that do not get enough recognition.]]></content>
-        <author>
-            <name>Nisha Arya</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Career Advice"/>
-        <published>2024-09-02T16:29:51.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2024年度新卒エンジニア研修を実施しました! | Pepabo Tech Portal]]></title>
-        <id>https://tech.pepabo.com/2024/09/03/2024-engineer-training/</id>
-        <link href="https://tech.pepabo.com/2024/09/03/2024-engineer-training/"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 新卒エンジニア研修を担当しました ugo です！ 今年も新卒エンジニア研修を実施し、全カリキュラムが無事終了しました。 この記事では、各研修の講師を担当したメンバーが、新卒エンジニア研修のカリキュラムの内容と研修資料をまとめました。ぜひご覧ください。 2024年度新卒エンジニア研修概要 新卒エンジニア研修のコンセプトは 「サービスを作るための技術要素や観点について、現時点で良いやり方を一...]]></summary>
-        <content type="html"><![CDATA[はじめに 新卒エンジニア研修を担当しました ugo です！ 今年も新卒エンジニア研修を実施し、全カリキュラムが無事終了しました。 この記事では、各研修の講師を担当したメンバーが、新卒エンジニア研修のカリキュラムの内容と研修資料をまとめました。ぜひご覧ください。 2024年度新卒エンジニア研修概要 新卒エンジニア研修のコンセプトは 「サービスを作るための技術要素や観点について、現時点で良いやり方を一通り学ぶ」 と設定しました。 サービスを運用していくために必要なオブザーバービリティといった領域も今年から研修に盛り込みました。 研修に参加した新卒エンジニアは3名です。 オフィス内はフリーアドレスとなっていますが、研修のためオフィスに固定席を設け、1ヶ月に1回程度の頻度でオフィスの別に席に移動する形態で実施しました。講師も新卒エンジニアの近くに座ることで、相談をしやすい環境づくりを行いました。 Railsチュートリアル研修 担当：horiyu、nissyi、ugo Railsチュートリアルの研修はhoriyu、nissyi、ugoが担当しました。 研修の目的はRailsチュートリアルを通じて...]]></content>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[カーボンナノチューブの原子配列を制御して合成する手法を開発 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240903_2/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240903_2/index.html"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－革新的半導体デバイス創出に期待－]]></summary>
-        <content type="html"><![CDATA[－革新的半導体デバイス創出に期待－]]></content>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[補酵素NADとSAMを縮合して抗生物質の主骨格を構築する新規酵素の構造機能の解明 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240903_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240903_1/index.html"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－NADのアルキル化に関わる生合成酵素のクライオ電子顕微鏡構造－]]></summary>
-        <content type="html"><![CDATA[－NADのアルキル化に関わる生合成酵素のクライオ電子顕微鏡構造－]]></content>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[理研シンポジウム：第52回マイクロファブリケーション研究の最新動向 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/symposia/20241003_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/symposia/20241003_1/index.html"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[起立性調節障害の子どもを対象とした「子ども睡眠検診」プロジェクトを開始 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240903_2/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240903_2/index.html"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－起立性調節障害の子どもの睡眠実態調査への協力医療機関を募集－]]></summary>
-        <content type="html"><![CDATA[－起立性調節障害の子どもの睡眠実態調査への協力医療機関を募集－]]></content>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[川﨑 雅司 研究政策審議役が2024年度報公賞を受賞決定 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240903_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240903_1/index.html"/>
-        <updated>2024-09-02T15:00:00.000Z</updated>
-        <published>2024-09-02T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scalability Challenges & Strategies in Data Science | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=177686</id>
-        <link href="https://www.kdnuggets.com/scalability-challenges-strategies-in-data-science?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=scalability-challenges-strategies-in-data-science"/>
-        <updated>2024-09-02T14:00:44.000Z</updated>
-        <summary type="html"><![CDATA[Scaling data science projects can be difficult. This article explores challenges and strategies for managing large-scale data.]]></summary>
-        <content type="html"><![CDATA[Scaling data science projects can be difficult. This article explores challenges and strategies for managing large-scale data.]]></content>
-        <author>
-            <name>Jayita Gulati</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Data Science"/>
-        <published>2024-09-02T14:00:44.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Built-In Python Modules Every Data Engineer Should Know | KDnuggets]]></title>
-        <id>https://www.kdnuggets.com/?p=180833</id>
-        <link href="https://www.kdnuggets.com/10-built-in-python-modules-every-data-engineer-should-know?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=10-built-in-python-modules-every-data-engineer-should-know"/>
-        <updated>2024-09-02T12:59:44.000Z</updated>
-        <summary type="html"><![CDATA[Interested in data engineering? Check out this round-up of built-in Python modules that'll come in handy for data engineering tasks.]]></summary>
-        <content type="html"><![CDATA[Interested in data engineering? Check out this round-up of built-in Python modules that'll come in handy for data engineering tasks.]]></content>
-        <author>
-            <name>Bala Priya C</name>
-        </author>
-        <category label="Originals"/>
-        <category label="Python"/>
-        <published>2024-09-02T12:59:44.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SupabaseとResendを使ったメール送信の設定方法を紹介 | ユニファ開発者ブログ]]></title>
-        <id>https://tech.unifa-e.com/entry/2024/09/02/202915?utm_source=feed</id>
-        <link href="https://tech.unifa-e.com/entry/2024/09/02/202915?utm_source=feed"/>
-        <updated>2024-09-02T11:29:15.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サーバーサイドエンジニアの小川です。 この記事ではSupabaseとResendを使ったメール送信の設定方法について解説します。 趣味で開発しているアプリケーションで、DBやAuthenticationなどはSupabaseを利用しています。 元々はFirebaseを使っていたのですが、Supabaseの場合はDBにPostgresが使えるという点が魅力で乗り換えました。 ただ、Sup...]]></summary>
-        <content type="html"><![CDATA[こんにちは、サーバーサイドエンジニアの小川です。 この記事ではSupabaseとResendを使ったメール送信の設定方法について解説します。 趣味で開発しているアプリケーションで、DBやAuthenticationなどはSupabaseを利用しています。 元々はFirebaseを使っていたのですが、Supabaseの場合はDBにPostgresが使えるという点が魅力で乗り換えました。 ただ、Supabase Authenticationを使ったメール認証やパスワードリセットなどでメール送信するにあたり、カスタムSMTPの設定が必要でした。 設定しない場合1時間に6通までしか送信できないので、実…]]></content>
-        <published>2024-09-02T11:29:15.000Z</published>
     </entry>
 </feed>
