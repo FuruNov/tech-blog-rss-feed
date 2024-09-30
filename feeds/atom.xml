@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-09-30T02:37:43.911Z</updated>
+    <updated>2024-09-30T03:39:01.424Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -23,6 +23,166 @@
         <link href="https://www.aist.go.jp/sc/openhouse/2024/"/>
         <updated>2024-10-04T15:00:00.000Z</updated>
         <published>2024-10-04T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Terraform Providerを使ったcron式のチェック | カンムテックブログ]]></title>
+        <id>https://tech.kanmu.co.jp/entry/2024/09/30/123132</id>
+        <link href="https://tech.kanmu.co.jp/entry/2024/09/30/123132"/>
+        <updated>2024-09-30T03:31:32.000Z</updated>
+        <summary type="html"><![CDATA[SREの菅原です。 カンムのサービスのバッチ処理は基本的にEventBridge Scheduler+ECSで動いており、バッチのスケジュールはterraformで以下のように定義されています。 module "kanmu_batch" { # バッチまわりはモジュール化 source = "../modules/batch" for_each = { hogehoge-batch = { sch...]]></summary>
+        <content type="html"><![CDATA[SREの菅原です。 カンムのサービスのバッチ処理は基本的にEventBridge Scheduler+ECSで動いており、バッチのスケジュールはterraformで以下のように定義されています。 module "kanmu_batch" { # バッチまわりはモジュール化 source = "../modules/batch" for_each = { hogehoge-batch = { schedule_expression = "cron(0 0 * * ? *)" command = ["/batch/bin/hoge", "hikisu"] is_enabled = true } f…]]></content>
+        <published>2024-09-30T03:31:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[再びiPhoneからPixelに乗り換えた話。やっとたどり着いた、自分史上最高のスマホ | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/09/why-i-switched-from-iphone-to-pixel-again.html</id>
+        <link href="https://www.gizmodo.jp/2024/09/why-i-switched-from-iphone-to-pixel-again.html"/>
+        <updated>2024-09-30T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo:山田ちとらGooglePixel9シリーズのスマートフォンが発売されたのをきっかけに、iPhone13からPixelに乗り換えました。相棒に選んだのはGooglePixel9Pro（256GB）のローズクォーツ色。今後しばらくは買い替えをせずに、少なくとも破損させてしまったり、なにかしらの理由で使用を継続することが困難になってしまわないかぎりは、このスマホをなるべく長く使っていきたいと]]></summary>
+        <content type="html"><![CDATA[Photo:山田ちとらGooglePixel9シリーズのスマートフォンが発売されたのをきっかけに、iPhone13からPixelに乗り換えました。相棒に選んだのはGooglePixel9Pro（256GB）のローズクォーツ色。今後しばらくは買い替えをせずに、少なくとも破損させてしまったり、なにかしらの理由で使用を継続することが困難になってしまわないかぎりは、このスマホをなるべく長く使っていきたいと]]></content>
+        <author>
+            <name>山田ちとら</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2024-09-30T03:30:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[『ELDEN RING』DLCの公式攻略本が10月16日に発売へ ストーリー分岐解説やボス戦攻略情報などを256ページに凝縮 | IGN Japan games]]></title>
+        <id>https://jp.ign.com/elden-ring-shadow-of-the-erdtree/76446/news/elden-ringdlc1016-256</id>
+        <link href="https://jp.ign.com/elden-ring-shadow-of-the-erdtree/76446/news/elden-ringdlc1016-256"/>
+        <updated>2024-09-30T03:20:41.000Z</updated>
+        <summary type="html"><![CDATA[装備品やアイテムの入手方法なども掲載 『ELDEN RING』のDLC「SHADOW OF THE ERDTREE」の公式攻略本が2024年10月16日に発売される。]]></summary>
+        <content type="html"><![CDATA[装備品やアイテムの入手方法なども掲載 『ELDEN RING』のDLC「SHADOW OF THE ERDTREE」の公式攻略本が2024年10月16日に発売される。]]></content>
+        <author>
+            <name>片岡龍一</name>
+        </author>
+        <category label="xbox-one"/>
+        <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="Xbox One"/>
+        <category label="Amazonおすすめ"/>
+        <category label="News"/>
+        <category label="PC"/>
+        <category label="ELDEN RING: SHADOW OF THE ERDTREE"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="セール情報"/>
+        <category label="ELDEN RING"/>
+        <category label="雑誌書籍"/>
+        <category label="Xbox Series X"/>
+        <category label="Sony PlayStation"/>
+        <published>2024-09-30T03:20:41.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI普及で人間の役割は「発想力」へ。東京24時間AIハッカソン 2024イベントリポート | テクノエッジ TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2024/09/30/3731.html</id>
+        <link href="https://www.techno-edge.net/article/2024/09/30/3731.html"/>
+        <updated>2024-09-30T03:10:55.000Z</updated>
+        <summary type="html"><![CDATA[PCパーツショップのドスパラの運営元であるサードウェーブが主催する「24時間AIハッカソン Powered by GALLERIA」は9月14日から15日、「東京24時間AIハッカソン 2024」を開催しました。]]></summary>
+        <content type="html"><![CDATA[PCパーツショップのドスパラの運営元であるサードウェーブが主催する「24時間AIハッカソン Powered by GALLERIA」は9月14日から15日、「東京24時間AIハッカソン 2024」を開催しました。]]></content>
+        <published>2024-09-30T03:10:55.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Glue WorkflowからStep Functionsに移行した話 | エンジニアブログ | iret.media]]></title>
+        <id>https://iret.media/?p=121584</id>
+        <link href="https://iret.media/121584"/>
+        <updated>2024-09-30T03:00:32.000Z</updated>
+        <summary type="html"><![CDATA[この記事について 複数のGlue Job実行をワークフロー制御するためにGlue Workflowを利用していましたが、色々な理由がありワークフロー制御をStep Functionsに移行しました。 移行した経緯や理由、 […]]]></summary>
+        <content type="html"><![CDATA[この記事について 複数のGlue Job実行をワークフロー制御するためにGlue Workflowを利用していましたが、色々な理由がありワークフロー制御をStep Functionsに移行しました。 移行した経緯や理由、 […]]]></content>
+        <author>
+            <name>松田 啓佑</name>
+        </author>
+        <category label="エンジニアブログ"/>
+        <category label="AWS"/>
+        <category label="AWS Step Functions"/>
+        <published>2024-09-30T03:00:32.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新規事業「toitta」で導入したGoogle Cloudのセキュリティ機能の紹介 | Hatena Developer Blog]]></title>
+        <id>https://developer.hatenastaff.com/entry/2024/09/30/120010</id>
+        <link href="https://developer.hatenastaff.com/entry/2024/09/30/120010"/>
+        <updated>2024-09-30T03:00:10.000Z</updated>
+        <summary type="html"><![CDATA[toittaチームSREのid:cohalzです。 この記事は、はてなのSREが毎月交代で書いているSRE連載の9月号です。8月の記事はid:walnuts1018さんのはてなブログや GigaViewer で使われている画像変換プロキシを EC2 から EKS に移行しましたでした。 はてなでは2024年7月に生成AIを活用したtoittaというサービスをベータ版でリリースしました。現在正式リリ...]]></summary>
+        <content type="html"><![CDATA[toittaチームSREのid:cohalzです。 この記事は、はてなのSREが毎月交代で書いているSRE連載の9月号です。8月の記事はid:walnuts1018さんのはてなブログや GigaViewer で使われている画像変換プロキシを EC2 から EKS に移行しましたでした。 はてなでは2024年7月に生成AIを活用したtoittaというサービスをベータ版でリリースしました。現在正式リリースに向けて準備中で、無料トライアルも実施中です。 ja.toitta.com このサービスはビジネス向けのSaaSアプリケーションで、インフラはGoogle Cloud上に構築しています。 ユーザー…]]></content>
+        <published>2024-09-30T03:00:10.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YAPC::Hakodate 2024 にカヤックのメンバーが登壇します！ | KAYAC Engineers' Blog]]></title>
+        <id>https://techblog.kayac.com/yapc-hakodate-2024</id>
+        <link href="https://techblog.kayac.com/yapc-hakodate-2024"/>
+        <updated>2024-09-30T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[カヤックのメンバーが2名、YAPC::Hakodateに登壇します。 コードゴルフイベントPerlbatrossとJS体操も同時開催予定！]]></summary>
+        <content type="html"><![CDATA[カヤックのメンバーが2名、YAPC::Hakodateに登壇します。 コードゴルフイベントPerlbatrossとJS体操も同時開催予定！]]></content>
+        <published>2024-09-30T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データ活用のための第一歩、どこから始めるべき？〜データ駆動の取り組みについて〜 | pixiv inside]]></title>
+        <id>https://inside.pixiv.blog/2024/09/30/120000?utm_source=feed</id>
+        <link href="https://inside.pixiv.blog/2024/09/30/120000?utm_source=feed"/>
+        <updated>2024-09-30T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。プラットフォーム開発部データ駆動推進チームのyagimaruです。2024年1月にピクシブにジョインし、現在は全社的なデータ活用支援に取り組んでいます。 この記事では、私が所属するデータ駆動推進チームの取り組みについて紹介させていただきます。 この記事が、社内でのデータ推進を検討している方や、データ活用文化の醸成に取り組みたい方にとって、少しでも参考になれば幸いです。 データ駆動推進チ...]]></summary>
+        <content type="html"><![CDATA[こんにちは。プラットフォーム開発部データ駆動推進チームのyagimaruです。2024年1月にピクシブにジョインし、現在は全社的なデータ活用支援に取り組んでいます。 この記事では、私が所属するデータ駆動推進チームの取り組みについて紹介させていただきます。 この記事が、社内でのデータ推進を検討している方や、データ活用文化の醸成に取り組みたい方にとって、少しでも参考になれば幸いです。 データ駆動推進チームとは データ駆動推進チームは、データ分析の専門部署ではなくデータ民主化を促進する部隊として、「社内メンバーの誰もがユーザーの価値を創出するためにデータ活用できるしくみをつくること」、「データにまつ…]]></content>
+        <published>2024-09-30T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PS6が2モデルで開発？ まさかの携帯ゲーム機も… | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/09/294281.html</id>
+        <link href="https://www.gizmodo.jp/2024/09/294281.html"/>
+        <updated>2024-09-30T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:SonyInteractiveEntertainment4年後が楽しみになってきた！PlayStation5Pro（PS5Pro）の発売がアナウンスされたばかりですけど、もう巷にはPS6のうわさがあふれ出しています。どこまで次世代ゲーム機は高性能になるのか？注目ではありますが、意外に価格面で期待できることがあるかも…。PS6は2モデルの構成？InsiderGamingは、NEOgafの]]></summary>
+        <content type="html"><![CDATA[Image:SonyInteractiveEntertainment4年後が楽しみになってきた！PlayStation5Pro（PS5Pro）の発売がアナウンスされたばかりですけど、もう巷にはPS6のうわさがあふれ出しています。どこまで次世代ゲーム機は高性能になるのか？注目ではありますが、意外に価格面で期待できることがあるかも…。PS6は2モデルの構成？InsiderGamingは、NEOgafの]]></content>
+        <author>
+            <name>湯木進悟</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-09-30T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTubeで“ぼくのかんがえた最強のモンスター”が大暴れ！ AI生成×オートカードバトルが楽しすぎた／TGS2024ですごく興味を惹かれた「AIマイモンSTADIUM」【やじうまの杜】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/yajiuma/1627434.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/yajiuma/1627434.html"/>
+        <updated>2024-09-30T02:47:33.000Z</updated>
+        <summary type="html"><![CDATA[「東京ゲームショウ2024（TGS2024）」で取材をしていると、たまたま声をかけられました。そこは訪れる予定のブースではなかったのですが、出展タイトルのコンセプトや仕組みについてお話しを伺ったところ、すごく興味を惹かれましたので紹介したいと思います。]]></summary>
+        <content type="html"><![CDATA[「東京ゲームショウ2024（TGS2024）」で取材をしていると、たまたま声をかけられました。そこは訪れる予定のブースではなかったのですが、出展タイトルのコンセプトや仕組みについてお話しを伺ったところ、すごく興味を惹かれましたので紹介したいと思います。]]></content>
+        <author>
+            <name>咲文でんこ</name>
+        </author>
+        <published>2024-09-30T02:47:33.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Windows Server Update Services」（WSUS）が非推奨になると報じた記事に注目集まる ～窓の杜アクセスランキング［2024/09/23～2024/09/29］【記事アクセスランキング】 | 窓の杜]]></title>
+        <id>https://forest.watch.impress.co.jp/docs/serial/accessranking/1627356.html</id>
+        <link href="https://forest.watch.impress.co.jp/docs/serial/accessranking/1627356.html"/>
+        <updated>2024-09-30T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></summary>
+        <content type="html"><![CDATA[前週に閲覧数の多かった記事を、上位10位までレポートします。]]></content>
+        <author>
+            <name>窓の杜編集部</name>
+        </author>
+        <published>2024-09-30T02:45:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLMの日本語化はベクトル表現にも有効か？LLM2Vecにおける日本語ドメイン適応の効果 | Uzabase for Engineers]]></title>
+        <id>https://tech.uzabase.com/entry/2024/09/30/114245</id>
+        <link href="https://tech.uzabase.com/entry/2024/09/30/114245"/>
+        <updated>2024-09-30T02:42:45.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは！ 株式会社ユーザベース スピーダ事業部の飯田です。 この記事では、テキストをベクトルに変換（エンコード）にLLMを用いる際に有効なLLM2Vecという手法を紹介します。 合わせて、LLM2Vecにおける日本語ドメイン適応として、LLM2Vecの処理を日本語で行った場合とLLMの継続事前学習を日本語で行った場合について実験を行ったため、これを紹介します。 LLM2Vecとは L...]]></summary>
+        <content type="html"><![CDATA[はじめに こんにちは！ 株式会社ユーザベース スピーダ事業部の飯田です。 この記事では、テキストをベクトルに変換（エンコード）にLLMを用いる際に有効なLLM2Vecという手法を紹介します。 合わせて、LLM2Vecにおける日本語ドメイン適応として、LLM2Vecの処理を日本語で行った場合とLLMの継続事前学習を日本語で行った場合について実験を行ったため、これを紹介します。 LLM2Vecとは LLM2Vecは、"LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders"で提案された手法です。 Llamaなどで有名なL…]]></content>
+        <published>2024-09-30T02:42:45.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[蛍光顕微鏡画像解析用ワークステーション | TEGAKARI]]></title>
+        <id>https://www.tegakari.net/?p=31555</id>
+        <link href="https://www.tegakari.net/2024/09/pc-11703/"/>
+        <updated>2024-09-30T02:40:04.000Z</updated>
+        <summary type="html"><![CDATA[分子細胞生物学の研究に携わるお客様より、ワークステーション導入のご相談をいただきました。 主な使用目的は蛍光顕微鏡画像の解析とプレゼンテーション資料の作成で、メ [...続きを見る] 投稿 蛍光顕微鏡画像解析用ワークステーション は TEGAKARI に最初に表示されました。]]></summary>
+        <content type="html"><![CDATA[分子細胞生物学の研究に携わるお客様より、ワークステーション導入のご相談をいただきました。 主な使用目的は蛍光顕微鏡画像の解析とプレゼンテーション資料の作成で、メ [...続きを見る] 投稿 蛍光顕微鏡画像解析用ワークステーション は TEGAKARI に最初に表示されました。]]></content>
+        <author>
+            <name>テガラ株式会社</name>
+        </author>
+        <category label="研究用ワークステーション"/>
+        <category label="研究開発用PC 構成事例 (テグシス)"/>
+        <published>2024-09-30T02:40:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[AI編集画像・動画の「ニセ記憶」で人の記憶を上書きできるか？　200人を対象にMITが実験（生成AIクローズアップ） | テクノエッジ TechnoEdge]]></title>
@@ -116,10 +276,10 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="CEDEC"/>
         <category label="CEDEC 2025"/>
+        <category label="News"/>
+        <category label="CEDEC"/>
+        <category label="ゲーム"/>
         <published>2024-09-30T01:33:04.000Z</published>
     </entry>
     <entry>
@@ -490,12 +650,12 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="Marvel Rivals"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
         <category label="スポンサードコンテンツ"/>
+        <category label="Marvel Rivals"/>
+        <category label="PC"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T10:40:54.000Z</published>
     </entry>
@@ -513,7 +673,7 @@
         <published>2024-09-29T10:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[【図解解説】これ1本でGitをマスターできる初心者チュートリアル！【完全版】 | Qiita - 人気の記事]]></title>
+        <title type="html"><![CDATA[【図解解説】これ1本でGitをマスターできるチュートリアル！【初心者完全版】 | Qiita - 人気の記事]]></title>
         <id>https://qiita.com/Sicut_study/items/0318cc136c189b179b7f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</id>
         <link href="https://qiita.com/Sicut_study/items/0318cc136c189b179b7f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items"/>
         <updated>2024-09-29T09:07:29.000Z</updated>
@@ -553,15 +713,15 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="HD-2D版『ドラゴンクエストIII そして伝説へ…』"/>
+        <category label="Nintendo Switch"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="nintendo-switch"/>
         <category label="任天堂"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
-        <category label="Nintendo Switch"/>
-        <category label="nintendo-switch"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T08:20:24.000Z</published>
     </entry>
@@ -643,13 +803,13 @@
         <author>
             <name>山田集佳</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="METAL GEAR SOLID Δ: SNAKE EATER"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
-        <category label="METAL GEAR SOLID Δ: SNAKE EATER"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T07:25:08.000Z</published>
     </entry>
@@ -663,12 +823,12 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="PlayStation 5"/>
+        <category label="パルワールド"/>
         <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox Series X"/>
-        <category label="パルワールド"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T06:54:26.000Z</published>
     </entry>
@@ -682,17 +842,17 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
+        <category label="xbox-one"/>
+        <category label="PlayStation 4"/>
+        <category label="Stardew Valley"/>
+        <category label="ps4"/>
+        <category label="Xbox One"/>
+        <category label="Nintendo Switch"/>
         <category label="News"/>
         <category label="PC"/>
-        <category label="ps4"/>
-        <category label="xbox-one"/>
         <category label="ゲーム"/>
-        <category label="PlayStation 4"/>
-        <category label="任天堂"/>
-        <category label="Nintendo Switch"/>
-        <category label="Xbox One"/>
         <category label="nintendo-switch"/>
-        <category label="Stardew Valley"/>
+        <category label="任天堂"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T06:49:19.000Z</published>
     </entry>
@@ -877,15 +1037,15 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="News"/>
-        <category label="PC"/>
-        <category label="ps4"/>
-        <category label="ゲーム"/>
-        <category label="PlayStation 4"/>
         <category label="Steam"/>
         <category label="iphone"/>
+        <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="News"/>
         <category label="DEATH STRANDING"/>
+        <category label="PC"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T02:30:14.000Z</published>
     </entry>
@@ -899,10 +1059,10 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
-        <category label="Death Stranding 2"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Death Stranding 2"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-29T02:11:05.000Z</published>
     </entry>
@@ -1317,8 +1477,8 @@
             <name>片岡龍一</name>
         </author>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
         <category label="Preview"/>
         <published>2024-09-28T09:28:28.000Z</published>
     </entry>
@@ -1330,19 +1490,6 @@
         <summary type="html"><![CDATA[はじめに 開発ではじめてActiveModelSerializerを使った時に、あるエラーがきっかけでincludesメソッドの理解が深まりました。 includesをはじめとした様々なメソッドにつ…]]></summary>
         <content type="html"><![CDATA[はじめに 開発ではじめてActiveModelSerializerを使った時に、あるエラーがきっかけでincludesメソッドの理解が深まりました。 includesをはじめとした様々なメソッドにつ…]]></content>
         <published>2024-09-28T09:10:38.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[山形大学の研究チーム、AI活用でナスカの地上絵を発見しまくる | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/09/ai-survey-reveals-hundreds-of-nazca-line-geoglyphs.html</id>
-        <link href="https://www.gizmodo.jp/2024/09/ai-survey-reveals-hundreds-of-nazca-line-geoglyphs.html"/>
-        <updated>2024-09-28T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:shutterstock/chamskiAI使用で発見率は16倍、発見された数は倍になったそう。ペルーにあるナスカ地域の地面に広がる430の地上絵を発見するのに、100年もかかりました。技術が進んだ今、科学者チームはAIを活用したアプローチで、たった半年で303もの地上絵を発見。発見が困難な図形も発見されています。ナスカの地上絵とは？「ナスカの地上絵」とは、ナスカ平原にある砂利で描かれ]]></summary>
-        <content type="html"><![CDATA[Image:shutterstock/chamskiAI使用で発見率は16倍、発見された数は倍になったそう。ペルーにあるナスカ地域の地面に広がる430の地上絵を発見するのに、100年もかかりました。技術が進んだ今、科学者チームはAIを活用したアプローチで、たった半年で303もの地上絵を発見。発見が困難な図形も発見されています。ナスカの地上絵とは？「ナスカの地上絵」とは、ナスカ平原にある砂利で描かれ]]></content>
-        <author>
-            <name>岩田リョウコ</name>
-        </author>
-        <category label="SCIENCE"/>
-        <published>2024-09-28T09:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[グラビアカメラマンがAI生成したグラビア写真をAIで動画化してみた。架空ゲームショウの謎コスプレもあるよ（西川和久＆松尾公也） | テクノエッジ TechnoEdge]]></title>
@@ -1384,12 +1531,12 @@
         <author>
             <name>渡邉卓也</name>
         </author>
+        <category label="エンタメ"/>
         <category label="News"/>
         <category label="PC"/>
-        <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
-        <category label="エンタメ"/>
         <category label="グッズ"/>
+        <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
         <published>2024-09-28T07:42:49.000Z</published>
     </entry>
     <entry>
@@ -1413,19 +1560,6 @@
         <published>2024-09-28T07:40:37.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Olightの「キーライト」、ちょっと灯りが欲しいときにぴったりすぎる | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/09/olight.html</id>
-        <link href="https://www.gizmodo.jp/2024/09/olight.html"/>
-        <updated>2024-09-28T05:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Photo:OGMAXROOMIE2022年12月27日掲載の記事より転載小さくて便利なアイテムって、見つけるとついつい欲しくなっちゃいませんか？日常生活で便利に使える、コンパクトで持ち歩きたくなるようなものが大好きなんですが、最近見つけた小さいライトがいざという時に頼りになるアイテムでした！長さ3.5cmのミニライトOlight iminiキーライトこちらがそのミニライト。開封してみるとライト本]]></summary>
-        <content type="html"><![CDATA[Photo:OGMAXROOMIE2022年12月27日掲載の記事より転載小さくて便利なアイテムって、見つけるとついつい欲しくなっちゃいませんか？日常生活で便利に使える、コンパクトで持ち歩きたくなるようなものが大好きなんですが、最近見つけた小さいライトがいざという時に頼りになるアイテムでした！長さ3.5cmのミニライトOlight iminiキーライトこちらがそのミニライト。開封してみるとライト本]]></content>
-        <author>
-            <name>OGMAX</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-09-28T05:35:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[突如現れた「謎のサイバーパンク都市ブース」はいったいなに？東京ゲームショウでも異色な「Qiddiya Gaming Booth」に迫る【TGS2024】 | IGN Japan games]]></title>
         <id>https://jp.ign.com/tgs-2024/76674/preview/qiddiya-gaming-boothtgs2024</id>
         <link href="https://jp.ign.com/tgs-2024/76674/preview/qiddiya-gaming-boothtgs2024"/>
@@ -1436,8 +1570,8 @@
             <name>渡邉卓也</name>
         </author>
         <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
         <category label="Preview"/>
+        <category label="東京ゲームショウ2024"/>
         <published>2024-09-28T04:54:33.000Z</published>
     </entry>
     <entry>
@@ -1462,15 +1596,15 @@
         <author>
             <name>Alex Stedman</name>
         </author>
-        <category label="News"/>
-        <category label="Death Stranding 2"/>
-        <category label="ゲーム"/>
-        <category label="Death Stranding"/>
-        <category label="アニメ"/>
         <category label="エンタメ"/>
+        <category label="Death Stranding"/>
+        <category label="News"/>
         <category label="DEATH STRANDING"/>
-        <category label="小島秀夫"/>
         <category label="映画"/>
+        <category label="ゲーム"/>
+        <category label="アニメ"/>
+        <category label="小島秀夫"/>
+        <category label="Death Stranding 2"/>
         <published>2024-09-28T04:07:53.000Z</published>
     </entry>
     <entry>
@@ -1539,8 +1673,8 @@
             <name>山田集佳</name>
         </author>
         <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
         <category label="Preview"/>
+        <category label="東京ゲームショウ2024"/>
         <published>2024-09-28T01:47:24.000Z</published>
     </entry>
     <entry>
@@ -1753,8 +1887,8 @@
             <name>渡邉卓也</name>
         </author>
         <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
         <category label="Preview"/>
+        <category label="東京ゲームショウ2024"/>
         <published>2024-09-27T09:19:39.000Z</published>
     </entry>
     <entry>
@@ -1767,11 +1901,11 @@
         <author>
             <name>山田集佳</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="東京ゲームショウ2024"/>
         <category label="真・三國無双 ORIGINS"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
@@ -1831,9 +1965,9 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="PlayStation 5 Pro"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-27T08:13:26.000Z</published>
@@ -1903,17 +2037,17 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="ps4"/>
         <category label="xbox-one"/>
-        <category label="ゲーム"/>
         <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="Xbox One"/>
+        <category label="PC"/>
         <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="龍が如く８外伝 Pirates in Hawaii"/>
         <category label="Preview"/>
         <category label="Xbox Series X"/>
-        <category label="Xbox One"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-27T07:26:14.000Z</published>
     </entry>
@@ -2130,11 +2264,11 @@
         <author>
             <name>渡邉卓也</name>
         </author>
-        <category label="PC"/>
-        <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
-        <category label="Preview"/>
         <category label="地罰上らば竜の降る"/>
+        <category label="PC"/>
+        <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
+        <category label="Preview"/>
         <published>2024-09-27T02:50:11.000Z</published>
     </entry>
     <entry>
@@ -2215,8 +2349,8 @@
             <name>渡邉卓也</name>
         </author>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
         <category label="Preview"/>
         <published>2024-09-27T02:30:28.000Z</published>
     </entry>
@@ -2285,22 +2419,6 @@
         <summary type="html"><![CDATA[2024年9月の１ヶ月間エキサイト株式会社が開催した「Boost!!! Excite Internship 2024」で経験したこと、感じたことをこの記事を通して紹介したいと思います。 自己紹介 私は商学部に在籍している大学3年生です。大学内の授業ではプログラミングやコンピューターサイエンスの科目がほぼ無いと言って過言ではありません。そのため、私は「Recursion」という学習サービスを利用し、...]]></summary>
         <content type="html"><![CDATA[2024年9月の１ヶ月間エキサイト株式会社が開催した「Boost!!! Excite Internship 2024」で経験したこと、感じたことをこの記事を通して紹介したいと思います。 自己紹介 私は商学部に在籍している大学3年生です。大学内の授業ではプログラミングやコンピューターサイエンスの科目がほぼ無いと言って過言ではありません。そのため、私は「Recursion」という学習サービスを利用し、ソフトウェア開発やコンピューターサイエンスを学んできました。個人での開発物として、複数のバックエンド及びフロントエンドプロジェクトがあります。扱ってきた言語、技術は習熟度の差はありますが、JavaSc…]]></content>
         <published>2024-09-27T01:49:39.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sysdig CSPM の AWS 環境で検知された項目への対応例 | エンジニアブログ | iret.media]]></title>
-        <id>https://iret.media/?p=121803</id>
-        <link href="https://iret.media/121803"/>
-        <updated>2024-09-27T01:45:50.000Z</updated>
-        <summary type="html"><![CDATA[はじめに この記事はセキュリティチームの Sysdig 活用事例をテーマにした「Sysdigブログリレー」8 日目の記事です。 今回は、AWS 環境を CSPM でチェックした際に検知されるような項目と、その対応例をいく […]]]></summary>
-        <content type="html"><![CDATA[はじめに この記事はセキュリティチームの Sysdig 活用事例をテーマにした「Sysdigブログリレー」8 日目の記事です。 今回は、AWS 環境を CSPM でチェックした際に検知されるような項目と、その対応例をいく […]]]></content>
-        <author>
-            <name>佐伯 康浩</name>
-        </author>
-        <category label="エンジニアブログ"/>
-        <category label="Sysdig"/>
-        <category label="Sysdigブログリレー"/>
-        <category label="セキュリティ"/>
-        <published>2024-09-27T01:45:50.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CDKでスタック間参照してはならない | Uzabase for Engineers]]></title>
@@ -2438,13 +2556,13 @@
             <name>Wesley Yin-Poole</name>
         </author>
         <category label="News"/>
-        <category label="PC"/>
-        <category label="聖剣伝説 Legend of Mana"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="Legend of Mana"/>
-        <category label="ファイナルファンタジー"/>
         <category label="聖剣伝説3 トライアルズ オブ マナ"/>
+        <category label="PC"/>
+        <category label="ファイナルファンタジー"/>
+        <category label="ゲーム"/>
+        <category label="聖剣伝説 Legend of Mana"/>
+        <category label="Legend of Mana"/>
+        <category label="Xbox Series X"/>
         <published>2024-09-27T00:08:31.000Z</published>
     </entry>
     <entry>
@@ -2696,16 +2814,6 @@
         <published>2024-09-26T08:30:26.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Llama 3 405BとTogether.aiを活用したコード生成AI「Llama Coder」　ほか【ダイジェストニュース】 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/digest/1626620.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/digest/1626620.html"/>
-        <updated>2024-09-26T08:27:54.000Z</updated>
-        <author>
-            <name>窓の杜編集部</name>
-        </author>
-        <published>2024-09-26T08:27:54.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Meta Quest 3S発表、4万8400円で10月15日発売。3同等のMRと処理性能で低価格化 | テクノエッジ TechnoEdge]]></title>
         <id>https://www.techno-edge.net/article/2024/09/26/3723.html</id>
         <link href="https://www.techno-edge.net/article/2024/09/26/3723.html"/>
@@ -2756,18 +2864,6 @@
         <summary type="html"><![CDATA[モバイル開発グループのリーダーを務める小林(@imk2o)です。 今年もiOSDCとDroidKaigiに参加してきました！ 例年と異なり、今年はモバイル開発グループのマネジメントを行う立場で参加したこともあり、いつもとは異なる目線でカンファレンス参加への意義や、今後のモバイルアプリエンジニアのキャリアについて考えてみました。 開発コミュニティに関わること まずこういったカンファレンスを「情報収集...]]></summary>
         <content type="html"><![CDATA[モバイル開発グループのリーダーを務める小林(@imk2o)です。 今年もiOSDCとDroidKaigiに参加してきました！ 例年と異なり、今年はモバイル開発グループのマネジメントを行う立場で参加したこともあり、いつもとは異なる目線でカンファレンス参加への意義や、今後のモバイルアプリエンジニアのキャリアについて考えてみました。 開発コミュニティに関わること まずこういったカンファレンスを「情報収集を行うための場」という見方をしていませんか？ もちろん新しい技術や知見を獲得できる機会であることは間違いありませんが、もっと大切なことがあります。 それは他のエンジニアたちと直接意見交換することだと私…]]></content>
         <published>2024-09-26T07:50:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[お気に入りのアプリ・サービスを1つのウィンドウにまとめられる「Rambox」v2.4.0／ポモドーロタイマーのように使える「フォーカス セッション」などを追加 | 窓の杜]]></title>
-        <id>https://forest.watch.impress.co.jp/docs/news/1626552.html</id>
-        <link href="https://forest.watch.impress.co.jp/docs/news/1626552.html"/>
-        <updated>2024-09-26T07:30:13.000Z</updated>
-        <summary type="html"><![CDATA[必要なアプリ・サービスをひとまとめにするワークスペースアプリ「Rambox」が9月24日（米国時間）、v2.4.0へとアップデートされた。新しいテーマが追加されたほか、ユーザーインターフェイスが改修されている。]]></summary>
-        <content type="html"><![CDATA[必要なアプリ・サービスをひとまとめにするワークスペースアプリ「Rambox」が9月24日（米国時間）、v2.4.0へとアップデートされた。新しいテーマが追加されたほか、ユーザーインターフェイスが改修されている。]]></content>
-        <author>
-            <name>樽井 秀人</name>
-        </author>
-        <published>2024-09-26T07:30:13.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mac上でiPhoneが使える便利機能「iPhoneミラーリング」の使い方。通知確認やiOSのみアプリも (iOS 18・macOS Sequoia) | テクノエッジ TechnoEdge]]></title>
@@ -2868,11 +2964,11 @@
         <author>
             <name>Ryan Dinsdale</name>
         </author>
-        <category label="PlayStation 5"/>
+        <category label="スター・ウォーズ 無法者たち"/>
         <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
-        <category label="スター・ウォーズ 無法者たち"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-26T05:38:44.000Z</published>
@@ -2933,9 +3029,9 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
         <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="PlayStation 5 Pro"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-26T03:38:56.000Z</published>
@@ -3044,11 +3140,11 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="アサシン クリード シャドウズ"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox Series X"/>
         <published>2024-09-26T00:30:45.000Z</published>
     </entry>
@@ -3110,11 +3206,11 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="Ghost of Yotei"/>
         <category label="Ghost of Tsushima"/>
+        <category label="Ghost of Yotei"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-25T23:45:47.000Z</published>
     </entry>
@@ -3250,19 +3346,19 @@
         <published>2024-09-25T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[科学者に聞いてみよう「ニホニウムってなんだ！？」 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20241103_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20241103_1/index.html"/>
+        <updated>2024-09-25T15:00:00.000Z</updated>
+        <published>2024-09-25T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[複雑な社会でさまざまな他者から学ぶ | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240926_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240926_1/index.html"/>
         <updated>2024-09-25T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－価値観や目的が多様な集団で人間が他者を模倣する数理モデル－]]></summary>
         <content type="html"><![CDATA[－価値観や目的が多様な集団で人間が他者を模倣する数理モデル－]]></content>
-        <published>2024-09-25T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[科学者に聞いてみよう「ニホニウムってなんだ！？」 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20241103_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20241103_1/index.html"/>
-        <updated>2024-09-25T15:00:00.000Z</updated>
         <published>2024-09-25T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -3276,9 +3372,9 @@
             <name>Ign Japan</name>
         </author>
         <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="東京ゲームショウ2024"/>
         <category label="東京ゲームショウ"/>
+        <category label="東京ゲームショウ2024"/>
+        <category label="ゲーム"/>
         <published>2024-09-25T12:30:17.000Z</published>
     </entry>
     <entry>
@@ -3399,15 +3495,15 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
+        <category label="Steam"/>
+        <category label="PlayStation 4"/>
+        <category label="ps4"/>
         <category label="News"/>
         <category label="PC"/>
-        <category label="ps4"/>
         <category label="ゲーム"/>
-        <category label="PlayStation 4"/>
-        <category label="Steam"/>
-        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
         <category label="メタファー：リファンタジオ"/>
+        <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-25T07:43:28.000Z</published>
     </entry>
@@ -3459,10 +3555,10 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Steam"/>
         <category label="News"/>
         <category label="PC"/>
         <category label="ゲーム"/>
-        <category label="Steam"/>
         <category label="モンスターハンターワイルズ"/>
         <published>2024-09-25T07:06:53.000Z</published>
     </entry>
@@ -3515,12 +3611,12 @@
         <author>
             <name>Ryan Dinsdale</name>
         </author>
-        <category label="News"/>
         <category label="Banishers: Ghosts of New Eden"/>
+        <category label="News"/>
+        <category label="Life Is Strange"/>
         <category label="Jusant"/>
         <category label="ゲーム"/>
         <category label="Lost Records: Bloom and Rage"/>
-        <category label="Life Is Strange"/>
         <published>2024-09-25T05:42:10.000Z</published>
     </entry>
     <entry>
@@ -3542,15 +3638,15 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="News"/>
-        <category label="PC"/>
-        <category label="xbox-one"/>
-        <category label="ゲーム"/>
         <category label="Steam"/>
-        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
         <category label="パルワールド"/>
         <category label="Xbox One"/>
+        <category label="News"/>
+        <category label="PC"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
+        <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-25T05:08:56.000Z</published>
     </entry>
@@ -3720,9 +3816,9 @@
         <author>
             <name>IGN JAPAN編集部</name>
         </author>
+        <category label="Slideshow"/>
         <category label="PC"/>
         <category label="ゲーム"/>
-        <category label="Slideshow"/>
         <category label="Gravity Forge"/>
         <published>2024-09-25T00:39:16.000Z</published>
     </entry>
@@ -3745,11 +3841,11 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="Slideshow"/>
+        <category label="PC"/>
         <category label="真・三國無双 ORIGINS"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-25T00:02:30.000Z</published>
@@ -3764,11 +3860,11 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="PlayStation 5"/>
         <category label="News"/>
         <category label="PC"/>
-        <category label="ゲーム"/>
         <category label="真・三國無双 ORIGINS"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-25T00:02:30.000Z</published>
@@ -3846,29 +3942,12 @@
         <author>
             <name>IGN JAPAN編集部</name>
         </author>
-        <category label="PlayStation 5"/>
-        <category label="ゲーム"/>
         <category label="Slideshow"/>
         <category label="Ghost of Yotei"/>
+        <category label="ゲーム"/>
+        <category label="PlayStation 5"/>
         <category label="Sony PlayStation"/>
         <published>2024-09-24T23:12:30.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[『Ghost of Tsushima』の続編、二刀流女性キャラが主人公の『Ghost of Yōtei』が発表 | IGN Japan games]]></title>
-        <id>https://jp.ign.com/ghost-of-yotei/76611/news/ghost-of-tsushimaghost-of-ytei</id>
-        <link href="https://jp.ign.com/ghost-of-yotei/76611/news/ghost-of-tsushimaghost-of-ytei"/>
-        <updated>2024-09-24T22:56:07.000Z</updated>
-        <summary type="html"><![CDATA[1603年が舞台 『Ghost of Tsushima』（レビュー）の続編『Ghost of Yōtei』がState of Play | September 24, 2024で発表になった。]]></summary>
-        <content type="html"><![CDATA[1603年が舞台 『Ghost of Tsushima』（レビュー）の続編『Ghost of Yōtei』がState of Play | September 24, 2024で発表になった。]]></content>
-        <author>
-            <name>千葉芳樹</name>
-        </author>
-        <category label="PlayStation 5"/>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="Ghost of Yotei"/>
-        <category label="Sony PlayStation"/>
-        <published>2024-09-24T22:56:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Tokenomics and AI: Incentivicing Ethical AI Development on ICP | HackerNoon - machine-learning]]></title>
@@ -3923,13 +4002,6 @@
         <published>2024-09-24T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[「コロナ制圧タスクフォース」血漿タンパク質量の個人差に寄与するヒトゲノム配列を大規模に同定 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240925_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240925_1/index.html"/>
-        <updated>2024-09-24T15:00:00.000Z</updated>
-        <published>2024-09-24T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[理研シンポジウム：新アミノ酸分析研究会 第14回学術講演会 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/symposia/20241213_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/symposia/20241213_1/index.html"/>
@@ -3940,6 +4012,13 @@
         <title type="html"><![CDATA[理研シンポジウム: 第22回 分析・解析技術と化学の最先端 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/symposia/20241217_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/symposia/20241217_1/index.html"/>
+        <updated>2024-09-24T15:00:00.000Z</updated>
+        <published>2024-09-24T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「コロナ制圧タスクフォース」血漿タンパク質量の個人差に寄与するヒトゲノム配列を大規模に同定 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240925_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240925_1/index.html"/>
         <updated>2024-09-24T15:00:00.000Z</updated>
         <published>2024-09-24T15:00:00.000Z</published>
     </entry>
@@ -5107,6 +5186,21 @@
         <published>2024-09-19T15:00:00.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[宇宙観測用カメラで原子核の内部を探る | クローズアップ科学道]]></title>
+        <id> https://www.riken.jp/pr/closeup/2024/20240920_1/index.html</id>
+        <link href="
+		https://www.riken.jp/pr/closeup/2024/20240920_1/index.html"/>
+        <updated>2024-09-19T15:00:00.000Z</updated>
+        <published>2024-09-19T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「理研の博士と考えよう！」の新作「『物質』はどうやってできたの？」を公開 | お知らせ]]></title>
+        <id> https://www.riken.jp/pr/news/2024/20240920_1/index.html</id>
+        <link href="https://www.riken.jp/pr/news/2024/20240920_1/index.html"/>
+        <updated>2024-09-19T15:00:00.000Z</updated>
+        <published>2024-09-19T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[真核生物での遺伝子の読み取りが終わる瞬間を捉える | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240920_2/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240920_2/index.html"/>
@@ -5122,21 +5216,6 @@
         <updated>2024-09-19T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－たった2種類のタンパク質を起点に両方向性が確立する－]]></summary>
         <content type="html"><![CDATA[－たった2種類のタンパク質を起点に両方向性が確立する－]]></content>
-        <published>2024-09-19T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[宇宙観測用カメラで原子核の内部を探る | クローズアップ科学道]]></title>
-        <id> https://www.riken.jp/pr/closeup/2024/20240920_1/index.html</id>
-        <link href="
-		https://www.riken.jp/pr/closeup/2024/20240920_1/index.html"/>
-        <updated>2024-09-19T15:00:00.000Z</updated>
-        <published>2024-09-19T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「理研の博士と考えよう！」の新作「『物質』はどうやってできたの？」を公開 | お知らせ]]></title>
-        <id> https://www.riken.jp/pr/news/2024/20240920_1/index.html</id>
-        <link href="https://www.riken.jp/pr/news/2024/20240920_1/index.html"/>
-        <updated>2024-09-19T15:00:00.000Z</updated>
         <published>2024-09-19T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5489,19 +5568,19 @@
         <published>2024-09-18T15:01:57.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[けいはんなR&Dフェア2024 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20241005_2/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20241005_2/index.html"/>
+        <updated>2024-09-18T15:00:00.000Z</updated>
+        <published>2024-09-18T15:00:00.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[スキルミオンの創発的ガリレオ相対性 | プレスリリースニュース]]></title>
         <id>https://www.riken.jp/press/2024/20240919_1/index.html</id>
         <link href="https://www.riken.jp/press/2024/20240919_1/index.html"/>
         <updated>2024-09-18T15:00:00.000Z</updated>
         <summary type="html"><![CDATA[－スキルミオンの運動の電気的制御・読み出しに成功－]]></summary>
         <content type="html"><![CDATA[－スキルミオンの運動の電気的制御・読み出しに成功－]]></content>
-        <published>2024-09-18T15:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[けいはんなR&Dフェア2024 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20241005_2/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20241005_2/index.html"/>
-        <updated>2024-09-18T15:00:00.000Z</updated>
         <published>2024-09-18T15:00:00.000Z</published>
     </entry>
     <entry>
@@ -5616,21 +5695,21 @@
         <published>2024-09-18T08:30:11.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PHPカンファレンス沖縄2024に所属エンジニアが登壇します | WILLGATE TECH BLOG]]></title>
-        <id>https://tech.willgate.co.jp/entry/2024/09/18/170000</id>
-        <link href="https://tech.willgate.co.jp/entry/2024/09/18/170000"/>
-        <updated>2024-09-18T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[登壇情報 「無理なくできるだけ安全に」テストもないレガシーコードをリファクタリングするテクニック by zoe パスワードのハッシュ、ソルトってなに？ by おかしょい／岡田 正平 おわりに プロダクト事業部開発グループの岡田／おかしょい（@okashoi）です。 9 月 28 日（土）に開催される「PHPカンファレンス沖縄2024」に弊社所属のエンジニアが登壇いたします！ phpcon.okin...]]></summary>
-        <content type="html"><![CDATA[登壇情報 「無理なくできるだけ安全に」テストもないレガシーコードをリファクタリングするテクニック by zoe パスワードのハッシュ、ソルトってなに？ by おかしょい／岡田 正平 おわりに プロダクト事業部開発グループの岡田／おかしょい（@okashoi）です。 9 月 28 日（土）に開催される「PHPカンファレンス沖縄2024」に弊社所属のエンジニアが登壇いたします！ phpcon.okinawa.jp （以下、公式サイトより引用） オープンソースのスクリプト言語 PHP (正式名称 PHP:Hypertext Preprocessor)を沖縄でもドンドン普及したいと思い、PHPカンファ…]]></content>
-        <published>2024-09-18T08:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[未経験エンジニアがアプリ開発保守業務に携わった半年間の成長の実感 | athome-developer’s blog]]></title>
         <id>https://dblog.athome.co.jp/entry/2024/09/18/170000</id>
         <link href="https://dblog.athome.co.jp/entry/2024/09/18/170000"/>
         <updated>2024-09-18T08:00:00.000Z</updated>
         <summary type="html"><![CDATA[目次 はじめに 自己紹介とブログの趣旨説明 アプリチーム配属前に経験したこと アプリチーム配属時に感じた課題 問題解決への取組みと成長の実感 実際に対応した不具合対応の紹介 発生した不具合の概要 対応内容 対応１：不具合箇所の特定 対応２：API担当者への調査依頼 調査結果 不具合対応を通して得た気付き・まとめ おわりに はじめに 自己紹介とブログの趣旨説明 はじめまして、Cメディア開発グループ、...]]></summary>
         <content type="html"><![CDATA[目次 はじめに 自己紹介とブログの趣旨説明 アプリチーム配属前に経験したこと アプリチーム配属時に感じた課題 問題解決への取組みと成長の実感 実際に対応した不具合対応の紹介 発生した不具合の概要 対応内容 対応１：不具合箇所の特定 対応２：API担当者への調査依頼 調査結果 不具合対応を通して得た気付き・まとめ おわりに はじめに 自己紹介とブログの趣旨説明 はじめまして、Cメディア開発グループ、アプリチーム所属の土居です。 2023年4月に入社し、今年で2年目になります。 業務としては、「不動産情報アプリ アットホーム」と「お部屋探しアプリ アットホームであった！」の開発保守を行っています。…]]></content>
+        <published>2024-09-18T08:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PHPカンファレンス沖縄2024に所属エンジニアが登壇します | WILLGATE TECH BLOG]]></title>
+        <id>https://tech.willgate.co.jp/entry/2024/09/18/170000</id>
+        <link href="https://tech.willgate.co.jp/entry/2024/09/18/170000"/>
+        <updated>2024-09-18T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[登壇情報 「無理なくできるだけ安全に」テストもないレガシーコードをリファクタリングするテクニック by zoe パスワードのハッシュ、ソルトってなに？ by おかしょい／岡田 正平 おわりに プロダクト事業部開発グループの岡田／おかしょい（@okashoi）です。 9 月 28 日（土）に開催される「PHPカンファレンス沖縄2024」に弊社所属のエンジニアが登壇いたします！ phpcon.okin...]]></summary>
+        <content type="html"><![CDATA[登壇情報 「無理なくできるだけ安全に」テストもないレガシーコードをリファクタリングするテクニック by zoe パスワードのハッシュ、ソルトってなに？ by おかしょい／岡田 正平 おわりに プロダクト事業部開発グループの岡田／おかしょい（@okashoi）です。 9 月 28 日（土）に開催される「PHPカンファレンス沖縄2024」に弊社所属のエンジニアが登壇いたします！ phpcon.okinawa.jp （以下、公式サイトより引用） オープンソースのスクリプト言語 PHP (正式名称 PHP:Hypertext Preprocessor)を沖縄でもドンドン普及したいと思い、PHPカンファ…]]></content>
         <published>2024-09-18T08:00:00.000Z</published>
     </entry>
     <entry>
@@ -5933,15 +6012,6 @@
         <published>2024-09-17T09:30:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[iOS 18配信。アプリを隠す設定やホーム画面カスタマイズ、パスワードアプリなど新機能多数　対応機種はiPhone SE 2 / XR / 11以降 | テクノエッジ TechnoEdge]]></title>
-        <id>https://www.techno-edge.net/article/2024/09/17/3681.html</id>
-        <link href="https://www.techno-edge.net/article/2024/09/17/3681.html"/>
-        <updated>2024-09-17T09:10:34.000Z</updated>
-        <summary type="html"><![CDATA[アップルが、「これまで以上にカスタマイズ可能になった」iOS 18をリリースしました。]]></summary>
-        <content type="html"><![CDATA[アップルが、「これまで以上にカスタマイズ可能になった」iOS 18をリリースしました。]]></content>
-        <published>2024-09-17T09:10:34.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[その場の思いつきが20日間で100本以上の記事を生む企画になるまで｜「CYBOZU SUMMER BLOG FES '24」の経緯と顛末 | Cybozu Inside Out | サイボウズエンジニアのブログ]]></title>
         <id>https://blog.cybozu.io/entry/2024/09/17/174911</id>
         <link href="https://blog.cybozu.io/entry/2024/09/17/174911"/>
@@ -6182,15 +6252,6 @@
         <published>2024-09-16T17:03:02.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[水溶液中の金属錯体の電子状態と配位構造を解明する新手法を開発 | プレスリリースニュース]]></title>
-        <id>https://www.riken.jp/press/2024/20240917_1/index.html</id>
-        <link href="https://www.riken.jp/press/2024/20240917_1/index.html"/>
-        <updated>2024-09-16T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[－軟X線吸収分光計測による配位子側からの詳細な解析を実現－]]></summary>
-        <content type="html"><![CDATA[－軟X線吸収分光計測による配位子側からの詳細な解析を実現－]]></content>
-        <published>2024-09-16T15:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[京都スマートシティエキスポ2024 | イベントニュース]]></title>
         <id> https://www.riken.jp/pr/events/events/20241003_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/events/20241003_1/index.html"/>
@@ -6209,6 +6270,15 @@
         <id> https://www.riken.jp/pr/events/events/20241116_1/index.html</id>
         <link href="https://www.riken.jp/pr/events/events/20241116_1/index.html"/>
         <updated>2024-09-16T15:00:00.000Z</updated>
+        <published>2024-09-16T15:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[水溶液中の金属錯体の電子状態と配位構造を解明する新手法を開発 | プレスリリースニュース]]></title>
+        <id>https://www.riken.jp/press/2024/20240917_1/index.html</id>
+        <link href="https://www.riken.jp/press/2024/20240917_1/index.html"/>
+        <updated>2024-09-16T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[－軟X線吸収分光計測による配位子側からの詳細な解析を実現－]]></summary>
+        <content type="html"><![CDATA[－軟X線吸収分光計測による配位子側からの詳細な解析を実現－]]></content>
         <published>2024-09-16T15:00:00.000Z</published>
     </entry>
     <entry>
