@@ -25,6 +25,134 @@
             "tags": []
         },
         {
+            "id": "https://tech.kanmu.co.jp/entry/2024/10/04/142311",
+            "content_html": "エンジニアの佐野です。カンムはバックエンドに PostgreSQL を置きつつサーバを Go で書いています。DB のトランザクションの取り回しは概ね次の様なイディオムになっているのですが、先日 Commit() が漏れている箇所を見つけまして...。結果としてそれについては大きな問題はなく秋の夜長に遅めの肝試しをする程度で済んだのですが、これは事故に繋がるためトランザクションの Commit 漏れ(defer Rollback() 漏れも)を検出する Linter を書きました。 tx, err := db.BeginTx(ctx, nil) if err != nil { return e…",
+            "url": "https://tech.kanmu.co.jp/entry/2024/10/04/142311",
+            "title": "Go の静的解析で DB へのコミット漏れを検出する | カンムテックブログ",
+            "summary": "エンジニアの佐野です。カンムはバックエンドに PostgreSQL を置きつつサーバを Go で書いています。DB のトランザクションの取り回しは概ね次の様なイディオムになっているのですが、先日 Commit() が漏れている箇所を見つけまして...。結果としてそれについては大きな問題はなく秋の夜長に遅めの肝試しをする程度で済んだのですが、これは事故に繋がるためトランザクションの Commit 漏...",
+            "date_modified": "2024-10-04T05:23:11.000Z",
+            "date_published": "2024-10-04T05:23:11.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://tech-lab.sios.jp/?p=43499",
+            "content_html": "こんにちは、サイオステクノロジーの服部です。 Graph APIを用いたユーザーのMFAリセットについて調査する機会がありましたので、簡単にまとめていきます。 ユーザーのMFAリセット ユーザーのMFAリセットは、管理者 ... Graph APIでMFAリセットを実施する first appeared on SIOS Tech. Lab.",
+            "url": "https://tech-lab.sios.jp/archives/43499",
+            "title": "Graph APIでMFAリセットを実施する | SIOS Tech. Lab",
+            "summary": "こんにちは、サイオステクノロジーの服部です。 Graph APIを用いたユーザーのMFAリセットについて調査する機会がありましたので、簡単にまとめていきます。 ユーザーのMFAリセット ユーザーのMFAリセットは、管理者 ... Graph APIでMFAリセットを実施する first appeared on SIOS Tech. Lab.",
+            "date_modified": "2024-10-04T05:10:02.000Z",
+            "date_published": "2024-10-04T05:10:02.000Z",
+            "author": {
+                "name": "服部祥大"
+            },
+            "tags": [
+                "Azure",
+                "認証",
+                "PowerShell",
+                "Entra ID",
+                "GraphAPI"
+            ]
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/10/kingjim-ring-note.html",
+            "content_html": "Image:KINGJIM革命的なぷにぷにだ。誰もが使ったことがあるであろうリングノート。背骨部分がクルクル巻き付いた針金で、使用後に外して捨てるのは大変ですよね。柔らか螺旋リングx2で綴るキングジムの「ラセーノ」は、新開発の3重巻き「やわらからせんリング」を上下2箇所に巻くことで、ノートが固定されるシンプルなもの。柔らかいのでゴムのように引っ張れば外れ、用紙の交換もリングをクルクルっと巻くだけで",
+            "url": "https://www.gizmodo.jp/2024/10/kingjim-ring-note.html",
+            "title": "柔らか螺旋リングなら、リングノートの差し替えが簡単です | ギズモード・ジャパン",
+            "summary": "Image:KINGJIM革命的なぷにぷにだ。誰もが使ったことがあるであろうリングノート。背骨部分がクルクル巻き付いた針金で、使用後に外して捨てるのは大変ですよね。柔らか螺旋リングx2で綴るキングジムの「ラセーノ」は、新開発の3重巻き「やわらからせんリング」を上下2箇所に巻くことで、ノートが固定されるシンプルなもの。柔らかいのでゴムのように引っ張れば外れ、用紙の交換もリングをクルクルっと巻くだけで",
+            "date_modified": "2024-10-04T05:00:00.000Z",
+            "date_published": "2024-10-04T05:00:00.000Z",
+            "author": {
+                "name": "岡本玄介"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
+            "id": "https://softaro.net/?p=145940",
+            "content_html": "よくある質問と回答 ライセンスについて。 USBDDFix は、どなたでも無料で利用できます。",
+            "url": "https://softaro.net/usbddfix/",
+            "title": "USBDDFix 1.2 | ダウンロードと使い方 | ソフタロウ",
+            "summary": "よくある質問と回答 ライセンスについて。 USBDDFix は、どなたでも無料で利用できます。",
+            "date_modified": "2024-10-04T04:56:32.000Z",
+            "date_published": "2024-10-04T04:56:32.000Z",
+            "author": {
+                "name": "softaro"
+            },
+            "tags": [
+                "USB ドライブ",
+                "Simulated Reality Soft",
+                "USB フォーマット",
+                "Windows",
+                "フリーソフト"
+            ]
+        },
+        {
+            "id": "https://forest.watch.impress.co.jp/docs/news/1628867.html",
+            "content_html": "米Microsoftは10月3日（現地時間）、デスクトップ向け「Microsoft Edge」v129.0.2792.79を安定（Stable）チャネルでリリースした。「Chromium」がv129.0.6668.90へとアップデートされ、以下の3件の脆弱性が修正された。",
+            "url": "https://forest.watch.impress.co.jp/docs/news/1628867.html",
+            "title": "「Microsoft Edge」にセキュリティアップデート、「Chromium」「V8」の脆弱性を修正／v129.0.2792.79への更新を | 窓の杜",
+            "summary": "米Microsoftは10月3日（現地時間）、デスクトップ向け「Microsoft Edge」v129.0.2792.79を安定（Stable）チャネルでリリースした。「Chromium」がv129.0.6668.90へとアップデートされ、以下の3件の脆弱性が修正された。",
+            "date_modified": "2024-10-04T04:30:00.000Z",
+            "date_published": "2024-10-04T04:30:00.000Z",
+            "author": {
+                "name": "樽井 秀人"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://iret.media/?p=121470",
+            "content_html": "こんにちは、デザイン事業部の田村です。 自分の行動や思考をより良い方向にコントロールしていくためのひとつの考え方をご紹介します。 選択理論とは もし電話が鳴ったら電話に出ますか？ もし買い物に出掛けてお目当ての品がなかっ […]",
+            "url": "https://iret.media/121470",
+            "title": "選択理論の活用 | エンジニアブログ | iret.media",
+            "summary": "こんにちは、デザイン事業部の田村です。 自分の行動や思考をより良い方向にコントロールしていくためのひとつの考え方をご紹介します。 選択理論とは もし電話が鳴ったら電話に出ますか？ もし買い物に出掛けてお目当ての品がなかっ […]",
+            "date_modified": "2024-10-04T04:00:01.000Z",
+            "date_published": "2024-10-04T04:00:01.000Z",
+            "author": {
+                "name": "デザイン事業部"
+            },
+            "tags": [
+                "エンジニアブログ",
+                "inside UI/UX",
+                "UI/UX"
+            ]
+        },
+        {
+            "id": "https://blog.engineer.adways.net/entry/2024/10/04/130000",
+            "content_html": "みなさんお久しぶりです。技術本部インフラストラクチャーDivの中嶋です。 最近はめっきりDeadlockという開発中のゲームにハマっています。 さて、今回私が執筆する内容はCentOS7のEOLを目前に、私たちのチームでオンプレミスサーバーのIaC（Infrastructure as Code）化に取り組んだ話となります。 特に、Ansibleを使ったサーバー構築の自動化にチャレンジすることとなり、その過程で多くの議論と学びが生まれました。 今回は、その経験と苦労、そしてAnsibleを活用して得た成果についてお話させていただきます！ プロジェクト背景とAnsible化の理由 Ansible初…",
+            "url": "https://blog.engineer.adways.net/entry/2024/10/04/130000",
+            "title": "CentOS7 EOLに伴うサーバーのIaC化挑戦記 ～Ansibleの導入とチームでの成長～ | Adwaysエンジニアブログ",
+            "summary": "みなさんお久しぶりです。技術本部インフラストラクチャーDivの中嶋です。 最近はめっきりDeadlockという開発中のゲームにハマっています。 さて、今回私が執筆する内容はCentOS7のEOLを目前に、私たちのチームでオンプレミスサーバーのIaC（Infrastructure as Code）化に取り組んだ話となります。 特に、Ansibleを使ったサーバー構築の自動化にチャレンジすることとなり...",
+            "date_modified": "2024-10-04T04:00:00.000Z",
+            "date_published": "2024-10-04T04:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://developer.hatenastaff.com/entry/2024/10/04/130000",
+            "content_html": "2024年10月24日（木）に 「生成AI×新規事業 の挑戦 〜生成AIを学びながら技術とチームを磨いた事業立ち上げの道のり〜」をオンライン開催します。本イベントでは、生成AIを学びながら課題を解決してきた道のりや、事業立ち上げ時の技術選定、チーム運営の様子を紹介します。皆様のご参加をお待ちしております！",
+            "url": "https://developer.hatenastaff.com/entry/2024/10/04/130000",
+            "title": "10月24日に「生成AI×新規事業 の挑戦 〜生成AIを学びながら技術とチームを磨いた事業立ち上げの道のり〜」をオンライン開催します | Hatena Developer Blog",
+            "summary": "2024年10月24日（木）に 「生成AI×新規事業 の挑戦 〜生成AIを学びながら技術とチームを磨いた事業立ち上げの道のり〜」をオンライン開催します。本イベントでは、生成AIを学びながら課題を解決してきた道のりや、事業立ち上げ時の技術選定、チーム運営の様子を紹介します。皆様のご参加をお待ちしております！",
+            "date_modified": "2024-10-04T04:00:00.000Z",
+            "date_published": "2024-10-04T04:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.gizmodo.jp/2024/10/qoocam-3-ultra-review.html",
+            "content_html": "Photo:武者良太ライバルよりは大きいけど、横位置ディスプレイが見やすいというメリットもありますねコイツ。つい先日、日本でも発売が開始された全天球カメラの「Qoocam3Ultra」。こちらのメーカー、Kandaoは、知らない人も多いかもしれないけど、2018年ごろからプロ用の8K全天球カメラや、立てて全天球、折り曲げてVR180の動画が撮れる面白カメラを作ってきたんですよね。最新作のQooca",
+            "url": "https://www.gizmodo.jp/2024/10/qoocam-3-ultra-review.html",
+            "title": "ポケットサイズで美しい360度動画/写真が撮れる。失敗しにくい全天球カメラ「Qoocam 3 Ultra」 | ギズモード・ジャパン",
+            "summary": "Photo:武者良太ライバルよりは大きいけど、横位置ディスプレイが見やすいというメリットもありますねコイツ。つい先日、日本でも発売が開始された全天球カメラの「Qoocam3Ultra」。こちらのメーカー、Kandaoは、知らない人も多いかもしれないけど、2018年ごろからプロ用の8K全天球カメラや、立てて全天球、折り曲げてVR180の動画が撮れる面白カメラを作ってきたんですよね。最新作のQooca",
+            "date_modified": "2024-10-04T04:00:00.000Z",
+            "date_published": "2024-10-04T04:00:00.000Z",
+            "author": {
+                "name": "武者良太"
+            },
+            "tags": [
+                "PRODUCT"
+            ]
+        },
+        {
             "id": "https://tech-lab.sios.jp/?p=43476",
             "content_html": "はじめに ども！時には立ちながらブログを執筆する龍ちゃんです。最近、自分のブログの分析を始めたのですが、読まれているブログと読まれていないブログの差が激しくてげんなりしています。全部自分で執筆しているので、自分の実力不足 ... Streamlitでマルチページを作る2つの方法 first appeared on SIOS Tech. Lab.",
             "url": "https://tech-lab.sios.jp/archives/43476",
@@ -81,7 +209,7 @@
             "id": "https://softaro.net/?p=145922",
             "content_html": "よくある質問と回答 ライセンスについて。 ScreenVivid は、どなたでも無料で利用できます。",
             "url": "https://softaro.net/screenvivid/",
-            "title": "ScreenVivid 1.0.76 | ダウンロードと使い方 | ソフタロウ",
+            "title": "ScreenVivid 1.0.78 | ダウンロードと使い方 | ソフタロウ",
             "summary": "よくある質問と回答 ライセンスについて。 ScreenVivid は、どなたでも無料で利用できます。",
             "date_modified": "2024-10-04T02:57:32.000Z",
             "date_published": "2024-10-04T02:57:32.000Z",
@@ -151,7 +279,7 @@
             "id": "https://www.gizmodo.jp/2024/10/jbl-tour-pro-3.html",
             "content_html": "Photo:ギズモード編集部前モデルでもすごいと思ってたのに、さらに強くなるだと…？今やスマホと同じくらい身近な存在になったガジェット、ワイヤレスイヤホン。ポケットに入るほど小さいのに、高音質な音楽を気軽に聴くことができます。良い時代になったもんだなぁ。で、このたび僕が大注目しているワイヤレスイヤホンの後継モデルが登場したんです。それが「JBLTOURPRO3」。前モデルにあたる「JBLTOURP",
             "url": "https://www.gizmodo.jp/2024/10/jbl-tour-pro-3.html",
-            "title": "この完成度！ 感性を揺さぶる完全ワイヤレスイヤホン「JBL TOUR PRO 3」 | ギズモード・ジャパン",
+            "title": "全方位ですごかった。JBLの最新ワイヤレスイヤホン | ギズモード・ジャパン",
             "summary": "Photo:ギズモード編集部前モデルでもすごいと思ってたのに、さらに強くなるだと…？今やスマホと同じくらい身近な存在になったガジェット、ワイヤレスイヤホン。ポケットに入るほど小さいのに、高音質な音楽を気軽に聴くことができます。良い時代になったもんだなぁ。で、このたび僕が大注目しているワイヤレスイヤホンの後継モデルが登場したんです。それが「JBLTOURPRO3」。前モデルにあたる「JBLTOURP",
             "date_modified": "2024-10-04T02:00:00.000Z",
             "date_published": "2024-10-04T02:00:00.000Z",
@@ -172,6 +300,19 @@
             "date_published": "2024-10-04T01:55:00.000Z",
             "author": {
                 "name": "大東 奈央"
+            },
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/umi_mori/articles/openai-dev-day-2024",
+            "content_html": "はじめまして、ますみです！ 株式会社Galirage（ガリレージ）という「生成AIに特化して、システム開発・アドバイザリー支援・研修支援をしているIT企業」で、代表をしております^^  本日は、Galirageの「CRO（Chief Research Officer）である越原さん」の現地レポートを紹介します！ 越原さんは、かなり抽選確率の低い「OpenAI Dev Day 2024」へのチケットを獲得し、現地参加してきました！（彼は本当に何かを持っています笑） それでは、越原さんが執筆してくださった貴重なレポートは、下記の通りです^^ ! 【前置き | OpenAI Dev Day 2...",
+            "url": "https://zenn.dev/umi_mori/articles/openai-dev-day-2024",
+            "title": "Z世代エンジニアがサンフランシスコで体感したAI革命【OpenAI Dev Day現地レポート】 | Zennのトレンド",
+            "summary": "はじめまして、ますみです！ 株式会社Galirage（ガリレージ）という「生成AIに特化して、システム開発・アドバイザリー支援・研修支援をしているIT企業」で、代表をしております^^  本日は、Galirageの「CRO（Chief Research Officer）である越原さん」の現地レポートを紹介します！ 越原さんは、かなり抽選確率の低い「OpenAI Dev Day 2024」へのチケット...",
+            "date_modified": "2024-10-04T01:47:16.000Z",
+            "date_published": "2024-10-04T01:47:16.000Z",
+            "author": {
+                "name": "ますみ / 生成AIエンジニア"
             },
             "tags": []
         },
@@ -495,6 +636,25 @@
             "tags": []
         },
         {
+            "id": "7916-2",
+            "content_html": "",
+            "url": "https://www.aist.go.jp/aist_j/press_release/pr2024/pr20241004/pr20241004.html",
+            "title": "タンパク質の糖鎖修飾を「見える化」するソフトウエア「GRable Version 1.0」－創薬に有用な糖タンパク質の探索・評価を加速－ | AIST： 産業技術総合研究所",
+            "date_modified": "2024-10-03T15:00:00.000Z",
+            "date_published": "2024-10-03T15:00:00.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://www.riken.jp/press/2024/20241004_1/index.html",
+            "content_html": "－カルシウム依存性分解酵素の生理的な役割を発見－",
+            "url": "https://www.riken.jp/press/2024/20241004_1/index.html",
+            "title": "筋肉作りに先立つタンパク質分解 | プレスリリースニュース",
+            "summary": "－カルシウム依存性分解酵素の生理的な役割を発見－",
+            "date_modified": "2024-10-03T15:00:00.000Z",
+            "date_published": "2024-10-03T15:00:00.000Z",
+            "tags": []
+        },
+        {
             "id": "https://www.polygon.com/awards/459117/dragon-age-the-veilguard-game-awards-chances",
             "content_html": "Ten years ago, the recipient of Game of the Year at Geoff Keighley’s inaugural The Game Awards was Dragon Age: Inquisition. This might come as a surprise. While it was well received at the time, sold well, and remains beloved by many fans, Inquisition occupies an awkward spot in gaming culture. In 2014, it was [&#8230;]",
             "url": "https://www.polygon.com/awards/459117/dragon-age-the-veilguard-game-awards-chances",
@@ -629,6 +789,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/igrep/articles/2024-10-1-variance",
+            "content_html": "この記事では、Java、Scala、TypeScriptなど、サブタイピング（subtyping）をサポートする言語であれば間違いなくサポートしているであろう「反変（contravariant）」・「共変（covariant）」について、視覚的なアナロジーを用いつつ解説したいと思います。コード例を含め全てTypeScriptを前提とした説明ですが、同様の機能を持った言語であれば概ね同じことが言えるはずです。   そもそもサブタイピングとは サブタイピングとは、型と型との間にサブタイプ（subtype）・スーパータイプ（supertype）という関係を定めて、スーパータイプである型の代わり...",
+            "url": "https://zenn.dev/igrep/articles/2024-10-1-variance",
+            "title": "筒で理解する反変・共変 | Zennのトレンド",
+            "summary": "この記事では、Java、Scala、TypeScriptなど、サブタイピング（subtyping）をサポートする言語であれば間違いなくサポートしているであろう「反変（contravariant）」・「共変（covariant）」について、視覚的なアナロジーを用いつつ解説したいと思います。コード例を含め全てTypeScriptを前提とした説明ですが、同様の機能を持った言語であれば概ね同じことが言える...",
+            "date_modified": "2024-10-03T12:06:47.000Z",
+            "date_published": "2024-10-03T12:06:47.000Z",
+            "author": {
+                "name": "YAMAMOTO Yuji"
+            },
+            "tags": []
+        },
+        {
             "id": "https://www.kdnuggets.com/?p=181602",
             "content_html": "Learn the data engineering tools for data orchestration, database management, batch processing, ETL (Extract, Transform, Load), data transformation, data visualization, and data streaming.",
             "url": "https://www.kdnuggets.com/7-data-engineering-tools-for-beginners",
@@ -739,6 +912,9 @@
             "summary": "Image:Ashirase,Inc.振動に従えば目的地にゴール。できなかったことを可能にしたり、不便を解消するのは科学技術が得意とするところ。日々の暮らしが大変な視覚障害者のため、これまでにも振動でナビするスマート白杖や腰に巻くベルトがありました。ナビゲーションは振動で日本でもホンダ発のベンチャー企業、株式会社Ashiraseが足首に装着するウェアラブル振動ナビ「あしらせ2」を作っています。親切",
             "date_modified": "2024-10-03T10:00:00.000Z",
             "date_published": "2024-10-03T10:00:00.000Z",
+            "author": {
+                "name": "岡本玄介"
+            },
             "tags": [
                 "PRODUCT"
             ]
@@ -1568,21 +1744,6 @@
             ]
         },
         {
-            "id": "https://www.gizmodo.jp/2024/10/tsuchiyakaban-dr-stroll-shoulder.html",
-            "content_html": "Image:土屋鞄製造所使い続けたい名品とは、まさにこのこと。デザインはベーシックでコンパクト。革の質感と細かな手仕事の光るディテールで、存在感抜群です。街歩きにピッタリな「ショルダーバッグ」Image:土屋鞄製造所「ディアリオストロールショルダー」53,900円（税込）。左から、ブラック、ブラウンの2色。2024年10月24日、TSUCHIYAKABANから新発売されるのは「ディアリオストロール",
-            "url": "https://www.gizmodo.jp/2024/10/tsuchiyakaban-dr-stroll-shoulder.html",
-            "title": "コーディネイトの気品がグッと上がる。永久サポートもうれしい日本製レザーバッグ | ギズモード・ジャパン",
-            "summary": "Image:土屋鞄製造所使い続けたい名品とは、まさにこのこと。デザインはベーシックでコンパクト。革の質感と細かな手仕事の光るディテールで、存在感抜群です。街歩きにピッタリな「ショルダーバッグ」Image:土屋鞄製造所「ディアリオストロールショルダー」53,900円（税込）。左から、ブラック、ブラウンの2色。2024年10月24日、TSUCHIYAKABANから新発売されるのは「ディアリオストロール",
-            "date_modified": "2024-10-03T02:00:00.000Z",
-            "date_published": "2024-10-03T02:00:00.000Z",
-            "author": {
-                "name": "mio"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
-        },
-        {
             "id": "https://forest.watch.impress.co.jp/docs/news/1628460.html",
             "content_html": "米Googleは10月1日（現地時間）、デスクトップ向け「Google Chrome」の安定（Stable）チャネルをアップデートした。現在、Windows/Mac環境にv129.0.6668.89/.90が、Linux環境にv129.0.6668.89が展開中だ。",
             "url": "https://forest.watch.impress.co.jp/docs/news/1628460.html",
@@ -1705,21 +1866,6 @@
             "date_modified": "2024-10-03T01:00:00.000Z",
             "date_published": "2024-10-03T01:00:00.000Z",
             "tags": []
-        },
-        {
-            "id": "https://www.gizmodo.jp/2024/10/meanswhile_setup_military_style.html",
-            "content_html": "Image:meanswhile季節の変わり目ということもあり、晴れたり雨だったりとなんとなく不安定な気候の昨今。今回は、水を“滑らせる”機能を持ったミリタリーウエアをご紹介します。「蓑」をヒントに水を“滑らせる”という新発想Image:meanswhilemeanswhileの「MINOTECH®FatigueFieldParka（SageGreen）」69,300円（税込）“身体に最も",
-            "url": "https://www.gizmodo.jp/2024/10/meanswhile_setup_military_style.html",
-            "title": "日本古来の雨具「蓑」をヒントにした機能服。水を滑らせるという新発想 | ギズモード・ジャパン",
-            "summary": "Image:meanswhile季節の変わり目ということもあり、晴れたり雨だったりとなんとなく不安定な気候の昨今。今回は、水を“滑らせる”機能を持ったミリタリーウエアをご紹介します。「蓑」をヒントに水を“滑らせる”という新発想Image:meanswhilemeanswhileの「MINOTECH®FatigueFieldParka（SageGreen）」69,300円（税込）“身体に最も",
-            "date_modified": "2024-10-03T01:00:00.000Z",
-            "date_published": "2024-10-03T01:00:00.000Z",
-            "author": {
-                "name": "カネコヒデシ（BonVoyage）"
-            },
-            "tags": [
-                "PRODUCT"
-            ]
         },
         {
             "id": "https://zenn.dev/u16m/articles/0e725ffec8bd0c",
@@ -2156,6 +2302,19 @@
             "tags": []
         },
         {
+            "id": "https://zenn.dev/platina/articles/e65c73cb01a900",
+            "content_html": "Safetensors とは Safetensors は HuggingFace が開発している、主にテンソルを安全・高速に読み書きできるファイルフォーマットと、それを扱うためのライブラリです。 https://github.com/huggingface/safetensors 提供されている Python ライブラリでは、PyTorch や Tensorflow などとの互換性があるほか、pickle 形式のような任意のコードを実行する機能がなく比較的安全なため、最近の深層学習系のモデルはこの形式で配布されることが多くなりました。   構造  Safetensorsのファイル構造...",
+            "url": "https://zenn.dev/platina/articles/e65c73cb01a900",
+            "title": "Safetensors のヘッダーを読む | Zennのトレンド",
+            "summary": "Safetensors とは Safetensors は HuggingFace が開発している、主にテンソルを安全・高速に読み書きできるファイルフォーマットと、それを扱うためのライブラリです。 https://github.com/huggingface/safetensors 提供されている Python ライブラリでは、PyTorch や Tensorflow などとの互換性があるほか、pi...",
+            "date_modified": "2024-10-02T11:24:58.000Z",
+            "date_published": "2024-10-02T11:24:58.000Z",
+            "author": {
+                "name": "Plat"
+            },
+            "tags": []
+        },
+        {
             "id": "https://qiita.com/hogeta_KL/items/c213a563c0ba58705f72?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "はじめに 先日、研究室の皆さんと技育CAMPハッカソンに参加してきました。 ハッカソンで開発した成果物については、すでに同輩が記事を作成してくれています。 成果物の詳細につきましては、以下の記事をご…",
             "url": "https://qiita.com/hogeta_KL/items/c213a563c0ba58705f72?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -2375,8 +2534,8 @@
                 "Azure OpenAI Service",
                 "RAG",
                 "AOAI",
-                "ベクトル検索",
-                "AI Search"
+                "AI Search",
+                "ベクトル検索"
             ]
         },
         {
@@ -2654,8 +2813,8 @@
             },
             "tags": [
                 "Azure",
-                "クラウド",
                 "API",
+                "クラウド",
                 "認証",
                 "OAuth2.0",
                 "Microsoft Entra ID",
@@ -2826,19 +2985,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/mkj/articles/364430c60e4955",
-            "content_html": "本記事では「Google Cloud」を用いた「LLM・生成AI活用型アプリケーション」の実装スキルを身につけるための学習方法と学習コンテンツの紹介・解説を行います。Google公式のラボ・コンテンツを利用し、Step by Stepに学習を進めます  「LLM・生成AI活用型アプリケーション」（Google Cloud）の実装スキルを勉強しようにも、Google公式の関連コンテンツが大量に用意されているため、何をどの順番に実施すると良いのか分かりづらい点が問題です そこで、著者が整理・ピックアップしたおすすめコンテンツとその概要を、学習がはかどりやすく、より効果的な取り組み順序にて紹介...",
-            "url": "https://zenn.dev/mkj/articles/364430c60e4955",
-            "title": "LLM・生成AI活用型アプリの実装スキル・トレーニング集：Google Cloud 初級編【2024年秋】 | Zennのトレンド",
-            "summary": "本記事では「Google Cloud」を用いた「LLM・生成AI活用型アプリケーション」の実装スキルを身につけるための学習方法と学習コンテンツの紹介・解説を行います。Google公式のラボ・コンテンツを利用し、Step by Stepに学習を進めます  「LLM・生成AI活用型アプリケーション」（Google Cloud）の実装スキルを勉強しようにも、Google公式の関連コンテンツが大量に用意さ...",
-            "date_modified": "2024-10-02T02:48:05.000Z",
-            "date_published": "2024-10-02T02:48:05.000Z",
-            "author": {
-                "name": "小川 雄太郎"
-            },
-            "tags": []
-        },
-        {
             "id": "https://qiita.com/ryotaro-fukushima/items/90f0576afcf79c47733d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "前回の投稿から約１ヶ月が経過し、現在は主にPHPに関するカリキュラムを受講しています。すると、１ヶ月前に比べてできることはかなり増えましたが、CSSに関しては忘れている事項も多いことに気がつきまし…",
             "url": "https://qiita.com/ryotaro-fukushima/items/90f0576afcf79c47733d?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -2917,19 +3063,6 @@
             "summary": "こんにちは。AI・機械学習チームの氏家（@mowmow1259）です。 エムスリー福岡オフィスの一人目のエンジニアとして福岡で働いています。 マクドナルドの月見バーガーが好きで、今年も発売開始当日に食べに行きました。 私が所属するAI・機械学習チームでは基本的に2週間から1ヶ月程度で新規プロダクトをリリースするなど、高速にプロダクトを開発しています。 その過程で、「この書き方は落とし穴があるから使...",
             "date_modified": "2024-10-02T02:00:00.000Z",
             "date_published": "2024-10-02T02:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1628102.html",
-            "content_html": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "url": "https://forest.watch.impress.co.jp/docs/serial/yajiuma/1628102.html",
-            "title": "最悪、ブルースクリーンなどに ～「Windows 11 バージョン 24H2」の既知の問題に注意／「Easy Anti-Cheat」や壁紙カスタマイズアプリでのトラブルなど【やじうまの杜】 | 窓の杜",
-            "summary": "「やじうまの杜」では、ニュース・レビューにこだわらない幅広い話題をお伝えします。",
-            "date_modified": "2024-10-02T01:39:12.000Z",
-            "date_published": "2024-10-02T01:39:12.000Z",
-            "author": {
-                "name": "樽井 秀人"
-            },
             "tags": []
         },
         {
@@ -3125,19 +3258,6 @@
             "tags": []
         },
         {
-            "id": "https://zenn.dev/karaage0703/articles/55518ba965bb3c",
-            "content_html": "NotebookLM NotebookLMはGoogleが提供している生成AIを活用したサービスです。なんと（2024年10月現在は）無料で使えます。 NotebookLMは、Googleの生成AI Geminiのロングコンテキスト（多くの量のプロンプトを扱うことができるという意味）の特徴を活かした、文章の要約やQA対応が得意です。文章は、直接プロンプトに入れている（と思われる）ので、単なるRAGとは違う（と思われ）ます。 ! NotebookLMが単なるRAGではなくロングコンテキストを活用している話は、開発者に聞いた話なので確度は高いと思いますが、現時点での実際のところは分からな...",
-            "url": "https://zenn.dev/karaage0703/articles/55518ba965bb3c",
-            "title": "Notebook LMを活用して音声配信をもっと楽しむ方法 | Zennのトレンド",
-            "summary": "NotebookLM NotebookLMはGoogleが提供している生成AIを活用したサービスです。なんと（2024年10月現在は）無料で使えます。 NotebookLMは、Googleの生成AI Geminiのロングコンテキスト（多くの量のプロンプトを扱うことができるという意味）の特徴を活かした、文章の要約やQA対応が得意です。文章は、直接プロンプトに入れている（と思われる）ので、単なるRAG...",
-            "date_modified": "2024-10-01T15:13:32.000Z",
-            "date_published": "2024-10-01T15:13:32.000Z",
-            "author": {
-                "name": "karaage0703"
-            },
-            "tags": []
-        },
-        {
             "id": "https://hackernoon.com/the-definitive-guide-to-social-medias-latest-ai-updates-from-gimmicky-to-genius?source=rss",
             "content_html": "",
             "url": "https://hackernoon.com/the-definitive-guide-to-social-medias-latest-ai-updates-from-gimmicky-to-genius?source=rss",
@@ -3184,15 +3304,6 @@
             "url": "https://www.aist.go.jp/aist_j/news/au20241002.html",
             "title": "国内最大級のデジタルイノベーションの総合展CEATEC 2024に出展産総研の最新技術と共に、新会社AIST Solutionsの新事業を紹介～「未来」「夢」をキーワードに、オープンイノベーションで様々な企業の事業発展に貢献します～10/15（火）～10/18（金） 幕張メッセにて開催 | AIST： 産業技術総合研究所",
             "summary": "昨年度出展の様子産総研グループ（国立研究開発法人産業技術総合研究所（理事長：石村和彦、以下産総研）及び、株式会社AIST Solutions（アイストソリューションズ・代表取締役社長CEO：逢坂...",
-            "date_modified": "2024-10-01T15:00:00.000Z",
-            "date_published": "2024-10-01T15:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "7908-2",
-            "content_html": "",
-            "url": "https://www.aist.go.jp/aist_j/press_release/pr2024/pr20241002/pr20241002.html",
-            "title": "世界初となるペロブスカイト太陽電池自動作製システムを開発－さまざまな条件で基板電極から自動作製し、開発時間を短縮－ | AIST： 産業技術総合研究所",
             "date_modified": "2024-10-01T15:00:00.000Z",
             "date_published": "2024-10-01T15:00:00.000Z",
             "tags": []
@@ -3318,6 +3429,19 @@
             "summary": "Simplicity might be a better solution.",
             "date_modified": "2024-10-01T14:00:41.000Z",
             "date_published": "2024-10-01T14:00:41.000Z",
+            "tags": []
+        },
+        {
+            "id": "https://zenn.dev/shiguredo/articles/duckdb-wasm-s3-parquet-opfs",
+            "content_html": "前提  ミドルウェアのログ可視化 ログサイズは全体で 1 TB 未満 ログは jsonl で出力される    まとめ  非同期での可視化 オフラインでの可視化 低コスト    DuckDB とは こちらをどうぞ。 DuckDB雑紹介(1.1対応版)@DuckDB座談会 - Speaker Deck   サンプル とりあえず動くのが見たい人用です。ソースコードも公開してます。 DuckDB-Wasm + Parquet + S3-compatible object storage + OPFS  S3 から Parquet ファイルを fetch して DuckDB-Wasm への登録...",
+            "url": "https://zenn.dev/shiguredo/articles/duckdb-wasm-s3-parquet-opfs",
+            "title": "DuckDB/DuckDB-Wasm を利用した低コストでの可視化 | Zennのトレンド",
+            "summary": "前提  ミドルウェアのログ可視化 ログサイズは全体で 1 TB 未満 ログは jsonl で出力される    まとめ  非同期での可視化 オフラインでの可視化 低コスト    DuckDB とは こちらをどうぞ。 DuckDB雑紹介(1.1対応版)@DuckDB座談会 - Speaker Deck   サンプル とりあえず動くのが見たい人用です。ソースコードも公開してます。 DuckDB-Wasm...",
+            "date_modified": "2024-10-01T12:41:17.000Z",
+            "date_published": "2024-10-01T12:41:17.000Z",
+            "author": {
+                "name": "voluntas"
+            },
             "tags": []
         },
         {
@@ -3605,24 +3729,6 @@
             ]
         },
         {
-            "id": "https://iret.media/?p=121970",
-            "content_html": "はじめに この記事はセキュリティチームの Sysdig 活用事例をテーマにした「Sysdigブログリレー」を終えての振り返り記事です。 ブログリレー実施のきっかけ このブログリレーは、アイレットがパートナーとして提供して […]",
-            "url": "https://iret.media/121970",
-            "title": "Sysdig ブログリレー 振り返り | エンジニアブログ | iret.media",
-            "summary": "はじめに この記事はセキュリティチームの Sysdig 活用事例をテーマにした「Sysdigブログリレー」を終えての振り返り記事です。 ブログリレー実施のきっかけ このブログリレーは、アイレットがパートナーとして提供して […]",
-            "date_modified": "2024-10-01T05:13:37.000Z",
-            "date_published": "2024-10-01T05:13:37.000Z",
-            "author": {
-                "name": "セキュリティチーム"
-            },
-            "tags": [
-                "エンジニアブログ",
-                "Sysdig",
-                "Sysdigブログリレー",
-                "セキュリティ"
-            ]
-        },
-        {
             "id": "https://qiita.com/yutowac/items/718bf9a1b5ece87402c9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
             "content_html": "PCで作業をしている傍らで炎が出るデスクトップアプリ こんな演出をつくってみました。温度が上がるほど炎が激しくなります。  デスクトップの左下に表示させました。  PCが火傷しそうなくらい熱くなる時はあ…",
             "url": "https://qiita.com/yutowac/items/718bf9a1b5ece87402c9?utm_campaign=popular_items&utm_medium=feed&utm_source=popular_items",
@@ -3696,19 +3802,6 @@
             "summary": "こんにちは、エキサイト株式会社でアプリエンジニアをしている岡島です。今回はListViewを入れ子にする場合や、他のウィジェットと組み合わせる際に、注意すべきshrinkWrapプロパティの使用とSliversウィジェットについて取り上げたいと思います。 shrinkWrapプロパティとは shrinkWrapのtrueとfalseの違い shrinkWrap: false（デフォルト） shri...",
             "date_modified": "2024-10-01T02:54:51.000Z",
             "date_published": "2024-10-01T02:54:51.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/ryo_kawamata/articles/b2df9989fe2c6e",
-            "content_html": "プロダクトのビルドツールを webpack から Rspack に移行したので、その経緯と注意点をまとめます。 ! Rspack v1.0.7 時点での情報です。    🦀 Rspackとは？ Rustで書かれた高速なJavaScriptのバンドルツールです。 webpackエコシステムとの強力な互換性を持ちます。 2024/08/24にv1.0.0がリリースされました。 https://rspack.dev/   🤔 なぜRspackに移行したのか？ ビルド速度改善のため以前からwebpackの移行を検討していましたが、プロダクトがwebpack依存の構成[1]で、Viteやその他のビ...",
-            "url": "https://zenn.dev/ryo_kawamata/articles/b2df9989fe2c6e",
-            "title": "webpack to Rspack ~ Rspack移行の結果と注意点 ~ | Zennのトレンド",
-            "summary": "プロダクトのビルドツールを webpack から Rspack に移行したので、その経緯と注意点をまとめます。 ! Rspack v1.0.7 時点での情報です。    🦀 Rspackとは？ Rustで書かれた高速なJavaScriptのバンドルツールです。 webpackエコシステムとの強力な互換性を持ちます。 2024/08/24にv1.0.0がリリースされました。 https://rsp...",
-            "date_modified": "2024-10-01T02:52:56.000Z",
-            "date_published": "2024-10-01T02:52:56.000Z",
-            "author": {
-                "name": "ryo_kawamata"
-            },
             "tags": []
         },
         {
@@ -3908,19 +4001,6 @@
             "summary": "PdM、PM、POなどの管理者側の業務をしていると、どうしても 「基本的なITの知識不足が足枷になっている‥」 という実感があったので、基本情報処理技術者の勉強をしていこうと思います。 ただの暗記で…",
             "date_modified": "2024-09-30T23:29:54.000Z",
             "date_published": "2024-09-30T23:29:54.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://zenn.dev/knowledgesense/articles/f84fab70ce04de",
-            "content_html": "株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ向けに開発提供しているスタートアップです。本記事では、RAGの性能を高めるための「MoGG」という手法について、ざっくり理解します。   この記事は何 この記事は、社内用語が多く含まれるドキュメントでもRAGの性能を高くするための手法「MoGG」の論文[1]について、日本語で簡単にまとめたものです。 https://arxiv.org/abs/2406.00456 今回も「そもそもRAGとは？」については、知っている前提で進みます。確認する場合は以下の記事もご参考下さい。 https://zenn.dev/k...",
-            "url": "https://zenn.dev/knowledgesense/articles/f84fab70ce04de",
-            "title": "RAGを社内用語に強くするチャンク分割の手法「MoGG」 | Zennのトレンド",
-            "summary": "株式会社ナレッジセンスは、生成AIやRAGを使ったプロダクトを、エンタープライズ向けに開発提供しているスタートアップです。本記事では、RAGの性能を高めるための「MoGG」という手法について、ざっくり理解します。   この記事は何 この記事は、社内用語が多く含まれるドキュメントでもRAGの性能を高くするための手法「MoGG」の論文[1]について、日本語で簡単にまとめたものです。 https://a...",
-            "date_modified": "2024-09-30T23:00:05.000Z",
-            "date_published": "2024-09-30T23:00:05.000Z",
-            "author": {
-                "name": "Atsushi Kadowaki"
-            },
             "tags": []
         },
         {
@@ -5527,11 +5607,11 @@
             },
             "tags": [
                 "OSS",
-                "Visual Studio Code",
-                "Flutter",
-                "Dart",
+                "FCM",
                 "Firebase Cloud Messaging",
-                "FCM"
+                "Dart",
+                "Flutter",
+                "Visual Studio Code"
             ]
         },
         {
@@ -6086,28 +6166,6 @@
             "tags": [
                 "AI",
                 "テクノロジー"
-            ]
-        },
-        {
-            "id": "https://tech-lab.sios.jp/?p=42867",
-            "content_html": "皆さん、こんにちは。サイオステクノロジー武井です。今回は、生成AIの発展形であり、与えられた課題に対して自分で思考し、行動を決定し、実行する「AIエージェント」について、一筆したためたいと思います。 AIエージェントとは ... 世界一わかりみの深いAIエージェント first appeared on SIOS Tech. Lab.",
-            "url": "https://tech-lab.sios.jp/archives/42867",
-            "title": "世界一わかりみの深いAIエージェント | SIOS Tech. Lab",
-            "summary": "皆さん、こんにちは。サイオステクノロジー武井です。今回は、生成AIの発展形であり、与えられた課題に対して自分で思考し、行動を決定し、実行する「AIエージェント」について、一筆したためたいと思います。 AIエージェントとは ... 世界一わかりみの深いAIエージェント first appeared on SIOS Tech. Lab.",
-            "date_modified": "2024-09-25T18:32:27.000Z",
-            "date_published": "2024-09-25T18:32:27.000Z",
-            "author": {
-                "name": "武井 宜行"
-            },
-            "tags": [
-                "世界一わかりみ深いシリーズ",
-                "生成AI",
-                "AI",
-                "Azure",
-                "Azure OpenAI Service",
-                "LangChain",
-                "AOAI",
-                "AIエージェント"
             ]
         },
         {
@@ -7483,33 +7541,6 @@
             "date_modified": "2024-09-20T05:58:16.000Z",
             "date_published": "2024-09-20T05:58:16.000Z",
             "tags": []
-        },
-        {
-            "id": "https://developer.hatenastaff.com/entry/2024/09/20/140000",
-            "content_html": "連載企画「卒業生訪問インタビュー」 第11回のゲストは、サイボウズ株式会社でソフトウェアエンジニアとして活躍しているid:itchynyさんこと、濱田健さんです。現在のサイボウズさんでのご活躍や、OSS活動について、CTOの id:motemen がお話を伺いました。",
-            "url": "https://developer.hatenastaff.com/entry/2024/09/20/140000",
-            "title": "サイボウズで活躍中のid:itchynyを訪問 | はてな卒業生訪問企画 [#11] | Hatena Developer Blog",
-            "summary": "連載企画「卒業生訪問インタビュー」 第11回のゲストは、サイボウズ株式会社でソフトウェアエンジニアとして活躍しているid:itchynyさんこと、濱田健さんです。現在のサイボウズさんでのご活躍や、OSS活動について、CTOの id:motemen がお話を伺いました。",
-            "date_modified": "2024-09-20T05:00:00.000Z",
-            "date_published": "2024-09-20T05:00:00.000Z",
-            "tags": []
-        },
-        {
-            "id": "https://historia.co.jp/?p=45711",
-            "content_html": "無料プレイ・クロスプラットフォーム対応！最大40人のサバイバルアクションレースゲーム『Faaast Penguin』（ファーストペンギン）を本日リリースしました！ 『Faaast Penguin』（ファ […] The post 最大40人で遊べる爽快ではちゃめちゃなアクションレースゲーム『Faaast Penguin』をリリースしました！ first appeared on historia Inc - 株式会社ヒストリア.",
-            "url": "https://historia.co.jp/archives/45711/",
-            "title": "最大40人で遊べる爽快ではちゃめちゃなアクションレースゲーム『Faaast Penguin』をリリースしました！ | historia Inc – 株式会社ヒストリア",
-            "summary": "無料プレイ・クロスプラットフォーム対応！最大40人のサバイバルアクションレースゲーム『Faaast Penguin』（ファーストペンギン）を本日リリースしました！ 『Faaast Penguin』（ファ […] The post 最大40人で遊べる爽快ではちゃめちゃなアクションレースゲーム『Faaast Penguin』をリリースしました！ first appeared on historia I...",
-            "date_modified": "2024-09-20T04:01:52.000Z",
-            "date_published": "2024-09-20T04:01:52.000Z",
-            "author": {
-                "name": "ToyotaRui"
-            },
-            "tags": [
-                "ピックアップ",
-                "タイトル情報",
-                "お知らせ"
-            ]
         }
     ]
 }
