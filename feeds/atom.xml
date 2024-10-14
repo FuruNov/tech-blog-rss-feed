@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-10-14T05:32:10.642Z</updated>
+    <updated>2024-10-14T07:30:44.062Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -85,10 +85,10 @@
             <name>重田雄一</name>
         </author>
         <category label="News"/>
-        <category label="イベント"/>
         <category label="ゲーム"/>
-        <category label="グッズ"/>
+        <category label="イベント"/>
         <category label="エンタメ"/>
+        <category label="グッズ"/>
         <published>2024-10-14T02:00:43.000Z</published>
     </entry>
     <entry>
@@ -112,6 +112,30 @@
         <summary type="html"><![CDATA[フォトチームの開発体験の改善 ２０２４秋 こんにちは。プロダクトエンジニアリング部の伊東です。 エンジニアにとって開発者体験って大事ですよね！ 単にプロダクトに必要な機能開発だけをしていたら開発体験は自然と悪くなってしまいがちです。😭 例えば、技術的負債が溜まって改修コストが高くなったり、関連ライブラリのバージョンアップを怠ってレガシーな環境になっていたり。。 私が所属するフォトチームでは、シス...]]></summary>
         <content type="html"><![CDATA[フォトチームの開発体験の改善 ２０２４秋 こんにちは。プロダクトエンジニアリング部の伊東です。 エンジニアにとって開発者体験って大事ですよね！ 単にプロダクトに必要な機能開発だけをしていたら開発体験は自然と悪くなってしまいがちです。😭 例えば、技術的負債が溜まって改修コストが高くなったり、関連ライブラリのバージョンアップを怠ってレガシーな環境になっていたり。。 私が所属するフォトチームでは、システムの保守や機能開発などをしながら、積極的に技術的負債の解消や新しい技術の導入も試みています！ 本記事では、最近フォトチーム（リード１名、エンジニア４名）で行っている技術的負債の解消や、新しい技術やツー…]]></content>
         <published>2024-10-14T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NeoVimで翻訳したろ | Zennのトレンド]]></title>
+        <id>https://zenn.dev/mozumasu/articles/mozumasu-translate-in-vim</id>
+        <link href="https://zenn.dev/mozumasu/articles/mozumasu-translate-in-vim"/>
+        <updated>2024-10-13T23:15:31.000Z</updated>
+        <summary type="html"><![CDATA[! この記事は Vim 駅伝 の 10/14 の記事です。 前回の記事は delphinus さんによる、 10/11 の「0.10 時代の Neovim Lua」という記事でした。 次回は 10/21 に投稿される予定です。    はじめに 個人開発やdotfilesを育てている時に、ふとカッコつけて英語でコミットメッセージやコメントを書きたくなることがあります。 しかし、そのためだけにNeov...]]></summary>
+        <content type="html"><![CDATA[! この記事は Vim 駅伝 の 10/14 の記事です。 前回の記事は delphinus さんによる、 10/11 の「0.10 時代の Neovim Lua」という記事でした。 次回は 10/21 に投稿される予定です。    はじめに 個人開発やdotfilesを育てている時に、ふとカッコつけて英語でコミットメッセージやコメントを書きたくなることがあります。 しかし、そのためだけにNeovimから離れるなんて耐えられません。 そこでNeovim内で翻訳できるプラグインをご紹介します。   翻訳できるプラグイン 単語や行ごとに翻訳するなら  長めの文章を翻訳するなら  といった感じ...]]></content>
+        <author>
+            <name>mozumasu</name>
+        </author>
+        <published>2024-10-13T23:15:31.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RustでCPUを自作して動くまで📝 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/chimipupu/articles/e0af6451e0cab9</id>
+        <link href="https://zenn.dev/chimipupu/articles/e0af6451e0cab9"/>
+        <updated>2024-10-13T22:37:51.000Z</updated>
+        <summary type="html"><![CDATA[はじめに お仕事のお勉強で 8bitのCPUを設計、Rustで実装して自作CPUで(5+3)x2=16を計算させました🥳 CPUの名前は CC8R（ちみ's CPU 8bit RISC) です！ 【成果物】https://github.com/Chimipupu/cc8r_zenn https://github.com/Chimipupu/cc8r_zenn   対象者 わたしと同じ考えのひとへ...]]></summary>
+        <content type="html"><![CDATA[はじめに お仕事のお勉強で 8bitのCPUを設計、Rustで実装して自作CPUで(5+3)x2=16を計算させました🥳 CPUの名前は CC8R（ちみ's CPU 8bit RISC) です！ 【成果物】https://github.com/Chimipupu/cc8r_zenn https://github.com/Chimipupu/cc8r_zenn   対象者 わたしと同じ考えのひとへの参考になれば幸いです🥳  『Rustでなにかつくりたい！』 『CPUを作ってみたい！』 『低レイヤーを理解したい！』  !  CPUとRustのお勉強をした経験のある方向け ※CPU関連の各...]]></content>
+        <author>
+            <name>ちみにゃ👾💜</name>
+        </author>
+        <published>2024-10-13T22:37:51.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[スタサプ ForSCHOOLアプリのシンプルな設計 (Recruit) | 勉強会スライドBot]]></title>
@@ -171,6 +195,18 @@
         <summary type="html"><![CDATA[はじめに エンジニアのみなさま、日々の学習本当にお疲れ様です！ また本記事まで足を運んでいただき本当に感謝です。 約5分で読めるため、最後まで読んでもらえると幸いです。  案件でReactを使っていま…]]></summary>
         <content type="html"><![CDATA[はじめに エンジニアのみなさま、日々の学習本当にお疲れ様です！ また本記事まで足を運んでいただき本当に感謝です。 約5分で読めるため、最後まで読んでもらえると幸いです。  案件でReactを使っていま…]]></content>
         <published>2024-10-13T11:47:56.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to: ESP-Nowで超お手軽デバイス間無線通信 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/nananauno/articles/725d205bf5b8e2</id>
+        <link href="https://zenn.dev/nananauno/articles/725d205bf5b8e2"/>
+        <updated>2024-10-13T11:45:52.000Z</updated>
+        <summary type="html"><![CDATA[みんな、こんにちは！ESPマイコン同士で通信したい時、みんなは何を使っているのかな？Bluetooth？Wi-Fi？ボクのオススメはEspressifさん独自規格のESP-Nowだよ！ESP-Nowは高速応答、低消費電力が特徴で、ルーターも経由する必要もなくて、1対1はもちろん、1対多、多対多の通信が簡単にできるよ。 この記事では、ボクがM5Stack Japan Tour 2024で展示していた...]]></summary>
+        <content type="html"><![CDATA[みんな、こんにちは！ESPマイコン同士で通信したい時、みんなは何を使っているのかな？Bluetooth？Wi-Fi？ボクのオススメはEspressifさん独自規格のESP-Nowだよ！ESP-Nowは高速応答、低消費電力が特徴で、ルーターも経由する必要もなくて、1対1はもちろん、1対多、多対多の通信が簡単にできるよ。 この記事では、ボクがM5Stack Japan Tour 2024で展示していた怪しいフィギュアスタンドでやったことをベースにESP-Nowの使い方を説明しているよ。このページではArduino IDEを使用する方法に加えて、M5StackでブロックプログラミングができるU...]]></content>
+        <author>
+            <name>NANANA</name>
+        </author>
+        <published>2024-10-13T11:45:52.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[お犬さまもご乗車いただけるデカかご付き電動アシスト自転車 | ギズモード・ジャパン]]></title>
@@ -253,18 +289,6 @@
         <published>2024-10-13T09:29:33.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Godotでプラットフォームゲーム基礎作成 （Godot 4.3 対応）その1 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/yurinchi/articles/c53aeff55e5f15</id>
-        <link href="https://zenn.dev/yurinchi/articles/c53aeff55e5f15"/>
-        <updated>2024-10-13T09:00:05.000Z</updated>
-        <summary type="html"><![CDATA[1. はじめに Godotを使ってプラットフォームゲームを作成するための基本的な要素と手順を紹介します。 初心者を対象に、ゲーム開発の基本を学びながら、自分で簡単なプラットフォームゲームを作成できるようになります。 Youtubeでもこの記事の内容に沿ってゲームを作っているので動画を見ながら取り組んでみてください。 https://youtu.be/C3LLw0ONT5A チャンネル登録していただ...]]></summary>
-        <content type="html"><![CDATA[1. はじめに Godotを使ってプラットフォームゲームを作成するための基本的な要素と手順を紹介します。 初心者を対象に、ゲーム開発の基本を学びながら、自分で簡単なプラットフォームゲームを作成できるようになります。 Youtubeでもこの記事の内容に沿ってゲームを作っているので動画を見ながら取り組んでみてください。 https://youtu.be/C3LLw0ONT5A チャンネル登録していただけると嬉しいです。   環境 今回の動画では下記のバージョンを前提にゲーム作成を行います。  Godot:4.3    2. プロジェクトの設定 それではまず初めにプロジェクトの設定をしまし...]]></content>
-        <author>
-            <name>ゆーりんちぃ</name>
-        </author>
-        <published>2024-10-13T09:00:05.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[いつでもどこでも遊びたい！ 話題の「ポータブルゲーミングPC」3選 | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/10/portable-gaming-pc.html</id>
         <link href="https://www.gizmodo.jp/2024/10/portable-gaming-pc.html"/>
@@ -338,17 +362,17 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="Preview"/>
-        <category label="Mobile"/>
         <category label="任天堂"/>
         <category label="ゲーム"/>
-        <category label="android"/>
+        <category label="PC"/>
+        <category label="iphone"/>
         <category label="Pine: A Story of Loss"/>
         <category label="Android"/>
-        <category label="PC"/>
-        <category label="nintendo-switch"/>
-        <category label="iphone"/>
+        <category label="Preview"/>
+        <category label="Mobile"/>
         <category label="Nintendo Switch"/>
+        <category label="nintendo-switch"/>
+        <category label="android"/>
         <published>2024-10-13T07:00:47.000Z</published>
     </entry>
     <entry>
@@ -370,17 +394,17 @@
         <author>
             <name>Ryan Mccaffrey</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="任天堂"/>
         <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="Sony PlayStation"/>
         <category label="PC"/>
-        <category label="PlayStation 5"/>
         <category label="Terrifier: The ARTcade Game"/>
         <category label="Steam"/>
-        <category label="nintendo-switch"/>
+        <category label="Xbox Series X"/>
         <category label="Nintendo Switch"/>
+        <category label="PlayStation 5"/>
+        <category label="nintendo-switch"/>
         <published>2024-10-13T06:16:32.000Z</published>
     </entry>
     <entry>
@@ -545,18 +569,6 @@
         <category label="Equational Theory Project"/>
         <category label="machine assisted proof"/>
         <published>2024-10-13T00:00:50.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自動でハイフン区切りしてくれる電話番号の入力補助機能 | Zennのトレンド]]></title>
-        <id>https://zenn.dev/benjuwan/articles/350b6ca8fdb18c</id>
-        <link href="https://zenn.dev/benjuwan/articles/350b6ca8fdb18c"/>
-        <updated>2024-10-13T00:00:05.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 今回作ったのはこちらです。 タイトルにある通りなのですが、電話番号を入力すると自動でハイフン区切りしてくれます。 React, TypeScriptで作っているものの、処理に関してはカスタムフックに切り分けているのでバニラJSでも（型注釈を外せば）使えると思います。  今回これを作ったきっかけは以下の記事を拝見したことです。 https://zenn.dev/yumemi_inc/art...]]></summary>
-        <content type="html"><![CDATA[はじめに 今回作ったのはこちらです。 タイトルにある通りなのですが、電話番号を入力すると自動でハイフン区切りしてくれます。 React, TypeScriptで作っているものの、処理に関してはカスタムフックに切り分けているのでバニラJSでも（型注釈を外せば）使えると思います。  今回これを作ったきっかけは以下の記事を拝見したことです。 https://zenn.dev/yumemi_inc/articles/c1c83cb4cdcaa8  電話番号の入力で、ハイフンを入れる人と入れない人がいます。どちらか一方しか受け付けないと、エラーが発生し、ユーザーにストレスを与えます。ハイフンの...]]></content>
-        <author>
-            <name>benjuwan</name>
-        </author>
-        <published>2024-10-13T00:00:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[ボタンのレイアウトを一瞬で切り替えられる、最強コントローラー | ギズモード・ジャパン]]></title>
@@ -870,12 +882,12 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
+        <category label="Nintendo Switch Online"/>
         <category label="News"/>
         <category label="任天堂"/>
         <category label="ゲーム"/>
-        <category label="Nintendo Switch Online"/>
-        <category label="nintendo-switch"/>
         <category label="Nintendo Switch"/>
+        <category label="nintendo-switch"/>
         <published>2024-10-12T04:20:52.000Z</published>
     </entry>
     <entry>
@@ -1209,14 +1221,14 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Mobile"/>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="ゲーム"/>
-        <category label="android"/>
-        <category label="Android"/>
-        <category label="xbox-one"/>
         <category label="Xbox One"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Android"/>
+        <category label="Mobile"/>
+        <category label="Xbox Series X"/>
+        <category label="xbox-one"/>
+        <category label="android"/>
         <published>2024-10-11T09:58:17.000Z</published>
     </entry>
     <entry>
@@ -1399,15 +1411,6 @@
         <published>2024-10-11T06:01:59.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[GitHubにDependabotを導入した | Adwaysエンジニアブログ]]></title>
-        <id>https://blog.engineer.adways.net/entry/2024/10/11/150000</id>
-        <link href="https://blog.engineer.adways.net/entry/2024/10/11/150000"/>
-        <updated>2024-10-11T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[広告事業本部に所属しているデータエンジニアの木本です。 今回はチームで使用しているGitHubにDependabotを導入してRailsのGemのアップデートの自動化を行なったことについて記事を書こうと思います。 背景 Dependabotの概要と機能を調べてみる Dependabotバージョンアップデートの導入方法 設定ファイルの作成 新バージョンチェックの頻度の指定 自動で作成されるPRの数 ...]]></summary>
-        <content type="html"><![CDATA[広告事業本部に所属しているデータエンジニアの木本です。 今回はチームで使用しているGitHubにDependabotを導入してRailsのGemのアップデートの自動化を行なったことについて記事を書こうと思います。 背景 Dependabotの概要と機能を調べてみる Dependabotバージョンアップデートの導入方法 設定ファイルの作成 新バージョンチェックの頻度の指定 自動で作成されるPRの数 チェックするバージョンの粒度 アップデートしないGemの指定 実際に導入してみる PRに書かれる内容 導入した感想 まとめと今後の展望 背景 私たちのチームはRailsを使用したアプリケーションを開発…]]></content>
-        <published>2024-10-11T06:00:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[［Copilot］キーなんて要らない……という声に配慮した機能をMicrosoftがテスト中 | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/insiderpre/1630516.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/insiderpre/1630516.html"/>
@@ -1430,10 +1433,10 @@
             <name>重田雄一</name>
         </author>
         <category label="News"/>
-        <category label="Amazonおすすめ"/>
-        <category label="セール情報"/>
         <category label="ゲーム"/>
+        <category label="セール情報"/>
         <category label="PC"/>
+        <category label="Amazonおすすめ"/>
         <published>2024-10-11T05:28:52.000Z</published>
     </entry>
     <entry>
@@ -1585,21 +1588,21 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="ps4"/>
-        <category label="News"/>
-        <category label="任天堂"/>
-        <category label="EA Sports FC 25"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="eFootball 2024"/>
         <category label="Sony PlayStation"/>
-        <category label="PC"/>
-        <category label="xbox-one"/>
         <category label="Xbox One"/>
-        <category label="PlayStation 5"/>
-        <category label="nintendo-switch"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="PC"/>
+        <category label="Xbox Series X"/>
         <category label="PlayStation 4"/>
         <category label="Nintendo Switch"/>
+        <category label="PlayStation 5"/>
+        <category label="nintendo-switch"/>
+        <category label="xbox-one"/>
+        <category label="EA Sports FC 25"/>
+        <category label="ps4"/>
+        <category label="eFootball 2024"/>
         <published>2024-10-11T01:32:58.000Z</published>
     </entry>
     <entry>
@@ -1737,18 +1740,6 @@
             <name>樽井 秀人</name>
         </author>
         <published>2024-10-11T00:14:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[施策実行支援でデータアナリストが考えていること | Zennのトレンド]]></title>
-        <id>https://zenn.dev/dmmdata/articles/71bf581a19dae3</id>
-        <link href="https://zenn.dev/dmmdata/articles/71bf581a19dae3"/>
-        <updated>2024-10-11T00:00:05.000Z</updated>
-        <summary type="html"><![CDATA[はじめに データアナリストとして仕事を始めて3年が経ちました。この3年間で、施策の立案やテストの設計、効果測定といったデータを活用とした施策実行支援のプロセスを数多く経験させていただいた中で、自分がデータアナリストとして気をつけていることをまとめてみました。自分の考えていることをほぼ全て書き起こしたので、少し冗長かもしれません。 想定読者はデータアナリスト1年目と施策立案や企画を行うビジネスマンを...]]></summary>
-        <content type="html"><![CDATA[はじめに データアナリストとして仕事を始めて3年が経ちました。この3年間で、施策の立案やテストの設計、効果測定といったデータを活用とした施策実行支援のプロセスを数多く経験させていただいた中で、自分がデータアナリストとして気をつけていることをまとめてみました。自分の考えていることをほぼ全て書き起こしたので、少し冗長かもしれません。 想定読者はデータアナリスト1年目と施策立案や企画を行うビジネスマンを想定しています。 また、これは筆者の働くWeb系企業の自社プロダクト改善における話になりますので、予めご了承ください。   まとめ 思いのほか長文になってしまったので、時間のない人向けに先に...]]></content>
-        <author>
-            <name>hanata</name>
-        </author>
-        <published>2024-10-11T00:00:05.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[新卒エンジニア研修のメンターに新卒2年目が挑戦 | Blog on DeNA Engineering]]></title>
@@ -1957,6 +1948,15 @@
         <published>2024-10-10T12:00:35.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Elasticsearchのshard数の増加により発生するオーバーヘッドの正体 | メルカリエンジニアリングブログ]]></title>
+        <id>https://engineering.mercari.com/blog/entry/20241010-97cca785fa/</id>
+        <link href="https://engineering.mercari.com/blog/entry/20241010-97cca785fa/"/>
+        <updated>2024-10-10T11:08:08.000Z</updated>
+        <summary type="html"><![CDATA[Mercari Search Infra Teamのmrkm4ntrです。 Elasticsearchは1ノードに載り切らない量のデータも複数のshardに分割し、複数のノードに載せることで検索が可能になります。shar […]]]></summary>
+        <content type="html"><![CDATA[Mercari Search Infra Teamのmrkm4ntrです。 Elasticsearchは1ノードに載り切らない量のデータも複数のshardに分割し、複数のノードに載せることで検索が可能になります。shar […]]]></content>
+        <published>2024-10-10T11:08:08.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Java入門編に新講座追加 | 初心者でも可変長引数を理解できる | paiza times]]></title>
         <id>https://paiza.hatenablog.com/entry/2024/10/10/200000</id>
         <link href="https://paiza.hatenablog.com/entry/2024/10/10/200000"/>
@@ -1984,13 +1984,13 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="PC"/>
-        <category label="Sony PlayStation"/>
         <category label="SILENT HILL 2（リメイク）"/>
-        <category label="PlayStation 5"/>
         <category label="Steam"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
         <published>2024-10-10T10:37:50.000Z</published>
     </entry>
     <entry>
@@ -2003,16 +2003,16 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
+        <category label="HD-2D版『ドラゴンクエストIII そして伝説へ…』"/>
         <category label="任天堂"/>
         <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="HD-2D版『ドラゴンクエストIII そして伝説へ…』"/>
-        <category label="Sony PlayStation"/>
         <category label="PC"/>
         <category label="Steam"/>
-        <category label="nintendo-switch"/>
+        <category label="Xbox Series X"/>
         <category label="Nintendo Switch"/>
+        <category label="nintendo-switch"/>
         <published>2024-10-10T10:20:25.000Z</published>
     </entry>
     <entry>
@@ -2124,17 +2124,17 @@
         <author>
             <name>千葉芳樹</name>
         </author>
-        <category label="Preview"/>
-        <category label="ps4"/>
-        <category label="任天堂"/>
-        <category label="ゲーム"/>
         <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
         <category label="PC"/>
+        <category label="Preview"/>
+        <category label="PlayStation 4"/>
+        <category label="Nintendo Switch"/>
         <category label="PlayStation 5"/>
         <category label="nintendo-switch"/>
-        <category label="PlayStation 4"/>
+        <category label="ps4"/>
         <category label="東京ゲームショウ2024"/>
-        <category label="Nintendo Switch"/>
         <published>2024-10-10T08:21:12.000Z</published>
     </entry>
     <entry>
@@ -2318,12 +2318,12 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Nintendo Switch Online"/>
         <category label="News"/>
         <category label="任天堂"/>
         <category label="ゲーム"/>
-        <category label="Nintendo Switch Online"/>
-        <category label="nintendo-switch"/>
         <category label="Nintendo Switch"/>
+        <category label="nintendo-switch"/>
         <published>2024-10-10T04:18:21.000Z</published>
     </entry>
     <entry>
@@ -2493,13 +2493,13 @@
         <author>
             <name>Ryan Dinsdale</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
         <category label="ドラゴンボール Sparking! ZERO"/>
-        <category label="PC"/>
-        <category label="Sony PlayStation"/>
+        <category label="Xbox Series X"/>
         <category label="PlayStation 5"/>
+        <category label="PC"/>
         <published>2024-10-10T00:24:47.000Z</published>
     </entry>
     <entry>
@@ -2548,13 +2548,13 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="Detroit Become Human"/>
-        <category label="ps4"/>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="Sony PlayStation"/>
-        <category label="PC"/>
         <category label="PlayStation 4"/>
+        <category label="PC"/>
+        <category label="ps4"/>
+        <category label="Detroit Become Human"/>
         <published>2024-10-09T23:59:36.000Z</published>
     </entry>
     <entry>
@@ -2773,13 +2773,22 @@
         <author>
             <name>Wesley Yin-Poole</name>
         </author>
-        <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="LittleBigPlanet 3"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="Sony PlayStation"/>
         <category label="PlayStation 4"/>
-        <category label="LittleBigPlanet 3"/>
+        <category label="ps4"/>
         <published>2024-10-09T11:09:08.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YAPC::Hakodate 2024に参加してきたよ！ #yapcjapan | メルカリエンジニアリングブログ]]></title>
+        <id>https://engineering.mercari.com/blog/entry/20241009-yapc-hakodate-2024/</id>
+        <link href="https://engineering.mercari.com/blog/entry/20241009-yapc-hakodate-2024/"/>
+        <updated>2024-10-09T11:00:16.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。メルペイ Engineering Engagement チームの mikichin です。 10月5日に開催された「YAPC::Hakodate 2024」にメルカリはGold Sponsorをしておりました […]]]></summary>
+        <content type="html"><![CDATA[こんにちは。メルペイ Engineering Engagement チームの mikichin です。 10月5日に開催された「YAPC::Hakodate 2024」にメルカリはGold Sponsorをしておりました […]]]></content>
+        <published>2024-10-09T11:00:16.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Perlbatross in YAPC::Hakodate 2024の結果発表と解説 #yapcjapan | KAYAC Engineers' Blog]]></title>
@@ -2827,18 +2836,18 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Mobile"/>
-        <category label="Delta Force: Hawk Ops"/>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="android"/>
-        <category label="Android"/>
-        <category label="PC"/>
-        <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
-        <category label="Steam"/>
         <category label="iphone"/>
+        <category label="Android"/>
+        <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="Mobile"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="android"/>
+        <category label="Delta Force: Hawk Ops"/>
         <published>2024-10-09T09:46:10.000Z</published>
     </entry>
     <entry>
@@ -2864,8 +2873,8 @@
         <category label="News"/>
         <category label="ゲーム"/>
         <category label="Red Dead Redemption"/>
-        <category label="PC"/>
         <category label="Steam"/>
+        <category label="PC"/>
         <published>2024-10-09T09:32:45.000Z</published>
     </entry>
     <entry>
@@ -2968,17 +2977,17 @@
         <author>
             <name>IGN JAPAN編集部</name>
         </author>
-        <category label="ps4"/>
-        <category label="龍が如く８外伝 Pirates in Hawaii"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
+        <category label="Xbox One"/>
+        <category label="ゲーム"/>
+        <category label="Slideshow"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 4"/>
+        <category label="PlayStation 5"/>
         <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
-        <category label="PlayStation 5"/>
-        <category label="Slideshow"/>
-        <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="龍が如く８外伝 Pirates in Hawaii"/>
         <published>2024-10-09T04:59:27.000Z</published>
     </entry>
     <entry>
@@ -2991,18 +3000,18 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="ps4"/>
-        <category label="News"/>
-        <category label="龍が如く８外伝 Pirates in Hawaii"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
         <category label="Sony PlayStation"/>
+        <category label="Xbox One"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 4"/>
+        <category label="PlayStation 5"/>
         <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
-        <category label="PlayStation 5"/>
-        <category label="Steam"/>
-        <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="龍が如く８外伝 Pirates in Hawaii"/>
         <published>2024-10-09T04:59:27.000Z</published>
     </entry>
     <entry>
@@ -3056,8 +3065,8 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="News"/>
         <category label="IGN USランキング/投票企画"/>
+        <category label="News"/>
         <category label="ゲーム"/>
         <published>2024-10-09T03:47:00.000Z</published>
     </entry>
@@ -3094,14 +3103,14 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="News"/>
-        <category label="Amazonおすすめ"/>
-        <category label="セール情報"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="PC"/>
         <category label="Sony PlayStation"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="セール情報"/>
+        <category label="Xbox Series X"/>
         <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="Amazonおすすめ"/>
         <category label="ドラゴンズドグマ 2"/>
         <published>2024-10-09T03:29:34.000Z</published>
     </entry>
@@ -3466,22 +3475,22 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="ps4"/>
-        <category label="Mobile"/>
-        <category label="任天堂"/>
+        <category label="Sony PlayStation"/>
+        <category label="Xbox One"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="android"/>
-        <category label="Android"/>
-        <category label="Sony PlayStation"/>
+        <category label="任天堂"/>
         <category label="PC"/>
-        <category label="xbox-one"/>
         <category label="Alien: Isolation"/>
-        <category label="Xbox One"/>
-        <category label="nintendo-switch"/>
-        <category label="PlayStation 4"/>
         <category label="iphone"/>
+        <category label="Android"/>
+        <category label="Mobile"/>
+        <category label="PlayStation 4"/>
         <category label="Nintendo Switch"/>
+        <category label="xbox-one"/>
+        <category label="nintendo-switch"/>
+        <category label="ps4"/>
+        <category label="android"/>
         <published>2024-10-08T11:18:54.000Z</published>
     </entry>
     <entry>
@@ -3494,18 +3503,18 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Commandos: Origins"/>
-        <category label="ps4"/>
+        <category label="Sony PlayStation"/>
+        <category label="Xbox One"/>
         <category label="News"/>
         <category label="ゲーム"/>
+        <category label="Steam"/>
         <category label="Xbox Series X"/>
-        <category label="Sony PlayStation"/>
+        <category label="PlayStation 4"/>
+        <category label="PlayStation 5"/>
         <category label="PC"/>
         <category label="xbox-one"/>
-        <category label="Xbox One"/>
-        <category label="PlayStation 5"/>
-        <category label="Steam"/>
-        <category label="PlayStation 4"/>
+        <category label="ps4"/>
+        <category label="Commandos: Origins"/>
         <published>2024-10-08T11:08:55.000Z</published>
     </entry>
     <entry>
@@ -3518,11 +3527,11 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="News"/>
-        <category label="Xbox Series X"/>
-        <category label="ゲーム"/>
-        <category label="PC"/>
         <category label="Halo Infinite"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="Xbox Series X"/>
+        <category label="PC"/>
         <published>2024-10-08T10:51:09.000Z</published>
     </entry>
     <entry>
@@ -3580,22 +3589,22 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="ps4"/>
-        <category label="Mobile"/>
-        <category label="任天堂"/>
-        <category label="News"/>
-        <category label="ゲーム"/>
-        <category label="android"/>
-        <category label="Android"/>
         <category label="Sony PlayStation"/>
-        <category label="PC"/>
-        <category label="xbox-one"/>
-        <category label="ゲーム発展国＋＋"/>
         <category label="Xbox One"/>
-        <category label="nintendo-switch"/>
-        <category label="PlayStation 4"/>
+        <category label="News"/>
+        <category label="ゲーム発展国＋＋"/>
+        <category label="ゲーム"/>
+        <category label="任天堂"/>
+        <category label="PC"/>
         <category label="iphone"/>
+        <category label="Android"/>
+        <category label="Mobile"/>
+        <category label="PlayStation 4"/>
         <category label="Nintendo Switch"/>
+        <category label="xbox-one"/>
+        <category label="nintendo-switch"/>
+        <category label="ps4"/>
+        <category label="android"/>
         <published>2024-10-08T08:31:14.000Z</published>
     </entry>
     <entry>
@@ -3668,13 +3677,13 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="PC"/>
-        <category label="Sony PlayStation"/>
         <category label="SILENT HILL 2（リメイク）"/>
-        <category label="PlayStation 5"/>
         <category label="Steam"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
         <published>2024-10-08T06:47:55.000Z</published>
     </entry>
     <entry>
@@ -3745,13 +3754,13 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="Preview"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="The First Berserker: Khazan"/>
-        <category label="PC"/>
         <category label="Sony PlayStation"/>
+        <category label="ゲーム"/>
+        <category label="Preview"/>
+        <category label="Xbox Series X"/>
         <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="The First Berserker: Khazan"/>
         <category label="東京ゲームショウ2024"/>
         <published>2024-10-08T03:00:05.000Z</published>
     </entry>
@@ -3765,14 +3774,14 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="News"/>
-        <category label="モンスターハンターワイルズ"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="PC"/>
         <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
         <category label="Steam"/>
+        <category label="Xbox Series X"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="モンスターハンターワイルズ"/>
         <published>2024-10-08T02:23:22.000Z</published>
     </entry>
     <entry>
@@ -3997,13 +4006,13 @@
         <author>
             <name>重田雄一</name>
         </author>
+        <category label="Sony PlayStation"/>
         <category label="News"/>
         <category label="ゲーム"/>
-        <category label="PC"/>
-        <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
         <category label="ファイナルファンタジーXVI"/>
         <category label="Steam"/>
+        <category label="PlayStation 5"/>
+        <category label="PC"/>
         <category label="ps5"/>
         <published>2024-10-07T10:38:17.000Z</published>
     </entry>
@@ -4017,8 +4026,8 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="News"/>
         <category label="PC"/>
+        <category label="News"/>
         <category label="ゲーム"/>
         <published>2024-10-07T10:24:46.000Z</published>
     </entry>
@@ -4082,12 +4091,12 @@
         <author>
             <name>重田雄一</name>
         </author>
-        <category label="News"/>
-        <category label="ファイナルファンタジーVII リバース"/>
-        <category label="ゲーム"/>
         <category label="アストロボット"/>
         <category label="Sony PlayStation"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
         <category label="PlayStation 5"/>
+        <category label="ファイナルファンタジーVII リバース"/>
         <published>2024-10-07T08:26:07.000Z</published>
     </entry>
     <entry>
@@ -4234,13 +4243,13 @@
         <author>
             <name>山田集佳</name>
         </author>
-        <category label="Preview"/>
-        <category label="ゲーム"/>
-        <category label="Xbox Series X"/>
-        <category label="PC"/>
         <category label="Sony PlayStation"/>
-        <category label="Dune: Awakening"/>
+        <category label="ゲーム"/>
+        <category label="Preview"/>
+        <category label="Xbox Series X"/>
         <category label="PlayStation 5"/>
+        <category label="PC"/>
+        <category label="Dune: Awakening"/>
         <category label="東京ゲームショウ2024"/>
         <published>2024-10-07T02:00:38.000Z</published>
     </entry>
@@ -4281,15 +4290,15 @@
         <author>
             <name>片岡龍一</name>
         </author>
+        <category label="ゲーム"/>
+        <category label="iphone"/>
+        <category label="Android"/>
         <category label="Preview"/>
         <category label="Mobile"/>
-        <category label="ゲーム"/>
-        <category label="android"/>
-        <category label="Android"/>
-        <category label="PC"/>
         <category label="ペルソナ5: The Phantom X"/>
+        <category label="PC"/>
+        <category label="android"/>
         <category label="東京ゲームショウ2024"/>
-        <category label="iphone"/>
         <published>2024-10-07T01:33:31.000Z</published>
     </entry>
     <entry>
@@ -4320,13 +4329,13 @@
         <author>
             <name>片岡龍一</name>
         </author>
-        <category label="ps4"/>
-        <category label="News"/>
-        <category label="セール情報"/>
-        <category label="ゲーム"/>
         <category label="Sony PlayStation"/>
-        <category label="PlayStation 5"/>
+        <category label="News"/>
+        <category label="ゲーム"/>
+        <category label="セール情報"/>
         <category label="PlayStation 4"/>
+        <category label="PlayStation 5"/>
+        <category label="ps4"/>
         <published>2024-10-07T00:51:16.000Z</published>
     </entry>
     <entry>
@@ -4397,16 +4406,16 @@
         <published>2024-10-06T21:23:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[RIKEN International HPC Spring School 2025：Society5.0に向けて | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/lectures/20250115_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/lectures/20250115_1/index.html"/>
+        <title type="html"><![CDATA[理化学研究所 神戸地区一般公開 2024 | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/events/20241102_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/events/20241102_1/index.html"/>
         <updated>2024-10-06T15:00:00.000Z</updated>
         <published>2024-10-06T15:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[理化学研究所 神戸地区一般公開 2024 | イベントニュース]]></title>
-        <id> https://www.riken.jp/pr/events/events/20241102_1/index.html</id>
-        <link href="https://www.riken.jp/pr/events/events/20241102_1/index.html"/>
+        <title type="html"><![CDATA[RIKEN International HPC Spring School 2025：Society5.0に向けて | イベントニュース]]></title>
+        <id> https://www.riken.jp/pr/events/lectures/20250115_1/index.html</id>
+        <link href="https://www.riken.jp/pr/events/lectures/20250115_1/index.html"/>
         <updated>2024-10-06T15:00:00.000Z</updated>
         <published>2024-10-06T15:00:00.000Z</published>
     </entry>
@@ -4478,12 +4487,12 @@
         <author>
             <name>Alex Stedman</name>
         </author>
-        <category label="映画"/>
-        <category label="ゼルダの伝説 ムジュラの仮面"/>
         <category label="News"/>
-        <category label="The Legend of Zelda: Ocarina of Time"/>
+        <category label="映画"/>
         <category label="ゲーム"/>
+        <category label="ゼルダの伝説 ムジュラの仮面"/>
         <category label="実写映画版「ゼルダの伝説」"/>
+        <category label="The Legend of Zelda: Ocarina of Time"/>
         <category label="エンタメ"/>
         <published>2024-10-05T07:12:27.000Z</published>
     </entry>
@@ -4655,28 +4664,6 @@
         <summary type="html"><![CDATA[エンジニアの佐野です。カンムはバックエンドに PostgreSQL を置きつつサーバを Go で書いています。DB のトランザクションの取り回しは概ね次の様なイディオムになっているのですが、先日 Commit() が漏れている箇所を見つけまして...。結果としてそれについては大きな問題はなく秋の夜長に遅めの肝試しをする程度で済んだのですが、これは事故に繋がるためトランザクションの Commit 漏...]]></summary>
         <content type="html"><![CDATA[エンジニアの佐野です。カンムはバックエンドに PostgreSQL を置きつつサーバを Go で書いています。DB のトランザクションの取り回しは概ね次の様なイディオムになっているのですが、先日 Commit() が漏れている箇所を見つけまして...。結果としてそれについては大きな問題はなく秋の夜長に遅めの肝試しをする程度で済んだのですが、これは事故に繋がるためトランザクションの Commit 漏れ(defer Rollback() 漏れも)を検出する Linter を書きました。 tx, err := db.BeginTx(ctx, nil) if err != nil { return e…]]></content>
         <published>2024-10-04T05:23:11.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ディープテックイノベーションの源泉：成功を左右する資金調達の秘訣 | お役立ちコンテンツ｜アカリク]]></title>
-        <id>https://acaric.jp/articles/?p=10413</id>
-        <link href="https://acaric.jp/articles/10413"/>
-        <updated>2024-10-04T05:01:58.000Z</updated>
-        <summary type="html"><![CDATA[※本記事はアクセラレーター／ベンチャーキャピタルであるPlug and Play Japan株式会社との協力記事です 前回の「ディープテックイノベーションの源泉：起業への道しるべ」に引き続き、Plug and Play […]]]></summary>
-        <content type="html"><![CDATA[※本記事はアクセラレーター／ベンチャーキャピタルであるPlug and Play Japan株式会社との協力記事です 前回の「ディープテックイノベーションの源泉：起業への道しるべ」に引き続き、Plug and Play […]]]></content>
-        <author>
-            <name>アカリクお役立ちコンテンツ編集部</name>
-        </author>
-        <category label="研究・大学生活"/>
-        <published>2024-10-04T05:01:58.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CentOS7 EOLに伴うサーバーのIaC化挑戦記 ～Ansibleの導入とチームでの成長～ | Adwaysエンジニアブログ]]></title>
-        <id>https://blog.engineer.adways.net/entry/2024/10/04/130000</id>
-        <link href="https://blog.engineer.adways.net/entry/2024/10/04/130000"/>
-        <updated>2024-10-04T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[みなさんお久しぶりです。技術本部インフラストラクチャーDivの中嶋です。 最近はめっきりDeadlockという開発中のゲームにハマっています。 さて、今回私が執筆する内容はCentOS7のEOLを目前に、私たちのチームでオンプレミスサーバーのIaC（Infrastructure as Code）化に取り組んだ話となります。 特に、Ansibleを使ったサーバー構築の自動化にチャレンジすることとなり...]]></summary>
-        <content type="html"><![CDATA[みなさんお久しぶりです。技術本部インフラストラクチャーDivの中嶋です。 最近はめっきりDeadlockという開発中のゲームにハマっています。 さて、今回私が執筆する内容はCentOS7のEOLを目前に、私たちのチームでオンプレミスサーバーのIaC（Infrastructure as Code）化に取り組んだ話となります。 特に、Ansibleを使ったサーバー構築の自動化にチャレンジすることとなり、その過程で多くの議論と学びが生まれました。 今回は、その経験と苦労、そしてAnsibleを活用して得た成果についてお話させていただきます！ プロジェクト背景とAnsible化の理由 Ansible初…]]></content>
-        <published>2024-10-04T04:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[10月24日に「生成AI×新規事業 の挑戦 〜生成AIを学びながら技術とチームを磨いた事業立ち上げの道のり〜」をオンライン開催します | Hatena Developer Blog]]></title>
@@ -6091,83 +6078,5 @@
         <summary type="html"><![CDATA[SmartHR 品質保証部の現状の体制と目指す姿（24/09版） はじめまして！ SmartHR 品質保証部マネージャー（Acting*1）のtarappoです。 本記事はSmartHR 品質保証部について紹介する連載記事の第一回目となります。 まずは品質保証部全体の紹介をし、今後各ユニットの紹介を定期的に公開していく予定です。 はじめに 品質保証部は今年の4月に次のブログ記事でその時点における組...]]></summary>
         <content type="html"><![CDATA[SmartHR 品質保証部の現状の体制と目指す姿（24/09版） はじめまして！ SmartHR 品質保証部マネージャー（Acting*1）のtarappoです。 本記事はSmartHR 品質保証部について紹介する連載記事の第一回目となります。 まずは品質保証部全体の紹介をし、今後各ユニットの紹介を定期的に公開していく予定です。 はじめに 品質保証部は今年の4月に次のブログ記事でその時点における組織体制について紹介をしています。 このブログ記事の公開から約半年が過ぎました。 その間に組織体制の変化もあり、改めて「SmartHRの品質保証部の現状の体制」と新たに言語化した「目指す姿」、そして現時…]]></content>
         <published>2024-09-30T07:30:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Cloud 注目アップデート/ブログ(2024/09/21~2024/09/27) | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=35659</id>
-        <link href="https://techblog.nhn-techorus.com/archives/35659"/>
-        <updated>2024-09-30T07:09:04.000Z</updated>
-        <summary type="html"><![CDATA[2024/09/21~2024/09/27の Google Cloud の注目アップデート/ブログをご紹介します。 本記事のアップデート情報/ブログはGoogle Cloud リリースノート、Google Cloud Blogを参照しており... 続きを読む Google Cloud 注目アップデート/ブログ(2024/09/21~2024/09/27) first appeared on NHN...]]></summary>
-        <content type="html"><![CDATA[2024/09/21~2024/09/27の Google Cloud の注目アップデート/ブログをご紹介します。 本記事のアップデート情報/ブログはGoogle Cloud リリースノート、Google Cloud Blogを参照しており... 続きを読む Google Cloud 注目アップデート/ブログ(2024/09/21~2024/09/27) first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>Shun</name>
-        </author>
-        <category label="Google Cloud"/>
-        <category label="Gemini"/>
-        <category label="Vertex AI"/>
-        <category label="BigQuery"/>
-        <published>2024-09-30T07:09:04.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud Run 関数(旧: Cloud Functions)をCloud IAMの認証を用いてWorkflowsから起動する | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=35246</id>
-        <link href="https://techblog.nhn-techorus.com/archives/35246"/>
-        <updated>2024-09-30T07:08:16.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、wakaです。 私が過去に対応した案件で、Cloud Schedulerを用いて定期的にCloud Run 関数を起動する設定にしていました。 結果としてそれなりに処理に時間がかかるパターンが発生し、イベントドリブン関... 続きを読む Cloud Run 関数(旧: Cloud Functions)をCloud IAMの認証を用いてWorkflowsから起動する first...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、wakaです。 私が過去に対応した案件で、Cloud Schedulerを用いて定期的にCloud Run 関数を起動する設定にしていました。 結果としてそれなりに処理に時間がかかるパターンが発生し、イベントドリブン関... 続きを読む Cloud Run 関数(旧: Cloud Functions)をCloud IAMの認証を用いてWorkflowsから起動する first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>waka</name>
-        </author>
-        <category label="Google Cloud"/>
-        <category label="Workflows"/>
-        <category label="Cloud Run"/>
-        <category label="Cloud Scheduler"/>
-        <published>2024-09-30T07:08:16.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[就業型インターン Booost!!!で得た学び | エキサイト TechBlog.]]></title>
-        <id>https://tech.excite.co.jp/entry/2024/09/30/151547</id>
-        <link href="https://tech.excite.co.jp/entry/2024/09/30/151547"/>
-        <updated>2024-09-30T06:15:47.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 2024年9月から1ヶ月間、エキサイト株式会社のSaaS事業部で就業型インターンシップ「Booost!!」に参加させていただきました。インターンを通して経験したことや学んだことを紹介します。 自己紹介 理学系の大学院の修士1年で、電離圏についての研究を行っています。大学3年生のときにプログラミングに出会い、ソフトウェア開発に興味を持ちました。現在はフロントエンドの開発を主に行っています。...]]></summary>
-        <content type="html"><![CDATA[はじめに 2024年9月から1ヶ月間、エキサイト株式会社のSaaS事業部で就業型インターンシップ「Booost!!」に参加させていただきました。インターンを通して経験したことや学んだことを紹介します。 自己紹介 理学系の大学院の修士1年で、電離圏についての研究を行っています。大学3年生のときにプログラミングに出会い、ソフトウェア開発に興味を持ちました。現在はフロントエンドの開発を主に行っています。Firebaseが好きでよく使っています。今回のインターンシップではチーム開発とエンジニアの働き方を実際に体験したいと思い、参加させていただきました。 インターンに参加するまでの技術スタック(2024…]]></content>
-        <published>2024-09-30T06:15:47.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フロントエンドチームのリリースサイクルとブランチ運用 | トレタ開発者ブログ]]></title>
-        <id>https://tech.toreta.in/entry/2024/09/30/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E3%83%96%E3%83%A9%E3%83%B3</id>
-        <link href="https://tech.toreta.in/entry/2024/09/30/%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%83%81%E3%83%BC%E3%83%A0%E3%81%AE%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB%E3%81%A8%E3%83%96%E3%83%A9%E3%83%B3"/>
-        <updated>2024-09-30T06:09:36.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、トレタ VPoEの北川です。 カジュアル面談などでよく聞かれる質問として「開発プロセスはアジャイルですか？」という質問とあわせて「リリースサイクルはどれくらいですか？」という質問を受けることがあります。 そこで今回は弊社のフロントエンドチームでのリリースサイクルとそれに対応するブランチ運用を例にして紹介しようと思います。 リリーストレインによる定期リリースサイクル 弊社のモバイルオーダ...]]></summary>
-        <content type="html"><![CDATA[こんにちは、トレタ VPoEの北川です。 カジュアル面談などでよく聞かれる質問として「開発プロセスはアジャイルですか？」という質問とあわせて「リリースサイクルはどれくらいですか？」という質問を受けることがあります。 そこで今回は弊社のフロントエンドチームでのリリースサイクルとそれに対応するブランチ運用を例にして紹介しようと思います。 リリーストレインによる定期リリースサイクル 弊社のモバイルオーダー・トレタO/Xのオーダーアプリチームのリリースサイクルは週1回となっています。毎週水曜日の定期リリースという形でいわゆるリリーストレイン(ReleaseTrain)の手法となっています。 背景として…]]></content>
-        <published>2024-09-30T06:09:36.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【生成 AI】Llama 3.2 が Google Cloud で利用できるようになりました #Vertex AI | NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ]]></title>
-        <id>https://techblog.nhn-techorus.com/?p=35608</id>
-        <link href="https://techblog.nhn-techorus.com/archives/35608"/>
-        <updated>2024-09-30T05:59:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは、フクナガです。 この度、Meta社が提供する基盤モデル「Llama 3.2」が Google Cloud で利用可能となりました。 参考：Meta’s Llama 3.2 is now available ... 続きを読む 【生成 AI】Llama 3.2 が Google Cloud で利用できるようになりました #Vertex AI first appeared on ...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは、フクナガです。 この度、Meta社が提供する基盤モデル「Llama 3.2」が Google Cloud で利用可能となりました。 参考：Meta’s Llama 3.2 is now available ... 続きを読む 【生成 AI】Llama 3.2 が Google Cloud で利用できるようになりました #Vertex AI first appeared on NHN テコラス Tech Blog | AWS、機械学習、IoTなどの技術ブログ.]]></content>
-        <author>
-            <name>フクナガ</name>
-        </author>
-        <category label="Google Cloud"/>
-        <category label="Meta Llama 3"/>
-        <category label="Vertex AI"/>
-        <category label="生成AI"/>
-        <published>2024-09-30T05:59:06.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[リリステ_アート開発話・3Dモデル | Aiming 開発者ブログ]]></title>
-        <id>https://developer.aiming-inc.com/?p=11216</id>
-        <link href="https://developer.aiming-inc.com/game/11216/"/>
-        <updated>2024-09-30T05:35:55.000Z</updated>
-        <summary type="html"><![CDATA[はじめまして。Aiming第ニ事業部アート部シニアマネージャーの板井です。 今回紹介するタイトル「2.5次元の誘惑（リリサ）天使たちのステージ」（以降「リリステ」）では、アートディレクターを担当させていただきました。 今回はそのリリステの開発について、キャラクターの見せ方とモデリ […]]]></summary>
-        <content type="html"><![CDATA[はじめまして。Aiming第ニ事業部アート部シニアマネージャーの板井です。 今回紹介するタイトル「2.5次元の誘惑（リリサ）天使たちのステージ」（以降「リリステ」）では、アートディレクターを担当させていただきました。 今回はそのリリステの開発について、キャラクターの見せ方とモデリ […]]]></content>
-        <category label="2.5次元の誘惑（リリサ）天使たちのステージ"/>
-        <category label="ゲーム"/>
-        <category label="デザイン"/>
-        <published>2024-09-30T05:35:55.000Z</published>
     </entry>
 </feed>
