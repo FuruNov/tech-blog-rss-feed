@@ -4,7 +4,7 @@
         <title>RSSまとめ by FuruNov</title>
         <link>https://furunov.github.io/rss-feed/</link>
         <description>RSSフィードのまとめ</description>
-        <lastBuildDate>Thu, 17 Oct 2024 11:24:57 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 17 Oct 2024 23:28:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>yamadashy/tech-blog-rss-feed</generator>
         <language>ja</language>
@@ -22,6 +22,256 @@
             <pubDate>Fri, 18 Oct 2024 03:00:00 GMT</pubDate>
             <description><![CDATA[はじめに こんにちは！ テクノロジー戦略本部 開発1部の中舘です。 私は今年の4月に新卒で入社し、現在は出張訪問買取システム「Visit」の開発・運用をしています。 本記事では、プロダクト開発研修後に配属されたVisitチームでリリースに立ち会ってから現在に至るまでの期間の話をしたいと思います。 Visitチームで使うプログラミング言語やアーキテクチャは初学で、出張訪問買取の業務知識もありませんで...]]></description>
             <content:encoded><![CDATA[はじめに こんにちは！ テクノロジー戦略本部 開発1部の中舘です。 私は今年の4月に新卒で入社し、現在は出張訪問買取システム「Visit」の開発・運用をしています。 本記事では、プロダクト開発研修後に配属されたVisitチームでリリースに立ち会ってから現在に至るまでの期間の話をしたいと思います。 Visitチームで使うプログラミング言語やアーキテクチャは初学で、出張訪問買取の業務知識もありませんでした。 そんな私が、リリース当時何をしていたのか、現在どのような業務に携わっているのかをお話しします。 この記事が少しでも多くの若手エンジニアに勇気を与えることができれば嬉しいです。 はじめに 配属当…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Datadog APMの設定ミスのせいでメモリリークしていた話 | LIVESENSE ENGINEER BLOG]]></title>
+            <link>https://made.livesense.co.jp/entry/2024/10/18/080000</link>
+            <guid>https://made.livesense.co.jp/entry/2024/10/18/080000</guid>
+            <pubDate>Thu, 17 Oct 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[こんにちは、かたいなかです。 最近、転職会議のあるサーバで発生していたメモリリークについて調査する機会がありました。 今回の記事ではメモリリークをどのように調査したか等をまとめます。 TL;DR 長時間稼働するrakeタスクのDatadog APMによる計装は避けましょう。 rakeがタスク内の処理でのspanが、rakeタスクを親とするトレースに追加され続け、メモリの使用量が大きくなってしまうた...]]></description>
+            <content:encoded><![CDATA[こんにちは、かたいなかです。 最近、転職会議のあるサーバで発生していたメモリリークについて調査する機会がありました。 今回の記事ではメモリリークをどのように調査したか等をまとめます。 TL;DR 長時間稼働するrakeタスクのDatadog APMによる計装は避けましょう。 rakeがタスク内の処理でのspanが、rakeタスクを親とするトレースに追加され続け、メモリの使用量が大きくなってしまうためです。 ddtrace-rbではrakeの計装はデフォルトで有効なので注意。 状況 転職会議のとあるサーバで、使用しているメモリの量が継続的に増加していき、最終的にメモリが枯渇してサーバが再起動され…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Vox Machina’s biggest season 3 change hits hard, even for the Critical Role cast | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/critical-role/466215/legend-vox-machina-percy-cast-death-episode-7</link>
+            <guid>https://www.polygon.com/critical-role/466215/legend-vox-machina-percy-cast-death-episode-7</guid>
+            <pubDate>Thu, 17 Oct 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[The Legend of Vox Machina is a chance for the cast of Critical Role to revamp their first campaign. Sometimes that means characters who weren’t present for certain events now get to play bigger roles....]]></description>
+            <content:encoded><![CDATA[The Legend of Vox Machina is a chance for the cast of Critical Role to revamp their first campaign. Sometimes that means characters who weren’t present for certain events now get to play bigger roles. Other times that means pulling in lore and mythology of Exandria that didn’t get fleshed out till after Vox Machina [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Apple Accountのアドレス、変更したい人はもうちょっと待ってみて | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/apple-account-e-mail-address-change.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/apple-account-e-mail-address-change.html</guid>
+            <pubDate>Thu, 17 Oct 2024 23:00:00 GMT</pubDate>
+            <description><![CDATA[Image:Appleまもなく、そのタイミングが…！iPhoneやiPadなど、Apple（アップル）デバイスへのログインに必要になるAppleAccount（旧AppleID）。現在開発が進むiOS18.1では、AppleAccount関連のテコ入れも計画されているみたい。MacRumorsによると、AppleAccountのプライマリメールアドレスの変更がカンタンになるそうな。AppleAcc]]></description>
+            <content:encoded><![CDATA[Image:Appleまもなく、そのタイミングが…！iPhoneやiPadなど、Apple（アップル）デバイスへのログインに必要になるAppleAccount（旧AppleID）。現在開発が進むiOS18.1では、AppleAccount関連のテコ入れも計画されているみたい。MacRumorsによると、AppleAccountのプライマリメールアドレスの変更がカンタンになるそうな。AppleAcc]]></content:encoded>
+            <category>TECHNOLOGY</category>
+        </item>
+        <item>
+            <title><![CDATA[【アップデート情報】窓の杜収録ソフト　10月18日　～「Google Chrome」や「Oracle VM VirtualBox」など | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/update/library/1632324.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/update/library/1632324.html</guid>
+            <pubDate>Thu, 17 Oct 2024 22:30:00 GMT</pubDate>
+            <description><![CDATA[軽快で多機能なPDFビューワー]]></description>
+            <content:encoded><![CDATA[軽快で多機能なPDFビューワー]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[YouTubeにスリープタイマーなどの新機能が追加されてさらに便利に | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/youtube-adds-sleep-timer.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/youtube-adds-sleep-timer.html</guid>
+            <pubDate>Thu, 17 Oct 2024 22:00:00 GMT</pubDate>
+            <description><![CDATA[Image:JarTee/Shutterstock.comまたまた新機能！1カ月ほど前、YouTubeは2024年に導入される新機能を発表していました。押すたびにその動画を週間ランキングにプッシュできる「ハイプ」ボタンや、クリエイターがコンテンツをシーズンやエピソードで整理できる機能などです。そして米国時間10月15日に、ウェブ、モバイル、TV、そしてYouTubeMusicに展開されるさらなる新]]></description>
+            <content:encoded><![CDATA[Image:JarTee/Shutterstock.comまたまた新機能！1カ月ほど前、YouTubeは2024年に導入される新機能を発表していました。押すたびにその動画を週間ランキングにプッシュできる「ハイプ」ボタンや、クリエイターがコンテンツをシーズンやエピソードで整理できる機能などです。そして米国時間10月15日に、ウェブ、モバイル、TV、そしてYouTubeMusicに展開されるさらなる新]]></content:encoded>
+            <category>NEWS</category>
+        </item>
+        <item>
+            <title><![CDATA[AI好き集まれ！「AIフェスティバル 2024」の見どころをサードウェーブ 井田社長と清水亮氏に直接聞いてみた[Sponsored] | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/topic/special/1630060.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/topic/special/1630060.html</guid>
+            <pubDate>Thu, 17 Oct 2024 21:55:00 GMT</pubDate>
+            <description><![CDATA[2024年11月8日・9日に東京・秋葉原にて「AIフェスティバル 2024 Powered by GALLERIA」が開催される。]]></description>
+            <content:encoded><![CDATA[2024年11月8日・9日に東京・秋葉原にて「AIフェスティバル 2024 Powered by GALLERIA」が開催される。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Enhancing repository-level code completion with selective retrieval | Amazon Science homepage]]></title>
+            <link>https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval</link>
+            <guid>https://www.amazon.science/blog/enhancing-repository-level-code-completion-with-selective-retrieval</guid>
+            <pubDate>Thu, 17 Oct 2024 20:44:32 GMT</pubDate>
+            <description><![CDATA[Self-supervised method for learning when to retrieve contextual information from a code repository speeds up code completion times by 70% while increasing accuracy.]]></description>
+            <content:encoded><![CDATA[Self-supervised method for learning when to retrieve contextual information from a code repository speeds up code completion times by 70% while increasing accuracy.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[公開されたばかりの「Winamp」ソースコードが突如、アクセス不能に／今のところ開発元からの声明はなし | 窓の杜]]></title>
+            <link>https://forest.watch.impress.co.jp/docs/news/1632358.html</link>
+            <guid>https://forest.watch.impress.co.jp/docs/news/1632358.html</guid>
+            <pubDate>Thu, 17 Oct 2024 20:00:00 GMT</pubDate>
+            <description><![CDATA[Windows版「Winamp」のソースコードが突如、アクセス不能になった。今年9月に「GitHub」で公開されたばかりだったが、現在はアカウントに公開リポジトリがない状態になっている。]]></description>
+            <content:encoded><![CDATA[Windows版「Winamp」のソースコードが突如、アクセス不能になった。今年9月に「GitHub」で公開されたばかりだったが、現在はアカウントに公開リポジトリがない状態になっている。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[「o1-preview」は自己評価メカニズムを持つ　計画立案中に自分の行動をチェックして修正　 | AIDB]]></title>
+            <link>https://ai-data-base.com/archives/77179</link>
+            <guid>https://ai-data-base.com/?p=77179</guid>
+            <pubDate>Thu, 17 Oct 2024 19:03:00 GMT</pubDate>
+            <description><![CDATA[本記事では、OpenAIの最新モデル「o1」の計画立案能力に関する研究を紹介します。 従来の研究が計画立案における「単純な成功率」のみに着目していたのに対し、この研究では「実現可能性」、「最適性」、「汎用性」という3つの […] 「o1-preview」は自己評価メカニズムを持つ 計画立案中に自分の行動をチェックして修正 first appeared on AIDB.]]></description>
+            <content:encoded><![CDATA[本記事では、OpenAIの最新モデル「o1」の計画立案能力に関する研究を紹介します。 従来の研究が計画立案における「単純な成功率」のみに着目していたのに対し、この研究では「実現可能性」、「最適性」、「汎用性」という3つの […] 「o1-preview」は自己評価メカニズムを持つ 計画立案中に自分の行動をチェックして修正 first appeared on AIDB.]]></content:encoded>
+            <category>LLM</category>
+            <category>論文</category>
+        </item>
+        <item>
+            <title><![CDATA[Learning Japanese with games and anime is easier than ever | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/gaming/466750/how-to-learn-japanese-with-games-anime</link>
+            <guid>https://www.polygon.com/gaming/466750/how-to-learn-japanese-with-games-anime</guid>
+            <pubDate>Thu, 17 Oct 2024 18:59:19 GMT</pubDate>
+            <description><![CDATA[Want to learn Japanese by playing video games and watching anime? A band of YouTubers — with the help of modern tools — has made learning one of the world’s most challenging languages into a fun hobby...]]></description>
+            <content:encoded><![CDATA[Want to learn Japanese by playing video games and watching anime? A band of YouTubers — with the help of modern tools — has made learning one of the world’s most challenging languages into a fun hobby rather than a laborious chore.&#160;&#160; But let’s set expectations: You shouldn’t expect to play Metaphor: ReFantazio without English [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Everything announced at Microsoft’s Xbox Partner Preview | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/gaming/466881/everything-announced-at-microsofts-xbox-partner-preview</link>
+            <guid>https://www.polygon.com/gaming/466881/everything-announced-at-microsofts-xbox-partner-preview</guid>
+            <pubDate>Thu, 17 Oct 2024 17:34:23 GMT</pubDate>
+            <description><![CDATA[Microsoft broadcasted its Xbox Partner Preview on Thursday, featuring updates from Remedy Entertainment, Sega, and plenty more. Players got a look into Like a Dragon: Pirate Yakuza in Hawaii, Alan Wak...]]></description>
+            <content:encoded><![CDATA[Microsoft broadcasted its Xbox Partner Preview on Thursday, featuring updates from Remedy Entertainment, Sega, and plenty more. Players got a look into Like a Dragon: Pirate Yakuza in Hawaii, Alan Wake 2’s next expansion, and Wuchang: Fallen Feathers. The event began at 1 p.m. EDT on Thursday, streamed on YouTube, Twitch, and LinkedIn. Everything featured [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Subnautica 2 will include multiplayer and take place on a new planet | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/news/466918/subnautica-2-announcement-multiplayer-new-planet</link>
+            <guid>https://www.polygon.com/news/466918/subnautica-2-announcement-multiplayer-new-planet</guid>
+            <pubDate>Thu, 17 Oct 2024 17:29:04 GMT</pubDate>
+            <description><![CDATA[Subnautica 2 was announced at Thursday’s Xbox Partner Preview, and the follow-up to Subnautica will include an exciting new feature: co-op multiplayer for up to four players at once. In this new title...]]></description>
+            <content:encoded><![CDATA[Subnautica 2 was announced at Thursday’s Xbox Partner Preview, and the follow-up to Subnautica will include an exciting new feature: co-op multiplayer for up to four players at once. In this new title, set to come out in 2025 through Xbox Game Preview, players will discover a new planet filled with challenges, creatures, and vehicles [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Associahedra in Quantum Field Theory | The n-Category Café]]></title>
+            <link>https://golem.ph.utexas.edu/category/2024/10/associahedra_in_quantum_field.html</link>
+            <guid>https://golem.ph.utexas.edu/category/2024/10/associahedra_in_quantum_field.html</guid>
+            <pubDate>Thu, 17 Oct 2024 17:00:06 GMT</pubDate>
+            <description><![CDATA[A talk by Arkani-Hamed on how physicists could have invented the associahedron.]]></description>
+            <content:encoded><![CDATA[A talk by Arkani-Hamed on how physicists could have invented the associahedron.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Where you can play Spycraft, the game so wild we made a documentary about it | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/what-to-buy/466800/spycraft-game-movie-where-to-buy</link>
+            <guid>https://www.polygon.com/what-to-buy/466800/spycraft-game-movie-where-to-buy</guid>
+            <pubDate>Thu, 17 Oct 2024 16:41:16 GMT</pubDate>
+            <description><![CDATA[If you watch one movie this year that features both former CIA director William Colby and Polygon co-founder Justin McElroy, make sure it&#8217;s Polygon’s documentary on Spycraft: The Great Game. A r...]]></description>
+            <content:encoded><![CDATA[If you watch one movie this year that features both former CIA director William Colby and Polygon co-founder Justin McElroy, make sure it&#8217;s Polygon’s documentary on Spycraft: The Great Game. A relic of the 1990s, Spycraft: The Great Game is an FMV point-and-click adventure that places you in the shoes of a CIA recruit thrust [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Streamlining Data Science Projects: How to Use Monday.com for Efficient Team Collaboration | KDnuggets]]></title>
+            <link>https://www.kdnuggets.com/streamlining-data-science-projects-how-to-use-monday-com-for-efficient-team-collaboration</link>
+            <guid>https://www.kdnuggets.com/?p=184048</guid>
+            <pubDate>Thu, 17 Oct 2024 16:00:22 GMT</pubDate>
+            <description><![CDATA[This article will discuss how to set up and streamline data science projects using Monday.com for project management among teams.]]></description>
+            <content:encoded><![CDATA[This article will discuss how to set up and streamline data science projects using Monday.com for project management among teams.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[What’s going to win Best Indie Game at The Game Awards? | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/awards/466135/game-awards-goty-best-indie-game-predictions</link>
+            <guid>https://www.polygon.com/awards/466135/game-awards-goty-best-indie-game-predictions</guid>
+            <pubDate>Thu, 17 Oct 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[The Game Awards’ most controversial category is probably Best Independent Game, for a few reasons. Among a whole mess of hard-to-define categories like Best Game Direction or Best Action/Adventure Gam...]]></description>
+            <content:encoded><![CDATA[The Game Awards’ most controversial category is probably Best Independent Game, for a few reasons. Among a whole mess of hard-to-define categories like Best Game Direction or Best Action/Adventure Game, it might be the hardest — and it’s susceptible to being drawn into the constantly raging debate about what constitutes an independent game. In 2023, [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Some Pokémon leaks are getting taken down by DMCA requests | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/pokemon/466776/dmca-requests-pokemon-leaks-takedowns</link>
+            <guid>https://www.polygon.com/pokemon/466776/dmca-requests-pokemon-leaks-takedowns</guid>
+            <pubDate>Thu, 17 Oct 2024 15:47:29 GMT</pubDate>
+            <description><![CDATA[Shogakukan-Shueisha Productions Co., better known as ShoPro, is reportedly filing The Digital Millennium Copyright Act (DMCA) notices to take down social media posts related to leaked Pokémon art and ...]]></description>
+            <content:encoded><![CDATA[Shogakukan-Shueisha Productions Co., better known as ShoPro, is reportedly filing The Digital Millennium Copyright Act (DMCA) notices to take down social media posts related to leaked Pokémon art and documents. Several posts on a leaker account, CentroLeaks on X, have been replaced with a notice saying the image has been taken down due to a [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Not sure what game to play? Leave a comment, we’ll help | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/gaming/2024/8/8/466453/best-game-games-to-play-october-ps5-pc-switch-xbox</link>
+            <guid>https://www.polygon.com/gaming/2024/8/8/466453/best-game-games-to-play-october-ps5-pc-switch-xbox</guid>
+            <pubDate>Thu, 17 Oct 2024 15:30:00 GMT</pubDate>
+            <description><![CDATA[One of the coolest things about working at Polygon is recommending new, exciting games to play, whether they’re indie games, cozy games, board games, or just the best of the year. We’re always playing...]]></description>
+            <content:encoded><![CDATA[One of the coolest things about working at Polygon is recommending new, exciting games to play, whether they’re indie games, cozy games, board games, or just the best of the year. We’re always playing a huge variety of games — it’s part of the job! — so we’re able to keep you up to date on what’s what. [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[End 2024 with Big Savings on AI Courses | KDnuggets]]></title>
+            <link>https://www.kdnuggets.com/end-2024-with-big-savings-on-ai-courses</link>
+            <guid>https://www.kdnuggets.com/?p=183663</guid>
+            <pubDate>Thu, 17 Oct 2024 14:30:26 GMT</pubDate>
+            <description><![CDATA[Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.]]></description>
+            <content:encoded><![CDATA[Contribute to your career success with big savings on edX programs, courses, and boot camps before October 28! Use code EDXSUCCESS24.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Creating a Personal Assistant with LangChain | KDnuggets]]></title>
+            <link>https://www.kdnuggets.com/creating-a-personal-assistant-with-langchain</link>
+            <guid>https://www.kdnuggets.com/?p=183235</guid>
+            <pubDate>Thu, 17 Oct 2024 14:22:20 GMT</pubDate>
+            <description><![CDATA[In this article I will show you how to create a personal assistant with LLM facilitated by LangChain.]]></description>
+            <content:encoded><![CDATA[In this article I will show you how to create a personal assistant with LLM facilitated by LangChain.]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[箱の素材でスピーカーの音って変わるの～？→CEATECで聴き比べた | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/jvckenwood-speaker.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/jvckenwood-speaker.html</guid>
+            <pubDate>Thu, 17 Oct 2024 14:00:00 GMT</pubDate>
+            <description><![CDATA[Photo:中川真知子テックメーカーが集まり、自分たちのさまざまな最新テクノロジーをお披露目している「CEATEC（シーテック）｣。JVCKENWOODのブースに行ったら、心地よい音が聞こえてきました。なにこれ〜？Photo:中川真知子これらはいろんな木材で作られたスピーカーたち。スピーカーを収めるボディをスギやヒノキなどいろんな種類の木材で作っていて、素材ごとの聞こえ方の違いを確かめられるんです]]></description>
+            <content:encoded><![CDATA[Photo:中川真知子テックメーカーが集まり、自分たちのさまざまな最新テクノロジーをお披露目している「CEATEC（シーテック）｣。JVCKENWOODのブースに行ったら、心地よい音が聞こえてきました。なにこれ〜？Photo:中川真知子これらはいろんな木材で作られたスピーカーたち。スピーカーを収めるボディをスギやヒノキなどいろんな種類の木材で作っていて、素材ごとの聞こえ方の違いを確かめられるんです]]></content:encoded>
+            <category>TECHNOLOGY</category>
+        </item>
+        <item>
+            <title><![CDATA[D言語の更新まとめ 2024年6月版（dmd 2.109.0） | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/lempiji/items/86cbb44ebd051816cae5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/lempiji/items/86cbb44ebd051816cae5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Thu, 17 Oct 2024 13:31:21 GMT</pubDate>
+            <description><![CDATA[はじめに D言語の公式コンパイラである dmd が更新され、最新バージョンである 2.109.0 が 2024/06/01 にリリースされました。 今回は前回からほぼ2ヶ月でのリリースで、中々大きな…]]></description>
+            <content:encoded><![CDATA[はじめに D言語の公式コンパイラである dmd が更新され、最新バージョンである 2.109.0 が 2024/06/01 にリリースされました。 今回は前回からほぼ2ヶ月でのリリースで、中々大きな…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[どこに行っても第一線で戦える、iPad Proのセルラーモデルが6万円OFF #Amazonプライム感謝祭 | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/amazon-sale-ipadpro-cellular.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/amazon-sale-ipadpro-cellular.html</guid>
+            <pubDate>Thu, 17 Oct 2024 13:30:00 GMT</pubDate>
+            <description><![CDATA[Image:Amazonなんでもできちゃう最強の板。クリエイティブな作業からエンタメ消費まで、オールマイティに任せられるiPadPro（11インチ、Wi-Fi+Cellular、1TB）がセールになっています。なんと23%OFF。いまでも全然現役M2チップ搭載のモデルです。iPadって本気出せばかなり長く使えるので、スペックの高いモデルを買っておくのはオススメ。2022Apple11インチiPad]]></description>
+            <content:encoded><![CDATA[Image:Amazonなんでもできちゃう最強の板。クリエイティブな作業からエンタメ消費まで、オールマイティに任せられるiPadPro（11インチ、Wi-Fi+Cellular、1TB）がセールになっています。なんと23%OFF。いまでも全然現役M2チップ搭載のモデルです。iPadって本気出せばかなり長く使えるので、スペックの高いモデルを買っておくのはオススメ。2022Apple11インチiPad]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[ケアする時間、5秒。 靴の臭い対策に、ふりかけるだけの粉が効いた | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/will-clens-review.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/will-clens-review.html</guid>
+            <pubDate>Thu, 17 Oct 2024 13:00:00 GMT</pubDate>
+            <description><![CDATA[Photo:そうここれからブーツの季節になると、さらに気になる人も増えそう。最近、子どもの靴の臭いで悩んでいたのですが、靴消臭パウダーなるものを導入したらかなり改善しました。何より、とっても簡単にケアできるのが魅力です。子どもも大人も、臭いもんは臭い「子どもは臭くない」と勝手な幻想を抱いていた時期もありましたが、臭いもんは臭い。毎日を一生懸命生きている人間として、子どもも大人も、臭いもんは臭い。て]]></description>
+            <content:encoded><![CDATA[Photo:そうここれからブーツの季節になると、さらに気になる人も増えそう。最近、子どもの靴の臭いで悩んでいたのですが、靴消臭パウダーなるものを導入したらかなり改善しました。何より、とっても簡単にケアできるのが魅力です。子どもも大人も、臭いもんは臭い「子どもは臭くない」と勝手な幻想を抱いていた時期もありましたが、臭いもんは臭い。毎日を一生懸命生きている人間として、子どもも大人も、臭いもんは臭い。て]]></content:encoded>
+            <category>PRODUCT</category>
+        </item>
+        <item>
+            <title><![CDATA[ソニーの車載センサー技術は、周囲をぐるっと見張って危険回避 | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/ceatech-sony-careyes.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/ceatech-sony-careyes.html</guid>
+            <pubDate>Thu, 17 Oct 2024 12:30:00 GMT</pubDate>
+            <description><![CDATA[Photo:巽英俊幕張メッセで開催中のデジタルイノベーション総合展「CEATEC（シーテック）」。ソニーのブースでは「Hello,SensingWorld!」をテーマに掲げ、さまざまなジャンルの最新センシング技術を展示しています。デジカメで培われたソニー製センサーの秀逸さはよく知られるところですが、それを実際の生活にどう役立てていくかを具体的に紹介していました。目玉は「SafetyCocoon」と]]></description>
+            <content:encoded><![CDATA[Photo:巽英俊幕張メッセで開催中のデジタルイノベーション総合展「CEATEC（シーテック）」。ソニーのブースでは「Hello,SensingWorld!」をテーマに掲げ、さまざまなジャンルの最新センシング技術を展示しています。デジカメで培われたソニー製センサーの秀逸さはよく知られるところですが、それを実際の生活にどう役立てていくかを具体的に紹介していました。目玉は「SafetyCocoon」と]]></content:encoded>
+            <category>TECHNOLOGY</category>
+        </item>
+        <item>
+            <title><![CDATA[Super Mario Party Jamboree ends the series’ Switch run on a high note | Gaming – Polygon]]></title>
+            <link>https://www.polygon.com/review/466520/super-mario-party-jamboree-review-nintendo-switch</link>
+            <guid>https://www.polygon.com/review/466520/super-mario-party-jamboree-review-nintendo-switch</guid>
+            <pubDate>Thu, 17 Oct 2024 12:00:00 GMT</pubDate>
+            <description><![CDATA[Mario Party tends to elicit a range of emotions. Some who have been raised on its particular brand of Star-grabbing, minigame-fueled chaos love the randomness and friction — the feeling that, at any p...]]></description>
+            <content:encoded><![CDATA[Mario Party tends to elicit a range of emotions. Some who have been raised on its particular brand of Star-grabbing, minigame-fueled chaos love the randomness and friction — the feeling that, at any point, a comical series of errors can send you from first to last place or vice versa. Others find it maddening. If [&#8230;]]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[SNSの新トレンドか。空港の手荷物検査でキラキラ写真ってアリ？ | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/security_checkpoint_airport_tray_aesthetic.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/security_checkpoint_airport_tray_aesthetic.html</guid>
+            <pubDate>Thu, 17 Oct 2024 12:00:00 GMT</pubDate>
+            <description><![CDATA[Image:shutterstockもっと殺伐としてるべき？空港のセキュリティチェックって、何回やっても緊張します。手荷物の液体は全部ジップロックに入ってるか、リップクリームは液体扱いされないか、コンピューターは裸でトレイに置くべきか、パスポートをトレイに置いて失くしたらどうしよう、靴は脱ぐのか脱がないのか、後ろの人がイライラしてないか、荷物を忘れてないか…などなど、並び始めてから全荷物を回収する]]></description>
+            <content:encoded><![CDATA[Image:shutterstockもっと殺伐としてるべき？空港のセキュリティチェックって、何回やっても緊張します。手荷物の液体は全部ジップロックに入ってるか、リップクリームは液体扱いされないか、コンピューターは裸でトレイに置くべきか、パスポートをトレイに置いて失くしたらどうしよう、靴は脱ぐのか脱がないのか、後ろの人がイライラしてないか、荷物を忘れてないか…などなど、並び始めてから全荷物を回収する]]></content:encoded>
+            <category>LIFESTYLE</category>
+        </item>
+        <item>
+            <title><![CDATA[PHPでcsvファイルのすべての値にダブルクォーテーションをつける | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/mumucochimu/items/6c5fc510e1abca77441f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/mumucochimu/items/6c5fc510e1abca77441f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Thu, 17 Oct 2024 11:51:14 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは。 気分転換したくて全然業務と関係ないし、需要も無さそうな記事を書きました。 5分で読めます。 ところでcsvファイルって何 恥ずかしながらIT業界に入るまでcsvというファイル…]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは。 気分転換したくて全然業務と関係ないし、需要も無さそうな記事を書きました。 5分で読めます。 ところでcsvファイルって何 恥ずかしながらIT業界に入るまでcsvというファイル…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Ankerの新型モバイルバッテリー・充電器が45%オフ、おすすめモデルはこれ。プライム感謝祭先行セール　#てくのじDeals | テクノエッジ TechnoEdge]]></title>
+            <link>https://www.techno-edge.net/article/2024/10/17/3771.html</link>
+            <guid>https://www.techno-edge.net/article/2024/10/17/3771.html</guid>
+            <pubDate>Thu, 17 Oct 2024 11:45:08 GMT</pubDate>
+            <description><![CDATA[Amazon.co.jp のプライム感謝祭先行セールで、Ankerがモバイルバッテリーや充電器を最大45%引きのお買い得価格で販売中です。]]></description>
+            <content:encoded><![CDATA[Amazon.co.jp のプライム感謝祭先行セールで、Ankerがモバイルバッテリーや充電器を最大45%引きのお買い得価格で販売中です。]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[インドア派でもポチっていい。超コンパクトなガスバーナー #Amazonプライム感謝祭 | ギズモード・ジャパン]]></title>
+            <link>https://www.gizmodo.jp/2024/10/iwatani-junior-compact-burner-gas.html</link>
+            <guid>https://www.gizmodo.jp/2024/10/iwatani-junior-compact-burner-gas.html</guid>
+            <pubDate>Thu, 17 Oct 2024 11:30:00 GMT</pubDate>
+            <description><![CDATA[Photo:三浦一紀ここぞってとき使いたいものは、ハンドリングのよさが大事。普段は全然アウトドアじゃない僕でも、これは家に置いときたい！と思ったキャンプアイテムが、イワタニの「ジュニアコンパクトバーナー」。手のひらサイズかつ軽量で、コンビニでも買えちゃうガスボンベで火を起こせるという代物です。イイに決まってる。イワタニカセットガスバーナージュニアコンパクトバーナー4,300円Amazonで見るPR]]></description>
+            <content:encoded><![CDATA[Photo:三浦一紀ここぞってとき使いたいものは、ハンドリングのよさが大事。普段は全然アウトドアじゃない僕でも、これは家に置いときたい！と思ったキャンプアイテムが、イワタニの「ジュニアコンパクトバーナー」。手のひらサイズかつ軽量で、コンビニでも買えちゃうガスボンベで火を起こせるという代物です。イイに決まってる。イワタニカセットガスバーナージュニアコンパクトバーナー4,300円Amazonで見るPR]]></content:encoded>
+            <category>PRODUCT</category>
         </item>
         <item>
             <title><![CDATA[平面イラストが「3Dオブジェクト」のようにぐるぐる回転。一体どうなってるの？ | ギズモード・ジャパン]]></title>
@@ -316,6 +566,14 @@
             <category>PRODUCT</category>
         </item>
         <item>
+            <title><![CDATA[過去問道場を"賢く"使おう！応用情報技術者試験"0円"合格法！【AP勉強方法】 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/OhaGi_/items/281ccbb24c17a2ae2ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/OhaGi_/items/281ccbb24c17a2ae2ee6?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Thu, 17 Oct 2024 04:59:37 GMT</pubDate>
+            <description><![CDATA[はじめに こんにちは、OhaGiです。 常日頃お金がない学生にとって 参考書代って高い ですよね... 試験代含めると1万円超えちゃう時あるし... そこで今回は！ 応用情報技術者試験ドットコムを利…]]></description>
+            <content:encoded><![CDATA[はじめに こんにちは、OhaGiです。 常日頃お金がない学生にとって 参考書代って高い ですよね... 試験代含めると1万円超えちゃう時あるし... そこで今回は！ 応用情報技術者試験ドットコムを利…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[最新の気象レーダーを用いて降水量を推定するデータ分析コンペを開催しました | Blog - Preferred Networks Research & Development]]></title>
             <link>https://tech.preferred.jp/ja/blog/i24-gd02-qpe-result/</link>
             <guid>https://tech.preferred.jp/?p=15083</guid>
@@ -326,6 +584,14 @@
             <category>機械学習</category>
             <category>気象</category>
             <category>深層学習 (Deep Learning)</category>
+        </item>
+        <item>
+            <title><![CDATA[特許情報を用いたOllamaモデルの性能評価：llmとEmbeddingの違い | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ogi_kimura/items/695d0d067b62501b753f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ogi_kimura/items/695d0d067b62501b753f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Thu, 17 Oct 2024 04:27:40 GMT</pubDate>
+            <description><![CDATA[はじめに 以前、私の投稿でOllamaのllmモデルとembeddingモデルを使って、自分のPCでRAG（Retrieval-Augmented Generation）を実現したことについて書き…]]></description>
+            <content:encoded><![CDATA[はじめに 以前、私の投稿でOllamaのllmモデルとembeddingモデルを使って、自分のPCでRAG（Retrieval-Augmented Generation）を実現したことについて書き…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Red Hat OpenShift Pipelines とは？ | SIOS Tech. Lab]]></title>
@@ -385,6 +651,14 @@
             <category>ゲーム</category>
             <category>Steam</category>
             <category>News</category>
+        </item>
+        <item>
+            <title><![CDATA[IBM i 駆け出し日記：収集したデータをパフォーマンスデータに展開する | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/koga39chan/items/adcf9ed19c3552814be2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/koga39chan/items/adcf9ed19c3552814be2?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Thu, 17 Oct 2024 03:53:53 GMT</pubDate>
+            <description><![CDATA[はじめに IBM i 上にてパフォーマンスデータを収集した後に、収集したデータを展開し、分析する手順を書いていきます。 いつも手順がわからなくなってしまう自分に向けメモ要素が強いです。 パフォーマン…]]></description>
+            <content:encoded><![CDATA[はじめに IBM i 上にてパフォーマンスデータを収集した後に、収集したデータを展開し、分析する手順を書いていきます。 いつも手順がわからなくなってしまう自分に向けメモ要素が強いです。 パフォーマン…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Amazonの「Fire HD 8（第12世代）」はどのモデルを選ぶべき？ パフォーマンスを比較【山口真弘のおすすめ読書タブレット比較】 | 窓の杜]]></title>
@@ -504,20 +778,20 @@
             <content:encoded><![CDATA[iOSエンジニアの堤です。8月22日〜24日に開催された国内最大 1 のiOSカンファレンスで登壇しました。 プロポーザルは こちら、発表スライドはこちら： www.docswell.com そしてつい数日前 2 にiOSDC公式チャンネルにて発表動画が公開されました： www.youtube.com 本記事は、同発表をベースとしつつ、時間が足りずカットした内容も盛り込みつつ記事として再構成したものになります。 今年は参加者1500人超で過去最高だったそうです。↩ 2024.10.8に本記事を書いています。↩]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ZOZOMETRYにおけるインフラ構成変更による計測値計算処理のパフォーマンス改善 | ZOZO TECH BLOG]]></title>
-            <link>https://techblog.zozo.com/entry/zozometry-improve-performance</link>
-            <guid>https://techblog.zozo.com/entry/zozometry-improve-performance</guid>
-            <pubDate>Thu, 17 Oct 2024 02:00:00 GMT</pubDate>
-            <description><![CDATA[新しくローンチしたZOZOMETRYに関するパフォーマンス改善の紹介です！非同期処理への切り出しやLambda、SQSの設定などについてまとめています。]]></description>
-            <content:encoded><![CDATA[新しくローンチしたZOZOMETRYに関するパフォーマンス改善の紹介です！非同期処理への切り出しやLambda、SQSの設定などについてまとめています。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[コード品質向上のテクニック：第46回 関数は見かけによらず | LINEヤフー Tech Blog]]></title>
             <link>https://techblog.lycorp.co.jp/ja/20241017icq</link>
             <guid>https://techblog.lycorp.co.jp/ja/20241017icq</guid>
             <pubDate>Thu, 17 Oct 2024 02:00:00 GMT</pubDate>
             <description><![CDATA[こんにちは。コミュニケーションアプリ「LINE」のモバイルクライアントを開発している石川です。 この記事は、毎週木曜の定期連載 "Weekly Report" 共有の第 46 回です。 LINEヤフー...]]></description>
             <content:encoded><![CDATA[こんにちは。コミュニケーションアプリ「LINE」のモバイルクライアントを開発している石川です。 この記事は、毎週木曜の定期連載 "Weekly Report" 共有の第 46 回です。 LINEヤフー...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[ZOZOMETRYにおけるインフラ構成変更による計測値計算処理のパフォーマンス改善 | ZOZO TECH BLOG]]></title>
+            <link>https://techblog.zozo.com/entry/zozometry-improve-performance</link>
+            <guid>https://techblog.zozo.com/entry/zozometry-improve-performance</guid>
+            <pubDate>Thu, 17 Oct 2024 02:00:00 GMT</pubDate>
+            <description><![CDATA[新しくローンチしたZOZOMETRYに関するパフォーマンス改善の紹介です！非同期処理への切り出しやLambda、SQSの設定などについてまとめています。]]></description>
+            <content:encoded><![CDATA[新しくローンチしたZOZOMETRYに関するパフォーマンス改善の紹介です！非同期処理への切り出しやLambda、SQSの設定などについてまとめています。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[さくらのテックランチ vol.7 〜ガバメントクラウドとチームビルディング〜 | さくらのナレッジ]]></title>
@@ -823,6 +1097,14 @@
             <content:encoded><![CDATA[The Inkscape projectは10月13日、オープンソースのドローソフト「Inkscape 1.4」をリリースした。多くの機能追加を含んだメジャーアップデートとなっている。]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[GASのエラーの対応方法（同時呼び出しが多すぎます: スプレッドシート） | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/tu_no_tu/items/204103f63b2becb00301?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/tu_no_tu/items/204103f63b2becb00301?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Wed, 16 Oct 2024 21:35:33 GMT</pubDate>
+            <description><![CDATA[背景 2024年10月頃より、Google Apps Scriptで「Too many simultaneous invocations: Spreadsheets」（同時呼び出しが多すぎます: ス…]]></description>
+            <content:encoded><![CDATA[背景 2024年10月頃より、Google Apps Scriptで「Too many simultaneous invocations: Spreadsheets」（同時呼び出しが多すぎます: ス…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[FastAPI と Strawberry で作る GraphQL Server ~SQLAlchemy を添えて~ | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/zoetaka38/items/a4c269d316009a66c3af?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/zoetaka38/items/a4c269d316009a66c3af?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -859,68 +1141,12 @@
             <category>論文</category>
         </item>
         <item>
-            <title><![CDATA[The Pokémon Typhlosion has become the pariah of the internet | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/pokemon/466096/typhlosion-memes-game-freak-leak</link>
-            <guid>https://www.polygon.com/pokemon/466096/typhlosion-memes-game-freak-leak</guid>
-            <pubDate>Wed, 16 Oct 2024 19:24:33 GMT</pubDate>
-            <description><![CDATA[Typhlosion, the fire-type Pokémon, never did anything wrong — but that hasn’t stopped it from becoming one of the biggest victims of a recent hack. Game Freak, the primary studio behind Pokémon, suffe...]]></description>
-            <content:encoded><![CDATA[Typhlosion, the fire-type Pokémon, never did anything wrong — but that hasn’t stopped it from becoming one of the biggest victims of a recent hack. Game Freak, the primary studio behind Pokémon, suffered a massive data breach. The hacker released thousands of files supposedly pertaining to the creation and development of Pokémon, containing unreleased concept art [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Assassin’s Creed Shadows statue pulled over ‘insensitive design’ | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/news/466169/assassins-creed-shadows-statue-naoe-yasuke</link>
-            <guid>https://www.polygon.com/news/466169/assassins-creed-shadows-statue-naoe-yasuke</guid>
-            <pubDate>Wed, 16 Oct 2024 18:38:52 GMT</pubDate>
-            <description><![CDATA[A statue made for the release of Ubisoft’s Assassin’s Creed Shadows won’t see the light of day, after its maker received criticism for its design. Statue maker PureArts apologized on Tuesday for what ...]]></description>
-            <content:encoded><![CDATA[A statue made for the release of Ubisoft’s Assassin’s Creed Shadows won’t see the light of day, after its maker received criticism for its design. Statue maker PureArts apologized on Tuesday for what it called an “insensitive design,” and said it’s reworking the collectible based on the game’s dual protagonists Yasuke and Naoe. Pure Arts [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Baldur’s Gate 3 Funko Pops are finally available to pre-order | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/pre-order/466123/baldurs-gate-3-funko-pops-amazon-where-to-buy</link>
-            <guid>https://www.polygon.com/pre-order/466123/baldurs-gate-3-funko-pops-amazon-where-to-buy</guid>
-            <pubDate>Wed, 16 Oct 2024 17:18:00 GMT</pubDate>
-            <description><![CDATA[Four new Funko Pops inspired by the characters of Baldur’s Gate 3 are now available to pre-order on Amazon. You can currently reserve tiny versions of Shadowheart, Astarion, and Karlach to add to your...]]></description>
-            <content:encoded><![CDATA[Four new Funko Pops inspired by the characters of Baldur’s Gate 3 are now available to pre-order on Amazon. You can currently reserve tiny versions of Shadowheart, Astarion, and Karlach to add to your curio shelf (other favorites like Wyll, Gale, Lae’zel, and Halsin aren’t a part of the starting lineup, alas). The Shadowheart figurine [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Riot announces new in-game content across games for the Arcane season 2 launch | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/anime/466236/arcane-content-league-of-legends-valorant</link>
-            <guid>https://www.polygon.com/anime/466236/arcane-content-league-of-legends-valorant</guid>
-            <pubDate>Wed, 16 Oct 2024 17:06:51 GMT</pubDate>
-            <description><![CDATA[The second and final season of Arcane, the Netflix animated series based in the world of League of Legends, is swiftly approaching. To celebrate the end of Vi, Jinx, and Caitlyn’s story, Riot is relea...]]></description>
-            <content:encoded><![CDATA[The second and final season of Arcane, the Netflix animated series based in the world of League of Legends, is swiftly approaching. To celebrate the end of Vi, Jinx, and Caitlyn’s story, Riot is releasing Arcane content across its library of games. League of Legends, Teamfight Tactics, Wild Rift, Valorant, and Legends of Runeterra will [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Hades 2’s big update adds new region, weapons, and characters | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/news/466265/hades-2-olympic-update-new-regions-characters-weapons</link>
-            <guid>https://www.polygon.com/news/466265/hades-2-olympic-update-new-regions-characters-weapons</guid>
-            <pubDate>Wed, 16 Oct 2024 17:02:51 GMT</pubDate>
-            <description><![CDATA[Supergiant Games updated Hades 2 on Wednesday with its first major update, called the Olympic Update. Hades 2 entered its early access development period in May, and has received several patches since...]]></description>
-            <content:encoded><![CDATA[Supergiant Games updated Hades 2 on Wednesday with its first major update, called the Olympic Update. Hades 2 entered its early access development period in May, and has received several patches since then; Wednesday’s update is the first major content addition, bringing a new region and new weapons, boons, characters, and voice lines. In an [&#8230;]]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Practical Solutions for AI workloads in the Enterprise | KDnuggets]]></title>
             <link>https://www.kdnuggets.com/2024/10/intel/practical-solutions-for-ai-workloads-in-the-enterprise</link>
             <guid>https://www.kdnuggets.com/?p=184319</guid>
             <pubDate>Wed, 16 Oct 2024 17:00:20 GMT</pubDate>
             <description><![CDATA[This is a comprehensive resource for developers at all levels, whether they are just starting in AI or are looking to refine their expertise further.]]></description>
             <content:encoded><![CDATA[This is a comprehensive resource for developers at all levels, whether they are just starting in AI or are looking to refine their expertise further.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[How to consume Pokémon leaks responsibly | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/pokemon/466078/are-pokemon-leaks-real-game-freak</link>
-            <guid>https://www.polygon.com/pokemon/466078/are-pokemon-leaks-real-game-freak</guid>
-            <pubDate>Wed, 16 Oct 2024 16:47:10 GMT</pubDate>
-            <description><![CDATA[Pokémon has set X on fire.&#160; It’s not as if this hasn’t happened before. Fandoms are passionate and even the reveal of a single cute character can seemingly take over the feeds of thousands of peo...]]></description>
-            <content:encoded><![CDATA[Pokémon has set X on fire.&#160; It’s not as if this hasn’t happened before. Fandoms are passionate and even the reveal of a single cute character can seemingly take over the feeds of thousands of people. But it’s a lot more serious this time. Over the weekend, Game Freak suffered what could easily be described [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Neko Atsume, but make it frogs | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/gaming/466240/kamaeru-frog-refuge-neko-astume-impressions</link>
-            <guid>https://www.polygon.com/gaming/466240/kamaeru-frog-refuge-neko-astume-impressions</guid>
-            <pubDate>Wed, 16 Oct 2024 16:32:39 GMT</pubDate>
-            <description><![CDATA[What if we just quit our jobs, moved back home, and started up a frog refuge with our childhood pals? That’s the premise of developer Humble Reeds’ creature collecting game Kamaeru: A Frog Refuge. And...]]></description>
-            <content:encoded><![CDATA[What if we just quit our jobs, moved back home, and started up a frog refuge with our childhood pals? That’s the premise of developer Humble Reeds’ creature collecting game Kamaeru: A Frog Refuge. And it’s a delight. If you’ve played Neko Atsume, you’ll understand the base gameplay of Kamaeru — attract frogs to your [&#8230;]]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Gamified Surveys and Cognitive Load Detection in mHealth: Conclusion, Acknowledgment, and References | HackerNoon - machine-learning]]></title>
@@ -954,21 +1180,12 @@
             <category>PRODUCT</category>
         </item>
         <item>
-            <title><![CDATA[Resident Evil 4 remake is down to its lowest price ever | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/good-deals/466113/resident-evil-4-sale-xbox-playstation</link>
-            <guid>https://www.polygon.com/good-deals/466113/resident-evil-4-sale-xbox-playstation</guid>
-            <pubDate>Wed, 16 Oct 2024 15:29:51 GMT</pubDate>
-            <description><![CDATA[This is the discount that I have been personally waiting for all summer. The 2023 remake of Resident Evil 4 is on sale for $21.99 through Amazon for Xbox Series X and S, PlayStation 5, and PS4. That’s...]]></description>
-            <content:encoded><![CDATA[This is the discount that I have been personally waiting for all summer. The 2023 remake of Resident Evil 4 is on sale for $21.99 through Amazon for Xbox Series X and S, PlayStation 5, and PS4. That’s nearly half off its $39.99 list price 21% off its more typical $29.99 sales price. Amazon is [&#8230;]]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[確保急いで！ MacBook Airのガチ値引きでAmazonセールが始まった #Amazonプライム感謝祭 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/amazon-prime-sale-macbook-air.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/amazon-prime-sale-macbook-air.html</guid>
-            <pubDate>Wed, 16 Oct 2024 15:15:00 GMT</pubDate>
-            <description><![CDATA[Image:Amazon最初からクライマックスだ！本日17日の0時からAmazonプライム感謝祭の先行セールがスタート。本セールは19日の0時スタートですけど、今年のAmazonはやる気が違います。本セールなんて待ってられるか！とスタートダッシュをかけるかのようにMacBookAir（M2）がセールに飛び出てきちゃってさぁ大変！どうしようか!?202213インチMacBookAir:8コアCPUと]]></description>
-            <content:encoded><![CDATA[Image:Amazon最初からクライマックスだ！本日17日の0時からAmazonプライム感謝祭の先行セールがスタート。本セールは19日の0時スタートですけど、今年のAmazonはやる気が違います。本セールなんて待ってられるか！とスタートダッシュをかけるかのようにMacBookAir（M2）がセールに飛び出てきちゃってさぁ大変！どうしようか!?202213インチMacBookAir:8コアCPUと]]></content:encoded>
-            <category>PRODUCT</category>
+            <title><![CDATA[Unityでメモするツールとその中身について | Zennのトレンド]]></title>
+            <link>https://zenn.dev/gok/articles/410388a9e080eb</link>
+            <guid>https://zenn.dev/gok/articles/410388a9e080eb</guid>
+            <pubDate>Wed, 16 Oct 2024 15:13:46 GMT</pubDate>
+            <description><![CDATA[作っているもの UNote という Unity 内でメモするためのツールを作成しています。 記事公開時点のバージョンは 0.4.1 で、開発環境は Unity2022.3 + UI Toolkit です。 https://github.com/gok11/UNote このツールではメモエディターからメモを書いたりメモを検索したり、  Inspector からでもそのアセットに関するメモを操作したり...]]></description>
+            <content:encoded><![CDATA[作っているもの UNote という Unity 内でメモするためのツールを作成しています。 記事公開時点のバージョンは 0.4.1 で、開発環境は Unity2022.3 + UI Toolkit です。 https://github.com/gok11/UNote このツールではメモエディターからメモを書いたりメモを検索したり、  Inspector からでもそのアセットに関するメモを操作したり、  シーンビューやゲームビューのスクショを撮影し、その時点のカメラの座標も記録して後からカメラに適用しなおす、といったことができます。     なぜ作っているのか 開発しているといろいろと...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[続・SPIモードにならないSDカードが流通していなかった件（大土下座） | Zennのトレンド]]></title>
@@ -977,32 +1194,6 @@
             <pubDate>Wed, 16 Oct 2024 15:12:32 GMT</pubDate>
             <description><![CDATA[SPIモードに成らないSDカードについて 前回、SPIモードに成らない件、多くの方に興味を持っていただき、有識者（主に高校時代の部活の後輩）に見て頂き、大きなミスに気が付いたのが、本件謝罪の記事になります。 前回の記事はこちら https://zenn.dev/nonnoise/articles/7dbe9da063e409   そこ、ちがくね？ ここでは友人Aとしよう。友人Aとは高校時代の部活で...]]></description>
             <content:encoded><![CDATA[SPIモードに成らないSDカードについて 前回、SPIモードに成らない件、多くの方に興味を持っていただき、有識者（主に高校時代の部活の後輩）に見て頂き、大きなミスに気が付いたのが、本件謝罪の記事になります。 前回の記事はこちら https://zenn.dev/nonnoise/articles/7dbe9da063e409   そこ、ちがくね？ ここでは友人Aとしよう。友人Aとは高校時代の部活で後輩だったりで、なが～く話はして無かったんだが、XにてSDカードについて話題が出たのでメールを頂きました。ありがとうございます。 議題になった箇所は、ACMD41（CMD55）でレスポンスが...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[「最も安いiPad」は4万円台！ ホームボタンのわかりやすさは至高 #Amazonプライム感謝祭 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/amazon-prime-sale-ipad.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/amazon-prime-sale-ipad.html</guid>
-            <pubDate>Wed, 16 Oct 2024 15:10:00 GMT</pubDate>
-            <description><![CDATA[Image:Amazonホームボタン付きを狙うなら今日しかない！現在、Amazonプライム感謝祭の先行セールが発動中。本セールはまだですが（19日0:00から）、オトク度の高いもの、普段安くならないものはすぐに無くなっちゃうから、早めに確保しておきましょうね。たとえばこれ。セールではおなじみ10.2インチiPad。2021Apple10.2インチiPad(Wi-Fi,64GB)-スペースグレイ49]]></description>
-            <content:encoded><![CDATA[Image:Amazonホームボタン付きを狙うなら今日しかない！現在、Amazonプライム感謝祭の先行セールが発動中。本セールはまだですが（19日0:00から）、オトク度の高いもの、普段安くならないものはすぐに無くなっちゃうから、早めに確保しておきましょうね。たとえばこれ。セールではおなじみ10.2インチiPad。2021Apple10.2インチiPad(Wi-Fi,64GB)-スペースグレイ49]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
-            <title><![CDATA[【Amazonプライム感謝祭】先行セールはじまったので、さいきん編集部員が買ったものまとめます | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/amazon-primeappreciation-2024.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/amazon-primeappreciation-2024.html</guid>
-            <pubDate>Wed, 16 Oct 2024 15:05:00 GMT</pubDate>
-            <description><![CDATA[Photo:孤独のテック2024年10月17日（木）0:00〜18日（金）23:59までAmazonプライム感謝祭先行セール、2024年10月19日（土）0:00〜20日（日）23:59までAmazonプライム感謝祭が開催中。何を買おうかな〜とおもっているあなたに、ギズモード編集部メンバーの「最近のお買い物事情」をまとめたLinktree（リンクツリー）から、一部抜粋してお届け。お買い物リサーチの]]></description>
-            <content:encoded><![CDATA[Photo:孤独のテック2024年10月17日（木）0:00〜18日（金）23:59までAmazonプライム感謝祭先行セール、2024年10月19日（土）0:00〜20日（日）23:59までAmazonプライム感謝祭が開催中。何を買おうかな〜とおもっているあなたに、ギズモード編集部メンバーの「最近のお買い物事情」をまとめたLinktree（リンクツリー）から、一部抜粋してお届け。お買い物リサーチの]]></content:encoded>
-            <category>NEWS</category>
-        </item>
-        <item>
-            <title><![CDATA[Let Matthew McConaughey tell you about the scariest shit in ex-BioWare devs new sci-fi RPG | Gaming – Polygon]]></title>
-            <link>https://www.polygon.com/trailer/466017/exodus-game-archetype-trailer</link>
-            <guid>https://www.polygon.com/trailer/466017/exodus-game-archetype-trailer</guid>
-            <pubDate>Wed, 16 Oct 2024 15:02:49 GMT</pubDate>
-            <description><![CDATA[It’s been a while since we’ve seen much from Wizards of the Coast and Archetype Entertainment’s Exodus, the upcoming sci-fi role-playing game from former BioWare developers. Sure, the studio has been ...]]></description>
-            <content:encoded><![CDATA[It’s been a while since we’ve seen much from Wizards of the Coast and Archetype Entertainment’s Exodus, the upcoming sci-fi role-playing game from former BioWare developers. Sure, the studio has been dropping lore and concept art since revealing Exodus at last year’s The Game Awards, but a new trailer for the game released Wednesday offers [&#8230;]]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Deep Learning Weekly: Issue 375 | Deep Learning Weekly]]></title>
@@ -1161,21 +1352,20 @@
             <content:encoded><![CDATA[Learn about 10 easy steps to becoming an AI engineer in 2024.]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[写真編集もAIも、より身近に。あえてスマホで使いたいLightroomの新機能 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/lightroom-new-update-adobemax2024.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/lightroom-new-update-adobemax2024.html</guid>
-            <pubDate>Wed, 16 Oct 2024 14:00:00 GMT</pubDate>
-            <description><![CDATA[Photo:chisatokuroda現在、フロリダ州マイアミで開催中のAdobe（アドビ）のカンファレンスAdobeMAX。今回、Adobeのご招待でカンファレンスを取材できたんですが、このたび新たに登場したツールや機能は、より幅広い多くの人たちが日常的に使用できるよう、デスクトップを超えてウェブやモバイル版での提供があったのが印象的でした。なかでも私の心をつかんだのは写真編集ツールLightr]]></description>
-            <content:encoded><![CDATA[Photo:chisatokuroda現在、フロリダ州マイアミで開催中のAdobe（アドビ）のカンファレンスAdobeMAX。今回、Adobeのご招待でカンファレンスを取材できたんですが、このたび新たに登場したツールや機能は、より幅広い多くの人たちが日常的に使用できるよう、デスクトップを超えてウェブやモバイル版での提供があったのが印象的でした。なかでも私の心をつかんだのは写真編集ツールLightr]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
             <title><![CDATA[【お手軽エラー監視】AWS CloudWatchからSNSでメール通知する | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/r-oku/items/85d820124c61c0f35d62?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/r-oku/items/85d820124c61c0f35d62?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
             <pubDate>Wed, 16 Oct 2024 13:53:48 GMT</pubDate>
             <description><![CDATA[はじめに アラート監視体制は、小規模なサービスや開発初期でも信頼性向上や障害発生時の迅速な対応のために無くてはならないものです。 ただ、人数やスケジュールが限られているとどうしても後回しにしがちな部…]]></description>
             <content:encoded><![CDATA[はじめに アラート監視体制は、小規模なサービスや開発初期でも信頼性向上や障害発生時の迅速な対応のために無くてはならないものです。 ただ、人数やスケジュールが限られているとどうしても後回しにしがちな部…]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[プログラミング言語やフレームワークの学び方 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/ktat/items/c5e22a7cc47e41fd4b95?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/ktat/items/c5e22a7cc47e41fd4b95?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Wed, 16 Oct 2024 13:10:15 GMT</pubDate>
+            <description><![CDATA[この記事は、Wanoのエンジニア勉強会で発表した内容になります。 言語の場合もフレームワークの場合も、最近はチュートリアルなどが充実しているので、そんなに苦労しません。基本的には、以下の3点で事足り…]]></description>
+            <content:encoded><![CDATA[この記事は、Wanoのエンジニア勉強会で発表した内容になります。 言語の場合もフレームワークの場合も、最近はチュートリアルなどが充実しているので、そんなに苦労しません。基本的には、以下の3点で事足り…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Gamified Surveys and Cognitive Load Detection in mHealth: Methods | HackerNoon - machine-learning]]></title>
@@ -1192,30 +1382,12 @@
             <category>survey-design</category>
         </item>
         <item>
-            <title><![CDATA[Xbox Series Xに新モデル登場。ディスクドライブ非搭載 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/xbox-series-x_all-digital.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/xbox-series-x_all-digital.html</guid>
-            <pubDate>Wed, 16 Oct 2024 13:00:00 GMT</pubDate>
-            <description><![CDATA[Image:XboxXboxラインナップに新モデルが発表されました。「XboxSeriesXオールデジタル」は、その名の通り、ディスクドライブが搭載されていないヴァージョン。価格も魅力的SeriesXのオールデジタルver.は、容量1TBで5万9978円。ディスクドライブを搭載した従来のモデル（6万6978円）よりずっと価格が抑えられているのが魅力です。また、今までのSeriesXにはなかった白（]]></description>
-            <content:encoded><![CDATA[Image:XboxXboxラインナップに新モデルが発表されました。「XboxSeriesXオールデジタル」は、その名の通り、ディスクドライブが搭載されていないヴァージョン。価格も魅力的SeriesXのオールデジタルver.は、容量1TBで5万9978円。ディスクドライブを搭載した従来のモデル（6万6978円）よりずっと価格が抑えられているのが魅力です。また、今までのSeriesXにはなかった白（]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
-            <title><![CDATA[iPhone 16「あまり注目されていない」新機能5つ | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/little-noticed-new-features-of-iphone-16.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/little-noticed-new-features-of-iphone-16.html</guid>
-            <pubDate>Wed, 16 Oct 2024 12:30:00 GMT</pubDate>
-            <description><![CDATA[Image:Apple新搭載の「カメラコントロール」ボタンやアクションボタン、来たるAppleIntelligenceのサポートなどの機能が目玉となった新型モデル・iPhone16。今回はリリース時、あまり注目されなかった（かもしれない）5つの新機能を改めてご紹介します。1.MagSafeの充電が速くなったiPhone16、iPhone16Plusどちらとも、有線のUSBType-Cかワイヤレス充]]></description>
-            <content:encoded><![CDATA[Image:Apple新搭載の「カメラコントロール」ボタンやアクションボタン、来たるAppleIntelligenceのサポートなどの機能が目玉となった新型モデル・iPhone16。今回はリリース時、あまり注目されなかった（かもしれない）5つの新機能を改めてご紹介します。1.MagSafeの充電が速くなったiPhone16、iPhone16Plusどちらとも、有線のUSBType-Cかワイヤレス充]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
-            <title><![CDATA[TremorxとElixirDesktopで株価ダッシュボード風アプリ作ってみた | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/the_haigo/items/aa610d7aaa90beaf7b77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/the_haigo/items/aa610d7aaa90beaf7b77?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Wed, 16 Oct 2024 12:23:26 GMT</pubDate>
-            <description><![CDATA[はじめに 本記事はコンポーネントライブラリ Tremorxとマルチプラットフォームアプリ作成ライブラリElixirDesktopを使用して 株価をリアルタイムに取得するようなダッシュボードアプリを作…]]></description>
-            <content:encoded><![CDATA[はじめに 本記事はコンポーネントライブラリ Tremorxとマルチプラットフォームアプリ作成ライブラリElixirDesktopを使用して 株価をリアルタイムに取得するようなダッシュボードアプリを作…]]></content:encoded>
+            <title><![CDATA[✨LINEとSlackへ同時にメッセージを送信する方法✨ | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/riicon72/items/4643345f51b1967d7b23?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/riicon72/items/4643345f51b1967d7b23?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Wed, 16 Oct 2024 12:51:24 GMT</pubDate>
+            <description><![CDATA[ちょこっといろんなことを簡略化したい  この記事では、ちょこっと効率化させたいことをプログラミングやツールをつかって解決していきます ちょこっと削減した時間を、もっと人生楽しくなることに使いましょう！…]]></description>
+            <content:encoded><![CDATA[ちょこっといろんなことを簡略化したい  この記事では、ちょこっと効率化させたいことをプログラミングやツールをつかって解決していきます ちょこっと削減した時間を、もっと人生楽しくなることに使いましょう！…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[開発用適当ツールは Rust で作るのもオススメ | Zennのトレンド]]></title>
@@ -1248,15 +1420,6 @@
             <category>survey-design</category>
         </item>
         <item>
-            <title><![CDATA[どこにいてもお互いに“触れる”ことができるブレスレット。遠距離恋愛にいいかも | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/bond-touch-4_smart-bracelet.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/bond-touch-4_smart-bracelet.html</guid>
-            <pubDate>Wed, 16 Oct 2024 12:00:00 GMT</pubDate>
-            <description><![CDATA[Image:BondTouch大好きな人と離れていることで1番ツライのは、お互いに触れることができないことではないでしょうか。テレビ通話で声をきき、姿を見て、お互いが見ているものを共有することはできても、触ることはできません。離れていても愛を育む2人を応援するガジェット「BondTouch4」なら相手に「触れる」ことができます。繋がるお揃いのブレスレットBondTouch4はペアで装着するブレスレ]]></description>
-            <content:encoded><![CDATA[Image:BondTouch大好きな人と離れていることで1番ツライのは、お互いに触れることができないことではないでしょうか。テレビ通話で声をきき、姿を見て、お互いが見ているものを共有することはできても、触ることはできません。離れていても愛を育む2人を応援するガジェット「BondTouch4」なら相手に「触れる」ことができます。繋がるお揃いのブレスレットBondTouch4はペアで装着するブレスレ]]></content:encoded>
-            <category>PRODUCT</category>
-        </item>
-        <item>
             <title><![CDATA[すべての HTTP リクエストを右から左へ受け流す Web サーバ | Qiita - 人気の記事]]></title>
             <link>https://qiita.com/hoto17296/items/7ea59db93a7f413af12c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
             <guid>https://qiita.com/hoto17296/items/7ea59db93a7f413af12c?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
@@ -1277,23 +1440,6 @@
             <category>machine-learning</category>
             <category>patient-engagement</category>
             <category>survey-design</category>
-        </item>
-        <item>
-            <title><![CDATA[AirPods「Pro」派が期待する、2025年のAirPods Pro 3の予想 | ギズモード・ジャパン]]></title>
-            <link>https://www.gizmodo.jp/2024/10/airpods-pro-3.html</link>
-            <guid>https://www.gizmodo.jp/2024/10/airpods-pro-3.html</guid>
-            <pubDate>Wed, 16 Oct 2024 11:00:00 GMT</pubDate>
-            <description><![CDATA[Image:BadPixma/Shutterstock.comAppleは、今年秋の発表会でAirPodsの新モデルを発表。AirPodsは2モデルリリースされ、うち1つには基本モデルで初となるANC機能（アクティブノイズキャンセリング）が搭載されました。最高位機種であるAirPodsMaxはUSB-C対応で新色でのリリース。…あれ、AirPodsProは？発表会直後からPro派の人は、これ思って]]></description>
-            <content:encoded><![CDATA[Image:BadPixma/Shutterstock.comAppleは、今年秋の発表会でAirPodsの新モデルを発表。AirPodsは2モデルリリースされ、うち1つには基本モデルで初となるANC機能（アクティブノイズキャンセリング）が搭載されました。最高位機種であるAirPodsMaxはUSB-C対応で新色でのリリース。…あれ、AirPodsProは？発表会直後からPro派の人は、これ思って]]></content:encoded>
-            <category>NEWS</category>
-        </item>
-        <item>
-            <title><![CDATA[TremorxのHello Worldをやってみる | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/GeekMasahiro/items/6b2b395403f98ea9f39e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/GeekMasahiro/items/6b2b395403f98ea9f39e?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Wed, 16 Oct 2024 10:30:12 GMT</pubDate>
-            <description><![CDATA[Phonexのプロジェクト作成 # Hexのインストール $ mix local.hex # phx_newのインストール $ mix archive.install hex phx_new # ア…]]></description>
-            <content:encoded><![CDATA[Phonexのプロジェクト作成 # Hexのインストール $ mix local.hex # phx_newのインストール $ mix archive.install hex phx_new # ア…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[IGN USにて、ストーリー重視RPGのクリア時間に関するアンケートが実施 | IGN Japan games]]></title>
@@ -1446,6 +1592,14 @@
             <pubDate>Wed, 16 Oct 2024 08:45:56 GMT</pubDate>
         </item>
         <item>
+            <title><![CDATA[【Splunkラボ】Splunk Cloudに中継Forwarder経由でログ転送するための手順 | Qiita - 人気の記事]]></title>
+            <link>https://qiita.com/torippy1024/items/1c125ab08967c11f1889?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
+            <guid>https://qiita.com/torippy1024/items/1c125ab08967c11f1889?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
+            <pubDate>Wed, 16 Oct 2024 08:03:55 GMT</pubDate>
+            <description><![CDATA[こんにちは。torippy1024です。 本日は、Splunk Cloudを利用する上で最も基本の構成(と思われる)中継Forwarder経由でのログ転送を行ってみます。 最も基本の構成ながら、これ…]]></description>
+            <content:encoded><![CDATA[こんにちは。torippy1024です。 本日は、Splunk Cloudを利用する上で最も基本の構成(と思われる)中継Forwarder経由でのログ転送を行ってみます。 最も基本の構成ながら、これ…]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[「OneNote for Windows 10」サポート終了まで1年、新規DLの制限や廃止の通知を実施へ／「Microsoft OneNote for Windows」への移行を | 窓の杜]]></title>
             <link>https://forest.watch.impress.co.jp/docs/news/1631697.html</link>
             <guid>https://forest.watch.impress.co.jp/docs/news/1631697.html</guid>
@@ -1507,14 +1661,6 @@
             <pubDate>Wed, 16 Oct 2024 05:38:00 GMT</pubDate>
             <description><![CDATA[米Googleは10月11日（現地時間）、「Google Workspace」で管理者が「OneDrive」から「Google ドライブ」へ一度に最大100人のユーザーのファイルを転送できるサービスを導入した。]]></description>
             <content:encoded><![CDATA[米Googleは10月11日（現地時間）、「Google Workspace」で管理者が「OneDrive」から「Google ドライブ」へ一度に最大100人のユーザーのファイルを転送できるサービスを導入した。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[GCPのAPIGWにおけるAPI更新方法について | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/GleapPost/items/e34b42ad6a83600cabcc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/GleapPost/items/e34b42ad6a83600cabcc?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Wed, 16 Oct 2024 05:35:34 GMT</pubDate>
-            <description><![CDATA[はじめに どうも、@to-fmakです。最近GCPのAPI Gatewayを使ってAPI管理を始めたので、API更新方法についてメモ書き程度にまとめます。 注意事項 PoC段階のため、現在はIaCや…]]></description>
-            <content:encoded><![CDATA[はじめに どうも、@to-fmakです。最近GCPのAPI Gatewayを使ってAPI管理を始めたので、API更新方法についてメモ書き程度にまとめます。 注意事項 PoC段階のため、現在はIaCや…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Meta Quest 3S発売。Quest 3とどちらを買うべき？処理性能とMR / パススルーは同等、安価な3Sが優る点も | テクノエッジ TechnoEdge]]></title>
@@ -1581,14 +1727,6 @@
             <content:encoded><![CDATA[要約一行 Draw.ioみたいな作図ツールがもっと欲しいから作っている。 https://doc.no-mans-folly.com/ja/    モチベーションという名のポエム 世の中にはいい感じのカジュアルな作図ツールが少ない。ここでいうカジュアルとは、CADのような精密さは必要なく、多少座標がずれてても建物は倒壊しないし人も死なないという意味でのカジュアルである。Figmaみたいなデザインツールともまた違う。FigJamはそうかもしれない。tldrawはきっとそうだろう。言ってしまえばDraw.ioだ、そうつまりDraw.ioである。 というわけでカジュアル作図ツールの大御所と...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[KotlinのCIをキャッシュと実行制御で60%削減した | Zennのトレンド]]></title>
-            <link>https://zenn.dev/loglass/articles/refactor-kotlin-ci</link>
-            <guid>https://zenn.dev/loglass/articles/refactor-kotlin-ci</guid>
-            <pubDate>Wed, 16 Oct 2024 03:45:32 GMT</pubDate>
-            <description><![CDATA[! この記事は毎週必ず記事がでるテックブログ "Loglass Tech Blog Sprint" の 61 週目の記事です！ 2年間連続達成まで 残り 45 週 となりました！    はじめに ログラスのソフトウェアエンジニアのmako-makokです！ 最近バックエンド周りのCIをリプレイスしたので、その過程を記事にしました。 まだまだ理想には遠いCIですが、ワークフローファイルの整理とキャッ...]]></description>
-            <content:encoded><![CDATA[! この記事は毎週必ず記事がでるテックブログ "Loglass Tech Blog Sprint" の 61 週目の記事です！ 2年間連続達成まで 残り 45 週 となりました！    はじめに ログラスのソフトウェアエンジニアのmako-makokです！ 最近バックエンド周りのCIをリプレイスしたので、その過程を記事にしました。 まだまだ理想には遠いCIですが、ワークフローファイルの整理とキャッシュと実行制御によって、実行時間を60%削減しました。 構成など、記事を見てくださっている方の参考になれば幸いです。   ログラスのバックエンドの技術スタック CIに関連する技術スタックを簡単に...]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[LLMを用いた分類タスクのためのデータセット拡張 | Blog - Preferred Networks Research & Development]]></title>
             <link>https://tech.preferred.jp/ja/blog/classification-data-generation-using-llm/</link>
             <guid>https://tech.preferred.jp/?p=15028</guid>
@@ -1614,14 +1752,6 @@
             <pubDate>Wed, 16 Oct 2024 03:20:50 GMT</pubDate>
             <description><![CDATA[こんにちは、トレタ VPoEの北川です。 今回は弊社でフロントエンドアプリケーションを新しく構築する際の開発環境として、何のライブラリを入れるかという開発環境初期セットを紹介しようと思います。 Web Framework / CSS Framework / Tesing Framework / Linter / Formatter、それぞれ定番で使うデファクトが大体ありましたが、近年では新しいライ...]]></description>
             <content:encoded><![CDATA[こんにちは、トレタ VPoEの北川です。 今回は弊社でフロントエンドアプリケーションを新しく構築する際の開発環境として、何のライブラリを入れるかという開発環境初期セットを紹介しようと思います。 Web Framework / CSS Framework / Tesing Framework / Linter / Formatter、それぞれ定番で使うデファクトが大体ありましたが、近年では新しいライブラリも登場したので、2024年現在・最新版を、今回は直近で作られた実際のリポジトリを例にご紹介します。 今回紹介するリポジトリのアプリケーションはtoB向けの管理画面のアプリケーションで、特質した部…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【OCI】無料でLinuxサーバを立ち上げてSSH接続してみた | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/take-yoda/items/945b50b6b59882983f20?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/take-yoda/items/945b50b6b59882983f20?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Wed, 16 Oct 2024 03:17:20 GMT</pubDate>
-            <description><![CDATA[以前はWebアプリの開発自習用にHeroku^1を使用していたのですが、悪意のあるユーザによる不正利用が多発した為に個人の利用であっても有償となってしまいました。 以降はローカルでプログラミングして…]]></description>
-            <content:encoded><![CDATA[以前はWebアプリの開発自習用にHeroku^1を使用していたのですが、悪意のあるユーザによる不正利用が多発した為に個人の利用であっても有償となってしまいました。 以降はローカルでプログラミングして…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[生成AIが法務の人材不足を解消!? 契約書の要約や専門用語の解説をお手伝いする「LegalOnアシスタント」【CEATEC 2024】／グローバル向けの人気AI機能を日本へ逆輸入 | 窓の杜]]></title>
@@ -1684,14 +1814,6 @@
             <category>PlayStation 4</category>
         </item>
         <item>
-            <title><![CDATA[シリーズ初の70％サイズ！ 気持ちいい打ち心地を持ち運べる「REALFORCE RC1 Keyboard」【CEATEC 2024】／片手で持てる重量、13インチノートPCとほぼ同じ横幅サイズを実現 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1631558.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1631558.html</guid>
-            <pubDate>Wed, 16 Oct 2024 02:10:34 GMT</pubDate>
-            <description><![CDATA[東プレ（株）は、デジタルイノベーションの総合展「CEATEC 2024」（千葉・幕張メッセ）にブース出展。10月18日に発売を予定しているコンパクトワイヤレスキーボード「REALFORCE RC1 Keyboard」のデモ機を展示している。新製品は、2種類のレイアウト（日本語配列・英語配列）にそれぞれ2種類のキー荷重（30g/45g）のモデルを展開し、価格は4モデルともに35,860円。]]></description>
-            <content:encoded><![CDATA[東プレ（株）は、デジタルイノベーションの総合展「CEATEC 2024」（千葉・幕張メッセ）にブース出展。10月18日に発売を予定しているコンパクトワイヤレスキーボード「REALFORCE RC1 Keyboard」のデモ機を展示している。新製品は、2種類のレイアウト（日本語配列・英語配列）にそれぞれ2種類のキー荷重（30g/45g）のモデルを展開し、価格は4モデルともに35,860円。]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[DroidKaigi 2024 に参加しました | LINEヤフー Tech Blog]]></title>
             <link>https://techblog.lycorp.co.jp/ja/20241016a</link>
             <guid>https://techblog.lycorp.co.jp/ja/20241016a</guid>
@@ -1741,12 +1863,6 @@
             <category>Research</category>
         </item>
         <item>
-            <title><![CDATA[【アップデート情報】パッケージ・ドライバー関連　10月16日　～NVIDIAなど | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/update/driver/1631544.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/update/driver/1631544.html</guid>
-            <pubDate>Wed, 16 Oct 2024 01:36:44 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[生成AIを利用したLP実装の自動生成に挑戦してみた | every Tech Blog]]></title>
             <link>https://tech.every.tv/entry/2024/10/16/103000?utm_source=feed</link>
             <guid>https://tech.every.tv/entry/2024/10/16/103000?utm_source=feed</guid>
@@ -1777,14 +1893,6 @@
             <pubDate>Wed, 16 Oct 2024 01:16:05 GMT</pubDate>
             <description><![CDATA[SRE の鈴木 (id:eagletmt) です。先日、この開発者ブログで赤松から One Experience プロジェクトについての紹介がありました。 自分もこの One Experiene プロジェクトに携わっており、このプロジェクトが始まったちょうど1年くらい前にはイギリスにあるオフィスに行き、グローバル版のシステムを開発・運用しているメンバーと直接顔を合わせたりもしていました。自分は O...]]></description>
             <content:encoded><![CDATA[SRE の鈴木 (id:eagletmt) です。先日、この開発者ブログで赤松から One Experience プロジェクトについての紹介がありました。 自分もこの One Experiene プロジェクトに携わっており、このプロジェクトが始まったちょうど1年くらい前にはイギリスにあるオフィスに行き、グローバル版のシステムを開発・運用しているメンバーと直接顔を合わせたりもしていました。自分は One Experience プロジェクトにおいて主にデータ移行について担当していました。データ移行に必要な作業はいくつかありますが、この記事ではその中から日本版のシステムのデータベースで発生したデータ…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Oracle、今年最後の定例セキュリティ更新 ～「Java」「VirtualBox」「MySQL」などで脆弱性334件／2024年10月「Critical Patch Update」を実施 | 窓の杜]]></title>
-            <link>https://forest.watch.impress.co.jp/docs/news/1631519.html</link>
-            <guid>https://forest.watch.impress.co.jp/docs/news/1631519.html</guid>
-            <pubDate>Wed, 16 Oct 2024 01:05:00 GMT</pubDate>
-            <description><![CDATA[米Oracleは10月15日（現地時間、以下同）、四半期ごとに実施される定例セキュリティアップデート（Critical Patch Update：CPU）の内容を発表した。「Oracle Java SE」や「MySQL」、「Oracle VM VirtualBox」などの製品で新たに334件の脆弱性が修正されている。]]></description>
-            <content:encoded><![CDATA[米Oracleは10月15日（現地時間、以下同）、四半期ごとに実施される定例セキュリティアップデート（Critical Patch Update：CPU）の内容を発表した。「Oracle Java SE」や「MySQL」、「Oracle VM VirtualBox」などの製品で新たに334件の脆弱性が修正されている。]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[JAWS Festa 2024 in 広島に参加しました | kubell Creator's Note]]></title>
@@ -2051,7 +2159,7 @@
             <content:encoded><![CDATA[IT資格の評価 この記事の対象者  資格取得に興味がある人  はじめに 各資格の難易度、実用度（内容が現場で役立つか）、就職・転職や他者からの評価を５段階評価（A～E）で独断と偏見で紹介していきます。 …]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[5 Almost Impossible Experiments…Until Now! | Two Minute Papers]]></title>
+            <title><![CDATA[The Balls Drop…And Things Go Really Wrong! | Two Minute Papers]]></title>
             <link>https://www.youtube.com/watch?v=JmTTY5s8H7A</link>
             <guid>https://www.youtube.com/watch?v=JmTTY5s8H7A</guid>
             <pubDate>Tue, 15 Oct 2024 10:01:20 GMT</pubDate>
@@ -2182,14 +2290,6 @@
             <content:encoded><![CDATA[はじめに こんにちは！ディップ株式会社で新卒２年目のiOSエンジニアをしている春木渚咲と申します。 今回iOSDC Japan 2024に参加してきたので、その参加レポートを書きたいと思います！ iOSDCについて詳細はこちらです。 会場の雰囲気 iOSDC参加に何を期待していたか 私がiOSDCに期待していることは...新しい技術のインプットをしたい！他社のエンジニアとの交流をしたい！学んだ知識を実務に活かしていきたい！です。 初参加の前回はスポンサーブースのスタッフとして参加でしたが、2回目となる今回は一般参加として参加しました。 学びを活かせそうなセッションを中心に視聴したり、ブースや懇…]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[ITベンチャー企業へのGood&New（グッドアンドニュー）導入のすすめ。あるいは、Good&New用のWebアプリを作った話。 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/renesisu727/items/67c81d0e238c9e994e3f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/renesisu727/items/67c81d0e238c9e994e3f?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Tue, 15 Oct 2024 06:33:29 GMT</pubDate>
-            <description><![CDATA[はじめに 今回は、自社に Good & New（グッドアンドニュー）を導入してみた感想と、自社で Good & New（グッド安堵ニュー）を円滑に進めるための Web アプリを作ったことについて紹介…]]></description>
-            <content:encoded><![CDATA[はじめに 今回は、自社に Good & New（グッドアンドニュー）を導入してみた感想と、自社で Good & New（グッド安堵ニュー）を円滑に進めるための Web アプリを作ったことについて紹介…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[桜井政博のYouTubeチャンネルの最終回が告知 通常回は10月15日で最後、約1週間後に最終回スペシャルを配信 | IGN Japan games]]></title>
             <link>https://jp.ign.com/games/76900/news/youtube-10151</link>
             <guid>https://jp.ign.com/games/76900/news/youtube-10151</guid>
@@ -2199,14 +2299,6 @@
             <category>News</category>
             <category>Masahiro Sakurai</category>
             <category>ゲーム</category>
-        </item>
-        <item>
-            <title><![CDATA[ゼロから始める勉強会開催：初心者が挑んだ FlutterKaigi mini @Ishikawa の舞台裏 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/kusano_keito/items/a4a7c03b8cabe64399b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/kusano_keito/items/a4a7c03b8cabe64399b1?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Tue, 15 Oct 2024 05:24:24 GMT</pubDate>
-            <description><![CDATA[1. はじめに これは、勉強会を開催したことが無い人間が開催できるようになるまでの物語です。 2. 自己紹介 普段、株式会社デジタルバリューに所属し、Android/Flutter アプリ開発を担当…]]></description>
-            <content:encoded><![CDATA[1. はじめに これは、勉強会を開催したことが無い人間が開催できるようになるまでの物語です。 2. 自己紹介 普段、株式会社デジタルバリューに所属し、Android/Flutter アプリ開発を担当…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[オンボーディング体験記 | Uzabase for Engineers]]></title>
@@ -2411,22 +2503,6 @@
             <category>論文</category>
         </item>
         <item>
-            <title><![CDATA[Top 5 Tips & Tricks for LLM Fine Tuning and Inference | KDnuggets]]></title>
-            <link>https://www.kdnuggets.com/2024/10/intel/top-5-tips-tricks-for-llm-fine-tuning-and-inference</link>
-            <guid>https://www.kdnuggets.com/?p=184303</guid>
-            <pubDate>Mon, 14 Oct 2024 17:00:49 GMT</pubDate>
-            <description><![CDATA[For developers working with LLMs, Intel’s article serves as a practical guide to navigating the complexities of fine-tuning and inference, offering valuable insights and techniques for optimizing both...]]></description>
-            <content:encoded><![CDATA[For developers working with LLMs, Intel’s article serves as a practical guide to navigating the complexities of fine-tuning and inference, offering valuable insights and techniques for optimizing both the development and deployment phases.]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Measuring AI Adoption and Impact | KDnuggets]]></title>
-            <link>https://www.kdnuggets.com/measuring-ai-adoption-and-impact</link>
-            <guid>https://www.kdnuggets.com/?p=183350</guid>
-            <pubDate>Mon, 14 Oct 2024 16:00:08 GMT</pubDate>
-            <description><![CDATA[This article will explore key metrics and strategies to assess AI adoption and its broader impact on an organization.]]></description>
-            <content:encoded><![CDATA[This article will explore key metrics and strategies to assess AI adoption and its broader impact on an organization.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[第19回言語処理若手シンポジウム(YANS2024) 参加報告 | フューチャー技術ブログ]]></title>
             <link>https://future-architect.github.io/articles/20241015a/</link>
             <guid>https://future-architect.github.io/articles/20241015a/</guid>
@@ -2461,14 +2537,6 @@
             <content:encoded><![CDATA[はじめに   どんな人向けの記事？  生成AIやローカルLLMに興味のある方 OSS版bolt.newに興味のある方 ローカルLLMの性能に興味のある方   実行環境 1. Mac Studio（M2 Ultra 128GB） # ollamaサーバ 2. Ubuntu 24.04.1 LTS (Core i5-8400 + メインメモリ 16GB) # bolt.new実行サーバ    概要 今回の記事では、ローカルLLMを用いてOSS版のbolt.newを動かしてみようと思います。目的としては、下記のとおりです。  何がすごいのかまったく理解できなかったbolt.newについて少...]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[How to Create Custom Educational Podcasts with NotebookLM | KDnuggets]]></title>
-            <link>https://www.kdnuggets.com/how-to-create-custom-educational-podcasts-with-notebooklm</link>
-            <guid>https://www.kdnuggets.com/?p=183899</guid>
-            <pubDate>Mon, 14 Oct 2024 14:00:03 GMT</pubDate>
-            <description><![CDATA[Creating custom educational podcasts with NotebookLM is straightforward. Simply upload your content, customize the audio output to highlight key topics, and export your final podcast for sharing with ...]]></description>
-            <content:encoded><![CDATA[Creating custom educational podcasts with NotebookLM is straightforward. Simply upload your content, customize the audio output to highlight key topics, and export your final podcast for sharing with your audience.]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[アドビ、動画生成AI『Firefly Video Model』ベータ提供開始。文章や画像を動画化・クリップ延長など、Premiere Pro等に組込み | テクノエッジ TechnoEdge]]></title>
             <link>https://www.techno-edge.net/article/2024/10/14/3762.html</link>
             <guid>https://www.techno-edge.net/article/2024/10/14/3762.html</guid>
@@ -2477,28 +2545,12 @@
             <content:encoded><![CDATA[Adobe MAXイベントにあわせて、アドビが動画生成AIモデル『Adobe Firefly Video Model』のベータ提供開始を発表しました。]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RAG精度評価の定番ツール「Ragas」にAWSのBedrockで入門しよう！（v0.2対応） | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/minorun365/items/2f4e238f8bbc6e393ba5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/minorun365/items/2f4e238f8bbc6e393ba5?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Mon, 14 Oct 2024 13:01:47 GMT</pubDate>
-            <description><![CDATA[10/15更新：この投稿の翌日、Ragas v0.2.0がリリースされ大きめの変更が入りました！ RAGだけでなく、エージェントなどの生成内容も評価できるようアップデートされています。 記事内のサ…]]></description>
-            <content:encoded><![CDATA[10/15更新：この投稿の翌日、Ragas v0.2.0がリリースされ大きめの変更が入りました！ RAGだけでなく、エージェントなどの生成内容も評価できるようアップデートされています。 記事内のサ…]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[「○○エンジニアのための△△入門」の自動生成 | Zennのトレンド]]></title>
             <link>https://zenn.dev/hookedonmas/books/b6aa4eff9c940a</link>
             <guid>https://zenn.dev/hookedonmas/books/b6aa4eff9c940a</guid>
             <pubDate>Mon, 14 Oct 2024 10:04:03 GMT</pubDate>
             <description><![CDATA[AutoGenBookというツールを使って、「○○エンジニアのための△△入門」というタイトルの記事を14個自動生成してみました！  AutoGenBookというのは、ChatGPT APIを使って教科書・本を自動生成するツールのことで，詳しくは以下を参照ください。 https://qiita.com/hook125/items/c6f7ea1135ac8608d606  基本的に私の興味で題材を選...]]></description>
             <content:encoded><![CDATA[AutoGenBookというツールを使って、「○○エンジニアのための△△入門」というタイトルの記事を14個自動生成してみました！  AutoGenBookというのは、ChatGPT APIを使って教科書・本を自動生成するツールのことで，詳しくは以下を参照ください。 https://qiita.com/hook125/items/c6f7ea1135ac8608d606  基本的に私の興味で題材を選択したので、偏りがあると思いますがご容赦ください。もし他に生成して欲しい題材や生成してみて面白かった題材があれば、教えていただけると幸いです。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[【JavaScript】Idle Detection APIとかいう悪用以外の使い道がないAPI | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/rana_kualu/items/0dd74084ab751672076a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/rana_kualu/items/0dd74084ab751672076a?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Mon, 14 Oct 2024 09:37:01 GMT</pubDate>
-            <description><![CDATA[2024/09/10にIdle Detection APIというAPIが更新されていました。 ステータスはDraft Community Group Reportです。 これはコミュニティによる提案…]]></description>
-            <content:encoded><![CDATA[2024/09/10にIdle Detection APIというAPIが更新されていました。 ステータスはDraft Community Group Reportです。 これはコミュニティによる提案…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Oktaについてもっと知りたい! Okta についてのいろいろメモ。 | ForgeVision Engineer Blog]]></title>
@@ -2546,14 +2598,6 @@
             <pubDate>Mon, 14 Oct 2024 08:38:08 GMT</pubDate>
             <description><![CDATA[AIがRNAの未知なる領域を解析し、7万以上の新種ウイルスを発見した論文「Using artificial intelligence to document the hidden RNA virosphere」について。]]></description>
             <content:encoded><![CDATA[AIがRNAの未知なる領域を解析し、7万以上の新種ウイルスを発見した論文「Using artificial intelligence to document the hidden RNA virosphere」について。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[数行のコードでAIエージェントがブラウザを操作！Python×Sentientを用いたブラウザ制御 | Qiita - 人気の記事]]></title>
-            <link>https://qiita.com/sergicalsix/items/f44d133c699b11d88684?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</link>
-            <guid>https://qiita.com/sergicalsix/items/f44d133c699b11d88684?utm_campaign=popular_items&amp;utm_medium=feed&amp;utm_source=popular_items</guid>
-            <pubDate>Mon, 14 Oct 2024 08:13:17 GMT</pubDate>
-            <description><![CDATA[はじめに 近年人工知能（AI）の進化により、さまざまなタスクを自動化するためのツールやライブラリが登場しています。その中でも、SentientはPythonを用いてブラウザを制御するエージェントを簡…]]></description>
-            <content:encoded><![CDATA[はじめに 近年人工知能（AI）の進化により、さまざまなタスクを自動化するためのツールやライブラリが登場しています。その中でも、SentientはPythonを用いてブラウザを制御するエージェントを簡…]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[0.5BパラメータのLLMを一から作ろうとして心が折れかけた話 | Zennのトレンド]]></title>
@@ -4777,62 +4821,6 @@
             <pubDate>Fri, 04 Oct 2024 01:00:00 GMT</pubDate>
             <description><![CDATA[はじめまして、Optimal Biz DS Windowsチームの今別府です。 DS Windowsチームといえば以下の記事で記憶に新しいかもしれませんが、こちらの移行の関連でWindows Agentのビルドに関わるその他の環境も進化しつつあります。 tech-blog.optim.co.jp 今回はWindows Agentのビルドに関わるものとして、コードサイニングに関する環境の構築を行った...]]></description>
             <content:encoded><![CDATA[はじめまして、Optimal Biz DS Windowsチームの今別府です。 DS Windowsチームといえば以下の記事で記憶に新しいかもしれませんが、こちらの移行の関連でWindows Agentのビルドに関わるその他の環境も進化しつつあります。 tech-blog.optim.co.jp 今回はWindows Agentのビルドに関わるものとして、コードサイニングに関する環境の構築を行ったので記載していこうと思います。 はじめに コードサイニングとは、世の中に対して頒布するプログラムに対して、電子証明書を用いて署名する事によって、そのプログラムが確かにその発行者によって作成されたもので…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[LayerXはYAPC::Hakodate 2024にプラチナスポンサー＆学生支援スポンサーとして協賛します | LayerX エンジニアブログ]]></title>
-            <link>https://tech.layerx.co.jp/entry/2024/10/04/062704</link>
-            <guid>https://tech.layerx.co.jp/entry/2024/10/04/062704</guid>
-            <pubDate>Thu, 03 Oct 2024 21:27:04 GMT</pubDate>
-            <description><![CDATA[Engineering Officeの@serimaです。 LayerX は、YAPC::Hakodate 2024にプラチナスポンサー＆学生支援スポンサーとして協賛します。 2024年2月に広島で行われたYAPC::Hiroshimaでも同様に協賛していたので、2回連続での協賛となります。 tech.layerx.co.jp YAPCについて YAPCはYet Another Perl Conf...]]></description>
-            <content:encoded><![CDATA[Engineering Officeの@serimaです。 LayerX は、YAPC::Hakodate 2024にプラチナスポンサー＆学生支援スポンサーとして協賛します。 2024年2月に広島で行われたYAPC::Hiroshimaでも同様に協賛していたので、2回連続での協賛となります。 tech.layerx.co.jp YAPCについて YAPCはYet Another Perl Conferenceの略で、Perlを軸としたITに関わる全ての人のためのカンファレンスです。 Perlだけにとどまらない技術者たちが、好きな技術の話をし交流するカンファレンスで、技術者であれば誰でも楽しめる…]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Decentralized GPU Networks: Demand, Challenges, and Future Opportunities | HackerNoon - machine-learning]]></title>
-            <link>https://hackernoon.com/decentralized-gpu-networks-demand-challenges-and-future-opportunities?source=rss</link>
-            <guid>https://hackernoon.com/decentralized-gpu-networks-demand-challenges-and-future-opportunities?source=rss</guid>
-            <pubDate>Thu, 03 Oct 2024 19:07:38 GMT</pubDate>
-            <category>ai</category>
-            <category>machine-learning</category>
-            <category>decentralized-gpu</category>
-            <category>future-of-cloud-computing</category>
-            <category>gpus-for-machine-learning</category>
-            <category>gpu-for-ai</category>
-            <category>machine-learning-demand</category>
-            <category>gpu-networks</category>
-        </item>
-        <item>
-            <title><![CDATA[人の耳には聞こえない低い音による自然現象モニタリングに向けて－超低周波数域に特化した音圧センサー感度の評価技術を開発－ | AIST： 産業技術総合研究所]]></title>
-            <link>https://www.aist.go.jp/aist_j/press_release/pr2024/pr20241004_2/pr20241004_2.html</link>
-            <guid>7919-2</guid>
-            <pubDate>Thu, 03 Oct 2024 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[タンパク質の糖鎖修飾を「見える化」するソフトウエア「GRable Version 1.0」－創薬に有用な糖タンパク質の探索・評価を加速－ | AIST： 産業技術総合研究所]]></title>
-            <link>https://www.aist.go.jp/aist_j/press_release/pr2024/pr20241004/pr20241004.html</link>
-            <guid>7916-2</guid>
-            <pubDate>Thu, 03 Oct 2024 15:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[筋肉作りに先立つタンパク質分解 | プレスリリースニュース]]></title>
-            <link>https://www.riken.jp/press/2024/20241004_1/index.html</link>
-            <guid>https://www.riken.jp/press/2024/20241004_1/index.html</guid>
-            <pubDate>Thu, 03 Oct 2024 15:00:00 GMT</pubDate>
-            <description><![CDATA[－カルシウム依存性分解酵素の生理的な役割を発見－]]></description>
-            <content:encoded><![CDATA[－カルシウム依存性分解酵素の生理的な役割を発見－]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[新スマートウォッチHUAWEI WATCH GT 5 / GT 5 Pro発表。ゴルフ機能を強化、国内99%以上のゴルフ場に対応 | テクノエッジ TechnoEdge]]></title>
-            <link>https://www.techno-edge.net/article/2024/10/03/3739.html</link>
-            <guid>https://www.techno-edge.net/article/2024/10/03/3739.html</guid>
-            <pubDate>Thu, 03 Oct 2024 12:48:04 GMT</pubDate>
-            <description><![CDATA[ファーウェイ・ジャパンが、同社スマートウォッチのGTシリーズの新モデル「HUAWEI WATCH GT 5」「HUAWEI WATCH GT 5 Pro」を発表しました。また、最上位モデル「HUAWEI WATCH Ultimate」の新色「グリーン」も発表されています。]]></description>
-            <content:encoded><![CDATA[ファーウェイ・ジャパンが、同社スマートウォッチのGTシリーズの新モデル「HUAWEI WATCH GT 5」「HUAWEI WATCH GT 5 Pro」を発表しました。また、最上位モデル「HUAWEI WATCH Ultimate」の新色「グリーン」も発表されています。]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Unreal Engine 5.5 Is Here - Mega Greatness! | Two Minute Papers]]></title>
-            <link>https://www.youtube.com/watch?v=Yg0tVLnzr0A</link>
-            <guid>https://www.youtube.com/watch?v=Yg0tVLnzr0A</guid>
-            <pubDate>Thu, 03 Oct 2024 12:21:53 GMT</pubDate>
         </item>
     </channel>
 </rss>
