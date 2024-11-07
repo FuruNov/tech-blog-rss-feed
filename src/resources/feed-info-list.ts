@@ -264,6 +264,8 @@ export const FEED_INFO_LIST: FeedInfo[] = createFeedInfoList([
   ['理化学研究所 セミナー', 'https://www.riken.jp/feed/seminars_feed/'],
   ['理化学研究所 レクチャー', 'https://www.riken.jp/feed/lectures_feed/'],
   ['理化学研究所 クローズアップ科学道', 'https://www.riken.jp/feed/closeup_feed/'],
+
+  ['Google Scholar', 'https://kill-the-newsletter.com/feeds/rtiykatv81b3sbp0nyx7.xml'],
   
   //追加分(学会)
   ['日本応用数理学会', 'https://jsiam.org/feed/'],
