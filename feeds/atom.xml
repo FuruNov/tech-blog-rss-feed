@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://furunov.github.io/rss-feed/</id>
     <title>RSSまとめ by FuruNov</title>
-    <updated>2024-11-09T23:26:57.688Z</updated>
+    <updated>2024-11-10T03:33:05.022Z</updated>
     <generator>yamadashy/tech-blog-rss-feed</generator>
     <link rel="alternate" href="https://furunov.github.io/rss-feed/"/>
     <link rel="self" href="https://furunov.github.io/rss-feed/feed/atom.xml"/>
@@ -10,6 +10,66 @@
     <logo>https://furunov.github.io/rss-feed/images/icon.png</logo>
     <icon>https://furunov.github.io/rss-feed/images/favicon.ico</icon>
     <rights>yamadashy/tech-blog-rss-feed</rights>
+    <entry>
+        <title type="html"><![CDATA[もうSIMもいらない。海外着いてそのままスマホ（ネット）使う方法ためしてみました | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/11/ahamo-travel-internet.html</id>
+        <link href="https://www.gizmodo.jp/2024/11/ahamo-travel-internet.html"/>
+        <updated>2024-11-10T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo:小野寺しんいち道を調べたり調べものをしたりと、海外でも国内と同じようにスマホで通信したいもの。でもそのためにはSIMを購入したり、ポケットWi-Fiをレンタルしたり、場合によってはフリーWi-Fiを探し歩いたりと、いろいろとめんどくさいわけです。それがahamoなら、追加料金なく、面倒な設定もなしで、海外に着いてそのままネットが使えます。もちろんテザリングも。海外に行く機会があったため]]></summary>
+        <content type="html"><![CDATA[Photo:小野寺しんいち道を調べたり調べものをしたりと、海外でも国内と同じようにスマホで通信したいもの。でもそのためにはSIMを購入したり、ポケットWi-Fiをレンタルしたり、場合によってはフリーWi-Fiを探し歩いたりと、いろいろとめんどくさいわけです。それがahamoなら、追加料金なく、面倒な設定もなしで、海外に着いてそのままネットが使えます。もちろんテザリングも。海外に行く機会があったため]]></content>
+        <author>
+            <name>小野寺しんいち</name>
+        </author>
+        <category label="LIFESTYLE"/>
+        <published>2024-11-10T03:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache エラーログを少しでも見やすく（文字化け） | Dokokadeさんのフィード]]></title>
+        <id>https://zenn.dev/dokokade/articles/810730ef433b04</id>
+        <link href="https://zenn.dev/dokokade/articles/810730ef433b04"/>
+        <updated>2024-11-10T02:10:21.000Z</updated>
+        <summary type="html"><![CDATA[tail -f /example/logs/error_log | sed 's/\\n/\n/g' | perl -nle 's/\?\\([a-f\d]{3})/chr($1)/ieg;s/\\x([a-f\d]{2})/pack("C", hex($1))/ieg;print $_;' いつもググったり、historyで探しているのでここにも記載。改行をなるべくいれて、エンコードされたマルチ...]]></summary>
+        <content type="html"><![CDATA[tail -f /example/logs/error_log | sed 's/\\n/\n/g' | perl -nle 's/\?\\([a-f\d]{3})/chr($1)/ieg;s/\\x([a-f\d]{2})/pack("C", hex($1))/ieg;print $_;' いつもググったり、historyで探しているのでここにも記載。改行をなるべくいれて、エンコードされたマルチバイト文字をデコードしている。 ここは判断に迷うところだが、エイリアスで丸めちゃうという手もあります。これについては、周知がされていないと、勘違いやトラブルになるのがネックです。 https:...]]></content>
+        <author>
+            <name>Dokokade</name>
+        </author>
+        <published>2024-11-10T02:10:21.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[突然ですが、今日DJデビューします。2万円台の機材で | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/11/hercules_dj_control.html</id>
+        <link href="https://www.gizmodo.jp/2024/11/hercules_dj_control.html"/>
+        <updated>2024-11-10T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Photo:武者良太お手軽価格でスタートできる機材って貴重だと思うの。東京楽器博2024のディリゲントブースに顔を出したら、おやまあ素敵。Hercules（ハーキュレス）のDJコントローラやモニタースピーカーが勢揃い。個人的に手前左側のDJControlStarlightと、右側のDJControlMixを持っているので、大好きなんですHercules。個人の好き嫌いの話、ってだけではないですよ。]]></summary>
+        <content type="html"><![CDATA[Photo:武者良太お手軽価格でスタートできる機材って貴重だと思うの。東京楽器博2024のディリゲントブースに顔を出したら、おやまあ素敵。Hercules（ハーキュレス）のDJコントローラやモニタースピーカーが勢揃い。個人的に手前左側のDJControlStarlightと、右側のDJControlMixを持っているので、大好きなんですHercules。個人の好き嫌いの話、ってだけではないですよ。]]></content>
+        <author>
+            <name>武者良太</name>
+        </author>
+        <category label="PRODUCT"/>
+        <published>2024-11-10T02:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「史上最軽量Mac」M4 Mac miniセットを背負って外に持ち出し使ってみた結果（CloseBox） | テクノエッジ TechnoEdge]]></title>
+        <id>https://www.techno-edge.net/article/2024/11/10/3816.html</id>
+        <link href="https://www.techno-edge.net/article/2024/11/10/3816.html"/>
+        <updated>2024-11-10T00:40:59.000Z</updated>
+        <summary type="html"><![CDATA[M4 Mac miniが販売初日である11月8日に我が家に届きました。さっそく初期設定をして、翌日の「AIフェスティバル2日目」に持ち出して使ってみました。]]></summary>
+        <content type="html"><![CDATA[M4 Mac miniが販売初日である11月8日に我が家に届きました。さっそく初期設定をして、翌日の「AIフェスティバル2日目」に持ち出して使ってみました。]]></content>
+        <published>2024-11-10T00:40:59.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[君の名はチャッピー。宇宙軍で働くロボット犬です | ギズモード・ジャパン]]></title>
+        <id>https://www.gizmodo.jp/2024/11/chappie-space-force-robot-dog.html</id>
+        <link href="https://www.gizmodo.jp/2024/11/chappie-space-force-robot-dog.html"/>
+        <updated>2024-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Image:U.S.SpaceForce/Tech.Sgt.JordanThompsonコロラド州のバックリー宇宙軍基地でで働く緑色のロボット犬。名前はチャッピーです。このロボット犬は、核兵器や化学兵器を嗅ぎ分けることができます。危険物を嗅ぎ分けてくれる正式には、四足歩行無人地上車両（QUGV）と呼ばれるこちらのロボット犬。このロボットには12種類のモデルがあり、我々一般人がAmazonで購入する]]></summary>
+        <content type="html"><![CDATA[Image:U.S.SpaceForce/Tech.Sgt.JordanThompsonコロラド州のバックリー宇宙軍基地でで働く緑色のロボット犬。名前はチャッピーです。このロボット犬は、核兵器や化学兵器を嗅ぎ分けることができます。危険物を嗅ぎ分けてくれる正式には、四足歩行無人地上車両（QUGV）と呼ばれるこちらのロボット犬。このロボットには12種類のモデルがあり、我々一般人がAmazonで購入する]]></content>
+        <author>
+            <name>高橋真紀</name>
+        </author>
+        <category label="TECHNOLOGY"/>
+        <published>2024-11-10T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[気分転換で作曲したいとき、折りたたみMIDIキーボードはいかがですか | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/11/fine-assist-fol-key25.html</id>
@@ -265,6 +325,18 @@
         <published>2024-11-09T07:19:57.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[プロンプト進化を用いた日本語選好データセットの構築 | Zennのトレンド]]></title>
+        <id>https://zenn.dev/matsuolab/articles/10a1aa9d43e4fe</id>
+        <link href="https://zenn.dev/matsuolab/articles/10a1aa9d43e4fe"/>
+        <updated>2024-11-09T06:31:45.000Z</updated>
+        <summary type="html"><![CDATA[GENIAC 松尾研 LLM開発プロジェクトメンバーのMitsuhashiです。 プロジェクト期間中に取り組んだ内容をまとめます。   概要  本記事は、プロンプト進化という手法を用いた日本語選好データセットの構築に関する記事です そもそも日本語の指示応答データセットが少ない、特に後述する選好データセットが少ない、という致命的な問題に対して、既存のデータセットを拡張して日本語のデータセットを確実に...]]></summary>
+        <content type="html"><![CDATA[GENIAC 松尾研 LLM開発プロジェクトメンバーのMitsuhashiです。 プロジェクト期間中に取り組んだ内容をまとめます。   概要  本記事は、プロンプト進化という手法を用いた日本語選好データセットの構築に関する記事です そもそも日本語の指示応答データセットが少ない、特に後述する選好データセットが少ない、という致命的な問題に対して、既存のデータセットを拡張して日本語のデータセットを確実に増やすことを目的として取り組みました 本記事で紹介するデータセットはaya-ja-evol-instruct-calm3-dpo-maskedです  https://huggingface.co...]]></content>
+        <author>
+            <name>kaeru39</name>
+        </author>
+        <published>2024-11-09T06:31:45.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[neural network pruning; 言語: 英語, 日本語 - 新しい結果 | Google Scholar]]></title>
         <id>https://kill-the-newsletter.com/feeds/5350xkh95rhx917qsh73/entries/owbwoz6pddxyhl5tvlfr.html</id>
         <link href="https://kill-the-newsletter.com/feeds/5350xkh95rhx917qsh73/entries/owbwoz6pddxyhl5tvlfr.html"/>
@@ -382,6 +454,18 @@
         <category label="Android"/>
         <category label="スポンサードコンテンツ"/>
         <published>2024-11-09T05:03:37.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Goのwasmで笑い男の顔はめサイトを作ってみた | Zennのトレンド]]></title>
+        <id>https://zenn.dev/ponyo877/articles/b506e03bbcbec8</id>
+        <link href="https://zenn.dev/ponyo877/articles/b506e03bbcbec8"/>
+        <updated>2024-11-09T04:31:17.000Z</updated>
+        <summary type="html"><![CDATA[目的 今年は笑い男Yearということで、笑い男の顔はめサイトをGoのwasmで作ってみました! 人気SFシリーズの『攻殻機動隊 STAND ALONE COMPLEX』で天才ハッカーが映像中の全ての顔部分を青い笑った顔のマークに書き換えてしまうという有名なシーンがあり、それを再現しています   成果物 https://x.com/ponyo877/status/185453726956015662...]]></summary>
+        <content type="html"><![CDATA[目的 今年は笑い男Yearということで、笑い男の顔はめサイトをGoのwasmで作ってみました! 人気SFシリーズの『攻殻機動隊 STAND ALONE COMPLEX』で天才ハッカーが映像中の全ての顔部分を青い笑った顔のマークに書き換えてしまうという有名なシーンがあり、それを再現しています   成果物 https://x.com/ponyo877/status/1854537269560156625 以下のサイトでお使いのPCブラウザで試せます! https://laughing-man.pages.dev なぜかスマートフォンのブラウザで試すと画面が固まってしまうのでPC限定です....]]></content>
+        <author>
+            <name>ponyo877</name>
+        </author>
+        <published>2024-11-09T04:31:17.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Copilot Extensionsを使って自分専用のChat Agentを作る | Qiita - 人気の記事]]></title>
@@ -858,18 +942,6 @@
         <published>2024-11-08T13:34:58.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[FlutterでSupabase Authを使ってGoogle認証を実装する | Zennのトレンド]]></title>
-        <id>https://zenn.dev/saisana299/articles/5f9d2426896423</id>
-        <link href="https://zenn.dev/saisana299/articles/5f9d2426896423"/>
-        <updated>2024-11-08T13:09:32.000Z</updated>
-        <summary type="html"><![CDATA[Flutter+SupabaseでGoogle認証 SupabaseはFirebaseの代替と謳われている BaaS (Backend As A Service) で、Postgresデータベース、認証、ファイルストレージ、インスタントAPIなど多数のサービスが提供されています。 今回は、SupabaseのAuthenticationの機能を使って、FlutterアプリにGoogleアカウントでロ...]]></summary>
-        <content type="html"><![CDATA[Flutter+SupabaseでGoogle認証 SupabaseはFirebaseの代替と謳われている BaaS (Backend As A Service) で、Postgresデータベース、認証、ファイルストレージ、インスタントAPIなど多数のサービスが提供されています。 今回は、SupabaseのAuthenticationの機能を使って、FlutterアプリにGoogleアカウントでログインするボタンを実装する方法を紹介します。 以下のガイドを参考に進めていきます。 https://supabase.com/docs/guides/auth/social-login/au...]]></content>
-        <author>
-            <name>Saisana299</name>
-        </author>
-        <published>2024-11-08T13:09:32.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[さすがの美的ルックス。秋冬に必須のキッチン家電がバルミューダから | ギズモード・ジャパン]]></title>
         <id>https://www.gizmodo.jp/2024/11/balmuda-moonkettle-tablestove.html</id>
         <link href="https://www.gizmodo.jp/2024/11/balmuda-moonkettle-tablestove.html"/>
@@ -1139,19 +1211,6 @@
         <published>2024-11-08T08:30:49.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ライバルはApple Vision Pro。サムスンのXRヘッドセットがいよいよ出そう | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/11/samsung-teases-its-own-headset-to-rival-the-apple-vision-pro-in-2025.html</id>
-        <link href="https://www.gizmodo.jp/2024/11/samsung-teases-its-own-headset-to-rival-the-apple-vision-pro-in-2025.html"/>
-        <updated>2024-11-08T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:ArtemGolub/GizmodoUS正直、いつ出てきてもおかしくないSamsung（サムスン）のXR（クロスリアリティ）ヘッドセット。出るとしたら、今年の頭に空間コンピューターとしてリリースされたAppleVisionProが真っ向ライバル、ですよね？サムスンが、先日行なわれた決算説明会にて、今後のXRヘッドセット開発に少しだけですが、触れていました。噂もジワジワ決算説明会では、中]]></summary>
-        <content type="html"><![CDATA[Image:ArtemGolub/GizmodoUS正直、いつ出てきてもおかしくないSamsung（サムスン）のXR（クロスリアリティ）ヘッドセット。出るとしたら、今年の頭に空間コンピューターとしてリリースされたAppleVisionProが真っ向ライバル、ですよね？サムスンが、先日行なわれた決算説明会にて、今後のXRヘッドセット開発に少しだけですが、触れていました。噂もジワジワ決算説明会では、中]]></content>
-        <author>
-            <name>そうこ</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-11-08T08:30:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[落合陽一氏が語る「AIの神事で祈る時代」 ～計算と自然が融合した先にあるものは？～【AIフェスティバル 2024】／基調講演レポート | 窓の杜]]></title>
         <id>https://forest.watch.impress.co.jp/docs/news/1637980.html</id>
         <link href="https://forest.watch.impress.co.jp/docs/news/1637980.html"/>
@@ -1185,25 +1244,24 @@
         <published>2024-11-08T08:01:03.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Piniaって可愛いよね。どこが可愛いか布教する | Zennのトレンド]]></title>
+        <id>https://zenn.dev/sdb_blog/articles/006-pinia-tutorial</id>
+        <link href="https://zenn.dev/sdb_blog/articles/006-pinia-tutorial"/>
+        <updated>2024-11-08T08:00:01.000Z</updated>
+        <summary type="html"><![CDATA[まずは見てほしい こちらがPiniaです。    Piniaとの出会い 10/19(土)に Vue Fes Japan 2024 に参加して、登壇者の発表の中でPiniaを初めて知りました。最初にPiniaを見たとき、その可愛さに衝撃が走りました。 僕が参加しているプロジェクトでは状態管理のパッケージを使っていなかったので使う機会がなかったのですが、Vue Fes Japanで出会ってからPini...]]></summary>
+        <content type="html"><![CDATA[まずは見てほしい こちらがPiniaです。    Piniaとの出会い 10/19(土)に Vue Fes Japan 2024 に参加して、登壇者の発表の中でPiniaを初めて知りました。最初にPiniaを見たとき、その可愛さに衝撃が走りました。 僕が参加しているプロジェクトでは状態管理のパッケージを使っていなかったので使う機会がなかったのですが、Vue Fes Japanで出会ってからPiniaについてYoutubeで調べたり、Githubのリポジトリを眺めてみたり、ドキュメントをちょっとみてみたりしました。 この記事ではとにかくPiniaが可愛いからみんなに広めたい。Pinia...]]></content>
+        <author>
+            <name>mocchantai</name>
+        </author>
+        <published>2024-11-08T08:00:01.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[入社 4 ヶ月の私が初見コードでも開発のスタートダッシュを切る技術 | エムスリーテックブログ]]></title>
         <id>https://www.m3tech.blog/entry/fast-read-fast-write</id>
         <link href="https://www.m3tech.blog/entry/fast-read-fast-write"/>
         <updated>2024-11-08T08:00:00.000Z</updated>
         <summary type="html"><![CDATA[はじめに 前提となるマインドセット 具体的な Tips コードを読まずに理解する技術 とりあえず Clone する インタフェースで理解する テストコードで理解する 慣習名で理解する コードの詳細を理解する技術 デバッガを使う とりあえずサンプルコードを書いてみる 分からないなら聞く 初見コードに安全に変更を加える技術 インタフェースを明らかにする Stub としての実装を用意する Design ...]]></summary>
         <content type="html"><![CDATA[はじめに 前提となるマインドセット 具体的な Tips コードを読まずに理解する技術 とりあえず Clone する インタフェースで理解する テストコードで理解する 慣習名で理解する コードの詳細を理解する技術 デバッガを使う とりあえずサンプルコードを書いてみる 分からないなら聞く 初見コードに安全に変更を加える技術 インタフェースを明らかにする Stub としての実装を用意する Design Doc を書く テストを書く まとめ We are hiring !! エンジニア採用ページはこちら カジュアル面談もお気軽にどうぞ インターンも常時募集しています はじめに 京都オフィス在籍で、AI…]]></content>
-        <published>2024-11-08T08:00:00.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[米ギズ絶賛のGalaxy Ring、次の世代ではバッテリーもち向上＆スリム化？ | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/11/samsung-galaxy-ring-rumor.html</id>
-        <link href="https://www.gizmodo.jp/2024/11/samsung-galaxy-ring-rumor.html"/>
-        <updated>2024-11-08T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:SamsungSamsung（サムスン）初となるスマートリング、GalaxyRing。この夏、登場する前から公式がチラ見せしていて、社内の期待も高いと言われてきました。残念ながら日本では、（現時点で）未発売ですが、すでに試した米Gizmodoからは絶賛の声があがっています。となれば、気になるのは次モデルですが、すでに噂がでてきています。バッテリー向上大歓迎ガジェットの初代モデルは世にで]]></summary>
-        <content type="html"><![CDATA[Image:SamsungSamsung（サムスン）初となるスマートリング、GalaxyRing。この夏、登場する前から公式がチラ見せしていて、社内の期待も高いと言われてきました。残念ながら日本では、（現時点で）未発売ですが、すでに試した米Gizmodoからは絶賛の声があがっています。となれば、気になるのは次モデルですが、すでに噂がでてきています。バッテリー向上大歓迎ガジェットの初代モデルは世にで]]></content>
-        <author>
-            <name>そうこ</name>
-        </author>
-        <category label=""/>
         <published>2024-11-08T08:00:00.000Z</published>
     </entry>
     <entry>
@@ -1271,19 +1329,6 @@
             <name>Goto</name>
         </author>
         <published>2024-11-08T06:00:01.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Pixelスマホの次世代チップがイマイチとのウワサ | ギズモード・ジャパン]]></title>
-        <id>https://www.gizmodo.jp/2024/11/tensor-g5-leak.html</id>
-        <link href="https://www.gizmodo.jp/2024/11/tensor-g5-leak.html"/>
-        <updated>2024-11-08T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Image:KarlisDambrans/Shutterstock.comソフトウェアの力だけでは勝てない…？Google（グーグル）が手がけるPixelスマートフォンシリーズも、すっかり新作発表が毎年の恒例となりました。順当にいけば、来年は「Pixel10」が登場するはず。でも、ちょっぴり心配なウワサも飛び出してきました。Tensorチップがイマイチ？すでに発売中の「Pixel9」には、Goog]]></summary>
-        <content type="html"><![CDATA[Image:KarlisDambrans/Shutterstock.comソフトウェアの力だけでは勝てない…？Google（グーグル）が手がけるPixelスマートフォンシリーズも、すっかり新作発表が毎年の恒例となりました。順当にいけば、来年は「Pixel10」が登場するはず。でも、ちょっぴり心配なウワサも飛び出してきました。Tensorチップがイマイチ？すでに発売中の「Pixel9」には、Goog]]></content>
-        <author>
-            <name>湯木進悟</name>
-        </author>
-        <category label="PRODUCT"/>
-        <published>2024-11-08T06:00:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[経験なしでもビジネス動画を作成できる「Google Vids」の一般提供が開始／「Gemini」アドオンなしでも「Google Workspace」の一部エディションで利用可能 | 窓の杜]]></title>
@@ -1694,6 +1739,18 @@
         <published>2024-11-08T01:00:02.000Z</published>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Software Design総集編で生成AIについての記事を書きました | Zennのトレンド]]></title>
+        <id>https://zenn.dev/nextbeat/articles/bccf60f6e7df6a</id>
+        <link href="https://zenn.dev/nextbeat/articles/bccf60f6e7df6a"/>
+        <updated>2024-11-08T00:58:06.000Z</updated>
+        <summary type="html"><![CDATA[はじめに 10月12日発売の、Software Design総集編【2018～2023】における特集「生成AI時代を生き抜くITエンジニアの生きる技術」で、第1章「プログラミング」を担当させていただきました。 雑誌発売から一ヶ月近く経っているのでやや時期を逸した感もあるのですが、所属会社の名前を出して書いた記事でもあるので、この場を借りて宣伝をさせていただければと思います。   書影と記事抜粋  ...]]></summary>
+        <content type="html"><![CDATA[はじめに 10月12日発売の、Software Design総集編【2018～2023】における特集「生成AI時代を生き抜くITエンジニアの生きる技術」で、第1章「プログラミング」を担当させていただきました。 雑誌発売から一ヶ月近く経っているのでやや時期を逸した感もあるのですが、所属会社の名前を出して書いた記事でもあるので、この場を借りて宣伝をさせていただければと思います。   書影と記事抜粋     経緯 私は元々AIについては門外漢なのですが、生成AI（LLM）については特にChatGPTが公開された直後から興味をもちはじめました（辺りがガチの人からするとにわか感が満々ですが）。...]]></content>
+        <author>
+            <name>kmizu</name>
+        </author>
+        <published>2024-11-08T00:58:06.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[MySQLでミッションクリティカルシステムのダウンタイム”ゼロ”を目指す～高可用性を実現する技術的方法論と運用支援サービスのご紹介～ | スマートスタイル TECH BLOG]]></title>
         <id>https://blog.s-style.co.jp/?p=13135</id>
         <link href="https://blog.s-style.co.jp/2024/11/13135/"/>
@@ -1735,18 +1792,6 @@
         <summary type="html"><![CDATA[この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する「生成AIウィークリー」（第70回）では、劣化した写真を修復するAIモデル「DreamClear」や、新しいText-to-Speechモデル「MaskGCT」を取り上げます。]]></summary>
         <content type="html"><![CDATA[この1週間の気になる生成AI技術・研究をいくつかピックアップして解説する「生成AIウィークリー」（第70回）では、劣化した写真を修復するAIモデル「DreamClear」や、新しいText-to-Speechモデル「MaskGCT」を取り上げます。]]></content>
         <published>2024-11-08T00:12:33.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[スクラムマスターが担うべき役割と必要なスキルについて | Zennのトレンド]]></title>
-        <id>https://zenn.dev/pharmax/articles/5f7409feeaf579</id>
-        <link href="https://zenn.dev/pharmax/articles/5f7409feeaf579"/>
-        <updated>2024-11-08T00:01:06.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは。PharmaXでエンジニアリングマネージャーをしている古家(@enzerubank)です。 社内の共有用にスクラムマスターの役割について言語化しているので、記事にしてみました。   スクラムガイド2020の定義 スクラムガイド2020にはスクラムマスターの役割は下記のように定義されています。   スクラムマスターは、スクラムチームの有効性に責任を持つ存在   さまざまな形でス...]]></summary>
-        <content type="html"><![CDATA[はじめに こんにちは。PharmaXでエンジニアリングマネージャーをしている古家(@enzerubank)です。 社内の共有用にスクラムマスターの役割について言語化しているので、記事にしてみました。   スクラムガイド2020の定義 スクラムガイド2020にはスクラムマスターの役割は下記のように定義されています。   スクラムマスターは、スクラムチームの有効性に責任を持つ存在   さまざまな形でスクラムチームを⽀援する  ⾃⼰管理型で機能横断型のチームメンバーをコーチする すべてのスクラムイベントが開催され、ポジティブで⽣産的であり、タイムボックス の制限が守られるようにする スクラ...]]></content>
-        <author>
-            <name>masarufuruya</name>
-        </author>
-        <published>2024-11-08T00:01:06.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[私はNew RelicのDashboardをTerraformで吹っ飛ばしました、あなたは気をつけて | Zennのトレンド]]></title>
@@ -3485,18 +3530,6 @@
         <published>2024-11-05T23:00:41.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cursorで開発効率を爆上げ：VSCode + GitHub Copilotを超える次世代AIコードエディタ | Zennのトレンド]]></title>
-        <id>https://zenn.dev/lclco/articles/2a15cf7694ac1e</id>
-        <link href="https://zenn.dev/lclco/articles/2a15cf7694ac1e"/>
-        <updated>2024-11-05T22:30:02.000Z</updated>
-        <summary type="html"><![CDATA[はじめに 皆さん、こんな経験はありませんか？  コードを書いていて、「これって前にも似たような実装をしたよな…」と悩む ChatGPTで質問するために、いちいちブラウザを開いて切り替えるのが面倒 GitHub Copilotの提案が的外れで、何度も書き直している  そんな悩みを解決する、革新的な開発ツール「Cursor」をご紹介します。2024年8月に6000万ドルの資金調達に成功し、今まさに注目...]]></summary>
-        <content type="html"><![CDATA[はじめに 皆さん、こんな経験はありませんか？  コードを書いていて、「これって前にも似たような実装をしたよな…」と悩む ChatGPTで質問するために、いちいちブラウザを開いて切り替えるのが面倒 GitHub Copilotの提案が的外れで、何度も書き直している  そんな悩みを解決する、革新的な開発ツール「Cursor」をご紹介します。2024年8月に6000万ドルの資金調達に成功し、今まさに注目を集めているこの次世代AIコードエディターは、単なるツールの枠を超え、AIとの対話を通じて開発者の思考プロセスをサポートする真の「AI駆動型開発環境」です。 https://www.curs...]]></content>
-        <author>
-            <name>おとの</name>
-        </author>
-        <published>2024-11-05T22:30:02.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[LLMの「知っているのに嘘をつく」幻覚と「知らないから間違える」幻覚の違い | AIDB]]></title>
         <id>https://ai-data-base.com/?p=78047</id>
         <link href="https://ai-data-base.com/archives/78047"/>
@@ -3546,18 +3579,6 @@
         <category label="cryptocurrency"/>
         <category label="machine-learning"/>
         <published>2024-11-05T16:06:09.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[その変数名だけはやめろ：頼むから analysis を anal と略さないでください | Zennのトレンド]]></title>
-        <id>https://zenn.dev/wsuzume/articles/bb2bdca52206ab</id>
-        <link href="https://zenn.dev/wsuzume/articles/bb2bdca52206ab"/>
-        <updated>2024-11-05T15:52:04.000Z</updated>
-        <summary type="html"><![CDATA[下ネタ系    使用者の意図 変数名 脳内解釈 読み方     temporary, temperature tmp timpo チンポ   cumulative cum cum カム（英: 精子）   count, client cnt cunt カント（英: 女性器）   assign, assembly ass ass アス（英: ケツ）   client clit clit クリトリス（英...]]></summary>
-        <content type="html"><![CDATA[下ネタ系    使用者の意図 変数名 脳内解釈 読み方     temporary, temperature tmp timpo チンポ   cumulative cum cum カム（英: 精子）   count, client cnt cunt カント（英: 女性器）   assign, assembly ass ass アス（英: ケツ）   client clit clit クリトリス（英: 陰核）   title tit tit ティット（英: 乳首）   analyze, analysis anal anal アナル（英: 肛門）   unknown unk unko ウ...]]></content>
-        <author>
-            <name>Josh Nobus</name>
-        </author>
-        <published>2024-11-05T15:52:04.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[7 Python Projects to Boost Your Data Science Portfolio | KDnuggets]]></title>
